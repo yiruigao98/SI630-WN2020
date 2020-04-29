@@ -1,0 +1,932 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	5	S	13	Child	Child	child	NN	O	nsubj	O	-1	B-noun.person
+0	0	1	6	8	S	0	of	of	of	IN	O	prep	O	-1	O
+0	0	2	9	12	S	3	the	the	the	DT	O	det	O	-1	O
+0	0	3	13	17		1	Dark	Dark	dark	JJ	O	pobj	O	-1	O
+0	0	4	17	18		0	,	,	,	,	O	punct	O	-1	O
+0	0	5	18	21	S	6	the	the	the	DT	O	det	O	-1	O
+0	0	6	22	27	S	0	diary	diary	diary	NN	O	appos	O	-1	B-noun.communication
+0	0	7	28	30	S	6	of	of	of	IN	O	prep	O	-1	O
+0	0	8	31	39	S	11	Carolina	Carolina	Carolina	NNP	PERSON	nn	O	-1	B-noun.location
+0	0	9	40	45	S	11	Maria	Maria	Maria	NNP	PERSON	nn	O	-1	I-noun.location
+0	0	10	46	48	N	11	de	de	de	IN	PERSON	dep	O	-1	O
+0	0	11	49	54		7	Jesus	Jesus	Jesus	NNP	PERSON	pobj	O	-1	O
+0	0	12	54	55	S	0	,	,	,	,	O	punct	O	-1	O
+0	0	13	56	62	S	-1	covers	covers	cover	VBZ	O	null	O	-1	B-verb.contact
+0	0	14	63	66	S	15	the	the	the	DT	O	det	O	-1	O
+0	0	15	67	73	S	13	period	period	period	NN	O	dobj	O	-1	B-noun.time
+0	0	16	74	81	S	15	between	between	between	IN	O	prep	O	-1	O
+0	0	17	82	86	S	16	July	July	July	NNP	DATE	pobj	O	-1	B-noun.person
+0	0	18	87	91	S	17	1955	1955	1955	CD	DATE	num	O	-1	O
+0	0	19	92	95	S	17	and	and	and	CC	O	cc	O	-1	O
+0	0	20	96	103	S	17	January	January	January	NNP	DATE	conj	O	-1	B-noun.time
+0	0	21	104	105		20	1	1	1	CD	DATE	num	O	-1	O
+0	0	22	105	106	S	17	,	,	,	,	DATE	punct	O	-1	O
+0	0	23	107	111		17	1960	1960	1960	CD	DATE	appos	O	-1	O
+0	0	24	111	112	S	13	,	,	,	,	O	punct	O	-1	O
+0	0	25	113	117	S	13	with	with	with	IN	O	prep	O	-1	O
+0	0	26	118	119	S	27	a	a	a	DT	O	det	O	-1	O
+0	0	27	120	123		25	gap	gap	gap	NN	O	pobj	O	-1	B-noun.attribute
+0	0	28	123	124	S	13	,	,	,	,	O	punct	O	-1	O
+0	0	29	125	128	S	13	due	due	due	JJ	O	amod	O	-1	O
+0	0	30	129	131	N	29	to	to	to	TO	O	prep	O	-1	O
+0	0	31	132	139		30	editing	editing	editing	NN	O	pobj	O	-1	B-noun.communication
+0	0	32	139	140	S	13	,	,	,	,	O	punct	O	-1	O
+0	0	33	141	148	S	13	between	between	between	IN	O	prep	O	-1	O
+0	0	34	149	153	S	33	1955	1955	1955	CD	DATE	pobj	O	-1	O
+0	0	35	154	157	S	34	and	and	and	CC	DATE	cc	O	-1	O
+0	0	36	158	162		34	1958	1958	1958	CD	DATE	conj	O	-1	O
+0	0	37	162	163	S	13	.	.	.	.	O	punct	O	-1	O
+0	1	38	164	172	S	39	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	1	39	173	176	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	1	40	177	182	S	41	three	three	three	CD	NUMBER	num	O	-1	O
+0	1	41	183	191		39	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	1	42	191	192	S	41	:	:	:	:	O	punct	O	-1	O
+0	1	43	193	197	S	41	Vera	Vera	vera	NN	O	dep	O	-1	O
+0	1	44	198	199		43	(	-LRB-	-lrb-	-LRB-	O	dep	O	-1	O
+0	1	45	199	202		46	two	two	two	CD	NUMBER	num	O	-1	O
+0	1	46	202	203		44	)	-RRB-	-rrb-	-RRB-	O	dep	O	-1	O
+0	1	47	203	204	S	49	,	,	,	,	O	punct	O	-1	O
+0	1	48	205	209	S	49	José	José	José	NNP	PERSON	nn	O	-1	O
+0	1	49	210	216	N	46	Carlos	Carlos	Carlos	NNP	PERSON	dep	O	-1	O
+0	1	50	217	218		49	(	-LRB-	-lrb-	-LRB-	O	dep	O	-1	O
+0	1	51	218	222		52	five	five	five	CD	NUMBER	num	O	-1	O
+0	1	52	222	223		50	)	-RRB-	-rrb-	-RRB-	O	dep	O	-1	O
+0	1	53	223	224	S	52	,	,	,	,	O	punct	O	-1	O
+0	1	54	225	228	S	52	and	and	and	CC	O	cc	O	-1	O
+0	1	55	229	233	S	52	João	João	João	NNP	PERSON	conj	O	0	O
+0	1	56	234	235		55	(	-LRB-	-lrb-	-LRB-	O	dep	O	-1	O
+0	1	57	235	240		58	eight	eight	eight	CD	NUMBER	num	O	-1	O
+0	1	58	240	241		56	)	-RRB-	-rrb-	-RRB-	O	dep	O	-1	O
+0	1	59	241	242	S	39	.	.	.	.	O	punct	O	-1	O
+0	2	60	243	247	S	61	They	They	they	PRP	O	nsubj	O	-1	O
+0	2	61	248	252	S	-1	live	live	live	VBP	O	null	O	-1	B-verb.stative
+0	2	62	253	255	S	61	in	in	in	IN	O	prep	O	-1	O
+0	2	63	256	257	S	64	a	a	a	DT	O	det	O	-1	O
+0	2	64	258	264		62	favela	favela	favela	NN	O	pobj	O	-1	O
+0	2	65	264	265	S	64	,	,	,	,	O	punct	O	-1	O
+0	2	66	266	268	S	64	or	or	or	CC	O	cc	O	-1	O
+0	2	67	269	279		64	shantytown	shantytown	shantytown	NN	O	conj	O	-1	B-noun.location
+0	2	68	279	280	S	64	,	,	,	,	O	punct	O	-1	O
+0	2	69	281	286	S	72	where	where	where	WRB	O	advmod	O	-1	O
+0	2	70	287	293	S	71	living	living	live	VBG	O	amod	O	-1	B-verb.stative
+0	2	71	294	300	N	72	spaces	spaces	space	NNS	O	nsubj	O	-1	B-noun.location
+0	2	72	301	308	S	64	consist	consist	consist	VBP	O	rcmod	O	-1	B-verb.stative
+0	2	73	309	311	S	72	of	of	of	IN	O	prep	O	-1	O
+0	2	74	312	317	S	75	crude	crude	crude	JJ	O	amod	O	-1	O
+0	2	75	318	322	S	73	huts	huts	hut	NNS	O	pobj	O	-1	B-noun.artifact
+0	2	76	323	328	S	75	built	built	build	VBN	O	partmod	O	-1	B-verb.creation
+0	2	77	329	331	S	76	of	of	of	IN	O	prep	O	-1	O
+0	2	78	332	341	S	81	cardboard	cardboard	cardboard	NN	O	nn	O	-1	B-noun.substance
+0	2	79	342	345	S	78	and	and	and	CC	O	cc	O	-1	O
+0	2	80	346	350	S	78	wood	wood	wood	NN	O	conj	O	-1	B-noun.substance
+0	2	81	351	357		77	scraps	scraps	scrap	NNS	O	pobj	O	-1	B-noun.object
+0	2	82	357	358	S	61	.	.	.	.	O	punct	O	-1	O
+0	3	83	359	362	S	85	Her	Her	she	PRP$	O	poss	O	-1	O
+0	3	84	363	368	S	85	daily	daily	daily	JJ	SET	amod	O	-1	O
+0	3	85	369	373	S	86	life	life	life	NN	O	nsubj	O	-1	B-noun.state
+0	3	86	374	382	S	-1	consists	consists	consist	VBZ	O	null	O	-1	B-verb.stative
+0	3	87	383	385	N	86	of	of	of	IN	O	prep	O	-1	O
+0	3	88	386	396	S	92	collecting	collecting	collect	VBG	O	amod	O	-1	B-verb.possession
+0	3	89	397	402	S	92	paper	paper	paper	NN	O	nn	O	-1	B-noun.communication
+0	3	90	403	406	S	89	and	and	and	CC	O	cc	O	-1	O
+0	3	91	407	412	S	89	metal	metal	metal	NN	O	conj	O	-1	B-noun.substance
+0	3	92	413	419	S	87	scraps	scraps	scrap	NNS	O	pobj	O	-1	B-noun.object
+0	3	93	420	423	S	92	for	for	for	IN	O	prep	O	-1	O
+0	3	94	424	428	S	95	food	food	food	NN	O	nn	O	-1	B-noun.food
+0	3	95	429	434		93	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	3	96	434	435	S	86	.	.	.	.	O	punct	O	-1	O
+0	4	97	436	441	S	107	While	While	while	IN	O	prep	O	-1	O
+0	4	98	442	449	S	97	looking	looking	look	VBG	O	pcomp	O	-1	B-verb.contact
+0	4	99	450	453	S	98	for	for	for	IN	O	prep	O	-1	O
+0	4	100	454	460	S	99	scraps	scraps	scrap	NNS	O	pobj	O	-1	B-noun.object
+0	4	101	461	468	S	100	outside	outside	outside	IN	O	prep	O	-1	O
+0	4	102	469	470	N	104	a	a	a	DT	O	det	O	-1	O
+0	4	103	471	479	S	104	football	football	football	NN	O	nn	O	-1	B-noun.artifact
+0	4	104	480	487		101	stadium	stadium	stadium	NN	O	pobj	O	-1	I-noun.artifact
+0	4	105	487	488	S	107	,	,	,	,	O	punct	O	-1	O
+0	4	106	489	497	S	107	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	4	107	498	505	S	-1	endures	endures	endure	VBZ	O	null	O	-1	B-verb.cognition
+0	4	108	506	512	S	107	taunts	taunts	taunt	NNS	O	dobj	O	-1	B-noun.act
+0	4	109	513	517	S	107	from	from	from	IN	O	prep	O	-1	O
+0	4	110	518	523	S	111	white	white	white	JJ	O	amod	O	-1	O
+0	4	111	524	531		109	patrons	patrons	patron	NNS	O	pobj	O	-1	B-noun.person
+0	4	112	531	532	S	107	.	.	.	.	O	punct	O	-1	O
+0	5	113	533	541	S	115	Carolina	Carolina	Carolina	NNP	LOCATION	nn	O	-1	B-noun.location
+0	5	114	542	547	S	115	often	often	often	RB	O	advmod	O	-1	O
+0	5	115	548	553	N	131	fares	fares	fare	NNS	O	nsubj	O	-1	B-noun.cognition
+0	5	116	554	556	S	131	no	no	no	RB	O	advmod	O	-1	O
+0	5	117	557	563	S	116	better	better	better	RB	O	advmod	O	-1	O
+0	5	118	564	570	S	117	closer	closer	closer	RBR	O	advmod	O	-1	O
+0	5	119	571	573	S	118	to	to	to	TO	O	dep	O	-1	O
+0	5	120	574	578		119	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	5	121	578	579		124	—	--	--	:	O	punct	O	-1	O
+0	5	122	579	589	S	124	meddlesome	meddlesome	meddlesome	JJ	O	amod	O	-1	O
+0	5	123	590	596	S	124	favela	favela	favela	JJ	O	amod	O	-1	O
+0	5	124	597	602	S	131	woman	woman	woman	NN	O	nsubj	O	-1	B-noun.person
+0	5	125	603	607	S	124	like	like	like	IN	O	prep	O	-1	O
+0	5	126	608	612	S	127	Dona	Dona	Dona	NNP	PERSON	nn	O	-1	B-noun.person
+0	5	127	613	617	S	125	Rosa	Rosa	Rosa	NNP	PERSON	pobj	O	-1	I-noun.person
+0	5	128	618	621	S	127	and	and	and	CC	O	cc	O	-1	O
+0	5	129	622	626	S	130	Dona	Dona	Dona	NNP	PERSON	nn	O	-1	O
+0	5	130	627	633	S	127	Silvia	Silvia	Silvia	NNP	PERSON	conj	O	-1	O
+0	5	131	634	638	N	-1	pick	pick	pick	VB	O	null	O	-1	B-verb.possession
+0	5	132	639	645	S	131	fights	fights	fight	NNS	O	dobj	O	-1	B-noun.act
+0	5	133	646	650	S	131	with	with	with	IN	O	prep	O	-1	O
+0	5	134	651	659		136	Carolina	Carolina	Carolina	NNP	LOCATION	poss	O	-1	B-noun.location
+0	5	135	659	661	S	134	’s	's	's	POS	O	possessive	O	-1	O
+0	5	136	662	670	S	133	children	children	child	NNS	O	pobj	O	-1	B-noun.person
+0	5	137	671	674	S	131	and	and	and	CC	O	cc	O	-1	O
+0	5	138	675	678	S	131	try	try	try	VB	O	conj	O	-1	B-verb.social
+0	5	139	679	681	S	140	to	to	to	TO	O	aux	O	-1	O
+0	5	140	682	689	S	138	provoke	provoke	provoke	VB	O	xcomp	O	-1	B-verb.emotion
+0	5	141	690	698		140	Carolina	Carolina	Carolina	NNP	LOCATION	dobj	O	-1	O
+0	5	142	698	699	S	131	.	.	.	.	O	punct	O	-1	O
+0	6	143	700	710	S	145	Favelalife	Favelalife	Favelalife	NNP	O	nsubj	O	-1	B-noun.person
+0	6	144	711	713	S	145	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	145	714	718	S	-1	full	full	full	JJ	O	null	O	-1	O
+0	6	146	719	721	S	145	of	of	of	IN	O	prep	O	-1	O
+0	6	147	722	728		146	hunger	hunger	hunger	NN	O	pobj	O	-1	B-noun.state
+0	6	148	728	729	S	147	,	,	,	,	O	punct	O	-1	O
+0	6	149	730	737		147	disease	disease	disease	NN	O	conj	O	-1	O
+0	6	150	737	738	S	147	,	,	,	,	O	punct	O	-1	O
+0	6	151	739	747		147	violence	violence	violence	NN	O	conj	O	-1	B-noun.act
+0	6	152	747	748	S	145	,	,	,	,	O	punct	O	-1	O
+0	6	153	749	752	S	145	and	and	and	CC	O	cc	O	-1	O
+0	6	154	753	763		145	alcoholism	alcoholism	alcoholism	NN	O	conj	O	-1	B-noun.state
+0	6	155	763	764	S	145	.	.	.	.	O	punct	O	-1	O
+0	7	156	765	773		159	Carolina	Carolina	Carolina	NNP	LOCATION	poss	O	-1	B-noun.location
+0	7	157	773	775	N	156	’s	's	's	POS	O	possessive	O	-1	O
+0	7	158	776	780	S	159	only	only	only	JJ	O	amod	O	-1	O
+0	7	159	781	792	S	161	consolation	consolation	consolation	NN	O	nsubj	O	-1	B-noun.feeling
+0	7	160	793	795	S	161	is	is	be	VBZ	O	aux	O	-1	O
+0	7	161	796	803	S	-1	writing	writing	write	VBG	O	null	O	-1	B-verb.creation
+0	7	162	804	807	S	161	and	and	and	CC	O	cc	O	-1	O
+0	7	163	808	811	S	165	the	the	the	DT	O	det	O	-1	O
+0	7	164	812	822	S	165	occasional	occasional	occasional	JJ	O	amod	O	-1	O
+0	7	165	823	831	S	161	kindness	kindness	kindness	NN	O	conj	O	-1	B-noun.attribute
+0	7	166	832	834	S	165	of	of	of	IN	O	prep	O	-1	O
+0	7	167	835	842	S	166	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	7	168	843	846	S	167	and	and	and	CC	O	cc	O	-1	O
+0	7	169	847	856		167	strangers	strangers	stranger	NNS	O	conj	O	-1	B-noun.person
+0	7	170	856	857	N	167	,	,	,	,	O	punct	O	-1	O
+0	7	171	858	862	S	172	such	such	such	JJ	O	dep	O	-1	O
+0	7	172	863	865	S	167	as	as	as	IN	O	prep	O	-1	O
+0	7	173	866	870	S	176	when	when	when	WRB	O	advmod	O	-1	O
+0	7	174	871	872	S	175	a	a	a	DT	O	det	O	-1	O
+0	7	175	873	876	S	176	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	7	176	877	882	S	172	stops	stops	stop	VBZ	O	pcomp	O	-1	B-verb.motion
+0	7	177	883	885	S	176	by	by	by	IN	O	prep	O	-1	O
+0	7	178	886	889	S	179	the	the	the	DT	O	det	O	-1	O
+0	7	179	890	896	S	177	favela	favela	favela	NN	O	pobj	O	-1	B-noun.person
+0	7	180	897	900	S	161	and	and	and	CC	O	cc	O	-1	O
+0	7	181	901	906	S	161	gives	gives	give	VBZ	O	conj	O	-1	B-verb.possession
+0	7	182	907	915		184	Carolina	Carolina	Carolina	NNP	LOCATION	poss	O	-1	B-noun.location
+0	7	183	915	917	S	182	’s	's	's	POS	O	possessive	O	-1	O
+0	7	184	918	926		181	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	7	185	926	927	S	181	,	,	,	,	O	punct	O	-1	O
+0	7	186	928	932		181	Vera	Vera	Vera	NNP	PERSON	dep	O	-1	O
+0	7	187	932	933	S	186	,	,	,	,	O	punct	O	-1	O
+0	7	188	934	937	N	189	one	one	one	CD	NUMBER	number	O	-1	O
+0	7	189	938	945	S	190	hundred	hundred	hundred	CD	NUMBER	num	O	-1	O
+0	7	190	946	955		186	cruzieros	cruzieros	cruziero	NNS	O	appos	O	-1	O
+0	7	191	955	956	S	186	,	,	,	,	O	punct	O	-1	O
+0	7	192	957	960	S	193	the	the	the	DT	O	det	O	-1	O
+0	7	193	961	971	S	186	equivalent	equivalent	equivalent	NN	O	appos	O	-1	B-noun.cognition
+0	7	194	972	974	S	193	of	of	of	IN	O	prep	O	-1	O
+0	7	195	975	979	S	198	what	what	what	WP	O	dobj	O	-1	O
+0	7	196	980	988	S	198	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	7	197	989	994	S	198	often	often	often	RB	O	advmod	O	-1	O
+0	7	198	995	1000	S	194	earns	earns	earn	VBZ	O	pcomp	O	-1	B-verb.possession
+0	7	199	1001	1003	S	198	in	in	in	IN	O	prep	O	-1	O
+0	7	200	1004	1005	S	201	a	a	a	DT	DURATION	det	O	-1	O
+0	7	201	1006	1009		199	day	day	day	NN	DURATION	pobj	O	-1	B-noun.time
+0	7	202	1009	1010	S	161	.	.	.	.	O	punct	O	-1	O
+0	8	203	1011	1019	S	204	Carolina	Carolina	Carolina	NNP	O	nsubj	O	-1	O
+0	8	204	1020	1029	S	-1	struggles	struggles	struggle	VBZ	O	null	O	-1	B-verb.social
+0	8	205	1030	1032	S	206	to	to	to	TO	O	aux	O	-1	O
+0	8	206	1033	1041	S	204	insulate	insulate	insulate	VB	O	xcomp	O	-1	B-verb.change
+0	8	207	1042	1045	S	208	her	her	she	PRP$	O	poss	O	-1	O
+0	8	208	1046	1054	S	206	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	8	209	1055	1059	S	206	from	from	from	IN	O	prep	O	-1	O
+0	8	210	1060	1063	S	211	bad	bad	bad	JJ	O	amod	O	-1	O
+0	8	211	1064	1074		209	influences	influences	influence	NNS	O	pobj	O	-1	B-noun.attribute
+0	8	212	1074	1075	S	204	,	,	,	,	O	punct	O	-1	O
+0	8	213	1076	1079	S	204	but	but	but	CC	O	cc	O	-1	O
+0	8	214	1080	1083	N	215	she	she	she	PRP	O	nsubj	O	-1	O
+0	8	215	1084	1092	S	204	receives	receives	receive	VBZ	O	conj	O	-1	B-verb.possession
+0	8	216	1093	1100	S	217	several	several	several	JJ	O	amod	O	-1	O
+0	8	217	1101	1108	S	215	summons	summons	summons	NN	O	dobj	O	-1	B-noun.communication
+0	8	218	1109	1113	S	215	from	from	from	IN	O	prep	O	-1	O
+0	8	219	1114	1117	S	221	the	the	the	DT	O	det	O	-1	O
+0	8	220	1118	1124	S	221	police	police	police	NN	O	nn	O	-1	B-noun.artifact
+0	8	221	1125	1132	S	218	station	station	station	NN	O	pobj	O	-1	I-noun.artifact
+0	8	222	1133	1142	S	221	regarding	regarding	regard	VBG	O	partmod	O	-1	B-verb.stative
+0	8	223	1143	1146	S	224	her	her	she	PRP$	O	poss	O	-1	O
+0	8	224	1147	1151		226	boys	boys	boy	NNS	O	poss	O	-1	B-noun.person
+0	8	225	1151	1152	S	224	’	'	'	POS	O	possessive	O	-1	O
+0	8	226	1153	1161		222	behavior	behavior	behavior	NN	O	dobj	O	-1	B-noun.act
+0	8	227	1161	1162	S	204	.	.	.	.	O	punct	O	-1	O
+0	9	228	1163	1168	N	-1	After	After	after	IN	O	null	O	-1	O
+0	9	229	1169	1170	S	231	a	a	a	DT	O	det	O	-1	O
+0	9	230	1171	1174	S	231	few	few	few	JJ	O	amod	O	-1	O
+0	9	231	1175	1181	S	228	visits	visits	visit	NNS	O	pobj	O	-1	B-noun.act
+0	9	232	1182	1187		231	there	there	there	RB	O	advmod	O	-1	O
+0	9	233	1187	1188	S	228	,	,	,	,	O	punct	O	-1	O
+0	9	234	1189	1192	S	228	and	and	and	CC	O	cc	O	-1	O
+0	9	235	1193	1198	S	228	after	after	after	IN	O	conj	O	-1	O
+0	9	236	1199	1200	S	238	a	a	a	DT	O	det	O	-1	O
+0	9	237	1201	1209	S	238	neighbor	neighbor	neighbor	NN	O	nn	O	-1	B-noun.person
+0	9	238	1210	1215		235	woman	woman	woman	NN	O	pobj	O	-1	B-noun.person
+0	9	239	1215	1216	S	238	,	,	,	,	O	punct	O	-1	O
+0	9	240	1217	1222		238	Chica	Chica	Chica	NNP	LOCATION	appos	O	-1	O
+0	9	241	1222	1223	S	238	,	,	,	,	O	punct	O	-1	O
+0	9	242	1224	1230	S	238	levels	levels	level	NNS	O	appos	O	-1	B-noun.attribute
+0	9	243	1231	1233	S	244	an	an	a	DT	O	det	O	-1	O
+0	9	244	1234	1244	S	242	accusation	accusation	accusation	NN	O	dep	O	-1	B-noun.communication
+0	9	245	1245	1247	S	244	of	of	of	IN	O	prep	O	-1	O
+0	9	246	1248	1252	N	245	rape	rape	rape	NN	O	pobj	O	-1	B-noun.plant
+0	9	247	1253	1260	S	246	against	against	against	IN	O	prep	O	-1	O
+0	9	248	1261	1265		247	João	João	João	NNP	PERSON	pobj	O	0	O
+0	9	249	1265	1266	S	244	,	,	,	,	O	punct	O	-1	O
+0	9	250	1267	1275	S	251	Carolina	Carolina	Carolina	NNP	PERSON	nn	O	1	B-noun.location
+0	9	251	1276	1283	S	252	briefly	briefly	briefly	NN	O	nsubj	O	-1	O
+0	9	252	1284	1293	S	244	considers	considers	consider	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	9	253	1294	1303	S	252	interning	interning	intern	VBG	O	xcomp	O	-1	B-verb.social
+0	9	254	1304	1307	S	255	her	her	she	PRP$	O	poss	O	1	O
+0	9	255	1308	1316	S	253	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	9	256	1317	1319	S	253	in	in	in	IN	O	prep	O	-1	O
+0	9	257	1320	1321	S	259	a	a	a	DT	O	det	O	-1	O
+0	9	258	1322	1328	S	259	public	public	public	JJ	O	amod	O	-1	O
+0	9	259	1329	1336	N	256	shelter	shelter	shelter	NN	O	pobj	O	-1	B-noun.artifact
+0	9	260	1337	1340	S	253	for	for	for	IN	O	prep	O	-1	O
+0	9	261	1341	1346	S	263	their	their	they	PRP$	O	poss	O	-1	O
+0	9	262	1347	1350	S	263	own	own	own	JJ	O	amod	O	-1	O
+0	9	263	1351	1357	S	260	safety	safety	safety	NN	O	pobj	O	-1	B-noun.state
+0	9	264	1358	1361	S	263	and	and	and	CC	O	cc	O	-1	O
+0	9	265	1362	1371		263	wellbeing	wellbeing	wellbeing	NN	O	conj	O	-1	B-noun.state
+0	9	266	1371	1372	S	228	.	.	.	.	O	punct	O	-1	O
+0	10	267	1373	1381	S	268	Carolina	Carolina	Carolina	NNP	PERSON	nsubj	O	1	O
+0	10	268	1382	1390	S	-1	believes	believes	believe	VBZ	O	null	O	-1	B-verb.cognition
+0	10	269	1391	1395	S	274	that	that	that	IN	O	complm	O	-1	O
+0	10	270	1396	1400		272	João	João	João	NNP	PERSON	poss	O	0	B-noun.person
+0	10	271	1400	1402	S	270	’s	's	's	POS	O	possessive	O	-1	O
+0	10	272	1403	1410	S	274	accuser	accuser	accuser	NN	O	nsubj	O	-1	B-noun.person
+0	10	273	1411	1413	S	274	is	is	be	VBZ	O	aux	O	-1	O
+0	10	274	1414	1419		268	lying	lying	lie	VBG	O	ccomp	O	-1	B-verb.stative
+0	10	275	1419	1420	N	274	,	,	,	,	O	punct	O	-1	O
+0	10	276	1421	1424	S	274	but	but	but	CC	O	cc	O	-1	O
+0	10	277	1425	1428	S	278	she	she	she	PRP	O	nsubj	O	1	O
+0	10	278	1429	1436	S	274	worries	worries	worry	VBZ	O	conj	O	-1	B-verb.emotion
+0	10	279	1437	1441	S	282	that	that	that	IN	O	complm	O	-1	O
+0	10	280	1442	1445	S	281	her	her	she	PRP$	O	poss	O	1	O
+0	10	281	1446	1454	S	282	children	children	child	NNS	O	nsubj	O	-1	B-noun.person
+0	10	282	1455	1458	S	278	are	are	be	VBP	O	ccomp	O	-1	B-verb.stative
+0	10	283	1459	1461	S	282	in	in	in	IN	O	prep	O	-1	O
+0	10	284	1462	1468	S	283	danger	danger	danger	NN	O	pobj	O	-1	B-noun.state
+0	10	285	1469	1474	S	290	while	while	while	IN	O	mark	O	-1	O
+0	10	286	1475	1478	S	287	the	the	the	DT	O	det	O	-1	O
+0	10	287	1479	1485	S	290	matter	matter	matter	NN	O	nsubjpass	O	-1	B-noun.cognition
+0	10	288	1486	1488	S	290	is	is	be	VBZ	O	aux	O	-1	O
+0	10	289	1489	1494	N	290	being	being	be	VBG	O	auxpass	O	-1	O
+0	10	290	1495	1507		282	investigated	investigated	investigate	VBN	O	advcl	O	-1	B-verb.communication
+0	10	291	1507	1508	S	268	.	.	.	.	O	punct	O	-1	O
+0	11	292	1509	1514	S	298	After	After	after	IN	O	mark	O	-1	O
+0	11	293	1515	1518	S	294	two	two	two	CD	NUMBER	num	O	-1	O
+0	11	294	1519	1527	S	298	runaways	runaways	runaway	NNS	O	nsubj	O	-1	B-noun.event
+0	11	295	1528	1532	S	294	from	from	from	IN	O	prep	O	-1	O
+0	11	296	1533	1536	S	297	the	the	the	DT	O	det	O	-1	O
+0	11	297	1537	1544	S	295	shelter	shelter	shelter	NN	O	pobj	O	-1	B-noun.artifact
+0	11	298	1545	1549	S	315	seek	seek	seek	VB	O	advcl	O	-1	B-verb.contact
+0	11	299	1550	1556	S	298	refuge	refuge	refuge	NN	O	dobj	O	-1	B-noun.location
+0	11	300	1557	1559	S	298	in	in	in	IN	O	prep	O	-1	O
+0	11	301	1560	1568		303	Carolina	Carolina	Carolina	NNP	LOCATION	poss	O	-1	B-noun.location
+0	11	302	1568	1570	S	301	’s	's	's	POS	O	possessive	O	-1	O
+0	11	303	1571	1575		300	home	home	home	NN	O	pobj	O	-1	O
+0	11	304	1575	1576	N	298	,	,	,	,	O	punct	O	-1	O
+0	11	305	1577	1580	S	298	and	and	and	CC	O	cc	O	-1	O
+0	11	306	1581	1584	S	307	she	she	she	PRP	O	nsubj	O	1	O
+0	11	307	1585	1590	S	298	hears	hears	hear	VBZ	O	conj	O	-1	B-verb.perception
+0	11	308	1591	1596	S	309	their	their	they	PRP$	O	poss	O	-1	O
+0	11	309	1597	1604	S	307	stories	stories	story	NNS	O	dobj	O	-1	B-noun.communication
+0	11	310	1605	1607	S	309	of	of	of	IN	O	prep	O	-1	O
+0	11	311	1608	1616	S	312	horrible	horrible	horrible	JJ	O	amod	O	-1	O
+0	11	312	1617	1622		310	abuse	abuse	abuse	NN	O	pobj	O	-1	B-noun.act
+0	11	313	1622	1623	S	315	,	,	,	,	O	punct	O	-1	O
+0	11	314	1624	1627	S	315	she	she	she	PRP	O	nsubj	O	1	O
+0	11	315	1628	1635	S	-1	changes	changes	change	VBZ	O	null	O	-1	B-verb.change
+0	11	316	1636	1639	S	317	her	her	she	PRP$	O	poss	O	1	O
+0	11	317	1640	1644	S	315	mind	mind	mind	NN	O	dobj	O	-1	B-noun.cognition
+0	11	318	1645	1650	S	315	about	about	about	IN	O	prep	O	-1	O
+0	11	319	1651	1658	N	318	putting	putting	put	VBG	O	pcomp	O	-1	B-verb.contact
+0	11	320	1659	1662	S	321	her	her	she	PRP$	O	poss	O	1	O
+0	11	321	1663	1671	S	319	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	11	322	1672	1677		319	there	there	there	RB	O	advmod	O	-1	O
+0	11	323	1677	1678	S	315	,	,	,	,	O	punct	O	-1	O
+0	11	324	1679	1690	S	315	recognizing	recognizing	recognize	VBG	O	xcomp	O	-1	B-verb.cognition
+0	11	325	1691	1695	S	330	that	that	that	IN	O	complm	O	-1	O
+0	11	326	1696	1699	S	327	the	the	the	DT	O	det	O	-1	O
+0	11	327	1700	1710	S	330	experience	experience	experience	NN	O	nsubj	O	-1	B-noun.cognition
+0	11	328	1711	1716	S	330	would	would	would	MD	O	aux	O	-1	O
+0	11	329	1717	1723	S	330	likely	likely	likely	RB	O	advmod	O	-1	O
+0	11	330	1724	1728	S	324	turn	turn	turn	VB	O	ccomp	O	-1	B-verb.motion
+0	11	331	1729	1733	S	330	them	them	they	PRP	O	dobj	O	-1	O
+0	11	332	1734	1738	N	330	into	into	into	IN	O	prep	O	-1	O
+0	11	333	1739	1748		332	criminals	criminals	criminal	NNS	O	pobj	O	-1	B-noun.person
+0	11	334	1748	1749	S	315	.	.	.	.	O	punct	O	-1	O
+0	12	335	1750	1753	S	336	The	The	the	DT	O	det	O	-1	O
+0	12	336	1754	1758	S	345	fact	fact	fact	NN	O	nsubj	O	-1	B-noun.cognition
+0	12	337	1759	1763	S	342	that	that	that	IN	O	complm	O	-1	O
+0	12	338	1764	1767	S	340	the	the	the	DT	O	det	O	-1	O
+0	12	339	1768	1781	S	340	favelachanges	favelachanges	favelachange	NNS	O	nn	O	-1	O
+0	12	340	1782	1790	S	342	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	12	341	1791	1793	S	342	it	it	it	PRP	O	dep	O	-1	O
+0	12	342	1794	1801	S	336	touches	touches	touch	NNS	O	ccomp	O	-1	B-noun.event
+0	12	343	1802	1804	N	345	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	12	344	1805	1806	S	345	a	a	a	DT	O	det	O	-1	O
+0	12	345	1807	1814	S	-1	reality	reality	reality	NN	O	null	O	-1	B-noun.cognition
+0	12	346	1815	1819	S	349	that	that	that	WDT	O	dobj	O	-1	O
+0	12	347	1820	1828	S	349	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	12	348	1829	1834	S	349	fully	fully	fully	RB	O	advmod	O	-1	O
+0	12	349	1835	1846		345	understands	understands	understand	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	12	350	1846	1847	S	345	.	.	.	.	O	punct	O	-1	O
+0	13	351	1848	1850	S	353	As	As	as	IN	O	mark	O	-1	O
+0	13	352	1851	1854	S	353	she	she	she	PRP	O	nsubj	O	1	O
+0	13	353	1855	1863	S	377	observes	observes	observe	VBZ	O	advcl	O	-1	B-verb.perception
+0	13	354	1864	1865	S	359	a	a	a	DT	O	det	O	-1	O
+0	13	355	1866	1869	S	359	new	new	new	JJ	O	advmod	O	-1	O
+0	13	356	1870	1878	S	359	resident	resident	resident	JJ	O	nsubj	O	-1	O
+0	13	357	1879	1885	N	359	become	become	become	VBN	O	cop	O	-1	B-verb.change
+0	13	358	1886	1898	S	359	increasingly	increasingly	increasingly	RB	O	advmod	O	-1	O
+0	13	359	1899	1912	S	353	argumentative	argumentative	argumentative	JJ	O	dobj	O	-1	O
+0	13	360	1913	1916	S	359	and	and	and	CC	O	cc	O	-1	O
+0	13	361	1917	1926	S	359	desperate	desperate	desperate	JJ	O	conj	O	-1	O
+0	13	362	1927	1929	S	364	as	as	as	IN	O	mark	O	-1	O
+0	13	363	1930	1934	S	364	they	they	they	PRP	O	nsubj	O	-1	O
+0	13	364	1935	1940	S	353	adapt	adapt	adapt	VBP	O	advcl	O	-1	B-verb.change
+0	13	365	1941	1943	S	364	to	to	to	TO	O	prep	O	-1	O
+0	13	366	1944	1947	S	370	the	the	the	DT	O	det	O	-1	O
+0	13	367	1948	1949		370	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	13	368	1949	1960		370	dog-eat-dog	dog-eat-dog	dog-eat-dog	JJ	O	amod	I-QUOTE	-1	O
+0	13	369	1960	1961	N	370	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	13	370	1962	1971	S	365	mentality	mentality	mentality	NN	O	pobj	O	-1	B-noun.cognition
+0	13	371	1972	1976	S	372	that	that	that	WDT	O	nsubj	O	-1	O
+0	13	372	1977	1982	S	370	rules	rules	rule	VBZ	O	rcmod	O	-1	B-verb.stative
+0	13	373	1983	1986	S	374	the	the	the	DT	O	det	O	-1	O
+0	13	374	1987	1993		372	favela	favela	favela	NN	O	dobj	O	-1	O
+0	13	375	1993	1994	S	377	,	,	,	,	O	punct	O	-1	O
+0	13	376	1995	2003	S	377	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	13	377	2004	2014	S	-1	recognizes	recognizes	recognize	VBZ	O	null	O	-1	B-verb.cognition
+0	13	378	2015	2019	S	382	that	that	that	IN	O	complm	O	-1	O
+0	13	379	2020	2021	S	380	a	a	a	DT	O	det	O	-1	O
+0	13	380	2022	2028	S	382	person	person	person	NN	O	nsubj	O	-1	B-noun.person
+0	13	381	2029	2032	S	382	can	can	can	MD	O	aux	O	-1	O
+0	13	382	2033	2039	S	377	resist	resist	resist	VB	O	ccomp	O	-1	B-verb.competition
+0	13	383	2040	2045	N	384	being	being	be	VBG	O	auxpass	O	-1	O
+0	13	384	2046	2053	S	382	dragged	dragged	drag	VBN	O	xcomp	O	-1	B-verb.contact
+0	13	385	2054	2058	S	384	down	down	down	RP	O	prt	O	-1	O
+0	13	386	2059	2061	S	384	by	by	by	IN	O	prep	O	-1	O
+0	13	387	2062	2064	S	386	it	it	it	PRP	O	pobj	O	-1	O
+0	13	388	2065	2069	S	389	only	only	only	RB	O	dep	O	-1	O
+0	13	389	2070	2073	S	384	for	for	for	IN	O	prep	O	-1	O
+0	13	390	2074	2076	S	391	so	so	so	RB	O	advmod	O	-1	O
+0	13	391	2077	2081		389	long	long	long	RB	O	pobj	O	-1	O
+0	13	392	2081	2082	S	377	.	.	.	.	O	punct	O	-1	O
+0	14	393	2083	2091	S	394	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	O
+0	14	394	2092	2097	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.change
+0	14	395	2098	2103	S	396	every	every	every	DT	O	det	O	-1	O
+0	14	396	2104	2115	S	394	opportunity	opportunity	opportunity	NN	O	dobj	O	-1	B-noun.state
+0	14	397	2116	2119	S	399	she	she	she	PRP	O	nsubj	O	1	O
+0	14	398	2120	2123	S	399	can	can	can	MD	O	aux	O	-1	O
+0	14	399	2124	2127	S	396	get	get	get	VB	O	rcmod	O	-1	B-verb.motion
+0	14	400	2128	2130	S	401	to	to	to	TO	O	aux	O	-1	O
+0	14	401	2131	2142	S	399	participate	participate	participate	VB	O	xcomp	O	-1	B-verb.social
+0	14	402	2143	2145	S	401	in	in	in	IN	O	prep	O	-1	O
+0	14	403	2146	2152		406	Brazil	Brazil	Brazil	NNP	LOCATION	poss	O	-1	B-noun.location
+0	14	404	2152	2154	N	403	’s	's	's	POS	O	possessive	O	-1	O
+0	14	405	2155	2164	S	406	political	political	political	JJ	O	amod	O	-1	O
+0	14	406	2165	2171		402	system	system	system	NN	O	pobj	O	-1	B-noun.artifact
+0	14	407	2171	2172	S	394	,	,	,	,	O	punct	O	-1	O
+0	14	408	2173	2176	S	394	but	but	but	CC	O	cc	O	-1	O
+0	14	409	2177	2182	S	419	after	after	after	IN	O	prep	O	-1	O
+0	14	410	2183	2188	S	409	going	going	go	VBG	O	pcomp	O	-1	B-verb.motion
+0	14	411	2189	2191	S	410	to	to	to	TO	O	prep	O	-1	O
+0	14	412	2192	2200	S	411	Congress	Congress	Congress	NNP	ORGANIZATION	pobj	O	-1	B-noun.group
+0	14	413	2201	2203	S	414	to	to	to	TO	O	aux	O	-1	O
+0	14	414	2204	2211	S	410	observe	observe	observe	VB	O	xcomp	O	-1	B-verb.perception
+0	14	415	2212	2215	S	416	her	her	she	PRP$	O	poss	O	1	O
+0	14	416	2216	2223		414	leaders	leaders	leader	NNS	O	dobj	O	-1	B-noun.person
+0	14	417	2223	2224	S	419	,	,	,	,	O	punct	O	-1	O
+0	14	418	2225	2228	S	419	she	she	she	PRP	O	nsubj	O	1	O
+0	14	419	2229	2234	N	394	feels	feels	feel	VBZ	O	conj	O	-1	B-verb.emotion
+0	14	420	2235	2242	S	419	nothing	nothing	nothing	NN	O	dobj	O	-1	B-noun.quantity
+0	14	421	2243	2246	S	420	but	but	but	CC	O	cc	O	-1	O
+0	14	422	2247	2254		420	disgust	disgust	disgust	NN	O	conj	O	-1	B-noun.feeling
+0	14	423	2254	2255	S	394	.	.	.	.	O	punct	O	-1	O
+0	15	424	2256	2258	S	437	In	In	in	IN	O	prep	O	-1	O
+0	15	425	2259	2267	S	424	response	response	response	NN	O	pobj	O	-1	B-noun.act
+0	15	426	2268	2270	S	425	to	to	to	TO	O	prep	O	-1	O
+0	15	427	2271	2274	S	428	the	the	the	DT	O	det	O	-1	O
+0	15	428	2275	2284	S	426	ignorance	ignorance	ignorance	NN	O	pobj	O	-1	B-noun.cognition
+0	15	429	2285	2288	S	430	she	she	she	PRP	O	nsubj	O	1	O
+0	15	430	2289	2293	S	428	sees	sees	see	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	15	431	2294	2298	S	430	from	from	from	IN	O	prep	O	-1	O
+0	15	432	2299	2304	S	431	those	those	those	DT	O	pobj	O	-1	O
+0	15	433	2305	2307	S	432	in	in	in	IN	O	prep	O	-1	O
+0	15	434	2308	2313		433	power	power	power	NN	O	pobj	O	-1	B-noun.attribute
+0	15	435	2313	2314	N	437	,	,	,	,	O	punct	O	-1	O
+0	15	436	2315	2323	S	437	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	15	437	2324	2330	S	-1	levels	levels	level	NNS	O	null	O	-1	B-noun.attribute
+0	15	438	2331	2335	S	439	many	many	many	JJ	O	amod	O	-1	O
+0	15	439	2336	2345	S	437	critiques	critiques	critique	NNS	O	dobj	O	-1	B-noun.communication
+0	15	440	2346	2353	S	439	against	against	against	IN	O	prep	O	-1	O
+0	15	441	2354	2357	S	443	the	the	the	DT	O	det	O	-1	O
+0	15	442	2358	2367	S	443	political	political	political	JJ	O	amod	O	-1	O
+0	15	443	2368	2374	S	440	system	system	system	NN	O	pobj	O	-1	B-noun.cognition
+0	15	444	2375	2379	S	446	that	that	that	IN	O	rel	O	-1	O
+0	15	445	2380	2383	S	446	she	she	she	PRP	O	nsubj	O	1	O
+0	15	446	2384	2392	N	439	believes	believes	believe	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	15	447	2393	2404	S	446	contributes	contributes	contribute	VBZ	O	ccomp	O	-1	B-verb.possession
+0	15	448	2405	2407	S	447	to	to	to	TO	O	prep	O	-1	O
+0	15	449	2408	2411	S	450	the	the	the	DT	O	det	O	-1	O
+0	15	450	2412	2419	S	448	poverty	poverty	poverty	NN	O	pobj	O	-1	B-noun.state
+0	15	451	2420	2423	S	450	and	and	and	CC	O	cc	O	-1	O
+0	15	452	2424	2430	S	450	hunger	hunger	hunger	NN	O	conj	O	-1	B-noun.state
+0	15	453	2431	2433	S	452	of	of	of	IN	O	prep	O	-1	O
+0	15	454	2434	2437	S	455	the	the	the	DT	O	det	O	-1	O
+0	15	455	2438	2447		453	favelados	favelados	favelado	NNS	O	pobj	O	-1	O
+0	15	456	2447	2448	S	437	.	.	.	.	O	punct	O	-1	O
+0	16	457	2449	2451	N	464	To	To	to	TO	O	prep	O	-1	O
+0	16	458	2452	2460		457	Carolina	Carolina	Carolina	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	16	459	2460	2461	S	458	,	,	,	,	O	punct	O	-1	O
+0	16	460	2462	2468		463	Brazil	Brazil	Brazil	NNP	LOCATION	poss	O	-1	B-noun.location
+0	16	461	2468	2470	S	460	’s	's	's	POS	O	possessive	O	-1	O
+0	16	462	2471	2480	S	463	President	President	President	NNP	O	nn	O	-1	B-noun.person
+0	16	463	2481	2490	S	458	Juscelino	Juscelino	Juscelino	NNP	PERSON	appos	O	-1	I-noun.person
+0	16	464	2491	2493	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	16	465	2494	2495	S	466	a	a	a	DT	O	det	O	-1	O
+0	16	466	2496	2500	S	464	bird	bird	bird	NN	O	nsubj	O	-1	B-noun.animal
+0	16	467	2501	2503	S	466	in	in	in	IN	O	prep	O	-1	O
+0	16	468	2504	2505	S	469	a	a	a	DT	O	det	O	-1	O
+0	16	469	2506	2510		467	cage	cage	cage	NN	O	pobj	O	-1	B-noun.artifact
+0	16	470	2510	2511	S	464	,	,	,	,	O	punct	O	-1	O
+0	16	471	2512	2515	S	464	and	and	and	CC	O	cc	O	-1	O
+0	16	472	2516	2519	S	474	the	the	the	DT	O	det	O	-1	O
+0	16	473	2520	2526	S	474	favela	favela	favela	NN	O	nn	O	-1	O
+0	16	474	2527	2535	N	477	dwellers	dwellers	dweller	NNS	O	nsubj	O	-1	B-noun.person
+0	16	475	2536	2539	S	477	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	16	476	2540	2546	S	477	hungry	hungry	hungry	JJ	O	amod	O	-1	O
+0	16	477	2547	2551	S	464	cats	cats	cat	NNS	O	conj	O	-1	B-noun.animal
+0	16	478	2552	2556	S	481	that	that	that	WDT	O	nsubj	O	-1	O
+0	16	479	2557	2560	S	481	may	may	may	MD	O	aux	O	-1	O
+0	16	480	2561	2568	S	481	someday	someday	someday	RB	O	advmod	O	-1	O
+0	16	481	2569	2573	S	477	rise	rise	rise	VB	O	rcmod	O	-1	B-verb.motion
+0	16	482	2574	2576	S	481	up	up	up	RP	O	prt	O	-1	O
+0	16	483	2577	2584	S	481	against	against	against	IN	O	prep	O	-1	O
+0	16	484	2585	2588	S	483	him	him	he	PRP	O	pobj	O	-1	O
+0	16	485	2589	2591	S	486	if	if	if	IN	O	mark	O	-1	O
+0	16	486	2592	2597	S	481	given	given	give	VBN	O	advcl	O	-1	B-verb.possession
+0	16	487	2598	2601	S	488	the	the	the	DT	O	det	O	-1	O
+0	16	488	2602	2608		486	chance	chance	chance	NN	O	dobj	O	-1	B-noun.state
+0	16	489	2608	2609	S	464	.	.	.	.	O	punct	O	-1	O
+0	17	490	2610	2612	S	-1	On	On	on	IN	O	null	O	-1	O
+0	17	491	2613	2614	S	494	a	a	a	DT	O	det	O	-1	O
+0	17	492	2615	2619	N	493	more	more	more	RBR	O	advmod	O	-1	O
+0	17	493	2620	2630	S	494	day-to-day	day-to-day	day-to-day	JJ	O	amod	O	-1	O
+0	17	494	2631	2636		490	level	level	level	NN	O	pobj	O	-1	B-noun.attribute
+0	17	495	2636	2637	S	490	,	,	,	,	O	punct	O	-1	O
+0	17	496	2638	2646	S	497	Carolina	Carolina	Carolina	NNP	LOCATION	nn	O	-1	B-noun.location
+0	17	497	2647	2653	S	495	senses	senses	sens	NNS	O	dep	O	-1	B-noun.cognition
+0	17	498	2654	2658	S	500	that	that	that	IN	O	complm	O	-1	O
+0	17	499	2659	2662	S	500	she	she	she	PRP	O	nsubj	O	1	O
+0	17	500	2663	2668	S	497	lives	lives	live	VBZ	O	ccomp	O	-1	B-verb.stative
+0	17	501	2669	2671	S	500	in	in	in	IN	O	prep	O	-1	O
+0	17	502	2672	2673	S	503	a	a	a	DT	O	det	O	-1	O
+0	17	503	2674	2680	S	501	system	system	system	NN	O	pobj	O	-1	B-noun.artifact
+0	17	504	2681	2685	S	505	that	that	that	WDT	O	nsubj	O	-1	O
+0	17	505	2686	2695	S	503	conspires	conspires	conspire	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	17	506	2696	2703	N	505	against	against	against	IN	O	prep	O	-1	O
+0	17	507	2704	2707	S	508	the	the	the	DT	O	det	O	-1	O
+0	17	508	2708	2712		506	poor	poor	poor	JJ	O	pobj	O	-1	O
+0	17	509	2712	2713	S	495	.	.	.	.	O	punct	O	-1	O
+0	18	510	2714	2723	S	512	Inflation	Inflation	inflation	NN	O	nsubj	O	-1	B-noun.process
+0	18	511	2724	2726	S	512	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	18	512	2727	2734		-1	rampant	rampant	rampant	JJ	O	null	O	-1	O
+0	18	513	2734	2735	S	512	,	,	,	,	O	punct	O	-1	O
+0	18	514	2736	2739	S	512	and	and	and	CC	O	cc	O	-1	O
+0	18	515	2740	2746	S	512	prices	prices	price	NNS	O	conj	O	-1	B-noun.attribute
+0	18	516	2747	2750	S	515	for	for	for	IN	O	prep	O	-1	O
+0	18	517	2751	2756	S	518	basic	basic	basic	JJ	O	amod	O	-1	O
+0	18	518	2757	2768		516	necessities	necessities	necessity	NNS	O	pobj	O	-1	B-noun.object
+0	18	519	2768	2769	S	518	,	,	,	,	O	punct	O	-1	O
+0	18	520	2770	2774	S	521	such	such	such	JJ	O	dep	O	-1	O
+0	18	521	2775	2777	S	518	as	as	as	IN	O	prep	O	-1	O
+0	18	522	2778	2782	S	521	rice	rice	rice	NN	O	pobj	O	-1	B-noun.food
+0	18	523	2783	2786	N	522	and	and	and	CC	O	cc	O	-1	O
+0	18	524	2787	2792		522	flour	flour	flour	NN	O	conj	O	-1	B-noun.food
+0	18	525	2792	2793	S	512	,	,	,	,	O	punct	O	-1	O
+0	18	526	2794	2797	S	528	can	can	can	MD	O	aux	O	-1	O
+0	18	527	2798	2800	S	528	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	18	528	2801	2807		512	absurd	absurd	absurd	JJ	O	conj	O	-1	O
+0	18	529	2807	2808	S	512	.	.	.	.	O	punct	O	-1	O
+0	19	530	2809	2813	S	532	When	When	when	WRB	O	advmod	O	-1	O
+0	19	531	2814	2822	S	532	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	19	532	2823	2830	S	544	watches	watches	watch	VBZ	O	dep	O	-1	B-verb.perception
+0	19	533	2831	2832	S	536	a	a	a	DT	O	det	O	-1	O
+0	19	534	2833	2840	S	536	factory	factory	factory	NN	O	nn	O	-1	B-noun.artifact
+0	19	535	2841	2846	S	536	owner	owner	owner	NN	O	nn	O	-1	B-noun.person
+0	19	536	2847	2851	S	537	dump	dump	dump	NN	O	nsubj	O	-1	B-noun.process
+0	19	537	2852	2858	S	532	rotted	rotted	rot	VBD	O	ccomp	O	-1	B-verb.change
+0	19	538	2859	2863	S	537	food	food	food	NN	O	dobj	O	-1	B-noun.food
+0	19	539	2864	2868	N	537	near	near	near	IN	O	prep	O	-1	O
+0	19	540	2869	2872	S	541	the	the	the	DT	O	det	O	-1	O
+0	19	541	2873	2879		539	favela	favela	favela	NN	O	pobj	O	-1	O
+0	19	542	2879	2880	S	544	,	,	,	,	O	punct	O	-1	O
+0	19	543	2881	2884	S	544	she	she	she	PRP	O	nsubj	O	1	O
+0	19	544	2885	2894	S	-1	considers	considers	consider	VBZ	O	null	O	-1	B-verb.cognition
+0	19	545	2895	2897	S	547	it	it	it	PRP	O	nsubj	O	-1	O
+0	19	546	2898	2900	S	547	an	an	a	DT	O	det	O	-1	O
+0	19	547	2901	2904	S	544	act	act	act	NN	O	xcomp	O	-1	B-noun.Tops
+0	19	548	2905	2907	S	547	of	of	of	IN	O	prep	O	-1	O
+0	19	549	2908	2915	S	550	blatant	blatant	blatant	JJ	O	amod	O	-1	O
+0	19	550	2916	2923		548	cruelty	cruelty	cruelty	NN	O	pobj	O	-1	B-noun.act
+0	19	551	2923	2924	S	544	.	.	.	.	O	punct	O	-1	O
+0	20	552	2925	2933	S	554	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	O
+0	20	553	2934	2938	S	554	also	also	also	RB	O	advmod	O	-1	O
+0	20	554	2939	2946	S	-1	endures	endures	endure	VBZ	O	null	O	-1	B-verb.cognition
+0	20	555	2947	2953	N	558	racial	racial	racial	JJ	O	amod	O	-1	O
+0	20	556	2954	2957	S	555	and	and	and	CC	O	cc	O	-1	O
+0	20	557	2958	2963	S	555	class	class	class	NN	O	conj	O	-1	B-noun.group
+0	20	558	2964	2978	S	554	discrimination	discrimination	discrimination	NN	O	dobj	O	-1	B-noun.act
+0	20	559	2979	2984	S	560	every	every	every	DT	O	det	O	-1	O
+0	20	560	2985	2989	S	554	time	time	time	NN	O	tmod	O	-1	B-noun.event
+0	20	561	2990	2993	S	562	she	she	she	PRP	O	nsubj	O	1	O
+0	20	562	2994	3002	S	560	ventures	ventures	venture	NNS	O	rcmod	O	-1	B-noun.act
+0	20	563	3003	3006	S	562	out	out	out	IN	O	prep	O	-1	O
+0	20	564	3007	3009	S	563	of	of	of	IN	O	dep	O	-1	O
+0	20	565	3010	3013	S	566	the	the	the	DT	O	det	O	-1	O
+0	20	566	3014	3023	S	564	favelaand	favelaand	favelaand	NN	O	pobj	O	-1	B-noun.artifact
+0	20	567	3024	3028	S	562	into	into	into	IN	O	prep	O	-1	O
+0	20	568	3029	3032	S	569	the	the	the	DT	O	det	O	-1	O
+0	20	569	3033	3037	S	567	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	20	570	3038	3040	S	569	of	of	of	IN	O	prep	O	-1	O
+0	20	571	3041	3044	S	572	São	São	São	NNP	LOCATION	nn	O	-1	B-noun.group
+0	20	572	3045	3050		570	Paulo	Paulo	Paulo	NNP	LOCATION	pobj	O	-1	I-noun.group
+0	20	573	3050	3051	S	554	.	.	.	.	O	punct	O	-1	O
+0	21	574	3052	3057	S	580	While	While	while	IN	O	prep	O	-1	O
+0	21	575	3058	3064	S	574	taking	taking	take	VBG	O	pcomp	O	-1	B-verb.social
+0	21	576	3065	3066	S	577	a	a	a	DT	O	det	O	-1	O
+0	21	577	3067	3076		575	streetcar	streetcar	streetcar	NN	O	dobj	O	-1	B-noun.artifact
+0	21	578	3076	3077	S	580	,	,	,	,	O	punct	O	-1	O
+0	21	579	3078	3086	N	580	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	21	580	3087	3096	S	-1	discusses	discusses	discuss	VBZ	O	null	O	-1	B-verb.communication
+0	21	581	3097	3100	S	582	the	the	the	DT	O	det	O	-1	O
+0	21	582	3101	3111	S	580	politician	politician	politician	NN	O	dobj	O	-1	B-noun.person
+0	21	583	3112	3115	S	584	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	21	584	3116	3123	S	582	Adhemar	Adhemar	Adhemar	NNP	PERSON	dep	O	-1	I-noun.person
+0	21	585	3124	3128	S	580	with	with	with	IN	O	prep	O	-1	O
+0	21	586	3129	3134	S	587	other	other	other	JJ	O	amod	O	-1	O
+0	21	587	3135	3145		585	passengers	passengers	passenger	NNS	O	pobj	O	-1	B-noun.person
+0	21	588	3145	3146	S	587	,	,	,	,	O	punct	O	-1	O
+0	21	589	3147	3150	S	590	who	who	who	WP	O	nsubj	O	-1	O
+0	21	590	3151	3156	S	587	blame	blame	blame	VBP	O	rcmod	O	-1	B-verb.communication
+0	21	591	3157	3160	S	590	him	him	he	PRP	O	dobj	O	-1	O
+0	21	592	3161	3164	S	590	for	for	for	IN	O	prep	O	-1	O
+0	21	593	3165	3168	N	595	the	the	the	DT	O	det	O	-1	O
+0	21	594	3169	3174	S	595	steep	steep	steep	JJ	O	amod	O	-1	O
+0	21	595	3175	3184	S	592	increases	increases	increase	NNS	O	pobj	O	-1	B-noun.quantity
+0	21	596	3185	3187	S	595	in	in	in	IN	O	prep	O	-1	O
+0	21	597	3188	3191	S	598	the	the	the	DT	O	det	O	-1	O
+0	21	598	3192	3196	S	596	cost	cost	cost	NN	O	pobj	O	-1	B-noun.possession
+0	21	599	3197	3199	S	598	of	of	of	IN	O	prep	O	-1	O
+0	21	600	3200	3214		599	transportation	transportation	transportation	NN	O	pobj	O	-1	B-noun.artifact
+0	21	601	3214	3215	S	580	.	.	.	.	O	punct	O	-1	O
+0	22	602	3216	3224	S	603	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	O
+0	22	603	3225	3231	S	-1	thinks	thinks	think	VBZ	O	null	O	-1	B-verb.cognition
+0	22	604	3232	3236	S	607	that	that	that	IN	O	complm	O	-1	O
+0	22	605	3237	3245	S	607	Adehemar	Adehemar	Adehemar	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	22	606	3246	3248	N	607	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	22	607	3249	3254	S	603	angry	angry	angry	JJ	O	ccomp	O	-1	O
+0	22	608	3255	3258	S	607	and	and	and	CC	O	cc	O	-1	O
+0	22	609	3259	3264	S	607	wants	wants	want	VBZ	O	conj	O	-1	B-verb.emotion
+0	22	610	3265	3267	S	611	to	to	to	TO	O	aux	O	-1	O
+0	22	611	3268	3274	S	609	punish	punish	punish	VB	O	xcomp	O	-1	B-verb.social
+0	22	612	3275	3278	S	613	the	the	the	DT	O	det	O	-1	O
+0	22	613	3279	3283		611	poor	poor	poor	JJ	O	dobj	O	-1	O
+0	22	614	3283	3284	S	603	.	.	.	.	O	punct	O	-1	O
+0	23	615	3285	3287	S	620	In	In	in	IN	O	prep	O	-1	O
+0	23	616	3288	3291	S	618	the	the	the	DT	O	det	O	-1	O
+0	23	617	3292	3304	S	618	often-brutal	often-brutal	often-brutal	JJ	O	amod	O	-1	O
+0	23	618	3305	3310	S	615	world	world	world	NN	O	pobj	O	-1	B-noun.group
+0	23	619	3311	3314	S	620	she	she	she	PRP	O	nsubj	O	1	O
+0	23	620	3315	3320	S	-1	lives	lives	live	VBZ	O	null	O	-1	B-verb.stative
+0	23	621	3321	3323		624	in	in	in	IN	O	dep	O	-1	O
+0	23	622	3323	3324	S	624	,	,	,	,	O	punct	O	-1	O
+0	23	623	3325	3333	N	624	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	23	624	3334	3341	S	620	wonders	wonders	wonder	VBZ	O	ccomp	O	-1	B-verb.communication
+0	23	625	3342	3345	S	630	how	how	how	WRB	O	advmod	O	-1	O
+0	23	626	3346	3350	S	627	much	much	much	RB	O	advmod	O	-1	O
+0	23	627	3351	3356	S	628	worse	worse	worse	JJR	O	amod	O	-1	O
+0	23	628	3357	3367	S	630	conditions	conditions	condition	NNS	O	nsubj	O	-1	B-noun.state
+0	23	629	3368	3371	S	630	can	can	can	MD	O	aux	O	-1	O
+0	23	630	3372	3375		624	get	get	get	VB	O	ccomp	O	-1	O
+0	23	631	3375	3376	S	620	.	.	.	.	O	punct	O	-1	O
+0	24	632	3377	3385	S	633	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	O
+0	24	633	3386	3393	S	-1	refuses	refuses	refuse	VBZ	O	null	O	-1	B-verb.communication
+0	24	634	3394	3396	S	635	to	to	to	TO	O	aux	O	-1	O
+0	24	635	3397	3400	S	633	put	put	put	VB	O	xcomp	O	-1	B-verb.contact
+0	24	636	3401	3404	S	637	her	her	she	PRP$	O	poss	O	1	O
+0	24	637	3405	3413	S	635	interest	interest	interest	NN	O	dobj	O	-1	B-noun.cognition
+0	24	638	3414	3416	S	635	in	in	in	IN	O	prep	O	-1	O
+0	24	639	3417	3425	S	638	marrying	marrying	marry	VBG	O	pcomp	O	-1	B-verb.social
+0	24	640	3426	3432	S	639	before	before	before	IN	O	prep	O	-1	O
+0	24	641	3433	3436	S	642	her	her	she	PRP$	O	poss	O	1	O
+0	24	642	3437	3445	S	640	interest	interest	interest	NN	O	pobj	O	-1	B-noun.cognition
+0	24	643	3446	3448	S	642	in	in	in	IN	O	prep	O	-1	O
+0	24	644	3449	3452	N	645	her	her	she	PRP$	O	poss	O	1	O
+0	24	645	3453	3461		643	children	children	child	NNS	O	pobj	O	-1	B-noun.person
+0	24	646	3461	3462	S	633	,	,	,	,	O	punct	O	-1	O
+0	24	647	3463	3467	S	651	even	even	even	RB	O	advmod	O	-1	O
+0	24	648	3468	3472	S	651	when	when	when	WRB	O	advmod	O	-1	O
+0	24	649	3473	3476	S	651	she	she	she	PRP	O	nsubjpass	O	1	O
+0	24	650	3477	3479	S	651	is	is	be	VBZ	O	auxpass	O	-1	O
+0	24	651	3480	3488	S	633	proposed	proposed	propose	VBN	O	dep	O	-1	B-verb.cognition
+0	24	652	3489	3491	S	651	to	to	to	TO	O	prep	O	-1	O
+0	24	653	3492	3494	S	651	by	by	by	IN	O	prep	O	-1	O
+0	24	654	3495	3496	S	655	a	a	a	DT	O	det	O	-1	O
+0	24	655	3497	3500	S	653	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	24	656	3501	3506	S	655	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	24	657	3507	3513		656	Manuel	Manuel	Manuel	NNP	PERSON	dep	O	-1	B-noun.person
+0	24	658	3513	3514	S	655	,	,	,	,	O	punct	O	-1	O
+0	24	659	3515	3518		661	who	who	who	WP	O	nsubj	O	-1	O
+0	24	660	3518	3519	S	661	,	,	,	,	O	punct	O	-1	O
+0	24	661	3520	3528	S	655	compared	compared	compare	VBN	O	rcmod	O	-1	B-verb.cognition
+0	24	662	3529	3531	S	661	to	to	to	TO	O	prep	O	-1	O
+0	24	663	3532	3535	N	665	the	the	the	DT	O	det	O	-1	O
+0	24	664	3536	3541	S	665	other	other	other	JJ	O	amod	O	-1	O
+0	24	665	3542	3551		662	favelados	favelados	favelado	NNS	O	pobj	O	-1	B-noun.person
+0	24	666	3551	3552	S	633	,	,	,	,	O	punct	O	-1	O
+0	24	667	3553	3555	S	633	is	is	be	VBZ	O	conj	O	-1	O
+0	24	668	3556	3562	S	669	fairly	fairly	fairly	RB	O	advmod	O	-1	O
+0	24	669	3563	3567	S	667	well	well	well	RB	O	advmod	O	-1	O
+0	24	670	3568	3571		669	off	off	off	IN	O	dep	O	-1	O
+0	24	671	3571	3572	S	633	,	,	,	,	O	punct	O	-1	O
+0	24	672	3573	3574	S	673	a	a	a	DT	O	det	O	-1	O
+0	24	673	3575	3581	S	633	worker	worker	worker	NN	O	dobj	O	-1	B-noun.person
+0	24	674	3582	3585	S	673	and	and	and	CC	O	cc	O	-1	O
+0	24	675	3586	3595	S	673	abstainer	abstainer	abstainer	NN	O	conj	O	-1	B-noun.person
+0	24	676	3596	3600	N	675	from	from	from	IN	O	prep	O	-1	O
+0	24	677	3601	3608		676	alcohol	alcohol	alcohol	NN	O	pobj	O	-1	B-noun.food
+0	24	678	3608	3609	S	633	.	.	.	.	O	punct	O	-1	O
+0	25	679	3610	3617	S	688	Against	Against	against	IN	O	prep	O	-1	O
+0	25	680	3618	3621	S	683	her	her	she	PRP$	O	poss	O	1	O
+0	25	681	3622	3625	S	683	own	own	own	JJ	O	amod	O	-1	O
+0	25	682	3626	3632	S	681	better	better	better	JJR	O	dep	O	-1	O
+0	25	683	3633	3641		679	judgment	judgment	judgment	NN	O	pobj	O	-1	B-noun.act
+0	25	684	3641	3642	S	688	,	,	,	,	O	punct	O	-1	O
+0	25	685	3643	3651	S	688	Carolina	Carolina	Carolina	NNP	LOCATION	nsubjpass	O	-1	B-noun.location
+0	25	686	3652	3656	S	688	also	also	also	RB	O	advmod	O	-1	O
+0	25	687	3657	3664	S	688	becomes	becomes	become	VBZ	O	auxpass	O	-1	B-verb.change
+0	25	688	3665	3676	S	-1	intertwined	intertwined	intertwine	VBN	O	null	O	-1	B-verb.contact
+0	25	689	3677	3681	S	688	with	with	with	IN	O	prep	O	-1	O
+0	25	690	3682	3683	N	691	a	a	a	DT	O	det	O	-1	O
+0	25	691	3684	3689	S	689	gypsy	gypsy	gypsy	NN	O	pobj	O	-1	B-noun.person
+0	25	692	3690	3695	S	691	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	25	693	3696	3704		692	Raimundo	Raimundo	Raimundo	NNP	PERSON	dep	O	-1	B-noun.person
+0	25	694	3704	3705	S	691	,	,	,	,	O	punct	O	-1	O
+0	25	695	3706	3709	S	696	who	who	who	WP	O	nsubj	O	-1	O
+0	25	696	3710	3717	S	691	awakens	awakens	awaken	VBZ	O	rcmod	O	-1	B-verb.body
+0	25	697	3718	3720	S	696	in	in	in	IN	O	prep	O	-1	O
+0	25	698	3721	3724	S	697	her	her	she	PRP$	O	pobj	O	1	O
+0	25	699	3725	3726	S	700	a	a	a	DT	O	det	O	-1	O
+0	25	700	3727	3732	S	698	sense	sense	sense	NN	O	dobj	O	-1	B-noun.cognition
+0	25	701	3733	3735	S	700	of	of	of	IN	O	prep	O	-1	O
+0	25	702	3736	3743	S	701	romance	romance	romance	NN	O	pobj	O	-1	B-noun.state
+0	25	703	3744	3747	S	702	and	and	and	CC	O	cc	O	-1	O
+0	25	704	3748	3757		702	adventure	adventure	adventure	NN	O	conj	O	-1	B-noun.act
+0	25	705	3757	3758	N	688	.	.	.	.	O	punct	O	-1	O
+0	26	706	3759	3769		709	Ultimately	Ultimately	ultimately	RB	O	advmod	O	-1	O
+0	26	707	3769	3770	S	709	,	,	,	,	O	punct	O	-1	O
+0	26	708	3771	3774	S	709	she	she	she	PRP	O	nsubj	O	1	O
+0	26	709	3775	3782	S	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	26	710	3783	3787	S	715	that	that	that	IN	O	complm	O	-1	O
+0	26	711	3788	3790	S	715	he	he	he	PRP	O	nsubj	O	-1	O
+0	26	712	3791	3793	S	715	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	26	713	3794	3797	S	715	not	not	not	RB	O	neg	O	-1	O
+0	26	714	3798	3801	S	715	the	the	the	DT	O	det	O	-1	O
+0	26	715	3802	3805	S	709	man	man	man	NN	O	ccomp	O	-1	B-noun.person
+0	26	716	3806	3809	S	717	she	she	she	PRP	O	nsubj	O	1	O
+0	26	717	3810	3817	S	715	thought	thought	think	VBD	O	rcmod	O	-1	B-verb.cognition
+0	26	718	3818	3820	S	719	he	he	he	PRP	O	nsubj	O	-1	O
+0	26	719	3821	3824		717	was	was	be	VBD	O	ccomp	O	-1	O
+0	26	720	3824	3825	S	715	,	,	,	,	O	punct	O	-1	O
+0	26	721	3826	3829	S	715	but	but	but	CC	O	cc	O	-1	O
+0	26	722	3830	3834	S	724	when	when	when	WRB	O	advmod	O	-1	O
+0	26	723	3835	3837	S	724	he	he	he	PRP	O	nsubj	O	-1	O
+0	26	724	3838	3843	N	729	moves	moves	move	VBZ	O	dep	O	-1	B-verb.motion
+0	26	725	3844	3848		724	away	away	away	RB	O	advmod	O	-1	O
+0	26	726	3848	3849	S	729	,	,	,	,	O	punct	O	-1	O
+0	26	727	3850	3853	S	729	she	she	she	PRP	O	nsubj	O	1	O
+0	26	728	3854	3856	S	729	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	26	729	3857	3861	S	715	sick	sick	sick	JJ	O	conj	O	-1	O
+0	26	730	3862	3865	S	729	and	and	and	CC	O	cc	O	-1	O
+0	26	731	3866	3880		729	broken-hearted	broken-hearted	broken-hearted	JJ	O	conj	O	-1	O
+0	26	732	3880	3881	S	709	.	.	.	.	O	punct	O	-1	O
+0	27	733	3882	3889	S	738	Through	Through	through	IN	O	prep	O	-1	O
+0	27	734	3890	3894	S	735	both	both	both	DT	O	det	O	-1	O
+0	27	735	3895	3908		733	entanglements	entanglements	entanglement	NNS	O	pobj	O	-1	B-noun.artifact
+0	27	736	3908	3909	S	738	,	,	,	,	O	punct	O	-1	O
+0	27	737	3910	3918	S	738	Carolina	Carolina	Carolina	NNP	PERSON	nsubj	O	1	B-noun.location
+0	27	738	3919	3928	N	-1	maintains	maintains	maintain	VBZ	O	null	O	-1	B-verb.stative
+0	27	739	3929	3933	S	745	that	that	that	IN	O	complm	O	-1	O
+0	27	740	3934	3937	S	745	she	she	she	PRP	O	nsubj	O	1	O
+0	27	741	3938	3940	S	745	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	27	742	3941	3944	S	745	not	not	not	RB	O	neg	O	-1	O
+0	27	743	3945	3948	S	745	the	the	the	DT	O	det	O	-1	O
+0	27	744	3949	3957	S	745	marrying	marrying	marry	VBG	O	amod	O	-1	B-verb.social
+0	27	745	3958	3962		738	type	type	type	NN	O	ccomp	O	-1	B-noun.cognition
+0	27	746	3962	3963	S	745	,	,	,	,	O	punct	O	-1	O
+0	27	747	3964	3967	S	748	her	her	she	PRP$	O	poss	O	1	O
+0	27	748	3968	3976	S	749	children	children	child	NNS	O	nsubj	O	-1	B-noun.person
+0	27	749	3977	3981	S	745	come	come	come	VBP	O	dep	O	-1	B-verb.motion
+0	27	750	3982	3987		749	first	first	first	RB	ORDINAL	advmod	O	-1	O
+0	27	751	3987	3988	S	749	,	,	,	,	O	punct	O	-1	O
+0	27	752	3989	3992	S	749	and	and	and	CC	O	cc	O	-1	O
+0	27	753	3993	3996	S	755	she	she	she	PRP	O	nsubj	O	1	O
+0	27	754	3997	3999	S	755	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	27	755	4000	4009	S	749	unwilling	unwilling	unwilling	JJ	O	conj	O	-1	O
+0	27	756	4010	4012	N	757	to	to	to	TO	O	aux	O	-1	O
+0	27	757	4013	4017	S	755	make	make	make	VB	O	xcomp	O	-1	B-verb.social
+0	27	758	4018	4021	S	759	the	the	the	DT	O	det	O	-1	O
+0	27	759	4022	4032	S	757	sacrifices	sacrifices	sacrifice	NNS	O	dobj	O	-1	B-noun.act
+0	27	760	4033	4037	S	762	that	that	that	IN	O	dobj	O	-1	O
+0	27	761	4038	4041	S	762	she	she	she	PRP	O	nsubj	O	1	O
+0	27	762	4042	4046	S	759	sees	sees	see	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	27	763	4047	4052	S	764	other	other	other	JJ	O	amod	O	-1	O
+0	27	764	4053	4058	S	765	women	women	woman	NNS	O	nsubj	O	-1	B-noun.person
+0	27	765	4059	4065	S	762	making	making	make	VBG	O	xcomp	O	-1	B-verb.social
+0	27	766	4066	4068	S	765	in	in	in	IN	O	prep	O	-1	O
+0	27	767	4069	4074	S	766	order	order	order	NN	O	pobj	O	-1	B-noun.state
+0	27	768	4075	4077	S	770	to	to	to	TO	O	aux	O	-1	O
+0	27	769	4078	4081	N	770	get	get	get	VB	O	auxpass	O	-1	B-verb.change
+0	27	770	4082	4089		767	married	married	marry	VBN	O	infmod	O	-1	O
+0	27	771	4089	4090	S	738	.	.	.	.	O	punct	O	-1	O
+0	28	772	4091	4094	S	773	The	The	the	DT	O	det	O	-1	O
+0	28	773	4095	4107	S	-1	intervention	intervention	intervention	NN	O	null	O	-1	B-noun.act
+0	28	774	4108	4110	S	773	of	of	of	IN	O	prep	O	-1	O
+0	28	775	4111	4112	S	776	a	a	a	DT	O	det	O	-1	O
+0	28	776	4113	4123	S	774	journalist	journalist	journalist	NN	O	pobj	O	-1	B-noun.person
+0	28	777	4124	4129	S	776	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	28	778	4130	4137	S	779	Audalio	Audalio	Audalio	NNP	PERSON	nn	O	-1	B-noun.person
+0	28	779	4138	4144	S	780	Dantas	Dantas	Dantas	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	28	780	4145	4150	S	777	helps	helps	help	VBZ	O	dep	O	-1	B-verb.social
+0	28	781	4151	4159	S	783	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	28	782	4160	4162	N	783	to	to	to	TO	O	aux	O	-1	O
+0	28	783	4163	4170	S	780	realize	realize	realize	VB	O	ccomp	O	-1	B-verb.cognition
+0	28	784	4171	4174	S	785	her	her	she	PRP$	O	poss	O	1	O
+0	28	785	4175	4180	S	783	dream	dream	dream	NN	O	dobj	O	-1	B-noun.cognition
+0	28	786	4181	4183	S	785	of	of	of	IN	O	prep	O	-1	O
+0	28	787	4184	4189	S	788	being	being	be	VBG	O	auxpass	O	-1	O
+0	28	788	4190	4199		786	published	published	publish	VBN	O	pcomp	O	-1	B-verb.creation
+0	28	789	4199	4200	S	773	.	.	.	.	O	punct	O	-1	O
+0	29	790	4201	4205	S	795	When	When	when	WRB	O	advmod	O	-1	O
+0	29	791	4206	4214	S	795	excerpts	excerpts	excerpt	NNS	O	nsubj	O	-1	B-noun.communication
+0	29	792	4215	4217	S	791	of	of	of	IN	O	prep	O	-1	O
+0	29	793	4218	4221	S	794	her	her	she	PRP$	O	poss	O	1	O
+0	29	794	4222	4227	S	792	diary	diary	diary	NN	O	pobj	O	-1	B-noun.communication
+0	29	795	4228	4234	S	805	appear	appear	appear	VBP	O	dep	O	-1	B-verb.change
+0	29	796	4235	4237	S	795	in	in	in	IN	O	prep	O	-1	O
+0	29	797	4238	4239	S	799	a	a	a	DT	O	det	O	-1	O
+0	29	798	4240	4246	N	799	weekly	weekly	weekly	JJ	SET	amod	O	-1	O
+0	29	799	4247	4255	S	796	magazine	magazine	magazine	NN	O	pobj	O	-1	B-noun.communication
+0	29	800	4256	4262	S	799	called	called	call	VBN	O	partmod	O	-1	B-verb.communication
+0	29	801	4263	4264	S	802	O	O	O	NNP	ORGANIZATION	nn	O	-1	B-noun.person
+0	29	802	4265	4273		800	Cruziero	Cruziero	Cruziero	NNP	ORGANIZATION	dep	O	-1	I-noun.person
+0	29	803	4273	4274		805	,	,	,	,	ORGANIZATION	punct	O	-1	O
+0	29	804	4274	4282	S	805	Carolina	Carolina	Carolina	NNP	ORGANIZATION	nsubj	O	-1	B-noun.location
+0	29	805	4283	4288	N	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	29	806	4289	4297	S	805	everyone	everyone	everyone	NN	O	dobj	O	-1	O
+0	29	807	4298	4301	S	808	she	she	she	PRP	O	nsubj	O	1	O
+0	29	808	4302	4305	S	806	can	can	can	MD	O	rcmod	O	-1	O
+0	29	809	4306	4311	S	812	about	about	about	RB	O	advmod	O	-1	O
+0	29	810	4312	4315	S	812	her	her	she	PRP$	O	poss	O	1	O
+0	29	811	4316	4319	S	812	new	new	new	JJ	O	amod	O	-1	O
+0	29	812	4320	4324		808	fame	fame	fame	NN	O	ccomp	O	-1	B-noun.state
+0	29	813	4324	4325	S	805	.	.	.	.	O	punct	O	-1	O
+0	30	814	4326	4339		817	Unfortunately	Unfortunately	unfortunately	RB	O	advmod	O	-1	O
+0	30	815	4339	4340	S	817	,	,	,	,	O	punct	O	-1	O
+0	30	816	4341	4346	S	817	being	being	be	VBG	O	auxpass	O	-1	O
+0	30	817	4347	4356	S	820	published	published	publish	VBN	O	dep	O	-1	B-verb.creation
+0	30	818	4357	4361	S	820	does	does	do	VBZ	O	aux	O	-1	O
+0	30	819	4362	4365	S	820	not	not	not	RB	O	neg	O	-1	O
+0	30	820	4366	4370	N	-1	have	have	have	VB	O	null	O	-1	B-verb.possession
+0	30	821	4371	4374	S	822	the	the	the	DT	O	det	O	-1	O
+0	30	822	4375	4381	S	820	effect	effect	effect	NN	O	dobj	O	-1	B-noun.phenomenon
+0	30	823	4382	4386	S	826	that	that	that	IN	O	complm	O	-1	O
+0	30	824	4387	4390	S	826	she	she	she	PRP	O	nsubj	O	1	O
+0	30	825	4391	4394	S	826	was	was	be	VBD	O	aux	O	-1	O
+0	30	826	4395	4401	S	822	hoping	hoping	hope	VBG	O	ccomp	O	-1	B-verb.emotion
+0	30	827	4402	4405		826	for	for	for	IN	O	prep	O	-1	O
+0	30	828	4405	4406	S	820	.	.	.	.	O	punct	O	-1	O
+0	31	829	4407	4410	S	836	Not	Not	not	RB	O	neg	O	-1	O
+0	31	830	4411	4415	S	836	only	only	only	RB	O	advmod	O	-1	O
+0	31	831	4416	4418	S	836	do	do	do	VB	O	dep	O	-1	B-verb.social
+0	31	832	4419	4427		836	Carolina	Carolina	Carolina	NNP	LOCATION	poss	O	-1	B-noun.location
+0	31	833	4427	4429	S	832	’s	's	's	POS	O	possessive	O	-1	O
+0	31	834	4430	4434	S	836	dire	dire	dire	JJ	O	amod	O	-1	O
+0	31	835	4435	4440	S	836	daily	daily	daily	JJ	SET	amod	O	-1	O
+0	31	836	4441	4454	N	838	circumstances	circumstances	circumstance	NNS	O	nsubj	O	-1	B-noun.state
+0	31	837	4455	4461	S	838	remain	remain	remain	VBP	O	cop	O	-1	B-verb.change
+0	31	838	4462	4471		-1	unchanged	unchanged	unchanged	JJ	O	null	O	-1	O
+0	31	839	4471	4472	S	838	,	,	,	,	O	punct	O	-1	O
+0	31	840	4473	4476	S	838	but	but	but	CC	O	cc	O	-1	O
+0	31	841	4477	4480	S	843	she	she	she	PRP	O	nsubj	O	1	O
+0	31	842	4481	4488	S	843	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	31	843	4489	4494	S	838	finds	finds	find	VBZ	O	conj	O	-1	B-verb.perception
+0	31	844	4495	4502	S	843	success	success	success	NN	O	dobj	O	-1	B-noun.act
+0	31	845	4503	4505	S	849	to	to	to	TO	O	aux	O	-1	O
+0	31	846	4506	4508	S	849	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	31	847	4509	4510	S	849	a	a	a	DT	O	det	O	-1	O
+0	31	848	4511	4517	S	849	bitter	bitter	bitter	JJ	O	amod	O	-1	O
+0	31	849	4518	4522	S	844	pill	pill	pill	NN	O	infmod	O	-1	B-noun.artifact
+0	31	850	4523	4527	S	853	when	when	when	WRB	O	advmod	O	-1	O
+0	31	851	4528	4531	S	852	the	the	the	DT	O	det	O	-1	O
+0	31	852	4532	4538	N	853	favela	favela	favela	NN	O	nsubj	O	-1	B-noun.person
+0	31	853	4539	4544	S	849	fills	fills	fill	VBZ	O	advcl	O	-1	B-verb.change
+0	31	854	4545	4549	S	853	with	with	with	IN	O	prep	O	-1	O
+0	31	855	4550	4561	S	854	disparaging	disparaging	disparage	VBG	O	pcomp	O	-1	B-verb.communication
+0	31	856	4562	4566	S	855	talk	talk	talk	NN	O	dobj	O	-1	B-noun.communication
+0	31	857	4567	4569	S	856	of	of	of	IN	O	prep	O	-1	O
+0	31	858	4570	4573	S	859	her	her	she	PRP$	O	poss	O	1	O
+0	31	859	4574	4581		857	motives	motives	motive	NNS	O	pobj	O	-1	O
+0	31	860	4581	4582	S	838	.	.	.	.	O	punct	O	-1	O
+0	32	861	4583	4587	S	862	Even	Even	even	RB	O	dep	O	-1	O
+0	32	862	4588	4593	S	868	after	after	after	IN	O	prep	O	-1	O
+0	32	863	4594	4597	S	864	her	her	she	PRP$	O	poss	O	1	O
+0	32	864	4598	4609		862	publication	publication	publication	NN	O	pobj	O	-1	B-noun.communication
+0	32	865	4609	4610	S	868	,	,	,	,	O	punct	O	-1	O
+0	32	866	4611	4619	N	868	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	32	867	4620	4624	S	868	must	must	must	MD	O	aux	O	-1	O
+0	32	868	4625	4629	S	-1	deal	deal	deal	VB	O	null	O	-1	B-verb.communication
+0	32	869	4630	4634	S	868	with	with	with	IN	O	prep	O	-1	O
+0	32	870	4635	4638	S	872	the	the	the	DT	O	det	O	-1	O
+0	32	871	4639	4643	S	872	same	same	same	JJ	O	amod	O	-1	O
+0	32	872	4644	4654	S	869	challenges	challenges	challenge	NNS	O	pobj	O	-1	B-noun.state
+0	32	873	4655	4658	S	872	and	and	and	CC	O	cc	O	-1	O
+0	32	874	4659	4671		872	frustrations	frustrations	frustration	NNS	O	conj	O	-1	B-noun.feeling
+0	32	875	4671	4672	S	868	:	:	:	:	O	punct	O	-1	O
+0	32	876	4673	4676	S	877	the	the	the	DT	O	det	O	-1	O
+0	32	877	4677	4685	S	902	struggle	struggle	struggle	NN	O	nsubj	O	-1	B-noun.act
+0	32	878	4686	4688	S	879	to	to	to	TO	O	aux	O	-1	O
+0	32	879	4689	4695	S	877	scrape	scrape	scrape	VB	O	infmod	O	-1	B-verb.contact
+0	32	880	4696	4704	N	879	together	together	together	RB	O	advmod	O	-1	O
+0	32	881	4705	4711	S	882	enough	enough	enough	JJ	O	amod	O	-1	O
+0	32	882	4712	4717	S	879	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	32	883	4718	4721	S	882	for	for	for	IN	O	prep	O	-1	O
+0	32	884	4722	4726		883	food	food	food	NN	O	pobj	O	-1	B-noun.food
+0	32	885	4726	4727	S	877	,	,	,	,	O	punct	O	-1	O
+0	32	886	4728	4731	S	887	the	the	the	DT	O	det	O	-1	O
+0	32	887	4732	4737	S	877	lines	lines	line	NNS	O	appos	O	-1	B-noun.group
+0	32	888	4738	4740	S	887	at	at	at	IN	O	prep	O	-1	O
+0	32	889	4741	4744	S	891	the	the	the	DT	O	det	O	-1	O
+0	32	890	4745	4750	S	891	water	water	water	NN	O	nn	O	-1	B-noun.substance
+0	32	891	4751	4757		888	spigot	spigot	spigot	NN	O	pobj	O	-1	B-noun.artifact
+0	32	892	4757	4758	S	877	,	,	,	,	O	punct	O	-1	O
+0	32	893	4759	4762	S	894	the	the	the	DT	O	det	O	-1	O
+0	32	894	4763	4769		877	fights	fights	fight	NNS	O	conj	O	-1	B-noun.act
+0	32	895	4769	4770	S	877	,	,	,	,	O	punct	O	-1	O
+0	32	896	4771	4774	S	877	and	and	and	CC	O	cc	O	-1	O
+0	32	897	4775	4778	S	898	the	the	the	DT	O	det	O	-1	O
+0	32	898	4779	4785	S	877	racism	racism	racism	NN	O	conj	O	-1	B-noun.cognition
+0	32	899	4786	4789	N	877	and	and	and	CC	O	cc	O	-1	O
+0	32	900	4790	4796	S	877	sexism	sexism	sexism	NN	O	conj	O	-1	B-noun.act
+0	32	901	4797	4800	S	902	she	she	she	PRP	O	nsubj	O	1	O
+0	32	902	4801	4806	S	868	faces	faces	face	VBZ	O	parataxis	O	-1	B-verb.competition
+0	32	903	4807	4809	S	902	on	on	on	IN	O	prep	O	-1	O
+0	32	904	4810	4811	S	906	a	a	a	DT	O	det	O	-1	O
+0	32	905	4812	4817	S	906	daily	daily	daily	JJ	SET	amod	O	-1	O
+0	32	906	4818	4823		903	basis	basis	basis	NN	O	pobj	O	-1	B-noun.relation
+0	32	907	4823	4824	S	868	.	.	.	.	O	punct	O	-1	O
+0	33	908	4825	4832	S	914	Despite	Despite	despite	IN	O	prep	O	-1	O
+0	33	909	4833	4838	S	911	these	these	these	DT	O	det	O	-1	O
+0	33	910	4839	4844	S	911	daily	daily	daily	JJ	SET	amod	O	-1	O
+0	33	911	4845	4857		908	humiliations	humiliations	humiliation	NNS	O	pobj	O	-1	B-noun.state
+0	33	912	4857	4858	S	914	,	,	,	,	O	punct	O	-1	O
+0	33	913	4859	4867	S	914	Carolina	Carolina	Carolina	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	33	914	4868	4873	N	-1	holds	holds	hold	VBZ	O	null	O	-1	B-verb.contact
+0	33	915	4874	4878	S	914	fast	fast	fast	RB	O	advmod	O	-1	O
+0	33	916	4879	4881	S	914	to	to	to	TO	O	prep	O	-1	O
+0	33	917	4882	4885	S	918	her	her	she	PRP$	O	poss	O	1	O
+0	33	918	4886	4891	S	916	dream	dream	dream	NN	O	pobj	O	-1	B-noun.cognition
+0	33	919	4892	4894	S	918	of	of	of	IN	O	prep	O	-1	O
+0	33	920	4895	4902	S	919	finding	finding	find	VBG	O	pcomp	O	-1	B-verb.possession
+0	33	921	4903	4904	S	922	a	a	a	DT	O	det	O	-1	O
+0	33	922	4905	4909	S	920	home	home	home	NN	O	dobj	O	-1	B-noun.artifact
+0	33	923	4910	4913	S	920	far	far	far	RB	O	advmod	O	-1	O
+0	33	924	4914	4918	S	923	from	from	from	IN	O	dep	O	-1	O
+0	33	925	4919	4922	S	926	the	the	the	DT	O	det	O	-1	O
+0	33	926	4923	4929	S	924	favela	favela	favela	NN	O	pobj	O	-1	B-noun.person
+0	33	927	4930	4933	S	926	for	for	for	IN	O	prep	O	-1	O
+0	33	928	4934	4937	S	929	her	her	she	PRP$	O	poss	O	1	O
+0	33	929	4938	4944		927	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	33	930	4944	4945	N	914	.	.	.	.	O	punct	O	-1	O

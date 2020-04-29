@@ -1,0 +1,622 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	6	S	1	Doctor	Doctor	doctor	NN	O	nn	O	-1	B-noun.person
+0	0	1	7	14	S	2	Zhivago	Zhivago	Zhivago	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	0	2	15	20	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	0	3	21	24	S	4	the	the	the	DT	O	det	O	-1	O
+0	0	4	25	30	S	2	story	story	story	NN	O	dobj	O	-1	B-noun.communication
+0	0	5	31	33	S	4	of	of	of	IN	O	prep	O	-1	O
+0	0	6	34	38	S	7	Yury	Yury	Yury	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	7	39	46		5	Zhivago	Zhivago	Zhivago	NNP	PERSON	pobj	O	-1	I-noun.person
+0	0	8	46	47	S	7	,	,	,	,	O	punct	O	-1	O
+0	0	9	48	49	S	10	a	a	a	DT	O	det	O	-1	O
+0	0	10	50	53	S	7	man	man	man	NN	O	appos	O	-1	B-noun.person
+0	0	11	54	58	S	10	torn	torn	tear	VBN	O	partmod	O	-1	B-verb.contact
+0	0	12	59	66	S	11	between	between	between	IN	O	prep	O	-1	O
+0	0	13	67	70	S	14	his	his	he	PRP$	O	poss	O	-1	O
+0	0	14	71	75	S	12	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	0	15	76	79	S	14	for	for	for	IN	O	prep	O	-1	O
+0	0	16	80	83	S	17	two	two	two	CD	NUMBER	num	O	-1	O
+0	0	17	84	89	S	15	women	women	woman	NNS	O	pobj	O	-1	B-noun.person
+0	0	18	90	95	S	19	while	while	while	IN	O	mark	O	-1	O
+0	0	19	96	102	S	11	caught	caught	catch	VBN	O	advcl	O	-1	B-verb.contact
+0	0	20	103	105	S	19	in	in	in	IN	O	prep	O	-1	O
+0	0	21	106	109	S	23	the	the	the	DT	O	det	O	-1	O
+0	0	22	110	120	S	23	tumultuous	tumultuous	tumultuous	JJ	O	amod	O	-1	O
+0	0	23	121	127	S	20	course	course	course	NN	O	pobj	O	-1	B-noun.act
+0	0	24	128	130	S	23	of	of	of	IN	O	prep	O	-1	O
+0	0	25	131	140	S	28	twentieth	twentieth	twentieth	JJ	DATE	amod	O	-1	O
+0	0	26	141	148	S	28	century	century	century	NN	DATE	nn	O	-1	B-noun.time
+0	0	27	149	156	S	28	Russian	Russian	russian	JJ	MISC	amod	O	-1	O
+0	0	28	157	164		24	history	history	history	NN	O	pobj	O	-1	B-noun.time
+0	0	29	164	165	S	2	.	.	.	.	O	punct	O	-1	O
+0	1	30	166	170		32	Yury	Yury	Yury	NNP	PERSON	poss	O	5	B-noun.person
+0	1	31	170	172	S	30	's	's	's	POS	O	possessive	O	-1	O
+0	1	32	173	179	S	33	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	1	33	180	184	S	-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	1	34	185	189	S	40	when	when	when	WRB	O	advmod	O	-1	O
+0	1	35	190	192	S	40	he	he	he	PRP	O	nsubj	O	-1	O
+0	1	36	193	195	S	40	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	37	196	201	S	40	still	still	still	RB	O	advmod	O	-1	O
+0	1	38	202	203	S	40	a	a	a	DT	O	det	O	-1	O
+0	1	39	204	209	S	40	young	young	young	JJ	O	amod	O	-1	O
+0	1	40	210	213		33	boy	boy	boy	NN	O	advcl	O	-1	B-noun.person
+0	1	41	213	214	S	33	,	,	,	,	O	punct	O	-1	O
+0	1	42	215	218	S	33	and	and	and	CC	O	cc	O	-1	O
+0	1	43	219	221	S	45	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	1	44	222	224	S	45	is	is	be	VBZ	O	auxpass	O	-1	O
+0	1	45	225	231	S	33	raised	raised	raise	VBN	O	conj	O	-1	B-verb.change
+0	1	46	232	234	S	45	by	by	by	IN	O	prep	O	-1	O
+0	1	47	235	238	S	49	his	his	he	PRP$	O	poss	O	-1	O
+0	1	48	239	244	S	49	uncle	uncle	uncle	NN	O	nn	O	-1	B-noun.person
+0	1	49	245	250		46	Kolya	Kolya	Kolya	NNP	PERSON	pobj	O	-1	I-noun.person
+0	1	50	250	251	S	33	.	.	.	.	O	punct	O	-1	O
+0	2	51	252	254	S	52	He	He	he	PRP	O	nsubj	O	-1	O
+0	2	52	255	262	S	-1	enrolls	enrolls	enroll	VBZ	O	null	O	-1	B-verb.social
+0	2	53	263	265	S	52	at	at	at	IN	O	prep	O	-1	O
+0	2	54	266	269	S	55	the	the	the	DT	O	det	O	-1	O
+0	2	55	270	280	S	53	university	university	university	NN	O	pobj	O	-1	B-noun.artifact
+0	2	56	281	283	S	55	in	in	in	IN	O	prep	O	-1	O
+0	2	57	284	290		56	Moscow	Moscow	Moscow	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	2	58	290	291	S	52	,	,	,	,	O	punct	O	-1	O
+0	2	59	292	300	S	52	studying	studying	study	VBG	O	xcomp	O	-1	B-verb.cognition
+0	2	60	301	309		59	medicine	medicine	medicine	NN	O	dobj	O	-1	B-noun.cognition
+0	2	61	309	310	S	52	.	.	.	.	O	punct	O	-1	O
+0	3	62	311	316	S	64	There	There	there	EX	O	expl	O	-1	O
+0	3	63	317	319	S	64	he	he	he	PRP	O	nsubj	O	-1	O
+0	3	64	320	325	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	3	65	326	331		70	Tonya	Tonya	Tonya	NNP	PERSON	nsubj	O	6	O
+0	3	66	331	332	S	65	,	,	,	,	O	punct	O	-1	O
+0	3	67	333	336	S	65	and	and	and	CC	O	cc	O	-1	O
+0	3	68	337	340	S	69	the	the	the	DT	O	dep	O	-1	O
+0	3	69	341	344	S	65	two	two	two	CD	NUMBER	conj	O	-1	O
+0	3	70	345	350	S	64	marry	marry	marry	VB	O	ccomp	O	-1	B-verb.social
+0	3	71	351	354	S	70	and	and	and	CC	O	cc	O	-1	O
+0	3	72	355	359	S	70	have	have	have	VB	O	conj	O	-1	B-verb.possession
+0	3	73	360	361	S	74	a	a	a	DT	O	det	O	-1	O
+0	3	74	362	365		72	son	son	son	NN	O	dobj	O	-1	B-noun.person
+0	3	75	365	366	S	74	,	,	,	,	O	punct	O	-1	O
+0	3	76	367	372		74	Sasha	Sasha	Sasha	NNP	PERSON	appos	O	-1	O
+0	3	77	372	373	S	64	.	.	.	.	O	punct	O	-1	O
+0	4	78	374	378	S	82	Yury	Yury	Yury	NNP	PERSON	nsubj	O	5	B-noun.person
+0	4	79	379	386	S	82	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	4	80	387	388	S	82	a	a	a	DT	O	det	O	-1	O
+0	4	81	389	396	S	82	medical	medical	medical	JJ	O	amod	O	-1	O
+0	4	82	397	404	S	-1	officer	officer	officer	NN	O	null	O	-1	B-noun.person
+0	4	83	405	407	S	82	in	in	in	IN	O	prep	O	-1	O
+0	4	84	408	411	S	85	the	the	the	DT	O	det	O	-1	O
+0	4	85	412	416	S	83	army	army	army	NN	O	pobj	O	-1	B-noun.group
+0	4	86	417	420	S	82	and	and	and	CC	O	cc	O	-1	O
+0	4	87	421	423	S	88	is	is	be	VBZ	O	auxpass	O	-1	O
+0	4	88	424	433	S	82	stationed	stationed	station	VBN	O	conj	O	-1	B-verb.competition
+0	4	89	434	436	S	88	in	in	in	IN	O	prep	O	-1	O
+0	4	90	437	438	S	92	a	a	a	DT	O	det	O	-1	O
+0	4	91	439	444	S	92	small	small	small	JJ	O	amod	O	-1	O
+0	4	92	445	449		89	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	4	93	449	450	S	82	.	.	.	.	O	punct	O	-1	O
+0	5	94	451	453	S	95	He	He	he	PRP	O	nsubj	O	-1	O
+0	5	95	454	459	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	5	96	460	464		95	Lara	Lara	Lara	NNP	PERSON	dobj	O	2	O
+0	5	97	464	465	S	96	,	,	,	,	O	punct	O	-1	O
+0	5	98	466	467	S	99	a	a	a	DT	O	det	O	-1	O
+0	5	99	468	473	S	96	woman	woman	woman	NN	O	appos	O	-1	B-noun.person
+0	5	100	474	478	S	103	whom	whom	whom	WP	O	dobj	O	-1	O
+0	5	101	479	481	S	103	he	he	he	PRP	O	nsubj	O	-1	O
+0	5	102	482	485	S	103	has	has	have	VBZ	O	aux	O	-1	O
+0	5	103	486	490	S	99	seen	seen	see	VBN	O	rcmod	O	-1	B-verb.perception
+0	5	104	491	496	S	103	twice	twice	twice	RB	O	advmod	O	-1	O
+0	5	105	497	503		103	before	before	before	RB	O	advmod	O	-1	O
+0	5	106	503	504	S	95	.	.	.	.	O	punct	O	-1	O
+0	6	107	505	508	S	109	The	The	the	DT	O	det	O	-1	O
+0	6	108	509	514	S	109	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	6	109	515	519		112	time	time	time	NN	O	tmod	O	-1	B-noun.time
+0	6	110	519	520	S	112	,	,	,	,	O	punct	O	-1	O
+0	6	111	521	523	S	112	he	he	he	PRP	O	nsubj	O	-1	O
+0	6	112	524	531	S	-1	visited	visited	visit	VBD	O	null	O	-1	B-verb.social
+0	6	113	532	535	S	114	the	the	the	DT	O	det	O	-1	O
+0	6	114	536	541	S	112	house	house	house	NN	O	dobj	O	-1	B-noun.artifact
+0	6	115	542	544	S	114	of	of	of	IN	O	prep	O	-1	O
+0	6	116	545	546	S	117	a	a	a	DT	O	det	O	-1	O
+0	6	117	547	552	S	115	woman	woman	woman	NN	O	pobj	O	-1	B-noun.person
+0	6	118	553	556	S	119	who	who	who	WP	O	nsubj	O	-1	O
+0	6	119	557	562	S	117	tried	tried	try	VBD	O	rcmod	O	-1	B-verb.social
+0	6	120	563	565	S	121	to	to	to	TO	O	aux	O	-1	O
+0	6	121	566	572	S	119	commit	commit	commit	VB	O	xcomp	O	-1	B-verb.social
+0	6	122	573	580		121	suicide	suicide	suicide	NN	O	dobj	O	-1	B-noun.act
+0	6	123	580	581	S	112	,	,	,	,	O	punct	O	-1	O
+0	6	124	582	585	S	112	and	and	and	CC	O	cc	O	-1	O
+0	6	125	586	588	S	126	he	he	he	PRP	O	nsubj	O	-1	O
+0	6	126	589	592	S	112	saw	saw	see	VBD	O	conj	O	-1	B-verb.perception
+0	6	127	593	597		126	Lara	Lara	Lara	NNP	PERSON	dobj	O	2	O
+0	6	128	597	598	S	127	,	,	,	,	O	punct	O	-1	O
+0	6	129	599	602	S	130	the	the	the	DT	O	det	O	-1	O
+0	6	130	603	608		132	woman	woman	woman	NN	O	poss	O	-1	B-noun.person
+0	6	131	608	610	S	130	's	's	's	POS	O	possessive	O	-1	O
+0	6	132	611	619		127	daughter	daughter	daughter	NN	O	appos	O	-1	B-noun.person
+0	6	133	619	620	S	126	,	,	,	,	O	punct	O	-1	O
+0	6	134	621	631	S	126	exchanging	exchanging	exchange	VBG	O	xcomp	O	-1	B-verb.possession
+0	6	135	632	639	S	134	glances	glances	glance	NNS	O	dobj	O	-1	B-noun.act
+0	6	136	640	644	S	134	with	with	with	IN	O	prep	O	-1	O
+0	6	137	645	647	S	139	an	an	a	DT	O	det	O	-1	O
+0	6	138	648	653	S	139	older	older	older	JJR	O	amod	O	-1	O
+0	6	139	654	657		136	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	6	140	657	658	S	139	,	,	,	,	O	punct	O	-1	O
+0	6	141	659	669		139	Komarovsky	Komarovsky	Komarovsky	NNP	PERSON	appos	O	3	O
+0	6	142	669	670	S	112	.	.	.	.	O	punct	O	-1	O
+0	7	143	671	674	S	145	The	The	the	DT	O	det	O	-1	O
+0	7	144	675	681	S	145	second	second	second	JJ	ORDINAL	amod	O	-1	O
+0	7	145	682	686		148	time	time	time	NN	O	tmod	O	-1	B-noun.event
+0	7	146	686	687	S	148	,	,	,	,	O	punct	O	-1	O
+0	7	147	688	692	S	148	Lara	Lara	Lara	NNP	PERSON	nsubj	O	2	O
+0	7	148	693	698	S	-1	tried	tried	try	VBD	O	null	O	-1	B-verb.social
+0	7	149	699	701	S	150	to	to	to	TO	O	aux	O	-1	O
+0	7	150	702	707	S	148	shoot	shoot	shoot	VB	O	xcomp	O	-1	B-verb.competition
+0	7	151	708	718	S	150	Komarovsky	Komarovsky	Komarovsky	NNP	PERSON	dobj	O	3	B-noun.person
+0	7	152	719	721	S	150	at	at	at	IN	O	prep	O	-1	O
+0	7	153	722	723	S	154	a	a	a	DT	O	det	O	-1	O
+0	7	154	724	729	S	152	party	party	party	NN	O	pobj	O	-1	B-noun.group
+0	7	155	730	733	S	148	and	and	and	CC	O	cc	O	-1	O
+0	7	156	734	741	S	157	instead	instead	instead	RB	O	advmod	O	-1	O
+0	7	157	742	749	S	148	wounded	wounded	wound	VBD	O	conj	O	-1	B-verb.body
+0	7	158	750	751	S	159	a	a	a	DT	O	det	O	-1	O
+0	7	159	752	762	S	157	prosecutor	prosecutor	prosecutor	NN	O	dobj	O	-1	B-noun.person
+0	7	160	763	767	S	157	from	from	from	IN	O	prep	O	-1	O
+0	7	161	768	771	S	162	the	the	the	DT	O	det	O	-1	O
+0	7	162	772	778		160	courts	courts	court	NNS	O	pobj	O	-1	B-noun.group
+0	7	163	778	779	S	148	.	.	.	.	O	punct	O	-1	O
+0	8	164	780	784	S	166	Lara	Lara	Lara	NNP	PERSON	nsubjpass	O	2	B-noun.person
+0	8	165	785	787	S	166	is	is	be	VBZ	O	auxpass	O	-1	O
+0	8	166	788	795	S	-1	married	married	marry	VBN	O	null	O	-1	B-verb.social
+0	8	167	796	798	S	166	to	to	to	TO	O	prep	O	-1	O
+0	8	168	799	804		167	Pasha	Pasha	Pasha	NNP	PERSON	pobj	O	1	B-noun.person
+0	8	169	804	805	S	168	,	,	,	,	O	punct	O	-1	O
+0	8	170	806	807	S	172	a	a	a	DT	O	det	O	-1	O
+0	8	171	808	813	S	172	young	young	young	JJ	O	amod	O	-1	O
+0	8	172	814	821	S	168	soldier	soldier	soldier	NN	O	appos	O	-1	B-noun.person
+0	8	173	822	825	S	175	who	who	who	WP	O	nsubj	O	-1	O
+0	8	174	826	828	S	175	is	is	be	VBZ	O	cop	O	-1	O
+0	8	175	829	836		172	missing	missing	miss	VBG	O	rcmod	O	-1	B-verb.stative
+0	8	176	836	837	S	166	,	,	,	,	O	punct	O	-1	O
+0	8	177	838	841	S	166	and	and	and	CC	O	cc	O	-1	O
+0	8	178	842	845	S	180	she	she	she	PRP	O	nsubj	O	-1	O
+0	8	179	846	849	S	180	has	has	have	VBZ	O	aux	O	-1	O
+0	8	180	850	854	S	166	come	come	come	VBN	O	conj	O	-1	B-verb.change
+0	8	181	855	859	S	180	west	west	west	NN	O	dobj	O	-1	B-noun.relation
+0	8	182	860	862	S	183	to	to	to	TO	O	aux	O	-1	O
+0	8	183	863	867	S	180	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	8	184	868	871		183	him	him	he	PRP	O	dobj	O	2	O
+0	8	185	871	872	S	166	.	.	.	.	O	punct	O	-1	O
+0	9	186	873	876	S	187	She	She	she	PRP	O	nsubj	O	-1	O
+0	9	187	877	880	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	9	188	881	882	S	189	a	a	a	DT	O	det	O	-1	O
+0	9	189	883	891		187	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	9	190	891	892	S	189	,	,	,	,	O	punct	O	-1	O
+0	9	191	893	898		189	Katya	Katya	Katya	NNP	PERSON	appos	O	-1	O
+0	9	192	898	899	S	189	,	,	,	,	O	punct	O	-1	O
+0	9	193	900	904	S	196	whom	whom	whom	WP	O	dobj	O	-1	O
+0	9	194	905	908	S	196	she	she	she	PRP	O	nsubj	O	-1	O
+0	9	195	909	912	S	196	has	has	have	VBZ	O	aux	O	-1	O
+0	9	196	913	917	S	189	left	left	leave	VBN	O	rcmod	O	-1	B-verb.stative
+0	9	197	918	920	S	196	in	in	in	IN	O	prep	O	-1	O
+0	9	198	921	929		197	Yuryatin	Yuryatin	Yuryatin	NNP	LOCATION	pobj	O	-1	O
+0	9	199	929	930	S	187	,	,	,	,	O	punct	O	-1	O
+0	9	200	931	934	S	201	her	her	she	PRP$	O	poss	O	-1	O
+0	9	201	935	945	S	199	birthplace	birthplace	birthplace	NN	O	dobj	O	-1	B-noun.location
+0	9	202	946	948	S	201	in	in	in	IN	O	prep	O	-1	O
+0	9	203	949	952	S	204	the	the	the	DT	O	det	O	-1	O
+0	9	204	953	958		202	Urals	Urals	ural	NNS	MISC	pobj	O	-1	B-noun.object
+0	9	205	958	959	S	187	.	.	.	.	O	punct	O	-1	O
+0	10	206	960	964	S	208	Yury	Yury	Yury	NNP	PERSON	nsubjpass	O	5	B-noun.person
+0	10	207	965	967	S	208	is	is	be	VBZ	O	auxpass	O	-1	O
+0	10	208	968	978	S	-1	captivated	captivated	captivate	VBN	O	null	O	-1	B-verb.emotion
+0	10	209	979	981	S	208	by	by	by	IN	O	prep	O	-1	O
+0	10	210	982	986		209	Lara	Lara	Lara	NNP	PERSON	pobj	O	2	O
+0	10	211	986	987	S	208	,	,	,	,	O	punct	O	-1	O
+0	10	212	988	991	S	208	but	but	but	CC	O	cc	O	-1	O
+0	10	213	992	994	S	214	he	he	he	PRP	O	nsubj	O	2	O
+0	10	214	995	1002	S	208	returns	returns	return	VBZ	O	conj	O	-1	B-verb.motion
+0	10	215	1003	1005	S	214	to	to	to	TO	O	prep	O	-1	O
+0	10	216	1006	1009	S	217	his	his	he	PRP$	O	poss	O	2	O
+0	10	217	1010	1014	S	215	wife	wife	wife	NN	O	pobj	O	-1	B-noun.person
+0	10	218	1015	1018	S	217	and	and	and	CC	O	cc	O	-1	O
+0	10	219	1019	1022	S	217	son	son	son	NN	O	conj	O	-1	B-noun.person
+0	10	220	1023	1025	S	219	in	in	in	IN	O	prep	O	-1	O
+0	10	221	1026	1032		220	Moscow	Moscow	Moscow	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	10	222	1032	1033	S	208	.	.	.	.	O	punct	O	-1	O
+0	11	223	1034	1039	S	225	Times	Times	Times	NNP	O	nsubj	O	-1	O
+0	11	224	1040	1043	S	225	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	11	225	1044	1053		-1	difficult	difficult	difficult	JJ	O	null	O	-1	O
+0	11	226	1053	1054	S	225	,	,	,	,	O	punct	O	-1	O
+0	11	227	1055	1058	S	225	and	and	and	CC	O	cc	O	-1	O
+0	11	228	1059	1062	S	229	the	the	the	DT	O	det	O	-1	O
+0	11	229	1063	1069	S	231	family	family	family	NN	O	nsubj	O	-1	B-noun.group
+0	11	230	1070	1074	S	231	must	must	must	MD	O	aux	O	-1	O
+0	11	231	1075	1083	S	225	struggle	struggle	struggle	VB	O	conj	O	-1	B-verb.social
+0	11	232	1084	1086	S	233	to	to	to	TO	O	aux	O	-1	O
+0	11	233	1087	1091	S	231	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	11	234	1092	1096	S	233	food	food	food	NN	O	dobj	O	-1	B-noun.food
+0	11	235	1097	1100	S	234	and	and	and	CC	O	cc	O	-1	O
+0	11	236	1101	1109		234	firewood	firewood	firewood	NN	O	conj	O	-1	B-noun.substance
+0	11	237	1109	1110	S	225	.	.	.	.	O	punct	O	-1	O
+0	12	238	1111	1115	S	239	They	They	they	PRP	O	nsubj	O	-1	O
+0	12	239	1116	1122	S	-1	decide	decide	decide	VBP	O	null	O	-1	B-verb.cognition
+0	12	240	1123	1125	S	241	to	to	to	TO	O	aux	O	-1	O
+0	12	241	1126	1130	S	239	move	move	move	VB	O	xcomp	O	-1	B-verb.motion
+0	12	242	1131	1135	S	241	east	east	east	JJ	O	dobj	O	-1	O
+0	12	243	1136	1138	S	241	to	to	to	TO	O	prep	O	-1	O
+0	12	244	1139	1147		243	Varyniko	Varyniko	Varyniko	NNP	LOCATION	pobj	O	-1	O
+0	12	245	1147	1148	S	244	,	,	,	,	O	punct	O	-1	O
+0	12	246	1149	1151	S	247	an	an	a	DT	O	det	O	-1	O
+0	12	247	1152	1158	S	244	estate	estate	estate	NN	O	appos	O	-1	B-noun.possession
+0	12	248	1159	1163	S	249	once	once	once	RB	DATE	advmod	O	-1	O
+0	12	249	1164	1169	S	247	owned	owned	own	VBN	O	partmod	O	-1	B-verb.possession
+0	12	250	1170	1172	S	249	by	by	by	IN	O	prep	O	-1	O
+0	12	251	1173	1178		253	Tonya	Tonya	Tonya	NNP	PERSON	poss	O	6	B-noun.person
+0	12	252	1178	1180	S	251	's	's	's	POS	O	possessive	O	-1	O
+0	12	253	1181	1192	S	250	grandfather	grandfather	grandfather	NN	O	pobj	O	-1	B-noun.person
+0	12	254	1193	1196	S	249	but	but	but	CC	O	cc	O	-1	O
+0	12	255	1197	1200	S	257	now	now	now	RB	DATE	advmod	O	-1	O
+0	12	256	1201	1206	S	257	being	being	be	VBG	O	auxpass	O	-1	O
+0	12	257	1207	1213	S	249	worked	worked	work	VBN	O	conj	O	-1	B-verb.social
+0	12	258	1214	1216	S	257	as	as	as	IN	O	prep	O	-1	O
+0	12	259	1217	1218	S	260	a	a	a	DT	O	det	O	-1	O
+0	12	260	1219	1229		258	collective	collective	collective	JJ	O	pobj	O	-1	O
+0	12	261	1229	1230	S	239	.	.	.	.	O	punct	O	-1	O
+0	13	262	1231	1234	S	263	The	The	the	DT	O	det	O	-1	O
+0	13	263	1235	1242	S	265	journey	journey	journey	NN	O	nsubj	O	-1	B-noun.act
+0	13	264	1243	1245	S	265	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	13	265	1246	1250	S	-1	long	long	long	JJ	O	null	O	-1	O
+0	13	266	1251	1254	S	265	and	and	and	CC	O	cc	O	-1	O
+0	13	267	1255	1264		265	difficult	difficult	difficult	JJ	O	conj	O	-1	O
+0	13	268	1264	1265	S	265	,	,	,	,	O	punct	O	-1	O
+0	13	269	1266	1269	S	265	but	but	but	CC	O	cc	O	-1	O
+0	13	270	1270	1274	S	272	when	when	when	WRB	O	advmod	O	-1	O
+0	13	271	1275	1279	S	272	they	they	they	PRP	O	nsubj	O	-1	O
+0	13	272	1280	1286	S	265	arrive	arrive	arrive	VBP	O	conj	O	-1	B-verb.motion
+0	13	273	1287	1291	S	274	they	they	they	PRP	O	nsubj	O	-1	O
+0	13	274	1292	1296	S	272	find	find	find	VB	O	ccomp	O	-1	B-verb.possession
+0	13	275	1297	1303	S	274	plenty	plenty	plenty	NN	O	dobj	O	-1	B-noun.attribute
+0	13	276	1304	1306	S	275	of	of	of	IN	O	prep	O	-1	O
+0	13	277	1307	1311	S	276	food	food	food	NN	O	pobj	O	-1	B-noun.food
+0	13	278	1312	1315	S	277	and	and	and	CC	O	cc	O	-1	O
+0	13	279	1316	1320		277	wood	wood	wood	NN	O	conj	O	-1	B-noun.substance
+0	13	280	1320	1321	S	265	.	.	.	.	O	punct	O	-1	O
+0	14	281	1322	1326	S	282	Yury	Yury	Yury	NNP	PERSON	nsubj	O	5	B-noun.person
+0	14	282	1327	1331	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.stative
+0	14	283	1332	1334	S	282	to	to	to	TO	O	prep	O	-1	O
+0	14	284	1335	1338	S	286	the	the	the	DT	O	det	O	-1	O
+0	14	285	1339	1346	S	286	nearest	nearest	nearest	JJS	O	amod	O	-1	O
+0	14	286	1347	1351		283	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	14	287	1351	1352	S	286	,	,	,	,	O	punct	O	-1	O
+0	14	288	1353	1361		286	Yuryatin	Yuryatin	yuryatin	NN	LOCATION	appos	O	-1	O
+0	14	289	1361	1362	S	282	,	,	,	,	O	punct	O	-1	O
+0	14	290	1363	1365	S	291	to	to	to	TO	O	aux	O	-1	O
+0	14	291	1366	1369	S	282	use	use	use	VB	O	xcomp	O	-1	B-verb.consumption
+0	14	292	1370	1373	S	293	the	the	the	DT	O	det	O	-1	O
+0	14	293	1374	1381		291	library	library	library	NN	O	dobj	O	-1	B-noun.artifact
+0	14	294	1381	1382	S	282	.	.	.	.	O	punct	O	-1	O
+0	15	295	1383	1388		298	There	There	there	RB	O	advmod	O	-1	O
+0	15	296	1388	1389	S	298	,	,	,	,	O	punct	O	-1	O
+0	15	297	1390	1392	S	298	he	he	he	PRP	O	nsubj	O	-1	O
+0	15	298	1393	1397	S	-1	sees	sees	see	VBZ	O	null	O	-1	B-verb.cognition
+0	15	299	1398	1402	S	298	Lara	Lara	lara	NN	PERSON	dobj	O	2	B-noun.person
+0	15	300	1403	1407	S	298	once	once	once	RB	DATE	advmod	O	-1	O
+0	15	301	1408	1412		300	more	more	more	RBR	O	advmod	O	-1	O
+0	15	302	1412	1413	S	298	.	.	.	.	O	punct	O	-1	O
+0	16	303	1414	1418	S	304	They	They	they	PRP	O	nsubj	O	-1	O
+0	16	304	1419	1424	S	-1	begin	begin	begin	VBP	O	null	O	-1	B-verb.change
+0	16	305	1425	1427	S	306	an	an	a	DT	O	det	O	-1	O
+0	16	306	1428	1434	S	304	affair	affair	affair	NN	O	dobj	O	-1	B-noun.cognition
+0	16	307	1435	1439	S	308	that	that	that	WDT	O	nsubj	O	-1	O
+0	16	308	1440	1445	S	306	lasts	lasts	last	VBZ	O	rcmod	O	-1	B-verb.stative
+0	16	309	1446	1449	S	310	two	two	two	CD	DURATION	num	O	-1	O
+0	16	310	1450	1456	S	308	months	months	month	NNS	DURATION	tmod	O	-1	B-noun.time
+0	16	311	1457	1463	S	313	before	before	before	IN	O	mark	O	-1	O
+0	16	312	1464	1468	S	313	Yury	Yury	Yury	NNP	PERSON	nsubj	O	5	B-noun.person
+0	16	313	1469	1476	S	308	decides	decides	decide	VBZ	O	advcl	O	-1	B-verb.cognition
+0	16	314	1477	1479	S	315	to	to	to	TO	O	aux	O	-1	O
+0	16	315	1480	1485	S	313	break	break	break	VB	O	xcomp	O	-1	B-verb.change
+0	16	316	1486	1489	S	315	off	off	off	RP	O	prt	O	-1	O
+0	16	317	1490	1497	S	315	contact	contact	contact	NN	O	dobj	O	-1	B-noun.act
+0	16	318	1498	1501	S	308	and	and	and	CC	O	cc	O	-1	O
+0	16	319	1502	1509	S	308	confess	confess	confess	VBP	O	conj	O	-1	B-verb.communication
+0	16	320	1510	1513	S	319	all	all	all	DT	O	dobj	O	-1	O
+0	16	321	1514	1516	S	319	to	to	to	TO	O	prep	O	-1	O
+0	16	322	1517	1520	S	323	his	his	he	PRP$	O	poss	O	-1	O
+0	16	323	1521	1525		321	wife	wife	wife	NN	O	pobj	O	-1	B-noun.person
+0	16	324	1525	1526	S	304	.	.	.	.	O	punct	O	-1	O
+0	17	325	1527	1529	S	331	On	On	on	IN	O	prep	O	-1	O
+0	17	326	1530	1533	S	327	his	his	he	PRP$	O	poss	O	-1	O
+0	17	327	1534	1537		325	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	17	328	1537	1538	S	331	,	,	,	,	O	punct	O	-1	O
+0	17	329	1539	1541	S	331	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	17	330	1542	1544	S	331	is	is	be	VBZ	O	auxpass	O	-1	O
+0	17	331	1545	1553	S	-1	captured	captured	capture	VBN	O	null	O	-1	B-verb.creation
+0	17	332	1554	1556	S	331	by	by	by	IN	O	prep	O	-1	O
+0	17	333	1557	1560	S	335	the	the	the	DT	O	det	O	-1	O
+0	17	334	1561	1569	S	335	partisan	partisan	partisan	JJ	O	amod	O	-1	O
+0	17	335	1570	1574		332	army	army	army	NN	O	pobj	O	-1	B-noun.group
+0	17	336	1574	1575	S	335	,	,	,	,	O	punct	O	-1	O
+0	17	337	1576	1581	S	338	which	which	which	WDT	O	nsubj	O	-1	O
+0	17	338	1582	1592	S	335	conscripts	conscripts	conscript	VBZ	O	rcmod	O	-1	B-verb.competition
+0	17	339	1593	1596	S	338	him	him	he	PRP	O	dobj	O	-1	O
+0	17	340	1597	1599	S	338	as	as	as	IN	O	prep	O	-1	O
+0	17	341	1600	1601	S	343	a	a	a	DT	O	det	O	-1	O
+0	17	342	1602	1609	S	343	medical	medical	medical	JJ	O	amod	O	-1	O
+0	17	343	1610	1617		340	officer	officer	officer	NN	O	pobj	O	-1	B-noun.person
+0	17	344	1617	1618	S	331	.	.	.	.	O	punct	O	-1	O
+0	18	345	1619	1623	S	347	Yury	Yury	Yury	NNP	PERSON	nsubjpass	O	5	B-noun.person
+0	18	346	1624	1626	S	347	is	is	be	VBZ	O	auxpass	O	-1	O
+0	18	347	1627	1633	S	-1	forced	forced	force	VBN	O	null	O	-1	B-verb.social
+0	18	348	1634	1636	S	349	to	to	to	TO	O	aux	O	-1	O
+0	18	349	1637	1643	S	347	remain	remain	remain	VB	O	xcomp	O	-1	B-verb.change
+0	18	350	1644	1648	S	349	with	with	with	IN	O	prep	O	-1	O
+0	18	351	1649	1652	S	352	the	the	the	DT	O	det	O	-1	O
+0	18	352	1653	1657	S	350	army	army	army	NN	O	pobj	O	-1	B-noun.group
+0	18	353	1658	1665	S	349	through	through	through	IN	O	prep	O	-1	O
+0	18	354	1666	1669	S	355	the	the	the	DT	O	det	O	-1	O
+0	18	355	1670	1673	S	353	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	18	356	1674	1676	S	355	of	of	of	IN	O	prep	O	-1	O
+0	18	357	1677	1680	S	358	the	the	the	DT	O	det	O	-1	O
+0	18	358	1681	1684	S	356	war	war	war	NN	O	pobj	O	-1	B-noun.state
+0	18	359	1685	1692	S	358	between	between	between	IN	O	prep	O	-1	O
+0	18	360	1693	1696	S	362	the	the	the	DT	O	det	O	-1	O
+0	18	361	1697	1704	S	362	Tsarist	Tsarist	Tsarist	NNP	MISC	nn	O	-1	B-noun.person
+0	18	362	1705	1711	S	359	Whites	Whites	Whites	NNPS	MISC	pobj	O	-1	I-noun.person
+0	18	363	1712	1715	S	362	and	and	and	CC	O	cc	O	-1	O
+0	18	364	1716	1719	S	366	the	the	the	DT	O	det	O	-1	O
+0	18	365	1720	1729	S	366	Communist	Communist	communist	JJ	ORGANIZATION	amod	O	-1	O
+0	18	366	1730	1734		362	Reds	Reds	red	NNS	ORGANIZATION	conj	O	-1	O
+0	18	367	1734	1735	S	347	.	.	.	.	O	punct	O	-1	O
+0	19	368	1736	1740	S	371	When	When	when	WRB	O	advmod	O	-1	O
+0	19	369	1741	1743	S	371	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	19	370	1744	1746	S	371	is	is	be	VBZ	O	auxpass	O	-1	O
+0	19	371	1747	1755		374	released	released	release	VBN	O	dep	O	-1	O
+0	19	372	1755	1756	S	374	,	,	,	,	O	punct	O	-1	O
+0	19	373	1757	1759	S	374	he	he	he	PRP	O	nsubj	O	-1	O
+0	19	374	1760	1767	S	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	19	375	1768	1770	S	374	to	to	to	TO	O	prep	O	-1	O
+0	19	376	1771	1779	S	375	Yuryatin	Yuryatin	yuryatin	NN	LOCATION	pobj	O	-1	B-noun.person
+0	19	377	1780	1782	S	378	to	to	to	TO	O	aux	O	-1	O
+0	19	378	1783	1787	S	374	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	19	379	1788	1792		378	Lara	Lara	Lara	NNP	PERSON	dobj	O	2	O
+0	19	380	1792	1793	S	374	.	.	.	.	O	punct	O	-1	O
+0	20	381	1794	1797	S	382	The	The	the	DT	O	dep	O	-1	O
+0	20	382	1798	1801	S	383	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	20	383	1802	1807	S	-1	spend	spend	spend	VBP	O	null	O	-1	B-verb.stative
+0	20	384	1808	1815	S	385	several	several	several	JJ	DURATION	amod	O	-1	O
+0	20	385	1816	1822	S	383	months	months	month	NNS	DURATION	dobj	O	-1	B-noun.time
+0	20	386	1823	1831		383	together	together	together	RB	O	advmod	O	-1	O
+0	20	387	1831	1832	S	383	,	,	,	,	O	punct	O	-1	O
+0	20	388	1833	1836	S	383	and	and	and	CC	O	cc	O	-1	O
+0	20	389	1837	1841	S	383	then	then	then	RB	O	advmod	O	-1	O
+0	20	390	1842	1846	S	391	they	they	they	PRP	O	nsubj	O	-1	O
+0	20	391	1847	1849	S	383	go	go	go	VBP	O	ccomp	O	-1	B-verb.motion
+0	20	392	1850	1852	S	391	to	to	to	TO	O	prep	O	-1	O
+0	20	393	1853	1861	S	392	Varykino	Varykino	Varykino	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	20	394	1862	1864	S	395	to	to	to	TO	O	aux	O	-1	O
+0	20	395	1865	1869		391	hide	hide	hide	VB	O	xcomp	O	-1	B-verb.perception
+0	20	396	1869	1870	S	383	.	.	.	.	O	punct	O	-1	O
+0	21	397	1871	1875		400	Lara	Lara	Lara	NNP	PERSON	poss	O	2	B-noun.person
+0	21	398	1875	1877	S	397	's	's	's	POS	O	possessive	O	-1	O
+0	21	399	1878	1884	S	400	former	former	former	JJ	O	amod	O	-1	O
+0	21	400	1885	1892		406	husband	husband	husband	NN	O	nsubj	O	-1	B-noun.person
+0	21	401	1892	1893	S	400	,	,	,	,	O	punct	O	-1	O
+0	21	402	1894	1899		400	Pasha	Pasha	Pasha	NNP	PERSON	appos	O	1	O
+0	21	403	1899	1900	S	400	,	,	,	,	O	punct	O	-1	O
+0	21	404	1901	1907	S	406	became	became	become	VBD	O	cop	O	-1	B-verb.stative
+0	21	405	1908	1909	S	406	a	a	a	DT	O	det	O	-1	O
+0	21	406	1910	1916	S	413	leader	leader	leader	NN	O	nsubjpass	O	-1	B-noun.person
+0	21	407	1917	1919	S	406	in	in	in	IN	O	prep	O	-1	O
+0	21	408	1920	1923	S	409	the	the	the	DT	O	det	O	-1	O
+0	21	409	1924	1929	S	407	Urals	Urals	ural	NNS	MISC	pobj	O	-1	B-noun.object
+0	21	410	1930	1933	S	406	but	but	but	CC	O	cc	O	-1	O
+0	21	411	1934	1936	S	413	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	21	412	1937	1940	S	413	now	now	now	RB	DATE	advmod	O	-1	O
+0	21	413	1941	1947		-1	wanted	wanted	want	VBN	O	null	O	-1	B-verb.emotion
+0	21	414	1947	1948	S	413	.	.	.	.	O	punct	O	-1	O
+0	22	415	1949	1959	S	416	Komarovsky	Komarovsky	Komarovsky	NNP	PERSON	nn	O	3	O
+0	22	416	1960	1967	S	-1	returns	returns	return	NNS	O	null	O	-1	B-noun.communication
+0	22	417	1968	1971	S	416	and	and	and	CC	O	cc	O	-1	O
+0	22	418	1972	1977	S	416	urges	urges	urge	VBZ	O	conj	O	-1	B-verb.communication
+0	22	419	1978	1982	S	418	them	them	they	PRP	O	dobj	O	-1	O
+0	22	420	1983	1985	S	421	to	to	to	TO	O	aux	O	-1	O
+0	22	421	1986	1988	S	418	go	go	go	VB	O	xcomp	O	-1	B-verb.motion
+0	22	422	1989	1993	S	421	east	east	east	JJ	O	advmod	O	-1	O
+0	22	423	1994	1998	S	426	with	with	with	IN	O	mark	O	-1	O
+0	22	424	1999	2002	S	426	him	him	he	PRP	O	nsubj	O	3	O
+0	22	425	2003	2005	S	426	to	to	to	TO	O	aux	O	-1	O
+0	22	426	2006	2011	S	421	avoid	avoid	avoid	VB	O	advcl	O	-1	B-verb.social
+0	22	427	2012	2017	S	428	being	being	be	VBG	O	auxpass	O	-1	O
+0	22	428	2018	2024		426	killed	killed	kill	VBN	O	xcomp	O	-1	B-verb.contact
+0	22	429	2024	2025	S	416	.	.	.	.	O	punct	O	-1	O
+0	23	430	2026	2030		432	Yury	Yury	Yury	NNP	PERSON	poss	O	5	B-noun.person
+0	23	431	2030	2032	S	430	's	's	's	POS	O	possessive	O	-1	O
+0	23	432	2033	2039	S	435	family	family	family	NN	O	nsubj	O	-1	B-noun.group
+0	23	433	2040	2043	S	435	has	has	have	VBZ	O	aux	O	-1	O
+0	23	434	2044	2048	S	435	been	been	be	VBN	O	auxpass	O	-1	O
+0	23	435	2049	2055	S	-1	exiled	exiled	exile	VBN	O	null	O	-1	B-verb.social
+0	23	436	2056	2058	S	435	to	to	to	TO	O	prep	O	-1	O
+0	23	437	2059	2064		436	Paris	Paris	Paris	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	23	438	2064	2065	S	435	,	,	,	,	O	punct	O	-1	O
+0	23	439	2066	2069	S	435	and	and	and	CC	O	cc	O	-1	O
+0	23	440	2070	2072	S	442	he	he	he	PRP	O	nsubjpass	O	3	O
+0	23	441	2073	2075	S	442	is	is	be	VBZ	O	auxpass	O	-1	O
+0	23	442	2076	2084	S	435	promised	promised	promise	VBN	O	conj	O	-1	B-verb.communication
+0	23	443	2085	2088	S	444	the	the	the	DT	O	det	O	-1	O
+0	23	444	2089	2100	S	442	opportunity	opportunity	opportunity	NN	O	dobj	O	-1	B-noun.state
+0	23	445	2101	2103	S	446	to	to	to	TO	O	aux	O	-1	O
+0	23	446	2104	2108	S	444	join	join	join	VB	O	infmod	O	-1	B-verb.social
+0	23	447	2109	2113		446	them	them	they	PRP	O	dobj	O	-1	O
+0	23	448	2113	2114	S	435	.	.	.	.	O	punct	O	-1	O
+0	24	449	2115	2119	S	450	Yury	Yury	Yury	NNP	PERSON	nsubj	O	5	O
+0	24	450	2120	2126	S	-1	tricks	tricks	trick	NNS	O	null	O	-1	B-noun.act
+0	24	451	2127	2131	S	450	Lara	Lara	Lara	NNP	PERSON	dobj	O	2	O
+0	24	452	2132	2136	S	450	into	into	into	IN	O	prep	O	-1	O
+0	24	453	2137	2143	S	452	taking	taking	take	VBG	O	pcomp	O	-1	B-verb.social
+0	24	454	2144	2147	S	455	her	her	she	PRP$	O	poss	O	3	O
+0	24	455	2148	2156	S	453	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	24	456	2157	2160	S	453	and	and	and	CC	O	cc	O	-1	O
+0	24	457	2161	2166	S	453	going	going	go	VBG	O	conj	O	-1	B-verb.motion
+0	24	458	2167	2171	S	457	with	with	with	IN	O	prep	O	-1	O
+0	24	459	2172	2182		458	Komarovsky	Komarovsky	Komarovsky	NNP	PERSON	pobj	O	3	O
+0	24	460	2182	2183	S	450	,	,	,	,	O	punct	O	-1	O
+0	24	461	2184	2189	S	463	while	while	while	IN	O	mark	O	-1	O
+0	24	462	2190	2192	S	463	he	he	he	PRP	O	nsubj	O	3	O
+0	24	463	2193	2200	S	450	remains	remains	remain	VBZ	O	advcl	O	-1	B-verb.change
+0	24	464	2201	2203	S	463	at	at	at	IN	O	prep	O	-1	O
+0	24	465	2204	2212		464	Varykino	Varykino	Varykino	NNP	LOCATION	pobj	O	-1	O
+0	24	466	2212	2213	S	450	.	.	.	.	O	punct	O	-1	O
+0	25	467	2214	2218	S	468	Yury	Yury	Yury	NNP	PERSON	nsubj	O	5	B-noun.person
+0	25	468	2219	2226	S	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	25	469	2227	2229	S	468	to	to	to	TO	O	prep	O	-1	O
+0	25	470	2230	2236	S	469	Moscow	Moscow	Moscow	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	25	471	2237	2240	S	468	and	and	and	CC	O	cc	O	-1	O
+0	25	472	2241	2246	S	468	finds	finds	find	VBZ	O	conj	O	-1	B-verb.perception
+0	25	473	2247	2251		472	work	work	work	NN	O	dobj	O	-1	B-noun.act
+0	25	474	2251	2252	S	468	.	.	.	.	O	punct	O	-1	O
+0	26	475	2253	2255	S	476	He	He	he	PRP	O	nsubj	O	3	O
+0	26	476	2256	2262	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	26	477	2263	2269	S	476	living	living	live	VBG	O	xcomp	O	-1	B-verb.stative
+0	26	478	2270	2274	S	477	with	with	with	IN	O	prep	O	-1	O
+0	26	479	2275	2281		478	Marina	Marina	Marina	NNP	LOCATION	pobj	O	-1	O
+0	26	480	2281	2282	S	479	,	,	,	,	O	punct	O	-1	O
+0	26	481	2283	2286	S	482	the	the	the	DT	O	det	O	-1	O
+0	26	482	2287	2295	S	479	daughter	daughter	daughter	NN	O	appos	O	-1	B-noun.person
+0	26	483	2296	2298	S	482	of	of	of	IN	O	prep	O	-1	O
+0	26	484	2299	2300	S	486	a	a	a	DT	O	det	O	-1	O
+0	26	485	2301	2307	S	486	family	family	family	NN	O	nn	O	-1	B-noun.group
+0	26	486	2308	2314		483	friend	friend	friend	NN	O	pobj	O	-1	B-noun.person
+0	26	487	2314	2315	S	476	.	.	.	.	O	punct	O	-1	O
+0	27	488	2316	2318	S	491	He	He	he	PRP	O	nsubj	O	3	O
+0	27	489	2319	2322	S	488	and	and	and	CC	O	cc	O	-1	O
+0	27	490	2323	2329	S	488	Marina	Marina	Marina	NNP	LOCATION	conj	O	-1	B-noun.person
+0	27	491	2330	2334	S	-1	have	have	have	VBP	O	null	O	-1	B-verb.possession
+0	27	492	2335	2338	S	493	two	two	two	CD	NUMBER	num	O	-1	O
+0	27	493	2339	2347		491	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	27	494	2347	2348	S	491	.	.	.	.	O	punct	O	-1	O
+0	28	495	2349	2353		499	Yury	Yury	Yury	NNP	PERSON	poss	O	5	B-noun.person
+0	28	496	2353	2355	S	495	's	's	's	POS	O	possessive	O	-1	O
+0	28	497	2356	2359	S	499	old	old	old	JJ	O	amod	O	-1	O
+0	28	498	2360	2367	S	499	friends	friends	friend	NNS	O	nn	O	-1	B-noun.person
+0	28	499	2368	2373	S	502	Misha	Misha	Misha	NNP	PERSON	nsubj	O	0	I-noun.person
+0	28	500	2374	2377	S	499	and	and	and	CC	O	cc	O	-1	O
+0	28	501	2378	2383	S	499	Nicky	Nicky	Nicky	NNP	PERSON	conj	O	4	B-noun.person
+0	28	502	2384	2393	S	-1	encourage	encourage	encourage	VBP	O	null	O	-1	B-verb.social
+0	28	503	2394	2397	S	505	him	him	he	PRP	O	nsubj	O	0	O
+0	28	504	2398	2400	S	505	to	to	to	TO	O	aux	O	-1	O
+0	28	505	2401	2408	S	502	resolve	resolve	resolve	VB	O	xcomp	O	-1	B-verb.cognition
+0	28	506	2409	2412	S	508	his	his	he	PRP$	O	poss	O	0	O
+0	28	507	2413	2420	S	508	divided	divided	divided	JJ	O	amod	O	-1	O
+0	28	508	2421	2430	S	505	loyalties	loyalties	loyalty	NNS	O	dobj	O	-1	B-noun.attribute
+0	28	509	2431	2437	S	508	toward	toward	toward	IN	O	prep	O	-1	O
+0	28	510	2438	2443	S	509	Tonya	Tonya	Tonya	NNP	PERSON	pobj	O	6	B-noun.person
+0	28	511	2444	2447	S	510	and	and	and	CC	O	cc	O	-1	O
+0	28	512	2448	2454		510	Marina	Marina	Marina	NNP	LOCATION	conj	O	-1	O
+0	28	513	2454	2455	S	502	.	.	.	.	O	punct	O	-1	O
+0	29	514	2456	2458	S	515	He	He	he	PRP	O	nsubj	O	0	O
+0	29	515	2459	2464	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	29	516	2465	2466	S	518	a	a	a	DT	O	det	O	-1	O
+0	29	517	2467	2470	S	518	new	new	new	JJ	O	amod	O	-1	O
+0	29	518	2471	2474	S	515	job	job	job	NN	O	dobj	O	-1	B-noun.act
+0	29	519	2475	2478	S	515	but	but	but	CC	O	cc	O	-1	O
+0	29	520	2479	2481	S	515	on	on	on	IN	O	conj	O	-1	O
+0	29	521	2482	2485	S	522	the	the	the	DT	O	det	O	-1	O
+0	29	522	2486	2489	S	520	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	29	523	2490	2492	S	522	to	to	to	TO	O	prep	O	-1	O
+0	29	524	2493	2496	S	526	his	his	he	PRP$	O	poss	O	0	O
+0	29	525	2497	2502	S	526	first	first	first	JJ	DATE	amod	O	-1	O
+0	29	526	2503	2506	S	523	day	day	day	NN	DATE	tmod	O	-1	B-noun.time
+0	29	527	2507	2509	S	520	at	at	at	IN	O	dep	O	-1	O
+0	29	528	2510	2514	S	527	work	work	work	NN	O	pobj	O	-1	B-noun.act
+0	29	529	2515	2517	S	530	he	he	he	PRP	O	nsubj	O	0	O
+0	29	530	2518	2522	S	528	dies	dies	die	VBZ	O	rcmod	O	-1	B-verb.change
+0	29	531	2523	2525	S	530	of	of	of	IN	O	prep	O	-1	O
+0	29	532	2526	2527	S	534	a	a	a	DT	O	det	O	-1	O
+0	29	533	2528	2533	S	534	heart	heart	heart	NN	O	nn	O	-1	B-noun.state
+0	29	534	2534	2540		531	attack	attack	attack	NN	O	pobj	O	-1	I-noun.state
+0	29	535	2540	2541	S	515	.	.	.	.	O	punct	O	-1	O
+0	30	536	2542	2546	S	537	Lara	Lara	lara	NN	PERSON	nsubj	O	2	O
+0	30	537	2547	2552	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	30	538	2553	2555	S	537	to	to	to	TO	O	prep	O	-1	O
+0	30	539	2556	2559	S	540	the	the	the	DT	O	det	O	-1	O
+0	30	540	2560	2567	S	538	funeral	funeral	funeral	NN	O	pobj	O	-1	B-noun.event
+0	30	541	2568	2571	S	537	and	and	and	CC	O	cc	O	-1	O
+0	30	542	2572	2576	S	537	asks	asks	ask	VBZ	O	conj	O	-1	B-verb.communication
+0	30	543	2577	2581		545	Yury	Yury	Yury	NNP	PERSON	poss	O	5	B-noun.person
+0	30	544	2581	2583	S	543	's	's	's	POS	O	possessive	O	-1	O
+0	30	545	2584	2596		542	half-brother	half-brother	half-brother	NN	O	dobj	O	-1	O
+0	30	546	2596	2597	S	537	,	,	,	,	O	punct	O	-1	O
+0	30	547	2598	2599	S	548	a	a	a	DT	O	det	O	-1	O
+0	30	548	2600	2606		537	lawyer	lawyer	lawyer	NN	O	nsubj	O	-1	B-noun.person
+0	30	549	2606	2607	S	548	,	,	,	,	O	punct	O	-1	O
+0	30	550	2608	2610	S	552	if	if	if	IN	O	mark	O	-1	O
+0	30	551	2611	2616	S	552	there	there	there	EX	O	expl	O	-1	O
+0	30	552	2617	2619	S	548	is	is	be	VBZ	O	dep	O	-1	B-verb.stative
+0	30	553	2620	2623	S	554	any	any	any	DT	O	det	O	-1	O
+0	30	554	2624	2627	S	552	way	way	way	NN	O	nsubj	O	-1	B-noun.attribute
+0	30	555	2628	2630	S	556	to	to	to	TO	O	aux	O	-1	O
+0	30	556	2631	2636	S	554	track	track	track	VB	O	infmod	O	-1	B-verb.motion
+0	30	557	2637	2640	S	558	the	the	the	DT	O	det	O	-1	O
+0	30	558	2641	2649	S	556	location	location	location	NN	O	dobj	O	-1	B-noun.location
+0	30	559	2650	2652	S	558	of	of	of	IN	O	prep	O	-1	O
+0	30	560	2653	2654	S	561	a	a	a	DT	O	det	O	-1	O
+0	30	561	2655	2660	S	559	child	child	child	NN	O	pobj	O	-1	B-noun.person
+0	30	562	2661	2666	S	556	given	given	give	VBN	O	prep	O	-1	B-verb.possession
+0	30	563	2667	2671	S	562	away	away	away	RP	O	prt	O	-1	O
+0	30	564	2672	2674	S	562	to	to	to	TO	O	prep	O	-1	O
+0	30	565	2675	2684		564	strangers	strangers	stranger	NNS	O	pobj	O	-1	B-noun.person
+0	30	566	2684	2685	S	537	.	.	.	.	O	punct	O	-1	O
+0	31	567	2686	2689	S	568	She	She	she	PRP	O	nsubj	O	6	O
+0	31	568	2690	2695	S	-1	stays	stays	stay	VBZ	O	null	O	-1	B-verb.change
+0	31	569	2696	2699	S	568	for	for	for	IN	O	prep	O	-1	O
+0	31	570	2700	2707	S	571	several	several	several	JJ	DURATION	amod	O	-1	O
+0	31	571	2708	2712	S	569	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	31	572	2713	2716	S	568	and	and	and	CC	O	cc	O	-1	O
+0	31	573	2717	2721	S	568	then	then	then	RB	O	conj	O	-1	O
+0	31	574	2722	2732		573	disappears	disappears	disappear	VBZ	O	dep	O	-1	B-verb.change
+0	31	575	2732	2733	S	574	,	,	,	,	O	dobj	O	-1	O
+0	31	576	2734	2740	S	575	likely	likely	likely	JJ	O	acomp	O	-1	O
+0	31	577	2741	2746	S	576	dying	dying	die	VBG	O	xcomp	O	-1	B-verb.change
+0	31	578	2747	2749	S	577	in	in	in	IN	O	prep	O	-1	O
+0	31	579	2750	2751	S	581	a	a	a	DT	O	det	O	-1	O
+0	31	580	2752	2765	S	581	concentration	concentration	concentration	NN	O	nn	O	-1	B-noun.artifact
+0	31	581	2766	2770		578	camp	camp	camp	NN	O	pobj	O	-1	I-noun.artifact
+0	31	582	2770	2771	S	568	.	.	.	.	O	punct	O	-1	O
+0	32	583	2772	2777	S	584	Years	Years	year	NNS	DATE	dep	O	-1	B-noun.time
+0	32	584	2778	2783		590	later	later	later	RB	DATE	advmod	O	-1	O
+0	32	585	2783	2784	S	590	,	,	,	,	O	punct	O	-1	O
+0	32	586	2785	2790	S	590	Misha	Misha	Misha	NNP	PERSON	nsubj	O	0	B-noun.person
+0	32	587	2791	2794	S	586	and	and	and	CC	O	cc	O	-1	O
+0	32	588	2795	2800	S	586	Nicky	Nicky	Nicky	NNP	PERSON	conj	O	4	B-noun.person
+0	32	589	2801	2804	S	590	are	are	be	VBP	O	aux	O	-1	O
+0	32	590	2805	2813	S	-1	fighting	fighting	fight	VBG	O	null	O	-1	B-verb.competition
+0	32	591	2814	2816	S	590	in	in	in	IN	O	prep	O	-1	O
+0	32	592	2817	2822	S	594	World	World	World	NNP	MISC	nn	O	-1	B-noun.group
+0	32	593	2823	2826	S	594	War	War	War	NNP	MISC	nn	O	-1	I-noun.group
+0	32	594	2827	2829	S	591	II	II	II	NNP	MISC	pobj	O	-1	I-noun.group
+0	32	595	2830	2833	S	590	and	and	and	CC	O	cc	O	-1	O
+0	32	596	2834	2843	S	590	encounter	encounter	encounter	VB	O	conj	O	-1	B-verb.motion
+0	32	597	2844	2845	S	598	a	a	a	DT	O	det	O	-1	O
+0	32	598	2846	2858		596	laundry-girl	laundry-girl	laundry-girl	NN	O	dobj	O	-1	O
+0	32	599	2858	2859	S	598	,	,	,	,	O	punct	O	-1	O
+0	32	600	2860	2865		598	Tanya	Tanya	Tanya	NNP	PERSON	appos	O	-1	O
+0	32	601	2865	2866	S	598	,	,	,	,	O	punct	O	-1	O
+0	32	602	2867	2870	S	603	who	who	who	WP	O	nsubj	O	-1	O
+0	32	603	2871	2876	S	598	tells	tells	tell	VBZ	O	rcmod	O	-1	B-verb.communication
+0	32	604	2877	2881	S	603	them	them	they	PRP	O	dobj	O	-1	O
+0	32	605	2882	2885	S	607	her	her	she	PRP$	O	poss	O	-1	O
+0	32	606	2886	2890	S	607	life	life	life	NN	O	nn	O	-1	B-noun.communication
+0	32	607	2891	2896		603	story	story	story	NN	O	dobj	O	-1	I-noun.communication
+0	32	608	2896	2897	S	590	.	.	.	.	O	punct	O	-1	O
+0	33	609	2898	2902	S	610	They	They	they	PRP	O	nsubj	O	-1	O
+0	33	610	2903	2912	S	-1	determine	determine	determine	VBP	O	null	O	-1	B-verb.communication
+0	33	611	2913	2917	S	615	that	that	that	IN	O	complm	O	-1	O
+0	33	612	2918	2921	S	615	she	she	she	PRP	O	nsubj	O	-1	O
+0	33	613	2922	2924	S	615	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	33	614	2925	2928	S	615	the	the	the	DT	O	det	O	-1	O
+0	33	615	2929	2937	S	610	daughter	daughter	daughter	NN	O	ccomp	O	-1	B-noun.person
+0	33	616	2938	2940	S	615	of	of	of	IN	O	prep	O	-1	O
+0	33	617	2941	2945	S	616	Lara	Lara	Lara	NNP	PERSON	pobj	O	2	B-noun.person
+0	33	618	2946	2949	S	617	and	and	and	CC	O	cc	O	-1	O
+0	33	619	2950	2954		617	Yury	Yury	Yury	NNP	PERSON	conj	O	5	O
+0	33	620	2954	2955	N	610	.	.	.	.	O	punct	O	-1	O

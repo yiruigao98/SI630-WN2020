@@ -1,0 +1,515 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	2	S	11	By	By	by	IN	O	prep	O	-1	O
+0	0	1	3	5	S	3	S.	S.	S.	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	2	6	12	S	3	Clarke	Clarke	Clarke	NNP	PERSON	nn	O	-1	I-noun.person
+0	0	3	13	18		5	Hulse	Hulse	Hulse	NNP	PERSON	poss	O	-1	I-noun.person
+0	0	4	18	20	S	3	's	's	's	POS	O	possessive	O	-1	O
+0	0	5	21	26		0	count	count	count	NN	O	pobj	O	-1	B-noun.quantity
+0	0	6	26	27	S	11	,	,	,	,	O	punct	O	-1	O
+0	0	7	28	33	S	8	Titus	Titus	Titus	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	8	34	44	S	11	Andronicus	Andronicus	Andronicus	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	9	45	47	S	11	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	0	10	48	49	S	11	a	a	a	DT	O	det	O	-1	O
+0	0	11	50	54	S	-1	play	play	play	NN	O	null	O	-1	B-noun.communication
+0	0	12	55	59	S	11	with	with	with	IN	O	prep	O	-1	O
+0	0	13	60	61		15	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	0	14	61	63	S	15	14	14	14	CD	NUMBER	num	I-QUOTE	-1	O
+0	0	15	64	72		12	killings	killings	killing	NNS	O	pobj	I-QUOTE	-1	B-noun.event
+0	0	16	72	73	S	11	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	17	74	75	S	11	9	9	9	CD	NUMBER	appos	I-QUOTE	-1	O
+0	0	18	76	78	S	17	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	0	19	79	83	S	18	them	them	they	PRP	O	pobj	I-QUOTE	-1	O
+0	0	20	84	86	S	17	on	on	on	IN	O	prep	I-QUOTE	-1	O
+0	0	21	87	92		20	stage	stage	stage	NN	O	pobj	I-QUOTE	-1	B-noun.time
+0	0	22	92	93	S	11	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	23	94	95	S	24	6	6	6	CD	NUMBER	nsubj	I-QUOTE	-1	O
+0	0	24	96	103	S	11	severed	severed	sever	VBD	O	dep	I-QUOTE	-1	B-verb.contact
+0	0	25	104	111		24	members	members	member	NNS	O	dobj	I-QUOTE	-1	B-noun.person
+0	0	26	111	112	S	25	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	27	113	114	S	28	1	1	1	CD	NUMBER	num	I-QUOTE	-1	O
+0	0	28	115	119	S	25	rape	rape	rape	NN	O	appos	I-QUOTE	-1	O
+0	0	29	120	121		28	(	-LRB-	-lrb-	-LRB-	O	dep	I-QUOTE	-1	O
+0	0	30	121	123	S	29	or	or	or	CC	O	dep	I-QUOTE	-1	O
+0	0	31	124	125	S	30	2	2	2	CD	NUMBER	dep	I-QUOTE	-1	O
+0	0	32	126	128	S	31	or	or	or	CC	O	cc	I-QUOTE	-1	O
+0	0	33	129	130		31	3	3	3	CD	NUMBER	conj	I-QUOTE	-1	O
+0	0	34	130	131	S	29	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	35	132	141	S	24	depending	depending	depend	VBG	O	prep	I-QUOTE	-1	B-verb.stative
+0	0	36	142	144	S	35	on	on	on	IN	O	dep	I-QUOTE	-1	O
+0	0	37	145	148	S	39	how	how	how	WRB	O	advmod	I-QUOTE	-1	O
+0	0	38	149	152	S	39	you	you	you	PRP	O	nsubj	I-QUOTE	-1	O
+0	0	39	153	158		36	count	count	count	VBP	O	pcomp	I-QUOTE	-1	B-verb.communication
+0	0	40	158	159		39	)	-RRB-	-rrb-	-RRB-	O	advmod	I-QUOTE	-1	O
+0	0	41	159	160	S	11	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	42	161	162	S	44	1	1	1	CD	NUMBER	num	I-QUOTE	-1	O
+0	0	43	163	167	S	44	live	live	live	JJ	O	amod	I-QUOTE	-1	O
+0	0	44	168	174		11	burial	burial	burial	NN	O	conj	I-QUOTE	-1	B-noun.event
+0	0	45	174	175	S	11	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	46	176	177	S	47	1	1	1	CD	NUMBER	num	I-QUOTE	-1	O
+0	0	47	178	182	S	45	case	case	case	NN	O	dep	I-QUOTE	-1	B-noun.quantity
+0	0	48	183	185	S	47	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	0	49	186	194	S	48	insanity	insanity	insanity	NN	O	pobj	I-QUOTE	-1	B-noun.state
+0	0	50	195	198	S	47	and	and	and	CC	O	cc	I-QUOTE	-1	O
+0	0	51	199	200	S	47	1	1	1	CD	NUMBER	conj	I-QUOTE	-1	O
+0	0	52	201	203	S	51	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	0	53	204	215		52	cannibalism	cannibalism	cannibalism	NN	O	pobj	I-QUOTE	-1	B-noun.act
+0	0	54	215	217		47	--	--	--	:	O	punct	I-QUOTE	-1	O
+0	0	55	217	219	S	56	an	an	a	DT	O	det	I-QUOTE	-1	O
+0	0	56	220	227	S	47	average	average	average	NN	O	dep	I-QUOTE	-1	B-noun.cognition
+0	0	57	228	230	S	56	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	0	58	231	234	S	59	5.2	5.2	5.2	CD	NUMBER	num	I-QUOTE	-1	O
+0	0	59	235	245	S	57	atrocities	atrocities	atrocity	NNS	O	pobj	I-QUOTE	-1	B-noun.attribute
+0	0	60	246	249	S	59	per	per	per	IN	O	prep	I-QUOTE	-1	O
+0	0	61	250	253		60	act	act	act	NN	O	pobj	I-QUOTE	-1	B-noun.Tops
+0	0	62	253	254	S	47	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	63	255	257	S	47	or	or	or	CC	O	cc	I-QUOTE	-1	O
+0	0	64	258	261	S	47	one	one	one	CD	NUMBER	conj	I-QUOTE	-1	O
+0	0	65	262	265	S	64	for	for	for	IN	O	prep	I-QUOTE	-1	O
+0	0	66	266	271	S	68	every	every	every	DT	O	det	I-QUOTE	-1	O
+0	0	67	272	274	S	68	97	97	97	CD	NUMBER	num	I-QUOTE	-1	O
+0	0	68	275	280		65	lines	lines	line	NNS	O	pobj	I-QUOTE	-1	B-noun.communication
+0	0	69	280	281		11	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	0	70	281	282	S	11	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	1	71	283	291	S	74	Reviewer	Reviewer	Reviewer	NNP	O	nn	O	-1	B-noun.person
+0	1	72	292	296	S	74	Mike	Mike	Mike	NNP	PERSON	nn	O	-1	I-noun.person
+0	1	73	297	301	S	74	Gene	Gene	Gene	NNP	PERSON	nn	O	-1	I-noun.person
+0	1	74	302	309	S	75	Wallace	Wallace	Wallace	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	1	75	310	314		-1	adds	adds	add	VBZ	O	null	O	-1	B-verb.change
+0	1	76	314	315	S	75	,	,	,	,	O	punct	O	-1	O
+0	1	77	316	317		75	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	1	78	317	321	S	82	This	This	this	DT	O	nsubj	I-QUOTE	-1	O
+0	1	79	322	324	S	82	is	is	be	VBZ	O	cop	I-QUOTE	-1	B-verb.stative
+0	1	80	325	326	S	82	a	a	a	DT	O	det	I-QUOTE	-1	O
+0	1	81	327	332	S	82	great	great	great	JJ	O	amod	I-QUOTE	-1	O
+0	1	82	333	337		75	play	play	play	NN	O	ccomp	I-QUOTE	-1	B-noun.communication
+0	1	83	337	338	S	75	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	2	84	339	341		86	We	We	we	PRP	O	nsubj	I-QUOTE	-1	O
+0	2	85	341	344	S	86	're	're	be	VBP	O	aux	I-QUOTE	-1	O
+0	2	86	345	352	S	-1	talking	talking	talk	VBG	O	null	I-QUOTE	-1	B-verb.communication
+0	2	87	353	361	S	89	fourteen	fourteen	fourteen	CD	NUMBER	num	I-QUOTE	-1	O
+0	2	88	362	366	S	89	dead	dead	dead	JJ	O	amod	I-QUOTE	-1	O
+0	2	89	367	373		86	bodies	bodies	body	NNS	O	dobj	I-QUOTE	-1	B-noun.body
+0	2	90	373	374	S	89	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	91	375	382		89	kung-fu	kung-fu	kung-fu	NN	O	conj	I-QUOTE	-1	O
+0	2	92	382	383	S	89	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	93	384	392		89	sword-fu	sword-fu	sword-fu	NN	O	conj	I-QUOTE	-1	O
+0	2	94	392	393	S	89	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	95	394	402		89	spear-fu	spear-fu	spear-fu	NN	O	conj	I-QUOTE	-1	O
+0	2	96	402	403	S	89	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	97	404	413		89	dagger-fu	dagger-fu	dagger-fu	NN	O	conj	I-QUOTE	-1	O
+0	2	98	413	414	S	89	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	99	415	423		89	arrow-fu	arrow-fu	arrow-fu	NN	O	conj	I-QUOTE	-1	O
+0	2	100	423	424	S	89	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	101	425	431		89	pie-fu	pie-fu	pie-fu	NN	O	conj	I-QUOTE	-1	O
+0	2	102	431	432	S	89	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	103	433	439	S	104	animal	animal	animal	NN	O	nn	I-QUOTE	-1	B-noun.animal
+0	2	104	440	447	S	89	screams	screams	scream	NNS	O	appos	I-QUOTE	-1	B-noun.communication
+0	2	105	448	450	S	104	on	on	on	IN	O	prep	I-QUOTE	-1	O
+0	2	106	451	454	S	107	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	2	107	455	465		105	soundtrack	soundtrack	soundtrack	NN	O	pobj	I-QUOTE	-1	B-noun.artifact
+0	2	108	465	466	S	86	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	109	467	472	S	86	heads	heads	head	VBZ	O	conj	I-QUOTE	-1	B-verb.motion
+0	2	110	473	477		113	roll	roll	roll	NN	O	nn	I-QUOTE	-1	O
+0	2	111	477	478	S	113	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	112	479	484	S	113	hands	hands	hand	NNS	O	nsubj	I-QUOTE	-1	B-noun.body
+0	2	113	485	489		109	roll	roll	roll	VBP	O	dobj	I-QUOTE	-1	O
+0	2	114	489	490	S	113	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	115	491	498	S	116	tongues	tongues	tongue	NNS	O	nsubj	I-QUOTE	-1	B-noun.body
+0	2	116	499	503		113	roll	roll	roll	VBP	O	conj	I-QUOTE	-1	O
+0	2	117	503	504	S	116	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	118	505	509	S	116	nine	nine	nine	CD	NUMBER	conj	I-QUOTE	-1	O
+0	2	119	510	513	S	113	and	and	and	CC	O	cc	I-QUOTE	-1	O
+0	2	120	514	515	S	122	a	a	a	DT	O	det	I-QUOTE	-1	O
+0	2	121	516	520	S	122	half	half	half	NN	O	nn	I-QUOTE	-1	B-noun.quantity
+0	2	122	521	527	S	113	quarts	quarts	quart	NNS	O	conj	I-QUOTE	-1	B-noun.quantity
+0	2	123	528	530	S	122	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	2	124	531	536		123	blood	blood	blood	NN	O	pobj	I-QUOTE	-1	B-noun.body
+0	2	125	536	537	S	122	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	126	538	541	S	122	and	and	and	CC	O	cc	I-QUOTE	-1	O
+0	2	127	542	543	S	129	a	a	a	DT	O	det	I-QUOTE	-1	O
+0	2	128	544	559	S	129	record-breaking	record-breaking	record-breaking	JJ	O	amod	I-QUOTE	-1	O
+0	2	129	560	562	S	122	94	94	94	CD	NUMBER	conj	I-QUOTE	-1	O
+0	2	130	563	565	S	129	on	on	on	IN	O	prep	I-QUOTE	-1	O
+0	2	131	566	569	S	133	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	2	132	570	575	S	133	vomit	vomit	vomit	NN	O	nn	I-QUOTE	-1	B-noun.substance
+0	2	133	576	581		130	meter	meter	meter	NN	O	pobj	I-QUOTE	-1	O
+0	2	134	581	582		86	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	2	135	582	583	S	86	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	136	584	590		139	Really	Really	really	RB	O	advmod	O	-1	O
+0	3	137	590	591	S	139	,	,	,	,	O	punct	O	-1	O
+0	3	138	592	597		139	there	there	there	EX	O	expl	O	-1	O
+0	3	139	597	599	S	-1	's	's	be	VBZ	O	null	O	-1	O
+0	3	140	600	603	S	139	not	not	not	RB	O	neg	O	-1	O
+0	3	141	604	608	S	142	much	much	much	RB	O	advmod	O	-1	O
+0	3	142	609	613	S	139	more	more	more	JJR	O	dep	O	-1	O
+0	3	143	614	616	S	144	to	to	to	TO	O	aux	O	-1	O
+0	3	144	617	620		142	say	say	say	VB	O	infmod	O	-1	B-verb.communication
+0	3	145	620	621	S	139	;	;	;	:	O	punct	O	-1	O
+0	3	146	622	626	S	149	that	that	that	DT	O	nsubj	O	-1	O
+0	3	147	627	629	S	149	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	3	148	630	633	S	149	the	the	the	DT	O	det	O	-1	O
+0	3	149	634	641	S	139	essence	essence	essence	NN	O	parataxis	O	-1	B-noun.cognition
+0	3	150	642	644	S	149	of	of	of	IN	O	prep	O	-1	O
+0	3	151	645	648	S	152	the	the	the	DT	O	det	O	-1	O
+0	3	152	649	653		150	play	play	play	NN	O	pobj	O	-1	B-noun.communication
+0	3	153	653	654	S	139	.	.	.	.	O	punct	O	-1	O
+0	4	154	655	660	S	155	Titus	Titus	Titus	NNP	O	nn	O	-1	B-noun.person
+0	4	155	661	671	S	160	Andronicus	Andronicus	Andronicus	NNP	O	nsubj	O	-1	I-noun.person
+0	4	156	672	674	S	160	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	157	675	676	S	160	a	a	a	DT	O	det	O	-1	O
+0	4	158	677	685	S	160	non-stop	non-stop	non-stop	JJ	O	amod	O	-1	O
+0	4	159	686	695	S	160	potboiler	potboiler	potboiler	NN	O	nn	O	-1	B-noun.communication
+0	4	160	696	703	S	-1	catalog	catalog	catalog	NN	O	null	O	-1	B-noun.communication
+0	4	161	704	706	S	160	of	of	of	IN	O	prep	O	-1	O
+0	4	162	707	719	S	161	abominations	abominations	abomination	NNS	O	pobj	O	-1	B-noun.person
+0	4	163	720	721		160	(	-LRB-	-lrb-	-LRB-	O	prep	O	-1	O
+0	4	164	721	725	S	163	with	with	with	IN	O	prep	O	-1	O
+0	4	165	726	729	S	166	the	the	the	DT	O	det	O	-1	O
+0	4	166	730	736	S	164	poetry	poetry	poetry	NN	O	pobj	O	-1	B-noun.communication
+0	4	167	737	743	S	168	itself	itself	itself	PRP	O	nsubj	O	-1	O
+0	4	168	744	751	S	166	counted	counted	count	VBN	O	rcmod	O	-1	B-verb.communication
+0	4	169	752	754	S	168	as	as	as	IN	O	prep	O	-1	O
+0	4	170	755	756	S	171	a	a	a	DT	O	det	O	-1	O
+0	4	171	757	762	S	169	crime	crime	crime	NN	O	pobj	O	-1	B-noun.act
+0	4	172	763	765	S	171	by	by	by	IN	O	prep	O	-1	O
+0	4	173	766	770	S	174	many	many	many	JJ	O	amod	O	-1	O
+0	4	174	771	778		172	critics	critics	critic	NNS	O	pobj	O	-1	B-noun.person
+0	4	175	778	779		174	)	-RRB-	-rrb-	-RRB-	O	dep	O	-1	O
+0	4	176	779	780	S	160	.	.	.	.	O	punct	O	-1	O
+0	5	177	781	786	S	178	Titus	Titus	Titus	NNP	O	nn	O	-1	B-noun.person
+0	5	178	787	797		183	Andronicus	Andronicus	Andronicus	NNP	O	nsubj	O	-1	I-noun.person
+0	5	179	797	798	S	178	,	,	,	,	O	punct	O	-1	O
+0	5	180	799	804	S	178	Roman	Roman	Roman	NNP	MISC	appos	O	-1	O
+0	5	181	805	812		180	general	general	general	JJ	O	amod	O	-1	O
+0	5	182	812	813	S	178	,	,	,	,	O	punct	O	-1	O
+0	5	183	814	821	S	-1	returns	returns	return	NNS	O	null	O	-1	B-noun.communication
+0	5	184	822	826	S	183	from	from	from	IN	O	prep	O	-1	O
+0	5	185	827	830	S	186	ten	ten	ten	CD	DURATION	num	O	-1	O
+0	5	186	831	836	S	184	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	5	187	837	839	S	186	of	of	of	IN	O	prep	O	-1	O
+0	5	188	840	843	S	187	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	5	189	844	848	S	196	with	with	with	IN	O	mark	O	-1	O
+0	5	190	849	853	S	191	only	only	only	JJ	O	quantmod	O	-1	O
+0	5	191	854	858	S	196	four	four	four	CD	NUMBER	nsubj	O	-1	O
+0	5	192	859	862	S	191	out	out	out	IN	O	prep	O	-1	O
+0	5	193	863	865	S	192	of	of	of	IN	O	dep	O	-1	O
+0	5	194	866	877	S	195	twenty-five	twenty-five	twenty-five	CD	NUMBER	num	O	-1	O
+0	5	195	878	882	S	193	sons	sons	son	NNS	O	pobj	O	-1	B-noun.person
+0	5	196	883	887		183	left	left	leave	VBD	O	advcl	O	-1	B-verb.motion
+0	5	197	887	888	S	183	.	.	.	.	O	punct	O	-1	O
+0	6	198	889	891	S	200	He	He	he	PRP	O	nsubj	O	-1	O
+0	6	199	892	895	S	200	has	has	have	VBZ	O	aux	O	-1	O
+0	6	200	896	904	S	-1	captured	captured	capture	VBN	O	null	O	-1	B-verb.contact
+0	6	201	905	911		203	Tamora	Tamora	Tamora	NNP	PERSON	dep	O	0	O
+0	6	202	911	912	S	201	,	,	,	,	O	punct	O	-1	O
+0	6	203	913	918	S	200	Queen	Queen	Queen	NNP	PERSON	dobj	O	-1	B-noun.person
+0	6	204	919	921	S	203	of	of	of	IN	PERSON	prep	O	-1	O
+0	6	205	922	925	S	206	the	the	the	DT	PERSON	det	O	-1	O
+0	6	206	926	931		204	Goths	Goths	Goths	NNP	PERSON	pobj	O	-1	B-noun.person
+0	6	207	931	932	S	203	,	,	,	,	O	punct	O	-1	O
+0	6	208	933	936	S	210	her	her	she	PRP$	O	poss	O	-1	O
+0	6	209	937	942	S	210	three	three	three	CD	NUMBER	num	O	-1	O
+0	6	210	943	947		203	sons	sons	son	NNS	O	conj	O	-1	B-noun.person
+0	6	211	947	948	S	200	,	,	,	,	O	punct	O	-1	O
+0	6	212	949	952	S	200	and	and	and	CC	O	cc	O	-1	O
+0	6	213	953	958	S	200	Aaron	Aaron	Aaron	NNP	PERSON	conj	O	1	B-noun.person
+0	6	214	959	962	S	215	the	the	the	DT	O	det	O	-1	O
+0	6	215	963	967		213	Moor	Moor	Moor	NNP	O	nsubj	O	-1	B-noun.person
+0	6	216	967	968	S	200	.	.	.	.	O	punct	O	-1	O
+0	7	217	969	971	S	224	In	In	in	IN	O	prep	O	-1	O
+0	7	218	972	981	S	217	obedience	obedience	obedience	NN	O	pobj	O	-1	B-noun.act
+0	7	219	982	984	S	217	to	to	to	TO	O	dep	O	-1	O
+0	7	220	985	990	S	221	Roman	Roman	Roman	NNP	MISC	nn	O	-1	B-noun.group
+0	7	221	991	998		219	rituals	rituals	ritual	NNS	O	pobj	O	-1	B-noun.act
+0	7	222	998	999	S	224	,	,	,	,	O	punct	O	-1	O
+0	7	223	1000	1002	S	224	he	he	he	PRP	O	nsubj	O	-1	O
+0	7	224	1003	1013	S	-1	sacrifices	sacrifices	sacrifice	VBZ	O	null	O	-1	B-verb.possession
+0	7	225	1014	1017	S	227	her	her	she	PRP$	O	poss	O	-1	O
+0	7	226	1018	1024	S	227	eldest	eldest	eldest	JJ	O	amod	O	-1	O
+0	7	227	1025	1028	S	224	son	son	son	NN	O	dobj	O	-1	B-noun.person
+0	7	228	1029	1031	S	224	to	to	to	TO	O	prep	O	-1	O
+0	7	229	1032	1035	S	232	his	his	he	PRP$	O	poss	O	-1	O
+0	7	230	1036	1039	S	232	own	own	own	JJ	O	amod	O	-1	O
+0	7	231	1040	1044	S	232	dead	dead	dead	JJ	O	amod	O	-1	O
+0	7	232	1045	1049		228	sons	sons	son	NNS	O	pobj	O	-1	B-noun.person
+0	7	233	1049	1050	S	232	,	,	,	,	O	punct	O	-1	O
+0	7	234	1051	1056	S	235	which	which	which	WDT	O	nsubj	O	-1	O
+0	7	235	1057	1062	S	232	earns	earns	earn	VBZ	O	rcmod	O	-1	B-verb.possession
+0	7	236	1063	1066	S	240	him	him	he	PRP	O	nsubj	O	-1	O
+0	7	237	1067	1073		240	Tamora	Tamora	Tamora	NNP	PERSON	poss	O	0	B-noun.person
+0	7	238	1073	1075	S	237	's	's	's	POS	O	possessive	O	-1	O
+0	7	239	1076	1084	S	240	unending	unending	unending	JJ	O	amod	O	-1	O
+0	7	240	1085	1091	S	235	hatred	hatred	hatred	NN	O	xcomp	O	-1	B-noun.feeling
+0	7	241	1092	1095	S	240	and	and	and	CC	O	cc	O	-1	O
+0	7	242	1096	1099	S	243	her	her	she	PRP$	O	poss	O	-1	O
+0	7	243	1100	1107	S	240	promise	promise	promise	NN	O	conj	O	-1	B-noun.communication
+0	7	244	1108	1110	S	243	of	of	of	IN	O	prep	O	-1	O
+0	7	245	1111	1118		244	revenge	revenge	revenge	NN	O	pobj	O	-1	B-noun.act
+0	7	246	1118	1119	S	224	.	.	.	.	O	punct	O	-1	O
+0	8	247	1120	1126	S	249	Tamora	Tamora	Tamora	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	8	248	1127	1129	S	249	is	is	be	VBZ	O	auxpass	O	-1	O
+0	8	249	1130	1134	S	-1	made	made	make	VBN	O	null	O	-1	B-verb.social
+0	8	250	1135	1142	S	249	empress	empress	empress	NN	O	dobj	O	-1	B-noun.person
+0	8	251	1143	1145	S	250	by	by	by	IN	O	prep	O	-1	O
+0	8	252	1146	1149	S	255	the	the	the	DT	O	det	O	-1	O
+0	8	253	1150	1153	S	255	new	new	new	JJ	O	amod	O	-1	O
+0	8	254	1154	1161	S	255	emperor	emperor	emperor	NN	O	nn	O	-1	B-noun.person
+0	8	255	1162	1172		251	Saturninus	Saturninus	Saturninus	NNP	PERSON	pobj	O	-1	I-noun.person
+0	8	256	1172	1173	S	249	.	.	.	.	O	punct	O	-1	O
+0	9	257	1174	1176	S	258	To	To	to	TO	O	aux	O	-1	O
+0	9	258	1177	1180	S	264	get	get	get	VB	O	dep	O	-1	B-verb.motion
+0	9	259	1181	1185	S	258	back	back	back	RB	O	advmod	O	-1	O
+0	9	260	1186	1188	S	258	at	at	at	IN	O	prep	O	-1	O
+0	9	261	1189	1194		260	Titus	Titus	Titus	NNP	O	pobj	O	-1	B-noun.person
+0	9	262	1194	1195	S	264	,	,	,	,	O	punct	O	-1	O
+0	9	263	1196	1199	S	264	she	she	she	PRP	O	nsubj	O	-1	O
+0	9	264	1200	1207	S	-1	schemes	schemes	scheme	NNS	O	null	O	-1	B-noun.cognition
+0	9	265	1208	1212	S	264	with	with	with	IN	O	prep	O	-1	O
+0	9	266	1213	1216	S	267	her	her	she	PRP$	O	poss	O	-1	O
+0	9	267	1217	1222	S	265	lover	lover	lover	NN	O	pobj	O	-1	B-noun.person
+0	9	268	1223	1228	S	267	Aaron	Aaron	Aaron	NNP	PERSON	dep	O	1	B-noun.person
+0	9	269	1229	1231	S	270	to	to	to	TO	O	aux	O	-1	O
+0	9	270	1232	1236	S	267	have	have	have	VB	O	infmod	O	-1	B-verb.possession
+0	9	271	1237	1242		274	Titus	Titus	Titus	NNP	PERSON	poss	O	3	B-noun.person
+0	9	272	1242	1244	S	271	's	's	's	POS	O	possessive	O	-1	O
+0	9	273	1245	1248	S	274	two	two	two	CD	NUMBER	num	O	-1	O
+0	9	274	1249	1253	S	270	sons	sons	son	NNS	O	dobj	O	-1	B-noun.person
+0	9	275	1254	1260	S	274	framed	framed	frame	VBN	O	partmod	O	-1	B-verb.contact
+0	9	276	1261	1264	S	275	for	for	for	IN	O	prep	O	-1	O
+0	9	277	1265	1268	S	278	the	the	the	DT	O	det	O	-1	O
+0	9	278	1269	1275	S	276	murder	murder	murder	NN	O	pobj	O	-1	B-noun.act
+0	9	279	1276	1278	S	278	of	of	of	IN	O	prep	O	-1	O
+0	9	280	1279	1288		279	Bassianus	Bassianus	Bassianus	NNP	PERSON	pobj	O	-1	O
+0	9	281	1288	1289	S	280	,	,	,	,	O	punct	O	-1	O
+0	9	282	1290	1293	S	283	the	the	the	DT	O	det	O	-1	O
+0	9	283	1294	1301		285	emperor	emperor	emperor	NN	O	poss	O	-1	B-noun.person
+0	9	284	1301	1303	S	283	's	's	's	POS	O	possessive	O	-1	O
+0	9	285	1304	1311		280	brother	brother	brother	NN	O	appos	O	-1	B-noun.person
+0	9	286	1311	1312	S	264	.	.	.	.	O	punct	O	-1	O
+0	10	287	1313	1318		289	Titus	Titus	Titus	NNP	O	poss	O	-1	B-noun.person
+0	10	288	1318	1320	S	287	's	's	's	POS	O	possessive	O	-1	O
+0	10	289	1321	1325	S	291	sons	sons	son	NNS	O	nsubjpass	O	-1	B-noun.person
+0	10	290	1326	1329	S	291	are	are	be	VBP	O	auxpass	O	-1	O
+0	10	291	1330	1338		-1	beheaded	beheaded	behead	VBN	O	null	O	-1	B-verb.contact
+0	10	292	1338	1339	S	291	.	.	.	.	O	punct	O	-1	O
+0	11	293	1340	1350		296	Unappeased	Unappeased	unappeased	JJ	O	ccomp	O	-1	O
+0	11	294	1350	1351	S	296	,	,	,	,	O	punct	O	-1	O
+0	11	295	1352	1355	S	296	she	she	she	PRP	O	nsubj	O	-1	O
+0	11	296	1356	1361	S	-1	urges	urges	urge	VBZ	O	null	O	-1	B-verb.communication
+0	11	297	1362	1365	S	299	her	her	she	PRP$	O	poss	O	-1	O
+0	11	298	1366	1370	S	299	sons	sons	son	NNS	O	nn	O	-1	B-noun.person
+0	11	299	1371	1377	S	296	Chiron	Chiron	Chiron	NNP	ORGANIZATION	dobj	O	-1	B-noun.person
+0	11	300	1378	1381	S	299	and	and	and	CC	O	cc	O	-1	O
+0	11	301	1382	1391	S	299	Demetrius	Demetrius	Demetrius	NNP	PERSON	conj	O	-1	B-noun.person
+0	11	302	1392	1394	S	296	to	to	to	TO	O	prep	O	-1	O
+0	11	303	1395	1399	S	304	rape	rape	rape	NN	O	nn	O	-1	B-noun.plant
+0	11	304	1400	1405		307	Titus	Titus	Titus	NNP	O	poss	O	-1	B-noun.person
+0	11	305	1405	1407	S	304	's	's	's	POS	O	possessive	O	-1	O
+0	11	306	1408	1416	S	307	daughter	daughter	daughter	NN	O	nn	O	-1	B-noun.person
+0	11	307	1417	1424		302	Lavinia	Lavinia	Lavinia	NNP	PERSON	pobj	O	4	O
+0	11	308	1424	1425	S	307	,	,	,	,	O	punct	O	-1	O
+0	11	309	1426	1431	S	296	after	after	after	IN	O	prep	O	-1	O
+0	11	310	1432	1437	S	312	which	which	which	WDT	O	dobj	O	-1	O
+0	11	311	1438	1442	S	312	they	they	they	PRP	O	nsubj	O	-1	O
+0	11	312	1443	1446	S	309	cut	cut	cut	VBD	O	pcomp	O	-1	B-verb.communication
+0	11	313	1447	1450	S	312	off	off	off	RP	O	prt	O	-1	O
+0	11	314	1451	1454	S	315	her	her	she	PRP$	O	poss	O	4	O
+0	11	315	1455	1460	S	312	hands	hands	hand	NNS	O	dobj	O	-1	B-noun.body
+0	11	316	1461	1464	S	312	and	and	and	CC	O	cc	O	-1	O
+0	11	317	1465	1471	S	312	tongue	tongue	tongue	NN	O	conj	O	-1	B-noun.body
+0	11	318	1472	1474	S	322	so	so	so	IN	O	mark	O	-1	O
+0	11	319	1475	1478	S	322	she	she	she	PRP	O	nsubj	O	4	O
+0	11	320	1479	1482		322	can	can	can	MD	O	aux	O	-1	O
+0	11	321	1482	1485	S	322	not	not	not	RB	O	neg	O	-1	O
+0	11	322	1486	1490	S	317	give	give	give	VB	O	ccomp	O	-1	B-verb.possession
+0	11	323	1491	1496	S	324	their	their	they	PRP$	O	poss	O	-1	O
+0	11	324	1497	1502	S	322	crime	crime	crime	NN	O	dobj	O	-1	B-noun.act
+0	11	325	1503	1507		322	away	away	away	RB	O	advmod	O	-1	O
+0	11	326	1507	1508	S	296	.	.	.	.	O	punct	O	-1	O
+0	12	327	1509	1516		337	Finally	Finally	finally	RB	O	advmod	O	-1	O
+0	12	328	1516	1517	S	337	,	,	,	,	O	punct	O	-1	O
+0	12	329	1518	1522	S	330	even	even	even	RB	O	advmod	O	-1	O
+0	12	330	1523	1528		335	Titus	Titus	Titus	NNP	PERSON	poss	O	3	B-noun.person
+0	12	331	1528	1530	S	330	's	's	's	POS	O	possessive	O	-1	O
+0	12	332	1531	1535	S	335	last	last	last	JJ	O	amod	O	-1	O
+0	12	333	1536	1545	S	335	surviving	surviving	survive	VBG	O	amod	O	-1	B-verb.stative
+0	12	334	1546	1549	S	335	son	son	son	NN	O	nn	O	-1	B-noun.person
+0	12	335	1550	1556	S	337	Lucius	Lucius	Lucius	NNP	PERSON	nsubjpass	O	2	I-noun.person
+0	12	336	1557	1559	S	337	is	is	be	VBZ	O	auxpass	O	-1	O
+0	12	337	1560	1568	S	-1	banished	banished	banish	VBN	O	null	O	-1	B-verb.social
+0	12	338	1569	1573	S	337	from	from	from	IN	O	prep	O	-1	O
+0	12	339	1574	1578		338	Rome	Rome	Rome	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	12	340	1578	1579	S	337	;	;	;	:	O	punct	O	-1	O
+0	12	341	1580	1582	S	343	he	he	he	PRP	O	nsubj	O	2	O
+0	12	342	1583	1595	S	343	subsequently	subsequently	subsequently	RB	O	advmod	O	-1	O
+0	12	343	1596	1601	S	337	seeks	seeks	seek	VBZ	O	parataxis	O	-1	B-verb.possession
+0	12	344	1602	1610	S	343	alliance	alliance	alliance	NN	O	dobj	O	-1	B-noun.state
+0	12	345	1611	1615	S	344	with	with	with	IN	O	prep	O	-1	O
+0	12	346	1616	1619	S	348	the	the	the	DT	O	det	O	-1	O
+0	12	347	1620	1625	S	348	enemy	enemy	enemy	NN	O	nn	O	-1	B-noun.group
+0	12	348	1626	1631	S	345	Goths	Goths	goth	NNS	O	pobj	O	-1	B-noun.person
+0	12	349	1632	1634	S	337	in	in	in	IN	O	prep	O	-1	O
+0	12	350	1635	1640	S	349	order	order	order	NN	O	pobj	O	-1	B-noun.state
+0	12	351	1641	1643	S	350	to	to	to	TO	O	prep	O	-1	O
+0	12	352	1644	1650	S	353	attack	attack	attack	NN	O	nn	O	-1	B-noun.act
+0	12	353	1651	1655		351	Rome	Rome	Rome	NNP	LOCATION	pobj	O	-1	O
+0	12	354	1655	1656	S	337	.	.	.	.	O	punct	O	-1	O
+0	13	355	1657	1661	S	357	Each	Each	each	DT	O	det	O	-1	O
+0	13	356	1662	1665	S	357	new	new	new	JJ	O	amod	O	-1	O
+0	13	357	1666	1676	S	358	misfortune	misfortune	misfortune	NN	O	nsubj	O	-1	B-noun.event
+0	13	358	1677	1681	S	-1	hits	hits	hit	VBZ	O	null	O	-1	B-verb.contact
+0	13	359	1682	1685	S	363	the	the	the	DT	O	det	O	-1	O
+0	13	360	1686	1690		363	aged	aged	aged	JJ	O	amod	O	-1	O
+0	13	361	1690	1691	S	363	,	,	,	,	O	punct	O	-1	O
+0	13	362	1692	1697	S	363	tired	tired	tired	JJ	O	amod	O	-1	O
+0	13	363	1698	1703	S	358	Titus	Titus	Titus	NNP	MISC	dobj	O	-1	B-noun.person
+0	13	364	1704	1708	S	358	with	with	with	IN	O	prep	O	-1	O
+0	13	365	1709	1716	S	366	heavier	heavier	heavier	JJR	O	amod	O	-1	O
+0	13	366	1717	1723		364	impact	impact	impact	NN	O	pobj	O	-1	B-noun.event
+0	13	367	1723	1724	S	358	.	.	.	.	O	punct	O	-1	O
+0	14	368	1725	1735		371	Eventually	Eventually	eventually	RB	O	advmod	O	-1	O
+0	14	369	1735	1736	S	371	,	,	,	,	O	punct	O	-1	O
+0	14	370	1737	1739	S	371	he	he	he	PRP	O	nsubj	O	-1	O
+0	14	371	1740	1746	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	14	372	1747	1749	S	373	to	to	to	TO	O	aux	O	-1	O
+0	14	373	1750	1753	S	371	act	act	act	VB	O	xcomp	O	-1	B-verb.social
+0	14	374	1754	1759	S	373	oddly	oddly	oddly	RB	O	advmod	O	-1	O
+0	14	375	1760	1763	S	371	and	and	and	CC	O	cc	O	-1	O
+0	14	376	1764	1772	S	377	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	14	377	1773	1780	S	371	assumes	assumes	assume	VBZ	O	conj	O	-1	B-verb.cognition
+0	14	378	1781	1785	S	381	that	that	that	IN	O	complm	O	-1	O
+0	14	379	1786	1788	S	381	he	he	he	PRP	O	nsubj	O	-1	O
+0	14	380	1789	1791	S	381	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	14	381	1792	1797		377	crazy	crazy	crazy	JJ	O	ccomp	O	-1	O
+0	14	382	1797	1798	S	371	.	.	.	.	O	punct	O	-1	O
+0	15	383	1799	1805	S	384	Tamora	Tamora	Tamora	NNP	PERSON	nsubj	O	0	B-noun.person
+0	15	384	1806	1811	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	15	385	1812	1814	S	386	to	to	to	TO	O	aux	O	-1	O
+0	15	386	1815	1825	S	384	capitalize	capitalize	capitalize	VB	O	xcomp	O	-1	B-verb.possession
+0	15	387	1826	1828	S	386	on	on	on	IN	O	prep	O	-1	O
+0	15	388	1829	1832	S	390	his	his	he	PRP$	O	poss	O	-1	O
+0	15	389	1833	1840	S	390	seeming	seeming	seeming	JJ	O	amod	O	-1	O
+0	15	390	1841	1848	S	387	madness	madness	madness	NN	O	pobj	O	-1	B-noun.state
+0	15	391	1849	1851	S	386	by	by	by	IN	O	prep	O	-1	O
+0	15	392	1852	1862	S	391	pretending	pretending	pretend	VBG	O	pcomp	O	-1	B-verb.communication
+0	15	393	1863	1865	S	396	to	to	to	TO	O	aux	O	-1	O
+0	15	394	1866	1868	S	396	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	15	395	1869	1872	S	396	the	the	the	DT	O	det	O	-1	O
+0	15	396	1873	1879	S	392	figure	figure	figure	NN	O	xcomp	O	-1	B-noun.communication
+0	15	397	1880	1882	S	396	of	of	of	IN	O	prep	O	-1	O
+0	15	398	1883	1890		397	Revenge	Revenge	revenge	NN	MISC	pobj	O	-1	B-noun.act
+0	15	399	1890	1891	S	396	,	,	,	,	O	punct	O	-1	O
+0	15	400	1892	1896	S	396	come	come	come	VBN	O	partmod	O	-1	B-verb.motion
+0	15	401	1897	1899	S	402	to	to	to	TO	O	aux	O	-1	O
+0	15	402	1900	1905	S	400	offer	offer	offer	VB	O	xcomp	O	-1	B-verb.possession
+0	15	403	1906	1909	S	402	him	him	he	PRP	O	iobj	O	-1	O
+0	15	404	1910	1917	S	402	justice	justice	justice	NN	O	dobj	O	-1	B-noun.attribute
+0	15	405	1918	1920	S	409	if	if	if	IN	O	mark	O	-1	O
+0	15	406	1921	1926	S	409	Titus	Titus	Titus	NNP	PERSON	nsubj	O	3	B-noun.person
+0	15	407	1927	1931	S	409	will	will	will	MD	O	aux	O	-1	O
+0	15	408	1932	1936	S	409	only	only	only	RB	O	advmod	O	-1	O
+0	15	409	1937	1945	S	402	convince	convince	convince	VB	O	advcl	O	-1	B-verb.communication
+0	15	410	1946	1952	S	412	Lucius	Lucius	Lucius	NNP	PERSON	nsubj	O	2	B-noun.person
+0	15	411	1953	1955	S	412	to	to	to	TO	O	aux	O	-1	O
+0	15	412	1956	1961	S	409	cease	cease	cease	VB	O	ccomp	O	-1	O
+0	15	413	1962	1971	S	412	attacking	attacking	attack	VBG	O	xcomp	O	-1	B-verb.competition
+0	15	414	1972	1976		413	Rome	Rome	Rome	NNP	LOCATION	dobj	O	-1	B-noun.group
+0	15	415	1976	1977	S	384	.	.	.	.	O	punct	O	-1	O
+0	16	416	1978	1983		428	Titus	Titus	Titus	NNP	O	nsubj	O	-1	B-noun.person
+0	16	417	1983	1984	S	428	,	,	,	,	O	punct	O	-1	O
+0	16	418	1985	1991	S	419	having	having	have	VBG	O	aux	O	-1	O
+0	16	419	1992	1999	S	428	feigned	feigned	feign	VBN	O	dep	O	-1	B-verb.communication
+0	16	420	2000	2003	S	421	his	his	he	PRP$	O	poss	O	-1	O
+0	16	421	2004	2011	S	419	madness	madness	madness	NN	O	dobj	O	-1	B-noun.state
+0	16	422	2012	2015	S	423	all	all	all	DT	O	dep	O	-1	O
+0	16	423	2016	2021		421	along	along	along	IN	O	advmod	O	-1	O
+0	16	424	2021	2022	S	428	,	,	,	,	O	punct	O	-1	O
+0	16	425	2023	2029	S	428	tricks	tricks	trick	NNS	O	ccomp	O	-1	B-noun.act
+0	16	426	2030	2033		425	her	her	she	PRP$	O	poss	O	-1	O
+0	16	427	2033	2034	S	428	,	,	,	,	O	punct	O	-1	O
+0	16	428	2035	2043	S	-1	captures	captures	capture	VBZ	O	null	O	-1	B-verb.contact
+0	16	429	2044	2047	S	430	her	her	she	PRP$	O	poss	O	-1	O
+0	16	430	2048	2052		428	sons	sons	son	NNS	O	dobj	O	-1	O
+0	16	431	2052	2053	S	428	,	,	,	,	O	punct	O	-1	O
+0	16	432	2054	2059	S	428	kills	kills	kill	VBZ	O	conj	O	-1	B-verb.contact
+0	16	433	2060	2064		432	them	them	they	PRP	O	dobj	O	-1	O
+0	16	434	2064	2065	S	428	,	,	,	,	O	punct	O	-1	O
+0	16	435	2066	2069	S	428	and	and	and	CC	O	cc	O	-1	O
+0	16	436	2070	2075	S	428	makes	makes	make	VBZ	O	conj	O	-1	B-verb.change
+0	16	437	2076	2079	S	436	pie	pie	pie	NN	O	dobj	O	-1	B-noun.food
+0	16	438	2080	2083	S	436	out	out	out	IN	O	prep	O	-1	O
+0	16	439	2084	2086	S	438	of	of	of	IN	O	dep	O	-1	O
+0	16	440	2087	2091		439	them	them	they	PRP	O	pobj	O	-1	O
+0	16	441	2091	2092	S	428	.	.	.	.	O	punct	O	-1	O
+0	17	442	2093	2095	S	443	He	He	he	PRP	O	nsubj	O	-1	O
+0	17	443	2096	2101	S	-1	feeds	feeds	feed	VBZ	O	null	O	-1	B-verb.consumption
+0	17	444	2102	2106	S	445	this	this	this	DT	O	det	O	-1	O
+0	17	445	2107	2110	S	443	pie	pie	pie	NN	O	dobj	O	-1	B-noun.food
+0	17	446	2111	2113	S	443	to	to	to	TO	O	prep	O	-1	O
+0	17	447	2114	2119	S	448	their	their	they	PRP$	O	poss	O	-1	O
+0	17	448	2120	2126	S	446	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	17	449	2127	2129	S	443	in	in	in	IN	O	prep	O	-1	O
+0	17	450	2130	2133	S	452	the	the	the	DT	O	det	O	-1	O
+0	17	451	2134	2139	S	452	final	final	final	JJ	O	amod	O	-1	O
+0	17	452	2140	2145		449	scene	scene	scene	NN	O	pobj	O	-1	B-noun.communication
+0	17	453	2145	2146	S	452	,	,	,	,	O	punct	O	-1	O
+0	17	454	2147	2152	S	457	after	after	after	IN	O	rel	O	-1	O
+0	17	455	2153	2158	S	454	which	which	which	WDT	O	pobj	O	-1	O
+0	17	456	2159	2161	S	457	he	he	he	PRP	O	nsubj	O	-1	O
+0	17	457	2162	2167	S	452	kills	kills	kill	VBZ	O	rcmod	O	-1	B-verb.contact
+0	17	458	2168	2172	S	459	both	both	both	CC	O	preconj	O	-1	O
+0	17	459	2173	2179	S	457	Tamora	Tamora	Tamora	NNP	PERSON	dobj	O	0	B-noun.person
+0	17	460	2180	2183	S	459	and	and	and	CC	O	cc	O	-1	O
+0	17	461	2184	2191		459	Lavinia	Lavinia	Lavinia	NNP	PERSON	conj	O	4	O
+0	17	462	2191	2192	S	459	,	,	,	,	O	punct	O	-1	O
+0	17	463	2193	2196	S	465	his	his	he	PRP$	O	poss	O	-1	O
+0	17	464	2197	2200	S	465	own	own	own	JJ	O	amod	O	-1	O
+0	17	465	2201	2209		459	daughter	daughter	daughter	NN	O	appos	O	-1	B-noun.person
+0	17	466	2209	2210	S	443	.	.	.	.	O	punct	O	-1	O
+0	18	467	2211	2212	S	468	A	A	a	DT	O	det	O	-1	O
+0	18	468	2213	2217	S	471	rash	rash	rash	NN	O	nsubj	O	-1	B-noun.state
+0	18	469	2218	2220	S	468	of	of	of	IN	O	prep	O	-1	O
+0	18	470	2221	2229	S	469	killings	killings	killing	NNS	O	pobj	O	-1	B-noun.event
+0	18	471	2230	2235		-1	ensue	ensue	ensue	VBP	O	null	O	-1	O
+0	18	472	2235	2236	S	471	;	;	;	:	O	punct	O	-1	O
+0	18	473	2237	2240	S	475	the	the	the	DT	O	det	O	-1	O
+0	18	474	2241	2245	S	475	only	only	only	JJ	O	amod	O	-1	O
+0	18	475	2246	2252	S	477	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	18	476	2253	2257	S	477	left	left	leave	VBD	O	aux	O	-1	B-verb.motion
+0	18	477	2258	2263	S	471	alive	alive	alive	JJ	O	parataxis	O	-1	O
+0	18	478	2264	2267	S	479	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	18	479	2268	2274		477	Marcus	Marcus	Marcus	NNP	PERSON	ccomp	O	-1	O
+0	18	480	2274	2275	S	479	,	,	,	,	O	punct	O	-1	O
+0	18	481	2276	2282		479	Lucius	Lucius	Lucius	NNP	PERSON	conj	O	2	O
+0	18	482	2282	2283	S	477	,	,	,	,	O	punct	O	-1	O
+0	18	483	2284	2289	S	484	Young	Young	Young	NNP	PERSON	nn	O	-1	B-noun.group
+0	18	484	2290	2296		477	Lucius	Lucius	Lucius	NNP	PERSON	conj	O	-1	I-noun.group
+0	18	485	2296	2297	S	477	,	,	,	,	O	punct	O	-1	O
+0	18	486	2298	2301	S	477	and	and	and	CC	O	cc	O	-1	O
+0	18	487	2302	2307		477	Aaron	Aaron	Aaron	NNP	PERSON	conj	O	1	B-noun.person
+0	18	488	2307	2308	S	471	.	.	.	.	O	punct	O	-1	O
+0	19	489	2309	2315	S	490	Lucius	Lucius	Lucius	NNP	PERSON	nsubj	O	2	B-noun.person
+0	19	490	2316	2319	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	19	491	2320	2323	S	493	the	the	the	DT	O	det	O	-1	O
+0	19	492	2324	2335	S	493	unrepentant	unrepentant	unrepentant	JJ	O	amod	O	-1	O
+0	19	493	2336	2341	S	495	Aaron	Aaron	Aaron	NNP	PERSON	nsubj	O	1	B-noun.person
+0	19	494	2342	2348	S	495	buried	buried	bury	VBN	O	cop	O	-1	B-verb.social
+0	19	495	2349	2354		490	alive	alive	alive	JJ	O	xcomp	O	-1	O
+0	19	496	2354	2355	S	490	,	,	,	,	O	punct	O	-1	O
+0	19	497	2356	2359	S	490	and	and	and	CC	O	cc	O	-1	O
+0	19	498	2360	2366		500	Tamora	Tamora	Tamora	NNP	PERSON	poss	O	0	B-noun.person
+0	19	499	2366	2368	S	498	's	's	's	POS	O	possessive	O	-1	O
+0	19	500	2369	2375	S	490	corpse	corpse	corpse	NN	O	conj	O	-1	B-noun.body
+0	19	501	2376	2382	S	500	thrown	thrown	throw	VBN	O	partmod	O	-1	B-verb.contact
+0	19	502	2383	2385	S	501	to	to	to	TO	O	prep	O	-1	O
+0	19	503	2386	2389	S	504	the	the	the	DT	O	det	O	-1	O
+0	19	504	2390	2396		502	beasts	beasts	beast	NNS	O	pobj	O	-1	B-noun.Tops
+0	19	505	2396	2397	S	490	.	.	.	.	O	punct	O	-1	O
+0	20	506	2398	2400	S	510	He	He	he	PRP	O	nsubj	O	1	O
+0	20	507	2401	2408	S	510	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	20	508	2409	2412	S	510	the	the	the	DT	O	det	O	-1	O
+0	20	509	2413	2416	S	510	new	new	new	JJ	O	amod	O	-1	O
+0	20	510	2417	2424	S	-1	emperor	emperor	emperor	NN	O	null	O	-1	B-noun.person
+0	20	511	2425	2427	S	510	of	of	of	IN	O	prep	O	-1	O
+0	20	512	2428	2432		511	Rome	Rome	Rome	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	20	513	2432	2433	N	510	.	.	.	.	O	punct	O	-1	O

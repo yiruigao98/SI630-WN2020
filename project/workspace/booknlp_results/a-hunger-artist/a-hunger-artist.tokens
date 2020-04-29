@@ -1,0 +1,968 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	1	S	1	A	A	a	DT	O	det	O	-1	O
+0	0	1	2	5	S	-1	man	man	man	NN	O	null	O	-1	B-noun.person
+0	0	2	6	9	S	4	who	who	who	WP	O	nsubjpass	O	-1	O
+0	0	3	10	12	S	4	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	4	13	18	S	1	known	known	know	VBN	O	rcmod	O	-1	B-verb.cognition
+0	0	5	19	23	S	6	only	only	only	RB	O	dep	O	-1	O
+0	0	6	24	26	S	4	as	as	as	IN	O	prep	O	-1	O
+0	0	7	27	28		10	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	0	8	28	31	S	10	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	0	9	32	38	S	10	hunger	hunger	hunger	NN	O	nn	I-QUOTE	-1	B-noun.state
+0	0	10	39	45		6	artist	artist	artist	NN	O	pobj	I-QUOTE	-1	B-noun.person
+0	0	11	45	46	S	10	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	0	12	47	50	S	4	and	and	and	CC	O	cc	O	-1	O
+0	0	13	51	56	S	4	fasts	fasts	fast	VBZ	O	conj	O	-1	B-verb.consumption
+0	0	14	57	60	S	17	for	for	for	IN	O	mark	O	-1	O
+0	0	15	61	62	S	16	a	a	a	DT	O	det	O	-1	O
+0	0	16	63	69	S	17	living	living	living	NN	O	nsubj	O	-1	B-noun.cognition
+0	0	17	70	77	S	13	travels	travels	travel	VBZ	O	advcl	O	-1	B-verb.motion
+0	0	18	78	82	S	17	from	from	from	IN	O	prep	O	-1	O
+0	0	19	83	87	S	18	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	0	20	88	90	S	17	to	to	to	TO	O	prep	O	-1	O
+0	0	21	91	99	S	22	European	European	european	JJ	MISC	amod	O	-1	O
+0	0	22	100	104	S	20	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	0	23	105	109	S	29	with	with	with	IN	O	mark	O	-1	O
+0	0	24	110	113	S	25	the	the	the	DT	O	det	O	-1	O
+0	0	25	114	124	S	29	impresario	impresario	impresario	NN	O	nsubj	O	-1	B-noun.person
+0	0	26	125	126		29	(	-LRB-	-lrb-	-LRB-	O	advmod	O	-1	O
+0	0	27	126	129	S	28	his	his	he	PRP$	O	poss	O	-1	O
+0	0	28	130	137		29	manager	manager	manager	NN	O	nsubj	O	-1	B-noun.person
+0	0	29	137	138		17	)	-RRB-	-rrb-	-RRB-	O	advcl	O	-1	O
+0	0	30	138	139	S	1	.	.	.	.	O	punct	O	-1	O
+0	1	31	140	142	S	38	In	In	in	IN	O	prep	O	-1	O
+0	1	32	143	147	S	33	each	each	each	DT	O	det	O	-1	O
+0	1	33	148	152		31	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	1	34	152	153	S	38	,	,	,	,	O	punct	O	-1	O
+0	1	35	154	157	S	37	the	the	the	DT	O	det	O	-1	O
+0	1	36	158	164	S	37	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	1	37	165	171	S	38	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	1	38	172	179	S	-1	chooses	chooses	choose	VBZ	O	null	O	-1	B-verb.cognition
+0	1	39	180	181	S	41	a	a	a	DT	O	det	O	-1	O
+0	1	40	182	188	S	41	public	public	public	JJ	O	amod	O	-1	O
+0	1	41	189	197	S	38	location	location	location	NN	O	dobj	O	-1	B-noun.location
+0	1	42	198	201	S	38	and	and	and	CC	O	cc	O	-1	O
+0	1	43	202	206	S	38	puts	puts	put	VBZ	O	conj	O	-1	B-verb.contact
+0	1	44	207	214	S	43	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	1	45	215	217	S	43	on	on	on	IN	O	prep	O	-1	O
+0	1	46	218	225	S	45	display	display	display	NN	O	pobj	O	-1	B-noun.communication
+0	1	47	226	228	S	46	in	in	in	IN	O	prep	O	-1	O
+0	1	48	229	230	S	52	a	a	a	DT	O	det	O	-1	O
+0	1	49	231	237		52	locked	locked	lock	VBN	O	amod	O	-1	B-verb.change
+0	1	50	237	238	S	52	,	,	,	,	O	punct	O	-1	O
+0	1	51	239	250	S	52	straw-lined	straw-lined	straw-lined	JJ	O	amod	O	-1	O
+0	1	52	251	255		47	cage	cage	cage	NN	O	pobj	O	-1	B-noun.artifact
+0	1	53	255	256	S	52	,	,	,	,	O	punct	O	-1	O
+0	1	54	257	262	S	56	where	where	where	WRB	O	advmod	O	-1	O
+0	1	55	263	265	S	56	he	he	he	PRP	O	nsubj	O	-1	O
+0	1	56	266	271	S	52	fasts	fasts	fast	VBZ	O	rcmod	O	-1	B-verb.consumption
+0	1	57	272	275	S	56	for	for	for	IN	O	prep	O	-1	O
+0	1	58	276	283	S	57	periods	periods	period	NNS	O	pobj	O	-1	B-noun.time
+0	1	59	284	286	S	58	of	of	of	IN	O	prep	O	-1	O
+0	1	60	287	289	S	62	up	up	up	RB	DURATION	quantmod	O	-1	O
+0	1	61	290	292	S	62	to	to	to	TO	DURATION	dep	O	-1	O
+0	1	62	293	298	S	63	forty	forty	forty	CD	DURATION	num	O	-1	O
+0	1	63	299	303		59	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	1	64	303	304	S	38	.	.	.	.	O	punct	O	-1	O
+0	2	65	305	307	S	79	In	In	in	IN	O	prep	O	-1	O
+0	2	66	308	311	S	68	the	the	the	DT	O	det	O	-1	O
+0	2	67	312	318	S	68	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	2	68	319	325		70	artist	artist	artist	NN	O	poss	O	-1	B-noun.person
+0	2	69	325	327	S	68	’s	's	's	POS	O	possessive	O	-1	O
+0	2	70	328	334		65	heyday	heyday	heyday	NN	O	pobj	O	-1	B-noun.time
+0	2	71	334	335	S	79	,	,	,	,	O	punct	O	-1	O
+0	2	72	336	342	S	79	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	2	73	343	347	S	72	from	from	from	IN	O	prep	O	-1	O
+0	2	74	348	351	S	73	all	all	all	DT	O	pobj	O	-1	O
+0	2	75	352	356	S	72	over	over	over	IN	O	prep	O	-1	O
+0	2	76	357	360	S	78	the	the	the	DT	O	det	O	-1	O
+0	2	77	361	372	S	78	surrounding	surrounding	surround	VBG	O	amod	O	-1	B-verb.contact
+0	2	78	373	377	S	75	area	area	area	NN	O	pobj	O	-1	B-noun.location
+0	2	79	378	382	S	-1	come	come	come	VBP	O	null	O	-1	B-verb.change
+0	2	80	383	385	S	81	to	to	to	TO	O	aux	O	-1	O
+0	2	81	386	393	S	79	witness	witness	witness	NN	O	xcomp	O	-1	B-noun.person
+0	2	82	394	397	S	83	his	his	he	PRP$	O	poss	O	-1	O
+0	2	83	398	410		81	performances	performances	performance	NNS	O	dobj	O	-1	B-noun.communication
+0	2	84	410	411	S	79	.	.	.	.	O	punct	O	-1	O
+0	3	85	412	420	S	88	Children	Children	child	NNS	O	nsubjpass	O	-1	B-noun.person
+0	3	86	421	431	S	88	especially	especially	especially	RB	O	advmod	O	-1	O
+0	3	87	432	435	S	88	are	are	be	VBP	O	auxpass	O	-1	O
+0	3	88	436	441	S	-1	drawn	drawn	draw	VBN	O	null	O	-1	B-verb.cognition
+0	3	89	442	444	S	88	to	to	to	TO	O	prep	O	-1	O
+0	3	90	445	448		89	him	him	he	PRP	O	pobj	O	-1	O
+0	3	91	448	449	S	88	,	,	,	,	O	punct	O	-1	O
+0	3	92	450	453	S	88	and	and	and	CC	O	cc	O	-1	O
+0	3	93	454	458	S	100	when	when	when	WRB	O	advmod	O	-1	O
+0	3	94	459	462	S	96	the	the	the	DT	O	det	O	-1	O
+0	3	95	463	469	S	96	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	3	96	470	476	S	100	artist	artist	artist	NN	O	nsubjpass	O	-1	B-noun.person
+0	3	97	477	479	S	100	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	3	98	480	483	S	100	not	not	not	RB	O	neg	O	-1	O
+0	3	99	484	496	S	100	hypnotically	hypnotically	hypnotically	RB	O	advmod	O	-1	O
+0	3	100	497	506	S	106	withdrawn	withdrawn	withdraw	VBN	O	dep	O	-1	B-verb.motion
+0	3	101	507	509	S	100	in	in	in	IN	O	prep	O	-1	O
+0	3	102	510	513	S	103	the	the	the	DT	O	det	O	-1	O
+0	3	103	514	518		101	cage	cage	cage	NN	O	pobj	O	-1	B-noun.artifact
+0	3	104	518	519	S	106	,	,	,	,	O	punct	O	-1	O
+0	3	105	520	522	S	106	he	he	he	PRP	O	nsubj	O	-1	O
+0	3	106	523	528	S	88	talks	talks	talk	VBZ	O	conj	O	-1	B-verb.communication
+0	3	107	529	531	S	106	to	to	to	TO	O	prep	O	-1	O
+0	3	108	532	536	S	107	them	them	they	PRP	O	pobj	O	-1	O
+0	3	109	537	540	S	88	and	and	and	CC	O	cc	O	-1	O
+0	3	110	541	548	S	88	answers	answers	answer	NNS	O	conj	O	-1	B-noun.communication
+0	3	111	549	554	S	112	their	their	they	PRP$	O	poss	O	-1	O
+0	3	112	555	564	S	110	questions	questions	question	NNS	O	dobj	O	-1	B-noun.communication
+0	3	113	565	569	S	110	with	with	with	IN	O	prep	O	-1	O
+0	3	114	570	571	S	115	a	a	a	DT	O	det	O	-1	O
+0	3	115	572	577		113	smile	smile	smile	NN	O	pobj	O	-1	B-noun.communication
+0	3	116	577	578	S	88	.	.	.	.	O	punct	O	-1	O
+0	4	117	579	582	S	118	The	The	the	DT	O	det	O	-1	O
+0	4	118	583	589	S	121	adults	adults	adult	NNS	O	nsubj	O	-1	B-noun.animal
+0	4	119	590	594	S	121	also	also	also	RB	O	advmod	O	-1	O
+0	4	120	595	601	S	121	avidly	avidly	avidly	RB	O	advmod	O	-1	O
+0	4	121	602	609	S	-1	monitor	monitor	monitor	VB	O	null	O	-1	B-verb.perception
+0	4	122	610	613	S	124	the	the	the	DT	O	det	O	-1	O
+0	4	123	614	620	S	124	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	4	124	621	627		126	artist	artist	artist	NN	O	poss	O	-1	B-noun.person
+0	4	125	627	629	S	124	’s	's	's	POS	O	possessive	O	-1	O
+0	4	126	630	638		121	progress	progress	progress	NN	O	dobj	O	-1	B-noun.act
+0	4	127	638	639	S	121	,	,	,	,	O	punct	O	-1	O
+0	4	128	640	643	S	121	but	but	but	CC	O	cc	O	-1	O
+0	4	129	644	648	S	131	they	they	they	PRP	O	nsubj	O	-1	O
+0	4	130	649	658	S	131	generally	generally	generally	RB	O	advmod	O	-1	O
+0	4	131	659	661	S	121	do	do	do	VBP	O	conj	O	-1	O
+0	4	132	662	664	S	131	so	so	so	RB	O	advmod	O	-1	O
+0	4	133	665	668	S	134	out	out	out	RB	O	dep	O	-1	O
+0	4	134	669	671	S	131	of	of	of	IN	O	prep	O	-1	O
+0	4	135	672	681	S	134	suspicion	suspicion	suspicion	NN	O	pobj	O	-1	B-noun.cognition
+0	4	136	682	686	S	141	that	that	that	IN	O	complm	O	-1	O
+0	4	137	687	690	S	139	the	the	the	DT	O	det	O	-1	O
+0	4	138	691	697	S	139	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	4	139	698	704	S	141	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	4	140	705	707	S	141	is	is	be	VBZ	O	aux	O	-1	O
+0	4	141	708	716	S	135	sneaking	sneaking	sneak	VBG	O	ccomp	O	-1	B-verb.motion
+0	4	142	717	721		141	food	food	food	NN	O	dobj	O	-1	B-noun.food
+0	4	143	721	722	S	121	.	.	.	.	O	punct	O	-1	O
+0	5	144	723	725	S	153	To	To	to	TO	O	prep	O	-1	O
+0	5	145	726	729	S	147	the	the	the	DT	O	det	O	-1	O
+0	5	146	730	736	S	147	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	5	147	737	743		149	artist	artist	artist	NN	O	poss	O	-1	B-noun.person
+0	5	148	743	745	S	147	’s	's	's	POS	O	possessive	O	-1	O
+0	5	149	746	757		144	frustration	frustration	frustration	NN	O	pobj	O	-1	B-noun.feeling
+0	5	150	757	758	S	153	,	,	,	,	O	punct	O	-1	O
+0	5	151	759	762	S	152	the	the	the	DT	O	det	O	-1	O
+0	5	152	763	774	S	153	townspeople	townspeople	townspeople	NNS	O	nsubj	O	-1	B-noun.group
+0	5	153	775	781	S	-1	assign	assign	assign	VBP	O	null	O	-1	B-verb.cognition
+0	5	154	782	785		153	men	men	man	NNS	O	dobj	O	-1	B-noun.person
+0	5	155	785	786	S	154	,	,	,	,	O	punct	O	-1	O
+0	5	156	787	794	S	157	usually	usually	usually	RB	O	advmod	O	-1	O
+0	5	157	795	803		154	butchers	butchers	butcher	NNS	O	appos	O	-1	B-noun.person
+0	5	158	803	804	S	154	,	,	,	,	O	punct	O	-1	O
+0	5	159	805	807	S	160	to	to	to	TO	O	aux	O	-1	O
+0	5	160	808	814	S	154	ensure	ensure	ensure	VB	O	conj	O	-1	B-verb.communication
+0	5	161	815	819	S	167	that	that	that	IN	O	complm	O	-1	O
+0	5	162	820	823	S	164	the	the	the	DT	O	det	O	-1	O
+0	5	163	824	830	S	164	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	5	164	831	837	S	167	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	5	165	838	842	S	167	does	does	do	VBZ	O	aux	O	-1	O
+0	5	166	843	846	S	167	not	not	not	RB	O	neg	O	-1	O
+0	5	167	847	850	S	160	eat	eat	eat	VB	O	ccomp	O	-1	B-verb.consumption
+0	5	168	851	857	S	167	during	during	during	IN	O	prep	O	-1	O
+0	5	169	858	861	S	170	the	the	the	DT	O	det	O	-1	O
+0	5	170	862	867		168	night	night	night	NN	TIME	pobj	O	-1	B-noun.time
+0	5	171	867	868	S	153	.	.	.	.	O	punct	O	-1	O
+0	6	172	869	873	S	174	Even	Even	even	RB	O	advmod	O	-1	O
+0	6	173	874	878	S	174	more	more	more	RBR	O	advmod	O	-1	O
+0	6	174	879	887	S	182	annoying	annoying	annoying	JJ	O	advcl	O	-1	O
+0	6	175	888	890	S	174	to	to	to	TO	O	prep	O	-1	O
+0	6	176	891	894	S	178	the	the	the	DT	O	det	O	-1	O
+0	6	177	895	901	S	178	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	6	178	902	908		175	artist	artist	artist	NN	O	pobj	O	-1	B-noun.person
+0	6	179	908	909	S	182	,	,	,	,	O	punct	O	-1	O
+0	6	180	910	917		182	however	however	however	RB	O	advmod	O	-1	O
+0	6	181	917	918	S	182	,	,	,	,	O	punct	O	-1	O
+0	6	182	919	921	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	6	183	922	926	S	187	that	that	that	IN	O	complm	O	-1	O
+0	6	184	927	932	S	185	these	these	these	DT	O	det	O	-1	O
+0	6	185	933	936	S	187	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	6	186	937	949	S	187	deliberately	deliberately	deliberately	RB	O	advmod	O	-1	O
+0	6	187	950	954	S	182	turn	turn	turn	VBP	O	ccomp	O	-1	B-verb.motion
+0	6	188	955	956	S	190	a	a	a	DT	O	det	O	-1	O
+0	6	189	957	962	S	190	blind	blind	blind	JJ	O	amod	O	-1	O
+0	6	190	963	966	S	187	eye	eye	eye	NN	O	dobj	O	-1	B-noun.body
+0	6	191	967	969	S	187	to	to	to	TO	O	prep	O	-1	O
+0	6	192	970	973	S	194	the	the	the	DT	O	det	O	-1	O
+0	6	193	974	980	S	194	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	6	194	981	987	S	191	artist	artist	artist	NN	O	pobj	O	-1	B-noun.person
+0	6	195	988	990	S	198	as	as	as	IN	O	mark	O	-1	O
+0	6	196	991	993	S	198	if	if	if	IN	O	dep	O	-1	O
+0	6	197	994	996	S	198	to	to	to	TO	O	aux	O	-1	O
+0	6	198	997	1002	S	187	allow	allow	allow	VB	O	advcl	O	-1	B-verb.social
+0	6	199	1003	1006	S	201	him	him	he	PRP	O	nsubj	O	-1	O
+0	6	200	1007	1009	S	201	to	to	to	TO	O	aux	O	-1	O
+0	6	201	1010	1015	S	198	steal	steal	steal	VB	O	xcomp	O	-1	B-verb.possession
+0	6	202	1016	1017	S	203	a	a	a	DT	O	det	O	-1	O
+0	6	203	1018	1022	S	201	bite	bite	bite	NN	O	dobj	O	-1	B-noun.state
+0	6	204	1023	1025	S	203	of	of	of	IN	O	prep	O	-1	O
+0	6	205	1026	1030		204	food	food	food	NN	O	pobj	O	-1	B-noun.food
+0	6	206	1030	1031	S	182	.	.	.	.	O	punct	O	-1	O
+0	7	207	1032	1035	S	209	The	The	the	DT	O	det	O	-1	O
+0	7	208	1036	1042	S	209	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	7	209	1043	1049	S	210	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	7	210	1050	1055	S	-1	sings	sings	sing	VBZ	O	null	O	-1	B-verb.communication
+0	7	211	1056	1058	S	212	to	to	to	TO	O	aux	O	-1	O
+0	7	212	1059	1064	S	210	prove	prove	prove	VB	O	xcomp	O	-1	B-verb.cognition
+0	7	213	1065	1069	S	217	that	that	that	IN	O	complm	O	-1	O
+0	7	214	1070	1072	S	217	he	he	he	PRP	O	nsubj	O	-1	O
+0	7	215	1073	1075	S	217	is	is	be	VBZ	O	aux	O	-1	B-verb.stative
+0	7	216	1076	1079	S	217	not	not	not	RB	O	neg	O	-1	O
+0	7	217	1080	1086		212	eating	eating	eat	VBG	O	ccomp	O	-1	B-verb.consumption
+0	7	218	1086	1087	S	210	,	,	,	,	O	punct	O	-1	O
+0	7	219	1088	1091	S	210	but	but	but	CC	O	cc	O	-1	O
+0	7	220	1092	1095	S	221	the	the	the	DT	O	det	O	-1	O
+0	7	221	1096	1102	S	222	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	7	222	1103	1108	S	210	think	think	think	VBP	O	conj	O	-1	B-verb.cognition
+0	7	223	1109	1111	S	226	he	he	he	PRP	O	nsubj	O	-1	O
+0	7	224	1112	1115	S	226	has	has	have	VBZ	O	aux	O	-1	O
+0	7	225	1116	1122	S	226	simply	simply	simply	RB	O	advmod	O	-1	O
+0	7	226	1123	1131	S	222	mastered	mastered	master	VBN	O	ccomp	O	-1	B-verb.cognition
+0	7	227	1132	1135	S	228	the	the	the	DT	O	det	O	-1	O
+0	7	228	1136	1139	S	226	art	art	art	NN	O	dobj	O	-1	B-noun.artifact
+0	7	229	1140	1142	S	228	of	of	of	IN	O	prep	O	-1	O
+0	7	230	1143	1149	S	229	eating	eating	eating	NN	O	pobj	O	-1	B-noun.act
+0	7	231	1150	1153	S	230	and	and	and	CC	O	cc	O	-1	O
+0	7	232	1154	1161	S	230	singing	singing	singing	NN	O	conj	O	-1	B-noun.act
+0	7	233	1162	1176		226	simultaneously	simultaneously	simultaneously	RB	O	advmod	O	-1	O
+0	7	234	1176	1177	S	210	.	.	.	.	O	punct	O	-1	O
+0	8	235	1178	1186	S	240	Although	Although	although	IN	O	mark	O	-1	O
+0	8	236	1187	1190	S	238	the	the	the	DT	O	det	O	-1	O
+0	8	237	1191	1197	S	238	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	8	238	1198	1204	S	240	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	8	239	1205	1207	S	240	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	8	240	1208	1214		245	famous	famous	famous	JJ	O	advcl	O	-1	O
+0	8	241	1214	1215	S	245	,	,	,	,	O	punct	O	-1	O
+0	8	242	1216	1218	S	245	he	he	he	PRP	O	nsubj	O	-1	O
+0	8	243	1219	1221	S	245	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	8	244	1222	1233	S	245	perpetually	perpetually	perpetually	RB	O	advmod	O	-1	O
+0	8	245	1234	1241		-1	unhappy	unhappy	unhappy	JJ	O	null	O	-1	O
+0	8	246	1241	1242	S	245	.	.	.	.	O	punct	O	-1	O
+0	9	247	1243	1250	S	248	Because	Because	because	IN	O	dep	O	-1	O
+0	9	248	1251	1253	S	257	of	of	of	IN	O	prep	O	-1	O
+0	9	249	1254	1257	S	250	the	the	the	DT	O	det	O	-1	O
+0	9	250	1258	1269		252	townspeople	townspeople	townspeople	NN	O	poss	O	-1	B-noun.group
+0	9	251	1269	1271	S	250	’s	's	's	POS	O	possessive	O	-1	O
+0	9	252	1272	1283		248	incredulity	incredulity	incredulity	NN	O	pobj	O	-1	B-noun.cognition
+0	9	253	1283	1284	S	257	,	,	,	,	O	punct	O	-1	O
+0	9	254	1285	1288	S	256	the	the	the	DT	O	det	O	-1	O
+0	9	255	1289	1295	S	256	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	9	256	1296	1302	S	257	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	9	257	1303	1311	S	-1	realizes	realizes	realize	VBZ	O	null	O	-1	B-verb.cognition
+0	9	258	1312	1316	S	264	that	that	that	IN	O	complm	O	-1	O
+0	9	259	1317	1321	S	264	only	only	only	RB	O	advmod	O	-1	O
+0	9	260	1322	1324	S	264	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	9	261	1325	1328	S	264	can	can	can	MD	O	aux	O	-1	O
+0	9	262	1329	1331	S	264	be	be	be	VB	O	auxpass	O	-1	B-verb.stative
+0	9	263	1332	1337	S	264	truly	truly	truly	RB	O	advmod	O	-1	O
+0	9	264	1338	1347	S	257	satisfied	satisfied	satisfy	VBN	O	ccomp	O	-1	B-verb.stative
+0	9	265	1348	1352	S	264	with	with	with	IN	O	prep	O	-1	O
+0	9	266	1353	1356	S	267	his	his	he	PRP$	O	poss	O	-1	O
+0	9	267	1357	1362	S	265	feats	feats	feat	NNS	O	pobj	O	-1	B-noun.act
+0	9	268	1363	1365	S	267	of	of	of	IN	O	prep	O	-1	O
+0	9	269	1366	1377		268	self-denial	self-denial	self-denial	JJ	O	pobj	O	-1	O
+0	9	270	1377	1378	S	257	.	.	.	.	O	punct	O	-1	O
+0	10	271	1379	1382	S	273	The	The	the	DT	O	det	O	-1	O
+0	10	272	1383	1389	S	273	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	10	273	1390	1396	S	276	artist	artist	artist	NN	O	nsubjpass	O	-1	B-noun.person
+0	10	274	1397	1401	S	276	also	also	also	RB	O	advmod	O	-1	O
+0	10	275	1402	1407	S	276	feels	feels	feel	VBZ	O	auxpass	O	-1	O
+0	10	276	1408	1419	S	-1	constrained	constrained	constrain	VBN	O	null	O	-1	B-verb.contact
+0	10	277	1420	1422	S	276	by	by	by	IN	O	prep	O	-1	O
+0	10	278	1423	1426	S	280	the	the	the	DT	O	det	O	-1	O
+0	10	279	1427	1434	S	280	fasting	fasting	fasting	JJ	O	amod	O	-1	O
+0	10	280	1435	1441	S	277	limits	limits	limit	NNS	O	pobj	O	-1	B-noun.attribute
+0	10	281	1442	1449	S	280	imposed	imposed	impose	VBN	O	partmod	O	-1	B-verb.social
+0	10	282	1450	1452	S	281	on	on	on	IN	O	prep	O	-1	O
+0	10	283	1453	1456		282	him	him	he	PRP	O	pobj	O	-1	O
+0	10	284	1456	1457	S	276	.	.	.	.	O	punct	O	-1	O
+0	11	285	1458	1466	S	289	Although	Although	although	IN	O	mark	O	-1	O
+0	11	286	1467	1470	S	288	the	the	the	DT	O	det	O	-1	O
+0	11	287	1471	1477	S	288	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	11	288	1478	1484	S	289	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	11	289	1485	1490	S	304	finds	finds	find	VBZ	O	advcl	O	-1	B-verb.cognition
+0	11	290	1491	1498	S	289	fasting	fasting	fast	VBG	O	xcomp	O	-1	B-verb.consumption
+0	11	291	1499	1503	S	299	easy	easy	easy	JJ	O	amod	O	-1	O
+0	11	292	1504	1507	S	291	and	and	and	CC	O	cc	O	-1	O
+0	11	293	1508	1511	S	291	can	can	can	MD	O	conj	O	-1	O
+0	11	294	1512	1514	S	299	go	go	go	VB	O	dep	O	-1	B-verb.motion
+0	11	295	1515	1519	S	299	much	much	much	RB	O	advmod	O	-1	O
+0	11	296	1520	1526	S	295	longer	longer	longer	JJR	O	dep	O	-1	O
+0	11	297	1527	1531	S	298	than	than	than	IN	O	quantmod	O	-1	O
+0	11	298	1532	1537	S	299	forty	forty	forty	CD	DURATION	num	O	-1	O
+0	11	299	1538	1542		290	days	days	day	NNS	DURATION	tmod	O	-1	B-noun.time
+0	11	300	1542	1543	S	304	,	,	,	,	O	punct	O	-1	O
+0	11	301	1544	1547	S	302	the	the	the	DT	O	det	O	-1	O
+0	11	302	1548	1558	S	304	impresario	impresario	impresario	NN	O	nsubj	O	-1	B-noun.person
+0	11	303	1559	1565	S	304	always	always	always	RB	O	advmod	O	-1	O
+0	11	304	1566	1570	S	-1	cuts	cuts	cut	VBZ	O	null	O	-1	B-verb.contact
+0	11	305	1571	1574	S	306	the	the	the	DT	O	det	O	-1	O
+0	11	306	1575	1586	S	304	performance	performance	performance	NN	O	dobj	O	-1	B-noun.act
+0	11	307	1587	1592	S	304	short	short	short	RB	O	advmod	O	-1	O
+0	11	308	1593	1600	S	311	because	because	because	IN	O	mark	O	-1	O
+0	11	309	1601	1604	S	310	the	the	the	DT	O	det	O	-1	O
+0	11	310	1605	1615	S	311	spectators	spectators	spectator	NNS	O	nsubj	O	-1	B-noun.person
+0	11	311	1616	1620	S	304	tend	tend	tend	VBP	O	advcl	O	-1	B-verb.stative
+0	11	312	1621	1623	S	313	to	to	to	TO	O	aux	O	-1	O
+0	11	313	1624	1628	S	311	lose	lose	lose	VB	O	xcomp	O	-1	B-verb.possession
+0	11	314	1629	1637		313	interest	interest	interest	NN	O	dobj	O	-1	B-noun.possession
+0	11	315	1637	1638	S	304	.	.	.	.	O	punct	O	-1	O
+0	12	316	1639	1650		-1	Furthermore	Furthermore	furthermore	RB	O	null	O	-1	O
+0	12	317	1650	1651	S	316	,	,	,	,	O	dep	O	-1	O
+0	12	318	1652	1655	S	319	the	the	the	DT	O	det	O	-1	O
+0	12	319	1656	1662	S	317	ritual	ritual	ritual	NN	O	dep	O	-1	B-noun.act
+0	12	320	1663	1665	S	324	in	in	in	IN	O	rel	O	-1	O
+0	12	321	1666	1671	S	320	which	which	which	WDT	O	pobj	O	-1	O
+0	12	322	1672	1675	S	323	the	the	the	DT	O	det	O	-1	O
+0	12	323	1676	1686	S	324	impresario	impresario	impresario	NN	O	nsubj	O	-1	B-noun.person
+0	12	324	1687	1693	S	319	forces	forces	force	VBZ	O	rcmod	O	-1	B-verb.social
+0	12	325	1694	1697	S	327	the	the	the	DT	O	det	O	-1	O
+0	12	326	1698	1704	S	327	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	12	327	1705	1711	S	324	artist	artist	artist	NN	O	dobj	O	-1	B-noun.person
+0	12	328	1712	1714	S	329	to	to	to	TO	O	aux	O	-1	O
+0	12	329	1715	1720	S	327	break	break	break	VB	O	infmod	O	-1	B-verb.change
+0	12	330	1721	1724	S	331	the	the	the	DT	O	det	O	-1	O
+0	12	331	1725	1729	S	333	fast	fast	fast	JJ	O	nsubj	O	-1	O
+0	12	332	1730	1732	S	333	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	12	333	1733	1744	S	329	humiliating	humiliating	humiliating	JJ	O	xcomp	O	-1	O
+0	12	334	1745	1748	S	333	and	and	and	CC	O	cc	O	-1	O
+0	12	335	1749	1759		333	unpleasant	unpleasant	unpleasant	JJ	O	conj	O	-1	O
+0	12	336	1759	1760	S	319	.	.	.	.	O	punct	O	-1	O
+0	13	337	1761	1766		340	First	First	first	RB	ORDINAL	advmod	O	-1	O
+0	13	338	1766	1767	S	340	,	,	,	,	O	punct	O	-1	O
+0	13	339	1768	1775	S	340	doctors	doctors	doctor	NNS	O	nsubj	O	-1	B-noun.person
+0	13	340	1776	1781	S	-1	enter	enter	enter	VBP	O	null	O	-1	B-verb.motion
+0	13	341	1782	1785	S	342	the	the	the	DT	O	det	O	-1	O
+0	13	342	1786	1790	S	340	cage	cage	cage	NN	O	dobj	O	-1	B-noun.artifact
+0	13	343	1791	1793	S	344	to	to	to	TO	O	aux	O	-1	O
+0	13	344	1794	1800	S	342	report	report	report	VB	O	infmod	O	-1	B-verb.communication
+0	13	345	1801	1804	S	347	the	the	the	DT	O	det	O	-1	O
+0	13	346	1805	1811	S	347	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	13	347	1812	1818		349	artist	artist	artist	NN	O	poss	O	-1	B-noun.person
+0	13	348	1818	1820	S	347	’s	's	's	POS	O	possessive	O	-1	O
+0	13	349	1821	1830		344	condition	condition	condition	NN	O	dobj	O	-1	B-noun.state
+0	13	350	1830	1831	S	349	,	,	,	,	O	punct	O	-1	O
+0	13	351	1832	1837	S	353	which	which	which	WDT	O	nsubjpass	O	-1	O
+0	13	352	1838	1840	S	353	is	is	be	VBZ	O	auxpass	O	-1	O
+0	13	353	1841	1850	S	349	announced	announced	announce	VBN	O	rcmod	O	-1	B-verb.communication
+0	13	354	1851	1855	S	353	with	with	with	IN	O	prep	O	-1	O
+0	13	355	1856	1857	S	356	a	a	a	DT	O	det	O	-1	O
+0	13	356	1858	1867		354	megaphone	megaphone	megaphone	NN	O	pobj	O	-1	B-noun.artifact
+0	13	357	1867	1868	S	340	.	.	.	.	O	punct	O	-1	O
+0	14	358	1869	1873		366	Next	Next	next	RB	O	advmod	O	-1	O
+0	14	359	1873	1874	S	366	,	,	,	,	O	punct	O	-1	O
+0	14	360	1875	1878	S	361	two	two	two	CD	NUMBER	num	O	-1	O
+0	14	361	1879	1885	S	366	ladies	ladies	lady	NNS	O	nsubj	O	-1	B-noun.person
+0	14	362	1886	1892	S	361	chosen	chosen	choose	VBN	O	partmod	O	-1	B-verb.cognition
+0	14	363	1893	1897	S	362	from	from	from	IN	O	prep	O	-1	O
+0	14	364	1898	1901	S	365	the	the	the	DT	O	det	O	-1	O
+0	14	365	1902	1907	S	363	crowd	crowd	crowd	NN	O	pobj	O	-1	B-noun.group
+0	14	366	1908	1911	S	-1	try	try	try	VB	O	null	O	-1	B-verb.social
+0	14	367	1912	1914	S	368	to	to	to	TO	O	aux	O	-1	O
+0	14	368	1915	1919	S	366	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	14	369	1920	1923	S	371	the	the	the	DT	O	det	O	-1	O
+0	14	370	1924	1930	S	371	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	14	371	1931	1937	S	368	artist	artist	artist	NN	O	dobj	O	-1	B-noun.person
+0	14	372	1938	1941	S	368	out	out	out	IN	O	prep	O	-1	O
+0	14	373	1942	1944	S	372	of	of	of	IN	O	dep	O	-1	O
+0	14	374	1945	1948	S	375	his	his	he	PRP$	O	poss	O	-1	O
+0	14	375	1949	1953		373	cage	cage	cage	NN	O	pobj	O	-1	B-noun.artifact
+0	14	376	1953	1954	S	366	.	.	.	.	O	punct	O	-1	O
+0	15	377	1955	1966		-1	Unfailingly	Unfailingly	unfailingly	RB	O	null	O	-1	O
+0	15	378	1966	1967	S	377	,	,	,	,	O	dep	O	-1	O
+0	15	379	1968	1971	S	382	the	the	the	DT	O	det	O	-1	O
+0	15	380	1972	1978	S	382	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	15	381	1979	1985	S	382	artist	artist	artist	NN	O	nn	O	-1	B-noun.person
+0	15	382	1986	1993		378	objects	objects	object	NNS	O	null	O	-1	B-noun.Tops
+0	15	383	1993	1994	S	382	,	,	,	,	O	punct	O	-1	O
+0	15	384	1995	1998	S	382	and	and	and	CC	O	cc	O	-1	O
+0	15	385	1999	2002	S	386	the	the	the	DT	O	det	O	-1	O
+0	15	386	2003	2013	S	387	impresario	impresario	impresario	NN	O	nsubj	O	-1	B-noun.person
+0	15	387	2014	2022	S	382	intrudes	intrudes	intrude	VBZ	O	conj	O	-1	B-verb.motion
+0	15	388	2023	2025	S	389	to	to	to	TO	O	aux	O	-1	O
+0	15	389	2026	2030	S	387	make	make	make	VB	O	xcomp	O	-1	B-verb.creation
+0	15	390	2031	2032	S	391	a	a	a	DT	O	det	O	-1	O
+0	15	391	2033	2037	S	389	show	show	show	NN	O	dobj	O	-1	B-noun.act
+0	15	392	2038	2040	S	391	of	of	of	IN	O	prep	O	-1	O
+0	15	393	2041	2044	S	394	how	how	how	WRB	O	advmod	O	-1	O
+0	15	394	2045	2050	S	399	frail	frail	frail	JJ	O	dep	O	-1	O
+0	15	395	2051	2054	S	397	the	the	the	DT	O	det	O	-1	O
+0	15	396	2055	2061	S	397	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	15	397	2062	2068	S	399	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	15	398	2069	2072	S	399	has	has	have	VBZ	O	aux	O	-1	O
+0	15	399	2073	2079		392	become	become	become	VBN	O	pcomp	O	-1	B-verb.change
+0	15	400	2079	2080	S	382	.	.	.	.	O	punct	O	-1	O
+0	16	401	2081	2083	S	-1	By	By	by	IN	O	null	O	-1	O
+0	16	402	2084	2087	S	403	the	the	the	DT	O	det	O	-1	O
+0	16	403	2088	2092	S	401	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	16	404	2093	2096	S	405	the	the	the	DT	O	det	O	-1	O
+0	16	405	2097	2103	S	406	ritual	ritual	ritual	NN	O	nsubj	O	-1	B-noun.act
+0	16	406	2104	2106	S	403	is	is	be	VBZ	O	rcmod	O	-1	B-verb.stative
+0	16	407	2107	2111		414	over	over	over	IN	O	dep	O	-1	O
+0	16	408	2111	2112	S	414	,	,	,	,	O	punct	O	-1	O
+0	16	409	2113	2116	S	411	the	the	the	DT	O	det	O	-1	O
+0	16	410	2117	2123	S	411	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	16	411	2124	2130	S	414	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	16	412	2131	2134	S	414	has	has	have	VBZ	O	aux	O	-1	O
+0	16	413	2135	2139	S	414	been	been	be	VBN	O	cop	O	-1	B-verb.stative
+0	16	414	2140	2149	S	406	force-fed	force-fed	force-fed	JJ	O	dep	O	-1	O
+0	16	415	2150	2153	S	414	and	and	and	CC	O	cc	O	-1	O
+0	16	416	2154	2157	S	417	the	the	the	DT	O	det	O	-1	O
+0	16	417	2158	2163	S	414	crowd	crowd	crowd	NN	O	conj	O	-1	B-noun.group
+0	16	418	2164	2169	S	417	moved	moved	move	VBN	O	partmod	O	-1	B-verb.motion
+0	16	419	2170	2172	S	418	by	by	by	IN	O	prep	O	-1	O
+0	16	420	2173	2176	S	422	the	the	the	DT	O	det	O	-1	O
+0	16	421	2177	2183	S	422	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	16	422	2184	2190		426	artist	artist	artist	NN	O	poss	O	-1	B-noun.person
+0	16	423	2190	2192	S	422	’s	's	's	POS	O	possessive	O	-1	O
+0	16	424	2193	2202	S	425	seemingly	seemingly	seemingly	RB	O	advmod	O	-1	O
+0	16	425	2203	2212	S	426	desperate	desperate	desperate	JJ	O	amod	O	-1	O
+0	16	426	2213	2222		419	condition	condition	condition	NN	O	pobj	O	-1	B-noun.state
+0	16	427	2222	2223	S	401	.	.	.	.	O	punct	O	-1	O
+0	17	428	2224	2226	S	437	In	In	in	IN	O	prep	O	-1	O
+0	17	429	2227	2232		428	truth	truth	truth	NN	O	pobj	O	-1	B-noun.cognition
+0	17	430	2232	2233	S	437	,	,	,	,	O	punct	O	-1	O
+0	17	431	2234	2241		437	however	however	however	RB	O	advmod	O	-1	O
+0	17	432	2241	2242	S	437	,	,	,	,	O	punct	O	-1	O
+0	17	433	2243	2246	S	435	the	the	the	DT	O	det	O	-1	O
+0	17	434	2247	2253	S	435	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	17	435	2254	2260	S	437	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	17	436	2261	2263	S	437	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	17	437	2264	2273	S	-1	miserable	miserable	miserable	JJ	O	null	O	-1	O
+0	17	438	2274	2278	S	437	only	only	only	RB	O	dep	O	-1	O
+0	17	439	2279	2286	S	441	because	because	because	IN	O	mark	O	-1	O
+0	17	440	2287	2289	S	441	he	he	he	PRP	O	nsubj	O	-1	O
+0	17	441	2290	2295	S	437	knows	knows	know	VBZ	O	advcl	O	-1	B-verb.cognition
+0	17	442	2296	2298	S	445	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	17	443	2299	2304	S	445	could	could	could	MD	O	aux	O	-1	O
+0	17	444	2305	2309	S	445	have	have	have	VB	O	aux	O	-1	O
+0	17	445	2310	2316	S	441	fasted	fasted	fast	VBN	O	ccomp	O	-1	B-verb.consumption
+0	17	446	2317	2323	S	445	longer	longer	longer	RBR	O	advmod	O	-1	O
+0	17	447	2324	2327	S	441	and	and	and	CC	O	cc	O	-1	O
+0	17	448	2328	2332	S	453	that	that	that	IN	O	complm	O	-1	O
+0	17	449	2333	2336	S	451	his	his	he	PRP$	O	poss	O	-1	O
+0	17	450	2337	2345	S	451	supposed	supposed	suppose	VBN	O	amod	O	-1	B-verb.cognition
+0	17	451	2346	2350	S	453	fans	fans	fan	NNS	O	nsubj	O	-1	B-noun.person
+0	17	452	2351	2359	S	453	actually	actually	actually	RB	O	advmod	O	-1	O
+0	17	453	2360	2364	S	441	hate	hate	hate	VBP	O	conj	O	-1	B-verb.emotion
+0	17	454	2365	2368		453	him	him	he	PRP	O	dobj	O	-1	O
+0	17	455	2368	2369	S	437	.	.	.	.	O	punct	O	-1	O
+0	18	456	2370	2373	S	458	The	The	the	DT	O	det	O	-1	O
+0	18	457	2374	2380	S	458	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	18	458	2381	2387	S	459	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	18	459	2388	2392	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.stative
+0	18	460	2393	2395	S	459	on	on	on	IN	O	prep	O	-1	O
+0	18	461	2396	2402	S	460	living	living	live	VBG	O	pcomp	O	-1	B-verb.stative
+0	18	462	2403	2405	S	461	in	in	in	IN	O	prep	O	-1	O
+0	18	463	2406	2410	S	462	fame	fame	fame	NN	O	pobj	O	-1	B-noun.state
+0	18	464	2411	2414	S	463	and	and	and	CC	O	cc	O	-1	O
+0	18	465	2415	2420	S	466	quiet	quiet	quiet	JJ	O	amod	O	-1	O
+0	18	466	2421	2436		463	dissatisfaction	dissatisfaction	dissatisfaction	NN	O	conj	O	-1	B-noun.feeling
+0	18	467	2436	2437	S	461	,	,	,	,	O	punct	O	-1	O
+0	18	468	2438	2446	S	475	becoming	becoming	become	VBG	O	nsubj	O	-1	B-verb.change
+0	18	469	2447	2454	S	468	hostile	hostile	hostile	JJ	O	acomp	O	-1	O
+0	18	470	2455	2459	S	475	only	only	only	RB	O	advmod	O	-1	O
+0	18	471	2460	2464	S	475	when	when	when	WRB	O	advmod	O	-1	O
+0	18	472	2465	2468	S	474	the	the	the	DT	O	det	O	-1	O
+0	18	473	2469	2479	S	474	occasional	occasional	occasional	JJ	O	amod	O	-1	O
+0	18	474	2480	2486	S	475	person	person	person	NN	O	nsubj	O	-1	B-noun.person
+0	18	475	2487	2496	S	461	theorizes	theorizes	theorize	VBZ	O	ccomp	O	-1	B-verb.cognition
+0	18	476	2497	2501	S	475	that	that	that	IN	O	prep	O	-1	O
+0	18	477	2502	2505	S	478	the	the	the	DT	O	det	O	-1	O
+0	18	478	2506	2510	S	476	root	root	root	NN	O	pobj	O	-1	B-noun.plant
+0	18	479	2511	2513	S	478	of	of	of	IN	O	prep	O	-1	O
+0	18	480	2514	2517	S	481	his	his	he	PRP$	O	poss	O	-1	O
+0	18	481	2518	2528	S	479	melancholy	melancholy	melancholy	JJ	O	pobj	O	-1	O
+0	18	482	2529	2534	S	484	might	might	might	MD	O	aux	O	-1	O
+0	18	483	2535	2537	S	484	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	18	484	2538	2541	S	478	the	the	the	DT	O	dep	O	-1	O
+0	18	485	2542	2549	S	484	fasting	fasting	fast	VBG	O	partmod	O	-1	B-verb.consumption
+0	18	486	2550	2556		485	itself	itself	itself	PRP	O	dep	O	-1	O
+0	18	487	2556	2557	S	459	.	.	.	.	O	punct	O	-1	O
+0	19	488	2558	2560	S	495	At	At	at	IN	O	prep	O	-1	O
+0	19	489	2561	2565	S	490	this	this	this	DT	O	det	O	-1	O
+0	19	490	2566	2576		488	suggestion	suggestion	suggestion	NN	O	pobj	O	-1	B-noun.cognition
+0	19	491	2576	2577	S	495	,	,	,	,	O	punct	O	-1	O
+0	19	492	2578	2581	S	494	the	the	the	DT	O	det	O	-1	O
+0	19	493	2582	2588	S	494	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	19	494	2589	2595	S	495	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	19	495	2596	2603	S	-1	rattles	rattles	rattle	VBZ	O	null	O	-1	B-verb.perception
+0	19	496	2604	2607	S	497	his	his	he	PRP$	O	poss	O	-1	O
+0	19	497	2608	2612	S	495	cage	cage	cage	NN	O	dobj	O	-1	B-noun.artifact
+0	19	498	2613	2617	S	497	like	like	like	IN	O	prep	O	-1	O
+0	19	499	2618	2619	S	500	a	a	a	DT	O	det	O	-1	O
+0	19	500	2620	2625	S	498	beast	beast	beast	NN	O	pobj	O	-1	B-noun.Tops
+0	19	501	2626	2629	S	495	and	and	and	CC	O	cc	O	-1	O
+0	19	502	2630	2633	S	504	can	can	can	MD	O	aux	O	-1	O
+0	19	503	2634	2636	S	504	be	be	be	VB	O	auxpass	O	-1	O
+0	19	504	2637	2643	S	495	calmed	calmed	calm	VBN	O	conj	O	-1	B-verb.emotion
+0	19	505	2644	2648	S	506	only	only	only	RB	O	dep	O	-1	O
+0	19	506	2649	2651	S	504	by	by	by	IN	O	prep	O	-1	O
+0	19	507	2652	2655	S	508	the	the	the	DT	O	det	O	-1	O
+0	19	508	2656	2666		506	impresario	impresario	impresario	NN	O	pobj	O	-1	B-noun.person
+0	19	509	2666	2667	S	508	,	,	,	,	O	punct	O	-1	O
+0	19	510	2668	2671	S	511	who	who	who	WP	O	nsubj	O	-1	O
+0	19	511	2672	2677	S	508	plays	plays	play	VBZ	O	rcmod	O	-1	B-verb.social
+0	19	512	2678	2680	S	511	up	up	up	RP	O	prt	O	-1	O
+0	19	513	2681	2684	S	515	the	the	the	DT	O	det	O	-1	O
+0	19	514	2685	2691	S	515	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	19	515	2692	2698		517	artist	artist	artist	NN	O	poss	O	-1	B-noun.person
+0	19	516	2698	2700	S	515	’s	's	's	POS	O	possessive	O	-1	O
+0	19	517	2701	2707	S	511	misery	misery	misery	NN	O	dobj	O	-1	B-noun.state
+0	19	518	2708	2710	S	511	to	to	to	TO	O	prep	O	-1	O
+0	19	519	2711	2714	S	520	the	the	the	DT	O	det	O	-1	O
+0	19	520	2715	2721	S	518	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	19	521	2722	2724	S	511	by	by	by	IN	O	prep	O	-1	O
+0	19	522	2725	2732	S	521	showing	showing	show	VBG	O	pcomp	O	-1	B-verb.perception
+0	19	523	2733	2744	S	526	photographs	photographs	photograph	NNS	O	nsubj	O	-1	B-noun.artifact
+0	19	524	2745	2747	S	523	of	of	of	IN	O	prep	O	-1	O
+0	19	525	2748	2751	S	524	him	him	he	PRP	O	pobj	O	-1	O
+0	19	526	2752	2761	S	522	withering	withering	wither	VBG	O	ccomp	O	-1	B-verb.change
+0	19	527	2762	2766		526	away	away	away	RB	O	advmod	O	-1	O
+0	19	528	2766	2767	S	495	.	.	.	.	O	punct	O	-1	O
+0	20	529	2768	2774	S	534	Though	Though	though	IN	O	mark	O	-1	O
+0	20	530	2775	2780	S	531	these	these	these	DT	O	det	O	-1	O
+0	20	531	2781	2787	S	534	photos	photos	photo	NNS	O	nsubj	O	-1	B-noun.artifact
+0	20	532	2788	2790	S	531	in	in	in	IN	O	prep	O	-1	O
+0	20	533	2791	2798	S	532	reality	reality	reality	NN	O	pobj	O	-1	B-noun.state
+0	20	534	2799	2806	S	554	capture	capture	capture	VBP	O	advcl	O	-1	B-verb.creation
+0	20	535	2807	2810	S	537	the	the	the	DT	O	det	O	-1	O
+0	20	536	2811	2817	S	537	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	20	537	2818	2824	S	534	artist	artist	artist	NN	O	dobj	O	-1	B-noun.person
+0	20	538	2825	2832	S	537	looking	looking	look	VBG	O	partmod	O	-1	B-verb.perception
+0	20	539	2833	2841	S	538	wretched	wretched	wretched	JJ	O	dobj	O	-1	O
+0	20	540	2842	2849	S	544	because	because	because	IN	O	mark	O	-1	O
+0	20	541	2850	2852	S	544	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	20	542	2853	2855	S	544	is	is	be	VBZ	O	aux	O	-1	O
+0	20	543	2856	2861	S	544	being	being	be	VBG	O	auxpass	O	-1	O
+0	20	544	2862	2868	S	534	forced	forced	force	VBN	O	advcl	O	-1	B-verb.social
+0	20	545	2869	2873	S	544	from	from	from	IN	O	prep	O	-1	O
+0	20	546	2874	2877	S	547	the	the	the	DT	O	det	O	-1	O
+0	20	547	2878	2882	S	545	cage	cage	cage	NN	O	pobj	O	-1	B-noun.artifact
+0	20	548	2883	2890	S	544	against	against	against	IN	O	prep	O	-1	O
+0	20	549	2891	2894	S	550	his	his	he	PRP$	O	poss	O	-1	O
+0	20	550	2895	2899		548	will	will	will	MD	O	pobj	O	-1	O
+0	20	551	2899	2900	S	554	,	,	,	,	O	punct	O	-1	O
+0	20	552	2901	2904	S	553	the	the	the	DT	O	det	O	-1	O
+0	20	553	2905	2915	S	554	impresario	impresario	impresario	NN	O	nsubj	O	-1	B-noun.person
+0	20	554	2916	2926	S	-1	advertises	advertises	advertise	VBZ	O	null	O	-1	B-verb.communication
+0	20	555	2927	2929	S	554	it	it	it	PRP	O	dobj	O	-1	O
+0	20	556	2930	2933	S	555	all	all	all	DT	O	dep	O	-1	O
+0	20	557	2934	2936	S	554	as	as	as	IN	O	prep	O	-1	O
+0	20	558	2937	2940	S	559	the	the	the	DT	O	det	O	-1	O
+0	20	559	2941	2947	S	557	effect	effect	effect	NN	O	pobj	O	-1	B-noun.phenomenon
+0	20	560	2948	2950	S	559	of	of	of	IN	O	prep	O	-1	O
+0	20	561	2951	2954	S	560	the	the	the	DT	O	pobj	O	-1	O
+0	20	562	2955	2962	S	561	fasting	fasting	fast	VBG	O	partmod	O	-1	B-verb.consumption
+0	20	563	2963	2969		562	itself	itself	itself	PRP	O	dep	O	-1	O
+0	20	564	2969	2970	S	554	.	.	.	.	O	punct	O	-1	O
+0	21	565	2971	2974	S	566	The	The	the	DT	O	det	O	-1	O
+0	21	566	2975	2985		568	impresario	impresario	impresario	NN	O	poss	O	-1	B-noun.person
+0	21	567	2985	2987	S	566	’s	's	's	POS	O	possessive	O	-1	O
+0	21	568	2988	2995	S	570	gesture	gesture	gesture	NN	O	nsubj	O	-1	B-noun.act
+0	21	569	2996	3001	S	570	never	never	never	RB	O	neg	O	-1	O
+0	21	570	3002	3007	S	-1	fails	fails	fail	VBZ	O	null	O	-1	B-verb.social
+0	21	571	3008	3010	S	570	to	to	to	TO	O	prep	O	-1	O
+0	21	572	3011	3014	S	571	cow	cow	cow	NN	O	pobj	O	-1	B-noun.animal
+0	21	573	3015	3018	S	575	the	the	the	DT	O	det	O	-1	O
+0	21	574	3019	3025	S	575	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	21	575	3026	3032		572	artist	artist	artist	NN	O	dep	O	-1	B-noun.person
+0	21	576	3032	3033	S	575	,	,	,	,	O	punct	O	-1	O
+0	21	577	3034	3037	S	578	who	who	who	WP	O	nsubj	O	-1	O
+0	21	578	3038	3043	S	575	sinks	sinks	sink	VBZ	O	rcmod	O	-1	B-verb.contact
+0	21	579	3044	3046	S	578	in	in	in	IN	O	prep	O	-1	O
+0	21	580	3047	3057		579	submission	submission	submission	NN	O	pobj	O	-1	B-noun.communication
+0	21	581	3057	3058	S	578	,	,	,	,	O	punct	O	-1	O
+0	21	582	3059	3063	S	578	back	back	back	RB	O	advmod	O	-1	O
+0	21	583	3064	3068	S	582	into	into	into	IN	O	dep	O	-1	O
+0	21	584	3069	3072	S	585	his	his	he	PRP$	O	poss	O	-1	O
+0	21	585	3073	3078		583	straw	straw	straw	NN	O	pobj	O	-1	B-noun.substance
+0	21	586	3078	3079	S	578	,	,	,	,	O	punct	O	-1	O
+0	21	587	3080	3087	S	588	forever	forever	forever	RB	O	advmod	O	-1	O
+0	21	588	3088	3101		578	misunderstood	misunderstood	misunderstand	VBN	O	dep	O	-1	B-verb.cognition
+0	21	589	3101	3102	S	570	.	.	.	.	O	punct	O	-1	O
+0	22	590	3103	3115	S	591	Professional	Professional	professional	JJ	O	amod	O	-1	O
+0	22	591	3116	3123	S	593	fasting	fasting	fasting	NN	O	nsubj	O	-1	B-noun.act
+0	22	592	3124	3134	S	593	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	22	593	3135	3139	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.motion
+0	22	594	3140	3144	S	593	into	into	into	IN	O	prep	O	-1	O
+0	22	595	3145	3152		594	decline	decline	decline	NN	O	pobj	O	-1	B-noun.process
+0	22	596	3152	3153	S	593	,	,	,	,	O	punct	O	-1	O
+0	22	597	3154	3156	S	599	as	as	as	IN	O	mark	O	-1	O
+0	22	598	3157	3166	S	599	audiences	audiences	audience	NNS	O	nsubj	O	-1	B-noun.group
+0	22	599	3167	3174	S	593	develop	develop	develop	VBP	O	advcl	O	-1	B-verb.creation
+0	22	600	3175	3176	S	601	a	a	a	DT	O	det	O	-1	O
+0	22	601	3177	3182	S	599	taste	taste	taste	NN	O	dobj	O	-1	B-noun.cognition
+0	22	602	3183	3186	S	599	for	for	for	IN	O	prep	O	-1	O
+0	22	603	3187	3192		607	newer	newer	newer	JJR	O	amod	O	-1	O
+0	22	604	3192	3193	S	607	,	,	,	,	O	punct	O	-1	O
+0	22	605	3194	3198	S	606	more	more	more	RBR	O	advmod	O	-1	O
+0	22	606	3199	3207	S	607	exciting	exciting	exciting	JJ	O	amod	O	-1	O
+0	22	607	3208	3213	S	602	forms	forms	form	NNS	O	pobj	O	-1	B-noun.communication
+0	22	608	3214	3216	S	607	of	of	of	IN	O	prep	O	-1	O
+0	22	609	3217	3230		608	entertainment	entertainment	entertainment	NN	O	pobj	O	-1	B-noun.act
+0	22	610	3230	3231	S	593	.	.	.	.	O	punct	O	-1	O
+0	23	611	3232	3235	S	613	The	The	the	DT	O	det	O	-1	O
+0	23	612	3236	3242	S	613	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	23	613	3243	3249	S	616	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	23	614	3250	3253	S	613	and	and	and	CC	O	cc	O	-1	O
+0	23	615	3254	3264	S	613	impresario	impresario	impresario	NN	O	conj	O	-1	B-noun.person
+0	23	616	3265	3273	S	-1	dissolve	dissolve	dissolve	VBP	O	null	O	-1	B-verb.change
+0	23	617	3274	3279	S	618	their	their	they	PRP$	O	poss	O	-1	O
+0	23	618	3280	3291		616	partnership	partnership	partnership	NN	O	dobj	O	-1	B-noun.group
+0	23	619	3291	3292	S	616	,	,	,	,	O	punct	O	-1	O
+0	23	620	3293	3296	S	616	but	but	but	CC	O	cc	O	-1	O
+0	23	621	3297	3304	S	627	because	because	because	IN	O	mark	O	-1	O
+0	23	622	3305	3308	S	624	the	the	the	DT	O	det	O	-1	O
+0	23	623	3309	3315	S	624	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	23	624	3316	3322	S	627	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	23	625	3323	3325	S	627	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	23	626	3326	3329	S	627	too	too	too	RB	O	advmod	O	-1	O
+0	23	627	3330	3333	S	636	old	old	old	JJ	O	advcl	O	-1	O
+0	23	628	3334	3336	S	629	to	to	to	TO	O	aux	O	-1	O
+0	23	629	3337	3341	S	627	take	take	take	VB	O	xcomp	O	-1	B-verb.change
+0	23	630	3342	3344	S	629	up	up	up	RP	O	prt	O	-1	O
+0	23	631	3345	3346	S	633	a	a	a	DT	O	det	O	-1	O
+0	23	632	3347	3350	S	633	new	new	new	JJ	O	amod	O	-1	O
+0	23	633	3351	3361		629	profession	profession	profession	NN	O	dobj	O	-1	B-noun.group
+0	23	634	3361	3362	S	636	,	,	,	,	O	punct	O	-1	O
+0	23	635	3363	3365	S	636	he	he	he	PRP	O	nsubj	O	-1	O
+0	23	636	3366	3374	S	616	attempts	attempts	attempt	VBZ	O	conj	O	-1	B-verb.social
+0	23	637	3375	3377	S	638	to	to	to	TO	O	aux	O	-1	O
+0	23	638	3378	3382	S	636	ride	ride	ride	VB	O	xcomp	O	-1	B-verb.motion
+0	23	639	3383	3386	S	638	out	out	out	RP	O	prt	O	-1	O
+0	23	640	3387	3390	S	641	the	the	the	DT	O	det	O	-1	O
+0	23	641	3391	3396	S	638	trend	trend	trend	NN	O	dobj	O	-1	B-noun.location
+0	23	642	3397	3404	S	641	against	against	against	IN	O	prep	O	-1	O
+0	23	643	3405	3412	S	642	fasting	fasting	fasting	NN	O	pobj	O	-1	B-noun.act
+0	23	644	3413	3415	S	638	in	in	in	IN	O	prep	O	-1	O
+0	23	645	3416	3419	S	646	the	the	the	DT	O	det	O	-1	O
+0	23	646	3420	3424	S	644	hope	hope	hope	NN	O	pobj	O	-1	B-noun.feeling
+0	23	647	3425	3429	S	649	that	that	that	IN	O	complm	O	-1	O
+0	23	648	3430	3432	S	649	it	it	it	PRP	O	nsubj	O	-1	O
+0	23	649	3433	3441	S	638	reverses	reverses	reverse	VBZ	O	ccomp	O	-1	B-verb.change
+0	23	650	3442	3448		649	itself	itself	itself	PRP	O	dobj	O	-1	O
+0	23	651	3448	3449	S	616	.	.	.	.	O	punct	O	-1	O
+0	24	652	3450	3452	S	653	He	He	he	PRP	O	nsubj	O	-1	O
+0	24	653	3453	3458	S	-1	joins	joins	join	VBZ	O	null	O	-1	B-verb.social
+0	24	654	3459	3460	S	655	a	a	a	DT	O	det	O	-1	O
+0	24	655	3461	3467	S	653	circus	circus	circus	NN	O	dobj	O	-1	B-noun.group
+0	24	656	3468	3471	S	653	and	and	and	CC	O	cc	O	-1	O
+0	24	657	3472	3479	S	659	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	24	658	3480	3481	S	659	a	a	a	DT	O	det	O	-1	O
+0	24	659	3482	3490		653	sideshow	sideshow	sideshow	NN	O	conj	O	-1	B-noun.event
+0	24	660	3490	3491	S	659	,	,	,	,	O	punct	O	-1	O
+0	24	661	3492	3498	S	659	placed	placed	place	VBN	O	partmod	O	-1	B-verb.contact
+0	24	662	3499	3501	S	661	at	at	at	IN	O	prep	O	-1	O
+0	24	663	3502	3505	S	664	the	the	the	DT	O	det	O	-1	O
+0	24	664	3506	3514	S	662	entrance	entrance	entrance	NN	O	pobj	O	-1	B-noun.event
+0	24	665	3515	3517	S	664	of	of	of	IN	O	prep	O	-1	O
+0	24	666	3518	3521	S	667	the	the	the	DT	O	det	O	-1	O
+0	24	667	3522	3531	S	665	menagerie	menagerie	menagerie	NN	O	pobj	O	-1	B-noun.group
+0	24	668	3532	3534	S	667	of	of	of	IN	O	prep	O	-1	O
+0	24	669	3535	3542	S	668	animals	animals	animal	NNS	O	pobj	O	-1	B-noun.animal
+0	24	670	3543	3546	S	669	and	and	and	CC	O	cc	O	-1	O
+0	24	671	3547	3552	S	672	other	other	other	JJ	O	amod	O	-1	O
+0	24	672	3553	3564		669	curiosities	curiosities	curiosity	NNS	O	conj	O	-1	B-noun.cognition
+0	24	673	3564	3565	S	653	.	.	.	.	O	punct	O	-1	O
+0	25	674	3566	3568	S	685	As	As	as	IN	O	prep	O	-1	O
+0	25	675	3569	3570	S	676	a	a	a	DT	O	det	O	-1	O
+0	25	676	3571	3577	S	674	result	result	result	NN	O	pobj	O	-1	B-noun.phenomenon
+0	25	677	3578	3580	S	676	of	of	of	IN	O	prep	O	-1	O
+0	25	678	3581	3584	S	679	his	his	he	PRP$	O	poss	O	-1	O
+0	25	679	3585	3594		677	placement	placement	placement	NN	O	pobj	O	-1	B-noun.act
+0	25	680	3594	3595	S	685	,	,	,	,	O	punct	O	-1	O
+0	25	681	3596	3599	S	683	the	the	the	DT	O	det	O	-1	O
+0	25	682	3600	3606	S	683	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	25	683	3607	3613	S	685	artist	artist	artist	NN	O	nsubjpass	O	-1	B-noun.person
+0	25	684	3614	3616	S	685	is	is	be	VBZ	O	auxpass	O	-1	O
+0	25	685	3617	3624	S	-1	ignored	ignored	ignore	VBN	O	null	O	-1	B-verb.communication
+0	25	686	3625	3627	S	685	by	by	by	IN	O	prep	O	-1	O
+0	25	687	3628	3631	S	688	the	the	the	DT	O	det	O	-1	O
+0	25	688	3632	3639	S	686	throngs	throngs	throng	NNS	O	pobj	O	-1	B-noun.group
+0	25	689	3640	3642	S	688	of	of	of	IN	O	prep	O	-1	O
+0	25	690	3643	3649	S	689	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	25	691	3650	3653	S	693	who	who	who	WP	O	nsubj	O	-1	O
+0	25	692	3654	3658	S	693	have	have	have	VBP	O	aux	O	-1	O
+0	25	693	3659	3663	S	690	come	come	come	VBN	O	rcmod	O	-1	B-verb.motion
+0	25	694	3664	3667	S	693	for	for	for	IN	O	prep	O	-1	O
+0	25	695	3668	3671	S	697	the	the	the	DT	O	det	O	-1	O
+0	25	696	3672	3680	S	697	livelier	livelier	livelier	JJR	O	amod	O	-1	O
+0	25	697	3681	3692	S	694	attractions	attractions	attraction	NNS	O	pobj	O	-1	B-noun.phenomenon
+0	25	698	3693	3699		697	inside	inside	inside	IN	O	advmod	O	-1	O
+0	25	699	3699	3700	S	685	.	.	.	.	O	punct	O	-1	O
+0	26	700	3701	3704	S	702	The	The	the	DT	O	det	O	-1	O
+0	26	701	3705	3711	S	702	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	26	702	3712	3718	S	704	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	26	703	3719	3721	S	704	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	26	704	3722	3733		-1	nonexistent	nonexistent	nonexistent	JJ	O	null	O	-1	O
+0	26	705	3733	3734	S	704	,	,	,	,	O	punct	O	-1	O
+0	26	706	3735	3739	S	704	save	save	save	VB	O	conj	O	-1	O
+0	26	707	3740	3743	S	706	for	for	for	IN	O	prep	O	-1	O
+0	26	708	3744	3745	S	710	a	a	a	DT	O	det	O	-1	O
+0	26	709	3746	3749	S	710	few	few	few	JJ	O	amod	O	-1	O
+0	26	710	3750	3760	S	707	stragglers	stragglers	straggler	NNS	O	pobj	O	-1	B-noun.person
+0	26	711	3761	3764	S	712	who	who	who	WP	O	nsubj	O	-1	O
+0	26	712	3765	3769	S	710	look	look	look	VBP	O	rcmod	O	-1	B-verb.perception
+0	26	713	3770	3772	S	712	at	at	at	IN	O	prep	O	-1	O
+0	26	714	3773	3776	S	713	him	him	he	PRP	O	pobj	O	-1	O
+0	26	715	3777	3779	S	712	as	as	as	IN	O	prep	O	-1	O
+0	26	716	3780	3782	S	717	an	an	a	DT	O	det	O	-1	O
+0	26	717	3783	3794		715	anachronism	anachronism	anachronism	NN	O	pobj	O	-1	B-noun.time
+0	26	718	3794	3795	S	704	.	.	.	.	O	punct	O	-1	O
+0	27	719	3796	3800	S	726	Left	Left	leave	VBN	O	ccomp	O	-1	B-verb.change
+0	27	720	3801	3806		719	alone	alone	alone	RB	O	advmod	O	-1	O
+0	27	721	3806	3807	S	726	,	,	,	,	O	punct	O	-1	O
+0	27	722	3808	3811	S	724	the	the	the	DT	O	det	O	-1	O
+0	27	723	3812	3818	S	724	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	27	724	3819	3825	S	726	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	27	725	3826	3833	S	726	finally	finally	finally	RB	O	advmod	O	-1	O
+0	27	726	3834	3841	S	-1	exceeds	exceeds	exceed	VBZ	O	null	O	-1	B-verb.stative
+0	27	727	3842	3845	S	729	his	his	he	PRP$	O	poss	O	-1	O
+0	27	728	3846	3853	S	729	fasting	fasting	fasting	NN	O	nn	O	-1	B-noun.act
+0	27	729	3854	3860		726	record	record	record	NN	O	dobj	O	-1	O
+0	27	730	3860	3861	S	726	,	,	,	,	O	punct	O	-1	O
+0	27	731	3862	3870	S	733	although	although	although	IN	O	mark	O	-1	O
+0	27	732	3871	3876	S	733	there	there	there	EX	O	expl	O	-1	O
+0	27	733	3877	3879	S	726	is	is	be	VBZ	O	advcl	O	-1	B-verb.stative
+0	27	734	3880	3882	S	735	no	no	no	DT	O	det	O	-1	O
+0	27	735	3883	3886	S	743	way	way	way	NN	O	nsubjpass	O	-1	B-noun.attribute
+0	27	736	3887	3889	S	737	to	to	to	TO	O	aux	O	-1	O
+0	27	737	3890	3894	S	743	tell	tell	tell	VB	O	auxpass	O	-1	B-verb.communication
+0	27	738	3895	3902	S	743	exactly	exactly	exactly	RB	O	advmod	O	-1	O
+0	27	739	3903	3906	S	743	how	how	how	WRB	O	advmod	O	-1	O
+0	27	740	3907	3911	S	739	long	long	long	RB	O	advmod	O	-1	O
+0	27	741	3912	3914	S	743	he	he	he	PRP	O	nsubj	O	-1	O
+0	27	742	3915	3918	S	743	has	has	have	VBZ	O	aux	O	-1	O
+0	27	743	3919	3925	S	733	fasted	fasted	fast	VBN	O	ccomp	O	-1	B-verb.consumption
+0	27	744	3926	3933	S	748	because	because	because	IN	O	mark	O	-1	O
+0	27	745	3934	3937	S	747	the	the	the	DT	O	det	O	-1	O
+0	27	746	3938	3944	S	747	circus	circus	circus	NN	O	nn	O	-1	B-noun.group
+0	27	747	3945	3955	S	748	attendants	attendants	attendant	NNS	O	nsubj	O	-1	B-noun.person
+0	27	748	3956	3962	S	743	forget	forget	forget	VB	O	advcl	O	-1	B-verb.cognition
+0	27	749	3963	3965	S	750	to	to	to	TO	O	aux	O	-1	O
+0	27	750	3966	3972	S	748	change	change	change	VB	O	xcomp	O	-1	B-verb.change
+0	27	751	3973	3976	S	752	the	the	the	DT	O	det	O	-1	O
+0	27	752	3977	3981	S	750	sign	sign	sign	NN	O	dobj	O	-1	B-noun.communication
+0	27	753	3982	3984	S	758	on	on	on	IN	O	rel	O	-1	O
+0	27	754	3985	3990	S	753	which	which	which	WDT	O	pobj	O	-1	O
+0	27	755	3991	3994	S	757	his	his	he	PRP$	O	poss	O	-1	O
+0	27	756	3995	4000	S	757	daily	daily	daily	JJ	SET	amod	O	-1	O
+0	27	757	4001	4006	S	758	total	total	total	NN	O	nsubj	O	-1	B-noun.artifact
+0	27	758	4007	4014		752	appears	appears	appear	VBZ	O	rcmod	O	-1	B-verb.perception
+0	27	759	4014	4015	S	726	.	.	.	.	O	punct	O	-1	O
+0	28	760	4016	4019	S	763	The	The	the	DT	O	det	O	-1	O
+0	28	761	4020	4026	S	763	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	28	762	4027	4033	S	763	artist	artist	artist	NN	O	nn	O	-1	B-noun.person
+0	28	763	4034	4040	S	769	wastes	wastes	waste	NNS	O	nsubj	O	-1	B-noun.substance
+0	28	764	4041	4045	S	763	away	away	away	RB	O	advmod	O	-1	O
+0	28	765	4046	4048	S	764	in	in	in	IN	O	dep	O	-1	O
+0	28	766	4049	4052	S	767	his	his	he	PRP$	O	poss	O	-1	O
+0	28	767	4053	4057		765	cage	cage	cage	NN	O	pobj	O	-1	B-noun.artifact
+0	28	768	4057	4058	S	763	,	,	,	,	O	punct	O	-1	O
+0	28	769	4059	4068	S	-1	unnoticed	unnoticed	unnoticed	JJ	O	null	O	-1	O
+0	28	770	4069	4072	S	769	and	and	and	CC	O	cc	O	-1	O
+0	28	771	4073	4086		769	unappreciated	unappreciated	unappreciated	JJ	O	conj	O	-1	O
+0	28	772	4086	4087	S	769	.	.	.	.	O	punct	O	-1	O
+0	29	773	4088	4092	S	774	Many	Many	many	JJ	O	amod	O	-1	O
+0	29	774	4093	4097	S	775	days	days	day	NNS	DURATION	nsubj	O	-1	B-noun.time
+0	29	775	4098	4102	S	-1	pass	pass	pass	VBP	O	null	O	-1	B-verb.motion
+0	29	776	4103	4109	S	775	before	before	before	IN	O	prep	O	-1	O
+0	29	777	4110	4111	S	780	a	a	a	DT	O	det	O	-1	O
+0	29	778	4112	4118	S	780	circus	circus	circus	NN	O	nn	O	-1	B-noun.group
+0	29	779	4119	4127	S	780	overseer	overseer	overseer	NN	O	nn	O	-1	B-noun.person
+0	29	780	4128	4135	S	776	notices	notices	notice	NNS	O	pobj	O	-1	B-noun.communication
+0	29	781	4136	4140	S	782	what	what	what	WDT	O	nsubj	O	-1	O
+0	29	782	4141	4146	S	780	seems	seems	seem	VBZ	O	rcmod	O	-1	B-verb.perception
+0	29	783	4147	4149	S	787	to	to	to	TO	O	aux	O	-1	O
+0	29	784	4150	4152	S	787	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	29	785	4153	4155	S	787	an	an	a	DT	O	det	O	-1	O
+0	29	786	4156	4162	S	787	unused	unused	unused	JJ	O	amod	O	-1	O
+0	29	787	4163	4167		782	cage	cage	cage	NN	O	xcomp	O	-1	B-noun.artifact
+0	29	788	4167	4168	S	775	.	.	.	.	O	punct	O	-1	O
+0	30	789	4169	4173	S	795	Upon	Upon	upon	IN	O	prep	O	-1	O
+0	30	790	4174	4180	S	791	closer	closer	closer	JJR	O	amod	O	-1	O
+0	30	791	4181	4191		789	inspection	inspection	inspection	NN	O	pobj	O	-1	B-noun.act
+0	30	792	4191	4192	S	795	,	,	,	,	O	punct	O	-1	O
+0	30	793	4193	4196	S	794	the	the	the	DT	O	det	O	-1	O
+0	30	794	4197	4205	S	795	overseer	overseer	overseer	NN	O	nsubj	O	-1	B-noun.person
+0	30	795	4206	4215	S	-1	discovers	discovers	discover	VBZ	O	null	O	-1	B-verb.perception
+0	30	796	4216	4219	S	798	the	the	the	DT	O	det	O	-1	O
+0	30	797	4220	4226	S	798	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	30	798	4227	4233	S	795	artist	artist	artist	NN	O	dobj	O	-1	B-noun.person
+0	30	799	4234	4240	S	798	buried	buried	bury	VBN	O	partmod	O	-1	B-verb.social
+0	30	800	4241	4243	S	799	in	in	in	IN	O	prep	O	-1	O
+0	30	801	4244	4247	S	802	the	the	the	DT	O	det	O	-1	O
+0	30	802	4248	4253		800	straw	straw	straw	NN	O	pobj	O	-1	B-noun.substance
+0	30	803	4253	4254	S	795	,	,	,	,	O	punct	O	-1	O
+0	30	804	4255	4259	S	795	near	near	near	IN	O	prep	O	-1	O
+0	30	805	4260	4265		804	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	30	806	4265	4266	S	795	.	.	.	.	O	punct	O	-1	O
+0	31	807	4267	4275	S	815	Thinking	Thinking	think	VBG	O	dep	O	-1	B-verb.cognition
+0	31	808	4276	4279	S	810	the	the	the	DT	O	det	O	-1	O
+0	31	809	4280	4286	S	810	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	31	810	4287	4293	S	807	artist	artist	artist	NN	O	dobj	O	-1	B-noun.person
+0	31	811	4294	4300		810	insane	insane	insane	JJ	O	amod	O	-1	O
+0	31	812	4300	4301	S	815	,	,	,	,	O	punct	O	-1	O
+0	31	813	4302	4305	S	814	the	the	the	DT	O	det	O	-1	O
+0	31	814	4306	4314	S	815	overseer	overseer	overseer	NN	O	nsubj	O	-1	B-noun.person
+0	31	815	4315	4321	S	-1	humors	humors	humor	VBZ	O	null	O	-1	B-verb.communication
+0	31	816	4322	4325	S	818	the	the	the	DT	O	det	O	-1	O
+0	31	817	4326	4332	S	818	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	31	818	4333	4339	S	815	artist	artist	artist	NN	O	dobj	O	-1	B-noun.person
+0	31	819	4340	4342	S	815	in	in	in	IN	O	prep	O	-1	O
+0	31	820	4343	4346	S	822	his	his	he	PRP$	O	poss	O	-1	O
+0	31	821	4347	4351	S	822	last	last	last	JJ	O	amod	O	-1	O
+0	31	822	4352	4357		819	words	words	word	NNS	O	pobj	O	-1	B-noun.communication
+0	31	823	4357	4358	S	815	.	.	.	.	O	punct	O	-1	O
+0	32	824	4359	4362	S	826	The	The	the	DT	O	det	O	-1	O
+0	32	825	4363	4369	S	826	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	32	826	4370	4376	S	827	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	32	827	4377	4381	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	32	828	4382	4384	S	830	to	to	to	TO	O	aux	O	-1	O
+0	32	829	4385	4387	S	830	be	be	be	VB	O	auxpass	O	-1	O
+0	32	830	4388	4396		827	forgiven	forgiven	forgive	VBN	O	xcomp	O	-1	B-verb.communication
+0	32	831	4396	4397	S	830	,	,	,	,	O	punct	O	-1	O
+0	32	832	4398	4408	S	830	explaining	explaining	explain	VBG	O	xcomp	O	-1	B-verb.communication
+0	32	833	4409	4413	S	836	that	that	that	IN	O	complm	O	-1	O
+0	32	834	4414	4416	S	836	he	he	he	PRP	O	nsubj	O	-1	O
+0	32	835	4417	4420	S	836	has	has	have	VBZ	O	aux	O	-1	O
+0	32	836	4421	4427	S	832	wanted	wanted	want	VBN	O	ccomp	O	-1	B-verb.emotion
+0	32	837	4428	4432	S	840	only	only	only	RB	O	advmod	O	-1	O
+0	32	838	4433	4435	S	840	to	to	to	TO	O	aux	O	-1	O
+0	32	839	4436	4438	S	840	be	be	be	VB	O	auxpass	O	-1	O
+0	32	840	4439	4446	S	836	admired	admired	admire	VBN	O	ccomp	O	-1	B-verb.emotion
+0	32	841	4447	4449	S	840	by	by	by	IN	O	prep	O	-1	O
+0	32	842	4450	4458		841	everyone	everyone	everyone	NN	O	pobj	O	-1	O
+0	32	843	4458	4459	S	827	.	.	.	.	O	punct	O	-1	O
+0	33	844	4460	4464	S	847	When	When	when	WRB	O	advmod	O	-1	O
+0	33	845	4465	4468	S	846	the	the	the	DT	O	det	O	-1	O
+0	33	846	4469	4477	S	847	overseer	overseer	overseer	NN	O	nsubj	O	-1	B-noun.person
+0	33	847	4478	4485	S	858	assures	assures	assure	VBZ	O	dep	O	-1	B-verb.communication
+0	33	848	4486	4489	S	847	him	him	he	PRP	O	dobj	O	-1	O
+0	33	849	4490	4494	S	852	that	that	that	IN	O	complm	O	-1	O
+0	33	850	4495	4503	S	852	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	33	851	4504	4508	S	852	does	does	do	VBZ	O	aux	O	-1	O
+0	33	852	4509	4515	S	847	admire	admire	admire	VB	O	ccomp	O	-1	B-verb.emotion
+0	33	853	4516	4519		852	him	him	he	PRP	O	dobj	O	-1	O
+0	33	854	4519	4520	S	858	,	,	,	,	O	punct	O	-1	O
+0	33	855	4521	4524	S	857	the	the	the	DT	O	det	O	-1	O
+0	33	856	4525	4531	S	857	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	33	857	4532	4538	S	858	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	33	858	4539	4544	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	33	859	4545	4548	S	860	the	the	the	DT	O	det	O	-1	O
+0	33	860	4549	4557	S	858	overseer	overseer	overseer	NN	O	dobj	O	-1	B-noun.person
+0	33	861	4558	4562	S	863	that	that	that	IN	O	dobj	O	-1	O
+0	33	862	4563	4567	S	863	they	they	they	PRP	O	nsubj	O	-1	O
+0	33	863	4568	4574		860	should	should	should	MD	O	rcmod	O	-1	O
+0	33	864	4574	4577		863	n’t	n't	not	RB	O	neg	O	-1	O
+0	33	865	4577	4578	S	866	,	,	,	,	O	punct	O	-1	O
+0	33	866	4579	4589	S	863	confessing	confessing	confess	VBG	O	parataxis	O	-1	B-verb.communication
+0	33	867	4590	4594	S	870	that	that	that	IN	O	complm	O	-1	O
+0	33	868	4595	4597	S	870	he	he	he	PRP	O	nsubj	O	-1	O
+0	33	869	4598	4601	S	870	has	has	have	VBZ	O	aux	O	-1	O
+0	33	870	4602	4608	S	866	fasted	fasted	fast	VBN	O	ccomp	O	-1	B-verb.consumption
+0	33	871	4609	4613	S	873	only	only	only	RB	O	dep	O	-1	O
+0	33	872	4614	4621	S	873	because	because	because	IN	O	dep	O	-1	O
+0	33	873	4622	4624	S	870	in	in	in	IN	O	prep	O	-1	O
+0	33	874	4625	4629	S	873	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	33	875	4630	4632	S	878	he	he	he	PRP	O	nsubj	O	-1	O
+0	33	876	4633	4638	S	878	could	could	could	MD	O	aux	O	-1	O
+0	33	877	4639	4642	S	878	not	not	not	RB	O	neg	O	-1	O
+0	33	878	4643	4647	S	870	find	find	find	VB	O	ccomp	O	-1	B-verb.possession
+0	33	879	4648	4652	S	878	food	food	food	NN	O	dobj	O	-1	B-noun.food
+0	33	880	4653	4657	S	882	that	that	that	IN	O	dobj	O	-1	O
+0	33	881	4658	4660	S	882	he	he	he	PRP	O	nsubj	O	-1	O
+0	33	882	4661	4666		879	liked	liked	like	VBD	O	rcmod	O	-1	B-verb.emotion
+0	33	883	4666	4667	S	858	.	.	.	.	O	punct	O	-1	O
+0	34	884	4668	4672	S	891	With	With	with	IN	O	prep	O	-1	O
+0	34	885	4673	4678	S	886	these	these	these	DT	O	det	O	-1	O
+0	34	886	4679	4684		884	words	words	word	NNS	O	pobj	O	-1	B-noun.communication
+0	34	887	4684	4685	S	891	,	,	,	,	O	punct	O	-1	O
+0	34	888	4686	4689	S	890	the	the	the	DT	O	det	O	-1	O
+0	34	889	4690	4696	S	890	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	34	890	4697	4703	S	891	artist	artist	artist	NN	O	nsubj	O	-1	B-noun.person
+0	34	891	4704	4708		-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	34	892	4708	4709	S	891	.	.	.	.	O	punct	O	-1	O
+0	35	893	4710	4713	S	895	The	The	the	DT	O	det	O	-1	O
+0	35	894	4714	4720	S	895	circus	circus	circus	NN	O	nn	O	-1	B-noun.group
+0	35	895	4721	4731	S	896	attendants	attendants	attendant	NNS	O	nsubj	O	-1	B-noun.person
+0	35	896	4732	4736	S	-1	bury	bury	bury	VB	O	null	O	-1	B-verb.perception
+0	35	897	4737	4740	S	896	him	him	he	PRP	O	dobj	O	-1	O
+0	35	898	4741	4745	S	896	with	with	with	IN	O	prep	O	-1	O
+0	35	899	4746	4749	S	900	his	his	he	PRP$	O	poss	O	-1	O
+0	35	900	4750	4755	S	898	straw	straw	straw	NN	O	pobj	O	-1	B-noun.substance
+0	35	901	4756	4759	S	896	and	and	and	CC	O	cc	O	-1	O
+0	35	902	4760	4767	S	896	restock	restock	restock	VB	O	conj	O	-1	B-verb.possession
+0	35	903	4768	4771	S	904	the	the	the	DT	O	det	O	-1	O
+0	35	904	4772	4776	S	902	cage	cage	cage	NN	O	dobj	O	-1	B-noun.artifact
+0	35	905	4777	4781	S	902	with	with	with	IN	O	prep	O	-1	O
+0	35	906	4782	4783	S	908	a	a	a	DT	O	det	O	-1	O
+0	35	907	4784	4789	S	908	young	young	young	JJ	O	amod	O	-1	O
+0	35	908	4790	4797		905	panther	panther	panther	NN	O	pobj	O	-1	B-noun.animal
+0	35	909	4797	4798	S	908	,	,	,	,	O	punct	O	-1	O
+0	35	910	4799	4804	S	908	which	which	which	WDT	O	appos	O	-1	O
+0	35	911	4805	4807	S	910	is	is	be	VBZ	O	dep	O	-1	B-verb.stative
+0	35	912	4808	4814	S	911	unlike	unlike	unlike	IN	O	prep	O	-1	O
+0	35	913	4815	4818	S	915	the	the	the	DT	O	det	O	-1	O
+0	35	914	4819	4825	S	915	hunger	hunger	hunger	NN	O	nn	O	-1	B-noun.state
+0	35	915	4826	4832	S	912	artist	artist	artist	NN	O	pobj	O	-1	B-noun.person
+0	35	916	4833	4835	S	911	in	in	in	IN	O	prep	O	-1	O
+0	35	917	4836	4842	S	919	nearly	nearly	nearly	RB	O	advmod	O	-1	O
+0	35	918	4843	4848	S	919	every	every	every	DT	O	det	O	-1	O
+0	35	919	4849	4852		916	way	way	way	NN	O	pobj	O	-1	O
+0	35	920	4852	4853	S	896	.	.	.	.	O	punct	O	-1	O
+0	36	921	4854	4862	S	929	Stalking	Stalking	stalk	VBG	O	dep	O	-1	B-verb.motion
+0	36	922	4863	4868	S	923	about	about	about	RB	O	dep	O	-1	O
+0	36	923	4869	4871	S	921	in	in	in	IN	O	prep	O	-1	O
+0	36	924	4872	4875	S	925	its	its	its	PRP$	O	poss	O	-1	O
+0	36	925	4876	4880		923	cage	cage	cage	NN	O	pobj	O	-1	B-noun.artifact
+0	36	926	4880	4881	S	929	,	,	,	,	O	punct	O	-1	O
+0	36	927	4882	4885	S	928	the	the	the	DT	O	det	O	-1	O
+0	36	928	4886	4893	S	929	panther	panther	panther	NN	O	nsubj	O	-1	B-noun.animal
+0	36	929	4894	4899	S	-1	brims	brims	brim	VBZ	O	null	O	-1	B-verb.stative
+0	36	930	4900	4904	S	929	with	with	with	IN	O	prep	O	-1	O
+0	36	931	4905	4909		930	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	36	932	4909	4910	S	929	,	,	,	,	O	punct	O	-1	O
+0	36	933	4911	4918	S	929	feeding	feeding	feed	VBG	O	xcomp	O	-1	B-verb.consumption
+0	36	934	4919	4927	S	933	hungrily	hungrily	hungrily	RB	O	advmod	O	-1	O
+0	36	935	4928	4931	S	933	and	and	and	CC	O	cc	O	-1	O
+0	36	936	4932	4942	S	933	expressing	expressing	express	VBG	O	conj	O	-1	B-verb.communication
+0	36	937	4943	4950	S	936	freedom	freedom	freedom	NN	O	dobj	O	-1	B-noun.state
+0	36	938	4951	4954	S	937	and	and	and	CC	O	cc	O	-1	O
+0	36	939	4955	4963		937	vitality	vitality	vitality	NN	O	conj	O	-1	B-noun.attribute
+0	36	940	4963	4964	S	929	.	.	.	.	O	punct	O	-1	O
+0	37	941	4965	4967	S	949	In	In	in	IN	O	prep	O	-1	O
+0	37	942	4968	4970	S	943	no	no	no	DT	O	det	O	-1	O
+0	37	943	4971	4975		941	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	37	944	4975	4976	S	949	,	,	,	,	O	punct	O	-1	O
+0	37	945	4977	4979	S	949	it	it	it	PRP	O	nsubj	O	-1	O
+0	37	946	4980	4987	S	949	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.stative
+0	37	947	4988	4989	S	949	a	a	a	DT	O	det	O	-1	O
+0	37	948	4990	4995	S	949	major	major	major	JJ	O	amod	O	-1	O
+0	37	949	4996	5000	S	-1	draw	draw	draw	NN	O	null	O	-1	B-noun.object
+0	37	950	5001	5004	S	949	for	for	for	IN	O	prep	O	-1	O
+0	37	951	5005	5008	S	952	the	the	the	DT	O	det	O	-1	O
+0	37	952	5009	5015		950	circus	circus	circus	NN	O	pobj	O	-1	B-noun.group
+0	37	953	5015	5016	S	949	,	,	,	,	O	punct	O	-1	O
+0	37	954	5017	5020	S	949	and	and	and	CC	O	cc	O	-1	O
+0	37	955	5021	5027	S	949	crowds	crowds	crowd	NNS	O	conj	O	-1	B-noun.group
+0	37	956	5028	5030	S	955	of	of	of	IN	O	prep	O	-1	O
+0	37	957	5031	5037	S	956	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	37	958	5038	5042	S	949	edge	edge	edge	VBP	O	dep	O	-1	B-verb.motion
+0	37	959	5043	5048	S	958	close	close	close	RB	O	advmod	O	-1	O
+0	37	960	5049	5051	S	959	to	to	to	TO	O	dep	O	-1	O
+0	37	961	5052	5055	S	962	the	the	the	DT	O	det	O	-1	O
+0	37	962	5056	5060	S	960	cage	cage	cage	NN	O	pobj	O	-1	B-noun.artifact
+0	37	963	5061	5063	S	958	in	in	in	IN	O	prep	O	-1	O
+0	37	964	5064	5074	S	965	breathless	breathless	breathless	JJ	O	amod	O	-1	O
+0	37	965	5075	5085		963	excitement	excitement	excitement	NN	O	pobj	O	-1	B-noun.feeling
+0	37	966	5085	5086	N	949	.	.	.	.	O	punct	O	-1	O

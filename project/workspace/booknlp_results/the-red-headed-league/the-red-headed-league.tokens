@@ -1,0 +1,987 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	6	S	2	Doctor	Doctor	doctor	NN	O	nn	O	-1	B-noun.person
+0	0	1	7	11	S	2	John	John	John	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	2	12	18	S	3	Watson	Watson	Watson	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	3	19	24	S	16	steps	steps	step	VBZ	O	ccomp	O	-1	B-verb.motion
+0	0	4	25	29	S	3	into	into	into	IN	O	prep	O	-1	O
+0	0	5	30	33	S	6	the	the	the	DT	O	det	O	-1	O
+0	0	6	34	38	S	4	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	0	7	39	41	S	6	of	of	of	IN	O	prep	O	-1	O
+0	0	8	42	45	S	9	his	his	he	PRP$	O	poss	O	-1	O
+0	0	9	46	52		7	friend	friend	friend	NN	O	pobj	O	-1	B-noun.person
+0	0	10	52	53	S	16	,	,	,	,	O	punct	O	-1	O
+0	0	11	54	57	S	16	the	the	the	DT	O	det	O	-1	O
+0	0	12	58	64	S	16	famous	famous	famous	JJ	O	amod	O	-1	O
+0	0	13	65	72	S	16	private	private	private	JJ	O	amod	O	-1	O
+0	0	14	73	82	S	16	detective	detective	detective	NN	O	nn	O	-1	B-noun.person
+0	0	15	83	91	S	16	Sherlock	Sherlock	Sherlock	NNP	PERSON	nn	O	4	B-noun.person
+0	0	16	92	98		-1	Holmes	Holmes	Holmes	NNP	PERSON	null	O	4	I-noun.person
+0	0	17	98	99	S	16	.	.	.	.	O	punct	O	-1	O
+0	1	18	100	106		25	Watson	Watson	Watson	NNP	PERSON	nsubj	O	3	B-noun.person
+0	1	19	106	107	S	18	,	,	,	,	O	punct	O	-1	O
+0	1	20	108	111	S	21	the	the	the	DT	O	det	O	-1	O
+0	1	21	112	117		23	story	story	story	NN	O	poss	O	-1	B-noun.communication
+0	1	22	117	119	S	21	’s	's	's	POS	O	possessive	O	-1	O
+0	1	23	120	128		18	narrator	narrator	narrator	NN	O	appos	O	-1	B-noun.person
+0	1	24	128	129	S	18	,	,	,	,	O	punct	O	-1	O
+0	1	25	130	135	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	1	26	136	142	S	25	Holmes	Holmes	Holmes	NNP	PERSON	dobj	O	4	B-noun.person
+0	1	27	143	147	S	28	deep	deep	deep	RB	O	dep	O	-1	O
+0	1	28	148	150	S	26	in	in	in	IN	O	prep	O	-1	O
+0	1	29	151	163	S	28	conversation	conversation	conversation	NN	O	pobj	O	-1	B-noun.communication
+0	1	30	164	168	S	29	with	with	with	IN	O	prep	O	-1	O
+0	1	31	169	174	S	32	Jabez	Jabez	Jabez	NNP	PERSON	nn	O	6	B-noun.person
+0	1	32	175	181		30	Wilson	Wilson	Wilson	NNP	PERSON	pobj	O	6	I-noun.person
+0	1	33	181	182	S	32	,	,	,	,	O	punct	O	-1	O
+0	1	34	183	184	S	35	a	a	a	DT	O	det	O	-1	O
+0	1	35	185	188	S	32	man	man	man	NN	O	appos	O	-1	B-noun.person
+0	1	36	189	192	S	40	who	who	who	WP	O	nsubj	O	-1	O
+0	1	37	193	198	S	40	would	would	would	MD	O	aux	O	-1	O
+0	1	38	199	201	S	40	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	1	39	202	210	S	40	entirely	entirely	entirely	RB	O	advmod	O	-1	O
+0	1	40	211	223	S	35	unremarkable	unremarkable	unremarkable	JJ	O	rcmod	O	-1	O
+0	1	41	224	230	S	40	except	except	except	IN	O	prep	O	-1	O
+0	1	42	231	234	S	41	for	for	for	IN	O	dep	O	-1	O
+0	1	43	235	238	S	44	his	his	he	PRP$	O	nsubj	O	6	O
+0	1	44	239	246	S	42	blazing	blazing	blaze	VBG	O	pcomp	O	-1	B-verb.weather
+0	1	45	247	250	S	46	red	red	red	JJ	O	amod	O	-1	O
+0	1	46	251	255		44	hair	hair	hair	NN	O	dobj	O	-1	B-noun.body
+0	1	47	255	256	S	25	.	.	.	.	O	punct	O	-1	O
+0	2	48	257	263	S	49	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	2	49	264	268	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	2	50	269	275	S	49	Watson	Watson	Watson	NNP	PERSON	dobj	O	3	B-noun.person
+0	2	51	276	278	S	52	to	to	to	TO	O	aux	O	-1	O
+0	2	52	279	283	S	50	stay	stay	stay	VB	O	xcomp	O	-1	B-verb.change
+0	2	53	284	287	S	52	and	and	and	CC	O	cc	O	-1	O
+0	2	54	288	292	S	52	lend	lend	lend	VB	O	conj	O	-1	B-verb.possession
+0	2	55	293	296	S	56	his	his	he	PRP$	O	poss	O	4	O
+0	2	56	297	307		54	assistance	assistance	assistance	NN	O	dobj	O	-1	B-noun.act
+0	2	57	307	308	S	49	,	,	,	,	O	punct	O	-1	O
+0	2	58	309	317	S	49	claiming	claiming	claim	VBG	O	xcomp	O	-1	B-verb.communication
+0	2	59	318	322	S	63	that	that	that	IN	O	complm	O	-1	O
+0	2	60	323	325	S	63	he	he	he	PRP	O	nsubj	O	4	O
+0	2	61	326	329	S	63	has	has	have	VBZ	O	aux	O	-1	O
+0	2	62	330	335	S	63	never	never	never	RB	O	neg	O	-1	O
+0	2	63	336	341	S	58	heard	heard	hear	VBN	O	ccomp	O	-1	B-verb.perception
+0	2	64	342	343	S	65	a	a	a	DT	O	det	O	-1	O
+0	2	65	344	348	S	63	case	case	case	NN	O	dobj	O	-1	B-noun.state
+0	2	66	349	351	S	65	as	as	as	IN	O	prep	O	-1	O
+0	2	67	352	359	S	66	bizarre	bizarre	bizarre	JJ	O	pobj	O	-1	O
+0	2	68	360	362	S	65	as	as	as	IN	O	prep	O	-1	O
+0	2	69	363	368	S	70	Jabez	Jabez	Jabez	NNP	PERSON	nn	O	6	B-noun.person
+0	2	70	369	375		68	Wilson	Wilson	Wilson	NNP	PERSON	pobj	O	6	I-noun.person
+0	2	71	375	377		70	’s	's	's	POS	O	possessive	O	-1	O
+0	2	72	377	378	S	49	.	.	.	.	O	punct	O	-1	O
+0	3	73	379	385	S	74	Wilson	Wilson	Wilson	NNP	PERSON	nsubj	O	6	B-noun.person
+0	3	74	386	393	S	-1	reveals	reveals	reveal	VBZ	O	null	O	-1	B-verb.perception
+0	3	75	394	398	S	79	that	that	that	IN	O	complm	O	-1	O
+0	3	76	399	401	S	79	he	he	he	PRP	O	nsubj	O	6	O
+0	3	77	402	404	S	79	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	3	78	405	406	S	79	a	a	a	DT	O	det	O	-1	O
+0	3	79	407	417	S	74	pawnbroker	pawnbroker	pawnbroker	NN	O	ccomp	O	-1	B-noun.person
+0	3	80	418	421	S	79	and	and	and	CC	O	cc	O	-1	O
+0	3	81	422	425	S	79	has	has	have	VBZ	O	conj	O	-1	B-verb.possession
+0	3	82	426	428	S	83	an	an	a	DT	O	det	O	-1	O
+0	3	83	429	438	S	81	assistant	assistant	assistant	NN	O	dobj	O	-1	B-noun.person
+0	3	84	439	444	S	83	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	3	85	445	452	S	86	Vincent	Vincent	Vincent	NNP	PERSON	nn	O	1	B-noun.person
+0	3	86	453	462		84	Spaulding	Spaulding	Spaulding	NNP	PERSON	dep	O	1	I-noun.person
+0	3	87	462	463	S	83	,	,	,	,	O	punct	O	-1	O
+0	3	88	464	467	S	90	who	who	who	WP	O	nsubj	O	-1	O
+0	3	89	468	470	S	90	is	is	be	VBZ	O	aux	O	-1	O
+0	3	90	471	478	S	83	working	working	work	VBG	O	rcmod	O	-1	B-verb.social
+0	3	91	479	482	S	90	for	for	for	IN	O	prep	O	-1	O
+0	3	92	483	487	S	95	half	half	half	PDT	O	predet	O	-1	O
+0	3	93	488	491	S	95	the	the	the	DT	O	det	O	-1	O
+0	3	94	492	497	S	95	usual	usual	usual	JJ	O	amod	O	-1	O
+0	3	95	498	504	S	91	salary	salary	salary	NN	O	pobj	O	-1	B-noun.possession
+0	3	96	505	507	S	97	to	to	to	TO	O	aux	O	-1	O
+0	3	97	508	513	S	90	learn	learn	learn	VB	O	xcomp	O	-1	B-verb.cognition
+0	3	98	514	517	S	99	the	the	the	DT	O	det	O	-1	O
+0	3	99	518	526		97	business	business	business	NN	O	dobj	O	-1	B-noun.group
+0	3	100	526	527	S	74	.	.	.	.	O	punct	O	-1	O
+0	4	101	528	534	S	102	Wilson	Wilson	Wilson	NNP	PERSON	nsubj	O	6	B-noun.person
+0	4	102	535	539	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	4	103	540	544	S	108	that	that	that	IN	O	complm	O	-1	O
+0	4	104	545	554	S	108	Spaulding	Spaulding	Spaulding	NNP	PERSON	nsubj	O	1	B-noun.person
+0	4	105	555	557	S	108	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	106	558	559	S	108	a	a	a	DT	O	det	O	-1	O
+0	4	107	560	564	S	108	fine	fine	fine	JJ	O	amod	O	-1	O
+0	4	108	565	571		102	worker	worker	worker	NN	O	ccomp	O	-1	B-noun.person
+0	4	109	571	572	S	108	,	,	,	,	O	punct	O	-1	O
+0	4	110	573	581	S	113	although	although	although	IN	O	mark	O	-1	O
+0	4	111	582	584	S	113	he	he	he	PRP	O	nsubj	O	1	O
+0	4	112	585	587	S	113	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	113	588	598	S	108	interested	interested	interested	JJ	O	advcl	O	-1	O
+0	4	114	599	601	S	113	in	in	in	IN	O	prep	O	-1	O
+0	4	115	602	613	S	114	photography	photography	photography	NN	O	pobj	O	-1	B-noun.act
+0	4	116	614	617	S	113	and	and	and	CC	O	cc	O	-1	O
+0	4	117	618	623	S	118	often	often	often	RB	O	advmod	O	-1	O
+0	4	118	624	628	S	113	goes	goes	go	VBZ	O	conj	O	-1	B-verb.motion
+0	4	119	629	634	S	118	alone	alone	alone	RB	O	advmod	O	-1	O
+0	4	120	635	639	S	118	into	into	into	IN	O	prep	O	-1	O
+0	4	121	640	643	S	122	the	the	the	DT	O	det	O	-1	O
+0	4	122	644	652	S	120	basement	basement	basement	NN	O	pobj	O	-1	B-noun.artifact
+0	4	123	653	655	S	122	of	of	of	IN	O	prep	O	-1	O
+0	4	124	656	659	S	125	the	the	the	DT	O	det	O	-1	O
+0	4	125	660	664	S	123	shop	shop	shop	NN	O	pobj	O	-1	B-noun.artifact
+0	4	126	665	667	S	127	to	to	to	TO	O	aux	O	-1	O
+0	4	127	668	675	S	118	develop	develop	develop	VB	O	xcomp	O	-1	B-verb.creation
+0	4	128	676	682		127	photos	photos	photo	NNS	O	dobj	O	-1	B-noun.artifact
+0	4	129	682	683	S	102	.	.	.	.	O	punct	O	-1	O
+0	5	130	684	689	S	131	About	About	about	IN	DATE	dep	O	-1	O
+0	5	131	690	693	S	132	two	two	two	CD	DATE	num	O	-1	O
+0	5	132	694	700	S	133	months	months	month	NNS	DATE	dep	O	-1	B-noun.time
+0	5	133	701	704		136	ago	ago	ago	RB	DATE	advmod	O	-1	O
+0	5	134	704	705	S	136	,	,	,	,	O	punct	O	-1	O
+0	5	135	706	715	S	136	Spaulding	Spaulding	Spaulding	NNP	PERSON	nsubj	O	1	O
+0	5	136	716	720	S	-1	drew	drew	draw	VBD	O	null	O	-1	B-verb.motion
+0	5	137	721	727		139	Wilson	Wilson	Wilson	NNP	PERSON	poss	O	6	B-noun.person
+0	5	138	727	729	S	137	’s	's	's	POS	O	possessive	O	-1	O
+0	5	139	730	739	S	136	attention	attention	attention	NN	O	dobj	O	-1	B-noun.cognition
+0	5	140	740	742	S	136	to	to	to	TO	O	prep	O	-1	O
+0	5	141	743	745	S	142	an	an	a	DT	O	det	O	-1	O
+0	5	142	746	759	S	140	advertisement	advertisement	advertisement	NN	O	pobj	O	-1	B-noun.communication
+0	5	143	760	762	S	142	in	in	in	IN	O	prep	O	-1	O
+0	5	144	763	766	S	145	the	the	the	DT	O	det	O	-1	O
+0	5	145	767	772	S	143	paper	paper	paper	NN	O	pobj	O	-1	B-noun.communication
+0	5	146	773	776	S	142	for	for	for	IN	O	prep	O	-1	O
+0	5	147	777	779	S	148	an	an	a	DT	O	det	O	-1	O
+0	5	148	780	787	S	146	opening	opening	opening	NN	O	pobj	O	-1	B-noun.object
+0	5	149	788	790	S	148	in	in	in	IN	O	prep	O	-1	O
+0	5	150	791	794	S	151	the	the	the	DT	O	det	O	-1	O
+0	5	151	795	801	S	149	League	League	League	NNP	MISC	pobj	O	-1	B-noun.group
+0	5	152	802	804	S	151	of	of	of	IN	MISC	prep	O	-1	O
+0	5	153	805	815	S	154	Red-Headed	Red-Headed	Red-Headed	NNP	MISC	nn	O	-1	B-noun.person
+0	5	154	816	819		152	Men	Men	Men	NNP	O	pobj	O	-1	I-noun.person
+0	5	155	819	820	S	136	.	.	.	.	O	punct	O	-1	O
+0	6	156	821	830	S	164	According	According	accord	VBG	O	prep	O	-1	O
+0	6	157	831	833	S	156	to	to	to	TO	O	dep	O	-1	O
+0	6	158	834	843		157	Spaulding	Spaulding	Spaulding	NNP	PERSON	pobj	O	1	O
+0	6	159	843	844	S	164	,	,	,	,	O	punct	O	-1	O
+0	6	160	845	848	S	161	the	the	the	DT	O	det	O	-1	O
+0	6	161	849	855	S	164	league	league	league	NN	O	nsubj	O	-1	B-noun.group
+0	6	162	856	858	S	164	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	163	859	860	S	164	a	a	a	DT	O	det	O	-1	O
+0	6	164	861	871	S	-1	foundation	foundation	foundation	NN	O	null	O	-1	B-noun.relation
+0	6	165	872	883	S	164	established	established	establish	VBN	O	partmod	O	-1	B-verb.cognition
+0	6	166	884	886	S	165	by	by	by	IN	O	prep	O	-1	O
+0	6	167	887	889	S	166	an	an	a	DT	O	pobj	O	-1	O
+0	6	168	890	899	S	167	eccentric	eccentric	eccentric	JJ	O	amod	O	-1	O
+0	6	169	900	903	S	168	and	and	and	CC	O	cc	O	-1	O
+0	6	170	904	911	S	168	wealthy	wealthy	wealthy	JJ	O	conj	O	-1	O
+0	6	171	912	920	S	168	American	American	american	JJ	MISC	dep	O	-1	O
+0	6	172	921	923	S	173	to	to	to	TO	O	aux	O	-1	O
+0	6	173	924	931	S	168	promote	promote	promote	VB	O	xcomp	O	-1	B-verb.social
+0	6	174	932	935	S	175	the	the	the	DT	O	det	O	-1	O
+0	6	175	936	945	S	173	interests	interests	interest	NNS	O	dobj	O	-1	B-noun.attribute
+0	6	176	946	948	S	175	of	of	of	IN	O	prep	O	-1	O
+0	6	177	949	958	S	178	redheaded	redheaded	redheaded	JJ	O	amod	O	-1	O
+0	6	178	959	962	S	176	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	6	179	963	965	S	173	by	by	by	IN	O	prep	O	-1	O
+0	6	180	966	972	S	179	paying	paying	pay	VBG	O	pcomp	O	-1	B-verb.possession
+0	6	181	973	977	S	180	them	them	they	PRP	O	dobj	O	-1	O
+0	6	182	978	980	S	183	to	to	to	TO	O	aux	O	-1	O
+0	6	183	981	988	S	180	perform	perform	perform	VB	O	xcomp	O	-1	B-verb.creation
+0	6	184	989	994	S	185	small	small	small	JJ	O	amod	O	-1	O
+0	6	185	995	1000		183	tasks	tasks	task	NNS	O	dobj	O	-1	B-noun.act
+0	6	186	1000	1001	S	164	.	.	.	.	O	punct	O	-1	O
+0	7	187	1002	1011	S	188	Spaulding	Spaulding	Spaulding	NNP	PERSON	nsubj	O	1	B-noun.person
+0	7	188	1012	1022	S	-1	encouraged	encouraged	encourage	VBD	O	null	O	-1	B-verb.social
+0	7	189	1023	1029	S	191	Wilson	Wilson	Wilson	NNP	PERSON	nsubj	O	6	B-noun.person
+0	7	190	1030	1032	S	191	to	to	to	TO	O	aux	O	-1	O
+0	7	191	1033	1038		188	apply	apply	apply	VB	O	xcomp	O	-1	B-verb.consumption
+0	7	192	1038	1039	S	188	,	,	,	,	O	punct	O	-1	O
+0	7	193	1040	1043	S	188	and	and	and	CC	O	cc	O	-1	O
+0	7	194	1044	1047	S	195	the	the	the	DT	O	dep	O	-1	O
+0	7	195	1048	1051	S	196	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	7	196	1052	1056	S	188	went	went	go	VBD	O	conj	O	-1	B-verb.stative
+0	7	197	1057	1059	S	196	to	to	to	TO	O	prep	O	-1	O
+0	7	198	1060	1063	S	199	the	the	the	DT	O	det	O	-1	O
+0	7	199	1064	1071	S	197	offices	offices	office	NNS	O	pobj	O	-1	B-noun.group
+0	7	200	1072	1078	S	199	listed	listed	list	VBN	O	partmod	O	-1	B-verb.social
+0	7	201	1079	1081	S	200	in	in	in	IN	O	prep	O	-1	O
+0	7	202	1082	1085	S	203	the	the	the	DT	O	det	O	-1	O
+0	7	203	1086	1099		201	advertisement	advertisement	advertisement	NN	O	pobj	O	-1	B-noun.communication
+0	7	204	1099	1100	S	188	.	.	.	.	O	punct	O	-1	O
+0	8	205	1101	1106	S	219	After	After	after	IN	O	prep	O	-1	O
+0	8	206	1107	1115	S	205	fighting	fighting	fight	VBG	O	pcomp	O	-1	B-verb.competition
+0	8	207	1116	1123	S	206	through	through	through	IN	O	prep	O	-1	O
+0	8	208	1124	1125	S	209	a	a	a	DT	O	det	O	-1	O
+0	8	209	1126	1131	S	207	crowd	crowd	crowd	NN	O	pobj	O	-1	B-noun.group
+0	8	210	1132	1134	S	209	of	of	of	IN	O	prep	O	-1	O
+0	8	211	1135	1144	S	212	redheaded	redheaded	redheaded	JJ	O	amod	O	-1	O
+0	8	212	1145	1148	S	210	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	8	213	1149	1156	S	212	waiting	waiting	wait	VBG	O	partmod	O	-1	B-verb.stative
+0	8	214	1157	1164		213	outside	outside	outside	RB	O	advmod	O	-1	O
+0	8	215	1164	1165	S	209	,	,	,	,	O	punct	O	-1	O
+0	8	216	1166	1175	S	209	Spaulding	Spaulding	Spaulding	NNP	LOCATION	conj	O	-1	B-noun.person
+0	8	217	1176	1179	S	209	and	and	and	CC	O	cc	O	-1	O
+0	8	218	1180	1186	S	209	Wilson	Wilson	Wilson	NNP	PERSON	conj	O	6	B-noun.person
+0	8	219	1187	1191	S	-1	made	made	make	VBD	O	null	O	-1	B-verb.social
+0	8	220	1192	1197	S	221	their	their	they	PRP$	O	poss	O	-1	O
+0	8	221	1198	1201	S	219	way	way	way	NN	O	dobj	O	-1	B-noun.attribute
+0	8	222	1202	1204	S	219	to	to	to	TO	O	prep	O	-1	O
+0	8	223	1205	1208	S	224	the	the	the	DT	O	det	O	-1	O
+0	8	224	1209	1216		222	manager	manager	manager	NN	O	pobj	O	-1	B-noun.person
+0	8	225	1216	1217	S	219	,	,	,	,	O	punct	O	-1	O
+0	8	226	1218	1225	S	228	another	another	another	DT	O	det	O	-1	O
+0	8	227	1226	1235	S	228	redheaded	redheaded	redheaded	JJ	O	amod	O	-1	O
+0	8	228	1236	1239	S	219	man	man	man	NN	O	dobj	O	-1	B-noun.person
+0	8	229	1240	1242	S	228	by	by	by	IN	O	prep	O	-1	O
+0	8	230	1243	1246	S	231	the	the	the	DT	O	det	O	-1	O
+0	8	231	1247	1251	S	229	name	name	name	NN	O	pobj	O	-1	B-noun.communication
+0	8	232	1252	1254	S	231	of	of	of	IN	O	prep	O	-1	O
+0	8	233	1255	1261	S	234	Duncan	Duncan	Duncan	NNP	PERSON	nn	O	2	B-noun.person
+0	8	234	1262	1266		232	Ross	Ross	Ross	NNP	PERSON	pobj	O	2	I-noun.person
+0	8	235	1266	1267	S	234	,	,	,	,	O	punct	O	-1	O
+0	8	236	1268	1271	S	238	who	who	who	WP	O	nsubj	O	-1	O
+0	8	237	1272	1280	S	238	promptly	promptly	promptly	RB	O	advmod	O	-1	O
+0	8	238	1281	1286	S	234	hired	hired	hire	VBD	O	rcmod	O	-1	B-verb.social
+0	8	239	1287	1293		238	Wilson	Wilson	Wilson	NNP	PERSON	dobj	O	6	B-noun.person
+0	8	240	1293	1294	S	219	.	.	.	.	O	punct	O	-1	O
+0	9	241	1295	1298	S	242	The	The	the	DT	O	det	O	-1	O
+0	9	242	1299	1305	S	243	league	league	league	NN	O	nsubj	O	-1	B-noun.group
+0	9	243	1306	1310	S	-1	paid	paid	pay	VBD	O	null	O	-1	B-verb.possession
+0	9	244	1311	1317	S	243	Wilson	Wilson	Wilson	NNP	PERSON	dobj	O	6	B-noun.person
+0	9	245	1318	1320	S	246	to	to	to	TO	O	aux	O	-1	O
+0	9	246	1321	1325	S	243	copy	copy	copy	VB	O	xcomp	O	-1	B-verb.creation
+0	9	247	1326	1331	S	246	pages	pages	page	NNS	O	dobj	O	-1	B-noun.communication
+0	9	248	1332	1334	S	247	of	of	of	IN	O	prep	O	-1	O
+0	9	249	1335	1338	S	251	the	the	the	DT	O	det	O	-1	O
+0	9	250	1339	1351	S	251	Encyclopedia	Encyclopedia	Encyclopedia	NNP	O	nn	O	-1	O
+0	9	251	1352	1362		248	Britannica	Britannica	Britannica	NNP	O	pobj	O	-1	O
+0	9	252	1362	1363	S	243	,	,	,	,	O	punct	O	-1	O
+0	9	253	1364	1374	S	243	forbidding	forbidding	forbid	VBG	O	xcomp	O	-1	B-verb.communication
+0	9	254	1375	1378	S	253	him	him	he	PRP	O	dobj	O	6	O
+0	9	255	1379	1383	S	253	from	from	from	IN	O	prep	O	-1	O
+0	9	256	1384	1391	S	255	leaving	leaving	leave	VBG	O	pcomp	O	-1	B-verb.motion
+0	9	257	1392	1395	S	258	the	the	the	DT	O	det	O	-1	O
+0	9	258	1396	1402	S	256	office	office	office	NN	O	dobj	O	-1	B-noun.artifact
+0	9	259	1403	1406	S	256	for	for	for	IN	O	prep	O	-1	O
+0	9	260	1407	1410	S	261	any	any	any	DT	O	det	O	-1	O
+0	9	261	1411	1417	S	259	reason	reason	reason	NN	O	pobj	O	-1	B-noun.motive
+0	9	262	1418	1424	S	256	during	during	during	IN	O	prep	O	-1	O
+0	9	263	1425	1428	S	265	his	his	he	PRP$	O	poss	O	6	O
+0	9	264	1429	1438	S	265	four-hour	four-hour	four-hour	JJ	DURATION	amod	O	-1	O
+0	9	265	1439	1445		262	shifts	shifts	shift	NNS	O	pobj	O	-1	B-noun.event
+0	9	266	1445	1446	S	243	.	.	.	.	O	punct	O	-1	O
+0	10	267	1447	1453	S	268	Wilson	Wilson	Wilson	NNP	PERSON	nsubj	O	6	B-noun.person
+0	10	268	1454	1458	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	10	269	1459	1463	S	271	that	that	that	IN	O	complm	O	-1	O
+0	10	270	1464	1466	S	271	he	he	he	PRP	O	nsubj	O	6	O
+0	10	271	1467	1473	S	268	worked	worked	work	VBD	O	ccomp	O	-1	B-verb.social
+0	10	272	1474	1477	S	271	for	for	for	IN	O	prep	O	-1	O
+0	10	273	1478	1481	S	274	the	the	the	DT	O	det	O	-1	O
+0	10	274	1482	1488	S	272	league	league	league	NN	O	pobj	O	-1	B-noun.group
+0	10	275	1489	1492	S	271	for	for	for	IN	O	prep	O	-1	O
+0	10	276	1493	1498	S	277	eight	eight	eight	CD	DURATION	num	O	-1	O
+0	10	277	1499	1504	S	275	weeks	weeks	week	NNS	DURATION	pobj	O	-1	B-noun.time
+0	10	278	1505	1508	S	271	and	and	and	CC	O	cc	O	-1	O
+0	10	279	1509	1512	S	280	was	was	be	VBD	O	auxpass	O	-1	O
+0	10	280	1513	1517	S	271	paid	paid	pay	VBN	O	conj	O	-1	B-verb.possession
+0	10	281	1518	1528	S	280	handsomely	handsomely	handsomely	RB	O	advmod	O	-1	O
+0	10	282	1529	1532	S	280	for	for	for	IN	O	prep	O	-1	O
+0	10	283	1533	1536	S	284	his	his	he	PRP$	O	poss	O	6	O
+0	10	284	1537	1544		282	efforts	efforts	effort	NNS	O	pobj	O	-1	B-noun.act
+0	10	285	1544	1545	S	268	.	.	.	.	O	punct	O	-1	O
+0	11	286	1546	1549	S	287	The	The	the	DT	O	det	O	-1	O
+0	11	287	1550	1557	S	297	morning	morning	morning	NN	TIME	tmod	O	-1	B-noun.time
+0	11	288	1558	1560	S	292	on	on	on	IN	O	rel	O	-1	O
+0	11	289	1561	1566	S	288	which	which	which	WDT	O	pobj	O	-1	O
+0	11	290	1567	1570	S	291	the	the	the	DT	O	det	O	-1	O
+0	11	291	1571	1576	S	292	story	story	story	NN	O	nsubj	O	-1	B-noun.communication
+0	11	292	1577	1583		287	begins	begins	begin	VBZ	O	rcmod	O	-1	B-verb.change
+0	11	293	1583	1584	S	297	,	,	,	,	O	punct	O	-1	O
+0	11	294	1585	1592		297	however	however	however	RB	O	advmod	O	-1	O
+0	11	295	1592	1593	S	297	,	,	,	,	O	punct	O	-1	O
+0	11	296	1594	1600	S	297	Wilson	Wilson	Wilson	NNP	PERSON	nsubj	O	6	B-noun.person
+0	11	297	1601	1608	S	-1	arrived	arrived	arrive	VBD	O	null	O	-1	B-verb.motion
+0	11	298	1609	1611	S	297	at	at	at	IN	O	prep	O	-1	O
+0	11	299	1612	1615	S	300	the	the	the	DT	O	det	O	-1	O
+0	11	300	1616	1623	S	298	offices	offices	office	NNS	O	pobj	O	-1	B-noun.group
+0	11	301	1624	1626	S	302	to	to	to	TO	O	aux	O	-1	O
+0	11	302	1627	1631	S	297	find	find	find	VB	O	xcomp	O	-1	B-verb.cognition
+0	11	303	1632	1636	S	309	that	that	that	IN	O	complm	O	-1	O
+0	11	304	1637	1640	S	306	the	the	the	DT	O	det	O	-1	O
+0	11	305	1641	1651	S	306	Red-Headed	Red-Headed	Red-Headed	NNP	MISC	nn	O	-1	B-noun.group
+0	11	306	1652	1658	S	309	League	League	League	NNP	MISC	nsubj	O	-1	I-noun.group
+0	11	307	1659	1662	S	309	had	had	have	VBD	O	aux	O	-1	O
+0	11	308	1663	1667	S	309	been	been	be	VBN	O	auxpass	O	-1	O
+0	11	309	1668	1677	S	302	dissolved	dissolved	dissolve	VBN	O	ccomp	O	-1	B-verb.change
+0	11	310	1678	1681	S	309	and	and	and	CC	O	cc	O	-1	O
+0	11	311	1682	1686	S	315	that	that	that	IN	O	complm	O	-1	O
+0	11	312	1687	1693	S	313	Duncan	Duncan	Duncan	NNP	PERSON	nn	O	2	B-noun.person
+0	11	313	1694	1698	S	315	Ross	Ross	Ross	NNP	PERSON	nsubj	O	2	I-noun.person
+0	11	314	1699	1702	S	315	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	11	315	1703	1710	S	309	nowhere	nowhere	nowhere	RB	O	conj	O	-1	O
+0	11	316	1711	1713	S	318	to	to	to	TO	O	aux	O	-1	O
+0	11	317	1714	1716	S	318	be	be	be	VB	O	auxpass	O	-1	O
+0	11	318	1717	1722		315	found	found	find	VBN	O	xcomp	O	-1	B-verb.possession
+0	11	319	1722	1723	S	297	.	.	.	.	O	punct	O	-1	O
+0	12	320	1724	1730	S	321	Wilson	Wilson	Wilson	NNP	PERSON	nsubj	O	6	B-noun.person
+0	12	321	1731	1735	S	-1	went	went	go	VBD	O	null	O	-1	B-verb.motion
+0	12	322	1736	1747	S	321	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	12	323	1748	1750	S	321	to	to	to	TO	O	prep	O	-1	O
+0	12	324	1751	1759	S	325	Sherlock	Sherlock	Sherlock	NNP	PERSON	nn	O	4	B-noun.person
+0	12	325	1760	1766		323	Holmes	Holmes	Holmes	NNP	PERSON	pobj	O	4	I-noun.person
+0	12	326	1766	1767	S	321	,	,	,	,	O	punct	O	-1	O
+0	12	327	1768	1774	S	321	hoping	hoping	hope	VBG	O	xcomp	O	-1	B-verb.emotion
+0	12	328	1775	1779	S	331	that	that	that	IN	O	complm	O	-1	O
+0	12	329	1780	1786	S	331	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	12	330	1787	1792	S	331	could	could	could	MD	O	aux	O	-1	O
+0	12	331	1793	1797	S	327	help	help	help	VB	O	ccomp	O	-1	B-verb.social
+0	12	332	1798	1801	S	333	him	him	he	PRP	O	nsubj	O	6	O
+0	12	333	1802	1806	S	331	find	find	find	VB	O	ccomp	O	-1	B-verb.communication
+0	12	334	1807	1810	S	333	out	out	out	RP	O	prt	O	-1	O
+0	12	335	1811	1818	S	340	whether	whether	whether	IN	O	complm	O	-1	O
+0	12	336	1819	1821	S	340	he	he	he	PRP	O	nsubj	O	6	O
+0	12	337	1822	1825	S	340	had	had	have	VBD	O	aux	O	-1	O
+0	12	338	1826	1830	S	340	been	been	be	VBN	O	cop	O	-1	B-verb.stative
+0	12	339	1831	1834	S	340	the	the	the	DT	O	det	O	-1	O
+0	12	340	1835	1841	S	333	victim	victim	victim	NN	O	ccomp	O	-1	B-noun.person
+0	12	341	1842	1844	S	340	of	of	of	IN	O	prep	O	-1	O
+0	12	342	1845	1846	S	344	a	a	a	DT	O	det	O	-1	O
+0	12	343	1847	1856	S	344	practical	practical	practical	JJ	O	amod	O	-1	O
+0	12	344	1857	1861		341	joke	joke	joke	NN	O	pobj	O	-1	B-noun.communication
+0	12	345	1861	1862	S	321	.	.	.	.	O	punct	O	-1	O
+0	13	346	1863	1869	S	347	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	13	347	1870	1874	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	13	348	1875	1881	S	347	Wilson	Wilson	Wilson	NNP	PERSON	dobj	O	6	B-noun.person
+0	13	349	1882	1883	S	351	a	a	a	DT	O	det	O	-1	O
+0	13	350	1884	1887	S	351	few	few	few	JJ	O	amod	O	-1	O
+0	13	351	1888	1897	S	348	questions	questions	question	NNS	O	dobj	O	-1	B-noun.communication
+0	13	352	1898	1903	S	351	about	about	about	IN	O	prep	O	-1	O
+0	13	353	1904	1911	S	354	Vincent	Vincent	Vincent	NNP	PERSON	nn	O	1	B-noun.person
+0	13	354	1912	1921	S	352	Spaulding	Spaulding	Spaulding	NNP	PERSON	pobj	O	1	I-noun.person
+0	13	355	1922	1925	S	347	and	and	and	CC	O	cc	O	-1	O
+0	13	356	1926	1935	S	347	discovers	discovers	discover	VBZ	O	conj	O	-1	B-verb.perception
+0	13	357	1936	1940	S	359	that	that	that	IN	O	complm	O	-1	O
+0	13	358	1941	1950	S	359	Spaulding	Spaulding	Spaulding	NNP	PERSON	nsubj	O	1	B-noun.person
+0	13	359	1951	1955	S	356	came	came	come	VBD	O	ccomp	O	-1	B-verb.motion
+0	13	360	1956	1958	S	361	to	to	to	TO	O	aux	O	-1	O
+0	13	361	1959	1963	S	359	work	work	work	VB	O	xcomp	O	-1	B-verb.social
+0	13	362	1964	1967	S	361	for	for	for	IN	O	prep	O	-1	O
+0	13	363	1968	1974	S	362	Wilson	Wilson	Wilson	NNP	PERSON	pobj	O	6	B-noun.person
+0	13	364	1975	1979	S	365	only	only	only	RB	O	dep	O	-1	O
+0	13	365	1980	1985	S	361	about	about	about	IN	DURATION	prep	O	-1	O
+0	13	366	1986	1987	S	367	a	a	a	DT	DURATION	det	O	-1	O
+0	13	367	1988	1993	S	365	month	month	month	NN	DURATION	pobj	O	-1	B-noun.time
+0	13	368	1994	2000	S	373	before	before	before	IN	O	mark	O	-1	O
+0	13	369	2001	2004	S	372	the	the	the	DT	O	det	O	-1	O
+0	13	370	2005	2010	S	372	whole	whole	whole	JJ	O	amod	O	-1	O
+0	13	371	2011	2021	S	372	mysterious	mysterious	mysterious	JJ	O	amod	O	-1	O
+0	13	372	2022	2028	S	373	affair	affair	affair	NN	O	nsubj	O	-1	B-noun.cognition
+0	13	373	2029	2034		367	began	began	begin	VBD	O	dep	O	-1	B-verb.change
+0	13	374	2034	2035	S	347	.	.	.	.	O	punct	O	-1	O
+0	14	375	2036	2042	S	376	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	14	376	2043	2048	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	14	377	2049	2055	S	376	Wilson	Wilson	Wilson	NNP	PERSON	dobj	O	6	B-noun.person
+0	14	378	2056	2060	S	381	that	that	that	IN	O	complm	O	-1	O
+0	14	379	2061	2063	S	381	he	he	he	PRP	O	nsubj	O	6	O
+0	14	380	2064	2068	S	381	will	will	will	MD	O	aux	O	-1	O
+0	14	381	2069	2073	S	376	have	have	have	VB	O	ccomp	O	-1	B-verb.possession
+0	14	382	2074	2076	S	383	an	an	a	DT	O	det	O	-1	O
+0	14	383	2077	2083	S	381	answer	answer	answer	NN	O	dobj	O	-1	B-noun.communication
+0	14	384	2084	2086	S	383	in	in	in	IN	O	prep	O	-1	O
+0	14	385	2087	2088	S	387	a	a	a	DT	DURATION	det	O	-1	O
+0	14	386	2089	2092	S	387	few	few	few	JJ	DURATION	amod	O	-1	O
+0	14	387	2093	2097		384	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	14	388	2097	2098	S	376	.	.	.	.	O	punct	O	-1	O
+0	15	389	2099	2104	S	398	After	After	after	IN	O	prep	O	-1	O
+0	15	390	2105	2112	S	392	smoking	smoking	smoking	NN	O	nn	O	-1	B-noun.act
+0	15	391	2113	2118	S	392	three	three	three	CD	NUMBER	num	O	-1	O
+0	15	392	2119	2124	S	389	pipes	pipes	pipe	NNS	O	pobj	O	-1	B-noun.artifact
+0	15	393	2125	2127	S	392	in	in	in	IN	O	prep	O	-1	O
+0	15	394	2128	2129	S	395	a	a	a	DT	O	det	O	-1	O
+0	15	395	2130	2133		393	row	row	row	NN	O	pobj	O	-1	B-noun.group
+0	15	396	2133	2134	S	398	,	,	,	,	O	punct	O	-1	O
+0	15	397	2135	2141	S	398	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	15	398	2142	2147	S	-1	leaps	leaps	leap	VBZ	O	null	O	-1	B-verb.motion
+0	15	399	2148	2150	S	398	up	up	up	RP	O	prt	O	-1	O
+0	15	400	2151	2154	S	398	and	and	and	CC	O	cc	O	-1	O
+0	15	401	2155	2159	S	398	asks	asks	ask	VBZ	O	conj	O	-1	B-verb.communication
+0	15	402	2160	2166	S	401	Watson	Watson	Watson	NNP	PERSON	dobj	O	3	B-noun.person
+0	15	403	2167	2169	S	404	to	to	to	TO	O	aux	O	-1	O
+0	15	404	2170	2179	S	401	accompany	accompany	accompany	VB	O	xcomp	O	-1	B-verb.stative
+0	15	405	2180	2183	S	404	him	him	he	PRP	O	dobj	O	4	O
+0	15	406	2184	2186	S	404	to	to	to	TO	O	prep	O	-1	O
+0	15	407	2187	2188	S	408	a	a	a	DT	O	det	O	-1	O
+0	15	408	2189	2196		406	concert	concert	concert	NN	O	pobj	O	-1	B-noun.communication
+0	15	409	2196	2197	S	398	.	.	.	.	O	punct	O	-1	O
+0	16	410	2198	2203	S	415	Along	Along	along	IN	O	prep	O	-1	O
+0	16	411	2204	2207	S	412	the	the	the	DT	O	det	O	-1	O
+0	16	412	2208	2211		410	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	16	413	2211	2212	S	415	,	,	,	,	O	punct	O	-1	O
+0	16	414	2213	2217	S	415	they	they	they	PRP	O	nsubj	O	-1	O
+0	16	415	2218	2222	S	-1	stop	stop	stop	VBP	O	null	O	-1	B-verb.motion
+0	16	416	2223	2225	S	415	in	in	in	IN	O	prep	O	-1	O
+0	16	417	2226	2231	S	416	front	front	front	NN	O	pobj	O	-1	B-noun.location
+0	16	418	2232	2234	S	417	of	of	of	IN	O	prep	O	-1	O
+0	16	419	2235	2241		421	Wilson	Wilson	Wilson	NNP	PERSON	poss	O	6	B-noun.person
+0	16	420	2241	2243	S	419	’s	's	's	POS	O	possessive	O	-1	O
+0	16	421	2244	2248		418	shop	shop	shop	NN	O	pobj	O	-1	B-noun.artifact
+0	16	422	2248	2249	S	421	,	,	,	,	O	punct	O	-1	O
+0	16	423	2250	2255	S	425	where	where	where	WRB	O	advmod	O	-1	O
+0	16	424	2256	2262	S	425	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	16	425	2263	2269	S	421	thumps	thumps	thump	VBZ	O	rcmod	O	-1	B-verb.motion
+0	16	426	2270	2273	S	428	his	his	he	PRP$	O	poss	O	4	O
+0	16	427	2274	2281	S	428	walking	walking	walk	VBG	O	amod	O	-1	B-verb.motion
+0	16	428	2282	2287	S	425	stick	stick	stick	NN	O	dobj	O	-1	B-noun.artifact
+0	16	429	2288	2290	S	425	on	on	on	IN	O	prep	O	-1	O
+0	16	430	2291	2294	S	431	the	the	the	DT	O	det	O	-1	O
+0	16	431	2295	2303	S	429	pavement	pavement	pavement	NN	O	pobj	O	-1	B-noun.artifact
+0	16	432	2304	2307	S	425	and	and	and	CC	O	cc	O	-1	O
+0	16	433	2308	2314	S	425	knocks	knocks	knock	VBZ	O	conj	O	-1	B-verb.contact
+0	16	434	2315	2317	S	433	on	on	on	IN	O	prep	O	-1	O
+0	16	435	2318	2321	S	436	the	the	the	DT	O	det	O	-1	O
+0	16	436	2322	2326	S	434	door	door	door	NN	O	pobj	O	-1	B-noun.artifact
+0	16	437	2327	2329	S	438	to	to	to	TO	O	aux	O	-1	O
+0	16	438	2330	2333	S	433	ask	ask	ask	VB	O	xcomp	O	-1	B-verb.communication
+0	16	439	2334	2343	S	438	Spaulding	Spaulding	Spaulding	NNP	PERSON	dobj	O	1	B-noun.person
+0	16	440	2344	2347	S	438	for	for	for	IN	O	prep	O	-1	O
+0	16	441	2348	2358		440	directions	directions	direction	NNS	O	pobj	O	-1	B-noun.relation
+0	16	442	2358	2359	S	415	.	.	.	.	O	punct	O	-1	O
+0	17	443	2360	2365	S	448	After	After	after	IN	O	prep	O	-1	O
+0	17	444	2366	2375	S	443	Spaulding	Spaulding	Spaulding	NNP	PERSON	pobj	O	1	B-noun.person
+0	17	445	2376	2379	S	444	and	and	and	CC	O	cc	O	-1	O
+0	17	446	2380	2386	S	444	Holmes	Holmes	Holmes	NNP	PERSON	conj	O	4	B-noun.person
+0	17	447	2387	2393	S	448	finish	finish	finish	VBP	O	aux	O	-1	B-verb.change
+0	17	448	2394	2401		451	talking	talking	talk	VBG	O	advcl	O	-1	B-verb.communication
+0	17	449	2401	2402	S	451	,	,	,	,	O	punct	O	-1	O
+0	17	450	2403	2409	S	451	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	17	451	2410	2415	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	17	452	2416	2422	S	451	Watson	Watson	Watson	NNP	PERSON	dobj	O	3	B-noun.person
+0	17	453	2423	2427	S	455	that	that	that	IN	O	complm	O	-1	O
+0	17	454	2428	2430	S	455	he	he	he	PRP	O	nsubj	O	4	O
+0	17	455	2431	2439	S	451	believes	believes	believe	VBZ	O	ccomp	O	-1	B-verb.cognition
+0	17	456	2440	2444	S	461	that	that	that	IN	O	complm	O	-1	O
+0	17	457	2445	2454	S	461	Spaulding	Spaulding	Spaulding	NNP	PERSON	nsubj	O	1	B-noun.person
+0	17	458	2455	2457	S	461	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	17	459	2458	2461	S	461	the	the	the	DT	O	det	O	-1	O
+0	17	460	2462	2477	S	461	fourth-smartest	fourth-smartest	fourth-smartest	JJ	O	amod	O	-1	O
+0	17	461	2478	2481	S	455	man	man	man	NN	O	ccomp	O	-1	B-noun.person
+0	17	462	2482	2484	S	461	in	in	in	IN	O	prep	O	-1	O
+0	17	463	2485	2491		462	London	London	London	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	17	464	2491	2492	S	451	.	.	.	.	O	punct	O	-1	O
+0	18	465	2493	2499	S	467	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	18	466	2500	2504	S	467	also	also	also	RB	O	advmod	O	-1	O
+0	18	467	2505	2510	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	18	468	2511	2517	S	467	Watson	Watson	Watson	NNP	PERSON	dobj	O	3	B-noun.person
+0	18	469	2518	2522	S	471	that	that	that	IN	O	complm	O	-1	O
+0	18	470	2523	2525	S	471	he	he	he	PRP	O	nsubj	O	4	O
+0	18	471	2526	2529	S	467	saw	saw	see	VBD	O	ccomp	O	-1	B-verb.perception
+0	18	472	2530	2532	S	471	on	on	on	IN	O	prep	O	-1	O
+0	18	473	2533	2536	S	474	the	the	the	DT	O	det	O	-1	O
+0	18	474	2537	2542	S	472	knees	knees	knee	NNS	O	pobj	O	-1	B-noun.body
+0	18	475	2543	2545	S	474	of	of	of	IN	O	prep	O	-1	O
+0	18	476	2546	2555		478	Spaulding	Spaulding	Spaulding	NNP	PERSON	poss	O	1	B-noun.person
+0	18	477	2555	2557	S	476	’s	's	's	POS	O	possessive	O	-1	O
+0	18	478	2558	2566	S	475	trousers	trousers	trousers	NNS	O	pobj	O	-1	B-noun.artifact
+0	18	479	2567	2574	S	480	exactly	exactly	exactly	RB	O	dep	O	-1	O
+0	18	480	2575	2579	S	482	what	what	what	WP	O	dep	O	-1	O
+0	18	481	2580	2582	S	482	he	he	he	PRP	O	nsubj	O	1	O
+0	18	482	2583	2589	S	471	wanted	wanted	want	VBD	O	ccomp	O	-1	B-verb.emotion
+0	18	483	2590	2592	S	484	to	to	to	TO	O	aux	O	-1	O
+0	18	484	2593	2596		482	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	18	485	2596	2597	S	467	.	.	.	.	O	punct	O	-1	O
+0	19	486	2598	2602	S	490	Even	Even	even	RB	O	advmod	O	-1	O
+0	19	487	2603	2609	S	490	though	though	though	IN	O	dep	O	-1	O
+0	19	488	2610	2616	S	490	Watson	Watson	Watson	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	19	489	2617	2619	S	490	is	is	be	VBZ	O	auxpass	O	-1	O
+0	19	490	2620	2629	S	496	mystified	mystified	mystify	VBN	O	ccomp	O	-1	B-verb.cognition
+0	19	491	2630	2632	S	490	by	by	by	IN	O	prep	O	-1	O
+0	19	492	2633	2638	S	493	these	these	these	DT	O	det	O	-1	O
+0	19	493	2639	2646		491	remarks	remarks	remark	NNS	O	pobj	O	-1	B-noun.communication
+0	19	494	2646	2647	S	496	,	,	,	,	O	punct	O	-1	O
+0	19	495	2648	2654	S	496	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	19	496	2655	2662	S	-1	refuses	refuses	refuse	VBZ	O	null	O	-1	B-verb.communication
+0	19	497	2663	2665	S	498	to	to	to	TO	O	aux	O	-1	O
+0	19	498	2666	2673	S	496	explain	explain	explain	VB	O	xcomp	O	-1	B-verb.communication
+0	19	499	2674	2678	S	498	them	them	they	PRP	O	dobj	O	-1	O
+0	19	500	2679	2686	S	498	further	further	further	RB	O	advmod	O	-1	O
+0	19	501	2687	2690	S	496	and	and	and	CC	O	cc	O	-1	O
+0	19	502	2691	2698	S	503	instead	instead	instead	RB	O	advmod	O	-1	O
+0	19	503	2699	2704	S	496	leads	leads	lead	VBZ	O	conj	O	-1	B-verb.stative
+0	19	504	2705	2711	S	503	Watson	Watson	Watson	NNP	PERSON	dobj	O	3	B-noun.person
+0	19	505	2712	2718	S	503	around	around	around	IN	O	prep	O	-1	O
+0	19	506	2719	2721	S	505	to	to	to	TO	O	dep	O	-1	O
+0	19	507	2722	2723	S	509	a	a	a	DT	O	det	O	-1	O
+0	19	508	2724	2728	S	509	busy	busy	busy	JJ	O	amod	O	-1	O
+0	19	509	2729	2735	S	506	street	street	street	NN	O	pobj	O	-1	B-noun.artifact
+0	19	510	2736	2742	S	509	behind	behind	behind	IN	O	prep	O	-1	O
+0	19	511	2743	2749		513	Wilson	Wilson	Wilson	NNP	PERSON	poss	O	6	B-noun.person
+0	19	512	2749	2751	S	511	’s	's	's	POS	O	possessive	O	-1	O
+0	19	513	2752	2756		510	shop	shop	shop	NN	O	pobj	O	-1	B-noun.artifact
+0	19	514	2756	2757	S	496	.	.	.	.	O	punct	O	-1	O
+0	20	515	2758	2764	S	516	Holmes	Holmes	Holmes	NNP	PERSON	nn	O	4	B-noun.person
+0	20	516	2765	2772	S	530	notices	notices	notice	NNS	O	nsubj	O	-1	B-noun.communication
+0	20	517	2773	2778	S	520	aloud	aloud	aloud	RB	O	advmod	O	-1	O
+0	20	518	2779	2783	S	520	that	that	that	IN	O	dep	O	-1	O
+0	20	519	2784	2789		520	there	there	there	EX	O	expl	O	-1	O
+0	20	520	2789	2791	S	516	’s	's	be	VBZ	O	dep	O	-1	O
+0	20	521	2792	2793	S	522	a	a	a	DT	O	det	O	-1	O
+0	20	522	2794	2798	S	520	bank	bank	bank	NN	O	nsubj	O	-1	B-noun.object
+0	20	523	2799	2805	S	522	behind	behind	behind	IN	O	prep	O	-1	O
+0	20	524	2806	2812		526	Wilson	Wilson	Wilson	NNP	PERSON	poss	O	6	B-noun.person
+0	20	525	2812	2814	S	524	’s	's	's	POS	O	possessive	O	-1	O
+0	20	526	2815	2819		523	shop	shop	shop	NN	O	pobj	O	-1	B-noun.artifact
+0	20	527	2819	2820	S	520	,	,	,	,	O	punct	O	-1	O
+0	20	528	2821	2824		516	and	and	and	CC	O	cc	O	-1	O
+0	20	529	2824	2825	S	516	,	,	,	,	O	punct	O	-1	O
+0	20	530	2826	2834	S	538	finished	finished	finish	VBD	O	ccomp	O	-1	B-verb.change
+0	20	531	2835	2838	S	530	for	for	for	IN	O	prep	O	-1	O
+0	20	532	2839	2842	S	533	the	the	the	DT	DATE	det	O	-1	O
+0	20	533	2843	2846		531	day	day	day	NN	DATE	pobj	O	-1	B-noun.time
+0	20	534	2846	2847	S	538	,	,	,	,	O	punct	O	-1	O
+0	20	535	2848	2850	S	538	he	he	he	PRP	O	nsubj	O	6	O
+0	20	536	2851	2854	S	535	and	and	and	CC	O	cc	O	-1	O
+0	20	537	2855	2861	S	535	Watson	Watson	Watson	NNP	PERSON	conj	O	3	B-noun.person
+0	20	538	2862	2864	S	-1	go	go	go	VBP	O	null	O	-1	B-verb.motion
+0	20	539	2865	2867	S	538	to	to	to	TO	O	prep	O	-1	O
+0	20	540	2868	2871	S	541	the	the	the	DT	O	det	O	-1	O
+0	20	541	2872	2879		539	concert	concert	concert	NN	O	pobj	O	-1	B-noun.communication
+0	20	542	2879	2880	S	538	.	.	.	.	O	punct	O	-1	O
+0	21	543	2881	2886	S	548	After	After	after	IN	O	prep	O	-1	O
+0	21	544	2887	2890	S	545	the	the	the	DT	O	det	O	-1	O
+0	21	545	2891	2898		543	concert	concert	concert	NN	O	pobj	O	-1	B-noun.communication
+0	21	546	2898	2899	S	548	,	,	,	,	O	punct	O	-1	O
+0	21	547	2900	2906	S	548	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	21	548	2907	2911	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	21	549	2912	2918	S	548	Watson	Watson	Watson	NNP	PERSON	dobj	O	3	B-noun.person
+0	21	550	2919	2921	S	551	to	to	to	TO	O	aux	O	-1	O
+0	21	551	2922	2926	S	548	meet	meet	meet	VB	O	xcomp	O	-1	B-verb.social
+0	21	552	2927	2930	S	551	him	him	he	PRP	O	dobj	O	4	O
+0	21	553	2931	2933	S	551	at	at	at	IN	O	prep	O	-1	O
+0	21	554	2934	2937	S	555	his	his	he	PRP$	O	poss	O	4	O
+0	21	555	2938	2944	S	553	office	office	office	NN	O	pobj	O	-1	B-noun.artifact
+0	21	556	2945	2947	S	551	at	at	at	IN	O	prep	O	-1	O
+0	21	557	2948	2951	S	556	ten	ten	ten	CD	TIME	pobj	O	-1	O
+0	21	558	2952	2959	S	557	o’clock	o'clock	o'clock	RB	TIME	advmod	O	-1	O
+0	21	559	2960	2964	S	560	that	that	that	DT	TIME	det	O	-1	O
+0	21	560	2965	2970		551	night	night	night	NN	TIME	tmod	O	-1	B-noun.time
+0	21	561	2970	2971	S	548	,	,	,	,	O	punct	O	-1	O
+0	21	562	2972	2978	S	548	saying	saying	say	VBG	O	xcomp	O	-1	B-verb.communication
+0	21	563	2979	2983	S	568	that	that	that	IN	O	complm	O	-1	O
+0	21	564	2984	2985	S	566	a	a	a	DT	O	det	O	-1	O
+0	21	565	2986	2993	S	566	serious	serious	serious	JJ	O	amod	O	-1	O
+0	21	566	2994	2999	S	568	crime	crime	crime	NN	O	nsubj	O	-1	B-noun.act
+0	21	567	3000	3002	S	568	is	is	be	VBZ	O	aux	O	-1	B-verb.stative
+0	21	568	3003	3008	S	562	about	about	about	IN	O	ccomp	O	-1	O
+0	21	569	3009	3011	S	571	to	to	to	TO	O	aux	O	-1	O
+0	21	570	3012	3014	S	571	be	be	be	VB	O	auxpass	O	-1	O
+0	21	571	3015	3024		568	committed	committed	commit	VBN	O	xcomp	O	-1	O
+0	21	572	3024	3025	S	548	.	.	.	.	O	punct	O	-1	O
+0	22	573	3026	3032	S	574	Watson	Watson	Watson	NNP	PERSON	nsubj	O	3	B-noun.person
+0	22	574	3033	3039	S	-1	agrees	agrees	agree	VBZ	O	null	O	-1	B-verb.communication
+0	22	575	3040	3043	S	574	but	but	but	CC	O	cc	O	-1	O
+0	22	576	3044	3046	S	578	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	22	577	3047	3055	S	578	entirely	entirely	entirely	RB	O	advmod	O	-1	O
+0	22	578	3056	3066	S	574	bewildered	bewildered	bewilder	VBN	O	conj	O	-1	B-verb.cognition
+0	22	579	3067	3069	S	578	by	by	by	IN	O	prep	O	-1	O
+0	22	580	3070	3076		582	Holmes	Holmes	Holmes	NNP	PERSON	poss	O	4	B-noun.person
+0	22	581	3076	3078	S	580	’s	's	's	POS	O	possessive	O	-1	O
+0	22	582	3079	3086		579	actions	actions	action	NNS	O	pobj	O	-1	B-noun.act
+0	22	583	3086	3087	S	574	.	.	.	.	O	punct	O	-1	O
+0	23	584	3088	3094	S	585	Watson	Watson	Watson	NNP	PERSON	nsubj	O	3	B-noun.person
+0	23	585	3095	3100	S	-1	notes	notes	note	VBZ	O	null	O	-1	B-verb.communication
+0	23	586	3101	3105	S	591	that	that	that	IN	O	complm	O	-1	O
+0	23	587	3106	3108	S	591	he	he	he	PRP	O	nsubj	O	3	O
+0	23	588	3109	3112	S	587	and	and	and	CC	O	cc	O	-1	O
+0	23	589	3113	3119	S	587	Holmes	Holmes	Holmes	NNP	PERSON	conj	O	4	B-noun.person
+0	23	590	3120	3124	S	591	have	have	have	VBP	O	aux	O	-1	O
+0	23	591	3125	3129	S	585	seen	seen	see	VBN	O	ccomp	O	-1	B-verb.perception
+0	23	592	3130	3133	S	591	and	and	and	CC	O	cc	O	-1	O
+0	23	593	3134	3139	S	591	heard	heard	hear	VBN	O	conj	O	-1	B-verb.perception
+0	23	594	3140	3147	S	597	exactly	exactly	exactly	RB	O	advmod	O	-1	O
+0	23	595	3148	3151	S	597	the	the	the	DT	O	det	O	-1	O
+0	23	596	3152	3156	S	597	same	same	same	JJ	O	amod	O	-1	O
+0	23	597	3157	3168	S	593	information	information	information	NN	O	dobj	O	-1	B-noun.communication
+0	23	598	3169	3174	S	597	about	about	about	IN	O	prep	O	-1	O
+0	23	599	3175	3178	S	600	the	the	the	DT	O	det	O	-1	O
+0	23	600	3179	3183	S	598	case	case	case	NN	O	pobj	O	-1	B-noun.event
+0	23	601	3184	3187	S	591	but	but	but	CC	O	cc	O	-1	O
+0	23	602	3188	3192	S	604	that	that	that	IN	O	complm	O	-1	O
+0	23	603	3193	3199	S	604	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	23	604	3200	3205	S	591	seems	seems	seem	VBZ	O	conj	O	-1	B-verb.perception
+0	23	605	3206	3208	S	607	to	to	to	TO	O	aux	O	-1	O
+0	23	606	3209	3213	S	607	have	have	have	VB	O	aux	O	-1	O
+0	23	607	3214	3221	S	604	arrived	arrived	arrive	VBN	O	xcomp	O	-1	B-verb.motion
+0	23	608	3222	3224	S	607	at	at	at	IN	O	prep	O	-1	O
+0	23	609	3225	3229	S	610	some	some	some	DT	O	det	O	-1	O
+0	23	610	3230	3241	S	608	conclusions	conclusions	conclusion	NNS	O	pobj	O	-1	B-noun.cognition
+0	23	611	3242	3246	S	615	that	that	that	IN	O	complm	O	-1	O
+0	23	612	3247	3249	S	615	he	he	he	PRP	O	nsubj	O	4	O
+0	23	613	3250	3257	S	612	himself	himself	himself	PRP	O	dep	O	-1	O
+0	23	614	3258	3261	S	615	has	has	have	VBZ	O	aux	O	-1	O
+0	23	615	3262	3268	S	607	failed	failed	fail	VBN	O	ccomp	O	-1	B-verb.social
+0	23	616	3269	3271	S	617	to	to	to	TO	O	aux	O	-1	O
+0	23	617	3272	3276		615	draw	draw	draw	VB	O	xcomp	O	-1	B-verb.contact
+0	23	618	3276	3277	S	585	.	.	.	.	O	punct	O	-1	O
+0	24	619	3278	3282	S	620	That	That	that	DT	O	det	O	-1	O
+0	24	620	3283	3288		623	night	night	night	NN	TIME	tmod	O	-1	B-noun.time
+0	24	621	3288	3289	S	623	,	,	,	,	O	punct	O	-1	O
+0	24	622	3290	3296	S	623	Watson	Watson	Watson	NNP	PERSON	nsubj	O	3	B-noun.person
+0	24	623	3297	3302	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	24	624	3303	3305	S	623	up	up	up	RP	O	prt	O	-1	O
+0	24	625	3306	3310	S	623	with	with	with	IN	O	prep	O	-1	O
+0	24	626	3311	3317		625	Holmes	Holmes	Holmes	NNP	PERSON	pobj	O	4	B-noun.person
+0	24	627	3317	3318	S	623	,	,	,	,	O	punct	O	-1	O
+0	24	628	3319	3324	S	623	along	along	along	IN	O	prep	O	-1	O
+0	24	629	3325	3329	S	628	with	with	with	IN	O	dep	O	-1	O
+0	24	630	3330	3333	S	632	two	two	two	CD	NUMBER	num	O	-1	O
+0	24	631	3334	3339	S	632	other	other	other	JJ	O	amod	O	-1	O
+0	24	632	3340	3343		629	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	24	633	3343	3344		632	—	--	--	:	O	punct	O	-1	O
+0	24	634	3344	3345	S	637	a	a	a	DT	O	det	O	-1	O
+0	24	635	3346	3354	S	637	Scotland	Scotland	Scotland	NNP	LOCATION	nn	O	-1	B-noun.group
+0	24	636	3355	3359	S	637	Yard	Yard	yard	NN	O	nn	O	-1	I-noun.group
+0	24	637	3360	3369	S	645	detective	detective	detective	NN	O	nsubj	O	-1	B-noun.person
+0	24	638	3370	3375	S	637	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	24	639	3376	3381	S	640	Peter	Peter	Peter	NNP	PERSON	nn	O	-1	B-noun.person
+0	24	640	3382	3387	S	638	Jones	Jones	Jones	NNP	PERSON	dep	O	-1	I-noun.person
+0	24	641	3388	3391	S	637	and	and	and	CC	O	cc	O	-1	O
+0	24	642	3392	3393	S	644	a	a	a	DT	O	det	O	-1	O
+0	24	643	3394	3398	S	644	bank	bank	bank	NN	O	nn	O	-1	B-noun.person
+0	24	644	3399	3406	S	637	manager	manager	manager	NN	O	conj	O	-1	I-noun.person
+0	24	645	3407	3412	S	632	named	named	name	VBD	O	dep	O	-1	B-verb.communication
+0	24	646	3413	3416	S	647	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	5	B-noun.person
+0	24	647	3417	3429		645	Merryweather	Merryweather	Merryweather	NNP	PERSON	dobj	O	5	I-noun.person
+0	24	648	3429	3430	S	623	.	.	.	.	O	punct	O	-1	O
+0	25	649	3431	3437	S	650	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	25	650	3438	3442	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	25	651	3443	3447	S	656	that	that	that	IN	O	complm	O	-1	O
+0	25	652	3448	3451	S	654	the	the	the	DT	O	det	O	-1	O
+0	25	653	3452	3456	S	654	four	four	four	CD	NUMBER	num	O	-1	O
+0	25	654	3457	3460	S	656	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	25	655	3461	3464	S	656	are	are	be	VBP	O	aux	O	-1	B-verb.stative
+0	25	656	3465	3470	S	650	about	about	about	IN	O	ccomp	O	-1	O
+0	25	657	3471	3473	S	658	to	to	to	TO	O	aux	O	-1	O
+0	25	658	3474	3478	S	656	have	have	have	VB	O	xcomp	O	-1	B-verb.possession
+0	25	659	3479	3480	S	660	a	a	a	DT	O	det	O	-1	O
+0	25	660	3481	3487	S	658	run-in	run-in	run-in	NN	O	dobj	O	-1	B-noun.communication
+0	25	661	3488	3492	S	660	with	with	with	IN	O	prep	O	-1	O
+0	25	662	3493	3497	S	663	John	John	John	NNP	PERSON	nn	O	0	B-noun.person
+0	25	663	3498	3502		661	Clay	Clay	Clay	NNP	PERSON	pobj	O	0	I-noun.person
+0	25	664	3502	3503	S	663	,	,	,	,	O	punct	O	-1	O
+0	25	665	3504	3505	S	667	a	a	a	DT	O	det	O	-1	O
+0	25	666	3506	3515	S	667	notorious	notorious	notorious	JJ	O	amod	O	-1	O
+0	25	667	3516	3524		663	criminal	criminal	criminal	NN	O	appos	O	-1	B-noun.person
+0	25	668	3524	3525	S	650	.	.	.	.	O	punct	O	-1	O
+0	26	669	3526	3529	S	670	The	The	the	DT	O	det	O	-1	O
+0	26	670	3530	3533	S	671	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	26	671	3534	3540	S	-1	depart	depart	depart	VBP	O	null	O	-1	B-verb.motion
+0	26	672	3541	3543	S	671	in	in	in	IN	O	prep	O	-1	O
+0	26	673	3544	3553	S	672	carriages	carriages	carriage	NNS	O	pobj	O	-1	B-noun.artifact
+0	26	674	3554	3556	S	671	to	to	to	TO	O	prep	O	-1	O
+0	26	675	3557	3560	S	676	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	5	B-noun.person
+0	26	676	3561	3573		678	Merryweather	Merryweather	Merryweather	NNP	PERSON	poss	O	5	I-noun.person
+0	26	677	3573	3575	S	676	’s	's	's	POS	O	possessive	O	-1	O
+0	26	678	3576	3580	S	674	City	City	City	NNP	O	pobj	O	-1	B-noun.location
+0	26	679	3581	3584	S	678	and	and	and	CC	O	cc	O	-1	O
+0	26	680	3585	3593	S	681	Suburban	Suburban	Suburban	NNP	ORGANIZATION	nn	O	-1	B-noun.person
+0	26	681	3594	3598		678	Bank	Bank	Bank	NNP	ORGANIZATION	conj	O	-1	B-noun.group
+0	26	682	3598	3599		671	—	--	--	:	O	punct	O	-1	O
+0	26	683	3599	3602	S	686	the	the	the	DT	O	det	O	-1	O
+0	26	684	3603	3607	S	686	same	same	same	JJ	O	amod	O	-1	O
+0	26	685	3608	3612	S	686	bank	bank	bank	NN	O	nn	O	-1	B-noun.group
+0	26	686	3613	3619	S	690	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	I-noun.group
+0	26	687	3620	3623	S	686	and	and	and	CC	O	cc	O	-1	O
+0	26	688	3624	3630	S	686	Watson	Watson	Watson	NNP	PERSON	conj	O	3	B-noun.person
+0	26	689	3631	3634	S	690	had	had	have	VBD	O	aux	O	-1	O
+0	26	690	3635	3645	S	671	discovered	discovered	discover	VBN	O	parataxis	O	-1	B-verb.perception
+0	26	691	3646	3652	S	690	behind	behind	behind	IN	O	prep	O	-1	O
+0	26	692	3653	3659		694	Wilson	Wilson	Wilson	NNP	PERSON	poss	O	6	B-noun.person
+0	26	693	3659	3661	S	692	’s	's	's	POS	O	possessive	O	-1	O
+0	26	694	3662	3666		691	shop	shop	shop	NN	O	pobj	O	-1	B-noun.artifact
+0	26	695	3666	3667	S	671	.	.	.	.	O	punct	O	-1	O
+0	27	696	3668	3671	S	698	The	The	the	DT	O	det	O	-1	O
+0	27	697	3672	3676	S	698	four	four	four	CD	NUMBER	num	O	-1	O
+0	27	698	3677	3680	S	699	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	27	699	3681	3685	S	-1	wait	wait	wait	VB	O	null	O	-1	B-verb.stative
+0	27	700	3686	3689	S	699	for	for	for	IN	O	prep	O	-1	O
+0	27	701	3690	3692	S	702	an	an	a	DT	DURATION	det	O	-1	O
+0	27	702	3693	3697	S	700	hour	hour	hour	NN	DURATION	pobj	O	-1	B-noun.time
+0	27	703	3698	3700	S	702	in	in	in	IN	O	prep	O	-1	O
+0	27	704	3701	3704	S	705	the	the	the	DT	O	det	O	-1	O
+0	27	705	3705	3713	S	703	darkness	darkness	darkness	NN	O	pobj	O	-1	B-noun.state
+0	27	706	3714	3716	S	705	of	of	of	IN	O	prep	O	-1	O
+0	27	707	3717	3720	S	708	the	the	the	DT	O	det	O	-1	O
+0	27	708	3721	3727	S	706	cellar	cellar	cellar	NN	O	pobj	O	-1	B-noun.artifact
+0	27	709	3728	3734	S	708	filled	filled	fill	VBN	O	partmod	O	-1	B-verb.change
+0	27	710	3735	3739	S	709	with	with	with	IN	O	prep	O	-1	O
+0	27	711	3740	3746	S	712	French	French	french	JJ	MISC	amod	O	-1	O
+0	27	712	3747	3751		710	gold	gold	gold	NN	O	pobj	O	-1	B-noun.possession
+0	27	713	3751	3752	S	699	.	.	.	.	O	punct	O	-1	O
+0	28	714	3753	3761		717	Suddenly	Suddenly	suddenly	RB	O	advmod	O	-1	O
+0	28	715	3761	3762	S	717	,	,	,	,	O	punct	O	-1	O
+0	28	716	3763	3767	S	717	they	they	they	PRP	O	nsubj	O	-1	O
+0	28	717	3768	3774	S	-1	notice	notice	notice	VBP	O	null	O	-1	B-verb.perception
+0	28	718	3775	3776	S	719	a	a	a	DT	O	det	O	-1	O
+0	28	719	3777	3782	S	717	light	light	light	JJ	O	dobj	O	-1	O
+0	28	720	3783	3790	S	719	shining	shining	shine	VBG	O	amod	O	-1	B-verb.weather
+0	28	721	3791	3798	S	717	through	through	through	IN	O	prep	O	-1	O
+0	28	722	3799	3800	S	723	a	a	a	DT	O	det	O	-1	O
+0	28	723	3801	3806	S	721	crack	crack	crack	NN	O	pobj	O	-1	B-noun.object
+0	28	724	3807	3809	S	723	in	in	in	IN	O	prep	O	-1	O
+0	28	725	3810	3813	S	726	the	the	the	DT	O	det	O	-1	O
+0	28	726	3814	3819		724	floor	floor	floor	NN	O	pobj	O	-1	B-noun.artifact
+0	28	727	3819	3820	S	717	.	.	.	.	O	punct	O	-1	O
+0	29	728	3821	3824	S	729	The	The	the	DT	O	det	O	-1	O
+0	29	729	3825	3830	S	-1	light	light	light	NN	O	null	O	-1	B-noun.phenomenon
+0	29	730	3831	3835	S	729	gets	gets	get	VBZ	O	dep	O	-1	B-verb.change
+0	29	731	3836	3844	S	730	brighter	brighter	brighter	JJR	O	dobj	O	-1	O
+0	29	732	3845	3848	S	731	and	and	and	CC	O	cc	O	-1	O
+0	29	733	3849	3857		731	brighter	brighter	brighter	JJR	O	conj	O	-1	O
+0	29	734	3857	3858	S	730	,	,	,	,	O	punct	O	-1	O
+0	29	735	3859	3864	S	739	until	until	until	IN	O	mark	O	-1	O
+0	29	736	3865	3868	S	737	the	the	the	DT	O	det	O	-1	O
+0	29	737	3869	3874	S	739	crack	crack	crack	NN	O	nsubj	O	-1	B-noun.artifact
+0	29	738	3875	3882	S	739	finally	finally	finally	RB	O	advmod	O	-1	O
+0	29	739	3883	3889	S	730	widens	widens	widen	VBZ	O	advcl	O	-1	B-verb.change
+0	29	740	3890	3893	S	739	and	and	and	CC	O	cc	O	-1	O
+0	29	741	3894	3895	S	742	a	a	a	DT	O	det	O	-1	O
+0	29	742	3896	3899		745	man	man	man	NN	O	poss	O	-1	B-noun.person
+0	29	743	3899	3901	S	742	’s	's	's	POS	O	possessive	O	-1	O
+0	29	744	3902	3906	S	745	hand	hand	hand	NN	O	nn	O	-1	B-noun.body
+0	29	745	3907	3913	S	739	breaks	breaks	break	NNS	O	conj	O	-1	B-noun.event
+0	29	746	3914	3921		745	through	through	through	IN	O	advmod	O	-1	O
+0	29	747	3921	3922	S	729	.	.	.	.	O	punct	O	-1	O
+0	30	748	3923	3926	S	749	The	The	the	DT	O	det	O	-1	O
+0	30	749	3927	3930	S	750	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	30	750	3931	3937	S	-1	climbs	climbs	climb	VBZ	O	null	O	-1	B-verb.motion
+0	30	751	3938	3941	S	750	out	out	out	IN	O	prep	O	-1	O
+0	30	752	3942	3944	S	751	of	of	of	IN	O	dep	O	-1	O
+0	30	753	3945	3948	S	756	the	the	the	DT	O	det	O	-1	O
+0	30	754	3949	3956	S	756	opening	opening	open	VBG	O	amod	O	-1	B-verb.contact
+0	30	755	3957	3960	S	756	the	the	the	DT	O	det	O	-1	O
+0	30	756	3961	3966	S	752	floor	floor	floor	NN	O	pobj	O	-1	B-noun.artifact
+0	30	757	3967	3970	S	750	and	and	and	CC	O	cc	O	-1	O
+0	30	758	3971	3977	S	750	begins	begins	begin	VBZ	O	conj	O	-1	B-verb.change
+0	30	759	3978	3980	S	760	to	to	to	TO	O	aux	O	-1	O
+0	30	760	3981	3985	S	758	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	30	761	3986	3993	S	762	another	another	another	DT	O	det	O	-1	O
+0	30	762	3994	3997	S	760	man	man	man	NN	O	dobj	O	-1	B-noun.person
+0	30	763	3998	4005	S	760	through	through	through	IN	O	prep	O	-1	O
+0	30	764	4006	4010	S	763	when	when	when	WRB	O	dep	O	-1	O
+0	30	765	4011	4017	S	764	Holmes	Holmes	Holmes	NNP	PERSON	dep	O	4	B-noun.person
+0	30	766	4018	4021	S	765	and	and	and	CC	O	cc	O	-1	O
+0	30	767	4022	4031	S	769	Detective	Detective	Detective	NNP	O	nn	O	-1	B-noun.person
+0	30	768	4032	4037	S	769	Jones	Jones	Jones	NNP	PERSON	nn	O	-1	I-noun.person
+0	30	769	4038	4042	S	765	leap	leap	leap	NN	O	conj	O	-1	B-noun.act
+0	30	770	4043	4045	S	765	on	on	on	IN	O	prep	O	-1	O
+0	30	771	4046	4049	S	773	the	the	the	DT	O	det	O	-1	O
+0	30	772	4050	4053	S	773	two	two	two	CD	NUMBER	num	O	-1	O
+0	30	773	4054	4057		770	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	30	774	4057	4058	S	750	.	.	.	.	O	punct	O	-1	O
+0	31	775	4059	4063	S	776	They	They	they	PRP	O	nsubj	O	-1	O
+0	31	776	4064	4071	S	-1	capture	capture	capture	VBP	O	null	O	-1	B-verb.creation
+0	31	777	4072	4075	S	779	the	the	the	DT	O	det	O	-1	O
+0	31	778	4076	4081	S	779	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	31	779	4082	4085		776	man	man	man	NN	O	dobj	O	-1	B-noun.person
+0	31	780	4085	4086	S	779	,	,	,	,	O	punct	O	-1	O
+0	31	781	4087	4091	S	782	John	John	John	NNP	PERSON	nn	O	0	B-noun.person
+0	31	782	4092	4096		779	Clay	Clay	Clay	NNP	PERSON	appos	O	0	I-noun.person
+0	31	783	4096	4097	S	779	,	,	,	,	O	punct	O	-1	O
+0	31	784	4098	4102	S	785	also	also	also	RB	O	advmod	O	-1	O
+0	31	785	4103	4108	S	779	known	known	know	VBN	O	partmod	O	-1	B-verb.cognition
+0	31	786	4109	4111	S	785	as	as	as	IN	O	prep	O	-1	O
+0	31	787	4112	4117	S	788	Jabez	Jabez	Jabez	NNP	PERSON	nn	O	6	B-noun.person
+0	31	788	4118	4124		791	Wilson	Wilson	Wilson	NNP	PERSON	poss	O	6	I-noun.person
+0	31	789	4124	4126	S	788	’s	's	's	POS	O	possessive	O	-1	O
+0	31	790	4127	4138	S	791	hardworking	hardworking	hardwork	VBG	O	amod	O	-1	O
+0	31	791	4139	4148		786	assistant	assistant	assistant	NN	O	pobj	O	-1	B-noun.person
+0	31	792	4148	4149	S	791	,	,	,	,	O	punct	O	-1	O
+0	31	793	4150	4157	S	794	Vincent	Vincent	Vincent	NNP	PERSON	nn	O	1	O
+0	31	794	4158	4167		791	Spaulding	Spaulding	Spaulding	NNP	PERSON	appos	O	1	O
+0	31	795	4167	4168	S	776	.	.	.	.	O	punct	O	-1	O
+0	32	796	4169	4172	S	798	The	The	the	DT	O	det	O	-1	O
+0	32	797	4173	4178	S	798	other	other	other	JJ	O	amod	O	-1	O
+0	32	798	4179	4182	S	799	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	32	799	4183	4190	S	-1	escapes	escapes	escape	VBZ	O	null	O	-1	B-verb.motion
+0	32	800	4191	4198	S	799	through	through	through	IN	O	prep	O	-1	O
+0	32	801	4199	4202	S	802	the	the	the	DT	O	det	O	-1	O
+0	32	802	4203	4208	S	800	crack	crack	crack	NN	O	pobj	O	-1	B-noun.object
+0	32	803	4209	4211	S	802	in	in	in	IN	O	prep	O	-1	O
+0	32	804	4212	4215	S	805	the	the	the	DT	O	det	O	-1	O
+0	32	805	4216	4221		803	floor	floor	floor	NN	O	pobj	O	-1	B-noun.artifact
+0	32	806	4221	4222	S	799	.	.	.	.	O	punct	O	-1	O
+0	33	807	4223	4228	S	809	Later	Later	later	RB	TIME	advmod	O	-1	O
+0	33	808	4229	4233	S	809	that	that	that	DT	TIME	det	O	-1	O
+0	33	809	4234	4239		812	night	night	night	NN	TIME	tmod	O	-1	B-noun.time
+0	33	810	4239	4240	S	812	,	,	,	,	O	punct	O	-1	O
+0	33	811	4241	4247	S	812	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	33	812	4248	4253	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	33	813	4254	4260	S	812	Watson	Watson	Watson	NNP	PERSON	dobj	O	3	B-noun.person
+0	33	814	4261	4264	S	816	how	how	how	WRB	O	advmod	O	-1	O
+0	33	815	4265	4267	S	816	he	he	he	PRP	O	nsubj	O	4	O
+0	33	816	4268	4274	S	812	solved	solved	solve	VBD	O	dep	O	-1	B-verb.cognition
+0	33	817	4275	4278	S	818	the	the	the	DT	O	det	O	-1	O
+0	33	818	4279	4283		816	case	case	case	NN	O	dobj	O	-1	B-noun.event
+0	33	819	4283	4284	S	812	.	.	.	.	O	punct	O	-1	O
+0	34	820	4285	4291	S	821	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	34	821	4292	4300	S	-1	realized	realized	realize	VBD	O	null	O	-1	B-verb.cognition
+0	34	822	4301	4305	S	821	from	from	from	IN	O	prep	O	-1	O
+0	34	823	4306	4309	S	824	the	the	the	DT	O	det	O	-1	O
+0	34	824	4310	4319	S	822	beginning	beginning	beginning	NN	O	pobj	O	-1	B-noun.event
+0	34	825	4320	4324	S	832	that	that	that	IN	O	complm	O	-1	O
+0	34	826	4325	4328	S	828	the	the	the	DT	O	det	O	-1	O
+0	34	827	4329	4339	S	828	Red-Headed	Red-Headed	Red-Headed	NNP	MISC	nn	O	-1	B-noun.group
+0	34	828	4340	4346	S	832	League	League	League	NNP	MISC	nsubj	O	-1	I-noun.group
+0	34	829	4347	4350	S	832	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	34	830	4351	4357	S	832	simply	simply	simply	RB	O	advmod	O	-1	O
+0	34	831	4358	4361	S	832	too	too	too	RB	O	advmod	O	-1	O
+0	34	832	4362	4374	S	824	preposterous	preposterous	preposterous	JJ	O	ccomp	O	-1	O
+0	34	833	4375	4377	S	835	to	to	to	TO	O	aux	O	-1	O
+0	34	834	4378	4380	S	835	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	34	835	4381	4385	S	832	real	real	real	JJ	O	xcomp	O	-1	O
+0	34	836	4386	4389	S	835	and	and	and	CC	O	cc	O	-1	O
+0	34	837	4390	4394	S	844	that	that	that	IN	O	complm	O	-1	O
+0	34	838	4395	4397	S	844	it	it	it	PRP	O	nsubj	O	-1	O
+0	34	839	4398	4402	S	844	must	must	must	MD	O	aux	O	-1	O
+0	34	840	4403	4412	S	844	therefore	therefore	therefore	RB	O	advmod	O	-1	O
+0	34	841	4413	4417	S	844	have	have	have	VB	O	aux	O	-1	O
+0	34	842	4418	4422	S	844	been	been	be	VBN	O	cop	O	-1	B-verb.stative
+0	34	843	4423	4424	S	844	a	a	a	DT	O	det	O	-1	O
+0	34	844	4425	4429	S	835	ploy	ploy	ploy	NN	O	conj	O	-1	B-noun.communication
+0	34	845	4430	4432	S	846	to	to	to	TO	O	aux	O	-1	O
+0	34	846	4433	4436	S	844	get	get	get	VB	O	infmod	O	-1	B-verb.possession
+0	34	847	4437	4443	S	846	Wilson	Wilson	Wilson	NNP	PERSON	dobj	O	6	B-noun.person
+0	34	848	4444	4447	S	846	out	out	out	IN	O	prep	O	-1	O
+0	34	849	4448	4450	S	848	of	of	of	IN	O	dep	O	-1	O
+0	34	850	4451	4454	S	851	his	his	he	PRP$	O	poss	O	6	O
+0	34	851	4455	4459	S	849	shop	shop	shop	NN	O	pobj	O	-1	B-noun.artifact
+0	34	852	4460	4463	S	846	for	for	for	IN	O	prep	O	-1	O
+0	34	853	4464	4465	S	855	a	a	a	DT	DURATION	det	O	-1	O
+0	34	854	4466	4469	S	855	few	few	few	JJ	DURATION	amod	O	-1	O
+0	34	855	4470	4475	S	852	hours	hours	hour	NNS	DURATION	pobj	O	-1	B-noun.time
+0	34	856	4476	4481	S	857	every	every	every	DT	SET	det	O	-1	O
+0	34	857	4482	4485		846	day	day	day	NN	SET	tmod	O	-1	B-noun.time
+0	34	858	4485	4486	S	821	.	.	.	.	O	punct	O	-1	O
+0	35	859	4487	4490	S	860	The	The	the	DT	O	det	O	-1	O
+0	35	860	4491	4495	S	881	fact	fact	fact	NN	O	nsubj	O	-1	B-noun.cognition
+0	35	861	4496	4500	S	864	that	that	that	IN	O	complm	O	-1	O
+0	35	862	4501	4510	S	864	Spaulding	Spaulding	Spaulding	NNP	PERSON	nsubj	O	1	B-noun.person
+0	35	863	4511	4514	S	864	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	35	864	4515	4522	S	860	willing	willing	willing	JJ	O	ccomp	O	-1	O
+0	35	865	4523	4525	S	866	to	to	to	TO	O	aux	O	-1	O
+0	35	866	4526	4530	S	864	work	work	work	VB	O	xcomp	O	-1	B-verb.social
+0	35	867	4531	4534	S	866	for	for	for	IN	O	prep	O	-1	O
+0	35	868	4535	4537	S	869	so	so	so	RB	O	advmod	O	-1	O
+0	35	869	4538	4544	S	870	little	little	little	JJ	O	amod	O	-1	O
+0	35	870	4545	4550	S	867	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	35	871	4551	4554	S	860	and	and	and	CC	O	cc	O	-1	O
+0	35	872	4555	4560	S	874	spent	spent	spend	VBD	O	cop	O	-1	B-verb.stative
+0	35	873	4561	4562	S	874	a	a	a	DT	O	det	O	-1	O
+0	35	874	4563	4566	S	860	lot	lot	lot	NN	O	conj	O	-1	B-noun.quantity
+0	35	875	4567	4569	S	874	of	of	of	IN	O	prep	O	-1	O
+0	35	876	4570	4574	S	875	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	35	877	4575	4580	S	874	alone	alone	alone	RB	O	advmod	O	-1	O
+0	35	878	4581	4583	S	874	in	in	in	IN	O	prep	O	-1	O
+0	35	879	4584	4587	S	880	the	the	the	DT	O	det	O	-1	O
+0	35	880	4588	4596	S	878	basement	basement	basement	NN	O	pobj	O	-1	B-noun.artifact
+0	35	881	4597	4606	S	-1	suggested	suggested	suggest	VBD	O	null	O	-1	B-verb.communication
+0	35	882	4607	4609	S	881	to	to	to	TO	O	prep	O	-1	O
+0	35	883	4610	4616	S	882	Holmes	Holmes	Holmes	NNP	PERSON	pobj	O	4	B-noun.person
+0	35	884	4617	4621	S	887	that	that	that	IN	O	complm	O	-1	O
+0	35	885	4622	4631	S	887	Spaulding	Spaulding	Spaulding	NNP	PERSON	nsubj	O	1	B-noun.person
+0	35	886	4632	4635	S	887	was	was	be	VBD	O	aux	O	-1	O
+0	35	887	4636	4641	S	881	doing	doing	do	VBG	O	ccomp	O	-1	B-verb.social
+0	35	888	4642	4651	S	887	something	something	something	NN	O	dobj	O	-1	O
+0	35	889	4652	4659	S	888	illicit	illicit	illicit	JJ	O	amod	O	-1	O
+0	35	890	4660	4662	S	889	in	in	in	IN	O	prep	O	-1	O
+0	35	891	4663	4666	S	892	the	the	the	DT	O	det	O	-1	O
+0	35	892	4667	4673		890	cellar	cellar	cellar	NN	O	pobj	O	-1	B-noun.artifact
+0	35	893	4673	4674	S	881	.	.	.	.	O	punct	O	-1	O
+0	36	894	4675	4679	S	896	When	When	when	WRB	O	advmod	O	-1	O
+0	36	895	4680	4682	S	896	he	he	he	PRP	O	nsubj	O	4	O
+0	36	896	4683	4690	S	903	noticed	noticed	notice	VBD	O	dep	O	-1	B-verb.perception
+0	36	897	4691	4694	S	898	the	the	the	DT	O	det	O	-1	O
+0	36	898	4695	4699	S	896	bank	bank	bank	NN	O	dobj	O	-1	B-noun.object
+0	36	899	4700	4706		896	nearby	nearby	nearby	RB	O	advmod	O	-1	O
+0	36	900	4706	4707	S	903	,	,	,	,	O	punct	O	-1	O
+0	36	901	4708	4714	S	903	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	36	902	4715	4718	S	903	had	had	have	VBD	O	aux	O	-1	O
+0	36	903	4719	4728	S	-1	suspected	suspected	suspect	VBN	O	null	O	-1	B-verb.cognition
+0	36	904	4729	4733	S	907	that	that	that	IN	O	complm	O	-1	O
+0	36	905	4734	4743	S	907	Spaulding	Spaulding	Spaulding	NNP	PERSON	nsubj	O	1	B-noun.person
+0	36	906	4744	4747	S	907	was	was	be	VBD	O	aux	O	-1	B-verb.stative
+0	36	907	4748	4755	S	903	digging	digging	digging	NN	O	ccomp	O	-1	B-noun.act
+0	36	908	4756	4757	S	909	a	a	a	DT	O	det	O	-1	O
+0	36	909	4758	4764	S	907	tunnel	tunnel	tunnel	NN	O	dobj	O	-1	B-noun.artifact
+0	36	910	4765	4767	S	909	to	to	to	TO	O	prep	O	-1	O
+0	36	911	4768	4771	S	912	the	the	the	DT	O	det	O	-1	O
+0	36	912	4772	4776		910	bank	bank	bank	NN	O	pobj	O	-1	B-noun.object
+0	36	913	4776	4777	S	903	.	.	.	.	O	punct	O	-1	O
+0	37	914	4778	4784	S	915	Holmes	Holmes	Holmes	NNP	PERSON	nsubj	O	4	B-noun.person
+0	37	915	4785	4792	S	-1	pounded	pounded	pound	VBD	O	null	O	-1	B-verb.contact
+0	37	916	4793	4795	S	915	on	on	on	IN	O	prep	O	-1	O
+0	37	917	4796	4799	S	918	the	the	the	DT	O	det	O	-1	O
+0	37	918	4800	4808	S	916	sidewalk	sidewalk	sidewalk	NN	O	pobj	O	-1	B-noun.artifact
+0	37	919	4809	4816	S	918	outside	outside	outside	IN	O	prep	O	-1	O
+0	37	920	4817	4823		922	Wilson	Wilson	Wilson	NNP	PERSON	poss	O	6	B-noun.person
+0	37	921	4823	4825	S	920	’s	's	's	POS	O	possessive	O	-1	O
+0	37	922	4826	4830	S	919	shop	shop	shop	NN	O	pobj	O	-1	B-noun.artifact
+0	37	923	4831	4833	S	924	to	to	to	TO	O	aux	O	-1	O
+0	37	924	4834	4843	S	915	determine	determine	determine	VB	O	xcomp	O	-1	B-verb.communication
+0	37	925	4844	4851	S	929	whether	whether	whether	IN	O	complm	O	-1	O
+0	37	926	4852	4855	S	927	the	the	the	DT	O	det	O	-1	O
+0	37	927	4856	4862	S	929	ground	ground	ground	NN	O	nsubj	O	-1	B-noun.object
+0	37	928	4863	4866	S	929	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	37	929	4867	4873	S	924	hollow	hollow	hollow	JJ	O	ccomp	O	-1	O
+0	37	930	4874	4884		929	underneath	underneath	underneath	IN	O	ccomp	O	-1	O
+0	37	931	4884	4885	S	915	,	,	,	,	O	punct	O	-1	O
+0	37	932	4886	4889	S	915	and	and	and	CC	O	cc	O	-1	O
+0	37	933	4890	4892	S	934	he	he	he	PRP	O	nsubj	O	4	O
+0	37	934	4893	4900	S	915	knocked	knocked	knock	VBD	O	conj	O	-1	B-verb.contact
+0	37	935	4901	4903	S	934	on	on	on	IN	O	prep	O	-1	O
+0	37	936	4904	4907	S	937	the	the	the	DT	O	det	O	-1	O
+0	37	937	4908	4912	S	935	door	door	door	NN	O	pobj	O	-1	B-noun.artifact
+0	37	938	4913	4916	S	934	for	for	for	IN	O	prep	O	-1	O
+0	37	939	4917	4927	S	938	directions	directions	direction	NNS	O	pobj	O	-1	B-noun.relation
+0	37	940	4928	4930	S	934	so	so	so	IN	O	prep	O	-1	O
+0	37	941	4931	4935	S	944	that	that	that	IN	O	complm	O	-1	O
+0	37	942	4936	4938	S	944	he	he	he	PRP	O	nsubj	O	4	O
+0	37	943	4939	4944	S	944	could	could	could	MD	O	aux	O	-1	O
+0	37	944	4945	4948	S	940	see	see	see	VB	O	pcomp	O	-1	B-verb.perception
+0	37	945	4949	4956	S	953	whether	whether	whether	IN	O	complm	O	-1	O
+0	37	946	4957	4960	S	947	the	the	the	DT	O	det	O	-1	O
+0	37	947	4961	4966	S	953	knees	knees	knee	NNS	O	nsubjpass	O	-1	B-noun.body
+0	37	948	4967	4969	S	947	of	of	of	IN	O	prep	O	-1	O
+0	37	949	4970	4979		951	Spaulding	Spaulding	Spaulding	NNP	PERSON	poss	O	1	B-noun.person
+0	37	950	4979	4981	S	949	’s	's	's	POS	O	possessive	O	-1	O
+0	37	951	4982	4987	S	948	pants	pants	pants	NNS	O	pobj	O	-1	B-noun.event
+0	37	952	4988	4992	S	953	were	were	be	VBD	O	auxpass	O	-1	O
+0	37	953	4993	4997	S	944	worn	worn	wear	VBN	O	ccomp	O	-1	B-verb.contact
+0	37	954	4998	5002		953	away	away	away	RB	O	advmod	O	-1	O
+0	37	955	5002	5003	S	915	.	.	.	.	O	punct	O	-1	O
+0	38	956	5004	5007	S	957	The	The	the	DT	O	det	O	-1	O
+0	38	957	5008	5012	S	-1	fact	fact	fact	NN	O	null	O	-1	B-noun.cognition
+0	38	958	5013	5017	S	964	that	that	that	IN	O	complm	O	-1	O
+0	38	959	5018	5021	S	960	the	the	the	DT	O	det	O	-1	O
+0	38	960	5022	5028	S	964	league	league	league	NN	O	nsubjpass	O	-1	B-noun.group
+0	38	961	5029	5038	S	964	dissolved	dissolved	dissolve	VBD	O	aux	O	-1	B-verb.change
+0	38	962	5039	5041	S	963	so	so	so	RB	O	advmod	O	-1	O
+0	38	963	5042	5050	S	964	suddenly	suddenly	suddenly	RB	O	advmod	O	-1	O
+0	38	964	5051	5060	S	957	suggested	suggested	suggest	VBN	O	ccomp	O	-1	B-verb.communication
+0	38	965	5061	5063	S	964	to	to	to	TO	O	prep	O	-1	O
+0	38	966	5064	5070	S	965	Holmes	Holmes	Holmes	NNP	PERSON	pobj	O	4	B-noun.person
+0	38	967	5071	5075	S	971	that	that	that	IN	O	complm	O	-1	O
+0	38	968	5076	5079	S	969	the	the	the	DT	O	det	O	-1	O
+0	38	969	5080	5087	S	971	robbery	robbery	robbery	NN	O	nsubj	O	-1	B-noun.act
+0	38	970	5088	5091	S	971	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	38	971	5092	5100		964	imminent	imminent	imminent	JJ	O	ccomp	O	-1	O
+0	38	972	5100	5101	S	957	,	,	,	,	O	punct	O	-1	O
+0	38	973	5102	5105	S	957	and	and	and	CC	O	cc	O	-1	O
+0	38	974	5106	5108	S	977	he	he	he	PRP	O	nsubj	O	4	O
+0	38	975	5109	5112	S	977	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	38	976	5113	5122	S	977	therefore	therefore	therefore	RB	O	advmod	O	-1	O
+0	38	977	5123	5127	S	957	able	able	able	JJ	O	conj	O	-1	O
+0	38	978	5128	5130	S	979	to	to	to	TO	O	aux	O	-1	O
+0	38	979	5131	5135	S	977	make	make	make	VB	O	xcomp	O	-1	B-verb.social
+0	38	980	5136	5148	S	984	preparations	preparations	preparation	NNS	O	nn	O	-1	B-noun.act
+0	38	981	5149	5152	S	980	and	and	and	CC	O	cc	O	-1	O
+0	38	982	5153	5160	S	980	capture	capture	capture	NN	O	conj	O	-1	B-noun.act
+0	38	983	5161	5165	S	984	John	John	John	NNP	PERSON	nn	O	0	B-noun.person
+0	38	984	5166	5170		979	Clay	Clay	Clay	NNP	PERSON	dobj	O	0	I-noun.person
+0	38	985	5170	5171	N	957	.	.	.	.	O	punct	O	-1	O

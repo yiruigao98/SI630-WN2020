@@ -1,0 +1,919 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	3	S	1	The	The	the	DT	O	det	O	-1	O
+0	0	1	4	10	S	18	Return	Return	return	NN	O	nsubj	O	-1	B-noun.communication
+0	0	2	11	13	S	1	of	of	of	IN	O	prep	O	-1	O
+0	0	3	14	17	S	4	the	the	the	DT	O	det	O	-1	O
+0	0	4	18	22		2	King	King	King	NNP	O	pobj	O	-1	O
+0	0	5	22	23	S	4	,	,	,	,	O	punct	O	-1	O
+0	0	6	24	27	N	10	the	the	the	DT	O	det	O	-1	O
+0	0	7	28	33	S	10	third	third	third	JJ	ORDINAL	amod	O	-1	O
+0	0	8	34	37	S	7	and	and	and	CC	O	cc	O	-1	O
+0	0	9	38	43	S	7	final	final	final	JJ	O	conj	O	-1	O
+0	0	10	44	50	S	4	volume	volume	volume	NN	O	appos	O	-1	B-noun.quantity
+0	0	11	51	53	S	10	in	in	in	IN	O	prep	O	-1	O
+0	0	12	54	57	S	13	The	The	the	DT	O	det	O	-1	O
+0	0	13	58	62	S	11	Lord	Lord	lord	NN	O	pobj	O	-1	B-noun.person
+0	0	14	63	65	S	13	of	of	of	IN	O	prep	O	-1	O
+0	0	15	66	69	S	16	the	the	the	DT	O	det	O	-1	O
+0	0	16	70	75		14	Rings	Rings	ring	NNS	O	pobj	O	-1	O
+0	0	17	75	76	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	18	77	82	N	-1	opens	opens	open	VBZ	O	null	O	-1	B-verb.social
+0	0	19	83	85	S	24	as	as	as	IN	O	mark	O	-1	O
+0	0	20	86	93	S	24	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nsubj	O	9	B-noun.person
+0	0	21	94	97	S	20	and	and	and	CC	O	cc	O	-1	O
+0	0	22	98	104	S	23	Pippin	Pippin	Pippin	NNP	LOCATION	nn	O	-1	B-noun.person
+0	0	23	105	109	S	20	ride	ride	ride	NN	O	conj	O	-1	B-noun.act
+0	0	24	110	114	S	18	east	east	east	JJ	O	advcl	O	-1	O
+0	0	25	115	117	S	24	to	to	to	TO	O	prep	O	-1	O
+0	0	26	118	121	S	27	the	the	the	DT	O	det	O	-1	O
+0	0	27	122	126	S	25	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	0	28	127	129	S	27	of	of	of	IN	O	prep	O	-1	O
+0	0	29	130	135	S	30	Minas	Minas	Minas	NNP	ORGANIZATION	nn	O	4	B-noun.group
+0	0	30	136	142	S	28	Tirith	Tirith	Tirith	NNP	ORGANIZATION	pobj	O	4	I-noun.group
+0	0	31	143	145	S	27	in	in	in	IN	O	prep	O	-1	O
+0	0	32	146	152		31	Gondor	Gondor	Gondor	NNP	LOCATION	pobj	O	-1	O
+0	0	33	152	153	N	18	,	,	,	,	O	punct	O	-1	O
+0	0	34	154	158	S	35	just	just	just	RB	O	dep	O	-1	O
+0	0	35	159	164	S	18	after	after	after	IN	O	prep	O	-1	O
+0	0	36	165	172	S	35	parting	parting	parting	NN	O	pobj	O	-1	B-noun.act
+0	0	37	173	177	S	36	with	with	with	IN	O	prep	O	-1	O
+0	0	38	178	182	S	39	King	King	King	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	39	183	190	S	37	Théoden	Théoden	Théoden	NNP	PERSON	pobj	O	-1	I-noun.person
+0	0	40	191	194	S	39	and	and	and	CC	O	cc	O	-1	O
+0	0	41	195	198	S	42	the	the	the	DT	O	det	O	-1	O
+0	0	42	199	205	S	39	Riders	Riders	rider	NNS	O	conj	O	-1	B-noun.person
+0	0	43	206	208	S	42	of	of	of	IN	O	prep	O	-1	O
+0	0	44	209	214	S	43	Rohan	Rohan	Rohan	NNP	PERSON	pobj	O	1	B-noun.person
+0	0	45	215	217	N	42	at	at	at	IN	O	prep	O	-1	O
+0	0	46	218	221	S	47	the	the	the	DT	O	det	O	-1	O
+0	0	47	222	225	S	45	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	0	48	226	228	S	47	of	of	of	IN	O	prep	O	-1	O
+0	0	49	229	232	S	51	The	The	the	DT	O	det	O	-1	O
+0	0	50	233	236	S	51	Two	Two	two	CD	NUMBER	num	O	-1	O
+0	0	51	237	243		48	Towers	Towers	Towers	NNP	O	pobj	O	-1	O
+0	0	52	243	244	S	18	.	.	.	.	O	punct	O	-1	O
+0	1	53	245	247	S	60	In	In	in	IN	O	prep	O	-1	O
+0	1	54	248	253	S	55	Minas	Minas	Minas	NNP	ORGANIZATION	nn	O	4	B-noun.group
+0	1	55	254	260		53	Tirith	Tirith	Tirith	NNP	ORGANIZATION	pobj	O	4	I-noun.group
+0	1	56	260	261	S	55	,	,	,	,	O	punct	O	-1	O
+0	1	57	262	269	N	55	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	conj	O	9	B-noun.person
+0	1	58	270	273	S	55	and	and	and	CC	O	cc	O	-1	O
+0	1	59	274	280	S	55	Pippin	Pippin	Pippin	NNP	O	conj	O	-1	B-noun.person
+0	1	60	281	285	S	-1	meet	meet	meet	VBP	O	null	O	-1	B-verb.motion
+0	1	61	286	294		60	Denethor	Denethor	Denethor	NNP	PERSON	dobj	O	6	O
+0	1	62	294	295	S	61	,	,	,	,	O	punct	O	-1	O
+0	1	63	296	299	S	64	the	the	the	DT	O	det	O	-1	O
+0	1	64	300	304		66	city	city	city	NN	O	poss	O	-1	B-noun.location
+0	1	65	304	306	S	64	’s	's	's	POS	O	possessive	O	-1	O
+0	1	66	307	314		61	Steward	Steward	Steward	NNP	O	appos	O	-1	B-noun.person
+0	1	67	314	315	S	66	,	,	,	,	O	punct	O	-1	O
+0	1	68	316	318	S	66	or	or	or	CC	O	cc	O	-1	O
+0	1	69	319	324		66	ruler	ruler	ruler	NN	O	conj	O	-1	B-noun.person
+0	1	70	324	325	S	66	,	,	,	,	O	punct	O	-1	O
+0	1	71	326	329	S	66	who	who	who	WP	O	appos	O	-1	O
+0	1	72	330	337	N	73	clearly	clearly	clearly	RB	O	advmod	O	-1	O
+0	1	73	338	346	S	71	dislikes	dislikes	dislikes	NN	O	dep	O	-1	B-noun.cognition
+0	1	74	347	354		73	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	dep	O	9	O
+0	1	75	354	355	S	60	.	.	.	.	O	punct	O	-1	O
+0	2	76	356	362	S	77	Pippin	Pippin	Pippin	NNP	O	nsubj	O	-1	O
+0	2	77	363	369	S	-1	offers	offers	offer	VBZ	O	null	O	-1	B-verb.possession
+0	2	78	370	378	S	77	Denethor	Denethor	Denethor	NNP	PERSON	dobj	O	6	B-noun.person
+0	2	79	379	382	S	80	his	his	he	PRP$	O	poss	O	-1	O
+0	2	80	383	388	S	78	sword	sword	sword	NN	O	dep	O	-1	B-noun.artifact
+0	2	81	389	391	S	80	in	in	in	IN	O	prep	O	-1	O
+0	2	82	392	399	S	81	service	service	service	NN	O	pobj	O	-1	B-noun.act
+0	2	83	400	402	N	80	to	to	to	TO	O	prep	O	-1	O
+0	2	84	403	409		83	Gondor	Gondor	Gondor	NNP	PERSON	pobj	O	2	O
+0	2	85	409	410	S	80	,	,	,	,	O	punct	O	-1	O
+0	2	86	411	414	S	80	out	out	out	IN	O	prep	O	-1	O
+0	2	87	415	417	S	86	of	of	of	IN	O	dep	O	-1	O
+0	2	88	418	427	S	87	gratitude	gratitude	gratitude	NN	O	pobj	O	-1	B-noun.feeling
+0	2	89	428	431	S	80	for	for	for	IN	O	prep	O	-1	O
+0	2	90	432	435	S	91	the	the	the	DT	O	det	O	-1	O
+0	2	91	436	440	S	89	fact	fact	fact	NN	O	pobj	O	-1	B-noun.cognition
+0	2	92	441	445	S	97	that	that	that	IN	O	complm	O	-1	O
+0	2	93	446	454		96	Denethor	Denethor	Denethor	NNP	PERSON	poss	O	6	B-noun.person
+0	2	94	454	456	S	93	’s	's	's	POS	O	possessive	O	-1	O
+0	2	95	457	460	S	96	son	son	son	NN	O	nn	O	-1	B-noun.person
+0	2	96	461	468	N	97	Boromir	Boromir	Boromir	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	2	97	469	473	S	91	gave	gave	give	VBD	O	ccomp	O	-1	B-verb.possession
+0	2	98	474	477	S	99	his	his	he	PRP$	O	poss	O	-1	O
+0	2	99	478	482	S	97	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	2	100	483	486	S	97	for	for	for	IN	O	prep	O	-1	O
+0	2	101	487	490	S	102	the	the	the	DT	O	det	O	-1	O
+0	2	102	491	498	S	100	hobbits	hobbits	hobbit	NNS	O	pobj	O	-1	B-noun.person
+0	2	103	499	506	S	102	earlier	earlier	earlier	RBR	O	advmod	O	-1	O
+0	2	104	507	509	S	103	in	in	in	IN	O	dep	O	-1	O
+0	2	105	510	513	S	106	the	the	the	DT	O	det	O	-1	O
+0	2	106	514	519		104	quest	quest	quest	NN	O	pobj	O	-1	B-noun.cognition
+0	2	107	519	520	S	77	.	.	.	.	O	punct	O	-1	O
+0	3	108	521	522	S	109	A	A	a	DT	O	det	O	-1	O
+0	3	109	523	530	S	-1	blanket	blanket	blanket	NN	O	null	O	-1	B-noun.artifact
+0	3	110	531	533	S	119	of	of	of	IN	O	rel	O	-1	O
+0	3	111	534	539		119	gloom	gloom	gloom	NN	O	nsubj	O	-1	B-noun.state
+0	3	112	539	540		115	—	--	--	:	O	punct	O	-1	O
+0	3	113	540	545	S	115	which	which	which	WDT	O	dobj	O	-1	O
+0	3	114	546	553	S	115	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nsubj	O	9	B-noun.person
+0	3	115	554	559	S	119	calls	calls	call	VBZ	O	parataxis	O	-1	B-verb.communication
+0	3	116	560	563	S	117	the	the	the	DT	O	det	O	-1	O
+0	3	117	564	572		115	Darkness	Darkness	darkness	NN	O	xcomp	O	-1	O
+0	3	118	572	573		115	—	--	--	:	O	punct	O	-1	O
+0	3	119	573	579	S	109	begins	begins	begin	VBZ	O	rcmod	O	-1	B-verb.change
+0	3	120	580	582	N	121	to	to	to	TO	O	aux	O	-1	O
+0	3	121	583	588	S	119	issue	issue	issue	VB	O	xcomp	O	-1	B-verb.communication
+0	3	122	589	593	S	121	from	from	from	IN	O	prep	O	-1	O
+0	3	123	594	600	S	122	Mordor	Mordor	Mordor	NNP	O	pobj	O	-1	B-noun.person
+0	3	124	601	604	S	119	and	and	and	CC	O	cc	O	-1	O
+0	3	125	605	609	S	126	soon	soon	soon	RB	O	advmod	O	-1	O
+0	3	126	610	618	S	119	obscures	obscures	obscure	VBZ	O	conj	O	-1	B-verb.perception
+0	3	127	619	622	S	129	the	the	the	DT	O	det	O	-1	O
+0	3	128	623	629	S	129	entire	entire	entire	JJ	O	amod	O	-1	O
+0	3	129	630	633	S	126	sky	sky	sky	NN	O	dobj	O	-1	B-noun.object
+0	3	130	634	638	S	129	over	over	over	IN	O	prep	O	-1	O
+0	3	131	639	644	S	132	Minas	Minas	Minas	NNP	ORGANIZATION	nn	O	4	B-noun.group
+0	3	132	645	651		130	Tirith	Tirith	Tirith	NNP	ORGANIZATION	pobj	O	4	I-noun.group
+0	3	133	651	652	N	109	.	.	.	.	O	punct	O	-1	O
+0	4	134	653	662		137	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	4	135	662	663	S	137	,	,	,	,	O	punct	O	-1	O
+0	4	136	664	671	S	137	Aragorn	Aragorn	Aragorn	NNP	LOCATION	nsubj	O	-1	O
+0	4	137	672	680	S	-1	realizes	realizes	realize	VBZ	O	null	O	-1	B-verb.cognition
+0	4	138	681	685	S	143	that	that	that	IN	O	complm	O	-1	O
+0	4	139	686	689	S	140	the	the	the	DT	O	det	O	-1	O
+0	4	140	690	696	S	143	Riders	Riders	rider	NNS	O	nsubj	O	-1	B-noun.person
+0	4	141	697	700	S	143	may	may	may	MD	O	aux	O	-1	O
+0	4	142	701	704	S	143	not	not	not	RB	O	neg	O	-1	O
+0	4	143	705	710	S	137	reach	reach	reach	VB	O	ccomp	O	-1	B-verb.motion
+0	4	144	711	714	S	145	the	the	the	DT	O	det	O	-1	O
+0	4	145	715	719	N	143	city	city	city	NN	O	dobj	O	-1	B-noun.location
+0	4	146	720	722	S	143	in	in	in	IN	O	prep	O	-1	O
+0	4	147	723	727	S	146	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	4	148	728	730	S	149	to	to	to	TO	O	aux	O	-1	O
+0	4	149	731	737	S	143	defend	defend	defend	VB	O	xcomp	O	-1	B-verb.communication
+0	4	150	738	740	S	149	it	it	it	PRP	O	dobj	O	-1	O
+0	4	151	741	745	S	149	from	from	from	IN	O	prep	O	-1	O
+0	4	152	746	749	S	154	the	the	the	DT	O	det	O	-1	O
+0	4	153	750	758	S	154	imminent	imminent	imminent	JJ	O	amod	O	-1	O
+0	4	154	759	767	S	151	conflict	conflict	conflict	NN	O	pobj	O	-1	B-noun.act
+0	4	155	768	772	S	154	with	with	with	IN	O	prep	O	-1	O
+0	4	156	773	779		155	Mordor	Mordor	Mordor	NNP	O	pobj	O	-1	B-noun.person
+0	4	157	779	780	S	137	.	.	.	.	O	punct	O	-1	O
+0	5	158	781	788	N	160	Aragorn	Aragorn	Aragorn	NNP	LOCATION	nn	O	-1	O
+0	5	159	789	794	S	160	parts	parts	part	NNS	O	nn	O	-1	B-noun.relation
+0	5	160	795	802	S	-1	company	company	company	NN	O	null	O	-1	B-noun.group
+0	5	161	803	807	S	160	with	with	with	IN	O	prep	O	-1	O
+0	5	162	808	815	S	161	Théoden	Théoden	théoden	NN	PERSON	pobj	O	-1	B-noun.artifact
+0	5	163	816	819	S	160	and	and	and	CC	O	cc	O	-1	O
+0	5	164	820	827	S	160	decides	decides	decide	VBZ	O	conj	O	-1	B-verb.cognition
+0	5	165	828	830	S	166	to	to	to	TO	O	aux	O	-1	O
+0	5	166	831	835	S	164	take	take	take	VB	O	xcomp	O	-1	B-verb.motion
+0	5	167	836	839	S	169	the	the	the	DT	O	det	O	-1	O
+0	5	168	840	849	S	169	legendary	legendary	legendary	JJ	O	amod	O	-1	O
+0	5	169	850	855	N	166	Paths	Paths	path	NNS	O	dobj	O	-1	B-noun.act
+0	5	170	856	858	S	169	of	of	of	IN	O	prep	O	-1	O
+0	5	171	859	862	S	172	the	the	the	DT	O	det	O	-1	O
+0	5	172	863	867	S	170	Dead	Dead	Dead	NNP	O	pobj	O	-1	B-noun.group
+0	5	173	868	870	S	166	to	to	to	TO	O	prep	O	-1	O
+0	5	174	871	877		173	Gondor	Gondor	Gondor	NNP	LOCATION	pobj	O	-1	O
+0	5	175	877	878	S	160	.	.	.	.	O	punct	O	-1	O
+0	6	176	879	881	S	178	As	As	as	IN	O	mark	O	-1	O
+0	6	177	882	884	S	178	he	he	he	PRP	O	nsubj	O	-1	O
+0	6	178	885	892	S	-1	travels	travels	travel	VBZ	O	null	O	-1	B-verb.motion
+0	6	179	893	900	S	178	through	through	through	IN	O	prep	O	-1	O
+0	6	180	901	904	S	181	the	the	the	DT	O	det	O	-1	O
+0	6	181	905	910		179	Paths	Paths	Paths	NNPS	O	pobj	O	-1	B-noun.location
+0	6	182	910	911	S	181	,	,	,	,	O	punct	O	-1	O
+0	6	183	912	923	N	181	accompanied	accompanied	accompany	VBN	O	partmod	O	-1	B-verb.stative
+0	6	184	924	926	S	183	by	by	by	IN	O	prep	O	-1	O
+0	6	185	927	934	S	184	Legolas	Legolas	Legolas	NNP	PERSON	pobj	O	-1	B-noun.person
+0	6	186	935	938	S	185	and	and	and	CC	O	cc	O	-1	O
+0	6	187	939	944		185	Gimli	Gimli	Gimli	NNP	PERSON	conj	O	-1	O
+0	6	188	944	945	S	185	,	,	,	,	O	punct	O	-1	O
+0	6	189	946	947	S	191	a	a	a	DT	O	det	O	-1	O
+0	6	190	948	952	S	191	huge	huge	huge	JJ	O	amod	O	-1	O
+0	6	191	953	957	S	185	army	army	army	NN	O	appos	O	-1	B-noun.group
+0	6	192	958	960	S	191	of	of	of	IN	O	prep	O	-1	O
+0	6	193	961	964	S	195	the	the	the	DT	O	det	O	-1	O
+0	6	194	965	974	S	195	Sleepless	Sleepless	Sleepless	NNP	O	nn	O	-1	B-noun.person
+0	6	195	975	979	S	192	Dead	Dead	Dead	NNP	O	pobj	O	-1	I-noun.person
+0	6	196	980	985	S	178	heeds	heeds	heed	VBZ	O	dep	O	-1	B-verb.social
+0	6	197	986	993		199	Aragorn	Aragorn	Aragorn	NNP	LOCATION	poss	O	-1	B-noun.person
+0	6	198	993	995	N	197	’s	's	's	POS	O	possessive	O	-1	O
+0	6	199	996	1004	S	196	commands	commands	command	NNS	O	dobj	O	-1	B-noun.communication
+0	6	200	1005	1008	S	196	and	and	and	CC	O	cc	O	-1	O
+0	6	201	1009	1016	S	196	follows	follows	follow	VBZ	O	conj	O	-1	B-verb.motion
+0	6	202	1017	1020	S	201	him	him	he	PRP	O	dobj	O	-1	O
+0	6	203	1021	1030		201	southward	southward	southward	RB	O	advmod	O	-1	O
+0	6	204	1030	1031	S	178	.	.	.	.	O	punct	O	-1	O
+0	7	205	1032	1034	S	209	In	In	in	IN	O	prep	O	-1	O
+0	7	206	1035	1041		205	Gondor	Gondor	Gondor	NNP	LOCATION	pobj	O	-1	O
+0	7	207	1041	1042	S	209	,	,	,	,	O	punct	O	-1	O
+0	7	208	1043	1051	S	209	Denethor	Denethor	Denethor	NNP	PERSON	nsubj	O	6	O
+0	7	209	1052	1057	S	-1	sends	sends	send	VBZ	O	null	O	-1	B-verb.motion
+0	7	210	1058	1061	S	212	his	his	he	PRP$	O	poss	O	-1	O
+0	7	211	1062	1067	S	212	other	other	other	JJ	O	amod	O	-1	O
+0	7	212	1068	1071		209	son	son	son	NN	O	dobj	O	-1	B-noun.person
+0	7	213	1071	1072	S	212	,	,	,	,	O	punct	O	-1	O
+0	7	214	1073	1080		212	Faramir	Faramir	Faramir	NNP	PERSON	appos	O	5	O
+0	7	215	1080	1081	S	212	,	,	,	,	O	punct	O	-1	O
+0	7	216	1082	1084	S	217	to	to	to	TO	O	aux	O	-1	O
+0	7	217	1085	1089	N	212	hold	hold	hold	VB	O	infmod	O	-1	B-verb.competition
+0	7	218	1090	1093	S	217	off	off	off	RP	O	prt	O	-1	O
+0	7	219	1094	1097	S	221	the	the	the	DT	O	det	O	-1	O
+0	7	220	1098	1109	S	221	approaching	approaching	approach	VBG	O	amod	O	-1	B-verb.motion
+0	7	221	1110	1116	S	217	armies	armies	army	NNS	O	dobj	O	-1	B-noun.group
+0	7	222	1117	1119	S	221	of	of	of	IN	O	prep	O	-1	O
+0	7	223	1120	1126	S	222	Mordor	Mordor	Mordor	NNP	O	pobj	O	-1	B-noun.person
+0	7	224	1127	1129	S	217	at	at	at	IN	O	prep	O	-1	O
+0	7	225	1130	1139		224	Osgiliath	Osgiliath	Osgiliath	NNP	LOCATION	pobj	O	-1	O
+0	7	226	1139	1140	S	209	.	.	.	.	O	punct	O	-1	O
+0	8	227	1141	1148	S	228	Faramir	Faramir	Faramir	NNP	PERSON	nsubj	O	5	B-noun.person
+0	8	228	1149	1154	N	-1	holds	holds	hold	VBZ	O	null	O	-1	B-verb.possession
+0	8	229	1155	1158	S	230	his	his	he	PRP$	O	poss	O	-1	O
+0	8	230	1159	1167	S	228	position	position	position	NN	O	dobj	O	-1	B-noun.location
+0	8	231	1168	1170	S	230	as	as	as	IN	O	prep	O	-1	O
+0	8	232	1171	1175	S	231	long	long	long	JJ	O	pobj	O	-1	O
+0	8	233	1176	1178	S	235	as	as	as	IN	O	mark	O	-1	O
+0	8	234	1179	1181	S	235	he	he	he	PRP	O	nsubj	O	-1	O
+0	8	235	1182	1185		232	can	can	can	MD	O	dep	O	-1	O
+0	8	236	1185	1186	S	228	,	,	,	,	O	punct	O	-1	O
+0	8	237	1187	1190	S	228	but	but	but	CC	O	cc	O	-1	O
+0	8	238	1191	1193	S	240	he	he	he	PRP	O	nsubj	O	-1	O
+0	8	239	1194	1204	S	240	ultimately	ultimately	ultimately	RB	O	advmod	O	-1	O
+0	8	240	1205	1210	S	228	gives	gives	give	VBZ	O	conj	O	-1	B-verb.possession
+0	8	241	1211	1213	S	240	up	up	up	RP	O	prt	O	-1	O
+0	8	242	1214	1217	S	243	the	the	the	DT	O	det	O	-1	O
+0	8	243	1218	1223		240	field	field	field	NN	O	dobj	O	-1	B-noun.location
+0	8	244	1223	1224	N	240	,	,	,	,	O	punct	O	-1	O
+0	8	245	1225	1232	S	240	despite	despite	despite	IN	O	prep	O	-1	O
+0	8	246	1233	1240		248	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	poss	O	9	B-noun.person
+0	8	247	1240	1242	S	246	’s	's	's	POS	O	possessive	O	-1	O
+0	8	248	1243	1247		245	help	help	help	NN	O	pobj	O	-1	B-noun.act
+0	8	249	1247	1248	S	228	.	.	.	.	O	punct	O	-1	O
+0	9	250	1249	1259	S	-1	Retreating	Retreating	retreat	VBG	O	null	O	-1	B-verb.motion
+0	9	251	1260	1262	S	250	to	to	to	TO	O	prep	O	-1	O
+0	9	252	1263	1266	S	253	the	the	the	DT	O	det	O	-1	O
+0	9	253	1267	1271		251	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	9	254	1271	1272	S	250	,	,	,	,	O	punct	O	-1	O
+0	9	255	1273	1274	S	257	a	a	a	DT	O	det	O	-1	O
+0	9	256	1275	1283	S	257	poisoned	poisoned	poison	VBN	O	amod	O	-1	B-verb.social
+0	9	257	1284	1289	N	254	arrow	arrow	arrow	NN	O	dobj	O	-1	B-noun.communication
+0	9	258	1290	1292	S	257	of	of	of	IN	O	prep	O	-1	O
+0	9	259	1293	1296	S	260	the	the	the	DT	O	det	O	-1	O
+0	9	260	1297	1303		258	Nazgûl	Nazgûl	Nazgûl	NNP	MISC	pobj	O	-1	O
+0	9	261	1303	1304		264	—	--	--	:	O	punct	O	-1	O
+0	9	262	1304	1307	S	264	the	the	the	DT	O	det	O	-1	O
+0	9	263	1308	1313	S	264	Black	Black	black	JJ	O	amod	O	-1	O
+0	9	264	1314	1320		257	Riders	Riders	rider	NNS	O	dep	O	-1	O
+0	9	265	1320	1321		264	—	--	--	:	O	punct	O	-1	O
+0	9	266	1321	1328	S	267	strikes	strikes	strike	NNS	O	nn	O	-1	B-noun.act
+0	9	267	1329	1336	S	264	Faramir	Faramir	Faramir	NNP	PERSON	dep	O	5	B-noun.person
+0	9	268	1337	1341		267	down	down	down	RB	O	advmod	O	-1	O
+0	9	269	1341	1342	S	257	,	,	,	,	O	punct	O	-1	O
+0	9	270	1343	1349	S	274	though	though	though	IN	O	mark	O	-1	O
+0	9	271	1350	1352	S	274	it	it	it	PRP	O	nsubj	O	-1	O
+0	9	272	1353	1357	S	274	does	does	do	VBZ	O	aux	O	-1	O
+0	9	273	1358	1361	N	274	not	not	not	RB	O	neg	O	-1	O
+0	9	274	1362	1366	S	257	kill	kill	kill	VB	O	dep	O	-1	B-verb.contact
+0	9	275	1367	1370		274	him	him	he	PRP	O	dobj	O	9	O
+0	9	276	1370	1371	S	250	.	.	.	.	O	punct	O	-1	O
+0	10	277	1372	1377		289	Later	Later	later	RB	O	advmod	O	-1	O
+0	10	278	1377	1378	S	289	,	,	,	,	O	punct	O	-1	O
+0	10	279	1379	1381	S	289	as	as	as	IN	O	prep	O	-1	O
+0	10	280	1382	1385	S	283	the	the	the	DT	O	det	O	-1	O
+0	10	281	1386	1392	S	283	fierce	fierce	fierce	JJ	O	amod	O	-1	O
+0	10	282	1393	1399	S	283	battle	battle	battle	NN	O	nn	O	-1	B-noun.act
+0	10	283	1400	1405	S	279	wages	wages	wages	NNS	O	pobj	O	-1	B-noun.possession
+0	10	284	1406	1413	S	283	outside	outside	outside	IN	O	prep	O	-1	O
+0	10	285	1414	1419	S	286	Minas	Minas	Minas	NNP	ORGANIZATION	nn	O	4	B-noun.group
+0	10	286	1420	1426		284	Tirith	Tirith	Tirith	NNP	ORGANIZATION	pobj	O	4	I-noun.group
+0	10	287	1426	1427	S	289	,	,	,	,	O	punct	O	-1	O
+0	10	288	1428	1436	N	289	Denethor	Denethor	Denethor	NNP	PERSON	nsubj	O	6	O
+0	10	289	1437	1441	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.change
+0	10	290	1442	1445	S	289	mad	mad	mad	JJ	O	acomp	O	-1	O
+0	10	291	1446	1449	S	290	and	and	and	CC	O	cc	O	-1	O
+0	10	292	1450	1455	S	290	locks	locks	lock	NNS	O	conj	O	-1	B-noun.artifact
+0	10	293	1456	1463	S	290	himself	himself	himself	PRP	O	dep	O	-1	O
+0	10	294	1464	1466	S	289	in	in	in	IN	O	prep	O	-1	O
+0	10	295	1467	1468	S	296	a	a	a	DT	O	det	O	-1	O
+0	10	296	1469	1474	S	294	crypt	crypt	crypt	NN	O	pobj	O	-1	B-noun.artifact
+0	10	297	1475	1479	S	289	with	with	with	IN	O	prep	O	-1	O
+0	10	298	1480	1483	S	300	the	the	the	DT	O	det	O	-1	O
+0	10	299	1484	1490	S	300	ailing	ailing	ail	VBG	O	amod	O	-1	B-verb.body
+0	10	300	1491	1498		297	Faramir	Faramir	Faramir	NNP	PERSON	pobj	O	5	O
+0	10	301	1498	1499	S	289	.	.	.	.	O	punct	O	-1	O
+0	11	302	1500	1508	N	303	Denethor	Denethor	Denethor	NNP	PERSON	nsubj	O	6	B-noun.person
+0	11	303	1509	1514	S	-1	plans	plans	plan	VBZ	O	null	O	-1	B-verb.cognition
+0	11	304	1515	1517	S	305	to	to	to	TO	O	aux	O	-1	O
+0	11	305	1518	1525	S	303	destroy	destroy	destroy	VB	O	xcomp	O	-1	B-verb.creation
+0	11	306	1526	1529	S	307	the	the	the	DT	O	det	O	-1	O
+0	11	307	1530	1538	S	305	remnants	remnants	remnant	NNS	O	dobj	O	-1	B-noun.relation
+0	11	308	1539	1541	S	307	of	of	of	IN	O	prep	O	-1	O
+0	11	309	1542	1545	S	310	the	the	the	DT	O	det	O	-1	O
+0	11	310	1546	1550	S	308	line	line	line	NN	O	pobj	O	-1	B-noun.group
+0	11	311	1551	1553	S	310	of	of	of	IN	O	prep	O	-1	O
+0	11	312	1554	1560		314	Gondor	Gondor	Gondor	NNP	PERSON	poss	O	2	B-noun.person
+0	11	313	1560	1562	S	312	’s	's	's	POS	O	possessive	O	-1	O
+0	11	314	1563	1571		311	Stewards	Stewards	Stewards	NNPS	O	pobj	O	-1	B-noun.person
+0	11	315	1571	1572	S	303	.	.	.	.	O	punct	O	-1	O
+0	12	316	1573	1576	S	317	The	The	the	DT	O	det	O	-1	O
+0	12	317	1577	1581	S	321	army	army	army	NN	O	nsubj	O	-1	B-noun.group
+0	12	318	1582	1584	S	317	of	of	of	IN	O	prep	O	-1	O
+0	12	319	1585	1591	S	318	Mordor	Mordor	Mordor	NNP	O	pobj	O	-1	B-noun.person
+0	12	320	1592	1598	S	321	nearly	nearly	nearly	RB	O	advmod	O	-1	O
+0	12	321	1599	1605	S	-1	breaks	breaks	break	VBZ	O	null	O	-1	B-verb.change
+0	12	322	1606	1613	S	321	through	through	through	IN	O	prep	O	-1	O
+0	12	323	1614	1619	S	324	Minas	Minas	Minas	NNP	ORGANIZATION	nn	O	4	O
+0	12	324	1620	1626		326	Tirith	Tirith	Tirith	NNP	ORGANIZATION	poss	O	4	O
+0	12	325	1626	1628	S	324	’s	's	's	POS	O	possessive	O	-1	O
+0	12	326	1629	1637		322	defenses	defenses	defens	NNS	O	pobj	O	-1	B-noun.act
+0	12	327	1637	1638	N	321	,	,	,	,	O	punct	O	-1	O
+0	12	328	1639	1642	S	321	but	but	but	CC	O	cc	O	-1	O
+0	12	329	1643	1646	S	330	the	the	the	DT	O	det	O	-1	O
+0	12	330	1647	1653	S	333	Riders	Riders	rider	NNS	O	nsubj	O	-1	B-noun.person
+0	12	331	1654	1656	S	330	of	of	of	IN	O	prep	O	-1	O
+0	12	332	1657	1662	S	331	Rohan	Rohan	Rohan	NNP	PERSON	pobj	O	1	B-noun.person
+0	12	333	1663	1669	S	321	arrive	arrive	arrive	VBP	O	conj	O	-1	B-verb.motion
+0	12	334	1670	1674	S	335	just	just	just	RB	O	dep	O	-1	O
+0	12	335	1675	1677	S	333	in	in	in	IN	O	prep	O	-1	O
+0	12	336	1678	1682	S	335	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	12	337	1683	1685	S	338	to	to	to	TO	O	aux	O	-1	O
+0	12	338	1686	1691	S	333	fight	fight	fight	VB	O	xcomp	O	-1	B-verb.competition
+0	12	339	1692	1695	S	340	the	the	the	DT	O	det	O	-1	O
+0	12	340	1696	1700	S	338	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	12	341	1701	1704		338	off	off	off	RP	O	prt	O	-1	O
+0	12	342	1704	1705	N	321	.	.	.	.	O	punct	O	-1	O
+0	13	343	1706	1709	S	344	The	The	the	DT	O	det	O	-1	O
+0	13	344	1710	1714	S	353	Lord	Lord	lord	NN	MISC	nsubj	O	-1	B-noun.person
+0	13	345	1715	1717	S	344	of	of	of	IN	MISC	prep	O	-1	O
+0	13	346	1718	1721	S	347	the	the	the	DT	MISC	det	O	-1	O
+0	13	347	1722	1728		345	Nazgûl	Nazgûl	Nazgûl	NNP	MISC	pobj	O	-1	O
+0	13	348	1728	1729	S	347	,	,	,	,	O	punct	O	-1	O
+0	13	349	1730	1733	S	351	the	the	the	DT	O	det	O	-1	O
+0	13	350	1734	1739	S	351	Black	Black	black	JJ	O	amod	O	-1	O
+0	13	351	1740	1747		347	Captain	Captain	Captain	NNP	O	appos	O	-1	B-noun.person
+0	13	352	1747	1748	S	344	,	,	,	,	O	punct	O	-1	O
+0	13	353	1749	1754	S	-1	kills	kills	kill	VBZ	O	null	O	-1	B-verb.contact
+0	13	354	1755	1759	S	355	King	King	King	NNP	O	nn	O	-1	B-noun.person
+0	13	355	1760	1767		353	Théoden	Théoden	Théoden	NNP	O	dobj	O	-1	I-noun.person
+0	13	356	1767	1768	S	353	.	.	.	.	O	punct	O	-1	O
+0	14	357	1769	1771	N	365	In	In	in	IN	O	prep	O	-1	O
+0	14	358	1772	1778	S	359	heroic	heroic	heroic	JJ	O	amod	O	-1	O
+0	14	359	1779	1786		357	defense	defense	defense	NN	O	pobj	O	-1	B-noun.act
+0	14	360	1786	1787	S	365	,	,	,	,	O	punct	O	-1	O
+0	14	361	1788	1792	S	362	Lady	Lady	lady	NN	PERSON	nn	O	-1	B-noun.person
+0	14	362	1793	1798	S	365	Éowyn	Éowyn	Éowyn	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	14	363	1799	1802	S	362	and	and	and	CC	O	cc	O	-1	O
+0	14	364	1803	1808	S	362	Merry	Merry	Merry	NNP	O	conj	O	-1	B-noun.person
+0	14	365	1809	1813	S	-1	slay	slay	slay	VBP	O	null	O	-1	B-verb.social
+0	14	366	1814	1817	S	368	the	the	the	DT	O	det	O	-1	O
+0	14	367	1818	1823	S	368	Black	Black	black	JJ	O	amod	O	-1	O
+0	14	368	1824	1831		365	Captain	Captain	Captain	NNP	O	dobj	O	-1	B-noun.person
+0	14	369	1831	1832	S	365	,	,	,	,	O	punct	O	-1	O
+0	14	370	1833	1839	N	374	though	though	though	IN	O	mark	O	-1	O
+0	14	371	1840	1845	S	374	Éowyn	Éowyn	Éowyn	NNP	O	nsubjpass	O	-1	B-noun.person
+0	14	372	1846	1848	S	374	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	14	373	1849	1859	S	374	grievously	grievously	grievously	RB	O	advmod	O	-1	O
+0	14	374	1860	1867		365	wounded	wounded	wound	VBN	O	advcl	O	-1	B-verb.body
+0	14	375	1867	1868	S	365	.	.	.	.	O	punct	O	-1	O
+0	15	376	1869	1872	S	377	The	The	the	DT	O	det	O	-1	O
+0	15	377	1873	1879	S	380	forces	forces	force	NNS	O	nsubj	O	-1	B-noun.attribute
+0	15	378	1880	1882	S	377	of	of	of	IN	O	prep	O	-1	O
+0	15	379	1883	1889	S	378	Mordor	Mordor	Mordor	NNP	MISC	pobj	O	-1	B-noun.person
+0	15	380	1890	1897		-1	regroup	regroup	regroup	VBP	O	null	O	-1	B-verb.social
+0	15	381	1897	1898	S	380	,	,	,	,	O	punct	O	-1	O
+0	15	382	1899	1902	S	380	but	but	but	CC	O	cc	O	-1	O
+0	15	383	1903	1910	N	384	Aragorn	Aragorn	Aragorn	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	15	384	1911	1918	S	380	arrives	arrives	arrive	VBZ	O	conj	O	-1	B-verb.motion
+0	15	385	1919	1922	S	384	via	via	via	IN	O	prep	O	-1	O
+0	15	386	1923	1926	S	388	the	the	the	DT	O	det	O	-1	O
+0	15	387	1927	1933	S	388	Anduin	Anduin	Anduin	NNP	LOCATION	nn	O	-1	B-noun.location
+0	15	388	1934	1939	S	385	River	River	River	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	15	389	1940	1942	S	384	on	on	on	IN	O	prep	O	-1	O
+0	15	390	1943	1946	S	392	the	the	the	DT	O	det	O	-1	O
+0	15	391	1947	1952	S	392	black	black	black	JJ	O	amod	O	-1	O
+0	15	392	1953	1958	S	389	ships	ships	ship	NNS	O	pobj	O	-1	B-noun.artifact
+0	15	393	1959	1961	S	392	of	of	of	IN	O	prep	O	-1	O
+0	15	394	1962	1965	S	395	the	the	the	DT	O	det	O	-1	O
+0	15	395	1966	1971		393	Enemy	Enemy	enemy	NN	O	pobj	O	-1	B-noun.group
+0	15	396	1971	1972	S	395	,	,	,	,	O	punct	O	-1	O
+0	15	397	1973	1978	N	400	which	which	which	WDT	O	dobj	O	-1	O
+0	15	398	1979	1981	S	400	he	he	he	PRP	O	nsubj	O	-1	O
+0	15	399	1982	1985	S	400	has	has	have	VBZ	O	aux	O	-1	O
+0	15	400	1986	1995	S	395	conquered	conquered	conquer	VBN	O	rcmod	O	-1	B-verb.change
+0	15	401	1996	2000	S	400	with	with	with	IN	O	prep	O	-1	O
+0	15	402	2001	2004	S	403	the	the	the	DT	O	det	O	-1	O
+0	15	403	2005	2009	S	401	help	help	help	NN	O	pobj	O	-1	B-noun.act
+0	15	404	2010	2012	S	403	of	of	of	IN	O	prep	O	-1	O
+0	15	405	2013	2016	S	406	the	the	the	DT	O	det	O	-1	O
+0	15	406	2017	2021		404	Dead	Dead	Dead	NNP	O	pobj	O	-1	B-noun.group
+0	15	407	2021	2022	S	380	.	.	.	.	O	punct	O	-1	O
+0	16	408	2023	2029	S	409	Pippin	Pippin	Pippin	NNP	PERSON	nsubj	O	-1	O
+0	16	409	2030	2035	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	16	410	2036	2043		409	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	dobj	O	9	O
+0	16	411	2043	2044	S	409	,	,	,	,	O	punct	O	-1	O
+0	16	412	2045	2048	S	409	and	and	and	CC	O	cc	O	-1	O
+0	16	413	2049	2057	S	415	together	together	together	RB	O	advmod	O	-1	O
+0	16	414	2058	2062	S	415	they	they	they	PRP	O	nsubj	O	-1	O
+0	16	415	2063	2067	S	409	stop	stop	stop	VBP	O	conj	O	-1	B-verb.motion
+0	16	416	2068	2076	N	415	Denethor	Denethor	Denethor	NNP	PERSON	dobj	O	6	B-noun.person
+0	16	417	2077	2081	S	415	from	from	from	IN	O	prep	O	-1	O
+0	16	418	2082	2089	S	417	killing	killing	kill	VBG	O	pcomp	O	-1	B-verb.contact
+0	16	419	2090	2093	S	420	his	his	he	PRP$	O	poss	O	-1	O
+0	16	420	2094	2097		418	son	son	son	NN	O	dobj	O	-1	B-noun.person
+0	16	421	2097	2098	S	409	.	.	.	.	O	punct	O	-1	O
+0	17	422	2099	2102	S	424	The	The	the	DT	O	det	O	-1	O
+0	17	423	2103	2106	S	424	old	old	old	JJ	O	amod	O	-1	O
+0	17	424	2107	2114	S	425	Steward	Steward	Steward	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	17	425	2115	2121	S	-1	throws	throws	throw	VBZ	O	null	O	-1	B-verb.contact
+0	17	426	2122	2129	S	425	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	17	427	2130	2132	S	425	on	on	on	IN	O	prep	O	-1	O
+0	17	428	2133	2134	S	430	a	a	a	DT	O	det	O	-1	O
+0	17	429	2135	2142	N	430	burning	burning	burning	NN	O	nn	O	-1	B-noun.act
+0	17	430	2143	2147	S	427	pyre	pyre	pyre	NN	O	pobj	O	-1	B-noun.group
+0	17	431	2148	2151	S	425	and	and	and	CC	O	cc	O	-1	O
+0	17	432	2152	2157	S	425	kills	kills	kill	VBZ	O	conj	O	-1	B-verb.contact
+0	17	433	2158	2165		432	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	17	434	2165	2166	S	425	.	.	.	.	O	punct	O	-1	O
+0	18	435	2167	2173	S	436	Having	Having	have	VBG	O	aux	O	-1	O
+0	18	436	2174	2181	S	-1	rescued	rescued	rescue	VBN	O	null	O	-1	B-verb.social
+0	18	437	2182	2188		440	Gondor	Gondor	Gondor	NNP	PERSON	nsubj	O	2	O
+0	18	438	2188	2189	S	437	,	,	,	,	O	punct	O	-1	O
+0	18	439	2190	2197	S	437	Aragorn	Aragorn	Aragorn	NNP	LOCATION	conj	O	-1	O
+0	18	440	2198	2204	S	436	enters	enters	enter	VBZ	O	ccomp	O	-1	B-verb.motion
+0	18	441	2205	2210	N	442	Minas	Minas	Minas	NNP	ORGANIZATION	nn	O	4	O
+0	18	442	2211	2217	S	440	Tirith	Tirith	Tirith	NNP	ORGANIZATION	dobj	O	4	O
+0	18	443	2218	2221	S	442	and	and	and	CC	O	cc	O	-1	O
+0	18	444	2222	2227	S	442	heals	heals	heal	NNS	O	conj	O	-1	B-noun.person
+0	18	445	2228	2233	S	444	those	those	those	DT	O	dep	O	-1	O
+0	18	446	2234	2238	S	450	whom	whom	whom	WP	O	dobj	O	-1	O
+0	18	447	2239	2242	S	449	the	the	the	DT	O	det	O	-1	O
+0	18	448	2243	2248	S	449	Black	Black	black	JJ	O	amod	O	-1	O
+0	18	449	2249	2256	S	450	Captain	Captain	Captain	NNP	O	nsubj	O	-1	B-noun.person
+0	18	450	2257	2264	S	445	wounded	wounded	wound	VBN	O	rcmod	O	-1	B-verb.body
+0	18	451	2265	2271	S	450	during	during	during	IN	O	prep	O	-1	O
+0	18	452	2272	2275	N	453	the	the	the	DT	O	det	O	-1	O
+0	18	453	2276	2282		451	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	18	454	2282	2283	S	436	.	.	.	.	O	punct	O	-1	O
+0	19	455	2284	2286	S	460	In	In	in	IN	O	prep	O	-1	O
+0	19	456	2287	2289	S	457	so	so	so	RB	O	advmod	O	-1	O
+0	19	457	2290	2295		455	doing	doing	do	VBG	O	pcomp	O	-1	O
+0	19	458	2295	2296	S	460	,	,	,	,	O	punct	O	-1	O
+0	19	459	2297	2304	S	460	Aragorn	Aragorn	Aragorn	NNP	LOCATION	nsubj	O	-1	O
+0	19	460	2305	2313	S	-1	fulfills	fulfills	fulfil	VBZ	O	null	O	-1	B-verb.creation
+0	19	461	2314	2316	S	463	an	an	a	DT	O	det	O	-1	O
+0	19	462	2317	2324	S	463	ancient	ancient	ancient	JJ	O	amod	O	-1	O
+0	19	463	2325	2333	S	460	prophecy	prophecy	prophecy	NN	O	dobj	O	-1	B-noun.cognition
+0	19	464	2334	2344	N	463	concerning	concerning	concern	VBG	O	partmod	O	-1	B-verb.stative
+0	19	465	2345	2348	S	464	the	the	the	DT	O	dobj	O	-1	O
+0	19	466	2349	2355	S	465	coming	coming	come	VBG	O	amod	O	-1	B-verb.motion
+0	19	467	2356	2358	S	465	of	of	of	IN	O	prep	O	-1	O
+0	19	468	2359	2362	S	470	the	the	the	DT	O	det	O	-1	O
+0	19	469	2363	2367	S	470	next	next	next	JJ	O	amod	O	-1	O
+0	19	470	2368	2372	S	467	king	king	king	NN	O	pobj	O	-1	B-noun.person
+0	19	471	2373	2375	S	470	of	of	of	IN	O	prep	O	-1	O
+0	19	472	2376	2382		471	Gondor	Gondor	Gondor	NNP	LOCATION	pobj	O	-1	O
+0	19	473	2382	2383	S	460	.	.	.	.	O	punct	O	-1	O
+0	20	474	2384	2387	S	475	The	The	the	DT	O	det	O	-1	O
+0	20	475	2388	2395	S	482	leaders	leaders	leader	NNS	O	nsubj	O	-1	B-noun.person
+0	20	476	2396	2398	S	475	of	of	of	IN	O	prep	O	-1	O
+0	20	477	2399	2402	S	478	the	the	the	DT	O	det	O	-1	O
+0	20	478	2403	2409	S	476	armies	armies	army	NNS	O	pobj	O	-1	B-noun.group
+0	20	479	2410	2412	S	478	of	of	of	IN	O	prep	O	-1	O
+0	20	480	2413	2416	S	481	the	the	the	DT	O	det	O	-1	O
+0	20	481	2417	2421	S	479	West	West	West	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	20	482	2422	2428	S	-1	decide	decide	decide	VB	O	null	O	-1	B-verb.cognition
+0	20	483	2429	2431	S	484	to	to	to	TO	O	aux	O	-1	O
+0	20	484	2432	2435	S	482	put	put	put	VB	O	xcomp	O	-1	B-verb.creation
+0	20	485	2436	2444	N	484	together	together	together	RP	O	prt	O	-1	O
+0	20	486	2445	2447	S	487	an	an	a	DT	O	det	O	-1	O
+0	20	487	2448	2455	S	484	assault	assault	assault	NN	O	dobj	O	-1	B-noun.act
+0	20	488	2456	2458	S	487	on	on	on	IN	O	prep	O	-1	O
+0	20	489	2459	2465	S	488	Mordor	Mordor	Mordor	NNP	MISC	pobj	O	-1	B-noun.person
+0	20	490	2466	2468	S	484	in	in	in	IN	O	prep	O	-1	O
+0	20	491	2469	2474	S	490	order	order	order	NN	O	pobj	O	-1	B-noun.state
+0	20	492	2475	2477	S	493	to	to	to	TO	O	aux	O	-1	O
+0	20	493	2478	2486	S	491	distract	distract	distract	VB	O	infmod	O	-1	B-verb.emotion
+0	20	494	2487	2493	S	493	Sauron	Sauron	Sauron	NNP	PERSON	dobj	O	0	B-noun.person
+0	20	495	2494	2498	S	493	from	from	from	IN	O	prep	O	-1	O
+0	20	496	2499	2502	S	497	the	the	the	DT	O	det	O	-1	O
+0	20	497	2503	2508	N	495	quest	quest	quest	NN	O	pobj	O	-1	B-noun.cognition
+0	20	498	2509	2511	S	497	of	of	of	IN	O	prep	O	-1	O
+0	20	499	2512	2517		498	Frodo	Frodo	Frodo	NNP	PERSON	pobj	O	7	O
+0	20	500	2517	2518	S	499	,	,	,	,	O	punct	O	-1	O
+0	20	501	2519	2522	S	502	the	the	the	DT	O	det	O	-1	O
+0	20	502	2523	2534		499	Ring-bearer	Ring-bearer	ring-bearer	NN	O	appos	O	-1	O
+0	20	503	2534	2535	S	482	.	.	.	.	O	punct	O	-1	O
+0	21	504	2536	2543		506	Aragorn	Aragorn	Aragorn	NNP	LOCATION	poss	O	-1	B-noun.person
+0	21	505	2543	2545	S	504	’s	's	's	POS	O	possessive	O	-1	O
+0	21	506	2546	2552	S	507	forces	forces	force	NNS	O	nsubj	O	-1	B-noun.attribute
+0	21	507	2553	2558	S	-1	march	march	march	VB	O	null	O	-1	B-verb.motion
+0	21	508	2559	2561	S	507	to	to	to	TO	O	prep	O	-1	O
+0	21	509	2562	2565	S	511	the	the	the	DT	O	det	O	-1	O
+0	21	510	2566	2571	S	511	Black	Black	black	JJ	ORGANIZATION	amod	O	-1	O
+0	21	511	2572	2576	N	508	Gate	Gate	gate	NN	ORGANIZATION	pobj	O	-1	B-noun.artifact
+0	21	512	2577	2579	S	511	of	of	of	IN	ORGANIZATION	prep	O	-1	O
+0	21	513	2580	2586	S	512	Mordor	Mordor	Mordor	NNP	ORGANIZATION	pobj	O	-1	B-noun.person
+0	21	514	2587	2590	S	507	and	and	and	CC	O	cc	O	-1	O
+0	21	515	2591	2599	S	507	confront	confront	confront	VB	O	conj	O	-1	B-verb.competition
+0	21	516	2600	2606		518	Sauron	Sauron	Sauron	NNP	PERSON	poss	O	0	B-noun.person
+0	21	517	2606	2608	S	516	’s	's	's	POS	O	possessive	O	-1	O
+0	21	518	2609	2619		515	Lieutenant	Lieutenant	Lieutenant	NNP	O	dobj	O	-1	B-noun.person
+0	21	519	2619	2620	S	507	.	.	.	.	O	punct	O	-1	O
+0	22	520	2621	2624	S	522	The	The	the	DT	O	det	O	-1	O
+0	22	521	2625	2635	S	522	Lieutenant	Lieutenant	lieutenant	JJ	O	amod	O	-1	O
+0	22	522	2636	2642	S	-1	claims	claims	claim	NNS	O	null	O	-1	B-noun.communication
+0	22	523	2643	2647	N	534	that	that	that	IN	O	complm	O	-1	O
+0	22	524	2648	2651	S	526	the	the	the	DT	O	det	O	-1	O
+0	22	525	2652	2658	S	526	hobbit	hobbit	hobbit	NN	O	nn	O	-1	B-noun.person
+0	22	526	2659	2664		534	spies	spies	spy	NNS	O	nsubjpass	O	-1	B-noun.person
+0	22	527	2664	2665		528	—	--	--	:	O	punct	O	-1	O
+0	22	528	2665	2670	S	526	Frodo	Frodo	Frodo	NNP	PERSON	dep	O	7	O
+0	22	529	2671	2674	S	528	and	and	and	CC	O	cc	O	-1	O
+0	22	530	2675	2678		528	Sam	Sam	Sam	NNP	PERSON	conj	O	8	B-noun.person
+0	22	531	2678	2679		526	—	--	--	:	O	punct	O	-1	O
+0	22	532	2679	2683	S	534	have	have	have	VBP	O	aux	O	-1	O
+0	22	533	2684	2688	S	534	been	been	be	VBN	O	auxpass	O	-1	O
+0	22	534	2689	2697	S	522	captured	captured	capture	VBN	O	ccomp	O	-1	B-verb.contact
+0	22	535	2698	2700	S	534	in	in	in	IN	O	prep	O	-1	O
+0	22	536	2701	2707		535	Mordor	Mordor	Mordor	NNP	O	pobj	O	-1	O
+0	22	537	2707	2708	S	522	.	.	.	.	O	punct	O	-1	O
+0	23	538	2709	2716	N	539	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nsubj	O	9	B-noun.person
+0	23	539	2717	2724	S	-1	rebukes	rebukes	rebuke	VBZ	O	null	O	-1	B-verb.communication
+0	23	540	2725	2728	S	541	the	the	the	DT	O	det	O	-1	O
+0	23	541	2729	2739		539	Lieutenant	Lieutenant	Lieutenant	NNP	O	dobj	O	-1	B-noun.person
+0	23	542	2739	2740	S	541	,	,	,	,	O	punct	O	-1	O
+0	23	543	2741	2744	S	544	who	who	who	WP	O	nsubj	O	-1	O
+0	23	544	2745	2750	S	541	flees	flees	flee	VBZ	O	rcmod	O	-1	B-verb.motion
+0	23	545	2751	2757	S	544	inside	inside	inside	IN	O	prep	O	-1	O
+0	23	546	2758	2761	S	547	the	the	the	DT	O	det	O	-1	O
+0	23	547	2762	2766	S	545	Gate	Gate	gate	NN	O	pobj	O	-1	B-noun.artifact
+0	23	548	2767	2770	S	544	and	and	and	CC	O	cc	O	-1	O
+0	23	549	2771	2780	N	544	unleashes	unleashes	unleash	VBZ	O	conj	O	-1	B-verb.contact
+0	23	550	2781	2784	S	552	the	the	the	DT	O	det	O	-1	O
+0	23	551	2785	2790	S	552	great	great	great	JJ	O	amod	O	-1	O
+0	23	552	2791	2797	S	549	armies	armies	army	NNS	O	dobj	O	-1	B-noun.group
+0	23	553	2798	2800	S	552	of	of	of	IN	O	prep	O	-1	O
+0	23	554	2801	2807		553	Mordor	Mordor	Mordor	NNP	O	pobj	O	-1	O
+0	23	555	2807	2808	S	539	.	.	.	.	O	punct	O	-1	O
+0	24	556	2809	2811	S	561	In	In	in	IN	O	prep	O	-1	O
+0	24	557	2812	2815	S	558	the	the	the	DT	O	det	O	-1	O
+0	24	558	2816	2824		556	meantime	meantime	meantime	NN	O	pobj	O	-1	B-noun.time
+0	24	559	2824	2825	S	561	,	,	,	,	O	punct	O	-1	O
+0	24	560	2826	2829	S	561	Sam	Sam	Sam	NNP	PERSON	nsubj	O	8	B-noun.person
+0	24	561	2830	2837	S	-1	manages	manages	manage	VBZ	O	null	O	-1	B-verb.social
+0	24	562	2838	2840	S	563	to	to	to	TO	O	aux	O	-1	O
+0	24	563	2841	2847	S	561	rescue	rescue	rescue	VB	O	xcomp	O	-1	B-verb.social
+0	24	564	2848	2853	S	563	Frodo	Frodo	Frodo	NNP	PERSON	dobj	O	7	B-noun.person
+0	24	565	2854	2858	S	563	from	from	from	IN	O	prep	O	-1	O
+0	24	566	2859	2862	N	567	the	the	the	DT	O	det	O	-1	O
+0	24	567	2863	2868	S	565	tower	tower	tower	NN	O	pobj	O	-1	B-noun.artifact
+0	24	568	2869	2871	S	567	of	of	of	IN	O	prep	O	-1	O
+0	24	569	2872	2878	S	570	Cirith	Cirith	Cirith	NNP	O	nn	O	-1	B-noun.person
+0	24	570	2879	2884		568	Ungol	Ungol	Ungol	NNP	O	pobj	O	-1	I-noun.person
+0	24	571	2884	2885	S	561	.	.	.	.	O	punct	O	-1	O
+0	25	572	2886	2890	S	583	With	With	with	IN	O	prep	O	-1	O
+0	25	573	2891	2894	S	574	the	the	the	DT	O	det	O	-1	O
+0	25	574	2895	2898	S	572	aid	aid	aid	NN	O	pobj	O	-1	B-noun.attribute
+0	25	575	2899	2901	S	574	of	of	of	IN	O	prep	O	-1	O
+0	25	576	2902	2905	S	577	the	the	the	DT	O	det	O	-1	O
+0	25	577	2906	2910	S	575	Ring	Ring	ring	NN	O	pobj	O	-1	B-noun.attribute
+0	25	578	2911	2914	S	577	and	and	and	CC	O	cc	O	-1	O
+0	25	579	2915	2918	S	580	his	his	he	PRP$	O	poss	O	8	O
+0	25	580	2919	2924		577	sword	sword	sword	NN	O	conj	O	-1	B-noun.artifact
+0	25	581	2924	2925	S	583	,	,	,	,	O	punct	O	-1	O
+0	25	582	2926	2929	N	583	Sam	Sam	Sam	NNP	PERSON	nsubj	O	8	B-noun.person
+0	25	583	2930	2936	S	-1	scares	scares	scare	VBZ	O	null	O	-1	B-verb.emotion
+0	25	584	2937	2940	S	583	off	off	off	RP	O	prt	O	-1	O
+0	25	585	2941	2944	S	586	the	the	the	DT	O	det	O	-1	O
+0	25	586	2945	2949	S	583	Orcs	Orcs	Orcs	NNP	O	dobj	O	-1	B-noun.person
+0	25	587	2950	2952	S	588	he	he	he	PRP	O	nsubj	O	8	O
+0	25	588	2953	2963		586	encounters	encounters	encounter	VBZ	O	rcmod	O	-1	B-verb.motion
+0	25	589	2963	2964	S	583	.	.	.	.	O	punct	O	-1	O
+0	26	590	2965	2968	S	591	The	The	the	DT	O	det	O	-1	O
+0	26	591	2969	2976	S	592	hobbits	hobbits	hobbit	NNS	O	nsubj	O	-1	B-noun.person
+0	26	592	2977	2980	S	-1	don	don	don	VBP	O	null	O	-1	B-verb.body
+0	26	593	2981	2984	S	594	Orc	Orc	Orc	NNP	O	nn	O	-1	O
+0	26	594	2985	2993	N	592	clothing	clothing	clothing	NN	O	dobj	O	-1	B-noun.artifact
+0	26	595	2994	2997	S	592	and	and	and	CC	O	cc	O	-1	O
+0	26	596	2998	3003	S	592	begin	begin	begin	VB	O	conj	O	-1	B-verb.change
+0	26	597	3004	3007	S	599	the	the	the	DT	O	det	O	-1	O
+0	26	598	3008	3015	S	599	arduous	arduous	arduous	JJ	O	amod	O	-1	O
+0	26	599	3016	3020	S	596	trek	trek	trek	NN	O	dobj	O	-1	B-noun.act
+0	26	600	3021	3028	S	596	through	through	through	IN	O	prep	O	-1	O
+0	26	601	3029	3035		600	Mordor	Mordor	Mordor	NNP	O	pobj	O	-1	O
+0	26	602	3035	3036	S	592	.	.	.	.	O	punct	O	-1	O
+0	27	603	3037	3040	S	604	The	The	the	DT	O	det	O	-1	O
+0	27	604	3041	3045	S	605	Ring	Ring	ring	NN	O	nsubj	O	-1	B-noun.group
+0	27	605	3046	3051	S	-1	grows	grows	grow	VBZ	O	null	O	-1	B-verb.change
+0	27	606	3052	3059	N	605	heavier	heavier	heavier	JJR	O	dobj	O	-1	O
+0	27	607	3060	3066	S	606	around	around	around	IN	O	prep	O	-1	O
+0	27	608	3067	3072		610	Frodo	Frodo	Frodo	NNP	LOCATION	poss	O	-1	B-noun.person
+0	27	609	3072	3074	S	608	’s	's	's	POS	O	possessive	O	-1	O
+0	27	610	3075	3079	S	607	neck	neck	neck	NN	O	pobj	O	-1	B-noun.body
+0	27	611	3080	3084	S	610	with	with	with	IN	O	prep	O	-1	O
+0	27	612	3085	3089	S	613	each	each	each	DT	O	det	O	-1	O
+0	27	613	3090	3094		611	step	step	step	NN	O	pobj	O	-1	B-noun.act
+0	27	614	3094	3095	S	605	.	.	.	.	O	punct	O	-1	O
+0	28	615	3096	3101	S	627	After	After	after	IN	O	prep	O	-1	O
+0	28	616	3102	3109	S	620	several	several	several	JJ	O	amod	O	-1	O
+0	28	617	3110	3114	S	620	long	long	long	JJ	O	amod	O	-1	O
+0	28	618	3115	3118	S	617	and	and	and	CC	O	cc	O	-1	O
+0	28	619	3119	3124	S	617	weary	weary	weary	JJ	O	conj	O	-1	O
+0	28	620	3125	3129	S	615	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	28	621	3130	3132	S	620	of	of	of	IN	O	prep	O	-1	O
+0	28	622	3133	3139		621	travel	travel	travel	NN	O	pobj	O	-1	B-noun.act
+0	28	623	3139	3140	S	627	,	,	,	,	O	punct	O	-1	O
+0	28	624	3141	3144	S	626	the	the	the	DT	O	det	O	-1	O
+0	28	625	3145	3148	S	626	two	two	two	CD	NUMBER	num	O	-1	O
+0	28	626	3149	3156	S	627	hobbits	hobbits	hobbit	NNS	O	nsubj	O	-1	B-noun.person
+0	28	627	3157	3162	N	-1	reach	reach	reach	VBP	O	null	O	-1	B-verb.motion
+0	28	628	3163	3171		627	Orodruin	Orodruin	Orodruin	NNP	O	dobj	O	-1	O
+0	28	629	3171	3172	S	628	,	,	,	,	O	punct	O	-1	O
+0	28	630	3173	3175	S	628	or	or	or	CC	O	cc	O	-1	O
+0	28	631	3176	3181	S	632	Mount	Mount	Mount	NNP	O	nn	O	-1	B-noun.group
+0	28	632	3182	3186		628	Doom	Doom	Doom	NNP	O	conj	O	-1	I-noun.group
+0	28	633	3186	3187	S	627	.	.	.	.	O	punct	O	-1	O
+0	29	634	3188	3191	S	635	Sam	Sam	Sam	NNP	PERSON	nsubj	O	8	B-noun.person
+0	29	635	3192	3199	S	-1	carries	carries	carry	VBZ	O	null	O	-1	B-verb.communication
+0	29	636	3200	3205	S	635	Frodo	Frodo	Frodo	NNP	PERSON	dobj	O	7	B-noun.person
+0	29	637	3206	3208	S	635	to	to	to	TO	O	prep	O	-1	O
+0	29	638	3209	3212	S	639	the	the	the	DT	O	det	O	-1	O
+0	29	639	3213	3216		637	top	top	top	NN	O	pobj	O	-1	B-noun.location
+0	29	640	3216	3217	S	635	.	.	.	.	O	punct	O	-1	O
+0	30	641	3218	3222	S	644	Just	Just	just	RB	O	advmod	O	-1	O
+0	30	642	3223	3225	S	644	as	as	as	IN	O	dep	O	-1	O
+0	30	643	3226	3230	N	644	they	they	they	PRP	O	nsubj	O	-1	O
+0	30	644	3231	3236	S	651	reach	reach	reach	VBP	O	advcl	O	-1	B-verb.motion
+0	30	645	3237	3240	S	646	the	the	the	DT	O	det	O	-1	O
+0	30	646	3241	3247	S	644	Cracks	Cracks	Cracks	NNPS	O	dobj	O	-1	B-noun.location
+0	30	647	3248	3250	S	646	of	of	of	IN	O	prep	O	-1	O
+0	30	648	3251	3255		647	Doom	Doom	Doom	NNP	O	pobj	O	-1	O
+0	30	649	3255	3256	S	651	,	,	,	,	O	punct	O	-1	O
+0	30	650	3257	3262	S	651	Frodo	Frodo	Frodo	NNP	PERSON	nsubj	O	7	O
+0	30	651	3263	3270	S	-1	refuses	refuses	refuse	VBZ	O	null	O	-1	B-verb.communication
+0	30	652	3271	3273	S	653	to	to	to	TO	O	aux	O	-1	O
+0	30	653	3274	3278	S	651	give	give	give	VB	O	xcomp	O	-1	B-verb.possession
+0	30	654	3279	3281	S	653	up	up	up	RP	O	prt	O	-1	O
+0	30	655	3282	3285	S	656	the	the	the	DT	O	det	O	-1	O
+0	30	656	3286	3290		653	Ring	Ring	ring	NN	O	dobj	O	-1	O
+0	30	657	3290	3291	S	656	,	,	,	,	O	punct	O	-1	O
+0	30	658	3292	3300	N	656	overcome	overcome	overcome	VBN	O	partmod	O	-1	B-verb.competition
+0	30	659	3301	3303	S	658	by	by	by	IN	O	prep	O	-1	O
+0	30	660	3304	3307	S	661	its	its	its	PRP$	O	poss	O	-1	O
+0	30	661	3308	3313		659	power	power	power	NN	O	pobj	O	-1	B-noun.attribute
+0	30	662	3313	3314	S	651	.	.	.	.	O	punct	O	-1	O
+0	31	663	3315	3321	S	664	Gollum	Gollum	gollum	NN	LOCATION	nsubj	O	-1	O
+0	31	664	3322	3329	S	-1	appears	appears	appear	VBZ	O	null	O	-1	B-verb.perception
+0	31	665	3330	3333	S	664	and	and	and	CC	O	cc	O	-1	O
+0	31	666	3334	3343	S	664	struggles	struggles	struggle	VBZ	O	conj	O	-1	B-verb.social
+0	31	667	3344	3348	S	666	with	with	with	IN	O	prep	O	-1	O
+0	31	668	3349	3354		667	Frodo	Frodo	Frodo	NNP	PERSON	pobj	O	7	B-noun.person
+0	31	669	3354	3355	S	664	.	.	.	.	O	punct	O	-1	O
+0	32	670	3356	3362	S	671	Gollum	Gollum	Gollum	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	32	671	3363	3368	N	-1	bites	bites	bite	VBZ	O	null	O	-1	B-verb.contact
+0	32	672	3369	3372	S	673	the	the	the	DT	O	det	O	-1	O
+0	32	673	3373	3377	S	671	Ring	Ring	ring	NN	O	dobj	O	-1	B-noun.attribute
+0	32	674	3378	3381	S	673	off	off	off	IN	O	prep	O	-1	O
+0	32	675	3382	3387		677	Frodo	Frodo	Frodo	NNP	PERSON	poss	O	7	B-noun.person
+0	32	676	3387	3389	S	675	’s	's	's	POS	O	possessive	O	-1	O
+0	32	677	3390	3396		674	finger	finger	finger	NN	O	pobj	O	-1	B-noun.body
+0	32	678	3396	3397	S	671	,	,	,	,	O	punct	O	-1	O
+0	32	679	3398	3401	S	671	but	but	but	CC	O	cc	O	-1	O
+0	32	680	3402	3406	S	682	then	then	then	RB	O	advmod	O	-1	O
+0	32	681	3407	3409	S	682	he	he	he	PRP	O	nsubj	O	7	O
+0	32	682	3410	3418	S	671	stumbles	stumbles	stumble	VBZ	O	conj	O	-1	B-verb.motion
+0	32	683	3419	3422	S	671	and	and	and	CC	O	cc	O	-1	O
+0	32	684	3423	3428	S	671	falls	falls	fall	VBZ	O	conj	O	-1	B-verb.stative
+0	32	685	3429	3433	N	684	into	into	into	IN	O	prep	O	-1	O
+0	32	686	3434	3437	S	687	the	the	the	DT	O	det	O	-1	O
+0	32	687	3438	3444	S	685	Cracks	Cracks	Cracks	NNP	O	pobj	O	-1	B-noun.location
+0	32	688	3445	3447	S	687	of	of	of	IN	O	prep	O	-1	O
+0	32	689	3448	3452		688	Doom	Doom	Doom	NNP	O	pobj	O	-1	O
+0	32	690	3452	3453	S	671	.	.	.	.	O	punct	O	-1	O
+0	33	691	3454	3460		694	Sauron	Sauron	Sauron	NNP	PERSON	poss	O	0	B-noun.person
+0	33	692	3460	3462	S	691	’s	's	's	POS	O	possessive	O	-1	O
+0	33	693	3463	3468	S	694	power	power	power	NN	O	nn	O	-1	B-noun.attribute
+0	33	694	3469	3475		-1	breaks	breaks	break	NNS	O	null	O	-1	O
+0	33	695	3475	3476	S	694	,	,	,	,	O	punct	O	-1	O
+0	33	696	3477	3480	S	694	and	and	and	CC	O	cc	O	-1	O
+0	33	697	3481	3488		699	Aragorn	Aragorn	Aragorn	NNP	LOCATION	poss	O	-1	B-noun.person
+0	33	698	3488	3490	S	697	’s	's	's	POS	O	possessive	O	-1	O
+0	33	699	3491	3497	N	694	forces	forces	force	NNS	O	conj	O	-1	B-noun.attribute
+0	33	700	3498	3500	S	699	at	at	at	IN	O	prep	O	-1	O
+0	33	701	3501	3504	S	703	the	the	the	DT	O	det	O	-1	O
+0	33	702	3505	3510	S	703	Black	Black	black	JJ	LOCATION	amod	O	-1	O
+0	33	703	3511	3515	S	700	Gate	Gate	gate	NN	LOCATION	pobj	O	-1	B-noun.artifact
+0	33	704	3516	3522	S	699	defeat	defeat	defeat	VB	O	prep	O	-1	B-verb.competition
+0	33	705	3523	3526	S	707	the	the	the	DT	O	det	O	-1	O
+0	33	706	3527	3535	S	707	panicked	panicked	panic	VBN	O	amod	O	-1	B-verb.emotion
+0	33	707	3536	3544	S	704	servants	servants	servant	NNS	O	dobj	O	-1	B-noun.person
+0	33	708	3545	3547	S	707	of	of	of	IN	O	prep	O	-1	O
+0	33	709	3548	3554		708	Mordor	Mordor	Mordor	NNP	O	pobj	O	-1	O
+0	33	710	3554	3555	S	694	.	.	.	.	O	punct	O	-1	O
+0	34	711	3556	3563	N	712	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nsubj	O	9	B-noun.person
+0	34	712	3564	3569	S	-1	flies	flies	fly	VBZ	O	null	O	-1	B-verb.motion
+0	34	713	3570	3572	S	712	to	to	to	TO	O	prep	O	-1	O
+0	34	714	3573	3581	S	713	Orodruin	Orodruin	Orodruin	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	34	715	3582	3584	S	712	on	on	on	IN	O	prep	O	-1	O
+0	34	716	3585	3588	S	717	the	the	the	DT	O	det	O	-1	O
+0	34	717	3589	3593	S	715	back	back	back	NN	O	pobj	O	-1	B-noun.body
+0	34	718	3594	3596	S	717	of	of	of	IN	O	prep	O	-1	O
+0	34	719	3597	3604		718	Gwaihir	Gwaihir	Gwaihir	NNP	LOCATION	pobj	O	-1	O
+0	34	720	3604	3605	S	719	,	,	,	,	O	punct	O	-1	O
+0	34	721	3606	3609	S	723	the	the	the	DT	O	det	O	-1	O
+0	34	722	3610	3615	S	723	giant	giant	giant	JJ	O	amod	O	-1	O
+0	34	723	3616	3621		719	eagle	eagle	eagle	NN	O	appos	O	-1	O
+0	34	724	3621	3622	S	712	,	,	,	,	O	punct	O	-1	O
+0	34	725	3623	3626	S	712	and	and	and	CC	O	cc	O	-1	O
+0	34	726	3627	3634	N	712	rescues	rescues	rescue	VBZ	O	conj	O	-1	B-verb.social
+0	34	727	3635	3640	S	726	Frodo	Frodo	Frodo	NNP	PERSON	dobj	O	7	B-noun.person
+0	34	728	3641	3644	S	727	and	and	and	CC	O	cc	O	-1	O
+0	34	729	3645	3648		727	Sam	Sam	Sam	NNP	PERSON	conj	O	8	B-noun.person
+0	34	730	3648	3649	S	712	.	.	.	.	O	punct	O	-1	O
+0	35	731	3650	3653	S	732	The	The	the	DT	O	det	O	-1	O
+0	35	732	3654	3662	S	733	Darkness	Darkness	darkness	NN	MISC	nsubj	O	-1	B-noun.state
+0	35	733	3663	3673	S	-1	dissipates	dissipates	dissipate	VBZ	O	null	O	-1	B-verb.motion
+0	35	734	3674	3678	S	733	from	from	from	IN	O	prep	O	-1	O
+0	35	735	3679	3685		734	Gondor	Gondor	Gondor	NNP	LOCATION	pobj	O	-1	O
+0	35	736	3685	3686	S	733	.	.	.	.	O	punct	O	-1	O
+0	36	737	3687	3694	S	739	Aragorn	Aragorn	Aragorn	NNP	LOCATION	nsubjpass	O	-1	B-noun.person
+0	36	738	3695	3697	S	739	is	is	be	VBZ	O	auxpass	O	-1	O
+0	36	739	3698	3705	N	-1	crowned	crowned	crown	VBN	O	null	O	-1	B-verb.social
+0	36	740	3706	3710	S	739	King	King	King	NNP	PERSON	dobj	O	-1	B-noun.person
+0	36	741	3711	3713	S	740	of	of	of	IN	PERSON	prep	O	-1	O
+0	36	742	3714	3720		741	Gondor	Gondor	Gondor	NNP	PERSON	pobj	O	-1	O
+0	36	743	3720	3721	S	739	,	,	,	,	O	punct	O	-1	O
+0	36	744	3722	3725	S	739	and	and	and	CC	O	cc	O	-1	O
+0	36	745	3726	3728	S	746	he	he	he	PRP	O	nsubj	O	-1	O
+0	36	746	3729	3736	S	739	marries	marries	marry	VBZ	O	conj	O	-1	B-verb.social
+0	36	747	3737	3742		746	Arwen	Arwen	Arwen	NNP	PERSON	dobj	O	-1	O
+0	36	748	3742	3743	S	747	,	,	,	,	O	punct	O	-1	O
+0	36	749	3744	3750		751	Elrond	Elrond	Elrond	NNP	PERSON	poss	O	-1	B-noun.person
+0	36	750	3750	3752	S	749	’s	's	's	POS	O	possessive	O	-1	O
+0	36	751	3753	3761	S	747	daughter	daughter	daughter	NN	O	appos	O	-1	B-noun.person
+0	36	752	3762	3766	S	751	from	from	from	IN	O	prep	O	-1	O
+0	36	753	3767	3776		752	Rivendell	Rivendell	Rivendell	NNP	LOCATION	pobj	O	-1	O
+0	36	754	3776	3777	N	739	.	.	.	.	O	punct	O	-1	O
+0	37	755	3778	3783	S	756	Minas	Minas	Minas	NNP	ORGANIZATION	nn	O	4	O
+0	37	756	3784	3790	S	-1	Tirith	Tirith	Tirith	NNP	ORGANIZATION	null	O	4	O
+0	37	757	3791	3794	S	756	and	and	and	CC	O	cc	O	-1	O
+0	37	758	3795	3798	S	760	the	the	the	DT	O	det	O	-1	O
+0	37	759	3799	3810	S	760	surrounding	surrounding	surround	VBG	O	amod	O	-1	B-verb.contact
+0	37	760	3811	3816	S	761	areas	areas	area	NNS	O	nsubj	O	-1	B-noun.location
+0	37	761	3817	3822	S	756	begin	begin	begin	VB	O	conj	O	-1	B-verb.change
+0	37	762	3823	3825	S	763	to	to	to	TO	O	aux	O	-1	O
+0	37	763	3826	3833	S	761	recover	recover	recover	VB	O	xcomp	O	-1	B-verb.possession
+0	37	764	3834	3837	S	763	and	and	and	CC	O	cc	O	-1	O
+0	37	765	3838	3845		763	rebuild	rebuild	rebuild	VB	O	conj	O	-1	B-verb.creation
+0	37	766	3845	3846	S	756	.	.	.	.	O	punct	O	-1	O
+0	38	767	3847	3850	S	768	The	The	the	DT	O	det	O	-1	O
+0	38	768	3851	3858	S	769	hobbits	hobbits	hobbit	NNS	O	nsubj	O	-1	B-noun.person
+0	38	769	3859	3865	S	-1	return	return	return	VBP	O	null	O	-1	B-verb.motion
+0	38	770	3866	3868	S	769	to	to	to	TO	O	prep	O	-1	O
+0	38	771	3869	3872	S	772	the	the	the	DT	O	det	O	-1	O
+0	38	772	3873	3878		770	Shire	Shire	Shire	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	38	773	3878	3879	S	772	,	,	,	,	O	punct	O	-1	O
+0	38	774	3880	3885	S	776	where	where	where	WRB	O	advmod	O	-1	O
+0	38	775	3886	3890	S	776	they	they	they	PRP	O	nsubj	O	-1	O
+0	38	776	3891	3895	S	772	find	find	find	VBP	O	rcmod	O	-1	B-verb.possession
+0	38	777	3896	3901	N	778	their	their	they	PRP$	O	poss	O	-1	O
+0	38	778	3902	3907	S	776	homes	homes	home	NNS	O	dobj	O	-1	B-noun.artifact
+0	38	779	3908	3915		778	ravaged	ravaged	ravage	VBN	O	partmod	O	-1	B-verb.change
+0	38	780	3915	3916	S	769	.	.	.	.	O	punct	O	-1	O
+0	39	781	3917	3918	S	782	A	A	a	DT	O	det	O	-1	O
+0	39	782	3919	3924	S	786	group	group	group	NN	O	nsubj	O	-1	B-noun.group
+0	39	783	3925	3927	S	782	of	of	of	IN	O	prep	O	-1	O
+0	39	784	3928	3931	S	783	Men	Men	man	NNS	O	pobj	O	-1	B-noun.person
+0	39	785	3932	3936	S	786	have	have	have	VBP	O	aux	O	-1	O
+0	39	786	3937	3944	S	-1	entered	entered	enter	VBN	O	null	O	-1	B-verb.motion
+0	39	787	3945	3948	S	786	and	and	and	CC	O	cc	O	-1	O
+0	39	788	3949	3952	S	786	set	set	set	VBN	O	conj	O	-1	B-verb.contact
+0	39	789	3953	3955	S	788	up	up	up	RP	O	prt	O	-1	O
+0	39	790	3956	3958	S	793	an	an	a	DT	O	det	O	-1	O
+0	39	791	3959	3969	N	793	oppressive	oppressive	oppressive	JJ	O	amod	O	-1	O
+0	39	792	3970	3976	S	793	police	police	police	NN	O	nn	O	-1	B-noun.group
+0	39	793	3977	3982		788	state	state	state	NN	O	dobj	O	-1	I-noun.group
+0	39	794	3982	3983	S	786	.	.	.	.	O	punct	O	-1	O
+0	40	795	3984	3987	S	797	The	The	the	DT	O	det	O	-1	O
+0	40	796	3988	3992	S	797	four	four	four	CD	NUMBER	num	O	-1	O
+0	40	797	3993	4003	S	798	companions	companions	companion	NNS	O	nsubj	O	-1	B-noun.person
+0	40	798	4004	4012	S	-1	organize	organize	organize	VBP	O	null	O	-1	B-verb.social
+0	40	799	4013	4014	S	800	a	a	a	DT	O	det	O	-1	O
+0	40	800	4015	4024	S	798	rebellion	rebellion	rebellion	NN	O	dobj	O	-1	B-noun.act
+0	40	801	4025	4028	S	800	and	and	and	CC	O	cc	O	-1	O
+0	40	802	4029	4033	N	800	rout	rout	rout	NN	O	conj	O	-1	B-noun.group
+0	40	803	4034	4037	S	804	the	the	the	DT	O	det	O	-1	O
+0	40	804	4038	4047		800	intruders	intruders	intruder	NNS	O	dobj	O	-1	B-noun.person
+0	40	805	4047	4048	S	804	,	,	,	,	O	punct	O	-1	O
+0	40	806	4049	4060	S	804	discovering	discovering	discover	VBG	O	partmod	O	-1	B-verb.cognition
+0	40	807	4061	4065	S	815	that	that	that	IN	O	complm	O	-1	O
+0	40	808	4066	4069	S	810	the	the	the	DT	O	det	O	-1	O
+0	40	809	4070	4076	S	810	secret	secret	secret	JJ	O	amod	O	-1	O
+0	40	810	4077	4083	S	815	leader	leader	leader	NN	O	nsubj	O	-1	B-noun.person
+0	40	811	4084	4086	S	810	of	of	of	IN	O	prep	O	-1	O
+0	40	812	4087	4090	S	813	the	the	the	DT	O	det	O	-1	O
+0	40	813	4091	4102	N	811	destruction	destruction	destruction	NN	O	pobj	O	-1	B-noun.act
+0	40	814	4103	4105	S	815	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	40	815	4106	4113		806	Saruman	Saruman	Saruman	NNP	PERSON	ccomp	O	3	O
+0	40	816	4113	4114	S	815	,	,	,	,	O	punct	O	-1	O
+0	40	817	4115	4118	S	819	the	the	the	DT	O	det	O	-1	O
+0	40	818	4119	4126	S	819	deposed	deposed	depose	VBN	O	amod	O	-1	B-verb.social
+0	40	819	4127	4133		815	wizard	wizard	wizard	NN	O	appos	O	-1	B-noun.person
+0	40	820	4133	4134	S	815	,	,	,	,	O	punct	O	-1	O
+0	40	821	4135	4138	S	822	who	who	who	WP	O	nsubj	O	-1	O
+0	40	822	4139	4144	S	815	seeks	seeks	seek	VBZ	O	rcmod	O	-1	B-verb.possession
+0	40	823	4145	4152	S	822	revenge	revenge	revenge	NN	O	dobj	O	-1	B-noun.act
+0	40	824	4153	4155	S	822	on	on	on	IN	O	prep	O	-1	O
+0	40	825	4156	4159	S	826	the	the	the	DT	O	det	O	-1	O
+0	40	826	4160	4167		824	hobbits	hobbits	hobbit	NNS	O	pobj	O	-1	B-noun.person
+0	40	827	4167	4168	N	798	.	.	.	.	O	punct	O	-1	O
+0	41	828	4169	4174	S	829	Frodo	Frodo	Frodo	NNP	PERSON	nsubj	O	7	B-noun.person
+0	41	829	4175	4181	S	-1	spares	spares	spare	VBZ	O	null	O	-1	B-verb.social
+0	41	830	4182	4189		832	Saruman	Saruman	Saruman	NNP	PERSON	poss	O	3	B-noun.person
+0	41	831	4189	4191	S	830	’s	's	's	POS	O	possessive	O	-1	O
+0	41	832	4192	4196		829	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	41	833	4196	4197	S	829	,	,	,	,	O	punct	O	-1	O
+0	41	834	4198	4201	S	829	but	but	but	CC	O	cc	O	-1	O
+0	41	835	4202	4205	S	836	the	the	the	DT	O	det	O	-1	O
+0	41	836	4206	4212		839	wizard	wizard	wizard	NN	O	poss	O	-1	B-noun.person
+0	41	837	4212	4214	S	836	’s	's	's	POS	O	possessive	O	-1	O
+0	41	838	4215	4225	S	839	browbeaten	browbeaten	browbeaten	JJ	O	amod	O	-1	O
+0	41	839	4226	4233		843	servant	servant	servant	NN	O	nsubj	O	-1	B-noun.person
+0	41	840	4233	4234	N	839	,	,	,	,	O	punct	O	-1	O
+0	41	841	4235	4245		839	Wormtongue	Wormtongue	Wormtongue	NNP	PERSON	appos	O	-1	O
+0	41	842	4245	4246	S	839	,	,	,	,	O	punct	O	-1	O
+0	41	843	4247	4254	S	829	betrays	betrays	betray	VBZ	O	conj	O	-1	B-verb.communication
+0	41	844	4255	4258	S	829	and	and	and	CC	O	cc	O	-1	O
+0	41	845	4259	4264	S	829	kills	kills	kill	VBZ	O	conj	O	-1	B-verb.contact
+0	41	846	4265	4268	S	848	his	his	he	PRP$	O	poss	O	7	O
+0	41	847	4269	4274	S	848	cruel	cruel	cruel	JJ	O	amod	O	-1	O
+0	41	848	4275	4281		845	master	master	master	NN	O	dobj	O	-1	B-noun.person
+0	41	849	4281	4282	S	829	.	.	.	.	O	punct	O	-1	O
+0	42	850	4283	4286	S	851	The	The	the	DT	O	det	O	-1	O
+0	42	851	4287	4294	S	852	hobbits	hobbits	hobbit	NNS	O	nsubj	O	-1	B-noun.person
+0	42	852	4295	4302	S	-1	rebuild	rebuild	rebuild	VB	O	null	O	-1	B-verb.creation
+0	42	853	4303	4306	S	854	the	the	the	DT	O	det	O	-1	O
+0	42	854	4307	4312	S	852	Shire	Shire	Shire	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	42	855	4313	4316	S	852	and	and	and	CC	O	cc	O	-1	O
+0	42	856	4317	4323	S	852	return	return	return	VB	O	conj	O	-1	B-verb.motion
+0	42	857	4324	4326	S	856	to	to	to	TO	O	prep	O	-1	O
+0	42	858	4327	4332	S	860	their	their	they	PRP$	O	poss	O	-1	O
+0	42	859	4333	4341	N	860	ordinary	ordinary	ordinary	JJ	O	amod	O	-1	O
+0	42	860	4342	4347		857	lives	lives	life	NNS	O	pobj	O	-1	B-noun.state
+0	42	861	4347	4348	S	852	.	.	.	.	O	punct	O	-1	O
+0	43	862	4349	4352	S	863	Sam	Sam	Sam	NNP	PERSON	nsubj	O	8	B-noun.person
+0	43	863	4353	4360	S	-1	marries	marries	marry	VBZ	O	null	O	-1	B-verb.social
+0	43	864	4361	4362	S	865	a	a	a	DT	O	det	O	-1	O
+0	43	865	4363	4369	S	863	hobbit	hobbit	hobbit	NN	O	dobj	O	-1	B-noun.person
+0	43	866	4370	4375	S	865	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	43	867	4376	4381	S	868	Rosie	Rosie	Rosie	NNP	PERSON	nn	O	-1	B-noun.person
+0	43	868	4382	4388		866	Cotton	Cotton	Cotton	NNP	PERSON	dep	O	-1	I-noun.person
+0	43	869	4388	4389	S	863	,	,	,	,	O	punct	O	-1	O
+0	43	870	4390	4393	S	863	and	and	and	CC	O	cc	O	-1	O
+0	43	871	4394	4402	S	863	together	together	together	RB	O	advmod	O	-1	O
+0	43	872	4403	4407	N	873	they	they	they	PRP	O	nsubj	O	-1	O
+0	43	873	4408	4412	S	863	have	have	have	VBP	O	ccomp	O	-1	B-verb.possession
+0	43	874	4413	4414	S	875	a	a	a	DT	O	det	O	-1	O
+0	43	875	4415	4423		873	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	43	876	4423	4424	S	863	.	.	.	.	O	punct	O	-1	O
+0	44	877	4425	4430		887	Frodo	Frodo	Frodo	NNP	PERSON	nsubj	O	7	O
+0	44	878	4430	4431	S	877	,	,	,	,	O	punct	O	-1	O
+0	44	879	4432	4439	S	877	wounded	wounded	wound	VBN	O	partmod	O	-1	B-verb.body
+0	44	880	4440	4442	S	879	by	by	by	IN	O	prep	O	-1	O
+0	44	881	4443	4446	S	882	the	the	the	DT	O	det	O	-1	O
+0	44	882	4447	4453	S	880	burden	burden	burden	NN	O	pobj	O	-1	B-noun.cognition
+0	44	883	4454	4456	S	882	of	of	of	IN	O	prep	O	-1	O
+0	44	884	4457	4460	S	885	the	the	the	DT	O	det	O	-1	O
+0	44	885	4461	4471		883	Ring-quest	Ring-quest	ring-quest	NN	MISC	pobj	O	-1	O
+0	44	886	4471	4472	S	877	,	,	,	,	O	punct	O	-1	O
+0	44	887	4473	4480	N	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	44	888	4481	4483	S	889	to	to	to	TO	O	aux	O	-1	O
+0	44	889	4484	4489	S	887	leave	leave	leave	VB	O	xcomp	O	-1	B-verb.motion
+0	44	890	4490	4493	S	891	the	the	the	DT	O	det	O	-1	O
+0	44	891	4494	4499		889	Shire	Shire	Shire	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	44	892	4499	4500	S	887	.	.	.	.	O	punct	O	-1	O
+0	45	893	4501	4503	S	894	He	He	he	PRP	O	nsubj	O	7	O
+0	45	894	4504	4509	S	-1	sails	sails	sail	VBZ	O	null	O	-1	B-verb.motion
+0	45	895	4510	4514	S	894	away	away	away	RB	O	advmod	O	-1	O
+0	45	896	4515	4519	S	894	over	over	over	IN	O	prep	O	-1	O
+0	45	897	4520	4523	S	899	the	the	the	DT	O	det	O	-1	O
+0	45	898	4524	4529	S	899	Great	Great	Great	NNP	LOCATION	nn	O	-1	O
+0	45	899	4530	4533	S	896	Sea	Sea	Sea	NNP	LOCATION	pobj	O	-1	O
+0	45	900	4534	4538	S	899	with	with	with	IN	O	prep	O	-1	O
+0	45	901	4539	4546		900	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	pobj	O	9	O
+0	45	902	4546	4547	N	901	,	,	,	,	O	punct	O	-1	O
+0	45	903	4548	4553		901	Bilbo	Bilbo	Bilbo	NNP	PERSON	conj	O	-1	O
+0	45	904	4553	4554	S	894	,	,	,	,	O	punct	O	-1	O
+0	45	905	4555	4558	S	894	and	and	and	CC	O	cc	O	-1	O
+0	45	906	4559	4562	S	908	the	the	the	DT	O	det	O	-1	O
+0	45	907	4563	4568	S	908	other	other	other	JJ	O	amod	O	-1	O
+0	45	908	4569	4581	S	894	Ring-bearers	Ring-bearers	ring-bearer	NNS	MISC	conj	O	-1	B-noun.person
+0	45	909	4582	4584	S	908	to	to	to	TO	O	prep	O	-1	O
+0	45	910	4585	4588	S	912	the	the	the	DT	O	det	O	-1	O
+0	45	911	4589	4597	S	912	peaceful	peaceful	peaceful	JJ	O	amod	O	-1	O
+0	45	912	4598	4606	S	909	paradise	paradise	paradise	NN	O	pobj	O	-1	B-noun.location
+0	45	913	4607	4609	S	908	in	in	in	IN	O	prep	O	-1	O
+0	45	914	4610	4613	N	916	the	the	the	DT	O	det	O	-1	O
+0	45	915	4614	4621	S	916	unknown	unknown	unknown	JJ	O	amod	O	-1	O
+0	45	916	4622	4626		913	West	West	west	NN	O	pobj	O	-1	B-noun.location
+0	45	917	4626	4627	N	894	.	.	.	.	O	punct	O	-1	O

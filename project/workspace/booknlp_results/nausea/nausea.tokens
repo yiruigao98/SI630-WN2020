@@ -1,0 +1,556 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	7	S	1	Antoine	Antoine	Antoine	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	8	17		11	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	2	17	18	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	19	20	S	5	a	a	a	DT	O	det	O	-1	O
+0	0	4	21	30	S	5	historian	historian	historian	NN	O	nn	O	-1	B-noun.person
+0	0	5	31	37	S	1	living	living	living	NN	O	appos	O	-1	B-noun.cognition
+0	0	6	38	40	S	5	in	in	in	IN	O	prep	O	-1	O
+0	0	7	41	49		6	Bouville	Bouville	Bouville	NNP	LOCATION	pobj	O	-1	O
+0	0	8	49	50	S	7	,	,	,	,	O	punct	O	-1	O
+0	0	9	51	57		7	France	France	France	NNP	LOCATION	appos	O	-1	O
+0	0	10	57	58	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	11	59	65	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	0	12	66	67	S	13	a	a	a	DT	O	det	O	-1	O
+0	0	13	68	73	S	11	diary	diary	diary	NN	O	dobj	O	-1	B-noun.communication
+0	0	14	74	76	S	15	to	to	to	TO	O	aux	O	-1	O
+0	0	15	77	81	S	13	help	help	help	VB	O	infmod	O	-1	B-verb.social
+0	0	16	82	85	S	17	him	him	he	PRP	O	nsubj	O	-1	O
+0	0	17	86	93	S	15	explain	explain	explain	VB	O	ccomp	O	-1	B-verb.communication
+0	0	18	94	97	S	22	the	the	the	DT	O	det	O	-1	O
+0	0	19	98	105	S	22	strange	strange	strange	JJ	O	amod	O	-1	O
+0	0	20	106	109	S	19	and	and	and	CC	O	cc	O	-1	O
+0	0	21	110	119	S	19	sickening	sickening	sickening	JJ	O	conj	O	-1	O
+0	0	22	120	130	S	17	sensations	sensations	sensation	NNS	O	dobj	O	-1	B-noun.cognition
+0	0	23	131	135	S	26	that	that	that	WDT	O	nsubj	O	-1	O
+0	0	24	136	140	S	26	have	have	have	VBP	O	aux	O	-1	O
+0	0	25	141	145	S	26	been	been	be	VBN	O	aux	O	-1	O
+0	0	26	146	155	S	22	bothering	bothering	bother	VBG	O	rcmod	O	-1	B-verb.social
+0	0	27	156	159	S	26	him	him	he	PRP	O	dobj	O	-1	O
+0	0	28	160	163	S	26	for	for	for	IN	O	prep	O	-1	O
+0	0	29	164	167	S	32	the	the	the	DT	DATE	det	O	-1	O
+0	0	30	168	176	S	32	previous	previous	previous	JJ	DATE	amod	O	-1	O
+0	0	31	177	180	S	32	few	few	few	JJ	DATE	amod	O	-1	O
+0	0	32	181	185		28	days	days	day	NNS	DATE	pobj	O	-1	B-noun.time
+0	0	33	185	186	S	11	.	.	.	.	O	punct	O	-1	O
+0	1	34	187	189	S	37	He	He	he	PRP	O	nsubj	O	-1	O
+0	1	35	190	192	S	37	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	36	193	196	S	37	not	not	not	RB	O	neg	O	-1	O
+0	1	37	197	201	S	-1	sure	sure	sure	JJ	O	null	O	-1	O
+0	1	38	202	206	S	41	what	what	what	WP	O	nsubj	O	-1	O
+0	1	39	207	214	S	41	exactly	exactly	exactly	RB	O	advmod	O	-1	O
+0	1	40	215	217	S	41	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	41	218	223	S	37	wrong	wrong	wrong	JJ	O	ccomp	O	-1	O
+0	1	42	224	228	S	41	with	with	with	IN	O	prep	O	-1	O
+0	1	43	229	232		42	him	him	he	PRP	O	pobj	O	-1	O
+0	1	44	232	233	S	41	,	,	,	,	O	punct	O	-1	O
+0	1	45	234	239	S	46	often	often	often	RB	O	advmod	O	-1	O
+0	1	46	240	248	S	41	doubting	doubting	doubt	VBG	O	ccomp	O	-1	B-verb.cognition
+0	1	47	249	251	S	49	if	if	if	IN	O	mark	O	-1	O
+0	1	48	252	257	S	49	there	there	there	EX	O	expl	O	-1	O
+0	1	49	258	260	S	46	is	is	be	VBZ	O	advcl	O	-1	B-verb.stative
+0	1	50	261	264	S	51	any	any	any	DT	O	det	O	-1	O
+0	1	51	265	269	S	49	need	need	need	NN	O	nsubj	O	-1	B-noun.state
+0	1	52	270	272	S	53	to	to	to	TO	O	aux	O	-1	O
+0	1	53	273	277	S	51	keep	keep	keep	VB	O	infmod	O	-1	B-verb.stative
+0	1	54	278	279	S	55	a	a	a	DT	O	det	O	-1	O
+0	1	55	280	285	S	53	diary	diary	diary	NN	O	dobj	O	-1	B-noun.communication
+0	1	56	286	288	S	53	at	at	at	IN	O	prep	O	-1	O
+0	1	57	289	292		56	all	all	all	DT	O	pobj	O	-1	O
+0	1	58	292	293	S	37	.	.	.	.	O	punct	O	-1	O
+0	2	59	294	306		69	Nevertheless	Nevertheless	nevertheless	RB	O	advmod	O	-1	O
+0	2	60	306	307	S	69	,	,	,	,	O	punct	O	-1	O
+0	2	61	308	309	S	63	a	a	a	DT	DATE	det	O	-1	O
+0	2	62	310	313	S	63	few	few	few	JJ	DATE	amod	O	-1	O
+0	2	63	314	318	S	64	days	days	day	NNS	DATE	dep	O	-1	B-noun.time
+0	2	64	319	324		69	later	later	later	RB	DATE	advmod	O	-1	O
+0	2	65	324	325	S	69	,	,	,	,	O	punct	O	-1	O
+0	2	66	326	328	S	69	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	2	67	329	331	S	69	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	2	68	332	334	S	69	so	so	so	RB	O	advmod	O	-1	O
+0	2	69	335	343	S	-1	overcome	overcome	overcome	VBN	O	null	O	-1	B-verb.competition
+0	2	70	344	348	S	69	with	with	with	IN	O	prep	O	-1	O
+0	2	71	349	353	S	73	what	what	what	WP	O	dobj	O	-1	O
+0	2	72	354	356	S	73	he	he	he	PRP	O	nsubj	O	-1	O
+0	2	73	357	362	S	70	calls	calls	call	VBZ	O	pcomp	O	-1	B-verb.communication
+0	2	74	363	366	S	75	the	the	the	DT	O	det	O	-1	O
+0	2	75	367	373		73	Nausea	Nausea	nausea	NN	MISC	dep	O	-1	O
+0	2	76	373	374	S	69	,	,	,	,	O	punct	O	-1	O
+0	2	77	375	379	S	79	that	that	that	IN	O	complm	O	-1	O
+0	2	78	380	382	S	79	he	he	he	PRP	O	nsubj	O	-1	O
+0	2	79	383	389	S	93	begins	begins	begin	VBZ	O	advcl	O	-1	B-verb.change
+0	2	80	390	392	S	82	to	to	to	TO	O	aux	O	-1	O
+0	2	81	393	402	S	82	furiously	furiously	furiously	RB	O	advmod	O	-1	O
+0	2	82	403	407	S	79	list	list	list	VB	O	xcomp	O	-1	B-verb.communication
+0	2	83	408	413	S	85	every	every	every	DT	O	det	O	-1	O
+0	2	84	414	427	S	85	insignificant	insignificant	insignificant	JJ	O	amod	O	-1	O
+0	2	85	428	432		82	fact	fact	fact	NN	O	dobj	O	-1	B-noun.cognition
+0	2	86	432	433	S	85	,	,	,	,	O	punct	O	-1	O
+0	2	87	434	440		85	detail	detail	detail	NN	O	conj	O	-1	B-noun.communication
+0	2	88	440	441	S	93	,	,	,	,	O	punct	O	-1	O
+0	2	89	442	449		93	feeling	feeling	feeling	NN	O	nsubj	O	-1	O
+0	2	90	449	450	S	89	,	,	,	,	O	punct	O	-1	O
+0	2	91	451	454	S	89	and	and	and	CC	O	cc	O	-1	O
+0	2	92	455	465	S	89	impression	impression	impression	NN	O	conj	O	-1	B-noun.cognition
+0	2	93	466	475	S	69	occurring	occurring	occur	VBG	O	ccomp	O	-1	B-verb.change
+0	2	94	476	480	S	95	both	both	both	CC	O	preconj	O	-1	O
+0	2	95	481	487	S	93	inside	inside	inside	IN	O	prep	O	-1	O
+0	2	96	488	495	S	95	himself	himself	himself	PRP	O	dep	O	-1	O
+0	2	97	496	499	S	95	and	and	and	CC	O	cc	O	-1	O
+0	2	98	500	503	S	100	the	the	the	DT	O	det	O	-1	O
+0	2	99	504	511	S	100	outside	outside	outside	JJ	O	amod	O	-1	O
+0	2	100	512	517		95	world	world	world	NN	O	conj	O	-1	B-noun.group
+0	2	101	517	518	S	69	.	.	.	.	O	punct	O	-1	O
+0	3	102	519	521	S	103	He	He	he	PRP	O	nsubj	O	-1	O
+0	3	103	522	527	S	-1	holds	holds	hold	VBZ	O	null	O	-1	B-verb.stative
+0	3	104	528	529	S	105	a	a	a	DT	O	det	O	-1	O
+0	3	105	530	535		103	stone	stone	stone	NN	O	dobj	O	-1	B-noun.object
+0	3	106	535	536	S	103	,	,	,	,	O	punct	O	-1	O
+0	3	107	537	542	S	103	looks	looks	look	VBZ	O	conj	O	-1	B-verb.perception
+0	3	108	543	545	S	107	at	at	at	IN	O	prep	O	-1	O
+0	3	109	546	547	S	110	a	a	a	DT	O	det	O	-1	O
+0	3	110	548	553	S	108	glass	glass	glass	NN	O	pobj	O	-1	B-noun.substance
+0	3	111	554	556	S	110	of	of	of	IN	O	prep	O	-1	O
+0	3	112	557	561		111	beer	beer	beer	NN	O	pobj	O	-1	B-noun.food
+0	3	113	561	562	S	103	,	,	,	,	O	punct	O	-1	O
+0	3	114	563	566	S	103	and	and	and	CC	O	cc	O	-1	O
+0	3	115	567	572	S	103	tries	tries	try	VBZ	O	conj	O	-1	B-verb.social
+0	3	116	573	575	S	117	to	to	to	TO	O	aux	O	-1	O
+0	3	117	576	581	S	115	touch	touch	touch	VB	O	xcomp	O	-1	B-verb.contact
+0	3	118	582	583	S	120	a	a	a	DT	O	det	O	-1	O
+0	3	119	584	589	S	120	soggy	soggy	soggy	JJ	O	amod	O	-1	O
+0	3	120	590	595	S	117	piece	piece	piece	NN	O	dobj	O	-1	B-noun.communication
+0	3	121	596	598	S	120	of	of	of	IN	O	prep	O	-1	O
+0	3	122	599	604	S	121	paper	paper	paper	NN	O	pobj	O	-1	B-noun.substance
+0	3	123	605	607	S	117	in	in	in	IN	O	prep	O	-1	O
+0	3	124	608	611	S	125	the	the	the	DT	O	det	O	-1	O
+0	3	125	612	618		123	street	street	street	NN	O	pobj	O	-1	B-noun.artifact
+0	3	126	618	620		103	--	--	--	:	O	punct	O	-1	O
+0	3	127	620	624	S	128	each	each	each	DT	O	det	O	-1	O
+0	3	128	625	629	S	103	time	time	time	NN	O	dobj	O	-1	B-noun.event
+0	3	129	630	637	S	128	sensing	sensing	sense	VBG	O	partmod	O	-1	B-verb.perception
+0	3	130	638	639	S	134	a	a	a	DT	O	det	O	-1	O
+0	3	131	640	649	S	134	worrisome	worrisome	worrisome	JJ	O	amod	O	-1	O
+0	3	132	650	653	S	131	and	and	and	CC	O	cc	O	-1	O
+0	3	133	654	666	S	131	overwhelming	overwhelming	overwhelming	JJ	O	conj	O	-1	O
+0	3	134	667	675		129	presence	presence	presence	NN	O	dobj	O	-1	B-noun.state
+0	3	135	675	676	S	103	.	.	.	.	O	punct	O	-1	O
+0	4	136	677	680	S	145	For	For	for	IN	O	prep	O	-1	O
+0	4	137	681	684	S	140	the	the	the	DT	DURATION	det	O	-1	O
+0	4	138	685	689	S	140	past	past	past	JJ	DURATION	amod	O	-1	O
+0	4	139	690	693	S	140	ten	ten	ten	CD	DURATION	num	O	-1	O
+0	4	140	694	699		136	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	4	141	699	700	S	145	,	,	,	,	O	punct	O	-1	O
+0	4	142	701	710	S	145	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubj	O	1	B-noun.person
+0	4	143	711	714	S	145	has	has	have	VBZ	O	aux	O	-1	O
+0	4	144	715	719	S	145	been	been	be	VBN	O	aux	O	-1	O
+0	4	145	720	731	S	-1	researching	researching	research	VBG	O	null	O	-1	B-verb.communication
+0	4	146	732	735	S	149	the	the	the	DT	O	det	O	-1	O
+0	4	147	736	743	S	149	Marquis	Marquis	Marquis	NNP	PERSON	nn	O	-1	B-noun.person
+0	4	148	744	746	S	149	de	de	de	IN	PERSON	dep	O	-1	O
+0	4	149	747	755		145	Rollebon	Rollebon	Rollebon	NNP	PERSON	dobj	O	-1	O
+0	4	150	755	756	S	149	,	,	,	,	O	punct	O	-1	O
+0	4	151	757	758	S	153	a	a	a	DT	O	det	O	-1	O
+0	4	152	759	765	S	153	French	French	french	JJ	MISC	amod	O	-1	O
+0	4	153	766	776	S	149	aristocrat	aristocrat	aristocrat	NN	O	appos	O	-1	B-noun.person
+0	4	154	777	780	S	155	who	who	who	WP	O	nsubj	O	-1	O
+0	4	155	781	786	S	153	lived	lived	live	VBD	O	rcmod	O	-1	B-verb.stative
+0	4	156	787	793	S	155	during	during	during	IN	O	prep	O	-1	O
+0	4	157	794	797	S	159	the	the	the	DT	O	det	O	-1	O
+0	4	158	798	804	S	159	French	French	french	JJ	MISC	amod	O	-1	O
+0	4	159	805	815		156	Revolution	Revolution	revolution	NN	MISC	pobj	O	-1	O
+0	4	160	815	816	S	145	.	.	.	.	O	punct	O	-1	O
+0	5	161	817	825	S	162	Rollebon	Rollebon	Rollebon	NNP	PERSON	nsubj	O	2	B-noun.person
+0	5	162	826	829	S	-1	was	was	be	VBD	O	null	O	-1	B-verb.stative
+0	5	163	830	840	S	162	originally	originally	originally	RB	O	advmod	O	-1	O
+0	5	164	841	845	S	163	from	from	from	IN	O	prep	O	-1	O
+0	5	165	846	854	S	164	Bouville	Bouville	Bouville	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	5	166	855	857	S	168	so	so	so	IN	O	mark	O	-1	O
+0	5	167	858	867	S	168	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubj	O	1	B-noun.person
+0	5	168	868	873	S	162	moved	moved	move	VBD	O	advcl	O	-1	B-verb.motion
+0	5	169	874	879	S	168	there	there	there	RB	O	advmod	O	-1	O
+0	5	170	880	882	S	171	to	to	to	TO	O	aux	O	-1	O
+0	5	171	883	891	S	168	complete	complete	complete	VB	O	xcomp	O	-1	B-verb.change
+0	5	172	892	895	S	173	his	his	he	PRP$	O	poss	O	-1	O
+0	5	173	896	904	S	171	research	research	research	NN	O	dobj	O	-1	B-noun.act
+0	5	174	905	908	S	171	and	and	and	CC	O	cc	O	-1	O
+0	5	175	909	914	S	171	write	write	write	VB	O	conj	O	-1	B-verb.creation
+0	5	176	915	916	S	177	a	a	a	DT	O	det	O	-1	O
+0	5	177	917	921	S	175	book	book	book	NN	O	dobj	O	-1	B-noun.communication
+0	5	178	922	927	S	177	about	about	about	IN	O	prep	O	-1	O
+0	5	179	928	931		178	him	him	he	PRP	O	pobj	O	-1	O
+0	5	180	931	932	S	162	.	.	.	.	O	punct	O	-1	O
+0	6	181	933	936	S	187	But	But	but	CC	O	cc	O	-1	O
+0	6	182	937	940	S	183	his	his	he	PRP$	O	poss	O	-1	O
+0	6	183	941	949	S	187	feelings	feelings	feeling	NNS	O	nsubj	O	-1	B-noun.Tops
+0	6	184	950	952	S	183	of	of	of	IN	O	prep	O	-1	O
+0	6	185	953	959	S	184	Nausea	Nausea	nausea	NN	MISC	pobj	O	-1	B-noun.state
+0	6	186	960	964	S	187	soon	soon	soon	RB	O	advmod	O	-1	O
+0	6	187	965	971	S	-1	extend	extend	extend	VBP	O	null	O	-1	B-verb.stative
+0	6	188	972	974	S	187	to	to	to	TO	O	prep	O	-1	O
+0	6	189	975	978	S	190	his	his	he	PRP$	O	poss	O	-1	O
+0	6	190	979	987		188	research	research	research	NN	O	pobj	O	-1	B-noun.act
+0	6	191	987	988	S	187	.	.	.	.	O	punct	O	-1	O
+0	7	192	989	997	S	194	Whenever	Whenever	Whenever	NNP	O	dobj	O	-1	B-noun.person
+0	7	193	998	1000	S	194	he	he	he	PRP	O	nsubj	O	-1	O
+0	7	194	1001	1006	S	202	looks	looks	look	VBZ	O	advcl	O	-1	B-verb.perception
+0	7	195	1007	1009	S	194	in	in	in	IN	O	prep	O	-1	O
+0	7	196	1010	1011	S	197	a	a	a	DT	O	det	O	-1	O
+0	7	197	1012	1018		195	mirror	mirror	mirror	NN	O	pobj	O	-1	B-noun.artifact
+0	7	198	1018	1019	S	202	,	,	,	,	O	punct	O	-1	O
+0	7	199	1020	1022	S	202	he	he	he	PRP	O	nsubj	O	-1	O
+0	7	200	1023	1025	S	202	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	7	201	1026	1029	S	202	not	not	not	RB	O	neg	O	-1	O
+0	7	202	1030	1034	S	-1	sure	sure	sure	JJ	O	null	O	-1	O
+0	7	203	1035	1037	S	205	if	if	if	IN	O	mark	O	-1	O
+0	7	204	1038	1040	S	205	he	he	he	PRP	O	nsubj	O	-1	O
+0	7	205	1041	1045	S	202	sees	sees	see	VBZ	O	advcl	O	-1	B-verb.cognition
+0	7	206	1046	1049	S	208	his	his	he	PRP$	O	poss	O	-1	O
+0	7	207	1050	1053	S	208	own	own	own	JJ	O	amod	O	-1	O
+0	7	208	1054	1058	S	205	face	face	face	NN	O	dobj	O	-1	B-noun.body
+0	7	209	1059	1061	S	205	or	or	or	CC	O	cc	O	-1	O
+0	7	210	1062	1070		205	Rollebon	Rollebon	Rollebon	NNP	PERSON	conj	O	2	B-noun.person
+0	7	211	1070	1072		210	's	's	's	POS	O	possessive	O	-1	O
+0	7	212	1072	1073	S	202	.	.	.	.	O	punct	O	-1	O
+0	8	213	1074	1076	S	215	He	He	he	PRP	O	nsubj	O	-1	O
+0	8	214	1077	1081	S	215	soon	soon	soon	RB	O	advmod	O	-1	O
+0	8	215	1082	1087	S	-1	loses	loses	lose	VBZ	O	null	O	-1	B-verb.possession
+0	8	216	1088	1096	S	215	interest	interest	interest	NN	O	dobj	O	-1	B-noun.cognition
+0	8	217	1097	1099	S	216	in	in	in	IN	O	prep	O	-1	O
+0	8	218	1100	1103	S	219	his	his	he	PRP$	O	poss	O	-1	O
+0	8	219	1104	1108		217	work	work	work	NN	O	pobj	O	-1	B-noun.act
+0	8	220	1108	1109	S	215	,	,	,	,	O	punct	O	-1	O
+0	8	221	1110	1119	S	215	realizing	realizing	realize	VBG	O	xcomp	O	-1	B-verb.cognition
+0	8	222	1120	1124	S	226	that	that	that	IN	O	complm	O	-1	O
+0	8	223	1125	1127	S	226	he	he	he	PRP	O	nsubj	O	-1	O
+0	8	224	1128	1131	S	226	can	can	can	MD	O	aux	O	-1	O
+0	8	225	1132	1137	S	226	never	never	never	RB	O	neg	O	-1	O
+0	8	226	1138	1148	S	221	understand	understand	understand	VB	O	ccomp	O	-1	B-verb.cognition
+0	8	227	1149	1157	S	226	Rollebon	Rollebon	Rollebon	NNP	PERSON	dobj	O	2	B-noun.person
+0	8	228	1158	1160	S	233	as	as	as	IN	O	mark	O	-1	O
+0	8	229	1161	1163	S	233	if	if	if	IN	O	dep	O	-1	O
+0	8	230	1164	1166	S	233	he	he	he	PRP	O	nsubj	O	-1	O
+0	8	231	1167	1171	S	233	were	were	be	VBD	O	cop	O	-1	B-verb.stative
+0	8	232	1172	1177	S	233	still	still	still	RB	O	advmod	O	-1	O
+0	8	233	1178	1183		226	alive	alive	alive	JJ	O	advcl	O	-1	O
+0	8	234	1183	1184	S	215	.	.	.	.	O	punct	O	-1	O
+0	9	235	1185	1194	S	237	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	9	236	1195	1200	S	237	feels	feels	feel	VBZ	O	auxpass	O	-1	O
+0	9	237	1201	1212	S	-1	constrained	constrained	constrain	VBN	O	null	O	-1	B-verb.contact
+0	9	238	1213	1215	S	237	by	by	by	IN	O	prep	O	-1	O
+0	9	239	1216	1219	S	240	the	the	the	DT	DATE	det	O	-1	O
+0	9	240	1220	1224		238	past	past	past	NN	DATE	pobj	O	-1	B-noun.time
+0	9	241	1224	1225	S	237	,	,	,	,	O	punct	O	-1	O
+0	9	242	1226	1234	S	237	choosing	choosing	choose	VBG	O	xcomp	O	-1	B-verb.cognition
+0	9	243	1235	1242	S	242	instead	instead	instead	RB	O	advmod	O	-1	O
+0	9	244	1243	1245	S	245	to	to	to	TO	O	aux	O	-1	O
+0	9	245	1246	1250	S	242	live	live	live	VB	O	xcomp	O	-1	B-verb.stative
+0	9	246	1251	1253	S	245	in	in	in	IN	O	prep	O	-1	O
+0	9	247	1254	1257	S	248	the	the	the	DT	O	det	O	-1	O
+0	9	248	1258	1265		246	present	present	present	JJ	DATE	pobj	O	-1	O
+0	9	249	1265	1266	S	237	.	.	.	.	O	punct	O	-1	O
+0	10	250	1267	1276	S	251	Roquentin	Roquentin	roquentin	NN	PERSON	nsubj	O	1	O
+0	10	251	1277	1283	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	10	252	1284	1286	S	253	to	to	to	TO	O	aux	O	-1	O
+0	10	253	1287	1297	S	251	understand	understand	understand	VB	O	xcomp	O	-1	B-verb.cognition
+0	10	254	1298	1302	S	259	that	that	that	IN	O	complm	O	-1	O
+0	10	255	1303	1306	S	256	his	his	he	PRP$	O	poss	O	-1	O
+0	10	256	1307	1315	S	259	feelings	feelings	feeling	NNS	O	nsubj	O	-1	B-noun.Tops
+0	10	257	1316	1318	S	256	of	of	of	IN	O	prep	O	-1	O
+0	10	258	1319	1325	S	257	Nausea	Nausea	nausea	NN	MISC	pobj	O	-1	B-noun.state
+0	10	259	1326	1330	S	253	have	have	have	VBP	O	ccomp	O	-1	B-verb.possession
+0	10	260	1331	1340	S	259	something	something	something	NN	O	dobj	O	-1	O
+0	10	261	1341	1343	S	262	to	to	to	TO	O	aux	O	-1	O
+0	10	262	1344	1346	S	260	do	do	do	VB	O	infmod	O	-1	B-verb.social
+0	10	263	1347	1351	S	262	with	with	with	IN	O	prep	O	-1	O
+0	10	264	1352	1355	S	265	the	the	the	DT	O	det	O	-1	O
+0	10	265	1356	1364	S	263	question	question	question	NN	O	pobj	O	-1	B-noun.communication
+0	10	266	1365	1367	S	265	of	of	of	IN	O	prep	O	-1	O
+0	10	267	1368	1377		266	existence	existence	existence	NN	O	pobj	O	-1	B-noun.state
+0	10	268	1377	1378	S	251	.	.	.	.	O	punct	O	-1	O
+0	11	269	1379	1381	S	270	He	He	he	PRP	O	nsubj	O	-1	O
+0	11	270	1382	1390	S	-1	realizes	realizes	realize	VBZ	O	null	O	-1	B-verb.cognition
+0	11	271	1391	1395	S	275	that	that	that	IN	O	complm	O	-1	O
+0	11	272	1396	1398	S	275	he	he	he	PRP	O	nsubj	O	-1	O
+0	11	273	1399	1402	S	275	had	had	have	VBD	O	aux	O	-1	O
+0	11	274	1403	1407	S	275	been	been	be	VBN	O	aux	O	-1	O
+0	11	275	1408	1413	S	270	using	using	use	VBG	O	ccomp	O	-1	B-verb.consumption
+0	11	276	1414	1422	S	275	Rollebon	Rollebon	Rollebon	NNP	PERSON	dobj	O	2	B-noun.person
+0	11	277	1423	1426	S	276	and	and	and	CC	O	cc	O	-1	O
+0	11	278	1427	1430	S	279	the	the	the	DT	DATE	det	O	-1	O
+0	11	279	1431	1435	S	276	past	past	past	NN	DATE	conj	O	-1	B-noun.time
+0	11	280	1436	1438	S	279	in	in	in	IN	O	prep	O	-1	O
+0	11	281	1439	1446	S	280	general	general	general	JJ	O	pobj	O	-1	O
+0	11	282	1447	1449	S	283	to	to	to	TO	O	aux	O	-1	O
+0	11	283	1450	1457	S	275	justify	justify	justify	VB	O	xcomp	O	-1	B-verb.communication
+0	11	284	1458	1461	S	286	his	his	he	PRP$	O	poss	O	-1	O
+0	11	285	1462	1465	S	286	own	own	own	JJ	O	amod	O	-1	O
+0	11	286	1466	1475		283	existence	existence	existence	NN	O	dobj	O	-1	B-noun.state
+0	11	287	1475	1476	S	270	.	.	.	.	O	punct	O	-1	O
+0	12	288	1477	1486	S	290	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubj	O	1	O
+0	12	289	1487	1496	S	290	defiantly	defiantly	defiantly	RB	O	advmod	O	-1	O
+0	12	290	1497	1504	S	-1	asserts	asserts	assert	VBZ	O	null	O	-1	B-verb.communication
+0	12	291	1505	1508	S	293	his	his	he	PRP$	O	poss	O	-1	O
+0	12	292	1509	1512	S	293	own	own	own	JJ	O	amod	O	-1	O
+0	12	293	1513	1522		290	existence	existence	existence	NN	O	dobj	O	-1	B-noun.state
+0	12	294	1522	1523	S	290	,	,	,	,	O	punct	O	-1	O
+0	12	295	1524	1532	S	290	claiming	claiming	claim	VBG	O	xcomp	O	-1	B-verb.communication
+0	12	296	1533	1537	S	302	that	that	that	IN	O	complm	O	-1	O
+0	12	297	1538	1546	S	302	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	12	298	1547	1551	S	297	else	else	else	RB	O	amod	O	-1	O
+0	12	299	1552	1554	S	300	he	he	he	PRP	O	nsubj	O	-1	O
+0	12	300	1555	1559	S	297	sees	sees	see	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	12	301	1560	1562	S	302	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	12	302	1563	1569	S	295	afraid	afraid	afraid	JJ	O	ccomp	O	-1	O
+0	12	303	1570	1572	S	304	to	to	to	TO	O	aux	O	-1	O
+0	12	304	1573	1584	S	302	acknowledge	acknowledge	acknowledge	VB	O	xcomp	O	-1	B-verb.communication
+0	12	305	1585	1589	S	307	that	that	that	IN	O	complm	O	-1	O
+0	12	306	1590	1594	S	307	they	they	they	PRP	O	nsubj	O	-1	O
+0	12	307	1595	1600		304	exist	exist	exist	VBP	O	ccomp	O	-1	B-verb.stative
+0	12	308	1600	1601	S	290	.	.	.	.	O	punct	O	-1	O
+0	13	309	1602	1610	S	319	Focusing	Focusing	focus	VBG	O	dep	O	-1	B-verb.cognition
+0	13	310	1611	1613	S	309	on	on	on	IN	O	prep	O	-1	O
+0	13	311	1614	1617	S	312	the	the	the	DT	O	det	O	-1	O
+0	13	312	1618	1627	S	310	existence	existence	existence	NN	O	pobj	O	-1	B-noun.state
+0	13	313	1628	1630	S	312	of	of	of	IN	O	prep	O	-1	O
+0	13	314	1631	1638	S	313	objects	objects	object	NNS	O	pobj	O	-1	B-noun.Tops
+0	13	315	1639	1642	S	314	and	and	and	CC	O	cc	O	-1	O
+0	13	316	1643	1649		314	people	people	people	NNS	O	conj	O	-1	B-noun.group
+0	13	317	1649	1650	S	319	,	,	,	,	O	punct	O	-1	O
+0	13	318	1651	1660	S	319	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubj	O	1	O
+0	13	319	1661	1670	S	-1	discovers	discovers	discover	VBZ	O	null	O	-1	B-verb.cognition
+0	13	320	1671	1675	S	323	that	that	that	IN	O	complm	O	-1	O
+0	13	321	1676	1677		323	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	13	322	1677	1686	S	323	existence	existence	existence	NN	O	nsubj	I-QUOTE	-1	B-noun.state
+0	13	323	1687	1695	S	319	precedes	precedes	precede	VBZ	O	ccomp	I-QUOTE	-1	B-verb.stative
+0	13	324	1696	1703		323	essence	essence	essence	NN	O	dobj	I-QUOTE	-1	B-noun.cognition
+0	13	325	1703	1704		319	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	13	326	1704	1705	S	319	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	14	327	1706	1713	S	337	Looking	Looking	look	VBG	O	dep	O	-1	B-verb.perception
+0	14	328	1714	1716	S	327	at	at	at	IN	O	prep	O	-1	O
+0	14	329	1717	1720	S	330	the	the	the	DT	O	det	O	-1	O
+0	14	330	1721	1725	S	328	root	root	root	NN	O	pobj	O	-1	B-noun.plant
+0	14	331	1726	1728	S	330	of	of	of	IN	O	prep	O	-1	O
+0	14	332	1729	1730	S	334	a	a	a	DT	O	det	O	-1	O
+0	14	333	1731	1739	S	334	chestnut	chestnut	chestnut	NN	O	nn	O	-1	B-noun.plant
+0	14	334	1740	1744		331	tree	tree	tree	NN	O	pobj	O	-1	I-noun.plant
+0	14	335	1744	1745	S	337	,	,	,	,	O	punct	O	-1	O
+0	14	336	1746	1748	S	337	he	he	he	PRP	O	nsubj	O	-1	O
+0	14	337	1749	1757	S	-1	realizes	realizes	realize	VBZ	O	null	O	-1	B-verb.cognition
+0	14	338	1758	1762	S	354	that	that	that	IN	O	complm	O	-1	O
+0	14	339	1763	1766	S	340	his	his	he	PRP$	O	poss	O	-1	O
+0	14	340	1767	1777	S	354	perception	perception	perception	NN	O	nsubj	O	-1	B-noun.cognition
+0	14	341	1778	1780	S	340	of	of	of	IN	O	prep	O	-1	O
+0	14	342	1781	1784	S	343	the	the	the	DT	O	det	O	-1	O
+0	14	343	1785	1789		345	root	root	root	NN	O	poss	O	-1	B-noun.plant
+0	14	344	1789	1791	S	343	's	's	's	POS	O	possessive	O	-1	O
+0	14	345	1792	1799		341	essence	essence	essence	NN	O	pobj	O	-1	B-noun.cognition
+0	14	346	1799	1800	S	340	,	,	,	,	O	punct	O	-1	O
+0	14	347	1801	1803	S	340	or	or	or	CC	O	cc	O	-1	O
+0	14	348	1804	1807	S	350	its	its	its	PRP$	O	poss	O	-1	O
+0	14	349	1808	1816	S	350	physical	physical	physical	JJ	O	amod	O	-1	O
+0	14	350	1817	1832		340	characteristics	characteristics	characteristic	NNS	O	conj	O	-1	B-noun.cognition
+0	14	351	1832	1833	S	340	,	,	,	,	O	punct	O	-1	O
+0	14	352	1834	1836	S	340	in	in	in	IN	O	prep	O	-1	O
+0	14	353	1837	1841	S	352	fact	fact	fact	NN	O	pobj	O	-1	B-noun.cognition
+0	14	354	1842	1847	S	337	hides	hides	hide	VBZ	O	ccomp	O	-1	B-verb.perception
+0	14	355	1848	1851	S	356	the	the	the	DT	O	det	O	-1	O
+0	14	356	1852	1857	S	354	truth	truth	truth	NN	O	dobj	O	-1	B-noun.cognition
+0	14	357	1858	1860	S	356	of	of	of	IN	O	prep	O	-1	O
+0	14	358	1861	1864	S	359	the	the	the	DT	O	det	O	-1	O
+0	14	359	1865	1871		361	object	object	object	NN	O	poss	O	-1	B-noun.Tops
+0	14	360	1871	1873	S	359	's	's	's	POS	O	possessive	O	-1	O
+0	14	361	1874	1883		357	existence	existence	existence	NN	O	pobj	O	-1	B-noun.state
+0	14	362	1883	1884	S	337	.	.	.	.	O	punct	O	-1	O
+0	15	363	1885	1888	S	365	The	The	the	DT	O	det	O	-1	O
+0	15	364	1889	1899	S	365	comforting	comforting	comforting	JJ	O	amod	O	-1	O
+0	15	365	1900	1906	S	371	facade	facade	facade	NN	O	nsubj	O	-1	B-noun.artifact
+0	15	366	1907	1909	S	365	of	of	of	IN	O	prep	O	-1	O
+0	15	367	1910	1916		366	tastes	tastes	taste	NNS	O	pobj	O	-1	B-noun.feeling
+0	15	368	1916	1917	S	367	,	,	,	,	O	punct	O	-1	O
+0	15	369	1918	1924		367	colors	colors	color	NNS	O	conj	O	-1	O
+0	15	370	1924	1925	S	365	,	,	,	,	O	punct	O	-1	O
+0	15	371	1926	1932		-1	smells	smells	smell	VBZ	O	null	O	-1	O
+0	15	372	1932	1933	S	371	,	,	,	,	O	punct	O	-1	O
+0	15	373	1934	1940		371	weight	weight	weight	NN	O	conj	O	-1	O
+0	15	374	1940	1941	S	371	,	,	,	,	O	punct	O	-1	O
+0	15	375	1942	1945	S	371	and	and	and	CC	O	cc	O	-1	O
+0	15	376	1946	1956	S	380	appearance	appearance	appearance	NN	O	nsubj	O	-1	B-noun.attribute
+0	15	377	1957	1960	S	380	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	15	378	1961	1965	S	380	thus	thus	thus	RB	O	advmod	O	-1	O
+0	15	379	1966	1969	S	380	the	the	the	DT	O	det	O	-1	O
+0	15	380	1970	1978	S	371	creation	creation	creation	NN	O	conj	O	-1	B-noun.act
+0	15	381	1979	1981	S	380	of	of	of	IN	O	prep	O	-1	O
+0	15	382	1982	1985	S	383	the	the	the	DT	O	det	O	-1	O
+0	15	383	1986	1994		381	observer	observer	observer	NN	O	pobj	O	-1	B-noun.person
+0	15	384	1994	1995	S	371	.	.	.	.	O	punct	O	-1	O
+0	16	385	1996	2003	S	394	Looking	Looking	look	VBG	O	dep	O	-1	B-verb.perception
+0	16	386	2004	2011	S	385	through	through	through	IN	O	prep	O	-1	O
+0	16	387	2012	2015	S	388	the	the	the	DT	O	det	O	-1	O
+0	16	388	2016	2023	S	386	essence	essence	essence	NN	O	pobj	O	-1	B-noun.cognition
+0	16	389	2024	2026	S	388	of	of	of	IN	O	prep	O	-1	O
+0	16	390	2027	2034		389	objects	objects	object	NNS	O	pobj	O	-1	B-noun.Tops
+0	16	391	2034	2035	S	394	,	,	,	,	O	punct	O	-1	O
+0	16	392	2036	2045	S	394	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	16	393	2046	2048	S	394	is	is	be	VBZ	O	auxpass	O	-1	O
+0	16	394	2049	2059	S	-1	confronted	confronted	confront	VBN	O	null	O	-1	B-verb.competition
+0	16	395	2060	2064	S	394	with	with	with	IN	O	prep	O	-1	O
+0	16	396	2065	2068	S	398	the	the	the	DT	O	det	O	-1	O
+0	16	397	2069	2073	S	398	bare	bare	bare	JJ	O	amod	O	-1	O
+0	16	398	2074	2083	S	395	existence	existence	existence	NN	O	pobj	O	-1	B-noun.state
+0	16	399	2084	2086	S	398	of	of	of	IN	O	prep	O	-1	O
+0	16	400	2087	2093		399	things	things	thing	NNS	O	pobj	O	-1	B-noun.state
+0	16	401	2093	2094	S	394	,	,	,	,	O	punct	O	-1	O
+0	16	402	2095	2098	S	394	and	and	and	CC	O	cc	O	-1	O
+0	16	403	2099	2103	S	405	thus	thus	thus	RB	O	advmod	O	-1	O
+0	16	404	2104	2107	S	405	the	the	the	DT	O	det	O	-1	O
+0	16	405	2108	2114	S	394	source	source	source	NN	O	conj	O	-1	B-noun.location
+0	16	406	2115	2117	S	405	of	of	of	IN	O	prep	O	-1	O
+0	16	407	2118	2121	S	408	his	his	he	PRP$	O	poss	O	-1	O
+0	16	408	2122	2128		406	Nausea	Nausea	nausea	NN	O	pobj	O	-1	O
+0	16	409	2128	2129	S	394	.	.	.	.	O	punct	O	-1	O
+0	17	410	2130	2139	S	411	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubj	O	1	B-noun.person
+0	17	411	2140	2146	S	-1	visits	visits	visit	VBZ	O	null	O	-1	B-verb.motion
+0	17	412	2147	2150	S	413	his	his	he	PRP$	O	poss	O	-1	O
+0	17	413	2151	2159	S	411	ex-lover	ex-lover	ex-lover	NN	O	dobj	O	-1	O
+0	17	414	2160	2164	S	413	Anny	Anny	Anny	NNP	PERSON	dep	O	0	O
+0	17	415	2165	2167	S	414	in	in	in	IN	O	prep	O	-1	O
+0	17	416	2168	2173		415	Paris	Paris	Paris	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	17	417	2173	2174	S	411	.	.	.	.	O	punct	O	-1	O
+0	18	418	2175	2177	S	420	He	He	he	PRP	O	nsubj	O	-1	O
+0	18	419	2178	2181	S	420	had	had	have	VBD	O	aux	O	-1	O
+0	18	420	2182	2187	S	-1	hoped	hoped	hope	VBN	O	null	O	-1	B-verb.emotion
+0	18	421	2188	2192	S	424	that	that	that	IN	O	complm	O	-1	O
+0	18	422	2193	2197	S	424	they	they	they	PRP	O	nsubj	O	-1	O
+0	18	423	2198	2203	S	424	would	would	would	MD	O	aux	O	-1	O
+0	18	424	2204	2207	S	420	get	get	get	VB	O	ccomp	O	-1	B-verb.competition
+0	18	425	2208	2212	S	424	back	back	back	RB	O	advmod	O	-1	O
+0	18	426	2213	2221		424	together	together	together	RB	O	advmod	O	-1	O
+0	18	427	2221	2222	S	420	,	,	,	,	O	punct	O	-1	O
+0	18	428	2223	2226	S	420	but	but	but	CC	O	cc	O	-1	O
+0	18	429	2227	2229	S	430	is	is	be	VBZ	O	auxpass	O	-1	O
+0	18	430	2230	2242	S	420	disappointed	disappointed	disappoint	VBN	O	conj	O	-1	B-verb.emotion
+0	18	431	2243	2245	S	432	to	to	to	TO	O	aux	O	-1	O
+0	18	432	2246	2250	S	430	find	find	find	VB	O	xcomp	O	-1	B-verb.cognition
+0	18	433	2251	2255	S	437	that	that	that	IN	O	complm	O	-1	O
+0	18	434	2256	2260	S	437	they	they	they	PRP	O	nsubj	O	-1	O
+0	18	435	2261	2263	S	437	do	do	do	VBP	O	aux	O	-1	O
+0	18	436	2264	2267	S	437	not	not	not	RB	O	neg	O	-1	O
+0	18	437	2268	2279	S	432	communicate	communicate	communicate	VB	O	ccomp	O	-1	B-verb.communication
+0	18	438	2280	2284	S	439	very	very	very	RB	O	advmod	O	-1	O
+0	18	439	2285	2289		437	well	well	well	RB	O	advmod	O	-1	O
+0	18	440	2289	2290	S	420	.	.	.	.	O	punct	O	-1	O
+0	19	441	2291	2293	S	443	He	He	he	PRP	O	nsubj	O	-1	O
+0	19	442	2294	2300	S	443	vainly	vainly	vainly	RB	O	advmod	O	-1	O
+0	19	443	2301	2309	S	-1	attempts	attempts	attempt	VBZ	O	null	O	-1	B-verb.social
+0	19	444	2310	2312	S	445	to	to	to	TO	O	aux	O	-1	O
+0	19	445	2313	2320	S	443	explain	explain	explain	VB	O	xcomp	O	-1	B-verb.communication
+0	19	446	2321	2324	S	447	his	his	he	PRP$	O	poss	O	-1	O
+0	19	447	2325	2333	S	445	feelings	feelings	feeling	NNS	O	dobj	O	-1	B-noun.Tops
+0	19	448	2334	2336	S	447	of	of	of	IN	O	prep	O	-1	O
+0	19	449	2337	2343	S	448	Nausea	Nausea	nausea	NN	MISC	pobj	O	-1	B-noun.state
+0	19	450	2344	2346	S	445	to	to	to	TO	O	prep	O	-1	O
+0	19	451	2347	2351		450	Anny	Anny	Anny	NNP	PERSON	pobj	O	0	O
+0	19	452	2351	2352	S	443	,	,	,	,	O	punct	O	-1	O
+0	19	453	2353	2356	S	443	but	but	but	CC	O	cc	O	-1	O
+0	19	454	2357	2360	S	457	she	she	she	PRP	O	nsubj	O	-1	O
+0	19	455	2361	2365	S	457	does	does	do	VBZ	O	aux	O	-1	O
+0	19	456	2366	2369	S	457	not	not	not	RB	O	neg	O	-1	O
+0	19	457	2370	2380		443	understand	understand	understand	VB	O	conj	O	-1	B-verb.cognition
+0	19	458	2380	2381	S	443	.	.	.	.	O	punct	O	-1	O
+0	20	459	2382	2386	S	460	They	They	they	PRP	O	nsubj	O	-1	O
+0	20	460	2387	2391		-1	part	part	part	NN	O	null	O	-1	B-noun.relation
+0	20	461	2391	2392	S	460	,	,	,	,	O	punct	O	-1	O
+0	20	462	2393	2400	S	460	knowing	knowing	know	VBG	O	xcomp	O	-1	B-verb.cognition
+0	20	463	2401	2405	S	467	that	that	that	IN	O	complm	O	-1	O
+0	20	464	2406	2410	S	467	they	they	they	PRP	O	nsubj	O	-1	O
+0	20	465	2411	2415	S	467	will	will	will	MD	O	aux	O	-1	O
+0	20	466	2416	2421	S	467	never	never	never	RB	O	neg	O	-1	O
+0	20	467	2422	2425	S	462	see	see	see	VB	O	ccomp	O	-1	B-verb.perception
+0	20	468	2426	2430	S	469	each	each	each	DT	O	det	O	-1	O
+0	20	469	2431	2436	S	467	other	other	other	JJ	O	dobj	O	-1	O
+0	20	470	2437	2442		469	again	again	again	RB	O	advmod	O	-1	O
+0	20	471	2442	2443	S	460	.	.	.	.	O	punct	O	-1	O
+0	21	472	2444	2448	S	477	Back	Back	back	RB	O	advmod	O	-1	O
+0	21	473	2449	2451	S	472	in	in	in	IN	O	dep	O	-1	O
+0	21	474	2452	2460		473	Bouville	Bouville	Bouville	NNP	LOCATION	pobj	O	-1	O
+0	21	475	2460	2461	S	477	,	,	,	,	O	punct	O	-1	O
+0	21	476	2462	2471	S	477	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubj	O	1	O
+0	21	477	2472	2480	S	-1	resolves	resolves	resolve	VBZ	O	null	O	-1	B-verb.cognition
+0	21	478	2481	2483	S	477	to	to	to	TO	O	prep	O	-1	O
+0	21	479	2484	2488	S	478	free	free	free	JJ	O	pobj	O	-1	O
+0	21	480	2489	2496	S	479	himself	himself	himself	PRP	O	dep	O	-1	O
+0	21	481	2497	2501	S	477	from	from	from	IN	O	prep	O	-1	O
+0	21	482	2502	2505	S	483	the	the	the	DT	DATE	det	O	-1	O
+0	21	483	2506	2510	S	481	past	past	past	NN	DATE	pobj	O	-1	B-noun.time
+0	21	484	2511	2513	S	477	by	by	by	IN	O	prep	O	-1	O
+0	21	485	2514	2523	S	484	embracing	embracing	embrace	VBG	O	pcomp	O	-1	B-verb.stative
+0	21	486	2524	2527	S	487	his	his	he	PRP$	O	poss	O	-1	O
+0	21	487	2528	2537	S	485	existence	existence	existence	NN	O	dobj	O	-1	B-noun.state
+0	21	488	2538	2540	S	485	in	in	in	IN	O	prep	O	-1	O
+0	21	489	2541	2544	S	490	the	the	the	DT	O	det	O	-1	O
+0	21	490	2545	2552		488	present	present	present	JJ	DATE	pobj	O	-1	O
+0	21	491	2552	2553	S	477	.	.	.	.	O	punct	O	-1	O
+0	22	492	2554	2556	S	493	He	He	he	PRP	O	nsubj	O	-1	O
+0	22	493	2557	2562	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	22	494	2563	2565	S	495	to	to	to	TO	O	aux	O	-1	O
+0	22	495	2566	2573	S	493	explain	explain	explain	VB	O	xcomp	O	-1	B-verb.communication
+0	22	496	2574	2577	S	497	his	his	he	PRP$	O	poss	O	-1	O
+0	22	497	2578	2583	S	495	views	views	view	NNS	O	dobj	O	-1	B-noun.cognition
+0	22	498	2584	2586	S	495	to	to	to	TO	O	prep	O	-1	O
+0	22	499	2587	2590	S	501	the	the	the	DT	O	det	O	-1	O
+0	22	500	2591	2602	S	501	Self-Taught	Self-Taught	self-taught	JJ	MISC	amod	O	-1	O
+0	22	501	2603	2606		498	Man	Man	man	NN	MISC	pobj	O	-1	B-noun.person
+0	22	502	2606	2607	S	495	,	,	,	,	O	punct	O	-1	O
+0	22	503	2608	2609	S	506	a	a	a	DT	O	det	O	-1	O
+0	22	504	2610	2616	S	506	lonely	lonely	lonely	JJ	O	amod	O	-1	O
+0	22	505	2617	2621	S	506	cafe	cafe	cafe	NN	O	nn	O	-1	B-noun.artifact
+0	22	506	2622	2634		495	acquaintance	acquaintance	acquaintance	NN	O	dobj	O	-1	B-noun.cognition
+0	22	507	2634	2635	S	493	,	,	,	,	O	punct	O	-1	O
+0	22	508	2636	2639	S	493	but	but	but	CC	O	cc	O	-1	O
+0	22	509	2640	2642	S	512	he	he	he	PRP	O	nsubj	O	-1	O
+0	22	510	2643	2646		512	can	can	can	MD	O	aux	O	-1	O
+0	22	511	2646	2649	S	512	not	not	not	RB	O	neg	O	-1	O
+0	22	512	2650	2658	S	493	persuade	persuade	persuade	VB	O	conj	O	-1	B-verb.social
+0	22	513	2659	2662	S	512	him	him	he	PRP	O	dobj	O	-1	O
+0	22	514	2663	2667	S	520	that	that	that	IN	O	complm	O	-1	O
+0	22	515	2668	2673	S	516	human	human	human	JJ	O	amod	O	-1	O
+0	22	516	2674	2678	S	520	love	love	love	NN	O	nsubj	O	-1	B-noun.feeling
+0	22	517	2679	2681	S	520	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	22	518	2682	2686	S	520	just	just	just	RB	O	advmod	O	-1	O
+0	22	519	2687	2689	S	520	an	an	a	DT	O	det	O	-1	O
+0	22	520	2690	2697		512	essence	essence	essence	NN	O	ccomp	O	-1	B-noun.cognition
+0	22	521	2697	2698	S	493	,	,	,	,	O	punct	O	-1	O
+0	22	522	2699	2702	S	493	and	and	and	CC	O	cc	O	-1	O
+0	22	523	2703	2707	S	525	that	that	that	IN	O	complm	O	-1	O
+0	22	524	2708	2713	S	525	there	there	there	EX	O	expl	O	-1	O
+0	22	525	2714	2716	S	493	is	is	be	VBZ	O	conj	O	-1	B-verb.stative
+0	22	526	2717	2719	S	527	no	no	no	DT	O	det	O	-1	O
+0	22	527	2720	2727	S	525	purpose	purpose	purpose	NN	O	nsubj	O	-1	B-noun.cognition
+0	22	528	2728	2730	S	527	to	to	to	TO	O	prep	O	-1	O
+0	22	529	2731	2740		528	existence	existence	existence	NN	O	pobj	O	-1	B-noun.state
+0	22	530	2740	2741	S	525	,	,	,	,	O	punct	O	-1	O
+0	22	531	2742	2746	S	533	only	only	only	RB	O	advmod	O	-1	O
+0	22	532	2747	2748		533	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	22	533	2748	2759		525	nothingness	nothingness	nothingness	NN	O	xcomp	I-QUOTE	-1	O
+0	22	534	2759	2760		493	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	22	535	2760	2761	S	493	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	23	536	2762	2769	S	545	Despite	Despite	despite	IN	O	prep	O	-1	O
+0	23	537	2770	2773	S	538	his	his	he	PRP$	O	poss	O	-1	O
+0	23	538	2774	2781	S	536	despair	despair	despair	NN	O	pobj	O	-1	B-noun.state
+0	23	539	2782	2785	S	536	and	and	and	CC	O	cc	O	-1	O
+0	23	540	2786	2796	S	536	abandoning	abandoning	abandon	VBG	O	conj	O	-1	B-verb.possession
+0	23	541	2797	2800	S	542	his	his	he	PRP$	O	poss	O	-1	O
+0	23	542	2801	2809		540	research	research	research	NN	O	dobj	O	-1	B-noun.act
+0	23	543	2809	2810	S	545	,	,	,	,	O	punct	O	-1	O
+0	23	544	2811	2820	S	545	Roquentin	Roquentin	Roquentin	NNP	PERSON	nsubj	O	1	O
+0	23	545	2821	2828	S	-1	chooses	chooses	choose	VBZ	O	null	O	-1	B-verb.cognition
+0	23	546	2829	2831	S	547	to	to	to	TO	O	aux	O	-1	O
+0	23	547	2832	2836	S	545	move	move	move	VB	O	xcomp	O	-1	B-verb.motion
+0	23	548	2837	2839	S	547	to	to	to	TO	O	prep	O	-1	O
+0	23	549	2840	2845	S	548	Paris	Paris	Paris	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	23	550	2846	2849	S	547	and	and	and	CC	O	cc	O	-1	O
+0	23	551	2850	2855	S	547	write	write	write	VB	O	conj	O	-1	B-verb.creation
+0	23	552	2856	2857	S	553	a	a	a	DT	O	det	O	-1	O
+0	23	553	2858	2863		551	novel	novel	novel	NN	O	dobj	O	-1	B-noun.communication
+0	23	554	2863	2864	N	545	.	.	.	.	O	punct	O	-1	O

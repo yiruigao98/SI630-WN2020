@@ -1,0 +1,930 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	5	S	1	Harry	Harry	Harry	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	6	12		7	Haller	Haller	Haller	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	2	12	13	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	14	15	S	5	a	a	a	DT	O	det	O	-1	O
+0	0	4	16	27	S	5	middle-aged	middle-aged	middle-aged	JJ	O	amod	O	-1	O
+0	0	5	28	40		1	intellectual	intellectual	intellectual	NN	O	appos	O	-1	B-noun.person
+0	0	6	40	41	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	7	42	47	N	-1	moves	moves	move	VBZ	O	null	O	-1	B-verb.motion
+0	0	8	48	52	S	7	into	into	into	IN	O	prep	O	-1	O
+0	0	9	53	54	S	11	a	a	a	DT	O	det	O	-1	O
+0	0	10	55	62	S	11	lodging	lodging	lodging	NN	O	nn	O	-1	B-noun.artifact
+0	0	11	63	68	S	8	house	house	house	NN	O	pobj	O	-1	I-noun.artifact
+0	0	12	69	71	S	11	in	in	in	IN	O	prep	O	-1	O
+0	0	13	72	73	S	17	a	a	a	DT	O	det	O	-1	O
+0	0	14	74	86		17	medium-sized	medium-sized	medium-sized	JJ	O	amod	O	-1	O
+0	0	15	86	87	S	17	,	,	,	,	O	punct	O	-1	O
+0	0	16	88	95	S	17	generic	generic	generic	JJ	O	amod	O	-1	O
+0	0	17	96	100		12	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	0	18	100	101	S	17	,	,	,	,	O	punct	O	-1	O
+0	0	19	102	107	S	22	which	which	which	WDT	O	nsubjpass	O	-1	O
+0	0	20	108	110	S	22	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	0	21	111	116	N	22	never	never	never	RB	O	neg	O	-1	O
+0	0	22	117	122		17	named	named	name	VBN	O	rcmod	O	-1	B-verb.communication
+0	0	23	122	123	S	7	.	.	.	.	O	punct	O	-1	O
+0	1	24	124	134	S	29	Despairing	Despairing	despair	VBG	O	dep	O	-1	B-verb.emotion
+0	1	25	135	138	S	24	and	and	and	CC	O	cc	O	-1	O
+0	1	26	139	149		24	melancholy	melancholy	melancholy	JJ	O	conj	O	-1	O
+0	1	27	149	150	S	29	,	,	,	,	O	punct	O	-1	O
+0	1	28	151	156	S	29	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	1	29	157	162	S	-1	feels	feels	feel	VBZ	O	null	O	-1	B-verb.emotion
+0	1	30	163	170	S	35	himself	himself	himself	PRP	O	nsubj	O	-1	O
+0	1	31	171	173	S	35	to	to	to	TO	O	aux	O	-1	O
+0	1	32	174	176	S	35	be	be	be	VB	O	cop	O	-1	O
+0	1	33	177	178		35	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	1	34	178	179	S	35	a	a	a	DT	O	det	I-QUOTE	-1	O
+0	1	35	180	184	N	29	wolf	wolf	wolf	NN	O	ccomp	I-QUOTE	-1	B-noun.animal
+0	1	36	185	187	S	35	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	1	37	188	191	S	38	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	1	38	192	199		36	Steppes	Steppes	Steppes	NNP	O	pobj	I-QUOTE	-1	O
+0	1	39	199	200		29	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	1	40	200	201	S	29	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	1	41	202	204	S	29	or	or	or	CC	O	cc	O	-1	O
+0	1	42	205	206		29	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	1	43	206	217		46	Steppenwolf	Steppenwolf	Steppenwolf	NNP	O	dep	I-QUOTE	-1	O
+0	1	44	217	218		43	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	1	45	218	219	S	43	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	1	46	220	226	S	29	adrift	adrift	adrift	NN	O	dobj	O	-1	O
+0	1	47	227	230	S	46	and	and	and	CC	O	cc	O	-1	O
+0	1	48	231	236	S	46	alone	alone	alone	RB	O	advmod	O	-1	O
+0	1	49	237	239	S	46	in	in	in	IN	O	prep	O	-1	O
+0	1	50	240	241	S	51	a	a	a	DT	O	det	O	-1	O
+0	1	51	242	247	S	49	world	world	world	NN	O	pobj	O	-1	B-noun.object
+0	1	52	248	252	N	54	that	that	that	WDT	O	nsubj	O	-1	O
+0	1	53	253	255	S	54	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	54	256	272	S	51	incomprehensible	incomprehensible	incomprehensible	NN	O	dep	O	-1	B-noun.person
+0	1	55	273	275	S	54	to	to	to	TO	O	prep	O	-1	O
+0	1	56	276	279	S	55	him	him	he	PRP	O	pobj	O	2	O
+0	1	57	280	283	S	29	and	and	and	CC	O	cc	O	-1	O
+0	1	58	284	290	S	29	offers	offers	offer	VBZ	O	conj	O	-1	B-verb.possession
+0	1	59	291	294	S	58	him	him	he	PRP	O	iobj	O	2	O
+0	1	60	295	297	S	61	no	no	no	DT	O	det	O	-1	O
+0	1	61	298	301		58	joy	joy	joy	NN	O	dobj	O	-1	B-noun.feeling
+0	1	62	301	302	S	29	.	.	.	.	O	punct	O	-1	O
+0	2	63	303	314	S	64	Steppenwolf	Steppenwolf	Steppenwolf	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	2	64	315	323	N	-1	recounts	recounts	recount	VBZ	O	null	O	-1	B-verb.communication
+0	2	65	324	329		67	Harry	Harry	Harry	NNP	PERSON	poss	O	2	B-noun.person
+0	2	66	329	331	S	65	’s	's	's	POS	O	possessive	O	-1	O
+0	2	67	332	336	S	64	pain	pain	pain	NN	O	dobj	O	-1	B-noun.state
+0	2	68	337	340	S	67	and	and	and	CC	O	cc	O	-1	O
+0	2	69	341	348	S	67	anxiety	anxiety	anxiety	NN	O	conj	O	-1	B-noun.state
+0	2	70	349	351	S	72	as	as	as	IN	O	mark	O	-1	O
+0	2	71	352	354	S	72	he	he	he	PRP	O	nsubj	O	2	O
+0	2	72	355	360	S	64	tries	tries	try	VBZ	O	advcl	O	-1	B-verb.social
+0	2	73	361	363	S	74	to	to	to	TO	O	aux	O	-1	O
+0	2	74	364	372	S	72	overcome	overcome	overcome	VB	O	xcomp	O	-1	B-verb.competition
+0	2	75	373	376	S	77	his	his	he	PRP$	O	poss	O	2	O
+0	2	76	377	386	S	77	crippling	crippling	crippling	JJ	O	amod	O	-1	O
+0	2	77	387	392	N	74	sense	sense	sense	NN	O	dobj	O	-1	B-noun.cognition
+0	2	78	393	395	S	77	of	of	of	IN	O	prep	O	-1	O
+0	2	79	396	407	S	78	dislocation	dislocation	dislocation	NN	O	pobj	O	-1	B-noun.event
+0	2	80	408	411	S	79	and	and	and	CC	O	cc	O	-1	O
+0	2	81	412	419	S	79	despair	despair	despair	NN	O	conj	O	-1	B-noun.state
+0	2	82	420	422	S	74	at	at	at	IN	O	prep	O	-1	O
+0	2	83	423	426	S	84	the	the	the	DT	O	det	O	-1	O
+0	2	84	427	435	S	82	futility	futility	futility	NN	O	pobj	O	-1	B-noun.attribute
+0	2	85	436	438	S	84	of	of	of	IN	O	prep	O	-1	O
+0	2	86	439	447		85	humanity	humanity	humanity	NN	O	pobj	O	-1	B-noun.group
+0	2	87	447	448	S	64	.	.	.	.	O	punct	O	-1	O
+0	3	88	449	454	S	90	Harry	Harry	Harry	NNP	PERSON	nsubjpass	O	2	B-noun.person
+0	3	89	455	457	S	90	is	is	be	VBZ	O	auxpass	O	-1	O
+0	3	90	458	466	S	-1	repulsed	repulsed	repulse	VBN	O	null	O	-1	B-verb.competition
+0	3	91	467	469	S	90	by	by	by	IN	O	prep	O	-1	O
+0	3	92	470	473	S	99	the	the	the	DT	O	det	O	-1	O
+0	3	93	474	484		99	productive	productive	productive	JJ	O	amod	O	-1	O
+0	3	94	484	485	S	99	,	,	,	,	O	punct	O	-1	O
+0	3	95	486	495		99	organized	organized	organize	VBN	O	amod	O	-1	O
+0	3	96	495	496	S	99	,	,	,	,	O	punct	O	-1	O
+0	3	97	497	500	S	99	and	and	and	CC	O	cc	O	-1	O
+0	3	98	501	509	N	99	diligent	diligent	diligent	JJ	O	amod	O	-1	O
+0	3	99	510	518	S	91	optimism	optimism	optimism	NN	O	pobj	O	-1	B-noun.feeling
+0	3	100	519	521	S	99	of	of	of	IN	O	prep	O	-1	O
+0	3	101	522	525	S	102	the	the	the	DT	O	det	O	-1	O
+0	3	102	526	537		100	bourgeoisie	bourgeoisie	bourgeoisie	NN	O	pobj	O	-1	B-noun.group
+0	3	103	537	538	S	99	,	,	,	,	O	punct	O	-1	O
+0	3	104	539	541	S	99	or	or	or	CC	O	cc	O	-1	O
+0	3	105	542	548	S	106	middle	middle	middle	JJ	O	amod	O	-1	O
+0	3	106	549	554		99	class	class	class	NN	O	conj	O	-1	B-noun.group
+0	3	107	554	555	S	90	.	.	.	.	O	punct	O	-1	O
+0	4	108	556	560	S	109	Even	Even	even	RB	O	advmod	O	-1	O
+0	4	109	561	563		113	so	so	so	RB	O	advmod	O	-1	O
+0	4	110	563	564	S	113	,	,	,	,	O	punct	O	-1	O
+0	4	111	565	567	S	113	he	he	he	PRP	O	nsubjpass	O	2	O
+0	4	112	568	570	S	113	is	is	be	VBZ	O	auxpass	O	-1	O
+0	4	113	571	580	N	-1	bewitched	bewitched	bewitch	VBN	O	null	O	-1	B-verb.emotion
+0	4	114	581	583	S	113	by	by	by	IN	O	prep	O	-1	O
+0	4	115	584	587	S	116	its	its	its	PRP$	O	poss	O	-1	O
+0	4	116	588	594		114	charms	charms	charm	NNS	O	pobj	O	-1	B-noun.attribute
+0	4	117	594	595	S	113	.	.	.	.	O	punct	O	-1	O
+0	5	118	596	602	S	-1	Caught	Caught	caught	JJ	O	null	O	-1	O
+0	5	119	603	610	S	118	between	between	between	IN	O	prep	O	-1	O
+0	5	120	611	614	S	121	the	the	the	DT	O	nsubj	O	-1	O
+0	5	121	615	620	S	119	urges	urges	urge	VBZ	O	pobj	O	-1	B-verb.communication
+0	5	122	621	623	S	121	of	of	of	IN	O	prep	O	-1	O
+0	5	123	624	627	S	124	his	his	he	PRP$	O	poss	O	2	O
+0	5	124	628	637	S	122	wolf-half	wolf-half	wolf-half	NN	O	pobj	O	-1	B-noun.artifact
+0	5	125	638	641	S	124	and	and	and	CC	O	cc	O	-1	O
+0	5	126	642	645	N	127	his	his	he	PRP$	O	poss	O	2	O
+0	5	127	646	654		124	man-half	man-half	man-half	NN	O	conj	O	-1	O
+0	5	128	654	655	S	121	,	,	,	,	O	punct	O	-1	O
+0	5	129	656	661	S	133	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	5	130	662	665	S	133	can	can	can	MD	O	aux	O	-1	O
+0	5	131	666	673	S	132	neither	neither	neither	CC	O	cc	O	-1	O
+0	5	132	674	684	S	133	completely	completely	completely	RB	O	advmod	O	-1	O
+0	5	133	685	692	S	121	disavow	disavow	disavow	VB	O	ccomp	O	-1	B-verb.communication
+0	5	134	693	696	S	133	nor	nor	nor	CC	O	cc	O	-1	O
+0	5	135	697	704	S	133	embrace	embrace	embrace	VB	O	conj	O	-1	B-verb.stative
+0	5	136	705	706	S	138	a	a	a	DT	O	det	O	-1	O
+0	5	137	707	719	N	138	conventional	conventional	conventional	JJ	O	amod	O	-1	O
+0	5	138	720	723	S	135	way	way	way	NN	O	dobj	O	-1	B-noun.act
+0	5	139	724	726	S	138	of	of	of	IN	O	prep	O	-1	O
+0	5	140	727	731		139	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	5	141	731	732	S	118	.	.	.	.	O	punct	O	-1	O
+0	6	142	733	735	S	145	He	He	he	PRP	O	nsubj	O	2	O
+0	6	143	736	745	S	145	regularly	regularly	regularly	RB	O	advmod	O	-1	O
+0	6	144	746	758	S	145	contemplates	contemplates	contemplate	VBZ	O	aux	O	-1	B-verb.perception
+0	6	145	759	769	S	-1	committing	committing	commit	VBG	O	null	O	-1	B-verb.social
+0	6	146	770	777		145	suicide	suicide	suicide	NN	O	dobj	O	-1	B-noun.act
+0	6	147	777	778	S	145	.	.	.	.	O	punct	O	-1	O
+0	7	148	779	782	S	149	One	One	one	CD	NUMBER	num	O	-1	O
+0	7	149	783	788		173	night	night	night	NN	TIME	nsubjpass	O	-1	B-noun.time
+0	7	150	788	789	S	149	,	,	,	,	O	punct	O	-1	O
+0	7	151	790	795	S	153	while	while	while	IN	O	mark	O	-1	O
+0	7	152	796	801	S	153	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	7	153	802	807	S	164	walks	walks	walk	VBZ	O	advcl	O	-1	B-verb.motion
+0	7	154	808	817	S	153	unhappily	unhappily	unhappily	RB	O	advmod	O	-1	O
+0	7	155	818	825	S	153	through	through	through	IN	O	prep	O	-1	O
+0	7	156	826	828	S	158	an	an	a	DT	O	det	O	-1	O
+0	7	157	829	832	N	158	old	old	old	JJ	O	amod	O	-1	O
+0	7	158	833	840	S	155	quarter	quarter	quarter	NN	O	pobj	O	-1	B-noun.quantity
+0	7	159	841	843	S	158	of	of	of	IN	O	prep	O	-1	O
+0	7	160	844	847	S	161	the	the	the	DT	O	det	O	-1	O
+0	7	161	848	852		159	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	7	162	852	853	S	164	,	,	,	,	O	punct	O	-1	O
+0	7	163	854	856	S	164	he	he	he	PRP	O	nsubj	O	2	O
+0	7	164	857	861	S	173	sees	sees	see	VBZ	O	dep	O	-1	B-verb.perception
+0	7	165	862	863	S	166	a	a	a	DT	O	det	O	-1	O
+0	7	166	864	868	S	164	sign	sign	sign	NN	O	dobj	O	-1	B-noun.communication
+0	7	167	869	873	S	164	over	over	over	IN	O	prep	O	-1	O
+0	7	168	874	875	S	169	a	a	a	DT	O	det	O	-1	O
+0	7	169	876	880	S	167	door	door	door	NN	O	pobj	O	-1	B-noun.artifact
+0	7	170	881	883	S	173	he	he	he	PRP	O	nsubj	O	2	O
+0	7	171	884	887	S	173	has	has	have	VBZ	O	aux	O	-1	O
+0	7	172	888	893	S	173	never	never	never	RB	O	neg	O	-1	O
+0	7	173	894	901	N	-1	noticed	noticed	notice	VBN	O	null	O	-1	B-verb.perception
+0	7	174	902	908		173	before	before	before	IN	O	advmod	O	-1	O
+0	7	175	908	909	S	173	.	.	.	.	O	punct	O	-1	O
+0	8	176	910	913	S	177	The	The	the	DT	O	det	O	-1	O
+0	8	177	914	918	S	178	sign	sign	sign	NN	O	nsubj	O	-1	B-noun.communication
+0	8	178	919	924	S	-1	reads	reads	read	VBZ	O	null	O	-1	B-verb.cognition
+0	8	179	925	926		181	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	8	180	926	931	S	181	MAGIC	MAGIC	MAGIC	NNP	O	nn	I-QUOTE	-1	O
+0	8	181	932	939		178	THEATER	THEATER	THEATER	NNP	O	dobj	I-QUOTE	-1	O
+0	8	182	939	940		181	—	--	--	:	O	punct	I-QUOTE	-1	O
+0	8	183	940	948	S	184	ENTRANCE	ENTRANCE	ENTRANCE	NNP	O	nn	I-QUOTE	-1	O
+0	8	184	949	952	S	181	NOT	NOT	NOT	NNP	O	dep	I-QUOTE	-1	O
+0	8	185	953	956	S	181	FOR	FOR	for	IN	O	prep	I-QUOTE	-1	O
+0	8	186	957	966		185	EVERYBODY	EVERYBODY	everybody	NN	O	pobj	I-QUOTE	-1	O
+0	8	187	966	967		178	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	8	188	967	968	N	178	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	9	189	969	973	S	190	More	More	more	RBR	O	advmod	O	-1	O
+0	9	190	974	981	S	-1	letters	letters	letter	NNS	O	null	O	-1	B-noun.communication
+0	9	191	982	991	S	190	reflected	reflected	reflect	VBN	O	partmod	O	-1	B-verb.perception
+0	9	192	992	994	S	191	on	on	on	IN	O	prep	O	-1	O
+0	9	193	995	998	S	195	the	the	the	DT	O	det	O	-1	O
+0	9	194	999	1005	S	195	street	street	street	NN	O	nn	O	-1	B-noun.artifact
+0	9	195	1006	1011	S	192	spell	spell	spell	NN	O	pobj	O	-1	B-noun.state
+0	9	196	1012	1015	S	191	out	out	out	IN	O	prep	O	-1	O
+0	9	197	1016	1017		196	“	``	``	``	O	dep	B-QUOTE	-1	O
+0	9	198	1017	1020	S	197	FOR	FOR	for	IN	O	prep	I-QUOTE	-1	O
+0	9	199	1021	1027	N	200	MADMEN	MADMEN	MADMEN	NNP	O	nn	I-QUOTE	-1	O
+0	9	200	1028	1032		198	ONLY	ONLY	ONLY	NNP	O	pobj	I-QUOTE	-1	O
+0	9	201	1032	1033		190	!	!	!	.	O	punct	I-QUOTE	-1	O
+0	9	202	1033	1034	S	190	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	10	203	1035	1040	S	206	Harry	Harry	Harry	NNP	O	nsubj	O	-1	B-noun.person
+0	10	204	1041	1044		206	can	can	can	MD	O	aux	O	-1	O
+0	10	205	1044	1047	S	206	not	not	not	RB	O	neg	O	-1	O
+0	10	206	1048	1052	S	-1	open	open	open	VB	O	null	O	-1	B-verb.contact
+0	10	207	1053	1056	S	208	the	the	the	DT	O	det	O	-1	O
+0	10	208	1057	1061		206	door	door	door	NN	O	dobj	O	-1	B-noun.artifact
+0	10	209	1061	1062	S	206	,	,	,	,	O	punct	O	-1	O
+0	10	210	1063	1066	S	206	but	but	but	CC	O	cc	O	-1	O
+0	10	211	1067	1068	S	213	a	a	a	DT	O	det	O	-1	O
+0	10	212	1069	1080	S	213	sign-bearer	sign-bearer	sign-bearer	JJ	O	amod	O	-1	O
+0	10	213	1081	1092	N	206	advertising	advertising	advertising	NN	O	conj	O	-1	B-noun.communication
+0	10	214	1093	1096	S	216	the	the	the	DT	O	det	O	-1	O
+0	10	215	1097	1102	S	216	Magic	Magic	Magic	NNP	ORGANIZATION	nn	O	5	B-noun.group
+0	10	216	1103	1110	S	217	Theater	Theater	Theater	NNP	ORGANIZATION	nsubj	O	5	I-noun.group
+0	10	217	1111	1116	S	213	gives	gives	give	VBZ	O	rcmod	O	-1	B-verb.possession
+0	10	218	1117	1122	S	217	Harry	Harry	Harry	NNP	PERSON	iobj	O	2	B-noun.person
+0	10	219	1123	1124	S	220	a	a	a	DT	O	det	O	-1	O
+0	10	220	1125	1132	S	217	booklet	booklet	booklet	NN	O	dobj	O	-1	B-noun.communication
+0	10	221	1133	1141	S	223	entitled	entitled	entitle	VBN	O	amod	O	-1	O
+0	10	222	1142	1143		223	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	10	223	1143	1151	S	220	Treatise	Treatise	treatise	NN	O	dep	I-QUOTE	-1	B-noun.communication
+0	10	224	1152	1154	S	223	on	on	on	IN	O	prep	I-QUOTE	-1	O
+0	10	225	1155	1158	N	226	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	10	226	1159	1170		224	Steppenwolf	Steppenwolf	Steppenwolf	NNP	O	pobj	I-QUOTE	-1	O
+0	10	227	1170	1171		206	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	10	228	1171	1172	S	206	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	11	229	1173	1177	S	230	This	This	this	DT	O	det	O	-1	O
+0	11	230	1178	1185	S	231	booklet	booklet	booklet	NN	O	nsubj	O	-1	B-noun.communication
+0	11	231	1186	1194	S	-1	contains	contains	contain	VBZ	O	null	O	-1	B-verb.stative
+0	11	232	1195	1196	S	234	a	a	a	DT	O	det	O	-1	O
+0	11	233	1197	1204	S	234	precise	precise	precise	JJ	O	amod	O	-1	O
+0	11	234	1205	1216	S	231	description	description	description	NN	O	dobj	O	-1	B-noun.communication
+0	11	235	1217	1219	S	234	of	of	of	IN	O	prep	O	-1	O
+0	11	236	1220	1223	N	237	the	the	the	DT	O	det	O	-1	O
+0	11	237	1224	1227	S	235	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	11	238	1228	1233	S	239	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	11	239	1234	1239	S	234	feels	feels	feel	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	11	240	1240	1242	S	239	as	as	as	IN	O	prep	O	-1	O
+0	11	241	1243	1244	S	242	a	a	a	DT	O	det	O	-1	O
+0	11	242	1245	1256		240	Steppenwolf	Steppenwolf	Steppenwolf	NNP	LOCATION	pobj	O	-1	O
+0	11	243	1256	1257	S	231	.	.	.	.	O	punct	O	-1	O
+0	12	244	1258	1260	S	245	It	It	it	PRP	O	nsubj	O	-1	O
+0	12	245	1261	1267	S	-1	speaks	speaks	speak	VBZ	O	null	O	-1	B-verb.communication
+0	12	246	1268	1270	S	245	of	of	of	IN	O	prep	O	-1	O
+0	12	247	1271	1272	S	248	a	a	a	DT	O	det	O	-1	O
+0	12	248	1273	1279	S	246	person	person	person	NN	O	pobj	O	-1	B-noun.person
+0	12	249	1280	1283	S	252	who	who	who	WP	O	nsubj	O	-1	O
+0	12	250	1284	1286	S	252	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	12	251	1287	1291	N	252	half	half	half	JJ	O	amod	O	-1	O
+0	12	252	1292	1295	S	248	man	man	man	NN	O	rcmod	O	-1	B-noun.person
+0	12	253	1296	1299	S	252	and	and	and	CC	O	cc	O	-1	O
+0	12	254	1300	1304	S	255	half	half	half	NN	O	nn	O	-1	B-noun.quantity
+0	12	255	1305	1309	S	252	wolf	wolf	wolf	NN	O	conj	O	-1	B-noun.person
+0	12	256	1310	1313	S	257	who	who	who	WP	O	nsubj	O	-1	O
+0	12	257	1314	1319	S	252	hates	hates	hate	VBZ	O	rcmod	O	-1	B-verb.emotion
+0	12	258	1320	1323	S	260	the	the	the	DT	O	det	O	-1	O
+0	12	259	1324	1333	S	260	bourgeois	bourgeois	bourgeois	JJ	O	amod	O	-1	O
+0	12	260	1334	1343	S	257	lifestyle	lifestyle	lifestyle	NN	O	dobj	O	-1	B-noun.attribute
+0	12	261	1344	1347	S	257	but	but	but	CC	O	cc	O	-1	O
+0	12	262	1348	1351	S	263	who	who	who	WP	O	nsubj	O	-1	O
+0	12	263	1352	1354	S	257	is	is	be	VBZ	O	conj	O	-1	B-verb.stative
+0	12	264	1355	1359	N	263	also	also	also	RB	O	advmod	O	-1	O
+0	12	265	1360	1362	S	263	at	at	at	IN	O	prep	O	-1	O
+0	12	266	1363	1366	S	268	the	the	the	DT	O	det	O	-1	O
+0	12	267	1367	1371	S	268	same	same	same	JJ	O	amod	O	-1	O
+0	12	268	1372	1376	S	265	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	12	269	1377	1386	S	268	incapable	incapable	incapable	JJ	O	amod	O	-1	O
+0	12	270	1387	1389	S	269	of	of	of	IN	O	prep	O	-1	O
+0	12	271	1390	1402	S	270	surrendering	surrendering	surrender	VBG	O	pcomp	O	-1	B-verb.competition
+0	12	272	1403	1410	S	271	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	12	273	1411	1413	S	271	to	to	to	TO	O	prep	O	-1	O
+0	12	274	1414	1417	S	275	the	the	the	DT	O	det	O	-1	O
+0	12	275	1418	1426	N	273	pleasure	pleasure	pleasure	NN	O	pobj	O	-1	B-noun.feeling
+0	12	276	1427	1429	S	275	of	of	of	IN	O	prep	O	-1	O
+0	12	277	1430	1433	S	278	the	the	the	DT	O	det	O	-1	O
+0	12	278	1434	1440		276	senses	senses	sens	NNS	O	pobj	O	-1	B-noun.cognition
+0	12	279	1440	1441	S	245	.	.	.	.	O	punct	O	-1	O
+0	13	280	1442	1447	S	285	Harry	Harry	Harry	NNP	O	nsubj	O	-1	B-noun.person
+0	13	281	1448	1452	S	285	soon	soon	soon	RB	O	advmod	O	-1	O
+0	13	282	1453	1460	S	285	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	13	283	1461	1465	S	285	even	even	even	RB	O	advmod	O	-1	O
+0	13	284	1466	1470	S	285	more	more	more	RBR	O	advmod	O	-1	O
+0	13	285	1471	1478	S	-1	certain	certain	certain	JJ	O	null	O	-1	O
+0	13	286	1479	1483	S	289	that	that	that	IN	O	complm	O	-1	O
+0	13	287	1484	1486	S	289	he	he	he	PRP	O	nsubj	O	-1	O
+0	13	288	1487	1491	S	289	must	must	must	MD	O	aux	O	-1	O
+0	13	289	1492	1496	N	285	kill	kill	kill	VB	O	ccomp	O	-1	B-verb.contact
+0	13	290	1497	1504	S	289	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	13	291	1505	1516		289	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	13	292	1516	1517	S	285	.	.	.	.	O	punct	O	-1	O
+0	14	293	1518	1520	S	301	At	At	at	IN	O	prep	O	-1	O
+0	14	294	1521	1522	S	295	a	a	a	DT	O	det	O	-1	O
+0	14	295	1523	1532		297	professor	professor	professor	NN	O	poss	O	-1	B-noun.person
+0	14	296	1532	1534	S	295	’s	's	's	POS	O	possessive	O	-1	O
+0	14	297	1535	1540		293	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	14	298	1540	1541	S	301	,	,	,	,	O	punct	O	-1	O
+0	14	299	1542	1547	S	301	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	14	300	1548	1555	S	301	gravely	gravely	gravely	RB	O	advmod	O	-1	O
+0	14	301	1556	1563	N	-1	insults	insults	insult	VBZ	O	null	O	-1	B-verb.communication
+0	14	302	1564	1567	S	304	his	his	he	PRP$	O	poss	O	2	O
+0	14	303	1568	1574	S	304	former	former	former	JJ	O	amod	O	-1	O
+0	14	304	1575	1584	S	301	colleague	colleague	colleague	NN	O	dobj	O	-1	B-noun.person
+0	14	305	1585	1590	SS	304	about	about	about	IN	O	prep	O	-1	O
+0	14	306	1592	1595	S	307	the	the	the	DT	O	det	O	-1	O
+0	14	307	1596	1599	S	305	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	14	308	1600	1606		307	Goethe	Goethe	Goethe	NNP	PERSON	dep	O	-1	B-noun.person
+0	14	309	1606	1607	S	308	,	,	,	,	O	punct	O	-1	O
+0	14	310	1608	1611	S	313	the	the	the	DT	O	det	O	-1	O
+0	14	311	1612	1618	S	313	famous	famous	famous	JJ	O	amod	O	-1	O
+0	14	312	1619	1625	S	313	German	German	german	JJ	MISC	amod	O	-1	O
+0	14	313	1626	1630		308	poet	poet	poet	NN	O	appos	O	-1	B-noun.person
+0	14	314	1630	1631	S	301	,	,	,	,	O	punct	O	-1	O
+0	14	315	1632	1634	N	316	is	is	be	VBZ	O	auxpass	O	-1	O
+0	14	316	1635	1646	S	301	represented	represented	represent	VBN	O	conj	O	-1	B-verb.social
+0	14	317	1647	1649	S	316	in	in	in	IN	O	prep	O	-1	O
+0	14	318	1650	1651	S	319	a	a	a	DT	O	det	O	-1	O
+0	14	319	1652	1660	S	317	portrait	portrait	portrait	NN	O	pobj	O	-1	B-noun.communication
+0	14	320	1661	1665	S	321	that	that	that	WDT	O	nsubj	O	-1	O
+0	14	321	1666	1671	S	319	hangs	hangs	hang	VBZ	O	rcmod	O	-1	B-verb.change
+0	14	322	1672	1674	S	321	in	in	in	IN	O	prep	O	-1	O
+0	14	323	1675	1678	S	324	his	his	he	PRP$	O	poss	O	2	O
+0	14	324	1679	1683		322	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	14	325	1683	1684	S	301	.	.	.	.	O	punct	O	-1	O
+0	15	326	1685	1692	S	339	Feeling	Feeling	feel	VBG	O	csubj	O	-1	B-verb.cognition
+0	15	327	1693	1697	S	329	that	that	that	IN	O	complm	O	-1	O
+0	15	328	1698	1700	S	329	he	he	he	PRP	O	nsubj	O	2	O
+0	15	329	1701	1704	N	339	has	has	have	VBZ	O	advcl	O	-1	B-verb.possession
+0	15	330	1705	1707	S	329	at	at	at	IN	O	prep	O	-1	O
+0	15	331	1708	1712	S	330	last	last	last	JJ	O	pobj	O	-1	O
+0	15	332	1713	1720	S	339	severed	severed	sever	VBD	O	dep	O	-1	B-verb.contact
+0	15	333	1721	1724	S	334	all	all	all	DT	O	det	O	-1	O
+0	15	334	1725	1729	S	332	ties	ties	tie	NNS	O	dobj	O	-1	B-noun.artifact
+0	15	335	1730	1732	S	334	to	to	to	TO	O	prep	O	-1	O
+0	15	336	1733	1741		335	humanity	humanity	humanity	NN	O	pobj	O	-1	B-noun.group
+0	15	337	1741	1742	S	339	,	,	,	,	O	punct	O	-1	O
+0	15	338	1743	1748	S	339	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	15	339	1749	1754	S	-1	plans	plans	plan	VBZ	O	null	O	-1	B-verb.cognition
+0	15	340	1755	1757	S	341	to	to	to	TO	O	aux	O	-1	O
+0	15	341	1758	1764	S	339	commit	commit	commit	VB	O	xcomp	O	-1	B-verb.social
+0	15	342	1765	1772	N	344	suicide	suicide	suicide	NN	O	nn	O	-1	B-noun.act
+0	15	343	1773	1777	S	344	that	that	that	IN	O	dep	O	-1	O
+0	15	344	1778	1785		341	evening	evening	evening	NN	TIME	dobj	O	-1	B-noun.time
+0	15	345	1785	1786	S	339	.	.	.	.	O	punct	O	-1	O
+0	16	346	1787	1794		349	However	However	however	RB	O	advmod	O	-1	O
+0	16	347	1794	1795	S	349	,	,	,	,	O	punct	O	-1	O
+0	16	348	1796	1801	S	349	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	16	349	1802	1807	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	16	350	1808	1810	S	353	an	an	a	DT	O	det	O	-1	O
+0	16	351	1811	1821	S	353	enchanting	enchanting	enchanting	JJ	O	amod	O	-1	O
+0	16	352	1822	1827	S	353	young	young	young	JJ	O	amod	O	-1	O
+0	16	353	1828	1832	S	349	girl	girl	girl	NN	O	dobj	O	-1	B-noun.person
+0	16	354	1833	1835	S	353	in	in	in	IN	O	prep	O	-1	O
+0	16	355	1836	1837	N	356	a	a	a	DT	O	det	O	-1	O
+0	16	356	1838	1844	S	354	tavern	tavern	tavern	NN	O	pobj	O	-1	B-noun.artifact
+0	16	357	1845	1849	S	358	that	that	that	WDT	O	nsubj	O	-1	O
+0	16	358	1850	1855		356	night	night	night	NN	TIME	rcmod	O	-1	B-noun.time
+0	16	359	1855	1856	S	349	,	,	,	,	O	punct	O	-1	O
+0	16	360	1857	1860	S	349	and	and	and	CC	O	cc	O	-1	O
+0	16	361	1861	1864	S	362	she	she	she	PRP	O	nsubj	O	-1	O
+0	16	362	1865	1870	S	349	gives	gives	give	VBZ	O	conj	O	-1	B-verb.possession
+0	16	363	1871	1874	S	362	him	him	he	PRP	O	iobj	O	2	O
+0	16	364	1875	1883	S	367	sensible	sensible	sensible	JJ	O	amod	O	-1	O
+0	16	365	1884	1887	S	364	and	and	and	CC	O	cc	O	-1	O
+0	16	366	1888	1896	S	364	maternal	maternal	maternal	JJ	O	conj	O	-1	O
+0	16	367	1897	1903		362	advice	advice	advice	NN	O	dobj	O	-1	B-noun.communication
+0	16	368	1903	1904	N	349	.	.	.	.	O	punct	O	-1	O
+0	17	369	1905	1908	S	370	The	The	the	DT	O	dep	O	-1	O
+0	17	370	1909	1912	S	371	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	17	371	1913	1917	S	-1	meet	meet	meet	VBP	O	null	O	-1	B-verb.motion
+0	17	372	1918	1923	S	371	again	again	again	RB	O	advmod	O	-1	O
+0	17	373	1924	1927	S	375	the	the	the	DT	DATE	det	O	-1	O
+0	17	374	1928	1937	S	375	following	following	follow	VBG	DATE	amod	O	-1	O
+0	17	375	1938	1942		371	week	week	week	NN	DATE	tmod	O	-1	B-noun.time
+0	17	376	1942	1943	S	371	.	.	.	.	O	punct	O	-1	O
+0	18	377	1944	1951	S	380	Because	Because	because	IN	O	mark	O	-1	O
+0	18	378	1952	1955	S	379	the	the	the	DT	O	det	O	-1	O
+0	18	379	1956	1960	S	380	girl	girl	girl	NN	O	nsubj	O	-1	B-noun.person
+0	18	380	1961	1970	N	-1	resembles	resembles	resemble	VBZ	O	null	O	-1	B-verb.stative
+0	18	381	1971	1972	S	383	a	a	a	DT	O	det	O	-1	O
+0	18	382	1973	1980	S	383	boyhood	boyhood	boyhood	NN	O	nn	O	-1	B-noun.time
+0	18	383	1981	1987	S	380	friend	friend	friend	NN	O	nsubj	O	-1	B-noun.person
+0	18	384	1988	1990	S	383	of	of	of	IN	O	prep	O	-1	O
+0	18	385	1991	1996		384	Harry	Harry	Harry	NNP	PERSON	pobj	O	2	B-noun.person
+0	18	386	1996	1998	S	385	’s	's	's	POS	O	possessive	O	-1	O
+0	18	387	1999	2004	S	385	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	18	388	2005	2011		387	Herman	Herman	Herman	NNP	PERSON	dep	O	-1	B-noun.person
+0	18	389	2011	2012	S	383	,	,	,	,	O	punct	O	-1	O
+0	18	390	2013	2018	S	391	Harry	Harry	Harry	NNP	PERSON	nn	O	2	O
+0	18	391	2019	2026	S	383	guesses	guesses	guess	NNS	O	appos	O	-1	B-noun.communication
+0	18	392	2027	2031	S	395	that	that	that	IN	O	complm	O	-1	O
+0	18	393	2032	2035	N	395	she	she	she	PRP	O	nsubjpass	O	-1	O
+0	18	394	2036	2038	S	395	is	is	be	VBZ	O	auxpass	O	-1	O
+0	18	395	2039	2045	S	391	called	called	call	VBN	O	ccomp	O	-1	B-verb.communication
+0	18	396	2046	2053		395	Hermine	Hermine	Hermine	NNP	PERSON	dobj	O	0	O
+0	18	397	2053	2054	S	380	.	.	.	.	O	punct	O	-1	O
+0	19	398	2055	2057	S	400	He	He	he	PRP	O	nsubj	O	2	O
+0	19	399	2058	2060	S	400	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	19	400	2061	2068		-1	correct	correct	correct	JJ	O	null	O	-1	O
+0	19	401	2068	2069	S	400	.	.	.	.	O	punct	O	-1	O
+0	20	402	2070	2077	S	403	Hermine	Hermine	hermine	NN	PERSON	nsubj	O	0	O
+0	20	403	2078	2084	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	20	404	2085	2087	S	405	to	to	to	TO	O	aux	O	-1	O
+0	20	405	2088	2092	S	403	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	20	406	2093	2098		405	Harry	Harry	Harry	NNP	PERSON	dobj	O	2	B-noun.person
+0	20	407	2098	2099	N	403	.	.	.	.	O	punct	O	-1	O
+0	21	408	2100	2108	S	418	Grateful	Grateful	Grateful	NNP	O	nsubj	O	-1	B-noun.person
+0	21	409	2109	2113	S	412	that	that	that	IN	O	complm	O	-1	O
+0	21	410	2114	2117	S	412	she	she	she	PRP	O	nsubj	O	0	O
+0	21	411	2118	2121	S	412	has	has	have	VBZ	O	aux	O	-1	O
+0	21	412	2122	2128	S	408	broken	broken	break	VBN	O	ccomp	O	-1	B-verb.change
+0	21	413	2129	2136	S	412	through	through	through	RP	O	prt	O	-1	O
+0	21	414	2137	2140	S	415	his	his	he	PRP$	O	poss	O	2	O
+0	21	415	2141	2150		412	isolation	isolation	isolation	NN	O	dobj	O	-1	B-noun.state
+0	21	416	2150	2151	S	418	,	,	,	,	O	punct	O	-1	O
+0	21	417	2152	2154	S	418	he	he	he	PRP	O	nsubj	O	2	O
+0	21	418	2155	2161	S	-1	agrees	agrees	agree	VBZ	O	null	O	-1	B-verb.communication
+0	21	419	2162	2164	N	420	to	to	to	TO	O	aux	O	-1	O
+0	21	420	2165	2169	S	418	obey	obey	obey	VB	O	xcomp	O	-1	B-verb.social
+0	21	421	2170	2173	S	423	all	all	all	DT	O	det	O	-1	O
+0	21	422	2174	2177	S	423	her	her	she	PRP$	O	poss	O	0	O
+0	21	423	2178	2186		420	commands	commands	command	NNS	O	dobj	O	-1	B-noun.communication
+0	21	424	2186	2187	S	418	.	.	.	.	O	punct	O	-1	O
+0	22	425	2188	2195	S	426	Hermine	Hermine	Hermine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	22	426	2196	2203	S	-1	informs	informs	inform	VBZ	O	null	O	-1	B-verb.communication
+0	22	427	2204	2209	S	426	Harry	Harry	Harry	NNP	PERSON	dobj	O	2	B-noun.person
+0	22	428	2210	2214	S	432	that	that	that	WDT	O	nsubj	O	-1	O
+0	22	429	2215	2225	S	432	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	22	430	2226	2229	N	432	she	she	she	PRP	O	nsubj	O	0	O
+0	22	431	2230	2234	S	432	will	will	will	MD	O	aux	O	-1	O
+0	22	432	2235	2239	S	427	make	make	make	VB	O	rcmod	O	-1	B-verb.change
+0	22	433	2240	2243	S	434	him	him	he	PRP	O	nsubj	O	2	O
+0	22	434	2244	2248	S	432	fall	fall	fall	VB	O	xcomp	O	-1	B-verb.motion
+0	22	435	2249	2251	S	434	in	in	in	IN	O	prep	O	-1	O
+0	22	436	2252	2256	S	435	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	22	437	2257	2261	S	436	with	with	with	IN	O	prep	O	-1	O
+0	22	438	2262	2265		437	her	her	she	PRP	O	pobj	O	0	O
+0	22	439	2265	2266	S	426	,	,	,	,	O	punct	O	-1	O
+0	22	440	2267	2271	S	426	then	then	then	RB	O	advmod	O	-1	O
+0	22	441	2272	2275	S	443	she	she	she	PRP	O	nsubj	O	0	O
+0	22	442	2276	2280	S	443	will	will	will	MD	O	aux	O	-1	O
+0	22	443	2281	2284	S	426	ask	ask	ask	VB	O	ccomp	O	-1	B-verb.communication
+0	22	444	2285	2288	S	443	him	him	he	PRP	O	dobj	O	2	O
+0	22	445	2289	2291	S	446	to	to	to	TO	O	aux	O	-1	O
+0	22	446	2292	2296	N	443	kill	kill	kill	VB	O	xcomp	O	-1	B-verb.contact
+0	22	447	2297	2300		446	her	her	she	PRP	O	dobj	O	0	O
+0	22	448	2300	2301	S	426	.	.	.	.	O	punct	O	-1	O
+0	23	449	2302	2309	S	450	Hermine	Hermine	Hermine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	23	450	2310	2317	S	-1	teaches	teaches	teach	VBZ	O	null	O	-1	B-verb.communication
+0	23	451	2318	2323	S	453	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	23	452	2324	2326	S	453	to	to	to	TO	O	aux	O	-1	O
+0	23	453	2327	2332		450	dance	dance	dance	VB	O	ccomp	O	-1	B-verb.motion
+0	23	454	2332	2333	S	450	,	,	,	,	O	punct	O	-1	O
+0	23	455	2334	2339	S	450	finds	finds	find	VBZ	O	conj	O	-1	B-verb.perception
+0	23	456	2340	2343	S	455	him	him	he	PRP	O	iobj	O	2	O
+0	23	457	2344	2345	S	458	a	a	a	DT	O	det	O	-1	O
+0	23	458	2346	2351	S	455	lover	lover	lover	NN	O	dobj	O	-1	B-noun.person
+0	23	459	2352	2357	N	458	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	23	460	2358	2363		459	Maria	Maria	Maria	NNP	PERSON	dep	O	3	O
+0	23	461	2363	2364	S	450	,	,	,	,	O	punct	O	-1	O
+0	23	462	2365	2368	S	450	and	and	and	CC	O	cc	O	-1	O
+0	23	463	2369	2379	S	450	introduces	introduces	introduce	VBZ	O	conj	O	-1	B-verb.communication
+0	23	464	2380	2383	S	463	him	him	he	PRP	O	dobj	O	2	O
+0	23	465	2384	2386	S	463	to	to	to	TO	O	prep	O	-1	O
+0	23	466	2387	2389	S	471	an	an	a	DT	O	det	O	-1	O
+0	23	467	2390	2399	S	471	enigmatic	enigmatic	enigmatic	JJ	O	amod	O	-1	O
+0	23	468	2400	2403	S	467	and	and	and	CC	O	cc	O	-1	O
+0	23	469	2404	2413	S	467	beautiful	beautiful	beautiful	JJ	O	conj	O	-1	O
+0	23	470	2414	2418	S	471	jazz	jazz	jazz	NN	O	nn	O	-1	B-noun.person
+0	23	471	2419	2427	S	465	musician	musician	musician	NN	O	pobj	O	-1	I-noun.person
+0	23	472	2428	2433	N	471	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	23	473	2434	2439		472	Pablo	Pablo	Pablo	NNP	PERSON	dep	O	1	B-noun.person
+0	23	474	2439	2440	S	450	.	.	.	.	O	punct	O	-1	O
+0	24	475	2441	2448	S	482	Through	Through	through	IN	O	prep	O	-1	O
+0	24	476	2449	2456	S	475	Hermine	Hermine	Hermine	NNP	PERSON	pobj	O	0	B-noun.person
+0	24	477	2457	2460	S	476	and	and	and	CC	O	cc	O	-1	O
+0	24	478	2461	2464	S	479	her	her	she	PRP$	O	poss	O	0	O
+0	24	479	2465	2472		476	friends	friends	friend	NNS	O	conj	O	-1	B-noun.person
+0	24	480	2472	2473	S	482	,	,	,	,	O	punct	O	-1	O
+0	24	481	2474	2479	S	482	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	24	482	2480	2486	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	24	483	2487	2489	S	484	to	to	to	TO	O	aux	O	-1	O
+0	24	484	2490	2497	N	482	immerse	immerse	immerse	VB	O	xcomp	O	-1	B-verb.contact
+0	24	485	2498	2505	S	484	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	24	486	2506	2508	S	484	in	in	in	IN	O	prep	O	-1	O
+0	24	487	2509	2510	S	493	a	a	a	DT	O	det	O	-1	O
+0	24	488	2511	2521		493	hedonistic	hedonistic	hedonistic	JJ	O	amod	O	-1	O
+0	24	489	2521	2522	S	488	,	,	,	,	O	punct	O	-1	O
+0	24	490	2523	2525	S	488	or	or	or	CC	O	cc	O	-1	O
+0	24	491	2526	2541		488	pleasure-filled	pleasure-filled	pleasure-filled	JJ	O	conj	O	-1	O
+0	24	492	2541	2542	S	488	,	,	,	,	O	punct	O	-1	O
+0	24	493	2543	2546	S	486	way	way	way	NN	O	pobj	O	-1	B-noun.act
+0	24	494	2547	2549	S	493	of	of	of	IN	O	prep	O	-1	O
+0	24	495	2550	2554		494	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	24	496	2554	2555	S	482	.	.	.	.	O	punct	O	-1	O
+0	25	497	2556	2558	S	498	He	He	he	PRP	O	nsubj	O	2	O
+0	25	498	2559	2564	N	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	25	499	2565	2567	S	500	to	to	to	TO	O	aux	O	-1	O
+0	25	500	2568	2578	S	498	appreciate	appreciate	appreciate	VB	O	xcomp	O	-1	B-verb.emotion
+0	25	501	2579	2582	S	504	all	all	all	PDT	O	predet	O	-1	O
+0	25	502	2583	2586	S	504	the	the	the	DT	O	det	O	-1	O
+0	25	503	2587	2594	S	504	sensual	sensual	sensual	JJ	O	amod	O	-1	O
+0	25	504	2595	2602	S	510	aspects	aspects	aspect	NNS	O	dep	O	-1	B-noun.cognition
+0	25	505	2603	2605	S	504	of	of	of	IN	O	prep	O	-1	O
+0	25	506	2606	2610	S	505	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	25	507	2611	2613	S	510	he	he	he	PRP	O	nsubj	O	2	O
+0	25	508	2614	2617	S	510	had	had	have	VBD	O	aux	O	-1	O
+0	25	509	2618	2628	S	510	previously	previously	previously	RB	DATE	advmod	O	-1	O
+0	25	510	2629	2640	N	500	disregarded	disregarded	disregard	VBN	O	ccomp	O	-1	B-verb.communication
+0	25	511	2641	2648	S	512	because	because	because	IN	O	dep	O	-1	O
+0	25	512	2649	2651	S	510	of	of	of	IN	O	prep	O	-1	O
+0	25	513	2652	2655	S	516	his	his	he	PRP$	O	poss	O	2	O
+0	25	514	2656	2662	S	516	strict	strict	strict	JJ	O	amod	O	-1	O
+0	25	515	2663	2672	S	516	bourgeois	bourgeois	bourgeois	NN	O	nn	O	-1	B-noun.person
+0	25	516	2673	2683		512	upbringing	upbringing	upbringing	NN	O	pobj	O	-1	B-noun.attribute
+0	25	517	2683	2684	S	498	.	.	.	.	O	punct	O	-1	O
+0	26	518	2685	2689	S	539	With	With	with	IN	O	prep	O	-1	O
+0	26	519	2690	2697	S	518	Hermine	Hermine	hermine	NN	PERSON	pobj	O	0	B-noun.person
+0	26	520	2698	2701	S	519	and	and	and	CC	O	cc	O	-1	O
+0	26	521	2702	2707		519	Maria	Maria	Maria	NNP	PERSON	conj	O	3	O
+0	26	522	2707	2708	N	519	,	,	,	,	O	punct	O	-1	O
+0	26	523	2709	2719	S	519	everything	everything	everything	NN	O	appos	O	-1	O
+0	26	524	2720	2724	S	523	from	from	from	IN	O	prep	O	-1	O
+0	26	525	2725	2731	S	524	buying	buying	buy	VBG	O	pcomp	O	-1	B-verb.possession
+0	26	526	2732	2738	S	528	little	little	little	JJ	O	amod	O	-1	O
+0	26	527	2739	2743	S	528	love	love	love	NN	O	nn	O	-1	B-noun.feeling
+0	26	528	2744	2749	S	525	gifts	gifts	gift	NNS	O	dobj	O	-1	B-noun.possession
+0	26	529	2750	2752	S	524	to	to	to	TO	O	dep	O	-1	O
+0	26	530	2753	2760	S	529	picking	picking	pick	VBG	O	pcomp	O	-1	B-verb.cognition
+0	26	531	2761	2765	S	532	duck	duck	duck	NN	O	nn	O	-1	B-noun.animal
+0	26	532	2766	2770	S	530	meat	meat	meat	NN	O	dobj	O	-1	B-noun.food
+0	26	533	2771	2775	N	530	from	from	from	IN	O	prep	O	-1	O
+0	26	534	2776	2779	S	535	its	its	its	PRP$	O	poss	O	-1	O
+0	26	535	2780	2785	S	533	bones	bones	bone	NNS	O	pobj	O	-1	B-noun.body
+0	26	536	2786	2793	S	539	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.stative
+0	26	537	2794	2795	S	539	a	a	a	DT	O	det	O	-1	O
+0	26	538	2796	2806	S	539	delightful	delightful	delightful	JJ	O	amod	O	-1	O
+0	26	539	2807	2813		-1	affair	affair	affair	NN	O	null	O	-1	B-noun.cognition
+0	26	540	2813	2814	S	539	.	.	.	.	O	punct	O	-1	O
+0	27	541	2815	2820	S	542	Harry	Harry	Harry	NNP	O	nn	O	-1	B-noun.person
+0	27	542	2821	2827	S	-1	blooms	blooms	bloom	NNS	O	null	O	-1	B-noun.process
+0	27	543	2828	2831	S	542	and	and	and	CC	O	cc	O	-1	O
+0	27	544	2832	2839	N	545	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	27	545	2840	2845	S	542	happy	happy	happy	JJ	O	conj	O	-1	O
+0	27	546	2846	2852	S	545	during	during	during	IN	O	prep	O	-1	O
+0	27	547	2853	2858	S	548	these	these	these	DT	O	det	O	-1	O
+0	27	548	2859	2864	S	546	weeks	weeks	week	NNS	DURATION	pobj	O	-1	B-noun.time
+0	27	549	2865	2867	S	548	of	of	of	IN	O	prep	O	-1	O
+0	27	550	2868	2874		549	change	change	change	NN	O	pobj	O	-1	B-noun.phenomenon
+0	27	551	2874	2875	S	542	.	.	.	.	O	punct	O	-1	O
+0	28	552	2876	2883	S	564	Despite	Despite	despite	IN	O	prep	O	-1	O
+0	28	553	2884	2887	S	554	the	the	the	DT	O	det	O	-1	O
+0	28	554	2888	2897	S	552	enjoyment	enjoyment	enjoyment	NN	O	pobj	O	-1	B-noun.feeling
+0	28	555	2898	2900	S	556	he	he	he	PRP	O	nsubj	O	-1	O
+0	28	556	2901	2906		554	feels	feels	feel	VBZ	O	rcmod	O	-1	O
+0	28	557	2906	2907	N	564	,	,	,	,	O	punct	O	-1	O
+0	28	558	2908	2915		564	however	however	however	RB	O	advmod	O	-1	O
+0	28	559	2915	2916	S	564	,	,	,	,	O	punct	O	-1	O
+0	28	560	2917	2921	S	564	part	part	part	NN	O	nsubjpass	O	-1	B-noun.relation
+0	28	561	2922	2924	S	560	of	of	of	IN	O	prep	O	-1	O
+0	28	562	2925	2928	S	561	him	him	he	PRP	O	pobj	O	-1	O
+0	28	563	2929	2936	S	564	remains	remains	remain	VBZ	O	auxpass	O	-1	B-verb.change
+0	28	564	2937	2945	S	-1	repulsed	repulsed	repulse	VBN	O	null	O	-1	B-verb.competition
+0	28	565	2946	2948	S	564	by	by	by	IN	O	prep	O	-1	O
+0	28	566	2949	2952	S	567	his	his	he	PRP$	O	poss	O	-1	O
+0	28	567	2953	2967		565	transformation	transformation	transformation	NN	O	pobj	O	-1	B-noun.event
+0	28	568	2967	2968	S	564	.	.	.	.	O	punct	O	-1	O
+0	29	569	2969	2973	N	572	Part	Part	part	NN	O	nsubj	O	-1	B-noun.relation
+0	29	570	2974	2976	S	569	of	of	of	IN	O	prep	O	-1	O
+0	29	571	2977	2982	S	570	Harry	Harry	Harry	NNP	PERSON	pobj	O	2	B-noun.person
+0	29	572	2983	2992	S	-1	continues	continues	continue	VBZ	O	null	O	-1	B-verb.stative
+0	29	573	2993	2995	S	574	to	to	to	TO	O	aux	O	-1	O
+0	29	574	2996	3002	S	572	aspire	aspire	aspire	VB	O	xcomp	O	-1	B-verb.cognition
+0	29	575	3003	3009	S	574	toward	toward	toward	IN	O	prep	O	-1	O
+0	29	576	3010	3013	S	577	the	the	the	DT	O	det	O	-1	O
+0	29	577	3014	3023	S	575	spiritual	spiritual	spiritual	JJ	O	pobj	O	-1	O
+0	29	578	3024	3027	S	577	and	and	and	CC	O	cc	O	-1	O
+0	29	579	3028	3031	S	580	the	the	the	DT	O	det	O	-1	O
+0	29	580	3032	3038		577	divine	divine	divine	NN	O	conj	O	-1	B-noun.person
+0	29	581	3038	3039	N	580	,	,	,	,	O	punct	O	-1	O
+0	29	582	3040	3044	S	580	away	away	away	RB	O	advmod	O	-1	O
+0	29	583	3045	3049	S	582	from	from	from	IN	O	dep	O	-1	O
+0	29	584	3050	3053	S	586	the	the	the	DT	O	det	O	-1	O
+0	29	585	3054	3060	S	586	sordid	sordid	sordid	JJ	O	amod	O	-1	O
+0	29	586	3061	3070	S	583	pleasures	pleasures	pleasure	NNS	O	pobj	O	-1	B-noun.feeling
+0	29	587	3071	3073	S	586	of	of	of	IN	O	prep	O	-1	O
+0	29	588	3074	3077	S	589	the	the	the	DT	O	det	O	-1	O
+0	29	589	3078	3083		587	flesh	flesh	flesh	NN	O	pobj	O	-1	B-noun.body
+0	29	590	3083	3084	S	572	.	.	.	.	O	punct	O	-1	O
+0	30	591	3085	3089	S	593	When	When	when	WRB	O	advmod	O	-1	O
+0	30	592	3090	3095	S	593	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	30	593	3096	3105	N	598	confesses	confesses	confess	VBZ	O	dep	O	-1	B-verb.communication
+0	30	594	3106	3109	S	595	his	his	he	PRP$	O	poss	O	2	O
+0	30	595	3110	3118		593	feelings	feelings	feeling	NNS	O	dobj	O	-1	O
+0	30	596	3118	3119	S	598	,	,	,	,	O	punct	O	-1	O
+0	30	597	3120	3122	S	598	he	he	he	PRP	O	nsubj	O	2	O
+0	30	598	3123	3128	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.cognition
+0	30	599	3129	3133	S	601	that	that	that	IN	O	complm	O	-1	O
+0	30	600	3134	3141	S	601	Hermine	Hermine	Hermine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	30	601	3142	3153	S	598	understands	understands	understand	VBZ	O	ccomp	O	-1	B-verb.cognition
+0	30	602	3154	3157	S	601	him	him	he	PRP	O	dobj	O	2	O
+0	30	603	3158	3167		601	perfectly	perfectly	perfectly	RB	O	advmod	O	-1	O
+0	30	604	3167	3168	S	598	.	.	.	.	O	punct	O	-1	O
+0	31	605	3169	3171	N	609	In	In	in	IN	O	prep	O	-1	O
+0	31	606	3172	3176		605	fact	fact	fact	NN	O	pobj	O	-1	B-noun.cognition
+0	31	607	3176	3177	S	609	,	,	,	,	O	punct	O	-1	O
+0	31	608	3178	3181	S	609	she	she	she	PRP	O	nsubj	O	0	O
+0	31	609	3182	3193	S	-1	understands	understands	understand	VBZ	O	null	O	-1	B-verb.cognition
+0	31	610	3194	3197	S	609	him	him	he	PRP	O	dobj	O	2	O
+0	31	611	3198	3204	S	610	better	better	better	JJR	O	dep	O	-1	O
+0	31	612	3205	3209	S	614	than	than	than	IN	O	mark	O	-1	O
+0	31	613	3210	3212	S	614	he	he	he	PRP	O	nsubj	O	2	O
+0	31	614	3213	3224	S	611	understands	understands	understand	VBZ	O	dep	O	-1	B-verb.cognition
+0	31	615	3225	3232		614	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	31	616	3232	3233	S	609	.	.	.	.	O	punct	O	-1	O
+0	32	617	3234	3239		620	Harry	Harry	Harry	NNP	PERSON	poss	O	2	B-noun.person
+0	32	618	3239	3241	S	617	’s	's	's	POS	O	possessive	O	-1	O
+0	32	619	3242	3250	S	620	concerns	concerns	concern	NNS	O	nn	O	-1	B-noun.cognition
+0	32	620	3251	3255	S	-1	peak	peak	peak	NN	O	null	O	-1	B-noun.quantity
+0	32	621	3256	3258	S	620	at	at	at	IN	O	prep	O	-1	O
+0	32	622	3259	3262	S	625	the	the	the	DT	O	det	O	-1	O
+0	32	623	3263	3268	S	625	Fancy	Fancy	Fancy	NNP	O	nn	O	-1	B-noun.group
+0	32	624	3269	3274	S	625	Dress	Dress	Dress	NNP	O	nn	O	-1	I-noun.group
+0	32	625	3275	3279		621	Ball	Ball	Ball	NNP	O	pobj	O	-1	I-noun.group
+0	32	626	3279	3280	S	625	,	,	,	,	O	punct	O	-1	O
+0	32	627	3281	3282	S	628	a	a	a	DT	O	det	O	-1	O
+0	32	628	3283	3287	N	632	gala	gala	gala	NN	O	nsubj	O	-1	B-noun.act
+0	32	629	3288	3298	S	632	masquerade	masquerade	masquerade	VB	O	dep	O	-1	B-verb.perception
+0	32	630	3299	3304	S	631	dance	dance	dance	NN	O	nn	O	-1	B-noun.communication
+0	32	631	3305	3310	S	632	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	32	632	3311	3318		625	attends	attends	attend	VBZ	O	rcmod	O	-1	O
+0	32	633	3318	3319	S	620	.	.	.	.	O	punct	O	-1	O
+0	33	634	3320	3325	S	644	After	After	after	IN	O	prep	O	-1	O
+0	33	635	3326	3333	S	636	several	several	several	JJ	DURATION	amod	O	-1	O
+0	33	636	3334	3339	S	634	hours	hours	hour	NNS	DURATION	pobj	O	-1	B-noun.time
+0	33	637	3340	3342	S	636	of	of	of	IN	O	prep	O	-1	O
+0	33	638	3343	3353		641	liberating	liberating	liberating	JJ	O	amod	O	-1	O
+0	33	639	3353	3354	N	641	,	,	,	,	O	punct	O	-1	O
+0	33	640	3355	3362	S	641	riotous	riotous	riotous	JJ	O	amod	O	-1	O
+0	33	641	3363	3370		637	revelry	revelry	revelry	NN	O	pobj	O	-1	B-noun.act
+0	33	642	3370	3371	S	644	,	,	,	,	O	punct	O	-1	O
+0	33	643	3372	3377	S	644	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	33	644	3378	3389	S	-1	consummates	consummates	consummate	VBZ	O	null	O	-1	B-verb.creation
+0	33	645	3390	3393	S	646	his	his	he	PRP$	O	poss	O	2	O
+0	33	646	3394	3398	S	644	love	love	love	NN	O	dobj	O	-1	B-noun.feeling
+0	33	647	3399	3403	S	646	with	with	with	IN	O	prep	O	-1	O
+0	33	648	3404	3411	S	647	Hermine	Hermine	hermine	NN	PERSON	pobj	O	0	B-noun.person
+0	33	649	3412	3419	N	644	through	through	through	IN	O	prep	O	-1	O
+0	33	650	3420	3421	S	652	a	a	a	DT	O	det	O	-1	O
+0	33	651	3422	3429	S	652	nuptial	nuptial	nuptial	JJ	O	amod	O	-1	O
+0	33	652	3430	3435		649	dance	dance	dance	NN	O	pobj	O	-1	B-noun.communication
+0	33	653	3435	3436	S	644	.	.	.	.	O	punct	O	-1	O
+0	34	654	3437	3439	S	657	As	As	as	IN	O	prep	O	-1	O
+0	34	655	3440	3443	S	656	the	the	the	DT	O	det	O	-1	O
+0	34	656	3444	3448	S	654	ball	ball	ball	NN	O	pobj	O	-1	B-noun.artifact
+0	34	657	3449	3454	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	34	658	3455	3457	S	668	to	to	to	TO	O	aux	O	-1	O
+0	34	659	3458	3459	S	664	a	a	a	DT	O	punct	O	-1	O
+0	34	660	3460	3465		659	close	close	close	RB	O	amod	O	-1	O
+0	34	661	3465	3466	S	663	,	,	,	,	O	punct	O	-1	O
+0	34	662	3467	3472	S	663	Pablo	Pablo	Pablo	NNP	PERSON	nsubj	O	1	O
+0	34	663	3473	3480	S	664	invites	invites	invite	VBZ	O	dep	O	-1	B-verb.emotion
+0	34	664	3481	3486	N	668	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	34	665	3487	3490	S	664	and	and	and	CC	O	cc	O	-1	O
+0	34	666	3491	3498	S	664	Hermine	Hermine	Hermine	NNP	PERSON	conj	O	0	B-noun.person
+0	34	667	3499	3501	S	668	to	to	to	TO	O	aux	O	-1	O
+0	34	668	3502	3507	S	657	enjoy	enjoy	enjoy	VB	O	xcomp	O	-1	B-verb.emotion
+0	34	669	3508	3511	S	671	his	his	he	PRP$	O	poss	O	2	O
+0	34	670	3512	3517	S	671	Magic	Magic	Magic	NNP	ORGANIZATION	nn	O	5	O
+0	34	671	3518	3525		668	Theater	Theater	Theater	NNP	ORGANIZATION	dobj	O	5	O
+0	34	672	3525	3526	S	657	.	.	.	.	O	punct	O	-1	O
+0	35	673	3527	3532	S	674	Pablo	Pablo	Pablo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	35	674	3533	3541	S	-1	explains	explains	explain	VBZ	O	null	O	-1	B-verb.communication
+0	35	675	3542	3544	S	674	to	to	to	TO	O	prep	O	-1	O
+0	35	676	3545	3550	N	675	Harry	Harry	Harry	NNP	PERSON	pobj	O	2	B-noun.person
+0	35	677	3551	3555	S	685	that	that	that	IN	O	complm	O	-1	O
+0	35	678	3556	3559	S	679	the	the	the	DT	O	det	O	-1	O
+0	35	679	3560	3564	S	685	goal	goal	goal	NN	O	nsubj	O	-1	B-noun.cognition
+0	35	680	3565	3567	S	679	of	of	of	IN	O	prep	O	-1	O
+0	35	681	3568	3571	S	682	the	the	the	DT	O	det	O	-1	O
+0	35	682	3572	3579	S	680	theater	theater	theater	NN	O	pobj	O	-1	B-noun.artifact
+0	35	683	3580	3582	S	685	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	35	684	3583	3586	S	685	the	the	the	DT	O	det	O	-1	O
+0	35	685	3587	3598	S	674	dissolution	dissolution	dissolution	NN	O	ccomp	O	-1	B-noun.process
+0	35	686	3599	3601	S	685	of	of	of	IN	O	prep	O	-1	O
+0	35	687	3602	3605	S	688	the	the	the	DT	O	det	O	-1	O
+0	35	688	3606	3617		686	personality	personality	personality	NN	O	pobj	O	-1	B-noun.attribute
+0	35	689	3617	3618	N	685	,	,	,	,	O	punct	O	-1	O
+0	35	690	3619	3620	S	691	a	a	a	DT	O	det	O	-1	O
+0	35	691	3621	3625	S	685	goal	goal	goal	NN	O	appos	O	-1	B-noun.cognition
+0	35	692	3626	3630	S	695	that	that	that	WDT	O	nsubjpass	O	-1	O
+0	35	693	3631	3634	S	695	can	can	can	MD	O	aux	O	-1	O
+0	35	694	3635	3637	S	695	be	be	be	VB	O	auxpass	O	-1	O
+0	35	695	3638	3650	S	691	accomplished	accomplished	accomplish	VBN	O	rcmod	O	-1	B-verb.creation
+0	35	696	3651	3655	S	697	only	only	only	RB	O	dep	O	-1	O
+0	35	697	3656	3663	S	695	through	through	through	IN	O	prep	O	-1	O
+0	35	698	3664	3672		697	laughter	laughter	laughter	NN	O	pobj	O	-1	B-noun.communication
+0	35	699	3672	3673	S	674	.	.	.	.	O	punct	O	-1	O
+0	36	700	3674	3678	S	710	Once	Once	once	RB	DATE	advmod	O	-1	O
+0	36	701	3679	3685	S	700	inside	inside	inside	IN	O	dep	O	-1	O
+0	36	702	3686	3690	S	704	this	this	this	DT	O	det	O	-1	O
+0	36	703	3691	3692		704	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	36	704	3692	3698	S	701	school	school	school	NN	O	pobj	I-QUOTE	-1	B-noun.group
+0	36	705	3699	3701	S	704	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	36	706	3702	3707		705	humor	humor	humor	NN	O	pobj	I-QUOTE	-1	B-noun.communication
+0	36	707	3707	3708		710	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	36	708	3708	3709	S	710	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	36	709	3710	3715	S	710	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	O
+0	36	710	3716	3722	S	-1	laughs	laughs	laugh	VBZ	O	null	O	-1	B-verb.body
+0	36	711	3723	3725	S	710	at	at	at	IN	O	prep	O	-1	O
+0	36	712	3726	3727	N	714	a	a	a	DT	O	det	O	-1	O
+0	36	713	3728	3734	S	714	mirror	mirror	mirror	NN	O	nn	O	-1	B-noun.attribute
+0	36	714	3735	3740	S	711	image	image	image	NN	O	pobj	O	-1	I-noun.attribute
+0	36	715	3741	3743	S	714	of	of	of	IN	O	prep	O	-1	O
+0	36	716	3744	3751	S	715	himself	himself	himself	PRP	O	pobj	O	-1	O
+0	36	717	3752	3755	S	710	and	and	and	CC	O	cc	O	-1	O
+0	36	718	3756	3760	S	710	goes	goes	go	VBZ	O	conj	O	-1	B-verb.motion
+0	36	719	3761	3765	S	718	down	down	down	RP	O	prt	O	-1	O
+0	36	720	3766	3767	S	721	a	a	a	DT	O	det	O	-1	O
+0	36	721	3768	3776	S	722	corridor	corridor	corridor	NN	O	nsubj	O	-1	B-noun.artifact
+0	36	722	3777	3782	S	718	lined	lined	line	VBD	O	ccomp	O	-1	B-verb.stative
+0	36	723	3783	3787	S	722	with	with	with	IN	O	prep	O	-1	O
+0	36	724	3788	3794	N	723	dozens	dozens	dozen	NNS	O	pobj	O	-1	B-noun.quantity
+0	36	725	3795	3797	S	724	of	of	of	IN	O	prep	O	-1	O
+0	36	726	3798	3805	S	727	strange	strange	strange	JJ	O	amod	O	-1	O
+0	36	727	3806	3811		725	doors	doors	door	NNS	O	pobj	O	-1	B-noun.artifact
+0	36	728	3811	3812	S	724	,	,	,	,	O	punct	O	-1	O
+0	36	729	3813	3817	S	724	some	some	some	DT	O	appos	O	-1	O
+0	36	730	3818	3820	S	733	of	of	of	IN	O	rel	O	-1	O
+0	36	731	3821	3826	S	730	which	which	which	WDT	O	pobj	O	-1	O
+0	36	732	3827	3829	S	733	he	he	he	PRP	O	nsubj	O	2	O
+0	36	733	3830	3836		729	enters	enters	enter	VBZ	O	rcmod	O	-1	B-verb.motion
+0	36	734	3836	3837	S	710	.	.	.	.	O	punct	O	-1	O
+0	37	735	3838	3842	S	736	Each	Each	each	DT	O	det	O	-1	O
+0	37	736	3843	3847	S	737	door	door	door	NN	O	nsubj	O	-1	B-noun.artifact
+0	37	737	3848	3853	S	-1	opens	opens	open	VBZ	O	null	O	-1	B-verb.contact
+0	37	738	3854	3856	S	737	on	on	on	IN	O	prep	O	-1	O
+0	37	739	3857	3858	N	743	a	a	a	DT	O	det	O	-1	O
+0	37	740	3859	3862		743	new	new	new	JJ	O	amod	O	-1	O
+0	37	741	3862	3863	S	743	,	,	,	,	O	punct	O	-1	O
+0	37	742	3864	3871	S	743	surreal	surreal	surreal	JJ	O	amod	O	-1	O
+0	37	743	3872	3877		738	world	world	world	NN	O	pobj	O	-1	B-noun.group
+0	37	744	3877	3878	S	737	.	.	.	.	O	punct	O	-1	O
+0	38	745	3879	3884	S	746	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	38	746	3885	3889	S	-1	runs	runs	run	VBZ	O	null	O	-1	B-verb.motion
+0	38	747	3890	3894	S	746	from	from	from	IN	O	prep	O	-1	O
+0	38	748	3895	3898	S	749	one	one	one	CD	NUMBER	num	O	-1	O
+0	38	749	3899	3904		747	world	world	world	NN	O	pobj	O	-1	B-noun.object
+0	38	750	3904	3905	S	746	,	,	,	,	O	punct	O	-1	O
+0	38	751	3906	3908	S	757	in	in	in	IN	O	rel	O	-1	O
+0	38	752	3909	3914	S	751	which	which	which	WDT	O	pobj	O	-1	O
+0	38	753	3915	3918	S	757	men	men	man	NNS	O	nsubjpass	O	-1	B-noun.person
+0	38	754	3919	3922	S	753	and	and	and	CC	O	cc	O	-1	O
+0	38	755	3923	3931	N	753	machines	machines	machine	NNS	O	conj	O	-1	B-noun.artifact
+0	38	756	3932	3935	S	757	are	are	be	VBP	O	auxpass	O	-1	O
+0	38	757	3936	3945	S	746	engrossed	engrossed	engross	VBN	O	ccomp	O	-1	B-verb.cognition
+0	38	758	3946	3948	S	757	in	in	in	IN	O	prep	O	-1	O
+0	38	759	3949	3950	S	761	a	a	a	DT	O	det	O	-1	O
+0	38	760	3951	3957	S	761	bloody	bloody	bloody	JJ	O	amod	O	-1	O
+0	38	761	3958	3961		758	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	38	762	3961	3962	S	757	,	,	,	,	O	punct	O	-1	O
+0	38	763	3963	3965	S	757	to	to	to	TO	O	prep	O	-1	O
+0	38	764	3966	3973		763	another	another	another	DT	O	pobj	O	-1	O
+0	38	765	3973	3974	S	763	,	,	,	,	O	punct	O	-1	O
+0	38	766	3975	3980	S	775	where	where	where	WRB	O	advmod	O	-1	O
+0	38	767	3981	3984	S	769	all	all	all	PDT	O	predet	O	-1	O
+0	38	768	3985	3988	S	769	the	the	the	DT	O	det	O	-1	O
+0	38	769	3989	3994	S	775	women	women	woman	NNS	O	nsubj	O	-1	B-noun.person
+0	38	770	3995	3997	N	773	he	he	he	PRP	O	nsubj	O	2	O
+0	38	771	3998	4001	S	773	has	has	have	VBZ	O	aux	O	-1	O
+0	38	772	4002	4006	S	773	ever	ever	ever	RB	O	advmod	O	-1	O
+0	38	773	4007	4013	S	769	wanted	wanted	want	VBN	O	rcmod	O	-1	B-verb.emotion
+0	38	774	4014	4017	S	775	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	38	775	4018	4027	S	779	available	available	available	JJ	O	dep	O	-1	O
+0	38	776	4028	4031	S	779	for	for	for	IN	O	mark	O	-1	O
+0	38	777	4032	4035	S	779	him	him	he	PRP	O	nsubj	O	2	O
+0	38	778	4036	4038	S	779	to	to	to	TO	O	aux	O	-1	O
+0	38	779	4039	4044		763	enjoy	enjoy	enjoy	VB	O	dep	O	-1	B-verb.emotion
+0	38	780	4044	4045	S	746	.	.	.	.	O	punct	O	-1	O
+0	39	781	4046	4053	S	783	Reality	Reality	reality	NN	O	nsubj	O	-1	B-noun.state
+0	39	782	4054	4061	S	783	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	39	783	4062	4067	S	-1	falls	falls	fall	VBZ	O	null	O	-1	B-verb.change
+0	39	784	4068	4072	S	783	away	away	away	RB	O	advmod	O	-1	O
+0	39	785	4073	4075	S	783	as	as	as	IN	O	prep	O	-1	O
+0	39	786	4076	4079	S	787	the	the	the	DT	O	det	O	-1	O
+0	39	787	4080	4085	S	785	novel	novel	novel	JJ	O	pobj	O	-1	O
+0	39	788	4086	4092	S	783	brings	brings	bring	VBZ	O	dep	O	-1	B-verb.motion
+0	39	789	4093	4095	S	788	us	us	we	PRP	O	iobj	O	-1	O
+0	39	790	4096	4102	N	788	deeper	deeper	deeper	JJR	O	dobj	O	-1	O
+0	39	791	4103	4106	S	790	and	and	and	CC	O	cc	O	-1	O
+0	39	792	4107	4113	S	790	deeper	deeper	deeper	JJR	O	conj	O	-1	O
+0	39	793	4114	4118	S	790	into	into	into	IN	O	prep	O	-1	O
+0	39	794	4119	4122	S	795	the	the	the	DT	O	det	O	-1	O
+0	39	795	4123	4129	S	793	psyche	psyche	psyche	NN	O	pobj	O	-1	B-noun.cognition
+0	39	796	4130	4132	S	795	of	of	of	IN	O	prep	O	-1	O
+0	39	797	4133	4136	S	798	the	the	the	DT	O	det	O	-1	O
+0	39	798	4137	4148		796	Steppenwolf	Steppenwolf	Steppenwolf	NNP	LOCATION	pobj	O	-1	O
+0	39	799	4148	4149	S	783	.	.	.	.	O	punct	O	-1	O
+0	40	800	4150	4155	S	801	Harry	Harry	Harry	NNP	O	nsubj	O	-1	B-noun.person
+0	40	801	4156	4160	S	-1	ends	ends	end	VBZ	O	null	O	-1	B-verb.change
+0	40	802	4161	4163	S	801	up	up	up	RP	O	prt	O	-1	O
+0	40	803	4164	4166	N	801	in	in	in	IN	O	prep	O	-1	O
+0	40	804	4167	4168	S	805	a	a	a	DT	O	det	O	-1	O
+0	40	805	4169	4173	S	803	room	room	room	NN	O	pobj	O	-1	B-noun.artifact
+0	40	806	4174	4179	S	808	where	where	where	WRB	O	advmod	O	-1	O
+0	40	807	4180	4182	S	808	he	he	he	PRP	O	nsubj	O	-1	O
+0	40	808	4183	4188	S	805	finds	finds	find	VBZ	O	rcmod	O	-1	B-verb.perception
+0	40	809	4189	4196	S	813	Hermine	Hermine	Hermine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	40	810	4197	4200	S	809	and	and	and	CC	O	cc	O	-1	O
+0	40	811	4201	4206		809	Pablo	Pablo	Pablo	NNP	PERSON	conj	O	1	B-noun.person
+0	40	812	4206	4208	S	811	’s	's	's	POS	O	possessive	O	-1	O
+0	40	813	4209	4219		808	love-spent	love-spent	love-spent	JJ	O	xcomp	O	-1	O
+0	40	814	4219	4220	S	813	,	,	,	,	O	punct	O	-1	O
+0	40	815	4221	4226	S	816	naked	naked	naked	JJ	O	amod	O	-1	O
+0	40	816	4227	4233	N	813	bodies	bodies	body	NNS	O	dep	O	-1	B-noun.body
+0	40	817	4234	4239	S	816	lying	lying	lie	VBG	O	partmod	O	-1	B-verb.stative
+0	40	818	4240	4242	S	817	on	on	on	IN	O	prep	O	-1	O
+0	40	819	4243	4246	S	820	the	the	the	DT	O	det	O	-1	O
+0	40	820	4247	4252		818	floor	floor	floor	NN	O	pobj	O	-1	B-noun.artifact
+0	40	821	4252	4253	S	801	.	.	.	.	O	punct	O	-1	O
+0	41	822	4254	4263	S	-1	Believing	Believing	believe	VBG	O	null	O	-1	B-verb.cognition
+0	41	823	4264	4268	S	827	that	that	that	IN	O	complm	O	-1	O
+0	41	824	4269	4272	S	825	the	the	the	DT	O	det	O	-1	O
+0	41	825	4273	4279	S	827	moment	moment	moment	NN	O	nsubj	O	-1	B-noun.time
+0	41	826	4280	4283	S	827	has	has	have	VBZ	O	aux	O	-1	O
+0	41	827	4284	4288	S	822	come	come	come	VBN	O	ccomp	O	-1	B-verb.change
+0	41	828	4289	4291	S	829	to	to	to	TO	O	aux	O	-1	O
+0	41	829	4292	4299	N	827	fulfill	fulfill	fulfill	VB	O	xcomp	O	-1	B-verb.creation
+0	41	830	4300	4303	S	831	his	his	he	PRP$	O	poss	O	-1	O
+0	41	831	4304	4311	S	829	promise	promise	promise	NN	O	dobj	O	-1	B-noun.communication
+0	41	832	4312	4314	S	833	to	to	to	TO	O	aux	O	-1	O
+0	41	833	4315	4319	S	831	kill	kill	kill	VB	O	infmod	O	-1	B-verb.contact
+0	41	834	4320	4327		837	Hermine	Hermine	Hermine	NNP	PERSON	nsubj	O	0	O
+0	41	835	4327	4328	S	834	,	,	,	,	O	punct	O	-1	O
+0	41	836	4329	4334	S	834	Harry	Harry	Harry	NNP	PERSON	conj	O	2	B-noun.person
+0	41	837	4335	4340	S	833	stabs	stabs	stab	VBZ	O	ccomp	O	-1	B-verb.contact
+0	41	838	4341	4344	S	837	her	her	she	PRP$	O	dobj	O	0	O
+0	41	839	4345	4349	S	838	with	with	with	IN	O	prep	O	-1	O
+0	41	840	4350	4351	S	841	a	a	a	DT	O	det	O	-1	O
+0	41	841	4352	4357	S	839	knife	knife	knife	NN	O	pobj	O	-1	B-noun.artifact
+0	41	842	4358	4362	S	845	that	that	that	WDT	O	nsubj	O	-1	O
+0	41	843	4363	4366	N	845	has	has	have	VBZ	O	aux	O	-1	O
+0	41	844	4367	4376	S	845	magically	magically	magically	RB	O	advmod	O	-1	O
+0	41	845	4377	4385	S	841	appeared	appeared	appear	VBN	O	rcmod	O	-1	B-verb.change
+0	41	846	4386	4388	S	845	in	in	in	IN	O	prep	O	-1	O
+0	41	847	4389	4392	S	848	his	his	he	PRP$	O	poss	O	2	O
+0	41	848	4393	4399		846	pocket	pocket	pocket	NN	O	pobj	O	-1	B-noun.artifact
+0	41	849	4399	4400	S	822	.	.	.	.	O	punct	O	-1	O
+0	42	850	4401	4404	S	854	The	The	the	DT	O	det	O	-1	O
+0	42	851	4405	4415	S	854	celebrated	celebrated	celebrated	JJ	O	amod	O	-1	O
+0	42	852	4416	4425	S	854	classical	classical	classical	JJ	O	amod	O	-1	O
+0	42	853	4426	4434	N	854	composer	composer	composer	NN	O	nn	O	-1	B-noun.person
+0	42	854	4435	4441	S	855	Mozart	Mozart	Mozart	NNP	PERSON	nsubj	O	4	B-noun.person
+0	42	855	4442	4449	S	-1	appears	appears	appear	VBZ	O	null	O	-1	B-verb.perception
+0	42	856	4450	4453	S	855	and	and	and	CC	O	cc	O	-1	O
+0	42	857	4454	4459	S	855	tells	tells	tell	VBZ	O	conj	O	-1	B-verb.communication
+0	42	858	4460	4465	S	857	Harry	Harry	Harry	NNP	PERSON	dobj	O	2	B-noun.person
+0	42	859	4466	4470	S	862	that	that	that	IN	O	complm	O	-1	O
+0	42	860	4471	4473	S	862	he	he	he	PRP	O	nsubj	O	2	O
+0	42	861	4474	4477	S	862	has	has	have	VBZ	O	aux	O	-1	O
+0	42	862	4478	4484	S	857	abused	abused	abuse	VBN	O	ccomp	O	-1	B-verb.social
+0	42	863	4485	4488	S	865	the	the	the	DT	O	det	O	-1	O
+0	42	864	4489	4494	S	865	Magic	Magic	Magic	NNP	LOCATION	nn	O	-1	B-noun.group
+0	42	865	4495	4502	N	862	Theater	Theater	Theater	NNP	LOCATION	dobj	O	-1	I-noun.group
+0	42	866	4503	4507	S	862	with	with	with	IN	O	prep	O	-1	O
+0	42	867	4508	4512	S	870	such	such	such	JJ	O	amod	O	-1	O
+0	42	868	4513	4524	S	869	excessively	excessively	excessively	RB	O	advmod	O	-1	O
+0	42	869	4525	4532	S	870	serious	serious	serious	JJ	O	amod	O	-1	O
+0	42	870	4533	4541		866	behavior	behavior	behavior	NN	O	pobj	O	-1	B-noun.act
+0	42	871	4541	4542	S	855	.	.	.	.	O	punct	O	-1	O
+0	43	872	4543	4549	S	873	Mozart	Mozart	Mozart	NNP	PERSON	nsubj	O	4	B-noun.person
+0	43	873	4550	4558	S	-1	explains	explains	explain	VBZ	O	null	O	-1	B-verb.communication
+0	43	874	4559	4563	S	878	that	that	that	IN	O	complm	O	-1	O
+0	43	875	4564	4568	N	878	life	life	life	NN	O	nsubjpass	O	-1	B-noun.state
+0	43	876	4569	4571	S	878	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	43	877	4572	4578	S	878	always	always	always	RB	O	advmod	O	-1	O
+0	43	878	4579	4590	S	873	compromised	compromised	compromise	VBN	O	ccomp	O	-1	B-verb.communication
+0	43	879	4591	4594	S	878	and	and	and	CC	O	cc	O	-1	O
+0	43	880	4595	4599	S	878	full	full	full	JJ	O	conj	O	-1	O
+0	43	881	4600	4602	S	880	of	of	of	IN	O	prep	O	-1	O
+0	43	882	4603	4618	S	883	less-than-ideal	less-than-ideal	less-than-ideal	JJ	O	amod	O	-1	O
+0	43	883	4619	4632		881	circumstances	circumstances	circumstance	NNS	O	pobj	O	-1	B-noun.state
+0	43	884	4632	4633	N	878	,	,	,	,	O	punct	O	-1	O
+0	43	885	4634	4637	S	878	and	and	and	CC	O	cc	O	-1	O
+0	43	886	4638	4642	S	893	that	that	that	IN	O	complm	O	-1	O
+0	43	887	4643	4646	S	888	the	the	the	DT	O	det	O	-1	O
+0	43	888	4647	4651	S	893	task	task	task	NN	O	nsubj	O	-1	B-noun.act
+0	43	889	4652	4657	S	891	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	43	890	4658	4662	S	891	must	must	must	MD	O	aux	O	-1	O
+0	43	891	4663	4667	S	888	face	face	face	VB	O	rcmod	O	-1	B-verb.communication
+0	43	892	4668	4671	S	891	now	now	now	RB	DATE	advmod	O	-1	O
+0	43	893	4672	4674	S	878	is	is	be	VBZ	O	conj	O	-1	B-verb.stative
+0	43	894	4675	4677	S	895	to	to	to	TO	O	aux	O	-1	O
+0	43	895	4678	4683	S	893	greet	greet	greet	VB	O	xcomp	O	-1	B-verb.communication
+0	43	896	4684	4689	S	897	these	these	these	DT	O	det	O	-1	O
+0	43	897	4690	4697	N	895	aspects	aspects	aspect	NNS	O	dobj	O	-1	B-noun.cognition
+0	43	898	4698	4702	S	895	with	with	with	IN	O	prep	O	-1	O
+0	43	899	4703	4711		898	laughter	laughter	laughter	NN	O	pobj	O	-1	B-noun.communication
+0	43	900	4711	4712	S	873	.	.	.	.	O	punct	O	-1	O
+0	44	901	4713	4721	S	904	Although	Although	although	IN	O	mark	O	-1	O
+0	44	902	4722	4727	S	904	Harry	Harry	Harry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	44	903	4728	4731	S	904	has	has	have	VBZ	O	aux	O	-1	O
+0	44	904	4732	4738	S	913	failed	failed	fail	VBN	O	advcl	O	-1	B-verb.social
+0	44	905	4739	4743	S	906	this	this	this	DT	O	det	O	-1	O
+0	44	906	4744	4748		904	time	time	time	NN	O	dobj	O	-1	B-noun.event
+0	44	907	4748	4749	S	904	,	,	,	,	O	punct	O	-1	O
+0	44	908	4750	4759	S	904	according	according	accord	VBG	O	prep	O	-1	O
+0	44	909	4760	4762	N	908	to	to	to	TO	O	dep	O	-1	O
+0	44	910	4763	4768		909	Pablo	Pablo	Pablo	NNP	PERSON	pobj	O	1	O
+0	44	911	4768	4769	S	913	,	,	,	,	O	punct	O	-1	O
+0	44	912	4770	4772	S	913	he	he	he	PRP	O	nsubj	O	2	O
+0	44	913	4773	4779	S	-1	leaves	leaves	leave	VBZ	O	null	O	-1	B-verb.motion
+0	44	914	4780	4783	S	915	the	the	the	DT	O	det	O	-1	O
+0	44	915	4784	4791	S	913	theater	theater	theater	NN	O	dobj	O	-1	B-noun.artifact
+0	44	916	4792	4796	S	913	with	with	with	IN	O	prep	O	-1	O
+0	44	917	4797	4800	S	919	the	the	the	DT	O	det	O	-1	O
+0	44	918	4801	4805	S	919	deep	deep	deep	JJ	O	amod	O	-1	O
+0	44	919	4806	4812	S	916	belief	belief	belief	NN	O	pobj	O	-1	B-noun.cognition
+0	44	920	4813	4817	S	925	that	that	that	IN	O	complm	O	-1	O
+0	44	921	4818	4821	S	922	one	one	one	CD	DURATION	num	O	-1	O
+0	44	922	4822	4825	S	925	day	day	day	NN	DURATION	tmod	O	-1	B-noun.time
+0	44	923	4826	4828	N	925	he	he	he	PRP	O	nsubj	O	2	O
+0	44	924	4829	4833	S	925	will	will	will	MD	O	aux	O	-1	O
+0	44	925	4834	4837	S	919	get	get	get	VB	O	ccomp	O	-1	B-verb.change
+0	44	926	4838	4844	S	925	things	things	thing	NNS	O	dobj	O	-1	B-noun.cognition
+0	44	927	4845	4850		925	right	right	right	RB	O	xcomp	O	-1	O
+0	44	928	4850	4851	N	913	.	.	.	.	O	punct	O	-1	O

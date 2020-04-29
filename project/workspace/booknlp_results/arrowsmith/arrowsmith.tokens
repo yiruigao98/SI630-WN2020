@@ -1,0 +1,880 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	6	S	1	Martin	Martin	Martin	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	7	17		9	Arrowsmith	Arrowsmith	Arrowsmith	NNP	PERSON	nsubjpass	O	-1	I-noun.person
+0	0	2	17	18	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	19	22	S	4	the	the	the	DT	O	det	O	-1	O
+0	0	4	23	28		6	novel	novel	novel	NN	O	poss	O	-1	B-noun.communication
+0	0	5	28	30	S	4	's	's	's	POS	O	possessive	O	-1	O
+0	0	6	31	42		1	protagonist	protagonist	protagonist	NN	O	appos	O	-1	B-noun.person
+0	0	7	42	43	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	8	44	46	S	9	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	9	47	51	S	-1	born	born	bear	VBN	O	null	O	-1	B-verb.body
+0	0	10	52	55	S	9	and	and	and	CC	O	cc	O	-1	O
+0	0	11	56	62	S	9	raised	raised	raise	VBN	O	conj	O	-1	B-verb.motion
+0	0	12	63	65	S	11	in	in	in	IN	O	prep	O	-1	O
+0	0	13	66	69	S	16	the	the	the	DT	O	det	O	-1	O
+0	0	14	70	75	S	16	small	small	small	JJ	O	amod	O	-1	O
+0	0	15	76	86	S	16	Midwestern	Midwestern	midwestern	JJ	LOCATION	amod	O	-1	O
+0	0	16	87	91	S	12	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	0	17	92	94	S	16	of	of	of	IN	O	prep	O	-1	O
+0	0	18	95	98	S	19	Elk	Elk	Elk	NNP	LOCATION	nn	O	-1	B-noun.group
+0	0	19	99	104	S	32	Mills	Mills	Mills	NNP	LOCATION	nsubj	O	-1	I-noun.group
+0	0	20	105	110	S	22	where	where	where	WRB	O	advmod	O	-1	O
+0	0	21	111	113	S	22	he	he	he	PRP	O	nsubj	O	-1	O
+0	0	22	114	122	S	32	develops	develops	develop	VBZ	O	dep	O	-1	B-verb.creation
+0	0	23	123	125	S	24	an	an	a	DT	O	det	O	-1	O
+0	0	24	126	134	S	22	interest	interest	interest	NN	O	dobj	O	-1	B-noun.cognition
+0	0	25	135	137	S	22	in	in	in	IN	O	prep	O	-1	O
+0	0	26	138	145	S	25	science	science	science	NN	O	pobj	O	-1	B-noun.cognition
+0	0	27	146	149	S	22	and	and	and	CC	O	cc	O	-1	O
+0	0	28	150	156	S	22	spends	spends	spend	VBZ	O	conj	O	-1	B-verb.stative
+0	0	29	157	160	S	31	his	his	he	PRP$	O	poss	O	-1	O
+0	0	30	161	165	S	31	free	free	free	JJ	O	amod	O	-1	O
+0	0	31	166	171	S	22	hours	hours	hour	NNS	DURATION	dobj	O	-1	B-noun.time
+0	0	32	172	179	S	17	reading	reading	read	VBG	O	pcomp	O	-1	B-verb.cognition
+0	0	33	180	187	S	32	through	through	through	IN	O	prep	O	-1	O
+0	0	34	188	192		36	Gray	Gray	Gray	NNP	PERSON	poss	O	-1	B-noun.group
+0	0	35	192	194	S	34	's	's	's	POS	O	possessive	O	-1	O
+0	0	36	195	202	S	33	Anatomy	Anatomy	Anatomy	NNP	O	pobj	O	-1	O
+0	0	37	203	206	S	36	and	and	and	CC	O	cc	O	-1	O
+0	0	38	207	212	S	39	other	other	other	JJ	O	amod	O	-1	O
+0	0	39	213	218	S	36	books	books	book	NNS	O	conj	O	-1	B-noun.communication
+0	0	40	219	221	S	32	in	in	in	IN	O	prep	O	-1	O
+0	0	41	222	225	S	42	the	the	the	DT	O	det	O	-1	O
+0	0	42	226	232	S	40	office	office	office	NN	O	pobj	O	-1	B-noun.artifact
+0	0	43	233	235	S	42	of	of	of	IN	O	prep	O	-1	O
+0	0	44	236	239	S	45	the	the	the	DT	O	det	O	-1	O
+0	0	45	240	244		47	town	town	town	NN	O	poss	O	-1	B-noun.location
+0	0	46	244	246	S	45	's	's	's	POS	O	possessive	O	-1	O
+0	0	47	247	253		43	doctor	doctor	doctor	NN	O	pobj	O	-1	B-noun.person
+0	0	48	253	254	S	9	,	,	,	,	O	punct	O	-1	O
+0	0	49	255	258	S	50	Doc	Doc	Doc	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	50	259	268		9	Vickerson	Vickerson	Vickerson	NNP	PERSON	dobj	O	-1	I-noun.person
+0	0	51	268	269	S	9	.	.	.	.	O	punct	O	-1	O
+0	1	52	270	274	S	54	This	This	this	DT	O	det	O	-1	O
+0	1	53	275	280	S	54	early	early	early	JJ	O	amod	O	-1	O
+0	1	54	281	290	S	56	education	education	education	NN	O	nsubjpass	O	-1	B-noun.act
+0	1	55	291	293	S	56	is	is	be	VBZ	O	auxpass	O	-1	O
+0	1	56	294	306	S	-1	supplemented	supplemented	supplement	VBN	O	null	O	-1	B-verb.possession
+0	1	57	307	311	S	59	when	when	when	WRB	O	advmod	O	-1	O
+0	1	58	312	314	S	59	he	he	he	PRP	O	nsubj	O	-1	O
+0	1	59	315	319	S	56	goes	goes	go	VBZ	O	advcl	O	-1	B-verb.motion
+0	1	60	320	323	S	59	off	off	off	RB	O	advmod	O	-1	O
+0	1	61	324	326	S	59	to	to	to	TO	O	prep	O	-1	O
+0	1	62	327	334	S	61	college	college	college	NN	O	pobj	O	-1	B-noun.group
+0	1	63	335	338	S	59	and	and	and	CC	O	cc	O	-1	O
+0	1	64	339	349	S	68	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	1	65	350	357	S	68	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	1	66	358	359	S	68	a	a	a	DT	O	det	O	-1	O
+0	1	67	360	367	S	68	medical	medical	medical	JJ	O	amod	O	-1	O
+0	1	68	368	375	S	59	student	student	student	NN	O	conj	O	-1	B-noun.person
+0	1	69	376	378	S	68	at	at	at	IN	O	prep	O	-1	O
+0	1	70	379	382	S	71	the	the	the	DT	O	det	O	-1	O
+0	1	71	383	393	S	69	University	University	University	NNP	ORGANIZATION	pobj	O	-1	B-noun.group
+0	1	72	394	396	S	71	of	of	of	IN	ORGANIZATION	prep	O	-1	O
+0	1	73	397	405		72	Winnemac	Winnemac	Winnemac	NNP	ORGANIZATION	pobj	O	-1	O
+0	1	74	405	406	S	71	,	,	,	,	O	punct	O	-1	O
+0	1	75	407	412	S	77	where	where	where	WRB	O	advmod	O	-1	O
+0	1	76	413	415	S	77	he	he	he	PRP	O	nsubj	O	-1	O
+0	1	77	416	421	S	71	meets	meets	meet	VBZ	O	rcmod	O	-1	B-verb.motion
+0	1	78	422	425	S	80	his	his	he	PRP$	O	poss	O	-1	O
+0	1	79	426	435	S	80	life-time	life-time	life-time	JJ	O	amod	O	-1	O
+0	1	80	436	442		77	mentor	mentor	mentor	NN	O	dobj	O	-1	B-noun.person
+0	1	81	442	443	S	71	,	,	,	,	O	punct	O	-1	O
+0	1	82	444	447	S	83	Max	Max	Max	NNP	PERSON	nn	O	1	O
+0	1	83	448	456		71	Gottlieb	Gottlieb	Gottlieb	NNP	PERSON	appos	O	1	O
+0	1	84	456	457	S	71	,	,	,	,	O	punct	O	-1	O
+0	1	85	458	459	S	87	a	a	a	DT	O	det	O	-1	O
+0	1	86	460	466	S	87	German	German	german	JJ	MISC	amod	O	-1	O
+0	1	87	467	476	S	71	professor	professor	professor	NN	O	appos	O	-1	B-noun.person
+0	1	88	477	486	S	87	committed	committed	commit	VBN	O	partmod	O	-1	B-verb.communication
+0	1	89	487	489	S	88	to	to	to	TO	O	prep	O	-1	O
+0	1	90	490	500	S	91	laboratory	laboratory	laboratory	NN	O	nn	O	-1	B-noun.artifact
+0	1	91	501	508	S	89	science	science	science	NN	O	pobj	O	-1	B-noun.cognition
+0	1	92	509	512	S	91	and	and	and	CC	O	cc	O	-1	O
+0	1	93	513	521		91	research	research	research	NN	O	conj	O	-1	B-noun.act
+0	1	94	521	522	S	56	.	.	.	.	O	punct	O	-1	O
+0	2	95	523	528	S	101	While	While	while	IN	O	prep	O	-1	O
+0	2	96	529	531	S	95	in	in	in	IN	O	dep	O	-1	O
+0	2	97	532	539	S	98	medical	medical	medical	JJ	O	amod	O	-1	O
+0	2	98	540	546		96	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	2	99	546	547	S	101	,	,	,	,	O	punct	O	-1	O
+0	2	100	548	554	S	101	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	2	101	555	560	S	-1	dates	dates	date	VBZ	O	null	O	-1	B-verb.social
+0	2	102	561	562	S	103	a	a	a	DT	O	det	O	-1	O
+0	2	103	563	567	S	101	girl	girl	girl	NN	O	dobj	O	-1	B-noun.person
+0	2	104	568	573	S	103	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	2	105	574	583	S	106	Madeleine	Madeleine	Madeleine	NNP	PERSON	nn	O	-1	B-noun.person
+0	2	106	584	587		104	Fox	Fox	Fox	NNP	PERSON	xcomp	O	-1	I-noun.person
+0	2	107	587	588	S	106	,	,	,	,	O	punct	O	-1	O
+0	2	108	589	590	S	113	a	a	a	DT	O	det	O	-1	O
+0	2	109	591	599		113	snobbish	snobbish	snobbish	JJ	O	amod	O	-1	O
+0	2	110	599	600	S	113	,	,	,	,	O	punct	O	-1	O
+0	2	111	601	609	S	113	educated	educated	educate	VBN	O	amod	O	-1	B-verb.social
+0	2	112	610	618	S	113	doctoral	doctoral	doctoral	JJ	O	amod	O	-1	O
+0	2	113	619	626	S	106	student	student	student	NN	O	appos	O	-1	B-noun.person
+0	2	114	627	629	S	113	of	of	of	IN	O	prep	O	-1	O
+0	2	115	630	640	S	114	literature	literature	literature	NN	O	pobj	O	-1	B-noun.communication
+0	2	116	641	644	S	101	and	and	and	CC	O	cc	O	-1	O
+0	2	117	645	652	S	118	becomes	becomes	become	VBZ	O	auxpass	O	-1	B-verb.change
+0	2	118	653	660	S	101	engaged	engaged	engage	VBN	O	conj	O	-1	B-verb.cognition
+0	2	119	661	663	S	118	to	to	to	TO	O	prep	O	-1	O
+0	2	120	664	667		119	her	her	she	PRP	O	pobj	O	-1	O
+0	2	121	667	668	S	118	,	,	,	,	O	punct	O	-1	O
+0	2	122	669	673	S	124	only	only	only	RB	O	advmod	O	-1	O
+0	2	123	674	676	S	124	to	to	to	TO	O	aux	O	-1	O
+0	2	124	677	682	S	118	leave	leave	leave	VB	O	ccomp	O	-1	B-verb.motion
+0	2	125	683	686	S	126	her	her	she	PRP$	O	poss	O	-1	O
+0	2	126	687	692	S	124	later	later	later	JJ	O	dobj	O	-1	O
+0	2	127	693	696	S	126	for	for	for	IN	O	prep	O	-1	O
+0	2	128	697	702	S	129	Leora	Leora	Leora	NNP	PERSON	nn	O	-1	B-noun.person
+0	2	129	703	708		127	Tozer	Tozer	Tozer	NNP	PERSON	pobj	O	-1	I-noun.person
+0	2	130	708	709	S	129	,	,	,	,	O	punct	O	-1	O
+0	2	131	710	711	S	133	a	a	a	DT	O	det	O	-1	O
+0	2	132	712	725	S	133	down-to-earth	down-to-earth	down-to-earth	JJ	O	amod	O	-1	O
+0	2	133	726	731	S	129	nurse	nurse	nurse	NN	O	appos	O	-1	B-noun.person
+0	2	134	732	734	S	133	in	in	in	IN	O	prep	O	-1	O
+0	2	135	735	743		134	training	training	training	NN	O	pobj	O	-1	B-noun.act
+0	2	136	743	744	S	129	,	,	,	,	O	punct	O	-1	O
+0	2	137	745	749	S	140	whom	whom	whom	WP	O	dobj	O	-1	O
+0	2	138	750	752	S	140	he	he	he	PRP	O	nsubj	O	3	O
+0	2	139	753	757	S	140	will	will	will	MD	O	aux	O	-1	O
+0	2	140	758	762	S	129	love	love	love	VB	O	rcmod	O	-1	B-verb.emotion
+0	2	141	763	766	S	140	and	and	and	CC	O	cc	O	-1	O
+0	2	142	767	771	S	140	live	live	live	VB	O	conj	O	-1	B-verb.stative
+0	2	143	772	776	S	142	with	with	with	IN	O	prep	O	-1	O
+0	2	144	777	782	S	143	until	until	until	IN	O	dep	O	-1	O
+0	2	145	783	786	S	146	the	the	the	DT	O	det	O	-1	O
+0	2	146	787	790	S	144	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	2	147	791	793	S	146	of	of	of	IN	O	prep	O	-1	O
+0	2	148	794	797	S	149	her	her	she	PRP$	O	poss	O	-1	O
+0	2	149	798	802		147	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	2	150	802	803	S	101	.	.	.	.	O	punct	O	-1	O
+0	3	151	804	808		164	Also	Also	also	RB	O	advmod	O	-1	O
+0	3	152	808	809	S	164	,	,	,	,	O	punct	O	-1	O
+0	3	153	810	815	S	164	while	while	while	IN	O	prep	O	-1	O
+0	3	154	816	818	S	153	at	at	at	IN	O	dep	O	-1	O
+0	3	155	819	827		154	Winnemac	Winnemac	Winnemac	NNP	LOCATION	pobj	O	-1	O
+0	3	156	827	828	S	164	,	,	,	,	O	punct	O	-1	O
+0	3	157	829	834	S	164	under	under	under	IN	O	prep	O	-1	O
+0	3	158	835	838	S	159	the	the	the	DT	O	det	O	-1	O
+0	3	159	839	843	S	157	wing	wing	wing	NN	O	pobj	O	-1	B-noun.artifact
+0	3	160	844	846	S	159	of	of	of	IN	O	prep	O	-1	O
+0	3	161	847	855		160	Gottlieb	Gottlieb	Gottlieb	NNP	PERSON	pobj	O	1	O
+0	3	162	855	856	S	164	,	,	,	,	O	punct	O	-1	O
+0	3	163	857	863	S	164	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	3	164	864	872	S	-1	develops	develops	develop	VBZ	O	null	O	-1	B-verb.creation
+0	3	165	873	874	S	167	a	a	a	DT	O	det	O	-1	O
+0	3	166	875	886	S	167	deep-rooted	deep-rooted	deep-rooted	JJ	O	amod	O	-1	O
+0	3	167	887	891	S	164	love	love	love	NN	O	dobj	O	-1	B-noun.feeling
+0	3	168	892	895	S	167	for	for	for	IN	O	prep	O	-1	O
+0	3	169	896	899	S	170	the	the	the	DT	O	det	O	-1	O
+0	3	170	900	910	S	168	laboratory	laboratory	laboratory	NN	O	pobj	O	-1	B-noun.artifact
+0	3	171	911	914	S	164	and	and	and	CC	O	cc	O	-1	O
+0	3	172	915	921	S	164	lashes	lashes	lash	VBZ	O	conj	O	-1	B-verb.contact
+0	3	173	922	925	S	172	out	out	out	RP	O	prt	O	-1	O
+0	3	174	926	933	S	172	against	against	against	IN	O	prep	O	-1	O
+0	3	175	934	935		176	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	176	935	948		174	commercialism	commercialism	commercialism	NN	O	pobj	I-QUOTE	-1	O
+0	3	177	948	949	S	176	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	178	950	953	S	176	and	and	and	CC	O	cc	O	-1	O
+0	3	179	954	957	S	180	the	the	the	DT	O	det	O	-1	O
+0	3	180	958	964	S	176	faults	faults	fault	NNS	O	conj	O	-1	B-noun.state
+0	3	181	965	967	S	180	of	of	of	IN	O	prep	O	-1	O
+0	3	182	968	971	S	184	the	the	the	DT	O	det	O	-1	O
+0	3	183	972	982	S	184	practicing	practicing	practice	VBG	O	amod	O	-1	B-verb.social
+0	3	184	983	992	S	181	physician	physician	physician	NN	O	pobj	O	-1	B-noun.person
+0	3	185	993	999	S	176	versus	versus	versus	CC	O	cc	O	-1	O
+0	3	186	1000	1003	S	187	the	the	the	DT	O	det	O	-1	O
+0	3	187	1004	1010	S	176	ideals	ideals	ideal	NNS	O	conj	O	-1	B-noun.cognition
+0	3	188	1011	1013	S	187	of	of	of	IN	O	prep	O	-1	O
+0	3	189	1014	1018	S	190	true	true	true	JJ	O	amod	O	-1	O
+0	3	190	1019	1026	S	188	science	science	science	NN	O	pobj	O	-1	B-noun.cognition
+0	3	191	1027	1030	S	190	and	and	and	CC	O	cc	O	-1	O
+0	3	192	1031	1039		190	research	research	research	NN	O	conj	O	-1	B-noun.act
+0	3	193	1039	1040	S	164	.	.	.	.	O	punct	O	-1	O
+0	4	194	1041	1053		204	Nevertheless	Nevertheless	nevertheless	RB	O	advmod	O	-1	O
+0	4	195	1053	1054	S	204	,	,	,	,	O	punct	O	-1	O
+0	4	196	1055	1061		204	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	O
+0	4	197	1061	1062	S	204	,	,	,	,	O	punct	O	-1	O
+0	4	198	1063	1068	S	204	after	after	after	IN	O	prep	O	-1	O
+0	4	199	1069	1079	S	198	graduating	graduating	graduate	VBG	O	pcomp	O	-1	B-verb.possession
+0	4	200	1080	1084	S	199	from	from	from	IN	O	prep	O	-1	O
+0	4	201	1085	1093		200	Winnemac	Winnemac	Winnemac	NNP	LOCATION	pobj	O	-1	O
+0	4	202	1093	1094	S	204	,	,	,	,	O	punct	O	-1	O
+0	4	203	1095	1099	S	204	must	must	must	MD	O	aux	O	-1	O
+0	4	204	1100	1107	S	-1	abandon	abandon	abandon	VB	O	null	O	-1	B-verb.possession
+0	4	205	1108	1111	S	208	his	his	he	PRP$	O	poss	O	3	O
+0	4	206	1112	1113		208	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	4	207	1113	1117	S	208	true	true	true	JJ	O	amod	I-QUOTE	-1	O
+0	4	208	1118	1125		204	science	science	science	NN	O	dobj	I-QUOTE	-1	B-noun.cognition
+0	4	209	1125	1126	S	204	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	4	210	1127	1134	S	213	because	because	because	IN	O	mark	O	-1	O
+0	4	211	1135	1137	S	213	he	he	he	PRP	O	nsubj	O	3	O
+0	4	212	1138	1141	S	213	has	has	have	VBZ	O	aux	O	-1	O
+0	4	213	1142	1149	S	204	married	married	marry	VBN	O	advcl	O	-1	B-verb.social
+0	4	214	1150	1155	S	213	Leora	Leora	Leora	NNP	PERSON	dobj	O	2	B-noun.person
+0	4	215	1156	1159	S	213	and	and	and	CC	O	cc	O	-1	O
+0	4	216	1160	1163	S	217	now	now	now	RB	DATE	advmod	O	-1	O
+0	4	217	1164	1167	S	213	has	has	have	VBZ	O	conj	O	-1	B-verb.possession
+0	4	218	1168	1169	S	219	a	a	a	DT	O	det	O	-1	O
+0	4	219	1170	1174	S	217	wife	wife	wife	NN	O	dobj	O	-1	B-noun.person
+0	4	220	1175	1177	S	221	to	to	to	TO	O	aux	O	-1	O
+0	4	221	1178	1185		219	support	support	support	VB	O	infmod	O	-1	B-verb.social
+0	4	222	1185	1186	S	204	.	.	.	.	O	punct	O	-1	O
+0	5	223	1187	1193	S	226	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	5	224	1194	1197	S	223	and	and	and	CC	O	cc	O	-1	O
+0	5	225	1198	1203	S	223	Leora	Leora	Leora	NNP	PERSON	conj	O	2	B-noun.person
+0	5	226	1204	1208	S	-1	move	move	move	VBP	O	null	O	-1	B-verb.motion
+0	5	227	1209	1211	S	226	to	to	to	TO	O	prep	O	-1	O
+0	5	228	1212	1217		230	Leora	Leora	Leora	NNP	PERSON	poss	O	2	B-noun.person
+0	5	229	1217	1219	S	228	's	's	's	POS	O	possessive	O	-1	O
+0	5	230	1220	1228	S	227	hometown	hometown	hometown	NN	O	pobj	O	-1	B-noun.location
+0	5	231	1229	1231	S	230	of	of	of	IN	O	prep	O	-1	O
+0	5	232	1232	1245	S	231	Wheatsylvania	Wheatsylvania	Wheatsylvania	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	5	233	1246	1251	S	238	where	where	where	WRB	O	advmod	O	-1	O
+0	5	234	1252	1258	S	238	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	5	235	1259	1266	S	238	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	5	236	1267	1268	S	238	a	a	a	DT	O	det	O	-1	O
+0	5	237	1269	1276	S	238	country	country	country	NN	O	nn	O	-1	B-noun.person
+0	5	238	1277	1283	S	232	doctor	doctor	doctor	NN	O	rcmod	O	-1	I-noun.person
+0	5	239	1284	1289	S	243	about	about	about	IN	O	dep	O	-1	O
+0	5	240	1290	1294	S	239	whom	whom	whom	WP	O	pobj	O	-1	O
+0	5	241	1295	1298	S	243	the	the	the	DT	O	det	O	-1	O
+0	5	242	1299	1310	S	243	townspeople	townspeople	townspeople	NN	O	nn	O	-1	B-noun.group
+0	5	243	1311	1317		238	gossip	gossip	gossip	NN	O	dep	O	-1	B-noun.communication
+0	5	244	1317	1318	S	226	.	.	.	.	O	punct	O	-1	O
+0	6	245	1319	1327	S	247	Although	Although	although	IN	O	mark	O	-1	O
+0	6	246	1328	1330	S	247	he	he	he	PRP	O	nsubj	O	3	O
+0	6	247	1331	1333	S	254	is	is	be	VBZ	O	advcl	O	-1	B-verb.stative
+0	6	248	1334	1336	S	247	at	at	at	IN	O	prep	O	-1	O
+0	6	249	1337	1342	S	248	times	times	time	NNS	O	pobj	O	-1	B-noun.event
+0	6	250	1343	1353		249	successful	successful	successful	JJ	O	amod	O	-1	O
+0	6	251	1353	1354	S	254	,	,	,	,	O	punct	O	-1	O
+0	6	252	1355	1357	S	254	he	he	he	PRP	O	nsubj	O	3	O
+0	6	253	1358	1363	S	254	never	never	never	RB	O	neg	O	-1	O
+0	6	254	1364	1369	S	-1	gains	gains	gain	VBZ	O	null	O	-1	B-verb.possession
+0	6	255	1370	1373	S	256	the	the	the	DT	O	det	O	-1	O
+0	6	256	1374	1379	S	254	trust	trust	trust	NN	O	dobj	O	-1	B-noun.attribute
+0	6	257	1380	1382	S	256	of	of	of	IN	O	prep	O	-1	O
+0	6	258	1383	1386	S	259	the	the	the	DT	O	det	O	-1	O
+0	6	259	1387	1396	S	257	community	community	community	NN	O	pobj	O	-1	B-noun.group
+0	6	260	1397	1399	S	254	as	as	as	IN	O	prep	O	-1	O
+0	6	261	1400	1401	S	262	a	a	a	DT	O	det	O	-1	O
+0	6	262	1402	1407	S	260	whole	whole	whole	JJ	O	pobj	O	-1	O
+0	6	263	1408	1411	S	262	and	and	and	CC	O	cc	O	-1	O
+0	6	264	1412	1417	S	262	loses	loses	lose	VBZ	O	conj	O	-1	B-verb.possession
+0	6	265	1418	1419	S	266	a	a	a	DT	O	det	O	-1	O
+0	6	266	1420	1427		264	patient	patient	patient	NN	O	dobj	O	-1	B-noun.person
+0	6	267	1427	1428	S	266	,	,	,	,	O	punct	O	-1	O
+0	6	268	1429	1431	S	266	in	in	in	IN	O	prep	O	-1	O
+0	6	269	1432	1435	S	271	his	his	he	PRP$	O	poss	O	3	O
+0	6	270	1436	1441	S	271	early	early	early	JJ	DURATION	amod	O	-1	O
+0	6	271	1442	1446		268	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	6	272	1446	1447	S	254	.	.	.	.	O	punct	O	-1	O
+0	7	273	1448	1453	S	275	Leora	Leora	Leora	NNP	PERSON	nsubj	O	2	O
+0	7	274	1454	1458	S	275	also	also	also	RB	O	advmod	O	-1	O
+0	7	275	1459	1462	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	7	276	1463	1464	S	277	a	a	a	DT	O	det	O	-1	O
+0	7	277	1465	1476	S	275	miscarriage	miscarriage	miscarriage	NN	O	dobj	O	-1	B-noun.event
+0	7	278	1477	1483	S	275	during	during	during	IN	O	prep	O	-1	O
+0	7	279	1484	1489	S	280	their	their	they	PRP$	O	poss	O	-1	O
+0	7	280	1490	1494	S	278	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	7	281	1495	1497	S	280	in	in	in	IN	O	prep	O	-1	O
+0	7	282	1498	1511		281	Wheatsylvania	Wheatsylvania	Wheatsylvania	NNP	LOCATION	pobj	O	-1	O
+0	7	283	1511	1512	S	275	.	.	.	.	O	punct	O	-1	O
+0	8	284	1513	1520	S	-1	Feeling	Feeling	feel	VBG	O	null	O	-1	B-verb.cognition
+0	8	285	1521	1523	S	284	as	as	as	IN	O	prep	O	-1	O
+0	8	286	1524	1530	S	289	though	though	though	IN	O	mark	O	-1	O
+0	8	287	1531	1533	S	289	he	he	he	PRP	O	nsubj	O	3	O
+0	8	288	1534	1537	S	289	has	has	have	VBZ	O	aux	O	-1	O
+0	8	289	1538	1544	S	285	failed	failed	fail	VBN	O	pcomp	O	-1	B-verb.social
+0	8	290	1545	1547	S	289	in	in	in	IN	O	prep	O	-1	O
+0	8	291	1548	1561		290	Wheatsylvania	Wheatsylvania	Wheatsylvania	NNP	LOCATION	pobj	O	-1	O
+0	8	292	1561	1562	S	291	,	,	,	,	O	punct	O	-1	O
+0	8	293	1563	1570	S	291	Martina	Martina	Martina	NNP	PERSON	conj	O	-1	B-noun.person
+0	8	294	1571	1574	S	291	and	and	and	CC	O	cc	O	-1	O
+0	8	295	1575	1580	S	291	Leora	Leora	Leora	NNP	PERSON	conj	O	2	B-noun.person
+0	8	296	1581	1585	S	289	move	move	move	VBP	O	prep	O	-1	B-verb.motion
+0	8	297	1586	1588	S	296	to	to	to	TO	O	prep	O	-1	O
+0	8	298	1589	1597		297	Nautilus	Nautilus	nautilus	JJ	ORGANIZATION	pobj	O	5	O
+0	8	299	1597	1598	S	284	,	,	,	,	O	punct	O	-1	O
+0	8	300	1599	1600	S	301	a	a	a	DT	O	det	O	-1	O
+0	8	301	1601	1605	S	299	city	city	city	NN	O	dobj	O	-1	B-noun.location
+0	8	302	1606	1608	S	301	in	in	in	IN	O	prep	O	-1	O
+0	8	303	1609	1612	S	304	the	the	the	DT	O	det	O	-1	O
+0	8	304	1613	1620		302	Midwest	Midwest	Midwest	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	8	305	1620	1621	S	284	.	.	.	.	O	punct	O	-1	O
+0	9	306	1622	1624	S	314	In	In	in	IN	O	prep	O	-1	O
+0	9	307	1625	1633		306	Nautilus	Nautilus	nautilus	JJ	O	pobj	O	-1	O
+0	9	308	1633	1634	S	314	,	,	,	,	O	punct	O	-1	O
+0	9	309	1635	1641	S	314	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	9	310	1642	1649	S	314	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	9	311	1650	1651	S	314	a	a	a	DT	O	det	O	-1	O
+0	9	312	1652	1658	S	314	public	public	public	JJ	O	amod	O	-1	O
+0	9	313	1659	1665	S	314	health	health	health	NN	O	nn	O	-1	B-noun.state
+0	9	314	1666	1675		-1	physician	physician	physician	NN	O	null	O	-1	B-noun.person
+0	9	315	1675	1676	S	314	,	,	,	,	O	punct	O	-1	O
+0	9	316	1677	1684	S	315	working	working	work	VBG	O	partmod	O	-1	B-verb.social
+0	9	317	1685	1690	S	316	under	under	under	IN	O	prep	O	-1	O
+0	9	318	1691	1694	S	319	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	9	319	1695	1706		317	Pickerbaugh	Pickerbaugh	Pickerbaugh	NNP	PERSON	pobj	O	-1	I-noun.person
+0	9	320	1706	1707	S	319	,	,	,	,	O	punct	O	-1	O
+0	9	321	1708	1711	S	323	who	who	who	WP	O	nsubj	O	-1	O
+0	9	322	1712	1714	S	323	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	9	323	1715	1719	S	319	more	more	more	JJR	O	rcmod	O	-1	O
+0	9	324	1720	1722	S	323	of	of	of	IN	O	prep	O	-1	O
+0	9	325	1723	1724	S	326	a	a	a	DT	O	det	O	-1	O
+0	9	326	1725	1733	S	324	salesman	salesman	salesman	NN	O	pobj	O	-1	B-noun.person
+0	9	327	1734	1738	S	323	than	than	than	IN	O	prep	O	-1	O
+0	9	328	1739	1740	S	329	a	a	a	DT	O	det	O	-1	O
+0	9	329	1741	1747	S	327	doctor	doctor	doctor	NN	O	pobj	O	-1	B-noun.person
+0	9	330	1748	1751	S	329	and	and	and	CC	O	cc	O	-1	O
+0	9	331	1752	1755	S	332	who	who	who	WP	O	nsubj	O	-1	O
+0	9	332	1756	1762	S	329	writes	writes	write	VBZ	O	conj	O	-1	B-verb.creation
+0	9	333	1763	1769	S	332	verses	verses	verse	NNS	O	dobj	O	-1	B-noun.communication
+0	9	334	1770	1775	S	333	about	about	about	IN	O	prep	O	-1	O
+0	9	335	1776	1783	S	334	hygiene	hygiene	hygiene	NN	O	pobj	O	-1	B-noun.state
+0	9	336	1784	1787	S	335	and	and	and	CC	O	cc	O	-1	O
+0	9	337	1788	1799		335	cleanliness	cleanliness	cleanliness	NN	O	conj	O	-1	B-noun.state
+0	9	338	1799	1800	S	314	.	.	.	.	O	punct	O	-1	O
+0	10	339	1801	1806	S	347	After	After	after	IN	O	prep	O	-1	O
+0	10	340	1807	1812	S	341	being	being	be	VBG	O	cop	O	-1	B-verb.stative
+0	10	341	1813	1820	S	339	unhappy	unhappy	unhappy	JJ	O	pcomp	O	-1	O
+0	10	342	1821	1823	S	341	in	in	in	IN	O	prep	O	-1	O
+0	10	343	1824	1832		342	Nautilus	Nautilus	nautilus	JJ	ORGANIZATION	pobj	O	5	O
+0	10	344	1832	1833	S	347	,	,	,	,	O	punct	O	-1	O
+0	10	345	1834	1840	S	347	Martin	Martin	Martin	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	10	346	1841	1843	S	347	is	is	be	VBZ	O	auxpass	O	-1	O
+0	10	347	1844	1850	S	-1	called	called	call	VBN	O	null	O	-1	B-verb.communication
+0	10	348	1851	1853	S	347	to	to	to	TO	O	prep	O	-1	O
+0	10	349	1854	1857	S	351	the	the	the	DT	O	det	O	-1	O
+0	10	350	1858	1869	S	351	Rouncefield	Rouncefield	Rouncefield	NNP	ORGANIZATION	nn	O	0	B-noun.person
+0	10	351	1870	1876	S	348	Clinic	Clinic	Clinic	NNP	ORGANIZATION	pobj	O	0	I-noun.person
+0	10	352	1877	1879	S	351	in	in	in	IN	O	prep	O	-1	O
+0	10	353	1880	1887	S	352	Chicago	Chicago	Chicago	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	10	354	1888	1890	S	355	to	to	to	TO	O	aux	O	-1	O
+0	10	355	1891	1895	S	347	work	work	work	VB	O	dep	O	-1	B-verb.social
+0	10	356	1896	1900	S	355	with	with	with	IN	O	prep	O	-1	O
+0	10	357	1901	1904	S	360	his	his	he	PRP$	O	poss	O	3	O
+0	10	358	1905	1912	S	360	medical	medical	medical	JJ	O	amod	O	-1	O
+0	10	359	1913	1919	S	360	school	school	school	NN	O	nn	O	-1	B-noun.group
+0	10	360	1920	1929		356	colleague	colleague	colleague	NN	O	pobj	O	-1	B-noun.person
+0	10	361	1929	1930	S	347	,	,	,	,	O	punct	O	-1	O
+0	10	362	1931	1935	S	347	with	with	with	IN	O	prep	O	-1	O
+0	10	363	1936	1940	S	367	whom	whom	whom	WP	O	dobj	O	-1	O
+0	10	364	1941	1943	S	367	he	he	he	PRP	O	nsubj	O	3	O
+0	10	365	1944	1947	S	367	had	had	have	VBD	O	aux	O	-1	O
+0	10	366	1948	1954	S	367	always	always	always	RB	O	advmod	O	-1	O
+0	10	367	1955	1959	S	372	been	been	be	VBN	O	dep	O	-1	B-verb.stative
+0	10	368	1960	1962	S	367	in	in	in	IN	O	prep	O	-1	O
+0	10	369	1963	1974		368	competition	competition	competition	NN	O	pobj	O	-1	B-noun.relation
+0	10	370	1974	1975	S	372	,	,	,	,	O	punct	O	-1	O
+0	10	371	1976	1981	S	372	Angus	Angus	Angus	NNP	PERSON	nn	O	-1	B-noun.person
+0	10	372	1982	1986		362	Duer	Duer	Duer	NNP	PERSON	pobj	O	-1	I-noun.person
+0	10	373	1986	1987	S	347	.	.	.	.	O	punct	O	-1	O
+0	11	374	1988	1991	S	375	His	His	he	PRP$	O	poss	O	-1	O
+0	11	375	1992	1996	S	387	work	work	work	NN	O	nsubj	O	-1	B-noun.act
+0	11	376	1997	1999	S	375	as	as	as	IN	O	prep	O	-1	O
+0	11	377	2000	2001	S	378	a	a	a	DT	O	det	O	-1	O
+0	11	378	2002	2013	S	376	pathologist	pathologist	pathologist	NN	O	pobj	O	-1	B-noun.person
+0	11	379	2014	2016	S	378	in	in	in	IN	O	prep	O	-1	O
+0	11	380	2017	2020	S	382	the	the	the	DT	O	det	O	-1	O
+0	11	381	2021	2032	S	382	Rouncefield	Rouncefield	Rouncefield	NNP	ORGANIZATION	nn	O	0	B-noun.person
+0	11	382	2033	2039		379	Clinic	Clinic	Clinic	NNP	ORGANIZATION	pobj	O	0	I-noun.person
+0	11	383	2039	2040	S	387	,	,	,	,	O	punct	O	-1	O
+0	11	384	2041	2048		387	however	however	however	RB	O	advmod	O	-1	O
+0	11	385	2048	2049	S	387	,	,	,	,	O	punct	O	-1	O
+0	11	386	2050	2054	S	387	also	also	also	RB	O	advmod	O	-1	O
+0	11	387	2055	2061	S	-1	proves	proves	prove	VBZ	O	null	O	-1	B-verb.stative
+0	11	388	2062	2075	S	387	disheartening	disheartening	disheartening	JJ	O	acomp	O	-1	O
+0	11	389	2076	2081	S	388	given	given	give	VBN	O	prep	O	-1	B-verb.possession
+0	11	390	2082	2086	S	395	that	that	that	IN	O	complm	O	-1	O
+0	11	391	2087	2090	S	392	the	the	the	DT	O	det	O	-1	O
+0	11	392	2091	2097	S	395	Clinic	Clinic	Clinic	NNP	MISC	nsubj	O	-1	B-noun.group
+0	11	393	2098	2100	S	395	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	11	394	2101	2102	S	395	a	a	a	DT	O	det	O	-1	O
+0	11	395	2103	2113	S	389	playground	playground	playground	NN	O	pcomp	O	-1	B-noun.location
+0	11	396	2114	2117	S	395	for	for	for	IN	O	prep	O	-1	O
+0	11	397	2118	2125	S	396	doctors	doctors	doctor	NNS	O	pobj	O	-1	B-noun.person
+0	11	398	2126	2129	S	399	who	who	who	WP	O	nsubj	O	-1	O
+0	11	399	2130	2134	S	397	care	care	care	VBP	O	rcmod	O	-1	B-verb.emotion
+0	11	400	2135	2139	S	399	more	more	more	RBR	O	advmod	O	-1	O
+0	11	401	2140	2143	S	399	for	for	for	IN	O	prep	O	-1	O
+0	11	402	2144	2149	S	401	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	11	403	2150	2154	S	399	than	than	than	IN	O	prep	O	-1	O
+0	11	404	2155	2163	S	403	anything	anything	anything	NN	O	pobj	O	-1	O
+0	11	405	2164	2168		404	else	else	else	RB	O	advmod	O	-1	O
+0	11	406	2168	2169	S	387	.	.	.	.	O	punct	O	-1	O
+0	12	407	2170	2172	S	408	It	It	it	PRP	O	nsubj	O	-1	O
+0	12	408	2173	2175	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	12	409	2176	2178	S	408	at	at	at	IN	O	prep	O	-1	O
+0	12	410	2179	2183	S	411	this	this	this	DT	O	det	O	-1	O
+0	12	411	2184	2189	S	409	point	point	point	NN	O	pobj	O	-1	B-noun.cognition
+0	12	412	2190	2194	S	414	that	that	that	WDT	O	advmod	O	-1	O
+0	12	413	2195	2201	S	414	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	12	414	2202	2207	S	411	comes	comes	come	VBZ	O	dep	O	-1	B-verb.motion
+0	12	415	2208	2210	S	414	to	to	to	TO	O	prep	O	-1	O
+0	12	416	2211	2214	S	417	the	the	the	DT	O	det	O	-1	O
+0	12	417	2215	2224	S	415	attention	attention	attention	NN	O	pobj	O	-1	B-noun.cognition
+0	12	418	2225	2227	S	417	of	of	of	IN	O	prep	O	-1	O
+0	12	419	2228	2231	S	420	Max	Max	Max	NNP	PERSON	nn	O	1	B-noun.person
+0	12	420	2232	2240	S	418	Gottlieb	Gottlieb	Gottlieb	NNP	PERSON	pobj	O	1	I-noun.person
+0	12	421	2241	2245	S	422	once	once	once	RB	DATE	advmod	O	-1	O
+0	12	422	2246	2251		414	again	again	again	RB	O	advmod	O	-1	O
+0	12	423	2251	2252	S	408	.	.	.	.	O	punct	O	-1	O
+0	13	424	2253	2261		449	Gottlieb	Gottlieb	Gottlieb	NNP	PERSON	nsubj	O	1	O
+0	13	425	2261	2262	S	424	,	,	,	,	O	punct	O	-1	O
+0	13	426	2263	2266	S	428	who	who	who	WP	O	nsubj	O	-1	O
+0	13	427	2267	2269	S	428	is	is	be	VBZ	O	aux	O	-1	O
+0	13	428	2270	2277	S	439	working	working	work	VBG	O	csubjpass	O	-1	B-verb.social
+0	13	429	2278	2280	S	428	at	at	at	IN	O	prep	O	-1	O
+0	13	430	2281	2284	S	434	the	the	the	DT	O	det	O	-1	O
+0	13	431	2285	2296	S	434	prestigious	prestigious	prestigious	JJ	O	amod	O	-1	O
+0	13	432	2297	2303	S	434	McGurk	McGurk	McGurk	NNP	ORGANIZATION	nn	O	-1	B-noun.person
+0	13	433	2304	2312	S	434	Research	Research	Research	NNP	ORGANIZATION	nn	O	-1	I-noun.person
+0	13	434	2313	2322	S	429	Institute	Institute	Institute	NNP	ORGANIZATION	pobj	O	-1	I-noun.person
+0	13	435	2323	2325	S	434	in	in	in	IN	O	prep	O	-1	O
+0	13	436	2326	2329	S	437	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	13	437	2330	2334	S	435	York	York	York	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	13	438	2335	2336		439	(	-LRB-	-lrb-	-LRB-	O	auxpass	O	-1	O
+0	13	439	2336	2343	S	424	modeled	modeled	model	VBN	O	partmod	O	-1	B-verb.creation
+0	13	440	2344	2349	S	447	after	after	after	IN	O	mark	O	-1	O
+0	13	441	2350	2353	S	443	the	the	the	DT	O	det	O	-1	O
+0	13	442	2354	2365	S	443	Rockefeller	Rockefeller	Rockefeller	NNP	ORGANIZATION	nn	O	-1	B-noun.group
+0	13	443	2366	2375	S	447	Institute	Institute	Institute	NNP	ORGANIZATION	nsubj	O	-1	I-noun.group
+0	13	444	2376	2378	S	443	in	in	in	IN	O	prep	O	-1	O
+0	13	445	2379	2382	S	446	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	13	446	2383	2387		444	York	York	York	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	13	447	2387	2388		439	)	-RRB-	-rrb-	-RRB-	O	advcl	O	-1	O
+0	13	448	2388	2389	S	424	,	,	,	,	O	punct	O	-1	O
+0	13	449	2390	2397	S	-1	invites	invites	invite	VBZ	O	null	O	-1	B-verb.emotion
+0	13	450	2398	2404	S	449	Martin	Martin	Martin	NNP	PERSON	dobj	O	3	B-noun.person
+0	13	451	2405	2407	S	452	to	to	to	TO	O	aux	O	-1	O
+0	13	452	2408	2412	S	449	join	join	join	VB	O	xcomp	O	-1	B-verb.social
+0	13	453	2413	2416	S	455	the	the	the	DT	O	det	O	-1	O
+0	13	454	2417	2425	S	455	research	research	research	NN	O	nn	O	-1	B-noun.act
+0	13	455	2426	2430		452	team	team	team	NN	O	dobj	O	-1	B-noun.group
+0	13	456	2430	2431	S	449	.	.	.	.	O	punct	O	-1	O
+0	14	457	2432	2434	S	459	He	He	he	PRP	O	nsubj	O	3	O
+0	14	458	2435	2437	S	459	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	14	459	2438	2442	S	-1	glad	glad	glad	JJ	O	null	O	-1	O
+0	14	460	2443	2445	S	462	to	to	to	TO	O	aux	O	-1	O
+0	14	461	2446	2453	S	462	finally	finally	finally	RB	O	advmod	O	-1	O
+0	14	462	2454	2458	S	459	have	have	have	VB	O	xcomp	O	-1	B-verb.possession
+0	14	463	2459	2462	S	464	his	his	he	PRP$	O	poss	O	3	O
+0	14	464	2463	2469	S	462	chance	chance	chance	NN	O	dobj	O	-1	B-noun.state
+0	14	465	2470	2472	S	464	at	at	at	IN	O	prep	O	-1	O
+0	14	466	2473	2483	S	467	laboratory	laboratory	laboratory	NN	O	nn	O	-1	B-noun.artifact
+0	14	467	2484	2491		465	science	science	science	NN	O	pobj	O	-1	B-noun.cognition
+0	14	468	2491	2492	S	459	,	,	,	,	O	punct	O	-1	O
+0	14	469	2493	2496	S	472	the	the	the	DT	O	det	O	-1	O
+0	14	470	2497	2498		472	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	14	471	2498	2502	S	472	true	true	true	JJ	O	amod	I-QUOTE	-1	O
+0	14	472	2503	2510		459	science	science	science	NN	O	appos	I-QUOTE	-1	B-noun.cognition
+0	14	473	2510	2511	S	472	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	14	474	2512	2514	S	476	he	he	he	PRP	O	nsubj	O	3	O
+0	14	475	2515	2518	S	476	had	had	have	VBD	O	aux	O	-1	O
+0	14	476	2519	2522	S	472	had	had	have	VBN	O	rcmod	O	-1	O
+0	14	477	2523	2525	S	478	to	to	to	TO	O	aux	O	-1	O
+0	14	478	2526	2533		476	abandon	abandon	abandon	VB	O	xcomp	O	-1	B-verb.possession
+0	14	479	2533	2534	S	459	.	.	.	.	O	punct	O	-1	O
+0	15	480	2535	2541	S	482	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	15	481	2542	2544	S	482	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	15	482	2545	2550	S	-1	happy	happy	happy	JJ	O	null	O	-1	O
+0	15	483	2551	2556	S	482	there	there	there	EX	O	expl	O	-1	O
+0	15	484	2557	2562	S	486	until	until	until	IN	O	mark	O	-1	O
+0	15	485	2563	2565	S	486	he	he	he	PRP	O	nsubj	O	3	O
+0	15	486	2566	2572	S	482	begins	begins	begin	VBZ	O	advcl	O	-1	B-verb.change
+0	15	487	2573	2575	S	489	to	to	to	TO	O	aux	O	-1	O
+0	15	488	2576	2578	S	489	be	be	be	VB	O	auxpass	O	-1	O
+0	15	489	2579	2585	S	486	rushed	rushed	rush	VBN	O	xcomp	O	-1	B-verb.competition
+0	15	490	2586	2588	S	489	in	in	in	IN	O	prep	O	-1	O
+0	15	491	2589	2592	S	492	his	his	he	PRP$	O	poss	O	3	O
+0	15	492	2593	2598	S	490	study	study	study	NN	O	pobj	O	-1	B-noun.act
+0	15	493	2599	2602	S	492	and	and	and	CC	O	cc	O	-1	O
+0	15	494	2603	2607		492	work	work	work	NN	O	conj	O	-1	B-noun.act
+0	15	495	2607	2608	S	482	.	.	.	.	O	punct	O	-1	O
+0	16	496	2609	2612	S	497	The	The	the	DT	O	det	O	-1	O
+0	16	497	2613	2618	S	501	heads	heads	head	NNS	O	nsubj	O	-1	B-noun.body
+0	16	498	2619	2621	S	497	of	of	of	IN	O	prep	O	-1	O
+0	16	499	2622	2625	S	500	the	the	the	DT	O	det	O	-1	O
+0	16	500	2626	2635	S	498	Institute	Institute	Institute	NNP	ORGANIZATION	pobj	O	-1	B-noun.group
+0	16	501	2636	2641	S	-1	begin	begin	begin	VB	O	null	O	-1	B-verb.change
+0	16	502	2642	2644	S	503	to	to	to	TO	O	aux	O	-1	O
+0	16	503	2645	2648	S	501	pry	pry	pry	VB	O	xcomp	O	-1	B-verb.communication
+0	16	504	2649	2653	S	503	into	into	into	IN	O	prep	O	-1	O
+0	16	505	2654	2657	S	506	his	his	he	PRP$	O	poss	O	3	O
+0	16	506	2658	2666	S	504	research	research	research	NN	O	pobj	O	-1	B-noun.act
+0	16	507	2667	2669	S	510	in	in	in	IN	O	mark	O	-1	O
+0	16	508	2670	2675	S	510	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	16	509	2676	2678	S	510	to	to	to	TO	O	aux	O	-1	O
+0	16	510	2679	2684	S	503	apply	apply	apply	VB	O	advcl	O	-1	B-verb.consumption
+0	16	511	2685	2693	S	510	pressure	pressure	pressure	NN	O	dobj	O	-1	B-noun.phenomenon
+0	16	512	2694	2696	S	510	on	on	on	IN	O	prep	O	-1	O
+0	16	513	2697	2703	S	512	Martin	Martin	Martin	NNP	PERSON	pobj	O	3	B-noun.person
+0	16	514	2704	2706	S	515	to	to	to	TO	O	aux	O	-1	O
+0	16	515	2707	2714	S	510	publish	publish	publish	VB	O	xcomp	O	-1	B-verb.creation
+0	16	516	2715	2718	S	510	and	and	and	CC	O	cc	O	-1	O
+0	16	517	2719	2720		510	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	16	518	2720	2724		510	sell	sell	sell	VB	O	conj	I-QUOTE	-1	O
+0	16	519	2724	2725	S	518	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	16	520	2726	2729	S	521	his	his	he	PRP$	O	poss	O	3	O
+0	16	521	2730	2734		518	work	work	work	NN	O	dobj	O	-1	B-noun.act
+0	16	522	2734	2735	S	501	.	.	.	.	O	punct	O	-1	O
+0	17	523	2736	2741	S	531	While	While	while	IN	O	prep	O	-1	O
+0	17	524	2742	2744	S	523	at	at	at	IN	O	dep	O	-1	O
+0	17	525	2745	2748	S	526	the	the	the	DT	O	det	O	-1	O
+0	17	526	2749	2758		524	institute	institute	institute	NN	O	pobj	O	-1	B-noun.group
+0	17	527	2758	2759	S	531	,	,	,	,	O	punct	O	-1	O
+0	17	528	2760	2767		531	however	however	however	RB	O	advmod	O	-1	O
+0	17	529	2767	2768	S	531	,	,	,	,	O	punct	O	-1	O
+0	17	530	2769	2775	S	531	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	17	531	2776	2781	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	17	532	2782	2788	S	531	across	across	across	IN	O	prep	O	-1	O
+0	17	533	2789	2790	S	535	a	a	a	DT	O	det	O	-1	O
+0	17	534	2791	2795	S	535	huge	huge	huge	JJ	O	amod	O	-1	O
+0	17	535	2796	2803	S	532	triumph	triumph	triumph	NN	O	pobj	O	-1	B-noun.event
+0	17	536	2804	2806	S	535	in	in	in	IN	O	prep	O	-1	O
+0	17	537	2807	2810	S	538	his	his	he	PRP$	O	poss	O	3	O
+0	17	538	2811	2819		536	research	research	research	NN	O	pobj	O	-1	B-noun.act
+0	17	539	2819	2820	S	531	,	,	,	,	O	punct	O	-1	O
+0	17	540	2821	2824	S	541	the	the	the	DT	O	det	O	-1	O
+0	17	541	2825	2834	S	539	isolation	isolation	isolation	NN	O	dobj	O	-1	B-noun.state
+0	17	542	2835	2837	S	541	of	of	of	IN	O	prep	O	-1	O
+0	17	543	2838	2839	S	544	a	a	a	DT	O	det	O	-1	O
+0	17	544	2840	2853	S	542	bacteriophage	bacteriophage	bacteriophage	NN	O	pobj	O	-1	B-noun.animal
+0	17	545	2854	2858	S	546	that	that	that	WDT	O	nsubj	O	-1	O
+0	17	546	2859	2864	S	544	seems	seems	seem	VBZ	O	rcmod	O	-1	B-verb.perception
+0	17	547	2865	2867	S	548	to	to	to	TO	O	aux	O	-1	O
+0	17	548	2868	2872	S	546	kill	kill	kill	VB	O	xcomp	O	-1	B-verb.contact
+0	17	549	2873	2882	S	548	pneumonia	pneumonia	pneumonia	NN	O	dobj	O	-1	B-noun.state
+0	17	550	2883	2886	S	548	and	and	and	CC	O	cc	O	-1	O
+0	17	551	2887	2893		548	plague	plague	plague	VB	O	conj	O	-1	B-verb.weather
+0	17	552	2893	2894	S	531	.	.	.	.	O	punct	O	-1	O
+0	18	553	2895	2903	S	555	Although	Although	although	IN	O	mark	O	-1	O
+0	18	554	2904	2909	S	555	there	there	there	EX	O	expl	O	-1	O
+0	18	555	2910	2912	S	578	is	is	be	VBZ	O	advcl	O	-1	B-verb.stative
+0	18	556	2913	2917	S	558	some	some	some	DT	O	det	O	-1	O
+0	18	557	2918	2925	S	558	initial	initial	initial	JJ	O	amod	O	-1	O
+0	18	558	2926	2940	S	555	disappointment	disappointment	disappointment	NN	O	nsubj	O	-1	B-noun.feeling
+0	18	559	2941	2943	S	558	at	at	at	IN	O	prep	O	-1	O
+0	18	560	2944	2951	S	559	finding	finding	find	VBG	O	pcomp	O	-1	B-verb.communication
+0	18	561	2952	2955	S	560	out	out	out	RP	O	prt	O	-1	O
+0	18	562	2956	2960	S	570	that	that	that	IN	O	complm	O	-1	O
+0	18	563	2961	2965	S	570	much	much	much	JJ	O	nsubjpass	O	-1	O
+0	18	564	2966	2968	S	563	of	of	of	IN	O	prep	O	-1	O
+0	18	565	2969	2972	S	566	his	his	he	PRP$	O	poss	O	3	O
+0	18	566	2973	2981	S	564	research	research	research	NN	O	pobj	O	-1	B-noun.act
+0	18	567	2982	2985	S	570	had	had	have	VBD	O	aux	O	-1	O
+0	18	568	2986	2993	S	570	already	already	already	RB	O	advmod	O	-1	O
+0	18	569	2994	2998	S	570	been	been	be	VBN	O	auxpass	O	-1	O
+0	18	570	2999	3003	S	560	done	done	do	VBN	O	ccomp	O	-1	B-verb.social
+0	18	571	3004	3007	S	570	and	and	and	CC	O	cc	O	-1	O
+0	18	572	3008	3017	S	570	published	published	publish	VBN	O	conj	O	-1	B-verb.creation
+0	18	573	3018	3020	S	572	by	by	by	IN	O	prep	O	-1	O
+0	18	574	3021	3028	S	575	another	another	another	DT	O	det	O	-1	O
+0	18	575	3029	3038		573	scientist	scientist	scientist	NN	O	pobj	O	-1	B-noun.person
+0	18	576	3038	3039	S	578	,	,	,	,	O	punct	O	-1	O
+0	18	577	3040	3046	S	578	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	18	578	3047	3054	S	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	18	579	3055	3057	S	580	to	to	to	TO	O	aux	O	-1	O
+0	18	580	3058	3065	S	578	further	further	further	VB	O	xcomp	O	-1	B-verb.social
+0	18	581	3066	3069	S	582	his	his	he	PRP$	O	poss	O	3	O
+0	18	582	3070	3078	S	580	research	research	research	NN	O	dobj	O	-1	B-noun.act
+0	18	583	3079	3082	S	578	and	and	and	CC	O	cc	O	-1	O
+0	18	584	3083	3085	S	585	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	18	585	3086	3096	S	578	successful	successful	successful	JJ	O	conj	O	-1	O
+0	18	586	3097	3099	S	585	in	in	in	IN	O	prep	O	-1	O
+0	18	587	3100	3103	S	588	his	his	he	PRP$	O	poss	O	3	O
+0	18	588	3104	3117		586	continuations	continuations	continuation	NNS	O	pobj	O	-1	B-noun.act
+0	18	589	3117	3118	S	578	.	.	.	.	O	punct	O	-1	O
+0	19	590	3119	3125	S	593	Martin	Martin	Martin	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	19	591	3126	3128	S	593	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	19	592	3129	3134	S	593	later	later	later	RB	O	advmod	O	-1	O
+0	19	593	3135	3139	S	-1	sent	sent	send	VBN	O	null	O	-1	B-verb.motion
+0	19	594	3140	3142	S	595	to	to	to	TO	O	aux	O	-1	O
+0	19	595	3143	3147	S	593	test	test	test	VB	O	xcomp	O	-1	B-verb.social
+0	19	596	3148	3151	S	597	his	his	he	PRP$	O	poss	O	3	O
+0	19	597	3152	3161	S	595	discovery	discovery	discovery	NN	O	dobj	O	-1	B-noun.act
+0	19	598	3162	3164	S	595	in	in	in	IN	O	prep	O	-1	O
+0	19	599	3165	3168	S	601	the	the	the	DT	O	det	O	-1	O
+0	19	600	3169	3178	S	601	Caribbean	Caribbean	Caribbean	NNP	LOCATION	nn	O	-1	B-noun.location
+0	19	601	3179	3185	S	598	island	island	island	NN	O	pobj	O	-1	I-noun.location
+0	19	602	3186	3188	S	601	of	of	of	IN	O	prep	O	-1	O
+0	19	603	3189	3192	S	604	St.	St.	St.	NNP	LOCATION	nn	O	-1	B-noun.group
+0	19	604	3193	3199		602	Hubert	Hubert	Hubert	NNP	LOCATION	pobj	O	-1	I-noun.group
+0	19	605	3199	3200	S	604	,	,	,	,	O	punct	O	-1	O
+0	19	606	3201	3206	S	608	which	which	which	WDT	O	nsubj	O	-1	O
+0	19	607	3207	3209	S	608	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	19	608	3210	3218	S	604	infested	infested	infested	JJ	O	rcmod	O	-1	O
+0	19	609	3219	3223	S	608	with	with	with	IN	O	prep	O	-1	O
+0	19	610	3224	3230		609	plague	plague	plague	VB	O	pobj	O	-1	B-verb.weather
+0	19	611	3230	3231	S	593	.	.	.	.	O	punct	O	-1	O
+0	20	612	3232	3238	S	613	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	20	613	3239	3245	S	-1	agrees	agrees	agree	VBZ	O	null	O	-1	B-verb.communication
+0	20	614	3246	3248	S	615	to	to	to	TO	O	aux	O	-1	O
+0	20	615	3249	3256	S	613	conduct	conduct	conduct	VB	O	xcomp	O	-1	B-verb.social
+0	20	616	3257	3260	S	618	his	his	he	PRP$	O	poss	O	3	O
+0	20	617	3261	3273	S	618	experimental	experimental	experimental	JJ	O	amod	O	-1	O
+0	20	618	3274	3282	S	615	research	research	research	NN	O	dobj	O	-1	B-noun.act
+0	20	619	3283	3285	S	615	on	on	on	IN	O	prep	O	-1	O
+0	20	620	3286	3289	S	622	the	the	the	DT	O	det	O	-1	O
+0	20	621	3290	3301	S	622	quarantined	quarantined	quarantine	VBN	O	amod	O	-1	B-verb.change
+0	20	622	3302	3308	S	619	island	island	island	NN	O	pobj	O	-1	B-noun.object
+0	20	623	3309	3311	S	622	of	of	of	IN	O	prep	O	-1	O
+0	20	624	3312	3315	S	625	St.	St.	St.	NNP	LOCATION	nn	O	-1	B-noun.group
+0	20	625	3316	3322		623	Hubert	Hubert	Hubert	NNP	LOCATION	pobj	O	-1	I-noun.group
+0	20	626	3322	3323	S	613	.	.	.	.	O	punct	O	-1	O
+0	21	627	3324	3329	S	628	Leora	Leora	Leora	NNP	PERSON	nsubj	O	2	B-noun.person
+0	21	628	3330	3341	S	-1	accompanies	accompanies	accompany	VBZ	O	null	O	-1	B-verb.stative
+0	21	629	3342	3345		628	him	him	he	PRP	O	dobj	O	3	O
+0	21	630	3345	3346	S	628	.	.	.	.	O	punct	O	-1	O
+0	22	631	3347	3349	S	640	On	On	on	IN	O	prep	O	-1	O
+0	22	632	3350	3353	S	633	the	the	the	DT	O	det	O	-1	O
+0	22	633	3354	3360	S	631	island	island	island	NN	O	pobj	O	-1	B-noun.object
+0	22	634	3361	3363	S	633	of	of	of	IN	O	prep	O	-1	O
+0	22	635	3364	3367	S	636	St.	St.	St.	NNP	LOCATION	nn	O	-1	B-noun.group
+0	22	636	3368	3374		634	Hubert	Hubert	Hubert	NNP	LOCATION	pobj	O	-1	I-noun.group
+0	22	637	3374	3375	S	640	,	,	,	,	O	punct	O	-1	O
+0	22	638	3376	3382	S	640	Martin	Martin	Martin	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	22	639	3383	3385	S	640	is	is	be	VBZ	O	auxpass	O	-1	O
+0	22	640	3386	3391	S	-1	meant	meant	mean	VBN	O	null	O	-1	B-verb.communication
+0	22	641	3392	3394	S	642	to	to	to	TO	O	aux	O	-1	O
+0	22	642	3395	3402	S	640	conduct	conduct	conduct	VB	O	xcomp	O	-1	B-verb.social
+0	22	643	3403	3410	S	644	further	further	further	JJ	O	amod	O	-1	O
+0	22	644	3411	3419	S	642	research	research	research	NN	O	dobj	O	-1	B-noun.act
+0	22	645	3420	3422	S	642	on	on	on	IN	O	prep	O	-1	O
+0	22	646	3423	3426	S	647	the	the	the	DT	O	det	O	-1	O
+0	22	647	3427	3432	S	645	phage	phage	phage	NN	O	pobj	O	-1	B-noun.animal
+0	22	648	3433	3435	S	651	in	in	in	IN	O	mark	O	-1	O
+0	22	649	3436	3441	S	651	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	22	650	3442	3444	S	651	to	to	to	TO	O	aux	O	-1	O
+0	22	651	3445	3455	S	642	understand	understand	understand	VB	O	purpcl	O	-1	B-verb.cognition
+0	22	652	3456	3458	S	651	it	it	it	PRP	O	dobj	O	-1	O
+0	22	653	3459	3465		652	better	better	better	RBR	O	advmod	O	-1	O
+0	22	654	3465	3466	S	640	,	,	,	,	O	punct	O	-1	O
+0	22	655	3467	3470	S	640	and	and	and	CC	O	cc	O	-1	O
+0	22	656	3471	3473	S	657	he	he	he	PRP	O	nsubj	O	3	O
+0	22	657	3474	3478		640	does	does	do	VBZ	O	conj	O	-1	O
+0	22	658	3478	3479	S	662	,	,	,	,	O	punct	O	-1	O
+0	22	659	3480	3482	S	662	in	in	in	IN	O	prep	O	-1	O
+0	22	660	3483	3487		659	fact	fact	fact	NN	O	pobj	O	-1	B-noun.cognition
+0	22	661	3487	3488	S	662	,	,	,	,	O	punct	O	-1	O
+0	22	662	3489	3493	S	657	seem	seem	seem	VBP	O	parataxis	O	-1	B-verb.perception
+0	22	663	3494	3496	S	664	to	to	to	TO	O	aux	O	-1	O
+0	22	664	3497	3501	S	662	cure	cure	cure	VB	O	xcomp	O	-1	B-verb.body
+0	22	665	3502	3505	S	666	the	the	the	DT	O	det	O	-1	O
+0	22	666	3506	3512	S	664	people	people	people	NNS	O	dobj	O	-1	B-noun.group
+0	22	667	3513	3515	S	666	of	of	of	IN	O	prep	O	-1	O
+0	22	668	3516	3519	S	669	the	the	the	DT	O	det	O	-1	O
+0	22	669	3520	3526		667	plague	plague	plague	VBP	O	pobj	O	-1	O
+0	22	670	3526	3527	S	640	.	.	.	.	O	punct	O	-1	O
+0	23	671	3528	3535		682	However	However	however	RB	O	advmod	O	-1	O
+0	23	672	3535	3536	S	682	,	,	,	,	O	punct	O	-1	O
+0	23	673	3537	3540	S	674	the	the	the	DT	O	det	O	-1	O
+0	23	674	3541	3549	S	682	research	research	research	NN	O	nsubj	O	-1	B-noun.act
+0	23	675	3550	3559	S	674	conducted	conducted	conduct	VBN	O	partmod	O	-1	B-verb.social
+0	23	676	3560	3562	S	675	on	on	on	IN	O	prep	O	-1	O
+0	23	677	3563	3566	S	678	the	the	the	DT	O	det	O	-1	O
+0	23	678	3567	3573	S	676	island	island	island	NN	O	pobj	O	-1	B-noun.object
+0	23	679	3574	3576	S	682	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	23	680	3577	3580	S	682	not	not	not	RB	O	neg	O	-1	O
+0	23	681	3581	3591	S	682	altogether	altogether	altogether	RB	O	advmod	O	-1	O
+0	23	682	3592	3599	S	-1	precise	precise	precise	JJ	O	null	O	-1	O
+0	23	683	3600	3607	S	686	because	because	because	IN	O	mark	O	-1	O
+0	23	684	3608	3614	S	686	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	23	685	3615	3618	S	686	had	had	have	VBD	O	aux	O	-1	O
+0	23	686	3619	3624	S	682	given	given	give	VBN	O	advcl	O	-1	B-verb.possession
+0	23	687	3625	3627	S	686	up	up	up	RP	O	prt	O	-1	O
+0	23	688	3628	3630	S	686	on	on	on	IN	O	prep	O	-1	O
+0	23	689	3631	3634	S	690	his	his	he	PRP$	O	poss	O	3	O
+0	23	690	3635	3639	S	688	work	work	work	NN	O	pobj	O	-1	B-noun.act
+0	23	691	3640	3643	S	690	for	for	for	IN	O	prep	O	-1	O
+0	23	692	3644	3645	S	693	a	a	a	DT	O	det	O	-1	O
+0	23	693	3646	3650		691	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	23	694	3650	3651	S	686	,	,	,	,	O	punct	O	-1	O
+0	23	695	3652	3657	S	686	after	after	after	IN	O	prep	O	-1	O
+0	23	696	3658	3661	S	697	the	the	the	DT	O	det	O	-1	O
+0	23	697	3662	3669	S	695	tragedy	tragedy	tragedy	NN	O	pobj	O	-1	B-noun.event
+0	23	698	3670	3672	S	697	of	of	of	IN	O	prep	O	-1	O
+0	23	699	3673	3676	S	700	his	his	he	PRP$	O	poss	O	3	O
+0	23	700	3677	3681		705	wife	wife	wife	NN	O	poss	O	-1	B-noun.person
+0	23	701	3681	3683	S	700	's	's	's	POS	O	possessive	O	-1	O
+0	23	702	3684	3685		705	(	-LRB-	-lrb-	-LRB-	O	nn	O	-1	O
+0	23	703	3685	3690		705	Leora	Leora	Leora	NNP	PERSON	nn	O	2	O
+0	23	704	3690	3691	S	705	)	-RRB-	-rrb-	-RRB-	O	nn	O	-1	O
+0	23	705	3692	3697	S	698	death	death	death	NN	O	pobj	O	-1	B-noun.phenomenon
+0	23	706	3698	3701	S	705	due	due	due	JJ	O	amod	O	-1	O
+0	23	707	3702	3704	S	706	to	to	to	TO	O	prep	O	-1	O
+0	23	708	3705	3708	S	709	the	the	the	DT	O	det	O	-1	O
+0	23	709	3709	3715		707	plague	plague	plague	VB	O	pobj	O	-1	O
+0	23	710	3715	3716	S	682	.	.	.	.	O	punct	O	-1	O
+0	24	711	3717	3723	S	712	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	24	712	3724	3728	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.perception
+0	24	713	3729	3736	S	712	through	through	through	IN	O	prep	O	-1	O
+0	24	714	3737	3738	S	715	a	a	a	DT	O	det	O	-1	O
+0	24	715	3739	3745	S	713	period	period	period	NN	O	pobj	O	-1	B-noun.time
+0	24	716	3746	3748	S	715	of	of	of	IN	O	prep	O	-1	O
+0	24	717	3749	3757	S	716	mourning	mourning	mourning	NN	O	pobj	O	-1	B-noun.state
+0	24	718	3758	3760	S	721	in	in	in	IN	O	rel	O	-1	O
+0	24	719	3761	3766	S	718	which	which	which	WDT	O	pobj	O	-1	O
+0	24	720	3767	3769	S	721	he	he	he	PRP	O	nsubj	O	3	O
+0	24	721	3770	3778	S	717	abandons	abandons	abandon	VBZ	O	rcmod	O	-1	B-verb.possession
+0	24	722	3779	3782	S	723	his	his	he	PRP$	O	poss	O	3	O
+0	24	723	3783	3791		721	research	research	research	NN	O	dobj	O	-1	B-noun.act
+0	24	724	3791	3792	S	726	,	,	,	,	O	punct	O	-1	O
+0	24	725	3793	3794	S	726	a	a	a	DT	O	det	O	-1	O
+0	24	726	3795	3801	S	712	period	period	period	NN	O	parataxis	O	-1	B-noun.time
+0	24	727	3802	3807	S	732	which	which	which	WDT	O	rel	O	-1	O
+0	24	728	3808	3810	S	732	he	he	he	PRP	O	nsubjpass	O	3	O
+0	24	729	3811	3815	S	732	will	will	will	MD	O	aux	O	-1	O
+0	24	730	3816	3821	S	732	later	later	later	RB	O	advmod	O	-1	O
+0	24	731	3822	3824	S	732	be	be	be	VB	O	auxpass	O	-1	O
+0	24	732	3825	3830	S	726	upset	upset	upset	VBN	O	rcmod	O	-1	B-verb.emotion
+0	24	733	3831	3833	S	732	by	by	by	IN	O	prep	O	-1	O
+0	24	734	3834	3837	S	732	and	and	and	CC	O	cc	O	-1	O
+0	24	735	3838	3846	S	732	consider	consider	consider	VB	O	conj	O	-1	B-verb.perception
+0	24	736	3847	3848	S	737	a	a	a	DT	O	det	O	-1	O
+0	24	737	3849	3856	S	735	failure	failure	failure	NN	O	dobj	O	-1	B-noun.act
+0	24	738	3857	3859	S	737	on	on	on	IN	O	prep	O	-1	O
+0	24	739	3860	3863	S	740	his	his	he	PRP$	O	poss	O	3	O
+0	24	740	3864	3870		738	behalf	behalf	behalf	NN	O	pobj	O	-1	B-noun.act
+0	24	741	3870	3871	S	712	.	.	.	.	O	punct	O	-1	O
+0	25	742	3872	3874	S	743	It	It	it	PRP	O	nsubj	O	-1	O
+0	25	743	3875	3877	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	25	744	3878	3882	S	743	also	also	also	RB	O	advmod	O	-1	O
+0	25	745	3883	3885	S	743	on	on	on	IN	O	prep	O	-1	O
+0	25	746	3886	3889	S	747	the	the	the	DT	O	det	O	-1	O
+0	25	747	3890	3896	S	745	island	island	island	NN	O	pobj	O	-1	B-noun.object
+0	25	748	3897	3901	S	750	that	that	that	WDT	O	dep	O	-1	O
+0	25	749	3902	3908	S	750	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	B-noun.person
+0	25	750	3909	3914	S	747	meets	meets	meet	VBZ	O	dep	O	-1	B-verb.motion
+0	25	751	3915	3920	S	752	Joyce	Joyce	Joyce	NNP	PERSON	nn	O	-1	B-noun.person
+0	25	752	3921	3927		750	Lanyon	Lanyon	Lanyon	NNP	PERSON	dobj	O	-1	I-noun.person
+0	25	753	3927	3928	S	752	,	,	,	,	O	punct	O	-1	O
+0	25	754	3929	3931	S	757	an	an	a	DT	O	det	O	-1	O
+0	25	755	3932	3941	S	756	immensely	immensely	immensely	RB	O	advmod	O	-1	O
+0	25	756	3942	3949	S	757	wealthy	wealthy	wealthy	JJ	O	amod	O	-1	O
+0	25	757	3950	3955	S	752	woman	woman	woman	NN	O	appos	O	-1	B-noun.person
+0	25	758	3956	3960	S	760	whom	whom	whom	WP	O	dobj	O	-1	O
+0	25	759	3961	3963	S	760	he	he	he	PRP	O	nsubj	O	3	O
+0	25	760	3964	3971	S	757	marries	marries	marry	VBZ	O	rcmod	O	-1	B-verb.social
+0	25	761	3972	3976	S	763	when	when	when	WRB	O	advmod	O	-1	O
+0	25	762	3977	3979	S	763	he	he	he	PRP	O	nsubj	O	3	O
+0	25	763	3980	3987	S	760	returns	returns	return	VBZ	O	advcl	O	-1	B-verb.motion
+0	25	764	3988	3990	S	763	to	to	to	TO	O	prep	O	-1	O
+0	25	765	3991	3994	S	766	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	25	766	3995	3999		764	York	York	York	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	25	767	3999	4000	S	763	,	,	,	,	O	punct	O	-1	O
+0	25	768	4001	4006	S	763	after	after	after	IN	O	prep	O	-1	O
+0	25	769	4007	4012		771	Leora	Leora	Leora	NNP	PERSON	poss	O	2	B-noun.person
+0	25	770	4012	4014	S	769	's	's	's	POS	O	possessive	O	-1	O
+0	25	771	4015	4020		768	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	25	772	4020	4021	S	743	.	.	.	.	O	punct	O	-1	O
+0	26	773	4022	4028		779	Martin	Martin	Martin	NNP	PERSON	nsubj	O	3	O
+0	26	774	4028	4029	S	779	,	,	,	,	O	punct	O	-1	O
+0	26	775	4030	4037		779	however	however	however	RB	O	advmod	O	-1	O
+0	26	776	4037	4038	S	779	,	,	,	,	O	punct	O	-1	O
+0	26	777	4039	4042		779	can	can	can	MD	O	aux	O	-1	O
+0	26	778	4042	4045	S	779	not	not	not	RB	O	neg	O	-1	O
+0	26	779	4046	4050	S	-1	grow	grow	grow	VB	O	null	O	-1	B-verb.change
+0	26	780	4051	4056	S	781	fully	fully	fully	RB	O	advmod	O	-1	O
+0	26	781	4057	4067	S	779	accustomed	accustomed	accustom	VBN	O	acomp	O	-1	B-verb.change
+0	26	782	4068	4070	S	781	to	to	to	TO	O	prep	O	-1	O
+0	26	783	4071	4074	S	785	his	his	he	PRP$	O	poss	O	3	O
+0	26	784	4075	4078	S	785	new	new	new	JJ	O	amod	O	-1	O
+0	26	785	4079	4083		788	wife	wife	wife	NN	O	poss	O	-1	B-noun.person
+0	26	786	4083	4085	S	785	's	's	's	POS	O	possessive	O	-1	O
+0	26	787	4086	4090	S	788	rich	rich	rich	JJ	O	amod	O	-1	O
+0	26	788	4091	4095	S	782	ways	ways	way	NNS	O	pobj	O	-1	B-noun.act
+0	26	789	4096	4099	S	779	and	and	and	CC	O	cc	O	-1	O
+0	26	790	4100	4105	S	779	finds	finds	find	VBZ	O	conj	O	-1	B-verb.perception
+0	26	791	4106	4113		790	himself	himself	himself	PRP	O	dep	O	-1	O
+0	26	792	4113	4114	S	790	,	,	,	,	O	punct	O	-1	O
+0	26	793	4115	4119	S	794	once	once	once	RB	DATE	advmod	O	-1	O
+0	26	794	4120	4125		790	again	again	again	RB	O	advmod	O	-1	O
+0	26	795	4125	4126	S	790	,	,	,	,	O	punct	O	-1	O
+0	26	796	4127	4134		790	unhappy	unhappy	unhappy	JJ	O	xcomp	O	-1	O
+0	26	797	4134	4135	S	779	.	.	.	.	O	punct	O	-1	O
+0	27	798	4136	4138		802	He	He	he	PRP	O	nsubj	O	3	O
+0	27	799	4138	4139	S	802	,	,	,	,	O	punct	O	-1	O
+0	27	800	4140	4149		802	therefore	therefore	therefore	RB	O	advmod	O	-1	O
+0	27	801	4149	4150	S	802	,	,	,	,	O	punct	O	-1	O
+0	27	802	4151	4159	S	-1	abandons	abandons	abandon	VBZ	O	null	O	-1	B-verb.possession
+0	27	803	4160	4163	S	802	her	her	she	PRP$	O	dobj	O	-1	O
+0	27	804	4164	4167	S	803	and	and	and	CC	O	cc	O	-1	O
+0	27	805	4168	4171	S	806	his	his	he	PRP$	O	poss	O	3	O
+0	27	806	4172	4177	S	803	child	child	child	NN	O	conj	O	-1	B-noun.person
+0	27	807	4178	4182	S	803	with	with	with	IN	O	prep	O	-1	O
+0	27	808	4183	4186	S	807	her	her	she	PRP$	O	pobj	O	-1	O
+0	27	809	4187	4189	S	812	in	in	in	IN	O	mark	O	-1	O
+0	27	810	4190	4195	S	812	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	27	811	4196	4198	S	812	to	to	to	TO	O	aux	O	-1	O
+0	27	812	4199	4206	S	802	retreat	retreat	retreat	VB	O	purpcl	O	-1	B-verb.motion
+0	27	813	4207	4211	S	812	into	into	into	IN	O	prep	O	-1	O
+0	27	814	4212	4215	S	815	the	the	the	DT	O	det	O	-1	O
+0	27	815	4216	4221	S	813	woods	woods	wood	NNS	O	pobj	O	-1	B-noun.group
+0	27	816	4222	4226	S	815	with	with	with	IN	O	prep	O	-1	O
+0	27	817	4227	4232	S	818	Terry	Terry	Terry	NNP	PERSON	nn	O	-1	B-noun.person
+0	27	818	4233	4240		816	Wickett	Wickett	Wickett	NNP	PERSON	pobj	O	-1	I-noun.person
+0	27	819	4240	4241	S	818	,	,	,	,	O	punct	O	-1	O
+0	27	820	4242	4245	S	821	his	his	he	PRP$	O	poss	O	-1	O
+0	27	821	4246	4252	S	818	friend	friend	friend	NN	O	appos	O	-1	B-noun.person
+0	27	822	4253	4256	S	821	and	and	and	CC	O	cc	O	-1	O
+0	27	823	4257	4266	S	821	colleague	colleague	colleague	NN	O	conj	O	-1	B-noun.person
+0	27	824	4267	4271	S	821	from	from	from	IN	O	prep	O	-1	O
+0	27	825	4272	4275	S	827	the	the	the	DT	O	det	O	-1	O
+0	27	826	4276	4282	S	827	McGurk	McGurk	McGurk	NNP	ORGANIZATION	nn	O	-1	B-noun.group
+0	27	827	4283	4292		824	Institute	Institute	Institute	NNP	ORGANIZATION	pobj	O	-1	I-noun.group
+0	27	828	4292	4293	S	802	.	.	.	.	O	punct	O	-1	O
+0	28	829	4294	4297	S	830	The	The	the	DT	O	det	O	-1	O
+0	28	830	4298	4302	S	831	book	book	book	NN	O	nsubj	O	-1	B-noun.communication
+0	28	831	4303	4307	S	-1	ends	ends	end	VBZ	O	null	O	-1	B-verb.stative
+0	28	832	4308	4312	S	831	with	with	with	IN	O	prep	O	-1	O
+0	28	833	4313	4319	S	837	Martin	Martin	Martin	NNP	PERSON	nn	O	3	B-noun.person
+0	28	834	4320	4323	S	833	and	and	and	CC	O	cc	O	-1	O
+0	28	835	4324	4329		833	Terry	Terry	Terry	NNP	PERSON	conj	O	4	B-noun.person
+0	28	836	4329	4331	S	835	's	's	's	POS	O	possessive	O	-1	O
+0	28	837	4332	4336	S	832	plan	plan	plan	NN	O	pobj	O	-1	B-noun.cognition
+0	28	838	4337	4339	S	839	to	to	to	TO	O	aux	O	-1	O
+0	28	839	4340	4345	S	837	build	build	build	VB	O	infmod	O	-1	B-verb.creation
+0	28	840	4346	4347	S	841	a	a	a	DT	O	det	O	-1	O
+0	28	841	4348	4358	S	839	laboratory	laboratory	laboratory	NN	O	dobj	O	-1	B-noun.artifact
+0	28	842	4359	4361	S	841	in	in	in	IN	O	prep	O	-1	O
+0	28	843	4362	4367		845	Terry	Terry	Terry	NNP	PERSON	poss	O	4	B-noun.person
+0	28	844	4367	4369	S	843	's	's	's	POS	O	possessive	O	-1	O
+0	28	845	4370	4374	S	842	home	home	home	NN	O	pobj	O	-1	B-noun.artifact
+0	28	846	4375	4377	S	845	in	in	in	IN	O	prep	O	-1	O
+0	28	847	4378	4381	S	848	the	the	the	DT	O	det	O	-1	O
+0	28	848	4382	4387	S	846	woods	woods	wood	NNS	O	pobj	O	-1	B-noun.group
+0	28	849	4388	4390	S	854	so	so	so	IN	O	mark	O	-1	O
+0	28	850	4391	4395	S	854	that	that	that	IN	O	dep	O	-1	O
+0	28	851	4396	4400	S	854	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	28	852	4401	4404	S	854	may	may	may	MD	O	aux	O	-1	O
+0	28	853	4405	4407	S	854	be	be	be	VB	O	auxpass	O	-1	O
+0	28	854	4408	4412	S	839	left	left	leave	VBN	O	advcl	O	-1	B-verb.cognition
+0	28	855	4413	4415	S	856	to	to	to	TO	O	aux	O	-1	O
+0	28	856	4416	4418	S	854	do	do	do	VB	O	xcomp	O	-1	B-verb.social
+0	28	857	4419	4422	S	859	the	the	the	DT	O	det	O	-1	O
+0	28	858	4423	4432	S	859	important	important	important	JJ	O	amod	O	-1	O
+0	28	859	4433	4441	S	856	research	research	research	NN	O	dobj	O	-1	B-noun.act
+0	28	860	4442	4446	S	862	they	they	they	PRP	O	nsubj	O	-1	O
+0	28	861	4447	4449	S	862	so	so	so	RB	O	advmod	O	-1	O
+0	28	862	4450	4454	S	859	love	love	love	VBP	O	rcmod	O	-1	B-verb.emotion
+0	28	863	4455	4458	S	862	and	and	and	CC	O	cc	O	-1	O
+0	28	864	4459	4463	S	862	need	need	need	VBP	O	conj	O	-1	B-verb.stative
+0	28	865	4464	4471	S	864	without	without	without	IN	O	prep	O	-1	O
+0	28	866	4472	4475	S	868	the	the	the	DT	O	det	O	-1	O
+0	28	867	4476	4486	S	868	commercial	commercial	commercial	JJ	O	amod	O	-1	O
+0	28	868	4487	4495	S	865	pressure	pressure	pressure	NN	O	pobj	O	-1	B-noun.phenomenon
+0	28	869	4496	4503	S	868	imposed	imposed	impose	VBN	O	partmod	O	-1	B-verb.possession
+0	28	870	4504	4506	S	869	by	by	by	IN	O	prep	O	-1	O
+0	28	871	4507	4517	S	872	department	department	department	NN	O	nn	O	-1	B-noun.person
+0	28	872	4518	4523	S	870	heads	heads	head	NNS	O	pobj	O	-1	I-noun.person
+0	28	873	4524	4527	S	868	and	and	and	CC	O	cc	O	-1	O
+0	28	874	4528	4531	S	875	the	the	the	DT	O	det	O	-1	O
+0	28	875	4532	4542	S	868	presidents	presidents	president	NNS	O	conj	O	-1	B-noun.person
+0	28	876	4543	4545	S	875	of	of	of	IN	O	prep	O	-1	O
+0	28	877	4546	4556		876	institutes	institutes	institutes	NN	O	pobj	O	-1	B-noun.group
+0	28	878	4556	4557	N	831	.	.	.	.	O	punct	O	-1	O

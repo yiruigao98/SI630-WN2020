@@ -1,0 +1,752 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	7	S	6	Matthew	Matthew	Matthew	NNP	PERSON	nsubj	O	0	B-noun.person
+0	0	1	8	11	S	0	and	and	and	CC	O	cc	O	-1	O
+0	0	2	12	19	S	3	Marilla	Marilla	Marilla	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	3	20	28	S	0	Cuthbert	Cuthbert	Cuthbert	NNP	PERSON	conj	O	-1	I-noun.person
+0	0	4	29	32	N	6	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	0	5	33	42	S	6	unmarried	unmarried	unmarried	JJ	O	amod	O	-1	O
+0	0	6	43	51	S	-1	siblings	siblings	sibling	NNS	O	null	O	-1	B-noun.person
+0	0	7	52	55	S	8	who	who	who	WP	O	nsubj	O	-1	O
+0	0	8	56	60	S	6	live	live	live	VBP	O	rcmod	O	-1	B-verb.stative
+0	0	9	61	63	S	8	on	on	on	IN	O	prep	O	-1	O
+0	0	10	64	69	S	12	their	their	they	PRP$	O	poss	O	-1	O
+0	0	11	70	79	S	12	ancestral	ancestral	ancestral	JJ	O	amod	O	-1	O
+0	0	12	80	84		9	farm	farm	farm	NN	O	pobj	O	-1	B-noun.artifact
+0	0	13	84	85	S	6	,	,	,	,	O	punct	O	-1	O
+0	0	14	86	91	S	15	Green	Green	Green	NNP	LOCATION	nn	O	-1	O
+0	0	15	92	98		6	Gables	Gables	Gables	NNP	LOCATION	appos	O	-1	O
+0	0	16	98	99	N	6	,	,	,	,	O	punct	O	-1	O
+0	0	17	100	102	S	6	in	in	in	IN	O	prep	O	-1	O
+0	0	18	103	106	S	20	the	the	the	DT	O	det	O	-1	O
+0	0	19	107	112	S	20	quiet	quiet	quiet	JJ	O	amod	O	-1	O
+0	0	20	113	117	S	17	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	0	21	118	120	S	20	of	of	of	IN	O	prep	O	-1	O
+0	0	22	121	128	S	21	Avonlea	Avonlea	Avonlea	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	0	23	129	131	S	20	in	in	in	IN	O	prep	O	-1	O
+0	0	24	132	138	S	26	Prince	Prince	Prince	NNP	LOCATION	nn	O	-1	B-noun.person
+0	0	25	139	145	S	26	Edward	Edward	Edward	NNP	LOCATION	nn	O	-1	I-noun.person
+0	0	26	146	152		23	Island	Island	Island	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	0	27	152	153	S	26	,	,	,	,	O	punct	O	-1	O
+0	0	28	154	160		26	Canada	Canada	Canada	NNP	LOCATION	appos	O	-1	O
+0	0	29	160	161	S	6	.	.	.	.	O	punct	O	-1	O
+0	1	30	162	169	N	32	Matthew	Matthew	Matthew	NNP	PERSON	nsubj	O	0	B-noun.person
+0	1	31	170	172	S	32	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	32	173	178		-1	sixty	sixty	sixty	CD	NUMBER	null	O	-1	O
+0	1	33	178	179	S	32	,	,	,	,	O	punct	O	-1	O
+0	1	34	180	183	S	32	and	and	and	CC	O	cc	O	-1	O
+0	1	35	184	189	S	32	since	since	since	IN	O	conj	O	-1	O
+0	1	36	190	192	S	38	he	he	he	PRP	O	nsubj	O	0	O
+0	1	37	193	195	S	38	is	is	be	VBZ	O	aux	O	-1	O
+0	1	38	196	203	S	35	getting	getting	get	VBG	O	pcomp	O	-1	B-verb.change
+0	1	39	204	207	S	40	too	too	too	RB	O	advmod	O	-1	O
+0	1	40	208	211	S	38	old	old	old	JJ	O	dobj	O	-1	O
+0	1	41	212	214	S	42	to	to	to	TO	O	aux	O	-1	O
+0	1	42	215	221	S	40	handle	handle	handle	VB	O	xcomp	O	-1	B-verb.social
+0	1	43	222	225	S	45	the	the	the	DT	O	det	O	-1	O
+0	1	44	226	230	S	45	farm	farm	farm	NN	O	nn	O	-1	B-noun.artifact
+0	1	45	231	235	S	42	work	work	work	NN	O	dobj	O	-1	B-noun.artifact
+0	1	46	236	238	N	45	on	on	on	IN	O	prep	O	-1	O
+0	1	47	239	242	S	48	his	his	he	PRP$	O	poss	O	0	O
+0	1	48	243	246		46	own	own	own	JJ	O	pobj	O	-1	O
+0	1	49	246	247	S	32	,	,	,	,	O	punct	O	-1	O
+0	1	50	248	251	S	51	the	the	the	DT	O	det	O	-1	O
+0	1	51	252	261	S	52	Cuthberts	Cuthberts	Cuthberts	NNP	MISC	nsubj	O	-1	B-noun.person
+0	1	52	262	268	S	32	decide	decide	decide	VB	O	dep	O	-1	B-verb.cognition
+0	1	53	269	271	S	54	to	to	to	TO	O	aux	O	-1	O
+0	1	54	272	277	S	52	adopt	adopt	adopt	VB	O	xcomp	O	-1	B-verb.possession
+0	1	55	278	280	S	57	an	an	a	DT	O	det	O	-1	O
+0	1	56	281	287	S	57	orphan	orphan	orphan	NN	O	nn	O	-1	B-noun.person
+0	1	57	288	291	S	54	boy	boy	boy	NN	O	dobj	O	-1	B-noun.person
+0	1	58	292	294	S	59	to	to	to	TO	O	aux	O	-1	O
+0	1	59	295	299	S	54	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	1	60	300	303		59	him	him	he	PRP	O	dobj	O	0	O
+0	1	61	303	304	N	32	.	.	.	.	O	punct	O	-1	O
+0	2	62	305	309	S	64	This	This	this	DT	O	det	O	-1	O
+0	2	63	310	318	S	64	decision	decision	decision	NN	O	nn	O	-1	B-noun.act
+0	2	64	319	325	S	-1	shocks	shocks	shock	NNS	O	null	O	-1	I-noun.act
+0	2	65	326	329	S	67	the	the	the	DT	O	det	O	-1	O
+0	2	66	330	334	S	67	town	town	town	NN	O	nn	O	-1	B-noun.location
+0	2	67	335	341		64	gossip	gossip	gossip	NN	O	dep	O	-1	B-noun.communication
+0	2	68	341	342	S	67	,	,	,	,	O	punct	O	-1	O
+0	2	69	343	347	S	71	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	-1	B-noun.person
+0	2	70	348	354	S	71	Rachel	Rachel	Rachel	NNP	PERSON	nn	O	-1	I-noun.person
+0	2	71	355	360		67	Lynde	Lynde	Lynde	NNP	PERSON	appos	O	-1	I-noun.person
+0	2	72	360	361	S	67	,	,	,	,	O	punct	O	-1	O
+0	2	73	362	365	S	76	who	who	who	WP	O	nsubj	O	-1	O
+0	2	74	366	370	N	76	does	does	do	VBZ	O	aux	O	-1	O
+0	2	75	371	374	S	76	not	not	not	RB	O	neg	O	-1	O
+0	2	76	375	380	S	67	think	think	think	VB	O	rcmod	O	-1	B-verb.cognition
+0	2	77	381	388	S	80	Matthew	Matthew	Matthew	NNP	PERSON	nsubj	O	0	B-noun.person
+0	2	78	389	392	S	77	and	and	and	CC	O	cc	O	-1	O
+0	2	79	393	400	S	77	Marilla	Marilla	Marilla	NNP	PERSON	conj	O	2	B-noun.person
+0	2	80	401	404	S	76	fit	fit	fit	VBP	O	ccomp	O	-1	B-verb.stative
+0	2	81	405	407	S	82	to	to	to	TO	O	aux	O	-1	O
+0	2	82	408	413	S	80	raise	raise	raise	VB	O	xcomp	O	-1	B-verb.creation
+0	2	83	414	415	S	84	a	a	a	DT	O	det	O	-1	O
+0	2	84	416	421		82	child	child	child	NN	O	dobj	O	-1	B-noun.person
+0	2	85	421	422	S	64	.	.	.	.	O	punct	O	-1	O
+0	3	86	423	430		94	Matthew	Matthew	Matthew	NNP	PERSON	nsubj	O	0	B-noun.person
+0	3	87	430	431	S	86	,	,	,	,	O	punct	O	-1	O
+0	3	88	432	435	S	90	who	who	who	WP	O	nsubjpass	O	-1	O
+0	3	89	436	438	S	90	is	is	be	VBZ	O	auxpass	O	-1	O
+0	3	90	439	448	S	86	terrified	terrified	terrify	VBN	O	rcmod	O	-1	B-verb.emotion
+0	3	91	449	451	S	90	of	of	of	IN	O	prep	O	-1	O
+0	3	92	452	457		91	women	women	woman	NNS	O	pobj	O	-1	B-noun.person
+0	3	93	457	458	S	86	,	,	,	,	O	punct	O	-1	O
+0	3	94	459	466	S	-1	arrives	arrives	arrive	VBZ	O	null	O	-1	B-verb.motion
+0	3	95	467	469	S	94	at	at	at	IN	O	prep	O	-1	O
+0	3	96	470	473	S	98	the	the	the	DT	O	det	O	-1	O
+0	3	97	474	479	N	98	train	train	train	NN	O	nn	O	-1	B-noun.artifact
+0	3	98	480	487	S	95	station	station	station	NN	O	pobj	O	-1	I-noun.artifact
+0	3	99	488	491	S	94	and	and	and	CC	O	cc	O	-1	O
+0	3	100	492	497	S	94	finds	finds	find	VBZ	O	conj	O	-1	B-verb.perception
+0	3	101	498	499	S	103	a	a	a	DT	O	det	O	-1	O
+0	3	102	500	504	S	103	girl	girl	girl	NN	O	nn	O	-1	B-noun.person
+0	3	103	505	511	S	100	orphan	orphan	orphan	NN	O	dobj	O	-1	B-noun.person
+0	3	104	512	519	S	105	instead	instead	instead	RB	O	dep	O	-1	O
+0	3	105	520	522	S	100	of	of	of	IN	O	prep	O	-1	O
+0	3	106	523	524	S	107	a	a	a	DT	O	det	O	-1	O
+0	3	107	525	528		105	boy	boy	boy	NN	O	pobj	O	-1	B-noun.person
+0	3	108	528	529	S	94	;	;	;	:	O	punct	O	-1	O
+0	3	109	530	533	S	110	the	the	the	DT	O	det	O	-1	O
+0	3	110	534	543	N	111	orphanage	orphanage	orphanage	NN	O	nsubj	O	-1	B-noun.state
+0	3	111	544	548	S	94	sent	sent	send	VBD	O	parataxis	O	-1	B-verb.motion
+0	3	112	549	552	S	115	the	the	the	DT	O	det	O	-1	O
+0	3	113	553	568	S	115	eleven-year-old	eleven-year-old	eleven-year-old	JJ	DURATION	amod	O	-1	O
+0	3	114	569	573	S	115	Anne	Anne	Anne	NNP	PERSON	nn	O	-1	B-noun.person
+0	3	115	574	581	S	111	Shirley	Shirley	Shirley	NNP	PERSON	dobj	O	-1	I-noun.person
+0	3	116	582	584	S	111	by	by	by	IN	O	prep	O	-1	O
+0	3	117	585	592		116	mistake	mistake	mistake	NN	O	pobj	O	-1	B-noun.act
+0	3	118	592	593	S	94	.	.	.	.	O	punct	O	-1	O
+0	4	119	594	598		121	Anne	Anne	Anne	NNP	PERSON	poss	O	4	B-noun.person
+0	4	120	598	600	S	119	’s	's	's	POS	O	possessive	O	-1	O
+0	4	121	601	614	N	-1	talkativeness	talkativeness	talkativeness	NN	O	null	O	-1	B-noun.attribute
+0	4	122	615	618	S	121	and	and	and	CC	O	cc	O	-1	O
+0	4	123	619	625	S	125	spirit	spirit	spirit	NN	O	nn	O	-1	B-noun.person
+0	4	124	626	631	S	125	charm	charm	charm	NN	O	nn	O	-1	B-noun.attribute
+0	4	125	632	639		121	Matthew	Matthew	Matthew	NNP	PERSON	conj	O	0	O
+0	4	126	639	640	S	125	,	,	,	,	O	punct	O	-1	O
+0	4	127	641	644	S	129	who	who	who	WP	O	nsubj	O	-1	O
+0	4	128	645	650	S	129	shyly	shyly	shyly	RB	O	advmod	O	-1	O
+0	4	129	651	656	S	125	tells	tells	tell	VBZ	O	rcmod	O	-1	B-verb.communication
+0	4	130	657	664	S	129	Marilla	Marilla	Marilla	NNP	PERSON	dobj	O	2	B-noun.person
+0	4	131	665	669	S	133	that	that	that	IN	O	complm	O	-1	O
+0	4	132	670	672	S	133	he	he	he	PRP	O	nsubj	O	0	O
+0	4	133	673	678	N	129	wants	wants	want	VBZ	O	ccomp	O	-1	B-verb.emotion
+0	4	134	679	681	S	135	to	to	to	TO	O	aux	O	-1	O
+0	4	135	682	686	S	133	keep	keep	keep	VB	O	xcomp	O	-1	B-verb.stative
+0	4	136	687	690		135	her	her	she	PRP	O	dobj	O	4	O
+0	4	137	690	691	S	121	.	.	.	.	O	punct	O	-1	O
+0	5	138	692	699	S	139	Marilla	Marilla	Marilla	NNP	PERSON	nsubj	O	2	B-noun.person
+0	5	139	700	709	S	-1	hesitates	hesitates	hesitate	VBZ	O	null	O	-1	B-verb.stative
+0	5	140	710	712	S	139	at	at	at	IN	O	prep	O	-1	O
+0	5	141	713	718		140	first	first	first	RB	ORDINAL	pobj	O	-1	O
+0	5	142	718	719	S	139	,	,	,	,	O	punct	O	-1	O
+0	5	143	720	723	S	139	but	but	but	CC	O	cc	O	-1	O
+0	5	144	724	729	S	150	after	after	after	IN	O	prep	O	-1	O
+0	5	145	730	731	S	147	a	a	a	DT	O	det	O	-1	O
+0	5	146	732	737	S	147	trial	trial	trial	NN	O	nn	O	-1	B-noun.act
+0	5	147	738	744		144	period	period	period	NN	O	pobj	O	-1	B-noun.time
+0	5	148	744	745	N	150	,	,	,	,	O	punct	O	-1	O
+0	5	149	746	749	S	150	she	she	she	PRP	O	nsubj	O	4	O
+0	5	150	750	756	S	139	agrees	agrees	agree	VBZ	O	conj	O	-1	B-verb.communication
+0	5	151	757	759	S	152	to	to	to	TO	O	aux	O	-1	O
+0	5	152	760	763	S	150	let	let	let	VB	O	xcomp	O	-1	B-verb.social
+0	5	153	764	768	S	154	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	5	154	769	773	S	152	stay	stay	stay	VB	O	ccomp	O	-1	B-verb.stative
+0	5	155	774	776		154	on	on	on	IN	O	prt	O	-1	O
+0	5	156	776	777	S	139	.	.	.	.	O	punct	O	-1	O
+0	6	157	778	782	S	163	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	6	158	783	785	S	163	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	159	786	787	S	163	a	a	a	DT	O	det	O	-1	O
+0	6	160	788	797	S	163	talkative	talkative	talkative	JJ	O	amod	O	-1	O
+0	6	161	798	801	S	160	and	and	and	CC	O	cc	O	-1	O
+0	6	162	802	807	S	160	happy	happy	happy	JJ	O	conj	O	-1	O
+0	6	163	808	812	S	-1	girl	girl	girl	NN	O	null	O	-1	B-noun.person
+0	6	164	813	820	S	163	despite	despite	despite	IN	O	prep	O	-1	O
+0	6	165	821	827	S	164	living	living	live	VBG	O	pcomp	O	-1	B-verb.stative
+0	6	166	828	830	N	168	an	an	a	DT	O	det	O	-1	O
+0	6	167	831	843	S	168	impoverished	impoverished	impoverished	JJ	O	amod	O	-1	O
+0	6	168	844	848	S	165	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	6	169	849	851	S	165	as	as	as	IN	O	prep	O	-1	O
+0	6	170	852	854	S	171	an	an	a	DT	O	det	O	-1	O
+0	6	171	855	861		169	orphan	orphan	orphan	NN	O	pobj	O	-1	B-noun.person
+0	6	172	861	862	S	163	.	.	.	.	O	punct	O	-1	O
+0	7	173	863	869	S	175	Though	Though	though	IN	O	mark	O	-1	O
+0	7	174	870	873	S	175	she	she	she	PRP	O	nsubj	O	4	O
+0	7	175	874	879	S	-1	lacks	lacks	lack	VBZ	O	null	O	-1	B-verb.stative
+0	7	176	880	886	S	175	social	social	social	JJ	O	dobj	O	-1	O
+0	7	177	887	893	S	175	graces	graces	grace	VBZ	O	dep	O	-1	B-verb.creation
+0	7	178	894	897	N	177	and	and	and	CC	O	cc	O	-1	O
+0	7	179	898	907		177	education	education	education	NN	O	conj	O	-1	B-noun.act
+0	7	180	907	908	S	177	,	,	,	,	O	punct	O	-1	O
+0	7	181	909	912	S	182	she	she	she	PRP	O	nsubj	O	4	O
+0	7	182	913	916	S	177	has	has	have	VBZ	O	ccomp	O	-1	B-verb.possession
+0	7	183	917	918	S	188	a	a	a	DT	O	det	O	-1	O
+0	7	184	919	923	S	188	rich	rich	rich	JJ	O	amod	O	-1	O
+0	7	185	924	927	S	184	and	and	and	CC	O	cc	O	-1	O
+0	7	186	928	941	S	184	sophisticated	sophisticated	sophisticated	JJ	O	conj	O	-1	O
+0	7	187	942	949	S	188	fantasy	fantasy	fantasy	NN	O	nn	O	-1	B-noun.cognition
+0	7	188	950	954	S	182	life	life	life	NN	O	dobj	O	-1	I-noun.cognition
+0	7	189	955	958	S	188	and	and	and	CC	O	cc	O	-1	O
+0	7	190	959	961	N	194	an	an	a	DT	O	det	O	-1	O
+0	7	191	962	972	S	194	optimistic	optimistic	optimistic	JJ	O	amod	O	-1	O
+0	7	192	973	976	S	191	and	and	and	CC	O	cc	O	-1	O
+0	7	193	977	985	S	191	generous	generous	generous	JJ	O	conj	O	-1	O
+0	7	194	986	992		188	spirit	spirit	spirit	NN	O	conj	O	-1	B-noun.person
+0	7	195	992	993	S	175	.	.	.	.	O	punct	O	-1	O
+0	8	196	994	1001	S	198	Because	Because	because	IN	O	mark	O	-1	O
+0	8	197	1002	1006	S	198	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	8	198	1007	1011	S	214	acts	acts	act	VBZ	O	advcl	O	-1	O
+0	8	199	1012	1021	S	198	according	according	accord	VBG	O	prep	O	-1	O
+0	8	200	1022	1024	S	199	to	to	to	TO	O	dep	O	-1	O
+0	8	201	1025	1028	N	202	her	her	she	PRP$	O	poss	O	4	O
+0	8	202	1029	1038	S	200	instincts	instincts	instinct	NNS	O	pobj	O	-1	B-noun.cognition
+0	8	203	1039	1042	S	202	and	and	and	CC	O	cc	O	-1	O
+0	8	204	1043	1046	S	202	not	not	not	RB	O	conj	O	-1	O
+0	8	205	1047	1056	S	200	according	according	accord	VBG	O	pcomp	O	-1	O
+0	8	206	1057	1059	S	205	to	to	to	TO	O	dep	O	-1	O
+0	8	207	1060	1061	S	208	a	a	a	DT	O	det	O	-1	O
+0	8	208	1062	1066	S	206	code	code	code	NN	O	pobj	O	-1	B-noun.communication
+0	8	209	1067	1069	S	208	of	of	of	IN	O	prep	O	-1	O
+0	8	210	1070	1077		209	manners	manners	manners	NNS	O	pobj	O	-1	B-noun.attribute
+0	8	211	1077	1078	S	214	,	,	,	,	O	punct	O	-1	O
+0	8	212	1079	1082	S	214	she	she	she	PRP	O	nsubj	O	4	O
+0	8	213	1083	1098	N	214	unintentionally	unintentionally	unintentionally	RB	O	advmod	O	-1	O
+0	8	214	1099	1105	S	-1	defies	defies	defy	VBZ	O	null	O	-1	B-verb.stative
+0	8	215	1106	1118	S	214	expectations	expectations	expectation	NNS	O	dobj	O	-1	B-noun.cognition
+0	8	216	1119	1121	S	215	of	of	of	IN	O	prep	O	-1	O
+0	8	217	1122	1128	S	219	proper	proper	proper	JJ	O	amod	O	-1	O
+0	8	218	1129	1137	S	219	ladylike	ladylike	ladylike	JJ	O	amod	O	-1	O
+0	8	219	1138	1146		216	behavior	behavior	behavior	NN	O	pobj	O	-1	B-noun.act
+0	8	220	1146	1147	S	214	.	.	.	.	O	punct	O	-1	O
+0	9	221	1148	1151	S	222	She	She	she	PRP	O	nsubj	O	4	O
+0	9	222	1152	1159	S	-1	attends	attends	attend	VBZ	O	null	O	-1	B-verb.stative
+0	9	223	1160	1166	N	222	church	church	church	NN	O	dobj	O	-1	B-noun.artifact
+0	9	224	1167	1170	S	223	for	for	for	IN	O	prep	O	-1	O
+0	9	225	1171	1174	S	227	the	the	the	DT	O	det	O	-1	O
+0	9	226	1175	1180	S	227	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	9	227	1181	1185	S	224	time	time	time	NN	O	pobj	O	-1	B-noun.event
+0	9	228	1186	1193	S	227	wearing	wearing	wear	VBG	O	partmod	O	-1	B-verb.body
+0	9	229	1194	1195	S	230	a	a	a	DT	O	det	O	-1	O
+0	9	230	1196	1202	S	228	wreath	wreath	wreath	NN	O	dobj	O	-1	B-noun.artifact
+0	9	231	1203	1205	S	230	of	of	of	IN	O	prep	O	-1	O
+0	9	232	1206	1217		231	wildflowers	wildflowers	wildflower	NNS	O	pobj	O	-1	B-noun.plant
+0	9	233	1217	1218	S	222	,	,	,	,	O	punct	O	-1	O
+0	9	234	1219	1222	S	222	for	for	for	IN	O	prep	O	-1	O
+0	9	235	1223	1230		234	example	example	example	NN	O	pobj	O	-1	B-noun.cognition
+0	9	236	1230	1231	N	222	,	,	,	,	O	punct	O	-1	O
+0	9	237	1232	1235	S	222	and	and	and	CC	O	cc	O	-1	O
+0	9	238	1236	1243	S	222	screams	screams	scream	NNS	O	conj	O	-1	B-noun.communication
+0	9	239	1244	1246	S	238	at	at	at	IN	O	prep	O	-1	O
+0	9	240	1247	1251	S	241	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	-1	B-noun.person
+0	9	241	1252	1258	S	239	Rachel	Rachel	Rachel	NNP	PERSON	pobj	O	-1	I-noun.person
+0	9	242	1259	1262	S	238	for	for	for	IN	O	prep	O	-1	O
+0	9	243	1263	1269	S	242	making	making	make	VBG	O	pcomp	O	-1	B-verb.communication
+0	9	244	1270	1273	S	243	fun	fun	fun	NN	O	dobj	O	-1	B-noun.act
+0	9	245	1274	1276	S	244	of	of	of	IN	O	prep	O	-1	O
+0	9	246	1277	1280	S	248	her	her	she	PRP$	O	poss	O	-1	O
+0	9	247	1281	1284	S	248	red	red	red	JJ	O	amod	O	-1	O
+0	9	248	1285	1289		245	hair	hair	hair	NN	O	pobj	O	-1	B-noun.body
+0	9	249	1289	1290	S	222	.	.	.	.	O	punct	O	-1	O
+0	10	250	1291	1295	N	251	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	10	251	1296	1301	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	10	252	1302	1306	S	251	hard	hard	hard	JJ	O	dobj	O	-1	O
+0	10	253	1307	1309	S	254	to	to	to	TO	O	aux	O	-1	O
+0	10	254	1310	1316	S	252	oblige	oblige	oblige	VB	O	xcomp	O	-1	B-verb.social
+0	10	255	1317	1324	S	254	Marilla	Marilla	Marilla	NNP	PERSON	dobj	O	2	B-noun.person
+0	10	256	1325	1328	S	254	and	and	and	CC	O	cc	O	-1	O
+0	10	257	1329	1335	S	254	follow	follow	follow	VB	O	conj	O	-1	B-verb.motion
+0	10	258	1336	1339	S	259	her	her	she	PRP$	O	poss	O	4	O
+0	10	259	1340	1345	S	257	rules	rules	rule	NNS	O	dobj	O	-1	B-noun.cognition
+0	10	260	1346	1348	S	259	of	of	of	IN	O	prep	O	-1	O
+0	10	261	1349	1355	S	262	social	social	social	JJ	O	amod	O	-1	O
+0	10	262	1356	1363		260	conduct	conduct	conduct	NN	O	pobj	O	-1	B-noun.attribute
+0	10	263	1363	1364	N	251	,	,	,	,	O	punct	O	-1	O
+0	10	264	1365	1368	S	251	but	but	but	CC	O	cc	O	-1	O
+0	10	265	1369	1372	S	266	she	she	she	PRP	O	nsubj	O	4	O
+0	10	266	1373	1378	S	251	makes	makes	make	VBZ	O	conj	O	-1	B-verb.change
+0	10	267	1379	1383	S	268	many	many	many	JJ	O	amod	O	-1	O
+0	10	268	1384	1392		266	mistakes	mistakes	mistake	NNS	O	dobj	O	-1	B-noun.act
+0	10	269	1392	1393	S	266	,	,	,	,	O	punct	O	-1	O
+0	10	270	1394	1399	S	266	using	using	use	VBG	O	xcomp	O	-1	B-verb.consumption
+0	10	271	1400	1408	S	270	liniment	liniment	liniment	NN	O	dobj	O	-1	B-noun.artifact
+0	10	272	1409	1416	S	273	instead	instead	instead	RB	O	dep	O	-1	O
+0	10	273	1417	1419	S	270	of	of	of	IN	O	prep	O	-1	O
+0	10	274	1420	1427	S	273	vanilla	vanilla	vanilla	NN	O	pobj	O	-1	B-noun.plant
+0	10	275	1428	1430	N	274	in	in	in	IN	O	prep	O	-1	O
+0	10	276	1431	1432	S	277	a	a	a	DT	O	det	O	-1	O
+0	10	277	1433	1437		275	cake	cake	cake	NN	O	pobj	O	-1	B-noun.artifact
+0	10	278	1437	1438	S	266	,	,	,	,	O	punct	O	-1	O
+0	10	279	1439	1446	S	266	letting	letting	let	VBG	O	xcomp	O	-1	B-verb.social
+0	10	280	1447	1448	S	281	a	a	a	DT	O	det	O	-1	O
+0	10	281	1449	1454	S	282	mouse	mouse	mouse	NN	O	nsubj	O	-1	B-noun.animal
+0	10	282	1455	1460	S	279	drown	drown	drown	VB	O	ccomp	O	-1	B-verb.contact
+0	10	283	1461	1463	S	282	in	in	in	IN	O	prep	O	-1	O
+0	10	284	1464	1467	S	286	the	the	the	DT	O	det	O	-1	O
+0	10	285	1468	1480	S	286	plum-pudding	plum-pudding	plum-pudding	JJ	O	amod	O	-1	O
+0	10	286	1481	1486		283	sauce	sauce	sauce	NN	O	pobj	O	-1	B-noun.food
+0	10	287	1486	1487	S	266	,	,	,	,	O	punct	O	-1	O
+0	10	288	1488	1491	S	266	and	and	and	CC	O	cc	O	-1	O
+0	10	289	1492	1502	N	266	delivering	delivering	deliver	VBG	O	conj	O	-1	B-verb.contact
+0	10	290	1503	1504	S	294	a	a	a	DT	O	det	O	-1	O
+0	10	291	1505	1514	S	294	heartfelt	heartfelt	heartfelt	JJ	O	amod	O	-1	O
+0	10	292	1515	1518	S	291	but	but	but	CC	O	cc	O	-1	O
+0	10	293	1519	1529	S	291	ridiculous	ridiculous	ridiculous	JJ	O	conj	O	-1	O
+0	10	294	1530	1536	S	289	prayer	prayer	prayer	NN	O	dobj	O	-1	B-noun.act
+0	10	295	1537	1539	S	289	on	on	on	IN	O	prep	O	-1	O
+0	10	296	1540	1543	S	298	her	her	she	PRP$	O	poss	O	4	O
+0	10	297	1544	1549	S	298	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	10	298	1550	1557	S	295	attempt	attempt	attempt	NN	O	pobj	O	-1	B-noun.act
+0	10	299	1558	1560	S	300	to	to	to	TO	O	aux	O	-1	O
+0	10	300	1561	1565	S	298	pray	pray	pray	VB	O	infmod	O	-1	B-verb.communication
+0	10	301	1566	1572	N	300	before	before	before	IN	O	prep	O	-1	O
+0	10	302	1573	1576		301	bed	bed	bed	NN	O	pobj	O	-1	B-noun.artifact
+0	10	303	1576	1577	S	251	.	.	.	.	O	punct	O	-1	O
+0	11	304	1578	1582	S	306	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	11	305	1583	1588	S	306	never	never	never	RB	O	neg	O	-1	O
+0	11	306	1589	1592	S	-1	had	had	have	VBD	O	null	O	-1	B-verb.stative
+0	11	307	1593	1597	S	308	real	real	real	JJ	O	amod	O	-1	O
+0	11	308	1598	1605	S	306	friends	friends	friend	NNS	O	dobj	O	-1	B-noun.person
+0	11	309	1606	1612	S	306	before	before	before	IN	O	prep	O	-1	O
+0	11	310	1613	1619	S	309	living	living	live	VBG	O	pcomp	O	-1	B-verb.stative
+0	11	311	1620	1622	S	310	at	at	at	IN	O	prep	O	-1	O
+0	11	312	1623	1628	S	313	Green	Green	Green	NNP	LOCATION	nn	O	-1	B-noun.group
+0	11	313	1629	1635		311	Gables	Gables	Gables	NNP	LOCATION	pobj	O	-1	I-noun.group
+0	11	314	1635	1636	N	306	,	,	,	,	O	punct	O	-1	O
+0	11	315	1637	1639	S	318	so	so	so	IN	O	mark	O	-1	O
+0	11	316	1640	1643	S	318	she	she	she	PRP	O	nsubjpass	O	4	O
+0	11	317	1644	1647	S	318	was	was	be	VBD	O	auxpass	O	-1	O
+0	11	318	1648	1654	S	306	forced	forced	force	VBN	O	advcl	O	-1	B-verb.social
+0	11	319	1655	1657	S	320	to	to	to	TO	O	aux	O	-1	O
+0	11	320	1658	1664	S	318	invent	invent	invent	VB	O	xcomp	O	-1	B-verb.creation
+0	11	321	1665	1674	S	322	imaginary	imaginary	imaginary	JJ	O	amod	O	-1	O
+0	11	322	1675	1684		320	playmates	playmates	playmate	NNS	O	dobj	O	-1	B-noun.person
+0	11	323	1684	1685	S	306	.	.	.	.	O	punct	O	-1	O
+0	12	324	1686	1688	S	328	In	In	in	IN	O	prep	O	-1	O
+0	12	325	1689	1696		324	Avonlea	Avonlea	Avonlea	NNP	LOCATION	pobj	O	-1	O
+0	12	326	1696	1697	S	328	,	,	,	,	O	punct	O	-1	O
+0	12	327	1698	1701	N	328	she	she	she	PRP	O	nsubj	O	4	O
+0	12	328	1702	1707	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	12	329	1708	1713	S	330	Diana	Diana	Diana	NNP	PERSON	nn	O	-1	B-noun.person
+0	12	330	1714	1719		328	Barry	Barry	Barry	NNP	PERSON	dobj	O	-1	I-noun.person
+0	12	331	1719	1720	S	330	,	,	,	,	O	punct	O	-1	O
+0	12	332	1721	1722	S	333	a	a	a	DT	O	det	O	-1	O
+0	12	333	1723	1731	S	330	neighbor	neighbor	neighbor	NN	O	appos	O	-1	B-noun.person
+0	12	334	1732	1735	S	336	who	who	who	WP	O	nsubj	O	-1	O
+0	12	335	1736	1743	S	336	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	12	336	1744	1751	S	333	becomes	becomes	become	VBZ	O	rcmod	O	-1	B-verb.change
+0	12	337	1752	1755	S	339	her	her	she	PRP	O	dep	O	4	O
+0	12	338	1756	1761	S	339	bosom	bosom	bosom	NN	O	nn	O	-1	B-noun.body
+0	12	339	1762	1768		336	friend	friend	friend	NN	O	dobj	O	-1	O
+0	12	340	1768	1769	S	328	.	.	.	.	O	punct	O	-1	O
+0	13	341	1770	1773	N	342	One	One	one	CD	NUMBER	num	O	-1	O
+0	13	342	1774	1783	S	-1	afternoon	afternoon	afternoon	NN	TIME	null	O	-1	B-noun.time
+0	13	343	1784	1788	S	344	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	13	344	1789	1796	S	342	invites	invites	invite	VBZ	O	dep	O	-1	B-verb.emotion
+0	13	345	1797	1802	S	344	Diana	Diana	Diana	NNP	PERSON	dobj	O	5	B-noun.person
+0	13	346	1803	1805	S	344	to	to	to	TO	O	prep	O	-1	O
+0	13	347	1806	1809	S	346	tea	tea	tea	NN	O	pobj	O	-1	B-noun.food
+0	13	348	1810	1813	S	342	and	and	and	CC	O	cc	O	-1	O
+0	13	349	1814	1826	S	350	accidentally	accidentally	accidentally	RB	O	advmod	O	-1	O
+0	13	350	1827	1832	S	342	gives	gives	give	VBZ	O	conj	O	-1	B-verb.possession
+0	13	351	1833	1836	S	354	her	her	she	PRP	O	dep	O	4	O
+0	13	352	1837	1840	N	354	red	red	red	JJ	O	amod	O	-1	O
+0	13	353	1841	1848	S	354	currant	currant	currant	JJ	O	amod	O	-1	O
+0	13	354	1849	1853	S	350	wine	wine	wine	NN	O	dobj	O	-1	B-noun.food
+0	13	355	1854	1861	S	356	instead	instead	instead	RB	O	dep	O	-1	O
+0	13	356	1862	1864	S	354	of	of	of	IN	O	prep	O	-1	O
+0	13	357	1865	1877	S	358	nonalcoholic	nonalcoholic	nonalcoholic	JJ	O	amod	O	-1	O
+0	13	358	1878	1887	S	356	raspberry	raspberry	raspberry	NN	O	pobj	O	-1	B-noun.plant
+0	13	359	1888	1895		358	cordial	cordial	cordial	JJ	O	amod	O	-1	O
+0	13	360	1895	1896	S	342	.	.	.	.	O	punct	O	-1	O
+0	14	361	1897	1902	S	362	Diana	Diana	Diana	NNP	PERSON	nsubj	O	5	B-noun.person
+0	14	362	1903	1910	N	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	14	363	1911	1915	S	362	home	home	home	NN	O	dobj	O	-1	B-noun.location
+0	14	364	1916	1921		363	drunk	drunk	drunk	JJ	O	amod	O	-1	O
+0	14	365	1921	1922	S	362	,	,	,	,	O	punct	O	-1	O
+0	14	366	1923	1926	S	362	and	and	and	CC	O	cc	O	-1	O
+0	14	367	1927	1932		369	Diana	Diana	Diana	NNP	PERSON	poss	O	5	B-noun.person
+0	14	368	1932	1934	S	367	’s	's	's	POS	O	possessive	O	-1	O
+0	14	369	1935	1941		374	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	14	370	1941	1942	S	369	,	,	,	,	O	punct	O	-1	O
+0	14	371	1943	1951	S	369	thinking	thinking	think	VBG	O	partmod	O	-1	B-verb.cognition
+0	14	372	1952	1956	S	371	Anne	Anne	Anne	NNP	PERSON	dobj	O	4	B-noun.person
+0	14	373	1957	1960	S	374	has	has	have	VBZ	O	aux	O	-1	O
+0	14	374	1961	1972	S	362	intoxicated	intoxicated	intoxicate	VBN	O	conj	O	-1	B-verb.emotion
+0	14	375	1973	1978	N	374	Diana	Diana	Diana	NNP	PERSON	dobj	O	5	B-noun.person
+0	14	376	1979	1981	S	374	on	on	on	IN	O	prep	O	-1	O
+0	14	377	1982	1989		376	purpose	purpose	purpose	NN	O	pobj	O	-1	B-noun.cognition
+0	14	378	1989	1990	S	362	,	,	,	,	O	punct	O	-1	O
+0	14	379	1991	1998	S	362	forbids	forbids	forbid	VBZ	O	conj	O	-1	B-verb.communication
+0	14	380	1999	2002	S	381	the	the	the	DT	O	det	O	-1	O
+0	14	381	2003	2008	S	383	girls	girls	girl	NNS	O	nsubj	O	-1	B-noun.person
+0	14	382	2009	2011	S	383	to	to	to	TO	O	aux	O	-1	O
+0	14	383	2012	2017		379	speak	speak	speak	VB	O	ccomp	O	-1	B-verb.communication
+0	14	384	2017	2018	S	362	.	.	.	.	O	punct	O	-1	O
+0	15	385	2019	2022	S	387	The	The	the	DT	O	det	O	-1	O
+0	15	386	2023	2032	S	387	agonizing	agonizing	agonizing	JJ	O	amod	O	-1	O
+0	15	387	2033	2039	S	390	period	period	period	NN	O	nsubj	O	-1	B-noun.time
+0	15	388	2040	2042	N	387	of	of	of	IN	O	prep	O	-1	O
+0	15	389	2043	2055	S	388	estrangement	estrangement	estrangement	NN	O	pobj	O	-1	B-noun.state
+0	15	390	2056	2061	S	-1	lasts	lasts	last	VBZ	O	null	O	-1	B-verb.stative
+0	15	391	2062	2067	S	393	until	until	until	IN	O	mark	O	-1	O
+0	15	392	2068	2072	S	393	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	15	393	2073	2078	S	390	saves	saves	save	VBZ	O	advcl	O	-1	B-verb.social
+0	15	394	2079	2084		396	Diana	Diana	Diana	NNP	PERSON	poss	O	5	B-noun.person
+0	15	395	2084	2086	S	394	’s	's	's	POS	O	possessive	O	-1	O
+0	15	396	2087	2093		393	sister	sister	sister	NN	O	dobj	O	-1	B-noun.person
+0	15	397	2093	2094	S	396	,	,	,	,	O	punct	O	-1	O
+0	15	398	2095	2098	S	400	who	who	who	WP	O	nsubj	O	-1	O
+0	15	399	2099	2101	S	400	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	15	400	2102	2106	N	396	sick	sick	sick	JJ	O	rcmod	O	-1	O
+0	15	401	2107	2111	S	400	with	with	with	IN	O	prep	O	-1	O
+0	15	402	2112	2115	S	403	the	the	the	DT	O	det	O	-1	O
+0	15	403	2116	2121		401	croup	croup	croup	NN	O	pobj	O	-1	B-noun.state
+0	15	404	2121	2122	S	403	,	,	,	,	O	punct	O	-1	O
+0	15	405	2123	2128	S	406	which	which	which	WDT	O	nsubj	O	-1	O
+0	15	406	2129	2135	S	403	causes	causes	cause	VBZ	O	rcmod	O	-1	B-verb.creation
+0	15	407	2136	2140	S	408	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	-1	B-noun.person
+0	15	408	2141	2146	S	406	Barry	Barry	Barry	NNP	PERSON	dobj	O	-1	I-noun.person
+0	15	409	2147	2149	S	410	to	to	to	TO	O	aux	O	-1	O
+0	15	410	2150	2157	S	406	forgive	forgive	forgive	VB	O	xcomp	O	-1	B-verb.communication
+0	15	411	2158	2161		410	her	her	she	PRP	O	dobj	O	4	O
+0	15	412	2161	2162	S	390	.	.	.	.	O	punct	O	-1	O
+0	16	413	2163	2165	S	417	At	At	at	IN	O	prep	O	-1	O
+0	16	414	2166	2172		413	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	16	415	2172	2173	S	417	,	,	,	,	O	punct	O	-1	O
+0	16	416	2174	2178	S	417	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	16	417	2179	2184	S	-1	feuds	feuds	feud	VBZ	O	null	O	-1	B-verb.competition
+0	16	418	2185	2189	S	417	with	with	with	IN	O	prep	O	-1	O
+0	16	419	2190	2191	S	423	a	a	a	DT	O	det	O	-1	O
+0	16	420	2192	2200		423	handsome	handsome	handsome	JJ	O	amod	O	-1	O
+0	16	421	2200	2201	S	423	,	,	,	,	O	punct	O	-1	O
+0	16	422	2202	2207	S	423	smart	smart	smart	JJ	O	amod	O	-1	O
+0	16	423	2208	2211	S	418	boy	boy	boy	NN	O	pobj	O	-1	B-noun.person
+0	16	424	2212	2217	N	423	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	16	425	2218	2225	S	426	Gilbert	Gilbert	Gilbert	NNP	PERSON	nn	O	3	B-noun.person
+0	16	426	2226	2232		424	Blythe	Blythe	Blythe	NNP	PERSON	dep	O	3	I-noun.person
+0	16	427	2232	2233	S	417	.	.	.	.	O	punct	O	-1	O
+0	17	428	2234	2238	S	431	When	When	when	WRB	O	advmod	O	-1	O
+0	17	429	2239	2243	S	431	they	they	they	PRP	O	nsubj	O	-1	O
+0	17	430	2244	2249	S	431	first	first	first	RB	ORDINAL	advmod	O	-1	O
+0	17	431	2250	2254		434	meet	meet	meet	VB	O	dep	O	-1	O
+0	17	432	2254	2255	S	434	,	,	,	,	O	punct	O	-1	O
+0	17	433	2256	2263	S	434	Gilbert	Gilbert	Gilbert	NNP	PERSON	nsubj	O	3	O
+0	17	434	2264	2270	S	-1	taunts	taunts	taunt	VBZ	O	null	O	-1	B-verb.communication
+0	17	435	2271	2275	S	434	Anne	Anne	Anne	NNP	PERSON	dobj	O	4	B-noun.person
+0	17	436	2276	2278	S	434	by	by	by	IN	O	prep	O	-1	O
+0	17	437	2279	2286	N	436	calling	calling	call	VBG	O	pcomp	O	-1	B-verb.communication
+0	17	438	2287	2290	S	439	her	her	she	PRP$	O	poss	O	4	O
+0	17	439	2291	2298	S	437	Carrots	Carrots	carrot	NNS	O	dobj	O	-1	B-noun.plant
+0	17	440	2299	2302	S	437	and	and	and	CC	O	cc	O	-1	O
+0	17	441	2303	2310	S	437	pulling	pulling	pull	VBG	O	conj	O	-1	B-verb.contact
+0	17	442	2311	2314	S	444	her	her	she	PRP$	O	poss	O	4	O
+0	17	443	2315	2318	S	444	red	red	red	JJ	O	amod	O	-1	O
+0	17	444	2319	2324		441	braid	braid	braid	NN	O	dobj	O	-1	B-noun.body
+0	17	445	2324	2325	S	434	.	.	.	.	O	punct	O	-1	O
+0	18	446	2326	2330	S	449	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	18	447	2331	2333	S	449	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	18	448	2334	2343	S	449	extremely	extremely	extremely	RB	O	advmod	O	-1	O
+0	18	449	2344	2353	N	-1	sensitive	sensitive	sensitive	JJ	O	null	O	-1	O
+0	18	450	2354	2359	S	449	about	about	about	IN	O	prep	O	-1	O
+0	18	451	2360	2363	S	453	her	her	she	PRP$	O	poss	O	4	O
+0	18	452	2364	2367	S	453	red	red	red	JJ	O	amod	O	-1	O
+0	18	453	2368	2372		450	hair	hair	hair	NN	O	pobj	O	-1	B-noun.body
+0	18	454	2372	2373	S	449	,	,	,	,	O	punct	O	-1	O
+0	18	455	2374	2377	S	449	and	and	and	CC	O	cc	O	-1	O
+0	18	456	2378	2385		458	Gilbert	Gilbert	Gilbert	NNP	PERSON	poss	O	3	B-noun.person
+0	18	457	2385	2387	S	456	’s	's	's	POS	O	possessive	O	-1	O
+0	18	458	2388	2395	S	449	teasing	teasing	tease	VBG	O	conj	O	-1	B-verb.emotion
+0	18	459	2396	2406	S	458	infuriates	infuriates	infuriate	VBZ	O	prep	O	-1	B-verb.emotion
+0	18	460	2407	2410		459	her	her	she	PRP	O	dobj	O	4	O
+0	18	461	2410	2411	S	449	.	.	.	.	O	punct	O	-1	O
+0	19	462	2412	2415	S	463	She	She	she	PRP	O	nsubj	O	4	O
+0	19	463	2416	2423	N	-1	screams	screams	scream	VBZ	O	null	O	-1	B-verb.communication
+0	19	464	2424	2426	S	463	at	at	at	IN	O	prep	O	-1	O
+0	19	465	2427	2430	S	464	him	him	he	PRP	O	pobj	O	3	O
+0	19	466	2431	2434	S	463	and	and	and	CC	O	cc	O	-1	O
+0	19	467	2435	2442	S	463	smashes	smashes	smash	VBZ	O	conj	O	-1	B-verb.contact
+0	19	468	2443	2444	S	469	a	a	a	DT	O	det	O	-1	O
+0	19	469	2445	2450	S	467	slate	slate	slate	NN	O	dobj	O	-1	B-noun.artifact
+0	19	470	2451	2455	S	467	over	over	over	IN	O	prep	O	-1	O
+0	19	471	2456	2459	S	472	his	his	he	PRP$	O	poss	O	3	O
+0	19	472	2460	2464		470	head	head	head	NN	O	pobj	O	-1	B-noun.body
+0	19	473	2464	2465	S	463	.	.	.	.	O	punct	O	-1	O
+0	20	474	2466	2470	S	475	This	This	this	DT	O	det	O	-1	O
+0	20	475	2471	2479	S	476	incident	incident	incident	NN	O	nsubj	O	-1	B-noun.event
+0	20	476	2480	2485	S	-1	marks	marks	mark	VBZ	O	null	O	-1	B-verb.communication
+0	20	477	2486	2489	N	478	the	the	the	DT	O	det	O	-1	O
+0	20	478	2490	2499	S	476	beginning	beginning	beginning	NN	O	dobj	O	-1	B-noun.event
+0	20	479	2500	2502	S	478	of	of	of	IN	O	prep	O	-1	O
+0	20	480	2503	2504	S	481	a	a	a	DT	O	det	O	-1	O
+0	20	481	2505	2512	S	479	rivalry	rivalry	rivalry	NN	O	pobj	O	-1	B-noun.act
+0	20	482	2513	2520	S	481	between	between	between	IN	O	prep	O	-1	O
+0	20	483	2521	2525	S	482	Anne	Anne	Anne	NNP	PERSON	pobj	O	4	B-noun.person
+0	20	484	2526	2529	S	483	and	and	and	CC	O	cc	O	-1	O
+0	20	485	2530	2537		483	Gilbert	Gilbert	Gilbert	NNP	PERSON	conj	O	3	O
+0	20	486	2537	2538	S	483	,	,	,	,	O	punct	O	-1	O
+0	20	487	2539	2542	S	490	the	the	the	DT	O	det	O	-1	O
+0	20	488	2543	2546	S	490	two	two	two	CD	NUMBER	num	O	-1	O
+0	20	489	2547	2555	N	490	smartest	smartest	smartest	JJS	O	amod	O	-1	O
+0	20	490	2556	2562		483	pupils	pupils	pupil	NNS	O	appos	O	-1	B-noun.person
+0	20	491	2562	2563	S	483	,	,	,	,	O	punct	O	-1	O
+0	20	492	2564	2569	S	493	which	which	which	WDT	O	nsubj	O	-1	O
+0	20	493	2570	2575	S	483	lasts	lasts	last	VBZ	O	rcmod	O	-1	B-verb.stative
+0	20	494	2576	2581	S	493	until	until	until	IN	O	prep	O	-1	O
+0	20	495	2582	2585	S	496	the	the	the	DT	O	det	O	-1	O
+0	20	496	2586	2589	S	494	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	20	497	2590	2592	S	496	of	of	of	IN	O	prep	O	-1	O
+0	20	498	2593	2596	S	499	the	the	the	DT	O	det	O	-1	O
+0	20	499	2597	2602		497	novel	novel	novel	NN	O	pobj	O	-1	B-noun.communication
+0	20	500	2602	2603	S	476	.	.	.	.	O	punct	O	-1	O
+0	21	501	2604	2606	S	503	As	As	as	IN	O	mark	O	-1	O
+0	21	502	2607	2611	S	503	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	21	503	2612	2617	S	507	grows	grows	grow	VBZ	O	advcl	O	-1	B-verb.change
+0	21	504	2618	2620		503	up	up	up	RP	O	prt	O	-1	O
+0	21	505	2620	2621	S	507	,	,	,	,	O	punct	O	-1	O
+0	21	506	2622	2625	S	507	she	she	she	PRP	O	nsubj	O	4	O
+0	21	507	2626	2631	S	-1	loses	loses	lose	VBZ	O	null	O	-1	B-verb.possession
+0	21	508	2632	2636	S	507	some	some	some	DT	O	dobj	O	-1	O
+0	21	509	2637	2639	S	508	of	of	of	IN	O	prep	O	-1	O
+0	21	510	2640	2643	S	512	her	her	she	PRP$	O	poss	O	4	O
+0	21	511	2644	2652	S	512	childish	childish	childish	JJ	O	amod	O	-1	O
+0	21	512	2653	2658	N	509	flare	flare	flare	NN	O	pobj	O	-1	B-noun.shape
+0	21	513	2659	2662	S	507	for	for	for	IN	O	prep	O	-1	O
+0	21	514	2663	2666	S	513	the	the	the	DT	O	pobj	O	-1	O
+0	21	515	2667	2679	S	514	melodramatic	melodramatic	melodramatic	JJ	O	amod	O	-1	O
+0	21	516	2680	2683	S	515	and	and	and	CC	O	cc	O	-1	O
+0	21	517	2684	2692		515	romantic	romantic	romantic	JJ	O	conj	O	-1	O
+0	21	518	2692	2693	S	507	,	,	,	,	O	punct	O	-1	O
+0	21	519	2694	2697	S	507	and	and	and	CC	O	cc	O	-1	O
+0	21	520	2698	2703	S	507	turns	turns	turn	VBZ	O	conj	O	-1	B-verb.motion
+0	21	521	2704	2707	S	523	her	her	she	PRP$	O	poss	O	4	O
+0	21	522	2708	2716	S	523	spirited	spirited	spirited	JJ	O	amod	O	-1	O
+0	21	523	2717	2727	N	520	attentions	attentions	attention	NNS	O	dobj	O	-1	B-noun.cognition
+0	21	524	2728	2730	S	520	to	to	to	TO	O	prep	O	-1	O
+0	21	525	2731	2740		524	academics	academics	academic	NNS	O	pobj	O	-1	B-noun.person
+0	21	526	2740	2741	S	507	.	.	.	.	O	punct	O	-1	O
+0	22	527	2742	2743	S	529	A	A	a	DT	O	det	O	-1	O
+0	22	528	2744	2751	S	529	beloved	beloved	beloved	JJ	O	amod	O	-1	O
+0	22	529	2752	2759		534	teacher	teacher	teacher	NN	O	nsubj	O	-1	B-noun.person
+0	22	530	2759	2760	S	529	,	,	,	,	O	punct	O	-1	O
+0	22	531	2761	2765	S	532	Miss	Miss	Miss	NNP	PERSON	nn	O	-1	B-noun.person
+0	22	532	2766	2771		529	Stacy	Stacy	Stacy	NNP	PERSON	appos	O	-1	I-noun.person
+0	22	533	2771	2772	S	529	,	,	,	,	O	punct	O	-1	O
+0	22	534	2773	2783	S	-1	recognizes	recognizes	recognize	VBZ	O	null	O	-1	B-verb.cognition
+0	22	535	2784	2788		537	Anne	Anne	Anne	NNP	PERSON	poss	O	4	B-noun.person
+0	22	536	2788	2790	S	535	’s	's	's	POS	O	possessive	O	-1	O
+0	22	537	2791	2803	N	534	intelligence	intelligence	intelligence	NN	O	dobj	O	-1	B-noun.cognition
+0	22	538	2804	2807	S	534	and	and	and	CC	O	cc	O	-1	O
+0	22	539	2808	2818	S	534	encourages	encourages	encourage	VBZ	O	conj	O	-1	B-verb.social
+0	22	540	2819	2822	S	539	her	her	she	PRP$	O	dobj	O	4	O
+0	22	541	2823	2825	S	542	to	to	to	TO	O	aux	O	-1	O
+0	22	542	2826	2830	S	540	join	join	join	VB	O	xcomp	O	-1	B-verb.social
+0	22	543	2831	2832	S	545	a	a	a	DT	O	det	O	-1	O
+0	22	544	2833	2840	S	545	special	special	special	JJ	O	amod	O	-1	O
+0	22	545	2841	2846	S	542	group	group	group	NN	O	dobj	O	-1	B-noun.group
+0	22	546	2847	2849	S	545	of	of	of	IN	O	prep	O	-1	O
+0	22	547	2850	2858	S	546	students	students	student	NNS	O	pobj	O	-1	B-noun.person
+0	22	548	2859	2868	N	547	preparing	preparing	prepare	VBG	O	partmod	O	-1	B-verb.change
+0	22	549	2869	2872	S	548	for	for	for	IN	O	prep	O	-1	O
+0	22	550	2873	2876	S	552	the	the	the	DT	O	det	O	-1	O
+0	22	551	2877	2885	S	552	entrance	entrance	entrance	NN	O	nn	O	-1	B-noun.communication
+0	22	552	2886	2890	S	549	exam	exam	exam	NN	O	pobj	O	-1	I-noun.communication
+0	22	553	2891	2893	S	552	to	to	to	TO	O	prep	O	-1	O
+0	22	554	2894	2899		556	Queen	Queen	Queen	NNP	ORGANIZATION	poss	O	1	B-noun.person
+0	22	555	2899	2901	S	554	’s	's	's	POS	ORGANIZATION	possessive	O	1	O
+0	22	556	2902	2909		553	Academy	Academy	Academy	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	22	557	2909	2910	S	534	.	.	.	.	O	punct	O	-1	O
+0	23	558	2911	2914	S	560	Her	Her	she	PRP$	O	poss	O	4	O
+0	23	559	2915	2928	S	560	long-standing	long-standing	long-standing	JJ	O	amod	O	-1	O
+0	23	560	2929	2940	N	564	competition	competition	competition	NN	O	nsubj	O	-1	B-noun.relation
+0	23	561	2941	2945	S	560	with	with	with	IN	O	prep	O	-1	O
+0	23	562	2946	2953	S	563	Gilbert	Gilbert	Gilbert	NNP	PERSON	nn	O	3	B-noun.person
+0	23	563	2954	2960	S	561	Blythe	Blythe	Blythe	NNP	PERSON	pobj	O	3	I-noun.person
+0	23	564	2961	2968	S	-1	changes	changes	change	VBZ	O	null	O	-1	B-verb.change
+0	23	565	2969	2971	S	564	to	to	to	TO	O	prep	O	-1	O
+0	23	566	2972	2974	S	570	an	an	a	DT	O	det	O	-1	O
+0	23	567	2975	2987	S	570	affectionate	affectionate	affectionate	JJ	O	amod	O	-1	O
+0	23	568	2988	2991	S	567	and	and	and	CC	O	cc	O	-1	O
+0	23	569	2992	3000	S	567	familiar	familiar	familiar	JJ	O	conj	O	-1	O
+0	23	570	3001	3008	N	565	rivalry	rivalry	rivalry	NN	O	pobj	O	-1	B-noun.act
+0	23	571	3009	3013		582	when	when	when	WRB	O	advmod	O	-1	O
+0	23	572	3013	3014	S	582	,	,	,	,	O	punct	O	-1	O
+0	23	573	3015	3020	S	582	after	after	after	IN	O	prep	O	-1	O
+0	23	574	3021	3025	S	575	four	four	four	CD	DURATION	num	O	-1	O
+0	23	575	3026	3031	S	573	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	23	576	3032	3034	S	575	of	of	of	IN	O	prep	O	-1	O
+0	23	577	3035	3041	S	578	mutual	mutual	mutual	JJ	O	amod	O	-1	O
+0	23	578	3042	3049		576	silence	silence	silence	NN	O	pobj	O	-1	B-noun.attribute
+0	23	579	3049	3050	S	582	,	,	,	,	O	punct	O	-1	O
+0	23	580	3051	3055	S	582	they	they	they	PRP	O	nsubj	O	-1	O
+0	23	581	3056	3060	S	582	both	both	both	DT	O	dep	O	-1	O
+0	23	582	3061	3063	S	570	go	go	go	VBP	O	dep	O	-1	B-verb.stative
+0	23	583	3064	3066	S	582	to	to	to	TO	O	prep	O	-1	O
+0	23	584	3067	3072		586	Queen	Queen	Queen	NNP	ORGANIZATION	poss	O	1	B-noun.person
+0	23	585	3072	3074	N	584	’s	's	's	POS	ORGANIZATION	possessive	O	1	O
+0	23	586	3075	3082		583	Academy	Academy	Academy	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	23	587	3082	3083	S	564	.	.	.	.	O	punct	O	-1	O
+0	24	588	3084	3092	S	597	Striving	Striving	strive	VBG	O	dep	O	-1	O
+0	24	589	3093	3095	S	590	to	to	to	TO	O	aux	O	-1	O
+0	24	590	3096	3100	S	588	make	make	make	VB	O	xcomp	O	-1	B-verb.social
+0	24	591	3101	3108	S	594	Matthew	Matthew	Matthew	NNP	PERSON	nn	O	0	B-noun.person
+0	24	592	3109	3112	S	591	and	and	and	CC	O	cc	O	-1	O
+0	24	593	3113	3120	S	591	Marilla	Marilla	Marilla	NNP	PERSON	conj	O	2	B-noun.person
+0	24	594	3121	3126		590	proud	proud	proud	NN	O	dobj	O	-1	I-noun.person
+0	24	595	3126	3127	S	597	,	,	,	,	O	punct	O	-1	O
+0	24	596	3128	3132	S	597	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	24	597	3133	3140	N	-1	devotes	devotes	devote	VBZ	O	null	O	-1	B-verb.communication
+0	24	598	3141	3148	S	597	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	24	599	3149	3151	S	597	to	to	to	TO	O	prep	O	-1	O
+0	24	600	3152	3155	S	601	her	her	she	PRP$	O	poss	O	4	O
+0	24	601	3156	3163	S	599	studies	studies	study	NNS	O	pobj	O	-1	B-noun.act
+0	24	602	3164	3178	S	601	wholeheartedly	wholeheartedly	wholeheartedly	RB	O	advmod	O	-1	O
+0	24	603	3179	3182	S	597	and	and	and	CC	O	cc	O	-1	O
+0	24	604	3183	3188	S	597	earns	earns	earn	VBZ	O	conj	O	-1	B-verb.possession
+0	24	605	3189	3192	S	608	the	the	the	DT	O	det	O	-1	O
+0	24	606	3193	3204	N	608	prestigious	prestigious	prestigious	JJ	O	amod	O	-1	O
+0	24	607	3205	3210	S	608	Avery	Avery	Avery	NNP	O	nn	O	-1	B-noun.person
+0	24	608	3211	3222		604	Scholarship	Scholarship	Scholarship	NNP	O	dobj	O	-1	I-noun.person
+0	24	609	3222	3223	S	608	,	,	,	,	O	punct	O	-1	O
+0	24	610	3224	3229	S	611	which	which	which	WDT	O	nsubj	O	-1	O
+0	24	611	3230	3236	S	608	grants	grants	grant	VBZ	O	rcmod	O	-1	B-verb.possession
+0	24	612	3237	3240	S	614	her	her	she	PRP$	O	poss	O	4	O
+0	24	613	3241	3247	S	614	enough	enough	enough	JJ	O	amod	O	-1	O
+0	24	614	3248	3253	S	611	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	24	615	3254	3256	S	616	to	to	to	TO	O	aux	O	-1	O
+0	24	616	3257	3263	S	611	attend	attend	attend	VB	O	xcomp	O	-1	B-verb.stative
+0	24	617	3264	3265	S	619	a	a	a	DT	O	det	O	-1	O
+0	24	618	3266	3275	N	619	four-year	four-year	four-year	JJ	DURATION	amod	O	-1	O
+0	24	619	3276	3283	S	616	college	college	college	NN	O	dobj	O	-1	B-noun.group
+0	24	620	3284	3287	S	622	the	the	the	DT	DATE	det	O	-1	O
+0	24	621	3288	3297	S	622	following	following	follow	VBG	DATE	amod	O	-1	O
+0	24	622	3298	3302		619	fall	fall	fall	NN	DATE	dep	O	-1	B-noun.time
+0	24	623	3302	3303	S	597	.	.	.	.	O	punct	O	-1	O
+0	25	624	3304	3312	S	631	Thrilled	Thrilled	thrill	VBN	O	ccomp	O	-1	B-verb.perception
+0	25	625	3313	3315	S	624	by	by	by	IN	O	prep	O	-1	O
+0	25	626	3316	3319	S	628	her	her	she	PRP$	O	poss	O	4	O
+0	25	627	3320	3326	S	628	future	future	future	JJ	DATE	amod	O	-1	O
+0	25	628	3327	3336		625	prospects	prospects	prospects	NNS	O	pobj	O	-1	B-noun.state
+0	25	629	3336	3337	S	631	,	,	,	,	O	punct	O	-1	O
+0	25	630	3338	3342	S	631	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	25	631	3343	3347	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.motion
+0	25	632	3348	3352	S	631	home	home	home	NN	O	dobj	O	-1	B-noun.location
+0	25	633	3353	3355	S	631	to	to	to	TO	O	prep	O	-1	O
+0	25	634	3356	3361	S	635	Green	Green	Green	NNP	LOCATION	nn	O	-1	B-noun.person
+0	25	635	3362	3368		633	Gables	Gables	Gables	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	25	636	3368	3369	N	631	.	.	.	.	O	punct	O	-1	O
+0	26	637	3370	3377		646	Matthew	Matthew	Matthew	NNP	PERSON	nsubj	O	0	B-noun.person
+0	26	638	3377	3378	S	637	,	,	,	,	O	punct	O	-1	O
+0	26	639	3379	3382	S	642	who	who	who	WP	O	nsubj	O	-1	O
+0	26	640	3383	3386	S	642	has	has	have	VBZ	O	aux	O	-1	O
+0	26	641	3387	3391	S	642	been	been	be	VBN	O	aux	O	-1	O
+0	26	642	3392	3398	S	637	having	having	have	VBG	O	rcmod	O	-1	B-verb.possession
+0	26	643	3399	3404	S	644	heart	heart	heart	NN	O	nn	O	-1	B-noun.cognition
+0	26	644	3405	3412		642	trouble	trouble	trouble	NN	O	dobj	O	-1	B-noun.event
+0	26	645	3412	3413	S	637	,	,	,	,	O	punct	O	-1	O
+0	26	646	3414	3418	S	-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	26	647	3419	3421	S	646	of	of	of	IN	O	prep	O	-1	O
+0	26	648	3422	3423	S	650	a	a	a	DT	O	det	O	-1	O
+0	26	649	3424	3429	S	650	heart	heart	heart	NN	O	nn	O	-1	B-noun.state
+0	26	650	3430	3436		647	attack	attack	attack	NN	O	pobj	O	-1	I-noun.state
+0	26	651	3436	3437	N	646	.	.	.	.	O	punct	O	-1	O
+0	27	652	3438	3442	S	654	When	When	when	WRB	O	advmod	O	-1	O
+0	27	653	3443	3447	S	654	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	27	654	3448	3454	S	664	learns	learns	learn	VBZ	O	dep	O	-1	B-verb.cognition
+0	27	655	3455	3459	S	658	that	that	that	IN	O	complm	O	-1	O
+0	27	656	3460	3467	S	658	Marilla	Marilla	Marilla	NNP	PERSON	nsubj	O	2	B-noun.person
+0	27	657	3468	3470	S	658	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	27	658	3471	3477	S	654	likely	likely	likely	JJ	O	ccomp	O	-1	O
+0	27	659	3478	3480	S	660	to	to	to	TO	O	aux	O	-1	O
+0	27	660	3481	3483	S	658	go	go	go	VB	O	xcomp	O	-1	B-verb.motion
+0	27	661	3484	3489		660	blind	blind	blind	JJ	O	acomp	O	-1	O
+0	27	662	3489	3490	S	664	,	,	,	,	O	punct	O	-1	O
+0	27	663	3491	3494	S	664	she	she	she	PRP	O	nsubj	O	4	O
+0	27	664	3495	3502	N	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	27	665	3503	3505	S	666	to	to	to	TO	O	aux	O	-1	O
+0	27	666	3506	3510	S	664	stay	stay	stay	VB	O	xcomp	O	-1	B-verb.stative
+0	27	667	3511	3513	S	666	at	at	at	IN	O	prep	O	-1	O
+0	27	668	3514	3519	S	669	Green	Green	Green	NNP	LOCATION	nn	O	-1	B-noun.group
+0	27	669	3520	3526	S	667	Gables	Gables	Gables	NNP	LOCATION	pobj	O	-1	I-noun.group
+0	27	670	3527	3530	S	666	and	and	and	CC	O	cc	O	-1	O
+0	27	671	3531	3536	S	666	teach	teach	teach	VB	O	conj	O	-1	B-verb.communication
+0	27	672	3537	3543	S	666	nearby	nearby	nearby	RB	O	advmod	O	-1	O
+0	27	673	3544	3546	S	677	so	so	so	RB	O	advmod	O	-1	O
+0	27	674	3547	3551	S	677	that	that	that	IN	O	dep	O	-1	O
+0	27	675	3552	3555	S	677	she	she	she	PRP	O	nsubj	O	4	O
+0	27	676	3556	3559	S	677	can	can	can	MD	O	aux	O	-1	O
+0	27	677	3560	3564	S	666	care	care	care	VB	O	conj	O	-1	B-verb.social
+0	27	678	3565	3568	N	677	for	for	for	IN	O	prep	O	-1	O
+0	27	679	3569	3576		678	Marilla	Marilla	Marilla	NNP	PERSON	pobj	O	2	O
+0	27	680	3576	3577	S	664	,	,	,	,	O	punct	O	-1	O
+0	27	681	3578	3584	S	664	giving	giving	give	VBG	O	xcomp	O	-1	B-verb.possession
+0	27	682	3585	3587	S	681	up	up	up	RP	O	prt	O	-1	O
+0	27	683	3588	3591	S	684	her	her	she	PRP$	O	poss	O	4	O
+0	27	684	3592	3603	S	681	aspirations	aspirations	aspiration	NNS	O	dobj	O	-1	B-noun.attribute
+0	27	685	3604	3607	S	681	for	for	for	IN	O	prep	O	-1	O
+0	27	686	3608	3609	S	688	a	a	a	DT	O	det	O	-1	O
+0	27	687	3610	3619	S	688	four-year	four-year	four-year	JJ	DURATION	amod	O	-1	O
+0	27	688	3620	3626		685	degree	degree	degree	NN	O	pobj	O	-1	B-noun.state
+0	27	689	3626	3627	S	664	.	.	.	.	O	punct	O	-1	O
+0	28	690	3628	3635	S	691	Gilbert	Gilbert	Gilbert	NNP	PERSON	nsubj	O	3	O
+0	28	691	3636	3641	N	-1	hears	hears	hear	VBZ	O	null	O	-1	B-verb.perception
+0	28	692	3642	3644	S	691	of	of	of	IN	O	prep	O	-1	O
+0	28	693	3645	3648	S	694	her	her	she	PRP$	O	poss	O	4	O
+0	28	694	3649	3657	S	692	decision	decision	decision	NN	O	pobj	O	-1	B-noun.act
+0	28	695	3658	3661	S	691	and	and	and	CC	O	cc	O	-1	O
+0	28	696	3662	3667	S	691	gives	gives	give	VBZ	O	conj	O	-1	B-verb.possession
+0	28	697	3668	3670	S	696	up	up	up	RP	O	prt	O	-1	O
+0	28	698	3671	3674	S	699	his	his	he	PRP$	O	poss	O	3	O
+0	28	699	3675	3679	S	696	post	post	post	NN	O	dobj	O	-1	B-noun.location
+0	28	700	3680	3682	S	696	as	as	as	IN	O	prep	O	-1	O
+0	28	701	3683	3686	S	702	the	the	the	DT	O	det	O	-1	O
+0	28	702	3687	3694	S	700	teacher	teacher	teacher	NN	O	pobj	O	-1	B-noun.person
+0	28	703	3695	3697	S	702	at	at	at	IN	O	prep	O	-1	O
+0	28	704	3698	3705	S	705	Avonlea	Avonlea	Avonlea	NNP	LOCATION	nn	O	-1	B-noun.location
+0	28	705	3706	3712	N	703	school	school	school	NN	O	pobj	O	-1	B-noun.artifact
+0	28	706	3713	3715	S	710	so	so	so	IN	O	mark	O	-1	O
+0	28	707	3716	3720	S	710	that	that	that	IN	O	dep	O	-1	O
+0	28	708	3721	3725	S	710	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	28	709	3726	3729	S	710	can	can	can	MD	O	aux	O	-1	O
+0	28	710	3730	3735	S	696	teach	teach	teach	VB	O	advcl	O	-1	B-verb.communication
+0	28	711	3736	3741	S	710	there	there	there	RB	O	advmod	O	-1	O
+0	28	712	3742	3745	S	710	and	and	and	CC	O	cc	O	-1	O
+0	28	713	3746	3748	S	714	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	28	714	3749	3755	S	710	closer	closer	closer	JJR	O	conj	O	-1	O
+0	28	715	3756	3758	S	714	to	to	to	TO	O	prep	O	-1	O
+0	28	716	3759	3766		715	Marilla	Marilla	Marilla	NNP	PERSON	pobj	O	2	O
+0	28	717	3766	3767	S	691	.	.	.	.	O	punct	O	-1	O
+0	29	718	3768	3773	S	727	After	After	after	IN	O	prep	O	-1	O
+0	29	719	3774	3778	N	720	five	five	five	CD	DURATION	num	O	-1	O
+0	29	720	3779	3784	S	718	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	29	721	3785	3787	S	720	of	of	of	IN	O	prep	O	-1	O
+0	29	722	3788	3795		721	rivalry	rivalry	rivalry	NN	O	pobj	O	-1	B-noun.act
+0	29	723	3795	3796	S	727	,	,	,	,	O	punct	O	-1	O
+0	29	724	3797	3804	S	727	Gilbert	Gilbert	Gilbert	NNP	PERSON	nsubj	O	3	O
+0	29	725	3805	3808	S	724	and	and	and	CC	O	cc	O	-1	O
+0	29	726	3809	3813	S	724	Anne	Anne	Anne	NNP	PERSON	conj	O	4	B-noun.person
+0	29	727	3814	3819	S	-1	forge	forge	forge	VBP	O	null	O	-1	B-verb.creation
+0	29	728	3820	3821	S	730	a	a	a	DT	O	det	O	-1	O
+0	29	729	3822	3827	S	730	close	close	close	JJ	O	amod	O	-1	O
+0	29	730	3828	3838		727	friendship	friendship	friendship	NN	O	dobj	O	-1	B-noun.state
+0	29	731	3838	3839	S	727	.	.	.	.	O	punct	O	-1	O
+0	30	732	3840	3846	N	737	Though	Though	though	IN	O	mark	O	-1	O
+0	30	733	3847	3850	S	735	her	her	she	PRP$	O	poss	O	4	O
+0	30	734	3851	3857	S	735	future	future	future	JJ	DATE	amod	O	-1	O
+0	30	735	3858	3862	S	737	path	path	path	NN	O	nsubj	O	-1	B-noun.act
+0	30	736	3863	3866	S	737	has	has	have	VBZ	O	aux	O	-1	O
+0	30	737	3867	3875	S	743	narrowed	narrowed	narrow	VBN	O	advcl	O	-1	B-verb.change
+0	30	738	3876	3888		737	considerably	considerably	considerably	RB	O	advmod	O	-1	O
+0	30	739	3888	3889	S	743	,	,	,	,	O	punct	O	-1	O
+0	30	740	3890	3894	S	743	Anne	Anne	Anne	NNP	PERSON	nsubj	O	4	B-noun.person
+0	30	741	3895	3902	S	743	remains	remains	remain	VBZ	O	cop	O	-1	B-verb.change
+0	30	742	3903	3912	N	743	eternally	eternally	eternally	RB	O	advmod	O	-1	O
+0	30	743	3913	3923	S	-1	optimistic	optimistic	optimistic	JJ	O	null	O	-1	O
+0	30	744	3924	3927	S	743	and	and	and	CC	O	cc	O	-1	O
+0	30	745	3928	3934	S	743	thinks	thinks	think	VBZ	O	conj	O	-1	B-verb.cognition
+0	30	746	3935	3945	S	745	cheerfully	cheerfully	cheerfully	RB	O	advmod	O	-1	O
+0	30	747	3946	3951	S	746	about	about	about	IN	O	dep	O	-1	O
+0	30	748	3952	3955	S	749	her	her	she	PRP$	O	poss	O	4	O
+0	30	749	3956	3962		747	future	future	future	NN	DATE	pobj	O	-1	B-noun.time
+0	30	750	3962	3963	N	743	.	.	.	.	O	punct	O	-1	O

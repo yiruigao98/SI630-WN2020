@@ -1,0 +1,860 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	3	S	2	The	The	the	DT	O	det	O	-1	O
+0	0	1	4	9	S	2	Woman	Woman	Woman	NNP	O	nn	O	-1	B-noun.person
+0	0	2	10	17	S	3	Warrior	Warrior	Warrior	NNP	O	nsubj	O	-1	I-noun.person
+0	0	3	18	25	S	-1	focuses	focuses	focus	VBZ	O	null	O	-1	B-verb.cognition
+0	0	4	26	28	S	49	on	on	on	IN	O	mark	O	-1	O
+0	0	5	29	32	S	6	the	the	the	DT	O	det	O	-1	O
+0	0	6	33	40	S	49	stories	stories	story	NNS	O	nsubj	O	-1	B-noun.communication
+0	0	7	41	43	S	6	of	of	of	IN	O	prep	O	-1	O
+0	0	8	44	48	S	9	five	five	five	CD	NUMBER	num	O	-1	O
+0	0	9	49	54		7	women	women	woman	NNS	O	pobj	O	-1	B-noun.person
+0	0	10	54	55		6	—	--	--	:	O	punct	O	-1	O
+0	0	11	55	63		14	Kingston	Kingston	Kingston	NNP	LOCATION	poss	O	-1	B-noun.location
+0	0	12	63	65	S	11	's	's	's	POS	O	possessive	O	-1	O
+0	0	13	66	75	S	14	long-dead	long-dead	long-dead	JJ	O	amod	O	-1	O
+0	0	14	76	80		6	aunt	aunt	aunt	NN	O	dep	O	-1	B-noun.person
+0	0	15	80	81	S	14	,	,	,	,	O	punct	O	-1	O
+0	0	16	82	83		18	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	0	17	83	90	S	18	No-Name	No-Name	no-name	JJ	O	amod	I-QUOTE	-1	O
+0	0	18	91	96		14	Woman	Woman	Woman	NNP	O	appos	I-QUOTE	-1	B-noun.person
+0	0	19	96	97		18	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	0	20	97	98	S	14	;	;	;	:	O	punct	O	-1	O
+0	0	21	99	100	S	24	a	a	a	DT	O	det	O	-1	O
+0	0	22	101	109	S	24	mythical	mythical	mythical	JJ	O	amod	O	-1	O
+0	0	23	110	116	S	24	female	female	female	JJ	O	amod	O	-1	O
+0	0	24	117	124		14	warrior	warrior	warrior	NN	O	conj	O	-1	B-noun.person
+0	0	25	124	125	S	24	,	,	,	,	O	punct	O	-1	O
+0	0	26	126	128	S	28	Fa	Fa	fa	NN	PERSON	nn	O	1	O
+0	0	27	129	131	S	28	Mu	Mu	mu	NN	PERSON	nn	O	1	O
+0	0	28	132	135		24	Lan	Lan	lan	NN	PERSON	appos	O	1	O
+0	0	29	135	136	S	24	;	;	;	:	O	punct	O	-1	O
+0	0	30	137	145		32	Kingston	Kingston	Kingston	NNP	LOCATION	poss	O	-1	B-noun.location
+0	0	31	145	147	S	30	's	's	's	POS	O	possessive	O	-1	O
+0	0	32	148	154		24	mother	mother	mother	NN	O	conj	O	-1	B-noun.person
+0	0	33	154	155	S	24	,	,	,	,	O	punct	O	-1	O
+0	0	34	156	161	S	35	Brave	Brave	Brave	NNP	O	nn	O	-1	B-noun.person
+0	0	35	162	168		24	Orchid	Orchid	Orchid	NNP	O	appos	O	-1	I-noun.person
+0	0	36	168	169	S	24	;	;	;	:	O	punct	O	-1	O
+0	0	37	170	178		39	Kingston	Kingston	Kingston	NNP	LOCATION	poss	O	-1	B-noun.location
+0	0	38	178	180	S	37	's	's	's	POS	O	possessive	O	-1	O
+0	0	39	181	185		24	aunt	aunt	aunt	NN	O	conj	O	-1	B-noun.person
+0	0	40	185	186	S	39	,	,	,	,	O	punct	O	-1	O
+0	0	41	187	191	S	42	Moon	Moon	Moon	NNP	MISC	nn	O	-1	O
+0	0	42	192	198		39	Orchid	Orchid	Orchid	NNP	MISC	appos	O	-1	O
+0	0	43	198	199	S	14	;	;	;	:	O	punct	O	-1	O
+0	0	44	200	203	S	6	and	and	and	CC	O	cc	O	-1	O
+0	0	45	204	211	S	46	finally	finally	finally	RB	O	advmod	O	-1	O
+0	0	46	212	220	S	6	Kingston	Kingston	Kingston	NNP	ORGANIZATION	conj	O	0	B-noun.location
+0	0	47	221	228		46	herself	herself	herself	PRP	O	dep	O	-1	O
+0	0	48	228	229		6	—	--	--	:	O	punct	O	-1	O
+0	0	49	229	233	S	3	told	told	tell	VBD	O	advcl	O	-1	B-verb.communication
+0	0	50	234	236	S	49	in	in	in	IN	O	prep	O	-1	O
+0	0	51	237	241	S	52	five	five	five	CD	NUMBER	num	O	-1	O
+0	0	52	242	250		50	chapters	chapters	chapter	NNS	O	pobj	O	-1	B-noun.communication
+0	0	53	250	251	S	3	.	.	.	.	O	punct	O	-1	O
+0	1	54	252	255	S	55	The	The	the	DT	O	det	O	-1	O
+0	1	55	256	264	S	56	chapters	chapters	chapter	NNS	O	nsubj	O	-1	B-noun.communication
+0	1	56	265	274	S	-1	integrate	integrate	integrate	VBP	O	null	O	-1	B-verb.change
+0	1	57	275	283		59	Kingston	Kingston	Kingston	NNP	ORGANIZATION	nsubj	O	0	B-noun.location
+0	1	58	283	285	S	57	's	's	's	POS	O	possessive	O	-1	O
+0	1	59	286	291	S	56	lived	lived	live	VBD	O	ccomp	O	-1	B-verb.stative
+0	1	60	292	302	S	59	experience	experience	experience	NN	O	dobj	O	-1	B-noun.cognition
+0	1	61	303	307	S	60	with	with	with	IN	O	prep	O	-1	O
+0	1	62	308	309	S	63	a	a	a	DT	O	det	O	-1	O
+0	1	63	310	316	S	61	series	series	series	NN	O	pobj	O	-1	B-noun.group
+0	1	64	317	319	S	63	of	of	of	IN	O	prep	O	-1	O
+0	1	65	320	332		64	talk-stories	talk-stories	talk-story	NNS	O	pobj	O	-1	O
+0	1	66	332	333		59	—	--	--	:	O	punct	O	-1	O
+0	1	67	333	339	S	59	spoken	spoken	speak	VBN	O	conj	O	-1	B-verb.communication
+0	1	68	340	347	S	67	stories	stories	story	NNS	O	dep	O	-1	B-noun.communication
+0	1	69	348	352	S	70	that	that	that	WDT	O	nsubj	O	-1	O
+0	1	70	353	360	S	68	combine	combine	combine	VBP	O	rcmod	O	-1	B-verb.stative
+0	1	71	361	368	S	72	Chinese	Chinese	chinese	JJ	MISC	amod	O	-1	O
+0	1	72	369	376		70	history	history	history	NN	O	dobj	O	-1	B-noun.time
+0	1	73	376	377	S	70	,	,	,	,	O	punct	O	-1	O
+0	1	74	378	383		70	myths	myths	myth	NNS	O	conj	O	-1	B-noun.communication
+0	1	75	383	384	S	59	,	,	,	,	O	punct	O	-1	O
+0	1	76	385	388	S	59	and	and	and	CC	O	cc	O	-1	O
+0	1	77	389	396		59	beliefs	beliefs	belief	NNS	O	conj	O	-1	B-noun.cognition
+0	1	78	396	397		81	—	--	--	:	O	punct	O	-1	O
+0	1	79	397	400	S	80	her	her	she	PRP$	O	poss	O	-1	O
+0	1	80	401	407	S	81	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	1	81	408	413	S	77	tells	tells	tell	VBZ	O	dep	O	-1	B-verb.communication
+0	1	82	414	417		81	her	her	she	PRP	O	dobj	O	-1	O
+0	1	83	417	418	S	56	.	.	.	.	O	punct	O	-1	O
+0	2	84	419	422	S	86	The	The	the	DT	O	det	O	-1	O
+0	2	85	423	428	S	86	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	2	86	429	436		93	chapter	chapter	chapter	NN	O	nsubj	O	-1	B-noun.communication
+0	2	87	436	437	S	86	,	,	,	,	O	punct	O	-1	O
+0	2	88	438	439		90	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	2	89	439	446	S	90	No-Name	No-Name	no-name	JJ	MISC	amod	I-QUOTE	-1	O
+0	2	90	447	452		86	Woman	Woman	Woman	NNP	MISC	appos	I-QUOTE	-1	B-noun.person
+0	2	91	452	453		86	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	92	453	454	S	86	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	2	93	455	461	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	2	94	462	466	S	93	with	with	with	IN	O	prep	O	-1	O
+0	2	95	467	470	S	97	one	one	one	CD	NUMBER	num	O	-1	O
+0	2	96	471	475	S	97	such	such	such	JJ	O	dep	O	-1	O
+0	2	97	476	486		94	talk-story	talk-story	talk-story	JJ	O	pobj	O	-1	O
+0	2	98	486	487	S	93	,	,	,	,	O	punct	O	-1	O
+0	2	99	488	493	S	93	about	about	about	IN	O	prep	O	-1	O
+0	2	100	494	496	S	101	an	an	a	DT	O	det	O	-1	O
+0	2	101	497	501	S	99	aunt	aunt	aunt	NN	O	pobj	O	-1	B-noun.person
+0	2	102	502	510	S	104	Kingston	Kingston	Kingston	NNP	LOCATION	nsubj	O	-1	I-noun.person
+0	2	103	511	516	S	104	never	never	never	RB	O	neg	O	-1	O
+0	2	104	517	521	S	101	knew	knew	know	VBD	O	rcmod	O	-1	B-verb.cognition
+0	2	105	522	525	S	106	she	she	she	PRP	O	nsubj	O	-1	O
+0	2	106	526	529		104	had	had	have	VBD	O	ccomp	O	-1	O
+0	2	107	529	530	S	93	.	.	.	.	O	punct	O	-1	O
+0	3	108	531	538	S	112	Because	Because	because	IN	O	mark	O	-1	O
+0	3	109	539	543	S	110	this	this	this	DT	O	det	O	-1	O
+0	3	110	544	548	S	112	aunt	aunt	aunt	NN	O	nsubj	O	-1	B-noun.person
+0	3	111	549	552	S	112	had	had	have	VBD	O	aux	O	-1	O
+0	3	112	553	560	S	124	brought	brought	bring	VBN	O	advcl	O	-1	B-verb.motion
+0	3	113	561	569	S	112	disgrace	disgrace	disgrace	NN	O	dobj	O	-1	B-noun.state
+0	3	114	570	574	S	112	upon	upon	upon	IN	O	prep	O	-1	O
+0	3	115	575	578	S	116	her	her	she	PRP$	O	poss	O	-1	O
+0	3	116	579	585	S	114	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	3	117	586	588	S	112	by	by	by	IN	O	prep	O	-1	O
+0	3	118	589	595	S	117	having	having	have	VBG	O	pcomp	O	-1	B-verb.possession
+0	3	119	596	598	S	121	an	an	a	DT	O	det	O	-1	O
+0	3	120	599	611	S	121	illegitimate	illegitimate	illegitimate	JJ	O	amod	O	-1	O
+0	3	121	612	617		118	child	child	child	NN	O	dobj	O	-1	B-noun.person
+0	3	122	617	618	S	124	,	,	,	,	O	punct	O	-1	O
+0	3	123	619	622	S	124	she	she	she	PRP	O	nsubj	O	-1	O
+0	3	124	623	629	S	-1	killed	killed	kill	VBD	O	null	O	-1	B-verb.contact
+0	3	125	630	637	S	124	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	3	126	638	641	S	125	and	and	and	CC	O	cc	O	-1	O
+0	3	127	642	645	S	128	her	her	she	PRP$	O	poss	O	-1	O
+0	3	128	646	650	S	125	baby	baby	baby	NN	O	conj	O	-1	B-noun.person
+0	3	129	651	653	S	128	by	by	by	IN	O	prep	O	-1	O
+0	3	130	654	661	S	129	jumping	jumping	jump	VBG	O	pcomp	O	-1	B-verb.motion
+0	3	131	662	666	S	130	into	into	into	IN	O	prep	O	-1	O
+0	3	132	667	670	S	133	the	the	the	DT	O	det	O	-1	O
+0	3	133	671	677	S	131	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	3	134	678	682	S	133	well	well	well	RB	O	advmod	O	-1	O
+0	3	135	683	685	S	133	in	in	in	IN	O	prep	O	-1	O
+0	3	136	686	691		135	China	China	China	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	3	137	691	692	S	124	.	.	.	.	O	punct	O	-1	O
+0	4	138	693	698	S	155	After	After	after	IN	O	prep	O	-1	O
+0	4	139	699	706	S	138	hearing	hearing	hear	VBG	O	pcomp	O	-1	B-verb.perception
+0	4	140	707	710	S	141	the	the	the	DT	O	det	O	-1	O
+0	4	141	711	716		139	story	story	story	NN	O	dobj	O	-1	B-noun.communication
+0	4	142	716	717	S	141	,	,	,	,	O	punct	O	-1	O
+0	4	143	718	723	S	145	which	which	which	WDT	O	nsubjpass	O	-1	O
+0	4	144	724	726	S	145	is	is	be	VBZ	O	auxpass	O	-1	O
+0	4	145	727	731	S	141	told	told	tell	VBN	O	rcmod	O	-1	B-verb.communication
+0	4	146	732	734	S	145	to	to	to	TO	O	prep	O	-1	O
+0	4	147	735	738	S	146	her	her	she	PRP$	O	pobj	O	-1	O
+0	4	148	739	741	S	147	as	as	as	IN	O	prep	O	-1	O
+0	4	149	742	743	S	150	a	a	a	DT	O	det	O	-1	O
+0	4	150	744	751		148	warning	warning	warning	NN	O	pobj	O	-1	B-noun.communication
+0	4	151	751	752	S	155	,	,	,	,	O	punct	O	-1	O
+0	4	152	753	761	S	155	Kingston	Kingston	Kingston	NNP	LOCATION	nsubjpass	O	-1	B-noun.location
+0	4	153	762	764	S	155	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	4	154	765	770	S	155	never	never	never	RB	O	neg	O	-1	O
+0	4	155	771	778	S	-1	allowed	allowed	allow	VBN	O	null	O	-1	B-verb.social
+0	4	156	779	781	S	157	to	to	to	TO	O	aux	O	-1	O
+0	4	157	782	789	S	155	mention	mention	mention	VB	O	xcomp	O	-1	B-verb.communication
+0	4	158	790	793	S	159	her	her	she	PRP$	O	poss	O	-1	O
+0	4	159	794	798	S	157	aunt	aunt	aunt	NN	O	dobj	O	-1	B-noun.person
+0	4	160	799	804	S	157	aloud	aloud	aloud	RB	O	advmod	O	-1	O
+0	4	161	805	810		157	again	again	again	RB	O	advmod	O	-1	O
+0	4	162	810	811	S	155	,	,	,	,	O	punct	O	-1	O
+0	4	163	812	814	S	165	so	so	so	IN	O	mark	O	-1	O
+0	4	164	815	818	S	165	she	she	she	PRP	O	nsubj	O	-1	O
+0	4	165	819	826	S	155	decides	decides	decide	VBZ	O	advcl	O	-1	B-verb.cognition
+0	4	166	827	829	S	167	to	to	to	TO	O	aux	O	-1	O
+0	4	167	830	836	S	165	create	create	create	VB	O	xcomp	O	-1	B-verb.creation
+0	4	168	837	838	S	169	a	a	a	DT	O	det	O	-1	O
+0	4	169	839	846	S	167	history	history	history	NN	O	dobj	O	-1	B-noun.time
+0	4	170	847	849	S	169	of	of	of	IN	O	prep	O	-1	O
+0	4	171	850	853	S	172	her	her	she	PRP$	O	poss	O	-1	O
+0	4	172	854	858	S	170	aunt	aunt	aunt	NN	O	pobj	O	-1	B-noun.person
+0	4	173	859	861	S	172	in	in	in	IN	O	prep	O	-1	O
+0	4	174	862	865	S	175	her	her	she	PRP$	O	poss	O	-1	O
+0	4	175	866	872		173	memoir	memoir	memoir	NN	O	pobj	O	-1	B-noun.communication
+0	4	176	872	873	S	155	.	.	.	.	O	punct	O	-1	O
+0	5	177	874	877	S	178	She	She	she	PRP	O	nsubj	O	-1	O
+0	5	178	878	886	S	-1	imagines	imagines	imagine	VBZ	O	null	O	-1	B-verb.creation
+0	5	179	887	890	S	180	the	the	the	DT	O	det	O	-1	O
+0	5	180	891	895	S	178	ways	ways	way	NNS	O	dobj	O	-1	B-noun.attribute
+0	5	181	896	900	S	184	that	that	that	WDT	O	dobj	O	-1	O
+0	5	182	901	904	S	183	her	her	she	PRP$	O	poss	O	-1	O
+0	5	183	905	909	S	184	aunt	aunt	aunt	NN	O	nsubj	O	-1	B-noun.person
+0	5	184	910	919	S	180	attracted	attracted	attract	VBD	O	rcmod	O	-1	B-verb.contact
+0	5	185	920	921	S	186	a	a	a	DT	O	det	O	-1	O
+0	5	186	922	928		184	suitor	suitor	suitor	NN	O	dobj	O	-1	B-noun.person
+0	5	187	928	929	S	178	,	,	,	,	O	punct	O	-1	O
+0	5	188	930	939	S	178	comparing	comparing	compare	VBG	O	xcomp	O	-1	B-verb.cognition
+0	5	189	940	943	S	190	her	her	she	PRP$	O	poss	O	-1	O
+0	5	190	944	948		192	aunt	aunt	aunt	NN	O	poss	O	-1	B-noun.person
+0	5	191	948	950	S	190	's	's	's	POS	O	possessive	O	-1	O
+0	5	192	951	958	S	188	actions	actions	action	NNS	O	dobj	O	-1	B-noun.act
+0	5	193	959	961	S	192	of	of	of	IN	O	prep	O	-1	O
+0	5	194	962	967	S	195	quiet	quiet	quiet	JJ	O	amod	O	-1	O
+0	5	195	968	977	S	193	rebellion	rebellion	rebellion	NN	O	pobj	O	-1	B-noun.act
+0	5	196	978	985	S	192	against	against	against	IN	O	prep	O	-1	O
+0	5	197	986	989	S	198	the	the	the	DT	O	det	O	-1	O
+0	5	198	990	999	S	196	community	community	community	NN	O	pobj	O	-1	B-noun.group
+0	5	199	1000	1002	S	198	to	to	to	TO	O	prep	O	-1	O
+0	5	200	1003	1006	S	202	her	her	she	PRP$	O	poss	O	-1	O
+0	5	201	1007	1010	S	202	own	own	own	JJ	O	amod	O	-1	O
+0	5	202	1011	1020		199	rebellion	rebellion	rebellion	NN	O	pobj	O	-1	B-noun.act
+0	5	203	1020	1021	S	178	.	.	.	.	O	punct	O	-1	O
+0	6	204	1022	1030	S	206	Kingston	Kingston	Kingston	NNP	LOCATION	nsubj	O	-1	O
+0	6	205	1031	1035	S	206	also	also	also	RB	O	advmod	O	-1	O
+0	6	206	1036	1045	S	-1	recreates	recreates	recreate	VBZ	O	null	O	-1	B-verb.body
+0	6	207	1046	1049	S	208	her	her	she	PRP	O	dep	O	-1	O
+0	6	208	1050	1054		211	aunt	aunt	aunt	NN	O	poss	O	-1	B-noun.person
+0	6	209	1054	1056	S	208	's	's	's	POS	O	possessive	O	-1	O
+0	6	210	1057	1065	S	211	horrible	horrible	horrible	JJ	O	amod	O	-1	O
+0	6	211	1066	1076	S	206	experience	experience	experience	NN	O	dobj	O	-1	B-noun.cognition
+0	6	212	1077	1079	S	211	of	of	of	IN	O	prep	O	-1	O
+0	6	213	1080	1086	S	212	giving	giving	give	VBG	O	pcomp	O	-1	B-verb.body
+0	6	214	1087	1092	S	213	birth	birth	birth	NN	O	dobj	O	-1	I-verb.body
+0	6	215	1093	1095	S	213	in	in	in	IN	O	prep	O	-1	O
+0	6	216	1096	1097	S	217	a	a	a	DT	O	det	O	-1	O
+0	6	217	1098	1104	S	215	pigsty	pigsty	pigsty	NN	O	pobj	O	-1	B-noun.artifact
+0	6	218	1105	1108	S	206	and	and	and	CC	O	cc	O	-1	O
+0	6	219	1109	1117	S	224	imagines	imagines	imagine	VBZ	O	aux	O	-1	B-verb.creation
+0	6	220	1118	1121	S	221	her	her	she	PRP$	O	poss	O	-1	O
+0	6	221	1122	1126		223	aunt	aunt	aunt	NN	O	poss	O	-1	B-noun.person
+0	6	222	1126	1128	S	221	's	's	's	POS	O	possessive	O	-1	O
+0	6	223	1129	1134	S	224	ghost	ghost	ghost	NN	O	nsubj	O	-1	B-noun.cognition
+0	6	224	1135	1142	S	206	walking	walking	walk	VBG	O	conj	O	-1	B-verb.motion
+0	6	225	1143	1149	S	224	around	around	around	RP	O	prt	O	-1	O
+0	6	226	1150	1154	S	224	with	with	with	IN	O	prep	O	-1	O
+0	6	227	1155	1157	S	228	no	no	no	DT	O	dep	O	-1	O
+0	6	228	1158	1161	S	226	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	6	229	1162	1164	S	230	to	to	to	TO	O	aux	O	-1	O
+0	6	230	1165	1169	S	224	give	give	give	VB	O	xcomp	O	-1	B-verb.possession
+0	6	231	1170	1172	S	230	it	it	it	PRP	O	iobj	O	-1	O
+0	6	232	1173	1178		230	gifts	gifts	gift	NNS	O	dobj	O	-1	B-noun.possession
+0	6	233	1178	1179	S	224	,	,	,	,	O	punct	O	-1	O
+0	6	234	1180	1182	S	237	as	as	as	RB	O	advmod	O	-1	O
+0	6	235	1183	1186	S	237	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	6	236	1187	1194	S	237	Chinese	Chinese	chinese	JJ	MISC	amod	O	-1	O
+0	6	237	1195	1201		224	custom	custom	custom	NN	O	dep	O	-1	B-noun.act
+0	6	238	1201	1202	S	206	.	.	.	.	O	punct	O	-1	O
+0	7	239	1203	1205	S	245	In	In	in	IN	O	prep	O	-1	O
+0	7	240	1206	1209	S	241	the	the	the	DT	O	det	O	-1	O
+0	7	241	1210	1213		239	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	7	242	1213	1214	S	245	,	,	,	,	O	punct	O	-1	O
+0	7	243	1215	1223	S	245	Kingston	Kingston	Kingston	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	7	244	1224	1226	S	245	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	7	245	1227	1233	S	-1	unsure	unsure	unsure	JJ	O	null	O	-1	O
+0	7	246	1234	1241	S	249	whether	whether	whether	IN	O	complm	O	-1	O
+0	7	247	1242	1245	S	249	she	she	she	PRP	O	nsubj	O	-1	O
+0	7	248	1246	1248	S	249	is	is	be	VBZ	O	aux	O	-1	O
+0	7	249	1249	1254	S	245	doing	doing	do	VBG	O	ccomp	O	-1	B-verb.social
+0	7	250	1255	1262	S	249	justice	justice	justice	NN	O	dobj	O	-1	B-noun.act
+0	7	251	1263	1265	S	249	to	to	to	TO	O	prep	O	-1	O
+0	7	252	1266	1269	S	253	her	her	she	PRP$	O	poss	O	-1	O
+0	7	253	1270	1274		255	aunt	aunt	aunt	NN	O	poss	O	-1	B-noun.person
+0	7	254	1274	1276	S	253	's	's	's	POS	O	possessive	O	-1	O
+0	7	255	1277	1283	S	251	memory	memory	memory	NN	O	pobj	O	-1	B-noun.cognition
+0	7	256	1284	1286	S	249	or	or	or	CC	O	cc	O	-1	O
+0	7	257	1287	1291	S	258	just	just	just	RB	O	advmod	O	-1	O
+0	7	258	1292	1299	S	249	serving	serving	serve	VBG	O	conj	O	-1	B-verb.social
+0	7	259	1300	1303	S	261	her	her	she	PRP$	O	poss	O	-1	O
+0	7	260	1304	1307	S	261	own	own	own	JJ	O	amod	O	-1	O
+0	7	261	1308	1313		258	needs	needs	need	NNS	O	dobj	O	-1	B-noun.object
+0	7	262	1313	1314	S	245	.	.	.	.	O	punct	O	-1	O
+0	8	263	1315	1316		268	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	8	264	1316	1321	S	265	White	White	White	NNP	ORGANIZATION	nn	I-QUOTE	-1	B-noun.person
+0	8	265	1322	1328		268	Tigers	Tigers	Tigers	NNP	ORGANIZATION	nsubjpass	I-QUOTE	-1	I-noun.person
+0	8	266	1328	1329	S	268	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	8	267	1330	1332	S	268	is	is	be	VBZ	O	auxpass	O	-1	O
+0	8	268	1333	1338	S	-1	based	based	base	VBN	O	null	O	-1	B-verb.cognition
+0	8	269	1339	1341	S	268	on	on	on	IN	O	prep	O	-1	O
+0	8	270	1342	1349	S	271	another	another	another	DT	O	det	O	-1	O
+0	8	271	1350	1360		269	talk-story	talk-story	talk-story	NN	O	pobj	O	-1	O
+0	8	272	1360	1361	S	271	,	,	,	,	O	punct	O	-1	O
+0	8	273	1362	1365	S	271	one	one	one	CD	NUMBER	appos	O	-1	O
+0	8	274	1366	1371	S	273	about	about	about	IN	O	prep	O	-1	O
+0	8	275	1372	1375	S	281	the	the	the	DT	O	det	O	-1	O
+0	8	276	1376	1384	S	281	mythical	mythical	mythical	JJ	O	amod	O	-1	O
+0	8	277	1385	1391	S	281	female	female	female	JJ	O	amod	O	-1	O
+0	8	278	1392	1399	S	281	warrior	warrior	warrior	NN	O	nn	O	-1	B-noun.person
+0	8	279	1400	1402	S	281	Fa	Fa	fa	NN	PERSON	nn	O	1	B-noun.communication
+0	8	280	1403	1405	S	281	Mu	Mu	mu	NN	PERSON	nn	O	1	B-noun.communication
+0	8	281	1406	1409		274	Lan	Lan	lan	NN	PERSON	pobj	O	1	O
+0	8	282	1409	1410	S	268	.	.	.	.	O	punct	O	-1	O
+0	9	283	1411	1413	S	285	Fa	Fa	fa	NN	PERSON	nn	O	1	B-noun.communication
+0	9	284	1414	1416	S	285	Mu	Mu	mu	NN	PERSON	nn	O	1	B-noun.communication
+0	9	285	1417	1420		297	Lan	Lan	lan	NN	PERSON	nsubj	O	1	O
+0	9	286	1420	1421	S	285	,	,	,	,	O	punct	O	-1	O
+0	9	287	1422	1427	S	288	whose	whose	whose	WP$	O	poss	O	-1	O
+0	9	288	1428	1433	S	290	story	story	story	NN	O	nsubjpass	O	-1	B-noun.communication
+0	9	289	1434	1436	S	290	is	is	be	VBZ	O	auxpass	O	-1	O
+0	9	290	1437	1441	S	285	told	told	tell	VBN	O	rcmod	O	-1	B-verb.communication
+0	9	291	1442	1449	S	290	through	through	through	IN	O	prep	O	-1	O
+0	9	292	1450	1458		295	Kingston	Kingston	Kingston	NNP	LOCATION	poss	O	-1	B-noun.location
+0	9	293	1458	1460	S	292	's	's	's	POS	O	possessive	O	-1	O
+0	9	294	1461	1473	S	295	first-person	first-person	first-person	NN	O	nn	O	-1	O
+0	9	295	1474	1483		291	narrative	narrative	narrative	NN	O	pobj	O	-1	O
+0	9	296	1483	1484	S	285	,	,	,	,	O	punct	O	-1	O
+0	9	297	1485	1491	S	-1	trains	trains	train	NNS	O	null	O	-1	B-noun.artifact
+0	9	298	1492	1494	S	301	to	to	to	TO	O	aux	O	-1	O
+0	9	299	1495	1501	S	301	become	become	become	VB	O	cop	O	-1	B-verb.change
+0	9	300	1502	1503	S	301	a	a	a	DT	O	det	O	-1	O
+0	9	301	1504	1511	S	297	warrior	warrior	warrior	NN	O	xcomp	O	-1	B-noun.person
+0	9	302	1512	1516	S	301	from	from	from	IN	O	prep	O	-1	O
+0	9	303	1517	1520	S	304	the	the	the	DT	O	det	O	-1	O
+0	9	304	1521	1525	S	302	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	9	305	1526	1529	S	309	she	she	she	PRP	O	nsubj	O	-1	O
+0	9	306	1530	1532	S	309	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	9	307	1533	1538	S	308	seven	seven	seven	CD	DURATION	num	O	-1	O
+0	9	308	1539	1544	S	309	years	years	year	NNS	DURATION	measure	O	-1	B-noun.time
+0	9	309	1545	1548		301	old	old	old	JJ	DURATION	rcmod	O	-1	O
+0	9	310	1548	1549	S	297	,	,	,	,	O	punct	O	-1	O
+0	9	311	1550	1554	S	312	then	then	then	RB	O	advmod	O	-1	O
+0	9	312	1555	1560	S	297	leads	leads	lead	VBZ	O	dep	O	-1	B-verb.stative
+0	9	313	1561	1563	S	314	an	an	a	DT	O	det	O	-1	O
+0	9	314	1564	1568	S	312	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	9	315	1569	1571	S	314	of	of	of	IN	O	prep	O	-1	O
+0	9	316	1572	1575		315	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	9	317	1575	1576		312	—	--	--	:	O	punct	O	-1	O
+0	9	318	1576	1580	S	319	even	even	even	RB	O	advmod	O	-1	O
+0	9	319	1581	1591	S	312	pretending	pretending	pretend	VBG	O	parataxis	O	-1	B-verb.communication
+0	9	320	1592	1594	S	323	to	to	to	TO	O	aux	O	-1	O
+0	9	321	1595	1597	S	323	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	9	322	1598	1599	S	323	a	a	a	DT	O	det	O	-1	O
+0	9	323	1600	1603	S	319	man	man	man	NN	O	xcomp	O	-1	B-noun.person
+0	9	324	1604	1611		323	herself	herself	herself	PRP	O	dep	O	-1	O
+0	9	325	1611	1612		324	—	--	--	:	O	punct	O	-1	O
+0	9	326	1612	1619	S	323	against	against	against	IN	O	prep	O	-1	O
+0	9	327	1620	1623	S	328	the	the	the	DT	O	det	O	-1	O
+0	9	328	1624	1630	S	326	forces	forces	force	NNS	O	pobj	O	-1	B-noun.attribute
+0	9	329	1631	1633	S	328	of	of	of	IN	O	prep	O	-1	O
+0	9	330	1634	1635	S	332	a	a	a	DT	O	det	O	-1	O
+0	9	331	1636	1643	S	332	corrupt	corrupt	corrupt	JJ	O	amod	O	-1	O
+0	9	332	1644	1649	S	329	baron	baron	baron	NN	O	pobj	O	-1	B-noun.person
+0	9	333	1650	1653	S	332	and	and	and	CC	O	cc	O	-1	O
+0	9	334	1654	1661		332	emperor	emperor	emperor	NN	O	conj	O	-1	B-noun.person
+0	9	335	1661	1662	S	297	.	.	.	.	O	punct	O	-1	O
+0	10	336	1663	1668	S	339	After	After	after	IN	O	prep	O	-1	O
+0	10	337	1669	1672	S	338	her	her	she	PRP$	O	poss	O	-1	O
+0	10	338	1673	1680	S	336	battles	battles	battle	NNS	O	pobj	O	-1	B-noun.act
+0	10	339	1681	1684	S	343	are	are	be	VBP	O	advcl	O	-1	B-verb.stative
+0	10	340	1685	1689		339	over	over	over	RB	O	advmod	O	-1	O
+0	10	341	1689	1690	S	343	,	,	,	,	O	punct	O	-1	O
+0	10	342	1691	1694	S	343	she	she	she	PRP	O	nsubj	O	-1	O
+0	10	343	1695	1702	S	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	10	344	1703	1705	S	347	to	to	to	TO	O	aux	O	-1	O
+0	10	345	1706	1708	S	347	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	10	346	1709	1710	S	347	a	a	a	DT	O	det	O	-1	O
+0	10	347	1711	1715	S	343	wife	wife	wife	NN	O	xcomp	O	-1	B-noun.person
+0	10	348	1716	1719	S	347	and	and	and	CC	O	cc	O	-1	O
+0	10	349	1720	1726		347	mother	mother	mother	NN	O	conj	O	-1	B-noun.person
+0	10	350	1726	1727	S	343	.	.	.	.	O	punct	O	-1	O
+0	11	351	1728	1731	S	352	The	The	the	DT	O	det	O	-1	O
+0	11	352	1732	1737	S	358	story	story	story	NN	O	nsubjpass	O	-1	B-noun.communication
+0	11	353	1738	1740	S	352	of	of	of	IN	O	prep	O	-1	O
+0	11	354	1741	1743	S	356	Fa	Fa	fa	NN	PERSON	nn	O	1	B-noun.communication
+0	11	355	1744	1746	S	356	Mu	Mu	mu	NN	PERSON	nn	O	1	B-noun.communication
+0	11	356	1747	1750	S	353	Lan	Lan	lan	NN	PERSON	pobj	O	1	B-noun.artifact
+0	11	357	1751	1753	S	358	is	is	be	VBZ	O	auxpass	O	-1	O
+0	11	358	1754	1764	S	-1	contrasted	contrasted	contrast	VBN	O	null	O	-1	B-verb.cognition
+0	11	359	1765	1772	S	358	sharply	sharply	sharply	RB	O	advmod	O	-1	O
+0	11	360	1773	1777	S	358	with	with	with	IN	O	prep	O	-1	O
+0	11	361	1778	1786		364	Kingston	Kingston	Kingston	NNP	ORGANIZATION	poss	O	0	B-noun.location
+0	11	362	1786	1788	S	361	's	's	's	POS	O	possessive	O	-1	O
+0	11	363	1789	1792	S	364	own	own	own	JJ	O	amod	O	-1	O
+0	11	364	1793	1797	S	360	life	life	life	NN	O	pobj	O	-1	B-noun.cognition
+0	11	365	1798	1800	S	364	in	in	in	IN	O	prep	O	-1	O
+0	11	366	1801	1808		365	America	America	America	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	11	367	1808	1809	S	366	,	,	,	,	O	punct	O	-1	O
+0	11	368	1810	1812	S	373	in	in	in	IN	O	rel	O	-1	O
+0	11	369	1813	1818	S	368	which	which	which	WDT	O	pobj	O	-1	O
+0	11	370	1819	1822	S	373	she	she	she	PRP	O	nsubj	O	-1	O
+0	11	371	1823	1826	S	373	can	can	can	MD	O	aux	O	-1	O
+0	11	372	1827	1833	S	373	barely	barely	barely	RB	O	advmod	O	-1	O
+0	11	373	1834	1839	S	364	stand	stand	stand	VB	O	rcmod	O	-1	B-verb.motion
+0	11	374	1840	1842	S	373	up	up	up	RP	O	prt	O	-1	O
+0	11	375	1843	1845	S	373	to	to	to	TO	O	prep	O	-1	O
+0	11	376	1846	1849	S	378	her	her	she	PRP$	O	poss	O	-1	O
+0	11	377	1850	1856	S	378	racist	racist	racist	JJ	O	amod	O	-1	O
+0	11	378	1857	1863		375	bosses	bosses	boss	NNS	O	pobj	O	-1	B-noun.person
+0	11	379	1863	1864	S	358	.	.	.	.	O	punct	O	-1	O
+0	12	380	1865	1873	S	381	Kingston	Kingston	Kingston	NNP	LOCATION	nsubj	O	-1	O
+0	12	381	1874	1882		-1	realizes	realizes	realize	VBZ	O	null	O	-1	O
+0	12	382	1882	1883	S	381	,	,	,	,	O	punct	O	-1	O
+0	12	383	1884	1891		381	however	however	however	RB	O	advmod	O	-1	O
+0	12	384	1891	1892	S	381	,	,	,	,	O	punct	O	-1	O
+0	12	385	1893	1897	S	390	that	that	that	IN	O	complm	O	-1	O
+0	12	386	1898	1901	S	387	her	her	she	PRP$	O	poss	O	-1	O
+0	12	387	1902	1909	S	390	weapons	weapons	weapon	NNS	O	nsubj	O	-1	B-noun.artifact
+0	12	388	1910	1913	S	390	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	12	389	1914	1917	S	390	her	her	she	PRP$	O	poss	O	-1	O
+0	12	390	1918	1923		381	words	words	word	NNS	O	ccomp	O	-1	B-noun.communication
+0	12	391	1923	1924	S	381	.	.	.	.	O	punct	O	-1	O
+0	13	392	1925	1926		395	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	13	393	1926	1932		395	Shaman	Shaman	shaman	NN	O	nsubj	I-QUOTE	-1	O
+0	13	394	1932	1933	S	395	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	13	395	1934	1941	S	-1	focuses	focuses	focus	VBZ	O	null	O	-1	B-verb.cognition
+0	13	396	1942	1944	S	395	on	on	on	IN	O	prep	O	-1	O
+0	13	397	1945	1953		399	Kingston	Kingston	Kingston	NNP	LOCATION	poss	O	-1	B-noun.location
+0	13	398	1953	1955	S	397	's	's	's	POS	O	possessive	O	-1	O
+0	13	399	1956	1962		396	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	13	400	1962	1963	S	402	,	,	,	,	O	punct	O	-1	O
+0	13	401	1964	1969	S	402	Brave	Brave	Brave	NNP	O	nn	O	-1	B-noun.person
+0	13	402	1970	1976		395	Orchid	Orchid	Orchid	NNP	O	parataxis	O	-1	I-noun.person
+0	13	403	1976	1977	S	402	,	,	,	,	O	punct	O	-1	O
+0	13	404	1978	1981	S	402	and	and	and	CC	O	cc	O	-1	O
+0	13	405	1982	1985	S	407	her	her	she	PRP$	O	poss	O	-1	O
+0	13	406	1986	1989	S	407	old	old	old	JJ	O	amod	O	-1	O
+0	13	407	1990	1994	S	402	life	life	life	NN	O	conj	O	-1	B-noun.state
+0	13	408	1995	1999	S	407	back	back	back	RB	O	advmod	O	-1	O
+0	13	409	2000	2002	S	408	in	in	in	IN	O	dep	O	-1	O
+0	13	410	2003	2008		409	China	China	China	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	13	411	2008	2009	S	402	.	.	.	.	O	punct	O	-1	O
+0	14	412	2010	2015	S	413	Brave	Brave	Brave	NNP	O	nn	O	-1	B-noun.person
+0	14	413	2016	2022	S	417	Orchid	Orchid	Orchid	NNP	O	nsubj	O	-1	I-noun.person
+0	14	414	2023	2026	S	417	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	14	415	2027	2028	S	417	a	a	a	DT	O	det	O	-1	O
+0	14	416	2029	2037	S	417	powerful	powerful	powerful	JJ	O	amod	O	-1	O
+0	14	417	2038	2044		-1	doctor	doctor	doctor	NN	O	null	O	-1	B-noun.person
+0	14	418	2044	2045	S	417	,	,	,	,	O	punct	O	-1	O
+0	14	419	2046	2053		417	midwife	midwife	midwife	NN	O	conj	O	-1	O
+0	14	420	2053	2054	S	417	,	,	,	,	O	punct	O	-1	O
+0	14	421	2055	2058		417	and	and	and	CC	O	cc	O	-1	O
+0	14	422	2058	2059	S	417	,	,	,	,	O	punct	O	-1	O
+0	14	423	2060	2069	S	417	according	according	accord	VBG	O	prep	O	-1	O
+0	14	424	2070	2072	S	423	to	to	to	TO	O	dep	O	-1	O
+0	14	425	2073	2076	S	426	the	the	the	DT	O	det	O	-1	O
+0	14	426	2077	2087		424	talk-story	talk-story	talk-story	NN	O	pobj	O	-1	O
+0	14	427	2087	2088	S	426	,	,	,	,	O	punct	O	-1	O
+0	14	428	2089	2098	S	426	destroyer	destroyer	destroyer	NN	O	appos	O	-1	B-noun.artifact
+0	14	429	2099	2101	S	428	of	of	of	IN	O	prep	O	-1	O
+0	14	430	2102	2108	S	429	ghosts	ghosts	ghost	NNS	O	pobj	O	-1	B-noun.cognition
+0	14	431	2109	2113	S	428	back	back	back	RB	O	advmod	O	-1	O
+0	14	432	2114	2116	S	431	in	in	in	IN	O	dep	O	-1	O
+0	14	433	2117	2120	S	434	her	her	she	PRP$	O	poss	O	-1	O
+0	14	434	2121	2128		432	village	village	village	NN	O	pobj	O	-1	B-noun.group
+0	14	435	2128	2129	S	417	.	.	.	.	O	punct	O	-1	O
+0	15	436	2130	2132	S	445	To	To	to	TO	O	prep	O	-1	O
+0	15	437	2133	2134	S	439	a	a	a	DT	O	det	O	-1	O
+0	15	438	2135	2140	S	439	young	young	young	JJ	O	amod	O	-1	O
+0	15	439	2141	2149		436	Kingston	Kingston	Kingston	NNP	ORGANIZATION	pobj	O	0	B-noun.location
+0	15	440	2149	2150	S	439	,	,	,	,	O	punct	O	-1	O
+0	15	441	2151	2156	S	442	Brave	Brave	Brave	NNP	O	nn	O	-1	B-noun.person
+0	15	442	2157	2163		444	Orchid	Orchid	Orchid	NNP	O	poss	O	-1	I-noun.person
+0	15	443	2163	2165	S	442	's	's	's	POS	O	possessive	O	-1	O
+0	15	444	2166	2170	S	439	past	past	past	NN	DATE	appos	O	-1	B-noun.time
+0	15	445	2171	2173	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	15	446	2174	2176	S	445	as	as	as	IN	O	prep	O	-1	O
+0	15	447	2177	2187	S	446	astounding	astounding	astounding	JJ	O	pobj	O	-1	O
+0	15	448	2188	2190	S	451	as	as	as	IN	O	mark	O	-1	O
+0	15	449	2191	2193	S	451	it	it	it	PRP	O	nsubj	O	-1	O
+0	15	450	2194	2196	S	451	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	15	451	2197	2207		445	terrifying	terrifying	terrifying	JJ	O	advcl	O	-1	O
+0	15	452	2207	2208	S	445	,	,	,	,	O	punct	O	-1	O
+0	15	453	2209	2212	S	445	and	and	and	CC	O	cc	O	-1	O
+0	15	454	2213	2217	S	479	many	many	many	JJ	O	dep	O	-1	O
+0	15	455	2218	2220	S	454	of	of	of	IN	O	prep	O	-1	O
+0	15	456	2221	2224	S	457	the	the	the	DT	O	det	O	-1	O
+0	15	457	2225	2231	S	455	images	images	image	NNS	O	pobj	O	-1	B-noun.cognition
+0	15	458	2232	2236	S	457	from	from	from	IN	O	prep	O	-1	O
+0	15	459	2237	2240	S	460	her	her	she	PRP$	O	poss	O	-1	O
+0	15	460	2241	2247		458	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	15	461	2247	2249	S	460	's	's	's	POS	O	possessive	O	-1	O
+0	15	462	2250	2260		460	talk-story	talk-story	talk-story	JJ	O	amod	O	-1	O
+0	15	463	2260	2261		454	—	--	--	:	O	punct	O	-1	O
+0	15	464	2261	2268	S	465	Chinese	Chinese	chinese	JJ	MISC	amod	O	-1	O
+0	15	465	2269	2275	S	466	babies	babies	baby	NNS	O	nsubj	O	-1	B-noun.person
+0	15	466	2276	2280	S	454	left	left	leave	VBD	O	rcmod	O	-1	B-verb.motion
+0	15	467	2281	2283	S	468	to	to	to	TO	O	aux	O	-1	O
+0	15	468	2284	2287		466	die	die	die	VB	O	xcomp	O	-1	B-verb.change
+0	15	469	2287	2288	S	466	,	,	,	,	O	punct	O	-1	O
+0	15	470	2289	2294	S	471	slave	slave	slave	NN	O	nn	O	-1	B-noun.person
+0	15	471	2295	2300	S	473	girls	girls	girl	NNS	O	nsubjpass	O	-1	B-noun.person
+0	15	472	2301	2306	S	473	being	being	be	VBG	O	auxpass	O	-1	O
+0	15	473	2307	2313	S	466	bought	bought	buy	VBN	O	conj	O	-1	B-verb.possession
+0	15	474	2314	2317	S	473	and	and	and	CC	O	cc	O	-1	O
+0	15	475	2318	2322		473	sold	sold	sell	VBN	O	conj	O	-1	B-verb.possession
+0	15	476	2322	2323	S	479	,	,	,	,	O	punct	O	-1	O
+0	15	477	2324	2325	S	478	a	a	a	DT	O	det	O	-1	O
+0	15	478	2326	2331	S	479	woman	woman	woman	NN	O	nsubj	O	-1	B-noun.person
+0	15	479	2332	2338	S	445	stoned	stoned	stone	VBD	O	conj	O	-1	B-verb.contact
+0	15	480	2339	2341	S	479	to	to	to	TO	O	prep	O	-1	O
+0	15	481	2342	2347	S	480	death	death	death	NN	O	pobj	O	-1	B-noun.phenomenon
+0	15	482	2348	2350	S	479	by	by	by	IN	O	prep	O	-1	O
+0	15	483	2351	2354	S	484	her	her	she	PRP$	O	poss	O	-1	O
+0	15	484	2355	2364		482	villagers	villagers	villager	NNS	O	pobj	O	-1	O
+0	15	485	2364	2365		479	—	--	--	:	O	punct	O	-1	O
+0	15	486	2365	2370	S	479	haunt	haunt	haunt	VB	O	dep	O	-1	B-verb.motion
+0	15	487	2371	2379		489	Kingston	Kingston	Kingston	NNP	ORGANIZATION	poss	O	0	B-noun.location
+0	15	488	2379	2381	S	487	's	's	's	POS	O	possessive	O	-1	O
+0	15	489	2382	2388	S	486	dreams	dreams	dream	NNS	O	dobj	O	-1	B-noun.cognition
+0	15	490	2389	2392	S	486	for	for	for	IN	O	prep	O	-1	O
+0	15	491	2393	2398	S	490	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	15	492	2399	2401	S	493	to	to	to	TO	O	aux	O	-1	O
+0	15	493	2402	2406		491	come	come	come	VB	O	infmod	O	-1	B-verb.motion
+0	15	494	2406	2407	S	445	.	.	.	.	O	punct	O	-1	O
+0	16	495	2408	2410	S	-1	At	At	at	IN	O	null	O	-1	O
+0	16	496	2411	2414	S	497	the	the	the	DT	O	det	O	-1	O
+0	16	497	2415	2418	S	495	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	16	498	2419	2421	S	497	of	of	of	IN	O	prep	O	-1	O
+0	16	499	2422	2425	S	500	the	the	the	DT	O	det	O	-1	O
+0	16	500	2426	2433		498	chapter	chapter	chapter	NN	O	pobj	O	-1	B-noun.communication
+0	16	501	2433	2434	S	495	,	,	,	,	O	punct	O	-1	O
+0	16	502	2435	2441	S	503	Maxine	Maxine	maxine	NN	PERSON	nn	O	-1	O
+0	16	503	2442	2448	S	501	visits	visits	visit	NNS	O	null	O	-1	B-noun.act
+0	16	504	2449	2452	S	505	her	her	she	PRP$	O	poss	O	-1	O
+0	16	505	2453	2459	S	503	mother	mother	mother	NN	O	dobj	O	-1	B-noun.person
+0	16	506	2460	2465	S	503	after	after	after	IN	O	prep	O	-1	O
+0	16	507	2466	2471	S	506	being	being	be	VBG	O	pcomp	O	-1	B-verb.stative
+0	16	508	2472	2476	S	507	away	away	away	RB	O	advmod	O	-1	O
+0	16	509	2477	2480	S	507	for	for	for	IN	O	prep	O	-1	O
+0	16	510	2481	2485	S	511	many	many	many	JJ	O	amod	O	-1	O
+0	16	511	2486	2491		509	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	16	512	2491	2492	S	503	.	.	.	.	O	punct	O	-1	O
+0	17	513	2493	2496	S	514	The	The	the	DT	O	dep	O	-1	O
+0	17	514	2497	2500	S	515	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	17	515	2501	2507	S	-1	arrive	arrive	arrive	VBP	O	null	O	-1	B-verb.motion
+0	17	516	2508	2510	S	515	at	at	at	IN	O	prep	O	-1	O
+0	17	517	2511	2515	S	518	some	some	some	DT	O	det	O	-1	O
+0	17	518	2516	2520	S	516	kind	kind	kind	NN	O	pobj	O	-1	B-noun.cognition
+0	17	519	2521	2523	S	518	of	of	of	IN	O	prep	O	-1	O
+0	17	520	2524	2537	S	519	understanding	understanding	understanding	NN	O	pobj	O	-1	B-noun.cognition
+0	17	521	2538	2543	S	515	after	after	after	IN	O	prep	O	-1	O
+0	17	522	2544	2548	S	523	many	many	many	JJ	O	amod	O	-1	O
+0	17	523	2549	2554	S	521	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	17	524	2555	2557	S	523	of	of	of	IN	O	prep	O	-1	O
+0	17	525	2558	2570	S	524	disagreement	disagreement	disagreement	NN	O	pobj	O	-1	B-noun.state
+0	17	526	2571	2574	S	525	and	and	and	CC	O	cc	O	-1	O
+0	17	527	2575	2583		525	conflict	conflict	conflict	NN	O	conj	O	-1	B-noun.act
+0	17	528	2583	2584	S	515	,	,	,	,	O	punct	O	-1	O
+0	17	529	2585	2588	S	515	and	and	and	CC	O	cc	O	-1	O
+0	17	530	2589	2594	S	531	Brave	Brave	Brave	NNP	O	nn	O	-1	B-noun.person
+0	17	531	2595	2601	S	533	Orchid	Orchid	Orchid	NNP	O	nsubj	O	-1	I-noun.person
+0	17	532	2602	2604	S	533	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	17	533	2605	2609	S	515	warm	warm	warm	JJ	O	conj	O	-1	O
+0	17	534	2610	2613	S	533	and	and	and	CC	O	cc	O	-1	O
+0	17	535	2614	2626	S	533	affectionate	affectionate	affectionate	JJ	O	conj	O	-1	O
+0	17	536	2627	2634	S	535	towards	towards	towards	IN	O	prep	O	-1	O
+0	17	537	2635	2638	S	538	her	her	she	PRP$	O	poss	O	-1	O
+0	17	538	2639	2647	S	536	daughter	daughter	daughter	NN	O	pobj	O	-1	B-noun.person
+0	17	539	2648	2651	S	538	for	for	for	IN	O	prep	O	-1	O
+0	17	540	2652	2655	S	542	the	the	the	DT	O	det	O	-1	O
+0	17	541	2656	2661	S	542	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	17	542	2662	2666	S	539	time	time	time	NN	O	pobj	O	-1	B-noun.event
+0	17	543	2667	2669	S	542	in	in	in	IN	O	prep	O	-1	O
+0	17	544	2670	2673	S	545	the	the	the	DT	O	det	O	-1	O
+0	17	545	2674	2680		543	memoir	memoir	memoir	NN	O	pobj	O	-1	B-noun.communication
+0	17	546	2680	2681	S	515	.	.	.	.	O	punct	O	-1	O
+0	18	547	2682	2685	S	548	The	The	the	DT	O	det	O	-1	O
+0	18	548	2686	2691	S	-1	title	title	title	NN	O	null	O	-1	B-noun.communication
+0	18	549	2692	2694	S	548	of	of	of	IN	O	prep	O	-1	O
+0	18	550	2695	2696		556	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	18	551	2696	2698	S	556	At	At	at	IN	O	prep	I-QUOTE	-1	O
+0	18	552	2699	2702	S	554	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	18	553	2703	2710	S	554	Western	Western	western	JJ	O	amod	I-QUOTE	-1	O
+0	18	554	2711	2717		551	Palace	Palace	palace	NN	O	pobj	I-QUOTE	-1	O
+0	18	555	2717	2718	S	556	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	18	556	2719	2725	S	549	refers	refers	refer	VBZ	O	pobj	O	-1	B-verb.communication
+0	18	557	2726	2728	S	556	to	to	to	TO	O	prep	O	-1	O
+0	18	558	2729	2736	S	557	another	another	another	DT	O	pobj	O	-1	O
+0	18	559	2737	2739	S	558	of	of	of	IN	O	prep	O	-1	O
+0	18	560	2740	2745	S	561	Brave	Brave	Brave	NNP	O	nn	O	-1	B-noun.group
+0	18	561	2746	2752		563	Orchid	Orchid	Orchid	NNP	O	poss	O	-1	I-noun.group
+0	18	562	2752	2754	S	561	's	's	's	POS	O	possessive	O	-1	O
+0	18	563	2755	2767		559	talk-stories	talk-stories	talk-story	NNS	O	pobj	O	-1	O
+0	18	564	2767	2768	S	556	,	,	,	,	O	punct	O	-1	O
+0	18	565	2769	2774	S	556	about	about	about	IN	O	prep	O	-1	O
+0	18	566	2775	2777	S	567	an	an	a	DT	O	det	O	-1	O
+0	18	567	2778	2785	S	565	emperor	emperor	emperor	NN	O	pobj	O	-1	B-noun.person
+0	18	568	2786	2789	S	569	who	who	who	WP	O	nsubj	O	-1	O
+0	18	569	2790	2793	S	567	had	had	have	VBD	O	rcmod	O	-1	B-verb.possession
+0	18	570	2794	2798	S	571	four	four	four	CD	NUMBER	num	O	-1	O
+0	18	571	2799	2804		569	wives	wives	wife	NNS	O	dobj	O	-1	B-noun.person
+0	18	572	2804	2805	S	548	.	.	.	.	O	punct	O	-1	O
+0	19	573	2806	2808	S	576	It	It	it	PRP	O	nsubj	O	-1	O
+0	19	574	2809	2811	S	576	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	19	575	2812	2814	S	576	an	an	a	DT	O	det	O	-1	O
+0	19	576	2815	2822	S	-1	analogy	analogy	analogy	NN	O	null	O	-1	B-noun.attribute
+0	19	577	2823	2826	S	576	for	for	for	IN	O	prep	O	-1	O
+0	19	578	2827	2830	S	581	her	her	she	PRP$	O	poss	O	-1	O
+0	19	579	2831	2837	S	581	sister	sister	sister	NN	O	nn	O	-1	B-noun.person
+0	19	580	2838	2842	S	581	Moon	Moon	Moon	NNP	O	nn	O	-1	I-noun.person
+0	19	581	2843	2849		583	Orchid	Orchid	Orchid	NNP	O	poss	O	-1	I-noun.person
+0	19	582	2849	2851	S	581	's	's	's	POS	O	possessive	O	-1	O
+0	19	583	2852	2861		577	situation	situation	situation	NN	O	pobj	O	-1	B-noun.state
+0	19	584	2861	2862	S	576	:	:	:	:	O	punct	O	-1	O
+0	19	585	2863	2867	S	586	Moon	Moon	Moon	NNP	O	nn	O	-1	O
+0	19	586	2868	2874		588	Orchid	Orchid	Orchid	NNP	O	poss	O	-1	O
+0	19	587	2874	2876	S	586	's	's	's	POS	O	possessive	O	-1	O
+0	19	588	2877	2884		598	husband	husband	husband	NN	O	nsubj	O	-1	B-noun.person
+0	19	589	2884	2885	S	588	,	,	,	,	O	punct	O	-1	O
+0	19	590	2886	2889	S	588	now	now	now	RB	DATE	advmod	O	-1	O
+0	19	591	2890	2891	S	595	a	a	a	DT	O	det	O	-1	O
+0	19	592	2892	2902	S	595	successful	successful	successful	JJ	O	amod	O	-1	O
+0	19	593	2903	2906	S	595	Los	Los	Los	NNP	LOCATION	nn	O	-1	B-noun.location
+0	19	594	2907	2914	S	595	Angeles	Angeles	Angeles	NNP	LOCATION	nn	O	-1	I-noun.location
+0	19	595	2915	2921		588	doctor	doctor	doctor	NN	O	dep	O	-1	O
+0	19	596	2921	2922	S	588	,	,	,	,	O	punct	O	-1	O
+0	19	597	2923	2926	S	598	had	had	have	VBD	O	aux	O	-1	O
+0	19	598	2927	2931	S	576	left	left	leave	VBN	O	parataxis	O	-1	B-verb.motion
+0	19	599	2932	2935	S	600	her	her	she	PRP$	O	poss	O	-1	O
+0	19	600	2936	2942	S	598	behind	behind	behind	IN	O	prep	O	-1	O
+0	19	601	2943	2945	S	600	in	in	in	IN	O	dep	O	-1	O
+0	19	602	2946	2951	S	601	China	China	China	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	19	603	2952	2955	S	598	and	and	and	CC	O	cc	O	-1	O
+0	19	604	2956	2965	S	598	remarried	remarried	remarry	VBD	O	conj	O	-1	B-verb.social
+0	19	605	2966	2968	S	604	in	in	in	IN	O	prep	O	-1	O
+0	19	606	2969	2976		605	America	America	America	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	19	607	2976	2977	S	576	.	.	.	.	O	punct	O	-1	O
+0	20	608	2978	2983	S	609	Brave	Brave	Brave	NNP	O	nn	O	-1	B-noun.person
+0	20	609	2984	2990	S	610	Orchid	Orchid	Orchid	NNP	O	nsubj	O	-1	I-noun.person
+0	20	610	2991	2996	S	-1	urges	urges	urge	VBZ	O	null	O	-1	B-verb.communication
+0	20	611	2997	3000	S	612	her	her	she	PRP$	O	poss	O	-1	O
+0	20	612	3001	3007	S	610	sister	sister	sister	NN	O	dobj	O	-1	B-noun.person
+0	20	613	3008	3012	S	610	into	into	into	IN	O	prep	O	-1	O
+0	20	614	3013	3014	S	616	a	a	a	DT	O	det	O	-1	O
+0	20	615	3015	3025	S	616	disastrous	disastrous	disastrous	JJ	O	amod	O	-1	O
+0	20	616	3026	3039	S	613	confrontation	confrontation	confrontation	NN	O	pobj	O	-1	B-noun.communication
+0	20	617	3040	3044	S	616	with	with	with	IN	O	prep	O	-1	O
+0	20	618	3045	3048	S	619	the	the	the	DT	O	det	O	-1	O
+0	20	619	3049	3052	S	617	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	20	620	3053	3055	S	621	to	to	to	TO	O	aux	O	-1	O
+0	20	621	3056	3062	S	619	demand	demand	demand	VB	O	infmod	O	-1	B-verb.communication
+0	20	622	3063	3066	S	623	her	her	she	PRP$	O	poss	O	-1	O
+0	20	623	3067	3070	S	621	due	due	due	JJ	O	dobj	O	-1	O
+0	20	624	3071	3073	S	621	as	as	as	IN	O	prep	O	-1	O
+0	20	625	3074	3077	S	626	his	his	he	PRP$	O	poss	O	-1	O
+0	20	626	3078	3082		624	wife	wife	wife	NN	O	pobj	O	-1	B-noun.person
+0	20	627	3082	3083	S	610	.	.	.	.	O	punct	O	-1	O
+0	21	628	3084	3086	S	645	As	As	as	IN	O	prep	O	-1	O
+0	21	629	3087	3088	S	630	a	a	a	DT	O	det	O	-1	O
+0	21	630	3089	3095		628	result	result	result	NN	O	pobj	O	-1	B-noun.phenomenon
+0	21	631	3095	3096	S	645	,	,	,	,	O	punct	O	-1	O
+0	21	632	3097	3101	S	633	Moon	Moon	Moon	NNP	O	nn	O	-1	O
+0	21	633	3102	3108		645	Orchid	Orchid	Orchid	NNP	O	nsubjpass	O	-1	O
+0	21	634	3108	3109	S	633	,	,	,	,	O	punct	O	-1	O
+0	21	635	3110	3113	S	638	who	who	who	WP	O	nsubj	O	-1	O
+0	21	636	3114	3118	S	638	does	does	do	VBZ	O	aux	O	-1	O
+0	21	637	3119	3122	S	638	not	not	not	RB	O	neg	O	-1	O
+0	21	638	3123	3128	S	633	speak	speak	speak	VB	O	rcmod	O	-1	B-verb.communication
+0	21	639	3129	3130	S	640	a	a	a	DT	O	det	O	-1	O
+0	21	640	3131	3135	S	638	word	word	word	NN	O	dobj	O	-1	B-noun.communication
+0	21	641	3136	3138	S	640	of	of	of	IN	O	prep	O	-1	O
+0	21	642	3139	3146		641	English	English	English	NNP	MISC	pobj	O	-1	O
+0	21	643	3146	3147	S	633	,	,	,	,	O	punct	O	-1	O
+0	21	644	3148	3150	S	645	is	is	be	VBZ	O	auxpass	O	-1	O
+0	21	645	3151	3155	S	-1	left	left	leave	VBN	O	null	O	-1	B-verb.motion
+0	21	646	3156	3158	S	647	to	to	to	TO	O	aux	O	-1	O
+0	21	647	3159	3163	S	645	fend	fend	fend	VB	O	xcomp	O	-1	B-verb.social
+0	21	648	3164	3167	S	647	for	for	for	IN	O	prep	O	-1	O
+0	21	649	3168	3175	S	648	herself	herself	herself	PRP	O	pobj	O	-1	O
+0	21	650	3176	3178	S	647	in	in	in	IN	O	prep	O	-1	O
+0	21	651	3179	3186		650	America	America	America	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	21	652	3186	3187	S	645	.	.	.	.	O	punct	O	-1	O
+0	22	653	3188	3191	S	655	She	She	she	PRP	O	nsubj	O	-1	O
+0	22	654	3192	3202	S	655	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	22	655	3203	3207	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.change
+0	22	656	3208	3213	S	655	crazy	crazy	crazy	JJ	O	acomp	O	-1	O
+0	22	657	3214	3217	S	655	and	and	and	CC	O	cc	O	-1	O
+0	22	658	3218	3222	S	655	dies	dies	die	VBZ	O	conj	O	-1	B-verb.change
+0	22	659	3223	3225	S	658	in	in	in	IN	O	prep	O	-1	O
+0	22	660	3226	3227	S	664	a	a	a	DT	O	det	O	-1	O
+0	22	661	3228	3238	S	664	California	California	California	NNP	LOCATION	nn	O	-1	B-noun.location
+0	22	662	3239	3244	S	664	state	state	state	NN	O	nn	O	-1	I-noun.location
+0	22	663	3245	3251	S	664	mental	mental	mental	JJ	O	amod	O	-1	O
+0	22	664	3252	3258		659	asylum	asylum	asylum	NN	O	pobj	O	-1	B-noun.artifact
+0	22	665	3258	3259	S	655	.	.	.	.	O	punct	O	-1	O
+0	23	666	3260	3263	S	668	The	The	the	DT	O	det	O	-1	O
+0	23	667	3264	3269	S	668	final	final	final	JJ	O	amod	O	-1	O
+0	23	668	3270	3277	S	685	chapter	chapter	chapter	NN	O	nsubj	O	-1	B-noun.communication
+0	23	669	3278	3280	S	668	of	of	of	IN	O	prep	O	-1	O
+0	23	670	3281	3284	S	671	the	the	the	DT	O	det	O	-1	O
+0	23	671	3285	3291		669	memoir	memoir	memoir	NN	O	pobj	O	-1	B-noun.communication
+0	23	672	3291	3292	S	668	,	,	,	,	O	punct	O	-1	O
+0	23	673	3293	3294		675	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	23	674	3294	3295	S	675	A	A	a	DT	O	det	I-QUOTE	-1	O
+0	23	675	3296	3300	S	668	Song	Song	song	NN	O	appos	I-QUOTE	-1	B-noun.communication
+0	23	676	3301	3304	S	675	for	for	for	IN	O	prep	I-QUOTE	-1	O
+0	23	677	3305	3306	S	680	a	a	a	DT	O	det	I-QUOTE	-1	O
+0	23	678	3307	3316	S	680	Barbarian	Barbarian	Barbarian	NNP	O	nn	I-QUOTE	-1	B-noun.person
+0	23	679	3317	3321	S	680	Reed	Reed	Reed	NNP	O	nn	I-QUOTE	-1	I-noun.person
+0	23	680	3322	3326		676	Pipe	Pipe	Pipe	NNP	O	pobj	I-QUOTE	-1	I-noun.person
+0	23	681	3326	3327		668	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	23	682	3327	3328	S	668	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	23	683	3329	3331	S	685	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	23	684	3332	3337	S	685	about	about	about	RB	O	advmod	O	-1	O
+0	23	685	3338	3346	S	-1	Kingston	Kingston	Kingston	NNP	LOCATION	null	O	-1	B-noun.location
+0	23	686	3347	3354		685	herself	herself	herself	PRP	O	dep	O	-1	O
+0	23	687	3354	3355	S	685	.	.	.	.	O	punct	O	-1	O
+0	24	688	3356	3360	S	689	This	This	this	DT	O	det	O	-1	O
+0	24	689	3361	3368	S	690	section	section	section	NN	O	nsubj	O	-1	B-noun.communication
+0	24	690	3369	3376	S	-1	focuses	focuses	focus	VBZ	O	null	O	-1	B-verb.cognition
+0	24	691	3377	3383	S	692	mainly	mainly	mainly	RB	O	dep	O	-1	O
+0	24	692	3384	3386	S	690	on	on	on	IN	O	prep	O	-1	O
+0	24	693	3387	3390	S	694	her	her	she	PRP$	O	poss	O	-1	O
+0	24	694	3391	3400	S	692	childhood	childhood	childhood	NN	O	pobj	O	-1	B-noun.time
+0	24	695	3401	3404	S	694	and	and	and	CC	O	cc	O	-1	O
+0	24	696	3405	3412	S	697	teenage	teenage	teenage	JJ	O	amod	O	-1	O
+0	24	697	3413	3418		694	years	years	year	NNS	DURATION	conj	O	-1	B-noun.time
+0	24	698	3418	3419	S	690	,	,	,	,	O	punct	O	-1	O
+0	24	699	3420	3429	S	690	depicting	depicting	depict	VBG	O	xcomp	O	-1	B-verb.communication
+0	24	700	3430	3433	S	701	her	her	she	PRP$	O	poss	O	-1	O
+0	24	701	3434	3439	S	699	anger	anger	anger	NN	O	dobj	O	-1	B-noun.feeling
+0	24	702	3440	3443	S	701	and	and	and	CC	O	cc	O	-1	O
+0	24	703	3444	3455	S	701	frustration	frustration	frustration	NN	O	conj	O	-1	B-noun.feeling
+0	24	704	3456	3458	S	699	in	in	in	IN	O	prep	O	-1	O
+0	24	705	3459	3465	S	704	trying	trying	try	VBG	O	pcomp	O	-1	B-verb.social
+0	24	706	3466	3468	S	707	to	to	to	TO	O	aux	O	-1	O
+0	24	707	3469	3476	S	705	express	express	express	VB	O	xcomp	O	-1	B-verb.communication
+0	24	708	3477	3484	S	707	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	24	709	3485	3488	S	705	and	and	and	CC	O	cc	O	-1	O
+0	24	710	3489	3499	S	705	attempting	attempting	attempt	VBG	O	conj	O	-1	B-verb.social
+0	24	711	3500	3502	S	712	to	to	to	TO	O	aux	O	-1	O
+0	24	712	3503	3509	S	710	please	please	please	VB	O	xcomp	O	-1	B-verb.emotion
+0	24	713	3510	3512	S	715	an	an	a	DT	O	det	O	-1	O
+0	24	714	3513	3527	S	715	unappreciative	unappreciative	unappreciative	JJ	O	amod	O	-1	O
+0	24	715	3528	3534		712	mother	mother	mother	NN	O	dobj	O	-1	B-noun.person
+0	24	716	3534	3535	S	690	.	.	.	.	O	punct	O	-1	O
+0	25	717	3536	3541	S	718	There	There	there	EX	O	expl	O	-1	O
+0	25	718	3542	3545	S	-1	are	are	be	VBP	O	null	O	-1	B-verb.stative
+0	25	719	3546	3547	S	720	a	a	a	DT	O	det	O	-1	O
+0	25	720	3548	3554	S	718	number	number	number	NN	O	nsubj	O	-1	B-noun.attribute
+0	25	721	3555	3557	S	720	of	of	of	IN	O	prep	O	-1	O
+0	25	722	3558	3568	S	721	characters	characters	character	NNS	O	pobj	O	-1	B-noun.person
+0	25	723	3569	3574	S	724	whose	whose	whose	WP$	O	poss	O	-1	O
+0	25	724	3575	3588	S	725	personalities	personalities	personality	NNS	O	nsubj	O	-1	B-noun.attribute
+0	25	725	3589	3598	S	722	highlight	highlight	highlight	VBP	O	rcmod	O	-1	B-verb.change
+0	25	726	3599	3603	S	725	many	many	many	JJ	O	dobj	O	-1	O
+0	25	727	3604	3606	S	726	of	of	of	IN	O	prep	O	-1	O
+0	25	728	3607	3610	S	732	her	her	she	PRP$	O	poss	O	-1	O
+0	25	729	3611	3619		732	Kingston	Kingston	Kingston	NNP	ORGANIZATION	poss	O	0	B-noun.location
+0	25	730	3619	3621	S	729	's	's	's	POS	O	possessive	O	-1	O
+0	25	731	3622	3625	S	732	own	own	own	JJ	O	amod	O	-1	O
+0	25	732	3626	3641		727	characteristics	characteristics	characteristic	NNS	O	pobj	O	-1	B-noun.cognition
+0	25	733	3641	3642	S	726	,	,	,	,	O	punct	O	-1	O
+0	25	734	3643	3652	S	726	including	including	include	VBG	O	prep	O	-1	B-verb.stative
+0	25	735	3653	3654	S	738	a	a	a	DT	O	det	O	-1	O
+0	25	736	3655	3661	S	738	silent	silent	silent	JJ	O	amod	O	-1	O
+0	25	737	3662	3669	S	738	Chinese	Chinese	chinese	JJ	MISC	amod	O	-1	O
+0	25	738	3670	3674	S	734	girl	girl	girl	NN	O	pobj	O	-1	B-noun.person
+0	25	739	3675	3679	S	741	whom	whom	whom	WP	O	dobj	O	-1	O
+0	25	740	3680	3688	S	741	Kingston	Kingston	Kingston	NNP	ORGANIZATION	nsubj	O	0	B-noun.location
+0	25	741	3689	3697	S	738	torments	torments	torment	VBZ	O	rcmod	O	-1	B-verb.emotion
+0	25	742	3698	3700	S	741	as	as	as	IN	O	prep	O	-1	O
+0	25	743	3701	3702	S	745	a	a	a	DT	O	det	O	-1	O
+0	25	744	3703	3709	S	745	little	little	little	JJ	O	amod	O	-1	O
+0	25	745	3710	3714		742	girl	girl	girl	NN	O	pobj	O	-1	B-noun.person
+0	25	746	3714	3715	S	718	.	.	.	.	O	punct	O	-1	O
+0	26	747	3716	3718	S	769	In	In	in	IN	O	prep	O	-1	O
+0	26	748	3719	3720	S	750	a	a	a	DT	O	det	O	-1	O
+0	26	749	3721	3728	S	750	pivotal	pivotal	pivotal	JJ	O	amod	O	-1	O
+0	26	750	3729	3735	S	747	moment	moment	moment	NN	O	pobj	O	-1	B-noun.time
+0	26	751	3736	3738	S	769	in	in	in	IN	O	prep	O	-1	O
+0	26	752	3739	3742	S	753	the	the	the	DT	O	det	O	-1	O
+0	26	753	3743	3750		751	chapter	chapter	chapter	NN	O	pobj	O	-1	B-noun.communication
+0	26	754	3750	3751	S	769	,	,	,	,	O	punct	O	-1	O
+0	26	755	3752	3760		769	Kingston	Kingston	Kingston	NNP	LOCATION	nsubj	O	-1	O
+0	26	756	3760	3761	S	769	,	,	,	,	O	punct	O	-1	O
+0	26	757	3762	3767	S	769	after	after	after	IN	O	prep	O	-1	O
+0	26	758	3768	3782	S	759	unsuccessfully	unsuccessfully	unsuccessfully	RB	O	advmod	O	-1	O
+0	26	759	3783	3789	S	757	trying	trying	try	VBG	O	pcomp	O	-1	B-verb.social
+0	26	760	3790	3792	S	761	to	to	to	TO	O	aux	O	-1	O
+0	26	761	3793	3800	S	759	express	express	express	VB	O	xcomp	O	-1	B-verb.communication
+0	26	762	3801	3804	S	763	her	her	she	PRP$	O	poss	O	-1	O
+0	26	763	3805	3813	S	761	feelings	feelings	feeling	NNS	O	dobj	O	-1	B-noun.Tops
+0	26	764	3814	3817	S	763	one	one	one	CD	NUMBER	dep	O	-1	O
+0	26	765	3818	3820	S	764	at	at	at	IN	O	prep	O	-1	O
+0	26	766	3821	3822	S	767	a	a	a	DT	O	det	O	-1	O
+0	26	767	3823	3827		765	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	26	768	3827	3828	S	769	,	,	,	,	O	punct	O	-1	O
+0	26	769	3829	3835	S	-1	erupts	erupts	erupt	VBZ	O	null	O	-1	B-verb.change
+0	26	770	3836	3838	S	769	at	at	at	IN	O	prep	O	-1	O
+0	26	771	3839	3842	S	772	her	her	she	PRP$	O	poss	O	-1	O
+0	26	772	3843	3849	S	770	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	26	773	3850	3854	S	772	with	with	with	IN	O	prep	O	-1	O
+0	26	774	3855	3856	S	775	a	a	a	DT	O	det	O	-1	O
+0	26	775	3857	3864	S	773	torrent	torrent	torrent	NN	O	pobj	O	-1	B-noun.phenomenon
+0	26	776	3865	3867	S	775	of	of	of	IN	O	prep	O	-1	O
+0	26	777	3868	3878	S	776	complaints	complaints	complaint	NNS	O	pobj	O	-1	B-noun.state
+0	26	778	3879	3882	S	777	and	and	and	CC	O	cc	O	-1	O
+0	26	779	3883	3893		777	criticisms	criticisms	criticism	NNS	O	conj	O	-1	B-noun.communication
+0	26	780	3893	3894	S	769	.	.	.	.	O	punct	O	-1	O
+0	27	781	3895	3900	S	789	Later	Later	later	RB	O	advmod	O	-1	O
+0	27	782	3901	3903	S	781	in	in	in	IN	O	dep	O	-1	O
+0	27	783	3904	3907	S	784	her	her	she	PRP$	O	poss	O	-1	O
+0	27	784	3908	3912		782	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	27	785	3912	3913	S	789	,	,	,	,	O	punct	O	-1	O
+0	27	786	3914	3921		789	however	however	however	RB	O	advmod	O	-1	O
+0	27	787	3921	3922	S	789	,	,	,	,	O	punct	O	-1	O
+0	27	788	3923	3931	S	789	Kingston	Kingston	kingston	NN	LOCATION	nsubj	O	-1	B-noun.location
+0	27	789	3932	3937	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.perception
+0	27	790	3938	3940	S	791	to	to	to	TO	O	aux	O	-1	O
+0	27	791	3941	3951	S	789	appreciate	appreciate	appreciate	VB	O	xcomp	O	-1	B-verb.emotion
+0	27	792	3952	3955	S	793	her	her	she	PRP$	O	poss	O	-1	O
+0	27	793	3956	3962		795	mother	mother	mother	NN	O	poss	O	-1	B-noun.person
+0	27	794	3962	3964	S	793	's	's	's	POS	O	possessive	O	-1	O
+0	27	795	3965	3977		791	talk-stories	talk-stories	talk-story	NNS	O	dobj	O	-1	O
+0	27	796	3977	3978	S	789	.	.	.	.	O	punct	O	-1	O
+0	28	797	3979	3981	S	805	At	At	at	IN	O	prep	O	-1	O
+0	28	798	3982	3985	S	799	the	the	the	DT	O	det	O	-1	O
+0	28	799	3986	3989	S	797	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	28	800	3990	3992	S	799	of	of	of	IN	O	prep	O	-1	O
+0	28	801	3993	3996	S	802	the	the	the	DT	O	det	O	-1	O
+0	28	802	3997	4004	S	800	chapter	chapter	chapter	NN	O	pobj	O	-1	B-noun.communication
+0	28	803	4005	4008	S	805	she	she	she	PRP	O	nsubj	O	-1	O
+0	28	804	4009	4013	S	805	even	even	even	RB	O	advmod	O	-1	O
+0	28	805	4014	4019	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	28	806	4020	4023	S	805	one	one	one	CD	NUMBER	dobj	O	-1	O
+0	28	807	4024	4031		805	herself	herself	herself	PRP	O	dep	O	-1	O
+0	28	808	4031	4032	S	805	:	:	:	:	O	punct	O	-1	O
+0	28	809	4033	4036	S	810	the	the	the	DT	O	det	O	-1	O
+0	28	810	4037	4042	S	814	story	story	story	NN	O	nsubj	O	-1	B-noun.communication
+0	28	811	4043	4045	S	810	of	of	of	IN	O	prep	O	-1	O
+0	28	812	4046	4048		811	Ts	Ts	t	NNS	O	pobj	O	-1	O
+0	28	813	4048	4049		814	'	`	`	``	O	punct	O	-1	O
+0	28	814	4049	4051	S	805	ai	ai	be	VBP	O	parataxis	O	-1	O
+0	28	815	4052	4055		814	Yen	Yen	Yen	NNP	PERSON	dobj	O	-1	O
+0	28	816	4055	4056	S	815	,	,	,	,	O	punct	O	-1	O
+0	28	817	4057	4058	S	819	a	a	a	DT	O	det	O	-1	O
+0	28	818	4059	4066	S	819	warrior	warrior	warrior	NN	O	nn	O	-1	B-noun.person
+0	28	819	4067	4074	S	815	poetess	poetess	poetess	NN	O	appos	O	-1	B-noun.person
+0	28	820	4075	4083	S	819	captured	captured	capture	VBN	O	partmod	O	-1	B-verb.contact
+0	28	821	4084	4086	S	820	by	by	by	IN	O	prep	O	-1	O
+0	28	822	4087	4097	S	821	barbarians	barbarians	barbarian	NNS	O	pobj	O	-1	B-noun.person
+0	28	823	4098	4101	S	824	who	who	who	WP	O	nsubj	O	-1	O
+0	28	824	4102	4109	S	822	returns	returns	return	VBZ	O	rcmod	O	-1	B-verb.motion
+0	28	825	4110	4112	S	824	to	to	to	TO	O	prep	O	-1	O
+0	28	826	4113	4116	S	827	the	the	the	DT	O	det	O	-1	O
+0	28	827	4117	4124	S	825	Chinese	Chinese	chinese	JJ	MISC	pobj	O	-1	O
+0	28	828	4125	4129	S	824	with	with	with	IN	O	prep	O	-1	O
+0	28	829	4130	4135	S	828	songs	songs	song	NNS	O	pobj	O	-1	B-noun.communication
+0	28	830	4136	4140	S	829	from	from	from	IN	O	prep	O	-1	O
+0	28	831	4141	4148	S	832	another	another	another	DT	O	det	O	-1	O
+0	28	832	4149	4153		830	land	land	land	NN	O	pobj	O	-1	B-noun.object
+0	28	833	4153	4154	S	805	.	.	.	.	O	punct	O	-1	O
+0	29	834	4155	4157	S	838	It	It	it	PRP	O	nsubj	O	-1	O
+0	29	835	4158	4160	S	838	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	29	836	4161	4162	S	838	a	a	a	DT	O	det	O	-1	O
+0	29	837	4163	4170	S	838	fitting	fitting	fitting	JJ	O	amod	O	-1	O
+0	29	838	4171	4181	S	-1	conclusion	conclusion	conclusion	NN	O	null	O	-1	B-noun.cognition
+0	29	839	4182	4184	S	838	to	to	to	TO	O	prep	O	-1	O
+0	29	840	4185	4186	S	841	a	a	a	DT	O	det	O	-1	O
+0	29	841	4187	4191	S	839	text	text	text	NN	O	pobj	O	-1	B-noun.communication
+0	29	842	4192	4194	S	845	in	in	in	IN	O	rel	O	-1	O
+0	29	843	4195	4200	S	842	which	which	which	WDT	O	pobj	O	-1	O
+0	29	844	4201	4209	S	845	Kingston	Kingston	Kingston	NNP	ORGANIZATION	nsubj	O	0	B-noun.location
+0	29	845	4210	4218	S	841	combines	combines	combine	VBZ	O	rcmod	O	-1	B-verb.stative
+0	29	846	4219	4223	S	847	very	very	very	RB	O	advmod	O	-1	O
+0	29	847	4224	4233	S	848	different	different	different	JJ	O	amod	O	-1	O
+0	29	848	4234	4240	S	845	worlds	worlds	world	NNS	O	dobj	O	-1	B-noun.object
+0	29	849	4241	4244	S	848	and	and	and	CC	O	cc	O	-1	O
+0	29	850	4245	4253	S	848	cultures	cultures	culture	NNS	O	conj	O	-1	B-noun.group
+0	29	851	4254	4257	S	845	and	and	and	CC	O	cc	O	-1	O
+0	29	852	4258	4264	S	845	create	create	create	VB	O	conj	O	-1	B-verb.creation
+0	29	853	4265	4266	S	854	a	a	a	DT	O	det	O	-1	O
+0	29	854	4267	4274	S	852	harmony	harmony	harmony	NN	O	dobj	O	-1	B-noun.attribute
+0	29	855	4275	4277	S	854	of	of	of	IN	O	prep	O	-1	O
+0	29	856	4278	4281	S	857	her	her	she	PRP$	O	poss	O	-1	O
+0	29	857	4282	4285		855	own	own	own	JJ	O	pobj	O	-1	O
+0	29	858	4285	4286	N	838	.	.	.	.	O	punct	O	-1	O

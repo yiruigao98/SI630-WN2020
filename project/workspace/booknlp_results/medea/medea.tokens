@@ -1,0 +1,588 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	9		2	Euripedes	Euripedes	euripede	NNS	MISC	poss	O	-1	B-noun.person
+0	0	1	9	10	S	0	'	'	'	POS	MISC	possessive	O	-1	O
+0	0	2	11	16	S	3	Medea	Medea	medea	NN	MISC	nsubj	O	-1	B-noun.person
+0	0	3	17	22	S	-1	opens	opens	open	VBZ	O	null	O	-1	B-verb.social
+0	0	4	23	25	S	3	in	in	in	IN	O	prep	O	-1	O
+0	0	5	26	27	S	6	a	a	a	DT	O	det	O	-1	O
+0	0	6	28	33	S	4	state	state	state	NN	O	pobj	O	-1	B-noun.state
+0	0	7	34	36	S	6	of	of	of	IN	O	prep	O	-1	O
+0	0	8	37	45		7	conflict	conflict	conflict	NN	O	pobj	O	-1	B-noun.act
+0	0	9	45	46	S	3	.	.	.	.	O	punct	O	-1	O
+0	1	10	47	52	S	12	Jason	Jason	Jason	NNP	PERSON	nsubj	O	1	B-noun.person
+0	1	11	53	56	S	12	has	has	have	VBZ	O	aux	O	-1	O
+0	1	12	57	66	S	-1	abandoned	abandoned	abandon	VBN	O	null	O	-1	B-verb.possession
+0	1	13	67	70	S	14	his	his	he	PRP$	O	poss	O	1	O
+0	1	14	71	75		12	wife	wife	wife	NN	O	dobj	O	-1	B-noun.person
+0	1	15	75	76	S	14	,	,	,	,	O	punct	O	-1	O
+0	1	16	77	82		14	Medea	Medea	Medea	NNP	O	appos	O	-1	O
+0	1	17	82	83	S	14	,	,	,	,	O	punct	O	-1	O
+0	1	18	84	89	S	12	along	along	along	IN	O	prep	O	-1	O
+0	1	19	90	94	S	18	with	with	with	IN	O	dep	O	-1	O
+0	1	20	95	100	S	22	their	their	they	PRP$	O	poss	O	-1	O
+0	1	21	101	104	S	22	two	two	two	CD	NUMBER	num	O	-1	O
+0	1	22	105	113		19	children	children	child	NNS	O	pobj	O	-1	B-noun.person
+0	1	23	113	114	S	12	.	.	.	.	O	punct	O	-1	O
+0	2	24	115	117	S	25	He	He	he	PRP	O	nsubj	O	1	O
+0	2	25	118	123	S	-1	hopes	hopes	hope	VBZ	O	null	O	-1	B-verb.emotion
+0	2	26	124	126	S	27	to	to	to	TO	O	aux	O	-1	O
+0	2	27	127	134	S	25	advance	advance	advance	VB	O	xcomp	O	-1	B-verb.motion
+0	2	28	135	138	S	29	his	his	he	PRP$	O	poss	O	1	O
+0	2	29	139	146	S	27	station	station	station	NN	O	dobj	O	-1	B-noun.artifact
+0	2	30	147	149	S	27	by	by	by	IN	O	prep	O	-1	O
+0	2	31	150	160	S	30	remarrying	remarrying	remarry	VBG	O	pcomp	O	-1	B-verb.social
+0	2	32	161	165	S	31	with	with	with	IN	O	prep	O	-1	O
+0	2	33	166	172		32	Glauce	Glauce	glauce	FW	PERSON	pobj	O	2	O
+0	2	34	172	173	S	33	,	,	,	,	O	punct	O	-1	O
+0	2	35	174	177	S	36	the	the	the	DT	O	det	O	-1	O
+0	2	36	178	186	S	33	daughter	daughter	daughter	NN	O	appos	O	-1	B-noun.person
+0	2	37	187	189	S	36	of	of	of	IN	O	prep	O	-1	O
+0	2	38	190	195		37	Creon	Creon	Creon	NNP	PERSON	pobj	O	3	B-noun.person
+0	2	39	195	196	S	36	,	,	,	,	O	punct	O	-1	O
+0	2	40	197	201	S	36	king	king	king	NN	O	appos	O	-1	B-noun.person
+0	2	41	202	204	S	40	of	of	of	IN	O	prep	O	-1	O
+0	2	42	205	212		41	Corinth	Corinth	Corinth	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	2	43	212	213	S	42	,	,	,	,	O	punct	O	-1	O
+0	2	44	214	217	S	46	the	the	the	DT	O	det	O	-1	O
+0	2	45	218	223	S	46	Greek	Greek	greek	JJ	MISC	amod	O	-1	O
+0	2	46	224	228	S	42	city	city	city	NN	O	appos	O	-1	B-noun.location
+0	2	47	229	234	S	51	where	where	where	WRB	O	advmod	O	-1	O
+0	2	48	235	238	S	49	the	the	the	DT	O	det	O	-1	O
+0	2	49	239	243	S	51	play	play	play	NN	O	nsubjpass	O	-1	B-noun.communication
+0	2	50	244	246	S	51	is	is	be	VBZ	O	auxpass	O	-1	O
+0	2	51	247	250		46	set	set	set	VBN	O	rcmod	O	-1	B-verb.contact
+0	2	52	250	251	S	25	.	.	.	.	O	punct	O	-1	O
+0	3	53	252	255	S	55	All	All	all	PDT	O	predet	O	-1	O
+0	3	54	256	259	S	55	the	the	the	DT	O	det	O	-1	O
+0	3	55	260	266	S	58	events	events	event	NNS	O	nsubj	O	-1	B-noun.event
+0	3	56	267	269	S	55	of	of	of	IN	O	prep	O	-1	O
+0	3	57	270	274	S	56	play	play	play	NN	O	pobj	O	-1	B-noun.communication
+0	3	58	275	282	S	-1	proceed	proceed	proceed	VB	O	null	O	-1	B-verb.communication
+0	3	59	283	286	S	58	out	out	out	IN	O	prep	O	-1	O
+0	3	60	287	289	S	59	of	of	of	IN	O	dep	O	-1	O
+0	3	61	290	294	S	63	this	this	this	DT	O	det	O	-1	O
+0	3	62	295	302	S	63	initial	initial	initial	JJ	O	amod	O	-1	O
+0	3	63	303	310		60	dilemma	dilemma	dilemma	NN	O	pobj	O	-1	B-noun.cognition
+0	3	64	310	311	S	58	,	,	,	,	O	punct	O	-1	O
+0	3	65	312	315	S	58	and	and	and	CC	O	cc	O	-1	O
+0	3	66	316	319	S	68	the	the	the	DT	O	det	O	-1	O
+0	3	67	320	328	S	68	involved	involved	involve	VBN	O	amod	O	-1	B-verb.stative
+0	3	68	329	336	S	72	parties	parties	party	NNS	O	nsubj	O	-1	B-noun.group
+0	3	69	337	343	S	72	become	become	become	VBP	O	cop	O	-1	B-verb.stative
+0	3	70	344	347	S	72	its	its	its	PRP$	O	poss	O	-1	O
+0	3	71	348	355	S	72	central	central	central	JJ	O	amod	O	-1	O
+0	3	72	356	366		58	characters	characters	character	NNS	O	conj	O	-1	B-noun.person
+0	3	73	366	367	S	58	.	.	.	.	O	punct	O	-1	O
+0	4	74	368	375	S	81	Outside	Outside	outside	IN	O	prep	O	-1	O
+0	4	75	376	379	S	77	the	the	the	DT	O	det	O	-1	O
+0	4	76	380	385	S	77	royal	royal	royal	JJ	O	amod	O	-1	O
+0	4	77	386	392		74	palace	palace	palace	NN	O	pobj	O	-1	B-noun.artifact
+0	4	78	392	393	S	81	,	,	,	,	O	punct	O	-1	O
+0	4	79	394	395	S	80	a	a	a	DT	O	det	O	-1	O
+0	4	80	396	401	S	81	nurse	nurse	nurse	NN	O	nsubj	O	-1	B-noun.person
+0	4	81	402	409	S	-1	laments	laments	lament	VBZ	O	null	O	-1	B-verb.emotion
+0	4	82	410	413	S	83	the	the	the	DT	O	det	O	-1	O
+0	4	83	414	420	S	81	events	events	event	NNS	O	dobj	O	-1	B-noun.event
+0	4	84	421	425	S	86	that	that	that	WDT	O	nsubj	O	-1	O
+0	4	85	426	430	S	86	have	have	have	VBP	O	aux	O	-1	O
+0	4	86	431	435	S	83	lead	lead	lead	VBN	O	rcmod	O	-1	B-verb.stative
+0	4	87	436	438	S	86	to	to	to	TO	O	prep	O	-1	O
+0	4	88	439	442	S	90	the	the	the	DT	O	det	O	-1	O
+0	4	89	443	450	S	90	present	present	present	JJ	DATE	amod	O	-1	O
+0	4	90	451	457		87	crisis	crisis	crisis	NN	O	pobj	O	-1	B-noun.state
+0	4	91	457	458	S	81	.	.	.	.	O	punct	O	-1	O
+0	5	92	459	464	S	116	After	After	after	IN	O	prep	O	-1	O
+0	5	93	465	466	S	95	a	a	a	DT	O	det	O	-1	O
+0	5	94	467	471	S	95	long	long	long	JJ	O	amod	O	-1	O
+0	5	95	472	478	S	92	series	series	series	NN	O	pobj	O	-1	B-noun.group
+0	5	96	479	481	S	95	of	of	of	IN	O	prep	O	-1	O
+0	5	97	482	488	S	96	trials	trials	trial	NNS	O	pobj	O	-1	B-noun.act
+0	5	98	489	492	S	97	and	and	and	CC	O	cc	O	-1	O
+0	5	99	493	503		97	adventures	adventures	adventure	NNS	O	conj	O	-1	B-noun.act
+0	5	100	503	504	S	97	,	,	,	,	O	punct	O	-1	O
+0	5	101	505	510	S	103	which	which	which	WDT	O	nsubj	O	-1	O
+0	5	102	511	521	S	103	ultimately	ultimately	ultimately	RB	O	advmod	O	-1	O
+0	5	103	522	528	S	97	forced	forced	force	VBD	O	rcmod	O	-1	B-verb.social
+0	5	104	529	534	S	108	Jason	Jason	Jason	NNP	PERSON	nsubj	O	1	B-noun.person
+0	5	105	535	538	S	104	and	and	and	CC	O	cc	O	-1	O
+0	5	106	539	544	S	104	Medea	Medea	Medea	NNP	O	conj	O	-1	B-noun.person
+0	5	107	545	547	S	108	to	to	to	TO	O	aux	O	-1	O
+0	5	108	548	552	S	103	seek	seek	seek	VB	O	xcomp	O	-1	B-verb.possession
+0	5	109	553	558	S	108	exile	exile	exile	NN	O	dobj	O	-1	B-noun.person
+0	5	110	559	561	S	109	in	in	in	IN	O	prep	O	-1	O
+0	5	111	562	569		110	Corinth	Corinth	Corinth	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	5	112	569	570	S	116	,	,	,	,	O	punct	O	-1	O
+0	5	113	571	574	S	114	the	the	the	DT	O	det	O	-1	O
+0	5	114	575	579	S	116	pair	pair	pair	NN	O	nsubj	O	-1	B-noun.group
+0	5	115	580	583	S	116	had	had	have	VBD	O	aux	O	-1	O
+0	5	116	584	591	S	-1	settled	settled	settle	VBN	O	null	O	-1	B-verb.motion
+0	5	117	592	596	S	116	down	down	down	RB	O	advmod	O	-1	O
+0	5	118	597	600	S	116	and	and	and	CC	O	cc	O	-1	O
+0	5	119	601	612	S	116	established	established	establish	VBD	O	conj	O	-1	B-verb.cognition
+0	5	120	613	618	S	121	their	their	they	PRP$	O	poss	O	-1	O
+0	5	121	619	625		119	family	family	family	NN	O	dobj	O	-1	B-noun.group
+0	5	122	625	626	S	116	,	,	,	,	O	punct	O	-1	O
+0	5	123	627	636	S	116	achieving	achieving	achieve	VBG	O	xcomp	O	-1	B-verb.social
+0	5	124	637	638	S	125	a	a	a	DT	O	det	O	-1	O
+0	5	125	639	645	S	123	degree	degree	degree	NN	O	dobj	O	-1	B-noun.attribute
+0	5	126	646	648	S	125	of	of	of	IN	O	prep	O	-1	O
+0	5	127	649	653	S	126	fame	fame	fame	NN	O	pobj	O	-1	B-noun.state
+0	5	128	654	657	S	127	and	and	and	CC	O	cc	O	-1	O
+0	5	129	658	672		127	respectability	respectability	respectability	NN	O	conj	O	-1	B-noun.attribute
+0	5	130	672	673	S	116	.	.	.	.	O	punct	O	-1	O
+0	6	131	674	679		134	Jason	Jason	Jason	NNP	PERSON	poss	O	1	B-noun.person
+0	6	132	679	681	S	131	's	's	's	POS	O	possessive	O	-1	O
+0	6	133	682	688	S	134	recent	recent	recent	JJ	O	amod	O	-1	O
+0	6	134	689	700	S	139	abandonment	abandonment	abandonment	NN	O	nsubj	O	-1	B-noun.act
+0	6	135	701	703	S	134	of	of	of	IN	O	prep	O	-1	O
+0	6	136	704	708	S	137	that	that	that	DT	O	det	O	-1	O
+0	6	137	709	715	S	135	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	6	138	716	719	S	139	has	has	have	VBZ	O	aux	O	-1	O
+0	6	139	720	727	S	-1	crushed	crushed	crush	VBN	O	null	O	-1	B-verb.social
+0	6	140	728	733	S	139	Medea	Medea	Medea	NNP	O	dobj	O	-1	B-noun.person
+0	6	141	734	745		140	emotionally	emotionally	emotionally	RB	O	advmod	O	-1	O
+0	6	142	745	746	S	143	,	,	,	,	O	punct	O	-1	O
+0	6	143	747	749	S	141	to	to	to	TO	O	dep	O	-1	O
+0	6	144	750	753	S	145	the	the	the	DT	O	det	O	-1	O
+0	6	145	754	760	S	143	degree	degree	degree	NN	O	pobj	O	-1	B-noun.attribute
+0	6	146	761	765	S	148	that	that	that	IN	O	complm	O	-1	O
+0	6	147	766	769	S	148	she	she	she	PRP	O	nsubj	O	-1	O
+0	6	148	770	776	S	143	curses	curses	curse	NNS	O	ccomp	O	-1	B-noun.communication
+0	6	149	777	780	S	151	her	her	she	PRP$	O	poss	O	-1	O
+0	6	150	781	784	S	151	own	own	own	JJ	O	amod	O	-1	O
+0	6	151	785	794		148	existence	existence	existence	NN	O	dobj	O	-1	B-noun.state
+0	6	152	794	795	S	151	,	,	,	,	O	punct	O	-1	O
+0	6	153	796	798	S	154	as	as	as	RB	O	dep	O	-1	O
+0	6	154	799	803	S	151	well	well	well	RB	O	cc	O	-1	O
+0	6	155	804	806	S	154	as	as	as	IN	O	dep	O	-1	O
+0	6	156	807	811	S	151	that	that	that	DT	O	conj	O	-1	O
+0	6	157	812	814	S	156	of	of	of	IN	O	prep	O	-1	O
+0	6	158	815	818	S	160	her	her	she	PRP$	O	poss	O	-1	O
+0	6	159	819	822	S	160	two	two	two	CD	NUMBER	num	O	-1	O
+0	6	160	823	831		157	children	children	child	NNS	O	pobj	O	-1	B-noun.person
+0	6	161	831	832	S	139	.	.	.	.	O	punct	O	-1	O
+0	7	162	833	840	S	170	Fearing	Fearing	fear	VBG	O	dep	O	-1	B-verb.emotion
+0	7	163	841	842	S	165	a	a	a	DT	O	det	O	-1	O
+0	7	164	843	851	S	165	possible	possible	possible	JJ	O	amod	O	-1	O
+0	7	165	852	856	S	162	plot	plot	plot	NN	O	dobj	O	-1	B-noun.cognition
+0	7	166	857	859	S	165	of	of	of	IN	O	prep	O	-1	O
+0	7	167	860	867		166	revenge	revenge	revenge	NN	O	pobj	O	-1	B-noun.act
+0	7	168	867	868	S	170	,	,	,	,	O	punct	O	-1	O
+0	7	169	869	874	S	170	Creon	Creon	Creon	NNP	PERSON	nsubj	O	3	B-noun.person
+0	7	170	875	883	S	-1	banishes	banishes	banish	VBZ	O	null	O	-1	B-verb.social
+0	7	171	884	889	S	170	Medea	Medea	Medea	NNP	O	dobj	O	-1	B-noun.person
+0	7	172	890	893	S	171	and	and	and	CC	O	cc	O	-1	O
+0	7	173	894	897	S	174	her	her	she	PRP$	O	poss	O	-1	O
+0	7	174	898	906	S	171	children	children	child	NNS	O	conj	O	-1	B-noun.person
+0	7	175	907	911	S	170	from	from	from	IN	O	prep	O	-1	O
+0	7	176	912	915	S	177	the	the	the	DT	O	det	O	-1	O
+0	7	177	916	920		175	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	7	178	920	921	S	170	.	.	.	.	O	punct	O	-1	O
+0	8	179	922	927	S	186	After	After	after	IN	O	prep	O	-1	O
+0	8	180	928	936	S	179	pleading	pleading	plead	VBG	O	pcomp	O	-1	B-verb.communication
+0	8	181	937	940	S	180	for	for	for	IN	O	prep	O	-1	O
+0	8	182	941	946		181	mercy	mercy	mercy	NN	O	pobj	O	-1	B-noun.act
+0	8	183	946	947	S	186	,	,	,	,	O	punct	O	-1	O
+0	8	184	948	953	S	186	Medea	Medea	Medea	NNP	O	nsubjpass	O	-1	B-noun.person
+0	8	185	954	956	S	186	is	is	be	VBZ	O	auxpass	O	-1	O
+0	8	186	957	964	S	-1	granted	granted	grant	VBN	O	null	O	-1	B-verb.possession
+0	8	187	965	968	S	188	one	one	one	CD	DURATION	num	O	-1	O
+0	8	188	969	972	S	186	day	day	day	NN	DURATION	tmod	O	-1	B-noun.time
+0	8	189	973	979	S	192	before	before	before	IN	O	mark	O	-1	O
+0	8	190	980	983	S	192	she	she	she	PRP	O	nsubj	O	-1	O
+0	8	191	984	988	S	192	must	must	must	MD	O	aux	O	-1	O
+0	8	192	989	994		186	leave	leave	leave	VB	O	advcl	O	-1	B-verb.motion
+0	8	193	994	995	S	192	,	,	,	,	O	punct	O	-1	O
+0	8	194	996	1002	S	197	during	during	during	IN	O	rel	O	-1	O
+0	8	195	1003	1008	S	194	which	which	which	WDT	O	pobj	O	-1	O
+0	8	196	1009	1012	S	197	she	she	she	PRP	O	nsubj	O	-1	O
+0	8	197	1013	1018	S	192	plans	plans	plan	VBZ	O	advcl	O	-1	B-verb.cognition
+0	8	198	1019	1021	S	199	to	to	to	TO	O	aux	O	-1	O
+0	8	199	1022	1030	S	197	complete	complete	complete	VB	O	xcomp	O	-1	B-verb.change
+0	8	200	1031	1034	S	201	her	her	she	PRP$	O	poss	O	-1	O
+0	8	201	1035	1040	S	199	quest	quest	quest	NN	O	dobj	O	-1	B-noun.cognition
+0	8	202	1041	1044	S	199	for	for	for	IN	O	prep	O	-1	O
+0	8	203	1045	1046		204	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	8	204	1046	1053		202	justice	justice	justice	NN	O	pobj	I-QUOTE	-1	O
+0	8	205	1053	1054		204	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	8	206	1054	1056		199	--	--	--	:	O	punct	O	-1	O
+0	8	207	1056	1058	S	199	at	at	at	IN	O	prep	O	-1	O
+0	8	208	1059	1063	S	209	this	this	this	DT	O	det	O	-1	O
+0	8	209	1064	1069	S	207	stage	stage	stage	NN	O	pobj	O	-1	B-noun.artifact
+0	8	210	1070	1072	S	209	in	in	in	IN	O	prep	O	-1	O
+0	8	211	1073	1076	S	212	her	her	she	PRP$	O	poss	O	-1	O
+0	8	212	1077	1085		210	thinking	thinking	thinking	NN	O	pobj	O	-1	B-noun.cognition
+0	8	213	1085	1086	S	197	,	,	,	,	O	punct	O	-1	O
+0	8	214	1087	1090	S	215	the	the	the	DT	O	det	O	-1	O
+0	8	215	1091	1097	S	197	murder	murder	murder	NN	O	conj	O	-1	B-noun.act
+0	8	216	1098	1100	S	215	of	of	of	IN	O	prep	O	-1	O
+0	8	217	1101	1106		216	Creon	Creon	Creon	NNP	ORGANIZATION	pobj	O	3	B-noun.person
+0	8	218	1106	1107	S	217	,	,	,	,	O	punct	O	-1	O
+0	8	219	1108	1114		217	Glauce	Glauce	Glauce	NNP	PERSON	conj	O	2	O
+0	8	220	1114	1115	S	197	,	,	,	,	O	punct	O	-1	O
+0	8	221	1116	1119	S	197	and	and	and	CC	O	cc	O	-1	O
+0	8	222	1120	1125		197	Jason	Jason	Jason	NNP	PERSON	conj	O	1	B-noun.person
+0	8	223	1125	1126	S	186	.	.	.	.	O	punct	O	-1	O
+0	9	224	1127	1132	S	225	Jason	Jason	Jason	NNP	PERSON	nsubj	O	1	B-noun.person
+0	9	225	1133	1140	S	-1	accuses	accuses	accuse	VBZ	O	null	O	-1	B-verb.communication
+0	9	226	1141	1146	S	225	Medea	Medea	Medea	NNP	O	dobj	O	-1	B-noun.person
+0	9	227	1147	1149	S	225	of	of	of	IN	O	prep	O	-1	O
+0	9	228	1150	1162		227	overreacting	overreacting	overreact	VBG	O	pcomp	O	-1	B-verb.cognition
+0	9	229	1162	1163	S	225	.	.	.	.	O	punct	O	-1	O
+0	10	230	1164	1166	S	239	By	By	by	IN	O	prep	O	-1	O
+0	10	231	1167	1174	S	230	voicing	voicing	voice	VBG	O	pcomp	O	-1	B-verb.communication
+0	10	232	1175	1178	S	233	her	her	she	PRP$	O	poss	O	-1	O
+0	10	233	1179	1189	S	231	grievances	grievances	grievance	NNS	O	dobj	O	-1	B-noun.feeling
+0	10	234	1190	1192	S	235	so	so	so	RB	O	advmod	O	-1	O
+0	10	235	1193	1201		231	publicly	publicly	publicly	RB	O	advmod	O	-1	O
+0	10	236	1201	1202	S	239	,	,	,	,	O	punct	O	-1	O
+0	10	237	1203	1206	S	239	she	she	she	PRP	O	nsubj	O	-1	O
+0	10	238	1207	1210	S	239	has	has	have	VBZ	O	aux	O	-1	O
+0	10	239	1211	1221	S	-1	endangered	endangered	endanger	VBN	O	null	O	-1	B-verb.stative
+0	10	240	1222	1225	S	241	her	her	she	PRP$	O	poss	O	-1	O
+0	10	241	1226	1230	S	239	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	10	242	1231	1234	S	239	and	and	and	CC	O	cc	O	-1	O
+0	10	243	1235	1239	S	239	that	that	that	IN	O	conj	O	-1	O
+0	10	244	1240	1242	S	243	of	of	of	IN	O	dep	O	-1	O
+0	10	245	1243	1248	S	246	their	their	they	PRP$	O	poss	O	-1	O
+0	10	246	1249	1257		244	children	children	child	NNS	O	pobj	O	-1	B-noun.person
+0	10	247	1257	1258	S	239	.	.	.	.	O	punct	O	-1	O
+0	11	248	1259	1261	S	249	He	He	he	PRP	O	nsubj	O	1	O
+0	11	249	1262	1268	S	-1	claims	claims	claim	VBZ	O	null	O	-1	B-verb.communication
+0	11	250	1269	1273	S	255	that	that	that	IN	O	complm	O	-1	O
+0	11	251	1274	1277	S	252	his	his	he	PRP$	O	poss	O	1	O
+0	11	252	1278	1286	S	255	decision	decision	decision	NN	O	nsubj	O	-1	B-noun.act
+0	11	253	1287	1289	S	254	to	to	to	TO	O	aux	O	-1	O
+0	11	254	1290	1297	S	252	remarry	remarry	remarry	VB	O	infmod	O	-1	B-verb.social
+0	11	255	1298	1301	S	249	was	was	be	VBD	O	ccomp	O	-1	B-verb.stative
+0	11	256	1302	1304	S	255	in	in	in	IN	O	prep	O	-1	O
+0	11	257	1305	1313		260	everyone	everyone	everyone	NN	O	poss	O	-1	O
+0	11	258	1313	1315	S	257	's	's	's	POS	O	possessive	O	-1	O
+0	11	259	1316	1320	S	260	best	best	best	JJS	O	amod	O	-1	O
+0	11	260	1321	1329		256	interest	interest	interest	NN	O	pobj	O	-1	B-noun.attribute
+0	11	261	1329	1330	S	249	.	.	.	.	O	punct	O	-1	O
+0	12	262	1331	1336	S	263	Medea	Medea	Medea	NNP	PERSON	nsubj	O	0	B-noun.person
+0	12	263	1337	1342	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.possession
+0	12	264	1343	1346	S	265	him	him	he	PRP	O	nsubj	O	1	O
+0	12	265	1347	1356		263	spineless	spineless	spineless	JJ	O	xcomp	O	-1	O
+0	12	266	1356	1357	S	263	,	,	,	,	O	punct	O	-1	O
+0	12	267	1358	1361	S	263	and	and	and	CC	O	cc	O	-1	O
+0	12	268	1362	1365	S	269	she	she	she	PRP	O	nsubj	O	0	O
+0	12	269	1366	1373	S	263	refuses	refuses	refuse	VBZ	O	conj	O	-1	B-verb.communication
+0	12	270	1374	1376	S	271	to	to	to	TO	O	aux	O	-1	O
+0	12	271	1377	1383	S	269	accept	accept	accept	VB	O	xcomp	O	-1	B-verb.possession
+0	12	272	1384	1387	S	274	his	his	he	PRP$	O	poss	O	1	O
+0	12	273	1388	1393	S	274	token	token	token	JJ	O	amod	O	-1	O
+0	12	274	1394	1400	S	271	offers	offers	offer	NNS	O	dobj	O	-1	B-noun.communication
+0	12	275	1401	1403	S	274	of	of	of	IN	O	prep	O	-1	O
+0	12	276	1404	1408		275	help	help	help	NN	O	pobj	O	-1	B-noun.act
+0	12	277	1408	1409	S	263	.	.	.	.	O	punct	O	-1	O
+0	13	278	1410	1419	S	290	Appearing	Appearing	appear	VBG	O	dep	O	-1	B-verb.change
+0	13	279	1420	1422	S	278	by	by	by	IN	O	prep	O	-1	O
+0	13	280	1423	1429	S	279	chance	chance	chance	NN	O	pobj	O	-1	B-noun.state
+0	13	281	1430	1432	S	280	in	in	in	IN	O	prep	O	-1	O
+0	13	282	1433	1440		281	Corinth	Corinth	Corinth	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	13	283	1440	1441	S	282	,	,	,	,	O	punct	O	-1	O
+0	13	284	1442	1448		282	Aegeus	Aegeus	Aegeus	NNP	O	conj	O	-1	O
+0	13	285	1448	1449	S	282	,	,	,	,	O	punct	O	-1	O
+0	13	286	1450	1454	S	282	King	King	King	NNP	O	appos	O	-1	B-noun.person
+0	13	287	1455	1457	S	286	of	of	of	IN	O	prep	O	-1	O
+0	13	288	1458	1464		287	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	13	289	1464	1465	S	290	,	,	,	,	O	punct	O	-1	O
+0	13	290	1466	1472	S	-1	offers	offers	offer	VBZ	O	null	O	-1	B-verb.possession
+0	13	291	1473	1478	S	292	Medea	Medea	Medea	NNP	O	nn	O	-1	B-noun.person
+0	13	292	1479	1488	S	290	sanctuary	sanctuary	sanctuary	NN	O	dobj	O	-1	B-noun.artifact
+0	13	293	1489	1491	S	290	in	in	in	IN	O	prep	O	-1	O
+0	13	294	1492	1495	S	296	his	his	he	PRP$	O	poss	O	-1	O
+0	13	295	1496	1500	S	296	home	home	home	NN	O	nn	O	-1	B-noun.location
+0	13	296	1501	1505	S	293	city	city	city	NN	O	pobj	O	-1	I-noun.location
+0	13	297	1506	1508	S	290	in	in	in	IN	O	prep	O	-1	O
+0	13	298	1509	1517	S	297	exchange	exchange	exchange	NN	O	pobj	O	-1	B-noun.phenomenon
+0	13	299	1518	1521	S	298	for	for	for	IN	O	prep	O	-1	O
+0	13	300	1522	1525	S	301	her	her	she	PRP$	O	poss	O	-1	O
+0	13	301	1526	1535	S	299	knowledge	knowledge	knowledge	NN	O	pobj	O	-1	B-noun.Tops
+0	13	302	1536	1538	S	301	of	of	of	IN	O	prep	O	-1	O
+0	13	303	1539	1546	S	304	certain	certain	certain	JJ	O	amod	O	-1	O
+0	13	304	1547	1552	S	302	drugs	drugs	drug	NNS	O	pobj	O	-1	B-noun.artifact
+0	13	305	1553	1557	S	307	that	that	that	WDT	O	nsubj	O	-1	O
+0	13	306	1558	1561	S	307	can	can	can	MD	O	aux	O	-1	O
+0	13	307	1562	1566	S	304	cure	cure	cure	VB	O	rcmod	O	-1	B-verb.body
+0	13	308	1567	1570	S	309	his	his	he	PRP$	O	poss	O	-1	O
+0	13	309	1571	1580		307	sterility	sterility	sterility	NN	O	dobj	O	-1	B-noun.state
+0	13	310	1580	1581	S	290	.	.	.	.	O	punct	O	-1	O
+0	14	311	1582	1585	S	312	Now	Now	now	RB	DATE	advmod	O	-1	O
+0	14	312	1586	1596	S	321	guaranteed	guaranteed	guarantee	VBN	O	advcl	O	-1	B-verb.communication
+0	14	313	1597	1599	S	315	an	an	a	DT	O	det	O	-1	O
+0	14	314	1600	1608	S	315	eventual	eventual	eventual	JJ	O	amod	O	-1	O
+0	14	315	1609	1614	S	312	haven	haven	haven	NN	O	dobj	O	-1	B-noun.artifact
+0	14	316	1615	1617	S	315	in	in	in	IN	O	prep	O	-1	O
+0	14	317	1618	1624		316	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	14	318	1624	1625	S	321	,	,	,	,	O	punct	O	-1	O
+0	14	319	1626	1631	S	321	Medea	Medea	Medea	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	14	320	1632	1635	S	321	has	has	have	VBZ	O	aux	O	-1	O
+0	14	321	1636	1643	S	-1	cleared	cleared	clear	VBN	O	null	O	-1	B-verb.change
+0	14	322	1644	1647	S	323	all	all	all	DT	O	det	O	-1	O
+0	14	323	1648	1657	S	321	obstacles	obstacles	obstacle	NNS	O	dobj	O	-1	B-noun.cognition
+0	14	324	1658	1660	S	323	to	to	to	TO	O	prep	O	-1	O
+0	14	325	1661	1671	S	324	completing	completing	complete	VBG	O	pcomp	O	-1	B-verb.change
+0	14	326	1672	1675	S	327	her	her	she	PRP$	O	poss	O	-1	O
+0	14	327	1676	1683		325	revenge	revenge	revenge	NN	O	dobj	O	-1	B-noun.act
+0	14	328	1683	1684	S	321	,	,	,	,	O	punct	O	-1	O
+0	14	329	1685	1686	S	330	a	a	a	DT	O	det	O	-1	O
+0	14	330	1687	1691	S	321	plan	plan	plan	NN	O	dobj	O	-1	B-noun.cognition
+0	14	331	1692	1697	S	332	which	which	which	WDT	O	nsubj	O	-1	O
+0	14	332	1698	1703	S	330	grows	grows	grow	VBZ	O	rcmod	O	-1	B-verb.change
+0	14	333	1704	1706	S	334	to	to	to	TO	O	aux	O	-1	O
+0	14	334	1707	1714	S	332	include	include	include	VB	O	xcomp	O	-1	B-verb.stative
+0	14	335	1715	1718	S	336	the	the	the	DT	O	det	O	-1	O
+0	14	336	1719	1725	S	334	murder	murder	murder	NN	O	dobj	O	-1	B-noun.act
+0	14	337	1726	1728	S	336	of	of	of	IN	O	prep	O	-1	O
+0	14	338	1729	1732	S	340	her	her	she	PRP$	O	poss	O	-1	O
+0	14	339	1733	1736	S	340	own	own	own	JJ	O	amod	O	-1	O
+0	14	340	1737	1745		337	children	children	child	NNS	O	pobj	O	-1	B-noun.person
+0	14	341	1745	1746	S	330	;	;	;	:	O	punct	O	-1	O
+0	14	342	1747	1750	S	343	the	the	the	DT	O	det	O	-1	O
+0	14	343	1751	1755	S	360	pain	pain	pain	NN	O	nsubj	O	-1	B-noun.state
+0	14	344	1756	1761	S	345	their	their	they	PRP$	O	poss	O	-1	O
+0	14	345	1762	1766	S	347	loss	loss	loss	NN	O	nsubj	O	-1	B-noun.possession
+0	14	346	1767	1771	S	347	will	will	will	MD	O	aux	O	-1	O
+0	14	347	1772	1777	S	360	cause	cause	cause	VB	O	advmod	O	-1	B-verb.communication
+0	14	348	1778	1781	S	351	her	her	she	PRP$	O	nsubj	O	-1	O
+0	14	349	1782	1786	S	351	does	does	do	VBZ	O	aux	O	-1	O
+0	14	350	1787	1790	S	351	not	not	not	RB	O	neg	O	-1	O
+0	14	351	1791	1799	S	360	outweigh	outweigh	outweigh	VB	O	nsubj	O	-1	B-verb.competition
+0	14	352	1800	1803	S	353	the	the	the	DT	O	det	O	-1	O
+0	14	353	1804	1816	S	356	satisfaction	satisfaction	satisfaction	NN	O	dobj	O	-1	B-noun.feeling
+0	14	354	1817	1820	S	356	she	she	she	PRP	O	nsubj	O	-1	O
+0	14	355	1821	1825	S	356	will	will	will	MD	O	aux	O	-1	O
+0	14	356	1826	1830	S	351	feel	feel	feel	VB	O	ccomp	O	-1	B-verb.cognition
+0	14	357	1831	1833	S	356	in	in	in	IN	O	prep	O	-1	O
+0	14	358	1834	1840	S	357	making	making	make	VBG	O	pcomp	O	-1	B-verb.social
+0	14	359	1841	1846	S	358	Jason	Jason	Jason	NNP	PERSON	dobj	O	1	B-noun.person
+0	14	360	1847	1853		330	suffer	suffer	suffer	VBP	O	dep	O	-1	B-verb.body
+0	14	361	1853	1854	S	321	.	.	.	.	O	punct	O	-1	O
+0	15	362	1855	1858	S	370	For	For	for	IN	O	prep	O	-1	O
+0	15	363	1859	1862	S	364	the	the	the	DT	O	det	O	-1	O
+0	15	364	1863	1870	S	362	balance	balance	balance	NN	O	pobj	O	-1	B-noun.state
+0	15	365	1871	1873	S	364	of	of	of	IN	O	prep	O	-1	O
+0	15	366	1874	1877	S	367	the	the	the	DT	O	det	O	-1	O
+0	15	367	1878	1882		365	play	play	play	NN	O	pobj	O	-1	B-noun.communication
+0	15	368	1882	1883	S	370	,	,	,	,	O	punct	O	-1	O
+0	15	369	1884	1889	S	370	Medea	Medea	Medea	NNP	PERSON	nsubj	O	0	B-noun.person
+0	15	370	1890	1897	S	-1	engages	engages	engage	VBZ	O	null	O	-1	B-verb.social
+0	15	371	1898	1900	S	370	in	in	in	IN	O	prep	O	-1	O
+0	15	372	1901	1902	S	373	a	a	a	DT	O	det	O	-1	O
+0	15	373	1903	1907		371	ruse	ruse	ruse	NN	O	pobj	O	-1	B-noun.act
+0	15	374	1907	1908	S	370	;	;	;	:	O	punct	O	-1	O
+0	15	375	1909	1912	S	376	she	she	she	PRP	O	nsubj	O	0	O
+0	15	376	1913	1921	S	370	pretends	pretends	pretend	VBZ	O	parataxis	O	-1	B-verb.communication
+0	15	377	1922	1924	S	378	to	to	to	TO	O	aux	O	-1	O
+0	15	378	1925	1935	S	376	sympathize	sympathize	sympathize	VB	O	xcomp	O	-1	B-verb.emotion
+0	15	379	1936	1940	S	378	with	with	with	IN	O	prep	O	-1	O
+0	15	380	1941	1946	S	381	Jason	Jason	Jason	NNP	PERSON	nn	O	1	B-noun.person
+0	15	381	1947	1948		379	(	-LRB-	-lrb-	-LRB-	O	pobj	O	-1	O
+0	15	382	1948	1956	S	381	bringing	bringing	bring	VBG	O	partmod	O	-1	B-verb.contact
+0	15	383	1957	1960	S	382	him	him	he	PRP	O	dobj	O	1	O
+0	15	384	1961	1965	S	382	into	into	into	IN	O	prep	O	-1	O
+0	15	385	1966	1969	S	386	her	her	she	PRP$	O	poss	O	0	O
+0	15	386	1970	1980		384	confidence	confidence	confidence	NN	O	pobj	O	-1	B-noun.cognition
+0	15	387	1980	1981	S	382	)	-RRB-	-rrb-	-RRB-	O	prep	O	-1	O
+0	15	388	1982	1985	S	387	and	and	and	CC	O	cc	O	-1	O
+0	15	389	1986	1992	S	393	offers	offers	offer	VBZ	O	dep	O	-1	B-verb.possession
+0	15	390	1993	1996	S	391	his	his	he	PRP$	O	poss	O	1	O
+0	15	391	1997	2001	S	393	wife	wife	wife	NN	O	nsubj	O	-1	B-noun.person
+0	15	392	2002	2003		393	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	15	393	2003	2008		387	gifts	gifts	gift	NNS	O	conj	I-QUOTE	-1	O
+0	15	394	2008	2009		370	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	15	395	2009	2010	S	394	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	15	396	2011	2012	S	397	a	a	a	DT	O	det	O	-1	O
+0	15	397	2013	2020	S	395	coronet	coronet	coronet	NN	O	nsubj	O	-1	B-noun.artifact
+0	15	398	2021	2024	S	397	and	and	and	CC	O	cc	O	-1	O
+0	15	399	2025	2030		397	dress	dress	dress	NN	O	conj	O	-1	B-noun.artifact
+0	15	400	2030	2031	S	370	.	.	.	.	O	punct	O	-1	O
+0	16	401	2032	2042		406	Ostensibly	Ostensibly	ostensibly	RB	O	advmod	O	-1	O
+0	16	402	2042	2043	S	406	,	,	,	,	O	punct	O	-1	O
+0	16	403	2044	2047	S	404	the	the	the	DT	O	det	O	-1	O
+0	16	404	2048	2053	S	406	gifts	gifts	gift	NNS	O	nsubjpass	O	-1	B-noun.possession
+0	16	405	2054	2057	S	406	are	are	be	VBP	O	auxpass	O	-1	O
+0	16	406	2058	2063	S	-1	meant	meant	mean	VBN	O	null	O	-1	B-verb.communication
+0	16	407	2064	2066	S	408	to	to	to	TO	O	aux	O	-1	O
+0	16	408	2067	2075	S	406	convince	convince	convince	VB	O	xcomp	O	-1	B-verb.communication
+0	16	409	2076	2082	S	408	Glauce	Glauce	glauce	FW	PERSON	dobj	O	2	O
+0	16	410	2083	2085	S	411	to	to	to	TO	O	aux	O	-1	O
+0	16	411	2086	2089	S	408	ask	ask	ask	VB	O	xcomp	O	-1	B-verb.communication
+0	16	412	2090	2093	S	413	her	her	she	PRP$	O	poss	O	0	O
+0	16	413	2094	2100	S	411	father	father	father	NN	O	dobj	O	-1	B-noun.person
+0	16	414	2101	2103	S	415	to	to	to	TO	O	aux	O	-1	O
+0	16	415	2104	2109	S	413	allow	allow	allow	VB	O	infmod	O	-1	B-verb.social
+0	16	416	2110	2113	S	417	the	the	the	DT	O	det	O	-1	O
+0	16	417	2114	2122	S	419	children	children	child	NNS	O	nsubj	O	-1	B-noun.person
+0	16	418	2123	2125	S	419	to	to	to	TO	O	aux	O	-1	O
+0	16	419	2126	2130	S	415	stay	stay	stay	VB	O	xcomp	O	-1	B-verb.change
+0	16	420	2131	2133	S	419	in	in	in	IN	O	prep	O	-1	O
+0	16	421	2134	2141		420	Corinth	Corinth	Corinth	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	16	422	2141	2142	S	406	.	.	.	.	O	punct	O	-1	O
+0	17	423	2143	2146	S	424	The	The	the	DT	O	det	O	-1	O
+0	17	424	2147	2154	S	429	coronet	coronet	coronet	NN	O	nsubjpass	O	-1	B-noun.artifact
+0	17	425	2155	2158	S	424	and	and	and	CC	O	cc	O	-1	O
+0	17	426	2159	2164	S	424	dress	dress	dress	NN	O	conj	O	-1	B-noun.artifact
+0	17	427	2165	2168	S	429	are	are	be	VBP	O	auxpass	O	-1	B-verb.stative
+0	17	428	2169	2177	S	429	actually	actually	actually	RB	O	advmod	O	-1	O
+0	17	429	2178	2186		-1	poisoned	poisoned	poison	VBN	O	null	O	-1	O
+0	17	430	2186	2187	S	429	,	,	,	,	O	punct	O	-1	O
+0	17	431	2188	2195		429	however	however	however	RB	O	advmod	O	-1	O
+0	17	432	2195	2196	S	429	,	,	,	,	O	punct	O	-1	O
+0	17	433	2197	2200	S	429	and	and	and	CC	O	cc	O	-1	O
+0	17	434	2201	2206	S	435	their	their	they	PRP$	O	poss	O	-1	O
+0	17	435	2207	2215	S	436	delivery	delivery	delivery	NN	O	nsubj	O	-1	B-noun.act
+0	17	436	2216	2222	S	429	causes	causes	cause	VBZ	O	conj	O	-1	B-verb.creation
+0	17	437	2223	2229		439	Glauce	Glauce	Glauce	NNP	PERSON	poss	O	2	B-noun.person
+0	17	438	2229	2231	S	437	's	's	's	POS	O	possessive	O	-1	O
+0	17	439	2232	2237		436	death	death	death	NN	O	dobj	O	-1	B-noun.event
+0	17	440	2237	2238	S	429	.	.	.	.	O	punct	O	-1	O
+0	18	441	2239	2245	S	450	Seeing	Seeing	see	VBG	O	dep	O	-1	B-verb.perception
+0	18	442	2246	2249	S	443	his	his	he	PRP$	O	poss	O	-1	O
+0	18	443	2250	2258	S	441	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	18	444	2259	2266	S	443	ravaged	ravaged	ravage	VBN	O	partmod	O	-1	B-verb.change
+0	18	445	2267	2269	S	444	by	by	by	IN	O	prep	O	-1	O
+0	18	446	2270	2273	S	447	the	the	the	DT	O	det	O	-1	O
+0	18	447	2274	2280		445	poison	poison	poison	NN	O	pobj	O	-1	B-noun.substance
+0	18	448	2280	2281	S	450	,	,	,	,	O	punct	O	-1	O
+0	18	449	2282	2287	S	450	Creon	Creon	Creon	NNP	PERSON	nsubj	O	3	B-noun.person
+0	18	450	2288	2295	S	-1	chooses	chooses	choose	VBZ	O	null	O	-1	B-verb.cognition
+0	18	451	2296	2298	S	452	to	to	to	TO	O	aux	O	-1	O
+0	18	452	2299	2302	S	450	die	die	die	VB	O	xcomp	O	-1	B-verb.change
+0	18	453	2303	2305	S	452	by	by	by	IN	O	prep	O	-1	O
+0	18	454	2306	2309	S	455	her	her	she	PRP$	O	poss	O	-1	O
+0	18	455	2310	2314	S	453	side	side	side	NN	O	pobj	O	-1	B-noun.location
+0	18	456	2315	2317	S	452	by	by	by	IN	O	prep	O	-1	O
+0	18	457	2318	2330	S	458	dramatically	dramatically	dramatically	RB	O	advmod	O	-1	O
+0	18	458	2331	2340	S	456	embracing	embracing	embrace	VBG	O	pcomp	O	-1	B-verb.stative
+0	18	459	2341	2344	S	458	her	her	she	PRP	O	dobj	O	-1	O
+0	18	460	2345	2348	S	458	and	and	and	CC	O	cc	O	-1	O
+0	18	461	2349	2358	S	458	absorbing	absorbing	absorb	VBG	O	conj	O	-1	B-verb.contact
+0	18	462	2359	2362	S	463	the	the	the	DT	O	det	O	-1	O
+0	18	463	2363	2369	S	461	poison	poison	poison	NN	O	dobj	O	-1	B-noun.substance
+0	18	464	2370	2377		463	himself	himself	himself	PRP	O	dep	O	-1	O
+0	18	465	2377	2378	S	450	.	.	.	.	O	punct	O	-1	O
+0	19	466	2379	2380	S	467	A	A	a	DT	O	det	O	-1	O
+0	19	467	2381	2390	S	468	messenger	messenger	messenger	NN	O	nsubj	O	-1	B-noun.person
+0	19	468	2391	2399	S	-1	recounts	recounts	recount	VBZ	O	null	O	-1	B-verb.communication
+0	19	469	2400	2403	S	471	the	the	the	DT	O	det	O	-1	O
+0	19	470	2404	2412	S	471	gruesome	gruesome	gruesome	JJ	O	amod	O	-1	O
+0	19	471	2413	2420	S	468	details	details	detail	NNS	O	dobj	O	-1	B-noun.cognition
+0	19	472	2421	2423	S	471	of	of	of	IN	O	prep	O	-1	O
+0	19	473	2424	2429	S	474	these	these	these	DT	O	det	O	-1	O
+0	19	474	2430	2436		472	deaths	deaths	death	NNS	O	pobj	O	-1	B-noun.event
+0	19	475	2436	2437	S	474	,	,	,	,	O	punct	O	-1	O
+0	19	476	2438	2443	S	478	which	which	which	WDT	O	dobj	O	-1	O
+0	19	477	2444	2449	S	478	Medea	Medea	Medea	NNP	O	nsubj	O	-1	B-noun.person
+0	19	478	2450	2457	S	474	absorbs	absorbs	absorb	VBZ	O	rcmod	O	-1	B-verb.contact
+0	19	479	2458	2462	S	478	with	with	with	IN	O	prep	O	-1	O
+0	19	480	2463	2467	S	481	cool	cool	cool	JJ	O	amod	O	-1	O
+0	19	481	2468	2481		479	attentiveness	attentiveness	attentiveness	NN	O	pobj	O	-1	B-noun.cognition
+0	19	482	2481	2482	S	468	.	.	.	.	O	punct	O	-1	O
+0	20	483	2483	2486	S	485	Her	Her	she	PRP$	O	poss	O	-1	O
+0	20	484	2487	2494	S	485	earlier	earlier	earlier	JJR	O	amod	O	-1	O
+0	20	485	2495	2500	S	503	state	state	state	NN	O	nsubj	O	-1	B-noun.state
+0	20	486	2501	2503	S	485	of	of	of	IN	O	prep	O	-1	O
+0	20	487	2504	2511		486	anxiety	anxiety	anxiety	NN	O	pobj	O	-1	B-noun.state
+0	20	488	2511	2512	S	487	,	,	,	,	O	punct	O	-1	O
+0	20	489	2513	2518	S	490	which	which	which	WDT	O	nsubj	O	-1	O
+0	20	490	2519	2530	S	487	intensified	intensified	intensify	VBD	O	rcmod	O	-1	B-verb.change
+0	20	491	2531	2533	S	493	as	as	as	IN	O	mark	O	-1	O
+0	20	492	2534	2537	S	493	she	she	she	PRP	O	nsubj	O	-1	O
+0	20	493	2538	2547	S	490	struggled	struggled	struggle	VBD	O	advcl	O	-1	B-verb.social
+0	20	494	2548	2552	S	493	with	with	with	IN	O	prep	O	-1	O
+0	20	495	2553	2556	S	496	the	the	the	DT	O	det	O	-1	O
+0	20	496	2557	2565	S	494	decision	decision	decision	NN	O	pobj	O	-1	B-noun.act
+0	20	497	2566	2568	S	498	to	to	to	TO	O	aux	O	-1	O
+0	20	498	2569	2575	S	496	commit	commit	commit	VB	O	infmod	O	-1	B-verb.social
+0	20	499	2576	2587		498	infanticide	infanticide	infanticide	NN	O	dobj	O	-1	B-noun.person
+0	20	500	2587	2588	S	485	,	,	,	,	O	punct	O	-1	O
+0	20	501	2589	2592	S	503	has	has	have	VBZ	O	aux	O	-1	O
+0	20	502	2593	2596	S	503	now	now	now	RB	DATE	advmod	O	-1	O
+0	20	503	2597	2602	S	-1	given	given	give	VBN	O	null	O	-1	B-verb.motion
+0	20	504	2603	2606	S	503	way	way	way	NN	O	dobj	O	-1	B-noun.attribute
+0	20	505	2607	2609	S	504	to	to	to	TO	O	prep	O	-1	O
+0	20	506	2610	2612	S	508	an	an	a	DT	O	det	O	-1	O
+0	20	507	2613	2620	S	508	assured	assured	assure	VBN	O	amod	O	-1	B-verb.communication
+0	20	508	2621	2634	S	505	determination	determination	determination	NN	O	pobj	O	-1	B-noun.act
+0	20	509	2635	2637	S	510	to	to	to	TO	O	aux	O	-1	O
+0	20	510	2638	2645	S	508	fulfill	fulfill	fulfill	VB	O	infmod	O	-1	B-verb.creation
+0	20	511	2646	2649	S	512	her	her	she	PRP$	O	poss	O	-1	O
+0	20	512	2650	2655		510	plans	plans	plan	NNS	O	dobj	O	-1	B-noun.cognition
+0	20	513	2655	2656	S	503	.	.	.	.	O	punct	O	-1	O
+0	21	514	2657	2664	S	-1	Against	Against	against	IN	O	null	O	-1	O
+0	21	515	2665	2668	S	516	the	the	the	DT	O	det	O	-1	O
+0	21	516	2669	2677	S	514	protests	protests	protest	NNS	O	pobj	O	-1	B-noun.communication
+0	21	517	2678	2680	S	516	of	of	of	IN	O	prep	O	-1	O
+0	21	518	2681	2684	S	519	the	the	the	DT	O	det	O	-1	O
+0	21	519	2685	2691		517	chorus	chorus	chorus	NN	O	pobj	O	-1	B-noun.event
+0	21	520	2691	2692	S	514	,	,	,	,	O	punct	O	-1	O
+0	21	521	2693	2698	S	522	Medea	Medea	Medea	NNP	O	nn	O	-1	B-noun.person
+0	21	522	2699	2706	S	520	murders	murders	murder	NNS	O	null	O	-1	B-noun.act
+0	21	523	2707	2710	S	524	her	her	she	PRP$	O	poss	O	-1	O
+0	21	524	2711	2719	S	522	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	21	525	2720	2723	S	522	and	and	and	CC	O	cc	O	-1	O
+0	21	526	2724	2729	S	528	flees	flees	flee	VBZ	O	cop	O	-1	B-verb.motion
+0	21	527	2730	2733	S	528	the	the	the	DT	O	det	O	-1	O
+0	21	528	2734	2739	S	522	scene	scene	scene	NN	O	conj	O	-1	B-noun.location
+0	21	529	2740	2742	S	528	in	in	in	IN	O	prep	O	-1	O
+0	21	530	2743	2744	S	532	a	a	a	DT	O	det	O	-1	O
+0	21	531	2745	2758	S	532	dragon-pulled	dragon-pulled	dragon-pulled	JJ	O	amod	O	-1	O
+0	21	532	2759	2766	S	529	chariot	chariot	chariot	NN	O	pobj	O	-1	B-noun.artifact
+0	21	533	2767	2775	S	532	provided	provided	provide	VBN	O	partmod	O	-1	B-verb.possession
+0	21	534	2776	2778	S	533	by	by	by	IN	O	prep	O	-1	O
+0	21	535	2779	2782	S	536	her	her	she	PRP$	O	poss	O	-1	O
+0	21	536	2783	2794		534	grandfather	grandfather	grandfather	NN	O	pobj	O	-1	B-noun.person
+0	21	537	2794	2795	S	522	,	,	,	,	O	punct	O	-1	O
+0	21	538	2796	2799	S	539	the	the	the	DT	O	det	O	-1	O
+0	21	539	2800	2807		522	Sun-God	Sun-God	Sun-God	NNP	O	appos	O	-1	O
+0	21	540	2807	2808	S	522	.	.	.	.	O	punct	O	-1	O
+0	22	541	2809	2814	S	543	Jason	Jason	Jason	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	22	542	2815	2817	S	543	is	is	be	VBZ	O	auxpass	O	-1	O
+0	22	543	2818	2822	S	-1	left	left	leave	VBN	O	null	O	-1	B-verb.possession
+0	22	544	2823	2830	S	546	cursing	cursing	cursing	NN	O	nn	O	-1	B-noun.person
+0	22	545	2831	2834	S	546	his	his	he	PRP$	O	poss	O	1	O
+0	22	546	2835	2838		543	lot	lot	lot	NN	O	dobj	O	-1	B-noun.location
+0	22	547	2838	2839	S	543	;	;	;	:	O	punct	O	-1	O
+0	22	548	2840	2843	S	549	his	his	he	PRP$	O	poss	O	1	O
+0	22	549	2844	2848	S	570	hope	hope	hope	NN	O	nsubj	O	-1	B-noun.feeling
+0	22	550	2849	2851	S	549	of	of	of	IN	O	prep	O	-1	O
+0	22	551	2852	2861	S	550	advancing	advancing	advance	VBG	O	pcomp	O	-1	B-verb.motion
+0	22	552	2862	2865	S	553	his	his	he	PRP$	O	poss	O	1	O
+0	22	553	2866	2873	S	551	station	station	station	NN	O	dobj	O	-1	B-noun.artifact
+0	22	554	2874	2876	S	551	by	by	by	IN	O	prep	O	-1	O
+0	22	555	2877	2887	S	554	abandoning	abandoning	abandon	VBG	O	pcomp	O	-1	B-verb.possession
+0	22	556	2888	2893	S	555	Medea	Medea	Medea	NNP	O	dobj	O	-1	B-noun.person
+0	22	557	2894	2897	S	555	and	and	and	CC	O	cc	O	-1	O
+0	22	558	2898	2906	S	555	marrying	marrying	marry	VBG	O	conj	O	-1	B-verb.social
+0	22	559	2907	2913		558	Glauce	Glauce	Glauce	NNP	O	dobj	O	-1	O
+0	22	560	2913	2914	S	559	,	,	,	,	O	punct	O	-1	O
+0	22	561	2915	2918	S	562	the	the	the	DT	O	det	O	-1	O
+0	22	562	2919	2927	S	559	conflict	conflict	conflict	NN	O	appos	O	-1	B-noun.act
+0	22	563	2928	2933	S	564	which	which	which	WDT	O	nsubj	O	-1	O
+0	22	564	2934	2940	S	562	opened	opened	open	VBD	O	rcmod	O	-1	B-verb.contact
+0	22	565	2941	2944	S	566	the	the	the	DT	O	det	O	-1	O
+0	22	566	2945	2949		564	play	play	play	NN	O	dobj	O	-1	B-noun.communication
+0	22	567	2949	2950	S	549	,	,	,	,	O	punct	O	-1	O
+0	22	568	2951	2954	S	570	has	has	have	VBZ	O	aux	O	-1	O
+0	22	569	2955	2959	S	570	been	been	be	VBN	O	auxpass	O	-1	O
+0	22	570	2960	2971		543	annihilated	annihilated	annihilate	VBN	O	parataxis	O	-1	B-verb.change
+0	22	571	2971	2972	S	570	,	,	,	,	O	punct	O	-1	O
+0	22	572	2973	2976	S	570	and	and	and	CC	O	cc	O	-1	O
+0	22	573	2977	2987	S	578	everything	everything	everything	NN	O	nsubj	O	-1	O
+0	22	574	2988	2990	S	575	he	he	he	PRP	O	nsubj	O	1	O
+0	22	575	2991	2997	S	573	values	values	value	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	22	576	2998	3001	S	578	has	has	have	VBZ	O	aux	O	-1	O
+0	22	577	3002	3006	S	578	been	been	be	VBN	O	auxpass	O	-1	O
+0	22	578	3007	3011	S	570	lost	lost	lose	VBN	O	conj	O	-1	B-verb.possession
+0	22	579	3012	3019	S	578	through	through	through	IN	O	prep	O	-1	O
+0	22	580	3020	3023	S	581	the	the	the	DT	O	det	O	-1	O
+0	22	581	3024	3030	S	579	deaths	deaths	death	NNS	O	pobj	O	-1	B-noun.event
+0	22	582	3031	3035	S	583	that	that	that	WDT	O	nsubj	O	-1	O
+0	22	583	3036	3044	S	581	conclude	conclude	conclude	VBP	O	rcmod	O	-1	B-verb.cognition
+0	22	584	3045	3048	S	585	the	the	the	DT	O	det	O	-1	O
+0	22	585	3049	3056		583	tragedy	tragedy	tragedy	NN	O	dobj	O	-1	B-noun.event
+0	22	586	3056	3057	N	543	.	.	.	.	O	punct	O	-1	O

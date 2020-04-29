@@ -1,0 +1,935 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	3	S	1	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	0	1	4	11	S	5	Quixote	Quixote	Quixote	NNP	PERSON	nsubj	O	1	I-noun.person
+0	0	2	12	14	S	5	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	0	3	15	16	S	5	a	a	a	DT	O	det	O	-1	O
+0	0	4	17	28	S	5	middle-aged	middle-aged	middle-aged	JJ	O	amod	O	-1	O
+0	0	5	29	38	S	-1	gentleman	gentleman	gentleman	NN	O	null	O	-1	B-noun.person
+0	0	6	39	43	S	5	from	from	from	IN	O	prep	O	-1	O
+0	0	7	44	47	S	8	the	the	the	DT	O	det	O	-1	O
+0	0	8	48	54	N	6	region	region	region	NN	O	pobj	O	-1	B-noun.location
+0	0	9	55	57	S	8	of	of	of	IN	O	prep	O	-1	O
+0	0	10	58	60	S	11	La	La	La	NNP	LOCATION	nn	O	-1	B-noun.location
+0	0	11	61	67	S	9	Mancha	Mancha	Mancha	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	0	12	68	70	S	5	in	in	in	IN	O	prep	O	-1	O
+0	0	13	71	78	S	14	central	central	central	JJ	O	amod	O	-1	O
+0	0	14	79	84		12	Spain	Spain	Spain	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	15	84	85	S	5	.	.	.	.	O	punct	O	-1	O
+0	1	16	86	94	S	29	Obsessed	Obsessed	obsess	VBN	O	prep	O	-1	B-verb.emotion
+0	1	17	95	99	S	16	with	with	with	IN	O	prep	O	-1	O
+0	1	18	100	103	S	20	the	the	the	DT	O	det	O	-1	O
+0	1	19	104	114	S	20	chivalrous	chivalrous	chivalrous	JJ	O	amod	O	-1	O
+0	1	20	115	121	N	17	ideals	ideals	ideal	NNS	O	pobj	O	-1	B-noun.cognition
+0	1	21	122	128	S	26	touted	touted	tout	VBD	O	dep	O	-1	B-verb.communication
+0	1	22	129	131	S	21	in	in	in	IN	O	prep	O	-1	O
+0	1	23	132	137	S	22	books	books	book	NNS	O	pobj	O	-1	B-noun.communication
+0	1	24	138	140	S	26	he	he	he	PRP	O	nsubj	O	1	O
+0	1	25	141	144	S	26	has	has	have	VBZ	O	aux	O	-1	O
+0	1	26	145	149		16	read	read	read	VBN	O	dep	O	-1	B-verb.cognition
+0	1	27	149	150	S	29	,	,	,	,	O	punct	O	-1	O
+0	1	28	151	153	S	29	he	he	he	PRP	O	nsubj	O	1	O
+0	1	29	154	161	S	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	1	30	162	164	S	31	to	to	to	TO	O	aux	O	-1	O
+0	1	31	165	169	S	29	take	take	take	VB	O	xcomp	O	-1	B-verb.change
+0	1	32	170	172	S	31	up	up	up	RP	O	prt	O	-1	O
+0	1	33	173	176	S	34	his	his	he	PRP$	O	poss	O	1	O
+0	1	34	177	182	S	31	lance	lance	lance	NN	O	dobj	O	-1	B-noun.artifact
+0	1	35	183	186	N	34	and	and	and	CC	O	cc	O	-1	O
+0	1	36	187	192	S	34	sword	sword	sword	NN	O	conj	O	-1	B-noun.artifact
+0	1	37	193	195	S	38	to	to	to	TO	O	aux	O	-1	O
+0	1	38	196	202	S	31	defend	defend	defend	VB	O	xcomp	O	-1	B-verb.communication
+0	1	39	203	206	S	40	the	the	the	DT	O	det	O	-1	O
+0	1	40	207	215	S	38	helpless	helpless	helpless	JJ	O	dobj	O	-1	O
+0	1	41	216	219	S	38	and	and	and	CC	O	cc	O	-1	O
+0	1	42	220	227	S	38	destroy	destroy	destroy	VB	O	conj	O	-1	B-verb.creation
+0	1	43	228	231	S	44	the	the	the	DT	O	det	O	-1	O
+0	1	44	232	238		42	wicked	wicked	wicked	JJ	O	dobj	O	-1	O
+0	1	45	238	239	S	29	.	.	.	.	O	punct	O	-1	O
+0	2	46	240	245	S	49	After	After	after	IN	O	mark	O	-1	O
+0	2	47	246	247	S	48	a	a	a	DT	O	det	O	-1	O
+0	2	48	248	253	N	49	first	first	first	JJ	ORDINAL	nsubj	O	-1	O
+0	2	49	254	260	S	53	failed	failed	fail	VBD	O	advcl	O	-1	B-verb.social
+0	2	50	261	270		49	adventure	adventure	adventure	NN	O	dobj	O	-1	B-noun.act
+0	2	51	270	271	S	53	,	,	,	,	O	punct	O	-1	O
+0	2	52	272	274	S	53	he	he	he	PRP	O	nsubj	O	1	O
+0	2	53	275	279	S	-1	sets	sets	set	VBZ	O	null	O	-1	B-verb.change
+0	2	54	280	283	S	53	out	out	out	RP	O	prt	O	-1	O
+0	2	55	284	286	S	53	on	on	on	IN	O	prep	O	-1	O
+0	2	56	287	288	S	58	a	a	a	DT	DURATION	det	O	-1	O
+0	2	57	289	295	S	58	second	second	second	JJ	DURATION	amod	O	-1	O
+0	2	58	296	299	S	55	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	2	59	300	304	S	58	with	with	with	IN	O	prep	O	-1	O
+0	2	60	305	306	S	63	a	a	a	DT	O	det	O	-1	O
+0	2	61	307	315	S	62	somewhat	somewhat	somewhat	RB	O	advmod	O	-1	O
+0	2	62	316	325	S	63	befuddled	befuddled	befuddle	VBN	O	amod	O	-1	B-verb.cognition
+0	2	63	326	333	N	59	laborer	laborer	laborer	NN	O	pobj	O	-1	B-noun.person
+0	2	64	334	339	S	63	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	2	65	340	346	S	66	Sancho	Sancho	Sancho	NNP	PERSON	nn	O	-1	B-noun.person
+0	2	66	347	352		64	Panza	Panza	Panza	NNP	PERSON	dep	O	-1	I-noun.person
+0	2	67	352	353	S	63	,	,	,	,	O	punct	O	-1	O
+0	2	68	354	358	S	71	whom	whom	whom	WP	O	dobj	O	-1	O
+0	2	69	359	361	S	71	he	he	he	PRP	O	nsubj	O	-1	O
+0	2	70	362	365	S	71	has	has	have	VBZ	O	aux	O	-1	O
+0	2	71	366	375	S	63	persuaded	persuaded	persuade	VBN	O	rcmod	O	-1	B-verb.social
+0	2	72	376	378	S	73	to	to	to	TO	O	aux	O	-1	O
+0	2	73	379	388	S	71	accompany	accompany	accompany	VB	O	xcomp	O	-1	B-verb.stative
+0	2	74	389	392	S	73	him	him	he	PRP	O	dobj	O	-1	O
+0	2	75	393	395	S	73	as	as	as	IN	O	prep	O	-1	O
+0	2	76	396	399	N	78	his	his	he	PRP$	O	poss	O	-1	O
+0	2	77	400	408	S	78	faithful	faithful	faithful	JJ	O	amod	O	-1	O
+0	2	78	409	415		75	squire	squire	squire	NN	O	pobj	O	-1	B-noun.person
+0	2	79	415	416	S	53	.	.	.	.	O	punct	O	-1	O
+0	3	80	417	419	S	89	In	In	in	IN	O	prep	O	-1	O
+0	3	81	420	426	S	80	return	return	return	NN	O	pobj	O	-1	B-noun.communication
+0	3	82	427	430	S	81	for	for	for	IN	O	prep	O	-1	O
+0	3	83	431	437		85	Sancho	Sancho	Sancho	NNP	PERSON	poss	O	4	B-noun.person
+0	3	84	437	439	S	83	’s	's	's	POS	O	possessive	O	-1	O
+0	3	85	440	448		82	services	services	service	NNS	O	pobj	O	-1	B-noun.act
+0	3	86	448	449	S	89	,	,	,	,	O	punct	O	-1	O
+0	3	87	450	453	S	88	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	3	88	454	461	S	89	Quixote	Quixote	Quixote	NNP	PERSON	nsubj	O	1	I-noun.person
+0	3	89	462	470	N	-1	promises	promises	promise	VBZ	O	null	O	-1	B-verb.communication
+0	3	90	471	473	S	91	to	to	to	TO	O	aux	O	-1	O
+0	3	91	474	478	S	89	make	make	make	VB	O	xcomp	O	-1	B-verb.social
+0	3	92	479	485	S	95	Sancho	Sancho	Sancho	NNP	PERSON	nsubj	O	4	B-noun.person
+0	3	93	486	489	S	95	the	the	the	DT	O	det	O	-1	O
+0	3	94	490	497	S	95	wealthy	wealthy	wealthy	JJ	O	amod	O	-1	O
+0	3	95	498	506	S	91	governor	governor	governor	NN	O	xcomp	O	-1	B-noun.person
+0	3	96	507	509	S	95	of	of	of	IN	O	prep	O	-1	O
+0	3	97	510	512	S	98	an	an	a	DT	O	det	O	-1	O
+0	3	98	513	517		96	isle	isle	isle	NN	O	pobj	O	-1	B-noun.object
+0	3	99	517	518	S	89	.	.	.	.	O	punct	O	-1	O
+0	4	100	519	521	S	116	On	On	on	IN	O	prep	O	-1	O
+0	4	101	522	525	S	102	his	his	he	PRP$	O	poss	O	1	O
+0	4	102	526	531		100	horse	horse	horse	NN	O	pobj	O	-1	B-noun.animal
+0	4	103	531	532	S	102	,	,	,	,	O	punct	O	-1	O
+0	4	104	533	542		102	Rocinante	Rocinante	Rocinante	NNP	O	appos	O	-1	O
+0	4	105	542	543	N	116	,	,	,	,	O	punct	O	-1	O
+0	4	106	544	545	S	108	a	a	a	DT	O	det	O	-1	O
+0	4	107	546	550	S	108	barn	barn	barn	NN	O	nn	O	-1	B-noun.artifact
+0	4	108	551	554	S	116	nag	nag	nag	NN	O	nsubj	O	-1	B-noun.person
+0	4	109	555	559	S	110	well	well	well	RB	O	dep	O	-1	O
+0	4	110	560	564	S	108	past	past	past	IN	DATE	prep	O	-1	O
+0	4	111	565	568	S	112	his	his	he	PRP$	O	poss	O	1	O
+0	4	112	569	574		110	prime	prime	prime	JJ	O	pobj	O	-1	O
+0	4	113	574	575	S	116	,	,	,	,	O	punct	O	-1	O
+0	4	114	576	579	S	116	Don	Don	Don	NNP	PERSON	nsubj	O	1	B-noun.person
+0	4	115	580	587	S	116	Quixote	Quixote	Quixote	NNP	PERSON	nn	O	1	I-noun.person
+0	4	116	588	593	S	-1	rides	rides	ride	NNS	O	null	O	-1	B-noun.act
+0	4	117	594	597	S	118	the	the	the	DT	O	det	O	-1	O
+0	4	118	598	603	S	116	roads	roads	road	NNS	O	dobj	O	-1	B-noun.artifact
+0	4	119	604	606	S	118	of	of	of	IN	O	prep	O	-1	O
+0	4	120	607	612	N	119	Spain	Spain	Spain	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	4	121	613	615	S	116	in	in	in	IN	O	prep	O	-1	O
+0	4	122	616	622	S	121	search	search	search	NN	O	pobj	O	-1	B-noun.act
+0	4	123	623	625	S	122	of	of	of	IN	O	prep	O	-1	O
+0	4	124	626	631	S	123	glory	glory	glory	NN	O	pobj	O	-1	B-noun.attribute
+0	4	125	632	635	S	124	and	and	and	CC	O	cc	O	-1	O
+0	4	126	636	641	S	127	grand	grand	grand	JJ	O	amod	O	-1	O
+0	4	127	642	651		124	adventure	adventure	adventure	NN	O	conj	O	-1	B-noun.act
+0	4	128	651	652	S	116	.	.	.	.	O	punct	O	-1	O
+0	5	129	653	655	S	130	He	He	he	PRP	O	nsubj	O	1	O
+0	5	130	656	661	S	-1	gives	gives	give	VBZ	O	null	O	-1	B-verb.possession
+0	5	131	662	664	S	130	up	up	up	RP	O	prt	O	-1	O
+0	5	132	665	669		130	food	food	food	NN	O	dobj	O	-1	B-noun.food
+0	5	133	669	670	S	132	,	,	,	,	O	punct	O	-1	O
+0	5	134	671	678		132	shelter	shelter	shelter	NN	O	conj	O	-1	B-noun.artifact
+0	5	135	678	679	N	132	,	,	,	,	O	punct	O	-1	O
+0	5	136	680	683	S	132	and	and	and	CC	O	cc	O	-1	O
+0	5	137	684	691		132	comfort	comfort	comfort	NN	O	conj	O	-1	B-noun.feeling
+0	5	138	691	692	S	132	,	,	,	,	O	punct	O	-1	O
+0	5	139	693	696	S	132	all	all	all	DT	O	conj	O	-1	O
+0	5	140	697	699	S	139	in	in	in	IN	O	prep	O	-1	O
+0	5	141	700	703	S	142	the	the	the	DT	O	det	O	-1	O
+0	5	142	704	708	S	140	name	name	name	NN	O	pobj	O	-1	B-noun.communication
+0	5	143	709	711	S	142	of	of	of	IN	O	prep	O	-1	O
+0	5	144	712	713	S	146	a	a	a	DT	O	det	O	-1	O
+0	5	145	714	721	S	146	peasant	peasant	peasant	NN	O	nn	O	-1	B-noun.person
+0	5	146	722	727		143	woman	woman	woman	NN	O	pobj	O	-1	B-noun.person
+0	5	147	727	728	S	132	,	,	,	,	O	punct	O	-1	O
+0	5	148	729	737	S	150	Dulcinea	Dulcinea	Dulcinea	NNP	PERSON	nn	O	-1	B-noun.person
+0	5	149	738	741	S	150	del	del	del	NNP	PERSON	nn	O	-1	I-noun.person
+0	5	150	742	748		132	Toboso	Toboso	Toboso	NNP	PERSON	appos	O	-1	I-noun.person
+0	5	151	748	749	N	132	,	,	,	,	O	punct	O	-1	O
+0	5	152	750	754	S	154	whom	whom	whom	WP	O	dobj	O	-1	O
+0	5	153	755	757	S	154	he	he	he	PRP	O	nsubj	O	-1	O
+0	5	154	758	767	S	132	envisions	envisions	envision	VBZ	O	rcmod	O	-1	B-verb.creation
+0	5	155	768	770	S	154	as	as	as	IN	O	prep	O	-1	O
+0	5	156	771	772	S	157	a	a	a	DT	O	det	O	-1	O
+0	5	157	773	781		155	princess	princess	princess	NN	O	pobj	O	-1	B-noun.person
+0	5	158	781	782	S	130	.	.	.	.	O	punct	O	-1	O
+0	6	159	783	785	S	167	On	On	on	IN	O	prep	O	-1	O
+0	6	160	786	789	S	162	his	his	he	PRP$	O	poss	O	-1	O
+0	6	161	790	796	S	162	second	second	second	JJ	ORDINAL	amod	O	-1	O
+0	6	162	797	807		159	expedition	expedition	expedition	NN	O	pobj	O	-1	B-noun.act
+0	6	163	807	808	S	167	,	,	,	,	O	punct	O	-1	O
+0	6	164	809	812	S	165	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	6	165	813	820	S	167	Quixote	Quixote	Quixote	NNP	PERSON	nsubj	O	1	I-noun.person
+0	6	166	821	828	S	167	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	6	167	829	833	S	-1	more	more	more	JJR	O	null	O	-1	O
+0	6	168	834	836	N	167	of	of	of	IN	O	prep	O	-1	O
+0	6	169	837	838	S	170	a	a	a	DT	O	det	O	-1	O
+0	6	170	839	845	S	168	bandit	bandit	bandit	NN	O	pobj	O	-1	B-noun.person
+0	6	171	846	850	S	167	than	than	than	IN	O	prep	O	-1	O
+0	6	172	851	852	S	173	a	a	a	DT	O	det	O	-1	O
+0	6	173	853	859		171	savior	savior	savior	NN	O	pobj	O	-1	B-noun.person
+0	6	174	859	860	S	167	,	,	,	,	O	punct	O	-1	O
+0	6	175	861	869	S	167	stealing	stealing	steal	VBG	O	conj	O	-1	B-verb.possession
+0	6	176	870	874	S	175	from	from	from	IN	O	prep	O	-1	O
+0	6	177	875	878	S	176	and	and	and	CC	O	cc	O	-1	O
+0	6	178	879	886	S	176	hurting	hurting	hurt	VBG	O	conj	O	-1	B-verb.perception
+0	6	179	887	894	S	183	baffled	baffled	baffled	JJ	O	amod	O	-1	O
+0	6	180	895	898	S	179	and	and	and	CC	O	cc	O	-1	O
+0	6	181	899	910	S	182	justifiably	justifiably	justifiably	RB	O	advmod	O	-1	O
+0	6	182	911	916	N	179	angry	angry	angry	JJ	O	conj	O	-1	O
+0	6	183	917	925	S	178	citizens	citizens	citizen	NNS	O	dobj	O	-1	B-noun.person
+0	6	184	926	931	S	178	while	while	while	IN	O	prep	O	-1	O
+0	6	185	932	938	S	184	acting	acting	act	VBG	O	pcomp	O	-1	B-verb.creation
+0	6	186	939	942	S	185	out	out	out	RP	O	prt	O	-1	O
+0	6	187	943	950	S	185	against	against	against	IN	O	prep	O	-1	O
+0	6	188	951	955	S	190	what	what	what	WP	O	dobj	O	-1	O
+0	6	189	956	958	S	190	he	he	he	PRP	O	nsubj	O	1	O
+0	6	190	959	968	S	187	perceives	perceives	perceive	VBZ	O	pcomp	O	-1	B-verb.perception
+0	6	191	969	971	S	190	as	as	as	IN	O	prep	O	-1	O
+0	6	192	972	979	S	191	threats	threats	threat	NNS	O	pobj	O	-1	B-noun.communication
+0	6	193	980	982	N	192	to	to	to	TO	O	prep	O	-1	O
+0	6	194	983	986	S	195	his	his	he	PRP$	O	poss	O	1	O
+0	6	195	987	997	S	193	knighthood	knighthood	knighthood	NN	O	pobj	O	-1	B-noun.group
+0	6	196	998	1000	S	193	or	or	or	CC	O	cc	O	-1	O
+0	6	197	1001	1003	S	193	to	to	to	TO	O	conj	O	-1	O
+0	6	198	1004	1007	S	199	the	the	the	DT	O	det	O	-1	O
+0	6	199	1008	1013		197	world	world	world	NN	O	pobj	O	-1	B-noun.object
+0	6	200	1013	1014	S	167	.	.	.	.	O	punct	O	-1	O
+0	7	201	1015	1018	S	202	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	7	202	1019	1026	S	203	Quixote	Quixote	Quixote	NNP	PERSON	nsubj	O	1	I-noun.person
+0	7	203	1027	1035	S	-1	abandons	abandons	abandon	VBZ	O	null	O	-1	B-verb.possession
+0	7	204	1036	1037	S	205	a	a	a	DT	O	det	O	-1	O
+0	7	205	1038	1041		203	boy	boy	boy	NN	O	dobj	O	-1	B-noun.person
+0	7	206	1041	1042	S	203	,	,	,	,	O	punct	O	-1	O
+0	7	207	1043	1050	N	220	leaving	leaving	leave	VBG	O	csubj	O	-1	B-verb.motion
+0	7	208	1051	1054	S	207	him	him	he	PRP	O	dobj	O	1	O
+0	7	209	1055	1057	S	207	in	in	in	IN	O	prep	O	-1	O
+0	7	210	1058	1061	S	211	the	the	the	DT	O	det	O	-1	O
+0	7	211	1062	1067	S	209	hands	hands	hand	NNS	O	pobj	O	-1	B-noun.body
+0	7	212	1068	1070	S	211	of	of	of	IN	O	prep	O	-1	O
+0	7	213	1071	1073	S	215	an	an	a	DT	O	det	O	-1	O
+0	7	214	1074	1078	S	215	evil	evil	evil	JJ	O	amod	O	-1	O
+0	7	215	1079	1085	S	212	farmer	farmer	farmer	NN	O	pobj	O	-1	B-noun.person
+0	7	216	1086	1092	S	220	simply	simply	simply	RB	O	advmod	O	-1	O
+0	7	217	1093	1100	S	220	because	because	because	IN	O	dep	O	-1	O
+0	7	218	1101	1104	S	219	the	the	the	DT	O	det	O	-1	O
+0	7	219	1105	1111	S	220	farmer	farmer	farmer	NN	O	nsubj	O	-1	B-noun.person
+0	7	220	1112	1118	N	203	swears	swears	swear	VBZ	O	ccomp	O	-1	B-verb.communication
+0	7	221	1119	1121	S	222	an	an	a	DT	O	det	O	-1	O
+0	7	222	1122	1126	S	220	oath	oath	oath	NN	O	dobj	O	-1	B-noun.communication
+0	7	223	1127	1131	S	227	that	that	that	IN	O	complm	O	-1	O
+0	7	224	1132	1134	S	227	he	he	he	PRP	O	nsubj	O	-1	O
+0	7	225	1135	1139	S	227	will	will	will	MD	O	aux	O	-1	O
+0	7	226	1140	1143	S	227	not	not	not	RB	O	neg	O	-1	O
+0	7	227	1144	1148	S	222	harm	harm	harm	VB	O	ccomp	O	-1	B-verb.body
+0	7	228	1149	1152	S	229	the	the	the	DT	O	det	O	-1	O
+0	7	229	1153	1156		227	boy	boy	boy	NN	O	dobj	O	-1	B-noun.person
+0	7	230	1156	1157	S	203	.	.	.	.	O	punct	O	-1	O
+0	8	231	1158	1160	S	232	He	He	he	PRP	O	nsubj	O	-1	O
+0	8	232	1161	1167	S	-1	steals	steals	steal	VBZ	O	null	O	-1	B-verb.possession
+0	8	233	1168	1169	S	234	a	a	a	DT	O	det	O	-1	O
+0	8	234	1170	1176		236	barber	barber	barber	NN	O	poss	O	-1	B-noun.person
+0	8	235	1176	1178	S	234	’s	's	's	POS	O	possessive	O	-1	O
+0	8	236	1179	1184	N	232	basin	basin	basin	NN	O	dobj	O	-1	B-noun.artifact
+0	8	237	1185	1189	S	239	that	that	that	IN	O	complm	O	-1	O
+0	8	238	1190	1192	S	239	he	he	he	PRP	O	nsubj	O	-1	O
+0	8	239	1193	1201	S	236	believes	believes	believe	VBZ	O	ccomp	O	-1	B-verb.cognition
+0	8	240	1202	1204	S	246	to	to	to	TO	O	aux	O	-1	O
+0	8	241	1205	1207	S	246	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	8	242	1208	1211	S	244	the	the	the	DT	O	det	O	-1	O
+0	8	243	1212	1218	S	244	mythic	mythic	mythic	JJ	O	amod	O	-1	O
+0	8	244	1219	1227		246	Mambrino	Mambrino	mambrino	NN	PERSON	poss	O	-1	B-noun.person
+0	8	245	1227	1229	S	244	’s	's	's	POS	O	possessive	O	-1	O
+0	8	246	1230	1236		239	helmet	helmet	helmet	NN	O	xcomp	O	-1	B-noun.artifact
+0	8	247	1236	1237	S	246	,	,	,	,	O	punct	O	-1	O
+0	8	248	1238	1241	S	246	and	and	and	CC	O	cc	O	-1	O
+0	8	249	1242	1244	S	251	he	he	he	PRP	O	nsubj	O	-1	O
+0	8	250	1245	1252	N	251	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	8	251	1253	1262	S	246	convinced	convinced	convinced	JJ	O	conj	O	-1	O
+0	8	252	1263	1265	S	251	of	of	of	IN	O	prep	O	-1	O
+0	8	253	1266	1269	S	255	the	the	the	DT	O	det	O	-1	O
+0	8	254	1270	1277	S	255	healing	healing	healing	NN	O	nn	O	-1	B-noun.process
+0	8	255	1278	1284	S	252	powers	powers	power	NNS	O	pobj	O	-1	B-noun.cognition
+0	8	256	1285	1287	S	255	of	of	of	IN	O	prep	O	-1	O
+0	8	257	1288	1291	S	258	the	the	the	DT	O	det	O	-1	O
+0	8	258	1292	1298	S	256	Balsam	Balsam	Balsam	NNP	O	pobj	O	-1	O
+0	8	259	1299	1301	S	258	of	of	of	IN	O	prep	O	-1	O
+0	8	260	1302	1310		259	Fierbras	Fierbras	Fierbras	NNP	LOCATION	pobj	O	-1	O
+0	8	261	1310	1311	S	258	,	,	,	,	O	punct	O	-1	O
+0	8	262	1312	1314	S	263	an	an	a	DT	O	det	O	-1	O
+0	8	263	1315	1321	N	258	elixir	elixir	elixir	NN	O	appos	O	-1	B-noun.substance
+0	8	264	1322	1326	S	265	that	that	that	WDT	O	nsubj	O	-1	O
+0	8	265	1327	1332	S	263	makes	makes	make	VBZ	O	rcmod	O	-1	B-verb.change
+0	8	266	1333	1336	S	265	him	him	he	PRP	O	dobj	O	-1	O
+0	8	267	1337	1339	S	268	so	so	so	RB	O	advmod	O	-1	O
+0	8	268	1340	1343	S	265	ill	ill	ill	RB	O	advmod	O	-1	O
+0	8	269	1344	1348		277	that	that	that	IN	O	complm	O	-1	O
+0	8	270	1348	1349	S	277	,	,	,	,	O	punct	O	-1	O
+0	8	271	1350	1352	S	277	by	by	by	IN	O	prep	O	-1	O
+0	8	272	1353	1363		271	comparison	comparison	comparison	NN	O	pobj	O	-1	B-noun.act
+0	8	273	1363	1364	S	277	,	,	,	,	O	punct	O	-1	O
+0	8	274	1365	1367	S	277	he	he	he	PRP	O	nsubj	O	-1	O
+0	8	275	1368	1373	S	277	later	later	later	RB	O	advmod	O	-1	O
+0	8	276	1374	1379	S	277	feels	feels	feel	VBZ	O	auxpass	O	-1	O
+0	8	277	1380	1386		265	healed	healed	heal	VBN	O	ccomp	O	-1	B-verb.change
+0	8	278	1386	1387	N	232	.	.	.	.	O	punct	O	-1	O
+0	9	279	1388	1394	S	280	Sancho	Sancho	Sancho	NNP	PERSON	nsubj	O	4	B-noun.person
+0	9	280	1395	1401	S	-1	stands	stands	stand	VBZ	O	null	O	-1	B-verb.stative
+0	9	281	1402	1404	S	280	by	by	by	IN	O	prep	O	-1	O
+0	9	282	1405	1408	S	283	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	9	283	1409	1416		281	Quixote	Quixote	Quixote	NNP	PERSON	pobj	O	1	I-noun.person
+0	9	284	1416	1417	S	280	,	,	,	,	O	punct	O	-1	O
+0	9	285	1418	1423	S	286	often	often	often	RB	O	advmod	O	-1	O
+0	9	286	1424	1431	S	280	bearing	bearing	bear	VBG	O	xcomp	O	-1	B-verb.stative
+0	9	287	1432	1435	S	288	the	the	the	DT	O	det	O	-1	O
+0	9	288	1436	1441	S	286	brunt	brunt	brunt	NN	O	dobj	O	-1	B-noun.attribute
+0	9	289	1442	1444	S	288	of	of	of	IN	O	prep	O	-1	O
+0	9	290	1445	1448	S	291	the	the	the	DT	O	det	O	-1	O
+0	9	291	1449	1460	N	289	punishments	punishments	punishment	NNS	O	pobj	O	-1	B-noun.act
+0	9	292	1461	1465	S	293	that	that	that	WDT	O	nsubj	O	-1	O
+0	9	293	1466	1471	S	291	arise	arise	arise	VBP	O	rcmod	O	-1	B-verb.stative
+0	9	294	1472	1476	S	293	from	from	from	IN	O	prep	O	-1	O
+0	9	295	1477	1480	S	296	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	9	296	1481	1488		298	Quixote	Quixote	Quixote	NNP	PERSON	poss	O	1	I-noun.person
+0	9	297	1488	1490	S	296	’s	's	's	POS	O	possessive	O	-1	O
+0	9	298	1491	1499		294	behavior	behavior	behavior	NN	O	pobj	O	-1	B-noun.act
+0	9	299	1499	1500	S	280	.	.	.	.	O	punct	O	-1	O
+0	10	300	1501	1504	S	301	The	The	the	DT	O	det	O	-1	O
+0	10	301	1505	1510	S	307	story	story	story	NN	O	nsubj	O	-1	B-noun.communication
+0	10	302	1511	1513	S	301	of	of	of	IN	O	prep	O	-1	O
+0	10	303	1514	1517	S	304	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	10	304	1518	1525		306	Quixote	Quixote	Quixote	NNP	PERSON	poss	O	1	I-noun.person
+0	10	305	1525	1527	S	304	’s	's	's	POS	O	possessive	O	-1	O
+0	10	306	1528	1533	S	302	deeds	deeds	deed	NNS	O	pobj	O	-1	B-noun.communication
+0	10	307	1534	1542	S	-1	includes	includes	include	VBZ	O	null	O	-1	B-verb.stative
+0	10	308	1543	1546	S	309	the	the	the	DT	O	det	O	-1	O
+0	10	309	1547	1554	N	307	stories	stories	story	NNS	O	dobj	O	-1	B-noun.communication
+0	10	310	1555	1557	S	309	of	of	of	IN	O	prep	O	-1	O
+0	10	311	1558	1563	S	310	those	those	those	DT	O	pobj	O	-1	O
+0	10	312	1564	1566	S	313	he	he	he	PRP	O	nsubj	O	1	O
+0	10	313	1567	1572	S	311	meets	meets	meet	VBZ	O	rcmod	O	-1	B-verb.motion
+0	10	314	1573	1575	S	313	on	on	on	IN	O	prep	O	-1	O
+0	10	315	1576	1579	S	316	his	his	he	PRP$	O	poss	O	1	O
+0	10	316	1580	1587		314	journey	journey	journey	NN	O	pobj	O	-1	B-noun.act
+0	10	317	1587	1588	S	307	.	.	.	.	O	punct	O	-1	O
+0	11	318	1589	1592	S	320	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	11	319	1593	1600	S	320	Quixote	Quixote	Quixote	NNP	PERSON	nn	O	1	I-noun.person
+0	11	320	1601	1610	S	-1	witnesses	witnesses	witness	NNS	O	null	O	-1	I-noun.person
+0	11	321	1611	1614	S	322	the	the	the	DT	O	det	O	-1	O
+0	11	322	1615	1622	N	320	funeral	funeral	funeral	NN	O	dobj	O	-1	B-noun.event
+0	11	323	1623	1625	S	322	of	of	of	IN	O	prep	O	-1	O
+0	11	324	1626	1627	S	325	a	a	a	DT	O	det	O	-1	O
+0	11	325	1628	1635	S	323	student	student	student	NN	O	pobj	O	-1	B-noun.person
+0	11	326	1636	1639	S	327	who	who	who	WP	O	nsubj	O	-1	O
+0	11	327	1640	1644	S	322	dies	dies	die	VBZ	O	rcmod	O	-1	B-verb.change
+0	11	328	1645	1647	S	327	as	as	as	IN	O	prep	O	-1	O
+0	11	329	1648	1649	S	330	a	a	a	DT	O	det	O	-1	O
+0	11	330	1650	1656	S	328	result	result	result	NN	O	pobj	O	-1	B-noun.phenomenon
+0	11	331	1657	1659	S	330	of	of	of	IN	O	prep	O	-1	O
+0	11	332	1660	1663	S	333	his	his	he	PRP$	O	poss	O	1	O
+0	11	333	1664	1668	S	331	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	11	334	1669	1672	S	333	for	for	for	IN	O	prep	O	-1	O
+0	11	335	1673	1674	S	337	a	a	a	DT	O	det	O	-1	O
+0	11	336	1675	1685	S	337	disdainful	disdainful	disdainful	JJ	O	amod	O	-1	O
+0	11	337	1686	1690	N	334	lady	lady	lady	NN	O	pobj	O	-1	B-noun.person
+0	11	338	1691	1697	S	333	turned	turned	turn	VBD	O	dep	O	-1	B-verb.motion
+0	11	339	1698	1709		338	shepherdess	shepherdess	shepherdess	NN	O	dobj	O	-1	B-noun.person
+0	11	340	1709	1710	S	320	.	.	.	.	O	punct	O	-1	O
+0	12	341	1711	1713	S	342	He	He	he	PRP	O	nsubj	O	1	O
+0	12	342	1714	1719	S	-1	frees	frees	free	VBZ	O	null	O	-1	B-verb.social
+0	12	343	1720	1721	S	348	a	a	a	DT	O	det	O	-1	O
+0	12	344	1722	1728	S	348	wicked	wicked	wicked	JJ	O	amod	O	-1	O
+0	12	345	1729	1732	S	344	and	and	and	CC	O	cc	O	-1	O
+0	12	346	1733	1740	S	344	devious	devious	devious	JJ	O	conj	O	-1	O
+0	12	347	1741	1747	S	348	galley	galley	galley	NN	O	nn	O	-1	B-noun.person
+0	12	348	1748	1753		342	slave	slave	slave	NN	O	dobj	O	-1	I-noun.person
+0	12	349	1753	1754	N	342	,	,	,	,	O	punct	O	-1	O
+0	12	350	1755	1760	S	352	Gines	Gines	Gines	NNP	PERSON	nn	O	-1	O
+0	12	351	1761	1763	S	352	de	de	de	IN	PERSON	dep	O	-1	O
+0	12	352	1764	1773		342	Pasamonte	Pasamonte	Pasamonte	NNP	PERSON	dobj	O	-1	O
+0	12	353	1773	1774	S	342	,	,	,	,	O	punct	O	-1	O
+0	12	354	1775	1778	S	342	and	and	and	CC	O	cc	O	-1	O
+0	12	355	1779	1790	S	356	unwittingly	unwittingly	unwittingly	RB	O	advmod	O	-1	O
+0	12	356	1791	1799	S	342	reunites	reunites	reunite	VBZ	O	conj	O	-1	B-verb.social
+0	12	357	1800	1803	S	359	two	two	two	CD	NUMBER	num	O	-1	O
+0	12	358	1804	1812	S	359	bereaved	bereaved	bereaved	JJ	O	amod	O	-1	O
+0	12	359	1813	1820		356	couples	couples	couple	NNS	O	dobj	O	-1	B-noun.group
+0	12	360	1820	1821	N	342	,	,	,	,	O	punct	O	-1	O
+0	12	361	1822	1830	S	342	Cardenio	Cardenio	Cardenio	NNP	PERSON	xcomp	O	-1	B-noun.person
+0	12	362	1831	1834	S	361	and	and	and	CC	O	cc	O	-1	O
+0	12	363	1835	1842		361	Lucinda	Lucinda	Lucinda	NNP	PERSON	conj	O	-1	O
+0	12	364	1842	1843	S	342	,	,	,	,	O	punct	O	-1	O
+0	12	365	1844	1847	S	342	and	and	and	CC	O	cc	O	-1	O
+0	12	366	1848	1857	S	342	Ferdinand	Ferdinand	Ferdinand	NNP	PERSON	conj	O	0	B-noun.person
+0	12	367	1858	1861	S	366	and	and	and	CC	O	cc	O	-1	O
+0	12	368	1862	1870		366	Dorothea	Dorothea	Dorothea	NNP	PERSON	conj	O	-1	O
+0	12	369	1870	1871	S	342	.	.	.	.	O	punct	O	-1	O
+0	13	370	1872	1876	S	381	Torn	Torn	tear	VBN	O	ccomp	O	-1	B-verb.contact
+0	13	371	1877	1882	S	370	apart	apart	apart	RB	O	advmod	O	-1	O
+0	13	372	1883	1885	N	370	by	by	by	IN	O	prep	O	-1	O
+0	13	373	1886	1895		375	Ferdinand	Ferdinand	Ferdinand	NNP	PERSON	poss	O	0	B-noun.person
+0	13	374	1895	1897	S	373	’s	's	's	POS	O	possessive	O	-1	O
+0	13	375	1898	1907		372	treachery	treachery	treachery	NN	O	pobj	O	-1	B-noun.attribute
+0	13	376	1907	1908	S	381	,	,	,	,	O	punct	O	-1	O
+0	13	377	1909	1912	S	379	the	the	the	DT	O	det	O	-1	O
+0	13	378	1913	1917	S	379	four	four	four	CD	NUMBER	num	O	-1	O
+0	13	379	1918	1924	S	381	lovers	lovers	lover	NNS	O	nsubj	O	-1	B-noun.person
+0	13	380	1925	1932	S	381	finally	finally	finally	RB	O	advmod	O	-1	O
+0	13	381	1933	1937	S	-1	come	come	come	VBN	O	null	O	-1	B-verb.motion
+0	13	382	1938	1946	S	381	together	together	together	RB	O	advmod	O	-1	O
+0	13	383	1947	1949	N	381	at	at	at	IN	O	prep	O	-1	O
+0	13	384	1950	1952	S	385	an	an	a	DT	O	det	O	-1	O
+0	13	385	1953	1956	S	383	inn	inn	inn	NN	O	pobj	O	-1	B-noun.artifact
+0	13	386	1957	1962	S	389	where	where	where	WRB	O	advmod	O	-1	O
+0	13	387	1963	1966	S	388	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	13	388	1967	1974	S	389	Quixote	Quixote	Quixote	NNP	PERSON	nsubj	O	1	I-noun.person
+0	13	389	1975	1981		385	sleeps	sleeps	sleep	VBZ	O	rcmod	O	-1	B-verb.body
+0	13	390	1981	1982	S	381	,	,	,	,	O	punct	O	-1	O
+0	13	391	1983	1991	S	381	dreaming	dreaming	dream	VBG	O	xcomp	O	-1	B-verb.perception
+0	13	392	1992	1996	S	395	that	that	that	IN	O	complm	O	-1	O
+0	13	393	1997	1999	S	395	he	he	he	PRP	O	nsubj	O	1	O
+0	13	394	2000	2002	S	395	is	is	be	VBZ	O	aux	O	-1	O
+0	13	395	2003	2011	S	391	battling	battling	battle	VBG	O	ccomp	O	-1	B-verb.competition
+0	13	396	2012	2013	N	397	a	a	a	DT	O	det	O	-1	O
+0	13	397	2014	2019		395	giant	giant	giant	NN	O	dobj	O	-1	B-noun.animal
+0	13	398	2019	2020	S	381	.	.	.	.	O	punct	O	-1	O
+0	14	399	2021	2026	S	406	Along	Along	along	IN	O	prep	O	-1	O
+0	14	400	2027	2030	S	401	the	the	the	DT	O	det	O	-1	O
+0	14	401	2031	2034		399	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	14	402	2034	2035	S	406	,	,	,	,	O	punct	O	-1	O
+0	14	403	2036	2039	S	405	the	the	the	DT	O	det	O	-1	O
+0	14	404	2040	2046	S	405	simple	simple	simple	JJ	O	amod	O	-1	O
+0	14	405	2047	2053	S	406	Sancho	Sancho	Sancho	NNP	PERSON	nsubj	O	4	B-noun.person
+0	14	406	2054	2059	S	-1	plays	plays	play	VBZ	O	null	O	-1	B-verb.competition
+0	14	407	2060	2063	S	409	the	the	the	DT	O	det	O	-1	O
+0	14	408	2064	2072	S	409	straight	straight	straight	JJ	O	amod	O	-1	O
+0	14	409	2073	2076	N	406	man	man	man	NN	O	dobj	O	-1	B-noun.person
+0	14	410	2077	2079	S	406	to	to	to	TO	O	prep	O	-1	O
+0	14	411	2080	2083	S	412	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	14	412	2084	2091		410	Quixote	Quixote	Quixote	NNP	PERSON	pobj	O	1	I-noun.person
+0	14	413	2091	2092	S	406	,	,	,	,	O	punct	O	-1	O
+0	14	414	2093	2099	S	406	trying	trying	try	VBG	O	xcomp	O	-1	B-verb.social
+0	14	415	2100	2103	S	416	his	his	he	PRP$	O	poss	O	1	O
+0	14	416	2104	2108	S	414	best	best	best	JJS	O	dobj	O	-1	O
+0	14	417	2109	2111	S	418	to	to	to	TO	O	aux	O	-1	O
+0	14	418	2112	2119	S	414	correct	correct	correct	VB	O	xcomp	O	-1	B-verb.change
+0	14	419	2120	2123	S	420	his	his	he	PRP$	O	poss	O	1	O
+0	14	420	2124	2130		423	master	master	master	NN	O	poss	O	-1	B-noun.person
+0	14	421	2130	2132	S	420	’s	's	's	POS	O	possessive	O	-1	O
+0	14	422	2133	2143	N	423	outlandish	outlandish	outlandish	JJ	O	amod	O	-1	O
+0	14	423	2144	2153		418	fantasies	fantasies	fantasy	NNS	O	dobj	O	-1	B-noun.cognition
+0	14	424	2153	2154	S	406	.	.	.	.	O	punct	O	-1	O
+0	15	425	2155	2158	S	-1	Two	Two	two	CD	NUMBER	null	O	-1	O
+0	15	426	2159	2161	S	425	of	of	of	IN	O	prep	O	-1	O
+0	15	427	2162	2165	S	428	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	15	428	2166	2173		430	Quixote	Quixote	Quixote	NNP	PERSON	poss	O	1	I-noun.person
+0	15	429	2173	2175	S	428	’s	's	's	POS	O	possessive	O	-1	O
+0	15	430	2176	2183		426	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	15	431	2183	2184	S	425	,	,	,	,	O	punct	O	-1	O
+0	15	432	2185	2188	S	433	the	the	the	DT	O	det	O	-1	O
+0	15	433	2189	2195	S	438	priest	priest	priest	NN	O	nsubj	O	-1	B-noun.person
+0	15	434	2196	2199	S	438	and	and	and	CC	O	cc	O	-1	O
+0	15	435	2200	2203	S	436	the	the	the	DT	O	det	O	-1	O
+0	15	436	2204	2210		438	barber	barber	barber	NN	O	nsubj	O	-1	B-noun.person
+0	15	437	2210	2211	N	436	,	,	,	,	O	punct	O	-1	O
+0	15	438	2212	2216	S	425	come	come	come	VBN	O	rcmod	O	-1	B-verb.motion
+0	15	439	2217	2219	S	440	to	to	to	TO	O	aux	O	-1	O
+0	15	440	2220	2224	S	438	drag	drag	drag	VB	O	xcomp	O	-1	B-verb.contact
+0	15	441	2225	2228	S	440	him	him	he	PRP	O	dobj	O	1	O
+0	15	442	2229	2233		440	home	home	home	NN	O	advmod	O	-1	O
+0	15	443	2233	2234	S	425	.	.	.	.	O	punct	O	-1	O
+0	16	444	2235	2244	S	456	Believing	Believing	believe	VBG	O	dep	O	-1	B-verb.cognition
+0	16	445	2245	2249	S	447	that	that	that	IN	O	complm	O	-1	O
+0	16	446	2250	2252	S	447	he	he	he	PRP	O	nsubj	O	1	O
+0	16	447	2253	2255	S	444	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	16	448	2256	2261	S	447	under	under	under	IN	O	prep	O	-1	O
+0	16	449	2262	2265	S	450	the	the	the	DT	O	det	O	-1	O
+0	16	450	2266	2271	S	448	force	force	force	NN	O	pobj	O	-1	B-noun.attribute
+0	16	451	2272	2274	S	450	of	of	of	IN	O	prep	O	-1	O
+0	16	452	2275	2277	N	453	an	an	a	DT	O	det	O	-1	O
+0	16	453	2278	2289		451	enchantment	enchantment	enchantment	NN	O	pobj	O	-1	B-noun.feeling
+0	16	454	2289	2290	S	456	,	,	,	,	O	punct	O	-1	O
+0	16	455	2291	2293	S	456	he	he	he	PRP	O	nsubj	O	1	O
+0	16	456	2294	2305	S	-1	accompanies	accompanies	accompany	VBZ	O	null	O	-1	B-verb.stative
+0	16	457	2306	2310		456	them	them	they	PRP	O	dobj	O	-1	O
+0	16	458	2310	2311	S	456	,	,	,	,	O	punct	O	-1	O
+0	16	459	2312	2316	S	460	thus	thus	thus	RB	O	advmod	O	-1	O
+0	16	460	2317	2323	S	456	ending	ending	end	VBG	O	xcomp	O	-1	B-verb.stative
+0	16	461	2324	2327	S	463	his	his	he	PRP$	O	poss	O	1	O
+0	16	462	2328	2334	S	463	second	second	second	JJ	ORDINAL	amod	O	-1	O
+0	16	463	2335	2345	N	460	expedition	expedition	expedition	NN	O	dobj	O	-1	B-noun.act
+0	16	464	2346	2349	S	463	and	and	and	CC	O	cc	O	-1	O
+0	16	465	2350	2353	S	467	the	the	the	DT	O	det	O	-1	O
+0	16	466	2354	2359	S	467	First	First	First	NNP	ORDINAL	nn	O	-1	O
+0	16	467	2360	2364	S	463	Part	Part	Part	NNP	O	conj	O	-1	O
+0	16	468	2365	2367	S	467	of	of	of	IN	O	prep	O	-1	O
+0	16	469	2368	2371	S	470	the	the	the	DT	O	det	O	-1	O
+0	16	470	2372	2377		468	novel	novel	novel	NN	O	pobj	O	-1	B-noun.communication
+0	16	471	2377	2378	S	456	.	.	.	.	O	punct	O	-1	O
+0	17	472	2379	2382	S	474	The	The	the	DT	O	det	O	-1	O
+0	17	473	2383	2389	S	474	Second	Second	second	JJ	ORDINAL	amod	O	-1	O
+0	17	474	2390	2394	S	478	Part	Part	part	NN	O	nsubj	O	-1	B-noun.object
+0	17	475	2395	2397	S	474	of	of	of	IN	O	prep	O	-1	O
+0	17	476	2398	2401	S	477	the	the	the	DT	O	det	O	-1	O
+0	17	477	2402	2407	S	475	novel	novel	novel	JJ	O	pobj	O	-1	O
+0	17	478	2408	2414	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	17	479	2415	2419	S	478	with	with	with	IN	O	prep	O	-1	O
+0	17	480	2420	2421	S	482	a	a	a	DT	O	det	O	-1	O
+0	17	481	2422	2432	N	482	passionate	passionate	passionate	JJ	O	amod	O	-1	O
+0	17	482	2433	2442	S	479	invective	invective	invective	NN	O	pobj	O	-1	B-noun.communication
+0	17	483	2443	2450	S	482	against	against	against	IN	O	prep	O	-1	O
+0	17	484	2451	2452	S	486	a	a	a	DT	O	det	O	-1	O
+0	17	485	2453	2458	S	486	phony	phony	phony	JJ	O	amod	O	-1	O
+0	17	486	2459	2465	S	483	sequel	sequel	sequel	NN	O	pobj	O	-1	B-noun.event
+0	17	487	2466	2468	S	486	of	of	of	IN	O	prep	O	-1	O
+0	17	488	2469	2472	S	489	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	17	489	2473	2480	S	487	Quixote	Quixote	Quixote	NNP	PERSON	pobj	O	1	I-noun.person
+0	17	490	2481	2485	N	492	that	that	that	WDT	O	nsubjpass	O	-1	O
+0	17	491	2486	2489	S	492	was	was	be	VBD	O	auxpass	O	-1	O
+0	17	492	2490	2499	S	489	published	published	publish	VBN	O	rcmod	O	-1	B-verb.creation
+0	17	493	2500	2502	S	492	in	in	in	IN	O	prep	O	-1	O
+0	17	494	2503	2506	S	495	the	the	the	DT	O	det	O	-1	O
+0	17	495	2507	2514	S	493	interim	interim	interim	JJ	O	pobj	O	-1	O
+0	17	496	2515	2522	S	492	between	between	between	IN	O	prep	O	-1	O
+0	17	497	2523	2532		500	Cervantes	Cervantes	Cervantes	NNP	PERSON	poss	O	3	B-noun.person
+0	17	498	2532	2534	S	497	’s	's	's	POS	O	possessive	O	-1	O
+0	17	499	2535	2538	S	500	two	two	two	CD	NUMBER	num	O	-1	O
+0	17	500	2539	2544		496	parts	parts	part	NNS	O	pobj	O	-1	B-noun.relation
+0	17	501	2544	2545	S	478	.	.	.	.	O	punct	O	-1	O
+0	18	502	2546	2556	N	505	Everywhere	Everywhere	everywhere	RB	O	advmod	O	-1	O
+0	18	503	2557	2560	S	504	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	18	504	2561	2568	S	505	Quixote	Quixote	Quixote	NNP	PERSON	nsubj	O	1	I-noun.person
+0	18	505	2569	2573		525	goes	goes	go	VBZ	O	advcl	O	-1	O
+0	18	506	2573	2574	S	525	,	,	,	,	O	punct	O	-1	O
+0	18	507	2575	2578	S	508	his	his	he	PRP$	O	poss	O	1	O
+0	18	508	2579	2589		525	reputation	reputation	reputation	NN	O	nsubj	O	-1	B-noun.state
+0	18	509	2589	2590		510	—	--	--	:	O	punct	O	-1	O
+0	18	510	2590	2597	S	508	gleaned	gleaned	glean	VBN	O	dep	O	-1	B-verb.contact
+0	18	511	2598	2600	S	510	by	by	by	IN	O	prep	O	-1	O
+0	18	512	2601	2607	S	511	others	others	other	NNS	O	pobj	O	-1	O
+0	18	513	2608	2612	S	510	from	from	from	IN	O	prep	O	-1	O
+0	18	514	2613	2617	S	516	both	both	both	CC	O	preconj	O	-1	O
+0	18	515	2618	2621	N	516	the	the	the	DT	O	det	O	-1	O
+0	18	516	2622	2626	S	513	real	real	real	JJ	O	pobj	O	-1	O
+0	18	517	2627	2630	S	516	and	and	and	CC	O	cc	O	-1	O
+0	18	518	2631	2634	S	520	the	the	the	DT	O	det	O	-1	O
+0	18	519	2635	2640	S	520	false	false	false	JJ	O	amod	O	-1	O
+0	18	520	2641	2649	S	516	versions	versions	version	NNS	O	conj	O	-1	B-noun.communication
+0	18	521	2650	2652	S	520	of	of	of	IN	O	prep	O	-1	O
+0	18	522	2653	2656	S	523	the	the	the	DT	O	det	O	-1	O
+0	18	523	2657	2662		521	story	story	story	NN	O	pobj	O	-1	B-noun.communication
+0	18	524	2662	2663		510	—	--	--	:	O	punct	O	-1	O
+0	18	525	2663	2671	S	-1	precedes	precedes	precede	VBZ	O	null	O	-1	B-verb.stative
+0	18	526	2672	2675		525	him	him	he	PRP	O	dobj	O	1	O
+0	18	527	2675	2676	S	525	.	.	.	.	O	punct	O	-1	O
+0	19	528	2677	2679	S	531	As	As	as	IN	O	mark	O	-1	O
+0	19	529	2680	2683	S	530	the	the	the	DT	O	dep	O	-1	O
+0	19	530	2684	2687	S	531	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	19	531	2688	2694	S	537	embark	embark	embark	VBP	O	advcl	O	-1	B-verb.motion
+0	19	532	2695	2697	S	531	on	on	on	IN	O	prep	O	-1	O
+0	19	533	2698	2703	S	534	their	their	they	PRP$	O	poss	O	-1	O
+0	19	534	2704	2711		532	journey	journey	journey	NN	O	pobj	O	-1	B-noun.act
+0	19	535	2711	2712	S	537	,	,	,	,	O	punct	O	-1	O
+0	19	536	2713	2719	S	537	Sancho	Sancho	Sancho	NNP	PERSON	nsubj	O	4	O
+0	19	537	2720	2724	S	-1	lies	lies	lie	VBZ	O	null	O	-1	B-verb.stative
+0	19	538	2725	2727	S	537	to	to	to	TO	O	prep	O	-1	O
+0	19	539	2728	2731	N	540	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	19	540	2732	2739		538	Quixote	Quixote	Quixote	NNP	PERSON	pobj	O	1	I-noun.person
+0	19	541	2739	2740	S	537	,	,	,	,	O	punct	O	-1	O
+0	19	542	2741	2748	S	537	telling	telling	tell	VBG	O	xcomp	O	-1	B-verb.communication
+0	19	543	2749	2752	S	542	him	him	he	PRP	O	dobj	O	1	O
+0	19	544	2753	2757	S	549	that	that	that	IN	O	complm	O	-1	O
+0	19	545	2758	2760	S	547	an	an	a	DT	O	det	O	-1	O
+0	19	546	2761	2765	S	547	evil	evil	evil	JJ	O	amod	O	-1	O
+0	19	547	2766	2775	S	549	enchanter	enchanter	enchanter	NN	O	nsubj	O	-1	B-noun.person
+0	19	548	2776	2779	S	549	has	has	have	VBZ	O	aux	O	-1	O
+0	19	549	2780	2791	S	542	transformed	transformed	transform	VBN	O	ccomp	O	-1	B-verb.change
+0	19	550	2792	2800	N	549	Dulcinea	Dulcinea	Dulcinea	NNP	PERSON	dobj	O	-1	B-noun.person
+0	19	551	2801	2805	S	549	into	into	into	IN	O	prep	O	-1	O
+0	19	552	2806	2807	S	554	a	a	a	DT	O	det	O	-1	O
+0	19	553	2808	2815	S	554	peasant	peasant	peasant	NN	O	nn	O	-1	B-noun.person
+0	19	554	2816	2820		551	girl	girl	girl	NN	O	pobj	O	-1	B-noun.person
+0	19	555	2820	2821	S	537	.	.	.	.	O	punct	O	-1	O
+0	20	556	2822	2829	S	573	Undoing	Undoing	undoing	NN	O	nsubj	O	-1	B-noun.act
+0	20	557	2830	2834	S	558	this	this	this	DT	O	det	O	-1	O
+0	20	558	2835	2846		556	enchantment	enchantment	enchantment	NN	O	dep	O	-1	B-noun.feeling
+0	20	559	2846	2847	S	556	,	,	,	,	O	punct	O	-1	O
+0	20	560	2848	2850	S	564	in	in	in	IN	O	rel	O	-1	O
+0	20	561	2851	2856	S	560	which	which	which	WDT	O	pobj	O	-1	O
+0	20	562	2857	2861	S	563	even	even	even	RB	O	advmod	O	-1	O
+0	20	563	2862	2868	S	564	Sancho	Sancho	Sancho	NNP	PERSON	nsubj	O	4	B-noun.person
+0	20	564	2869	2874	N	556	comes	comes	come	VBZ	O	rcmod	O	-1	B-verb.motion
+0	20	565	2875	2877	S	566	to	to	to	TO	O	aux	O	-1	O
+0	20	566	2878	2885		564	believe	believe	believe	VB	O	xcomp	O	-1	B-verb.cognition
+0	20	567	2885	2886	S	556	,	,	,	,	O	punct	O	-1	O
+0	20	568	2887	2894	S	573	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.stative
+0	20	569	2895	2898	S	570	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	20	570	2899	2906		573	Quixote	Quixote	Quixote	NNP	PERSON	poss	O	1	I-noun.person
+0	20	571	2906	2908	S	570	’s	's	's	POS	O	possessive	O	-1	O
+0	20	572	2909	2914	S	573	chief	chief	chief	JJ	O	amod	O	-1	O
+0	20	573	2915	2919		-1	goal	goal	goal	NN	O	null	O	-1	B-noun.cognition
+0	20	574	2919	2920	S	573	.	.	.	.	O	punct	O	-1	O
+0	21	575	2921	2924	S	576	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	21	576	2925	2932	S	577	Quixote	Quixote	Quixote	NNP	PERSON	nsubj	O	1	I-noun.person
+0	21	577	2933	2938	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	21	578	2939	2940	S	579	a	a	a	DT	O	det	O	-1	O
+0	21	579	2941	2945	S	577	Duke	Duke	Duke	NNP	ORGANIZATION	dobj	O	2	B-noun.person
+0	21	580	2946	2949	S	579	and	and	and	CC	O	cc	O	-1	O
+0	21	581	2950	2957	S	579	Duchess	Duchess	Duchess	NNP	O	conj	O	-1	B-noun.person
+0	21	582	2958	2961	S	583	who	who	who	WP	O	nsubj	O	-1	O
+0	21	583	2962	2970	S	579	conspire	conspire	conspire	VBP	O	rcmod	O	-1	B-verb.cognition
+0	21	584	2971	2973	N	585	to	to	to	TO	O	aux	O	-1	O
+0	21	585	2974	2978	S	583	play	play	play	VB	O	xcomp	O	-1	B-verb.competition
+0	21	586	2979	2985	S	585	tricks	tricks	trick	NNS	O	dobj	O	-1	B-noun.act
+0	21	587	2986	2988	S	585	on	on	on	IN	O	prep	O	-1	O
+0	21	588	2989	2992		587	him	him	he	PRP	O	pobj	O	1	O
+0	21	589	2992	2993	S	577	.	.	.	.	O	punct	O	-1	O
+0	22	590	2994	2998	S	591	They	They	they	PRP	O	nsubj	O	-1	O
+0	22	591	2999	3003	S	-1	make	make	make	VBP	O	null	O	-1	B-verb.creation
+0	22	592	3004	3005	S	594	a	a	a	DT	O	det	O	-1	O
+0	22	593	3006	3013	S	594	servant	servant	servant	JJ	O	amod	O	-1	O
+0	22	594	3014	3019	S	595	dress	dress	dress	NN	O	nsubj	O	-1	B-noun.artifact
+0	22	595	3020	3022	S	591	up	up	up	RP	O	prt	O	-1	O
+0	22	596	3023	3025	S	603	as	as	as	IN	O	mark	O	-1	O
+0	22	597	3026	3032		603	Merlin	Merlin	Merlin	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	22	598	3032	3033	S	603	,	,	,	,	O	punct	O	-1	O
+0	22	599	3034	3037	N	603	for	for	for	IN	O	prep	O	-1	O
+0	22	600	3038	3045		599	example	example	example	NN	O	pobj	O	-1	B-noun.cognition
+0	22	601	3045	3046	S	603	,	,	,	,	O	punct	O	-1	O
+0	22	602	3047	3050	S	603	and	and	and	CC	O	cc	O	-1	O
+0	22	603	3051	3055	S	591	tell	tell	tell	VB	O	advcl	O	-1	B-verb.communication
+0	22	604	3056	3059	S	605	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	22	605	3060	3067	S	603	Quixote	Quixote	Quixote	NNP	PERSON	dobj	O	1	I-noun.person
+0	22	606	3068	3072	S	613	that	that	that	IN	O	complm	O	-1	O
+0	22	607	3073	3081		609	Dulcinea	Dulcinea	Dulcinea	NNP	LOCATION	poss	O	-1	B-noun.person
+0	22	608	3081	3083	S	607	’s	's	's	POS	O	possessive	O	-1	O
+0	22	609	3084	3095		613	enchantment	enchantment	enchantment	NN	O	nsubj	O	-1	B-noun.feeling
+0	22	610	3095	3096		613	—	--	--	:	O	punct	O	-1	O
+0	22	611	3096	3101	N	613	which	which	which	WDT	O	dep	O	-1	O
+0	22	612	3102	3106	S	613	they	they	they	PRP	O	nsubj	O	-1	O
+0	22	613	3107	3111	S	603	know	know	know	VBP	O	ccomp	O	-1	B-verb.cognition
+0	22	614	3112	3114	S	617	to	to	to	TO	O	aux	O	-1	O
+0	22	615	3115	3117	S	617	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	22	616	3118	3119	S	617	a	a	a	DT	O	det	O	-1	O
+0	22	617	3120	3124		621	hoax	hoax	hoax	NN	O	nsubjpass	O	-1	B-noun.act
+0	22	618	3124	3125		617	—	--	--	:	O	punct	O	-1	O
+0	22	619	3125	3128	S	621	can	can	can	MD	O	aux	O	-1	O
+0	22	620	3129	3131	S	621	be	be	be	VB	O	auxpass	O	-1	O
+0	22	621	3132	3138	S	613	undone	undone	undo	VBN	O	ccomp	O	-1	B-verb.contact
+0	22	622	3139	3143	S	625	only	only	only	RB	O	advmod	O	-1	O
+0	22	623	3144	3146	S	625	if	if	if	IN	O	dep	O	-1	O
+0	22	624	3147	3153	S	625	Sancho	Sancho	Sancho	NNP	PERSON	nsubj	O	4	B-noun.person
+0	22	625	3154	3159	S	621	whips	whips	whip	VBZ	O	ccomp	O	-1	B-verb.motion
+0	22	626	3160	3167	S	625	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	22	627	3168	3173	S	628	3,300	3,300	3,300	CD	NUMBER	num	O	-1	O
+0	22	628	3174	3179	N	625	times	times	time	NNS	O	tmod	O	-1	B-noun.event
+0	22	629	3180	3182	S	628	on	on	on	IN	O	prep	O	-1	O
+0	22	630	3183	3186	S	632	his	his	he	PRP$	O	poss	O	4	O
+0	22	631	3187	3192	S	632	naked	naked	naked	JJ	O	amod	O	-1	O
+0	22	632	3193	3201		629	backside	backside	backside	NN	O	pobj	O	-1	B-noun.location
+0	22	633	3201	3202	S	591	.	.	.	.	O	punct	O	-1	O
+0	23	634	3203	3208	S	647	Under	Under	under	IN	O	prep	O	-1	O
+0	23	635	3209	3212	S	636	the	the	the	DT	O	det	O	-1	O
+0	23	636	3213	3218	S	634	watch	watch	watch	NN	O	pobj	O	-1	B-noun.artifact
+0	23	637	3219	3221	S	636	of	of	of	IN	O	prep	O	-1	O
+0	23	638	3222	3225	S	639	the	the	the	DT	O	det	O	-1	O
+0	23	639	3226	3230	S	637	Duke	Duke	Duke	NNP	ORGANIZATION	pobj	O	2	B-noun.person
+0	23	640	3231	3234	S	639	and	and	and	CC	O	cc	O	-1	O
+0	23	641	3235	3242		639	Duchess	Duchess	Duchess	NNP	O	conj	O	-1	B-noun.person
+0	23	642	3242	3243	N	639	,	,	,	,	O	punct	O	-1	O
+0	23	643	3244	3247	S	644	Don	Don	Don	NNP	PERSON	dep	O	1	B-noun.person
+0	23	644	3248	3255	S	639	Quixote	Quixote	Quixote	NNP	PERSON	conj	O	1	I-noun.person
+0	23	645	3256	3259	S	639	and	and	and	CC	O	cc	O	-1	O
+0	23	646	3260	3266	S	639	Sancho	Sancho	Sancho	NNP	PERSON	conj	O	4	B-noun.person
+0	23	647	3267	3276	S	-1	undertake	undertake	undertake	VB	O	null	O	-1	B-verb.creation
+0	23	648	3277	3284	S	649	several	several	several	JJ	O	amod	O	-1	O
+0	23	649	3285	3295		647	adventures	adventures	adventure	NNS	O	dobj	O	-1	B-noun.act
+0	23	650	3295	3296	S	647	.	.	.	.	O	punct	O	-1	O
+0	24	651	3297	3301	S	652	They	They	they	PRP	O	nsubj	O	-1	O
+0	24	652	3302	3305	S	-1	set	set	set	VBD	O	null	O	-1	B-verb.change
+0	24	653	3306	3309	N	652	out	out	out	RP	O	prt	O	-1	O
+0	24	654	3310	3312	S	652	on	on	on	IN	O	prep	O	-1	O
+0	24	655	3313	3314	S	658	a	a	a	DT	O	det	O	-1	O
+0	24	656	3315	3321	S	658	flying	flying	fly	VBG	O	amod	O	-1	B-verb.motion
+0	24	657	3322	3328	S	658	wooden	wooden	wooden	JJ	O	amod	O	-1	O
+0	24	658	3329	3334		654	horse	horse	horse	NN	O	pobj	O	-1	B-noun.animal
+0	24	659	3334	3335	S	652	,	,	,	,	O	punct	O	-1	O
+0	24	660	3336	3342	S	652	hoping	hoping	hope	VBG	O	xcomp	O	-1	B-verb.emotion
+0	24	661	3343	3345	S	662	to	to	to	TO	O	aux	O	-1	O
+0	24	662	3346	3350	S	660	slay	slay	slay	VB	O	xcomp	O	-1	B-verb.social
+0	24	663	3351	3352	S	664	a	a	a	DT	O	det	O	-1	O
+0	24	664	3353	3358	S	662	giant	giant	giant	NN	O	dobj	O	-1	B-noun.animal
+0	24	665	3359	3362	S	667	who	who	who	WP	O	nsubj	O	-1	O
+0	24	666	3363	3366	S	667	has	has	have	VBZ	O	aux	O	-1	O
+0	24	667	3367	3373	N	664	turned	turned	turn	VBN	O	rcmod	O	-1	B-verb.change
+0	24	668	3374	3375	S	669	a	a	a	DT	O	det	O	-1	O
+0	24	669	3376	3384	S	667	princess	princess	princess	NN	O	dobj	O	-1	B-noun.person
+0	24	670	3385	3388	S	669	and	and	and	CC	O	cc	O	-1	O
+0	24	671	3389	3392	S	672	her	her	she	PRP$	O	poss	O	-1	O
+0	24	672	3393	3398	S	669	lover	lover	lover	NN	O	conj	O	-1	B-noun.person
+0	24	673	3399	3403	S	667	into	into	into	IN	O	prep	O	-1	O
+0	24	674	3404	3409	S	675	metal	metal	metal	NN	O	nn	O	-1	B-noun.substance
+0	24	675	3410	3419	S	673	figurines	figurines	figurine	NNS	O	pobj	O	-1	B-noun.artifact
+0	24	676	3420	3423	S	652	and	and	and	CC	O	cc	O	-1	O
+0	24	677	3424	3431	S	652	bearded	bearded	beard	VBD	O	conj	O	-1	B-verb.stative
+0	24	678	3432	3435	S	679	the	the	the	DT	O	det	O	-1	O
+0	24	679	3436	3444		682	princess	princess	princess	NN	O	poss	O	-1	B-noun.person
+0	24	680	3444	3446	N	679	’s	's	's	POS	O	possessive	O	-1	O
+0	24	681	3447	3453	S	682	female	female	female	JJ	O	amod	O	-1	O
+0	24	682	3454	3462		677	servants	servants	servant	NNS	O	dobj	O	-1	B-noun.person
+0	24	683	3462	3463	S	652	.	.	.	.	O	punct	O	-1	O
+0	25	684	3464	3470	S	693	During	During	during	IN	O	prep	O	-1	O
+0	25	685	3471	3474	S	686	his	his	he	PRP$	O	poss	O	1	O
+0	25	686	3475	3479	S	684	stay	stay	stay	NN	O	pobj	O	-1	B-noun.act
+0	25	687	3480	3484	S	686	with	with	with	IN	O	prep	O	-1	O
+0	25	688	3485	3488	S	689	the	the	the	DT	O	det	O	-1	O
+0	25	689	3489	3493		687	Duke	Duke	Duke	NNP	O	pobj	O	-1	B-noun.person
+0	25	690	3493	3494	S	693	,	,	,	,	O	punct	O	-1	O
+0	25	691	3495	3501	S	693	Sancho	Sancho	Sancho	NNP	PERSON	nsubj	O	4	O
+0	25	692	3502	3509	S	693	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	25	693	3510	3518	N	-1	governor	governor	governor	NN	O	null	O	-1	B-noun.person
+0	25	694	3519	3521	S	693	of	of	of	IN	O	prep	O	-1	O
+0	25	695	3522	3523	S	697	a	a	a	DT	O	det	O	-1	O
+0	25	696	3524	3534	S	697	fictitious	fictitious	fictitious	JJ	O	amod	O	-1	O
+0	25	697	3535	3539		694	isle	isle	isle	NN	O	pobj	O	-1	B-noun.object
+0	25	698	3539	3540	S	693	.	.	.	.	O	punct	O	-1	O
+0	26	699	3541	3543	S	700	He	He	he	PRP	O	nsubj	O	4	O
+0	26	700	3544	3549	S	-1	rules	rules	rule	VBZ	O	null	O	-1	B-verb.social
+0	26	701	3550	3553	S	700	for	for	for	IN	O	prep	O	-1	O
+0	26	702	3554	3557	S	703	ten	ten	ten	CD	DURATION	num	O	-1	O
+0	26	703	3558	3562	S	701	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	26	704	3563	3568	S	707	until	until	until	IN	O	mark	O	-1	O
+0	26	705	3569	3571	S	707	he	he	he	PRP	O	nsubjpass	O	4	O
+0	26	706	3572	3574	S	707	is	is	be	VBZ	O	auxpass	O	-1	O
+0	26	707	3575	3582	N	700	wounded	wounded	wound	VBN	O	advcl	O	-1	B-verb.body
+0	26	708	3583	3585	S	707	in	in	in	IN	O	prep	O	-1	O
+0	26	709	3586	3588	S	710	an	an	a	DT	O	det	O	-1	O
+0	26	710	3589	3598	S	708	onslaught	onslaught	onslaught	NN	O	pobj	O	-1	B-noun.event
+0	26	711	3599	3602	S	712	the	the	the	DT	O	det	O	-1	O
+0	26	712	3603	3607	S	710	Duke	Duke	Duke	NNP	O	dep	O	-1	B-noun.person
+0	26	713	3608	3611	S	712	and	and	and	CC	O	cc	O	-1	O
+0	26	714	3612	3619	S	715	Duchess	Duchess	Duchess	NNP	O	nn	O	-1	B-noun.person
+0	26	715	3620	3627	S	712	sponsor	sponsor	sponsor	NN	O	conj	O	-1	I-noun.person
+0	26	716	3628	3631	S	715	for	for	for	IN	O	prep	O	-1	O
+0	26	717	3632	3637	S	718	their	their	they	PRP$	O	poss	O	-1	O
+0	26	718	3638	3651		716	entertainment	entertainment	entertainment	NN	O	pobj	O	-1	B-noun.act
+0	26	719	3651	3652	N	700	.	.	.	.	O	punct	O	-1	O
+0	27	720	3653	3659	S	721	Sancho	Sancho	Sancho	NNP	PERSON	nn	O	4	O
+0	27	721	3660	3667	S	-1	reasons	reasons	reason	NNS	O	null	O	-1	B-noun.motive
+0	27	722	3668	3672	S	725	that	that	that	IN	O	complm	O	-1	O
+0	27	723	3673	3675	S	725	it	it	it	PRP	O	nsubj	O	-1	O
+0	27	724	3676	3678	S	725	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	27	725	3679	3685	S	721	better	better	better	JJR	O	ccomp	O	-1	O
+0	27	726	3686	3688	S	730	to	to	to	TO	O	aux	O	-1	O
+0	27	727	3689	3691	S	730	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	27	728	3692	3693	S	730	a	a	a	DT	O	det	O	-1	O
+0	27	729	3694	3699	S	730	happy	happy	happy	JJ	O	amod	O	-1	O
+0	27	730	3700	3707	S	725	laborer	laborer	laborer	NN	O	xcomp	O	-1	B-noun.person
+0	27	731	3708	3712	S	725	than	than	than	IN	O	prep	O	-1	O
+0	27	732	3713	3714	S	734	a	a	a	DT	O	det	O	-1	O
+0	27	733	3715	3724	N	734	miserable	miserable	miserable	JJ	O	amod	O	-1	O
+0	27	734	3725	3733		731	governor	governor	governor	NN	O	pobj	O	-1	B-noun.person
+0	27	735	3733	3734	S	721	.	.	.	.	O	punct	O	-1	O
+0	28	736	3735	3736	S	738	A	A	a	DT	O	det	O	-1	O
+0	28	737	3737	3742	S	738	young	young	young	JJ	O	amod	O	-1	O
+0	28	738	3743	3747	S	744	maid	maid	maid	NN	O	nsubj	O	-1	B-noun.person
+0	28	739	3748	3750	S	738	at	at	at	IN	O	prep	O	-1	O
+0	28	740	3751	3754	S	741	the	the	the	DT	O	det	O	-1	O
+0	28	741	3755	3762		743	Duchess	Duchess	Duchess	NNP	O	poss	O	-1	B-noun.person
+0	28	742	3762	3764	S	741	’s	's	's	POS	O	possessive	O	-1	O
+0	28	743	3765	3769	S	739	home	home	home	NN	O	pobj	O	-1	B-noun.artifact
+0	28	744	3770	3775	S	-1	falls	falls	fall	VBZ	O	null	O	-1	B-verb.change
+0	28	745	3776	3778	S	744	in	in	in	IN	O	prep	O	-1	O
+0	28	746	3779	3783	S	745	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	28	747	3784	3788	N	746	with	with	with	IN	O	prep	O	-1	O
+0	28	748	3789	3792	S	749	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	28	749	3793	3800		747	Quixote	Quixote	Quixote	NNP	PERSON	pobj	O	1	I-noun.person
+0	28	750	3800	3801	S	744	,	,	,	,	O	punct	O	-1	O
+0	28	751	3802	3805	S	744	but	but	but	CC	O	cc	O	-1	O
+0	28	752	3806	3808	S	756	he	he	he	PRP	O	nsubj	O	1	O
+0	28	753	3809	3816	S	756	remains	remains	remain	VBZ	O	cop	O	-1	B-verb.change
+0	28	754	3817	3818	S	756	a	a	a	DT	O	det	O	-1	O
+0	28	755	3819	3826	S	756	staunch	staunch	staunch	JJ	O	amod	O	-1	O
+0	28	756	3827	3837	S	744	worshipper	worshipper	worshipper	NN	O	conj	O	-1	B-noun.person
+0	28	757	3838	3840	S	756	of	of	of	IN	O	prep	O	-1	O
+0	28	758	3841	3849		757	Dulcinea	Dulcinea	Dulcinea	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	28	759	3849	3850	S	744	.	.	.	.	O	punct	O	-1	O
+0	29	760	3851	3856	N	762	Their	Their	they	PRP$	O	poss	O	-1	O
+0	29	761	3857	3874	S	762	never-consummated	never-consummated	never-consummated	JJ	O	amod	O	-1	O
+0	29	762	3875	3881	S	763	affair	affair	affair	NN	O	nsubj	O	-1	B-noun.cognition
+0	29	763	3882	3888	S	-1	amuses	amuses	amuse	VBZ	O	null	O	-1	B-verb.social
+0	29	764	3889	3892	S	765	the	the	the	DT	O	det	O	-1	O
+0	29	765	3893	3898	S	763	court	court	court	NN	O	dobj	O	-1	B-noun.group
+0	29	766	3899	3901	S	763	to	to	to	TO	O	prep	O	-1	O
+0	29	767	3902	3904	S	768	no	no	no	DT	O	det	O	-1	O
+0	29	768	3905	3908		766	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	29	769	3908	3909	S	763	.	.	.	.	O	punct	O	-1	O
+0	30	770	3910	3917		774	Finally	Finally	finally	RB	O	advmod	O	-1	O
+0	30	771	3917	3918	S	774	,	,	,	,	O	punct	O	-1	O
+0	30	772	3919	3922	N	773	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	30	773	3923	3930	S	774	Quixote	Quixote	Quixote	NNP	PERSON	nsubj	O	1	I-noun.person
+0	30	774	3931	3935	S	-1	sets	sets	set	VBZ	O	null	O	-1	B-verb.change
+0	30	775	3936	3939	S	774	out	out	out	RP	O	prt	O	-1	O
+0	30	776	3940	3945	S	774	again	again	again	RB	O	advmod	O	-1	O
+0	30	777	3946	3948	S	774	on	on	on	IN	O	prep	O	-1	O
+0	30	778	3949	3952	S	779	his	his	he	PRP$	O	poss	O	1	O
+0	30	779	3953	3960		777	journey	journey	journey	NN	O	pobj	O	-1	B-noun.act
+0	30	780	3960	3961	S	774	,	,	,	,	O	punct	O	-1	O
+0	30	781	3962	3965	S	774	but	but	but	CC	O	cc	O	-1	O
+0	30	782	3966	3969	S	783	his	his	he	PRP$	O	poss	O	1	O
+0	30	783	3970	3976	S	784	demise	demise	demise	NN	O	nsubj	O	-1	B-noun.time
+0	30	784	3977	3982	S	774	comes	comes	come	VBZ	O	conj	O	-1	B-verb.motion
+0	30	785	3983	3990		784	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	30	786	3990	3991	S	774	.	.	.	.	O	punct	O	-1	O
+0	31	787	3992	3999	N	788	Shortly	Shortly	shortly	RB	O	dep	O	-1	O
+0	31	788	4000	4005	S	808	after	after	after	IN	O	prep	O	-1	O
+0	31	789	4006	4009	S	790	his	his	he	PRP$	O	poss	O	1	O
+0	31	790	4010	4017	S	788	arrival	arrival	arrival	NN	O	pobj	O	-1	B-noun.act
+0	31	791	4018	4020	S	790	in	in	in	IN	O	prep	O	-1	O
+0	31	792	4021	4030		791	Barcelona	Barcelona	Barcelona	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	31	793	4030	4031	S	792	,	,	,	,	O	punct	O	-1	O
+0	31	794	4032	4035	S	795	the	the	the	DT	O	det	O	-1	O
+0	31	795	4036	4042	S	792	Knight	Knight	Knight	NNP	O	appos	O	-1	B-noun.person
+0	31	796	4043	4045	S	795	of	of	of	IN	O	prep	O	-1	O
+0	31	797	4046	4049	S	799	the	the	the	DT	O	det	O	-1	O
+0	31	798	4050	4055	S	799	White	White	White	NNP	LOCATION	nn	O	-1	B-noun.person
+0	31	799	4056	4060		796	Moon	Moon	Moon	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	31	800	4060	4061		804	—	--	--	:	O	punct	O	-1	O
+0	31	801	4061	4069	N	804	actually	actually	actually	RB	O	advmod	O	-1	O
+0	31	802	4070	4072	S	804	an	an	a	DT	O	det	O	-1	O
+0	31	803	4073	4076	S	804	old	old	old	JJ	O	amod	O	-1	O
+0	31	804	4077	4083	S	808	friend	friend	friend	NN	O	nsubj	O	-1	B-noun.person
+0	31	805	4084	4086	S	804	in	in	in	IN	O	prep	O	-1	O
+0	31	806	4087	4095		805	disguise	disguise	disguise	VB	O	pobj	O	-1	B-verb.perception
+0	31	807	4095	4096		804	—	--	--	:	O	punct	O	-1	O
+0	31	808	4096	4106	S	-1	vanquishes	vanquishes	vanquish	VBZ	O	null	O	-1	B-verb.competition
+0	31	809	4107	4110		808	him	him	he	PRP	O	dobj	O	-1	O
+0	31	810	4110	4111	S	808	.	.	.	.	O	punct	O	-1	O
+0	32	811	4112	4121	S	812	Cervantes	Cervantes	Cervantes	NNP	PERSON	nsubj	O	3	B-noun.person
+0	32	812	4122	4129	S	-1	relates	relates	relate	VBZ	O	null	O	-1	B-verb.cognition
+0	32	813	4130	4133	S	814	the	the	the	DT	O	det	O	-1	O
+0	32	814	4134	4139	S	812	story	story	story	NN	O	dobj	O	-1	B-noun.communication
+0	32	815	4140	4142	S	814	of	of	of	IN	O	prep	O	-1	O
+0	32	816	4143	4146	S	817	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	32	817	4147	4154	S	815	Quixote	Quixote	Quixote	NNP	PERSON	pobj	O	1	I-noun.person
+0	32	818	4155	4157	S	835	as	as	as	IN	O	mark	O	-1	O
+0	32	819	4158	4159	S	820	a	a	a	DT	O	det	O	-1	O
+0	32	820	4160	4167		835	history	history	history	NN	O	nsubj	O	-1	B-noun.time
+0	32	821	4167	4168	N	820	,	,	,	,	O	punct	O	-1	O
+0	32	822	4169	4174	S	824	which	which	which	WDT	O	dobj	O	-1	O
+0	32	823	4175	4177	S	824	he	he	he	PRP	O	nsubj	O	1	O
+0	32	824	4178	4184	S	820	claims	claims	claim	VBZ	O	rcmod	O	-1	B-verb.communication
+0	32	825	4185	4187	S	827	he	he	he	PRP	O	nsubj	O	1	O
+0	32	826	4188	4191	S	827	has	has	have	VBZ	O	aux	O	-1	O
+0	32	827	4192	4202	S	824	translated	translated	translate	VBN	O	ccomp	O	-1	B-verb.communication
+0	32	828	4203	4207	S	827	from	from	from	IN	O	prep	O	-1	O
+0	32	829	4208	4209	S	830	a	a	a	DT	O	det	O	-1	O
+0	32	830	4210	4220	S	828	manuscript	manuscript	manuscript	NN	O	pobj	O	-1	B-noun.communication
+0	32	831	4221	4228	S	830	written	written	write	VBN	O	partmod	O	-1	B-verb.creation
+0	32	832	4229	4231	S	831	by	by	by	IN	O	prep	O	-1	O
+0	32	833	4232	4233	N	834	a	a	a	DT	O	det	O	-1	O
+0	32	834	4234	4238	S	832	Moor	Moor	Moor	NNP	O	pobj	O	-1	B-noun.person
+0	32	835	4239	4244	S	812	named	named	name	VBD	O	advcl	O	-1	B-verb.communication
+0	32	836	4245	4249	S	838	Cide	Cide	Cide	NNP	PERSON	nn	O	-1	B-noun.person
+0	32	837	4250	4256	S	838	Hamete	Hamete	Hamete	NNP	PERSON	nn	O	-1	I-noun.person
+0	32	838	4257	4266		835	Benengeli	Benengeli	Benengeli	NNP	PERSON	dobj	O	-1	I-noun.person
+0	32	839	4266	4267	S	812	.	.	.	.	O	punct	O	-1	O
+0	33	840	4268	4277	S	843	Cervantes	Cervantes	Cervantes	NNP	PERSON	nsubj	O	3	B-noun.person
+0	33	841	4278	4285	S	843	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	33	842	4286	4287	S	843	a	a	a	DT	O	det	O	-1	O
+0	33	843	4288	4293	S	-1	party	party	party	NN	O	null	O	-1	B-noun.group
+0	33	844	4294	4296	S	843	to	to	to	TO	O	prep	O	-1	O
+0	33	845	4297	4300	S	847	his	his	he	PRP$	O	poss	O	3	O
+0	33	846	4301	4304	N	847	own	own	own	JJ	O	amod	O	-1	O
+0	33	847	4305	4312		844	fiction	fiction	fiction	NN	O	pobj	O	-1	B-noun.communication
+0	33	848	4312	4313	S	843	,	,	,	,	O	punct	O	-1	O
+0	33	849	4314	4318	S	850	even	even	even	RB	O	advmod	O	-1	O
+0	33	850	4319	4327	S	843	allowing	allowing	allow	VBG	O	xcomp	O	-1	B-verb.social
+0	33	851	4328	4334	S	856	Sancho	Sancho	Sancho	NNP	PERSON	nsubj	O	4	B-noun.person
+0	33	852	4335	4338	S	851	and	and	and	CC	O	cc	O	-1	O
+0	33	853	4339	4342	S	854	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	33	854	4343	4350	S	851	Quixote	Quixote	Quixote	NNP	PERSON	conj	O	1	I-noun.person
+0	33	855	4351	4353	S	856	to	to	to	TO	O	aux	O	-1	O
+0	33	856	4354	4360	S	850	modify	modify	modify	VB	O	xcomp	O	-1	B-verb.change
+0	33	857	4361	4366	S	859	their	their	they	PRP$	O	poss	O	-1	O
+0	33	858	4367	4370	N	859	own	own	own	JJ	O	amod	O	-1	O
+0	33	859	4371	4380	S	856	histories	histories	history	NNS	O	dobj	O	-1	B-noun.time
+0	33	860	4381	4384	S	856	and	and	and	CC	O	cc	O	-1	O
+0	33	861	4385	4392	S	856	comment	comment	comment	VB	O	conj	O	-1	B-verb.communication
+0	33	862	4393	4403	S	856	negatively	negatively	negatively	RB	O	dobj	O	-1	O
+0	33	863	4404	4408	S	856	upon	upon	upon	IN	O	prep	O	-1	O
+0	33	864	4409	4412	S	866	the	the	the	DT	O	det	O	-1	O
+0	33	865	4413	4418	S	866	false	false	false	JJ	O	amod	O	-1	O
+0	33	866	4419	4426	S	863	history	history	history	NN	O	pobj	O	-1	B-noun.time
+0	33	867	4427	4436	N	866	published	published	publish	VBN	O	partmod	O	-1	B-verb.creation
+0	33	868	4437	4439	S	867	in	in	in	IN	O	prep	O	-1	O
+0	33	869	4440	4445	S	870	their	their	they	PRP$	O	poss	O	-1	O
+0	33	870	4446	4451		868	names	names	name	NNS	O	pobj	O	-1	B-noun.communication
+0	33	871	4451	4452	S	843	.	.	.	.	O	punct	O	-1	O
+0	34	872	4453	4455	S	882	In	In	in	IN	O	prep	O	-1	O
+0	34	873	4456	4459	S	874	the	the	the	DT	O	det	O	-1	O
+0	34	874	4460	4463		872	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	34	875	4463	4464	S	882	,	,	,	,	O	punct	O	-1	O
+0	34	876	4465	4468	S	881	the	the	the	DT	O	det	O	-1	O
+0	34	877	4469	4475	S	881	beaten	beaten	beaten	JJ	O	amod	O	-1	O
+0	34	878	4476	4479	S	877	and	and	and	CC	O	cc	O	-1	O
+0	34	879	4480	4488	S	877	battered	battered	battered	JJ	O	conj	O	-1	O
+0	34	880	4489	4492	S	881	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	34	881	4493	4500	S	882	Quixote	Quixote	Quixote	NNP	PERSON	nsubj	O	1	I-noun.person
+0	34	882	4501	4510	N	-1	forswears	forswears	forswear	VBZ	O	null	O	-1	B-verb.communication
+0	34	883	4511	4514	S	886	all	all	all	PDT	O	predet	O	-1	O
+0	34	884	4515	4518	S	886	the	the	the	DT	O	det	O	-1	O
+0	34	885	4519	4528	S	886	chivalric	chivalric	chivalric	JJ	O	amod	O	-1	O
+0	34	886	4529	4535	S	888	truths	truths	truth	NNS	O	advmod	O	-1	B-noun.cognition
+0	34	887	4536	4538	S	888	he	he	he	PRP	O	nsubj	O	1	O
+0	34	888	4539	4547	S	882	followed	followed	follow	VBD	O	dep	O	-1	B-verb.motion
+0	34	889	4548	4550	S	890	so	so	so	RB	O	advmod	O	-1	O
+0	34	890	4551	4560	S	888	fervently	fervently	fervently	RB	O	advmod	O	-1	O
+0	34	891	4561	4564	S	882	and	and	and	CC	O	cc	O	-1	O
+0	34	892	4565	4569	S	882	dies	dies	die	VBZ	O	conj	O	-1	B-verb.change
+0	34	893	4570	4574	N	892	from	from	from	IN	O	prep	O	-1	O
+0	34	894	4575	4576	S	895	a	a	a	DT	O	det	O	-1	O
+0	34	895	4577	4582		893	fever	fever	fever	NN	O	pobj	O	-1	B-noun.state
+0	34	896	4582	4583	S	882	.	.	.	.	O	punct	O	-1	O
+0	35	897	4584	4588	S	903	With	With	with	IN	O	prep	O	-1	O
+0	35	898	4589	4592	S	899	his	his	he	PRP$	O	poss	O	1	O
+0	35	899	4593	4598		897	death	death	death	NN	O	pobj	O	-1	B-noun.time
+0	35	900	4598	4599	S	903	,	,	,	,	O	punct	O	-1	O
+0	35	901	4600	4614	S	903	knights-errant	knights-errant	knights-errant	JJ	O	nsubj	O	-1	O
+0	35	902	4615	4621	S	903	become	become	become	VBN	O	cop	O	-1	B-verb.stative
+0	35	903	4622	4629		-1	extinct	extinct	extinct	JJ	O	null	O	-1	O
+0	35	904	4629	4630	S	903	.	.	.	.	O	punct	O	-1	O
+0	36	905	4631	4640	N	906	Benengeli	Benengeli	benengeli	JJ	PERSON	amod	O	-1	O
+0	36	906	4641	4648	S	914	returns	returns	return	NNS	O	nsubj	O	-1	B-noun.communication
+0	36	907	4649	4651	S	906	at	at	at	IN	O	prep	O	-1	O
+0	36	908	4652	4655	S	909	the	the	the	DT	O	det	O	-1	O
+0	36	909	4656	4659	S	907	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	36	910	4660	4662	S	909	of	of	of	IN	O	prep	O	-1	O
+0	36	911	4663	4666	S	912	the	the	the	DT	O	det	O	-1	O
+0	36	912	4667	4672	S	910	novel	novel	novel	JJ	O	pobj	O	-1	O
+0	36	913	4673	4675	S	914	to	to	to	TO	O	aux	O	-1	O
+0	36	914	4676	4680	S	-1	tell	tell	tell	VB	O	null	O	-1	B-verb.communication
+0	36	915	4681	4683	S	914	us	us	we	PRP	O	dobj	O	-1	O
+0	36	916	4684	4688	S	925	that	that	that	IN	O	complm	O	-1	O
+0	36	917	4689	4701	S	925	illustrating	illustrating	illustrate	VBG	O	csubj	O	-1	B-verb.communication
+0	36	918	4702	4705	N	919	the	the	the	DT	O	det	O	-1	O
+0	36	919	4706	4712	S	917	demise	demise	demise	NN	O	dobj	O	-1	B-noun.time
+0	36	920	4713	4715	S	919	of	of	of	IN	O	prep	O	-1	O
+0	36	921	4716	4724	S	920	chivalry	chivalry	chivalry	NN	O	pobj	O	-1	B-noun.attribute
+0	36	922	4725	4728	S	925	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	36	923	4729	4732	S	925	his	his	he	PRP$	O	poss	O	1	O
+0	36	924	4733	4737	S	925	main	main	main	JJ	O	amod	O	-1	O
+0	36	925	4738	4745	S	914	purpose	purpose	purpose	NN	O	ccomp	O	-1	B-noun.cognition
+0	36	926	4746	4748	S	925	in	in	in	IN	O	prep	O	-1	O
+0	36	927	4749	4756	S	926	writing	writing	write	VBG	O	pcomp	O	-1	B-verb.creation
+0	36	928	4757	4760	S	929	the	the	the	DT	O	det	O	-1	O
+0	36	929	4761	4768	S	927	history	history	history	NN	O	dobj	O	-1	B-noun.time
+0	36	930	4769	4771	N	929	of	of	of	IN	O	prep	O	-1	O
+0	36	931	4772	4775	S	932	Don	Don	Don	NNP	PERSON	nn	O	1	B-noun.person
+0	36	932	4776	4783		930	Quixote	Quixote	Quixote	NNP	PERSON	pobj	O	1	I-noun.person
+0	36	933	4783	4784	N	914	.	.	.	.	O	punct	O	-1	O

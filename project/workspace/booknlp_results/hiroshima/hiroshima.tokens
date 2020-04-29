@@ -1,0 +1,658 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	2	S	9	On	On	on	IN	O	prep	O	-1	O
+0	0	1	3	9	S	0	August	August	August	NNP	DATE	pobj	O	-1	B-noun.time
+0	0	2	10	11		1	6	6	6	CD	DATE	num	O	-1	O
+0	0	3	11	12	S	1	,	,	,	,	DATE	punct	O	-1	O
+0	0	4	13	17		1	1945	1945	1945	CD	DATE	appos	O	-1	O
+0	0	5	17	18	S	9	,	,	,	,	O	punct	O	-1	O
+0	0	6	19	22	N	8	the	the	the	DT	O	det	O	-1	O
+0	0	7	23	31	S	8	American	American	american	JJ	MISC	amod	O	-1	O
+0	0	8	32	36	S	9	army	army	army	NN	O	nsubj	O	-1	B-noun.group
+0	0	9	37	46	S	-1	decimates	decimates	decimate	VBZ	O	null	O	-1	B-verb.change
+0	0	10	47	50	S	11	the	the	the	DT	O	det	O	-1	O
+0	0	11	51	55	S	9	city	city	city	NN	O	dobj	O	-1	B-noun.location
+0	0	12	56	58	S	11	of	of	of	IN	O	prep	O	-1	O
+0	0	13	59	68	S	12	Hiroshima	Hiroshima	Hiroshima	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	14	69	73	S	9	with	with	with	IN	O	prep	O	-1	O
+0	0	15	74	75	S	16	a	a	a	DT	O	det	O	-1	O
+0	0	16	76	80	S	14	bomb	bomb	bomb	NN	O	pobj	O	-1	B-noun.artifact
+0	0	17	81	83	S	16	of	of	of	IN	O	prep	O	-1	O
+0	0	18	84	92	N	19	enormous	enormous	enormous	JJ	O	amod	O	-1	O
+0	0	19	93	98		17	power	power	power	NN	O	pobj	O	-1	B-noun.attribute
+0	0	20	98	99	S	9	;	;	;	:	O	punct	O	-1	O
+0	0	21	100	103	S	30	out	out	out	IN	O	advmod	O	-1	O
+0	0	22	104	106	S	21	of	of	of	IN	O	dep	O	-1	O
+0	0	23	107	108	S	24	a	a	a	DT	O	det	O	-1	O
+0	0	24	109	119	S	22	population	population	population	NN	O	pobj	O	-1	B-noun.group
+0	0	25	120	122	S	24	of	of	of	IN	O	prep	O	-1	O
+0	0	26	123	130		25	250,000	250,000	250,000	CD	NUMBER	pobj	O	-1	O
+0	0	27	130	131	S	30	,	,	,	,	O	punct	O	-1	O
+0	0	28	132	135	N	29	the	the	the	DT	O	det	O	-1	O
+0	0	29	136	140	S	30	bomb	bomb	bomb	NN	O	nsubj	O	-1	B-noun.artifact
+0	0	30	141	146	S	9	kills	kills	kill	VBZ	O	parataxis	O	-1	B-verb.contact
+0	0	31	147	153	S	32	nearly	nearly	nearly	RB	O	quantmod	O	-1	O
+0	0	32	154	161	S	33	100,000	100,000	100,000	CD	NUMBER	num	O	-1	O
+0	0	33	162	168	S	30	people	people	people	NNS	O	dobj	O	-1	B-noun.group
+0	0	34	169	172	S	30	and	and	and	CC	O	cc	O	-1	O
+0	0	35	173	180	S	30	injures	injures	injure	VBZ	O	conj	O	-1	B-verb.body
+0	0	36	181	188	S	37	100,000	100,000	100,000	CD	NUMBER	num	O	-1	O
+0	0	37	189	193		35	more	more	more	JJR	O	dobj	O	-1	O
+0	0	38	193	194	N	9	.	.	.	.	O	punct	O	-1	O
+0	1	39	195	197	S	49	In	In	in	IN	O	prep	O	-1	O
+0	1	40	198	201	S	42	its	its	its	PRP$	O	poss	O	-1	O
+0	1	41	202	210	S	42	original	original	original	JJ	O	amod	O	-1	O
+0	1	42	211	218		39	edition	edition	edition	NN	O	pobj	O	-1	B-noun.communication
+0	1	43	218	219	S	49	,	,	,	,	O	punct	O	-1	O
+0	1	44	220	226		47	Hersey	Hersey	Hersey	NNP	PERSON	poss	O	4	B-noun.person
+0	1	45	226	228	S	44	’s	's	's	POS	O	possessive	O	-1	O
+0	1	46	229	238	S	47	Hiroshima	Hiroshima	Hiroshima	NNP	LOCATION	nn	O	-1	B-noun.location
+0	1	47	239	245	N	49	traces	traces	trace	NNS	O	nsubj	O	-1	I-noun.location
+0	1	48	246	249	S	49	the	the	the	DT	O	det	O	-1	O
+0	1	49	250	255	S	-1	lives	lives	life	NNS	O	null	O	-1	B-noun.state
+0	1	50	256	258	S	49	of	of	of	IN	O	prep	O	-1	O
+0	1	51	259	262	S	52	six	six	six	CD	NUMBER	num	O	-1	O
+0	1	52	263	272		50	survivors	survivors	survivor	NNS	O	pobj	O	-1	B-noun.person
+0	1	53	272	273		49	—	--	--	:	O	punct	O	-1	O
+0	1	54	273	276	S	55	two	two	two	CD	NUMBER	num	O	-1	O
+0	1	55	277	284		49	doctors	doctors	doctor	NNS	O	dep	O	-1	B-noun.person
+0	1	56	284	285	S	55	,	,	,	,	O	punct	O	-1	O
+0	1	57	286	289	S	58	two	two	two	CD	NUMBER	num	O	-1	O
+0	1	58	290	295		55	women	women	woman	NNS	O	conj	O	-1	B-noun.person
+0	1	59	295	296	S	55	,	,	,	,	O	punct	O	-1	O
+0	1	60	297	300	S	55	and	and	and	CC	O	cc	O	-1	O
+0	1	61	301	304	S	63	two	two	two	CD	NUMBER	num	O	-1	O
+0	1	62	305	314	N	63	religious	religious	religious	JJ	O	amod	O	-1	O
+0	1	63	315	318		55	men	men	man	NNS	O	conj	O	-1	B-noun.person
+0	1	64	318	319		63	—	--	--	:	O	punct	O	-1	O
+0	1	65	319	323	S	70	from	from	from	IN	O	prep	O	-1	O
+0	1	66	324	327	S	67	the	the	the	DT	O	det	O	-1	O
+0	1	67	328	334	S	65	moment	moment	moment	NN	O	pobj	O	-1	B-noun.time
+0	1	68	335	338	S	69	the	the	the	DT	O	det	O	-1	O
+0	1	69	339	343	S	70	bomb	bomb	bomb	NN	O	nsubj	O	-1	B-noun.artifact
+0	1	70	344	349	S	63	drops	drops	drop	VBZ	O	dep	O	-1	B-verb.motion
+0	1	71	350	355	S	75	until	until	until	IN	O	mark	O	-1	O
+0	1	72	356	357	S	74	a	a	a	DT	DATE	det	O	-1	O
+0	1	73	358	361	S	74	few	few	few	JJ	DATE	amod	O	-1	O
+0	1	74	362	368	S	75	months	months	month	NNS	DATE	dep	O	-1	B-noun.time
+0	1	75	369	374		70	later	later	later	RB	DATE	advcl	O	-1	O
+0	1	76	374	375	S	49	.	.	.	.	O	punct	O	-1	O
+0	2	77	376	378	S	81	In	In	in	IN	O	prep	O	-1	O
+0	2	78	379	383		77	1985	1985	1985	CD	DATE	pobj	O	-1	O
+0	2	79	383	384	N	81	,	,	,	,	O	punct	O	-1	O
+0	2	80	385	391	S	81	Hersey	Hersey	Hersey	NNP	PERSON	nsubj	O	4	O
+0	2	81	392	397	S	-1	added	added	add	VBD	O	null	O	-1	B-verb.change
+0	2	82	398	399	S	83	a	a	a	DT	O	det	O	-1	O
+0	2	83	400	410	S	81	postscript	postscript	postscript	NN	O	dobj	O	-1	B-noun.communication
+0	2	84	411	415	S	86	that	that	that	WDT	O	nsubj	O	-1	O
+0	2	85	416	419	S	86	now	now	now	RB	DATE	advmod	O	-1	O
+0	2	86	420	425	S	83	forms	forms	form	VBZ	O	rcmod	O	-1	B-verb.social
+0	2	87	426	429	S	88	the	the	the	DT	O	det	O	-1	O
+0	2	88	430	434		91	book	book	book	NN	O	poss	O	-1	B-noun.communication
+0	2	89	434	436	S	88	’s	's	's	POS	O	possessive	O	-1	O
+0	2	90	437	442	S	91	fifth	fifth	fifth	JJ	ORDINAL	amod	O	-1	O
+0	2	91	443	450		86	chapter	chapter	chapter	NN	O	dobj	O	-1	B-noun.communication
+0	2	92	450	451	N	81	.	.	.	.	O	punct	O	-1	O
+0	3	93	452	454	S	98	In	In	in	IN	O	prep	O	-1	O
+0	3	94	455	459	S	95	this	this	this	DT	O	det	O	-1	O
+0	3	95	460	467		93	chapter	chapter	chapter	NN	O	pobj	O	-1	B-noun.communication
+0	3	96	467	468	S	98	,	,	,	,	O	punct	O	-1	O
+0	3	97	469	475	S	98	Hersey	Hersey	Hersey	NNP	PERSON	nsubj	O	4	O
+0	3	98	476	486	S	-1	reexamines	reexamines	reexamine	VBZ	O	null	O	-1	B-verb.cognition
+0	3	99	487	492	S	101	these	these	these	DT	O	det	O	-1	O
+0	3	100	493	496	S	101	six	six	six	CD	NUMBER	num	O	-1	O
+0	3	101	497	508		103	individuals	individuals	individual	NNS	O	poss	O	-1	B-noun.Tops
+0	3	102	508	509	S	101	’	'	'	POS	O	possessive	O	-1	O
+0	3	103	510	515	N	98	lives	lives	life	NNS	O	dobj	O	-1	B-noun.state
+0	3	104	516	518	S	98	in	in	in	IN	O	prep	O	-1	O
+0	3	105	519	522	S	107	the	the	the	DT	DURATION	det	O	-1	O
+0	3	106	523	528	S	107	forty	forty	forty	CD	DURATION	num	O	-1	O
+0	3	107	529	534	S	104	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	3	108	535	540	S	98	since	since	since	IN	O	prep	O	-1	O
+0	3	109	541	544	S	110	the	the	the	DT	O	det	O	-1	O
+0	3	110	545	549		108	bomb	bomb	bomb	NN	O	pobj	O	-1	B-noun.artifact
+0	3	111	549	550	S	98	.	.	.	.	O	punct	O	-1	O
+0	4	112	551	554	S	116	The	The	the	DT	O	det	O	-1	O
+0	4	113	555	563	S	116	Reverend	Reverend	Reverend	NNP	O	nn	O	-1	B-noun.person
+0	4	114	564	567	S	116	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	-1	I-noun.person
+0	4	115	568	575	S	116	Kiyoshi	Kiyoshi	Kiyoshi	NNP	PERSON	nn	O	-1	I-noun.person
+0	4	116	576	584		128	Tanimoto	Tanimoto	Tanimoto	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	4	117	584	585	S	116	,	,	,	,	O	punct	O	-1	O
+0	4	118	586	587	S	120	a	a	a	DT	O	det	O	-1	O
+0	4	119	588	597	S	120	community	community	community	NN	O	nn	O	-1	B-noun.group
+0	4	120	598	604	N	116	leader	leader	leader	NN	O	appos	O	-1	B-noun.person
+0	4	121	605	608	S	120	and	and	and	CC	O	cc	O	-1	O
+0	4	122	609	611	S	125	an	an	a	DT	O	det	O	-1	O
+0	4	123	612	629	S	125	American-educated	American-educated	american-educated	JJ	MISC	amod	O	-1	O
+0	4	124	630	639	S	125	Methodist	Methodist	Methodist	NNP	MISC	nn	O	-1	B-noun.person
+0	4	125	640	646		120	pastor	pastor	pastor	NN	O	conj	O	-1	I-noun.person
+0	4	126	646	647	S	116	,	,	,	,	O	punct	O	-1	O
+0	4	127	648	650	S	128	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	128	651	660	S	-1	uninjured	uninjured	uninjured	JJ	O	null	O	-1	O
+0	4	129	661	663	S	128	by	by	by	IN	O	prep	O	-1	O
+0	4	130	664	667	S	131	the	the	the	DT	O	det	O	-1	O
+0	4	131	668	677		129	explosion	explosion	explosion	NN	O	pobj	O	-1	B-noun.event
+0	4	132	677	678	N	128	.	.	.	.	O	punct	O	-1	O
+0	5	133	679	681	S	141	As	As	as	IN	O	prep	O	-1	O
+0	5	134	682	687	S	133	fires	fires	fire	NNS	O	pobj	O	-1	B-noun.event
+0	5	135	688	694	S	134	spread	spread	spread	VBN	O	partmod	O	-1	B-verb.contact
+0	5	136	695	701	S	135	around	around	around	IN	O	prep	O	-1	O
+0	5	137	702	705	S	138	the	the	the	DT	O	det	O	-1	O
+0	5	138	706	710		136	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	5	139	710	711	S	141	,	,	,	,	O	punct	O	-1	O
+0	5	140	712	714	S	141	he	he	he	PRP	O	nsubj	O	-1	O
+0	5	141	715	720	S	-1	helps	helps	help	VBZ	O	null	O	-1	B-verb.social
+0	5	142	721	724	S	141	get	get	get	VB	O	ccomp	O	-1	B-verb.possession
+0	5	143	725	731	S	142	people	people	people	NNS	O	dobj	O	-1	B-noun.group
+0	5	144	732	734	S	142	to	to	to	TO	O	prep	O	-1	O
+0	5	145	735	741	S	144	safety	safety	safety	NN	O	pobj	O	-1	B-noun.state
+0	5	146	742	744	S	142	at	at	at	IN	O	prep	O	-1	O
+0	5	147	745	746	N	149	a	a	a	DT	O	det	O	-1	O
+0	5	148	747	752	S	149	small	small	small	JJ	O	amod	O	-1	O
+0	5	149	753	757	S	146	park	park	park	NN	O	pobj	O	-1	B-noun.location
+0	5	150	758	760	S	149	on	on	on	IN	O	prep	O	-1	O
+0	5	151	761	764	S	152	the	the	the	DT	O	det	O	-1	O
+0	5	152	765	774	S	150	outskirts	outskirts	outskirts	NNS	O	pobj	O	-1	B-noun.location
+0	5	153	775	777	S	152	of	of	of	IN	O	prep	O	-1	O
+0	5	154	778	781	S	155	the	the	the	DT	O	det	O	-1	O
+0	5	155	782	786		153	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	5	156	786	787	S	141	.	.	.	.	O	punct	O	-1	O
+0	6	157	788	796	S	159	Tanimoto	Tanimoto	Tanimoto	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	6	158	797	799	S	159	is	is	be	VBZ	O	auxpass	O	-1	O
+0	6	159	800	805	S	-1	aided	aided	aid	VBN	O	null	O	-1	B-verb.social
+0	6	160	806	808	S	159	by	by	by	IN	O	prep	O	-1	O
+0	6	161	809	815	S	163	Father	Father	Father	NNP	O	nn	O	-1	B-noun.person
+0	6	162	816	823	N	163	Wilhelm	Wilhelm	Wilhelm	NNP	PERSON	nn	O	-1	I-noun.person
+0	6	163	824	834		160	Kleinsorge	Kleinsorge	Kleinsorge	NNP	PERSON	pobj	O	-1	I-noun.person
+0	6	164	834	835	S	163	,	,	,	,	O	punct	O	-1	O
+0	6	165	836	837	S	167	a	a	a	DT	O	det	O	-1	O
+0	6	166	838	844	S	167	Jesuit	Jesuit	jesuit	JJ	MISC	amod	O	-1	O
+0	6	167	845	851		163	priest	priest	priest	NN	O	appos	O	-1	B-noun.person
+0	6	168	851	852	S	159	.	.	.	.	O	punct	O	-1	O
+0	7	169	853	860	S	176	Despite	Despite	despite	IN	O	prep	O	-1	O
+0	7	170	861	864	S	172	his	his	he	PRP$	O	poss	O	1	O
+0	7	171	865	868	S	172	own	own	own	JJ	O	amod	O	-1	O
+0	7	172	869	876		169	illness	illness	illness	NN	O	pobj	O	-1	B-noun.state
+0	7	173	876	877	S	176	,	,	,	,	O	punct	O	-1	O
+0	7	174	878	884	S	175	Father	Father	Father	NNP	O	nn	O	-1	B-noun.person
+0	7	175	885	895	N	176	Kleinsorge	Kleinsorge	Kleinsorge	NNP	PERSON	nsubj	O	2	I-noun.person
+0	7	176	896	904	S	-1	consoles	consoles	console	VBZ	O	null	O	-1	B-verb.emotion
+0	7	177	905	908	S	176	the	the	the	DT	O	dobj	O	-1	O
+0	7	178	909	916	S	177	wounded	wounded	wound	VBN	O	partmod	O	-1	B-verb.body
+0	7	179	917	920	S	178	and	and	and	CC	O	cc	O	-1	O
+0	7	180	921	927	S	178	brings	brings	bring	VBZ	O	conj	O	-1	B-verb.motion
+0	7	181	928	933	S	180	water	water	water	NN	O	dobj	O	-1	B-noun.substance
+0	7	182	934	936	S	180	to	to	to	TO	O	prep	O	-1	O
+0	7	183	937	942	S	182	those	those	those	DT	O	pobj	O	-1	O
+0	7	184	943	946	S	185	who	who	who	WP	O	nsubj	O	-1	O
+0	7	185	947	951	S	183	need	need	need	VBP	O	rcmod	O	-1	B-verb.stative
+0	7	186	952	954		185	it	it	it	PRP	O	dobj	O	-1	O
+0	7	187	954	955	S	176	.	.	.	.	O	punct	O	-1	O
+0	8	188	956	960	N	194	Many	Many	many	JJ	O	nsubj	O	-1	O
+0	8	189	961	963	S	188	of	of	of	IN	O	prep	O	-1	O
+0	8	190	964	967	S	191	the	the	the	DT	O	det	O	-1	O
+0	8	191	968	975	S	189	victims	victims	victim	NNS	O	pobj	O	-1	B-noun.person
+0	8	192	976	979	S	194	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	8	193	980	983	S	194	too	too	too	RB	O	advmod	O	-1	O
+0	8	194	984	988	S	-1	weak	weak	weak	JJ	O	null	O	-1	O
+0	8	195	989	991	S	194	or	or	or	CC	O	cc	O	-1	O
+0	8	196	992	999	S	194	wounded	wounded	wound	VBN	O	conj	O	-1	B-verb.body
+0	8	197	1000	1002	S	198	to	to	to	TO	O	aux	O	-1	O
+0	8	198	1003	1007		196	move	move	move	VB	O	xcomp	O	-1	B-verb.motion
+0	8	199	1007	1008	S	194	,	,	,	,	O	punct	O	-1	O
+0	8	200	1009	1012	S	194	and	and	and	CC	O	cc	O	-1	O
+0	8	201	1013	1015	S	217	in	in	in	IN	O	prep	O	-1	O
+0	8	202	1016	1019	S	203	the	the	the	DT	O	det	O	-1	O
+0	8	203	1020	1027	N	201	absence	absence	absence	NN	O	pobj	O	-1	B-noun.state
+0	8	204	1028	1030	S	203	of	of	of	IN	O	prep	O	-1	O
+0	8	205	1031	1034	S	207	any	any	any	DT	O	det	O	-1	O
+0	8	206	1035	1043	S	207	official	official	official	JJ	O	amod	O	-1	O
+0	8	207	1044	1048		204	help	help	help	NN	O	pobj	O	-1	B-noun.act
+0	8	208	1048	1049	S	217	,	,	,	,	O	punct	O	-1	O
+0	8	209	1050	1056	S	217	people	people	people	NNS	O	nsubjpass	O	-1	B-noun.group
+0	8	210	1057	1061	S	209	like	like	like	IN	O	prep	O	-1	O
+0	8	211	1062	1068	S	212	Father	Father	Father	NNP	O	nn	O	-1	B-noun.person
+0	8	212	1069	1079	S	210	Kleinsorge	Kleinsorge	Kleinsorge	NNP	PERSON	pobj	O	2	I-noun.person
+0	8	213	1080	1083	S	212	and	and	and	CC	O	cc	O	-1	O
+0	8	214	1084	1087	S	215	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	8	215	1088	1096	N	212	Tanimoto	Tanimoto	Tanimoto	NNP	PERSON	conj	O	1	I-noun.person
+0	8	216	1097	1100	S	217	are	are	be	VBP	O	auxpass	O	-1	O
+0	8	217	1101	1105	S	194	left	left	leave	VBN	O	conj	O	-1	B-verb.motion
+0	8	218	1106	1108	S	219	to	to	to	TO	O	aux	O	-1	O
+0	8	219	1109	1116	S	217	protect	protect	protect	VB	O	xcomp	O	-1	B-verb.competition
+0	8	220	1117	1121	S	219	them	them	they	PRP	O	dobj	O	-1	O
+0	8	221	1122	1126	S	219	from	from	from	IN	O	prep	O	-1	O
+0	8	222	1127	1138	S	221	encroaching	encroaching	encroach	VBG	O	pcomp	O	-1	B-verb.motion
+0	8	223	1139	1144		222	fires	fires	fire	NNS	O	dobj	O	-1	O
+0	8	224	1144	1145	S	223	,	,	,	,	O	punct	O	-1	O
+0	8	225	1146	1156		223	whirlwinds	whirlwinds	whirlwind	NNS	O	conj	O	-1	O
+0	8	226	1156	1157	S	194	,	,	,	,	O	punct	O	-1	O
+0	8	227	1158	1161	N	194	and	and	and	CC	O	cc	O	-1	O
+0	8	228	1162	1165	S	230	the	the	the	DT	O	det	O	-1	O
+0	8	229	1166	1172	S	230	rising	rising	rise	VBG	O	amod	O	-1	B-verb.motion
+0	8	230	1173	1177	S	194	tide	tide	tide	NN	O	conj	O	-1	B-noun.event
+0	8	231	1178	1180	S	230	of	of	of	IN	O	prep	O	-1	O
+0	8	232	1181	1184	S	233	the	the	the	DT	O	det	O	-1	O
+0	8	233	1185	1190		231	river	river	river	NN	O	pobj	O	-1	B-noun.object
+0	8	234	1190	1191	S	194	.	.	.	.	O	punct	O	-1	O
+0	9	235	1192	1197	S	240	Among	Among	among	IN	O	prep	O	-1	O
+0	9	236	1198	1201	S	237	the	the	the	DT	O	det	O	-1	O
+0	9	237	1202	1209	S	235	victims	victims	victim	NNS	O	pobj	O	-1	B-noun.person
+0	9	238	1210	1214	S	239	they	they	they	PRP	O	nsubj	O	-1	O
+0	9	239	1215	1219	S	237	help	help	help	VBP	O	rcmod	O	-1	B-verb.social
+0	9	240	1220	1223	S	-1	are	are	be	VBP	O	null	O	-1	B-verb.stative
+0	9	241	1224	1228	N	243	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	-1	B-noun.person
+0	9	242	1229	1236	S	243	Hatsuyo	Hatsuyo	Hatsuyo	NNP	PERSON	nn	O	-1	I-noun.person
+0	9	243	1237	1245	S	240	Nakamura	Nakamura	Nakamura	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	9	244	1246	1249	S	243	and	and	and	CC	O	cc	O	-1	O
+0	9	245	1250	1253	S	247	her	her	she	PRP$	O	poss	O	-1	O
+0	9	246	1254	1259	S	247	young	young	young	JJ	O	amod	O	-1	O
+0	9	247	1260	1268		243	children	children	child	NNS	O	conj	O	-1	B-noun.person
+0	9	248	1268	1269	S	240	.	.	.	.	O	punct	O	-1	O
+0	10	249	1270	1274	S	251	Miss	Miss	Miss	NNP	PERSON	nn	O	-1	B-noun.person
+0	10	250	1275	1282	S	251	Toshiko	Toshiko	Toshiko	NNP	PERSON	nn	O	-1	I-noun.person
+0	10	251	1283	1289	S	255	Sasaki	Sasaki	Sasaki	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	10	252	1290	1292	S	255	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	10	253	1293	1294	S	255	a	a	a	DT	O	det	O	-1	O
+0	10	254	1295	1300	S	255	young	young	young	JJ	O	amod	O	-1	O
+0	10	255	1301	1306	S	-1	clerk	clerk	clerk	NN	O	null	O	-1	B-noun.person
+0	10	256	1307	1312	S	257	whose	whose	whose	WP$	O	poss	O	-1	O
+0	10	257	1313	1316	S	259	leg	leg	leg	NN	O	nsubjpass	O	-1	B-noun.body
+0	10	258	1317	1319	S	259	is	is	be	VBZ	O	auxpass	O	-1	O
+0	10	259	1320	1329	N	255	fractured	fractured	fracture	VBN	O	rcmod	O	-1	B-verb.change
+0	10	260	1330	1332	S	259	in	in	in	IN	O	prep	O	-1	O
+0	10	261	1333	1336	S	262	the	the	the	DT	O	det	O	-1	O
+0	10	262	1337	1342		260	blast	blast	blast	NN	O	pobj	O	-1	B-noun.act
+0	10	263	1342	1343	S	255	.	.	.	.	O	punct	O	-1	O
+0	11	264	1344	1347	S	265	Her	Her	she	PRP$	O	poss	O	-1	O
+0	11	265	1348	1353	S	268	wound	wound	wound	NN	O	nsubj	O	-1	B-noun.state
+0	11	266	1354	1361	S	268	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	11	267	1362	1370	S	268	terribly	terribly	terribly	RB	O	advmod	O	-1	O
+0	11	268	1371	1379		-1	infected	infected	infected	JJ	O	null	O	-1	O
+0	11	269	1379	1380	S	268	,	,	,	,	O	punct	O	-1	O
+0	11	270	1381	1384	S	268	and	and	and	CC	O	cc	O	-1	O
+0	11	271	1385	1388	S	272	she	she	she	PRP	O	nsubj	O	-1	O
+0	11	272	1389	1397	N	268	receives	receives	receive	VBZ	O	conj	O	-1	B-verb.possession
+0	11	273	1398	1400	S	276	no	no	no	DT	O	det	O	-1	O
+0	11	274	1401	1405	S	276	real	real	real	JJ	O	amod	O	-1	O
+0	11	275	1406	1413	S	276	medical	medical	medical	JJ	O	amod	O	-1	O
+0	11	276	1414	1418	S	272	help	help	help	NN	O	dobj	O	-1	B-noun.act
+0	11	277	1419	1422	S	276	for	for	for	IN	O	prep	O	-1	O
+0	11	278	1423	1428	S	277	weeks	weeks	week	NNS	DURATION	pobj	O	-1	B-noun.time
+0	11	279	1429	1434	S	272	after	after	after	IN	O	prep	O	-1	O
+0	11	280	1435	1438	S	281	the	the	the	DT	O	det	O	-1	O
+0	11	281	1439	1448		279	explosion	explosion	explosion	NN	O	pobj	O	-1	B-noun.event
+0	11	282	1448	1449	S	268	.	.	.	.	O	punct	O	-1	O
+0	12	283	1450	1453	S	284	The	The	the	DT	O	det	O	-1	O
+0	12	284	1454	1458	S	285	bomb	bomb	bomb	NN	O	nsubj	O	-1	B-noun.artifact
+0	12	285	1459	1464	N	-1	kills	kills	kill	VBZ	O	null	O	-1	B-verb.contact
+0	12	286	1465	1469	S	288	more	more	more	JJR	O	quantmod	O	-1	O
+0	12	287	1470	1474	S	288	than	than	than	IN	O	quantmod	O	-1	O
+0	12	288	1475	1479	S	290	half	half	half	PDT	O	num	O	-1	O
+0	12	289	1480	1483	S	290	the	the	the	DT	O	det	O	-1	O
+0	12	290	1484	1491	S	285	doctors	doctors	doctor	NNS	O	dobj	O	-1	B-noun.person
+0	12	291	1492	1494	S	285	in	in	in	IN	O	prep	O	-1	O
+0	12	292	1495	1504	S	291	Hiroshima	Hiroshima	Hiroshima	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	12	293	1505	1508	S	285	and	and	and	CC	O	cc	O	-1	O
+0	12	294	1509	1516	S	285	injures	injures	injure	VBZ	O	conj	O	-1	B-verb.body
+0	12	295	1517	1521	S	294	most	most	most	JJS	O	dobj	O	-1	O
+0	12	296	1522	1524	S	295	of	of	of	IN	O	prep	O	-1	O
+0	12	297	1525	1528	N	298	the	the	the	DT	O	det	O	-1	O
+0	12	298	1529	1533		296	rest	rest	rest	NN	O	pobj	O	-1	B-noun.relation
+0	12	299	1533	1534	S	285	;	;	;	:	O	punct	O	-1	O
+0	12	300	1535	1538	S	302	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	12	301	1539	1547	S	302	Masakazu	Masakazu	Masakazu	NNP	PERSON	nn	O	-1	I-noun.person
+0	12	302	1548	1553		308	Fujii	Fujii	Fujii	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	12	303	1553	1554	S	308	,	,	,	,	O	punct	O	-1	O
+0	12	304	1555	1558	S	308	for	for	for	IN	O	prep	O	-1	O
+0	12	305	1559	1567		304	instance	instance	instance	NN	O	pobj	O	-1	B-noun.event
+0	12	306	1567	1568	S	308	,	,	,	,	O	punct	O	-1	O
+0	12	307	1569	1571	S	308	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	12	308	1572	1578	S	285	unable	unable	unable	JJ	O	parataxis	O	-1	O
+0	12	309	1579	1581	S	310	to	to	to	TO	O	aux	O	-1	O
+0	12	310	1582	1586	S	308	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	12	311	1587	1594	N	310	anybody	anybody	anybody	NN	O	dobj	O	-1	O
+0	12	312	1595	1598	S	311	but	but	but	CC	O	cc	O	-1	O
+0	12	313	1599	1606	S	311	himself	himself	himself	PRP	O	conj	O	-1	O
+0	12	314	1607	1610	S	311	for	for	for	IN	O	prep	O	-1	O
+0	12	315	1611	1612	S	317	a	a	a	DT	O	det	O	-1	O
+0	12	316	1613	1617	S	317	long	long	long	JJ	O	amod	O	-1	O
+0	12	317	1618	1623		314	while	while	while	NN	O	pobj	O	-1	B-noun.time
+0	12	318	1623	1624	S	285	.	.	.	.	O	punct	O	-1	O
+0	13	319	1625	1628	S	321	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	13	320	1629	1637	S	321	Terufumi	Terufumi	Terufumi	NNP	PERSON	nn	O	-1	I-noun.person
+0	13	321	1638	1644		332	Sasaki	Sasaki	Sasaki	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	13	322	1644	1645	S	332	,	,	,	,	O	punct	O	-1	O
+0	13	323	1646	1648	S	332	on	on	on	IN	O	prep	O	-1	O
+0	13	324	1649	1652	S	326	the	the	the	DT	O	det	O	-1	O
+0	13	325	1653	1658	N	326	other	other	other	JJ	O	amod	O	-1	O
+0	13	326	1659	1663		323	hand	hand	hand	NN	O	pobj	O	-1	B-noun.body
+0	13	327	1663	1664	S	332	,	,	,	,	O	punct	O	-1	O
+0	13	328	1665	1672	S	332	remains	remains	remain	VBZ	O	cop	O	-1	B-verb.change
+0	13	329	1673	1676	S	332	the	the	the	DT	O	det	O	-1	O
+0	13	330	1677	1681	S	332	only	only	only	JJ	O	amod	O	-1	O
+0	13	331	1682	1691	S	332	uninjured	uninjured	uninjured	JJ	O	amod	O	-1	O
+0	13	332	1692	1698	S	-1	doctor	doctor	doctor	NN	O	null	O	-1	B-noun.person
+0	13	333	1699	1701	S	332	on	on	on	IN	O	prep	O	-1	O
+0	13	334	1702	1705	S	335	the	the	the	DT	O	det	O	-1	O
+0	13	335	1706	1711	S	333	staff	staff	staff	NN	O	pobj	O	-1	B-noun.group
+0	13	336	1712	1714	S	335	of	of	of	IN	O	prep	O	-1	O
+0	13	337	1715	1718	S	340	the	the	the	DT	O	det	O	-1	O
+0	13	338	1719	1722	N	340	Red	Red	Red	NNP	ORGANIZATION	nn	O	-1	B-noun.group
+0	13	339	1723	1728	S	340	Cross	Cross	Cross	NNP	ORGANIZATION	nn	O	-1	I-noun.group
+0	13	340	1729	1737		336	Hospital	Hospital	Hospital	NNP	ORGANIZATION	pobj	O	-1	I-noun.group
+0	13	341	1737	1738	S	332	,	,	,	,	O	punct	O	-1	O
+0	13	342	1739	1742	S	332	and	and	and	CC	O	cc	O	-1	O
+0	13	343	1743	1745	S	332	in	in	in	IN	O	conj	O	-1	O
+0	13	344	1746	1749	S	345	the	the	the	DT	DURATION	det	O	-1	O
+0	13	345	1750	1756	S	343	months	months	month	NNS	DURATION	pobj	O	-1	B-noun.time
+0	13	346	1757	1762	S	343	after	after	after	IN	O	dep	O	-1	O
+0	13	347	1763	1766	S	348	the	the	the	DT	O	det	O	-1	O
+0	13	348	1767	1776	S	346	explosion	explosion	explosion	NN	O	pobj	O	-1	B-noun.event
+0	13	349	1777	1779	S	351	he	he	he	PRP	O	nsubj	O	-1	O
+0	13	350	1780	1786	N	351	barely	barely	barely	RB	O	advmod	O	-1	O
+0	13	351	1787	1793	S	348	leaves	leaves	leave	VBZ	O	rcmod	O	-1	B-verb.motion
+0	13	352	1794	1797	S	353	his	his	he	PRP$	O	poss	O	-1	O
+0	13	353	1798	1802		351	post	post	post	NN	O	dobj	O	-1	B-noun.location
+0	13	354	1802	1803	S	332	,	,	,	,	O	punct	O	-1	O
+0	13	355	1804	1810	S	332	trying	trying	try	VBG	O	xcomp	O	-1	B-verb.social
+0	13	356	1811	1813	S	357	to	to	to	TO	O	aux	O	-1	O
+0	13	357	1814	1818	S	355	stem	stem	stem	VB	O	xcomp	O	-1	B-verb.stative
+0	13	358	1819	1822	S	359	the	the	the	DT	O	det	O	-1	O
+0	13	359	1823	1827	S	362	tide	tide	tide	NN	O	nsubj	O	-1	B-noun.event
+0	13	360	1828	1830	S	359	of	of	of	IN	O	prep	O	-1	O
+0	13	361	1831	1836	S	360	death	death	death	NN	O	pobj	O	-1	B-noun.phenomenon
+0	13	362	1837	1843	S	357	rising	rising	rise	VBG	O	xcomp	O	-1	B-verb.motion
+0	13	363	1844	1850	N	362	around	around	around	IN	O	prep	O	-1	O
+0	13	364	1851	1854		363	him	him	he	PRP	O	pobj	O	-1	O
+0	13	365	1854	1855	S	332	.	.	.	.	O	punct	O	-1	O
+0	14	366	1856	1861	S	373	Weeks	Weeks	week	NNS	DURATION	nsubjpass	O	-1	B-noun.time
+0	14	367	1862	1867	S	366	after	after	after	IN	O	prep	O	-1	O
+0	14	368	1868	1871	S	369	the	the	the	DT	O	det	O	-1	O
+0	14	369	1872	1881		367	explosion	explosion	explosion	NN	O	pobj	O	-1	B-noun.event
+0	14	370	1881	1882	S	373	,	,	,	,	O	punct	O	-1	O
+0	14	371	1883	1888	S	373	after	after	after	IN	O	prep	O	-1	O
+0	14	372	1889	1894	S	371	Japan	Japan	Japan	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	14	373	1895	1906	S	-1	capitulates	capitulates	capitulate	VBZ	O	null	O	-1	B-verb.competition
+0	14	374	1907	1910	S	373	and	and	and	CC	O	cc	O	-1	O
+0	14	375	1911	1920	N	376	Hiroshima	Hiroshima	Hiroshima	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	14	376	1921	1927	S	373	begins	begins	begin	VBZ	O	conj	O	-1	B-verb.change
+0	14	377	1928	1930	S	378	to	to	to	TO	O	aux	O	-1	O
+0	14	378	1931	1938		376	rebuild	rebuild	rebuild	VB	O	xcomp	O	-1	B-verb.creation
+0	14	379	1938	1939	S	373	,	,	,	,	O	punct	O	-1	O
+0	14	380	1940	1941	S	383	a	a	a	DT	O	det	O	-1	O
+0	14	381	1942	1945	S	383	new	new	new	JJ	O	amod	O	-1	O
+0	14	382	1946	1952	S	383	terror	terror	terror	NN	O	nn	O	-1	B-noun.feeling
+0	14	383	1953	1960		373	strikes	strikes	strike	NNS	O	dobj	O	-1	O
+0	14	384	1960	1961	S	383	:	:	:	:	O	punct	O	-1	O
+0	14	385	1962	1971	S	386	radiation	radiation	radiation	NN	O	nn	O	-1	B-noun.state
+0	14	386	1972	1980		383	sickness	sickness	sickness	NN	O	dep	O	-1	I-noun.state
+0	14	387	1980	1981	S	373	.	.	.	.	O	punct	O	-1	O
+0	15	388	1982	1989	N	390	Victims	Victims	victim	NNS	O	nsubj	O	-1	B-noun.person
+0	15	389	1990	1996	S	390	become	become	become	VBP	O	cop	O	-1	B-verb.change
+0	15	390	1997	2006		-1	nauseated	nauseated	nauseated	JJ	O	null	O	-1	O
+0	15	391	2006	2007	S	390	,	,	,	,	O	punct	O	-1	O
+0	15	392	2008	2016		390	feverish	feverish	feverish	JJ	O	conj	O	-1	O
+0	15	393	2016	2017	S	390	,	,	,	,	O	punct	O	-1	O
+0	15	394	2018	2021	S	390	and	and	and	CC	O	cc	O	-1	O
+0	15	395	2022	2028		390	anemic	anemic	anemic	JJ	O	conj	O	-1	O
+0	15	396	2028	2029	S	390	;	;	;	:	O	punct	O	-1	O
+0	15	397	2030	2034	S	398	many	many	many	JJ	O	amod	O	-1	O
+0	15	398	2035	2041		405	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	15	399	2041	2042	S	398	,	,	,	,	O	punct	O	-1	O
+0	15	400	2043	2047	S	401	such	such	such	JJ	O	dep	O	-1	O
+0	15	401	2048	2050	S	398	as	as	as	IN	O	prep	O	-1	O
+0	15	402	2051	2055	N	403	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	0	B-noun.person
+0	15	403	2056	2064		401	Nakamura	Nakamura	Nakamura	NNP	PERSON	pobj	O	0	I-noun.person
+0	15	404	2064	2065	S	398	,	,	,	,	O	punct	O	-1	O
+0	15	405	2066	2071	S	390	watch	watch	watch	VBP	O	parataxis	O	-1	B-verb.perception
+0	15	406	2072	2077	S	407	their	their	they	PRP$	O	poss	O	-1	O
+0	15	407	2078	2082	S	408	hair	hair	hair	NN	O	nsubj	O	-1	B-noun.body
+0	15	408	2083	2087	S	405	fall	fall	fall	VB	O	ccomp	O	-1	B-verb.stative
+0	15	409	2088	2091		408	out	out	out	RP	O	prt	O	-1	O
+0	15	410	2091	2092	S	390	.	.	.	.	O	punct	O	-1	O
+0	16	411	2093	2096	S	412	The	The	the	DT	O	det	O	-1	O
+0	16	412	2097	2104	S	413	disease	disease	disease	NN	O	nsubj	O	-1	B-noun.state
+0	16	413	2105	2112	S	-1	baffles	baffles	baffle	VBZ	O	null	O	-1	B-verb.cognition
+0	16	414	2113	2121		425	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	16	415	2121	2122	N	414	,	,	,	,	O	punct	O	-1	O
+0	16	416	2123	2126	S	414	and	and	and	CC	O	cc	O	-1	O
+0	16	417	2127	2131		414	many	many	many	JJ	O	conj	O	-1	O
+0	16	418	2131	2132	S	417	,	,	,	,	O	punct	O	-1	O
+0	16	419	2133	2142	S	417	including	including	include	VBG	O	prep	O	-1	B-verb.stative
+0	16	420	2143	2149	S	421	Father	Father	Father	NNP	O	nn	O	-1	B-noun.person
+0	16	421	2150	2160		419	Kleinsorge	Kleinsorge	Kleinsorge	NNP	PERSON	pobj	O	2	I-noun.person
+0	16	422	2160	2161	S	425	,	,	,	,	O	punct	O	-1	O
+0	16	423	2162	2167	S	425	never	never	never	RB	O	neg	O	-1	O
+0	16	424	2168	2173	S	425	fully	fully	fully	RB	O	advmod	O	-1	O
+0	16	425	2174	2181		413	recover	recover	recover	VB	O	ccomp	O	-1	O
+0	16	426	2181	2182	S	413	.	.	.	.	O	punct	O	-1	O
+0	17	427	2183	2188		433	Still	Still	still	RB	O	advmod	O	-1	O
+0	17	428	2188	2189	N	433	,	,	,	,	O	punct	O	-1	O
+0	17	429	2190	2193	S	430	the	the	the	DT	O	det	O	-1	O
+0	17	430	2194	2200	S	433	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	17	431	2201	2203	S	430	of	of	of	IN	O	prep	O	-1	O
+0	17	432	2204	2213	S	431	Hiroshima	Hiroshima	Hiroshima	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	17	433	2214	2217	S	-1	try	try	try	VBP	O	null	O	-1	B-verb.social
+0	17	434	2218	2220	S	435	to	to	to	TO	O	aux	O	-1	O
+0	17	435	2221	2227	S	433	return	return	return	VB	O	xcomp	O	-1	B-verb.motion
+0	17	436	2228	2230	S	435	to	to	to	TO	O	prep	O	-1	O
+0	17	437	2231	2236	S	439	their	their	they	PRP$	O	poss	O	-1	O
+0	17	438	2237	2243	S	439	normal	normal	normal	JJ	O	amod	O	-1	O
+0	17	439	2244	2249		436	lives	lives	life	NNS	O	pobj	O	-1	B-noun.state
+0	17	440	2249	2250	S	433	.	.	.	.	O	punct	O	-1	O
+0	18	441	2251	2253	N	447	In	In	in	IN	O	prep	O	-1	O
+0	18	442	2254	2257	S	444	his	his	he	PRP$	O	poss	O	-1	O
+0	18	443	2258	2263	S	444	added	added	add	VBN	O	amod	O	-1	B-verb.change
+0	18	444	2264	2274		441	postscript	postscript	postscript	NN	O	pobj	O	-1	B-noun.communication
+0	18	445	2274	2275	S	447	,	,	,	,	O	punct	O	-1	O
+0	18	446	2276	2282	S	447	Hersey	Hersey	Hersey	NNP	PERSON	nsubj	O	4	O
+0	18	447	2283	2289	S	-1	traces	traces	trace	NNS	O	null	O	-1	B-noun.quantity
+0	18	448	2290	2293	S	449	the	the	the	DT	O	det	O	-1	O
+0	18	449	2294	2299	S	447	lives	lives	life	NNS	O	dobj	O	-1	B-noun.state
+0	18	450	2300	2302	S	449	of	of	of	IN	O	prep	O	-1	O
+0	18	451	2303	2308	S	453	these	these	these	DT	O	det	O	-1	O
+0	18	452	2309	2312	S	453	six	six	six	CD	NUMBER	num	O	-1	O
+0	18	453	2313	2323	N	450	characters	characters	character	NNS	O	pobj	O	-1	B-noun.person
+0	18	454	2324	2326	S	447	in	in	in	IN	O	prep	O	-1	O
+0	18	455	2327	2330	S	457	the	the	the	DT	DURATION	det	O	-1	O
+0	18	456	2331	2336	S	457	forty	forty	forty	CD	DURATION	num	O	-1	O
+0	18	457	2337	2342	S	454	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	18	458	2343	2348	S	447	after	after	after	IN	O	prep	O	-1	O
+0	18	459	2349	2352	S	461	the	the	the	DT	O	det	O	-1	O
+0	18	460	2353	2359	S	461	atomic	atomic	atomic	JJ	O	amod	O	-1	O
+0	18	461	2360	2364		458	bomb	bomb	bomb	NN	O	pobj	O	-1	B-noun.artifact
+0	18	462	2364	2365	S	447	.	.	.	.	O	punct	O	-1	O
+0	19	463	2366	2372	S	464	Father	Father	Father	NNP	O	nn	O	-1	B-noun.person
+0	19	464	2373	2383	S	468	Kleinsorge	Kleinsorge	Kleinsorge	NNP	PERSON	nsubj	O	2	I-noun.person
+0	19	465	2384	2387	N	464	and	and	and	CC	O	cc	O	-1	O
+0	19	466	2388	2391	S	467	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	19	467	2392	2397	S	464	Fujii	Fujii	Fujii	NNP	PERSON	conj	O	-1	I-noun.person
+0	19	468	2398	2401	S	-1	die	die	die	VB	O	null	O	-1	B-verb.change
+0	19	469	2402	2406	S	468	from	from	from	IN	O	prep	O	-1	O
+0	19	470	2407	2413	S	472	sudden	sudden	sudden	JJ	O	amod	O	-1	O
+0	19	471	2414	2423	S	472	illnesses	illnesses	illness	NNS	O	nn	O	-1	B-noun.state
+0	19	472	2424	2429	S	469	years	years	year	NNS	DATE	pobj	O	-1	B-noun.time
+0	19	473	2430	2435		468	later	later	later	RB	DATE	advmod	O	-1	O
+0	19	474	2435	2436	S	468	.	.	.	.	O	punct	O	-1	O
+0	20	475	2437	2441	S	476	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	0	B-noun.person
+0	20	476	2442	2450	S	480	Nakamura	Nakamura	Nakamura	NNP	PERSON	nsubj	O	0	I-noun.person
+0	20	477	2451	2454	N	476	and	and	and	CC	O	cc	O	-1	O
+0	20	478	2455	2459	S	479	Miss	Miss	Miss	NNP	PERSON	nn	O	3	B-noun.person
+0	20	479	2460	2466	S	476	Sasaki	Sasaki	Sasaki	NNP	PERSON	conj	O	3	I-noun.person
+0	20	480	2467	2473	S	-1	scrape	scrape	scrape	VB	O	null	O	-1	B-verb.contact
+0	20	481	2474	2479	S	482	their	their	they	PRP$	O	poss	O	-1	O
+0	20	482	2480	2483	S	480	way	way	way	NN	O	dobj	O	-1	B-noun.attribute
+0	20	483	2484	2486	S	480	up	up	up	IN	O	advmod	O	-1	O
+0	20	484	2487	2491	S	483	from	from	from	IN	O	dep	O	-1	O
+0	20	485	2492	2495	S	486	the	the	the	DT	O	det	O	-1	O
+0	20	486	2496	2502	S	484	bottom	bottom	bottom	NN	O	pobj	O	-1	B-noun.location
+0	20	487	2503	2505	S	489	to	to	to	TO	O	aux	O	-1	O
+0	20	488	2506	2512	S	489	become	become	become	VB	O	cop	O	-1	B-verb.change
+0	20	489	2513	2518	N	483	happy	happy	happy	JJ	O	dep	O	-1	O
+0	20	490	2519	2522	S	489	and	and	and	CC	O	cc	O	-1	O
+0	20	491	2523	2533		489	successful	successful	successful	JJ	O	conj	O	-1	O
+0	20	492	2533	2534	S	480	.	.	.	.	O	punct	O	-1	O
+0	21	493	2535	2540	S	503	After	After	after	IN	O	prep	O	-1	O
+0	21	494	2541	2548	S	493	working	working	work	VBG	O	pcomp	O	-1	B-verb.social
+0	21	495	2549	2553	S	494	hard	hard	hard	RB	O	advmod	O	-1	O
+0	21	496	2554	2557	S	494	and	and	and	CC	O	cc	O	-1	O
+0	21	497	2558	2568	S	494	supporting	supporting	support	VBG	O	conj	O	-1	B-verb.social
+0	21	498	2569	2572	S	499	her	her	she	PRP$	O	poss	O	0	O
+0	21	499	2573	2579		497	family	family	family	NN	O	dobj	O	-1	B-noun.group
+0	21	500	2579	2580	S	503	,	,	,	,	O	punct	O	-1	O
+0	21	501	2581	2585	N	502	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	0	B-noun.person
+0	21	502	2586	2594	S	503	Nakamura	Nakamura	Nakamura	NNP	PERSON	nsubj	O	0	I-noun.person
+0	21	503	2595	2600	S	-1	lives	lives	live	VBZ	O	null	O	-1	B-verb.stative
+0	21	504	2601	2612	S	503	comfortably	comfortably	comfortably	RB	O	advmod	O	-1	O
+0	21	505	2613	2615	S	503	on	on	on	IN	O	prep	O	-1	O
+0	21	506	2616	2617	S	507	a	a	a	DT	O	det	O	-1	O
+0	21	507	2618	2625	S	505	pension	pension	pension	NN	O	pobj	O	-1	B-noun.possession
+0	21	508	2626	2629	S	507	and	and	and	CC	O	cc	O	-1	O
+0	21	509	2630	2631	S	511	a	a	a	DT	O	det	O	-1	O
+0	21	510	2632	2642	S	511	government	government	government	NN	O	nn	O	-1	B-noun.group
+0	21	511	2643	2652		507	allowance	allowance	allowance	NN	O	conj	O	-1	B-noun.possession
+0	21	512	2652	2653	N	503	,	,	,	,	O	punct	O	-1	O
+0	21	513	2654	2657	S	503	and	and	and	CC	O	cc	O	-1	O
+0	21	514	2658	2662	S	515	Miss	Miss	Miss	NNP	PERSON	nn	O	3	B-noun.person
+0	21	515	2663	2669	S	518	Sasaki	Sasaki	Sasaki	NNP	PERSON	nsubj	O	3	I-noun.person
+0	21	516	2670	2677	S	518	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.stative
+0	21	517	2678	2679	S	518	a	a	a	DT	O	det	O	-1	O
+0	21	518	2680	2683		503	nun	nun	nun	NN	O	conj	O	-1	B-noun.person
+0	21	519	2683	2684	S	503	.	.	.	.	O	punct	O	-1	O
+0	22	520	2685	2688	S	521	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	22	521	2689	2695	S	525	Sasaki	Sasaki	Sasaki	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	22	522	2696	2699	S	521	and	and	and	CC	O	cc	O	-1	O
+0	22	523	2700	2703	S	524	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	22	524	2704	2712	S	521	Tanimoto	Tanimoto	Tanimoto	NNP	PERSON	conj	O	1	I-noun.person
+0	22	525	2713	2719	N	-1	devote	devote	devote	VBP	O	null	O	-1	B-verb.communication
+0	22	526	2720	2725	S	527	their	their	they	PRP$	O	poss	O	-1	O
+0	22	527	2726	2731	S	525	lives	lives	life	NNS	O	dobj	O	-1	B-noun.state
+0	22	528	2732	2734	S	525	to	to	to	TO	O	prep	O	-1	O
+0	22	529	2735	2742	S	528	helping	helping	help	VBG	O	pcomp	O	-1	B-verb.social
+0	22	530	2743	2749		529	people	people	people	NNS	O	dobj	O	-1	B-noun.group
+0	22	531	2749	2750	S	525	.	.	.	.	O	punct	O	-1	O
+0	23	532	2751	2754	S	533	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	23	533	2755	2763	S	536	Tanimoto	Tanimoto	Tanimoto	NNP	PERSON	nsubj	O	1	I-noun.person
+0	23	534	2764	2766	S	533	in	in	in	IN	O	prep	O	-1	O
+0	23	535	2767	2777	S	534	particular	particular	particular	JJ	O	pobj	O	-1	O
+0	23	536	2778	2783	N	-1	plays	plays	play	VBZ	O	null	O	-1	B-verb.social
+0	23	537	2784	2786	S	539	an	an	a	DT	O	det	O	-1	O
+0	23	538	2787	2796	S	539	important	important	important	JJ	O	amod	O	-1	O
+0	23	539	2797	2801	S	536	role	role	role	NN	O	dobj	O	-1	B-noun.act
+0	23	540	2802	2804	S	539	in	in	in	IN	O	prep	O	-1	O
+0	23	541	2805	2811	S	540	trying	trying	try	VBG	O	pcomp	O	-1	B-verb.social
+0	23	542	2812	2814	S	543	to	to	to	TO	O	aux	O	-1	O
+0	23	543	2815	2819	S	541	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	23	544	2820	2823	S	545	the	the	the	DT	O	det	O	-1	O
+0	23	545	2824	2831	S	543	victims	victims	victim	NNS	O	dobj	O	-1	B-noun.person
+0	23	546	2832	2834	S	545	of	of	of	IN	O	prep	O	-1	O
+0	23	547	2835	2838	S	548	the	the	the	DT	O	det	O	-1	O
+0	23	548	2839	2843		546	bomb	bomb	bomb	NN	O	pobj	O	-1	B-noun.artifact
+0	23	549	2843	2844		536	—	--	--	:	O	punct	O	-1	O
+0	23	550	2844	2848	N	536	most	most	most	RBS	O	parataxis	O	-1	O
+0	23	551	2849	2856	S	550	notably	notably	notably	RB	O	advmod	O	-1	O
+0	23	552	2857	2860	S	554	the	the	the	DT	O	det	O	-1	O
+0	23	553	2861	2870	S	554	Hiroshima	Hiroshima	Hiroshima	NNP	ORGANIZATION	nn	O	-1	B-noun.location
+0	23	554	2871	2878		550	Maidens	Maidens	Maidens	NNPS	ORGANIZATION	dep	O	-1	I-noun.location
+0	23	555	2878	2879	S	554	,	,	,	,	O	punct	O	-1	O
+0	23	556	2880	2885	S	557	whose	whose	whose	WP$	O	poss	O	-1	O
+0	23	557	2886	2891	S	560	burns	burns	burn	NNS	O	nsubj	O	-1	B-noun.state
+0	23	558	2892	2895	S	560	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	23	559	2896	2898	S	560	so	so	so	RB	O	advmod	O	-1	O
+0	23	560	2899	2902	S	554	bad	bad	bad	JJ	O	rcmod	O	-1	O
+0	23	561	2903	2907	S	563	that	that	that	IN	O	complm	O	-1	O
+0	23	562	2908	2912	N	563	they	they	they	PRP	O	nsubj	O	-1	O
+0	23	563	2913	2920	S	560	require	require	require	VBP	O	ccomp	O	-1	B-verb.stative
+0	23	564	2921	2928	S	565	plastic	plastic	plastic	JJ	O	amod	O	-1	O
+0	23	565	2929	2936		563	surgery	surgery	surgery	NN	O	dobj	O	-1	B-noun.cognition
+0	23	566	2936	2937	S	536	.	.	.	.	O	punct	O	-1	O
+0	24	567	2938	2940	S	571	He	He	he	PRP	O	nsubj	O	1	O
+0	24	568	2941	2948	S	571	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.stative
+0	24	569	2949	2950	S	571	a	a	a	DT	O	det	O	-1	O
+0	24	570	2951	2956	S	571	minor	minor	minor	JJ	O	amod	O	-1	O
+0	24	571	2957	2966	S	-1	celebrity	celebrity	celebrity	NN	O	null	O	-1	B-noun.person
+0	24	572	2967	2969	S	571	in	in	in	IN	O	prep	O	-1	O
+0	24	573	2970	2977	N	572	America	America	America	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	24	574	2978	2981	S	571	and	and	and	CC	O	cc	O	-1	O
+0	24	575	2982	2990	S	576	somewhat	somewhat	somewhat	RB	O	advmod	O	-1	O
+0	24	576	2991	3005	S	577	unsuccessfully	unsuccessfully	unsuccessfully	RB	O	advmod	O	-1	O
+0	24	577	3006	3011	S	571	tries	tries	try	VBZ	O	conj	O	-1	B-verb.social
+0	24	578	3012	3014	S	579	to	to	to	TO	O	aux	O	-1	O
+0	24	579	3015	3021	S	577	spread	spread	spread	VB	O	xcomp	O	-1	B-verb.contact
+0	24	580	3022	3023	S	581	a	a	a	DT	O	det	O	-1	O
+0	24	581	3024	3031	S	579	message	message	message	NN	O	dobj	O	-1	B-noun.communication
+0	24	582	3032	3034	S	581	of	of	of	IN	O	prep	O	-1	O
+0	24	583	3035	3040	S	582	peace	peace	peace	NN	O	pobj	O	-1	B-noun.state
+0	24	584	3041	3043	N	579	in	in	in	IN	O	prep	O	-1	O
+0	24	585	3044	3045	S	586	a	a	a	DT	O	det	O	-1	O
+0	24	586	3046	3050	S	584	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	24	587	3051	3053	S	586	of	of	of	IN	O	prep	O	-1	O
+0	24	588	3054	3061	S	589	nuclear	nuclear	nuclear	JJ	O	amod	O	-1	O
+0	24	589	3062	3072		587	escalation	escalation	escalation	NN	O	pobj	O	-1	B-noun.act
+0	24	590	3072	3073	S	571	.	.	.	.	O	punct	O	-1	O
+0	25	591	3074	3076	S	596	In	In	in	IN	O	prep	O	-1	O
+0	25	592	3077	3080	S	593	the	the	the	DT	O	det	O	-1	O
+0	25	593	3081	3084		591	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	25	594	3084	3085	S	596	,	,	,	,	O	punct	O	-1	O
+0	25	595	3086	3092	S	596	Hersey	Hersey	Hersey	NNP	PERSON	nsubj	O	4	O
+0	25	596	3093	3098	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.cognition
+0	25	597	3099	3103	S	603	that	that	that	IN	O	complm	O	-1	O
+0	25	598	3104	3107	S	599	the	the	the	DT	O	det	O	-1	O
+0	25	599	3108	3115	S	603	horrors	horrors	horror	NNS	O	nsubj	O	-1	B-noun.feeling
+0	25	600	3116	3118	S	599	of	of	of	IN	O	prep	O	-1	O
+0	25	601	3119	3126	N	602	nuclear	nuclear	nuclear	JJ	O	amod	O	-1	O
+0	25	602	3127	3130	S	600	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	25	603	3131	3134	S	613	are	are	be	VBP	O	advcl	O	-1	B-verb.stative
+0	25	604	3135	3138	S	603	far	far	far	RB	O	advmod	O	-1	O
+0	25	605	3139	3143	S	604	from	from	from	IN	O	dep	O	-1	O
+0	25	606	3144	3148		605	over	over	over	RB	O	pobj	O	-1	O
+0	25	607	3148	3149		609	—	--	--	:	O	punct	O	-1	O
+0	25	608	3149	3152	S	609	the	the	the	DT	O	det	O	-1	O
+0	25	609	3153	3161	S	613	citizens	citizens	citizen	NNS	O	nsubj	O	-1	B-noun.person
+0	25	610	3162	3164	S	609	of	of	of	IN	O	prep	O	-1	O
+0	25	611	3165	3174	S	610	Hiroshima	Hiroshima	Hiroshima	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	25	612	3175	3180	S	613	still	still	still	RB	O	advmod	O	-1	O
+0	25	613	3181	3187	S	596	suffer	suffer	suffer	VBP	O	ccomp	O	-1	B-verb.body
+0	25	614	3188	3192	N	613	from	from	from	IN	O	prep	O	-1	O
+0	25	615	3193	3205		614	aftereffects	aftereffects	aftereffect	NNS	O	pobj	O	-1	B-noun.phenomenon
+0	25	616	3205	3206	S	613	,	,	,	,	O	punct	O	-1	O
+0	25	617	3207	3210	S	613	and	and	and	CC	O	cc	O	-1	O
+0	25	618	3211	3218	S	619	nuclear	nuclear	nuclear	JJ	O	amod	O	-1	O
+0	25	619	3219	3229	S	620	escalation	escalation	escalation	NN	O	nsubj	O	-1	B-noun.act
+0	25	620	3230	3239	S	613	continues	continues	continue	VBZ	O	conj	O	-1	B-verb.stative
+0	25	621	3240	3242	S	622	to	to	to	TO	O	aux	O	-1	O
+0	25	622	3243	3251	S	620	threaten	threaten	threaten	VB	O	xcomp	O	-1	B-verb.stative
+0	25	623	3252	3255	S	625	the	the	the	DT	O	det	O	-1	O
+0	25	624	3256	3262	N	625	entire	entire	entire	JJ	O	amod	O	-1	O
+0	25	625	3263	3268		622	world	world	world	NN	O	dobj	O	-1	B-noun.group
+0	25	626	3268	3269	S	596	.	.	.	.	O	punct	O	-1	O
+0	26	627	3270	3276	S	629	Hersey	Hersey	Hersey	NNP	PERSON	nsubj	O	4	O
+0	26	628	3277	3281	S	629	also	also	also	RB	O	advmod	O	-1	O
+0	26	629	3282	3287	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	26	630	3288	3292	S	634	that	that	that	IN	O	complm	O	-1	O
+0	26	631	3293	3298	S	633	these	these	these	DT	O	det	O	-1	O
+0	26	632	3299	3302	S	633	six	six	six	CD	NUMBER	num	O	-1	O
+0	26	633	3303	3309	S	634	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	26	634	3310	3314		629	show	show	show	VBP	O	ccomp	O	-1	B-verb.perception
+0	26	635	3314	3315	S	634	,	,	,	,	O	punct	O	-1	O
+0	26	636	3316	3318	S	634	in	in	in	IN	O	prep	O	-1	O
+0	26	637	3319	3322	S	638	the	the	the	DT	O	det	O	-1	O
+0	26	638	3323	3332	N	636	aftermath	aftermath	aftermath	NN	O	pobj	O	-1	B-noun.phenomenon
+0	26	639	3333	3335	S	638	of	of	of	IN	O	prep	O	-1	O
+0	26	640	3336	3339	S	641	the	the	the	DT	O	det	O	-1	O
+0	26	641	3340	3344	S	639	bomb	bomb	bomb	NN	O	pobj	O	-1	B-noun.artifact
+0	26	642	3345	3348	S	641	and	and	and	CC	O	cc	O	-1	O
+0	26	643	3349	3352	S	644	the	the	the	DT	O	det	O	-1	O
+0	26	644	3353	3356		641	war	war	war	NN	O	conj	O	-1	B-noun.act
+0	26	645	3356	3357	S	634	,	,	,	,	O	punct	O	-1	O
+0	26	646	3358	3368	S	647	remarkable	remarkable	remarkable	JJ	O	amod	O	-1	O
+0	26	647	3369	3377	S	634	feelings	feelings	feeling	NNS	O	dep	O	-1	B-noun.Tops
+0	26	648	3378	3380	S	647	of	of	of	IN	O	prep	O	-1	O
+0	26	649	3381	3385	S	650	good	good	good	JJ	O	amod	O	-1	O
+0	26	650	3386	3390		648	will	will	will	NN	O	pobj	O	-1	O
+0	26	651	3390	3391	S	647	,	,	,	,	O	punct	O	-1	O
+0	26	652	3392	3406		647	reconciliation	reconciliation	reconciliation	NN	O	conj	O	-1	O
+0	26	653	3406	3407	S	647	,	,	,	,	O	punct	O	-1	O
+0	26	654	3408	3411	N	647	and	and	and	CC	O	cc	O	-1	O
+0	26	655	3412	3417		647	pride	pride	pride	NN	O	conj	O	-1	B-noun.feeling
+0	26	656	3417	3418	N	629	.	.	.	.	O	punct	O	-1	O

@@ -1,0 +1,790 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	3	S	1	The	The	the	DT	O	det	O	-1	O
+0	0	1	4	13	S	2	narrative	narrative	narrative	JJ	O	nsubj	O	-1	O
+0	0	2	14	22	S	-1	outlines	outlines	outline	VBZ	O	null	O	-1	B-verb.communication
+0	0	3	23	26	S	4	the	the	the	DT	O	det	O	-1	O
+0	0	4	27	33	S	2	events	events	event	NNS	O	dobj	O	-1	B-noun.event
+0	0	5	34	45	S	4	surrounding	surrounding	surround	VBG	O	partmod	O	-1	B-verb.contact
+0	0	6	46	49	S	7	the	the	the	DT	O	det	O	-1	O
+0	0	7	50	56	S	5	murder	murder	murder	NN	O	dobj	O	-1	B-noun.act
+0	0	8	57	59	S	7	of	of	of	IN	O	prep	O	-1	O
+0	0	9	60	68	S	10	Santiago	Santiago	Santiago	NNP	PERSON	nn	O	5	B-noun.location
+0	0	10	69	74		8	Nasar	Nasar	Nasar	NNP	PERSON	pobj	O	5	I-noun.location
+0	0	11	74	75	S	10	,	,	,	,	O	punct	O	-1	O
+0	0	12	76	77	S	14	a	a	a	DT	O	det	O	-1	O
+0	0	13	78	83	S	14	young	young	young	JJ	O	amod	O	-1	O
+0	0	14	84	87	S	10	man	man	man	NN	O	appos	O	-1	B-noun.person
+0	0	15	88	91	S	17	who	who	who	WP	O	nsubjpass	O	-1	O
+0	0	16	92	94	S	17	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	17	95	102	S	14	thought	thought	think	VBN	O	rcmod	O	-1	B-verb.cognition
+0	0	18	103	105	S	20	to	to	to	TO	O	aux	O	-1	O
+0	0	19	106	110	S	20	have	have	have	VB	O	aux	O	-1	O
+0	0	20	111	116	S	17	taken	taken	take	VBN	O	xcomp	O	-1	B-verb.cognition
+0	0	21	117	120	S	22	the	the	the	DT	O	det	O	-1	O
+0	0	22	121	130	S	20	virginity	virginity	virginity	NN	O	dobj	O	-1	B-noun.state
+0	0	23	131	133	S	22	of	of	of	IN	O	prep	O	-1	O
+0	0	24	134	140	S	25	Angela	Angela	Angela	NNP	PERSON	nn	O	0	B-noun.person
+0	0	25	141	148		23	Vicario	Vicario	Vicario	NNP	PERSON	pobj	O	0	I-noun.person
+0	0	26	148	149	S	2	.	.	.	.	O	punct	O	-1	O
+0	1	27	150	152	S	49	On	On	on	IN	O	prep	O	-1	O
+0	1	28	153	156	S	30	her	her	she	PRP$	O	poss	O	0	O
+0	1	29	157	164	S	30	wedding	wedding	wedding	NN	O	nn	O	-1	B-noun.time
+0	1	30	165	170		27	night	night	night	NN	TIME	pobj	O	-1	I-noun.time
+0	1	31	170	171	S	49	,	,	,	,	O	punct	O	-1	O
+0	1	32	172	177	S	49	after	after	after	IN	O	prep	O	-1	O
+0	1	33	178	189	S	32	discovering	discovering	discover	VBG	O	pcomp	O	-1	B-verb.cognition
+0	1	34	190	194	S	39	that	that	that	IN	O	complm	O	-1	O
+0	1	35	195	198	S	39	she	she	she	PRP	O	nsubj	O	0	O
+0	1	36	199	202	S	39	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	1	37	203	206	S	39	not	not	not	RB	O	neg	O	-1	O
+0	1	38	207	208	S	39	a	a	a	DT	O	det	O	-1	O
+0	1	39	209	215		33	virgin	virgin	virgin	JJ	O	ccomp	O	-1	O
+0	1	40	215	216	S	49	,	,	,	,	O	punct	O	-1	O
+0	1	41	217	223		43	Angela	Angela	Angela	NNP	PERSON	poss	O	0	B-noun.person
+0	1	42	223	225	S	41	's	's	's	POS	O	possessive	O	-1	O
+0	1	43	226	233		49	husband	husband	husband	NN	O	nsubj	O	-1	B-noun.person
+0	1	44	233	234	S	43	,	,	,	,	O	punct	O	-1	O
+0	1	45	235	242	S	47	Bayardo	Bayardo	Bayardo	NNP	PERSON	nn	O	1	O
+0	1	46	243	246	S	47	San	San	San	NNP	PERSON	nn	O	1	O
+0	1	47	247	252		43	Roman	Roman	Roman	NNP	PERSON	appos	O	1	O
+0	1	48	252	253	S	43	,	,	,	,	O	punct	O	-1	O
+0	1	49	254	261	S	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	1	50	262	265	S	49	her	her	she	PRP$	O	dobj	O	0	O
+0	1	51	266	268	S	50	to	to	to	TO	O	prep	O	-1	O
+0	1	52	269	272	S	53	her	her	she	PRP$	O	poss	O	0	O
+0	1	53	273	278		51	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	1	54	278	279	S	49	.	.	.	.	O	punct	O	-1	O
+0	2	55	280	286		58	Angela	Angela	Angela	NNP	PERSON	poss	O	0	B-noun.person
+0	2	56	286	288	S	55	's	's	's	POS	O	possessive	O	-1	O
+0	2	57	289	293	S	58	twin	twin	twin	JJ	O	amod	O	-1	O
+0	2	58	294	302		66	brothers	brothers	brother	NNS	O	nsubj	O	-1	B-noun.person
+0	2	59	302	303	S	58	,	,	,	,	O	punct	O	-1	O
+0	2	60	304	309	S	61	Pedro	Pedro	Pedro	NNP	PERSON	nn	O	-1	O
+0	2	61	310	317	S	58	Vicario	Vicario	Vicario	NNP	PERSON	appos	O	-1	O
+0	2	62	318	321	S	61	and	and	and	CC	O	cc	O	-1	O
+0	2	63	322	327	S	64	Pablo	Pablo	Pablo	NNP	PERSON	nn	O	2	B-noun.person
+0	2	64	328	335		61	Vicario	Vicario	Vicario	NNP	PERSON	conj	O	2	I-noun.person
+0	2	65	335	336	S	58	,	,	,	,	O	punct	O	-1	O
+0	2	66	337	340	S	-1	ask	ask	ask	VB	O	null	O	-1	B-verb.communication
+0	2	67	341	344	S	66	her	her	she	PRP	O	dobj	O	0	O
+0	2	68	345	348	S	69	who	who	who	WP	O	nsubj	O	-1	O
+0	2	69	349	353	S	66	took	took	take	VBD	O	dep	O	-1	B-verb.social
+0	2	70	354	357	S	71	her	her	she	PRP$	O	poss	O	0	O
+0	2	71	358	367		69	virginity	virginity	virginity	NN	O	dobj	O	-1	B-noun.state
+0	2	72	367	368	S	69	,	,	,	,	O	punct	O	-1	O
+0	2	73	369	372	S	69	and	and	and	CC	O	cc	O	-1	O
+0	2	74	373	376	S	75	she	she	she	PRP	O	nsubj	O	0	O
+0	2	75	377	382	S	69	tells	tells	tell	VBZ	O	conj	O	-1	B-verb.communication
+0	2	76	383	387	S	75	them	them	they	PRP	O	dobj	O	-1	O
+0	2	77	388	392	S	80	that	that	that	IN	O	complm	O	-1	O
+0	2	78	393	401	S	79	Santiago	Santiago	Santiago	NNP	PERSON	nn	O	5	B-noun.location
+0	2	79	402	407	S	80	Nasar	Nasar	Nasar	NNP	PERSON	nsubj	O	5	I-noun.location
+0	2	80	408	411		75	did	did	do	VBD	O	ccomp	O	-1	O
+0	2	81	411	412	S	66	.	.	.	.	O	punct	O	-1	O
+0	3	82	413	416	S	83	The	The	the	DT	O	det	O	-1	O
+0	3	83	417	425	S	84	brothers	brothers	brother	NNS	O	nsubj	O	-1	B-noun.person
+0	3	84	426	430	S	-1	find	find	find	VBP	O	null	O	-1	B-verb.possession
+0	3	85	431	439	S	84	Santiago	Santiago	Santiago	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	3	86	440	443	S	85	and	and	and	CC	O	cc	O	-1	O
+0	3	87	444	448	S	85	kill	kill	kill	VB	O	conj	O	-1	B-verb.contact
+0	3	88	449	452		85	him	him	he	PRP	O	dep	O	5	O
+0	3	89	452	453	S	84	.	.	.	.	O	punct	O	-1	O
+0	4	90	454	457	S	91	The	The	the	DT	O	det	O	-1	O
+0	4	91	458	467	S	93	narrative	narrative	narrative	NN	O	nsubj	O	-1	B-noun.communication
+0	4	92	468	470	S	93	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	93	471	481		-1	non-linear	non-linear	non-linear	JJ	O	null	O	-1	O
+0	4	94	481	482	S	93	.	.	.	.	O	punct	O	-1	O
+0	5	95	483	486	S	96	The	The	the	DT	O	det	O	-1	O
+0	5	96	487	495	S	97	narrator	narrator	narrator	NN	O	nsubj	O	-1	B-noun.person
+0	5	97	496	502	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	5	98	503	506	S	99	the	the	the	DT	O	det	O	-1	O
+0	5	99	507	512	S	97	story	story	story	NN	O	dobj	O	-1	B-noun.communication
+0	5	100	513	515	S	97	by	by	by	IN	O	prep	O	-1	O
+0	5	101	516	523	S	100	telling	telling	tell	VBG	O	pcomp	O	-1	B-verb.communication
+0	5	102	524	526	S	101	us	us	we	PRP	O	dobj	O	-1	O
+0	5	103	527	532	S	107	about	about	about	IN	O	quantmod	O	-1	O
+0	5	104	533	541	S	105	Santiago	Santiago	Santiago	NNP	PERSON	nn	O	5	B-noun.location
+0	5	105	542	547		107	Nasar	Nasar	Nasar	NNP	PERSON	poss	O	5	I-noun.location
+0	5	106	547	549	S	105	's	's	's	POS	O	possessive	O	-1	O
+0	5	107	550	559	S	101	household	household	household	NN	O	dobj	O	-1	B-noun.group
+0	5	108	560	563	S	109	the	the	the	DT	O	det	O	-1	O
+0	5	109	564	571	S	107	morning	morning	morning	NN	TIME	dep	O	-1	B-noun.time
+0	5	110	572	574	S	112	he	he	he	PRP	O	nsubjpass	O	5	O
+0	5	111	575	578	S	112	was	was	be	VBD	O	auxpass	O	-1	O
+0	5	112	579	587		109	murdered	murdered	murder	VBN	O	rcmod	O	-1	O
+0	5	113	587	588	S	97	.	.	.	.	O	punct	O	-1	O
+0	6	114	589	591	S	122	In	In	in	IN	O	prep	O	-1	O
+0	6	115	592	595	S	116	the	the	the	DT	O	det	O	-1	O
+0	6	116	596	602	S	114	course	course	course	NN	O	pobj	O	-1	B-noun.act
+0	6	117	603	605	S	116	of	of	of	IN	O	prep	O	-1	O
+0	6	118	606	609	S	119	the	the	the	DT	O	det	O	-1	O
+0	6	119	610	617		117	chapter	chapter	chapter	NN	O	pobj	O	-1	B-noun.communication
+0	6	120	617	618	S	122	,	,	,	,	O	punct	O	-1	O
+0	6	121	619	621	S	122	we	we	we	PRP	O	nsubj	O	-1	O
+0	6	122	622	627	S	-1	learn	learn	learn	VBP	O	null	O	-1	B-verb.cognition
+0	6	123	628	632	S	125	that	that	that	IN	O	complm	O	-1	O
+0	6	124	633	641	S	125	Santiago	Santiago	Santiago	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	6	125	642	647	S	122	lived	lived	live	VBD	O	ccomp	O	-1	B-verb.stative
+0	6	126	648	652	S	125	with	with	with	IN	O	prep	O	-1	O
+0	6	127	653	656	S	128	his	his	he	PRP$	O	poss	O	5	O
+0	6	128	657	663		126	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	6	129	663	664	S	125	,	,	,	,	O	punct	O	-1	O
+0	6	130	665	672	S	131	Placida	Placida	Placida	NNP	PERSON	nn	O	-1	O
+0	6	131	673	679		125	Linero	Linero	Linero	NNP	PERSON	conj	O	-1	O
+0	6	132	679	680	S	125	;	;	;	:	O	punct	O	-1	O
+0	6	133	681	686	S	134	their	their	they	PRP$	O	poss	O	-1	O
+0	6	134	687	691		125	cook	cook	cook	NN	O	conj	O	-1	B-noun.person
+0	6	135	691	692	S	134	,	,	,	,	O	punct	O	-1	O
+0	6	136	693	701	S	137	Victoria	Victoria	Victoria	NNP	PERSON	nn	O	-1	B-noun.person
+0	6	137	702	708		134	Guzman	Guzman	Guzman	NNP	PERSON	appos	O	-1	I-noun.person
+0	6	138	708	709	S	122	;	;	;	:	O	punct	O	-1	O
+0	6	139	710	713	S	122	and	and	and	CC	O	cc	O	-1	O
+0	6	140	714	717	S	141	her	her	she	PRP$	O	poss	O	-1	O
+0	6	141	718	726		122	daughter	daughter	daughter	NN	O	conj	O	-1	B-noun.person
+0	6	142	726	727	S	141	,	,	,	,	O	punct	O	-1	O
+0	6	143	728	734	S	144	Divina	Divina	Divina	NNP	PERSON	nn	O	-1	O
+0	6	144	735	739		141	Flor	Flor	Flor	NNP	PERSON	appos	O	-1	O
+0	6	145	739	740	S	122	.	.	.	.	O	punct	O	-1	O
+0	7	146	741	749		148	Santiago	Santiago	Santiago	NNP	LOCATION	poss	O	-1	B-noun.location
+0	7	147	749	751	S	146	's	's	's	POS	O	possessive	O	-1	O
+0	7	148	752	758		154	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	7	149	758	759	S	148	,	,	,	,	O	punct	O	-1	O
+0	7	150	760	767	S	151	Ibrahim	Ibrahim	Ibrahim	NNP	PERSON	nn	O	-1	B-noun.person
+0	7	151	768	773		148	Nasar	Nasar	Nasar	NNP	PERSON	appos	O	-1	I-noun.person
+0	7	152	773	774	S	148	,	,	,	,	O	punct	O	-1	O
+0	7	153	775	778	S	154	has	has	have	VBZ	O	aux	O	-1	O
+0	7	154	779	783	S	-1	died	died	die	VBD	O	null	O	-1	B-verb.change
+0	7	155	784	789	S	156	three	three	three	CD	DURATION	num	O	-1	O
+0	7	156	790	795	S	157	years	years	year	NNS	DURATION	dep	O	-1	B-noun.time
+0	7	157	796	806		154	previously	previously	previously	RB	DATE	advmod	O	-1	O
+0	7	158	806	807	S	154	.	.	.	.	O	punct	O	-1	O
+0	8	159	808	813	S	162	After	After	after	IN	O	mark	O	-1	O
+0	8	160	814	817	S	161	his	his	he	PRP$	O	poss	O	-1	O
+0	8	161	818	824	S	162	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	8	162	825	829		165	died	died	die	VBD	O	advcl	O	-1	B-verb.change
+0	8	163	829	830	S	165	,	,	,	,	O	punct	O	-1	O
+0	8	164	831	839	S	165	Santiago	Santiago	Santiago	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	8	165	840	844	S	-1	took	took	take	VBD	O	null	O	-1	B-verb.possession
+0	8	166	845	849	S	165	over	over	over	RP	O	prt	O	-1	O
+0	8	167	850	853	S	169	the	the	the	DT	O	det	O	-1	O
+0	8	168	854	860	S	169	family	family	family	NN	O	nn	O	-1	B-noun.group
+0	8	169	861	866		165	ranch	ranch	ranch	NN	O	dobj	O	-1	B-noun.artifact
+0	8	170	866	867	S	169	,	,	,	,	O	punct	O	-1	O
+0	8	171	868	873	S	175	which	which	which	WDT	O	nsubj	O	-1	O
+0	8	172	874	877	S	175	has	has	have	VBZ	O	aux	O	-1	O
+0	8	173	878	882	S	175	been	been	be	VBN	O	cop	O	-1	B-verb.stative
+0	8	174	883	887	S	175	very	very	very	RB	O	advmod	O	-1	O
+0	8	175	888	898		169	successful	successful	successful	JJ	O	rcmod	O	-1	O
+0	8	176	898	899	S	165	;	;	;	:	O	punct	O	-1	O
+0	8	177	900	903	S	178	the	the	the	DT	O	det	O	-1	O
+0	8	178	904	910	S	180	Nasars	Nasars	Nasars	NNP	O	nsubj	O	-1	B-noun.person
+0	8	179	911	914	S	180	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	8	180	915	922	S	165	wealthy	wealthy	wealthy	JJ	O	parataxis	O	-1	O
+0	8	181	923	925	S	180	in	in	in	IN	O	prep	O	-1	O
+0	8	182	926	931	S	183	their	their	they	PRP$	O	poss	O	-1	O
+0	8	183	932	941		181	community	community	community	NN	O	pobj	O	-1	B-noun.group
+0	8	184	941	942	S	165	.	.	.	.	O	punct	O	-1	O
+0	9	185	943	946	S	186	The	The	the	DT	DATE	det	O	-1	O
+0	9	186	947	950	S	-1	day	day	day	NN	DATE	null	O	-1	B-noun.time
+0	9	187	951	955	S	190	that	that	that	IN	O	complm	O	-1	O
+0	9	188	956	964	S	190	Santiago	Santiago	Santiago	NNP	LOCATION	nsubjpass	O	-1	B-noun.location
+0	9	189	965	967	S	190	is	is	be	VBZ	O	auxpass	O	-1	O
+0	9	190	968	976	S	186	murdered	murdered	murder	VBN	O	ccomp	O	-1	B-verb.social
+0	9	191	977	980	S	194	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	9	192	981	982	S	194	a	a	a	DT	O	det	O	-1	O
+0	9	193	983	994	S	194	significant	significant	significant	JJ	O	amod	O	-1	O
+0	9	194	995	998	S	190	day	day	day	NN	DURATION	tmod	O	-1	B-noun.time
+0	9	195	999	1001	S	190	in	in	in	IN	O	prep	O	-1	O
+0	9	196	1002	1006	S	195	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	9	197	1007	1014	S	201	because	because	because	IN	O	mark	O	-1	O
+0	9	198	1015	1018	S	199	the	the	the	DT	O	det	O	-1	O
+0	9	199	1019	1025	S	201	Bishop	Bishop	Bishop	NNP	O	nsubj	O	-1	B-noun.person
+0	9	200	1026	1029	S	201	was	was	be	VBD	O	aux	O	-1	O
+0	9	201	1030	1036	S	190	coming	coming	come	VBG	O	advcl	O	-1	B-verb.motion
+0	9	202	1037	1039	S	201	by	by	by	IN	O	prep	O	-1	O
+0	9	203	1040	1044	S	202	boat	boat	boat	NN	O	pobj	O	-1	B-noun.artifact
+0	9	204	1045	1047	S	205	to	to	to	TO	O	aux	O	-1	O
+0	9	205	1048	1053	S	201	bless	bless	bless	VB	O	xcomp	O	-1	B-verb.communication
+0	9	206	1054	1057	S	207	the	the	the	DT	O	det	O	-1	O
+0	9	207	1058	1066	S	205	marriage	marriage	marriage	NN	O	dobj	O	-1	B-noun.state
+0	9	208	1067	1069	S	207	of	of	of	IN	O	prep	O	-1	O
+0	9	209	1070	1076	S	210	Angela	Angela	Angela	NNP	PERSON	nn	O	0	B-noun.person
+0	9	210	1077	1084	S	208	Vicario	Vicario	Vicario	NNP	PERSON	pobj	O	0	I-noun.person
+0	9	211	1085	1088	S	210	and	and	and	CC	O	cc	O	-1	O
+0	9	212	1089	1096	S	214	Bayardo	Bayardo	Bayardo	NNP	LOCATION	nn	O	-1	B-noun.person
+0	9	213	1097	1100	S	214	San	San	San	NNP	LOCATION	nn	O	-1	I-noun.person
+0	9	214	1101	1106		210	Roman	Roman	Roman	NNP	LOCATION	conj	O	-1	I-noun.person
+0	9	215	1106	1107	S	186	.	.	.	.	O	punct	O	-1	O
+0	10	216	1108	1112	S	217	Many	Many	many	JJ	O	amod	O	-1	O
+0	10	217	1113	1119	S	219	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	10	218	1120	1124	S	219	were	were	be	VBD	O	aux	O	-1	O
+0	10	219	1125	1132	S	-1	heading	heading	head	VBG	O	null	O	-1	B-verb.motion
+0	10	220	1133	1137	S	219	over	over	over	IN	O	prep	O	-1	O
+0	10	221	1138	1140	S	220	to	to	to	TO	O	dep	O	-1	O
+0	10	222	1141	1144	S	223	the	the	the	DT	O	det	O	-1	O
+0	10	223	1145	1149	S	221	dock	dock	dock	NN	O	pobj	O	-1	B-noun.artifact
+0	10	224	1150	1152	S	225	to	to	to	TO	O	aux	O	-1	O
+0	10	225	1153	1156	S	223	see	see	see	VB	O	infmod	O	-1	B-verb.perception
+0	10	226	1157	1160	S	227	the	the	the	DT	O	det	O	-1	O
+0	10	227	1161	1166		225	boats	boats	boat	NNS	O	dobj	O	-1	B-noun.artifact
+0	10	228	1166	1167	S	219	.	.	.	.	O	punct	O	-1	O
+0	11	229	1168	1173	S	234	Pedro	Pedro	Pedro	NNP	PERSON	nsubj	O	3	B-noun.person
+0	11	230	1174	1177	S	229	and	and	and	CC	O	cc	O	-1	O
+0	11	231	1178	1183	S	232	Pablo	Pablo	Pablo	NNP	PERSON	nn	O	2	B-noun.person
+0	11	232	1184	1191	S	229	Vicario	Vicario	Vicario	NNP	PERSON	conj	O	2	I-noun.person
+0	11	233	1192	1196	S	234	were	were	be	VBD	O	aux	O	-1	O
+0	11	234	1197	1204	S	-1	sitting	sitting	sit	VBG	O	null	O	-1	B-verb.contact
+0	11	235	1205	1207	S	234	in	in	in	IN	O	prep	O	-1	O
+0	11	236	1208	1211	S	238	the	the	the	DT	O	det	O	-1	O
+0	11	237	1212	1217	S	238	local	local	local	JJ	O	amod	O	-1	O
+0	11	238	1218	1227		235	milk-shop	milk-shop	milk-shop	JJ	O	pobj	O	-1	O
+0	11	239	1227	1228	S	238	,	,	,	,	O	punct	O	-1	O
+0	11	240	1229	1234	S	241	which	which	which	WDT	O	nsubj	O	-1	O
+0	11	241	1235	1238	S	238	was	was	be	VBD	O	rcmod	O	-1	B-verb.stative
+0	11	242	1239	1241	S	241	en	en	en	IN	O	advmod	O	-1	O
+0	11	243	1242	1247	S	242	route	route	route	NN	O	pobj	O	-1	B-noun.location
+0	11	244	1248	1250	S	243	to	to	to	TO	O	prep	O	-1	O
+0	11	245	1251	1254	S	246	the	the	the	DT	O	det	O	-1	O
+0	11	246	1255	1259		244	dock	dock	dock	NN	O	pobj	O	-1	B-noun.artifact
+0	11	247	1259	1260	S	234	,	,	,	,	O	punct	O	-1	O
+0	11	248	1261	1263	S	252	so	so	so	RB	O	advmod	O	-1	O
+0	11	249	1264	1268	S	252	that	that	that	IN	O	dep	O	-1	O
+0	11	250	1269	1273	S	252	they	they	they	PRP	O	nsubj	O	-1	O
+0	11	251	1274	1279	S	252	could	could	could	MD	O	aux	O	-1	O
+0	11	252	1280	1283	S	234	see	see	see	VB	O	parataxis	O	-1	B-verb.perception
+0	11	253	1284	1292	S	254	Santiago	Santiago	Santiago	NNP	PERSON	nn	O	5	B-noun.location
+0	11	254	1293	1298	S	256	Nasar	Nasar	Nasar	NNP	PERSON	nsubj	O	5	I-noun.location
+0	11	255	1299	1305	S	256	either	either	either	CC	O	preconj	O	-1	O
+0	11	256	1306	1311	S	252	going	going	go	VBG	O	ccomp	O	-1	B-verb.motion
+0	11	257	1312	1314	S	256	or	or	or	CC	O	cc	O	-1	O
+0	11	258	1315	1324	S	256	returning	returning	return	VBG	O	conj	O	-1	B-verb.motion
+0	11	259	1325	1327	S	262	in	in	in	IN	O	mark	O	-1	O
+0	11	260	1328	1333	S	262	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	11	261	1334	1336	S	262	to	to	to	TO	O	aux	O	-1	O
+0	11	262	1337	1342	S	258	track	track	track	VB	O	purpcl	O	-1	B-verb.motion
+0	11	263	1343	1346	S	262	him	him	he	PRP	O	dobj	O	5	O
+0	11	264	1347	1351	S	262	down	down	down	RB	O	advmod	O	-1	O
+0	11	265	1352	1355	S	262	and	and	and	CC	O	cc	O	-1	O
+0	11	266	1356	1360	S	262	kill	kill	kill	VB	O	conj	O	-1	B-verb.contact
+0	11	267	1361	1364		266	him	him	he	PRP	O	dobj	O	5	O
+0	11	268	1364	1365	S	234	.	.	.	.	O	punct	O	-1	O
+0	12	269	1366	1369	S	270	The	The	the	DT	O	det	O	-1	O
+0	12	270	1370	1378		272	narrator	narrator	narrator	NN	O	poss	O	-1	B-noun.person
+0	12	271	1378	1380	S	270	's	's	's	POS	O	possessive	O	-1	O
+0	12	272	1381	1387	S	273	sister	sister	sister	NN	O	nsubj	O	-1	B-noun.person
+0	12	273	1388	1394	S	-1	learns	learns	learn	VBZ	O	null	O	-1	B-verb.cognition
+0	12	274	1395	1399	S	278	that	that	that	IN	O	complm	O	-1	O
+0	12	275	1400	1406	S	276	Angela	Angela	Angela	NNP	PERSON	nn	O	0	B-noun.person
+0	12	276	1407	1414	S	278	Vicario	Vicario	Vicario	NNP	PERSON	nsubjpass	O	0	I-noun.person
+0	12	277	1415	1418	S	278	was	was	be	VBD	O	auxpass	O	-1	O
+0	12	278	1419	1427	S	273	returned	returned	return	VBN	O	ccomp	O	-1	B-verb.motion
+0	12	279	1428	1432	S	278	home	home	home	NN	O	advmod	O	-1	B-noun.location
+0	12	280	1433	1435	S	278	on	on	on	IN	O	prep	O	-1	O
+0	12	281	1436	1439	S	282	the	the	the	DT	O	det	O	-1	O
+0	12	282	1440	1445	S	280	night	night	night	NN	TIME	pobj	O	-1	B-noun.time
+0	12	283	1446	1448	S	282	of	of	of	IN	O	prep	O	-1	O
+0	12	284	1449	1452	S	285	her	her	she	PRP$	O	poss	O	0	O
+0	12	285	1453	1460		283	wedding	wedding	wedding	NN	O	pobj	O	-1	B-noun.event
+0	12	286	1460	1461	S	273	.	.	.	.	O	punct	O	-1	O
+0	13	287	1462	1469	S	289	Bayardo	Bayardo	Bayardo	NNP	LOCATION	nn	O	-1	B-noun.person
+0	13	288	1470	1473	S	289	San	San	San	NNP	LOCATION	nn	O	-1	I-noun.person
+0	13	289	1474	1479	S	291	Roman	Roman	Roman	NNP	LOCATION	nsubj	O	-1	I-noun.person
+0	13	290	1480	1483	S	291	had	had	have	VBD	O	aux	O	-1	O
+0	13	291	1484	1488	S	-1	come	come	come	VBN	O	null	O	-1	B-verb.motion
+0	13	292	1489	1491	S	291	to	to	to	TO	O	prep	O	-1	O
+0	13	293	1492	1496	S	292	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	13	294	1497	1499	S	295	to	to	to	TO	O	aux	O	-1	O
+0	13	295	1500	1504	S	291	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	13	296	1505	1506	S	297	a	a	a	DT	O	det	O	-1	O
+0	13	297	1507	1512		295	bride	bride	bride	NN	O	dobj	O	-1	B-noun.person
+0	13	298	1512	1513	S	291	.	.	.	.	O	punct	O	-1	O
+0	14	299	1514	1519	S	307	After	After	after	IN	O	prep	O	-1	O
+0	14	300	1520	1528	S	299	deciding	deciding	decide	VBG	O	pcomp	O	-1	B-verb.cognition
+0	14	301	1529	1531	S	300	on	on	on	IN	O	prep	O	-1	O
+0	14	302	1532	1538		301	Angela	Angela	Angela	NNP	PERSON	pobj	O	0	O
+0	14	303	1538	1539	S	307	,	,	,	,	O	punct	O	-1	O
+0	14	304	1540	1543	S	305	the	the	the	DT	O	det	O	-1	O
+0	14	305	1544	1553	S	307	courtship	courtship	courtship	NN	O	nsubj	O	-1	B-noun.communication
+0	14	306	1554	1557	S	307	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	14	307	1558	1563		-1	short	short	short	JJ	O	null	O	-1	O
+0	14	308	1563	1564	S	307	.	.	.	.	O	punct	O	-1	O
+0	15	309	1565	1572	S	311	Because	Because	because	IN	O	mark	O	-1	O
+0	15	310	1573	1580	S	311	Bayardo	Bayardo	Bayardo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	15	311	1581	1585	S	330	came	came	come	VBD	O	advcl	O	-1	B-verb.motion
+0	15	312	1586	1590	S	311	from	from	from	IN	O	prep	O	-1	O
+0	15	313	1591	1592	S	317	a	a	a	DT	O	det	O	-1	O
+0	15	314	1593	1604		317	prestigious	prestigious	prestigious	JJ	O	amod	O	-1	O
+0	15	315	1604	1605	S	317	,	,	,	,	O	punct	O	-1	O
+0	15	316	1606	1613	S	317	wealthy	wealthy	wealthy	JJ	O	amod	O	-1	O
+0	15	317	1614	1620		312	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	15	318	1620	1621	S	311	,	,	,	,	O	punct	O	-1	O
+0	15	319	1622	1625	S	311	and	and	and	CC	O	cc	O	-1	O
+0	15	320	1626	1629	S	321	the	the	the	DT	O	det	O	-1	O
+0	15	321	1630	1638	S	324	Vicarios	Vicarios	Vicarios	NNPS	PERSON	nsubj	O	-1	B-noun.person
+0	15	322	1639	1643	S	324	were	were	be	VBD	O	cop	O	-1	B-verb.stative
+0	15	323	1644	1654	S	324	relatively	relatively	relatively	RB	O	advmod	O	-1	O
+0	15	324	1655	1659		311	poor	poor	poor	JJ	O	conj	O	-1	O
+0	15	325	1659	1660	S	330	,	,	,	,	O	punct	O	-1	O
+0	15	326	1661	1667	S	330	Angela	Angela	Angela	NNP	PERSON	nsubj	O	0	B-noun.person
+0	15	327	1668	1671	S	330	did	did	do	VBD	O	aux	O	-1	O
+0	15	328	1672	1675	S	330	not	not	not	RB	O	neg	O	-1	O
+0	15	329	1676	1682	S	330	really	really	really	RB	O	advmod	O	-1	O
+0	15	330	1683	1687	S	-1	have	have	have	VB	O	null	O	-1	B-verb.possession
+0	15	331	1688	1689	S	332	a	a	a	DT	O	det	O	-1	O
+0	15	332	1690	1696		330	choice	choice	choice	NN	O	dobj	O	-1	B-noun.cognition
+0	15	333	1696	1697	S	330	,	,	,	,	O	punct	O	-1	O
+0	15	334	1698	1702	S	339	even	even	even	RB	O	advmod	O	-1	O
+0	15	335	1703	1709	S	339	though	though	though	IN	O	dep	O	-1	O
+0	15	336	1710	1713	S	339	she	she	she	PRP	O	nsubj	O	0	O
+0	15	337	1714	1717	S	339	did	did	do	VBD	O	aux	O	-1	O
+0	15	338	1718	1721	S	339	not	not	not	RB	O	neg	O	-1	O
+0	15	339	1722	1726	S	330	love	love	love	VB	O	dep	O	-1	B-verb.emotion
+0	15	340	1727	1734	S	339	Bayardo	Bayardo	Bayardo	NNP	PERSON	dobj	O	1	B-noun.person
+0	15	341	1735	1737	S	339	at	at	at	IN	O	prep	O	-1	O
+0	15	342	1738	1741	S	343	the	the	the	DT	O	det	O	-1	O
+0	15	343	1742	1746	S	341	time	time	time	NN	DATE	pobj	O	-1	B-noun.time
+0	15	344	1747	1751	S	345	they	they	they	PRP	O	nsubj	O	-1	O
+0	15	345	1752	1756	S	339	were	were	be	VBD	O	ccomp	O	-1	B-verb.stative
+0	15	346	1757	1760		345	wed	wed.	wed.	RB	O	advmod	O	-1	O
+0	15	347	1760	1761	S	330	.	.	.	.	O	punct	O	-1	O
+0	16	348	1762	1765	S	349	The	The	the	DT	O	det	O	-1	O
+0	16	349	1766	1771	S	-1	night	night	night	NN	TIME	null	O	-1	B-noun.time
+0	16	350	1772	1778	S	349	before	before	before	IN	TIME	prep	O	-1	O
+0	16	351	1779	1782	S	352	the	the	the	DT	O	det	O	-1	O
+0	16	352	1783	1789		350	murder	murder	murder	NN	O	pobj	O	-1	B-noun.act
+0	16	353	1789	1790	S	357	,	,	,	,	O	punct	O	-1	O
+0	16	354	1791	1796	S	357	there	there	there	EX	O	expl	O	-1	O
+0	16	355	1797	1800	S	357	had	had	have	VBD	O	aux	O	-1	O
+0	16	356	1801	1805	S	357	been	been	be	VBN	O	cop	O	-1	B-verb.stative
+0	16	357	1806	1810	S	349	lots	lots	lot	NNS	O	dep	O	-1	B-noun.quantity
+0	16	358	1811	1813	S	357	of	of	of	IN	O	prep	O	-1	O
+0	16	359	1814	1821	S	360	wedding	wedding	wedding	NN	O	nn	O	-1	B-noun.event
+0	16	360	1822	1829	S	358	revelry	revelry	revelry	NN	O	pobj	O	-1	B-noun.act
+0	16	361	1830	1834	S	363	that	that	that	WDT	O	nsubj	O	-1	O
+0	16	362	1835	1838	S	363	had	had	have	VBD	O	aux	O	-1	O
+0	16	363	1839	1848	S	360	continued	continued	continue	VBN	O	rcmod	O	-1	B-verb.stative
+0	16	364	1849	1853	S	363	into	into	into	IN	O	prep	O	-1	O
+0	16	365	1854	1857	S	367	the	the	the	DT	TIME	det	O	-1	O
+0	16	366	1858	1863	S	367	early	early	early	JJ	TIME	amod	O	-1	O
+0	16	367	1864	1871	S	364	morning	morning	morning	NN	TIME	pobj	O	-1	B-noun.time
+0	16	368	1872	1874	S	363	at	at	at	IN	O	prep	O	-1	O
+0	16	369	1875	1876	S	371	a	a	a	DT	O	det	O	-1	O
+0	16	370	1877	1882	S	371	local	local	local	JJ	O	amod	O	-1	O
+0	16	371	1883	1893	S	368	whorehouse	whorehouse	whorehouse	NN	O	pobj	O	-1	B-noun.artifact
+0	16	372	1894	1897	S	371	run	run	run	VBN	O	partmod	O	-1	B-verb.motion
+0	16	373	1898	1900	S	372	by	by	by	IN	O	prep	O	-1	O
+0	16	374	1901	1906	S	376	Maria	Maria	Maria	NNP	PERSON	nn	O	-1	B-noun.person
+0	16	375	1907	1918	S	376	Alejandrina	Alejandrina	Alejandrina	NNP	PERSON	nn	O	-1	I-noun.person
+0	16	376	1919	1928		373	Cervantes	Cervantes	Cervantes	NNP	PERSON	pobj	O	-1	I-noun.person
+0	16	377	1928	1929	S	376	,	,	,	,	O	punct	O	-1	O
+0	16	378	1930	1935	S	383	where	where	where	WRB	O	advmod	O	-1	O
+0	16	379	1936	1944	S	380	Santiago	Santiago	Santiago	NNP	PERSON	nn	O	5	B-noun.location
+0	16	380	1945	1950	S	383	Nasar	Nasar	Nasar	NNP	PERSON	nsubj	O	5	I-noun.location
+0	16	381	1951	1954	S	383	had	had	have	VBD	O	aux	O	-1	O
+0	16	382	1955	1959	S	383	been	been	be	VBN	O	aux	O	-1	O
+0	16	383	1960	1969	S	376	carousing	carousing	carouse	VBG	O	rcmod	O	-1	B-verb.social
+0	16	384	1970	1974	S	383	with	with	with	IN	O	prep	O	-1	O
+0	16	385	1975	1978	S	386	the	the	the	DT	O	det	O	-1	O
+0	16	386	1979	1984	S	384	twins	twins	twin	NNS	O	pobj	O	-1	B-noun.person
+0	16	387	1985	1988	S	386	and	and	and	CC	O	cc	O	-1	O
+0	16	388	1989	1992	S	389	the	the	the	DT	O	det	O	-1	O
+0	16	389	1993	2001	S	386	narrator	narrator	narrator	NN	O	conj	O	-1	B-noun.person
+0	16	390	2002	2007	S	389	until	until	until	IN	O	prep	O	-1	O
+0	16	391	2008	2013	S	390	early	early	early	JJ	O	pobj	O	-1	O
+0	16	392	2014	2016	S	391	in	in	in	IN	O	prep	O	-1	O
+0	16	393	2017	2020	S	394	the	the	the	DT	O	det	O	-1	O
+0	16	394	2021	2028		392	morning	morning	morning	NN	TIME	pobj	O	-1	B-noun.time
+0	16	395	2028	2029	S	349	.	.	.	.	O	punct	O	-1	O
+0	17	396	2030	2035	S	409	After	After	after	IN	O	prep	O	-1	O
+0	17	397	2036	2045	S	396	returning	returning	return	VBG	O	pcomp	O	-1	B-verb.motion
+0	17	398	2046	2050	S	397	home	home	home	NN	O	dobj	O	-1	B-noun.location
+0	17	399	2051	2054	S	397	and	and	and	CC	O	cc	O	-1	O
+0	17	400	2055	2062	S	397	finding	finding	find	VBG	O	conj	O	-1	B-verb.possession
+0	17	401	2063	2068	S	402	their	their	they	PRP$	O	poss	O	-1	O
+0	17	402	2069	2075	S	400	sister	sister	sister	NN	O	dobj	O	-1	B-noun.person
+0	17	403	2076	2078	S	402	in	in	in	IN	O	prep	O	-1	O
+0	17	404	2079	2087		403	disgrace	disgrace	disgrace	NN	O	pobj	O	-1	B-noun.state
+0	17	405	2087	2088	S	409	,	,	,	,	O	punct	O	-1	O
+0	17	406	2089	2092	S	408	the	the	the	DT	O	det	O	-1	O
+0	17	407	2093	2100	S	408	Vicario	Vicario	Vicario	NNP	PERSON	nn	O	0	B-noun.person
+0	17	408	2101	2109	S	409	brothers	brothers	brother	NNS	O	nsubj	O	-1	B-noun.person
+0	17	409	2110	2113	S	-1	set	set	set	VBD	O	null	O	-1	B-verb.change
+0	17	410	2114	2117	S	409	out	out	out	RP	O	prt	O	-1	O
+0	17	411	2118	2120	S	412	to	to	to	TO	O	aux	O	-1	O
+0	17	412	2121	2127	S	409	avenge	avenge	avenge	VB	O	xcomp	O	-1	B-verb.competition
+0	17	413	2128	2131	S	414	her	her	she	PRP$	O	poss	O	0	O
+0	17	414	2132	2137	S	412	honor	honor	honor	NN	O	dobj	O	-1	B-noun.communication
+0	17	415	2138	2140	S	412	by	by	by	IN	O	prep	O	-1	O
+0	17	416	2141	2150	S	415	murdering	murdering	murder	VBG	O	pcomp	O	-1	B-verb.social
+0	17	417	2151	2159	S	418	Santiago	Santiago	Santiago	NNP	PERSON	nn	O	5	B-noun.location
+0	17	418	2160	2165		416	Nasar	Nasar	Nasar	NNP	PERSON	dobj	O	5	I-noun.location
+0	17	419	2165	2166	S	409	.	.	.	.	O	punct	O	-1	O
+0	18	420	2167	2171	S	424	Even	Even	even	RB	O	advmod	O	-1	O
+0	18	421	2172	2178	S	424	though	though	though	IN	O	dep	O	-1	O
+0	18	422	2179	2183	S	424	they	they	they	PRP	O	nsubj	O	-1	O
+0	18	423	2184	2194	S	424	repeatedly	repeatedly	repeatedly	RB	O	advmod	O	-1	O
+0	18	424	2195	2204	S	442	announced	announced	announce	VBD	O	advcl	O	-1	B-verb.communication
+0	18	425	2205	2210	S	426	their	their	they	PRP$	O	poss	O	-1	O
+0	18	426	2211	2217	S	424	intent	intent	intent	NN	O	dobj	O	-1	B-noun.cognition
+0	18	427	2218	2220	S	426	to	to	to	TO	O	prep	O	-1	O
+0	18	428	2221	2227	S	429	murder	murder	murder	NN	O	nn	O	-1	B-noun.act
+0	18	429	2228	2231		427	him	him	he	PRP	O	pobj	O	5	O
+0	18	430	2231	2232	S	442	,	,	,	,	O	punct	O	-1	O
+0	18	431	2233	2236	S	432	the	the	the	DT	O	det	O	-1	O
+0	18	432	2237	2244		442	butcher	butcher	butcher	NN	O	nsubj	O	-1	B-noun.person
+0	18	433	2244	2245	S	442	,	,	,	,	O	punct	O	-1	O
+0	18	434	2246	2249	S	436	the	the	the	DT	O	det	O	-1	O
+0	18	435	2250	2256	S	436	police	police	police	NN	O	nn	O	-1	B-noun.person
+0	18	436	2257	2264		442	officer	officer	officer	NN	O	nsubj	O	-1	I-noun.person
+0	18	437	2264	2265	S	436	,	,	,	,	O	punct	O	-1	O
+0	18	438	2266	2269	S	436	and	and	and	CC	O	cc	O	-1	O
+0	18	439	2270	2273	S	440	the	the	the	DT	O	det	O	-1	O
+0	18	440	2274	2281	S	436	Colonel	Colonel	Colonel	NNP	O	conj	O	-1	B-noun.person
+0	18	441	2282	2285	S	442	all	all	all	DT	O	dep	O	-1	O
+0	18	442	2286	2293	S	-1	thought	thought	think	VBD	O	null	O	-1	B-verb.cognition
+0	18	443	2294	2298	S	448	that	that	that	IN	O	complm	O	-1	O
+0	18	444	2299	2302	S	445	the	the	the	DT	O	det	O	-1	O
+0	18	445	2303	2311	S	448	Vicarios	Vicarios	Vicarios	NNPS	O	nsubj	O	-1	B-noun.person
+0	18	446	2312	2315	S	448	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	18	447	2316	2323	S	448	largely	largely	largely	RB	O	advmod	O	-1	O
+0	18	448	2324	2332		442	bluffing	bluffing	bluffing	JJ	O	ccomp	O	-1	O
+0	18	449	2332	2333	S	442	.	.	.	.	O	punct	O	-1	O
+0	19	450	2334	2343	S	451	Clothilde	Clothilde	Clothilde	NNP	PERSON	nn	O	4	B-noun.person
+0	19	451	2344	2351		461	Armenta	Armenta	Armenta	NNP	PERSON	nsubj	O	4	I-noun.person
+0	19	452	2351	2352	S	451	,	,	,	,	O	punct	O	-1	O
+0	19	453	2353	2356	S	454	the	the	the	DT	O	det	O	-1	O
+0	19	454	2357	2367	S	451	proprietor	proprietor	proprietor	NN	O	appos	O	-1	B-noun.person
+0	19	455	2368	2370	S	454	of	of	of	IN	O	prep	O	-1	O
+0	19	456	2371	2374	S	458	the	the	the	DT	O	det	O	-1	O
+0	19	457	2375	2379	S	458	milk	milk	milk	NN	O	nn	O	-1	B-noun.food
+0	19	458	2380	2384		455	shop	shop	shop	NN	O	pobj	O	-1	B-noun.artifact
+0	19	459	2384	2385	S	451	,	,	,	,	O	punct	O	-1	O
+0	19	460	2386	2390	S	461	even	even	even	RB	O	advmod	O	-1	O
+0	19	461	2391	2395	S	-1	told	told	tell	VBD	O	null	O	-1	B-verb.communication
+0	19	462	2396	2399	S	464	the	the	the	DT	O	det	O	-1	O
+0	19	463	2400	2405	S	464	local	local	local	JJ	O	amod	O	-1	O
+0	19	464	2406	2412	S	461	priest	priest	priest	NN	O	dobj	O	-1	B-noun.person
+0	19	465	2413	2418	S	464	about	about	about	IN	O	prep	O	-1	O
+0	19	466	2419	2423	S	471	what	what	what	WP	O	dobj	O	-1	O
+0	19	467	2424	2427	S	469	the	the	the	DT	O	det	O	-1	O
+0	19	468	2428	2435	S	469	Vicario	Vicario	Vicario	NNP	PERSON	nn	O	0	O
+0	19	469	2436	2441	S	471	twins	twins	twin	NNS	O	nsubj	O	-1	B-noun.person
+0	19	470	2442	2446	S	471	were	were	be	VBD	O	aux	O	-1	O
+0	19	471	2447	2458	S	465	threatening	threatening	threaten	VBG	O	pcomp	O	-1	B-verb.communication
+0	19	472	2459	2461	S	473	to	to	to	TO	O	aux	O	-1	O
+0	19	473	2462	2464		471	do	do	do	VB	O	xcomp	O	-1	O
+0	19	474	2464	2465	S	461	.	.	.	.	O	punct	O	-1	O
+0	20	475	2466	2473		488	However	However	however	RB	O	advmod	O	-1	O
+0	20	476	2473	2474	S	488	,	,	,	,	O	punct	O	-1	O
+0	20	477	2475	2477	S	488	in	in	in	IN	O	prep	O	-1	O
+0	20	478	2478	2481	S	479	the	the	the	DT	O	det	O	-1	O
+0	20	479	2482	2492	S	477	excitement	excitement	excitement	NN	O	pobj	O	-1	B-noun.feeling
+0	20	480	2493	2504	S	479	surrounding	surrounding	surround	VBG	O	partmod	O	-1	B-verb.contact
+0	20	481	2505	2508	S	482	the	the	the	DT	O	det	O	-1	O
+0	20	482	2509	2516	S	480	arrival	arrival	arrival	NN	O	dobj	O	-1	B-noun.act
+0	20	483	2517	2519	S	482	of	of	of	IN	O	prep	O	-1	O
+0	20	484	2520	2523	S	485	the	the	the	DT	O	det	O	-1	O
+0	20	485	2524	2530		483	bishop	bishop	bishop	NN	O	pobj	O	-1	B-noun.person
+0	20	486	2530	2531	S	488	,	,	,	,	O	punct	O	-1	O
+0	20	487	2532	2534	S	488	he	he	he	PRP	O	nsubj	O	-1	O
+0	20	488	2535	2541	S	-1	forgot	forgot	forget	VBD	O	null	O	-1	B-verb.cognition
+0	20	489	2542	2547	S	488	about	about	about	IN	O	prep	O	-1	O
+0	20	490	2548	2551	S	491	her	her	she	PRP$	O	poss	O	0	O
+0	20	491	2552	2559		489	warning	warning	warning	NN	O	pobj	O	-1	B-noun.communication
+0	20	492	2559	2560	S	488	.	.	.	.	O	punct	O	-1	O
+0	21	493	2561	2566	S	501	After	After	after	IN	O	prep	O	-1	O
+0	21	494	2567	2570	S	495	the	the	the	DT	O	det	O	-1	O
+0	21	495	2571	2577		493	murder	murder	murder	NN	O	pobj	O	-1	B-noun.act
+0	21	496	2577	2578	S	501	,	,	,	,	O	punct	O	-1	O
+0	21	497	2579	2582	S	500	the	the	the	DT	O	det	O	-1	O
+0	21	498	2583	2589	S	500	entire	entire	entire	JJ	O	amod	O	-1	O
+0	21	499	2590	2597	S	500	Vicario	Vicario	Vicario	NNP	PERSON	nn	O	0	B-noun.person
+0	21	500	2598	2604	S	501	family	family	family	NN	O	nsubj	O	-1	B-noun.group
+0	21	501	2605	2609	S	-1	left	left	leave	VBD	O	null	O	-1	B-verb.motion
+0	21	502	2610	2614	S	501	town	town	town	NN	O	dobj	O	-1	B-noun.location
+0	21	503	2615	2622	S	504	because	because	because	IN	O	dep	O	-1	O
+0	21	504	2623	2625	S	501	of	of	of	IN	O	prep	O	-1	O
+0	21	505	2626	2629	S	506	the	the	the	DT	O	det	O	-1	O
+0	21	506	2630	2638	S	504	disgrace	disgrace	disgrace	NN	O	pobj	O	-1	B-noun.state
+0	21	507	2639	2642	S	508	the	the	the	DT	O	det	O	-1	O
+0	21	508	2643	2654	S	512	combination	combination	combination	NN	O	nsubj	O	-1	B-noun.group
+0	21	509	2655	2657	S	508	of	of	of	IN	O	prep	O	-1	O
+0	21	510	2658	2664	S	509	events	events	event	NNS	O	pobj	O	-1	B-noun.event
+0	21	511	2665	2668	S	512	had	had	have	VBD	O	aux	O	-1	O
+0	21	512	2669	2676	S	506	brought	brought	bring	VBN	O	rcmod	O	-1	B-verb.contact
+0	21	513	2677	2681	S	512	upon	upon	upon	IN	O	prep	O	-1	O
+0	21	514	2682	2687	S	515	their	their	they	PRP$	O	poss	O	-1	O
+0	21	515	2688	2694		513	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	21	516	2694	2695	S	501	.	.	.	.	O	punct	O	-1	O
+0	22	517	2696	2697	S	518	A	A	a	DT	DURATION	det	O	-1	O
+0	22	518	2698	2702	S	532	week	week	week	NN	DURATION	tmod	O	-1	B-noun.time
+0	22	519	2703	2708	S	526	after	after	after	IN	O	mark	O	-1	O
+0	22	520	2709	2712	S	521	the	the	the	DT	O	det	O	-1	O
+0	22	521	2713	2719		526	murder	murder	murder	NN	O	nsubj	O	-1	B-noun.act
+0	22	522	2719	2720	S	521	,	,	,	,	O	punct	O	-1	O
+0	22	523	2721	2728	S	525	Bayardo	Bayardo	Bayardo	NNP	PERSON	nn	O	1	O
+0	22	524	2729	2732	S	525	San	San	San	NNP	PERSON	nn	O	1	O
+0	22	525	2733	2738	S	521	Roman	Roman	Roman	NNP	PERSON	appos	O	1	O
+0	22	526	2739	2743	S	518	left	left	leave	VBD	O	dep	O	-1	B-verb.motion
+0	22	527	2744	2748	S	526	with	with	with	IN	O	prep	O	-1	O
+0	22	528	2749	2752	S	529	his	his	he	PRP$	O	poss	O	-1	O
+0	22	529	2753	2759		527	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	22	530	2759	2760	S	526	;	;	;	:	O	punct	O	-1	O
+0	22	531	2761	2765	S	532	they	they	they	PRP	O	nsubj	O	-1	O
+0	22	532	2766	2770	S	-1	came	came	come	VBD	O	null	O	-1	B-verb.motion
+0	22	533	2771	2774	S	532	and	and	and	CC	O	cc	O	-1	O
+0	22	534	2775	2784	S	532	retrieved	retrieved	retrieve	VBD	O	conj	O	-1	B-verb.possession
+0	22	535	2785	2788	S	534	him	him	he	PRP	O	dobj	O	-1	O
+0	22	536	2789	2791	S	534	by	by	by	IN	O	prep	O	-1	O
+0	22	537	2792	2796		536	boat	boat	boat	NN	O	pobj	O	-1	B-noun.artifact
+0	22	538	2796	2797	S	532	.	.	.	.	O	punct	O	-1	O
+0	23	539	2798	2801	S	541	The	The	the	DT	O	det	O	-1	O
+0	23	540	2802	2809	S	541	Vicario	Vicario	Vicario	NNP	PERSON	nn	O	0	B-noun.person
+0	23	541	2810	2818	S	543	brothers	brothers	brother	NNS	O	nsubjpass	O	-1	B-noun.person
+0	23	542	2819	2823	S	543	were	were	be	VBD	O	auxpass	O	-1	O
+0	23	543	2824	2834	S	-1	imprisoned	imprisoned	imprison	VBN	O	null	O	-1	B-verb.social
+0	23	544	2835	2838	S	543	for	for	for	IN	O	prep	O	-1	O
+0	23	545	2839	2844	S	546	three	three	three	CD	DURATION	num	O	-1	O
+0	23	546	2845	2850		544	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	23	547	2850	2851	S	543	.	.	.	.	O	punct	O	-1	O
+0	24	548	2852	2857	S	555	After	After	after	IN	O	prep	O	-1	O
+0	24	549	2858	2863	S	550	their	their	they	PRP$	O	poss	O	-1	O
+0	24	550	2864	2871	S	548	release	release	release	NN	O	pobj	O	-1	B-noun.act
+0	24	551	2872	2876	S	550	from	from	from	IN	O	prep	O	-1	O
+0	24	552	2877	2883		551	prison	prison	prison	NN	O	pobj	O	-1	B-noun.artifact
+0	24	553	2883	2884	S	555	,	,	,	,	O	punct	O	-1	O
+0	24	554	2885	2890	S	555	Pablo	Pablo	Pablo	NNP	PERSON	nsubj	O	2	O
+0	24	555	2891	2900	S	-1	proceeded	proceeded	proceed	VBD	O	null	O	-1	B-verb.communication
+0	24	556	2901	2903	S	557	to	to	to	TO	O	aux	O	-1	O
+0	24	557	2904	2909	S	555	marry	marry	marry	VB	O	xcomp	O	-1	B-verb.social
+0	24	558	2910	2913	S	559	his	his	he	PRP$	O	poss	O	2	O
+0	24	559	2914	2923		557	betrothed	betrothed	betrothed	NN	O	dobj	O	-1	B-noun.person
+0	24	560	2923	2924	S	555	,	,	,	,	O	punct	O	-1	O
+0	24	561	2925	2934	S	562	Prudencia	Prudencia	Prudencia	NNP	PERSON	nn	O	-1	O
+0	24	562	2935	2940		566	Cotes	Cotes	Cotes	NNP	PERSON	nsubj	O	-1	O
+0	24	563	2940	2941	S	562	,	,	,	,	O	punct	O	-1	O
+0	24	564	2942	2945	S	562	and	and	and	CC	O	cc	O	-1	O
+0	24	565	2946	2951	S	562	Pedro	Pedro	Pedro	NNP	PERSON	conj	O	3	B-noun.person
+0	24	566	2952	2956	S	555	went	went	go	VBD	O	ccomp	O	-1	B-verb.motion
+0	24	567	2957	2961	S	566	back	back	back	RB	O	advmod	O	-1	O
+0	24	568	2962	2966	S	566	into	into	into	IN	O	prep	O	-1	O
+0	24	569	2967	2970	S	571	the	the	the	DT	O	det	O	-1	O
+0	24	570	2971	2976	S	571	armed	armed	armed	JJ	O	amod	O	-1	O
+0	24	571	2977	2983		568	forces	forces	force	NNS	O	pobj	O	-1	B-noun.group
+0	24	572	2983	2984	S	555	.	.	.	.	O	punct	O	-1	O
+0	25	573	2985	2990	S	575	After	After	after	IN	O	prep	O	-1	O
+0	25	574	2991	2998	S	573	Bayardo	Bayardo	Bayardo	NNP	PERSON	pobj	O	1	B-noun.person
+0	25	575	2999	3007	S	586	returned	returned	return	VBD	O	advcl	O	-1	B-verb.motion
+0	25	576	3008	3014	S	575	Angela	Angela	Angela	NNP	PERSON	dobj	O	0	B-noun.person
+0	25	577	3015	3017	S	575	to	to	to	TO	O	prep	O	-1	O
+0	25	578	3018	3021	S	579	her	her	she	PRP$	O	poss	O	0	O
+0	25	579	3022	3026	S	577	home	home	home	NN	O	pobj	O	-1	B-noun.artifact
+0	25	580	3027	3029	S	575	on	on	on	IN	O	prep	O	-1	O
+0	25	581	3030	3035	S	583	their	their	they	PRP$	O	poss	O	-1	O
+0	25	582	3036	3043	S	583	wedding	wedding	wedding	NN	O	nn	O	-1	B-noun.time
+0	25	583	3044	3049		580	night	night	night	NN	TIME	pobj	O	-1	I-noun.time
+0	25	584	3049	3050	S	586	,	,	,	,	O	punct	O	-1	O
+0	25	585	3051	3054	S	586	she	she	she	PRP	O	nsubj	O	0	O
+0	25	586	3055	3059	S	-1	fell	fell	fall	VBD	O	null	O	-1	B-verb.motion
+0	25	587	3060	3062	S	586	in	in	in	IN	O	prep	O	-1	O
+0	25	588	3063	3067	S	587	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	25	589	3068	3072	S	588	with	with	with	IN	O	prep	O	-1	O
+0	25	590	3073	3076		589	him	him	he	PRP	O	pobj	O	3	O
+0	25	591	3076	3077	S	586	.	.	.	.	O	punct	O	-1	O
+0	26	592	3078	3083	S	594	After	After	after	IN	O	mark	O	-1	O
+0	26	593	3084	3087	S	594	she	she	she	PRP	O	nsubj	O	0	O
+0	26	594	3088	3093	S	605	moved	moved	move	VBD	O	advcl	O	-1	B-verb.motion
+0	26	595	3094	3098	S	594	away	away	away	RB	O	advmod	O	-1	O
+0	26	596	3099	3103	S	595	from	from	from	IN	O	dep	O	-1	O
+0	26	597	3104	3107	S	598	the	the	the	DT	O	det	O	-1	O
+0	26	598	3108	3112	S	596	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	26	599	3113	3118	S	602	where	where	where	WRB	O	advmod	O	-1	O
+0	26	600	3119	3122	S	602	she	she	she	PRP	O	nsubj	O	0	O
+0	26	601	3123	3126	S	602	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	26	602	3127	3136		598	disgraced	disgraced	disgraced	JJ	O	rcmod	O	-1	O
+0	26	603	3136	3137	S	605	,	,	,	,	O	punct	O	-1	O
+0	26	604	3138	3141	S	605	she	she	she	PRP	O	nsubj	O	0	O
+0	26	605	3142	3147	S	-1	wrote	wrote	write	VBD	O	null	O	-1	B-verb.communication
+0	26	606	3148	3151	S	607	him	him	he	PRP	O	nsubj	O	3	O
+0	26	607	3152	3159	S	605	letters	letters	letter	NNS	O	xcomp	O	-1	B-noun.communication
+0	26	608	3160	3165	S	609	every	every	every	DT	SET	det	O	-1	O
+0	26	609	3166	3170	S	607	week	week	week	NN	SET	tmod	O	-1	B-noun.time
+0	26	610	3171	3174	S	607	for	for	for	IN	O	prep	O	-1	O
+0	26	611	3175	3184	S	612	seventeen	seventeen	seventeen	CD	DURATION	num	O	-1	O
+0	26	612	3185	3190		610	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	26	613	3190	3191	S	605	,	,	,	,	O	punct	O	-1	O
+0	26	614	3192	3195	S	605	and	and	and	CC	O	cc	O	-1	O
+0	26	615	3196	3206	S	617	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	26	616	3207	3209	S	617	he	he	he	PRP	O	nsubj	O	3	O
+0	26	617	3210	3218	S	605	returned	returned	return	VBD	O	conj	O	-1	B-verb.motion
+0	26	618	3219	3221	S	617	to	to	to	TO	O	prep	O	-1	O
+0	26	619	3222	3225		618	her	her	she	PRP	O	pobj	O	0	O
+0	26	620	3225	3226	S	605	.	.	.	.	O	punct	O	-1	O
+0	27	621	3227	3230	S	630	For	For	for	IN	O	prep	O	-1	O
+0	27	622	3231	3236	S	621	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	27	623	3237	3242	S	630	after	after	after	IN	O	prep	O	-1	O
+0	27	624	3243	3246	S	625	the	the	the	DT	O	det	O	-1	O
+0	27	625	3247	3252		623	crime	crime	crime	NN	O	pobj	O	-1	B-noun.act
+0	27	626	3252	3253	S	630	,	,	,	,	O	punct	O	-1	O
+0	27	627	3254	3256	S	630	it	it	it	PRP	O	nsubj	O	-1	O
+0	27	628	3257	3260	S	630	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	27	629	3261	3264	S	630	all	all	all	DT	O	det	O	-1	O
+0	27	630	3265	3271	S	634	anyone	anyone	anyone	NN	O	nsubj	O	-1	O
+0	27	631	3272	3274	S	630	in	in	in	IN	O	prep	O	-1	O
+0	27	632	3275	3278	S	633	the	the	the	DT	O	det	O	-1	O
+0	27	633	3279	3283	S	631	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	27	634	3284	3289	S	-1	spoke	spoke	speak	VBD	O	null	O	-1	B-verb.communication
+0	27	635	3290	3292		634	of	of	of	IN	O	prt	O	-1	O
+0	27	636	3292	3293	S	634	.	.	.	.	O	punct	O	-1	O
+0	28	637	3294	3297	S	638	The	The	the	DT	O	det	O	-1	O
+0	28	638	3298	3306	S	639	narrator	narrator	narrator	NN	O	nsubj	O	-1	B-noun.person
+0	28	639	3307	3312	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	28	640	3313	3316	S	645	how	how	how	WRB	O	advmod	O	-1	O
+0	28	641	3317	3320	S	644	his	his	he	PRP$	O	poss	O	-1	O
+0	28	642	3321	3327	S	644	friend	friend	friend	NN	O	nn	O	-1	B-noun.person
+0	28	643	3328	3334	S	644	Cristo	Cristo	Cristo	NNP	PERSON	nn	O	-1	I-noun.person
+0	28	644	3335	3341	S	645	Bedoya	Bedoya	Bedoya	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	28	645	3342	3350	S	639	searched	searched	search	VBD	O	ccomp	O	-1	B-verb.contact
+0	28	646	3351	3362	S	645	frantically	frantically	frantically	RB	O	advmod	O	-1	O
+0	28	647	3363	3366	S	645	for	for	for	IN	O	prep	O	-1	O
+0	28	648	3367	3375	S	647	Santiago	Santiago	Santiago	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	28	649	3376	3379	S	650	the	the	the	DT	O	det	O	-1	O
+0	28	650	3380	3387	S	645	morning	morning	morning	NN	TIME	tmod	O	-1	B-noun.time
+0	28	651	3388	3390	S	650	of	of	of	IN	O	prep	O	-1	O
+0	28	652	3391	3394	S	653	the	the	the	DT	O	det	O	-1	O
+0	28	653	3395	3401	S	651	murder	murder	murder	NN	O	pobj	O	-1	B-noun.act
+0	28	654	3402	3404	S	657	in	in	in	IN	O	mark	O	-1	O
+0	28	655	3405	3410	S	657	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	28	656	3411	3413	S	657	to	to	to	TO	O	aux	O	-1	O
+0	28	657	3414	3418	S	645	warn	warn	warn	VB	O	purpcl	O	-1	B-verb.communication
+0	28	658	3419	3422	S	657	him	him	he	PRP	O	dobj	O	-1	O
+0	28	659	3423	3425	S	657	of	of	of	IN	O	prep	O	-1	O
+0	28	660	3426	3429	S	662	the	the	the	DT	O	det	O	-1	O
+0	28	661	3430	3437	S	662	Vicario	Vicario	Vicario	NNP	PERSON	nn	O	0	B-noun.person
+0	28	662	3438	3446		664	brothers	brothers	brother	NNS	O	poss	O	-1	B-noun.person
+0	28	663	3446	3447	S	662	'	'	'	POS	O	possessive	O	-1	O
+0	28	664	3448	3452		659	plan	plan	plan	NN	O	pobj	O	-1	B-noun.cognition
+0	28	665	3452	3453	S	639	,	,	,	,	O	punct	O	-1	O
+0	28	666	3454	3457	S	639	but	but	but	CC	O	cc	O	-1	O
+0	28	667	3458	3464	S	639	failed	failed	fail	VBD	O	conj	O	-1	B-verb.social
+0	28	668	3465	3467	S	669	to	to	to	TO	O	aux	O	-1	O
+0	28	669	3468	3472	S	667	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	28	670	3473	3481	S	669	Santiago	Santiago	Santiago	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	28	671	3482	3489	S	675	because	because	because	IN	O	mark	O	-1	O
+0	28	672	3490	3492	S	675	he	he	he	PRP	O	nsubj	O	-1	O
+0	28	673	3493	3496	S	675	did	did	do	VBD	O	aux	O	-1	O
+0	28	674	3497	3500	S	675	not	not	not	RB	O	neg	O	-1	O
+0	28	675	3501	3508	S	667	realize	realize	realize	VB	O	advcl	O	-1	B-verb.cognition
+0	28	676	3509	3513	S	679	that	that	that	IN	O	complm	O	-1	O
+0	28	677	3514	3522	S	679	Santiago	Santiago	Santiago	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	28	678	3523	3526	S	679	had	had	have	VBD	O	aux	O	-1	O
+0	28	679	3527	3531	S	675	gone	gone	go	VBN	O	ccomp	O	-1	B-verb.motion
+0	28	680	3532	3534	S	679	to	to	to	TO	O	prep	O	-1	O
+0	28	681	3535	3538	S	682	the	the	the	DT	O	det	O	-1	O
+0	28	682	3539	3544	S	680	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	28	683	3545	3547	S	682	of	of	of	IN	O	prep	O	-1	O
+0	28	684	3548	3551	S	685	his	his	he	PRP$	O	poss	O	-1	O
+0	28	685	3552	3558		683	fiance	fiance	fiance	NN	O	pobj	O	-1	B-noun.person
+0	28	686	3558	3559	S	639	,	,	,	,	O	punct	O	-1	O
+0	28	687	3560	3565	S	688	Flora	Flora	Flora	NNP	PERSON	nn	O	6	B-noun.group
+0	28	688	3566	3572		639	Miguel	Miguel	Miguel	NNP	PERSON	dobj	O	6	I-noun.group
+0	28	689	3572	3573	S	639	.	.	.	.	O	punct	O	-1	O
+0	29	690	3574	3577	S	691	Her	Her	she	PRP$	O	poss	O	0	O
+0	29	691	3578	3584	S	694	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	29	692	3585	3588	S	694	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	29	693	3589	3592	S	694	the	the	the	DT	O	det	O	-1	O
+0	29	694	3593	3598	S	-1	first	first	first	JJ	ORDINAL	null	O	-1	O
+0	29	695	3599	3601	S	696	to	to	to	TO	O	aux	O	-1	O
+0	29	696	3602	3606	S	694	warn	warn	warn	VB	O	infmod	O	-1	B-verb.communication
+0	29	697	3607	3615	S	696	Santiago	Santiago	Santiago	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	29	698	3616	3618	S	696	of	of	of	IN	O	prep	O	-1	O
+0	29	699	3619	3622	S	700	the	the	the	DT	O	det	O	-1	O
+0	29	700	3623	3629		698	murder	murder	murder	NN	O	pobj	O	-1	B-noun.act
+0	29	701	3629	3630	S	694	.	.	.	.	O	punct	O	-1	O
+0	30	702	3631	3633	S	707	At	At	at	IN	O	prep	O	-1	O
+0	30	703	3634	3638	S	704	this	this	this	DT	O	det	O	-1	O
+0	30	704	3639	3644		702	point	point	point	NN	O	pobj	O	-1	B-noun.communication
+0	30	705	3644	3645	S	707	,	,	,	,	O	punct	O	-1	O
+0	30	706	3646	3651	S	707	there	there	there	EX	O	expl	O	-1	O
+0	30	707	3652	3656	S	-1	were	were	be	VBD	O	null	O	-1	B-verb.stative
+0	30	708	3657	3663	S	707	crowds	crowds	crowd	NNS	O	nsubj	O	-1	B-noun.group
+0	30	709	3664	3666	S	708	of	of	of	IN	O	prep	O	-1	O
+0	30	710	3667	3673	S	709	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	30	711	3674	3681	S	714	outside	outside	outside	IN	O	mark	O	-1	O
+0	30	712	3682	3685	S	714	who	who	who	WP	O	nsubj	O	-1	O
+0	30	713	3686	3689	S	714	had	had	have	VBD	O	aux	O	-1	O
+0	30	714	3690	3694	S	710	come	come	come	VBN	O	dep	O	-1	B-verb.motion
+0	30	715	3695	3697	S	716	to	to	to	TO	O	aux	O	-1	O
+0	30	716	3698	3701	S	714	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	30	717	3702	3705	S	718	the	the	the	DT	O	det	O	-1	O
+0	30	718	3706	3712	S	716	Bishop	Bishop	Bishop	NNP	O	dobj	O	-1	B-noun.person
+0	30	719	3713	3716	S	714	but	but	but	CC	O	cc	O	-1	O
+0	30	720	3717	3720	S	721	had	had	have	VBD	O	aux	O	-1	O
+0	30	721	3721	3729	S	714	lingered	lingered	linger	VBN	O	conj	O	-1	B-verb.stative
+0	30	722	3730	3737	S	725	because	because	because	IN	O	mark	O	-1	O
+0	30	723	3738	3742	S	725	they	they	they	PRP	O	nsubj	O	-1	O
+0	30	724	3743	3746	S	725	had	had	have	VBD	O	aux	O	-1	O
+0	30	725	3747	3752	S	714	heard	heard	hear	VBN	O	advcl	O	-1	B-verb.perception
+0	30	726	3753	3756	S	727	the	the	the	DT	O	det	O	-1	O
+0	30	727	3757	3762	S	725	rumor	rumor	rumor	NN	O	dobj	O	-1	B-noun.communication
+0	30	728	3763	3767	S	730	that	that	that	WDT	O	dep	O	-1	O
+0	30	729	3768	3776	S	730	Santiago	Santiago	Santiago	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	30	730	3777	3780	S	727	was	was	be	VBD	O	rcmod	O	-1	B-verb.stative
+0	30	731	3781	3783	S	733	to	to	to	TO	O	aux	O	-1	O
+0	30	732	3784	3786	S	733	be	be	be	VB	O	auxpass	O	-1	O
+0	30	733	3787	3793		730	killed	killed	kill	VBN	O	xcomp	O	-1	B-verb.contact
+0	30	734	3793	3794	S	707	.	.	.	.	O	punct	O	-1	O
+0	31	735	3795	3799	S	737	When	When	when	WRB	O	advmod	O	-1	O
+0	31	736	3800	3802	S	737	he	he	he	PRP	O	nsubj	O	-1	O
+0	31	737	3803	3807	S	746	left	left	leave	VBD	O	dep	O	-1	B-verb.motion
+0	31	738	3808	3813	S	739	Flora	Flora	Flora	NNP	PERSON	nn	O	6	B-noun.group
+0	31	739	3814	3820		741	Miguel	Miguel	Miguel	NNP	PERSON	poss	O	6	I-noun.group
+0	31	740	3820	3822	S	739	's	's	's	POS	O	possessive	O	-1	O
+0	31	741	3823	3828		737	house	house	house	NN	O	dobj	O	-1	B-noun.artifact
+0	31	742	3828	3829	S	746	,	,	,	,	O	punct	O	-1	O
+0	31	743	3830	3838	S	746	Santiago	Santiago	Santiago	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	31	744	3839	3842	S	746	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	31	745	3843	3847	S	746	very	very	very	RB	O	advmod	O	-1	O
+0	31	746	3848	3856		-1	confused	confused	confused	JJ	O	null	O	-1	O
+0	31	747	3856	3857	S	746	.	.	.	.	O	punct	O	-1	O
+0	32	748	3858	3867	S	749	Clothilde	Clothilde	Clothilde	NNP	PERSON	nn	O	4	B-noun.person
+0	32	749	3868	3875	S	750	Armenta	Armenta	Armenta	NNP	PERSON	nsubj	O	4	I-noun.person
+0	32	750	3876	3882	S	-1	yelled	yelled	yell	VBD	O	null	O	-1	B-verb.communication
+0	32	751	3883	3885	S	754	at	at	at	IN	O	mark	O	-1	O
+0	32	752	3886	3889	S	754	him	him	he	PRP	O	nsubj	O	4	O
+0	32	753	3890	3892	S	754	to	to	to	TO	O	aux	O	-1	O
+0	32	754	3893	3896		750	run	run	run	VB	O	ccomp	O	-1	B-verb.motion
+0	32	755	3896	3897	S	750	,	,	,	,	O	punct	O	-1	O
+0	32	756	3898	3901	S	750	and	and	and	CC	O	cc	O	-1	O
+0	32	757	3902	3904	S	758	he	he	he	PRP	O	nsubj	O	4	O
+0	32	758	3905	3908	S	750	ran	ran	run	VBD	O	conj	O	-1	B-verb.motion
+0	32	759	3909	3912	S	761	the	the	the	DT	O	det	O	-1	O
+0	32	760	3913	3918	S	761	fifty	fifty	fifty	CD	NUMBER	num	O	-1	O
+0	32	761	3919	3924	S	758	yards	yards	yard	NNS	O	dobj	O	-1	B-noun.quantity
+0	32	762	3925	3927	S	758	to	to	to	TO	O	prep	O	-1	O
+0	32	763	3928	3931	S	765	his	his	he	PRP$	O	poss	O	4	O
+0	32	764	3932	3937	S	765	front	front	front	JJ	O	amod	O	-1	O
+0	32	765	3938	3942		762	door	door	door	NN	O	pobj	O	-1	B-noun.artifact
+0	32	766	3942	3943	S	750	.	.	.	.	O	punct	O	-1	O
+0	33	767	3944	3947	S	769	The	The	the	DT	O	det	O	-1	O
+0	33	768	3948	3955	S	769	Vicario	Vicario	Vicario	NNP	PERSON	nn	O	0	B-noun.person
+0	33	769	3956	3964	S	771	brothers	brothers	brother	NNS	O	nsubj	O	-1	B-noun.person
+0	33	770	3965	3971	S	771	easily	easily	easily	RB	O	advmod	O	-1	O
+0	33	771	3972	3978	S	-1	caught	caught	catch	VBD	O	null	O	-1	B-verb.competition
+0	33	772	3979	3981	S	771	up	up	up	RP	O	prt	O	-1	O
+0	33	773	3982	3986	S	771	with	with	with	IN	O	prep	O	-1	O
+0	33	774	3987	3990		773	him	him	he	PRP	O	pobj	O	4	O
+0	33	775	3990	3991	S	771	,	,	,	,	O	punct	O	-1	O
+0	33	776	3992	3995	S	771	and	and	and	CC	O	cc	O	-1	O
+0	33	777	3996	4003	S	771	stabbed	stabbed	stab	VBD	O	conj	O	-1	B-verb.contact
+0	33	778	4004	4007	S	777	him	him	he	PRP	O	dobj	O	4	O
+0	33	779	4008	4010	S	777	to	to	to	TO	O	prep	O	-1	O
+0	33	780	4011	4016	S	781	death	death	death	NN	O	nn	O	-1	B-noun.phenomenon
+0	33	781	4017	4022	S	779	right	right	right	NN	O	pobj	O	-1	B-noun.attribute
+0	33	782	4023	4030	S	777	outside	outside	outside	IN	O	prep	O	-1	O
+0	33	783	4031	4033	S	782	of	of	of	IN	O	dep	O	-1	O
+0	33	784	4034	4042		787	Santiago	Santiago	Santiago	NNP	LOCATION	poss	O	-1	B-noun.location
+0	33	785	4042	4044	S	784	's	's	's	POS	O	possessive	O	-1	O
+0	33	786	4045	4050	S	787	front	front	front	JJ	O	amod	O	-1	O
+0	33	787	4051	4055		783	door	door	door	NN	O	pobj	O	-1	B-noun.artifact
+0	33	788	4055	4056	N	771	.	.	.	.	O	punct	O	-1	O

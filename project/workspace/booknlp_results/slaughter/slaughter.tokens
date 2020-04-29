@@ -1,0 +1,943 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	5	S	1	Billy	Billy	Billy	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	6	13	S	3	Pilgrim	Pilgrim	Pilgrim	NNP	PERSON	nsubjpass	O	-1	I-noun.person
+0	0	2	14	16	S	3	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	3	17	21	S	-1	born	born	bear	VBN	O	null	O	-1	B-verb.body
+0	0	4	22	24	S	3	in	in	in	IN	O	prep	O	-1	O
+0	0	5	25	29	S	4	1922	1922	1922	CD	DATE	pobj	O	-1	O
+0	0	6	30	33	N	3	and	and	and	CC	O	cc	O	-1	O
+0	0	7	34	39	S	3	grows	grows	grow	VBZ	O	conj	O	-1	B-verb.change
+0	0	8	40	42	S	7	up	up	up	RP	O	prt	O	-1	O
+0	0	9	43	45	S	7	in	in	in	IN	O	prep	O	-1	O
+0	0	10	46	51		9	Ilium	Ilium	Ilium	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	11	51	52	S	10	,	,	,	,	O	punct	O	-1	O
+0	0	12	53	56	S	13	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	0	13	57	61		10	York	York	York	NNP	LOCATION	appos	O	-1	I-noun.location
+0	0	14	61	62	S	3	.	.	.	.	O	punct	O	-1	O
+0	1	15	63	64	S	19	A	A	a	DT	O	det	O	-1	O
+0	1	16	65	78		19	funny-looking	funny-looking	funny-looking	JJ	O	amod	O	-1	O
+0	1	17	78	79	S	19	,	,	,	,	O	punct	O	-1	O
+0	1	18	80	84	S	19	weak	weak	weak	JJ	O	amod	O	-1	O
+0	1	19	85	90		22	youth	youth	youth	NN	O	nsubj	O	-1	B-noun.group
+0	1	20	90	91	S	22	,	,	,	,	O	punct	O	-1	O
+0	1	21	92	94	S	22	he	he	he	PRP	O	nsubj	O	-1	O
+0	1	22	95	99	N	-1	does	does	do	VBZ	O	null	O	-1	O
+0	1	23	100	110	S	24	reasonably	reasonably	reasonably	RB	O	advmod	O	-1	O
+0	1	24	111	115	S	22	well	well	well	RB	O	advmod	O	-1	O
+0	1	25	116	118	S	22	in	in	in	IN	O	prep	O	-1	O
+0	1	26	119	123	S	27	high	high	high	JJ	O	amod	O	-1	O
+0	1	27	124	130		25	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	1	28	130	131	S	22	,	,	,	,	O	punct	O	-1	O
+0	1	29	132	139	S	22	enrolls	enrolls	enroll	VBZ	O	conj	O	-1	B-verb.social
+0	1	30	140	142	S	29	in	in	in	IN	O	prep	O	-1	O
+0	1	31	143	148	S	32	night	night	night	NN	TIME	nn	O	-1	B-noun.time
+0	1	32	149	156	S	30	classes	classes	class	NNS	O	pobj	O	-1	B-noun.group
+0	1	33	157	159	S	29	at	at	at	IN	O	prep	O	-1	O
+0	1	34	160	163	N	36	the	the	the	DT	O	det	O	-1	O
+0	1	35	164	169	S	36	Ilium	Ilium	Ilium	NNP	ORGANIZATION	nn	O	-1	B-noun.location
+0	1	36	170	176	S	33	School	School	School	NNP	ORGANIZATION	pobj	O	-1	I-noun.location
+0	1	37	177	179	S	36	of	of	of	IN	ORGANIZATION	prep	O	-1	O
+0	1	38	180	189		37	Optometry	Optometry	Optometry	NNP	ORGANIZATION	pobj	O	-1	O
+0	1	39	189	190	S	22	,	,	,	,	O	punct	O	-1	O
+0	1	40	191	194	S	22	and	and	and	CC	O	cc	O	-1	O
+0	1	41	195	197	S	42	is	is	be	VBZ	O	auxpass	O	-1	O
+0	1	42	198	205	S	22	drafted	drafted	draft	VBN	O	conj	O	-1	B-verb.creation
+0	1	43	206	210	S	42	into	into	into	IN	O	prep	O	-1	O
+0	1	44	211	214	S	45	the	the	the	DT	O	det	O	-1	O
+0	1	45	215	219	S	43	army	army	army	NN	O	pobj	O	-1	B-noun.group
+0	1	46	220	226	S	42	during	during	during	IN	O	prep	O	-1	O
+0	1	47	227	232	N	49	World	World	World	NNP	MISC	nn	O	-1	B-noun.group
+0	1	48	233	236	S	49	War	War	War	NNP	MISC	nn	O	-1	I-noun.group
+0	1	49	237	239		46	II	II	II	NNP	MISC	pobj	O	-1	O
+0	1	50	239	240	S	22	.	.	.	.	O	punct	O	-1	O
+0	2	51	241	243	S	52	He	He	he	PRP	O	nsubj	O	-1	O
+0	2	52	244	250	S	-1	trains	trains	train	VBZ	O	null	O	-1	B-verb.cognition
+0	2	53	251	253	S	52	as	as	as	IN	O	prep	O	-1	O
+0	2	54	254	255	S	55	a	a	a	DT	O	det	O	-1	O
+0	2	55	256	264		57	chaplain	chaplain	chaplain	NN	O	poss	O	-1	B-noun.person
+0	2	56	264	266	S	55	’s	's	's	POS	O	possessive	O	-1	O
+0	2	57	267	276	S	53	assistant	assistant	assistant	NN	O	pobj	O	-1	B-noun.person
+0	2	58	277	279	S	57	in	in	in	IN	O	prep	O	-1	O
+0	2	59	280	285	S	60	South	South	South	NNP	LOCATION	nn	O	-1	B-noun.location
+0	2	60	286	294		58	Carolina	Carolina	Carolina	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	2	61	294	295	S	60	,	,	,	,	O	punct	O	-1	O
+0	2	62	296	301	N	65	where	where	where	WRB	O	advmod	O	-1	O
+0	2	63	302	304	S	64	an	an	a	DT	O	det	O	-1	O
+0	2	64	305	311	S	65	umpire	umpire	umpire	NN	O	nsubj	O	-1	B-noun.person
+0	2	65	312	322	S	60	officiates	officiates	officiate	VBZ	O	rcmod	O	-1	B-verb.social
+0	2	66	323	329	S	65	during	during	during	IN	O	prep	O	-1	O
+0	2	67	330	338	S	68	practice	practice	practice	NN	O	nn	O	-1	B-noun.act
+0	2	68	339	346	S	66	battles	battles	battle	NNS	O	pobj	O	-1	B-noun.act
+0	2	69	347	350	S	68	and	and	and	CC	O	cc	O	-1	O
+0	2	70	351	360	S	68	announces	announces	announce	NNS	O	conj	O	-1	B-noun.person
+0	2	71	361	364	S	72	who	who	who	WP	O	nsubj	O	-1	O
+0	2	72	365	373	N	68	survives	survives	survive	VBZ	O	rcmod	O	-1	B-verb.stative
+0	2	73	374	377	S	72	and	and	and	CC	O	cc	O	-1	O
+0	2	74	378	381	S	75	who	who	who	WP	O	nsubj	O	-1	O
+0	2	75	382	386	S	72	dies	dies	die	VBZ	O	conj	O	-1	B-verb.change
+0	2	76	387	393	S	79	before	before	before	IN	O	mark	O	-1	O
+0	2	77	394	398	S	79	they	they	they	PRP	O	nsubj	O	-1	O
+0	2	78	399	402	S	77	all	all	all	DT	O	dep	O	-1	O
+0	2	79	403	406	S	75	sit	sit	sit	VBP	O	advcl	O	-1	B-verb.motion
+0	2	80	407	411	S	79	down	down	down	RP	O	prt	O	-1	O
+0	2	81	412	414	S	82	to	to	to	TO	O	aux	O	-1	O
+0	2	82	415	420	S	79	lunch	lunch	lunch	VB	O	xcomp	O	-1	B-verb.consumption
+0	2	83	421	429		82	together	together	together	RB	O	advmod	O	-1	O
+0	2	84	429	430	S	52	.	.	.	.	O	punct	O	-1	O
+0	3	85	431	436		87	Billy	Billy	Billy	NNP	PERSON	poss	O	0	B-noun.person
+0	3	86	436	438	N	85	’s	's	's	POS	O	possessive	O	-1	O
+0	3	87	439	445	S	88	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	3	88	446	450	S	-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	3	89	451	453	S	88	in	in	in	IN	O	prep	O	-1	O
+0	3	90	454	455	S	92	a	a	a	DT	O	det	O	-1	O
+0	3	91	456	463	S	92	hunting	hunting	hunting	NN	O	nn	O	-1	B-noun.act
+0	3	92	464	472	S	89	accident	accident	accident	NN	O	pobj	O	-1	B-noun.event
+0	3	93	473	480	S	94	shortly	shortly	shortly	RB	O	dep	O	-1	O
+0	3	94	481	487	S	88	before	before	before	IN	O	prep	O	-1	O
+0	3	95	488	493	S	96	Billy	Billy	Billy	NNP	PERSON	nn	O	0	B-noun.person
+0	3	96	494	499	S	94	ships	ships	ship	NNS	O	pobj	O	-1	B-noun.artifact
+0	3	97	500	508	N	96	overseas	overseas	overseas	RB	O	advmod	O	-1	O
+0	3	98	509	511	S	99	to	to	to	TO	O	aux	O	-1	O
+0	3	99	512	516	S	96	join	join	join	VB	O	infmod	O	-1	B-verb.social
+0	3	100	517	519	S	102	an	an	a	DT	O	det	O	-1	O
+0	3	101	520	528	S	102	infantry	infantry	infantry	JJ	O	amod	O	-1	O
+0	3	102	529	537	S	99	regiment	regiment	regiment	NN	O	dobj	O	-1	B-noun.group
+0	3	103	538	540	S	102	in	in	in	IN	O	prep	O	-1	O
+0	3	104	541	551		103	Luxembourg	Luxembourg	Luxembourg	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	3	105	551	552	S	88	.	.	.	.	O	punct	O	-1	O
+0	4	106	553	558	S	108	Billy	Billy	Billy	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	4	107	559	561	S	108	is	is	be	VBZ	O	auxpass	O	-1	O
+0	4	108	562	568	S	-1	thrown	thrown	throw	VBN	O	null	O	-1	B-verb.contact
+0	4	109	569	573	N	108	into	into	into	IN	O	prep	O	-1	O
+0	4	110	574	577	S	111	the	the	the	DT	O	det	O	-1	O
+0	4	111	578	584	S	109	Battle	Battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	4	112	585	587	S	111	of	of	of	IN	O	prep	O	-1	O
+0	4	113	588	591	S	114	the	the	the	DT	O	det	O	-1	O
+0	4	114	592	597	S	112	Bulge	Bulge	Bulge	NNP	O	pobj	O	-1	B-noun.group
+0	4	115	598	600	S	111	in	in	in	IN	O	prep	O	-1	O
+0	4	116	601	608	S	115	Belgium	Belgium	Belgium	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	4	117	609	612	S	108	and	and	and	CC	O	cc	O	-1	O
+0	4	118	613	615	S	120	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	4	119	616	627	S	120	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	4	120	628	633	S	108	taken	taken	take	VBN	O	conj	O	-1	B-verb.possession
+0	4	121	634	642	N	120	prisoner	prisoner	prisoner	NN	O	dobj	O	-1	B-noun.person
+0	4	122	643	649	S	121	behind	behind	behind	IN	O	prep	O	-1	O
+0	4	123	650	656	S	124	German	German	german	JJ	MISC	amod	O	-1	O
+0	4	124	657	662		122	lines	lines	line	NNS	O	pobj	O	-1	B-noun.group
+0	4	125	662	663	S	108	.	.	.	.	O	punct	O	-1	O
+0	5	126	664	668	S	127	Just	Just	just	RB	O	dep	O	-1	O
+0	5	127	669	675	S	132	before	before	before	IN	O	prep	O	-1	O
+0	5	128	676	679	S	129	his	his	he	PRP$	O	poss	O	0	O
+0	5	129	680	687		127	capture	capture	capture	NN	O	pobj	O	-1	B-noun.act
+0	5	130	687	688	S	132	,	,	,	,	O	punct	O	-1	O
+0	5	131	689	691	S	132	he	he	he	PRP	O	nsubj	O	0	O
+0	5	132	692	703	S	-1	experiences	experiences	experience	VBZ	O	null	O	-1	B-verb.perception
+0	5	133	704	707	N	135	his	his	he	PRP$	O	poss	O	0	O
+0	5	134	708	713	S	135	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	5	135	714	722	S	132	incident	incident	incident	NN	O	dobj	O	-1	B-noun.event
+0	5	136	723	725	S	135	of	of	of	IN	O	prep	O	-1	O
+0	5	137	726	730		136	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	5	138	730	731		132	—	--	--	:	O	punct	O	-1	O
+0	5	139	731	739		132	shifting	shifting	shift	VBG	O	parataxis	O	-1	B-verb.communication
+0	5	140	739	740	S	139	:	:	:	:	O	punct	O	-1	O
+0	5	141	741	743	S	142	he	he	he	PRP	O	nsubj	O	0	O
+0	5	142	744	748	S	139	sees	sees	see	VBZ	O	parataxis	O	-1	B-verb.cognition
+0	5	143	749	752	S	144	the	the	the	DT	O	det	O	-1	O
+0	5	144	753	761	S	142	entirety	entirety	entirety	NN	O	dobj	O	-1	B-noun.state
+0	5	145	762	764	S	144	of	of	of	IN	O	prep	O	-1	O
+0	5	146	765	768	S	147	his	his	he	PRP$	O	poss	O	0	O
+0	5	147	769	773		145	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	5	148	773	774	N	142	,	,	,	,	O	punct	O	-1	O
+0	5	149	775	779	S	142	from	from	from	IN	O	prep	O	-1	O
+0	5	150	780	789	S	149	beginning	beginning	begin	VBG	O	pcomp	O	-1	B-verb.change
+0	5	151	790	792	S	152	to	to	to	TO	O	aux	O	-1	O
+0	5	152	793	796		150	end	end	end	VB	O	xcomp	O	-1	B-verb.change
+0	5	153	796	797	S	152	,	,	,	,	O	punct	O	-1	O
+0	5	154	798	800	S	152	in	in	in	IN	O	prep	O	-1	O
+0	5	155	801	804	S	156	one	one	one	CD	NUMBER	num	O	-1	O
+0	5	156	805	810		154	sweep	sweep	sweep	NN	O	pobj	O	-1	B-noun.attribute
+0	5	157	810	811	S	132	.	.	.	.	O	punct	O	-1	O
+0	6	158	812	817	S	160	Billy	Billy	Billy	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	6	159	818	820	S	160	is	is	be	VBZ	O	auxpass	O	-1	O
+0	6	160	821	832	S	-1	transported	transported	transport	VBN	O	null	O	-1	B-verb.motion
+0	6	161	833	835	S	160	in	in	in	IN	O	prep	O	-1	O
+0	6	162	836	837	S	165	a	a	a	DT	O	det	O	-1	O
+0	6	163	838	845	S	165	crowded	crowded	crowded	JJ	O	amod	O	-1	O
+0	6	164	846	853	S	165	railway	railway	railway	NN	O	nn	O	-1	B-noun.artifact
+0	6	165	854	860	S	161	boxcar	boxcar	boxcar	NN	O	pobj	O	-1	B-noun.artifact
+0	6	166	861	863	S	165	to	to	to	TO	O	prep	O	-1	O
+0	6	167	864	865	S	169	a	a	a	DT	O	det	O	-1	O
+0	6	168	866	869	S	169	POW	POW	pow	NN	O	nn	O	-1	O
+0	6	169	870	874	S	166	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	6	170	875	877	N	165	in	in	in	IN	O	prep	O	-1	O
+0	6	171	878	885		170	Germany	Germany	Germany	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	6	172	885	886	S	160	.	.	.	.	O	punct	O	-1	O
+0	7	173	887	891	S	183	Upon	Upon	upon	IN	O	prep	O	-1	O
+0	7	174	892	895	S	175	his	his	he	PRP$	O	poss	O	0	O
+0	7	175	896	903		173	arrival	arrival	arrival	NN	O	pobj	O	-1	B-noun.act
+0	7	176	903	904	S	183	,	,	,	,	O	punct	O	-1	O
+0	7	177	905	907	S	183	he	he	he	PRP	O	nsubjpass	O	0	O
+0	7	178	908	911	S	177	and	and	and	CC	O	cc	O	-1	O
+0	7	179	912	915	S	181	the	the	the	DT	O	det	O	-1	O
+0	7	180	916	921	S	181	other	other	other	JJ	O	amod	O	-1	O
+0	7	181	922	930	S	177	privates	privates	private	NNS	O	conj	O	-1	B-noun.person
+0	7	182	931	934	S	183	are	are	be	VBP	O	auxpass	O	-1	O
+0	7	183	935	942	S	-1	treated	treated	treat	VBN	O	null	O	-1	B-verb.change
+0	7	184	943	945	N	183	to	to	to	TO	O	prep	O	-1	O
+0	7	185	946	947	S	186	a	a	a	DT	O	det	O	-1	O
+0	7	186	948	953	S	184	feast	feast	feast	NN	O	pobj	O	-1	B-noun.group
+0	7	187	954	956	S	183	by	by	by	IN	O	prep	O	-1	O
+0	7	188	957	958	S	189	a	a	a	DT	O	det	O	-1	O
+0	7	189	959	964	S	187	group	group	group	NN	O	pobj	O	-1	B-noun.group
+0	7	190	965	967	S	189	of	of	of	IN	O	prep	O	-1	O
+0	7	191	968	974	S	192	fellow	fellow	fellow	JJ	O	amod	O	-1	O
+0	7	192	975	984		190	prisoners	prisoners	prisoner	NNS	O	pobj	O	-1	B-noun.person
+0	7	193	984	985	S	192	,	,	,	,	O	punct	O	-1	O
+0	7	194	986	989	S	197	who	who	who	WP	O	nsubj	O	-1	O
+0	7	195	990	993	S	197	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	7	196	994	1001	S	197	English	English	english	JJ	MISC	amod	O	-1	O
+0	7	197	1002	1010	S	192	officers	officers	officer	NNS	O	rcmod	O	-1	B-noun.person
+0	7	198	1011	1014	N	200	who	who	who	WP	O	nsubjpass	O	-1	O
+0	7	199	1015	1019	S	200	were	were	be	VBD	O	auxpass	O	-1	O
+0	7	200	1020	1028	S	197	captured	captured	capture	VBN	O	rcmod	O	-1	B-verb.contact
+0	7	201	1029	1036	S	200	earlier	earlier	earlier	RBR	O	advmod	O	-1	O
+0	7	202	1037	1039	S	201	in	in	in	IN	O	dep	O	-1	O
+0	7	203	1040	1043	S	204	the	the	the	DT	O	det	O	-1	O
+0	7	204	1044	1047		202	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	7	205	1047	1048	S	183	.	.	.	.	O	punct	O	-1	O
+0	8	206	1049	1054	S	207	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	B-noun.person
+0	8	207	1055	1062	S	-1	suffers	suffers	suffer	VBZ	O	null	O	-1	B-verb.perception
+0	8	208	1063	1064	S	209	a	a	a	DT	O	det	O	-1	O
+0	8	209	1065	1074	S	207	breakdown	breakdown	breakdown	NN	O	dobj	O	-1	B-noun.act
+0	8	210	1075	1078	S	207	and	and	and	CC	O	cc	O	-1	O
+0	8	211	1079	1083	N	207	gets	gets	get	VBZ	O	conj	O	-1	B-verb.possession
+0	8	212	1084	1085	S	213	a	a	a	DT	O	det	O	-1	O
+0	8	213	1086	1090	S	211	shot	shot	shot	NN	O	dobj	O	-1	B-noun.act
+0	8	214	1091	1093	S	213	of	of	of	IN	O	prep	O	-1	O
+0	8	215	1094	1102	S	214	morphine	morphine	morphine	NN	O	pobj	O	-1	B-noun.artifact
+0	8	216	1103	1107	S	217	that	that	that	WDT	O	nsubj	O	-1	O
+0	8	217	1108	1113	S	215	sends	sends	send	VBZ	O	rcmod	O	-1	B-verb.motion
+0	8	218	1114	1117	S	219	him	him	he	PRP	O	nsubj	O	0	O
+0	8	219	1118	1131	S	217	time-tripping	time-tripping	time-tripping	JJ	O	xcomp	O	-1	O
+0	8	220	1132	1137		219	again	again	again	RB	O	advmod	O	-1	O
+0	8	221	1137	1138	S	207	.	.	.	.	O	punct	O	-1	O
+0	9	222	1139	1143	S	228	Soon	Soon	soon	RB	O	advmod	O	-1	O
+0	9	223	1144	1146	S	228	he	he	he	PRP	O	nsubj	O	0	O
+0	9	224	1147	1150	N	223	and	and	and	CC	O	cc	O	-1	O
+0	9	225	1151	1154	S	227	the	the	the	DT	O	det	O	-1	O
+0	9	226	1155	1160	S	227	other	other	other	JJ	O	amod	O	-1	O
+0	9	227	1161	1170	S	223	Americans	Americans	Americans	NNPS	MISC	conj	O	-1	B-noun.person
+0	9	228	1171	1177	S	239	travel	travel	travel	VBP	O	advcl	O	-1	B-verb.motion
+0	9	229	1178	1184	S	228	onward	onward	onward	RB	O	advmod	O	-1	O
+0	9	230	1185	1187	S	228	to	to	to	TO	O	prep	O	-1	O
+0	9	231	1188	1191	S	233	the	the	the	DT	O	det	O	-1	O
+0	9	232	1192	1201	S	233	beautiful	beautiful	beautiful	JJ	O	amod	O	-1	O
+0	9	233	1202	1206	S	230	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	9	234	1207	1209	S	233	of	of	of	IN	O	prep	O	-1	O
+0	9	235	1210	1217		234	Dresden	Dresden	Dresden	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	9	236	1217	1218	N	239	,	,	,	,	O	punct	O	-1	O
+0	9	237	1219	1224	S	239	still	still	still	RB	O	advmod	O	-1	O
+0	9	238	1225	1235	S	239	relatively	relatively	relatively	RB	O	advmod	O	-1	O
+0	9	239	1236	1245	S	-1	untouched	untouched	untouched	JJ	O	null	O	-1	O
+0	9	240	1246	1248	S	239	by	by	by	IN	O	prep	O	-1	O
+0	9	241	1249	1256	S	242	wartime	wartime	wartime	JJ	O	amod	O	-1	O
+0	9	242	1257	1266		240	privation	privation	privation	NN	O	pobj	O	-1	B-noun.state
+0	9	243	1266	1267	S	239	.	.	.	.	O	punct	O	-1	O
+0	10	244	1268	1272	S	246	Here	Here	here	RB	O	advmod	O	-1	O
+0	10	245	1273	1276	S	246	the	the	the	DT	O	det	O	-1	O
+0	10	246	1277	1286	N	248	prisoners	prisoners	prisoner	NNS	O	nsubj	O	-1	B-noun.person
+0	10	247	1287	1291	S	248	must	must	must	MD	O	aux	O	-1	O
+0	10	248	1292	1296	S	-1	work	work	work	VB	O	null	O	-1	B-verb.social
+0	10	249	1297	1300	S	248	for	for	for	IN	O	prep	O	-1	O
+0	10	250	1301	1306	S	251	their	their	they	PRP$	O	poss	O	-1	O
+0	10	251	1307	1311	S	249	keep	keep	keep	VB	O	pobj	O	-1	B-verb.stative
+0	10	252	1312	1314	S	251	at	at	at	IN	O	prep	O	-1	O
+0	10	253	1315	1322	S	254	various	various	various	JJ	O	amod	O	-1	O
+0	10	254	1323	1329		252	labors	labors	labor	NNS	O	pobj	O	-1	B-noun.group
+0	10	255	1329	1330	S	251	,	,	,	,	O	punct	O	-1	O
+0	10	256	1331	1340	S	251	including	including	include	VBG	O	prep	O	-1	B-verb.stative
+0	10	257	1341	1344	S	258	the	the	the	DT	O	det	O	-1	O
+0	10	258	1345	1356	N	256	manufacture	manufacture	manufacture	NN	O	pobj	O	-1	B-noun.act
+0	10	259	1357	1359	S	258	of	of	of	IN	O	prep	O	-1	O
+0	10	260	1360	1361	S	263	a	a	a	DT	O	det	O	-1	O
+0	10	261	1362	1373	S	263	nutritional	nutritional	nutritional	JJ	O	amod	O	-1	O
+0	10	262	1374	1378	S	263	malt	malt	malt	NN	O	nn	O	-1	B-noun.food
+0	10	263	1379	1384		259	syrup	syrup	syrup	NN	O	pobj	O	-1	B-noun.food
+0	10	264	1384	1385	S	248	.	.	.	.	O	punct	O	-1	O
+0	11	265	1386	1391	S	266	Their	Their	they	PRP$	O	poss	O	-1	O
+0	11	266	1392	1396	S	267	camp	camp	camp	NN	O	nsubj	O	-1	B-noun.artifact
+0	11	267	1397	1405	S	-1	occupies	occupies	occupy	VBZ	O	null	O	-1	B-verb.social
+0	11	268	1406	1407	S	270	a	a	a	DT	O	det	O	-1	O
+0	11	269	1408	1414	N	270	former	former	former	JJ	O	amod	O	-1	O
+0	11	270	1415	1429		267	slaughterhouse	slaughterhouse	slaughterhouse	NN	O	dobj	O	-1	B-noun.artifact
+0	11	271	1429	1430	S	267	.	.	.	.	O	punct	O	-1	O
+0	12	272	1431	1434	S	273	One	One	one	CD	NUMBER	num	O	-1	O
+0	12	273	1435	1440		278	night	night	night	NN	TIME	tmod	O	-1	B-noun.time
+0	12	274	1440	1441	S	278	,	,	,	,	O	punct	O	-1	O
+0	12	275	1442	1448	S	278	Allied	Allied	allied	JJ	O	amod	O	-1	O
+0	12	276	1449	1455	S	278	forces	forces	force	NNS	O	nn	O	-1	B-noun.phenomenon
+0	12	277	1456	1462	S	278	carpet	carpet	carpet	NN	O	nn	O	-1	B-noun.artifact
+0	12	278	1463	1467	S	280	bomb	bomb	bomb	NN	O	nsubj	O	-1	B-noun.artifact
+0	12	279	1468	1471	S	280	the	the	the	DT	O	det	O	-1	O
+0	12	280	1472	1476		-1	city	city	city	NN	O	null	O	-1	B-noun.location
+0	12	281	1476	1477	S	280	,	,	,	,	O	punct	O	-1	O
+0	12	282	1478	1482	N	283	then	then	then	RB	O	advmod	O	-1	O
+0	12	283	1483	1487	S	280	drop	drop	drop	VB	O	rcmod	O	-1	B-verb.motion
+0	12	284	1488	1498	S	285	incendiary	incendiary	incendiary	JJ	O	amod	O	-1	O
+0	12	285	1499	1504	S	283	bombs	bombs	bomb	NNS	O	dobj	O	-1	B-noun.artifact
+0	12	286	1505	1507	S	287	to	to	to	TO	O	aux	O	-1	O
+0	12	287	1508	1514	S	283	create	create	create	VB	O	xcomp	O	-1	B-verb.creation
+0	12	288	1515	1516	S	289	a	a	a	DT	O	det	O	-1	O
+0	12	289	1517	1526	S	287	firestorm	firestorm	firestorm	NN	O	dobj	O	-1	B-noun.phenomenon
+0	12	290	1527	1531	S	291	that	that	that	WDT	O	nsubj	O	-1	O
+0	12	291	1532	1537	S	289	sucks	sucks	suck	VBZ	O	rcmod	O	-1	B-verb.stative
+0	12	292	1538	1542	S	291	most	most	most	JJS	O	dobj	O	-1	O
+0	12	293	1543	1545	S	292	of	of	of	IN	O	prep	O	-1	O
+0	12	294	1546	1549	S	295	the	the	the	DT	O	det	O	-1	O
+0	12	295	1550	1556	N	293	oxygen	oxygen	oxygen	NN	O	pobj	O	-1	B-noun.substance
+0	12	296	1557	1561	S	291	into	into	into	IN	O	prep	O	-1	O
+0	12	297	1562	1565	S	298	the	the	the	DT	O	det	O	-1	O
+0	12	298	1566	1571		296	blaze	blaze	blaze	NN	O	pobj	O	-1	B-noun.process
+0	12	299	1571	1572	S	283	,	,	,	,	O	punct	O	-1	O
+0	12	300	1573	1585	S	283	asphyxiating	asphyxiating	asphyxiate	VBG	O	xcomp	O	-1	B-verb.contact
+0	12	301	1586	1588	S	300	or	or	or	CC	O	cc	O	-1	O
+0	12	302	1589	1601	S	300	incinerating	incinerating	incinerate	VBG	O	conj	O	-1	B-verb.change
+0	12	303	1602	1609	S	304	roughly	roughly	roughly	RB	O	quantmod	O	-1	O
+0	12	304	1610	1617	S	305	130,000	130,000	130,000	CD	NUMBER	num	O	-1	O
+0	12	305	1618	1624		302	people	people	people	NNS	O	dobj	O	-1	B-noun.group
+0	12	306	1624	1625	N	280	.	.	.	.	O	punct	O	-1	O
+0	13	307	1626	1631	S	312	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	B-noun.person
+0	13	308	1632	1635	S	307	and	and	and	CC	O	cc	O	-1	O
+0	13	309	1636	1639	S	311	his	his	he	PRP$	O	poss	O	0	O
+0	13	310	1640	1646	S	311	fellow	fellow	fellow	JJ	O	amod	O	-1	O
+0	13	311	1647	1651	S	307	POWs	POWs	pow	NNS	MISC	conj	O	-1	B-noun.person
+0	13	312	1652	1659	S	-1	survive	survive	survive	VBP	O	null	O	-1	B-verb.stative
+0	13	313	1660	1662	S	312	in	in	in	IN	O	prep	O	-1	O
+0	13	314	1663	1665	S	317	an	an	a	DT	O	det	O	-1	O
+0	13	315	1666	1674	N	317	airtight	airtight	airtight	JJ	O	amod	O	-1	O
+0	13	316	1675	1679	S	317	meat	meat	meat	NN	O	nn	O	-1	B-noun.food
+0	13	317	1680	1686		313	locker	locker	locker	NN	O	pobj	O	-1	B-noun.artifact
+0	13	318	1686	1687	S	312	.	.	.	.	O	punct	O	-1	O
+0	14	319	1688	1692	S	320	They	They	they	PRP	O	nsubj	O	-1	O
+0	14	320	1693	1699	S	-1	emerge	emerge	emerge	VBP	O	null	O	-1	B-verb.change
+0	14	321	1700	1702	S	322	to	to	to	TO	O	aux	O	-1	O
+0	14	322	1703	1707	S	320	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	14	323	1708	1709	S	324	a	a	a	DT	O	det	O	-1	O
+0	14	324	1710	1719	S	322	moonscape	moonscape	moonscape	NN	O	dobj	O	-1	B-noun.person
+0	14	325	1720	1722	S	324	of	of	of	IN	O	prep	O	-1	O
+0	14	326	1723	1734		325	destruction	destruction	destruction	NN	O	pobj	O	-1	B-noun.act
+0	14	327	1734	1735	S	326	,	,	,	,	O	punct	O	-1	O
+0	14	328	1736	1741	N	331	where	where	where	WRB	O	advmod	O	-1	O
+0	14	329	1742	1746	S	331	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	14	330	1747	1750	S	331	are	are	be	VBP	O	auxpass	O	-1	O
+0	14	331	1751	1757	S	326	forced	forced	force	VBN	O	rcmod	O	-1	B-verb.social
+0	14	332	1758	1760	S	333	to	to	to	TO	O	aux	O	-1	O
+0	14	333	1761	1769	S	331	excavate	excavate	excavate	VB	O	xcomp	O	-1	B-verb.perception
+0	14	334	1770	1777	S	333	corpses	corpses	corpse	NNS	O	dobj	O	-1	B-noun.group
+0	14	335	1778	1782	S	333	from	from	from	IN	O	prep	O	-1	O
+0	14	336	1783	1786	S	337	the	the	the	DT	O	det	O	-1	O
+0	14	337	1787	1793		335	rubble	rubble	rubble	NN	O	pobj	O	-1	B-noun.substance
+0	14	338	1793	1794	S	320	.	.	.	.	O	punct	O	-1	O
+0	15	339	1795	1802	S	340	Several	Several	several	JJ	DATE	amod	O	-1	O
+0	15	340	1803	1807	N	341	days	days	day	NNS	DATE	dep	O	-1	B-noun.time
+0	15	341	1808	1813		345	later	later	later	RB	DATE	advmod	O	-1	O
+0	15	342	1813	1814	S	345	,	,	,	,	O	punct	O	-1	O
+0	15	343	1815	1822	S	344	Russian	Russian	russian	JJ	MISC	amod	O	-1	O
+0	15	344	1823	1829	S	345	forces	forces	force	NNS	O	nsubj	O	-1	B-noun.group
+0	15	345	1830	1837	S	-1	capture	capture	capture	VBP	O	null	O	-1	B-verb.creation
+0	15	346	1838	1841	S	347	the	the	the	DT	O	det	O	-1	O
+0	15	347	1842	1846		345	city	city	city	NN	O	dobj	O	-1	B-noun.location
+0	15	348	1846	1847	S	345	,	,	,	,	O	punct	O	-1	O
+0	15	349	1848	1851	S	345	and	and	and	CC	O	cc	O	-1	O
+0	15	350	1852	1857		352	Billy	Billy	Billy	NNP	PERSON	poss	O	0	B-noun.person
+0	15	351	1857	1859	S	350	’s	's	's	POS	O	possessive	O	-1	O
+0	15	352	1860	1871	N	356	involvement	involvement	involvement	NN	O	nsubj	O	-1	B-noun.act
+0	15	353	1872	1874	S	356	in	in	in	IN	O	mark	O	-1	O
+0	15	354	1875	1878	S	355	the	the	the	DT	O	det	O	-1	O
+0	15	355	1879	1882	S	356	war	war	war	NN	O	nsubj	O	-1	B-noun.act
+0	15	356	1883	1887		345	ends	ends	end	VBZ	O	conj	O	-1	B-verb.stative
+0	15	357	1887	1888	S	345	.	.	.	.	O	punct	O	-1	O
+0	16	358	1889	1894	S	359	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	B-noun.person
+0	16	359	1895	1902	S	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	16	360	1903	1905	S	359	to	to	to	TO	O	prep	O	-1	O
+0	16	361	1906	1911	S	360	Ilium	Ilium	ilium	NN	O	pobj	O	-1	B-noun.location
+0	16	362	1912	1915	S	359	and	and	and	CC	O	cc	O	-1	O
+0	16	363	1916	1924	S	359	finishes	finishes	finish	VBZ	O	conj	O	-1	B-verb.change
+0	16	364	1925	1934	N	365	optometry	optometry	optometry	JJ	O	amod	O	-1	O
+0	16	365	1935	1941		363	school	school	school	NN	O	dobj	O	-1	B-noun.group
+0	16	366	1941	1942	S	359	.	.	.	.	O	punct	O	-1	O
+0	17	367	1943	1945	S	369	He	He	he	PRP	O	nsubjpass	O	0	O
+0	17	368	1946	1950	S	369	gets	gets	get	VBZ	O	auxpass	O	-1	O
+0	17	369	1951	1958	S	-1	engaged	engaged	engage	VBN	O	null	O	-1	B-verb.cognition
+0	17	370	1959	1961	S	369	to	to	to	TO	O	prep	O	-1	O
+0	17	371	1962	1970	S	372	Valencia	Valencia	Valencia	NNP	ORGANIZATION	nn	O	-1	B-noun.location
+0	17	372	1971	1977		370	Merble	Merble	Merble	NNP	ORGANIZATION	pobj	O	-1	I-noun.location
+0	17	373	1977	1978	S	372	,	,	,	,	O	punct	O	-1	O
+0	17	374	1979	1982	S	376	the	the	the	DT	O	det	O	-1	O
+0	17	375	1983	1988	S	376	obese	obese	obese	JJ	O	amod	O	-1	O
+0	17	376	1989	1997	S	372	daughter	daughter	daughter	NN	O	appos	O	-1	B-noun.person
+0	17	377	1998	2000	N	376	of	of	of	IN	O	prep	O	-1	O
+0	17	378	2001	2004	S	379	the	the	the	DT	O	det	O	-1	O
+0	17	379	2005	2011		381	school	school	school	NN	O	poss	O	-1	B-noun.group
+0	17	380	2011	2013	S	379	’s	's	's	POS	O	possessive	O	-1	O
+0	17	381	2014	2021		377	founder	founder	founder	NN	O	pobj	O	-1	B-noun.state
+0	17	382	2021	2022	S	369	.	.	.	.	O	punct	O	-1	O
+0	18	383	2023	2028	S	389	After	After	after	IN	O	prep	O	-1	O
+0	18	384	2029	2030	S	386	a	a	a	DT	O	det	O	-1	O
+0	18	385	2031	2038	S	386	nervous	nervous	nervous	JJ	O	amod	O	-1	O
+0	18	386	2039	2048		383	breakdown	breakdown	breakdown	NN	O	pobj	O	-1	B-noun.act
+0	18	387	2048	2049	S	389	,	,	,	,	O	punct	O	-1	O
+0	18	388	2050	2055	S	389	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	O
+0	18	389	2056	2063	S	-1	commits	commits	commit	VBZ	O	null	O	-1	B-verb.social
+0	18	390	2064	2071	N	389	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	18	391	2072	2074	S	389	to	to	to	TO	O	prep	O	-1	O
+0	18	392	2075	2076	S	393	a	a	a	DT	O	det	O	-1	O
+0	18	393	2077	2085		395	veterans	veterans	veteran	NNS	O	poss	O	-1	B-noun.person
+0	18	394	2085	2086	S	393	’	'	'	POS	O	possessive	O	-1	O
+0	18	395	2087	2095	S	391	hospital	hospital	hospital	NN	O	pobj	O	-1	B-noun.artifact
+0	18	396	2096	2099	S	389	and	and	and	CC	O	cc	O	-1	O
+0	18	397	2100	2108	S	389	receives	receives	receive	VBZ	O	conj	O	-1	B-verb.possession
+0	18	398	2109	2114	S	399	shock	shock	shock	NN	O	nn	O	-1	B-noun.act
+0	18	399	2115	2125		397	treatments	treatments	treatment	NNS	O	dobj	O	-1	I-noun.act
+0	18	400	2125	2126	S	389	.	.	.	.	O	punct	O	-1	O
+0	19	401	2127	2133	S	412	During	During	during	IN	O	prep	O	-1	O
+0	19	402	2134	2137	N	403	his	his	he	PRP$	O	poss	O	0	O
+0	19	403	2138	2142	S	401	stay	stay	stay	NN	O	pobj	O	-1	B-noun.act
+0	19	404	2143	2145	S	403	in	in	in	IN	O	prep	O	-1	O
+0	19	405	2146	2149	S	407	the	the	the	DT	O	det	O	-1	O
+0	19	406	2150	2156	S	407	mental	mental	mental	JJ	O	amod	O	-1	O
+0	19	407	2157	2161		404	ward	ward	ward	NN	O	pobj	O	-1	B-noun.person
+0	19	408	2161	2162	S	412	,	,	,	,	O	punct	O	-1	O
+0	19	409	2163	2164	S	411	a	a	a	DT	O	det	O	-1	O
+0	19	410	2165	2171	S	411	fellow	fellow	fellow	JJ	O	amod	O	-1	O
+0	19	411	2172	2179	S	412	patient	patient	patient	NN	O	nsubj	O	-1	B-noun.person
+0	19	412	2180	2190	S	-1	introduces	introduces	introduce	VBZ	O	null	O	-1	B-verb.communication
+0	19	413	2191	2196	S	412	Billy	Billy	Billy	NNP	PERSON	dobj	O	0	B-noun.person
+0	19	414	2197	2199	S	412	to	to	to	TO	O	prep	O	-1	O
+0	19	415	2200	2203	N	418	the	the	the	DT	O	det	O	-1	O
+0	19	416	2204	2211	S	418	science	science	science	NN	O	nn	O	-1	B-noun.communication
+0	19	417	2212	2219	S	418	fiction	fiction	fiction	NN	O	nn	O	-1	I-noun.communication
+0	19	418	2220	2226	S	414	novels	novels	novel	NNS	O	pobj	O	-1	B-noun.communication
+0	19	419	2227	2229	S	418	of	of	of	IN	O	prep	O	-1	O
+0	19	420	2230	2231	S	421	a	a	a	DT	O	det	O	-1	O
+0	19	421	2232	2238	S	419	writer	writer	writer	NN	O	pobj	O	-1	B-noun.person
+0	19	422	2239	2244	S	421	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	19	423	2245	2252	S	424	Kilgore	Kilgore	Kilgore	NNP	PERSON	nn	O	-1	B-noun.person
+0	19	424	2253	2258		422	Trout	Trout	Trout	NNP	PERSON	dep	O	-1	I-noun.person
+0	19	425	2258	2259	S	412	.	.	.	.	O	punct	O	-1	O
+0	20	426	2260	2265	S	432	After	After	after	IN	O	prep	O	-1	O
+0	20	427	2266	2269	S	428	his	his	he	PRP$	O	poss	O	0	O
+0	20	428	2270	2282		426	recuperation	recuperation	recuperation	NN	O	pobj	O	-1	B-noun.process
+0	20	429	2282	2283	N	432	,	,	,	,	O	punct	O	-1	O
+0	20	430	2284	2289	S	432	Billy	Billy	Billy	NNP	PERSON	nsubjpass	O	0	O
+0	20	431	2290	2294	S	432	gets	gets	get	VBZ	O	auxpass	O	-1	O
+0	20	432	2295	2302		-1	married	married	marry	VBN	O	null	O	-1	B-verb.social
+0	20	433	2302	2303	S	432	.	.	.	.	O	punct	O	-1	O
+0	21	434	2304	2307	S	436	His	His	he	PRP$	O	poss	O	0	O
+0	21	435	2308	2315	S	436	wealthy	wealthy	wealthy	JJ	O	amod	O	-1	O
+0	21	436	2316	2329	S	437	father-in-law	father-in-law	father-in-law	NN	O	nsubj	O	-1	B-noun.person
+0	21	437	2330	2334	S	-1	sets	sets	set	VBZ	O	null	O	-1	B-verb.contact
+0	21	438	2335	2338	S	437	him	him	he	PRP	O	dobj	O	0	O
+0	21	439	2339	2341	S	437	up	up	up	RP	O	prt	O	-1	O
+0	21	440	2342	2344	S	437	in	in	in	IN	O	prep	O	-1	O
+0	21	441	2345	2348	N	443	the	the	the	DT	O	det	O	-1	O
+0	21	442	2349	2358	S	443	optometry	optometry	optometry	NN	O	nn	O	-1	B-noun.act
+0	21	443	2359	2367		440	business	business	business	NN	O	pobj	O	-1	O
+0	21	444	2367	2368	S	437	,	,	,	,	O	punct	O	-1	O
+0	21	445	2369	2372	S	437	and	and	and	CC	O	cc	O	-1	O
+0	21	446	2373	2378	S	449	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	B-noun.person
+0	21	447	2379	2382	S	446	and	and	and	CC	O	cc	O	-1	O
+0	21	448	2383	2391	S	446	Valencia	Valencia	Valencia	NNP	ORGANIZATION	conj	O	1	B-noun.location
+0	21	449	2392	2397	S	437	raise	raise	raise	VBP	O	conj	O	-1	B-verb.motion
+0	21	450	2398	2401	S	451	two	two	two	CD	NUMBER	num	O	-1	O
+0	21	451	2402	2410	S	449	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	21	452	2411	2414	N	437	and	and	and	CC	O	cc	O	-1	O
+0	21	453	2415	2419	S	437	grow	grow	grow	VB	O	conj	O	-1	B-verb.change
+0	21	454	2420	2424		453	rich	rich	rich	JJ	O	acomp	O	-1	O
+0	21	455	2424	2425	S	437	.	.	.	.	O	punct	O	-1	O
+0	22	456	2426	2431	S	457	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	B-noun.person
+0	22	457	2432	2440	S	-1	acquires	acquires	acquire	VBZ	O	null	O	-1	B-verb.possession
+0	22	458	2441	2444	S	459	the	the	the	DT	O	det	O	-1	O
+0	22	459	2445	2454	S	457	trappings	trappings	trappings	NNS	O	dobj	O	-1	B-noun.artifact
+0	22	460	2455	2457	S	459	of	of	of	IN	O	prep	O	-1	O
+0	22	461	2458	2461	S	464	the	the	the	DT	O	det	O	-1	O
+0	22	462	2462	2470	S	464	suburban	suburban	suburban	JJ	O	amod	O	-1	O
+0	22	463	2471	2479	N	464	American	American	american	JJ	MISC	amod	O	-1	O
+0	22	464	2480	2485		460	dream	dream	dream	NN	O	pobj	O	-1	B-noun.cognition
+0	22	465	2485	2486	S	457	:	:	:	:	O	punct	O	-1	O
+0	22	466	2487	2488	S	467	a	a	a	DT	O	det	O	-1	O
+0	22	467	2489	2497		457	Cadillac	Cadillac	Cadillac	NNP	ORGANIZATION	dobj	O	-1	O
+0	22	468	2497	2498	S	467	,	,	,	,	O	punct	O	-1	O
+0	22	469	2499	2500	S	471	a	a	a	DT	O	det	O	-1	O
+0	22	470	2501	2508	S	471	stately	stately	stately	JJ	O	amod	O	-1	O
+0	22	471	2509	2513	S	467	home	home	home	NN	O	appos	O	-1	B-noun.location
+0	22	472	2514	2518	S	471	with	with	with	IN	O	prep	O	-1	O
+0	22	473	2519	2525	S	474	modern	modern	modern	JJ	O	amod	O	-1	O
+0	22	474	2526	2536		472	appliances	appliances	appliance	NNS	O	pobj	O	-1	B-noun.artifact
+0	22	475	2536	2537	S	467	,	,	,	,	O	punct	O	-1	O
+0	22	476	2538	2539	S	478	a	a	a	DT	O	det	O	-1	O
+0	22	477	2540	2549	N	478	bejeweled	bejeweled	bejeweled	JJ	O	amod	O	-1	O
+0	22	478	2550	2554		467	wife	wife	wife	NN	O	appos	O	-1	B-noun.person
+0	22	479	2554	2555	S	467	,	,	,	,	O	punct	O	-1	O
+0	22	480	2556	2559	S	467	and	and	and	CC	O	cc	O	-1	O
+0	22	481	2560	2563	S	482	the	the	the	DT	O	det	O	-1	O
+0	22	482	2564	2574	S	467	presidency	presidency	presidency	NN	O	conj	O	-1	B-noun.time
+0	22	483	2575	2577	S	482	of	of	of	IN	O	prep	O	-1	O
+0	22	484	2578	2581	S	486	the	the	the	DT	O	det	O	-1	O
+0	22	485	2582	2587	S	486	Lions	Lions	Lions	NNPS	ORGANIZATION	nn	O	-1	B-noun.group
+0	22	486	2588	2592		483	Club	Club	Club	NNP	ORGANIZATION	pobj	O	-1	I-noun.group
+0	22	487	2592	2593	S	457	.	.	.	.	O	punct	O	-1	O
+0	23	488	2594	2596	S	491	He	He	he	PRP	O	nsubj	O	0	O
+0	23	489	2597	2599	S	491	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	23	490	2600	2603	S	491	not	not	not	RB	O	neg	O	-1	O
+0	23	491	2604	2609	S	-1	aware	aware	aware	JJ	O	null	O	-1	O
+0	23	492	2610	2612	S	491	of	of	of	IN	O	prep	O	-1	O
+0	23	493	2613	2620	N	492	keeping	keeping	keep	VBG	O	pcomp	O	-1	B-verb.stative
+0	23	494	2621	2624	S	495	any	any	any	DT	O	det	O	-1	O
+0	23	495	2625	2632	S	493	secrets	secrets	secret	NNS	O	dobj	O	-1	B-noun.communication
+0	23	496	2633	2637	S	493	from	from	from	IN	O	prep	O	-1	O
+0	23	497	2638	2645		496	himself	himself	himself	PRP	O	pobj	O	-1	O
+0	23	498	2645	2646	S	491	,	,	,	,	O	punct	O	-1	O
+0	23	499	2647	2650	S	491	but	but	but	CC	O	cc	O	-1	O
+0	23	500	2651	2653	S	522	at	at	at	IN	O	prep	O	-1	O
+0	23	501	2654	2657	S	505	his	his	he	PRP$	O	poss	O	0	O
+0	23	502	2658	2668	S	505	eighteenth	eighteenth	eighteenth	JJ	ORDINAL	amod	O	-1	O
+0	23	503	2669	2676	S	505	wedding	wedding	wedding	NN	O	nn	O	-1	B-noun.time
+0	23	504	2677	2688	N	505	anniversary	anniversary	anniversary	NN	O	nn	O	-1	I-noun.time
+0	23	505	2689	2694	S	500	party	party	party	NN	O	pobj	O	-1	B-noun.group
+0	23	506	2695	2698	S	507	the	the	the	DT	O	det	O	-1	O
+0	23	507	2699	2704	S	512	sight	sight	sight	NN	O	nsubj	O	-1	B-noun.cognition
+0	23	508	2705	2707	S	507	of	of	of	IN	O	prep	O	-1	O
+0	23	509	2708	2709	S	511	a	a	a	DT	O	det	O	-1	O
+0	23	510	2710	2720	S	511	barbershop	barbershop	barbershop	NN	O	nn	O	-1	B-noun.group
+0	23	511	2721	2728	S	508	quartet	quartet	quartet	NN	O	pobj	O	-1	I-noun.group
+0	23	512	2729	2734	S	505	makes	makes	make	VBZ	O	rcmod	O	-1	B-verb.change
+0	23	513	2735	2738	S	514	him	him	he	PRP	O	nsubj	O	0	O
+0	23	514	2739	2744	S	512	break	break	break	VB	O	xcomp	O	-1	B-verb.competition
+0	23	515	2745	2749	S	514	down	down	down	RP	O	prt	O	-1	O
+0	23	516	2750	2757		514	because	because	because	RB	O	advmod	O	-1	O
+0	23	517	2757	2758	N	519	,	,	,	,	O	punct	O	-1	O
+0	23	518	2759	2761	S	519	he	he	he	PRP	O	nsubj	O	0	O
+0	23	519	2762	2770		522	realizes	realizes	realize	VBZ	O	parataxis	O	-1	B-verb.cognition
+0	23	520	2770	2771	S	519	,	,	,	,	O	punct	O	-1	O
+0	23	521	2772	2774	S	522	it	it	it	PRP	O	nsubj	O	-1	O
+0	23	522	2775	2783	S	491	triggers	triggers	trigger	VBZ	O	conj	O	-1	B-verb.creation
+0	23	523	2784	2785	S	524	a	a	a	DT	O	det	O	-1	O
+0	23	524	2786	2792	S	522	memory	memory	memory	NN	O	dobj	O	-1	B-noun.cognition
+0	23	525	2793	2795	S	524	of	of	of	IN	O	prep	O	-1	O
+0	23	526	2796	2803		525	Dresden	Dresden	Dresden	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	23	527	2803	2804	S	491	.	.	.	.	O	punct	O	-1	O
+0	24	528	2805	2808	S	529	The	The	the	DT	O	det	O	-1	O
+0	24	529	2809	2814	S	541	night	night	night	NN	TIME	nsubj	O	-1	B-noun.time
+0	24	530	2815	2820	S	529	after	after	after	IN	O	prep	O	-1	O
+0	24	531	2821	2824	S	532	his	his	he	PRP$	O	poss	O	0	O
+0	24	532	2825	2833		534	daughter	daughter	daughter	NN	O	poss	O	-1	B-noun.person
+0	24	533	2833	2835	S	532	’s	's	's	POS	O	possessive	O	-1	O
+0	24	534	2836	2843	S	530	wedding	wedding	wedding	NN	O	pobj	O	-1	B-noun.event
+0	24	535	2844	2846	S	534	in	in	in	IN	O	prep	O	-1	O
+0	24	536	2847	2851		535	1967	1967	1967	CD	DATE	pobj	O	-1	O
+0	24	537	2851	2852	N	541	,	,	,	,	O	punct	O	-1	O
+0	24	538	2853	2855	S	541	as	as	as	IN	O	mark	O	-1	O
+0	24	539	2856	2858	S	541	he	he	he	PRP	O	nsubj	O	0	O
+0	24	540	2859	2864	S	541	later	later	later	RB	O	advmod	O	-1	O
+0	24	541	2865	2872	S	-1	reveals	reveals	reveal	VBZ	O	null	O	-1	B-verb.perception
+0	24	542	2873	2875	S	541	on	on	on	IN	O	prep	O	-1	O
+0	24	543	2876	2877	S	546	a	a	a	DT	O	det	O	-1	O
+0	24	544	2878	2883	S	546	radio	radio	radio	NN	O	nn	O	-1	B-noun.artifact
+0	24	545	2884	2888	S	546	talk	talk	talk	NN	O	nn	O	-1	B-noun.communication
+0	24	546	2889	2893		542	show	show	show	NN	O	pobj	O	-1	I-noun.communication
+0	24	547	2893	2894	S	550	,	,	,	,	O	punct	O	-1	O
+0	24	548	2895	2900	S	550	Billy	Billy	Billy	NNP	PERSON	nsubjpass	O	0	O
+0	24	549	2901	2903	S	550	is	is	be	VBZ	O	auxpass	O	-1	O
+0	24	550	2904	2913	S	541	kidnapped	kidnapped	kidnap	VBN	O	parataxis	O	-1	B-verb.contact
+0	24	551	2914	2916	N	550	by	by	by	IN	O	prep	O	-1	O
+0	24	552	2917	2930	S	553	two-foot-high	two-foot-high	two-foot-high	JJ	O	amod	O	-1	O
+0	24	553	2931	2937	S	551	aliens	aliens	alien	NNS	O	pobj	O	-1	B-noun.person
+0	24	554	2938	2941	S	555	who	who	who	WP	O	nsubj	O	-1	O
+0	24	555	2942	2950	S	553	resemble	resemble	resemble	VBP	O	rcmod	O	-1	B-verb.stative
+0	24	556	2951	2962	S	558	upside-down	upside-down	upside-down	JJ	O	amod	O	-1	O
+0	24	557	2963	2969	S	558	toilet	toilet	toilet	NN	O	nn	O	-1	B-noun.artifact
+0	24	558	2970	2978		555	plungers	plungers	plunger	NNS	O	dobj	O	-1	B-noun.person
+0	24	559	2978	2979	S	558	,	,	,	,	O	punct	O	-1	O
+0	24	560	2980	2983	N	562	who	who	who	WP	O	rel	O	-1	O
+0	24	561	2984	2986	S	562	he	he	he	PRP	O	nsubj	O	0	O
+0	24	562	2987	2991	S	558	says	says	say	VBZ	O	rcmod	O	-1	B-verb.communication
+0	24	563	2992	2995	S	564	are	are	be	VBP	O	auxpass	O	-1	O
+0	24	564	2996	3002	S	562	called	called	call	VBN	O	ccomp	O	-1	B-verb.communication
+0	24	565	3003	3018		564	Tralfamadorians	Tralfamadorians	Tralfamadorians	NNP	MISC	dobj	O	-1	O
+0	24	566	3018	3019	S	541	.	.	.	.	O	punct	O	-1	O
+0	25	567	3020	3024	S	568	They	They	they	PRP	O	nsubj	O	-1	O
+0	25	568	3025	3029	S	-1	take	take	take	VBP	O	null	O	-1	B-verb.motion
+0	25	569	3030	3033	S	568	him	him	he	PRP	O	dobj	O	0	O
+0	25	570	3034	3036	S	568	in	in	in	IN	O	prep	O	-1	O
+0	25	571	3037	3042	S	573	their	their	they	PRP$	O	poss	O	-1	O
+0	25	572	3043	3049	N	573	flying	flying	fly	VBG	O	amod	O	-1	B-verb.motion
+0	25	573	3050	3056	S	570	saucer	saucer	saucer	NN	O	pobj	O	-1	B-noun.shape
+0	25	574	3057	3059	S	568	to	to	to	TO	O	prep	O	-1	O
+0	25	575	3060	3063	S	577	the	the	the	DT	O	det	O	-1	O
+0	25	576	3064	3070	S	577	planet	planet	planet	NN	O	nn	O	-1	B-noun.object
+0	25	577	3071	3083		574	Tralfamadore	Tralfamadore	tralfamadore	NN	MISC	pobj	O	-1	O
+0	25	578	3083	3084	S	577	,	,	,	,	O	punct	O	-1	O
+0	25	579	3085	3090	S	581	where	where	where	WRB	O	advmod	O	-1	O
+0	25	580	3091	3095	S	581	they	they	they	PRP	O	nsubj	O	-1	O
+0	25	581	3096	3100	S	577	mate	mate	mate	VBP	O	rcmod	O	-1	B-verb.contact
+0	25	582	3101	3104	S	581	him	him	he	PRP	O	dobj	O	0	O
+0	25	583	3105	3109	S	581	with	with	with	IN	O	prep	O	-1	O
+0	25	584	3110	3111	S	586	a	a	a	DT	O	det	O	-1	O
+0	25	585	3112	3117	S	586	movie	movie	movie	NN	O	nn	O	-1	B-noun.communication
+0	25	586	3118	3125	N	583	actress	actress	actress	NN	O	pobj	O	-1	B-noun.person
+0	25	587	3126	3131	S	586	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	25	588	3132	3139	S	589	Montana	Montana	Montana	NNP	PERSON	nn	O	-1	B-noun.location
+0	25	589	3140	3148		587	Wildhack	Wildhack	Wildhack	NNP	PERSON	dep	O	-1	I-noun.location
+0	25	590	3148	3149	S	568	.	.	.	.	O	punct	O	-1	O
+0	26	591	3150	3153		598	She	She	she	PRP	O	nsubj	O	-1	O
+0	26	592	3153	3154	S	591	,	,	,	,	O	punct	O	-1	O
+0	26	593	3155	3159	S	591	like	like	like	IN	O	prep	O	-1	O
+0	26	594	3160	3165		593	Billy	Billy	Billy	NNP	PERSON	pobj	O	0	B-noun.person
+0	26	595	3165	3166	S	591	,	,	,	,	O	punct	O	-1	O
+0	26	596	3167	3170	S	598	has	has	have	VBZ	O	aux	O	-1	O
+0	26	597	3171	3175	S	598	been	been	be	VBN	O	auxpass	O	-1	O
+0	26	598	3176	3183	S	-1	brought	brought	bring	VBN	O	null	O	-1	B-verb.motion
+0	26	599	3184	3188	S	598	from	from	from	IN	O	prep	O	-1	O
+0	26	600	3189	3194	N	599	Earth	Earth	Earth	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	26	601	3195	3197	S	602	to	to	to	TO	O	aux	O	-1	O
+0	26	602	3198	3202	S	598	live	live	live	VB	O	xcomp	O	-1	B-verb.stative
+0	26	603	3203	3208	S	602	under	under	under	IN	O	prep	O	-1	O
+0	26	604	3209	3210	S	607	a	a	a	DT	O	det	O	-1	O
+0	26	605	3211	3222	S	607	transparent	transparent	transparent	JJ	O	amod	O	-1	O
+0	26	606	3223	3231	S	607	geodesic	geodesic	geodesic	JJ	O	amod	O	-1	O
+0	26	607	3232	3236	S	603	dome	dome	dome	NN	O	pobj	O	-1	B-noun.shape
+0	26	608	3237	3239	S	607	in	in	in	IN	O	prep	O	-1	O
+0	26	609	3240	3241	S	610	a	a	a	DT	O	det	O	-1	O
+0	26	610	3242	3245	S	608	zoo	zoo	zoo	NN	O	pobj	O	-1	B-noun.artifact
+0	26	611	3246	3251	S	614	where	where	where	WRB	O	advmod	O	-1	O
+0	26	612	3252	3267	N	614	Tralfamadorians	Tralfamadorians	Tralfamadorians	NNP	MISC	nsubj	O	-1	B-noun.person
+0	26	613	3268	3271	S	614	can	can	can	MD	O	aux	O	-1	O
+0	26	614	3272	3279	S	610	observe	observe	observe	VB	O	rcmod	O	-1	B-verb.perception
+0	26	615	3280	3296	S	616	extraterrestrial	extraterrestrial	extraterrestrial	JJ	O	amod	O	-1	O
+0	26	616	3297	3308		614	curiosities	curiosities	curiosity	NNS	O	dobj	O	-1	B-noun.cognition
+0	26	617	3308	3309	S	598	.	.	.	.	O	punct	O	-1	O
+0	27	618	3310	3313	S	619	The	The	the	DT	O	det	O	-1	O
+0	27	619	3314	3329	S	620	Tralfamadorians	Tralfamadorians	Tralfamadorians	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	27	620	3330	3337	N	-1	explain	explain	explain	VBP	O	null	O	-1	B-verb.communication
+0	27	621	3338	3340	S	620	to	to	to	TO	O	prep	O	-1	O
+0	27	622	3341	3346	S	621	Billy	Billy	Billy	NNP	PERSON	pobj	O	0	B-noun.person
+0	27	623	3347	3352	S	624	their	their	they	PRP$	O	poss	O	-1	O
+0	27	624	3353	3363	S	620	perception	perception	perception	NN	O	dobj	O	-1	B-noun.cognition
+0	27	625	3364	3366	S	624	of	of	of	IN	O	prep	O	-1	O
+0	27	626	3367	3371		625	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	27	627	3371	3372	S	624	,	,	,	,	O	punct	O	-1	O
+0	27	628	3373	3376	S	632	how	how	how	WRB	O	advmod	O	-1	O
+0	27	629	3377	3380	S	631	its	its	its	PRP$	O	poss	O	-1	O
+0	27	630	3381	3387	S	631	entire	entire	entire	JJ	O	amod	O	-1	O
+0	27	631	3388	3393	S	632	sweep	sweep	sweep	NN	O	nsubj	O	-1	B-noun.attribute
+0	27	632	3394	3400	S	624	exists	exists	exist	VBZ	O	ccomp	O	-1	B-verb.stative
+0	27	633	3401	3404	N	632	for	for	for	IN	O	prep	O	-1	O
+0	27	634	3405	3409	S	633	them	them	they	PRP	O	pobj	O	-1	O
+0	27	635	3410	3424	S	632	simultaneously	simultaneously	simultaneously	RB	O	advmod	O	-1	O
+0	27	636	3425	3427	S	632	in	in	in	IN	O	prep	O	-1	O
+0	27	637	3428	3431	S	639	the	the	the	DT	O	det	O	-1	O
+0	27	638	3432	3438	S	639	fourth	fourth	fourth	JJ	ORDINAL	amod	O	-1	O
+0	27	639	3439	3448		636	dimension	dimension	dimension	NN	O	pobj	O	-1	B-noun.attribute
+0	27	640	3448	3449	S	620	.	.	.	.	O	punct	O	-1	O
+0	28	641	3450	3454	S	643	When	When	when	WRB	O	advmod	O	-1	O
+0	28	642	3455	3462	S	643	someone	someone	someone	NN	O	nsubj	O	-1	O
+0	28	643	3463	3467		-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	28	644	3467	3468	N	643	,	,	,	,	O	punct	O	-1	O
+0	28	645	3469	3473	S	649	that	that	that	IN	O	complm	O	-1	O
+0	28	646	3474	3480	S	649	person	person	person	NN	O	nsubj	O	-1	B-noun.person
+0	28	647	3481	3483	S	649	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	28	648	3484	3490	S	649	simply	simply	simply	RB	O	advmod	O	-1	O
+0	28	649	3491	3495	S	643	dead	dead	dead	JJ	O	dep	O	-1	O
+0	28	650	3496	3498	S	649	at	at	at	IN	O	prep	O	-1	O
+0	28	651	3499	3500	S	653	a	a	a	DT	O	det	O	-1	O
+0	28	652	3501	3511	S	653	particular	particular	particular	JJ	O	amod	O	-1	O
+0	28	653	3512	3516		650	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	28	654	3516	3517	S	643	.	.	.	.	O	punct	O	-1	O
+0	29	655	3518	3527	S	656	Somewhere	Somewhere	somewhere	RB	O	advmod	O	-1	O
+0	29	656	3528	3532	N	-1	else	else	else	RB	O	null	O	-1	O
+0	29	657	3533	3536	S	656	and	and	and	CC	O	cc	O	-1	O
+0	29	658	3537	3539	S	656	at	at	at	IN	O	conj	O	-1	O
+0	29	659	3540	3541	S	661	a	a	a	DT	O	det	O	-1	O
+0	29	660	3542	3551	S	661	different	different	different	JJ	O	amod	O	-1	O
+0	29	661	3552	3556	S	658	time	time	time	NN	O	pobj	O	-1	B-noun.event
+0	29	662	3557	3559	S	666	he	he	he	PRP	O	nsubj	O	0	O
+0	29	663	3560	3562	S	662	or	or	or	CC	O	cc	O	-1	O
+0	29	664	3563	3566	S	662	she	she	she	PRP	O	conj	O	-1	O
+0	29	665	3567	3569	S	666	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	29	666	3570	3575	S	661	alive	alive	alive	JJ	O	rcmod	O	-1	O
+0	29	667	3576	3579	S	666	and	and	and	CC	O	cc	O	-1	O
+0	29	668	3580	3584		666	well	well	well	RB	O	advmod	O	-1	O
+0	29	669	3584	3585	S	656	.	.	.	.	O	punct	O	-1	O
+0	30	670	3586	3601	N	671	Tralfamadorians	Tralfamadorians	tralfamadorians	FW	MISC	nsubj	O	-1	O
+0	30	671	3602	3608	S	-1	prefer	prefer	prefer	VBP	O	null	O	-1	B-verb.emotion
+0	30	672	3609	3611	S	673	to	to	to	TO	O	aux	O	-1	O
+0	30	673	3612	3616	S	671	look	look	look	VB	O	xcomp	O	-1	B-verb.perception
+0	30	674	3617	3619	S	673	at	at	at	IN	O	prep	O	-1	O
+0	30	675	3620	3624		678	life	life	life	NN	O	poss	O	-1	B-noun.cognition
+0	30	676	3624	3626	S	675	’s	's	's	POS	O	possessive	O	-1	O
+0	30	677	3627	3632	S	678	nicer	nicer	nicer	JJR	O	amod	O	-1	O
+0	30	678	3633	3640		674	moments	moments	moment	NNS	O	pobj	O	-1	B-noun.time
+0	30	679	3640	3641	S	671	.	.	.	.	O	punct	O	-1	O
+0	31	680	3642	3646	S	682	When	When	when	WRB	O	advmod	O	-1	O
+0	31	681	3647	3649	S	682	he	he	he	PRP	O	nsubj	O	0	O
+0	31	682	3650	3657	S	688	returns	returns	return	VBZ	O	dep	O	-1	B-verb.motion
+0	31	683	3658	3660	S	682	to	to	to	TO	O	prep	O	-1	O
+0	31	684	3661	3666		683	Earth	Earth	Earth	NNP	LOCATION	pobj	O	-1	O
+0	31	685	3666	3667	S	688	,	,	,	,	O	punct	O	-1	O
+0	31	686	3668	3673	S	688	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	O
+0	31	687	3674	3683	N	688	initially	initially	initially	RB	O	advmod	O	-1	O
+0	31	688	3684	3688	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	31	689	3689	3696	S	688	nothing	nothing	nothing	NN	O	nsubj	O	-1	B-noun.quantity
+0	31	690	3697	3699	S	689	of	of	of	IN	O	prep	O	-1	O
+0	31	691	3700	3703	S	692	his	his	he	PRP$	O	poss	O	0	O
+0	31	692	3704	3715		690	experiences	experiences	experience	NNS	O	pobj	O	-1	B-noun.cognition
+0	31	693	3715	3716	S	688	.	.	.	.	O	punct	O	-1	O
+0	32	694	3717	3719	S	698	In	In	in	IN	O	prep	O	-1	O
+0	32	695	3720	3724		694	1968	1968	1968	CD	DATE	pobj	O	-1	O
+0	32	696	3724	3725	N	698	,	,	,	,	O	punct	O	-1	O
+0	32	697	3726	3728	S	698	he	he	he	PRP	O	nsubj	O	0	O
+0	32	698	3729	3733	S	-1	gets	gets	get	VBZ	O	null	O	-1	B-verb.social
+0	32	699	3734	3736	S	698	on	on	on	IN	O	prep	O	-1	O
+0	32	700	3737	3738	S	702	a	a	a	DT	O	det	O	-1	O
+0	32	701	3739	3748	S	702	chartered	chartered	chartered	JJ	O	amod	O	-1	O
+0	32	702	3749	3754	S	699	plane	plane	plane	NN	O	pobj	O	-1	B-noun.artifact
+0	32	703	3755	3757	S	704	to	to	to	TO	O	aux	O	-1	O
+0	32	704	3758	3760	S	702	go	go	go	VB	O	infmod	O	-1	B-verb.motion
+0	32	705	3761	3763	S	704	to	to	to	TO	O	prep	O	-1	O
+0	32	706	3764	3766	S	708	an	an	a	DT	O	det	O	-1	O
+0	32	707	3767	3776	S	708	optometry	optometry	optometry	NN	O	nn	O	-1	B-noun.act
+0	32	708	3777	3787	S	705	conference	conference	conference	NN	O	pobj	O	-1	B-noun.group
+0	32	709	3788	3790	N	708	in	in	in	IN	O	prep	O	-1	O
+0	32	710	3791	3799		709	Montreal	Montreal	Montreal	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	32	711	3799	3800	S	698	.	.	.	.	O	punct	O	-1	O
+0	33	712	3801	3804	S	714	The	The	the	DT	O	det	O	-1	O
+0	33	713	3805	3810	S	714	plane	plane	plane	NN	O	nn	O	-1	B-noun.artifact
+0	33	714	3811	3818	S	-1	crashes	crashes	crash	NNS	O	null	O	-1	B-noun.event
+0	33	715	3819	3823	S	714	into	into	into	IN	O	prep	O	-1	O
+0	33	716	3824	3825	S	717	a	a	a	DT	O	det	O	-1	O
+0	33	717	3826	3834		715	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	33	718	3834	3835	S	714	,	,	,	,	O	punct	O	-1	O
+0	33	719	3836	3839		714	and	and	and	CC	O	cc	O	-1	O
+0	33	720	3839	3840	S	727	,	,	,	,	O	punct	O	-1	O
+0	33	721	3841	3846	S	727	among	among	among	IN	O	prep	O	-1	O
+0	33	722	3847	3850	S	723	the	the	the	DT	O	det	O	-1	O
+0	33	723	3851	3863		721	optometrists	optometrists	optometrist	NNS	O	pobj	O	-1	B-noun.person
+0	33	724	3863	3864	N	727	,	,	,	,	O	punct	O	-1	O
+0	33	725	3865	3869	S	726	only	only	only	RB	O	advmod	O	-1	O
+0	33	726	3870	3875	S	727	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	B-noun.person
+0	33	727	3876	3884		714	survives	survives	survive	VBZ	O	conj	O	-1	O
+0	33	728	3884	3885	S	714	.	.	.	.	O	punct	O	-1	O
+0	34	729	3886	3887	S	731	A	A	a	DT	O	det	O	-1	O
+0	34	730	3888	3893	S	731	brain	brain	brain	NN	O	nn	O	-1	B-noun.person
+0	34	731	3894	3901	S	732	surgeon	surgeon	surgeon	NN	O	nsubj	O	-1	I-noun.person
+0	34	732	3902	3910	S	-1	operates	operates	operate	VBZ	O	null	O	-1	B-verb.body
+0	34	733	3911	3913	S	732	on	on	on	IN	O	prep	O	-1	O
+0	34	734	3914	3917	S	733	him	him	he	PRP	O	pobj	O	0	O
+0	34	735	3918	3920	S	732	in	in	in	IN	O	prep	O	-1	O
+0	34	736	3921	3922	S	738	a	a	a	DT	O	det	O	-1	O
+0	34	737	3923	3930	N	738	Vermont	Vermont	Vermont	NNP	LOCATION	nn	O	-1	B-noun.location
+0	34	738	3931	3939		735	hospital	hospital	hospital	NN	O	pobj	O	-1	B-noun.artifact
+0	34	739	3939	3940	S	732	.	.	.	.	O	punct	O	-1	O
+0	35	740	3941	3943	S	749	On	On	on	IN	O	prep	O	-1	O
+0	35	741	3944	3947	S	742	her	her	she	PRP$	O	poss	O	-1	O
+0	35	742	3948	3951	S	740	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	35	743	3952	3954	S	744	to	to	to	TO	O	aux	O	-1	O
+0	35	744	3955	3960	S	742	visit	visit	visit	VB	O	infmod	O	-1	B-verb.social
+0	35	745	3961	3964	S	744	him	him	he	PRP	O	dobj	O	0	O
+0	35	746	3965	3970		744	there	there	there	RB	O	advmod	O	-1	O
+0	35	747	3970	3971	S	749	,	,	,	,	O	punct	O	-1	O
+0	35	748	3972	3980	S	749	Valencia	Valencia	Valencia	NNP	PERSON	nsubj	O	1	B-noun.location
+0	35	749	3981	3985	S	-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	35	750	3986	3988	S	749	of	of	of	IN	O	prep	O	-1	O
+0	35	751	3989	3999	N	754	accidental	accidental	accidental	JJ	O	amod	O	-1	O
+0	35	752	4000	4006	S	754	carbon	carbon	carbon	NN	O	nn	O	-1	B-noun.substance
+0	35	753	4007	4015	S	754	monoxide	monoxide	monoxide	NN	O	nn	O	-1	I-noun.substance
+0	35	754	4016	4025	S	750	poisoning	poisoning	poisoning	NN	O	pobj	O	-1	I-noun.state
+0	35	755	4026	4031	S	749	after	after	after	IN	O	prep	O	-1	O
+0	35	756	4032	4040	S	755	crashing	crashing	crash	VBG	O	pcomp	O	-1	B-verb.motion
+0	35	757	4041	4044	S	758	her	her	she	PRP$	O	poss	O	1	O
+0	35	758	4045	4048		756	car	car	car	NN	O	dobj	O	-1	B-noun.artifact
+0	35	759	4048	4049	S	749	.	.	.	.	O	punct	O	-1	O
+0	36	760	4050	4055		762	Billy	Billy	Billy	NNP	PERSON	poss	O	0	B-noun.person
+0	36	761	4055	4057	S	760	’s	's	's	POS	O	possessive	O	-1	O
+0	36	762	4058	4066	N	763	daughter	daughter	daughter	NN	O	nsubj	O	-1	B-noun.person
+0	36	763	4067	4073	S	-1	places	places	place	VBZ	O	null	O	-1	B-verb.contact
+0	36	764	4074	4077	S	763	him	him	he	PRP	O	dobj	O	0	O
+0	36	765	4078	4083	S	763	under	under	under	IN	O	prep	O	-1	O
+0	36	766	4084	4087	S	767	the	the	the	DT	O	det	O	-1	O
+0	36	767	4088	4092	S	765	care	care	care	NN	O	pobj	O	-1	B-noun.act
+0	36	768	4093	4095	S	767	of	of	of	IN	O	prep	O	-1	O
+0	36	769	4096	4097	S	770	a	a	a	DT	O	det	O	-1	O
+0	36	770	4098	4103	S	768	nurse	nurse	nurse	NN	O	pobj	O	-1	B-noun.person
+0	36	771	4104	4108	S	770	back	back	back	RB	O	advmod	O	-1	O
+0	36	772	4109	4113	S	770	home	home	home	NN	O	advmod	O	-1	B-noun.location
+0	36	773	4114	4116	S	770	in	in	in	IN	O	prep	O	-1	O
+0	36	774	4117	4122		773	Ilium	Ilium	Ilium	NNP	O	pobj	O	-1	B-noun.location
+0	36	775	4122	4123	S	763	.	.	.	.	O	punct	O	-1	O
+0	37	776	4124	4127	S	778	But	But	but	CC	O	cc	O	-1	O
+0	37	777	4128	4130	N	778	he	he	he	PRP	O	nsubj	O	0	O
+0	37	778	4131	4136	S	-1	feels	feels	feel	VBZ	O	null	O	-1	B-verb.cognition
+0	37	779	4137	4141	S	783	that	that	that	IN	O	complm	O	-1	O
+0	37	780	4142	4145	S	781	the	the	the	DT	O	det	O	-1	O
+0	37	781	4146	4150	S	783	time	time	time	NN	O	nsubj	O	-1	B-noun.time
+0	37	782	4151	4153	S	783	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	37	783	4154	4158	S	778	ripe	ripe	ripe	JJ	O	ccomp	O	-1	O
+0	37	784	4159	4161	S	785	to	to	to	TO	O	aux	O	-1	O
+0	37	785	4162	4166	S	783	tell	tell	tell	VB	O	xcomp	O	-1	B-verb.communication
+0	37	786	4167	4170	S	787	the	the	the	DT	O	det	O	-1	O
+0	37	787	4171	4176	S	785	world	world	world	NN	O	dobj	O	-1	B-noun.object
+0	37	788	4177	4181	S	791	what	what	what	WP	O	dobj	O	-1	O
+0	37	789	4182	4184	S	791	he	he	he	PRP	O	nsubj	O	0	O
+0	37	790	4185	4188	S	791	has	has	have	VBZ	O	aux	O	-1	O
+0	37	791	4189	4196		785	learned	learned	learn	VBN	O	dep	O	-1	B-verb.cognition
+0	37	792	4196	4197	N	778	.	.	.	.	O	punct	O	-1	O
+0	38	793	4198	4203	S	795	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	B-noun.person
+0	38	794	4204	4207	S	795	has	has	have	VBZ	O	aux	O	-1	O
+0	38	795	4208	4216	S	-1	foreseen	foreseen	foresee	VBN	O	null	O	-1	B-verb.cognition
+0	38	796	4217	4221	S	797	this	this	this	DT	O	det	O	-1	O
+0	38	797	4222	4228	S	795	moment	moment	moment	NN	O	dobj	O	-1	B-noun.time
+0	38	798	4229	4234	S	799	while	while	while	IN	O	mark	O	-1	O
+0	38	799	4235	4248		795	time-tripping	time-tripping	time-tripping	JJ	O	advcl	O	-1	O
+0	38	800	4248	4249	S	795	,	,	,	,	O	punct	O	-1	O
+0	38	801	4250	4253	S	795	and	and	and	CC	O	cc	O	-1	O
+0	38	802	4254	4256	S	803	he	he	he	PRP	O	nsubj	O	0	O
+0	38	803	4257	4262	N	795	knows	knows	know	VBZ	O	conj	O	-1	B-verb.cognition
+0	38	804	4263	4267	S	810	that	that	that	IN	O	complm	O	-1	O
+0	38	805	4268	4271	S	806	his	his	he	PRP$	O	poss	O	0	O
+0	38	806	4272	4279	S	810	message	message	message	NN	O	nsubjpass	O	-1	B-noun.communication
+0	38	807	4280	4284	S	810	will	will	will	MD	O	aux	O	-1	O
+0	38	808	4285	4295	S	810	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	38	809	4296	4298	S	810	be	be	be	VB	O	auxpass	O	-1	O
+0	38	810	4299	4307		803	accepted	accepted	accept	VBN	O	ccomp	O	-1	B-verb.cognition
+0	38	811	4307	4308	S	795	.	.	.	.	O	punct	O	-1	O
+0	39	812	4309	4311	S	813	He	He	he	PRP	O	nsubj	O	0	O
+0	39	813	4312	4318	S	-1	sneaks	sneaks	sneak	VBZ	O	null	O	-1	B-verb.motion
+0	39	814	4319	4322	S	813	off	off	off	RP	O	prt	O	-1	O
+0	39	815	4323	4325	S	813	to	to	to	TO	O	prep	O	-1	O
+0	39	816	4326	4329	N	818	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	39	817	4330	4334	S	818	York	York	York	NNP	LOCATION	nn	O	-1	I-noun.location
+0	39	818	4335	4339		815	City	City	City	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	39	819	4339	4340	S	818	,	,	,	,	O	punct	O	-1	O
+0	39	820	4341	4346	S	822	where	where	where	WRB	O	advmod	O	-1	O
+0	39	821	4347	4349	S	822	he	he	he	PRP	O	nsubj	O	0	O
+0	39	822	4350	4354	S	818	goes	goes	go	VBZ	O	rcmod	O	-1	B-verb.stative
+0	39	823	4355	4357	S	822	on	on	on	IN	O	prep	O	-1	O
+0	39	824	4358	4359	S	827	a	a	a	DT	O	det	O	-1	O
+0	39	825	4360	4365	S	827	radio	radio	radio	NN	O	nn	O	-1	B-noun.artifact
+0	39	826	4366	4370	S	827	talk	talk	talk	NN	O	nn	O	-1	B-noun.communication
+0	39	827	4371	4375		823	show	show	show	NN	O	pobj	O	-1	I-noun.communication
+0	39	828	4375	4376	S	813	.	.	.	.	O	punct	O	-1	O
+0	40	829	4377	4384	S	830	Shortly	Shortly	shortly	RB	O	advmod	O	-1	O
+0	40	830	4385	4395		833	thereafter	thereafter	thereafter	RB	O	advmod	O	-1	O
+0	40	831	4395	4396	N	833	,	,	,	,	O	punct	O	-1	O
+0	40	832	4397	4399	S	833	he	he	he	PRP	O	nsubj	O	0	O
+0	40	833	4400	4406	S	-1	writes	writes	write	VBZ	O	null	O	-1	B-verb.creation
+0	40	834	4407	4408	S	835	a	a	a	DT	O	det	O	-1	O
+0	40	835	4409	4415	S	833	letter	letter	letter	NN	O	dobj	O	-1	B-noun.communication
+0	40	836	4416	4418	S	835	to	to	to	TO	O	prep	O	-1	O
+0	40	837	4419	4422	S	839	the	the	the	DT	O	det	O	-1	O
+0	40	838	4423	4428	S	839	local	local	local	JJ	O	amod	O	-1	O
+0	40	839	4429	4434		836	paper	paper	paper	NN	O	pobj	O	-1	B-noun.communication
+0	40	840	4434	4435	S	833	.	.	.	.	O	punct	O	-1	O
+0	41	841	4436	4439	S	842	His	His	he	PRP$	O	poss	O	0	O
+0	41	842	4440	4448	S	843	daughter	daughter	daughter	NN	O	nsubj	O	-1	B-noun.person
+0	41	843	4449	4451	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	41	844	4452	4454	S	843	at	at	at	IN	O	prep	O	-1	O
+0	41	845	4455	4458	S	846	her	her	she	PRP$	O	poss	O	-1	O
+0	41	846	4459	4462		848	wit	wit	wit	NN	O	poss	O	-1	B-noun.communication
+0	41	847	4462	4464	N	846	’s	's	's	POS	O	possessive	O	-1	O
+0	41	848	4465	4468	S	844	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	41	849	4469	4472	S	843	and	and	and	CC	O	cc	O	-1	O
+0	41	850	4473	4477	S	852	does	does	do	VBZ	O	aux	O	-1	O
+0	41	851	4478	4481	S	852	not	not	not	RB	O	neg	O	-1	O
+0	41	852	4482	4486	S	843	know	know	know	VB	O	conj	O	-1	B-verb.cognition
+0	41	853	4487	4491	S	855	what	what	what	WP	O	nsubj	O	-1	O
+0	41	854	4492	4494	S	855	to	to	to	TO	O	aux	O	-1	O
+0	41	855	4495	4497	S	852	do	do	do	VB	O	ccomp	O	-1	B-verb.social
+0	41	856	4498	4502	S	855	with	with	with	IN	O	prep	O	-1	O
+0	41	857	4503	4506		856	him	him	he	PRP	O	pobj	O	0	O
+0	41	858	4506	4507	S	843	.	.	.	.	O	punct	O	-1	O
+0	42	859	4508	4513	S	860	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	B-noun.person
+0	42	860	4514	4519	S	-1	makes	makes	make	VBZ	O	null	O	-1	B-verb.creation
+0	42	861	4520	4521	S	863	a	a	a	DT	O	det	O	-1	O
+0	42	862	4522	4526	S	863	tape	tape	tape	NN	O	nn	O	-1	B-noun.artifact
+0	42	863	4527	4536	N	882	recording	recording	recording	NN	O	nsubjpass	O	-1	I-noun.artifact
+0	42	864	4537	4539	S	863	of	of	of	IN	O	prep	O	-1	O
+0	42	865	4540	4543	S	866	his	his	he	PRP$	O	poss	O	0	O
+0	42	866	4544	4551	S	864	account	account	account	NN	O	pobj	O	-1	B-noun.communication
+0	42	867	4552	4554	S	866	of	of	of	IN	O	prep	O	-1	O
+0	42	868	4555	4558	S	869	his	his	he	PRP$	O	poss	O	0	O
+0	42	869	4559	4564		867	death	death	death	NN	O	pobj	O	-1	B-noun.time
+0	42	870	4564	4565	S	869	,	,	,	,	O	punct	O	-1	O
+0	42	871	4566	4571	S	873	which	which	which	WDT	O	rel	O	-1	O
+0	42	872	4572	4574	S	873	he	he	he	PRP	O	nsubj	O	0	O
+0	42	873	4575	4583	S	875	predicts	predicts	predict	VBZ	O	nsubj	O	-1	B-verb.communication
+0	42	874	4584	4588	S	875	will	will	will	MD	O	aux	O	-1	O
+0	42	875	4589	4594	S	869	occur	occur	occur	VB	O	rcmod	O	-1	B-verb.change
+0	42	876	4595	4597	S	875	in	in	in	IN	O	prep	O	-1	O
+0	42	877	4598	4602	S	876	1976	1976	1976	CD	DATE	pobj	O	-1	O
+0	42	878	4603	4608	N	875	after	after	after	IN	O	prep	O	-1	O
+0	42	879	4609	4616	S	878	Chicago	Chicago	Chicago	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	42	880	4617	4620	S	882	has	has	have	VBZ	O	aux	O	-1	O
+0	42	881	4621	4625	S	882	been	been	be	VBN	O	auxpass	O	-1	O
+0	42	882	4626	4641	S	860	hydrogen-bombed	hydrogen-bombed	hydrogen-bomb	VBN	O	xcomp	O	-1	B-verb.competition
+0	42	883	4642	4644	S	882	by	by	by	IN	O	prep	O	-1	O
+0	42	884	4645	4648	S	885	the	the	the	DT	O	det	O	-1	O
+0	42	885	4649	4656		883	Chinese	Chinese	Chinese	NNP	MISC	pobj	O	-1	O
+0	42	886	4656	4657	S	860	.	.	.	.	O	punct	O	-1	O
+0	43	887	4658	4660	S	888	He	He	he	PRP	O	nsubj	O	0	O
+0	43	888	4661	4666	S	-1	knows	knows	know	VBZ	O	null	O	-1	B-verb.cognition
+0	43	889	4667	4674	N	893	exactly	exactly	exactly	RB	O	advmod	O	-1	O
+0	43	890	4675	4678	S	893	how	how	how	WRB	O	advmod	O	-1	O
+0	43	891	4679	4681	S	893	it	it	it	PRP	O	nsubj	O	-1	O
+0	43	892	4682	4686	S	893	will	will	will	MD	O	aux	O	-1	O
+0	43	893	4687	4693		888	happen	happen	happen	VB	O	ccomp	O	-1	B-verb.change
+0	43	894	4693	4694	S	893	:	:	:	:	O	punct	O	-1	O
+0	43	895	4695	4696	S	897	a	a	a	DT	O	det	O	-1	O
+0	43	896	4697	4705	S	897	vengeful	vengeful	vengeful	JJ	O	amod	O	-1	O
+0	43	897	4706	4709	S	904	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	43	898	4710	4712	S	899	he	he	he	PRP	O	nsubj	O	-1	O
+0	43	899	4713	4717	S	897	knew	knew	know	VBD	O	rcmod	O	-1	B-verb.cognition
+0	43	900	4718	4720	S	899	in	in	in	IN	O	prep	O	-1	O
+0	43	901	4721	4724	S	902	the	the	the	DT	O	det	O	-1	O
+0	43	902	4725	4728	S	900	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	43	903	4729	4733	S	904	will	will	will	MD	O	aux	O	-1	O
+0	43	904	4734	4738	N	893	hire	hire	hire	VB	O	parataxis	O	-1	B-verb.social
+0	43	905	4739	4746	S	904	someone	someone	someone	NN	O	dobj	O	-1	O
+0	43	906	4747	4749	S	907	to	to	to	TO	O	aux	O	-1	O
+0	43	907	4750	4755	S	905	shoot	shoot	shoot	VB	O	infmod	O	-1	B-verb.competition
+0	43	908	4756	4759		907	him	him	he	PRP	O	dobj	O	-1	O
+0	43	909	4759	4760	S	888	.	.	.	.	O	punct	O	-1	O
+0	44	910	4761	4766	S	911	Billy	Billy	Billy	NNP	PERSON	nsubj	O	0	B-noun.person
+0	44	911	4767	4771	S	924	adds	adds	add	VBZ	O	nsubj	O	-1	B-verb.communication
+0	44	912	4772	4776	S	915	that	that	that	IN	O	complm	O	-1	O
+0	44	913	4777	4779	S	915	he	he	he	PRP	O	nsubj	O	0	O
+0	44	914	4780	4784	S	915	will	will	will	MD	O	aux	O	-1	O
+0	44	915	4785	4795	S	911	experience	experience	experience	VB	O	ccomp	O	-1	B-verb.perception
+0	44	916	4796	4799	S	918	the	the	the	DT	O	det	O	-1	O
+0	44	917	4800	4806	N	918	violet	violet	violet	NN	O	nn	O	-1	B-noun.plant
+0	44	918	4807	4810	S	915	hum	hum	hum	NN	O	dobj	O	-1	B-noun.state
+0	44	919	4811	4813	S	918	of	of	of	IN	O	prep	O	-1	O
+0	44	920	4814	4819	S	919	death	death	death	NN	O	pobj	O	-1	B-noun.phenomenon
+0	44	921	4820	4823	S	915	and	and	and	CC	O	cc	O	-1	O
+0	44	922	4824	4828	S	915	then	then	then	RB	O	advmod	O	-1	O
+0	44	923	4829	4833	S	924	will	will	will	MD	O	aux	O	-1	O
+0	44	924	4834	4838	S	-1	skip	skip	skip	VB	O	null	O	-1	B-verb.cognition
+0	44	925	4839	4843	S	924	back	back	back	RB	O	advmod	O	-1	O
+0	44	926	4844	4846	S	925	to	to	to	TO	O	dep	O	-1	O
+0	44	927	4847	4851	S	929	some	some	some	DT	O	det	O	-1	O
+0	44	928	4852	4857	S	929	other	other	other	JJ	O	amod	O	-1	O
+0	44	929	4858	4863	S	926	point	point	point	NN	O	pobj	O	-1	B-noun.cognition
+0	44	930	4864	4866	S	924	in	in	in	IN	O	prep	O	-1	O
+0	44	931	4867	4870	N	932	his	his	he	PRP$	O	poss	O	0	O
+0	44	932	4871	4875		930	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	44	933	4875	4876	S	924	.	.	.	.	O	punct	O	-1	O
+0	45	934	4877	4879	S	936	He	He	he	PRP	O	nsubj	O	0	O
+0	45	935	4880	4883	S	936	has	has	have	VBZ	O	aux	O	-1	O
+0	45	936	4884	4888	S	-1	seen	seen	see	VBN	O	null	O	-1	B-verb.perception
+0	45	937	4889	4891	S	940	it	it	it	PRP	O	nsubj	O	-1	O
+0	45	938	4892	4895	S	940	all	all	all	DT	O	det	O	-1	O
+0	45	939	4896	4900	S	940	many	many	many	JJ	O	amod	O	-1	O
+0	45	940	4901	4906		936	times	times	time	NNS	O	ccomp	O	-1	B-noun.event
+0	45	941	4906	4907	N	936	.	.	.	.	O	punct	O	-1	O

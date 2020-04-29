@@ -1,0 +1,995 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	5	S	1	Bilbo	Bilbo	Bilbo	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	6	13	S	2	Baggins	Baggins	Baggins	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	2	14	19	S	-1	lives	lives	live	VBZ	O	null	O	-1	B-verb.stative
+0	0	3	20	21	N	7	a	a	a	DT	O	det	O	-1	O
+0	0	4	22	27		7	quiet	quiet	quiet	JJ	O	amod	O	-1	O
+0	0	5	27	28	S	7	,	,	,	,	O	punct	O	-1	O
+0	0	6	29	37	S	7	peaceful	peaceful	peaceful	JJ	O	amod	O	-1	O
+0	0	7	38	42	S	2	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	0	8	43	45	S	7	in	in	in	IN	O	prep	O	-1	O
+0	0	9	46	49	S	11	his	his	he	PRP$	O	poss	O	-1	O
+0	0	10	50	61	S	11	comfortable	comfortable	comfortable	JJ	O	amod	O	-1	O
+0	0	11	62	66	S	8	hole	hole	hole	NN	O	pobj	O	-1	B-noun.object
+0	0	12	67	69	S	11	at	at	at	IN	O	prep	O	-1	O
+0	0	13	70	73	S	14	Bag	Bag	Bag	NNP	O	nn	O	-1	B-noun.group
+0	0	14	74	77		12	End	End	End	NNP	O	pobj	O	-1	I-noun.group
+0	0	15	77	78	S	2	.	.	.	.	O	punct	O	-1	O
+0	1	16	79	84	S	17	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	1	17	85	90	N	-1	lives	lives	live	VBZ	O	null	O	-1	B-verb.stative
+0	1	18	91	93	S	17	in	in	in	IN	O	prep	O	-1	O
+0	1	19	94	95	S	20	a	a	a	DT	O	det	O	-1	O
+0	1	20	96	100	S	18	hole	hole	hole	NN	O	pobj	O	-1	B-noun.object
+0	1	21	101	108	S	25	because	because	because	IN	O	mark	O	-1	O
+0	1	22	109	111	S	25	he	he	he	PRP	O	nsubj	O	1	O
+0	1	23	112	114	S	25	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	24	115	116	S	25	a	a	a	DT	O	det	O	-1	O
+0	1	25	117	123		17	hobbit	hobbit	hobbit	NN	O	advcl	O	-1	B-noun.person
+0	1	26	123	124		25	—	--	--	:	O	punct	O	-1	O
+0	1	27	124	127	S	25	one	one	one	CD	NUMBER	dep	O	-1	O
+0	1	28	128	130	S	27	of	of	of	IN	O	prep	O	-1	O
+0	1	29	131	132	S	30	a	a	a	DT	O	det	O	-1	O
+0	1	30	133	137	S	28	race	race	race	NN	O	pobj	O	-1	B-noun.event
+0	1	31	138	140	S	30	of	of	of	IN	O	prep	O	-1	O
+0	1	32	141	146		35	small	small	small	JJ	O	amod	O	-1	O
+0	1	33	146	147	S	35	,	,	,	,	O	punct	O	-1	O
+0	1	34	148	153	S	35	plump	plump	plump	JJ	O	amod	O	-1	O
+0	1	35	154	160	N	31	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	1	36	161	166	S	37	about	about	about	IN	O	quantmod	O	-1	O
+0	1	37	167	171	S	39	half	half	half	PDT	O	num	O	-1	O
+0	1	38	172	175	S	39	the	the	the	DT	O	det	O	-1	O
+0	1	39	176	180	S	35	size	size	size	NN	O	dep	O	-1	B-noun.attribute
+0	1	40	181	183	S	39	of	of	of	IN	O	prep	O	-1	O
+0	1	41	184	190		40	humans	humans	human	NNS	O	pobj	O	-1	B-noun.animal
+0	1	42	190	191	S	27	,	,	,	,	O	punct	O	-1	O
+0	1	43	192	196	S	27	with	with	with	IN	O	prep	O	-1	O
+0	1	44	197	202	S	45	furry	furry	furry	JJ	O	amod	O	-1	O
+0	1	45	203	207	S	43	toes	toes	toe	NNS	O	pobj	O	-1	B-noun.body
+0	1	46	208	211	S	45	and	and	and	CC	O	cc	O	-1	O
+0	1	47	212	213	S	49	a	a	a	DT	O	det	O	-1	O
+0	1	48	214	219	S	49	great	great	great	JJ	O	amod	O	-1	O
+0	1	49	220	224	N	45	love	love	love	NN	O	conj	O	-1	B-noun.feeling
+0	1	50	225	227	S	49	of	of	of	IN	O	prep	O	-1	O
+0	1	51	228	232	S	52	good	good	good	JJ	O	amod	O	-1	O
+0	1	52	233	237	S	50	food	food	food	NN	O	pobj	O	-1	B-noun.food
+0	1	53	238	241	S	52	and	and	and	CC	O	cc	O	-1	O
+0	1	54	242	247		52	drink	drink	drink	NN	O	conj	O	-1	B-noun.food
+0	1	55	247	248	S	17	.	.	.	.	O	punct	O	-1	O
+0	2	56	249	254	S	59	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	2	57	255	257	S	59	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	2	58	258	263	S	59	quite	quite	quite	RB	O	advmod	O	-1	O
+0	2	59	264	271	S	-1	content	content	content	JJ	O	null	O	-1	O
+0	2	60	272	274	S	59	at	at	at	IN	O	prep	O	-1	O
+0	2	61	275	278	S	62	Bag	Bag	Bag	NNP	O	nn	O	-1	B-noun.group
+0	2	62	279	282		60	End	End	End	NNP	O	pobj	O	-1	I-noun.group
+0	2	63	282	283	S	59	,	,	,	,	O	punct	O	-1	O
+0	2	64	284	288	N	59	near	near	near	IN	O	prep	O	-1	O
+0	2	65	289	292	S	68	the	the	the	DT	O	det	O	-1	O
+0	2	66	293	301	S	68	bustling	bustling	bustling	JJ	O	amod	O	-1	O
+0	2	67	302	308	S	68	hobbit	hobbit	hobbit	NN	O	nn	O	-1	B-noun.person
+0	2	68	309	316	S	64	village	village	village	NN	O	pobj	O	-1	B-noun.group
+0	2	69	317	319	S	68	of	of	of	IN	O	prep	O	-1	O
+0	2	70	320	328		69	Hobbiton	Hobbiton	Hobbiton	NNP	LOCATION	pobj	O	-1	O
+0	2	71	328	329	S	59	,	,	,	,	O	punct	O	-1	O
+0	2	72	330	333	S	59	but	but	but	CC	O	cc	O	-1	O
+0	2	73	334	337	S	74	one	one	one	CD	DURATION	num	O	-1	O
+0	2	74	338	341	S	59	day	day	day	NN	DURATION	conj	O	-1	B-noun.time
+0	2	75	342	345	S	76	his	his	he	PRP$	O	poss	O	1	O
+0	2	76	346	353	N	78	comfort	comfort	comfort	NN	O	nsubjpass	O	-1	B-noun.feeling
+0	2	77	354	356	S	78	is	is	be	VBZ	O	auxpass	O	-1	O
+0	2	78	357	366	S	74	shattered	shattered	shatter	VBN	O	rcmod	O	-1	B-verb.change
+0	2	79	367	369	S	78	by	by	by	IN	O	prep	O	-1	O
+0	2	80	370	373	S	81	the	the	the	DT	O	det	O	-1	O
+0	2	81	374	381	S	79	arrival	arrival	arrival	NN	O	pobj	O	-1	B-noun.act
+0	2	82	382	384	S	81	of	of	of	IN	O	prep	O	-1	O
+0	2	83	385	388	S	86	the	the	the	DT	O	det	O	-1	O
+0	2	84	389	392	S	86	old	old	old	JJ	O	amod	O	-1	O
+0	2	85	393	399	S	86	wizard	wizard	wizard	NN	O	nn	O	-1	B-noun.person
+0	2	86	400	407		82	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	pobj	O	3	O
+0	2	87	407	408	S	86	,	,	,	,	O	punct	O	-1	O
+0	2	88	409	412	S	89	who	who	who	WP	O	nsubj	O	-1	O
+0	2	89	413	422	N	86	persuades	persuades	persuade	VBZ	O	rcmod	O	-1	B-verb.social
+0	2	90	423	428	S	89	Bilbo	Bilbo	Bilbo	NNP	PERSON	dobj	O	1	B-noun.person
+0	2	91	429	431	S	92	to	to	to	TO	O	aux	O	-1	O
+0	2	92	432	435	S	89	set	set	set	VB	O	xcomp	O	-1	B-verb.change
+0	2	93	436	439	S	92	out	out	out	RP	O	prt	O	-1	O
+0	2	94	440	442	S	92	on	on	on	IN	O	prep	O	-1	O
+0	2	95	443	445	S	96	an	an	a	DT	O	det	O	-1	O
+0	2	96	446	455	S	94	adventure	adventure	adventure	NN	O	pobj	O	-1	B-noun.act
+0	2	97	456	460	S	96	with	with	with	IN	O	prep	O	-1	O
+0	2	98	461	462	S	99	a	a	a	DT	O	det	O	-1	O
+0	2	99	463	468	S	97	group	group	group	NN	O	pobj	O	-1	B-noun.group
+0	2	100	469	471	S	99	of	of	of	IN	O	prep	O	-1	O
+0	2	101	472	480	S	103	thirteen	thirteen	thirteen	CD	NUMBER	num	O	-1	O
+0	2	102	481	489	N	103	militant	militant	militant	JJ	O	amod	O	-1	O
+0	2	103	490	497		100	dwarves	dwarves	dwarf	NNS	O	pobj	O	-1	B-noun.person
+0	2	104	497	498	S	59	.	.	.	.	O	punct	O	-1	O
+0	3	105	499	502	S	106	The	The	the	DT	O	det	O	-1	O
+0	3	106	503	510	S	108	dwarves	dwarves	dwarf	NNS	O	nsubj	O	-1	B-noun.person
+0	3	107	511	514	S	108	are	are	be	VBP	O	aux	O	-1	O
+0	3	108	515	524	S	-1	embarking	embarking	embark	VBG	O	null	O	-1	B-verb.motion
+0	3	109	525	527	S	108	on	on	on	IN	O	prep	O	-1	O
+0	3	110	528	529	S	112	a	a	a	DT	O	det	O	-1	O
+0	3	111	530	535	S	112	great	great	great	JJ	O	amod	O	-1	O
+0	3	112	536	541	S	109	quest	quest	quest	NN	O	pobj	O	-1	B-noun.cognition
+0	3	113	542	544	S	114	to	to	to	TO	O	aux	O	-1	O
+0	3	114	545	552	S	112	reclaim	reclaim	reclaim	VB	O	infmod	O	-1	B-verb.possession
+0	3	115	553	558	N	116	their	their	they	PRP$	O	poss	O	-1	O
+0	3	116	559	567	S	114	treasure	treasure	treasure	NN	O	dobj	O	-1	B-noun.possession
+0	3	117	568	572	S	114	from	from	from	IN	O	prep	O	-1	O
+0	3	118	573	576	S	120	the	the	the	DT	O	det	O	-1	O
+0	3	119	577	586	S	120	marauding	marauding	marauding	JJ	O	amod	O	-1	O
+0	3	120	587	593	S	117	dragon	dragon	dragon	NN	O	pobj	O	-1	B-noun.person
+0	3	121	594	599		120	Smaug	Smaug	Smaug	NNP	O	dep	O	-1	O
+0	3	122	599	600	S	108	,	,	,	,	O	punct	O	-1	O
+0	3	123	601	604	S	108	and	and	and	CC	O	cc	O	-1	O
+0	3	124	605	610	S	125	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	3	125	611	613	S	108	is	is	be	VBZ	O	conj	O	-1	B-verb.stative
+0	3	126	614	616	S	127	to	to	to	TO	O	aux	O	-1	O
+0	3	127	617	620	S	125	act	act	act	VB	O	xcomp	O	-1	B-verb.stative
+0	3	128	621	623	N	127	as	as	as	IN	O	prep	O	-1	O
+0	3	129	624	629	S	131	their	their	they	PRP$	O	poss	O	-1	O
+0	3	130	630	631		131	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	131	631	638		128	burglar	burglar	burglar	NN	O	pobj	I-QUOTE	-1	O
+0	3	132	638	639		108	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	3	133	639	640	S	108	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	4	134	641	644	S	135	The	The	the	DT	O	det	O	-1	O
+0	4	135	645	652	S	138	dwarves	dwarves	dwarf	NNS	O	nsubj	O	-1	B-noun.person
+0	4	136	653	656	S	138	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	4	137	657	661	S	138	very	very	very	RB	O	advmod	O	-1	O
+0	4	138	662	671	S	-1	skeptical	skeptical	skeptical	JJ	O	null	O	-1	O
+0	4	139	672	677	S	138	about	about	about	IN	O	prep	O	-1	O
+0	4	140	678	685		142	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	poss	O	3	B-noun.person
+0	4	141	685	687	N	140	’s	's	's	POS	O	possessive	O	-1	O
+0	4	142	688	694	S	139	choice	choice	choice	NN	O	pobj	O	-1	B-noun.cognition
+0	4	143	695	698	S	142	for	for	for	IN	O	prep	O	-1	O
+0	4	144	699	700	S	145	a	a	a	DT	O	det	O	-1	O
+0	4	145	701	708		143	burglar	burglar	burglar	NN	O	pobj	O	-1	B-noun.person
+0	4	146	708	709	S	138	,	,	,	,	O	punct	O	-1	O
+0	4	147	710	713	S	138	and	and	and	CC	O	cc	O	-1	O
+0	4	148	714	719	S	150	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	4	149	720	722	S	150	is	is	be	VBZ	O	auxpass	O	-1	O
+0	4	150	723	732	S	138	terrified	terrified	terrify	VBN	O	conj	O	-1	B-verb.emotion
+0	4	151	733	735	S	152	to	to	to	TO	O	aux	O	-1	O
+0	4	152	736	741	S	150	leave	leave	leave	VB	O	xcomp	O	-1	B-verb.motion
+0	4	153	742	745	S	155	his	his	he	PRP$	O	poss	O	1	O
+0	4	154	746	757	N	155	comfortable	comfortable	comfortable	JJ	O	amod	O	-1	O
+0	4	155	758	762	S	152	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	4	156	763	765	S	157	to	to	to	TO	O	aux	O	-1	O
+0	4	157	766	770	S	152	seek	seek	seek	VB	O	xcomp	O	-1	B-verb.possession
+0	4	158	771	780		157	adventure	adventure	adventure	NN	O	dobj	O	-1	B-noun.act
+0	4	159	780	781	S	138	.	.	.	.	O	punct	O	-1	O
+0	5	160	782	785	S	162	But	But	but	CC	O	cc	O	-1	O
+0	5	161	786	793	S	162	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nsubj	O	3	B-noun.person
+0	5	162	794	801	S	-1	assures	assures	assure	VBZ	O	null	O	-1	B-verb.communication
+0	5	163	802	806	S	164	both	both	both	DT	O	preconj	O	-1	O
+0	5	164	807	812	S	162	Bilbo	Bilbo	Bilbo	NNP	PERSON	dobj	O	1	B-noun.person
+0	5	165	813	816	S	164	and	and	and	CC	O	cc	O	-1	O
+0	5	166	817	820	S	167	the	the	the	DT	O	det	O	-1	O
+0	5	167	821	828	S	164	dwarves	dwarves	dwarf	NNS	O	conj	O	-1	B-noun.person
+0	5	168	829	833	N	170	that	that	that	IN	O	complm	O	-1	O
+0	5	169	834	839	S	170	there	there	there	EX	O	expl	O	-1	O
+0	5	170	840	842	S	167	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	5	171	843	847	S	170	more	more	more	JJR	O	nsubj	O	-1	O
+0	5	172	848	850	S	171	to	to	to	TO	O	prep	O	-1	O
+0	5	173	851	854	S	175	the	the	the	DT	O	det	O	-1	O
+0	5	174	855	861	S	175	little	little	little	JJ	O	amod	O	-1	O
+0	5	175	862	868	S	172	hobbit	hobbit	hobbit	NN	O	pobj	O	-1	B-noun.person
+0	5	176	869	873	S	177	than	than	than	IN	O	mark	O	-1	O
+0	5	177	874	879	S	171	meets	meets	meet	VBZ	O	dep	O	-1	B-verb.motion
+0	5	178	880	883	S	179	the	the	the	DT	O	det	O	-1	O
+0	5	179	884	887		177	eye	eye	eye	NN	O	dobj	O	-1	B-noun.body
+0	5	180	887	888	S	162	.	.	.	.	O	punct	O	-1	O
+0	6	181	889	896	S	182	Shortly	Shortly	shortly	RB	O	dep	O	-1	O
+0	6	182	897	902	S	191	after	after	after	IN	O	prep	O	-1	O
+0	6	183	903	906	S	184	the	the	the	DT	O	det	O	-1	O
+0	6	184	907	912	S	185	group	group	group	NN	O	nsubj	O	-1	B-noun.group
+0	6	185	913	917	S	182	sets	sets	set	VBZ	O	pcomp	O	-1	B-verb.change
+0	6	186	918	921		185	out	out	out	RP	O	prt	O	-1	O
+0	6	187	921	922	S	191	,	,	,	,	O	punct	O	-1	O
+0	6	188	923	928	S	190	three	three	three	CD	NUMBER	num	O	-1	O
+0	6	189	929	935	S	190	hungry	hungry	hungry	JJ	O	amod	O	-1	O
+0	6	190	936	942	N	191	trolls	trolls	troll	NNS	O	nsubj	O	-1	B-noun.person
+0	6	191	943	950	S	-1	capture	capture	capture	VBP	O	null	O	-1	B-verb.creation
+0	6	192	951	954	S	191	all	all	all	DT	O	dobj	O	-1	O
+0	6	193	955	957	S	192	of	of	of	IN	O	prep	O	-1	O
+0	6	194	958	962	S	193	them	them	they	PRP	O	pobj	O	-1	O
+0	6	195	963	969	S	192	except	except	except	IN	O	prep	O	-1	O
+0	6	196	970	973	S	195	for	for	for	IN	O	dep	O	-1	O
+0	6	197	974	981		196	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	pobj	O	3	O
+0	6	198	981	982	S	191	.	.	.	.	O	punct	O	-1	O
+0	7	199	983	990	S	200	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nn	O	3	O
+0	7	200	991	997	S	-1	tricks	tricks	trick	NNS	O	null	O	-1	B-noun.act
+0	7	201	998	1001	S	202	the	the	the	DT	O	det	O	-1	O
+0	7	202	1002	1008	N	200	trolls	trolls	troll	NNS	O	dobj	O	-1	B-noun.person
+0	7	203	1009	1013	S	200	into	into	into	IN	O	prep	O	-1	O
+0	7	204	1014	1023	S	203	remaining	remaining	remain	VBG	O	pcomp	O	-1	B-verb.change
+0	7	205	1024	1031	S	204	outside	outside	outside	JJ	O	advmod	O	-1	O
+0	7	206	1032	1036	S	209	when	when	when	WRB	O	advmod	O	-1	O
+0	7	207	1037	1040	S	208	the	the	the	DT	O	det	O	-1	O
+0	7	208	1041	1044	S	209	sun	sun	sun	NN	O	nsubj	O	-1	B-noun.object
+0	7	209	1045	1050	S	204	comes	comes	come	VBZ	O	advcl	O	-1	B-verb.stative
+0	7	210	1051	1053		209	up	up	up	RP	O	prt	O	-1	O
+0	7	211	1053	1054	S	200	,	,	,	,	O	punct	O	-1	O
+0	7	212	1055	1058	S	200	and	and	and	CC	O	cc	O	-1	O
+0	7	213	1059	1062	S	214	the	the	the	DT	O	det	O	-1	O
+0	7	214	1063	1071	S	215	sunlight	sunlight	sunlight	NN	O	nsubj	O	-1	B-noun.phenomenon
+0	7	215	1072	1077	N	200	turns	turns	turn	VBZ	O	conj	O	-1	B-verb.motion
+0	7	216	1078	1081	S	218	the	the	the	DT	O	det	O	-1	O
+0	7	217	1082	1091	S	218	nocturnal	nocturnal	nocturnal	JJ	O	amod	O	-1	O
+0	7	218	1092	1098	S	215	trolls	trolls	troll	NNS	O	dobj	O	-1	B-noun.person
+0	7	219	1099	1101	S	215	to	to	to	TO	O	prep	O	-1	O
+0	7	220	1102	1107		219	stone	stone	stone	NN	O	pobj	O	-1	B-noun.object
+0	7	221	1107	1108	S	200	.	.	.	.	O	punct	O	-1	O
+0	8	222	1109	1112	S	223	The	The	the	DT	O	det	O	-1	O
+0	8	223	1113	1118	S	224	group	group	group	NN	O	nsubj	O	-1	B-noun.group
+0	8	224	1119	1124	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	8	225	1125	1126	S	227	a	a	a	DT	O	det	O	-1	O
+0	8	226	1127	1132	S	227	great	great	great	JJ	O	amod	O	-1	O
+0	8	227	1133	1138	S	224	cache	cache	cache	NN	O	dobj	O	-1	B-noun.artifact
+0	8	228	1139	1141	N	227	of	of	of	IN	O	prep	O	-1	O
+0	8	229	1142	1149	S	228	weapons	weapons	weapon	NNS	O	pobj	O	-1	B-noun.artifact
+0	8	230	1150	1152	S	227	in	in	in	IN	O	prep	O	-1	O
+0	8	231	1153	1156	S	232	the	the	the	DT	O	det	O	-1	O
+0	8	232	1157	1163		234	trolls	trolls	troll	NNS	O	poss	O	-1	B-noun.person
+0	8	233	1163	1164	S	232	’	'	'	POS	O	possessive	O	-1	O
+0	8	234	1165	1169		230	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	8	235	1169	1170	S	224	.	.	.	.	O	punct	O	-1	O
+0	9	236	1171	1178	S	240	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nsubj	O	3	B-noun.person
+0	9	237	1179	1182	S	236	and	and	and	CC	O	cc	O	-1	O
+0	9	238	1183	1186	S	239	the	the	the	DT	O	det	O	-1	O
+0	9	239	1187	1192	S	236	dwarf	dwarf	dwarf	NN	O	conj	O	-1	B-noun.person
+0	9	240	1193	1197	S	-1	lord	lord	lord	VBD	PERSON	null	O	-1	B-verb.social
+0	9	241	1198	1204	S	242	Thorin	Thorin	Thorin	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	9	242	1205	1209	N	240	take	take	take	VB	O	xcomp	O	-1	B-verb.motion
+0	9	243	1210	1215	S	244	magic	magic	magic	JJ	O	amod	O	-1	O
+0	9	244	1216	1222		242	swords	swords	sword	NNS	O	dobj	O	-1	B-noun.artifact
+0	9	245	1222	1223	S	240	,	,	,	,	O	punct	O	-1	O
+0	9	246	1224	1227	S	240	and	and	and	CC	O	cc	O	-1	O
+0	9	247	1228	1233	S	248	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	9	248	1234	1239	S	240	takes	takes	take	VBZ	O	conj	O	-1	B-verb.social
+0	9	249	1240	1241	S	251	a	a	a	DT	O	det	O	-1	O
+0	9	250	1242	1247	S	251	small	small	small	JJ	O	amod	O	-1	O
+0	9	251	1248	1253	S	248	sword	sword	sword	NN	O	dobj	O	-1	B-noun.artifact
+0	9	252	1254	1256	S	251	of	of	of	IN	O	prep	O	-1	O
+0	9	253	1257	1260	S	254	his	his	he	PRP$	O	poss	O	1	O
+0	9	254	1261	1264		252	own	own	own	JJ	O	pobj	O	-1	O
+0	9	255	1264	1265	S	240	.	.	.	.	O	punct	O	-1	O
+0	10	256	1266	1269	S	257	The	The	the	DT	O	det	O	-1	O
+0	10	257	1270	1275	S	258	group	group	group	NN	O	nsubj	O	-1	B-noun.group
+0	10	258	1276	1281	S	-1	rests	rests	rest	VBZ	O	null	O	-1	B-verb.stative
+0	10	259	1282	1284	S	258	at	at	at	IN	O	prep	O	-1	O
+0	10	260	1285	1288	S	262	the	the	the	DT	O	det	O	-1	O
+0	10	261	1289	1295	S	262	elfish	elfish	elfish	JJ	O	amod	O	-1	O
+0	10	262	1296	1306	S	259	stronghold	stronghold	stronghold	NN	O	pobj	O	-1	B-noun.artifact
+0	10	263	1307	1309	S	262	of	of	of	IN	O	prep	O	-1	O
+0	10	264	1310	1319		263	Rivendell	Rivendell	Rivendell	NNP	LOCATION	pobj	O	-1	O
+0	10	265	1319	1320	N	264	,	,	,	,	O	punct	O	-1	O
+0	10	266	1321	1326	S	268	where	where	where	WRB	O	advmod	O	-1	O
+0	10	267	1327	1331	S	268	they	they	they	PRP	O	nsubj	O	-1	O
+0	10	268	1332	1339	S	264	receive	receive	receive	VBP	O	rcmod	O	-1	B-verb.possession
+0	10	269	1340	1346	S	268	advice	advice	advice	NN	O	dobj	O	-1	B-noun.communication
+0	10	270	1347	1351	S	268	from	from	from	IN	O	prep	O	-1	O
+0	10	271	1352	1355	S	275	the	the	the	DT	O	det	O	-1	O
+0	10	272	1356	1361	S	275	great	great	great	JJ	O	amod	O	-1	O
+0	10	273	1362	1365	S	275	elf	elf	elf	NN	O	nn	O	-1	B-noun.person
+0	10	274	1366	1370	S	275	lord	lord	lord	NN	PERSON	nn	O	-1	B-noun.person
+0	10	275	1371	1377		270	Elrond	Elrond	elrond	NN	PERSON	pobj	O	-1	O
+0	10	276	1377	1378	S	258	,	,	,	,	O	punct	O	-1	O
+0	10	277	1379	1383	S	258	then	then	then	RB	O	advmod	O	-1	O
+0	10	278	1384	1388	N	258	sets	sets	set	VBZ	O	dep	O	-1	B-verb.change
+0	10	279	1389	1392	S	278	out	out	out	RP	O	prt	O	-1	O
+0	10	280	1393	1395	S	281	to	to	to	TO	O	aux	O	-1	O
+0	10	281	1396	1401	S	278	cross	cross	cross	VB	O	xcomp	O	-1	B-verb.motion
+0	10	282	1402	1405	S	284	the	the	the	DT	O	det	O	-1	O
+0	10	283	1406	1411	S	284	Misty	Misty	Misty	NNP	LOCATION	nn	O	-1	B-noun.person
+0	10	284	1412	1421		281	Mountains	Mountains	Mountains	NNPS	LOCATION	dobj	O	-1	I-noun.person
+0	10	285	1421	1422	S	258	.	.	.	.	O	punct	O	-1	O
+0	11	286	1423	1427	S	288	When	When	when	WRB	O	advmod	O	-1	O
+0	11	287	1428	1432	S	288	they	they	they	PRP	O	nsubj	O	-1	O
+0	11	288	1433	1437	S	-1	find	find	find	VBP	O	null	O	-1	B-verb.possession
+0	11	289	1438	1445	S	288	shelter	shelter	shelter	NN	O	dobj	O	-1	B-noun.artifact
+0	11	290	1446	1448	S	288	in	in	in	IN	O	prep	O	-1	O
+0	11	291	1449	1450	S	292	a	a	a	DT	O	det	O	-1	O
+0	11	292	1451	1455	N	290	cave	cave	cave	NN	O	pobj	O	-1	B-noun.object
+0	11	293	1456	1462	S	288	during	during	during	IN	O	prep	O	-1	O
+0	11	294	1463	1464	S	295	a	a	a	DT	O	det	O	-1	O
+0	11	295	1465	1474		293	snowstorm	snowstorm	snowstorm	NN	O	pobj	O	-1	B-noun.phenomenon
+0	11	296	1474	1475	S	288	,	,	,	,	O	dep	O	-1	O
+0	11	297	1476	1477	S	298	a	a	a	DT	O	det	O	-1	O
+0	11	298	1478	1483	S	296	group	group	group	NN	O	dobj	O	-1	B-noun.group
+0	11	299	1484	1486	S	298	of	of	of	IN	O	prep	O	-1	O
+0	11	300	1487	1494	S	299	goblins	goblins	goblin	NNS	O	pobj	O	-1	B-noun.person
+0	11	301	1495	1498	S	302	who	who	who	WP	O	nsubj	O	-1	O
+0	11	302	1499	1503	S	300	live	live	live	VBP	O	rcmod	O	-1	B-verb.stative
+0	11	303	1504	1506	S	302	in	in	in	IN	O	prep	O	-1	O
+0	11	304	1507	1510	S	305	the	the	the	DT	O	det	O	-1	O
+0	11	305	1511	1518	S	303	caverns	caverns	cavern	NNS	O	pobj	O	-1	B-noun.object
+0	11	306	1519	1526	N	309	beneath	beneath	beneath	IN	O	mark	O	-1	O
+0	11	307	1527	1530	S	308	the	the	the	DT	O	det	O	-1	O
+0	11	308	1531	1539	S	309	mountain	mountain	mountain	NN	O	nsubj	O	-1	B-noun.object
+0	11	309	1540	1544	S	302	take	take	take	VB	O	advcl	O	-1	B-verb.motion
+0	11	310	1545	1549	S	309	them	them	they	PRP	O	iobj	O	-1	O
+0	11	311	1550	1558		309	prisoner	prisoner	prisoner	NN	O	dobj	O	-1	B-noun.person
+0	11	312	1558	1559	S	288	.	.	.	.	O	punct	O	-1	O
+0	12	313	1560	1567	S	314	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nsubj	O	3	B-noun.person
+0	12	314	1568	1573	S	-1	leads	leads	lead	VBZ	O	null	O	-1	B-verb.motion
+0	12	315	1574	1577	S	316	the	the	the	DT	O	det	O	-1	O
+0	12	316	1578	1585	S	314	dwarves	dwarves	dwarf	NNS	O	dobj	O	-1	B-noun.person
+0	12	317	1586	1588	S	314	to	to	to	TO	O	prep	O	-1	O
+0	12	318	1589	1590	N	319	a	a	a	DT	O	det	O	-1	O
+0	12	319	1591	1598	S	317	passage	passage	passage	NN	O	pobj	O	-1	B-noun.act
+0	12	320	1599	1602	S	319	out	out	out	IN	O	prep	O	-1	O
+0	12	321	1603	1605	S	320	of	of	of	IN	O	dep	O	-1	O
+0	12	322	1606	1609	S	323	the	the	the	DT	O	det	O	-1	O
+0	12	323	1610	1618		321	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	12	324	1618	1619	S	314	,	,	,	,	O	punct	O	-1	O
+0	12	325	1620	1623	S	314	but	but	but	CC	O	cc	O	-1	O
+0	12	326	1624	1628	S	328	they	they	they	PRP	O	nsubj	O	-1	O
+0	12	327	1629	1641	S	328	accidentally	accidentally	accidentally	RB	O	advmod	O	-1	O
+0	12	328	1642	1647	S	314	leave	leave	leave	VBP	O	conj	O	-1	B-verb.motion
+0	12	329	1648	1654	N	328	behind	behind	behind	RB	O	advmod	O	-1	O
+0	12	330	1655	1660		328	Bilbo	Bilbo	Bilbo	NNP	PERSON	dobj	O	1	O
+0	12	331	1660	1661	S	314	.	.	.	.	O	punct	O	-1	O
+0	13	332	1662	1671	S	338	Wandering	Wandering	wander	VBG	O	dep	O	-1	B-verb.motion
+0	13	333	1672	1679	S	332	through	through	through	IN	O	prep	O	-1	O
+0	13	334	1680	1683	S	335	the	the	the	DT	O	det	O	-1	O
+0	13	335	1684	1691		333	tunnels	tunnels	tunnel	NNS	O	pobj	O	-1	B-noun.artifact
+0	13	336	1691	1692	S	338	,	,	,	,	O	punct	O	-1	O
+0	13	337	1693	1698	S	338	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	O
+0	13	338	1699	1704	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	13	339	1705	1706	S	342	a	a	a	DT	O	det	O	-1	O
+0	13	340	1707	1714	N	342	strange	strange	strange	JJ	O	amod	O	-1	O
+0	13	341	1715	1721	S	342	golden	golden	golden	JJ	O	amod	O	-1	O
+0	13	342	1722	1726	S	338	ring	ring	ring	NN	O	dobj	O	-1	B-noun.attribute
+0	13	343	1727	1732	S	342	lying	lying	lie	VBG	O	partmod	O	-1	B-verb.stative
+0	13	344	1733	1735	S	343	on	on	on	IN	O	prep	O	-1	O
+0	13	345	1736	1739	S	346	the	the	the	DT	O	det	O	-1	O
+0	13	346	1740	1746		344	ground	ground	ground	NN	O	pobj	O	-1	B-noun.object
+0	13	347	1746	1747	S	338	.	.	.	.	O	punct	O	-1	O
+0	14	348	1748	1750	S	349	He	He	he	PRP	O	nsubj	O	1	O
+0	14	349	1751	1756	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.motion
+0	14	350	1757	1760	S	351	the	the	the	DT	O	det	O	-1	O
+0	14	351	1761	1765	S	349	ring	ring	ring	NN	O	dobj	O	-1	B-noun.attribute
+0	14	352	1766	1769	S	349	and	and	and	CC	O	cc	O	-1	O
+0	14	353	1770	1774	S	349	puts	puts	put	VBZ	O	conj	O	-1	B-verb.contact
+0	14	354	1775	1777	S	353	it	it	it	PRP	O	dobj	O	-1	O
+0	14	355	1778	1780	N	353	in	in	in	IN	O	prep	O	-1	O
+0	14	356	1781	1784	S	357	his	his	he	PRP$	O	poss	O	1	O
+0	14	357	1785	1791		355	pocket	pocket	pocket	NN	O	pobj	O	-1	B-noun.artifact
+0	14	358	1791	1792	S	349	.	.	.	.	O	punct	O	-1	O
+0	15	359	1793	1797	S	361	Soon	Soon	soon	RB	O	advmod	O	-1	O
+0	15	360	1798	1800	S	361	he	he	he	PRP	O	nsubj	O	1	O
+0	15	361	1801	1811	S	-1	encounters	encounters	encounter	VBZ	O	null	O	-1	B-verb.motion
+0	15	362	1812	1818		361	Gollum	Gollum	Gollum	NNP	LOCATION	dobj	O	-1	O
+0	15	363	1818	1819	S	362	,	,	,	,	O	punct	O	-1	O
+0	15	364	1820	1821	S	368	a	a	a	DT	O	det	O	-1	O
+0	15	365	1822	1829		368	hissing	hissing	hissing	JJ	O	amod	O	-1	O
+0	15	366	1829	1830	S	365	,	,	,	,	O	punct	O	-1	O
+0	15	367	1831	1838	S	368	whining	whining	whine	VBG	O	amod	O	-1	B-verb.motion
+0	15	368	1839	1847	N	362	creature	creature	creature	NN	O	appos	O	-1	B-noun.Tops
+0	15	369	1848	1851	S	370	who	who	who	WP	O	nsubj	O	-1	O
+0	15	370	1852	1857	S	368	lives	lives	live	VBZ	O	rcmod	O	-1	B-verb.stative
+0	15	371	1858	1860	S	370	in	in	in	IN	O	prep	O	-1	O
+0	15	372	1861	1862	S	373	a	a	a	DT	O	det	O	-1	O
+0	15	373	1863	1867	S	371	pool	pool	pool	NN	O	pobj	O	-1	B-noun.artifact
+0	15	374	1868	1870	S	373	in	in	in	IN	O	prep	O	-1	O
+0	15	375	1871	1874	S	376	the	the	the	DT	O	det	O	-1	O
+0	15	376	1875	1882	S	374	caverns	caverns	cavern	NNS	O	pobj	O	-1	B-noun.object
+0	15	377	1883	1886	S	370	and	and	and	CC	O	cc	O	-1	O
+0	15	378	1887	1892	S	370	hunts	hunts	hunt	VBZ	O	conj	O	-1	B-verb.competition
+0	15	379	1893	1897	S	378	fish	fish	fish	NN	O	dobj	O	-1	B-noun.animal
+0	15	380	1898	1901	S	379	and	and	and	CC	O	cc	O	-1	O
+0	15	381	1902	1909		379	goblins	goblins	goblin	NNS	O	conj	O	-1	B-noun.person
+0	15	382	1909	1910	S	361	.	.	.	.	O	punct	O	-1	O
+0	16	383	1911	1917	N	384	Gollum	Gollum	Gollum	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	16	384	1918	1923	S	-1	wants	wants	want	VBZ	O	null	O	-1	B-verb.emotion
+0	16	385	1924	1926	S	386	to	to	to	TO	O	aux	O	-1	O
+0	16	386	1927	1930	S	384	eat	eat	eat	VB	O	xcomp	O	-1	B-verb.consumption
+0	16	387	1931	1936		386	Bilbo	Bilbo	Bilbo	NNP	PERSON	dobj	O	1	O
+0	16	388	1936	1937	S	384	,	,	,	,	O	punct	O	-1	O
+0	16	389	1938	1941	S	384	and	and	and	CC	O	cc	O	-1	O
+0	16	390	1942	1945	S	391	the	the	the	DT	O	dep	O	-1	O
+0	16	391	1946	1949	S	392	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	16	392	1950	1954	S	384	have	have	have	VBP	O	conj	O	-1	B-verb.possession
+0	16	393	1955	1956	S	394	a	a	a	DT	O	det	O	-1	O
+0	16	394	1957	1964	S	392	contest	contest	contest	NN	O	dobj	O	-1	B-noun.event
+0	16	395	1965	1967	S	394	of	of	of	IN	O	prep	O	-1	O
+0	16	396	1968	1975	S	395	riddles	riddles	riddle	NNS	O	pobj	O	-1	B-noun.communication
+0	16	397	1976	1978	S	398	to	to	to	TO	O	aux	O	-1	O
+0	16	398	1979	1988	N	392	determine	determine	determine	VB	O	xcomp	O	-1	B-verb.communication
+0	16	399	1989	1994		401	Bilbo	Bilbo	Bilbo	NNP	PERSON	poss	O	1	B-noun.person
+0	16	400	1994	1996	S	399	’s	's	's	POS	O	possessive	O	-1	O
+0	16	401	1997	2001		398	fate	fate	fate	NN	O	dobj	O	-1	B-noun.event
+0	16	402	2001	2002	S	384	.	.	.	.	O	punct	O	-1	O
+0	17	403	2003	2008	S	404	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	17	404	2009	2013	S	-1	wins	wins	win	VBZ	O	null	O	-1	B-verb.competition
+0	17	405	2014	2016	S	404	by	by	by	IN	O	prep	O	-1	O
+0	17	406	2017	2023	S	405	asking	asking	ask	VBG	O	pcomp	O	-1	B-verb.communication
+0	17	407	2024	2027	S	409	the	the	the	DT	O	det	O	-1	O
+0	17	408	2028	2035	S	409	dubious	dubious	dubious	JJ	O	amod	O	-1	O
+0	17	409	2036	2042		406	riddle	riddle	riddle	NN	O	dobj	O	-1	B-noun.communication
+0	17	410	2042	2043	S	406	,	,	,	,	O	punct	O	-1	O
+0	17	411	2044	2045		406	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	17	412	2045	2049	S	415	What	What	what	WP	O	nsubj	I-QUOTE	-1	O
+0	17	413	2050	2054	N	415	have	have	have	VBP	O	aux	I-QUOTE	-1	O
+0	17	414	2055	2056	S	415	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+0	17	415	2057	2060	S	406	got	got	get	VBD	O	ccomp	I-QUOTE	-1	B-verb.motion
+0	17	416	2061	2063	S	415	in	in	in	IN	O	prep	I-QUOTE	-1	O
+0	17	417	2064	2066	S	418	my	my	my	PRP$	O	poss	I-QUOTE	-1	O
+0	17	418	2067	2073		416	pocket	pocket	pocket	NN	O	pobj	I-QUOTE	-1	B-noun.artifact
+0	17	419	2073	2074		404	?	?	?	.	O	punct	I-QUOTE	-1	O
+0	17	420	2074	2075	S	404	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	18	421	2076	2082	S	422	Gollum	Gollum	Gollum	NNP	LOCATION	nsubj	O	-1	O
+0	18	422	2083	2088	S	-1	wants	wants	want	VBZ	O	null	O	-1	B-verb.emotion
+0	18	423	2089	2091	S	424	to	to	to	TO	O	aux	O	-1	O
+0	18	424	2092	2095	S	422	eat	eat	eat	VB	O	xcomp	O	-1	B-verb.consumption
+0	18	425	2096	2101	S	424	Bilbo	Bilbo	Bilbo	NNP	PERSON	dobj	O	1	B-noun.person
+0	18	426	2102	2108		424	anyway	anyway	anyway	RB	O	advmod	O	-1	O
+0	18	427	2108	2109	S	422	,	,	,	,	O	punct	O	-1	O
+0	18	428	2110	2113	S	422	and	and	and	CC	O	cc	O	-1	O
+0	18	429	2114	2116	S	430	he	he	he	PRP	O	nsubj	O	1	O
+0	18	430	2117	2127	N	422	disappears	disappears	disappear	VBZ	O	conj	O	-1	B-verb.change
+0	18	431	2128	2130	S	432	to	to	to	TO	O	aux	O	-1	O
+0	18	432	2131	2136	S	430	fetch	fetch	fetch	VB	O	xcomp	O	-1	B-verb.contact
+0	18	433	2137	2140	S	435	his	his	he	PRP$	O	poss	O	1	O
+0	18	434	2141	2146	S	435	magic	magic	magic	JJ	O	amod	O	-1	O
+0	18	435	2147	2151		432	ring	ring	ring	NN	O	dobj	O	-1	B-noun.attribute
+0	18	436	2151	2152	S	435	,	,	,	,	O	punct	O	-1	O
+0	18	437	2153	2158	S	438	which	which	which	WDT	O	nsubj	O	-1	O
+0	18	438	2159	2164	S	435	turns	turns	turn	VBZ	O	rcmod	O	-1	B-verb.motion
+0	18	439	2165	2168	S	440	its	its	its	PRP$	O	poss	O	-1	O
+0	18	440	2169	2175	S	441	wearer	wearer	wearer	NN	O	nsubj	O	-1	B-noun.person
+0	18	441	2176	2185		438	invisible	invisible	invisible	JJ	O	xcomp	O	-1	O
+0	18	442	2185	2186	S	422	.	.	.	.	O	punct	O	-1	O
+0	19	443	2187	2190	S	444	The	The	the	DT	O	det	O	-1	O
+0	19	444	2191	2195		455	ring	ring	ring	NN	O	nsubjpass	O	-1	B-noun.attribute
+0	19	445	2195	2196	N	455	,	,	,	,	O	punct	O	-1	O
+0	19	446	2197	2204		455	however	however	however	RB	O	advmod	O	-1	O
+0	19	447	2204	2205	S	455	,	,	,	,	O	punct	O	-1	O
+0	19	448	2206	2208	S	455	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	19	449	2209	2212	S	452	the	the	the	DT	O	det	O	-1	O
+0	19	450	2213	2217	S	452	same	same	same	JJ	O	amod	O	-1	O
+0	19	451	2218	2221	S	452	one	one	one	CD	NUMBER	num	O	-1	O
+0	19	452	2222	2227	S	455	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	19	453	2228	2231	S	455	has	has	have	VBZ	O	aux	O	-1	O
+0	19	454	2232	2239	S	455	already	already	already	RB	O	advmod	O	-1	O
+0	19	455	2240	2245		-1	found	found	find	VBN	O	null	O	-1	B-verb.possession
+0	19	456	2245	2246	S	455	,	,	,	,	O	punct	O	-1	O
+0	19	457	2247	2250	S	455	and	and	and	CC	O	cc	O	-1	O
+0	19	458	2251	2256	S	459	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	19	459	2257	2261	N	455	uses	uses	use	VBZ	O	conj	O	-1	B-verb.consumption
+0	19	460	2262	2264	S	459	it	it	it	PRP	O	dobj	O	-1	O
+0	19	461	2265	2267	S	462	to	to	to	TO	O	aux	O	-1	O
+0	19	462	2268	2274	S	459	escape	escape	escape	VB	O	xcomp	O	-1	B-verb.motion
+0	19	463	2275	2279	S	462	from	from	from	IN	O	prep	O	-1	O
+0	19	464	2280	2286	S	463	Gollum	Gollum	Gollum	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	19	465	2287	2290	S	462	and	and	and	CC	O	cc	O	-1	O
+0	19	466	2291	2295	S	462	flee	flee	flee	VB	O	conj	O	-1	B-verb.motion
+0	19	467	2296	2299	S	468	the	the	the	DT	O	det	O	-1	O
+0	19	468	2300	2307		466	goblins	goblins	goblin	NNS	O	dobj	O	-1	B-noun.person
+0	19	469	2307	2308	S	455	.	.	.	.	O	punct	O	-1	O
+0	20	470	2309	2311	S	471	He	He	he	PRP	O	nsubj	O	1	O
+0	20	471	2312	2317	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	20	472	2318	2319	S	473	a	a	a	DT	O	det	O	-1	O
+0	20	473	2320	2326	N	471	tunnel	tunnel	tunnel	NN	O	dobj	O	-1	B-noun.artifact
+0	20	474	2327	2334	S	473	leading	leading	lead	VBG	O	partmod	O	-1	B-verb.stative
+0	20	475	2335	2337	S	474	up	up	up	RP	O	prt	O	-1	O
+0	20	476	2338	2341	S	474	out	out	out	IN	O	prep	O	-1	O
+0	20	477	2342	2344	S	476	of	of	of	IN	O	dep	O	-1	O
+0	20	478	2345	2348	S	479	the	the	the	DT	O	det	O	-1	O
+0	20	479	2349	2357	S	477	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	20	480	2358	2361	S	471	and	and	and	CC	O	cc	O	-1	O
+0	20	481	2362	2371	S	471	discovers	discovers	discover	VBZ	O	conj	O	-1	B-verb.perception
+0	20	482	2372	2376	S	489	that	that	that	IN	O	complm	O	-1	O
+0	20	483	2377	2380	S	484	the	the	the	DT	O	det	O	-1	O
+0	20	484	2381	2388	S	489	dwarves	dwarves	dwarf	NNS	O	nsubj	O	-1	B-noun.person
+0	20	485	2389	2392	N	484	and	and	and	CC	O	cc	O	-1	O
+0	20	486	2393	2400	S	484	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	conj	O	3	B-noun.person
+0	20	487	2401	2405	S	489	have	have	have	VBP	O	aux	O	-1	O
+0	20	488	2406	2413	S	489	already	already	already	RB	O	advmod	O	-1	O
+0	20	489	2414	2421		481	escaped	escaped	escape	VBN	O	ccomp	O	-1	B-verb.motion
+0	20	490	2421	2422	S	471	.	.	.	.	O	punct	O	-1	O
+0	21	491	2423	2427	S	492	Evil	Evil	Evil	NNP	O	nn	O	-1	O
+0	21	492	2428	2434	S	505	wolves	wolves	wolf	NNS	O	nsubjpass	O	-1	B-noun.animal
+0	21	493	2435	2440	S	492	known	known	know	VBN	O	partmod	O	-1	B-verb.cognition
+0	21	494	2441	2443	S	496	as	as	as	IN	O	mark	O	-1	O
+0	21	495	2444	2449	S	496	Wargs	Wargs	warg	NNS	MISC	nsubj	O	-1	B-noun.person
+0	21	496	2450	2456	N	493	pursue	pursue	pursue	VBP	O	advcl	O	-1	B-verb.social
+0	21	497	2457	2461		496	them	them	they	PRP	O	dobj	O	-1	O
+0	21	498	2461	2462	S	492	,	,	,	,	O	punct	O	-1	O
+0	21	499	2463	2466	S	492	but	but	but	CC	O	cc	O	-1	O
+0	21	500	2467	2472	S	492	Bilbo	Bilbo	Bilbo	NNP	PERSON	conj	O	1	B-noun.person
+0	21	501	2473	2476	S	500	and	and	and	CC	O	cc	O	-1	O
+0	21	502	2477	2480	S	503	his	his	he	PRP$	O	poss	O	1	O
+0	21	503	2481	2489	S	500	comrades	comrades	comrade	NNS	O	conj	O	-1	B-noun.person
+0	21	504	2490	2493	S	505	are	are	be	VBP	O	auxpass	O	-1	O
+0	21	505	2494	2500	S	-1	helped	helped	help	VBN	O	null	O	-1	B-verb.social
+0	21	506	2501	2503	S	505	to	to	to	TO	O	prep	O	-1	O
+0	21	507	2504	2510	S	506	safety	safety	safety	NN	O	pobj	O	-1	B-noun.state
+0	21	508	2511	2513	S	505	by	by	by	IN	O	prep	O	-1	O
+0	21	509	2514	2515	S	510	a	a	a	DT	O	det	O	-1	O
+0	21	510	2516	2521	N	508	group	group	group	NN	O	pobj	O	-1	B-noun.group
+0	21	511	2522	2524	S	510	of	of	of	IN	O	prep	O	-1	O
+0	21	512	2525	2530	S	513	great	great	great	JJ	O	amod	O	-1	O
+0	21	513	2531	2537	S	511	eagles	eagles	eagle	NNS	O	pobj	O	-1	B-noun.animal
+0	21	514	2538	2541	S	508	and	and	and	CC	O	cc	O	-1	O
+0	21	515	2542	2544	S	508	by	by	by	IN	O	conj	O	-1	O
+0	21	516	2545	2550		515	Beorn	Beorn	Beorn	NNP	PERSON	pobj	O	-1	O
+0	21	517	2550	2551	S	516	,	,	,	,	O	punct	O	-1	O
+0	21	518	2552	2553	S	519	a	a	a	DT	O	det	O	-1	O
+0	21	519	2554	2562	S	516	creature	creature	creature	NN	O	appos	O	-1	B-noun.Tops
+0	21	520	2563	2566	S	522	who	who	who	WP	O	nsubj	O	-1	O
+0	21	521	2567	2570	S	522	can	can	can	MD	O	aux	O	-1	O
+0	21	522	2571	2577	S	519	change	change	change	VB	O	rcmod	O	-1	B-verb.change
+0	21	523	2578	2583	S	522	shape	shape	shape	NN	O	dobj	O	-1	I-verb.change
+0	21	524	2584	2588	N	522	from	from	from	IN	O	prep	O	-1	O
+0	21	525	2589	2590	S	526	a	a	a	DT	O	det	O	-1	O
+0	21	526	2591	2594	S	524	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	21	527	2595	2599	S	526	into	into	into	IN	O	prep	O	-1	O
+0	21	528	2600	2601	S	529	a	a	a	DT	O	det	O	-1	O
+0	21	529	2602	2606		527	bear	bear	bear	NN	O	pobj	O	-1	B-noun.animal
+0	21	530	2606	2607	S	505	.	.	.	.	O	punct	O	-1	O
+0	22	531	2608	2611	S	532	The	The	the	DT	O	det	O	-1	O
+0	22	532	2612	2619	S	533	company	company	company	NN	O	nsubj	O	-1	B-noun.group
+0	22	533	2620	2626	S	547	enters	enters	enter	VBZ	O	advcl	O	-1	B-verb.motion
+0	22	534	2627	2630	S	536	the	the	the	DT	O	det	O	-1	O
+0	22	535	2631	2635	S	536	dark	dark	dark	JJ	O	amod	O	-1	O
+0	22	536	2636	2642	S	533	forest	forest	forest	NN	O	dobj	O	-1	B-noun.group
+0	22	537	2643	2645	S	536	of	of	of	IN	O	prep	O	-1	O
+0	22	538	2646	2654		537	Mirkwood	Mirkwood	Mirkwood	NNP	LOCATION	pobj	O	-1	O
+0	22	539	2654	2655	S	533	,	,	,	,	O	punct	O	-1	O
+0	22	540	2656	2659		533	and	and	and	CC	O	cc	O	-1	O
+0	22	541	2659	2660	N	533	,	,	,	,	O	punct	O	-1	O
+0	22	542	2661	2667	S	533	making	making	make	VBG	O	xcomp	O	-1	B-verb.social
+0	22	543	2668	2675	S	544	matters	matters	matter	NNS	O	nsubj	O	-1	B-noun.cognition
+0	22	544	2676	2681		542	worse	worse	worse	RBR	O	xcomp	O	-1	O
+0	22	545	2681	2682	S	547	,	,	,	,	O	punct	O	-1	O
+0	22	546	2683	2690	S	547	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nsubj	O	3	O
+0	22	547	2691	2699	S	-1	abandons	abandons	abandon	VBZ	O	null	O	-1	B-verb.possession
+0	22	548	2700	2704	S	547	them	them	they	PRP	O	dobj	O	-1	O
+0	22	549	2705	2707	S	550	to	to	to	TO	O	aux	O	-1	O
+0	22	550	2708	2711	S	547	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	22	551	2712	2714	S	550	to	to	to	TO	O	prep	O	-1	O
+0	22	552	2715	2719	S	555	some	some	some	DT	O	det	O	-1	O
+0	22	553	2720	2725	N	555	other	other	other	JJ	O	amod	O	-1	O
+0	22	554	2726	2732	S	555	urgent	urgent	urgent	JJ	O	amod	O	-1	O
+0	22	555	2733	2741		551	business	business	business	NN	O	pobj	O	-1	B-noun.group
+0	22	556	2741	2742	S	547	.	.	.	.	O	punct	O	-1	O
+0	23	557	2743	2745	S	564	In	In	in	IN	O	prep	O	-1	O
+0	23	558	2746	2749	S	559	the	the	the	DT	O	det	O	-1	O
+0	23	559	2750	2756		557	forest	forest	forest	NN	O	pobj	O	-1	B-noun.group
+0	23	560	2756	2757	S	564	,	,	,	,	O	punct	O	-1	O
+0	23	561	2758	2761	S	562	the	the	the	DT	O	det	O	-1	O
+0	23	562	2762	2769	S	564	dwarves	dwarves	dwarf	NNS	O	nsubjpass	O	-1	B-noun.person
+0	23	563	2770	2773	S	564	are	are	be	VBP	O	auxpass	O	-1	O
+0	23	564	2774	2780	S	-1	caught	caught	catch	VBN	O	null	O	-1	B-verb.contact
+0	23	565	2781	2783	S	564	in	in	in	IN	O	prep	O	-1	O
+0	23	566	2784	2787	S	567	the	the	the	DT	O	det	O	-1	O
+0	23	567	2788	2792	N	565	webs	webs	web	NNS	O	pobj	O	-1	B-noun.object
+0	23	568	2793	2795	S	567	of	of	of	IN	O	prep	O	-1	O
+0	23	569	2796	2800	S	571	some	some	some	DT	O	det	O	-1	O
+0	23	570	2801	2806	S	571	giant	giant	giant	JJ	O	amod	O	-1	O
+0	23	571	2807	2814		568	spiders	spiders	spider	NNS	O	pobj	O	-1	B-noun.animal
+0	23	572	2814	2815	S	564	,	,	,	,	O	punct	O	-1	O
+0	23	573	2816	2819	S	564	and	and	and	CC	O	cc	O	-1	O
+0	23	574	2820	2825	S	576	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	23	575	2826	2830	S	576	must	must	must	MD	O	aux	O	-1	O
+0	23	576	2831	2837	S	564	rescue	rescue	rescue	VB	O	conj	O	-1	B-verb.social
+0	23	577	2838	2842	S	576	them	them	they	PRP	O	dobj	O	-1	O
+0	23	578	2843	2847	S	576	with	with	with	IN	O	prep	O	-1	O
+0	23	579	2848	2851	S	580	his	his	he	PRP$	O	poss	O	1	O
+0	23	580	2852	2857	N	578	sword	sword	sword	NN	O	pobj	O	-1	B-noun.artifact
+0	23	581	2858	2861	S	580	and	and	and	CC	O	cc	O	-1	O
+0	23	582	2862	2867	S	583	magic	magic	magic	JJ	O	amod	O	-1	O
+0	23	583	2868	2872		580	ring	ring	ring	NN	O	conj	O	-1	B-noun.attribute
+0	23	584	2872	2873	S	564	.	.	.	.	O	punct	O	-1	O
+0	24	585	2874	2879	S	-1	After	After	after	IN	O	null	O	-1	O
+0	24	586	2880	2887	S	589	slaying	slaying	slaying	NN	O	nn	O	-1	B-noun.act
+0	24	587	2888	2891	S	589	his	his	he	PRP$	O	poss	O	1	O
+0	24	588	2892	2897	S	589	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	24	589	2898	2904		585	spider	spider	spider	NN	O	pobj	O	-1	B-noun.animal
+0	24	590	2904	2905	S	585	,	,	,	,	O	punct	O	-1	O
+0	24	591	2906	2911	S	592	Bilbo	Bilbo	Bilbo	NNP	PERSON	nn	O	1	O
+0	24	592	2912	2917	S	590	names	names	name	NNS	O	dobj	O	-1	B-noun.communication
+0	24	593	2918	2921	N	595	his	his	he	PRP$	O	poss	O	1	O
+0	24	594	2922	2927	S	595	sword	sword	sword	NN	O	nn	O	-1	B-noun.artifact
+0	24	595	2928	2933		592	Sting	Sting	sting	NN	O	dobj	O	-1	O
+0	24	596	2933	2934	S	590	.	.	.	.	O	punct	O	-1	O
+0	25	597	2935	2942	S	598	Shortly	Shortly	shortly	RB	O	dep	O	-1	O
+0	25	598	2943	2948	S	607	after	after	after	IN	O	advcl	O	-1	O
+0	25	599	2949	2957	S	598	escaping	escaping	escape	VBG	O	pcomp	O	-1	B-verb.motion
+0	25	600	2958	2961	S	601	the	the	the	DT	O	det	O	-1	O
+0	25	601	2962	2969		599	spiders	spiders	spider	NNS	O	dobj	O	-1	B-noun.animal
+0	25	602	2969	2970	S	607	,	,	,	,	O	punct	O	-1	O
+0	25	603	2971	2974	S	605	the	the	the	DT	O	det	O	-1	O
+0	25	604	2975	2982	S	605	unlucky	unlucky	unlucky	JJ	O	amod	O	-1	O
+0	25	605	2983	2990	N	607	dwarves	dwarves	dwarf	NNS	O	nsubjpass	O	-1	B-noun.person
+0	25	606	2991	2994	S	607	are	are	be	VBP	O	auxpass	O	-1	O
+0	25	607	2995	3003	S	-1	captured	captured	capture	VBN	O	null	O	-1	B-verb.creation
+0	25	608	3004	3006	S	607	by	by	by	IN	O	prep	O	-1	O
+0	25	609	3007	3008	S	610	a	a	a	DT	O	det	O	-1	O
+0	25	610	3009	3014	S	608	group	group	group	NN	O	pobj	O	-1	B-noun.group
+0	25	611	3015	3017	S	610	of	of	of	IN	O	prep	O	-1	O
+0	25	612	3018	3022	S	613	wood	wood	wood	NN	O	nn	O	-1	B-noun.substance
+0	25	613	3023	3028	S	611	elves	elves	elf	NNS	O	pobj	O	-1	B-noun.person
+0	25	614	3029	3032	S	615	who	who	who	WP	O	nsubj	O	-1	O
+0	25	615	3033	3037	S	613	live	live	live	VBP	O	rcmod	O	-1	B-verb.stative
+0	25	616	3038	3042	S	615	near	near	near	IN	O	prep	O	-1	O
+0	25	617	3043	3046	S	618	the	the	the	DT	O	det	O	-1	O
+0	25	618	3047	3052	S	616	river	river	river	NN	O	pobj	O	-1	B-noun.object
+0	25	619	3053	3057	N	620	that	that	that	WDT	O	nsubj	O	-1	O
+0	25	620	3058	3062	S	618	runs	runs	run	VBZ	O	rcmod	O	-1	B-verb.stative
+0	25	621	3063	3070	S	620	through	through	through	IN	O	prep	O	-1	O
+0	25	622	3071	3079		621	Mirkwood	Mirkwood	Mirkwood	NNP	LOCATION	pobj	O	-1	O
+0	25	623	3079	3080	S	607	.	.	.	.	O	punct	O	-1	O
+0	26	624	3081	3086	S	625	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	26	625	3087	3091	S	-1	uses	uses	use	VBZ	O	null	O	-1	B-verb.consumption
+0	26	626	3092	3095	S	627	his	his	he	PRP$	O	poss	O	1	O
+0	26	627	3096	3100	S	625	ring	ring	ring	NN	O	dobj	O	-1	B-noun.attribute
+0	26	628	3101	3103	S	629	to	to	to	TO	O	aux	O	-1	O
+0	26	629	3104	3108	S	625	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	26	630	3109	3112	S	632	the	the	the	DT	O	det	O	-1	O
+0	26	631	3113	3120	S	632	company	company	company	NN	O	nn	O	-1	B-noun.group
+0	26	632	3121	3127	N	629	escape	escape	escape	NN	O	dobj	O	-1	B-noun.act
+0	26	633	3128	3131	S	625	and	and	and	CC	O	cc	O	-1	O
+0	26	634	3132	3137	S	625	slips	slips	slip	VBZ	O	conj	O	-1	B-verb.motion
+0	26	635	3138	3141	S	636	the	the	the	DT	O	det	O	-1	O
+0	26	636	3142	3149	S	634	dwarves	dwarves	dwarf	NNS	O	dobj	O	-1	B-noun.person
+0	26	637	3150	3154	S	634	away	away	away	RB	O	advmod	O	-1	O
+0	26	638	3155	3159	S	637	from	from	from	IN	O	dep	O	-1	O
+0	26	639	3160	3163	S	640	the	the	the	DT	O	det	O	-1	O
+0	26	640	3164	3169	S	638	elves	elves	elf	NNS	O	pobj	O	-1	B-noun.person
+0	26	641	3170	3172	S	634	by	by	by	IN	O	prep	O	-1	O
+0	26	642	3173	3179	S	641	hiding	hiding	hide	VBG	O	pcomp	O	-1	B-verb.perception
+0	26	643	3180	3184	S	642	them	them	they	PRP	O	dobj	O	-1	O
+0	26	644	3185	3191	N	642	inside	inside	inside	IN	O	prep	O	-1	O
+0	26	645	3192	3199		644	barrels	barrels	barrel	NNS	O	pobj	O	-1	B-noun.artifact
+0	26	646	3199	3200	S	642	,	,	,	,	O	punct	O	-1	O
+0	26	647	3201	3206	S	650	which	which	which	WDT	O	dobj	O	-1	O
+0	26	648	3207	3209	S	650	he	he	he	PRP	O	nsubj	O	1	O
+0	26	649	3210	3214	S	650	then	then	then	RB	O	advmod	O	-1	O
+0	26	650	3215	3221	S	642	floats	floats	float	VBZ	O	rcmod	O	-1	B-verb.motion
+0	26	651	3222	3226	S	650	down	down	down	RP	O	prt	O	-1	O
+0	26	652	3227	3230	S	653	the	the	the	DT	O	det	O	-1	O
+0	26	653	3231	3236		650	river	river	river	NN	O	dobj	O	-1	B-noun.object
+0	26	654	3236	3237	S	625	.	.	.	.	O	punct	O	-1	O
+0	27	655	3238	3241	S	656	The	The	the	DT	O	det	O	-1	O
+0	27	656	3242	3249	S	657	dwarves	dwarves	dwarf	NNS	O	nsubj	O	-1	B-noun.person
+0	27	657	3250	3256	N	-1	arrive	arrive	arrive	VBP	O	null	O	-1	B-verb.motion
+0	27	658	3257	3259	S	657	at	at	at	IN	O	prep	O	-1	O
+0	27	659	3260	3264	S	660	Lake	Lake	Lake	NNP	LOCATION	nn	O	-1	B-noun.location
+0	27	660	3265	3269		658	Town	Town	Town	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	27	661	3269	3270	S	660	,	,	,	,	O	punct	O	-1	O
+0	27	662	3271	3272	S	664	a	a	a	DT	O	det	O	-1	O
+0	27	663	3273	3278	S	664	human	human	human	JJ	O	amod	O	-1	O
+0	27	664	3279	3289	S	660	settlement	settlement	settlement	NN	O	appos	O	-1	B-noun.group
+0	27	665	3290	3294	S	664	near	near	near	IN	O	prep	O	-1	O
+0	27	666	3295	3298	S	668	the	the	the	DT	O	det	O	-1	O
+0	27	667	3299	3305	S	668	Lonely	Lonely	Lonely	NNP	LOCATION	nn	O	-1	B-noun.person
+0	27	668	3306	3314		665	Mountain	Mountain	Mountain	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	27	669	3314	3315	S	668	,	,	,	,	O	punct	O	-1	O
+0	27	670	3316	3321	N	675	under	under	under	IN	O	rel	O	-1	O
+0	27	671	3322	3327	S	670	which	which	which	WDT	O	pobj	O	-1	O
+0	27	672	3328	3331	S	674	the	the	the	DT	O	det	O	-1	O
+0	27	673	3332	3337	S	674	great	great	great	JJ	O	amod	O	-1	O
+0	27	674	3338	3344	S	675	dragon	dragon	dragon	NN	O	nsubj	O	-1	B-noun.person
+0	27	675	3345	3351	S	668	sleeps	sleeps	sleep	VBZ	O	rcmod	O	-1	B-verb.body
+0	27	676	3352	3356	S	675	with	with	with	IN	O	prep	O	-1	O
+0	27	677	3357	3363		679	Thorin	Thorin	Thorin	NNP	PERSON	poss	O	0	B-noun.person
+0	27	678	3363	3365	S	677	’s	's	's	POS	O	possessive	O	-1	O
+0	27	679	3366	3374		676	treasure	treasure	treasure	NN	O	pobj	O	-1	B-noun.possession
+0	27	680	3374	3375	S	657	.	.	.	.	O	punct	O	-1	O
+0	28	681	3376	3381	S	-1	After	After	after	IN	O	null	O	-1	O
+0	28	682	3382	3390	S	681	sneaking	sneaking	sneak	VBG	O	pcomp	O	-1	B-verb.motion
+0	28	683	3391	3395	S	682	into	into	into	IN	O	prep	O	-1	O
+0	28	684	3396	3399	S	685	the	the	the	DT	O	det	O	-1	O
+0	28	685	3400	3408		683	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	28	686	3408	3409	S	681	,	,	,	,	O	punct	O	-1	O
+0	28	687	3410	3415	S	688	Bilbo	Bilbo	Bilbo	NNP	PERSON	nn	O	1	O
+0	28	688	3416	3421	S	686	talks	talks	talk	NNS	O	dobj	O	-1	B-noun.communication
+0	28	689	3422	3424	S	688	to	to	to	TO	O	prep	O	-1	O
+0	28	690	3425	3428	N	692	the	the	the	DT	O	det	O	-1	O
+0	28	691	3429	3432	S	692	sly	sly	sly	JJ	O	amod	O	-1	O
+0	28	692	3433	3439	S	689	dragon	dragon	dragon	NN	O	pobj	O	-1	B-noun.person
+0	28	693	3440	3445		692	Smaug	Smaug	Smaug	NNP	O	dep	O	-1	O
+0	28	694	3445	3446	S	692	,	,	,	,	O	punct	O	-1	O
+0	28	695	3447	3450	S	697	who	who	who	WP	O	nsubj	O	-1	O
+0	28	696	3451	3462	S	697	unwittingly	unwittingly	unwittingly	RB	O	advmod	O	-1	O
+0	28	697	3463	3470	S	692	reveals	reveals	reveal	VBZ	O	rcmod	O	-1	B-verb.perception
+0	28	698	3471	3475	S	702	that	that	that	IN	O	complm	O	-1	O
+0	28	699	3476	3479	S	701	his	his	he	PRP$	O	poss	O	1	O
+0	28	700	3480	3489	S	701	armorlike	armorlike	armorlike	JJ	O	amod	O	-1	O
+0	28	701	3490	3496	N	702	scales	scales	scale	NNS	O	nsubj	O	-1	B-noun.relation
+0	28	702	3497	3501	S	697	have	have	have	VBP	O	ccomp	O	-1	B-verb.possession
+0	28	703	3502	3503	S	705	a	a	a	DT	O	det	O	-1	O
+0	28	704	3504	3508	S	705	weak	weak	weak	JJ	O	amod	O	-1	O
+0	28	705	3509	3513	S	702	spot	spot	spot	NN	O	dobj	O	-1	B-noun.location
+0	28	706	3514	3518	S	702	near	near	near	IN	O	prep	O	-1	O
+0	28	707	3519	3522	S	708	his	his	he	PRP$	O	poss	O	1	O
+0	28	708	3523	3528		706	heart	heart	heart	NN	O	pobj	O	-1	B-noun.body
+0	28	709	3528	3529	S	681	.	.	.	.	O	punct	O	-1	O
+0	29	710	3530	3534	S	712	When	When	when	WRB	O	advmod	O	-1	O
+0	29	711	3535	3540	S	712	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	29	712	3541	3547	S	724	steals	steals	steal	VBZ	O	dep	O	-1	B-verb.possession
+0	29	713	3548	3549	S	715	a	a	a	DT	O	det	O	-1	O
+0	29	714	3550	3556	S	715	golden	golden	golden	JJ	O	amod	O	-1	O
+0	29	715	3557	3560	N	712	cup	cup	cup	NN	O	dobj	O	-1	B-noun.artifact
+0	29	716	3561	3565	S	712	from	from	from	IN	O	prep	O	-1	O
+0	29	717	3566	3569	S	718	the	the	the	DT	O	det	O	-1	O
+0	29	718	3570	3576		720	dragon	dragon	dragon	NN	O	poss	O	-1	B-noun.person
+0	29	719	3576	3578	S	718	’s	's	's	POS	O	possessive	O	-1	O
+0	29	720	3579	3584		716	hoard	hoard	hoard	NN	O	pobj	O	-1	B-noun.possession
+0	29	721	3584	3585	S	724	,	,	,	,	O	punct	O	-1	O
+0	29	722	3586	3591	S	724	Smaug	Smaug	Smaug	NNP	PERSON	nsubj	O	2	B-noun.person
+0	29	723	3592	3594	S	724	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	29	724	3595	3602	S	-1	furious	furious	furious	JJ	O	null	O	-1	O
+0	29	725	3603	3606	S	724	and	and	and	CC	O	cc	O	-1	O
+0	29	726	3607	3612	S	724	flies	flies	fly	VBZ	O	conj	O	-1	B-verb.motion
+0	29	727	3613	3616	S	726	out	out	out	IN	O	prep	O	-1	O
+0	29	728	3617	3619	S	727	of	of	of	IN	O	dep	O	-1	O
+0	29	729	3620	3623	S	730	the	the	the	DT	O	det	O	-1	O
+0	29	730	3624	3632	N	728	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	29	731	3633	3635	S	732	to	to	to	TO	O	aux	O	-1	O
+0	29	732	3636	3640	S	726	burn	burn	burn	VB	O	xcomp	O	-1	B-verb.change
+0	29	733	3641	3645	S	734	Lake	Lake	Lake	NNP	LOCATION	nn	O	-1	B-noun.location
+0	29	734	3646	3650	S	732	Town	Town	Town	NNP	LOCATION	dobj	O	-1	I-noun.location
+0	29	735	3651	3653	S	732	in	in	in	IN	O	prep	O	-1	O
+0	29	736	3654	3657	S	737	his	his	he	PRP$	O	poss	O	1	O
+0	29	737	3658	3662		735	rage	rage	rage	NN	O	pobj	O	-1	B-noun.feeling
+0	29	738	3662	3663	S	724	.	.	.	.	O	punct	O	-1	O
+0	30	739	3664	3668		746	Bard	Bard	Bard	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	30	740	3668	3669	S	739	,	,	,	,	O	punct	O	-1	O
+0	30	741	3670	3671	S	743	a	a	a	DT	O	det	O	-1	O
+0	30	742	3672	3678	S	743	heroic	heroic	heroic	JJ	O	amod	O	-1	O
+0	30	743	3679	3685		739	archer	archer	archer	NN	O	appos	O	-1	B-noun.person
+0	30	744	3685	3686	S	739	,	,	,	,	O	punct	O	-1	O
+0	30	745	3687	3690	S	746	has	has	have	VBZ	O	aux	O	-1	O
+0	30	746	3691	3698	N	-1	learned	learned	learn	VBN	O	null	O	-1	B-verb.cognition
+0	30	747	3699	3702	S	748	the	the	the	DT	O	det	O	-1	O
+0	30	748	3703	3709	S	746	secret	secret	secret	JJ	O	dobj	O	-1	O
+0	30	749	3710	3715	S	748	about	about	about	IN	O	prep	O	-1	O
+0	30	750	3716	3721		752	Smaug	Smaug	Smaug	NNP	PERSON	poss	O	2	B-noun.person
+0	30	751	3721	3723	S	750	’s	's	's	POS	O	possessive	O	-1	O
+0	30	752	3724	3732	S	749	weakness	weakness	weakness	NN	O	pobj	O	-1	B-noun.state
+0	30	753	3733	3737	S	752	from	from	from	IN	O	prep	O	-1	O
+0	30	754	3738	3739	S	755	a	a	a	DT	O	det	O	-1	O
+0	30	755	3740	3746		753	thrush	thrush	thrush	NN	O	pobj	O	-1	B-noun.state
+0	30	756	3746	3747	S	746	,	,	,	,	O	punct	O	-1	O
+0	30	757	3748	3751	S	746	and	and	and	CC	O	cc	O	-1	O
+0	30	758	3752	3754	S	759	he	he	he	PRP	O	nsubj	O	-1	O
+0	30	759	3755	3760	S	746	fires	fires	fire	VBZ	O	conj	O	-1	B-verb.competition
+0	30	760	3761	3763	N	761	an	an	a	DT	O	det	O	-1	O
+0	30	761	3764	3769	S	759	arrow	arrow	arrow	NN	O	dobj	O	-1	B-noun.communication
+0	30	762	3770	3774	S	759	into	into	into	IN	O	prep	O	-1	O
+0	30	763	3775	3778	S	764	the	the	the	DT	O	det	O	-1	O
+0	30	764	3779	3785		766	dragon	dragon	dragon	NN	O	poss	O	-1	B-noun.person
+0	30	765	3785	3787	S	764	’s	's	's	POS	O	possessive	O	-1	O
+0	30	766	3788	3793		762	heart	heart	heart	NN	O	pobj	O	-1	B-noun.cognition
+0	30	767	3793	3794	S	759	,	,	,	,	O	punct	O	-1	O
+0	30	768	3795	3802	S	759	killing	killing	kill	VBG	O	xcomp	O	-1	B-verb.contact
+0	30	769	3803	3806		768	him	him	he	PRP	O	dobj	O	-1	O
+0	30	770	3806	3807	S	746	.	.	.	.	O	punct	O	-1	O
+0	31	771	3808	3814	S	773	Before	Before	before	IN	O	mark	O	-1	O
+0	31	772	3815	3820	S	773	Smaug	Smaug	Smaug	NNP	PERSON	nsubj	O	2	B-noun.person
+0	31	773	3821	3825		778	dies	dies	die	VBZ	O	advcl	O	-1	B-verb.change
+0	31	774	3825	3826	S	778	,	,	,	,	O	punct	O	-1	O
+0	31	775	3827	3834		778	however	however	however	RB	O	advmod	O	-1	O
+0	31	776	3834	3835	N	778	,	,	,	,	O	punct	O	-1	O
+0	31	777	3836	3838	S	778	he	he	he	PRP	O	nsubj	O	-1	O
+0	31	778	3839	3844	S	-1	burns	burns	burn	VBZ	O	null	O	-1	B-verb.change
+0	31	779	3845	3849	S	780	Lake	Lake	Lake	NNP	LOCATION	nn	O	-1	B-noun.location
+0	31	780	3850	3854	S	778	Town	Town	Town	NNP	LOCATION	dobj	O	-1	I-noun.location
+0	31	781	3855	3857	S	778	to	to	to	TO	O	prep	O	-1	O
+0	31	782	3858	3861	S	783	the	the	the	DT	O	det	O	-1	O
+0	31	783	3862	3868		781	ground	ground	ground	NN	O	pobj	O	-1	B-noun.object
+0	31	784	3868	3869	S	778	.	.	.	.	O	punct	O	-1	O
+0	32	785	3870	3873	S	786	The	The	the	DT	O	det	O	-1	O
+0	32	786	3874	3880	S	795	humans	humans	human	NNS	O	nsubj	O	-1	B-noun.Tops
+0	32	787	3881	3883	S	786	of	of	of	IN	O	prep	O	-1	O
+0	32	788	3884	3888	S	789	Lake	Lake	Lake	NNP	LOCATION	nn	O	-1	B-noun.location
+0	32	789	3889	3893	S	787	Town	Town	Town	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	32	790	3894	3897	S	786	and	and	and	CC	O	cc	O	-1	O
+0	32	791	3898	3901	S	792	the	the	the	DT	O	det	O	-1	O
+0	32	792	3902	3907	S	786	elves	elves	elf	NNS	O	conj	O	-1	B-noun.person
+0	32	793	3908	3910	S	792	of	of	of	IN	O	prep	O	-1	O
+0	32	794	3911	3919	S	793	Mirkwood	Mirkwood	Mirkwood	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	32	795	3920	3925	N	-1	march	march	march	VB	O	null	O	-1	B-verb.motion
+0	32	796	3926	3928	S	795	to	to	to	TO	O	prep	O	-1	O
+0	32	797	3929	3932	S	799	the	the	the	DT	O	det	O	-1	O
+0	32	798	3933	3939	S	799	Lonely	Lonely	Lonely	NNP	LOCATION	nn	O	-1	B-noun.person
+0	32	799	3940	3948	S	796	Mountain	Mountain	Mountain	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	32	800	3949	3951	S	801	to	to	to	TO	O	aux	O	-1	O
+0	32	801	3952	3956	S	795	seek	seek	seek	VB	O	xcomp	O	-1	B-verb.possession
+0	32	802	3957	3958	S	803	a	a	a	DT	O	det	O	-1	O
+0	32	803	3959	3964	S	801	share	share	share	NN	O	dobj	O	-1	B-noun.possession
+0	32	804	3965	3967	S	803	of	of	of	IN	O	prep	O	-1	O
+0	32	805	3968	3971	S	806	the	the	the	DT	O	det	O	-1	O
+0	32	806	3972	3980	S	804	treasure	treasure	treasure	NN	O	pobj	O	-1	B-noun.possession
+0	32	807	3981	3983	S	801	as	as	as	IN	O	prep	O	-1	O
+0	32	808	3984	3996	N	807	compensation	compensation	compensation	NN	O	pobj	O	-1	B-noun.possession
+0	32	809	3997	4000	S	808	for	for	for	IN	O	prep	O	-1	O
+0	32	810	4001	4006	S	811	their	their	they	PRP$	O	poss	O	-1	O
+0	32	811	4007	4013	S	809	losses	losses	loss	NNS	O	pobj	O	-1	B-noun.possession
+0	32	812	4014	4017	S	811	and	and	and	CC	O	cc	O	-1	O
+0	32	813	4018	4021		811	aid	aid	aid	NN	O	conj	O	-1	B-noun.attribute
+0	32	814	4021	4022	S	795	,	,	,	,	O	punct	O	-1	O
+0	32	815	4023	4026	S	795	but	but	but	CC	O	cc	O	-1	O
+0	32	816	4027	4033	S	818	Thorin	Thorin	Thorin	NNP	PERSON	nsubj	O	0	B-noun.person
+0	32	817	4034	4042	S	818	greedily	greedily	greedily	RB	O	advmod	O	-1	O
+0	32	818	4043	4050		795	refuses	refuses	refuse	VBZ	O	conj	O	-1	O
+0	32	819	4050	4051	S	818	,	,	,	,	O	punct	O	-1	O
+0	32	820	4052	4055	S	818	and	and	and	CC	O	cc	O	-1	O
+0	32	821	4056	4059	S	822	the	the	the	DT	O	det	O	-1	O
+0	32	822	4060	4066	N	825	humans	humans	human	NNS	O	nsubj	O	-1	B-noun.Tops
+0	32	823	4067	4070	S	822	and	and	and	CC	O	cc	O	-1	O
+0	32	824	4071	4076	S	822	elves	elves	elf	NNS	O	conj	O	-1	B-noun.person
+0	32	825	4077	4084	S	818	besiege	besiege	besiege	VBP	O	conj	O	-1	B-verb.competition
+0	32	826	4085	4088	S	827	the	the	the	DT	O	det	O	-1	O
+0	32	827	4089	4097		825	mountain	mountain	mountain	NN	O	dobj	O	-1	B-noun.object
+0	32	828	4097	4098	S	827	,	,	,	,	O	punct	O	-1	O
+0	32	829	4099	4107	S	827	trapping	trapping	trapping	NN	O	appos	O	-1	B-noun.artifact
+0	32	830	4108	4111	S	831	the	the	the	DT	O	det	O	-1	O
+0	32	831	4112	4119	S	829	dwarves	dwarves	dwarf	NNS	O	dobj	O	-1	B-noun.person
+0	32	832	4120	4123	S	831	and	and	and	CC	O	cc	O	-1	O
+0	32	833	4124	4127	S	834	the	the	the	DT	O	det	O	-1	O
+0	32	834	4128	4134	N	831	hobbit	hobbit	hobbit	NN	O	conj	O	-1	B-noun.person
+0	32	835	4135	4141		834	inside	inside	inside	IN	O	dep	O	-1	O
+0	32	836	4141	4142	S	795	.	.	.	.	O	punct	O	-1	O
+0	33	837	4143	4148	S	838	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	33	838	4149	4155	S	-1	sneaks	sneaks	sneak	VBZ	O	null	O	-1	B-verb.motion
+0	33	839	4156	4159	S	838	out	out	out	RP	O	prt	O	-1	O
+0	33	840	4160	4162	S	841	to	to	to	TO	O	aux	O	-1	O
+0	33	841	4163	4167	S	838	join	join	join	VB	O	xcomp	O	-1	B-verb.social
+0	33	842	4168	4171	S	843	the	the	the	DT	O	det	O	-1	O
+0	33	843	4172	4178	S	841	humans	humans	human	NNS	O	dobj	O	-1	B-noun.Tops
+0	33	844	4179	4181	S	841	in	in	in	IN	O	prep	O	-1	O
+0	33	845	4182	4184	S	846	an	an	a	DT	O	det	O	-1	O
+0	33	846	4185	4192	S	844	attempt	attempt	attempt	NN	O	pobj	O	-1	B-noun.act
+0	33	847	4193	4195	S	848	to	to	to	TO	O	aux	O	-1	O
+0	33	848	4196	4201	N	846	bring	bring	bring	VB	O	infmod	O	-1	B-verb.contact
+0	33	849	4202	4207		848	peace	peace	peace	NN	O	dobj	O	-1	B-noun.state
+0	33	850	4207	4208	S	838	.	.	.	.	O	punct	O	-1	O
+0	34	851	4209	4213	S	853	When	When	when	WRB	O	advmod	O	-1	O
+0	34	852	4214	4220	S	853	Thorin	Thorin	Thorin	NNP	PERSON	nsubj	O	0	B-noun.person
+0	34	853	4221	4227	S	861	learns	learns	learn	VBZ	O	dep	O	-1	B-verb.cognition
+0	34	854	4228	4232	S	857	what	what	what	WDT	O	dobj	O	-1	O
+0	34	855	4233	4238	S	857	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	34	856	4239	4242	S	857	has	has	have	VBZ	O	aux	O	-1	O
+0	34	857	4243	4247		853	done	done	do	VBN	O	ccomp	O	-1	O
+0	34	858	4247	4248	S	861	,	,	,	,	O	punct	O	-1	O
+0	34	859	4249	4251	S	861	he	he	he	PRP	O	nsubj	O	1	O
+0	34	860	4252	4254	S	861	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	34	861	4255	4260		-1	livid	livid	livid	JJ	O	null	O	-1	O
+0	34	862	4260	4261	S	861	,	,	,	,	O	punct	O	-1	O
+0	34	863	4262	4265	N	861	but	but	but	CC	O	cc	O	-1	O
+0	34	864	4266	4273	S	866	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nsubj	O	3	B-noun.person
+0	34	865	4274	4282	S	866	suddenly	suddenly	suddenly	RB	O	advmod	O	-1	O
+0	34	866	4283	4292	S	861	reappears	reappears	reappear	VBZ	O	conj	O	-1	B-verb.change
+0	34	867	4293	4296	S	866	and	and	and	CC	O	cc	O	-1	O
+0	34	868	4297	4302	S	866	saves	saves	save	VBZ	O	conj	O	-1	B-verb.social
+0	34	869	4303	4308	S	868	Bilbo	Bilbo	Bilbo	NNP	PERSON	dobj	O	1	B-noun.person
+0	34	870	4309	4313	S	868	from	from	from	IN	O	prep	O	-1	O
+0	34	871	4314	4317	S	873	the	the	the	DT	O	det	O	-1	O
+0	34	872	4318	4323	S	873	dwarf	dwarf	dwarf	NN	O	nn	O	-1	B-noun.person
+0	34	873	4324	4328		875	lord	lord	lord	NN	O	poss	O	-1	B-noun.person
+0	34	874	4328	4330	N	873	’s	's	's	POS	O	possessive	O	-1	O
+0	34	875	4331	4336		870	wrath	wrath	wrath	NN	O	pobj	O	-1	B-noun.feeling
+0	34	876	4336	4337	S	861	.	.	.	.	O	punct	O	-1	O
+0	35	877	4338	4340	S	901	At	At	at	IN	O	prep	O	-1	O
+0	35	878	4341	4345	S	879	this	this	this	DT	O	det	O	-1	O
+0	35	879	4346	4352		877	moment	moment	moment	NN	O	pobj	O	-1	B-noun.time
+0	35	880	4352	4353	S	901	,	,	,	,	O	punct	O	-1	O
+0	35	881	4354	4356	S	882	an	an	a	DT	O	det	O	-1	O
+0	35	882	4357	4361	S	901	army	army	army	NN	O	nsubjpass	O	-1	B-noun.group
+0	35	883	4362	4364	S	882	of	of	of	IN	O	prep	O	-1	O
+0	35	884	4365	4372	S	883	goblins	goblins	goblin	NNS	O	pobj	O	-1	B-noun.person
+0	35	885	4373	4376	S	884	and	and	and	CC	O	cc	O	-1	O
+0	35	886	4377	4382	S	887	Wargs	Wargs	warg	NNS	O	nn	O	-1	B-noun.person
+0	35	887	4383	4390	N	884	marches	marches	march	NNS	O	conj	O	-1	B-noun.person
+0	35	888	4391	4393	S	884	on	on	on	IN	O	prep	O	-1	O
+0	35	889	4394	4397	S	890	the	the	the	DT	O	det	O	-1	O
+0	35	890	4398	4406		888	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	35	891	4406	4407	S	882	,	,	,	,	O	punct	O	-1	O
+0	35	892	4408	4411	S	882	and	and	and	CC	O	cc	O	-1	O
+0	35	893	4412	4415	S	894	the	the	the	DT	O	det	O	-1	O
+0	35	894	4416	4422		882	humans	humans	human	NNS	O	conj	O	-1	B-noun.Tops
+0	35	895	4422	4423	S	882	,	,	,	,	O	punct	O	-1	O
+0	35	896	4424	4429		882	elves	elves	elf	NNS	O	conj	O	-1	O
+0	35	897	4429	4430	S	882	,	,	,	,	O	punct	O	-1	O
+0	35	898	4431	4434	S	882	and	and	and	CC	O	cc	O	-1	O
+0	35	899	4435	4442	S	882	dwarves	dwarves	dwarf	NNS	O	conj	O	-1	B-noun.person
+0	35	900	4443	4446	S	901	are	are	be	VBP	O	auxpass	O	-1	O
+0	35	901	4447	4453	S	-1	forced	forced	force	VBN	O	null	O	-1	B-verb.social
+0	35	902	4454	4456	N	903	to	to	to	TO	O	aux	O	-1	O
+0	35	903	4457	4461	S	901	band	band	band	VB	O	xcomp	O	-1	B-verb.contact
+0	35	904	4462	4470	S	903	together	together	together	RB	O	advmod	O	-1	O
+0	35	905	4471	4473	S	906	to	to	to	TO	O	aux	O	-1	O
+0	35	906	4474	4480	S	903	defeat	defeat	defeat	VB	O	xcomp	O	-1	B-verb.competition
+0	35	907	4481	4485		906	them	them	they	PRP	O	dobj	O	-1	O
+0	35	908	4485	4486	S	901	.	.	.	.	O	punct	O	-1	O
+0	36	909	4487	4490	S	910	The	The	the	DT	O	det	O	-1	O
+0	36	910	4491	4498	S	912	goblins	goblins	goblin	NNS	O	nsubj	O	-1	B-noun.person
+0	36	911	4499	4505	S	912	nearly	nearly	nearly	RB	O	advmod	O	-1	O
+0	36	912	4506	4509		-1	win	win	win	VBP	O	null	O	-1	O
+0	36	913	4509	4510	S	912	,	,	,	,	O	punct	O	-1	O
+0	36	914	4511	4514	S	912	but	but	but	CC	O	cc	O	-1	O
+0	36	915	4515	4518	S	916	the	the	the	DT	O	det	O	-1	O
+0	36	916	4519	4526	N	922	arrival	arrival	arrival	NN	O	nsubj	O	-1	B-noun.act
+0	36	917	4527	4529	S	916	of	of	of	IN	O	prep	O	-1	O
+0	36	918	4530	4535	S	917	Beorn	Beorn	Beorn	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	36	919	4536	4539	S	918	and	and	and	CC	O	cc	O	-1	O
+0	36	920	4540	4543	S	921	the	the	the	DT	O	det	O	-1	O
+0	36	921	4544	4550	S	918	eagles	eagles	eagle	NNS	O	conj	O	-1	B-noun.animal
+0	36	922	4551	4556	S	912	helps	helps	help	VBZ	O	conj	O	-1	B-verb.social
+0	36	923	4557	4560	S	925	the	the	the	DT	O	det	O	-1	O
+0	36	924	4561	4565	S	925	good	good	good	JJ	O	amod	O	-1	O
+0	36	925	4566	4572	S	926	armies	armies	army	NNS	O	nsubj	O	-1	B-noun.group
+0	36	926	4573	4576	S	922	win	win	win	VBP	O	ccomp	O	-1	B-verb.competition
+0	36	927	4577	4580	S	928	the	the	the	DT	O	det	O	-1	O
+0	36	928	4581	4587		926	battle	battle	battle	NN	O	dobj	O	-1	B-noun.act
+0	36	929	4587	4588	S	912	.	.	.	.	O	punct	O	-1	O
+0	37	930	4589	4594	S	-1	After	After	after	IN	O	null	O	-1	O
+0	37	931	4595	4598	S	932	the	the	the	DT	O	det	O	-1	O
+0	37	932	4599	4605		930	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	37	933	4605	4606	S	932	,	,	,	,	O	punct	O	-1	O
+0	37	934	4607	4612	S	932	Bilbo	Bilbo	Bilbo	NNP	PERSON	dep	O	1	B-noun.person
+0	37	935	4613	4616	S	934	and	and	and	CC	O	cc	O	-1	O
+0	37	936	4617	4624	S	937	Gandalf	Gandalf	Gandalf	NNP	ORGANIZATION	nn	O	3	B-noun.person
+0	37	937	4625	4631	S	934	return	return	return	NN	O	conj	O	-1	B-noun.communication
+0	37	938	4632	4634	S	932	to	to	to	TO	O	prep	O	-1	O
+0	37	939	4635	4643		938	Hobbiton	Hobbiton	Hobbiton	NNP	O	pobj	O	-1	O
+0	37	940	4643	4644	N	939	,	,	,	,	O	punct	O	-1	O
+0	37	941	4645	4650	S	943	where	where	where	WRB	O	advmod	O	-1	O
+0	37	942	4651	4656	S	943	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	B-noun.person
+0	37	943	4657	4666	S	939	continues	continues	continue	VBZ	O	rcmod	O	-1	B-verb.stative
+0	37	944	4667	4669	S	945	to	to	to	TO	O	aux	O	-1	O
+0	37	945	4670	4674		943	live	live	live	VB	O	xcomp	O	-1	B-verb.stative
+0	37	946	4674	4675	S	930	.	.	.	.	O	punct	O	-1	O
+0	38	947	4676	4678	S	951	He	He	he	PRP	O	nsubjpass	O	1	O
+0	38	948	4679	4681	S	951	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	38	949	4682	4684	S	950	no	no	no	RB	O	advmod	O	-1	O
+0	38	950	4685	4691	S	951	longer	longer	longer	RB	O	advmod	O	-1	O
+0	38	951	4692	4700	S	-1	accepted	accepted	accept	VBN	O	null	O	-1	B-verb.cognition
+0	38	952	4701	4703	S	951	by	by	by	IN	O	prep	O	-1	O
+0	38	953	4704	4715	N	955	respectable	respectable	respectable	JJ	O	amod	O	-1	O
+0	38	954	4716	4722	S	955	hobbit	hobbit	hobbit	NN	O	nn	O	-1	B-noun.person
+0	38	955	4723	4730		952	society	society	society	NN	O	pobj	O	-1	B-noun.group
+0	38	956	4730	4731	S	951	,	,	,	,	O	punct	O	-1	O
+0	38	957	4732	4735	S	951	but	but	but	CC	O	cc	O	-1	O
+0	38	958	4736	4738	S	961	he	he	he	PRP	O	nsubj	O	1	O
+0	38	959	4739	4743	S	961	does	does	do	VBZ	O	aux	O	-1	O
+0	38	960	4744	4747	S	961	not	not	not	RB	O	neg	O	-1	O
+0	38	961	4748	4752		951	care	care	care	VB	O	conj	O	-1	B-verb.emotion
+0	38	962	4752	4753	S	951	.	.	.	.	O	punct	O	-1	O
+0	39	963	4754	4759	S	965	Bilbo	Bilbo	Bilbo	NNP	PERSON	nsubj	O	1	O
+0	39	964	4760	4763	S	965	now	now	now	RB	DATE	advmod	O	-1	O
+0	39	965	4764	4771	S	-1	prefers	prefers	prefer	VBZ	O	null	O	-1	B-verb.emotion
+0	39	966	4772	4774	S	967	to	to	to	TO	O	aux	O	-1	O
+0	39	967	4775	4779	N	965	talk	talk	talk	VB	O	xcomp	O	-1	B-verb.communication
+0	39	968	4780	4782	S	967	to	to	to	TO	O	prep	O	-1	O
+0	39	969	4783	4788	S	968	elves	elves	elf	NNS	O	pobj	O	-1	B-noun.person
+0	39	970	4789	4792	S	969	and	and	and	CC	O	cc	O	-1	O
+0	39	971	4793	4800		969	wizards	wizards	wizard	NNS	O	conj	O	-1	B-noun.person
+0	39	972	4800	4801	S	965	,	,	,	,	O	punct	O	-1	O
+0	39	973	4802	4805	S	965	and	and	and	CC	O	cc	O	-1	O
+0	39	974	4806	4808	S	977	he	he	he	PRP	O	nsubj	O	1	O
+0	39	975	4809	4811	S	977	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	39	976	4812	4818	S	977	deeply	deeply	deeply	RB	O	advmod	O	-1	O
+0	39	977	4819	4826	S	965	content	content	content	JJ	O	conj	O	-1	O
+0	39	978	4827	4829	S	979	to	to	to	TO	O	aux	O	-1	O
+0	39	979	4830	4832	S	977	be	be	be	VB	O	xcomp	O	-1	B-verb.stative
+0	39	980	4833	4837	S	979	back	back	back	RB	O	advmod	O	-1	O
+0	39	981	4838	4843	N	979	among	among	among	IN	O	prep	O	-1	O
+0	39	982	4844	4847	S	984	the	the	the	DT	O	det	O	-1	O
+0	39	983	4848	4856	S	984	familiar	familiar	familiar	JJ	O	amod	O	-1	O
+0	39	984	4857	4865	S	981	comforts	comforts	comfort	NNS	O	pobj	O	-1	B-noun.possession
+0	39	985	4866	4868	S	984	of	of	of	IN	O	prep	O	-1	O
+0	39	986	4869	4873	S	985	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	39	987	4874	4879	S	979	after	after	after	IN	O	prep	O	-1	O
+0	39	988	4880	4883	S	992	his	his	he	PRP$	O	poss	O	1	O
+0	39	989	4884	4889	S	992	grand	grand	grand	JJ	O	amod	O	-1	O
+0	39	990	4890	4893	S	989	and	and	and	CC	O	cc	O	-1	O
+0	39	991	4894	4903	S	989	harrowing	harrowing	harrowing	JJ	O	conj	O	-1	O
+0	39	992	4904	4914		987	adventures	adventures	adventure	NNS	O	pobj	O	-1	B-noun.act
+0	39	993	4914	4915	N	965	.	.	.	.	O	punct	O	-1	O

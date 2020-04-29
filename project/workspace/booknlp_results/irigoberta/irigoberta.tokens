@@ -1,0 +1,1044 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	6	S	-1	During	During	during	IN	O	null	O	-1	O
+0	0	1	7	8	S	2	a	a	a	DT	O	det	O	-1	O
+0	0	2	9	14	S	0	visit	visit	visit	NN	O	pobj	O	-1	B-noun.act
+0	0	3	15	17	S	2	to	to	to	TO	O	prep	O	-1	O
+0	0	4	18	23	S	3	Paris	Paris	Paris	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	5	24	26	S	0	as	as	as	IN	O	dep	O	-1	O
+0	0	6	27	31	S	5	part	part	part	NN	O	pobj	O	-1	B-noun.relation
+0	0	7	32	34	S	6	of	of	of	IN	O	prep	O	-1	O
+0	0	8	35	38	S	11	the	the	the	DT	O	det	O	-1	O
+0	0	9	39	49	S	11	Guatemalan	Guatemalan	guatemalan	JJ	MISC	amod	O	-1	O
+0	0	10	50	59	S	11	political	political	political	JJ	O	amod	O	-1	O
+0	0	11	60	72	S	7	organization	organization	organization	NN	O	pobj	O	-1	B-noun.group
+0	0	12	73	78	N	11	known	known	know	VBN	O	partmod	O	-1	B-verb.cognition
+0	0	13	79	81	S	24	as	as	as	IN	O	mark	O	-1	O
+0	0	14	82	83		24	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	0	15	83	86	S	19	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	0	16	87	89	S	19	31	31	31	CD	DATE	num	I-QUOTE	-1	O
+0	0	17	90	97	S	19	January	January	January	NNP	DATE	nn	I-QUOTE	-1	O
+0	0	18	98	105	S	19	Popular	Popular	Popular	NNP	O	nn	I-QUOTE	-1	O
+0	0	19	106	111		24	Front	Front	front	NN	O	nsubj	I-QUOTE	-1	O
+0	0	20	111	112		24	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	21	112	113	S	24	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	0	22	114	123	S	23	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nn	O	2	O
+0	0	23	124	130	S	24	Menchu	Menchu	Menchu	NNP	PERSON	nsubj	O	2	O
+0	0	24	131	136	S	12	meets	meets	meet	VBZ	O	advcl	O	-1	B-verb.motion
+0	0	25	137	147	S	28	Venezuelan	Venezuelan	venezuelan	JJ	MISC	amod	O	-1	O
+0	0	26	148	162	N	28	anthropologist	anthropologist	anthropologist	NN	O	nn	O	-1	B-noun.person
+0	0	27	163	172	S	28	Elisabeth	Elisabeth	Elisabeth	NNP	PERSON	nn	O	-1	I-noun.person
+0	0	28	173	186	S	24	Burgos-Debray	Burgos-Debray	Burgos-Debray	NNP	PERSON	dobj	O	-1	I-noun.person
+0	0	29	187	190	S	24	and	and	and	CC	O	cc	O	-1	O
+0	0	30	191	197	S	24	agrees	agrees	agree	VBZ	O	conj	O	-1	B-verb.communication
+0	0	31	198	200	S	32	to	to	to	TO	O	aux	O	-1	O
+0	0	32	201	205	S	30	tell	tell	tell	VB	O	xcomp	O	-1	B-verb.communication
+0	0	33	206	209	S	35	her	her	she	PRP$	O	poss	O	2	O
+0	0	34	210	214	S	35	life	life	life	NN	O	nn	O	-1	B-noun.communication
+0	0	35	215	220	S	32	story	story	story	NN	O	dobj	O	-1	I-noun.communication
+0	0	36	221	223	S	41	so	so	so	IN	O	mark	O	-1	O
+0	0	37	224	228	S	41	that	that	that	IN	O	dep	O	-1	O
+0	0	38	229	231	S	41	it	it	it	PRP	O	nsubjpass	O	-1	O
+0	0	39	232	235	S	41	can	can	can	MD	O	aux	O	-1	O
+0	0	40	236	238	N	41	be	be	be	VB	O	auxpass	O	-1	O
+0	0	41	239	250	S	32	transformed	transformed	transform	VBN	O	advcl	O	-1	B-verb.change
+0	0	42	251	255	S	41	into	into	into	IN	O	prep	O	-1	O
+0	0	43	256	257	S	44	a	a	a	DT	O	det	O	-1	O
+0	0	44	258	262		42	book	book	book	NN	O	pobj	O	-1	B-noun.communication
+0	0	45	262	263	S	0	.	.	.	.	O	punct	O	-1	O
+0	1	46	264	267	S	48	The	The	the	DT	O	det	O	-1	O
+0	1	47	268	271	S	48	two	two	two	CD	NUMBER	num	O	-1	O
+0	1	48	272	276	S	-1	work	work	work	NN	O	null	O	-1	B-noun.act
+0	1	49	277	287	S	48	feverishly	feverishly	feverishly	RB	O	advmod	O	-1	O
+0	1	50	288	291	S	48	for	for	for	IN	O	prep	O	-1	O
+0	1	51	292	299	S	52	several	several	several	JJ	DURATION	amod	O	-1	O
+0	1	52	300	304		50	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	1	53	304	305	S	48	,	,	,	,	O	punct	O	-1	O
+0	1	54	306	319	N	56	Burgos-Debray	Burgos-Debray	burgos-debray	JJ	PERSON	amod	O	1	O
+0	1	55	320	331	S	56	questioning	questioning	question	VBG	O	amod	O	-1	B-verb.communication
+0	1	56	332	341		48	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	appos	O	2	O
+0	1	57	341	342	S	48	,	,	,	,	O	punct	O	-1	O
+0	1	58	343	346	S	59	who	who	who	WP	O	nsubj	O	-1	O
+0	1	59	347	352	S	48	tells	tells	tell	VBZ	O	rcmod	O	-1	B-verb.communication
+0	1	60	353	356	S	61	her	her	she	PRP$	O	poss	O	2	O
+0	1	61	357	362	S	59	story	story	story	NN	O	dobj	O	-1	B-noun.communication
+0	1	62	363	365	S	59	in	in	in	IN	O	prep	O	-1	O
+0	1	63	366	373		62	Spanish	Spanish	Spanish	NNP	MISC	pobj	O	-1	O
+0	1	64	373	374	S	63	,	,	,	,	O	punct	O	-1	O
+0	1	65	375	378	S	67	her	her	she	PRP$	O	poss	O	2	O
+0	1	66	379	385	S	67	second	second	second	JJ	ORDINAL	amod	O	-1	O
+0	1	67	386	394		63	language	language	language	NN	O	appos	O	-1	B-noun.communication
+0	1	68	394	395	S	48	.	.	.	.	O	punct	O	-1	O
+0	2	69	396	399	N	70	The	The	the	DT	O	det	O	-1	O
+0	2	70	400	406	S	75	result	result	result	NN	O	nsubj	O	-1	B-noun.phenomenon
+0	2	71	407	409	S	75	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	2	72	410	417	S	73	several	several	several	JJ	DURATION	amod	O	-1	O
+0	2	73	418	423		75	hours	hours	hour	NNS	DURATION	poss	O	-1	B-noun.time
+0	2	74	423	424	S	73	’	'	'	POS	O	possessive	O	-1	O
+0	2	75	425	430	S	-1	worth	worth	worth	NN	O	null	O	-1	B-noun.quantity
+0	2	76	431	433	S	75	of	of	of	IN	O	prep	O	-1	O
+0	2	77	434	442	S	78	recorded	recorded	record	VBN	O	amod	O	-1	B-verb.communication
+0	2	78	443	453	S	76	interviews	interviews	interview	NNS	O	pobj	O	-1	B-noun.communication
+0	2	79	454	458	S	81	that	that	that	WDT	O	dobj	O	-1	O
+0	2	80	459	472	S	81	Burgos-Debray	Burgos-Debray	Burgos-Debray	NNP	PERSON	nsubj	O	1	B-noun.person
+0	2	81	473	484	N	78	transcribes	transcribes	transcribe	VBZ	O	rcmod	O	-1	B-verb.communication
+0	2	82	485	488	S	81	and	and	and	CC	O	cc	O	-1	O
+0	2	83	489	497	S	81	arranges	arranges	arrange	VBZ	O	conj	O	-1	B-verb.contact
+0	2	84	498	500	S	83	as	as	as	IN	O	prep	O	-1	O
+0	2	85	501	502		84	I	I	I	PRP	O	dep	O	-1	O
+0	2	86	502	503	S	85	,	,	,	,	O	punct	O	-1	O
+0	2	87	504	513	S	88	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nn	O	2	O
+0	2	88	514	520		85	Menchu	Menchu	Menchu	NNP	PERSON	appos	O	2	O
+0	2	89	520	521	S	75	.	.	.	.	O	punct	O	-1	O
+0	3	90	522	524	S	107	As	As	as	IN	O	prep	O	-1	O
+0	3	91	525	528	S	92	far	far	far	RB	O	advmod	O	-1	O
+0	3	92	529	533	S	90	back	back	back	RB	O	dep	O	-1	O
+0	3	93	534	536	S	101	as	as	as	IN	O	mark	O	-1	O
+0	3	94	537	546		101	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	O
+0	3	95	546	547	S	94	,	,	,	,	O	punct	O	-1	O
+0	3	96	548	549	S	98	a	a	a	DT	O	det	O	-1	O
+0	3	97	550	556	S	98	Quiche	Quiche	Quiche	NNP	O	nn	O	-1	B-noun.person
+0	3	98	557	563		94	Indian	Indian	Indian	NNP	MISC	appos	O	-1	I-noun.person
+0	3	99	563	564	S	94	,	,	,	,	O	punct	O	-1	O
+0	3	100	565	568	S	101	can	can	can	MD	O	aux	O	-1	O
+0	3	101	569	575		92	recall	recall	recall	VB	O	dep	O	-1	B-verb.cognition
+0	3	102	575	576	S	107	,	,	,	,	O	punct	O	-1	O
+0	3	103	577	580	S	104	her	her	she	PRP$	O	poss	O	2	O
+0	3	104	581	585	S	107	life	life	life	NN	O	nsubj	O	-1	B-noun.cognition
+0	3	105	586	589	S	107	has	has	have	VBZ	O	aux	O	-1	O
+0	3	106	590	594	S	107	been	been	be	VBN	O	auxpass	O	-1	O
+0	3	107	595	600	N	-1	split	split	split	VBN	O	null	O	-1	B-verb.social
+0	3	108	601	608	S	107	between	between	between	IN	O	prep	O	-1	O
+0	3	109	609	612	S	110	the	the	the	DT	O	det	O	-1	O
+0	3	110	613	622	S	108	highlands	highlands	highland	NNS	O	pobj	O	-1	B-noun.object
+0	3	111	623	625	S	110	of	of	of	IN	O	prep	O	-1	O
+0	3	112	626	635		111	Guatemala	Guatemala	Guatemala	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	3	113	635	636	S	112	,	,	,	,	O	punct	O	-1	O
+0	3	114	637	642	S	112	known	known	know	VBN	O	partmod	O	-1	B-verb.cognition
+0	3	115	643	645	S	114	as	as	as	IN	O	prep	O	-1	O
+0	3	116	646	649	S	117	the	the	the	DT	O	det	O	-1	O
+0	3	117	650	659		115	Altiplano	Altiplano	Altiplano	NNP	LOCATION	pobj	O	-1	O
+0	3	118	659	660	S	107	,	,	,	,	O	punct	O	-1	O
+0	3	119	661	664	S	107	and	and	and	CC	O	cc	O	-1	O
+0	3	120	665	668	S	122	low	low	low	JJ	O	amod	O	-1	O
+0	3	121	669	676	N	122	country	country	country	NN	O	nn	O	-1	B-noun.group
+0	3	122	677	688		107	plantations	plantations	plantation	NNS	O	conj	O	-1	B-noun.possession
+0	3	123	688	689	S	122	,	,	,	,	O	punct	O	-1	O
+0	3	124	690	692	S	122	or	or	or	CC	O	cc	O	-1	O
+0	3	125	693	699		122	fincas	fincas	finca	NNS	O	conj	O	-1	O
+0	3	126	699	700	S	107	.	.	.	.	O	punct	O	-1	O
+0	4	127	701	705	S	128	Each	Each	each	DT	SET	det	O	-1	O
+0	4	128	706	710		134	year	year	year	NN	SET	tmod	O	-1	B-noun.time
+0	4	129	710	711	S	134	,	,	,	,	O	punct	O	-1	O
+0	4	130	712	715	S	134	she	she	she	PRP	O	nsubj	O	2	O
+0	4	131	716	719	S	130	and	and	and	CC	O	cc	O	-1	O
+0	4	132	720	723	S	133	her	her	she	PRP$	O	poss	O	2	O
+0	4	133	724	730	S	130	family	family	family	NN	O	conj	O	-1	B-noun.group
+0	4	134	731	736	S	-1	spend	spend	spend	VBP	O	null	O	-1	B-verb.stative
+0	4	135	737	742	S	134	about	about	about	IN	DURATION	prep	O	-1	O
+0	4	136	743	748	S	137	eight	eight	eight	CD	DURATION	num	O	-1	O
+0	4	137	749	755	S	135	months	months	month	NNS	DURATION	pobj	O	-1	B-noun.time
+0	4	138	756	758	N	134	at	at	at	IN	O	prep	O	-1	O
+0	4	139	759	762	S	138	the	the	the	DT	O	pobj	O	-1	O
+0	4	140	763	776	S	139	fincasworking	fincasworking	fincaswork	VBG	O	amod	O	-1	O
+0	4	141	777	780	S	139	for	for	for	IN	O	prep	O	-1	O
+0	4	142	781	788		141	ladinos	ladinos	ladino	NNS	O	pobj	O	-1	B-noun.person
+0	4	143	788	789	S	134	,	,	,	,	O	punct	O	-1	O
+0	4	144	790	801	S	134	Guatemalans	Guatemalans	guatemalan	NNS	MISC	dobj	O	-1	B-noun.person
+0	4	145	802	804	S	144	of	of	of	IN	O	prep	O	-1	O
+0	4	146	805	812	S	147	Spanish	Spanish	spanish	JJ	MISC	amod	O	-1	O
+0	4	147	813	820		145	descent	descent	descent	NN	O	pobj	O	-1	B-noun.event
+0	4	148	820	821	N	134	.	.	.	.	O	punct	O	-1	O
+0	5	149	822	832	S	153	Starvation	Starvation	starvation	NN	O	nsubj	O	-1	B-noun.state
+0	5	150	833	836	S	149	and	and	and	CC	O	cc	O	-1	O
+0	5	151	837	849	S	149	malnutrition	malnutrition	malnutrition	NN	O	conj	O	-1	B-noun.state
+0	5	152	850	853	S	153	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	5	153	854	863	S	-1	constants	constants	constant	NNS	O	null	O	-1	B-noun.cognition
+0	5	154	864	866	S	153	at	at	at	IN	O	prep	O	-1	O
+0	5	155	867	870	S	156	the	the	the	DT	O	det	O	-1	O
+0	5	156	871	876		154	finca	finca	finca	NN	O	pobj	O	-1	O
+0	5	157	876	877	S	153	,	,	,	,	O	punct	O	-1	O
+0	5	158	878	881	S	153	and	and	and	CC	O	cc	O	-1	O
+0	5	159	882	885	S	160	the	the	the	DT	O	det	O	-1	O
+0	5	160	886	893	S	163	Indians	Indians	Indians	NNPS	MISC	nsubjpass	O	-1	B-noun.person
+0	5	161	894	897	N	163	are	are	be	VBP	O	auxpass	O	-1	B-verb.stative
+0	5	162	898	907	S	163	routinely	routinely	routinely	RB	O	advmod	O	-1	O
+0	5	163	908	915	S	153	sprayed	sprayed	spray	VBN	O	conj	O	-1	B-verb.contact
+0	5	164	916	920	S	163	with	with	with	IN	O	prep	O	-1	O
+0	5	165	921	931		164	pesticides	pesticides	pesticide	NNS	O	pobj	O	-1	B-noun.substance
+0	5	166	931	932	S	153	.	.	.	.	O	punct	O	-1	O
+0	6	167	933	942	S	171	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	B-noun.person
+0	6	168	943	946	S	167	and	and	and	CC	O	cc	O	-1	O
+0	6	169	947	950	S	170	her	her	she	PRP$	O	poss	O	2	O
+0	6	170	951	957	S	167	people	people	people	NNS	O	conj	O	-1	B-noun.group
+0	6	171	958	962	S	-1	find	find	find	VBP	O	null	O	-1	B-verb.possession
+0	6	172	963	970	S	171	respite	respite	respite	NN	O	dobj	O	-1	B-noun.state
+0	6	173	971	973	S	171	in	in	in	IN	O	prep	O	-1	O
+0	6	174	974	977	N	175	the	the	the	DT	DURATION	det	O	-1	O
+0	6	175	978	984	S	173	months	months	month	NNS	DURATION	pobj	O	-1	B-noun.time
+0	6	176	985	989	S	177	they	they	they	PRP	O	nsubj	O	-1	O
+0	6	177	990	995	S	175	spend	spend	spend	VBP	O	rcmod	O	-1	B-verb.stative
+0	6	178	996	998	S	177	in	in	in	IN	O	prep	O	-1	O
+0	6	179	999	1004	S	181	their	their	they	PRP$	O	poss	O	-1	O
+0	6	180	1005	1010	S	181	small	small	small	JJ	O	amod	O	-1	O
+0	6	181	1011	1018	S	178	village	village	village	NN	O	pobj	O	-1	B-noun.group
+0	6	182	1019	1021	S	181	in	in	in	IN	O	prep	O	-1	O
+0	6	183	1022	1025	S	184	the	the	the	DT	O	det	O	-1	O
+0	6	184	1026	1035	S	182	Altiplano	Altiplano	Altiplano	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	6	185	1036	1040	S	187	that	that	that	IN	O	complm	O	-1	O
+0	6	186	1041	1045	S	187	they	they	they	PRP	O	nsubj	O	-1	O
+0	6	187	1046	1050	S	171	call	call	call	VBP	O	ccomp	O	-1	B-verb.communication
+0	6	188	1051	1055		187	home	home	home	NN	O	dobj	O	-1	O
+0	6	189	1055	1056	S	171	.	.	.	.	O	punct	O	-1	O
+0	7	190	1057	1059	N	212	In	In	in	IN	O	prep	O	-1	O
+0	7	191	1060	1063	S	194	the	the	the	DT	O	det	O	-1	O
+0	7	192	1064	1070	S	193	deeply	deeply	deeply	RB	O	advmod	O	-1	O
+0	7	193	1071	1077	S	194	wooded	wooded	wooded	JJ	O	amod	O	-1	O
+0	7	194	1078	1087		190	Altiplano	Altiplano	Altiplano	NNP	PERSON	pobj	O	-1	O
+0	7	195	1087	1088	S	212	,	,	,	,	O	punct	O	-1	O
+0	7	196	1089	1098		199	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	7	197	1098	1100	S	196	’s	's	's	POS	O	possessive	O	-1	O
+0	7	198	1101	1105	S	199	life	life	life	NN	O	nn	O	-1	B-noun.state
+0	7	199	1106	1113	S	212	centers	centers	center	NNS	O	nsubj	O	-1	B-noun.location
+0	7	200	1114	1120	S	199	around	around	around	IN	O	prep	O	-1	O
+0	7	201	1121	1124	S	202	the	the	the	DT	O	det	O	-1	O
+0	7	202	1125	1135	S	200	ceremonies	ceremonies	ceremony	NNS	O	pobj	O	-1	B-noun.event
+0	7	203	1136	1139	N	202	and	and	and	CC	O	cc	O	-1	O
+0	7	204	1140	1150	S	202	traditions	traditions	tradition	NNS	O	conj	O	-1	B-noun.cognition
+0	7	205	1151	1153	S	202	of	of	of	IN	O	prep	O	-1	O
+0	7	206	1154	1157	S	207	her	her	she	PRP$	O	poss	O	2	O
+0	7	207	1158	1167		205	community	community	community	NN	O	pobj	O	-1	B-noun.group
+0	7	208	1167	1168	S	212	,	,	,	,	O	punct	O	-1	O
+0	7	209	1169	1173	S	212	many	many	many	JJ	O	nsubj	O	-1	O
+0	7	210	1174	1176	S	209	of	of	of	IN	O	prep	O	-1	O
+0	7	211	1177	1182	S	210	which	which	which	WDT	O	pobj	O	-1	O
+0	7	212	1183	1192	S	-1	celebrate	celebrate	celebrate	VBP	O	null	O	-1	B-verb.social
+0	7	213	1193	1196	S	215	the	the	the	DT	O	det	O	-1	O
+0	7	214	1197	1204	S	215	natural	natural	natural	JJ	O	amod	O	-1	O
+0	7	215	1205	1210		212	world	world	world	NN	O	dobj	O	-1	B-noun.group
+0	7	216	1210	1211	S	212	.	.	.	.	O	punct	O	-1	O
+0	8	217	1212	1214	S	225	At	At	at	IN	O	prep	O	-1	O
+0	8	218	1215	1218	N	219	the	the	the	DT	O	det	O	-1	O
+0	8	219	1219	1225		217	fincas	fincas	finca	NNS	O	pobj	O	-1	O
+0	8	220	1225	1226	S	225	,	,	,	,	O	punct	O	-1	O
+0	8	221	1227	1230	S	225	she	she	she	PRP	O	nsubj	O	2	O
+0	8	222	1231	1234	S	221	and	and	and	CC	O	cc	O	-1	O
+0	8	223	1235	1238	S	224	her	her	she	PRP$	O	poss	O	2	O
+0	8	224	1239	1245	S	221	people	people	people	NNS	O	conj	O	-1	B-noun.group
+0	8	225	1246	1254	S	-1	struggle	struggle	struggle	VBP	O	null	O	-1	B-verb.social
+0	8	226	1255	1257	S	227	to	to	to	TO	O	aux	O	-1	O
+0	8	227	1258	1265	S	225	survive	survive	survive	VB	O	xcomp	O	-1	B-verb.stative
+0	8	228	1266	1268	S	227	in	in	in	IN	O	prep	O	-1	O
+0	8	229	1269	1276		232	cramped	cramped	cramped	JJ	O	amod	O	-1	O
+0	8	230	1276	1277	S	232	,	,	,	,	O	punct	O	-1	O
+0	8	231	1278	1287	S	232	miserable	miserable	miserable	JJ	O	amod	O	-1	O
+0	8	232	1288	1298	S	228	conditions	conditions	condition	NNS	O	pobj	O	-1	B-noun.state
+0	8	233	1299	1301	N	227	at	at	at	IN	O	prep	O	-1	O
+0	8	234	1302	1305	S	235	the	the	the	DT	O	det	O	-1	O
+0	8	235	1306	1311	S	233	mercy	mercy	mercy	NN	O	pobj	O	-1	B-noun.act
+0	8	236	1312	1314	S	235	of	of	of	IN	O	prep	O	-1	O
+0	8	237	1315	1322	S	238	wealthy	wealthy	wealthy	JJ	O	amod	O	-1	O
+0	8	238	1323	1333	S	236	landowners	landowners	landowner	NNS	O	pobj	O	-1	B-noun.person
+0	8	239	1334	1337	S	238	and	and	and	CC	O	cc	O	-1	O
+0	8	240	1338	1343	S	241	their	their	they	PRP$	O	poss	O	-1	O
+0	8	241	1344	1353		238	overseers	overseers	overseer	NNS	O	conj	O	-1	B-noun.person
+0	8	242	1353	1354	S	225	.	.	.	.	O	punct	O	-1	O
+0	9	243	1355	1359	S	244	They	They	they	PRP	O	nsubj	O	-1	O
+0	9	244	1360	1364	S	274	move	move	move	VBP	O	ccomp	O	-1	B-verb.motion
+0	9	245	1365	1372	S	244	between	between	between	IN	O	prep	O	-1	O
+0	9	246	1373	1376	S	248	the	the	the	DT	O	det	O	-1	O
+0	9	247	1377	1380	N	248	two	two	two	CD	NUMBER	num	O	-1	O
+0	9	248	1381	1387	S	245	worlds	worlds	world	NNS	O	pobj	O	-1	B-noun.object
+0	9	249	1388	1392	S	250	each	each	each	DT	SET	det	O	-1	O
+0	9	250	1393	1397	S	244	year	year	year	NN	SET	tmod	O	-1	B-noun.time
+0	9	251	1398	1400	S	244	in	in	in	IN	O	prep	O	-1	O
+0	9	252	1401	1402	S	253	a	a	a	DT	O	det	O	-1	O
+0	9	253	1403	1408	S	251	truck	truck	truck	NN	O	pobj	O	-1	B-noun.artifact
+0	9	254	1409	1416	S	253	covered	covered	cover	VBN	O	partmod	O	-1	B-verb.contact
+0	9	255	1417	1421	S	254	with	with	with	IN	O	prep	O	-1	O
+0	9	256	1422	1423	S	257	a	a	a	DT	O	det	O	-1	O
+0	9	257	1424	1428		255	tarp	tarp	tarp	NN	O	pobj	O	-1	B-noun.artifact
+0	9	258	1428	1429	S	244	,	,	,	,	O	punct	O	-1	O
+0	9	259	1430	1433	S	244	and	and	and	CC	O	cc	O	-1	O
+0	9	260	1434	1436	S	267	by	by	by	IN	O	prep	O	-1	O
+0	9	261	1437	1440	S	262	the	the	the	DT	O	det	O	-1	O
+0	9	262	1441	1445	S	260	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	9	263	1446	1449	S	267	she	she	she	PRP	O	nsubj	O	2	O
+0	9	264	1450	1452	S	267	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	9	265	1453	1458	S	266	eight	eight	eight	CD	DURATION	num	O	-1	O
+0	9	266	1459	1464	N	267	years	years	year	NNS	DURATION	measure	O	-1	B-noun.time
+0	9	267	1465	1468		244	old	old	old	JJ	DURATION	conj	O	-1	O
+0	9	268	1468	1469	S	274	,	,	,	,	O	punct	O	-1	O
+0	9	269	1470	1479	S	274	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	B-noun.person
+0	9	270	1480	1482	S	274	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	9	271	1483	1490	S	274	already	already	already	RB	O	advmod	O	-1	O
+0	9	272	1491	1492	S	274	a	a	a	DT	O	det	O	-1	O
+0	9	273	1493	1497	S	274	hard	hard	hard	JJ	O	amod	O	-1	O
+0	9	274	1498	1504		-1	worker	worker	worker	NN	O	null	O	-1	B-noun.person
+0	9	275	1504	1505	S	274	,	,	,	,	O	punct	O	-1	O
+0	9	276	1506	1513	S	274	capable	capable	capable	JJ	O	amod	O	-1	O
+0	9	277	1514	1516	S	276	of	of	of	IN	O	prep	O	-1	O
+0	9	278	1517	1524	S	277	picking	picking	pick	VBG	O	pcomp	O	-1	B-verb.cognition
+0	9	279	1525	1532	S	280	several	several	several	JJ	O	amod	O	-1	O
+0	9	280	1533	1539	S	278	pounds	pounds	pound	NNS	O	dobj	O	-1	B-noun.quantity
+0	9	281	1540	1542	S	280	of	of	of	IN	O	prep	O	-1	O
+0	9	282	1543	1549	N	281	coffee	coffee	coffee	NN	O	pobj	O	-1	B-noun.food
+0	9	283	1550	1554	S	284	each	each	each	DT	SET	det	O	-1	O
+0	9	284	1555	1558		278	day	day	day	NN	SET	tmod	O	-1	B-noun.time
+0	9	285	1558	1559	S	274	.	.	.	.	O	punct	O	-1	O
+0	10	286	1560	1566	S	288	Though	Though	though	IN	O	mark	O	-1	O
+0	10	287	1567	1570	S	288	she	she	she	PRP	O	nsubj	O	2	O
+0	10	288	1571	1576	S	-1	lives	lives	live	VBZ	O	null	O	-1	B-verb.stative
+0	10	289	1577	1579	S	288	in	in	in	IN	O	prep	O	-1	O
+0	10	290	1580	1581	S	293	a	a	a	DT	O	det	O	-1	O
+0	10	291	1582	1593	S	293	traditional	traditional	traditional	JJ	O	amod	O	-1	O
+0	10	292	1594	1600	S	293	Indian	Indian	indian	JJ	MISC	amod	O	-1	O
+0	10	293	1601	1608		289	society	society	society	NN	O	pobj	O	-1	B-noun.group
+0	10	294	1608	1609	S	288	,	,	,	,	O	punct	O	-1	O
+0	10	295	1610	1619		297	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	10	296	1619	1621	S	295	’s	's	's	POS	O	possessive	O	-1	O
+0	10	297	1622	1631	S	294	awareness	awareness	awareness	NN	O	dobj	O	-1	B-noun.cognition
+0	10	298	1632	1634	S	297	of	of	of	IN	O	prep	O	-1	O
+0	10	299	1635	1636	N	300	a	a	a	DT	O	det	O	-1	O
+0	10	300	1637	1642	S	298	world	world	world	NN	O	pobj	O	-1	B-noun.object
+0	10	301	1643	1649	S	297	beyond	beyond	beyond	IN	O	prep	O	-1	O
+0	10	302	1650	1653	S	303	the	the	the	DT	O	det	O	-1	O
+0	10	303	1654	1659	S	301	finca	finca	finca	NN	O	pobj	O	-1	B-noun.person
+0	10	304	1660	1663	S	303	and	and	and	CC	O	cc	O	-1	O
+0	10	305	1664	1667	S	306	the	the	the	DT	O	det	O	-1	O
+0	10	306	1668	1677	S	307	Altiplano	Altiplano	Altiplano	NNP	O	nsubj	O	-1	B-noun.person
+0	10	307	1678	1684	S	303	begins	begins	begin	VBZ	O	conj	O	-1	B-verb.change
+0	10	308	1685	1687	S	307	to	to	to	TO	O	prep	O	-1	O
+0	10	309	1688	1692	S	308	dawn	dawn	dawn	NN	O	pobj	O	-1	B-noun.time
+0	10	310	1693	1697	S	315	when	when	when	WRB	O	advmod	O	-1	O
+0	10	311	1698	1701	S	315	she	she	she	PRP	O	nsubj	O	2	O
+0	10	312	1702	1704	S	315	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	10	313	1705	1710	S	315	still	still	still	RB	O	advmod	O	-1	O
+0	10	314	1711	1716	N	315	quite	quite	quite	RB	O	advmod	O	-1	O
+0	10	315	1717	1722		297	young	young	young	JJ	O	advcl	O	-1	O
+0	10	316	1722	1723	S	288	.	.	.	.	O	punct	O	-1	O
+0	11	317	1724	1728	S	324	When	When	when	WRB	O	advmod	O	-1	O
+0	11	318	1729	1732	S	320	her	her	she	PRP$	O	poss	O	2	O
+0	11	319	1733	1740	S	320	younger	younger	younger	JJR	O	amod	O	-1	O
+0	11	320	1741	1748		324	brother	brother	brother	NN	O	nsubj	O	-1	B-noun.person
+0	11	321	1748	1749	S	320	,	,	,	,	O	punct	O	-1	O
+0	11	322	1750	1757		320	Nicolas	Nicolas	Nicolas	NNP	PERSON	appos	O	-1	O
+0	11	323	1757	1758	S	320	,	,	,	,	O	punct	O	-1	O
+0	11	324	1759	1763	S	333	dies	dies	die	VBZ	O	dep	O	-1	B-verb.change
+0	11	325	1764	1766	S	324	of	of	of	IN	O	prep	O	-1	O
+0	11	326	1767	1779	S	325	malnutrition	malnutrition	malnutrition	NN	O	pobj	O	-1	B-noun.state
+0	11	327	1780	1785	S	324	while	while	while	IN	O	prep	O	-1	O
+0	11	328	1786	1788	S	327	at	at	at	IN	O	dep	O	-1	O
+0	11	329	1789	1792	S	330	the	the	the	DT	O	det	O	-1	O
+0	11	330	1793	1798		328	finca	finca	finca	NN	O	pobj	O	-1	O
+0	11	331	1798	1799	N	333	,	,	,	,	O	punct	O	-1	O
+0	11	332	1800	1809	S	333	Rigoberta	Rigoberta	rigoberta	NN	PERSON	nsubj	O	2	O
+0	11	333	1810	1816	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	11	334	1817	1819	S	335	to	to	to	TO	O	aux	O	-1	O
+0	11	335	1820	1824	S	333	feel	feel	feel	VB	O	xcomp	O	-1	B-verb.emotion
+0	11	336	1825	1829	S	337	both	both	both	CC	O	preconj	O	-1	O
+0	11	337	1830	1835	S	335	angry	angry	angry	JJ	O	acomp	O	-1	O
+0	11	338	1836	1839	S	337	and	and	and	CC	O	cc	O	-1	O
+0	11	339	1840	1846	S	337	afraid	afraid	afraid	JJ	O	conj	O	-1	O
+0	11	340	1847	1849	S	339	of	of	of	IN	O	prep	O	-1	O
+0	11	341	1850	1854	S	345	what	what	what	WP	O	dobj	O	-1	O
+0	11	342	1855	1858	S	343	the	the	the	DT	DATE	det	O	-1	O
+0	11	343	1859	1865	S	345	future	future	future	NN	DATE	nsubj	O	-1	B-noun.time
+0	11	344	1866	1870	S	345	will	will	will	MD	O	aux	O	-1	O
+0	11	345	1871	1875	S	340	hold	hold	hold	VB	O	pcomp	O	-1	B-verb.stative
+0	11	346	1876	1879	S	345	for	for	for	IN	O	prep	O	-1	O
+0	11	347	1880	1883		346	her	her	she	PRP	O	pobj	O	2	O
+0	11	348	1883	1884	N	333	.	.	.	.	O	punct	O	-1	O
+0	12	349	1885	1893	S	367	Visiting	Visiting	visit	VBG	O	dep	O	-1	B-verb.social
+0	12	350	1894	1903	S	351	Guatemala	Guatemala	Guatemala	NNP	LOCATION	nn	O	-1	B-noun.location
+0	12	351	1904	1908		349	City	City	City	NNP	LOCATION	dobj	O	-1	I-noun.location
+0	12	352	1908	1909	S	351	,	,	,	,	O	punct	O	-1	O
+0	12	353	1910	1913	S	354	the	the	the	DT	O	det	O	-1	O
+0	12	354	1914	1921	S	351	capital	capital	capital	NN	O	appos	O	-1	B-noun.location
+0	12	355	1922	1924	S	354	of	of	of	IN	O	prep	O	-1	O
+0	12	356	1925	1934		355	Guatemala	Guatemala	Guatemala	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	12	357	1934	1935	S	351	,	,	,	,	O	punct	O	-1	O
+0	12	358	1936	1940	S	349	with	with	with	IN	O	prep	O	-1	O
+0	12	359	1941	1944	S	360	her	her	she	PRP$	O	poss	O	2	O
+0	12	360	1945	1951		358	father	father	father	NN	O	pobj	O	-1	B-noun.person
+0	12	361	1951	1952	S	360	,	,	,	,	O	punct	O	-1	O
+0	12	362	1953	1957	S	364	whom	whom	whom	WP	O	dobj	O	-1	O
+0	12	363	1958	1961	N	364	she	she	she	PRP	O	nsubj	O	2	O
+0	12	364	1962	1970		360	idolizes	idolizes	idolize	VBZ	O	rcmod	O	-1	B-verb.emotion
+0	12	365	1970	1971	S	367	,	,	,	,	O	punct	O	-1	O
+0	12	366	1972	1981	S	367	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	B-noun.person
+0	12	367	1982	1984	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	12	368	1985	1987	S	367	at	at	at	IN	O	prep	O	-1	O
+0	12	369	1988	1992	S	370	once	once	once	RB	DATE	advmod	O	-1	O
+0	12	370	1993	2002	S	368	terrified	terrified	terrify	VBN	O	pcomp	O	-1	B-verb.emotion
+0	12	371	2003	2006	S	370	and	and	and	CC	O	cc	O	-1	O
+0	12	372	2007	2016		370	compelled	compelled	compel	VBN	O	conj	O	-1	O
+0	12	373	2016	2017	S	367	.	.	.	.	O	punct	O	-1	O
+0	13	374	2018	2020	S	376	As	As	as	IN	O	mark	O	-1	O
+0	13	375	2021	2024	S	376	she	she	she	PRP	O	nsubj	O	2	O
+0	13	376	2025	2030	S	386	grows	grows	grow	VBZ	O	advcl	O	-1	B-verb.change
+0	13	377	2031	2036	S	376	older	older	older	JJR	O	dobj	O	-1	O
+0	13	378	2037	2040	N	376	and	and	and	CC	O	cc	O	-1	O
+0	13	379	2041	2047	S	376	begins	begins	begin	VBZ	O	conj	O	-1	B-verb.change
+0	13	380	2048	2050	S	381	to	to	to	TO	O	aux	O	-1	O
+0	13	381	2051	2058	S	379	develop	develop	develop	VB	O	xcomp	O	-1	B-verb.creation
+0	13	382	2059	2060	S	383	a	a	a	DT	O	det	O	-1	O
+0	13	383	2061	2071		381	conscience	conscience	conscience	NN	O	dobj	O	-1	B-noun.motive
+0	13	384	2071	2072	S	386	,	,	,	,	O	punct	O	-1	O
+0	13	385	2073	2082	S	386	Rigoberta	Rigoberta	rigoberta	NN	PERSON	nsubj	O	2	O
+0	13	386	2083	2089	S	-1	starts	starts	start	VBZ	O	null	O	-1	B-verb.change
+0	13	387	2090	2092	S	388	to	to	to	TO	O	aux	O	-1	O
+0	13	388	2093	2098	S	386	yearn	yearn	yearn	VB	O	xcomp	O	-1	B-verb.emotion
+0	13	389	2099	2102	S	388	for	for	for	IN	O	prep	O	-1	O
+0	13	390	2103	2109		389	change	change	change	NN	O	pobj	O	-1	B-noun.relation
+0	13	391	2109	2110	S	390	,	,	,	,	O	punct	O	-1	O
+0	13	392	2111	2115	S	393	both	both	both	DT	O	preconj	O	-1	O
+0	13	393	2116	2119	N	390	for	for	for	IN	O	prep	O	-1	O
+0	13	394	2120	2127	S	393	herself	herself	herself	PRP	O	pobj	O	-1	O
+0	13	395	2128	2131	S	393	and	and	and	CC	O	cc	O	-1	O
+0	13	396	2132	2135	S	393	for	for	for	IN	O	conj	O	-1	O
+0	13	397	2136	2139	S	398	her	her	she	PRP$	O	poss	O	2	O
+0	13	398	2140	2149		396	community	community	community	NN	O	pobj	O	-1	B-noun.group
+0	13	399	2149	2150	S	386	.	.	.	.	O	punct	O	-1	O
+0	14	400	2151	2154	S	401	She	She	she	PRP	O	nsubj	O	2	O
+0	14	401	2155	2161	S	-1	craves	craves	crave	VBZ	O	null	O	-1	B-verb.consumption
+0	14	402	2162	2171	S	401	education	education	education	NN	O	dobj	O	-1	B-noun.act
+0	14	403	2172	2175	S	402	and	and	and	CC	O	cc	O	-1	O
+0	14	404	2176	2182	S	402	wishes	wishes	wish	NNS	O	conj	O	-1	B-noun.feeling
+0	14	405	2183	2188	S	402	above	above	above	IN	O	advmod	O	-1	O
+0	14	406	2189	2192	S	405	all	all	all	DT	O	pobj	O	-1	O
+0	14	407	2193	2195	S	408	to	to	to	TO	O	aux	O	-1	O
+0	14	408	2196	2201	S	402	learn	learn	learn	VB	O	infmod	O	-1	B-verb.cognition
+0	14	409	2202	2204	N	410	to	to	to	TO	O	aux	O	-1	O
+0	14	410	2205	2210	S	408	speak	speak	speak	VB	O	xcomp	O	-1	B-verb.communication
+0	14	411	2211	2218	S	410	Spanish	Spanish	Spanish	NNP	MISC	dobj	O	-1	B-noun.person
+0	14	412	2219	2221	S	416	so	so	so	IN	O	mark	O	-1	O
+0	14	413	2222	2226	S	416	that	that	that	IN	O	dep	O	-1	O
+0	14	414	2227	2230	S	416	she	she	she	PRP	O	nsubj	O	2	O
+0	14	415	2231	2234	S	416	can	can	can	MD	O	aux	O	-1	O
+0	14	416	2235	2242	S	410	explore	explore	explore	VB	O	advcl	O	-1	B-verb.cognition
+0	14	417	2243	2246	S	418	the	the	the	DT	O	det	O	-1	O
+0	14	418	2247	2252	S	416	world	world	world	NN	O	dobj	O	-1	B-noun.group
+0	14	419	2253	2260	S	416	outside	outside	outside	IN	O	prep	O	-1	O
+0	14	420	2261	2263	S	419	of	of	of	IN	O	dep	O	-1	O
+0	14	421	2264	2267	S	422	the	the	the	DT	O	det	O	-1	O
+0	14	422	2268	2277	S	420	Altiplano	Altiplano	Altiplano	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	14	423	2278	2281	S	422	and	and	and	CC	O	cc	O	-1	O
+0	14	424	2282	2285	N	425	the	the	the	DT	O	det	O	-1	O
+0	14	425	2286	2291		422	finca	finca	finca	NN	O	conj	O	-1	O
+0	14	426	2291	2292	S	401	.	.	.	.	O	punct	O	-1	O
+0	15	427	2293	2299	S	429	Though	Though	though	IN	O	mark	O	-1	O
+0	15	428	2300	2303	S	429	she	she	she	PRP	O	nsubj	O	2	O
+0	15	429	2304	2310	S	448	begins	begins	begin	VBZ	O	advcl	O	-1	B-verb.change
+0	15	430	2311	2313	S	431	to	to	to	TO	O	aux	O	-1	O
+0	15	431	2314	2320	S	429	follow	follow	follow	VB	O	xcomp	O	-1	B-verb.stative
+0	15	432	2321	2323	S	431	in	in	in	IN	O	prep	O	-1	O
+0	15	433	2324	2327	S	434	her	her	she	PRP$	O	poss	O	2	O
+0	15	434	2328	2334		436	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	15	435	2334	2336	S	434	’s	's	's	POS	O	possessive	O	-1	O
+0	15	436	2337	2346	S	432	footsteps	footsteps	footstep	NNS	O	pobj	O	-1	B-noun.quantity
+0	15	437	2347	2350	S	431	and	and	and	CC	O	cc	O	-1	O
+0	15	438	2351	2355	S	431	take	take	take	VB	O	conj	O	-1	B-verb.social
+0	15	439	2356	2358	S	438	on	on	on	RP	O	prt	O	-1	O
+0	15	440	2359	2369	N	441	leadership	leadership	leadership	NN	O	nn	O	-1	B-noun.act
+0	15	441	2370	2376	S	438	duties	duties	duty	NNS	O	dobj	O	-1	B-noun.act
+0	15	442	2377	2379	S	438	in	in	in	IN	O	prep	O	-1	O
+0	15	443	2380	2383	S	444	her	her	she	PRP$	O	poss	O	2	O
+0	15	444	2384	2393		442	community	community	community	NN	O	pobj	O	-1	B-noun.group
+0	15	445	2393	2394	S	448	,	,	,	,	O	punct	O	-1	O
+0	15	446	2395	2398	S	448	she	she	she	PRP	O	nsubj	O	2	O
+0	15	447	2399	2403	S	448	also	also	also	RB	O	advmod	O	-1	O
+0	15	448	2404	2410	S	-1	yearns	yearns	yearn	VBZ	O	null	O	-1	B-verb.emotion
+0	15	449	2411	2413	S	450	to	to	to	TO	O	aux	O	-1	O
+0	15	450	2414	2419	S	448	learn	learn	learn	VB	O	xcomp	O	-1	B-verb.cognition
+0	15	451	2420	2425	S	450	about	about	about	IN	O	prep	O	-1	O
+0	15	452	2426	2429	S	453	the	the	the	DT	O	det	O	-1	O
+0	15	453	2430	2435	S	451	world	world	world	NN	O	pobj	O	-1	B-noun.object
+0	15	454	2436	2439	S	453	and	and	and	CC	O	cc	O	-1	O
+0	15	455	2440	2443	S	456	its	its	its	PRP$	O	poss	O	-1	O
+0	15	456	2444	2450		453	people	people	people	NNS	O	conj	O	-1	B-noun.group
+0	15	457	2450	2451	S	448	.	.	.	.	O	punct	O	-1	O
+0	16	458	2452	2456	S	461	When	When	when	WRB	O	advmod	O	-1	O
+0	16	459	2457	2460		461	she	she	she	PRP	O	nsubjpass	O	2	O
+0	16	460	2460	2462	S	461	’s	's	be	VBZ	O	auxpass	O	-1	O
+0	16	461	2463	2470	S	479	offered	offered	offer	VBN	O	dep	O	-1	B-verb.possession
+0	16	462	2471	2472	S	463	a	a	a	DT	O	det	O	-1	O
+0	16	463	2473	2476	S	461	job	job	job	NN	O	dobj	O	-1	B-noun.act
+0	16	464	2477	2479	S	461	as	as	as	IN	O	prep	O	-1	O
+0	16	465	2480	2481	S	466	a	a	a	DT	O	det	O	-1	O
+0	16	466	2482	2486	S	464	maid	maid	maid	NN	O	pobj	O	-1	B-noun.person
+0	16	467	2487	2489	S	466	at	at	at	IN	O	prep	O	-1	O
+0	16	468	2490	2493	S	469	the	the	the	DT	O	det	O	-1	O
+0	16	469	2494	2498	S	467	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	16	470	2499	2501	S	469	of	of	of	IN	O	prep	O	-1	O
+0	16	471	2502	2503	S	473	a	a	a	DT	O	det	O	-1	O
+0	16	472	2504	2511	S	473	wealthy	wealthy	wealthy	JJ	O	amod	O	-1	O
+0	16	473	2512	2521	S	470	landowner	landowner	landowner	NN	O	pobj	O	-1	B-noun.person
+0	16	474	2522	2524	N	473	in	in	in	IN	O	prep	O	-1	O
+0	16	475	2525	2534	S	476	Guatemala	Guatemala	Guatemala	NNP	LOCATION	nn	O	-1	B-noun.location
+0	16	476	2535	2539		474	City	City	City	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	16	477	2539	2540	S	479	,	,	,	,	O	punct	O	-1	O
+0	16	478	2541	2550	S	479	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	O
+0	16	479	2551	2556	S	-1	leaps	leaps	leap	VBZ	O	null	O	-1	B-verb.motion
+0	16	480	2557	2559	S	479	at	at	at	IN	O	prep	O	-1	O
+0	16	481	2560	2563	S	482	the	the	the	DT	O	det	O	-1	O
+0	16	482	2564	2575		480	opportunity	opportunity	opportunity	NN	O	pobj	O	-1	B-noun.state
+0	16	483	2575	2576	S	479	,	,	,	,	O	punct	O	-1	O
+0	16	484	2577	2583	S	479	hoping	hoping	hope	VBG	O	xcomp	O	-1	B-verb.emotion
+0	16	485	2584	2587		487	she	she	she	PRP	O	nsubj	O	2	O
+0	16	486	2587	2590	S	487	’ll	'll	will	MD	O	aux	O	-1	O
+0	16	487	2591	2594	S	484	get	get	get	VB	O	ccomp	O	-1	B-verb.possession
+0	16	488	2595	2596	S	489	a	a	a	DT	O	det	O	-1	O
+0	16	489	2597	2603	S	487	chance	chance	chance	NN	O	dobj	O	-1	B-noun.state
+0	16	490	2604	2606	N	491	to	to	to	TO	O	aux	O	-1	O
+0	16	491	2607	2613	S	489	master	master	master	VB	O	infmod	O	-1	B-verb.cognition
+0	16	492	2614	2621		491	Spanish	Spanish	Spanish	NNP	MISC	dobj	O	-1	O
+0	16	493	2621	2622	S	479	.	.	.	.	O	punct	O	-1	O
+0	17	494	2623	2634	S	495	Immediately	Immediately	immediately	RB	O	dep	O	-1	O
+0	17	495	2635	2639	S	504	upon	upon	upon	IN	O	advcl	O	-1	O
+0	17	496	2640	2648	S	495	arriving	arriving	arrive	VBG	O	pcomp	O	-1	B-verb.motion
+0	17	497	2649	2651	S	496	in	in	in	IN	O	prep	O	-1	O
+0	17	498	2652	2661	S	499	Guatemala	Guatemala	Guatemala	NNP	LOCATION	nn	O	-1	B-noun.location
+0	17	499	2662	2666		497	City	City	City	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	17	500	2666	2667	S	504	,	,	,	,	O	punct	O	-1	O
+0	17	501	2668	2675		504	however	however	however	RB	O	advmod	O	-1	O
+0	17	502	2675	2676	S	504	,	,	,	,	O	punct	O	-1	O
+0	17	503	2677	2680	N	504	she	she	she	PRP	O	nsubj	O	2	O
+0	17	504	2681	2692	S	-1	understands	understands	understand	VBZ	O	null	O	-1	B-verb.cognition
+0	17	505	2693	2696	S	506	the	the	the	DT	O	det	O	-1	O
+0	17	506	2697	2711	S	504	discrimination	discrimination	discrimination	NN	O	dobj	O	-1	B-noun.cognition
+0	17	507	2712	2716	S	508	that	that	that	WDT	O	nsubj	O	-1	O
+0	17	508	2717	2723	S	506	exists	exists	exist	VBZ	O	rcmod	O	-1	B-verb.stative
+0	17	509	2724	2727	S	508	for	for	for	IN	O	prep	O	-1	O
+0	17	510	2728	2734	S	509	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	17	511	2735	2737	S	510	of	of	of	IN	O	prep	O	-1	O
+0	17	512	2738	2741	S	513	her	her	she	PRP$	O	poss	O	2	O
+0	17	513	2742	2750		511	heritage	heritage	heritage	NN	O	pobj	O	-1	B-noun.cognition
+0	17	514	2750	2751	S	504	.	.	.	.	O	punct	O	-1	O
+0	18	515	2752	2754	N	525	At	At	at	IN	O	prep	O	-1	O
+0	18	516	2755	2758	S	517	the	the	the	DT	O	det	O	-1	O
+0	18	517	2759	2768		519	landowner	landowner	landowner	NN	O	poss	O	-1	B-noun.person
+0	18	518	2768	2770	S	517	’s	's	's	POS	O	possessive	O	-1	O
+0	18	519	2771	2775		515	home	home	home	NN	O	pobj	O	-1	O
+0	18	520	2775	2776	S	525	,	,	,	,	O	punct	O	-1	O
+0	18	521	2777	2781	S	523	even	even	even	RB	O	advmod	O	-1	O
+0	18	522	2782	2785	S	523	the	the	the	DT	O	det	O	-1	O
+0	18	523	2786	2789	S	525	dog	dog	dog	NN	O	nsubjpass	O	-1	B-noun.animal
+0	18	524	2790	2792	S	525	is	is	be	VBZ	O	auxpass	O	-1	O
+0	18	525	2793	2800	S	-1	treated	treated	treat	VBN	O	null	O	-1	B-verb.change
+0	18	526	2801	2807	S	525	better	better	better	JJR	O	acomp	O	-1	O
+0	18	527	2808	2812	S	526	than	than	than	IN	O	prep	O	-1	O
+0	18	528	2813	2816		527	she	she	she	PRP	O	pobj	O	2	O
+0	18	529	2816	2817	S	525	.	.	.	.	O	punct	O	-1	O
+0	19	530	2818	2821	S	533	The	The	the	DT	O	det	O	-1	O
+0	19	531	2822	2826	N	532	most	most	most	RBS	O	advmod	O	-1	O
+0	19	532	2827	2838	S	533	influential	influential	influential	JJ	O	amod	O	-1	O
+0	19	533	2839	2844	S	547	force	force	force	NN	O	nsubj	O	-1	B-noun.attribute
+0	19	534	2845	2847	S	533	in	in	in	IN	O	prep	O	-1	O
+0	19	535	2848	2857		537	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	19	536	2857	2859	S	535	’s	's	's	POS	O	possessive	O	-1	O
+0	19	537	2860	2864	S	534	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	19	538	2865	2867	S	540	as	as	as	IN	O	mark	O	-1	O
+0	19	539	2868	2871	S	540	she	she	she	PRP	O	nsubj	O	2	O
+0	19	540	2872	2879	S	547	figures	figures	figure	VBZ	O	csubj	O	-1	B-verb.cognition
+0	19	541	2880	2883	S	540	out	out	out	RP	O	prt	O	-1	O
+0	19	542	2884	2887	S	545	the	the	the	DT	O	det	O	-1	O
+0	19	543	2888	2895	N	545	various	various	various	JJ	O	amod	O	-1	O
+0	19	544	2896	2905	S	545	household	household	household	NN	O	nn	O	-1	B-noun.group
+0	19	545	2906	2911	S	540	tasks	tasks	task	NNS	O	dobj	O	-1	B-noun.act
+0	19	546	2912	2914	S	547	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	19	547	2915	2925		-1	Candelaria	Candelaria	Candelaria	NNP	LOCATION	null	O	-1	O
+0	19	548	2925	2926	S	547	.	.	.	.	O	punct	O	-1	O
+0	20	549	2927	2931	S	560	Like	Like	like	IN	O	prep	O	-1	O
+0	20	550	2932	2941		549	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	pobj	O	2	B-noun.person
+0	20	551	2941	2942	S	560	,	,	,	,	O	punct	O	-1	O
+0	20	552	2943	2953	S	560	Candelaria	Candelaria	Candelaria	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	20	553	2954	2956	S	560	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	20	554	2957	2959	S	560	an	an	a	DT	O	nsubjpass	O	-1	O
+0	20	555	2960	2966		560	Indian	Indian	indian	JJ	MISC	advmod	O	-1	O
+0	20	556	2966	2967	S	560	,	,	,	,	O	punct	O	-1	O
+0	20	557	2968	2971	N	560	yet	yet	yet	RB	O	advmod	O	-1	O
+0	20	558	2972	2975	S	560	she	she	she	PRP	O	nsubj	O	2	O
+0	20	559	2976	2979	S	560	has	has	have	VBZ	O	aux	O	-1	O
+0	20	560	2980	2987	S	-1	learned	learned	learn	VBN	O	null	O	-1	B-verb.cognition
+0	20	561	2988	2990	S	562	to	to	to	TO	O	aux	O	-1	O
+0	20	562	2991	2996	S	560	speak	speak	speak	VB	O	xcomp	O	-1	B-verb.communication
+0	20	563	2997	3004	S	562	Spanish	Spanish	Spanish	NNP	MISC	dobj	O	-1	B-noun.person
+0	20	564	3005	3008	S	563	and	and	and	CC	O	cc	O	-1	O
+0	20	565	3009	3016	S	563	dresses	dresses	dress	NNS	O	conj	O	-1	B-noun.artifact
+0	20	566	3017	3019	S	562	as	as	as	IN	O	prep	O	-1	O
+0	20	567	3020	3021	S	568	a	a	a	DT	O	det	O	-1	O
+0	20	568	3022	3028		566	ladino	ladino	ladino	NN	O	pobj	O	-1	B-noun.person
+0	20	569	3028	3029	S	560	.	.	.	.	O	punct	O	-1	O
+0	21	570	3030	3033	S	573	She	She	she	PRP	O	nsubj	O	2	O
+0	21	571	3034	3037	S	573	has	has	have	VBZ	O	aux	O	-1	O
+0	21	572	3038	3042	N	573	also	also	also	RB	O	advmod	O	-1	O
+0	21	573	3043	3050	S	-1	figured	figured	figure	VBN	O	null	O	-1	B-verb.cognition
+0	21	574	3051	3054	S	573	out	out	out	RP	O	prt	O	-1	O
+0	21	575	3055	3058	S	577	how	how	how	WRB	O	advmod	O	-1	O
+0	21	576	3059	3061	S	577	to	to	to	TO	O	aux	O	-1	O
+0	21	577	3062	3065	S	573	get	get	get	VB	O	ccomp	O	-1	B-verb.change
+0	21	578	3066	3071	S	577	under	under	under	IN	O	prep	O	-1	O
+0	21	579	3072	3075	S	580	the	the	the	DT	O	det	O	-1	O
+0	21	580	3076	3084		582	mistress	mistress	mistress	NN	O	poss	O	-1	B-noun.person
+0	21	581	3084	3086	S	580	’s	's	's	POS	O	possessive	O	-1	O
+0	21	582	3087	3091	S	578	skin	skin	skin	NN	O	pobj	O	-1	B-noun.body
+0	21	583	3092	3095	S	573	and	and	and	CC	O	cc	O	-1	O
+0	21	584	3096	3105	S	585	routinely	routinely	routinely	RB	O	advmod	O	-1	O
+0	21	585	3106	3115	S	573	sabotages	sabotages	sabotage	VBZ	O	conj	O	-1	B-verb.social
+0	21	586	3116	3119	S	585	her	her	she	PRP	O	dobj	O	2	O
+0	21	587	3120	3122	N	585	by	by	by	IN	O	prep	O	-1	O
+0	21	588	3123	3133	S	587	neglecting	neglecting	neglect	VBG	O	pcomp	O	-1	B-verb.cognition
+0	21	589	3134	3141	S	590	certain	certain	certain	JJ	O	amod	O	-1	O
+0	21	590	3142	3148	S	588	chores	chores	chore	NNS	O	dobj	O	-1	B-noun.act
+0	21	591	3149	3152	S	588	and	and	and	CC	O	cc	O	-1	O
+0	21	592	3153	3160	S	588	talking	talking	talk	VBG	O	conj	O	-1	B-verb.communication
+0	21	593	3161	3165		592	back	back	back	RB	O	advmod	O	-1	O
+0	21	594	3165	3166	S	573	.	.	.	.	O	punct	O	-1	O
+0	22	595	3167	3171	S	599	When	When	when	WRB	O	advmod	O	-1	O
+0	22	596	3172	3181		598	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	22	597	3181	3183	S	596	’s	's	's	POS	O	possessive	O	-1	O
+0	22	598	3184	3190	S	599	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	22	599	3191	3196	S	611	comes	comes	come	VBZ	O	dep	O	-1	B-verb.motion
+0	22	600	3197	3199	S	599	to	to	to	TO	O	prep	O	-1	O
+0	22	601	3200	3203	N	602	the	the	the	DT	O	det	O	-1	O
+0	22	602	3204	3212		604	mistress	mistress	mistress	NN	O	poss	O	-1	B-noun.person
+0	22	603	3212	3214	S	602	’s	's	's	POS	O	possessive	O	-1	O
+0	22	604	3215	3220	S	600	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	22	605	3221	3224	S	599	and	and	and	CC	O	cc	O	-1	O
+0	22	606	3225	3229	S	599	asks	asks	ask	VBZ	O	conj	O	-1	B-verb.communication
+0	22	607	3230	3233	S	606	for	for	for	IN	O	prep	O	-1	O
+0	22	608	3234	3239		607	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	22	609	3239	3240	S	611	,	,	,	,	O	punct	O	-1	O
+0	22	610	3241	3251	S	611	Candelaria	Candelaria	Candelaria	NNP	PERSON	nsubj	O	3	O
+0	22	611	3252	3261	S	-1	convinces	convinces	convince	VBZ	O	null	O	-1	B-verb.communication
+0	22	612	3262	3265	S	613	the	the	the	DT	O	det	O	-1	O
+0	22	613	3266	3274	S	615	mistress	mistress	mistress	NN	O	nsubj	O	-1	B-noun.person
+0	22	614	3275	3277	N	615	to	to	to	TO	O	aux	O	-1	O
+0	22	615	3278	3288		611	contribute	contribute	contribute	VB	O	ccomp	O	-1	B-verb.possession
+0	22	616	3288	3289	S	611	.	.	.	.	O	punct	O	-1	O
+0	23	617	3290	3299	S	620	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	B-noun.person
+0	23	618	3300	3304		620	does	does	do	VBZ	O	aux	O	-1	O
+0	23	619	3304	3307	S	620	n’t	n't	not	RB	O	neg	O	-1	O
+0	23	620	3308	3314	S	-1	follow	follow	follow	VB	O	null	O	-1	B-verb.stative
+0	23	621	3315	3317	S	620	in	in	in	IN	O	prep	O	-1	O
+0	23	622	3318	3328		624	Candelaria	Candelaria	Candelaria	NNP	LOCATION	poss	O	-1	B-noun.person
+0	23	623	3328	3330	S	622	’s	's	's	POS	O	possessive	O	-1	O
+0	23	624	3331	3340	S	621	footsteps	footsteps	footstep	NNS	O	pobj	O	-1	B-noun.quantity
+0	23	625	3341	3346	S	626	right	right	right	RB	O	advmod	O	-1	O
+0	23	626	3347	3351		624	away	away	away	RB	O	advmod	O	-1	O
+0	23	627	3351	3352	S	620	,	,	,	,	O	punct	O	-1	O
+0	23	628	3353	3356	N	620	but	but	but	CC	O	cc	O	-1	O
+0	23	629	3357	3367		632	Candelaria	Candelaria	Candelaria	NNP	ORGANIZATION	poss	O	3	B-noun.person
+0	23	630	3367	3369	S	629	’s	's	's	POS	O	possessive	O	-1	O
+0	23	631	3370	3380	S	632	rebellious	rebellious	rebellious	JJ	O	amod	O	-1	O
+0	23	632	3381	3387	S	633	spirit	spirit	spirit	NN	O	nsubj	O	-1	B-noun.person
+0	23	633	3388	3391	S	620	has	has	have	VBZ	O	conj	O	-1	B-verb.possession
+0	23	634	3392	3394	S	635	an	an	a	DT	O	det	O	-1	O
+0	23	635	3395	3401	S	639	impact	impact	impact	NN	O	advmod	O	-1	B-noun.event
+0	23	636	3402	3404	S	639	on	on	on	IN	O	nsubj	O	-1	O
+0	23	637	3405	3408	S	639	her	her	she	PRP$	O	punct	O	2	O
+0	23	638	3409	3413	S	639	that	that	that	WDT	O	nsubj	O	-1	O
+0	23	639	3414	3423	S	633	continues	continues	continue	VBZ	O	ccomp	O	-1	B-verb.stative
+0	23	640	3424	3428	S	639	even	even	even	RB	O	advmod	O	-1	O
+0	23	641	3429	3434	N	644	after	after	after	IN	O	mark	O	-1	O
+0	23	642	3435	3445	S	644	Candelaria	Candelaria	Candelaria	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	23	643	3446	3448	S	644	is	is	be	VBZ	O	auxpass	O	-1	O
+0	23	644	3449	3455	S	639	booted	booted	boot	VBN	O	advcl	O	-1	B-verb.contact
+0	23	645	3456	3459	S	644	out	out	out	IN	O	prep	O	-1	O
+0	23	646	3460	3462	S	645	of	of	of	IN	O	dep	O	-1	O
+0	23	647	3463	3466	S	648	the	the	the	DT	O	det	O	-1	O
+0	23	648	3467	3472		646	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	23	649	3472	3473	S	620	.	.	.	.	O	punct	O	-1	O
+0	24	650	3474	3478	S	660	Upon	Upon	upon	IN	O	dep	O	-1	O
+0	24	651	3479	3488	S	650	returning	returning	return	VBG	O	pcomp	O	-1	B-verb.motion
+0	24	652	3489	3493	S	651	from	from	from	IN	O	prep	O	-1	O
+0	24	653	3494	3497	S	654	her	her	she	PRP$	O	poss	O	2	O
+0	24	654	3498	3502	S	652	work	work	work	NN	O	pobj	O	-1	B-noun.act
+0	24	655	3503	3505	S	654	in	in	in	IN	O	prep	O	-1	O
+0	24	656	3506	3509	S	657	the	the	the	DT	O	det	O	-1	O
+0	24	657	3510	3517		655	capital	capital	capital	NN	O	pobj	O	-1	B-noun.possession
+0	24	658	3517	3518	S	660	,	,	,	,	O	punct	O	-1	O
+0	24	659	3519	3528	S	660	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	O
+0	24	660	3529	3534	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.cognition
+0	24	661	3535	3538	S	660	out	out	out	RP	O	prt	O	-1	O
+0	24	662	3539	3543	S	667	that	that	that	IN	O	complm	O	-1	O
+0	24	663	3544	3547	N	664	her	her	she	PRP$	O	poss	O	2	O
+0	24	664	3548	3554	S	667	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	24	665	3555	3558	S	667	has	has	have	VBZ	O	aux	O	-1	O
+0	24	666	3559	3563	S	667	been	been	be	VBN	O	auxpass	O	-1	O
+0	24	667	3564	3570	S	660	jailed	jailed	jail	VBN	O	ccomp	O	-1	B-verb.social
+0	24	668	3571	3578	S	670	because	because	because	IN	O	mark	O	-1	O
+0	24	669	3579	3581	S	670	he	he	he	PRP	O	nsubj	O	-1	O
+0	24	670	3582	3589	S	667	refused	refused	refuse	VBD	O	advcl	O	-1	B-verb.communication
+0	24	671	3590	3592	S	672	to	to	to	TO	O	aux	O	-1	O
+0	24	672	3593	3602	S	670	cooperate	cooperate	cooperate	VB	O	xcomp	O	-1	B-verb.social
+0	24	673	3603	3607	S	672	with	with	with	IN	O	prep	O	-1	O
+0	24	674	3608	3614	S	675	ladino	ladino	ladino	NN	O	nn	O	-1	B-noun.person
+0	24	675	3615	3625	S	673	landowners	landowners	landowner	NNS	O	pobj	O	-1	B-noun.person
+0	24	676	3626	3629	N	677	who	who	who	WP	O	nsubj	O	-1	O
+0	24	677	3630	3637	S	675	attempt	attempt	attempt	VBP	O	rcmod	O	-1	B-verb.social
+0	24	678	3638	3640	S	679	to	to	to	TO	O	aux	O	-1	O
+0	24	679	3641	3646	S	677	claim	claim	claim	VB	O	xcomp	O	-1	B-verb.communication
+0	24	680	3647	3650	S	681	the	the	the	DT	O	det	O	-1	O
+0	24	681	3651	3655	S	679	land	land	land	NN	O	dobj	O	-1	B-noun.object
+0	24	682	3656	3658	S	679	in	in	in	IN	O	prep	O	-1	O
+0	24	683	3659	3662	S	684	the	the	the	DT	O	det	O	-1	O
+0	24	684	3663	3672	S	682	Altiplano	Altiplano	Altiplano	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	24	685	3673	3678	S	689	where	where	where	WRB	O	advmod	O	-1	O
+0	24	686	3679	3688		689	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	24	687	3688	3690	S	686	’s	's	's	POS	O	possessive	O	-1	O
+0	24	688	3691	3700	S	689	community	community	community	NN	O	nn	O	-1	B-noun.group
+0	24	689	3701	3706		684	lives	lives	life	NNS	O	rcmod	O	-1	B-noun.state
+0	24	690	3706	3707	S	660	.	.	.	.	O	punct	O	-1	O
+0	25	691	3708	3712	N	694	This	This	this	DT	O	nsubj	O	-1	O
+0	25	692	3713	3715	S	694	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	25	693	3716	3719	S	694	the	the	the	DT	O	det	O	-1	O
+0	25	694	3720	3725	S	710	first	first	first	JJ	ORDINAL	nsubj	O	-1	O
+0	25	695	3726	3728	S	694	of	of	of	IN	O	prep	O	-1	O
+0	25	696	3729	3736	S	697	several	several	several	JJ	O	amod	O	-1	O
+0	25	697	3737	3742	S	695	times	times	time	NNS	O	pobj	O	-1	B-noun.event
+0	25	698	3743	3747	S	703	that	that	that	WDT	O	dep	O	-1	O
+0	25	699	3748	3757		701	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	25	700	3757	3759	S	699	’s	's	's	POS	O	possessive	O	-1	O
+0	25	701	3760	3766	S	703	father	father	father	NN	O	nsubjpass	O	-1	B-noun.person
+0	25	702	3767	3769	S	703	is	is	be	VBZ	O	auxpass	O	-1	O
+0	25	703	3770	3776		697	jailed	jailed	jail	VBN	O	rcmod	O	-1	O
+0	25	704	3776	3777	S	703	,	,	,	,	O	punct	O	-1	O
+0	25	705	3778	3781	S	703	and	and	and	CC	O	cc	O	-1	O
+0	25	706	3782	3791	S	703	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	conj	O	2	B-noun.person
+0	25	707	3792	3795	N	703	and	and	and	CC	O	cc	O	-1	O
+0	25	708	3796	3799	S	709	her	her	she	PRP$	O	poss	O	2	O
+0	25	709	3800	3808	S	703	siblings	siblings	sibling	NNS	O	conj	O	-1	B-noun.person
+0	25	710	3809	3813	S	-1	work	work	work	VBP	O	null	O	-1	B-verb.social
+0	25	711	3814	3824	S	710	constantly	constantly	constantly	RB	O	advmod	O	-1	O
+0	25	712	3825	3827	S	710	to	to	to	TO	O	prep	O	-1	O
+0	25	713	3828	3832	S	712	free	free	free	JJ	O	pobj	O	-1	O
+0	25	714	3833	3836	S	710	him	him	he	PRP	O	dep	O	-1	O
+0	25	715	3837	3840	S	710	for	for	for	IN	O	prep	O	-1	O
+0	25	716	3841	3845		715	good	good	good	JJ	O	pobj	O	-1	O
+0	25	717	3845	3846	S	710	.	.	.	.	O	punct	O	-1	O
+0	26	718	3847	3852	S	725	After	After	after	IN	O	mark	O	-1	O
+0	26	719	3853	3856	S	720	the	the	the	DT	O	det	O	-1	O
+0	26	720	3857	3867	S	725	landowners	landowners	landowner	NNS	O	nsubj	O	-1	B-noun.person
+0	26	721	3868	3871	S	720	and	and	and	CC	O	cc	O	-1	O
+0	26	722	3872	3875	N	723	the	the	the	DT	O	det	O	-1	O
+0	26	723	3876	3886	S	720	government	government	government	NN	O	conj	O	-1	B-noun.group
+0	26	724	3887	3897	S	725	repeatedly	repeatedly	repeatedly	RB	O	advmod	O	-1	O
+0	26	725	3898	3906	S	731	hoodwink	hoodwink	hoodwink	VBP	O	advcl	O	-1	B-verb.social
+0	26	726	3907	3910	S	727	the	the	the	DT	O	det	O	-1	O
+0	26	727	3911	3918		725	Indians	Indians	Indians	NNPS	MISC	dobj	O	-1	B-noun.person
+0	26	728	3918	3919	S	731	,	,	,	,	O	punct	O	-1	O
+0	26	729	3920	3923	S	730	the	the	the	DT	O	det	O	-1	O
+0	26	730	3924	3931	S	731	Indians	Indians	Indians	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	26	731	3932	3938	S	-1	decide	decide	decide	VBP	O	null	O	-1	B-verb.cognition
+0	26	732	3939	3941	S	733	to	to	to	TO	O	aux	O	-1	O
+0	26	733	3942	3948	S	731	defend	defend	defend	VB	O	xcomp	O	-1	B-verb.communication
+0	26	734	3949	3954	S	735	their	their	they	PRP$	O	poss	O	-1	O
+0	26	735	3955	3960	N	733	lands	lands	land	NNS	O	dobj	O	-1	B-noun.possession
+0	26	736	3961	3964	S	735	and	and	and	CC	O	cc	O	-1	O
+0	26	737	3965	3970	S	735	rebel	rebel	rebel	NN	O	conj	O	-1	B-noun.person
+0	26	738	3971	3978	S	733	against	against	against	IN	O	prep	O	-1	O
+0	26	739	3979	3982	S	741	the	the	the	DT	O	det	O	-1	O
+0	26	740	3983	3993	S	741	Guatemalan	Guatemalan	guatemalan	JJ	MISC	amod	O	-1	O
+0	26	741	3994	4000		738	powers	powers	power	NNS	O	pobj	O	-1	B-noun.cognition
+0	26	742	4000	4001	S	731	.	.	.	.	O	punct	O	-1	O
+0	27	743	4002	4005	S	752	Led	Led	lead	VBN	O	ccomp	O	-1	B-verb.motion
+0	27	744	4006	4008	S	743	in	in	in	IN	O	prep	O	-1	O
+0	27	745	4009	4013	S	744	part	part	part	NN	O	pobj	O	-1	B-noun.relation
+0	27	746	4014	4016	S	743	by	by	by	IN	O	prep	O	-1	O
+0	27	747	4017	4026		749	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	27	748	4026	4028	S	747	’s	's	's	POS	O	possessive	O	-1	O
+0	27	749	4029	4035		746	father	father	father	NN	O	pobj	O	-1	B-noun.person
+0	27	750	4035	4036	S	752	,	,	,	,	O	punct	O	-1	O
+0	27	751	4037	4041	N	752	they	they	they	PRP	O	nsubj	O	-1	O
+0	27	752	4042	4046	S	-1	form	form	form	VBP	O	null	O	-1	B-verb.stative
+0	27	753	4047	4050	S	756	the	the	the	DT	O	det	O	-1	O
+0	27	754	4051	4058	S	756	Peasant	Peasant	Peasant	NNP	ORGANIZATION	nn	O	-1	B-noun.person
+0	27	755	4059	4064	S	756	Unity	Unity	Unity	NNP	ORGANIZATION	nn	O	-1	I-noun.person
+0	27	756	4065	4074		762	Committee	Committee	Committee	NNP	ORGANIZATION	nsubj	O	-1	I-noun.person
+0	27	757	4074	4075	S	756	,	,	,	,	O	punct	O	-1	O
+0	27	758	4076	4078	S	756	or	or	or	CC	O	cc	O	-1	O
+0	27	759	4079	4082		756	CUC	CUC	CUC	NNP	ORGANIZATION	conj	O	0	O
+0	27	760	4082	4083	S	756	,	,	,	,	O	punct	O	-1	O
+0	27	761	4084	4086	S	762	to	to	to	TO	O	aux	O	-1	O
+0	27	762	4087	4091	S	752	pool	pool	pool	VB	O	ccomp	O	-1	B-verb.possession
+0	27	763	4092	4097	S	764	their	their	they	PRP$	O	poss	O	-1	O
+0	27	764	4098	4107	S	762	resources	resources	resource	NNS	O	dobj	O	-1	B-noun.possession
+0	27	765	4108	4115	S	762	against	against	against	IN	O	prep	O	-1	O
+0	27	766	4116	4119	N	769	the	the	the	DT	O	det	O	-1	O
+0	27	767	4120	4128	S	769	powerful	powerful	powerful	JJ	O	amod	O	-1	O
+0	27	768	4129	4135	S	769	ladino	ladino	ladino	NN	O	nn	O	-1	B-noun.person
+0	27	769	4136	4146	S	765	government	government	government	NN	O	pobj	O	-1	B-noun.group
+0	27	770	4147	4150	S	769	and	and	and	CC	O	cc	O	-1	O
+0	27	771	4151	4159	S	772	business	business	business	NN	O	nn	O	-1	B-noun.act
+0	27	772	4160	4166		769	owners	owners	owner	NNS	O	conj	O	-1	B-noun.person
+0	27	773	4166	4167	S	752	.	.	.	.	O	punct	O	-1	O
+0	28	774	4168	4170	S	780	By	By	by	IN	O	prep	O	-1	O
+0	28	775	4171	4175	S	776	this	this	this	DT	O	det	O	-1	O
+0	28	776	4176	4180		774	time	time	time	NN	O	pobj	O	-1	B-noun.event
+0	28	777	4180	4181	S	780	,	,	,	,	O	punct	O	-1	O
+0	28	778	4182	4191	S	780	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	B-noun.person
+0	28	779	4192	4195	S	780	has	has	have	VBZ	O	aux	O	-1	O
+0	28	780	4196	4201	S	-1	taken	taken	take	VBN	O	null	O	-1	B-verb.possession
+0	28	781	4202	4203	N	783	a	a	a	DT	O	det	O	-1	O
+0	28	782	4204	4214	S	783	leadership	leadership	leadership	NN	O	nn	O	-1	B-noun.act
+0	28	783	4215	4219	S	780	role	role	role	NN	O	dobj	O	-1	B-noun.act
+0	28	784	4220	4222	S	783	in	in	in	IN	O	prep	O	-1	O
+0	28	785	4223	4226	S	786	her	her	she	PRP$	O	poss	O	2	O
+0	28	786	4227	4236		784	community	community	community	NN	O	pobj	O	-1	B-noun.group
+0	28	787	4236	4237	S	780	,	,	,	,	O	punct	O	-1	O
+0	28	788	4238	4241	S	780	and	and	and	CC	O	cc	O	-1	O
+0	28	789	4242	4245	S	796	she	she	she	PRP	O	nsubj	O	2	O
+0	28	790	4246	4249	S	789	and	and	and	CC	O	cc	O	-1	O
+0	28	791	4250	4253	S	792	the	the	the	DT	O	det	O	-1	O
+0	28	792	4254	4258	S	789	rest	rest	rest	NN	O	conj	O	-1	B-noun.relation
+0	28	793	4259	4261	S	792	of	of	of	IN	O	prep	O	-1	O
+0	28	794	4262	4265	S	795	her	her	she	PRP$	O	poss	O	2	O
+0	28	795	4266	4272	S	793	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	28	796	4273	4277	S	780	play	play	play	VB	O	conj	O	-1	B-verb.competition
+0	28	797	4278	4279	S	799	a	a	a	DT	O	det	O	-1	O
+0	28	798	4280	4285	N	799	major	major	major	JJ	O	amod	O	-1	O
+0	28	799	4286	4290	S	796	part	part	part	NN	O	dobj	O	-1	B-noun.relation
+0	28	800	4291	4293	S	796	in	in	in	IN	O	prep	O	-1	O
+0	28	801	4294	4301	S	800	helping	helping	help	VBG	O	pcomp	O	-1	B-verb.social
+0	28	802	4302	4305	S	803	the	the	the	DT	O	det	O	-1	O
+0	28	803	4306	4313	S	804	Indians	Indians	Indians	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	28	804	4314	4321	S	801	develop	develop	develop	VBP	O	ccomp	O	-1	B-verb.creation
+0	28	805	4322	4332	S	804	strategies	strategies	strategy	NNS	O	dobj	O	-1	B-noun.cognition
+0	28	806	4333	4335	S	807	to	to	to	TO	O	aux	O	-1	O
+0	28	807	4336	4342	S	804	defend	defend	defend	VB	O	xcomp	O	-1	B-verb.communication
+0	28	808	4343	4348	S	809	their	their	they	PRP$	O	poss	O	-1	O
+0	28	809	4349	4354	S	807	lands	lands	land	NNS	O	dobj	O	-1	B-noun.possession
+0	28	810	4355	4362	S	807	against	against	against	IN	O	prep	O	-1	O
+0	28	811	4363	4366	N	813	the	the	the	DT	O	det	O	-1	O
+0	28	812	4367	4377	S	813	Guatemalan	Guatemalan	Guatemalan	NNP	MISC	nn	O	-1	B-noun.person
+0	28	813	4378	4382		810	army	army	army	NN	O	pobj	O	-1	I-noun.person
+0	28	814	4382	4383	S	780	.	.	.	.	O	punct	O	-1	O
+0	29	815	4384	4387	S	816	The	The	the	DT	O	det	O	-1	O
+0	29	816	4388	4395	S	817	Indians	Indians	Indians	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	29	817	4396	4400	S	-1	rely	rely	rely	VBP	O	null	O	-1	B-verb.cognition
+0	29	818	4401	4403	S	817	on	on	on	IN	O	prep	O	-1	O
+0	29	819	4404	4410	S	820	simple	simple	simple	JJ	O	amod	O	-1	O
+0	29	820	4411	4418	S	818	weapons	weapons	weapon	NNS	O	pobj	O	-1	B-noun.artifact
+0	29	821	4419	4423	S	822	such	such	such	JJ	O	dep	O	-1	O
+0	29	822	4424	4426	S	820	as	as	as	IN	O	prep	O	-1	O
+0	29	823	4427	4432	S	822	traps	traps	trap	NNS	O	pobj	O	-1	B-noun.artifact
+0	29	824	4433	4436	S	823	and	and	and	CC	O	cc	O	-1	O
+0	29	825	4437	4443	S	823	knives	knives	knife	NNS	O	conj	O	-1	B-noun.artifact
+0	29	826	4444	4446	N	827	to	to	to	TO	O	aux	O	-1	O
+0	29	827	4447	4452	S	817	fight	fight	fight	VB	O	xcomp	O	-1	B-verb.competition
+0	29	828	4453	4457		827	back	back	back	RB	O	advmod	O	-1	O
+0	29	829	4457	4458	S	817	,	,	,	,	O	punct	O	-1	O
+0	29	830	4459	4462	S	817	and	and	and	CC	O	cc	O	-1	O
+0	29	831	4463	4467	S	833	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	29	832	4468	4471	S	833	are	are	be	VBP	O	auxpass	O	-1	O
+0	29	833	4472	4480	S	817	inspired	inspired	inspire	VBN	O	conj	O	-1	B-verb.creation
+0	29	834	4481	4483	S	833	in	in	in	IN	O	prep	O	-1	O
+0	29	835	4484	4489	S	836	their	their	they	PRP$	O	poss	O	-1	O
+0	29	836	4490	4495	S	834	cause	cause	cause	NN	O	pobj	O	-1	B-noun.act
+0	29	837	4496	4498	S	833	by	by	by	IN	O	prep	O	-1	O
+0	29	838	4499	4502	S	839	the	the	the	DT	O	det	O	-1	O
+0	29	839	4503	4508		841	Bible	Bible	Bible	NNP	O	poss	O	-1	O
+0	29	840	4508	4510	S	839	’s	's	's	POS	O	possessive	O	-1	O
+0	29	841	4511	4518	S	837	stories	stories	story	NNS	O	pobj	O	-1	B-noun.communication
+0	29	842	4519	4521	N	841	of	of	of	IN	O	prep	O	-1	O
+0	29	843	4522	4537	S	844	disenfranchised	disenfranchised	disenfranchised	JJ	O	amod	O	-1	O
+0	29	844	4538	4549	S	842	populations	populations	population	NNS	O	pobj	O	-1	B-noun.group
+0	29	845	4550	4553	S	844	and	and	and	CC	O	cc	O	-1	O
+0	29	846	4554	4560		844	people	people	people	NNS	O	conj	O	-1	B-noun.group
+0	29	847	4560	4561	S	817	.	.	.	.	O	punct	O	-1	O
+0	30	848	4562	4567	S	857	After	After	after	IN	O	prep	O	-1	O
+0	30	849	4568	4576	S	848	securing	securing	secure	VBG	O	pcomp	O	-1	B-verb.possession
+0	30	850	4577	4580	S	852	her	her	she	PRP$	O	poss	O	2	O
+0	30	851	4581	4584	S	852	own	own	own	JJ	O	amod	O	-1	O
+0	30	852	4585	4591		854	people	people	people	NNS	O	poss	O	-1	B-noun.group
+0	30	853	4591	4593	S	852	’s	's	's	POS	O	possessive	O	-1	O
+0	30	854	4594	4602		849	holdings	holdings	holding	NNS	O	dobj	O	-1	B-noun.act
+0	30	855	4602	4603	S	857	,	,	,	,	O	punct	O	-1	O
+0	30	856	4604	4613	S	857	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	O
+0	30	857	4614	4618	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.stative
+0	30	858	4619	4621	S	857	on	on	on	IN	O	prep	O	-1	O
+0	30	859	4622	4625	S	860	the	the	the	DT	O	det	O	-1	O
+0	30	860	4626	4630	S	858	road	road	road	NN	O	pobj	O	-1	B-noun.artifact
+0	30	861	4631	4633	S	857	as	as	as	IN	O	prep	O	-1	O
+0	30	862	4634	4635	N	863	a	a	a	DT	O	det	O	-1	O
+0	30	863	4636	4650	S	861	representative	representative	representative	NN	O	pobj	O	-1	B-noun.person
+0	30	864	4651	4653	S	863	of	of	of	IN	O	prep	O	-1	O
+0	30	865	4654	4657	S	866	the	the	the	DT	O	det	O	-1	O
+0	30	866	4658	4661		864	CUC	CUC	CUC	NNP	ORGANIZATION	pobj	O	0	O
+0	30	867	4661	4662	S	857	,	,	,	,	O	punct	O	-1	O
+0	30	868	4663	4670	S	857	helping	helping	help	VBG	O	xcomp	O	-1	O
+0	30	869	4671	4677	S	870	Indian	Indian	indian	JJ	MISC	amod	O	-1	O
+0	30	870	4678	4689	S	868	communities	communities	community	NNS	O	dobj	O	-1	B-noun.group
+0	30	871	4690	4696	S	868	secure	secure	secure	VBP	O	prep	O	-1	B-verb.possession
+0	30	872	4697	4702	S	873	their	their	they	PRP$	O	poss	O	-1	O
+0	30	873	4703	4708	S	871	lands	lands	land	NNS	O	dobj	O	-1	B-noun.possession
+0	30	874	4709	4712	N	868	and	and	and	CC	O	cc	O	-1	O
+0	30	875	4713	4721	S	868	outsmart	outsmart	outsmart	VB	O	conj	O	-1	B-verb.competition
+0	30	876	4722	4725	S	878	the	the	the	DT	O	det	O	-1	O
+0	30	877	4726	4736	S	878	Guatemalan	Guatemalan	Guatemalan	NNP	MISC	nn	O	-1	B-noun.person
+0	30	878	4737	4741		875	army	army	army	NN	O	dobj	O	-1	I-noun.person
+0	30	879	4741	4742	S	857	.	.	.	.	O	punct	O	-1	O
+0	31	880	4743	4745	S	885	As	As	as	IN	O	mark	O	-1	O
+0	31	881	4746	4749	S	882	the	the	the	DT	O	det	O	-1	O
+0	31	882	4750	4753	S	885	CUC	CUC	CUC	NNP	ORGANIZATION	nsubj	O	0	O
+0	31	883	4754	4761	S	885	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	31	884	4762	4774	S	885	increasingly	increasingly	increasingly	RB	O	advmod	O	-1	O
+0	31	885	4775	4786		891	influential	influential	influential	JJ	O	advcl	O	-1	O
+0	31	886	4786	4787	S	891	,	,	,	,	O	punct	O	-1	O
+0	31	887	4788	4797	N	891	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	B-noun.person
+0	31	888	4798	4801	S	887	and	and	and	CC	O	cc	O	-1	O
+0	31	889	4802	4805	S	890	her	her	she	PRP$	O	poss	O	2	O
+0	31	890	4806	4812	S	887	family	family	family	NN	O	conj	O	-1	B-noun.group
+0	31	891	4813	4817	S	-1	find	find	find	VBP	O	null	O	-1	B-verb.possession
+0	31	892	4818	4828	S	891	themselves	themselves	themselves	PRP	O	dobj	O	-1	O
+0	31	893	4829	4833	S	891	more	more	more	RBR	O	advmod	O	-1	O
+0	31	894	4834	4836	S	893	at	at	at	IN	O	dep	O	-1	O
+0	31	895	4837	4841		894	risk	risk	risk	NN	O	pobj	O	-1	B-noun.state
+0	31	896	4841	4842	S	891	.	.	.	.	O	punct	O	-1	O
+0	32	897	4843	4848		906	First	First	first	RB	ORDINAL	advmod	O	-1	O
+0	32	898	4848	4849	S	906	,	,	,	,	O	punct	O	-1	O
+0	32	899	4850	4859		901	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	32	900	4859	4861	S	899	’s	's	's	POS	O	possessive	O	-1	O
+0	32	901	4862	4869		906	brother	brother	brother	NN	O	nsubjpass	O	-1	O
+0	32	902	4869	4870	S	901	,	,	,	,	O	punct	O	-1	O
+0	32	903	4871	4881		901	Petrocinio	Petrocinio	Petrocinio	NNP	LOCATION	appos	O	-1	O
+0	32	904	4881	4882	N	901	,	,	,	,	O	punct	O	-1	O
+0	32	905	4883	4885	S	906	is	is	be	VBZ	O	auxpass	O	-1	O
+0	32	906	4886	4895	S	-1	kidnapped	kidnapped	kidnap	VBN	O	null	O	-1	B-verb.contact
+0	32	907	4896	4899	S	906	and	and	and	CC	O	cc	O	-1	O
+0	32	908	4900	4906	S	906	burned	burned	burn	VBN	O	conj	O	-1	B-verb.change
+0	32	909	4907	4912	S	908	alive	alive	alive	JJ	O	dep	O	-1	O
+0	32	910	4913	4918	S	918	while	while	while	IN	O	mark	O	-1	O
+0	32	911	4919	4928		914	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	32	912	4928	4930	S	911	’s	's	's	POS	O	possessive	O	-1	O
+0	32	913	4931	4937	S	914	entire	entire	entire	JJ	O	amod	O	-1	O
+0	32	914	4938	4944	S	918	family	family	family	NN	O	nsubjpass	O	-1	B-noun.group
+0	32	915	4945	4948	S	914	and	and	and	CC	O	cc	O	-1	O
+0	32	916	4949	4956	S	914	village	village	village	NN	O	conj	O	-1	B-noun.group
+0	32	917	4957	4960	S	918	are	are	be	VBP	O	auxpass	O	-1	O
+0	32	918	4961	4967	N	906	forced	forced	force	VBN	O	advcl	O	-1	B-verb.social
+0	32	919	4968	4970	S	920	to	to	to	TO	O	aux	O	-1	O
+0	32	920	4971	4976		918	watch	watch	watch	VB	O	xcomp	O	-1	B-verb.perception
+0	32	921	4976	4977	S	906	.	.	.	.	O	punct	O	-1	O
+0	33	922	4978	4982	S	926	Then	Then	then	RB	O	advmod	O	-1	O
+0	33	923	4983	4992		925	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	33	924	4992	4994	S	923	’s	's	's	POS	O	possessive	O	-1	O
+0	33	925	4995	5001	S	926	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	33	926	5002	5007	S	-1	leads	leads	lead	VBZ	O	null	O	-1	B-verb.social
+0	33	927	5008	5010	S	928	an	an	a	DT	O	det	O	-1	O
+0	33	928	5011	5020	S	926	offensive	offensive	offensive	NN	O	dobj	O	-1	B-noun.act
+0	33	929	5021	5023	S	928	on	on	on	IN	O	prep	O	-1	O
+0	33	930	5024	5033	S	931	Guatemala	Guatemala	Guatemala	NNP	LOCATION	nn	O	-1	B-noun.location
+0	33	931	5034	5038	S	929	City	City	City	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	33	932	5039	5042	S	926	and	and	and	CC	O	cc	O	-1	O
+0	33	933	5043	5045	S	934	is	is	be	VBZ	O	auxpass	O	-1	O
+0	33	934	5046	5052	N	926	killed	killed	kill	VBN	O	conj	O	-1	B-verb.contact
+0	33	935	5053	5058	S	934	along	along	along	IN	O	prep	O	-1	O
+0	33	936	5059	5063	S	935	with	with	with	IN	O	dep	O	-1	O
+0	33	937	5064	5065	S	938	a	a	a	DT	O	det	O	-1	O
+0	33	938	5066	5071	S	936	group	group	group	NN	O	pobj	O	-1	B-noun.group
+0	33	939	5072	5074	S	938	of	of	of	IN	O	prep	O	-1	O
+0	33	940	5075	5085	S	939	protesters	protesters	protester	NNS	O	pobj	O	-1	B-noun.person
+0	33	941	5086	5091	S	942	while	while	while	IN	O	mark	O	-1	O
+0	33	942	5092	5100	S	926	storming	storming	storm	VBG	O	advcl	O	-1	B-verb.stative
+0	33	943	5101	5104	S	945	the	the	the	DT	O	det	O	-1	O
+0	33	944	5105	5112	S	945	Spanish	Spanish	Spanish	NNP	O	nn	O	-1	B-noun.person
+0	33	945	5113	5120		942	Embassy	Embassy	Embassy	NNP	O	dobj	O	-1	I-noun.person
+0	33	946	5120	5121	S	926	.	.	.	.	O	punct	O	-1	O
+0	34	947	5122	5129		953	Finally	Finally	finally	RB	O	advmod	O	-1	O
+0	34	948	5129	5130	N	953	,	,	,	,	O	punct	O	-1	O
+0	34	949	5131	5140		951	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	34	950	5140	5142	S	949	’s	's	's	POS	O	possessive	O	-1	O
+0	34	951	5143	5149	S	953	mother	mother	mother	NN	O	nsubjpass	O	-1	B-noun.person
+0	34	952	5150	5152	S	953	is	is	be	VBZ	O	auxpass	O	-1	O
+0	34	953	5153	5162		-1	kidnapped	kidnapped	kidnap	VBN	O	null	O	-1	B-verb.contact
+0	34	954	5162	5163	S	953	,	,	,	,	O	punct	O	-1	O
+0	34	955	5164	5169		953	raped	raped	rape	VBN	O	dep	O	-1	O
+0	34	956	5169	5170	S	953	,	,	,	,	O	punct	O	-1	O
+0	34	957	5171	5179		953	tortured	tortured	tortured	JJ	O	conj	O	-1	O
+0	34	958	5179	5180	S	953	,	,	,	,	O	punct	O	-1	O
+0	34	959	5181	5184	S	953	and	and	and	CC	O	cc	O	-1	O
+0	34	960	5185	5193		953	murdered	murdered	murder	VBN	O	conj	O	-1	B-verb.social
+0	34	961	5193	5194	S	953	.	.	.	.	O	punct	O	-1	O
+0	35	962	5195	5204	S	963	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	B-noun.person
+0	35	963	5205	5213	N	-1	responds	responds	respond	VBZ	O	null	O	-1	B-verb.cognition
+0	35	964	5214	5216	S	963	by	by	by	IN	O	prep	O	-1	O
+0	35	965	5217	5227	S	964	renouncing	renouncing	renounce	VBG	O	pcomp	O	-1	B-verb.social
+0	35	966	5228	5236	S	965	marriage	marriage	marriage	NN	O	dobj	O	-1	B-noun.state
+0	35	967	5237	5240	S	966	and	and	and	CC	O	cc	O	-1	O
+0	35	968	5241	5251	S	966	motherhood	motherhood	motherhood	NN	O	conj	O	-1	B-noun.relation
+0	35	969	5252	5255	S	965	and	and	and	CC	O	cc	O	-1	O
+0	35	970	5256	5264	S	972	becoming	becoming	become	VBG	O	auxpass	O	-1	B-verb.change
+0	35	971	5265	5269	S	972	more	more	more	RBR	O	advmod	O	-1	O
+0	35	972	5270	5278	S	965	involved	involved	involve	VBN	O	conj	O	-1	B-verb.stative
+0	35	973	5279	5281	S	972	in	in	in	IN	O	prep	O	-1	O
+0	35	974	5282	5285	S	976	the	the	the	DT	O	det	O	-1	O
+0	35	975	5286	5293	N	976	peasant	peasant	peasant	NN	O	nn	O	-1	B-noun.person
+0	35	976	5294	5299		973	cause	cause	cause	NN	O	pobj	O	-1	O
+0	35	977	5299	5300	S	972	,	,	,	,	O	punct	O	-1	O
+0	35	978	5301	5308	S	972	leading	leading	lead	VBG	O	xcomp	O	-1	B-verb.stative
+0	35	979	5309	5316	S	978	strikes	strikes	strike	NNS	O	dobj	O	-1	B-noun.act
+0	35	980	5317	5320	S	979	and	and	and	CC	O	cc	O	-1	O
+0	35	981	5321	5326	S	983	other	other	other	JJ	O	amod	O	-1	O
+0	35	982	5327	5337	S	983	rebellious	rebellious	rebellious	JJ	O	amod	O	-1	O
+0	35	983	5338	5345	S	979	actions	actions	action	NNS	O	conj	O	-1	B-noun.act
+0	35	984	5346	5351	S	986	until	until	until	IN	O	mark	O	-1	O
+0	35	985	5352	5355	S	986	she	she	she	PRP	O	nsubj	O	2	O
+0	35	986	5356	5361	S	978	finds	finds	find	VBZ	O	advcl	O	-1	B-verb.perception
+0	35	987	5362	5369	S	986	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	35	988	5370	5372	N	986	in	in	in	IN	O	prep	O	-1	O
+0	35	989	5373	5379	S	988	danger	danger	danger	NN	O	pobj	O	-1	B-noun.state
+0	35	990	5380	5383	S	986	and	and	and	CC	O	cc	O	-1	O
+0	35	991	5384	5386	S	992	is	is	be	VBZ	O	auxpass	O	-1	O
+0	35	992	5387	5393	S	986	forced	forced	force	VBN	O	conj	O	-1	B-verb.social
+0	35	993	5394	5398	S	992	into	into	into	IN	O	prep	O	-1	O
+0	35	994	5399	5404		993	exile	exile	exile	NN	O	pobj	O	-1	B-noun.person
+0	35	995	5404	5405	S	963	.	.	.	.	O	punct	O	-1	O
+0	36	996	5406	5412	S	1000	Though	Though	though	IN	O	mark	O	-1	O
+0	36	997	5413	5422		999	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	poss	O	2	B-noun.person
+0	36	998	5422	5424	S	997	’s	's	's	POS	O	possessive	O	-1	O
+0	36	999	5425	5432	S	1000	sisters	sisters	sister	NNS	O	nsubj	O	-1	B-noun.person
+0	36	1000	5433	5437	S	1016	join	join	join	VB	O	advcl	O	-1	B-verb.social
+0	36	1001	5438	5441	S	1003	the	the	the	DT	O	det	O	-1	O
+0	36	1002	5442	5450	S	1003	guerilla	guerilla	guerilla	NN	O	nn	O	-1	B-noun.person
+0	36	1003	5451	5455	N	1000	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	36	1004	5456	5458	S	1005	to	to	to	TO	O	aux	O	-1	O
+0	36	1005	5459	5464	S	1003	fight	fight	fight	VB	O	infmod	O	-1	B-verb.competition
+0	36	1006	5465	5468	S	1005	for	for	for	IN	O	prep	O	-1	O
+0	36	1007	5469	5472	S	1008	the	the	the	DT	O	det	O	-1	O
+0	36	1008	5473	5479	S	1006	rights	rights	rights	NNS	O	pobj	O	-1	B-noun.attribute
+0	36	1009	5480	5482	S	1008	of	of	of	IN	O	prep	O	-1	O
+0	36	1010	5483	5492		1013	Guatemala	Guatemala	Guatemala	NNP	LOCATION	poss	O	-1	B-noun.location
+0	36	1011	5492	5494	S	1010	’s	's	's	POS	O	possessive	O	-1	O
+0	36	1012	5495	5501	S	1013	Indian	Indian	indian	JJ	MISC	amod	O	-1	O
+0	36	1013	5502	5510		1009	peasants	peasants	peasant	NNS	O	pobj	O	-1	B-noun.person
+0	36	1014	5510	5511	S	1016	,	,	,	,	O	punct	O	-1	O
+0	36	1015	5512	5521	S	1016	Rigoberta	Rigoberta	Rigoberta	NNP	PERSON	nsubj	O	2	O
+0	36	1016	5522	5529	S	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	36	1017	5530	5532	S	1018	to	to	to	TO	O	aux	O	-1	O
+0	36	1018	5533	5537	S	1016	take	take	take	VB	O	xcomp	O	-1	B-verb.possession
+0	36	1019	5538	5539	N	1021	a	a	a	DT	O	det	O	-1	O
+0	36	1020	5540	5550	S	1021	diplomatic	diplomatic	diplomatic	JJ	O	amod	O	-1	O
+0	36	1021	5551	5556		1018	route	route	route	NN	O	dobj	O	-1	B-noun.location
+0	36	1022	5556	5557	S	1016	,	,	,	,	O	punct	O	-1	O
+0	36	1023	5558	5565	S	1016	telling	telling	tell	VBG	O	xcomp	O	-1	B-verb.communication
+0	36	1024	5566	5573	S	1023	stories	stories	story	NNS	O	dobj	O	-1	B-noun.communication
+0	36	1025	5574	5576	S	1024	of	of	of	IN	O	prep	O	-1	O
+0	36	1026	5577	5580	S	1027	her	her	she	PRP$	O	poss	O	2	O
+0	36	1027	5581	5587	S	1025	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	36	1028	5588	5591	S	1023	and	and	and	CC	O	cc	O	-1	O
+0	36	1029	5592	5599	S	1023	putting	putting	put	VBG	O	conj	O	-1	B-verb.contact
+0	36	1030	5600	5611	S	1029	legislation	legislation	legislation	NN	O	dobj	O	-1	B-noun.communication
+0	36	1031	5612	5616	S	1029	into	into	into	IN	O	prep	O	-1	O
+0	36	1032	5617	5622	N	1031	place	place	place	NN	O	pobj	O	-1	B-noun.location
+0	36	1033	5623	5625	S	1029	as	as	as	IN	O	prep	O	-1	O
+0	36	1034	5626	5627	S	1035	a	a	a	DT	O	det	O	-1	O
+0	36	1035	5628	5631	S	1033	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	36	1036	5632	5634	S	1035	of	of	of	IN	O	prep	O	-1	O
+0	36	1037	5635	5645	S	1036	furthering	furthering	further	VBG	O	pcomp	O	-1	B-verb.social
+0	36	1038	5646	5649	S	1039	the	the	the	DT	O	det	O	-1	O
+0	36	1039	5650	5656	S	1037	rights	rights	rights	NNS	O	dobj	O	-1	B-noun.attribute
+0	36	1040	5657	5659	S	1039	of	of	of	IN	O	prep	O	-1	O
+0	36	1041	5660	5667		1040	Indians	Indians	Indians	NNPS	MISC	pobj	O	-1	B-noun.person
+0	36	1042	5667	5668	N	1016	.	.	.	.	O	punct	O	-1	O

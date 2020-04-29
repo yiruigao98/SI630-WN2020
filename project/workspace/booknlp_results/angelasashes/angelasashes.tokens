@@ -1,0 +1,622 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	3	S	1	The	The	the	DT	O	det	O	-1	O
+0	0	1	4	12		6	narrator	narrator	narrator	NN	O	nsubj	O	-1	B-noun.person
+0	0	2	12	13	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	14	19	S	4	Frank	Frank	Frank	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	4	20	27		1	McCourt	McCourt	McCourt	NNP	PERSON	appos	O	-1	I-noun.person
+0	0	5	27	28	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	6	29	38	N	-1	describes	describes	describe	VBZ	O	null	O	-1	B-verb.communication
+0	0	7	39	42	S	10	how	how	how	WRB	O	advmod	O	-1	O
+0	0	8	43	46	S	9	his	his	he	PRP$	O	poss	O	-1	O
+0	0	9	47	54	S	10	parents	parents	parent	NNS	O	nsubj	O	-1	B-noun.person
+0	0	10	55	59	S	6	meet	meet	meet	VBP	O	ccomp	O	-1	B-verb.social
+0	0	11	60	62	S	10	in	in	in	IN	O	prep	O	-1	O
+0	0	12	63	71		11	Brooklyn	Brooklyn	Brooklyn	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	13	71	72	S	12	,	,	,	,	O	punct	O	-1	O
+0	0	14	73	76	S	15	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	0	15	77	81		12	York	York	York	NNP	LOCATION	appos	O	-1	I-noun.location
+0	0	16	81	82	S	6	.	.	.	.	O	punct	O	-1	O
+0	1	17	83	88	S	24	After	After	after	IN	O	prep	O	-1	O
+0	1	18	89	92	S	19	his	his	he	PRP$	O	poss	O	-1	O
+0	1	19	93	99		17	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	1	20	99	100	S	19	,	,	,	,	O	punct	O	-1	O
+0	1	21	101	107		19	Angela	Angela	Angela	NNP	PERSON	appos	O	1	O
+0	1	22	107	108	N	24	,	,	,	,	O	punct	O	-1	O
+0	1	23	109	116	S	24	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	1	24	117	125	S	29	pregnant	pregnant	pregnant	JJ	O	advcl	O	-1	O
+0	1	25	126	130	S	24	with	with	with	IN	O	prep	O	-1	O
+0	1	26	131	136		25	Frank	Frank	Frank	NNP	PERSON	pobj	O	0	B-noun.person
+0	1	27	136	137	S	29	,	,	,	,	O	punct	O	-1	O
+0	1	28	138	141	S	29	she	she	she	PRP	O	nsubj	O	1	O
+0	1	29	142	149	S	-1	marries	marries	marry	VBZ	O	null	O	-1	B-verb.social
+0	1	30	150	157		29	Malachy	Malachy	Malachy	NNP	PERSON	dobj	O	3	O
+0	1	31	157	158	S	30	,	,	,	,	O	punct	O	-1	O
+0	1	32	159	162	S	33	the	the	the	DT	O	det	O	-1	O
+0	1	33	163	169	S	30	father	father	father	NN	O	appos	O	-1	B-noun.person
+0	1	34	170	172	N	33	of	of	of	IN	O	prep	O	-1	O
+0	1	35	173	176	S	36	her	her	she	PRP$	O	poss	O	1	O
+0	1	36	177	182		34	child	child	child	NN	O	pobj	O	-1	B-noun.person
+0	1	37	182	183	S	29	.	.	.	.	O	punct	O	-1	O
+0	2	38	184	190	S	39	Angela	Angela	Angela	NNP	PERSON	nsubj	O	1	B-noun.person
+0	2	39	191	200	S	-1	struggles	struggles	struggle	VBZ	O	null	O	-1	B-verb.social
+0	2	40	201	203	S	41	to	to	to	TO	O	aux	O	-1	O
+0	2	41	204	208	S	39	feed	feed	feed	VB	O	xcomp	O	-1	B-verb.consumption
+0	2	42	209	212	S	44	her	her	she	PRP$	O	poss	O	1	O
+0	2	43	213	220	S	44	growing	growing	grow	VBG	O	amod	O	-1	B-verb.change
+0	2	44	221	227	S	41	family	family	family	NN	O	dobj	O	-1	B-noun.group
+0	2	45	228	230	S	44	of	of	of	IN	O	prep	O	-1	O
+0	2	46	231	235		45	sons	sons	son	NNS	O	pobj	O	-1	B-noun.person
+0	2	47	235	236	N	39	,	,	,	,	O	punct	O	-1	O
+0	2	48	237	242	S	50	while	while	while	IN	O	mark	O	-1	O
+0	2	49	243	250	S	50	Malachy	Malachy	Malachy	NNP	PERSON	nsubj	O	3	B-noun.person
+0	2	50	251	257	S	39	spends	spends	spend	VBZ	O	advcl	O	-1	B-verb.stative
+0	2	51	258	261	S	52	his	his	he	PRP$	O	poss	O	0	O
+0	2	52	262	267	S	50	wages	wages	wages	NNS	O	dobj	O	-1	B-noun.possession
+0	2	53	268	270	S	50	on	on	on	IN	O	prep	O	-1	O
+0	2	54	271	278		53	alcohol	alcohol	alcohol	NN	O	pobj	O	-1	B-noun.food
+0	2	55	278	279	S	39	.	.	.	.	O	punct	O	-1	O
+0	3	56	280	285		60	Frank	Frank	Frank	NNP	PERSON	poss	O	0	B-noun.person
+0	3	57	285	287	S	56	’s	's	's	POS	O	possessive	O	-1	O
+0	3	58	288	298	S	60	much-loved	much-loved	much-loved	JJ	O	amod	O	-1	O
+0	3	59	299	303	N	60	baby	baby	baby	NN	O	nn	O	-1	B-noun.person
+0	3	60	304	310		64	sister	sister	sister	NN	O	nsubj	O	-1	B-noun.person
+0	3	61	310	311	S	60	,	,	,	,	O	punct	O	-1	O
+0	3	62	312	320		60	Margaret	Margaret	Margaret	NNP	PERSON	appos	O	-1	O
+0	3	63	320	321	S	60	,	,	,	,	O	punct	O	-1	O
+0	3	64	322	326	S	-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	3	65	327	330	S	64	and	and	and	CC	O	cc	O	-1	O
+0	3	66	331	337	S	67	Angela	Angela	Angela	NNP	PERSON	nsubj	O	1	B-noun.person
+0	3	67	338	343	S	64	falls	falls	fall	VBZ	O	conj	O	-1	B-verb.stative
+0	3	68	344	348	S	67	into	into	into	IN	O	prep	O	-1	O
+0	3	69	349	359		68	depression	depression	depression	NN	O	pobj	O	-1	B-noun.state
+0	3	70	359	360	S	64	.	.	.	.	O	punct	O	-1	O
+0	4	71	361	364	S	72	The	The	the	DT	O	det	O	-1	O
+0	4	72	365	373	N	73	McCourts	McCourts	McCourts	NNPS	ORGANIZATION	nsubj	O	2	O
+0	4	73	374	380	S	-1	decide	decide	decide	VBP	O	null	O	-1	B-verb.cognition
+0	4	74	381	383	S	75	to	to	to	TO	O	aux	O	-1	O
+0	4	75	384	390	S	73	return	return	return	VB	O	xcomp	O	-1	B-verb.motion
+0	4	76	391	393	S	75	to	to	to	TO	O	prep	O	-1	O
+0	4	77	394	401		76	Ireland	Ireland	Ireland	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	4	78	401	402	S	73	.	.	.	.	O	punct	O	-1	O
+0	5	79	403	407	S	80	More	More	more	RBR	O	advmod	O	-1	O
+0	5	80	408	416	S	81	troubles	troubles	trouble	NNS	O	nsubj	O	-1	B-noun.cognition
+0	5	81	417	423	S	-1	plague	plague	plague	VBP	O	null	O	-1	B-verb.weather
+0	5	82	424	427	S	83	the	the	the	DT	O	det	O	-1	O
+0	5	83	428	436	S	81	McCourts	McCourts	McCourts	NNPS	ORGANIZATION	dobj	O	2	B-noun.person
+0	5	84	437	439	N	81	in	in	in	IN	O	prep	O	-1	O
+0	5	85	440	447		84	Ireland	Ireland	Ireland	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	5	86	447	448	S	81	:	:	:	:	O	punct	O	-1	O
+0	5	87	449	455	S	88	Angela	Angela	Angela	NNP	PERSON	nsubj	O	1	O
+0	5	88	456	459	S	81	has	has	have	VBZ	O	parataxis	O	-1	O
+0	5	89	460	461	S	90	a	a	a	DT	O	det	O	-1	O
+0	5	90	462	473		88	miscarriage	miscarriage	miscarriage	NN	O	dobj	O	-1	B-noun.event
+0	5	91	473	474	S	88	,	,	,	,	O	punct	O	-1	O
+0	5	92	475	480		96	Frank	Frank	Frank	NNP	PERSON	poss	O	0	B-noun.person
+0	5	93	480	482	S	92	’s	's	's	POS	O	possessive	O	-1	O
+0	5	94	483	486	S	96	two	two	two	CD	NUMBER	num	O	-1	O
+0	5	95	487	494	S	96	younger	younger	younger	JJR	O	amod	O	-1	O
+0	5	96	495	503	N	97	brothers	brothers	brother	NNS	O	nsubj	O	-1	B-noun.person
+0	5	97	504	507		88	die	die	die	VBP	O	dep	O	-1	B-verb.change
+0	5	98	507	508	S	97	,	,	,	,	O	punct	O	-1	O
+0	5	99	509	512	S	97	and	and	and	CC	O	cc	O	-1	O
+0	5	100	513	520	S	101	Malachy	Malachy	Malachy	NNP	PERSON	nsubj	O	3	B-noun.person
+0	5	101	521	530	S	97	continues	continues	continue	VBZ	O	conj	O	-1	B-verb.stative
+0	5	102	531	533	S	103	to	to	to	TO	O	aux	O	-1	O
+0	5	103	534	539	S	101	drink	drink	drink	VB	O	xcomp	O	-1	B-verb.consumption
+0	5	104	540	544	S	103	away	away	away	RP	O	prt	O	-1	O
+0	5	105	545	548	S	106	the	the	the	DT	O	det	O	-1	O
+0	5	106	549	555		108	family	family	family	NN	O	poss	O	-1	B-noun.group
+0	5	107	555	557	S	106	’s	's	's	POS	O	possessive	O	-1	O
+0	5	108	558	563		103	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	5	109	563	564	S	81	.	.	.	.	O	punct	O	-1	O
+0	6	110	565	570		112	Frank	Frank	Frank	NNP	PERSON	poss	O	0	B-noun.person
+0	6	111	570	572	S	110	’s	's	's	POS	O	possessive	O	-1	O
+0	6	112	573	582	S	114	childhood	childhood	childhood	NN	O	nsubjpass	O	-1	B-noun.time
+0	6	113	583	585	S	114	is	is	be	VBZ	O	auxpass	O	-1	O
+0	6	114	586	595	S	-1	described	described	describe	VBN	O	null	O	-1	B-verb.communication
+0	6	115	596	598	S	114	as	as	as	IN	O	prep	O	-1	O
+0	6	116	599	600	S	117	a	a	a	DT	O	det	O	-1	O
+0	6	117	601	605	S	115	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	6	118	606	608	S	117	of	of	of	IN	O	prep	O	-1	O
+0	6	119	609	614	S	120	great	great	great	JJ	O	amod	O	-1	O
+0	6	120	615	626		118	deprivation	deprivation	deprivation	NN	O	pobj	O	-1	B-noun.state
+0	6	121	626	627	N	114	,	,	,	,	O	punct	O	-1	O
+0	6	122	628	631	S	114	but	but	but	CC	O	cc	O	-1	O
+0	6	123	632	634	S	122	of	of	of	IN	O	dep	O	-1	O
+0	6	124	635	639	S	125	good	good	good	JJ	O	amod	O	-1	O
+0	6	125	640	645	S	123	humor	humor	humor	NN	O	pobj	O	-1	B-noun.feeling
+0	6	126	646	649	S	125	and	and	and	CC	O	cc	O	-1	O
+0	6	127	650	659	S	125	adventure	adventure	adventure	NN	O	conj	O	-1	B-noun.act
+0	6	128	660	662	S	129	as	as	as	RB	O	advmod	O	-1	O
+0	6	129	663	667		114	well	well	well	RB	O	advmod	O	-1	O
+0	6	130	667	668	S	114	.	.	.	.	O	punct	O	-1	O
+0	7	131	669	673	S	146	When	When	when	WRB	O	advmod	O	-1	O
+0	7	132	674	677	S	134	the	the	the	DT	O	det	O	-1	O
+0	7	133	678	683	S	134	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	7	134	684	689	S	146	floor	floor	floor	NN	O	nsubj	O	-1	B-noun.artifact
+0	7	135	690	692	N	134	of	of	of	IN	O	prep	O	-1	O
+0	7	136	693	696	S	138	the	the	the	DT	O	det	O	-1	O
+0	7	137	697	702	S	138	house	house	house	NN	O	nn	O	-1	B-noun.artifact
+0	7	138	703	709	S	135	floods	floods	flood	NNS	O	pobj	O	-1	B-noun.artifact
+0	7	139	710	716	S	134	during	during	during	IN	O	prep	O	-1	O
+0	7	140	717	720	S	141	the	the	the	DT	O	det	O	-1	O
+0	7	141	721	727		139	winter	winter	winter	NN	DATE	pobj	O	-1	B-noun.time
+0	7	142	727	728	S	141	,	,	,	,	O	punct	O	-1	O
+0	7	143	729	735	S	141	Angela	Angela	Angela	NNP	PERSON	conj	O	1	B-noun.person
+0	7	144	736	739	S	141	and	and	and	CC	O	cc	O	-1	O
+0	7	145	740	747	S	141	Malachy	Malachy	Malachy	NNP	PERSON	conj	O	3	B-noun.person
+0	7	146	748	756	N	-1	announce	announce	announce	VBP	O	null	O	-1	B-verb.communication
+0	7	147	757	761	S	151	that	that	that	IN	O	complm	O	-1	O
+0	7	148	762	765	S	149	the	the	the	DT	O	det	O	-1	O
+0	7	149	766	772	S	151	family	family	family	NN	O	nsubj	O	-1	B-noun.group
+0	7	150	773	777	S	151	will	will	will	MD	O	aux	O	-1	O
+0	7	151	778	783	S	146	leave	leave	leave	VB	O	ccomp	O	-1	B-verb.motion
+0	7	152	784	787	S	154	the	the	the	DT	O	det	O	-1	O
+0	7	153	788	792	S	154	cold	cold	cold	JJ	O	amod	O	-1	O
+0	7	154	793	797	S	151	damp	damp	damp	JJ	O	dobj	O	-1	O
+0	7	155	798	800	S	154	of	of	of	IN	O	prep	O	-1	O
+0	7	156	801	804	S	158	the	the	the	DT	O	det	O	-1	O
+0	7	157	805	810	S	158	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	7	158	811	816		155	floor	floor	floor	NN	O	pobj	O	-1	B-noun.artifact
+0	7	159	816	817	S	158	,	,	,	,	O	punct	O	-1	O
+0	7	160	818	823	N	162	which	which	which	WDT	O	dobj	O	-1	O
+0	7	161	824	828	S	162	they	they	they	PRP	O	nsubj	O	-1	O
+0	7	162	829	833	S	158	call	call	call	VBP	O	rcmod	O	-1	B-verb.communication
+0	7	163	834	835		164	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	7	164	835	842		162	Ireland	Ireland	Ireland	NNP	LOCATION	dobj	I-QUOTE	-1	O
+0	7	165	842	843		164	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	7	166	843	844	S	164	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	7	167	845	848	S	164	and	and	and	CC	O	cc	O	-1	O
+0	7	168	849	853	S	164	move	move	move	VB	O	conj	O	-1	B-verb.motion
+0	7	169	854	856	S	168	to	to	to	TO	O	prep	O	-1	O
+0	7	170	857	860	S	175	the	the	the	DT	O	det	O	-1	O
+0	7	171	861	865		175	warm	warm	warm	JJ	O	amod	O	-1	O
+0	7	172	865	866	S	175	,	,	,	,	O	punct	O	-1	O
+0	7	173	867	871	S	175	cozy	cozy	cozy	JJ	O	amod	O	-1	O
+0	7	174	872	878	S	175	second	second	second	JJ	ORDINAL	amod	O	-1	O
+0	7	175	879	884		169	floor	floor	floor	NN	O	pobj	O	-1	B-noun.artifact
+0	7	176	884	885	S	164	,	,	,	,	O	punct	O	-1	O
+0	7	177	886	891	N	179	which	which	which	WDT	O	dobj	O	-1	O
+0	7	178	892	896	S	179	they	they	they	PRP	O	nsubj	O	-1	O
+0	7	179	897	901	S	164	call	call	call	VBP	O	rcmod	O	-1	B-verb.communication
+0	7	180	902	903		181	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	7	181	903	908		179	Italy	Italy	Italy	NNP	LOCATION	dobj	I-QUOTE	-1	O
+0	7	182	908	909		146	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	7	183	909	910	S	146	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	8	184	911	919	S	188	Although	Although	although	IN	O	mark	O	-1	O
+0	8	185	920	927		187	Malachy	Malachy	Malachy	NNP	PERSON	poss	O	3	B-noun.person
+0	8	186	927	929	S	185	’s	's	's	POS	O	possessive	O	-1	O
+0	8	187	930	940	S	188	alcoholism	alcoholism	alcoholism	NN	O	nsubj	O	-1	B-noun.state
+0	8	188	941	945	S	198	uses	uses	use	VBZ	O	advcl	O	-1	B-verb.consumption
+0	8	189	946	948	S	188	up	up	up	RP	O	prt	O	-1	O
+0	8	190	949	952	S	188	all	all	all	DT	O	dobj	O	-1	O
+0	8	191	953	955	N	190	of	of	of	IN	O	prep	O	-1	O
+0	8	192	956	959	S	193	the	the	the	DT	O	det	O	-1	O
+0	8	193	960	965	S	191	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	8	194	966	969	S	188	for	for	for	IN	O	prep	O	-1	O
+0	8	195	970	974		194	food	food	food	NN	O	pobj	O	-1	B-noun.food
+0	8	196	974	975	S	198	,	,	,	,	O	punct	O	-1	O
+0	8	197	976	978	S	198	he	he	he	PRP	O	nsubj	O	0	O
+0	8	198	979	984	S	-1	earns	earns	earn	VBZ	O	null	O	-1	B-verb.possession
+0	8	199	985	990		201	Frank	Frank	Frank	NNP	PERSON	poss	O	0	B-noun.person
+0	8	200	990	992	S	199	’s	's	's	POS	O	possessive	O	-1	O
+0	8	201	993	997	S	198	love	love	love	NN	O	dobj	O	-1	B-noun.feeling
+0	8	202	998	1001	S	201	and	and	and	CC	O	cc	O	-1	O
+0	8	203	1002	1011	S	201	affection	affection	affection	NN	O	conj	O	-1	B-noun.feeling
+0	8	204	1012	1014	S	203	by	by	by	IN	O	prep	O	-1	O
+0	8	205	1015	1027	N	204	entertaining	entertaining	entertain	VBG	O	pcomp	O	-1	B-verb.social
+0	8	206	1028	1031	S	205	him	him	he	PRP	O	dobj	O	0	O
+0	8	207	1032	1036	S	205	with	with	with	IN	O	prep	O	-1	O
+0	8	208	1037	1044	S	207	stories	stories	story	NNS	O	pobj	O	-1	B-noun.communication
+0	8	209	1045	1050	S	208	about	about	about	IN	O	prep	O	-1	O
+0	8	210	1051	1056	S	211	Irish	Irish	irish	JJ	MISC	amod	O	-1	O
+0	8	211	1057	1063	S	209	heroes	heroes	hero	NNS	O	pobj	O	-1	B-noun.person
+0	8	212	1064	1067	S	201	and	and	and	CC	O	cc	O	-1	O
+0	8	213	1068	1071	S	214	the	the	the	DT	O	det	O	-1	O
+0	8	214	1072	1078	S	201	people	people	people	NNS	O	conj	O	-1	B-noun.group
+0	8	215	1079	1082	S	216	who	who	who	WP	O	nsubj	O	-1	O
+0	8	216	1083	1087	S	214	live	live	live	VBP	O	rcmod	O	-1	B-verb.stative
+0	8	217	1088	1090	S	216	on	on	on	IN	O	prep	O	-1	O
+0	8	218	1091	1096	N	219	their	their	they	PRP$	O	poss	O	-1	O
+0	8	219	1097	1101		217	lane	lane	lane	NN	O	pobj	O	-1	B-noun.artifact
+0	8	220	1101	1102	S	198	.	.	.	.	O	punct	O	-1	O
+0	9	221	1103	1107	S	230	Over	Over	over	IN	O	prep	O	-1	O
+0	9	222	1108	1111	S	223	the	the	the	DT	O	det	O	-1	O
+0	9	223	1112	1118	S	221	course	course	course	NN	O	pobj	O	-1	B-noun.act
+0	9	224	1119	1121	S	223	of	of	of	IN	O	prep	O	-1	O
+0	9	225	1122	1123	S	227	a	a	a	DT	DURATION	det	O	-1	O
+0	9	226	1124	1127	S	227	few	few	few	JJ	DURATION	amod	O	-1	O
+0	9	227	1128	1133		224	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	9	228	1133	1134	S	230	,	,	,	,	O	punct	O	-1	O
+0	9	229	1135	1141	S	230	Angela	Angela	Angela	NNP	PERSON	nsubj	O	1	O
+0	9	230	1142	1147	S	-1	gives	gives	give	VBZ	O	null	O	-1	B-verb.creation
+0	9	231	1148	1153	S	230	birth	birth	birth	NN	O	dobj	O	-1	B-noun.time
+0	9	232	1154	1156	N	230	to	to	to	TO	O	prep	O	-1	O
+0	9	233	1157	1160	S	234	two	two	two	CD	NUMBER	num	O	-1	O
+0	9	234	1161	1165		232	sons	sons	son	NNS	O	pobj	O	-1	B-noun.person
+0	9	235	1165	1166	S	234	,	,	,	,	O	punct	O	-1	O
+0	9	236	1167	1174	S	234	Michael	Michael	Michael	NNP	PERSON	appos	O	-1	B-noun.person
+0	9	237	1175	1178	S	236	and	and	and	CC	O	cc	O	-1	O
+0	9	238	1179	1188		236	Alphonsus	Alphonsus	Alphonsus	NNP	PERSON	conj	O	-1	O
+0	9	239	1188	1189	S	230	.	.	.	.	O	punct	O	-1	O
+0	10	240	1190	1198	S	242	Alphosus	Alphosus	Alphosus	NNP	O	nsubjpass	O	-1	B-noun.person
+0	10	241	1199	1201	S	242	is	is	be	VBZ	O	auxpass	O	-1	O
+0	10	242	1202	1208	S	-1	called	called	call	VBN	O	null	O	-1	B-verb.communication
+0	10	243	1209	1210		244	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	10	244	1210	1216		242	Alphie	Alphie	Alphie	NNP	LOCATION	dobj	I-QUOTE	-1	O
+0	10	245	1216	1217	S	244	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	10	246	1218	1221	N	244	for	for	for	IN	O	prep	O	-1	O
+0	10	247	1222	1227		246	short	short	short	JJ	O	pobj	O	-1	O
+0	10	248	1227	1228	S	242	.	.	.	.	O	punct	O	-1	O
+0	11	249	1229	1231	S	251	As	As	as	IN	O	mark	O	-1	O
+0	11	250	1232	1237	S	251	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	11	251	1238	1243	S	257	grows	grows	grow	VBZ	O	advcl	O	-1	B-verb.change
+0	11	252	1244	1249		251	older	older	older	JJR	O	acomp	O	-1	O
+0	11	253	1249	1250	S	257	,	,	,	,	O	punct	O	-1	O
+0	11	254	1251	1254	S	255	the	the	the	DT	O	det	O	-1	O
+0	11	255	1255	1264	S	257	narration	narration	narration	NN	O	nsubj	O	-1	B-noun.communication
+0	11	256	1265	1277	S	257	increasingly	increasingly	increasingly	RB	O	advmod	O	-1	O
+0	11	257	1278	1285	N	-1	focuses	focuses	focus	VBZ	O	null	O	-1	B-verb.cognition
+0	11	258	1286	1288	S	257	on	on	on	IN	O	prep	O	-1	O
+0	11	259	1289	1292	S	260	his	his	he	PRP$	O	poss	O	0	O
+0	11	260	1293	1301	S	258	exploits	exploits	exploit	NNS	O	pobj	O	-1	B-noun.act
+0	11	261	1302	1304	S	260	at	at	at	IN	O	prep	O	-1	O
+0	11	262	1305	1311		261	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	11	263	1311	1312	S	257	.	.	.	.	O	punct	O	-1	O
+0	12	264	1313	1317	S	266	When	When	when	WRB	O	advmod	O	-1	O
+0	12	265	1318	1323	S	266	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	12	266	1324	1329	S	271	turns	turns	turn	VBZ	O	dep	O	-1	B-verb.motion
+0	12	267	1330	1333		266	ten	ten	ten	CD	NUMBER	dobj	O	-1	O
+0	12	268	1333	1334	S	271	,	,	,	,	O	punct	O	-1	O
+0	12	269	1335	1337	S	271	he	he	he	PRP	O	nsubjpass	O	0	O
+0	12	270	1338	1340	S	271	is	is	be	VBZ	O	auxpass	O	-1	O
+0	12	271	1341	1350	N	-1	confirmed	confirmed	confirm	VBN	O	null	O	-1	B-verb.cognition
+0	12	272	1351	1352		271	(	-LRB-	-lrb-	-LRB-	O	prep	O	-1	O
+0	12	273	1352	1364	S	276	Confirmation	Confirmation	confirmation	NN	O	nsubj	O	-1	B-noun.cognition
+0	12	274	1365	1367	S	276	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	12	275	1368	1369	S	276	a	a	a	DT	O	det	O	-1	O
+0	12	276	1370	1376	S	272	ritual	ritual	ritual	NN	O	rcmod	O	-1	B-noun.act
+0	12	277	1377	1381	S	278	that	that	that	WDT	O	nsubj	O	-1	O
+0	12	278	1382	1387	S	276	makes	makes	make	VBZ	O	rcmod	O	-1	B-verb.change
+0	12	279	1388	1391	S	278	one	one	one	CD	NUMBER	dobj	O	-1	O
+0	12	280	1392	1394	S	282	an	an	a	DT	O	det	O	-1	O
+0	12	281	1395	1403	S	282	official	official	official	JJ	O	amod	O	-1	O
+0	12	282	1404	1413	S	279	Christian	Christian	Christian	NNP	MISC	dep	O	-1	B-noun.person
+0	12	283	1414	1416	N	282	or	or	or	CC	O	cc	O	-1	O
+0	12	284	1417	1425		282	Catholic	Catholic	Catholic	NNP	MISC	conj	O	-1	B-noun.person
+0	12	285	1425	1426	S	271	.	.	.	.	O	punct	O	-1	O
+0	13	286	1427	1431	S	289	When	When	when	WRB	O	advmod	O	-1	O
+0	13	287	1432	1437	S	289	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	13	288	1438	1441	S	289	was	was	be	VBD	O	aux	O	-1	O
+0	13	289	1442	1449	S	294	growing	growing	grow	VBG	O	dep	O	-1	B-verb.change
+0	13	290	1450	1452		289	up	up	up	RP	O	prt	O	-1	O
+0	13	291	1452	1453	S	294	,	,	,	,	O	punct	O	-1	O
+0	13	292	1454	1460	S	294	people	people	people	NNS	O	nsubjpass	O	-1	B-noun.group
+0	13	293	1461	1465	S	294	were	were	be	VBD	O	auxpass	O	-1	O
+0	13	294	1466	1475	S	-1	confirmed	confirmed	confirm	VBN	O	null	O	-1	B-verb.cognition
+0	13	295	1476	1482	N	294	around	around	around	IN	O	prep	O	-1	O
+0	13	296	1483	1487	S	295	ages	ages	age	NNS	O	pobj	O	-1	B-noun.attribute
+0	13	297	1488	1493	S	299	seven	seven	seven	CD	NUMBER	number	O	-1	O
+0	13	298	1494	1496	S	299	to	to	to	TO	O	dep	O	-1	O
+0	13	299	1497	1500		296	ten	ten	ten	CD	NUMBER	num	O	-1	O
+0	13	300	1500	1501		299	)	-RRB-	-rrb-	-RRB-	O	dep	O	-1	O
+0	13	301	1501	1502	S	294	.	.	.	.	O	punct	O	-1	O
+0	14	302	1503	1508	S	308	Right	Right	right	RB	O	advmod	O	-1	O
+0	14	303	1509	1514	S	302	after	after	after	IN	O	dep	O	-1	O
+0	14	304	1515	1518	S	305	his	his	he	PRP$	O	poss	O	0	O
+0	14	305	1519	1531		303	confirmation	confirmation	confirmation	NN	O	pobj	O	-1	B-noun.cognition
+0	14	306	1531	1532	S	308	,	,	,	,	O	punct	O	-1	O
+0	14	307	1533	1538	S	308	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	14	308	1539	1544	S	-1	falls	falls	fall	VBZ	O	null	O	-1	B-verb.motion
+0	14	309	1545	1548	N	308	ill	ill	ill	RB	O	advmod	O	-1	O
+0	14	310	1549	1553	S	308	with	with	with	IN	O	prep	O	-1	O
+0	14	311	1554	1561	S	312	typhoid	typhoid	typhoid	JJ	O	amod	O	-1	O
+0	14	312	1562	1567	S	310	fever	fever	fever	NN	O	pobj	O	-1	B-noun.state
+0	14	313	1568	1571	S	308	and	and	and	CC	O	cc	O	-1	O
+0	14	314	1572	1576	S	315	must	must	must	MD	O	aux	O	-1	O
+0	14	315	1577	1581	S	308	stay	stay	stay	VB	O	conj	O	-1	B-verb.change
+0	14	316	1582	1584	S	315	in	in	in	IN	O	prep	O	-1	O
+0	14	317	1585	1588	S	318	the	the	the	DT	O	det	O	-1	O
+0	14	318	1589	1597	S	316	hospital	hospital	hospital	NN	O	pobj	O	-1	B-noun.artifact
+0	14	319	1598	1601	S	315	for	for	for	IN	O	prep	O	-1	O
+0	14	320	1602	1608		319	months	months	month	NNS	DURATION	pobj	O	-1	B-noun.time
+0	14	321	1608	1609	S	308	.	.	.	.	O	punct	O	-1	O
+0	15	322	1610	1615		325	There	There	there	RB	O	advmod	O	-1	O
+0	15	323	1615	1616	N	325	,	,	,	,	O	punct	O	-1	O
+0	15	324	1617	1619	S	325	he	he	he	PRP	O	nsubj	O	0	O
+0	15	325	1620	1624	S	-1	gets	gets	get	VBZ	O	null	O	-1	B-verb.possession
+0	15	326	1625	1628	S	328	his	his	he	PRP$	O	poss	O	0	O
+0	15	327	1629	1634	S	328	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	15	328	1635	1647	S	325	introduction	introduction	introduction	NN	O	dobj	O	-1	B-noun.communication
+0	15	329	1648	1650	S	328	to	to	to	TO	O	prep	O	-1	O
+0	15	330	1651	1662		329	Shakespeare	Shakespeare	Shakespeare	NNP	PERSON	pobj	O	4	B-noun.person
+0	15	331	1662	1663	S	325	.	.	.	.	O	punct	O	-1	O
+0	16	332	1664	1669	S	333	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	16	333	1670	1675	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.possession
+0	16	334	1676	1683	N	333	comfort	comfort	comfort	NN	O	dobj	O	-1	B-noun.state
+0	16	335	1684	1686		334	in	in	in	IN	O	prep	O	-1	O
+0	16	336	1687	1694	S	335	stories	stories	story	NNS	O	pobj	O	-1	B-noun.communication
+0	16	337	1695	1697	S	336	of	of	of	IN	O	prep	O	-1	O
+0	16	338	1698	1701	S	339	all	all	all	DT	O	det	O	-1	O
+0	16	339	1702	1707		337	kinds	kinds	kind	NNS	O	pobj	O	-1	B-noun.cognition
+0	16	340	1707	1708	S	333	,	,	,	,	O	punct	O	-1	O
+0	16	341	1709	1713	S	333	from	from	from	IN	O	prep	O	-1	O
+0	16	342	1714	1725	S	341	Shakespeare	Shakespeare	Shakespeare	NNP	PERSON	pobj	O	4	B-noun.person
+0	16	343	1726	1728	S	341	to	to	to	TO	O	dep	O	-1	O
+0	16	344	1729	1735	S	343	movies	movies	movie	NNS	O	pobj	O	-1	B-noun.communication
+0	16	345	1736	1738	S	344	to	to	to	TO	O	prep	O	-1	O
+0	16	346	1739	1749		345	newspapers	newspapers	newspaper	NNS	O	pobj	O	-1	B-noun.communication
+0	16	347	1749	1750	N	333	.	.	.	.	O	punct	O	-1	O
+0	17	348	1751	1753	S	361	By	By	by	IN	O	prep	O	-1	O
+0	17	349	1754	1757	S	350	the	the	the	DT	O	det	O	-1	O
+0	17	350	1758	1762	S	348	time	time	time	NN	O	pobj	O	-1	B-noun.event
+0	17	351	1763	1765	S	352	he	he	he	PRP	O	nsubj	O	0	O
+0	17	352	1766	1773	S	350	returns	returns	return	VBZ	O	rcmod	O	-1	B-verb.motion
+0	17	353	1774	1776	S	352	to	to	to	TO	O	prep	O	-1	O
+0	17	354	1777	1783		353	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	17	355	1783	1784	S	361	,	,	,	,	O	punct	O	-1	O
+0	17	356	1785	1788	S	357	his	his	he	PRP$	O	poss	O	0	O
+0	17	357	1789	1793	S	361	gift	gift	gift	NN	O	nsubj	O	-1	B-noun.possession
+0	17	358	1794	1797	S	357	for	for	for	IN	O	prep	O	-1	O
+0	17	359	1798	1806	S	358	language	language	language	NN	O	pobj	O	-1	B-noun.communication
+0	17	360	1807	1809	S	361	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	17	361	1810	1817		-1	obvious	obvious	obvious	JJ	O	null	O	-1	O
+0	17	362	1817	1818	N	361	.	.	.	.	O	punct	O	-1	O
+0	18	363	1819	1821	S	371	In	In	in	IN	O	prep	O	-1	O
+0	18	364	1822	1832		363	particular	particular	particular	JJ	O	pobj	O	-1	O
+0	18	365	1832	1833	S	371	,	,	,	,	O	punct	O	-1	O
+0	18	366	1834	1839		368	Frank	Frank	Frank	NNP	PERSON	poss	O	0	B-noun.person
+0	18	367	1839	1841	S	366	’s	's	's	POS	O	possessive	O	-1	O
+0	18	368	1842	1847	S	371	flair	flair	flair	NN	O	nsubj	O	-1	B-noun.cognition
+0	18	369	1848	1851	S	368	for	for	for	IN	O	prep	O	-1	O
+0	18	370	1852	1864	S	369	storytelling	storytelling	storytelling	NN	O	pobj	O	-1	B-noun.person
+0	18	371	1865	1869	S	-1	gets	gets	get	VBZ	O	null	O	-1	B-verb.possession
+0	18	372	1870	1873	S	373	him	him	he	PRP	O	nsubj	O	0	O
+0	18	373	1874	1881	S	371	noticed	noticed	notice	VBN	O	ccomp	O	-1	B-verb.perception
+0	18	374	1882	1884	N	373	by	by	by	IN	O	prep	O	-1	O
+0	18	375	1885	1888	S	376	his	his	he	PRP$	O	poss	O	0	O
+0	18	376	1889	1896		374	teacher	teacher	teacher	NN	O	pobj	O	-1	B-noun.person
+0	18	377	1896	1897	S	371	.	.	.	.	O	punct	O	-1	O
+0	19	378	1898	1902	S	390	With	With	with	IN	O	prep	O	-1	O
+0	19	379	1903	1906	S	380	the	the	the	DT	O	det	O	-1	O
+0	19	380	1907	1912	S	378	onset	onset	onset	NN	O	pobj	O	-1	B-noun.event
+0	19	381	1913	1915	S	380	of	of	of	IN	O	prep	O	-1	O
+0	19	382	1916	1921	S	384	World	World	World	NNP	MISC	nn	O	-1	B-noun.group
+0	19	383	1922	1925	S	384	War	War	War	NNP	MISC	nn	O	-1	I-noun.group
+0	19	384	1926	1928		381	II	II	II	NNP	MISC	pobj	O	-1	O
+0	19	385	1928	1929	S	390	,	,	,	,	O	punct	O	-1	O
+0	19	386	1930	1934	S	387	many	many	many	JJ	O	amod	O	-1	O
+0	19	387	1935	1942	S	390	fathers	fathers	father	NNS	O	nsubj	O	-1	B-noun.person
+0	19	388	1943	1945	S	387	in	in	in	IN	O	prep	O	-1	O
+0	19	389	1946	1954	N	388	Limerick	Limerick	Limerick	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	19	390	1955	1957	S	-1	go	go	go	VB	O	null	O	-1	B-verb.stative
+0	19	391	1958	1960	S	390	to	to	to	TO	O	prep	O	-1	O
+0	19	392	1961	1968	S	391	England	England	England	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	19	393	1969	1971	S	394	to	to	to	TO	O	aux	O	-1	O
+0	19	394	1972	1976	S	390	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	19	395	1977	1981	S	394	work	work	work	NN	O	dobj	O	-1	B-noun.act
+0	19	396	1982	1985	S	394	and	and	and	CC	O	cc	O	-1	O
+0	19	397	1986	1990	S	394	send	send	send	VB	O	conj	O	-1	B-verb.motion
+0	19	398	1991	1996	S	397	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	19	399	1997	2001	S	397	back	back	back	RB	O	advmod	O	-1	O
+0	19	400	2002	2004	S	399	to	to	to	TO	O	dep	O	-1	O
+0	19	401	2005	2010	S	402	their	their	they	PRP$	O	poss	O	-1	O
+0	19	402	2011	2019		400	families	families	family	NNS	O	pobj	O	-1	B-noun.group
+0	19	403	2019	2020	N	390	.	.	.	.	O	punct	O	-1	O
+0	20	404	2021	2031		407	Eventually	Eventually	eventually	RB	O	advmod	O	-1	O
+0	20	405	2031	2032	S	407	,	,	,	,	O	punct	O	-1	O
+0	20	406	2033	2040	S	407	Malachy	Malachy	Malachy	NNP	PERSON	nsubj	O	3	O
+0	20	407	2041	2045	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.motion
+0	20	408	2046	2048	S	409	as	as	as	RB	O	advmod	O	-1	O
+0	20	409	2049	2053		407	well	well	well	RB	O	advmod	O	-1	O
+0	20	410	2053	2054	S	407	,	,	,	,	O	punct	O	-1	O
+0	20	411	2055	2058	S	407	but	but	but	CC	O	cc	O	-1	O
+0	20	412	2059	2061	S	413	he	he	he	PRP	O	nsubj	O	0	O
+0	20	413	2062	2067	S	407	fails	fails	fail	VBZ	O	conj	O	-1	B-verb.social
+0	20	414	2068	2070	S	415	to	to	to	TO	O	aux	O	-1	O
+0	20	415	2071	2075	S	413	send	send	send	VB	O	xcomp	O	-1	B-verb.motion
+0	20	416	2076	2081	S	415	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	20	417	2082	2086		415	home	home	home	NN	O	advmod	O	-1	O
+0	20	418	2086	2087	N	407	.	.	.	.	O	punct	O	-1	O
+0	21	419	2088	2093	S	420	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	21	420	2094	2100	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	21	421	2101	2103	S	422	to	to	to	TO	O	aux	O	-1	O
+0	21	422	2104	2108	S	420	work	work	work	VB	O	xcomp	O	-1	B-verb.social
+0	21	423	2109	2112	S	422	for	for	for	IN	O	prep	O	-1	O
+0	21	424	2113	2116	S	425	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	21	425	2117	2123		423	Hannon	Hannon	Hannon	NNP	PERSON	pobj	O	-1	I-noun.person
+0	21	426	2123	2124	S	420	.	.	.	.	O	punct	O	-1	O
+0	22	427	2125	2129	S	430	This	This	this	DT	O	nsubj	O	-1	O
+0	22	428	2130	2132	S	430	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	22	429	2133	2136	S	430	the	the	the	DT	O	det	O	-1	O
+0	22	430	2137	2142	S	-1	first	first	first	JJ	ORDINAL	null	O	-1	O
+0	22	431	2143	2145	S	430	in	in	in	IN	O	prep	O	-1	O
+0	22	432	2146	2147	S	433	a	a	a	DT	O	det	O	-1	O
+0	22	433	2148	2154	N	431	series	series	series	NN	O	pobj	O	-1	B-noun.group
+0	22	434	2155	2157	S	433	of	of	of	IN	O	prep	O	-1	O
+0	22	435	2158	2162		434	jobs	jobs	job	NNS	O	pobj	O	-1	B-noun.act
+0	22	436	2162	2163	S	430	.	.	.	.	O	punct	O	-1	O
+0	23	437	2164	2169	S	439	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	23	438	2170	2174	S	439	will	will	will	MD	O	aux	O	-1	O
+0	23	439	2175	2177	S	-1	go	go	go	VB	O	null	O	-1	B-verb.stative
+0	23	440	2178	2180	S	439	on	on	on	IN	O	prep	O	-1	O
+0	23	441	2181	2183	S	442	to	to	to	TO	O	aux	O	-1	O
+0	23	442	2184	2188	S	440	work	work	work	VB	O	pcomp	O	-1	B-verb.social
+0	23	443	2189	2192	S	442	for	for	for	IN	O	prep	O	-1	O
+0	23	444	2193	2196	S	445	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	23	445	2197	2204		443	Timoney	Timoney	Timoney	NNP	PERSON	pobj	O	-1	I-noun.person
+0	23	446	2204	2205	S	445	,	,	,	,	O	punct	O	-1	O
+0	23	447	2206	2211	S	448	Uncle	Uncle	Uncle	NNP	ORGANIZATION	nn	O	-1	B-noun.person
+0	23	448	2212	2214		445	Ab	Ab	ab	NN	ORGANIZATION	appos	O	-1	O
+0	23	449	2214	2215	S	445	,	,	,	,	O	punct	O	-1	O
+0	23	450	2216	2219	N	452	the	the	the	DT	O	det	O	-1	O
+0	23	451	2220	2224	S	452	post	post	post	NN	O	nn	O	-1	B-noun.group
+0	23	452	2225	2231		445	office	office	office	NN	O	appos	O	-1	I-noun.group
+0	23	453	2231	2232	S	452	,	,	,	,	O	punct	O	-1	O
+0	23	454	2233	2237	S	455	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	-1	B-noun.person
+0	23	455	2238	2246		452	Finucane	Finucane	Finucane	NNP	PERSON	appos	O	-1	I-noun.person
+0	23	456	2246	2247	S	439	,	,	,	,	O	punct	O	-1	O
+0	23	457	2248	2251	S	439	and	and	and	CC	O	cc	O	-1	O
+0	23	458	2252	2255	S	459	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	23	459	2256	2265		439	McCaffrey	McCaffrey	McCaffrey	NNP	PERSON	conj	O	-1	I-noun.person
+0	23	460	2265	2266	S	439	.	.	.	.	O	punct	O	-1	O
+0	24	461	2267	2272	S	462	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	24	462	2273	2279	S	-1	enjoys	enjoys	enjoy	VBZ	O	null	O	-1	B-verb.emotion
+0	24	463	2280	2283	N	464	the	the	the	DT	O	det	O	-1	O
+0	24	464	2284	2291	S	462	feeling	feeling	feeling	NN	O	dobj	O	-1	B-noun.Tops
+0	24	465	2292	2294	S	464	of	of	of	IN	O	prep	O	-1	O
+0	24	466	2295	2309	S	465	responsibility	responsibility	responsibility	NN	O	pobj	O	-1	B-noun.act
+0	24	467	2310	2312	S	468	he	he	he	PRP	O	nsubj	O	0	O
+0	24	468	2313	2317	S	466	gets	gets	get	VBZ	O	rcmod	O	-1	B-verb.possession
+0	24	469	2318	2322	S	468	from	from	from	IN	O	prep	O	-1	O
+0	24	470	2323	2330		469	working	working	work	VBG	O	pcomp	O	-1	B-verb.social
+0	24	471	2330	2331	S	462	,	,	,	,	O	punct	O	-1	O
+0	24	472	2332	2335	S	462	and	and	and	CC	O	cc	O	-1	O
+0	24	473	2336	2338	S	474	he	he	he	PRP	O	nsubj	O	0	O
+0	24	474	2339	2345	S	462	dreams	dreams	dream	VBZ	O	conj	O	-1	B-verb.creation
+0	24	475	2346	2348	N	474	of	of	of	IN	O	prep	O	-1	O
+0	24	476	2349	2355	S	475	saving	saving	save	VBG	O	pcomp	O	-1	B-verb.social
+0	24	477	2356	2362	S	476	enough	enough	enough	RB	O	advmod	O	-1	O
+0	24	478	2363	2365	S	479	to	to	to	TO	O	aux	O	-1	O
+0	24	479	2366	2373	S	476	provide	provide	provide	VB	O	xcomp	O	-1	B-verb.possession
+0	24	480	2374	2377	S	481	his	his	he	PRP$	O	poss	O	0	O
+0	24	481	2378	2384	S	479	family	family	family	NN	O	dobj	O	-1	B-noun.group
+0	24	482	2385	2389	S	479	with	with	with	IN	O	prep	O	-1	O
+0	24	483	2390	2394	S	482	food	food	food	NN	O	pobj	O	-1	B-noun.food
+0	24	484	2395	2398	S	483	and	and	and	CC	O	cc	O	-1	O
+0	24	485	2399	2406		483	clothes	clothes	clothes	NNS	O	conj	O	-1	B-noun.artifact
+0	24	486	2406	2407	S	462	.	.	.	.	O	punct	O	-1	O
+0	25	487	2408	2411	S	488	The	The	the	DT	O	det	O	-1	O
+0	25	488	2412	2420	S	490	McCourts	McCourts	McCourts	NNPS	ORGANIZATION	nsubjpass	O	2	O
+0	25	489	2421	2424	S	490	get	get	get	VBP	O	auxpass	O	-1	O
+0	25	490	2425	2432	S	-1	evicted	evicted	evict	VBN	O	null	O	-1	B-verb.contact
+0	25	491	2433	2437	S	490	from	from	from	IN	O	prep	O	-1	O
+0	25	492	2438	2443	S	493	their	their	they	PRP$	O	poss	O	-1	O
+0	25	493	2444	2452	S	491	lodgings	lodgings	lodgings	NNS	O	pobj	O	-1	B-noun.artifact
+0	25	494	2453	2456	S	490	and	and	and	CC	O	cc	O	-1	O
+0	25	495	2457	2461	N	496	must	must	must	MD	O	aux	O	-1	O
+0	25	496	2462	2466	S	490	move	move	move	VB	O	conj	O	-1	B-verb.motion
+0	25	497	2467	2469	S	496	in	in	in	IN	O	prep	O	-1	O
+0	25	498	2470	2474	S	497	with	with	with	IN	O	dep	O	-1	O
+0	25	499	2475	2481		502	Angela	Angela	Angela	NNP	PERSON	poss	O	1	B-noun.person
+0	25	500	2481	2483	S	499	’s	's	's	POS	O	possessive	O	-1	O
+0	25	501	2484	2490	S	502	cousin	cousin	cousin	NN	O	nn	O	-1	B-noun.person
+0	25	502	2491	2496		498	Laman	Laman	Laman	NNP	PERSON	pobj	O	5	I-noun.person
+0	25	503	2496	2497	S	490	.	.	.	.	O	punct	O	-1	O
+0	26	504	2498	2504	S	505	Angela	Angela	Angela	NNP	PERSON	nsubj	O	1	B-noun.person
+0	26	505	2505	2511	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	26	506	2512	2520	S	505	sleeping	sleeping	sleep	VBG	O	xcomp	O	-1	B-verb.body
+0	26	507	2521	2525	N	506	with	with	with	IN	O	prep	O	-1	O
+0	26	508	2526	2531		507	Laman	Laman	Laman	NNP	PERSON	pobj	O	5	O
+0	26	509	2531	2532	S	508	,	,	,	,	O	punct	O	-1	O
+0	26	510	2533	2535	S	511	an	an	a	DT	O	det	O	-1	O
+0	26	511	2536	2547	S	508	arrangement	arrangement	arrangement	NN	O	appos	O	-1	B-noun.cognition
+0	26	512	2548	2552	S	513	that	that	that	WDT	O	nsubj	O	-1	O
+0	26	513	2553	2558	S	511	makes	makes	make	VBZ	O	rcmod	O	-1	B-verb.change
+0	26	514	2559	2564	S	516	Frank	Frank	Frank	NNP	PERSON	dep	O	0	B-noun.person
+0	26	515	2565	2577	S	516	increasingly	increasingly	increasingly	RB	O	advmod	O	-1	O
+0	26	516	2578	2591	N	513	uncomfortable	uncomfortable	uncomfortable	JJ	O	dep	O	-1	O
+0	26	517	2592	2595	S	516	and	and	and	CC	O	cc	O	-1	O
+0	26	518	2596	2601		516	angry	angry	angry	JJ	O	conj	O	-1	O
+0	26	519	2601	2602	S	505	.	.	.	.	O	punct	O	-1	O
+0	27	520	2603	2605	S	522	He	He	he	PRP	O	nsubj	O	0	O
+0	27	521	2606	2610	S	522	also	also	also	RB	O	advmod	O	-1	O
+0	27	522	2611	2617	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	27	523	2618	2620	S	524	to	to	to	TO	O	aux	O	-1	O
+0	27	524	2621	2625	S	522	feel	feel	feel	VB	O	xcomp	O	-1	B-verb.emotion
+0	27	525	2626	2632	S	524	guilty	guilty	guilty	JJ	O	acomp	O	-1	O
+0	27	526	2633	2638	S	525	about	about	about	IN	O	prep	O	-1	O
+0	27	527	2639	2642	S	530	his	his	he	PRP$	O	poss	O	0	O
+0	27	528	2643	2646	S	530	own	own	own	JJ	O	amod	O	-1	O
+0	27	529	2647	2653	S	530	sexual	sexual	sexual	JJ	O	amod	O	-1	O
+0	27	530	2654	2662		526	feelings	feelings	feeling	NNS	O	pobj	O	-1	B-noun.Tops
+0	27	531	2662	2663	S	522	.	.	.	.	O	punct	O	-1	O
+0	28	532	2664	2667	N	533	The	The	the	DT	O	det	O	-1	O
+0	28	533	2668	2675		536	priests	priests	priest	NNS	O	poss	O	-1	B-noun.person
+0	28	534	2675	2676	S	533	’	'	'	POS	O	possessive	O	-1	O
+0	28	535	2677	2683	S	536	strict	strict	strict	JJ	O	amod	O	-1	O
+0	28	536	2684	2692	S	539	mandates	mandates	mandate	NNS	O	nsubj	O	-1	B-noun.communication
+0	28	537	2693	2700	S	536	against	against	against	IN	O	prep	O	-1	O
+0	28	538	2701	2713	S	537	masturbation	masturbation	masturbation	NN	O	pobj	O	-1	B-noun.act
+0	28	539	2714	2718	S	-1	make	make	make	VBP	O	null	O	-1	B-verb.social
+0	28	540	2719	2724	S	541	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	28	541	2725	2729	S	539	feel	feel	feel	VB	O	xcomp	O	-1	B-verb.emotion
+0	28	542	2730	2736	N	541	guilty	guilty	guilty	JJ	O	acomp	O	-1	O
+0	28	543	2737	2741	S	545	when	when	when	WRB	O	advmod	O	-1	O
+0	28	544	2742	2744	S	545	he	he	he	PRP	O	nsubj	O	0	O
+0	28	545	2745	2756		541	masturbates	masturbates	masturbate	VBZ	O	advcl	O	-1	B-verb.contact
+0	28	546	2756	2757	S	539	.	.	.	.	O	punct	O	-1	O
+0	29	547	2758	2763	S	548	While	While	while	IN	O	mark	O	-1	O
+0	29	548	2764	2771	S	555	working	working	work	VBG	O	advcl	O	-1	B-verb.social
+0	29	549	2772	2774	S	548	as	as	as	IN	O	prep	O	-1	O
+0	29	550	2775	2776	S	552	a	a	a	DT	O	det	O	-1	O
+0	29	551	2777	2786	S	552	messenger	messenger	messenger	NN	O	nn	O	-1	B-noun.person
+0	29	552	2787	2790		549	boy	boy	boy	NN	O	pobj	O	-1	I-noun.person
+0	29	553	2790	2791	S	555	,	,	,	,	O	punct	O	-1	O
+0	29	554	2792	2797	S	555	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	29	555	2798	2804	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	29	556	2805	2806	S	558	a	a	a	DT	O	det	O	-1	O
+0	29	557	2807	2813	N	558	sexual	sexual	sexual	JJ	O	amod	O	-1	O
+0	29	558	2814	2826	S	555	relationship	relationship	relationship	NN	O	dobj	O	-1	B-noun.relation
+0	29	559	2827	2831	S	558	with	with	with	IN	O	prep	O	-1	O
+0	29	560	2832	2833	S	561	a	a	a	DT	O	det	O	-1	O
+0	29	561	2834	2842		559	customer	customer	customer	NN	O	pobj	O	-1	B-noun.person
+0	29	562	2842	2843	S	555	,	,	,	,	O	punct	O	-1	O
+0	29	563	2844	2851	S	564	Theresa	Theresa	Theresa	NNP	PERSON	nn	O	-1	B-noun.person
+0	29	564	2852	2859		562	Carmody	Carmody	Carmody	NNP	PERSON	null	O	-1	I-noun.person
+0	29	565	2859	2860	S	564	,	,	,	,	O	punct	O	-1	O
+0	29	566	2861	2864	S	568	who	who	who	WP	O	nsubj	O	-1	O
+0	29	567	2865	2875	S	568	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	29	568	2876	2880	N	564	dies	dies	die	VBZ	O	rcmod	O	-1	B-verb.change
+0	29	569	2881	2883	S	568	of	of	of	IN	O	prep	O	-1	O
+0	29	570	2884	2895		569	consumption	consumption	consumption	NN	O	pobj	O	-1	B-noun.act
+0	29	571	2895	2896	S	564	,	,	,	,	O	punct	O	-1	O
+0	29	572	2897	2904	S	564	leaving	leaving	leave	VBG	O	partmod	O	-1	B-verb.motion
+0	29	573	2905	2910	S	572	Frank	Frank	Frank	NNP	PERSON	dobj	O	0	B-noun.person
+0	29	574	2911	2922		572	heartbroken	heartbroken	heartbroken	JJ	O	dep	O	-1	O
+0	29	575	2922	2923	S	564	.	.	.	.	O	punct	O	-1	O
+0	30	576	2924	2929	S	577	Frank	Frank	Frank	NNP	PERSON	nsubj	O	0	B-noun.person
+0	30	577	2930	2935	S	-1	saves	saves	save	VBZ	O	null	O	-1	B-verb.social
+0	30	578	2936	2942	S	579	enough	enough	enough	JJ	O	amod	O	-1	O
+0	30	579	2943	2948	N	577	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	30	580	2949	2951	S	581	to	to	to	TO	O	aux	O	-1	O
+0	30	581	2952	2955	S	579	get	get	get	VB	O	infmod	O	-1	B-verb.motion
+0	30	582	2956	2958	S	581	to	to	to	TO	O	prep	O	-1	O
+0	30	583	2959	2962	S	584	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	30	584	2963	2967		582	York	York	York	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	30	585	2967	2968	S	577	.	.	.	.	O	punct	O	-1	O
+0	31	586	2969	2971	S	590	On	On	on	IN	O	dep	O	-1	O
+0	31	587	2972	2975	S	589	his	his	he	PRP$	O	poss	O	0	O
+0	31	588	2976	2981	S	589	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	31	589	2982	2987	S	586	night	night	night	NN	TIME	pobj	O	-1	B-noun.time
+0	31	590	2988	2993		593	there	there	there	RB	O	advcl	O	-1	O
+0	31	591	2993	2994	S	593	,	,	,	,	O	punct	O	-1	O
+0	31	592	2995	2997	S	593	he	he	he	PRP	O	nsubj	O	0	O
+0	31	593	2998	3005	S	-1	attends	attends	attend	VBZ	O	null	O	-1	B-verb.stative
+0	31	594	3006	3007	S	595	a	a	a	DT	O	det	O	-1	O
+0	31	595	3008	3013	N	593	party	party	party	NN	O	dobj	O	-1	B-noun.group
+0	31	596	3014	3017	S	593	and	and	and	CC	O	cc	O	-1	O
+0	31	597	3018	3024	S	593	sleeps	sleeps	sleep	VBZ	O	conj	O	-1	B-verb.body
+0	31	598	3025	3029	S	597	with	with	with	IN	O	prep	O	-1	O
+0	31	599	3030	3032	S	601	an	an	a	DT	O	det	O	-1	O
+0	31	600	3033	3041	S	601	American	American	american	JJ	MISC	amod	O	-1	O
+0	31	601	3042	3047		598	woman	woman	woman	NN	O	pobj	O	-1	B-noun.person
+0	31	602	3047	3048	S	593	.	.	.	.	O	punct	O	-1	O
+0	32	603	3049	3055	S	604	Though	Though	though	IN	O	mark	O	-1	O
+0	32	604	3056	3059	S	-1	sad	sad	sad	JJ	O	null	O	-1	O
+0	32	605	3060	3062	S	606	to	to	to	TO	O	aux	O	-1	O
+0	32	606	3063	3068	S	604	leave	leave	leave	VB	O	xcomp	O	-1	B-verb.motion
+0	32	607	3069	3075	S	606	behind	behind	behind	RB	O	advmod	O	-1	O
+0	32	608	3076	3083	N	614	Ireland	Ireland	Ireland	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	32	609	3084	3087	S	608	and	and	and	CC	O	cc	O	-1	O
+0	32	610	3088	3091	S	611	his	his	he	PRP$	O	poss	O	0	O
+0	32	611	3092	3098		608	family	family	family	NN	O	conj	O	-1	B-noun.group
+0	32	612	3098	3099	S	608	,	,	,	,	O	punct	O	-1	O
+0	32	613	3100	3105	S	608	Frank	Frank	Frank	NNP	PERSON	conj	O	0	B-noun.person
+0	32	614	3106	3109	S	606	has	has	have	VBZ	O	advcl	O	-1	B-verb.possession
+0	32	615	3110	3115	S	616	great	great	great	JJ	O	amod	O	-1	O
+0	32	616	3116	3128	S	614	expectations	expectations	expectation	NNS	O	dobj	O	-1	B-noun.cognition
+0	32	617	3129	3132	S	616	for	for	for	IN	O	prep	O	-1	O
+0	32	618	3133	3136	S	619	the	the	the	DT	DATE	det	O	-1	O
+0	32	619	3137	3143		617	future	future	future	NN	DATE	pobj	O	-1	B-noun.time
+0	32	620	3143	3144	N	604	.	.	.	.	O	punct	O	-1	O

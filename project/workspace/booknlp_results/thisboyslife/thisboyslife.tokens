@@ -1,0 +1,923 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	2	S	8	In	In	in	IN	O	prep	O	-1	O
+0	0	1	3	7		0	1955	1955	1955	CD	DATE	pobj	O	-1	O
+0	0	2	7	8	S	8	,	,	,	,	O	punct	O	-1	O
+0	0	3	9	13	S	4	Toby	Toby	Toby	NNP	PERSON	nn	O	-1	O
+0	0	4	14	19	S	8	Wolff	Wolff	Wolff	NNP	PERSON	nsubj	O	-1	O
+0	0	5	20	23	S	4	and	and	and	CC	O	cc	O	-1	O
+0	0	6	24	27	S	7	his	his	he	PRP$	O	poss	O	-1	O
+0	0	7	28	34	S	4	mother	mother	mother	NN	O	conj	O	-1	B-noun.person
+0	0	8	35	38	S	-1	are	are	be	VBP	O	null	O	-1	B-verb.stative
+0	0	9	39	41	S	8	on	on	on	IN	O	prep	O	-1	O
+0	0	10	42	47	S	11	their	their	they	PRP$	O	poss	O	-1	O
+0	0	11	48	51	S	9	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	0	12	52	54	S	11	to	to	to	TO	O	prep	O	-1	O
+0	0	13	55	59	S	12	Utah	Utah	Utah	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	14	60	62	S	15	to	to	to	TO	O	aux	O	-1	O
+0	0	15	63	67	S	11	make	make	make	VB	O	infmod	O	-1	B-verb.social
+0	0	16	68	73	S	17	their	their	they	PRP$	O	poss	O	-1	O
+0	0	17	74	81	S	15	fortune	fortune	fortune	NN	O	dobj	O	-1	B-noun.phenomenon
+0	0	18	82	84	S	15	by	by	by	IN	O	prep	O	-1	O
+0	0	19	85	91	S	18	mining	mining	mine	VBG	O	pcomp	O	-1	B-verb.consumption
+0	0	20	92	99		19	uranium	uranium	uranium	NN	O	dobj	O	-1	B-noun.substance
+0	0	21	99	100	S	8	.	.	.	.	O	punct	O	-1	O
+0	1	22	101	106	S	27	While	While	while	IN	O	prep	O	-1	O
+0	1	23	107	109	S	22	in	in	in	IN	O	dep	O	-1	O
+0	1	24	110	114		23	Utah	Utah	Utah	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	1	25	114	115	S	27	,	,	,	,	O	punct	O	-1	O
+0	1	26	116	120	S	27	Toby	Toby	Toby	NNP	PERSON	nsubj	O	-1	O
+0	1	27	121	128	S	-1	changes	changes	change	VBZ	O	null	O	-1	B-verb.change
+0	1	28	129	132	S	29	his	his	he	PRP$	O	poss	O	-1	O
+0	1	29	133	137	S	27	name	name	name	NN	O	dobj	O	-1	B-noun.communication
+0	1	30	138	140	S	27	to	to	to	TO	O	prep	O	-1	O
+0	1	31	141	145	S	30	Jack	Jack	Jack	NNP	PERSON	pobj	O	2	B-noun.person
+0	1	32	146	148	S	27	in	in	in	IN	O	prep	O	-1	O
+0	1	33	149	154	S	32	honor	honor	honor	NN	O	pobj	O	-1	B-noun.communication
+0	1	34	155	157	S	33	of	of	of	IN	O	prep	O	-1	O
+0	1	35	158	161	S	36	the	the	the	DT	O	det	O	-1	O
+0	1	36	162	168	S	34	author	author	author	NN	O	pobj	O	-1	B-noun.person
+0	1	37	169	171		39	##	##	##	CD	NUMBER	num	O	-1	O
+0	1	38	171	175	S	39	Jack	Jack	Jack	NNP	PERSON	nn	O	-1	B-noun.person
+0	1	39	176	182		36	London	London	London	NNP	PERSON	dep	O	-1	I-noun.person
+0	1	40	182	183	S	41	#	#	#	#	O	dep	O	-1	O
+0	1	41	184	187	S	39	and	and	and	CC	O	cc	O	-1	O
+0	1	42	188	192	S	44	also	also	also	RB	O	advmod	O	-1	O
+0	1	43	193	195	S	44	to	to	to	TO	O	aux	O	-1	O
+0	1	44	196	202	S	39	remove	remove	remove	VB	O	conj	O	-1	B-verb.change
+0	1	45	203	210	S	44	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	1	46	211	215	S	44	from	from	from	IN	O	prep	O	-1	O
+0	1	47	216	219	S	48	his	his	he	PRP$	O	poss	O	-1	O
+0	1	48	220	226		46	father	father	father	NN	O	pobj	O	-1	B-noun.person
+0	1	49	226	227	S	48	,	,	,	,	O	punct	O	-1	O
+0	1	50	228	231	S	51	who	who	who	WP	O	nsubj	O	-1	O
+0	1	51	232	241	S	48	abandoned	abandoned	abandon	VBD	O	rcmod	O	-1	B-verb.possession
+0	1	52	242	246	S	51	Jack	Jack	Jack	NNP	PERSON	dobj	O	2	B-noun.person
+0	1	53	247	250	S	52	and	and	and	CC	O	cc	O	-1	O
+0	1	54	251	254	S	55	his	his	he	PRP$	O	poss	O	-1	O
+0	1	55	255	261	S	52	mother	mother	mother	NN	O	conj	O	-1	B-noun.person
+0	1	56	262	269	S	60	shortly	shortly	shortly	RB	O	advmod	O	-1	O
+0	1	57	270	275	S	60	after	after	after	IN	O	dep	O	-1	O
+0	1	58	276	280	S	60	Jack	Jack	Jack	NNP	PERSON	nsubjpass	O	2	B-noun.person
+0	1	59	281	284	S	60	was	was	be	VBD	O	auxpass	O	-1	O
+0	1	60	285	289		51	born	born	bear	VBN	O	dep	O	-1	O
+0	1	61	289	290	S	27	.	.	.	.	O	punct	O	-1	O
+0	2	62	291	295		64	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	2	63	295	297	S	62	's	's	's	POS	O	possessive	O	-1	O
+0	2	64	298	304	S	67	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	2	65	305	307	S	67	is	is	be	VBZ	O	aux	O	-1	B-verb.stative
+0	2	66	308	311	S	67	now	now	now	RB	DATE	advmod	O	-1	O
+0	2	67	312	318	S	-1	living	living	live	VBG	O	null	O	-1	B-verb.stative
+0	2	68	319	321	S	67	in	in	in	IN	O	prep	O	-1	O
+0	2	69	322	333	S	68	Connecticut	Connecticut	Connecticut	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	2	70	334	338	S	67	with	with	with	IN	O	prep	O	-1	O
+0	2	71	339	343		73	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	2	72	343	345	S	71	's	's	's	POS	O	possessive	O	-1	O
+0	2	73	346	353		70	brother	brother	brother	NN	O	pobj	O	-1	O
+0	2	74	353	354	S	73	,	,	,	,	O	punct	O	-1	O
+0	2	75	355	363		73	Geoffrey	Geoffrey	Geoffrey	NNP	PERSON	appos	O	4	O
+0	2	76	363	364	S	67	,	,	,	,	O	punct	O	-1	O
+0	2	77	365	366	S	78	a	a	a	DT	O	det	O	-1	O
+0	2	78	367	374	S	67	student	student	student	NN	O	dobj	O	-1	B-noun.person
+0	2	79	375	377	S	78	at	at	at	IN	O	prep	O	-1	O
+0	2	80	378	387		79	Princeton	Princeton	Princeton	NNP	ORGANIZATION	pobj	O	-1	B-noun.location
+0	2	81	387	388	S	67	,	,	,	,	O	punct	O	-1	O
+0	2	82	389	392	S	67	and	and	and	CC	O	cc	O	-1	O
+0	2	83	393	395	S	84	is	is	be	VBZ	O	auxpass	O	-1	O
+0	2	84	396	403	S	67	married	married	marry	VBN	O	conj	O	-1	B-verb.social
+0	2	85	404	406	S	84	to	to	to	TO	O	prep	O	-1	O
+0	2	86	407	408	S	87	a	a	a	DT	O	det	O	-1	O
+0	2	87	409	421		85	millionaress	millionaress	millionaress	NN	O	pobj	O	-1	O
+0	2	88	421	422	S	67	.	.	.	.	O	punct	O	-1	O
+0	3	89	423	427	S	90	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	3	90	428	434	S	-1	shares	shares	share	VBZ	O	null	O	-1	B-verb.stative
+0	3	91	435	437	S	93	an	an	a	DT	O	det	O	-1	O
+0	3	92	438	446	S	93	intimate	intimate	intimate	JJ	O	amod	O	-1	O
+0	3	93	447	456	S	90	closeness	closeness	closeness	NN	O	dobj	O	-1	B-noun.feeling
+0	3	94	457	461	S	90	with	with	with	IN	O	prep	O	-1	O
+0	3	95	462	465	S	96	his	his	he	PRP$	O	poss	O	2	O
+0	3	96	466	472	S	94	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	3	97	473	476		107	who	who	who	WP	O	nsubj	O	-1	O
+0	3	98	476	477	S	107	,	,	,	,	O	punct	O	-1	O
+0	3	99	478	485	S	100	because	because	because	IN	O	dep	O	-1	O
+0	3	100	486	488	S	107	of	of	of	IN	O	prep	O	-1	O
+0	3	101	489	492	S	104	her	her	she	PRP$	O	poss	O	-1	O
+0	3	102	493	496	S	104	own	own	own	JJ	O	amod	O	-1	O
+0	3	103	497	504	S	104	abusive	abusive	abusive	JJ	O	amod	O	-1	O
+0	3	104	505	514		100	childhood	childhood	childhood	NN	O	pobj	O	-1	B-noun.time
+0	3	105	514	515	S	107	,	,	,	,	O	punct	O	-1	O
+0	3	106	516	526	S	107	habitually	habitually	habitually	RB	O	advmod	O	-1	O
+0	3	107	527	535	S	96	involves	involves	involve	VBZ	O	rcmod	O	-1	B-verb.stative
+0	3	108	536	543	S	107	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	3	109	544	548	S	107	with	with	with	IN	O	prep	O	-1	O
+0	3	110	549	556	S	113	violent	violent	violent	JJ	O	amod	O	-1	O
+0	3	111	557	560	S	110	and	and	and	CC	O	cc	O	-1	O
+0	3	112	561	569	S	110	volatile	volatile	volatile	JJ	O	conj	O	-1	O
+0	3	113	570	573		109	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	3	114	573	574	S	90	.	.	.	.	O	punct	O	-1	O
+0	4	115	575	580		118	First	First	first	RB	ORDINAL	advmod	O	-1	O
+0	4	116	580	581	S	118	,	,	,	,	O	punct	O	-1	O
+0	4	117	582	587	S	118	there	there	there	EX	O	expl	O	-1	O
+0	4	118	588	590	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	4	119	591	594		118	Roy	Roy	Roy	NNP	PERSON	nsubj	O	7	B-noun.person
+0	4	120	594	595	S	119	,	,	,	,	O	punct	O	-1	O
+0	4	121	596	604		124	Rosemary	Rosemary	Rosemary	NNP	PERSON	poss	O	6	O
+0	4	122	604	606	S	121	's	's	's	POS	O	possessive	O	-1	O
+0	4	123	607	613	S	124	second	second	second	JJ	ORDINAL	amod	O	-1	O
+0	4	124	614	621		119	husband	husband	husband	NN	O	appos	O	-1	B-noun.person
+0	4	125	621	622	S	119	,	,	,	,	O	punct	O	-1	O
+0	4	126	623	626	S	127	who	who	who	WP	O	nsubj	O	-1	O
+0	4	127	627	634	S	119	follows	follows	follow	VBZ	O	rcmod	O	-1	B-verb.stative
+0	4	128	635	643	S	127	Rosemary	Rosemary	Rosemary	NNP	PERSON	dobj	O	6	O
+0	4	129	644	647	S	128	and	and	and	CC	O	cc	O	-1	O
+0	4	130	648	652	S	128	Jack	Jack	Jack	NNP	PERSON	conj	O	2	B-noun.person
+0	4	131	653	657	S	128	from	from	from	IN	O	prep	O	-1	O
+0	4	132	658	665	S	131	Florida	Florida	Florida	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	4	133	666	668	S	131	to	to	to	TO	O	dep	O	-1	O
+0	4	134	669	673		133	Utah	Utah	Utah	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	4	135	673	674	S	118	.	.	.	.	O	punct	O	-1	O
+0	5	136	675	679	S	138	When	When	when	WRB	O	advmod	O	-1	O
+0	5	137	680	683	S	138	Roy	Roy	Roy	NNP	PERSON	nsubj	O	7	B-noun.person
+0	5	138	684	690	S	142	leaves	leaves	leave	VBZ	O	dep	O	-1	B-verb.motion
+0	5	139	691	695		138	them	them	they	PRP	O	dobj	O	-1	O
+0	5	140	695	696	S	142	,	,	,	,	O	punct	O	-1	O
+0	5	141	697	705	S	142	Rosemary	Rosemary	Rosemary	NNP	PERSON	nsubj	O	6	O
+0	5	142	706	711	S	-1	moves	moves	move	VBZ	O	null	O	-1	B-verb.motion
+0	5	143	712	716	S	142	with	with	with	IN	O	prep	O	-1	O
+0	5	144	717	721	S	143	Jack	Jack	Jack	NNP	PERSON	pobj	O	2	B-noun.person
+0	5	145	722	724	S	142	to	to	to	TO	O	prep	O	-1	O
+0	5	146	725	732		145	Seattle	Seattle	Seattle	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	5	147	732	733	S	146	,	,	,	,	O	punct	O	-1	O
+0	5	148	734	739	S	150	where	where	where	WRB	O	advmod	O	-1	O
+0	5	149	740	743	S	150	she	she	she	PRP	O	nsubj	O	6	O
+0	5	150	744	749	S	146	meets	meets	meet	VBZ	O	rcmod	O	-1	B-verb.motion
+0	5	151	750	756		150	Dwight	Dwight	Dwight	NNP	PERSON	dobj	O	10	O
+0	5	152	756	757	S	151	,	,	,	,	O	punct	O	-1	O
+0	5	153	758	761	S	155	who	who	who	WP	O	nsubj	O	-1	O
+0	5	154	762	767	S	155	seems	seems	seem	VBZ	O	cop	O	-1	B-verb.perception
+0	5	155	768	776	S	151	harmless	harmless	harmless	JJ	O	rcmod	O	-1	O
+0	5	156	777	782	S	158	until	until	until	IN	O	mark	O	-1	O
+0	5	157	783	787	S	158	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	5	158	788	793	S	155	moves	moves	move	VBZ	O	advcl	O	-1	B-verb.motion
+0	5	159	794	796	S	158	to	to	to	TO	O	prep	O	-1	O
+0	5	160	797	804	S	159	Chinook	Chinook	Chinook	NNP	O	pobj	O	-1	B-noun.person
+0	5	161	805	807	S	162	to	to	to	TO	O	aux	O	-1	O
+0	5	162	808	812	S	158	live	live	live	VB	O	xcomp	O	-1	B-verb.stative
+0	5	163	813	817	S	162	with	with	with	IN	O	prep	O	-1	O
+0	5	164	818	821		163	him	him	he	PRP	O	pobj	O	2	O
+0	5	165	821	822	S	151	,	,	,	,	O	punct	O	-1	O
+0	5	166	823	828	S	168	where	where	where	WRB	O	advmod	O	-1	O
+0	5	167	829	835	S	168	Dwight	Dwight	Dwight	NNP	PERSON	nsubj	O	10	B-noun.person
+0	5	168	836	843	S	151	reveals	reveals	reveal	VBZ	O	rcmod	O	-1	B-verb.perception
+0	5	169	844	851	S	168	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	5	170	852	854	S	172	to	to	to	TO	O	aux	O	-1	O
+0	5	171	855	857	S	172	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	5	172	858	863	S	168	cruel	cruel	cruel	JJ	O	xcomp	O	-1	O
+0	5	173	864	867	S	172	and	and	and	CC	O	cc	O	-1	O
+0	5	174	868	873		172	petty	petty	petty	NN	O	conj	O	-1	B-noun.act
+0	5	175	873	874	S	142	.	.	.	.	O	punct	O	-1	O
+0	6	176	875	881	S	177	Dwight	Dwight	Dwight	NNP	PERSON	nsubj	O	10	B-noun.person
+0	6	177	882	892	S	-1	criticizes	criticizes	criticize	VBZ	O	null	O	-1	B-verb.communication
+0	6	178	893	896	S	177	and	and	and	CC	O	cc	O	-1	O
+0	6	179	897	904	S	177	berates	berates	berate	VBZ	O	conj	O	-1	B-verb.communication
+0	6	180	905	909	S	179	Jack	Jack	Jack	NNP	PERSON	dobj	O	2	B-noun.person
+0	6	181	910	913	S	179	for	for	for	IN	O	prep	O	-1	O
+0	6	182	914	918	S	185	real	real	real	JJ	O	amod	O	-1	O
+0	6	183	919	922	S	182	and	and	and	CC	O	cc	O	-1	O
+0	6	184	923	931	S	182	imagined	imagined	imagine	VBD	O	conj	O	-1	B-verb.creation
+0	6	185	932	937		181	flaws	flaws	flaw	NNS	O	pobj	O	-1	B-noun.state
+0	6	186	937	938	S	177	,	,	,	,	O	punct	O	-1	O
+0	6	187	939	942	S	177	and	and	and	CC	O	cc	O	-1	O
+0	6	188	943	946	S	189	his	his	he	PRP$	O	poss	O	2	O
+0	6	189	947	952	S	190	rants	rants	rant	NNS	O	nsubj	O	-1	B-noun.communication
+0	6	190	953	956	S	177	are	are	be	VBP	O	conj	O	-1	B-verb.stative
+0	6	191	957	967	S	190	constantly	constantly	constantly	RB	O	advmod	O	-1	O
+0	6	192	968	970	S	190	at	at	at	IN	O	prep	O	-1	O
+0	6	193	971	974	S	194	the	the	the	DT	O	det	O	-1	O
+0	6	194	975	984	S	192	forefront	forefront	forefront	NN	O	pobj	O	-1	B-noun.location
+0	6	195	985	987	S	194	of	of	of	IN	O	prep	O	-1	O
+0	6	196	988	992		198	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	6	197	992	994	S	196	's	's	's	POS	O	possessive	O	-1	O
+0	6	198	995	999		195	mind	mind	mind	NN	O	pobj	O	-1	B-noun.cognition
+0	6	199	999	1000	S	177	.	.	.	.	O	punct	O	-1	O
+0	7	200	1001	1007	S	201	Dwight	Dwight	Dwight	NNP	PERSON	nsubj	O	10	B-noun.person
+0	7	201	1008	1015	S	-1	assigns	assigns	assign	VBZ	O	null	O	-1	B-verb.social
+0	7	202	1016	1020	S	203	Jack	Jack	Jack	NNP	PERSON	nn	O	2	B-noun.person
+0	7	203	1021	1027	S	201	chores	chores	chore	NNS	O	dobj	O	-1	B-noun.act
+0	7	204	1028	1031	S	201	for	for	for	IN	O	prep	O	-1	O
+0	7	205	1032	1034	S	206	no	no	no	DT	O	det	O	-1	O
+0	7	206	1035	1041	S	204	reason	reason	reason	NN	O	pobj	O	-1	B-noun.motive
+0	7	207	1042	1047	S	206	other	other	other	JJ	O	amod	O	-1	O
+0	7	208	1048	1052	S	210	than	than	than	IN	O	mark	O	-1	O
+0	7	209	1053	1055	S	210	to	to	to	TO	O	aux	O	-1	O
+0	7	210	1056	1063	S	207	exhibit	exhibit	exhibit	VB	O	ccomp	O	-1	B-verb.stative
+0	7	211	1064	1067	S	212	his	his	he	PRP$	O	poss	O	2	O
+0	7	212	1068	1073	S	210	power	power	power	NN	O	dobj	O	-1	B-noun.attribute
+0	7	213	1074	1077	S	212	and	and	and	CC	O	cc	O	-1	O
+0	7	214	1078	1085	S	212	control	control	control	NN	O	conj	O	-1	B-noun.relation
+0	7	215	1086	1090	S	210	over	over	over	IN	O	prep	O	-1	O
+0	7	216	1091	1094	S	217	the	the	the	DT	O	det	O	-1	O
+0	7	217	1095	1104		215	household	household	household	NN	O	pobj	O	-1	B-noun.group
+0	7	218	1104	1105	S	201	.	.	.	.	O	punct	O	-1	O
+0	8	219	1106	1112	S	221	Dwight	Dwight	Dwight	NNP	PERSON	nsubj	O	10	O
+0	8	220	1113	1117	S	221	also	also	also	RB	O	advmod	O	-1	O
+0	8	221	1118	1124	S	-1	forces	forces	force	VBZ	O	null	O	-1	B-verb.social
+0	8	222	1125	1129	S	224	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	8	223	1130	1132	S	224	to	to	to	TO	O	aux	O	-1	O
+0	8	224	1133	1140	S	221	deliver	deliver	deliver	VB	O	xcomp	O	-1	B-verb.communication
+0	8	225	1141	1151	S	224	newspapers	newspapers	newspaper	NNS	O	dobj	O	-1	B-noun.communication
+0	8	226	1152	1155	S	224	and	and	and	CC	O	cc	O	-1	O
+0	8	227	1156	1161	S	224	takes	takes	take	VBZ	O	conj	O	-1	B-verb.change
+0	8	228	1162	1165	S	229	the	the	the	DT	O	det	O	-1	O
+0	8	229	1166	1171	S	231	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	8	230	1172	1176	S	231	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	8	231	1177	1182	S	227	earns	earns	earn	VBZ	O	ccomp	O	-1	B-verb.possession
+0	8	232	1183	1186	S	231	for	for	for	IN	O	prep	O	-1	O
+0	8	233	1187	1194		232	himself	himself	himself	PRP	O	pobj	O	-1	O
+0	8	234	1194	1195	S	221	.	.	.	.	O	punct	O	-1	O
+0	9	235	1196	1199	S	237	The	The	the	DT	O	det	O	-1	O
+0	9	236	1200	1204	S	237	only	only	only	JJ	O	amod	O	-1	O
+0	9	237	1205	1209	S	245	time	time	time	NN	O	nsubj	O	-1	B-noun.event
+0	9	238	1210	1216	S	239	Dwight	Dwight	Dwight	NNP	PERSON	nsubj	O	10	B-noun.person
+0	9	239	1217	1226	S	237	expresses	expresses	express	VBZ	O	rcmod	O	-1	B-verb.communication
+0	9	240	1227	1228	S	242	a	a	a	DT	O	det	O	-1	O
+0	9	241	1229	1236	S	242	genuine	genuine	genuine	JJ	O	amod	O	-1	O
+0	9	242	1237	1245	S	239	interest	interest	interest	NN	O	dobj	O	-1	B-noun.cognition
+0	9	243	1246	1248	S	242	in	in	in	IN	O	prep	O	-1	O
+0	9	244	1249	1253	S	243	Jack	Jack	Jack	NNP	PERSON	pobj	O	2	B-noun.person
+0	9	245	1254	1256	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	9	246	1257	1261	S	248	when	when	when	WRB	O	advmod	O	-1	O
+0	9	247	1262	1264	S	248	he	he	he	PRP	O	nsubj	O	2	O
+0	9	248	1265	1272	S	245	teaches	teaches	teach	VBZ	O	advcl	O	-1	B-verb.communication
+0	9	249	1273	1277	S	248	Jack	Jack	Jack	NNP	PERSON	dobj	O	2	B-noun.person
+0	9	250	1278	1281	S	252	how	how	how	WRB	O	advmod	O	-1	O
+0	9	251	1282	1284	S	252	to	to	to	TO	O	aux	O	-1	O
+0	9	252	1285	1290		248	fight	fight	fight	VB	O	advcl	O	-1	B-verb.competition
+0	9	253	1290	1291	S	245	.	.	.	.	O	punct	O	-1	O
+0	10	254	1292	1298	S	256	Dwight	Dwight	Dwight	NNP	PERSON	nsubjpass	O	10	B-noun.person
+0	10	255	1299	1301	S	256	is	is	be	VBZ	O	auxpass	O	-1	O
+0	10	256	1302	1309	S	-1	excited	excited	excite	VBN	O	null	O	-1	B-verb.emotion
+0	10	257	1310	1312	S	256	by	by	by	IN	O	prep	O	-1	O
+0	10	258	1313	1317		260	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	10	259	1317	1319	S	258	's	's	's	POS	O	possessive	O	-1	O
+0	10	260	1320	1327	S	257	display	display	display	NN	O	pobj	O	-1	B-noun.communication
+0	10	261	1328	1330	S	260	of	of	of	IN	O	prep	O	-1	O
+0	10	262	1331	1341		261	aggression	aggression	aggression	NN	O	pobj	O	-1	B-noun.attribute
+0	10	263	1341	1342	S	256	,	,	,	,	O	punct	O	-1	O
+0	10	264	1343	1353	S	269	especially	especially	especially	RB	O	advmod	O	-1	O
+0	10	265	1354	1361	S	269	because	because	because	IN	O	dep	O	-1	O
+0	10	266	1362	1364	S	269	it	it	it	PRP	O	nsubjpass	O	-1	O
+0	10	267	1365	1369	S	269	will	will	will	MD	O	aux	O	-1	O
+0	10	268	1370	1372	S	269	be	be	be	VB	O	auxpass	O	-1	O
+0	10	269	1373	1381	S	256	directed	directed	direct	VBN	O	ccomp	O	-1	B-verb.competition
+0	10	270	1382	1389	S	269	against	against	against	IN	O	prep	O	-1	O
+0	10	271	1390	1396	S	272	Arthur	Arthur	Arthur	NNP	PERSON	nn	O	-1	B-noun.person
+0	10	272	1397	1402		270	Gayle	Gayle	Gayle	NNP	PERSON	pobj	O	-1	I-noun.person
+0	10	273	1402	1403	S	272	,	,	,	,	O	punct	O	-1	O
+0	10	274	1404	1405	S	277	a	a	a	DT	O	det	O	-1	O
+0	10	275	1406	1415	S	277	notorious	notorious	notorious	JJ	O	amod	O	-1	O
+0	10	276	1416	1417		277	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	10	277	1417	1422		272	sissy	sissy	sissy	NN	O	appos	I-QUOTE	-1	O
+0	10	278	1422	1423	S	277	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	10	279	1424	1427	S	280	who	who	who	WP	O	nsubj	O	-1	O
+0	10	280	1428	1431	S	277	has	has	have	VBZ	O	rcmod	O	-1	B-verb.possession
+0	10	281	1432	1433	S	283	a	a	a	DT	O	det	O	-1	O
+0	10	282	1434	1445	S	283	short-lived	short-lived	short-lived	JJ	O	amod	O	-1	O
+0	10	283	1446	1456	S	280	friendship	friendship	friendship	NN	O	dobj	O	-1	B-noun.state
+0	10	284	1457	1461	S	283	with	with	with	IN	O	prep	O	-1	O
+0	10	285	1462	1466		284	Jack	Jack	Jack	NNP	PERSON	pobj	O	2	B-noun.person
+0	10	286	1466	1467	S	256	.	.	.	.	O	punct	O	-1	O
+0	11	287	1468	1472	S	288	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	11	288	1473	1478	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.social
+0	11	289	1479	1485	S	288	refuge	refuge	refuge	NN	O	dobj	O	-1	B-noun.act
+0	11	290	1486	1488	S	288	in	in	in	IN	O	prep	O	-1	O
+0	11	291	1489	1492	S	295	his	his	he	PRP$	O	poss	O	2	O
+0	11	292	1493	1502	S	293	unusually	unusually	unusually	RB	O	advmod	O	-1	O
+0	11	293	1503	1508		295	vivid	vivid	vivid	JJ	O	amod	O	-1	O
+0	11	294	1508	1509	S	295	,	,	,	,	O	punct	O	-1	O
+0	11	295	1510	1521		290	imagination	imagination	imagination	NN	O	pobj	O	-1	B-noun.cognition
+0	11	296	1521	1522	S	288	.	.	.	.	O	punct	O	-1	O
+0	12	297	1523	1529		299	Dwight	Dwight	Dwight	NNP	PERSON	poss	O	10	B-noun.person
+0	12	298	1529	1531	S	297	's	's	's	POS	O	possessive	O	-1	O
+0	12	299	1532	1537	S	-1	abuse	abuse	abuse	NN	O	null	O	-1	B-noun.act
+0	12	300	1538	1541	S	299	and	and	and	CC	O	cc	O	-1	O
+0	12	301	1542	1546		305	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	12	302	1546	1548	S	301	's	's	's	POS	O	possessive	O	-1	O
+0	12	303	1549	1552	S	305	own	own	own	JJ	O	amod	O	-1	O
+0	12	304	1553	1560	S	305	general	general	general	JJ	O	amod	O	-1	O
+0	12	305	1561	1572	S	299	unhappiness	unhappiness	unhappiness	NN	O	conj	O	-1	B-noun.feeling
+0	12	306	1573	1575	S	305	in	in	in	IN	O	prep	O	-1	O
+0	12	307	1576	1583	S	306	Chinook	Chinook	Chinook	NNP	LOCATION	pobj	O	-1	O
+0	12	308	1584	1588	S	309	only	only	only	RB	O	advmod	O	-1	O
+0	12	309	1589	1593	S	305	fuel	fuel	fuel	NN	O	dep	O	-1	B-noun.substance
+0	12	310	1594	1598		312	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	12	311	1598	1600	S	310	's	's	's	POS	O	possessive	O	-1	O
+0	12	312	1601	1610		309	fantasies	fantasies	fantasy	NNS	O	dobj	O	-1	B-noun.cognition
+0	12	313	1610	1611	S	299	.	.	.	.	O	punct	O	-1	O
+0	13	314	1612	1616	S	315	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	13	315	1617	1622	S	-1	longs	longs	long	VBZ	O	null	O	-1	B-verb.emotion
+0	13	316	1623	1625	S	317	to	to	to	TO	O	aux	O	-1	O
+0	13	317	1626	1632	S	315	escape	escape	escape	VB	O	xcomp	O	-1	B-verb.motion
+0	13	318	1633	1637	S	317	from	from	from	IN	O	prep	O	-1	O
+0	13	319	1638	1645	S	318	Chinook	Chinook	Chinook	NNP	O	pobj	O	-1	B-noun.person
+0	13	320	1646	1648	S	324	so	so	so	IN	O	mark	O	-1	O
+0	13	321	1649	1653	S	324	that	that	that	IN	O	dep	O	-1	O
+0	13	322	1654	1656	S	324	he	he	he	PRP	O	nsubj	O	2	O
+0	13	323	1657	1660	S	324	can	can	can	MD	O	aux	O	-1	O
+0	13	324	1661	1669	S	317	recreate	recreate	recreate	VB	O	advcl	O	-1	B-verb.body
+0	13	325	1670	1677		324	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	13	326	1677	1678	S	315	,	,	,	,	O	punct	O	-1	O
+0	13	327	1679	1682	S	315	but	but	but	CC	O	cc	O	-1	O
+0	13	328	1683	1685	S	331	he	he	he	PRP	O	nsubj	O	2	O
+0	13	329	1686	1689	S	331	can	can	can	MD	O	aux	O	-1	O
+0	13	330	1690	1694	S	331	only	only	only	RB	O	advmod	O	-1	O
+0	13	331	1695	1699	S	315	live	live	live	VB	O	conj	O	-1	B-verb.stative
+0	13	332	1700	1703	S	333	the	the	the	DT	O	det	O	-1	O
+0	13	333	1704	1708	S	331	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	13	334	1709	1711	S	335	he	he	he	PRP	O	nsubj	O	2	O
+0	13	335	1712	1717	S	333	wants	wants	want	VBZ	O	rcmod	O	-1	B-verb.emotion
+0	13	336	1718	1721	S	335	for	for	for	IN	O	prep	O	-1	O
+0	13	337	1722	1729	S	336	himself	himself	himself	PRP	O	pobj	O	-1	O
+0	13	338	1730	1732	S	335	in	in	in	IN	O	prep	O	-1	O
+0	13	339	1733	1736	S	341	his	his	he	PRP$	O	poss	O	2	O
+0	13	340	1737	1740	S	341	own	own	own	JJ	O	amod	O	-1	O
+0	13	341	1741	1745		338	mind	mind	mind	NN	O	pobj	O	-1	B-noun.cognition
+0	13	342	1745	1746	S	315	.	.	.	.	O	punct	O	-1	O
+0	14	343	1747	1751	S	345	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	14	344	1752	1763	S	345	essentially	essentially	essentially	RB	O	advmod	O	-1	O
+0	14	345	1764	1771	S	-1	creates	creates	create	VBZ	O	null	O	-1	B-verb.creation
+0	14	346	1772	1775	S	348	his	his	he	PRP$	O	poss	O	2	O
+0	14	347	1776	1779	S	348	own	own	own	JJ	O	amod	O	-1	O
+0	14	348	1780	1787		345	reality	reality	reality	NN	O	dobj	O	-1	B-noun.cognition
+0	14	349	1787	1788	S	345	,	,	,	,	O	punct	O	-1	O
+0	14	350	1789	1791	S	352	as	as	as	RB	O	advmod	O	-1	O
+0	14	351	1792	1794	S	352	is	is	be	VBZ	O	auxpass	O	-1	O
+0	14	352	1795	1804	S	345	evidenced	evidenced	evidence	VBN	O	dep	O	-1	B-verb.communication
+0	14	353	1805	1809	S	355	when	when	when	WRB	O	advmod	O	-1	O
+0	14	354	1810	1812	S	355	he	he	he	PRP	O	nsubj	O	2	O
+0	14	355	1813	1819	S	352	forges	forges	forge	VBZ	O	advcl	O	-1	B-verb.creation
+0	14	356	1820	1828	S	357	ecstatic	ecstatic	ecstatic	JJ	O	amod	O	-1	O
+0	14	357	1829	1836	S	355	letters	letters	letter	NNS	O	dobj	O	-1	B-noun.communication
+0	14	358	1837	1839	S	357	of	of	of	IN	O	prep	O	-1	O
+0	14	359	1840	1846	S	358	praise	praise	praise	NN	O	pobj	O	-1	B-noun.communication
+0	14	360	1847	1850	S	355	for	for	for	IN	O	prep	O	-1	O
+0	14	361	1851	1854	S	362	his	his	he	PRP$	O	poss	O	2	O
+0	14	362	1855	1866	S	360	application	application	application	NN	O	pobj	O	-1	B-noun.act
+0	14	363	1867	1869	S	362	to	to	to	TO	O	prep	O	-1	O
+0	14	364	1870	1877	S	366	private	private	private	JJ	O	amod	O	-1	O
+0	14	365	1878	1886	S	366	boarding	boarding	board	VBG	O	amod	O	-1	B-verb.motion
+0	14	366	1887	1894		363	schools	schools	school	NNS	O	pobj	O	-1	B-noun.group
+0	14	367	1894	1895	S	345	.	.	.	.	O	punct	O	-1	O
+0	15	368	1896	1898	S	372	In	In	in	IN	O	prep	O	-1	O
+0	15	369	1899	1905		368	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	15	370	1905	1906	S	372	,	,	,	,	O	punct	O	-1	O
+0	15	371	1907	1911	S	372	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	15	372	1912	1917	S	-1	tends	tends	tend	VBZ	O	null	O	-1	B-verb.stative
+0	15	373	1918	1920	S	374	to	to	to	TO	O	aux	O	-1	O
+0	15	374	1921	1924	S	372	run	run	run	VB	O	xcomp	O	-1	B-verb.motion
+0	15	375	1925	1929	S	374	with	with	with	IN	O	prep	O	-1	O
+0	15	376	1930	1931	S	378	a	a	a	DT	O	det	O	-1	O
+0	15	377	1932	1941	S	378	dangerous	dangerous	dangerous	JJ	O	amod	O	-1	O
+0	15	378	1942	1947		381	crowd	crowd	crowd	NN	O	nsubj	O	-1	B-noun.group
+0	15	379	1947	1948	S	378	,	,	,	,	O	punct	O	-1	O
+0	15	380	1949	1954	S	381	often	often	often	RB	O	advmod	O	-1	O
+0	15	381	1955	1962	S	375	getting	getting	get	VBG	O	pcomp	O	-1	B-verb.possession
+0	15	382	1963	1967	S	381	into	into	into	IN	O	prep	O	-1	O
+0	15	383	1968	1975	S	382	trouble	trouble	trouble	NN	O	pobj	O	-1	B-noun.state
+0	15	384	1976	1980	S	383	with	with	with	IN	O	prep	O	-1	O
+0	15	385	1981	1984	S	386	the	the	the	DT	O	det	O	-1	O
+0	15	386	1985	1996		384	authorities	authorities	authority	NNS	O	pobj	O	-1	B-noun.group
+0	15	387	1996	1997	S	372	,	,	,	,	O	punct	O	-1	O
+0	15	388	1998	2001	S	372	but	but	but	CC	O	cc	O	-1	O
+0	15	389	2002	2004	S	397	in	in	in	IN	O	prep	O	-1	O
+0	15	390	2005	2008	S	391	his	his	he	PRP$	O	poss	O	2	O
+0	15	391	2009	2021	S	389	applications	applications	application	NNS	O	pobj	O	-1	B-noun.act
+0	15	392	2022	2024	S	391	to	to	to	TO	O	prep	O	-1	O
+0	15	393	2025	2032	S	394	private	private	private	JJ	O	amod	O	-1	O
+0	15	394	2033	2040		392	schools	schools	school	NNS	O	pobj	O	-1	B-noun.group
+0	15	395	2040	2041	S	397	,	,	,	,	O	punct	O	-1	O
+0	15	396	2042	2046	S	397	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	15	397	2047	2053	S	372	writes	writes	write	VBZ	O	conj	O	-1	B-verb.communication
+0	15	398	2054	2058	S	402	that	that	that	IN	O	complm	O	-1	O
+0	15	399	2059	2061	S	402	he	he	he	PRP	O	nsubj	O	2	O
+0	15	400	2062	2064	S	402	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	15	401	2065	2067	S	402	an	an	a	DT	O	det	O	-1	O
+0	15	402	2068	2077		397	A-student	A-student	a-student	NN	O	ccomp	O	-1	O
+0	15	403	2077	2078	S	402	,	,	,	,	O	punct	O	-1	O
+0	15	404	2079	2083	S	405	star	star	star	NN	O	nn	O	-1	B-noun.object
+0	15	405	2084	2091		402	athlete	athlete	athlete	NN	O	conj	O	-1	O
+0	15	406	2091	2092	S	402	,	,	,	,	O	punct	O	-1	O
+0	15	407	2093	2096	S	402	and	and	and	CC	O	cc	O	-1	O
+0	15	408	2097	2101	S	409	good	good	good	JJ	O	amod	O	-1	O
+0	15	409	2102	2109		402	citizen	citizen	citizen	NN	O	conj	O	-1	B-noun.person
+0	15	410	2109	2110	S	372	.	.	.	.	O	punct	O	-1	O
+0	16	411	2111	2115	S	413	Jack	Jack	Jack	NNP	PERSON	nsubjpass	O	2	B-noun.person
+0	16	412	2116	2118	S	413	is	is	be	VBZ	O	auxpass	O	-1	O
+0	16	413	2119	2127	S	-1	obsessed	obsessed	obsess	VBN	O	null	O	-1	B-verb.emotion
+0	16	414	2128	2132	S	413	with	with	with	IN	O	prep	O	-1	O
+0	16	415	2133	2136	S	416	the	the	the	DT	O	det	O	-1	O
+0	16	416	2137	2141	S	414	idea	idea	idea	NN	O	pobj	O	-1	B-noun.cognition
+0	16	417	2142	2144	S	416	of	of	of	IN	O	prep	O	-1	O
+0	16	418	2145	2152	S	417	himself	himself	himself	PRP	O	pobj	O	-1	O
+0	16	419	2153	2155	S	413	as	as	as	IN	O	prep	O	-1	O
+0	16	420	2156	2157	S	425	a	a	a	DT	O	det	O	-1	O
+0	16	421	2158	2166	S	425	virtuous	virtuous	virtuous	JJ	O	amod	O	-1	O
+0	16	422	2167	2170	S	421	and	and	and	CC	O	cc	O	-1	O
+0	16	423	2171	2177	S	421	gifted	gifted	gifted	JJ	O	conj	O	-1	O
+0	16	424	2178	2183	S	425	young	young	young	JJ	O	amod	O	-1	O
+0	16	425	2184	2187		419	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	16	426	2187	2188	S	425	,	,	,	,	O	punct	O	-1	O
+0	16	427	2189	2192	S	425	and	and	and	CC	O	cc	O	-1	O
+0	16	428	2193	2196	S	425	has	has	have	VBZ	O	conj	O	-1	B-verb.possession
+0	16	429	2197	2199	S	430	no	no	no	DT	O	det	O	-1	O
+0	16	430	2200	2207	S	428	trouble	trouble	trouble	NN	O	dobj	O	-1	B-noun.event
+0	16	431	2208	2217	S	430	believing	believing	believe	VBG	O	dep	O	-1	B-verb.cognition
+0	16	432	2218	2221	S	433	his	his	he	PRP$	O	poss	O	2	O
+0	16	433	2222	2226	S	434	that	that	that	WDT	O	nsubj	O	-1	O
+0	16	434	2227	2231	S	431	lies	lies	lie	VBZ	O	ccomp	O	-1	B-verb.stative
+0	16	435	2232	2235	S	437	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	16	436	2236	2239	S	437	the	the	the	DT	O	det	O	-1	O
+0	16	437	2240	2245		434	truth	truth	truth	NN	O	xcomp	O	-1	B-noun.cognition
+0	16	438	2245	2246	S	413	.	.	.	.	O	punct	O	-1	O
+0	17	439	2247	2251	S	440	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	17	440	2252	2255	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	17	441	2256	2260	S	442	many	many	many	JJ	O	amod	O	-1	O
+0	17	442	2261	2267	S	440	dreams	dreams	dream	NNS	O	dobj	O	-1	B-noun.cognition
+0	17	443	2268	2270	S	442	of	of	of	IN	O	prep	O	-1	O
+0	17	444	2271	2278	S	443	running	running	run	VBG	O	pcomp	O	-1	B-verb.motion
+0	17	445	2279	2283		444	away	away	away	RB	O	advmod	O	-1	O
+0	17	446	2283	2284	S	440	,	,	,	,	O	punct	O	-1	O
+0	17	447	2285	2288	S	440	but	but	but	CC	O	cc	O	-1	O
+0	17	448	2289	2291	S	450	he	he	he	PRP	O	nsubj	O	2	O
+0	17	449	2292	2297	S	450	never	never	never	RB	O	neg	O	-1	O
+0	17	450	2298	2306	S	440	succeeds	succeeds	succeed	VBZ	O	conj	O	-1	B-verb.social
+0	17	451	2307	2309	S	450	in	in	in	IN	O	prep	O	-1	O
+0	17	452	2310	2321	S	451	actualizing	actualizing	actualize	VBG	O	pcomp	O	-1	B-verb.creation
+0	17	453	2322	2326		452	them	them	they	PRP	O	dobj	O	-1	O
+0	17	454	2326	2327	S	440	.	.	.	.	O	punct	O	-1	O
+0	18	455	2328	2332		459	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	18	456	2332	2334	S	455	's	's	's	POS	O	possessive	O	-1	O
+0	18	457	2335	2340	S	459	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	18	458	2341	2345	S	459	real	real	real	JJ	O	amod	O	-1	O
+0	18	459	2346	2353	S	463	attempt	attempt	attempt	NN	O	nsubj	O	-1	B-noun.act
+0	18	460	2354	2356	S	459	at	at	at	IN	O	prep	O	-1	O
+0	18	461	2357	2364	S	460	running	running	run	VBG	O	pcomp	O	-1	B-verb.motion
+0	18	462	2365	2369	S	461	away	away	away	RB	O	advmod	O	-1	O
+0	18	463	2370	2378	S	-1	involves	involves	involve	VBZ	O	null	O	-1	B-verb.stative
+0	18	464	2379	2380	S	465	a	a	a	DT	O	det	O	-1	O
+0	18	465	2381	2385	S	463	plan	plan	plan	NN	O	dobj	O	-1	B-noun.cognition
+0	18	466	2386	2388	S	467	to	to	to	TO	O	aux	O	-1	O
+0	18	467	2389	2393	S	465	flee	flee	flee	VB	O	infmod	O	-1	B-verb.motion
+0	18	468	2394	2396	S	467	to	to	to	TO	O	prep	O	-1	O
+0	18	469	2397	2403	S	468	Alaska	Alaska	Alaska	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	18	470	2404	2408	S	467	with	with	with	IN	O	prep	O	-1	O
+0	18	471	2409	2415		470	Arthur	Arthur	Arthur	NNP	PERSON	pobj	O	0	B-noun.person
+0	18	472	2415	2416	S	463	.	.	.	.	O	punct	O	-1	O
+0	19	473	2417	2421	S	474	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	19	474	2422	2427	S	-1	plans	plans	plan	VBZ	O	null	O	-1	B-verb.cognition
+0	19	475	2428	2430	S	476	to	to	to	TO	O	aux	O	-1	O
+0	19	476	2431	2435	S	474	make	make	make	VB	O	xcomp	O	-1	B-verb.social
+0	19	477	2436	2439	S	478	his	his	he	PRP$	O	poss	O	2	O
+0	19	478	2440	2447	S	476	getaway	getaway	getaway	NN	O	dobj	O	-1	B-noun.attribute
+0	19	479	2448	2453	S	476	after	after	after	IN	O	prep	O	-1	O
+0	19	480	2454	2455	S	483	a	a	a	DT	O	det	O	-1	O
+0	19	481	2456	2459	S	483	Boy	Boy	Boy	NNP	MISC	nn	O	-1	B-noun.person
+0	19	482	2460	2465	S	483	Scout	Scout	Scout	NNP	MISC	nn	O	-1	I-noun.person
+0	19	483	2466	2473	S	479	meeting	meeting	meeting	NN	O	pobj	O	-1	I-noun.person
+0	19	484	2474	2476	S	483	in	in	in	IN	O	prep	O	-1	O
+0	19	485	2477	2484	S	486	another	another	another	DT	O	det	O	-1	O
+0	19	486	2485	2489		484	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	19	487	2489	2490	S	474	,	,	,	,	O	punct	O	-1	O
+0	19	488	2491	2494	S	474	but	but	but	CC	O	cc	O	-1	O
+0	19	489	2495	2497	S	490	he	he	he	PRP	O	nsubj	O	2	O
+0	19	490	2498	2502	S	474	ends	ends	end	VBZ	O	conj	O	-1	B-verb.change
+0	19	491	2503	2505	S	490	up	up	up	RP	O	prt	O	-1	O
+0	19	492	2506	2517	S	490	befriending	befriending	befriend	VBG	O	xcomp	O	-1	B-verb.social
+0	19	493	2518	2519	S	494	a	a	a	DT	O	det	O	-1	O
+0	19	494	2520	2525	S	492	group	group	group	NN	O	dobj	O	-1	B-noun.group
+0	19	495	2526	2528	S	494	of	of	of	IN	O	prep	O	-1	O
+0	19	496	2529	2533	S	495	boys	boys	boy	NNS	O	pobj	O	-1	B-noun.person
+0	19	497	2534	2538	S	492	from	from	from	IN	O	prep	O	-1	O
+0	19	498	2539	2546	S	499	another	another	another	DT	O	det	O	-1	O
+0	19	499	2547	2552		497	troop	troop	troop	NN	O	pobj	O	-1	B-noun.group
+0	19	500	2552	2553	S	490	,	,	,	,	O	punct	O	-1	O
+0	19	501	2554	2564	S	490	distancing	distancing	distance	VBG	O	xcomp	O	-1	B-verb.stative
+0	19	502	2565	2572	S	501	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	19	503	2573	2577	S	501	from	from	from	IN	O	prep	O	-1	O
+0	19	504	2578	2584		503	Arthur	Arthur	Arthur	NNP	PERSON	pobj	O	0	B-noun.person
+0	19	505	2584	2585	S	474	,	,	,	,	O	punct	O	-1	O
+0	19	506	2586	2589	S	474	and	and	and	CC	O	cc	O	-1	O
+0	19	507	2590	2595	S	508	being	being	be	VBG	O	auxpass	O	-1	O
+0	19	508	2596	2602	S	474	conned	conned	con	VBN	O	conj	O	-1	B-verb.social
+0	19	509	2603	2606	S	508	out	out	out	IN	O	prep	O	-1	O
+0	19	510	2607	2609	S	509	of	of	of	IN	O	dep	O	-1	O
+0	19	511	2610	2613	S	510	all	all	all	DT	O	pobj	O	-1	O
+0	19	512	2614	2616	S	511	of	of	of	IN	O	prep	O	-1	O
+0	19	513	2617	2620	S	514	his	his	he	PRP$	O	poss	O	2	O
+0	19	514	2621	2626		512	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	19	515	2626	2627	S	474	.	.	.	.	O	punct	O	-1	O
+0	20	516	2628	2633		519	Later	Later	later	RB	O	advmod	O	-1	O
+0	20	517	2633	2634	S	519	,	,	,	,	O	punct	O	-1	O
+0	20	518	2635	2639	S	519	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	20	519	2640	2645	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	20	520	2646	2648	S	521	to	to	to	TO	O	aux	O	-1	O
+0	20	521	2649	2653	S	519	take	take	take	VB	O	xcomp	O	-1	B-verb.possession
+0	20	522	2654	2660	S	521	refuge	refuge	refuge	NN	O	dobj	O	-1	B-noun.act
+0	20	523	2661	2665	S	521	with	with	with	IN	O	prep	O	-1	O
+0	20	524	2666	2669	S	526	his	his	he	PRP$	O	poss	O	2	O
+0	20	525	2670	2675	S	526	older	older	older	JJR	O	amod	O	-1	O
+0	20	526	2676	2683		523	brother	brother	brother	NN	O	pobj	O	-1	B-noun.person
+0	20	527	2683	2684	S	526	,	,	,	,	O	punct	O	-1	O
+0	20	528	2685	2693		526	Geoffrey	Geoffrey	Geoffrey	NNP	PERSON	appos	O	4	O
+0	20	529	2693	2694	S	526	,	,	,	,	O	punct	O	-1	O
+0	20	530	2695	2697	S	526	at	at	at	IN	O	prep	O	-1	O
+0	20	531	2698	2707		530	Princeton	Princeton	Princeton	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	20	532	2707	2708	S	519	,	,	,	,	O	punct	O	-1	O
+0	20	533	2709	2712	S	519	but	but	but	CC	O	cc	O	-1	O
+0	20	534	2713	2717	S	535	this	this	this	DT	O	det	O	-1	O
+0	20	535	2718	2722	S	536	plan	plan	plan	NN	O	nsubj	O	-1	B-noun.cognition
+0	20	536	2723	2727	S	519	goes	goes	go	VBZ	O	conj	O	-1	B-verb.change
+0	20	537	2728	2732	S	536	awry	awry	awry	RB	O	advmod	O	-1	O
+0	20	538	2733	2737	S	541	when	when	when	WRB	O	advmod	O	-1	O
+0	20	539	2738	2742	S	541	Jack	Jack	Jack	NNP	PERSON	nsubjpass	O	2	B-noun.person
+0	20	540	2743	2745	S	541	is	is	be	VBZ	O	auxpass	O	-1	O
+0	20	541	2746	2752	S	536	caught	caught	catch	VBN	O	advcl	O	-1	B-verb.cognition
+0	20	542	2753	2760	S	541	forging	forging	forge	VBG	O	xcomp	O	-1	B-verb.creation
+0	20	543	2761	2762	S	545	a	a	a	DT	O	det	O	-1	O
+0	20	544	2763	2767	S	545	bank	bank	bank	NN	O	nn	O	-1	B-noun.possession
+0	20	545	2768	2773		542	check	check	check	NN	O	dobj	O	-1	I-noun.possession
+0	20	546	2773	2774	S	519	.	.	.	.	O	punct	O	-1	O
+0	21	547	2775	2779	S	549	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	21	548	2780	2787	S	549	finally	finally	finally	RB	O	advmod	O	-1	O
+0	21	549	2788	2792	S	-1	gets	gets	get	VBZ	O	null	O	-1	B-verb.change
+0	21	550	2793	2796	S	551	the	the	the	DT	O	det	O	-1	O
+0	21	551	2797	2808	S	549	opportunity	opportunity	opportunity	NN	O	dobj	O	-1	B-noun.state
+0	21	552	2809	2811	S	553	to	to	to	TO	O	aux	O	-1	O
+0	21	553	2812	2817	S	551	leave	leave	leave	VB	O	infmod	O	-1	B-verb.motion
+0	21	554	2818	2825	S	553	Chinook	Chinook	Chinook	NNP	ORGANIZATION	dobj	O	-1	B-noun.person
+0	21	555	2826	2829	S	553	and	and	and	CC	O	cc	O	-1	O
+0	21	556	2830	2835	S	557	start	start	start	VB	O	dep	O	-1	B-verb.change
+0	21	557	2836	2840	S	553	anew	anew	anew	RB	O	conj	O	-1	O
+0	21	558	2841	2845	S	561	when	when	when	WRB	O	advmod	O	-1	O
+0	21	559	2846	2848	S	561	he	he	he	PRP	O	nsubjpass	O	2	O
+0	21	560	2849	2851	S	561	is	is	be	VBZ	O	auxpass	O	-1	O
+0	21	561	2852	2860	S	557	accepted	accepted	accept	VBN	O	dep	O	-1	B-verb.cognition
+0	21	562	2861	2863	S	561	to	to	to	TO	O	prep	O	-1	O
+0	21	563	2864	2867	S	566	the	the	the	DT	O	det	O	-1	O
+0	21	564	2868	2873	S	566	elite	elite	elite	NN	O	nn	O	-1	B-noun.group
+0	21	565	2874	2878	S	566	Hill	Hill	Hill	NNP	ORGANIZATION	nn	O	-1	I-noun.group
+0	21	566	2879	2885		562	School	School	School	NNP	ORGANIZATION	pobj	O	-1	I-noun.group
+0	21	567	2885	2886	S	549	.	.	.	.	O	punct	O	-1	O
+0	22	568	2887	2890	S	569	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	8	B-noun.person
+0	22	569	2891	2897		-1	Howard	Howard	Howard	NNP	PERSON	null	O	8	I-noun.person
+0	22	570	2897	2898	S	569	,	,	,	,	O	punct	O	-1	O
+0	22	571	2899	2901	S	572	an	an	a	DT	O	det	O	-1	O
+0	22	572	2902	2909	S	569	alumnus	alumnus	alumnus	NN	O	appos	O	-1	B-noun.person
+0	22	573	2910	2912	S	572	of	of	of	IN	O	prep	O	-1	O
+0	22	574	2913	2917		573	Hill	Hill	Hill	NNP	PERSON	pobj	O	5	O
+0	22	575	2917	2918	S	569	,	,	,	,	O	punct	O	-1	O
+0	22	576	2919	2929	S	577	interviews	interviews	interview	NNS	O	nn	O	-1	B-noun.communication
+0	22	577	2930	2934	S	569	Jack	Jack	Jack	NNP	PERSON	conj	O	2	B-noun.person
+0	22	578	2935	2938	S	569	and	and	and	CC	O	cc	O	-1	O
+0	22	579	2939	2945	S	569	serves	serves	serve	VBZ	O	conj	O	-1	B-verb.stative
+0	22	580	2946	2948	S	579	as	as	as	IN	O	prep	O	-1	O
+0	22	581	2949	2953		583	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	22	582	2953	2955	S	581	's	's	's	POS	O	possessive	O	-1	O
+0	22	583	2956	2962		580	mentor	mentor	mentor	NN	O	pobj	O	-1	B-noun.person
+0	22	584	2962	2963	S	569	.	.	.	.	O	punct	O	-1	O
+0	23	585	2964	2969		603	Later	Later	later	RB	O	advmod	O	-1	O
+0	23	586	2969	2970	S	603	,	,	,	,	O	punct	O	-1	O
+0	23	587	2971	2975	S	595	when	when	when	WRB	O	advmod	O	-1	O
+0	23	588	2976	2979	S	589	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	8	B-noun.person
+0	23	589	2980	2986	S	595	Howard	Howard	Howard	NNP	PERSON	nsubj	O	8	I-noun.person
+0	23	590	2987	2990	S	589	and	and	and	CC	O	cc	O	-1	O
+0	23	591	2991	2994	S	592	his	his	he	PRP$	O	poss	O	2	O
+0	23	592	2995	2999	S	589	wife	wife	wife	NN	O	conj	O	-1	B-noun.person
+0	23	593	3000	3004	S	595	have	have	have	VBP	O	aux	O	-1	B-verb.possession
+0	23	594	3005	3009	S	595	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	23	595	3010	3016	S	603	fitted	fitted	fit	VBD	O	dep	O	-1	B-verb.stative
+0	23	596	3017	3020	S	595	for	for	for	IN	O	prep	O	-1	O
+0	23	597	3021	3022	S	599	a	a	a	DT	O	det	O	-1	O
+0	23	598	3023	3026	S	599	new	new	new	JJ	O	amod	O	-1	O
+0	23	599	3027	3035		596	wardrobe	wardrobe	wardrobe	NN	O	pobj	O	-1	B-noun.artifact
+0	23	600	3035	3036	S	603	,	,	,	,	O	punct	O	-1	O
+0	23	601	3037	3041	S	603	Jack	Jack	Jack	NNP	PERSON	nsubjpass	O	2	B-noun.person
+0	23	602	3042	3044	S	603	is	is	be	VBZ	O	auxpass	O	-1	O
+0	23	603	3045	3051	S	-1	warmed	warmed	warm	VBN	O	null	O	-1	B-verb.change
+0	23	604	3052	3054	S	603	by	by	by	IN	O	prep	O	-1	O
+0	23	605	3055	3060	S	606	their	their	they	PRP$	O	poss	O	-1	O
+0	23	606	3061	3070	S	604	attention	attention	attention	NN	O	pobj	O	-1	B-noun.cognition
+0	23	607	3071	3074	S	606	and	and	and	CC	O	cc	O	-1	O
+0	23	608	3075	3084		606	affection	affection	affection	NN	O	conj	O	-1	B-noun.feeling
+0	23	609	3084	3085	S	608	,	,	,	,	O	punct	O	-1	O
+0	23	610	3086	3091	S	613	which	which	which	WDT	O	dobj	O	-1	O
+0	23	611	3092	3094	S	613	he	he	he	PRP	O	nsubj	O	2	O
+0	23	612	3095	3098	S	613	has	has	have	VBZ	O	aux	O	-1	O
+0	23	613	3099	3110	S	608	experienced	experienced	experience	VBN	O	rcmod	O	-1	B-verb.perception
+0	23	614	3111	3115	S	615	very	very	very	RB	O	advmod	O	-1	O
+0	23	615	3116	3122	S	613	little	little	little	RB	O	advmod	O	-1	O
+0	23	616	3123	3125	S	615	of	of	of	IN	O	dep	O	-1	O
+0	23	617	3126	3128	S	613	at	at	at	IN	O	prep	O	-1	O
+0	23	618	3129	3133		617	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	23	619	3133	3134	S	603	.	.	.	.	O	punct	O	-1	O
+0	24	620	3135	3141	S	622	Before	Before	before	IN	O	mark	O	-1	O
+0	24	621	3142	3146	S	622	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	24	622	3147	3153	S	630	leaves	leaves	leave	VBZ	O	advcl	O	-1	B-verb.motion
+0	24	623	3154	3158	S	622	home	home	home	NN	O	dobj	O	-1	B-noun.location
+0	24	624	3159	3162	S	623	for	for	for	IN	O	prep	O	-1	O
+0	24	625	3163	3167		624	Hill	Hill	Hill	NNP	PERSON	pobj	O	5	O
+0	24	626	3167	3168	S	630	,	,	,	,	O	punct	O	-1	O
+0	24	627	3169	3171	S	630	he	he	he	PRP	O	nsubj	O	2	O
+0	24	628	3172	3175	S	627	and	and	and	CC	O	cc	O	-1	O
+0	24	629	3176	3184	S	627	Rosemary	Rosemary	Rosemary	NNP	PERSON	conj	O	6	O
+0	24	630	3185	3190	S	-1	leave	leave	leave	VBP	O	null	O	-1	B-verb.motion
+0	24	631	3191	3197	S	630	Dwight	Dwight	Dwight	NNP	PERSON	dobj	O	10	B-noun.person
+0	24	632	3198	3203	S	634	after	after	after	IN	O	mark	O	-1	O
+0	24	633	3204	3210	S	634	Dwight	Dwight	Dwight	NNP	PERSON	nsubj	O	10	B-noun.person
+0	24	634	3211	3217	S	630	shoves	shoves	shove	VBZ	O	advcl	O	-1	B-verb.motion
+0	24	635	3218	3222	S	634	Jack	Jack	Jack	NNP	PERSON	dobj	O	2	B-noun.person
+0	24	636	3223	3225	S	634	in	in	in	IN	O	prep	O	-1	O
+0	24	637	3226	3231	S	636	front	front	front	NN	O	pobj	O	-1	B-noun.location
+0	24	638	3232	3234	S	637	of	of	of	IN	O	prep	O	-1	O
+0	24	639	3235	3238		638	her	her	she	PRP$	O	pobj	O	6	O
+0	24	640	3238	3239	S	630	.	.	.	.	O	punct	O	-1	O
+0	25	641	3240	3248	S	642	Rosemary	Rosemary	Rosemary	NNP	PERSON	nsubj	O	6	O
+0	25	642	3249	3257	S	-1	arranges	arranges	arrange	VBZ	O	null	O	-1	B-verb.contact
+0	25	643	3258	3261	S	642	for	for	for	IN	O	prep	O	-1	O
+0	25	644	3262	3266	S	643	Jack	Jack	Jack	NNP	PERSON	pobj	O	2	B-noun.person
+0	25	645	3267	3269	S	646	to	to	to	TO	O	aux	O	-1	O
+0	25	646	3270	3274	S	642	live	live	live	VB	O	xcomp	O	-1	B-verb.stative
+0	25	647	3275	3286	S	646	temporarily	temporarily	temporarily	RB	O	advmod	O	-1	O
+0	25	648	3287	3291	S	646	with	with	with	IN	O	prep	O	-1	O
+0	25	649	3292	3295	S	652	his	his	he	PRP$	O	poss	O	2	O
+0	25	650	3296	3302	S	652	friend	friend	friend	NN	O	nn	O	-1	B-noun.person
+0	25	651	3303	3308	S	652	Chuck	Chuck	Chuck	NNP	PERSON	nn	O	3	I-noun.person
+0	25	652	3309	3315		648	Bolger	Bolger	Bolger	NNP	PERSON	pobj	O	3	I-noun.person
+0	25	653	3315	3316	S	642	.	.	.	.	O	punct	O	-1	O
+0	26	654	3317	3325	S	656	Although	Although	although	IN	O	mark	O	-1	O
+0	26	655	3326	3330	S	656	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	26	656	3331	3339	S	-1	promises	promises	promise	VBZ	O	null	O	-1	B-verb.communication
+0	26	657	3340	3343	S	658	his	his	he	PRP$	O	poss	O	2	O
+0	26	658	3344	3350	S	656	mother	mother	mother	NN	O	dobj	O	-1	B-noun.person
+0	26	659	3351	3355	S	662	that	that	that	IN	O	complm	O	-1	O
+0	26	660	3356	3358	S	662	he	he	he	PRP	O	nsubj	O	2	O
+0	26	661	3359	3363	S	662	will	will	will	MD	O	aux	O	-1	O
+0	26	662	3364	3366	S	656	be	be	be	VB	O	ccomp	O	-1	B-verb.stative
+0	26	663	3367	3369	S	662	on	on	on	IN	O	prep	O	-1	O
+0	26	664	3370	3373	S	666	his	his	he	PRP$	O	poss	O	2	O
+0	26	665	3374	3378	S	666	best	best	best	JJS	O	amod	O	-1	O
+0	26	666	3379	3387	S	663	behavior	behavior	behavior	NN	O	pobj	O	-1	B-noun.act
+0	26	667	3388	3393	S	668	while	while	while	IN	O	mark	O	-1	O
+0	26	668	3394	3396	S	662	at	at	at	IN	O	advcl	O	-1	O
+0	26	669	3397	3400	S	670	the	the	the	DT	O	det	O	-1	O
+0	26	670	3401	3408		674	Bolgers	Bolgers	Bolgers	NNP	O	nsubj	O	-1	B-noun.person
+0	26	671	3408	3409		670	'	'	'	POS	O	possessive	O	-1	O
+0	26	672	3409	3410	S	674	,	,	,	,	O	punct	O	-1	O
+0	26	673	3411	3413	S	674	he	he	he	PRP	O	nsubj	O	2	O
+0	26	674	3414	3420	S	668	breaks	breaks	break	VBZ	O	pcomp	O	-1	B-verb.motion
+0	26	675	3421	3424	S	676	his	his	he	PRP$	O	poss	O	2	O
+0	26	676	3425	3432	S	674	promise	promise	promise	NN	O	dobj	O	-1	B-noun.communication
+0	26	677	3433	3436	S	674	and	and	and	CC	O	cc	O	-1	O
+0	26	678	3437	3439	S	679	is	is	be	VBZ	O	auxpass	O	-1	O
+0	26	679	3440	3446	S	674	caught	caught	catch	VBN	O	conj	O	-1	B-verb.cognition
+0	26	680	3447	3455	S	679	stealing	stealing	steal	VBG	O	dep	O	-1	B-verb.possession
+0	26	681	3456	3460	S	680	from	from	from	IN	O	prep	O	-1	O
+0	26	682	3461	3469	S	681	gasoline	gasoline	gasoline	NN	O	pobj	O	-1	B-noun.substance
+0	26	683	3470	3474	S	680	from	from	from	IN	O	prep	O	-1	O
+0	26	684	3475	3478	S	687	the	the	the	DT	O	det	O	-1	O
+0	26	685	3479	3485	S	687	nearby	nearby	nearby	JJ	O	amod	O	-1	O
+0	26	686	3486	3491	S	687	Welch	Welch	Welch	NNP	PERSON	nn	O	11	B-noun.person
+0	26	687	3492	3496		683	farm	farm	farm	NN	O	pobj	O	-1	B-noun.artifact
+0	26	688	3496	3497	S	656	.	.	.	.	O	punct	O	-1	O
+0	27	689	3498	3502	S	690	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	27	690	3503	3508	S	-1	feels	feels	feel	VBZ	O	null	O	-1	B-verb.emotion
+0	27	691	3509	3517	S	690	terrible	terrible	terrible	JJ	O	dobj	O	-1	O
+0	27	692	3518	3523	S	691	about	about	about	IN	O	prep	O	-1	O
+0	27	693	3524	3532	S	692	stealing	stealing	steal	VBG	O	pcomp	O	-1	B-verb.possession
+0	27	694	3533	3537	S	693	from	from	from	IN	O	prep	O	-1	O
+0	27	695	3538	3541	S	696	the	the	the	DT	O	det	O	-1	O
+0	27	696	3542	3549		694	Welches	Welches	Welches	NNP	LOCATION	pobj	O	-1	O
+0	27	697	3549	3550	S	690	,	,	,	,	O	punct	O	-1	O
+0	27	698	3551	3554	S	690	but	but	but	CC	O	cc	O	-1	O
+0	27	699	3555	3558		701	can	can	can	MD	O	aux	O	-1	O
+0	27	700	3558	3561	S	701	not	not	not	RB	O	neg	O	-1	O
+0	27	701	3562	3567	S	690	bring	bring	bring	VB	O	conj	O	-1	B-verb.motion
+0	27	702	3568	3575	S	701	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	27	703	3576	3578	S	704	to	to	to	TO	O	aux	O	-1	O
+0	27	704	3579	3588		701	apologize	apologize	apologize	VB	O	xcomp	O	-1	B-verb.communication
+0	27	705	3588	3589	S	701	,	,	,	,	O	punct	O	-1	O
+0	27	706	3590	3595	S	707	which	which	which	WDT	O	nsubj	O	-1	O
+0	27	707	3596	3606	S	701	infuriates	infuriates	infuriate	VBZ	O	rcmod	O	-1	B-verb.emotion
+0	27	708	3607	3610	S	709	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	27	709	3611	3617		707	Bolger	Bolger	Bolger	NNP	PERSON	dobj	O	1	I-noun.person
+0	27	710	3617	3618	S	690	.	.	.	.	O	punct	O	-1	O
+0	28	711	3619	3622	S	712	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	28	712	3623	3629		714	Bolger	Bolger	Bolger	NNP	PERSON	nsubj	O	1	I-noun.person
+0	28	713	3629	3630	S	712	,	,	,	,	O	punct	O	-1	O
+0	28	714	3631	3639	S	-1	arranges	arranges	arrange	VBZ	O	null	O	-1	B-verb.contact
+0	28	715	3640	3643	S	714	for	for	for	IN	O	prep	O	-1	O
+0	28	716	3644	3648	S	715	Jack	Jack	Jack	NNP	PERSON	pobj	O	2	B-noun.person
+0	28	717	3649	3651	S	718	to	to	to	TO	O	aux	O	-1	O
+0	28	718	3652	3656	S	714	work	work	work	VB	O	xcomp	O	-1	B-verb.social
+0	28	719	3657	3659	S	718	at	at	at	IN	O	prep	O	-1	O
+0	28	720	3660	3663	S	722	the	the	the	DT	O	det	O	-1	O
+0	28	721	3664	3669	S	722	Welch	Welch	Welch	NNP	PERSON	nn	O	11	O
+0	28	722	3670	3674		719	farm	farm	farm	NN	O	pobj	O	-1	O
+0	28	723	3674	3675	S	714	,	,	,	,	O	punct	O	-1	O
+0	28	724	3676	3679	S	714	but	but	but	CC	O	cc	O	-1	O
+0	28	725	3680	3683	S	728	the	the	the	DT	O	det	O	-1	O
+0	28	726	3684	3691	S	728	Welches	Welches	Welches	NNP	O	nn	O	-1	O
+0	28	727	3692	3698	S	728	refuse	refuse	refuse	NN	O	nn	O	-1	B-noun.substance
+0	28	728	3699	3703		730	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	28	729	3703	3705	S	728	's	's	's	POS	O	possessive	O	-1	O
+0	28	730	3706	3710		714	help	help	help	NN	O	conj	O	-1	B-noun.act
+0	28	731	3710	3711	S	714	.	.	.	.	O	punct	O	-1	O
+0	29	732	3712	3721		737	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	29	733	3721	3722	S	737	,	,	,	,	O	punct	O	-1	O
+0	29	734	3723	3728	S	735	Chuck	Chuck	Chuck	NNP	PERSON	nn	O	3	O
+0	29	735	3729	3735	S	737	Bolger	Bolger	Bolger	NNP	PERSON	nsubj	O	3	O
+0	29	736	3736	3738	S	737	is	is	be	VBZ	O	aux	O	-1	B-verb.stative
+0	29	737	3739	3744	S	740	about	about	about	IN	O	quantmod	O	-1	O
+0	29	738	3745	3747	S	740	to	to	to	TO	O	aux	O	-1	O
+0	29	739	3748	3750	S	740	be	be	be	VB	O	auxpass	O	-1	O
+0	29	740	3751	3759	S	-1	arrested	arrested	arrest	VBN	O	null	O	-1	B-verb.contact
+0	29	741	3760	3763	S	740	for	for	for	IN	O	prep	O	-1	O
+0	29	742	3764	3767	S	744	the	the	the	DT	O	det	O	-1	O
+0	29	743	3768	3777	S	744	statutory	statutory	statutory	JJ	O	amod	O	-1	O
+0	29	744	3778	3782	S	741	rape	rape	rape	NN	O	pobj	O	-1	B-noun.plant
+0	29	745	3783	3785	S	744	of	of	of	IN	O	prep	O	-1	O
+0	29	746	3786	3787	S	747	a	a	a	DT	O	det	O	-1	O
+0	29	747	3788	3792	S	745	girl	girl	girl	NN	O	pobj	O	-1	B-noun.person
+0	29	748	3793	3798	S	747	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	29	749	3799	3803	S	750	Tina	Tina	Tina	NNP	PERSON	nn	O	-1	B-noun.person
+0	29	750	3804	3809		748	Flood	Flood	Flood	NNP	PERSON	dep	O	-1	I-noun.person
+0	29	751	3809	3810	S	747	,	,	,	,	O	punct	O	-1	O
+0	29	752	3811	3814	S	754	who	who	who	WP	O	nsubj	O	-1	O
+0	29	753	3815	3817	S	754	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	29	754	3818	3826		747	pregnant	pregnant	pregnant	JJ	O	rcmod	O	-1	O
+0	29	755	3826	3827	S	740	,	,	,	,	O	punct	O	-1	O
+0	29	756	3828	3836	S	757	possibly	possibly	possibly	RB	O	dep	O	-1	O
+0	29	757	3837	3839	S	740	by	by	by	IN	O	prep	O	-1	O
+0	29	758	3840	3843		757	him	him	he	PRP	O	pobj	O	2	O
+0	29	759	3843	3844	S	740	.	.	.	.	O	punct	O	-1	O
+0	30	760	3845	3848	S	761	The	The	the	DT	O	det	O	-1	O
+0	30	761	3849	3856	S	762	sheriff	sheriff	sheriff	NN	O	nsubj	O	-1	B-noun.person
+0	30	762	3857	3863	S	-1	offers	offers	offer	VBZ	O	null	O	-1	B-verb.possession
+0	30	763	3864	3866	S	764	to	to	to	TO	O	aux	O	-1	O
+0	30	764	3867	3873	S	762	excuse	excuse	excuse	VB	O	xcomp	O	-1	B-verb.communication
+0	30	765	3874	3879	S	764	Chuck	Chuck	Chuck	NNP	PERSON	dobj	O	3	B-noun.person
+0	30	766	3880	3882	S	764	if	if	if	IN	O	prep	O	-1	O
+0	30	767	3883	3885	S	766	he	he	he	PRP	O	dep	O	2	O
+0	30	768	3886	3888	S	767	to	to	to	TO	O	prep	O	-1	O
+0	30	769	3889	3896	S	770	marries	marries	marry	NNS	O	nn	O	-1	B-noun.person
+0	30	770	3897	3901		768	Tina	Tina	Tina	NNP	PERSON	pobj	O	9	O
+0	30	771	3901	3902	S	767	,	,	,	,	O	punct	O	-1	O
+0	30	772	3903	3906	S	767	but	but	but	CC	O	cc	O	-1	O
+0	30	773	3907	3912	S	774	Chuck	Chuck	Chuck	NNP	PERSON	nsubj	O	3	B-noun.person
+0	30	774	3913	3920		767	refuses	refuses	refuse	VBZ	O	conj	O	-1	B-verb.communication
+0	30	775	3920	3921	S	762	.	.	.	.	O	punct	O	-1	O
+0	31	776	3922	3927	S	777	Chuck	Chuck	Chuck	NNP	O	nsubj	O	-1	O
+0	31	777	3928	3930	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	31	778	3931	3933	S	777	on	on	on	IN	O	prep	O	-1	O
+0	31	779	3934	3937	S	780	the	the	the	DT	O	det	O	-1	O
+0	31	780	3938	3943	S	778	verge	verge	verge	NN	O	pobj	O	-1	B-noun.shape
+0	31	781	3944	3946	S	780	of	of	of	IN	O	prep	O	-1	O
+0	31	782	3947	3952	S	783	being	being	be	VBG	O	auxpass	O	-1	O
+0	31	783	3953	3957	S	781	sent	sent	send	VBN	O	pcomp	O	-1	B-verb.motion
+0	31	784	3958	3960	S	783	to	to	to	TO	O	prep	O	-1	O
+0	31	785	3961	3965	S	784	jail	jail	jail	NN	O	pobj	O	-1	B-noun.artifact
+0	31	786	3966	3970	S	789	when	when	when	WRB	O	advmod	O	-1	O
+0	31	787	3971	3973	S	789	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	31	788	3974	3976	S	789	is	is	be	VBZ	O	auxpass	O	-1	O
+0	31	789	3977	3984	S	777	rescued	rescued	rescue	VBN	O	advcl	O	-1	B-verb.social
+0	31	790	3985	3987	S	789	by	by	by	IN	O	prep	O	-1	O
+0	31	791	3988	3995	S	790	another	another	another	DT	O	dep	O	-1	O
+0	31	792	3996	3998	S	791	of	of	of	IN	O	prep	O	-1	O
+0	31	793	3999	4002	S	794	the	the	the	DT	O	det	O	-1	O
+0	31	794	4003	4013		792	defendants	defendants	defendant	NNS	O	pobj	O	-1	B-noun.person
+0	31	795	4013	4014	S	777	,	,	,	,	O	punct	O	-1	O
+0	31	796	4015	4019		795	Huff	Huff	Huff	NNP	PERSON	null	O	-1	O
+0	31	797	4019	4020	S	796	,	,	,	,	O	punct	O	-1	O
+0	31	798	4021	4024	S	799	who	who	who	WP	O	nsubj	O	-1	O
+0	31	799	4025	4031	S	796	agrees	agrees	agree	VBZ	O	rcmod	O	-1	B-verb.communication
+0	31	800	4032	4034	S	801	to	to	to	TO	O	aux	O	-1	O
+0	31	801	4035	4040	S	799	marry	marry	marry	VB	O	xcomp	O	-1	B-verb.social
+0	31	802	4041	4045	S	801	Tina	Tina	Tina	NNP	PERSON	dobj	O	9	B-noun.person
+0	31	803	4046	4048	S	801	in	in	in	IN	O	prep	O	-1	O
+0	31	804	4049	4052	S	805	his	his	he	PRP$	O	poss	O	-1	O
+0	31	805	4053	4058		803	place	place	place	NN	O	pobj	O	-1	B-noun.location
+0	31	806	4058	4059	S	796	.	.	.	.	O	punct	O	-1	O
+0	32	807	4060	4063	S	808	The	The	the	DT	O	det	O	-1	O
+0	32	808	4064	4070	S	812	summer	summer	summer	NN	DATE	nsubj	O	-1	B-noun.time
+0	32	809	4071	4077	S	808	before	before	before	IN	DATE	prep	O	-1	O
+0	32	810	4078	4082	S	809	Jack	Jack	Jack	NNP	PERSON	pobj	O	2	B-noun.person
+0	32	811	4083	4085	S	812	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	32	812	4086	4089	S	819	due	due	due	JJ	O	dep	O	-1	O
+0	32	813	4090	4092	S	814	to	to	to	TO	O	aux	O	-1	O
+0	32	814	4093	4098	S	812	begin	begin	begin	VB	O	xcomp	O	-1	B-verb.change
+0	32	815	4099	4101	S	814	at	at	at	IN	O	prep	O	-1	O
+0	32	816	4102	4106		815	Hill	Hill	Hill	NNP	PERSON	pobj	O	5	O
+0	32	817	4106	4107	S	819	,	,	,	,	O	punct	O	-1	O
+0	32	818	4108	4110	S	819	he	he	he	PRP	O	nsubj	O	2	O
+0	32	819	4111	4115	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.stative
+0	32	820	4116	4118	S	821	to	to	to	TO	O	aux	O	-1	O
+0	32	821	4119	4123	S	819	stay	stay	stay	VB	O	xcomp	O	-1	B-verb.change
+0	32	822	4124	4128	S	821	with	with	with	IN	O	prep	O	-1	O
+0	32	823	4129	4132	S	824	his	his	he	PRP$	O	poss	O	2	O
+0	32	824	4133	4139	S	822	father	father	father	NN	O	pobj	O	-1	B-noun.person
+0	32	825	4140	4142	S	824	in	in	in	IN	O	prep	O	-1	O
+0	32	826	4143	4153	S	825	California	California	California	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	32	827	4154	4156	S	828	to	to	to	TO	O	aux	O	-1	O
+0	32	828	4157	4162	S	824	spend	spend	spend	VB	O	infmod	O	-1	B-verb.stative
+0	32	829	4163	4167	S	830	some	some	some	DT	O	det	O	-1	O
+0	32	830	4168	4172	S	828	time	time	time	NN	O	dobj	O	-1	B-noun.time
+0	32	831	4173	4177	S	828	with	with	with	IN	O	prep	O	-1	O
+0	32	832	4178	4181	S	833	his	his	he	PRP$	O	poss	O	2	O
+0	32	833	4182	4188	S	831	father	father	father	NN	O	pobj	O	-1	B-noun.person
+0	32	834	4189	4192	S	833	and	and	and	CC	O	cc	O	-1	O
+0	32	835	4193	4196	S	836	his	his	he	PRP$	O	poss	O	2	O
+0	32	836	4197	4204		833	brother	brother	brother	NN	O	conj	O	-1	B-noun.person
+0	32	837	4204	4205	S	819	.	.	.	.	O	punct	O	-1	O
+0	33	838	4206	4217	S	841	Immediately	Immediately	immediately	RB	O	advmod	O	-1	O
+0	33	839	4218	4223	S	841	after	after	after	IN	O	dep	O	-1	O
+0	33	840	4224	4228	S	841	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	33	841	4229	4236		847	arrives	arrives	arrive	VBZ	O	advcl	O	-1	B-verb.motion
+0	33	842	4236	4237	S	847	,	,	,	,	O	punct	O	-1	O
+0	33	843	4238	4245		847	however	however	however	RB	O	advmod	O	-1	O
+0	33	844	4245	4246	S	847	,	,	,	,	O	punct	O	-1	O
+0	33	845	4247	4250	S	846	his	his	he	PRP$	O	poss	O	2	O
+0	33	846	4251	4257	S	847	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	33	847	4258	4264	S	-1	leaves	leaves	leave	VBZ	O	null	O	-1	B-verb.motion
+0	33	848	4265	4268	S	847	for	for	for	IN	O	prep	O	-1	O
+0	33	849	4269	4272	S	850	Las	Las	Las	NNP	LOCATION	nn	O	-1	B-noun.location
+0	33	850	4273	4278	S	848	Vegas	Vegas	Vegas	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	33	851	4279	4283	S	847	with	with	with	IN	O	prep	O	-1	O
+0	33	852	4284	4287	S	853	his	his	he	PRP$	O	poss	O	2	O
+0	33	853	4288	4298		851	girlfriend	girlfriend	girlfriend	NN	O	pobj	O	-1	B-noun.person
+0	33	854	4298	4299	S	847	.	.	.	.	O	punct	O	-1	O
+0	34	855	4300	4304	S	863	When	When	when	WRB	O	advmod	O	-1	O
+0	34	856	4305	4309		859	Jack	Jack	Jack	NNP	PERSON	poss	O	2	B-noun.person
+0	34	857	4309	4311	S	856	's	's	's	POS	O	possessive	O	-1	O
+0	34	858	4312	4318	S	859	father	father	father	NN	O	nn	O	-1	B-noun.person
+0	34	859	4319	4326		863	returns	returns	return	NNS	O	nsubjpass	O	-1	B-noun.communication
+0	34	860	4326	4327	S	863	,	,	,	,	O	punct	O	-1	O
+0	34	861	4328	4330	S	863	he	he	he	PRP	O	nsubjpass	O	2	O
+0	34	862	4331	4333	S	863	is	is	be	VBZ	O	auxpass	O	-1	O
+0	34	863	4334	4342	S	-1	arrested	arrested	arrest	VBN	O	null	O	-1	B-verb.contact
+0	34	864	4343	4346	S	863	and	and	and	CC	O	cc	O	-1	O
+0	34	865	4347	4352	S	866	later	later	later	RB	O	advmod	O	-1	O
+0	34	866	4353	4362	S	863	committed	committed	commit	VBN	O	conj	O	-1	B-verb.communication
+0	34	867	4363	4365	S	866	to	to	to	TO	O	prep	O	-1	O
+0	34	868	4366	4367	S	869	a	a	a	DT	O	det	O	-1	O
+0	34	869	4368	4378		867	sanitarium	sanitarium	sanitarium	NN	O	pobj	O	-1	B-noun.artifact
+0	34	870	4378	4379	S	869	,	,	,	,	O	punct	O	-1	O
+0	34	871	4380	4385	S	873	where	where	where	WRB	O	advmod	O	-1	O
+0	34	872	4386	4388	S	873	he	he	he	PRP	O	nsubj	O	2	O
+0	34	873	4389	4396	S	869	remains	remains	remain	VBZ	O	rcmod	O	-1	B-verb.change
+0	34	874	4397	4400	S	873	for	for	for	IN	O	prep	O	-1	O
+0	34	875	4401	4404	S	876	the	the	the	DT	O	det	O	-1	O
+0	34	876	4405	4409	S	874	rest	rest	rest	NN	O	pobj	O	-1	B-noun.relation
+0	34	877	4410	4412	S	876	of	of	of	IN	O	prep	O	-1	O
+0	34	878	4413	4416	S	879	the	the	the	DT	O	det	O	-1	O
+0	34	879	4417	4423		877	summer	summer	summer	NN	DATE	pobj	O	-1	B-noun.time
+0	34	880	4423	4424	S	863	.	.	.	.	O	punct	O	-1	O
+0	35	881	4425	4428	S	882	Not	Not	not	RB	O	dep	O	-1	O
+0	35	882	4429	4441		887	surprisingly	surprisingly	surprisingly	RB	O	advmod	O	-1	O
+0	35	883	4441	4442	S	887	,	,	,	,	O	punct	O	-1	O
+0	35	884	4443	4447	S	887	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	35	885	4448	4451		887	can	can	can	MD	O	aux	O	-1	O
+0	35	886	4451	4454	S	887	not	not	not	RB	O	neg	O	-1	O
+0	35	887	4455	4459	S	-1	make	make	make	VB	O	null	O	-1	B-verb.change
+0	35	888	4460	4463	S	889	the	the	the	DT	O	det	O	-1	O
+0	35	889	4464	4470	S	887	grades	grades	grade	NNS	O	dobj	O	-1	B-noun.group
+0	35	890	4471	4475	S	892	that	that	that	WDT	O	nsubj	O	-1	O
+0	35	891	4476	4480	S	892	Hill	Hill	Hill	NNP	PERSON	nn	O	5	B-noun.person
+0	35	892	4481	4488		889	demands	demands	demand	NNS	O	rcmod	O	-1	B-noun.communication
+0	35	893	4488	4489	S	887	,	,	,	,	O	punct	O	-1	O
+0	35	894	4490	4493	S	887	and	and	and	CC	O	cc	O	-1	O
+0	35	895	4494	4496	S	896	is	is	be	VBZ	O	auxpass	O	-1	O
+0	35	896	4497	4505	S	887	expelled	expelled	expel	VBN	O	conj	O	-1	B-verb.social
+0	35	897	4506	4512	S	896	midway	midway	midway	NN	O	dobj	O	-1	B-noun.location
+0	35	898	4513	4520	S	896	through	through	through	IN	O	prep	O	-1	O
+0	35	899	4521	4524	S	901	his	his	he	PRP$	O	poss	O	2	O
+0	35	900	4525	4531	S	901	senior	senior	senior	JJ	O	amod	O	-1	O
+0	35	901	4532	4536		898	year	year	year	NN	DURATION	pobj	O	-1	B-noun.time
+0	35	902	4536	4537	S	887	.	.	.	.	O	punct	O	-1	O
+0	36	903	4538	4543	S	906	After	After	after	IN	O	mark	O	-1	O
+0	36	904	4544	4546	S	906	he	he	he	PRP	O	nsubjpass	O	2	O
+0	36	905	4547	4549	S	906	is	is	be	VBZ	O	auxpass	O	-1	O
+0	36	906	4550	4558	S	911	expelled	expelled	expel	VBN	O	advcl	O	-1	B-verb.social
+0	36	907	4559	4563	S	906	from	from	from	IN	O	prep	O	-1	O
+0	36	908	4564	4570		907	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	36	909	4570	4571	S	911	,	,	,	,	O	punct	O	-1	O
+0	36	910	4572	4576	S	911	Jack	Jack	Jack	NNP	PERSON	nsubj	O	2	B-noun.person
+0	36	911	4577	4582	S	-1	joins	joins	join	VBZ	O	null	O	-1	B-verb.social
+0	36	912	4583	4586	S	913	the	the	the	DT	O	det	O	-1	O
+0	36	913	4587	4591	S	911	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	36	914	4592	4595	S	911	and	and	and	CC	O	cc	O	-1	O
+0	36	915	4596	4602	S	921	serves	serves	serve	VBZ	O	dep	O	-1	B-verb.stative
+0	36	916	4603	4605	S	921	in	in	in	IN	O	prep	O	-1	O
+0	36	917	4606	4609	S	920	the	the	the	DT	O	det	O	-1	O
+0	36	918	4610	4612		920	##	##	##	CD	NUMBER	num	O	-1	O
+0	36	919	4612	4619	S	920	Vietnam	Vietnam	Vietnam	NNP	O	nn	O	-1	B-noun.location
+0	36	920	4620	4623		916	War	War	War	NNP	O	pobj	O	-1	I-noun.location
+0	36	921	4623	4624	N	911	#	#	#	#	O	conj	O	-1	O

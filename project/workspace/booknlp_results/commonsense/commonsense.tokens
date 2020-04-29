@@ -1,0 +1,961 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	2	S	6	In	In	in	IN	O	prep	O	-1	O
+0	0	1	3	9	S	2	Common	Common	common	JJ	O	amod	O	-1	O
+0	0	2	10	15		0	Sense	Sense	sense	NN	O	pobj	O	-1	B-noun.communication
+0	0	3	15	16	S	6	,	,	,	,	O	punct	O	-1	O
+0	0	4	17	23	S	5	Thomas	Thomas	Thomas	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	5	24	29	S	6	Paine	Paine	Paine	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	6	30	36	S	-1	argues	argues	argue	VBZ	O	null	O	-1	B-verb.communication
+0	0	7	37	40	S	6	for	for	for	IN	O	prep	O	-1	O
+0	0	8	41	49	S	9	American	American	american	JJ	MISC	amod	O	-1	O
+0	0	9	50	62		7	independence	independence	independence	NN	O	pobj	O	-1	B-noun.state
+0	0	10	62	63	S	6	.	.	.	.	O	punct	O	-1	O
+0	1	11	64	67	S	12	His	His	he	PRP$	O	poss	O	-1	O
+0	1	12	68	76	S	13	argument	argument	argument	NN	O	nsubj	O	-1	B-noun.communication
+0	1	13	77	83	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	1	14	84	88	S	13	with	with	with	IN	O	prep	O	-1	O
+0	1	15	89	93	S	19	more	more	more	JJR	O	advmod	O	-1	O
+0	1	16	94	101		15	general	general	general	JJ	O	amod	O	-1	O
+0	1	17	101	102	S	19	,	,	,	,	O	punct	O	-1	O
+0	1	18	103	114	S	19	theoretical	theoretical	theoretical	JJ	O	amod	O	-1	O
+0	1	19	115	126	S	14	reflections	reflections	reflection	NNS	O	pobj	O	-1	B-noun.cognition
+0	1	20	127	132	S	19	about	about	about	IN	O	prep	O	-1	O
+0	1	21	133	143	S	20	government	government	government	NN	O	pobj	O	-1	B-noun.group
+0	1	22	144	147	S	21	and	and	and	CC	O	cc	O	-1	O
+0	1	23	148	156		21	religion	religion	religion	NN	O	conj	O	-1	B-noun.cognition
+0	1	24	156	157	S	13	,	,	,	,	O	punct	O	-1	O
+0	1	25	158	162	S	26	then	then	then	RB	O	advmod	O	-1	O
+0	1	26	163	173	S	13	progresses	progresses	progress	VBZ	O	dep	O	-1	B-verb.change
+0	1	27	174	178	S	26	onto	onto	onto	IN	O	prep	O	-1	O
+0	1	28	179	182	S	29	the	the	the	DT	O	det	O	-1	O
+0	1	29	183	192	S	27	specifics	specifics	specifics	NNS	O	pobj	O	-1	B-noun.cognition
+0	1	30	193	195	S	29	of	of	of	IN	O	prep	O	-1	O
+0	1	31	196	199	S	33	the	the	the	DT	O	det	O	-1	O
+0	1	32	200	208	S	33	colonial	colonial	colonial	NN	O	nn	O	-1	B-noun.person
+0	1	33	209	218		30	situation	situation	situation	NN	O	pobj	O	-1	B-noun.state
+0	1	34	218	219	S	13	.	.	.	.	O	punct	O	-1	O
+0	2	35	220	225	S	36	Paine	Paine	paine	NN	PERSON	nsubj	O	0	B-noun.person
+0	2	36	226	232	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	2	37	233	235	S	36	by	by	by	IN	O	prep	O	-1	O
+0	2	38	236	250	S	37	distinguishing	distinguishing	distinguish	VBG	O	pcomp	O	-1	B-verb.cognition
+0	2	39	251	258	S	38	between	between	between	IN	O	prep	O	-1	O
+0	2	40	259	269	S	39	government	government	government	NN	O	pobj	O	-1	B-noun.group
+0	2	41	270	273	S	40	and	and	and	CC	O	cc	O	-1	O
+0	2	42	274	281		40	society	society	society	NN	O	conj	O	-1	B-noun.group
+0	2	43	281	282	S	36	.	.	.	.	O	punct	O	-1	O
+0	3	44	283	290		52	Society	Society	Society	NNP	O	dep	O	-1	B-noun.group
+0	3	45	290	291	S	52	,	,	,	,	O	punct	O	-1	O
+0	3	46	292	301	S	52	according	according	accord	VBG	O	prep	O	-1	O
+0	3	47	302	304	S	46	to	to	to	TO	O	dep	O	-1	O
+0	3	48	305	310		47	Paine	Paine	Paine	NNP	PERSON	pobj	O	0	B-noun.person
+0	3	49	310	311	S	52	,	,	,	,	O	punct	O	-1	O
+0	3	50	312	314	S	52	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	3	51	315	325	S	52	everything	everything	everything	NN	O	dep	O	-1	O
+0	3	52	326	338	S	-1	constructive	constructive	constructive	JJ	O	null	O	-1	O
+0	3	53	339	342	S	52	and	and	and	CC	O	cc	O	-1	O
+0	3	54	343	347	S	52	good	good	good	JJ	O	conj	O	-1	O
+0	3	55	348	352	S	57	that	that	that	IN	O	complm	O	-1	O
+0	3	56	353	359	S	57	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	3	57	360	364	S	52	join	join	join	VB	O	ccomp	O	-1	B-verb.social
+0	3	58	365	373	S	57	together	together	together	RB	O	advmod	O	-1	O
+0	3	59	374	376	S	60	to	to	to	TO	O	aux	O	-1	O
+0	3	60	377	387		57	accomplish	accomplish	accomplish	VB	O	xcomp	O	-1	B-verb.creation
+0	3	61	387	388	S	52	.	.	.	.	O	punct	O	-1	O
+0	4	62	389	399		71	Government	Government	government	NN	O	nn	O	-1	O
+0	4	63	399	400	S	71	,	,	,	,	O	punct	O	-1	O
+0	4	64	401	403	S	71	on	on	on	IN	O	prep	O	-1	O
+0	4	65	404	407	S	67	the	the	the	DT	O	det	O	-1	O
+0	4	66	408	413	S	67	other	other	other	JJ	O	amod	O	-1	O
+0	4	67	414	418		64	hand	hand	hand	NN	O	pobj	O	-1	B-noun.body
+0	4	68	418	419	S	71	,	,	,	,	O	punct	O	-1	O
+0	4	69	420	422	S	71	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	70	423	425	S	71	an	an	a	DT	O	det	O	-1	O
+0	4	71	426	437	S	-1	institution	institution	institution	NN	O	null	O	-1	B-noun.group
+0	4	72	438	443	S	74	whose	whose	whose	WP$	O	poss	O	-1	O
+0	4	73	444	448	S	74	sole	sole	sole	JJ	O	amod	O	-1	O
+0	4	74	449	456	S	75	purpose	purpose	purpose	NN	O	nsubj	O	-1	B-noun.cognition
+0	4	75	457	459	S	71	is	is	be	VBZ	O	rcmod	O	-1	B-verb.stative
+0	4	76	460	462	S	77	to	to	to	TO	O	aux	O	-1	O
+0	4	77	463	470	S	75	protect	protect	protect	VB	O	xcomp	O	-1	B-verb.competition
+0	4	78	471	473	S	77	us	us	we	PRP	O	dobj	O	-1	O
+0	4	79	474	478	S	77	from	from	from	IN	O	prep	O	-1	O
+0	4	80	479	482	S	82	our	our	we	PRP$	O	poss	O	-1	O
+0	4	81	483	486	S	82	own	own	own	JJ	O	amod	O	-1	O
+0	4	82	487	492		79	vices	vices	vice	NNS	O	pobj	O	-1	B-noun.attribute
+0	4	83	492	493	S	71	.	.	.	.	O	punct	O	-1	O
+0	5	84	494	504	S	85	Government	Government	government	NN	O	nsubj	O	-1	B-noun.group
+0	5	85	505	508	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	5	86	509	512	S	87	its	its	its	PRP$	O	poss	O	-1	O
+0	5	87	513	520	S	85	origins	origins	origin	NNS	O	dobj	O	-1	B-noun.location
+0	5	88	521	523	S	87	in	in	in	IN	O	prep	O	-1	O
+0	5	89	524	527	S	90	the	the	the	DT	O	det	O	-1	O
+0	5	90	528	532	S	88	evil	evil	evil	NN	O	pobj	O	-1	B-noun.act
+0	5	91	533	535	S	90	of	of	of	IN	O	prep	O	-1	O
+0	5	92	536	539	S	91	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	5	93	540	543	S	85	and	and	and	CC	O	cc	O	-1	O
+0	5	94	544	546	S	98	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	5	95	547	556	S	98	therefore	therefore	therefore	RB	O	advmod	O	-1	O
+0	5	96	557	558	S	98	a	a	a	DT	O	det	O	-1	O
+0	5	97	559	568	S	98	necessary	necessary	necessary	JJ	O	amod	O	-1	O
+0	5	98	569	573	S	85	evil	evil	evil	NN	O	conj	O	-1	B-noun.act
+0	5	99	574	576	S	98	at	at	at	IN	O	advmod	O	-1	O
+0	5	100	577	581		99	best	best	best	JJS	O	pobj	O	-1	O
+0	5	101	581	582	S	85	.	.	.	.	O	punct	O	-1	O
+0	6	102	583	588	S	103	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	6	103	589	593	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	6	104	594	598	S	109	that	that	that	IN	O	complm	O	-1	O
+0	6	105	599	609		108	government	government	government	NN	O	poss	O	-1	B-noun.group
+0	6	106	609	611	S	105	's	's	's	POS	O	possessive	O	-1	O
+0	6	107	612	616	S	108	sole	sole	sole	JJ	O	amod	O	-1	O
+0	6	108	617	624	S	109	purpose	purpose	purpose	NN	O	nsubj	O	-1	B-noun.cognition
+0	6	109	625	627	S	103	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	6	110	628	630	S	111	to	to	to	TO	O	aux	O	-1	O
+0	6	111	631	638	S	109	protect	protect	protect	VB	O	xcomp	O	-1	B-verb.competition
+0	6	112	639	643		111	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	6	113	643	644	S	112	,	,	,	,	O	punct	O	-1	O
+0	6	114	645	652	S	112	liberty	liberty	liberty	NN	O	conj	O	-1	B-noun.state
+0	6	115	653	656	S	112	and	and	and	CC	O	cc	O	-1	O
+0	6	116	657	665		112	property	property	property	NN	O	conj	O	-1	B-noun.possession
+0	6	117	665	666	S	109	,	,	,	,	O	punct	O	-1	O
+0	6	118	667	670	S	109	and	and	and	CC	O	cc	O	-1	O
+0	6	119	671	675	S	124	that	that	that	IN	O	complm	O	-1	O
+0	6	120	676	677	S	121	a	a	a	DT	O	det	O	-1	O
+0	6	121	678	688	S	124	government	government	government	NN	O	nsubjpass	O	-1	B-noun.group
+0	6	122	689	695	S	124	should	should	should	MD	O	aux	O	-1	O
+0	6	123	696	698	S	124	be	be	be	VB	O	auxpass	O	-1	O
+0	6	124	699	705	S	109	judged	judged	judge	VBN	O	conj	O	-1	B-verb.cognition
+0	6	125	706	712	S	126	solely	solely	solely	RB	O	dep	O	-1	O
+0	6	126	713	715	S	124	on	on	on	IN	O	prep	O	-1	O
+0	6	127	716	719	S	128	the	the	the	DT	O	det	O	-1	O
+0	6	128	720	725	S	126	basis	basis	basis	NN	O	pobj	O	-1	B-noun.relation
+0	6	129	726	728	S	128	of	of	of	IN	O	prep	O	-1	O
+0	6	130	729	732	S	131	the	the	the	DT	O	det	O	-1	O
+0	6	131	733	739	S	129	extent	extent	extent	NN	O	pobj	O	-1	B-noun.state
+0	6	132	740	742	S	135	to	to	to	TO	O	rel	O	-1	O
+0	6	133	743	748	S	132	which	which	which	WDT	O	pobj	O	-1	O
+0	6	134	749	751	S	135	it	it	it	PRP	O	nsubj	O	-1	O
+0	6	135	752	764	S	131	accomplishes	accomplishes	accomplish	VBZ	O	rcmod	O	-1	B-verb.creation
+0	6	136	765	769	S	137	this	this	this	DT	O	det	O	-1	O
+0	6	137	770	774		135	goal	goal	goal	NN	O	dobj	O	-1	B-noun.cognition
+0	6	138	774	775	S	103	.	.	.	.	O	punct	O	-1	O
+0	7	139	776	781	S	141	Paine	Paine	paine	NN	PERSON	nsubj	O	0	B-noun.person
+0	7	140	782	786	S	141	then	then	then	RB	O	advmod	O	-1	O
+0	7	141	787	796	S	-1	considers	considers	consider	VBZ	O	null	O	-1	B-verb.perception
+0	7	142	797	799	S	144	an	an	a	DT	O	det	O	-1	O
+0	7	143	800	808	S	144	imagined	imagined	imagine	VBN	O	amod	O	-1	B-verb.creation
+0	7	144	809	817	S	141	scenario	scenario	scenario	NN	O	dobj	O	-1	B-noun.communication
+0	7	145	818	820	S	154	in	in	in	IN	O	rel	O	-1	O
+0	7	146	821	826	S	145	which	which	which	WDT	O	pobj	O	-1	O
+0	7	147	827	828	S	149	a	a	a	DT	O	det	O	-1	O
+0	7	148	829	834	S	149	small	small	small	JJ	O	amod	O	-1	O
+0	7	149	835	840	S	154	group	group	group	NN	O	nsubjpass	O	-1	B-noun.group
+0	7	150	841	843	S	149	of	of	of	IN	O	prep	O	-1	O
+0	7	151	844	850	S	150	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	7	152	851	854	S	154	has	has	have	VBZ	O	aux	O	-1	O
+0	7	153	855	859	S	154	been	been	be	VBN	O	auxpass	O	-1	O
+0	7	154	860	866	S	144	placed	placed	place	VBN	O	rcmod	O	-1	B-verb.contact
+0	7	155	867	869	S	154	on	on	on	IN	O	prep	O	-1	O
+0	7	156	870	872	S	157	an	an	a	DT	O	det	O	-1	O
+0	7	157	873	879		155	island	island	island	NN	O	pobj	O	-1	B-noun.object
+0	7	158	879	880	S	141	,	,	,	,	O	punct	O	-1	O
+0	7	159	881	884	S	141	and	and	and	CC	O	cc	O	-1	O
+0	7	160	885	888	S	141	cut	cut	cut	VBD	O	conj	O	-1	B-verb.contact
+0	7	161	889	892	S	160	off	off	off	RP	O	prt	O	-1	O
+0	7	162	893	897	S	160	from	from	from	IN	O	prep	O	-1	O
+0	7	163	898	901	S	164	the	the	the	DT	O	det	O	-1	O
+0	7	164	902	906	S	162	rest	rest	rest	NN	O	pobj	O	-1	B-noun.relation
+0	7	165	907	909	S	164	of	of	of	IN	O	prep	O	-1	O
+0	7	166	910	917		165	society	society	society	NN	O	pobj	O	-1	B-noun.group
+0	7	167	917	918	S	141	.	.	.	.	O	punct	O	-1	O
+0	8	168	919	921	S	173	In	In	in	IN	O	prep	O	-1	O
+0	8	169	922	926		168	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	8	170	926	927	S	173	,	,	,	,	O	punct	O	-1	O
+0	8	171	928	933	S	172	these	these	these	DT	O	det	O	-1	O
+0	8	172	934	940	S	173	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	8	173	941	948	S	-1	develop	develop	develop	VBP	O	null	O	-1	B-verb.creation
+0	8	174	949	953	S	173	ties	ties	tie	NNS	O	dobj	O	-1	B-noun.artifact
+0	8	175	954	958	S	174	with	with	with	IN	O	prep	O	-1	O
+0	8	176	959	962	S	175	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	8	177	963	970		176	another	another	another	DT	O	dep	O	-1	O
+0	8	178	970	971	S	173	,	,	,	,	O	punct	O	-1	O
+0	8	179	972	975	S	173	and	and	and	CC	O	cc	O	-1	O
+0	8	180	976	985	S	182	lawmaking	lawmaking	lawmaking	JJ	O	nsubj	O	-1	O
+0	8	181	986	993	S	182	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	8	182	994	1004		173	inevitable	inevitable	inevitable	JJ	O	conj	O	-1	O
+0	8	183	1004	1005	S	173	.	.	.	.	O	punct	O	-1	O
+0	9	184	1006	1011	S	185	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	9	185	1012	1016	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	9	186	1017	1020	S	187	the	the	the	DT	O	det	O	-1	O
+0	9	187	1021	1027	S	191	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	9	188	1028	1032	S	191	will	will	will	MD	O	aux	O	-1	O
+0	9	189	1033	1035	S	191	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	9	190	1036	1040	S	191	much	much	much	JJ	O	amod	O	-1	O
+0	9	191	1041	1048	S	185	happier	happier	happier	JJR	O	ccomp	O	-1	O
+0	9	192	1049	1051	S	195	if	if	if	IN	O	mark	O	-1	O
+0	9	193	1052	1056	S	195	they	they	they	PRP	O	nsubj	O	-1	O
+0	9	194	1057	1060	S	195	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	9	195	1061	1072	S	191	responsible	responsible	responsible	JJ	O	advcl	O	-1	O
+0	9	196	1073	1076	S	195	for	for	for	IN	O	prep	O	-1	O
+0	9	197	1077	1080	S	198	the	the	the	DT	O	det	O	-1	O
+0	9	198	1081	1089	S	196	creation	creation	creation	NN	O	pobj	O	-1	B-noun.act
+0	9	199	1090	1092	S	198	of	of	of	IN	O	prep	O	-1	O
+0	9	200	1093	1096	S	201	the	the	the	DT	O	det	O	-1	O
+0	9	201	1097	1101	S	199	laws	laws	law	NNS	O	pobj	O	-1	B-noun.group
+0	9	202	1102	1106	S	203	that	that	that	WDT	O	nsubj	O	-1	O
+0	9	203	1107	1111	S	201	rule	rule	rule	VBP	O	rcmod	O	-1	B-verb.social
+0	9	204	1112	1116		203	them	them	they	PRP	O	dobj	O	-1	O
+0	9	205	1116	1117	S	185	.	.	.	.	O	punct	O	-1	O
+0	10	206	1118	1123	S	209	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	10	207	1124	1126	S	209	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	10	208	1127	1131	S	209	also	also	also	RB	O	advmod	O	-1	O
+0	10	209	1132	1142	S	-1	implicitly	implicitly	implicitly	RB	O	null	O	-1	O
+0	10	210	1143	1150	S	209	arguing	arguing	argue	VBG	O	xcomp	O	-1	B-verb.communication
+0	10	211	1151	1155	S	214	that	that	that	IN	O	complm	O	-1	O
+0	10	212	1156	1160	S	214	such	such	such	PDT	O	predet	O	-1	O
+0	10	213	1161	1162	S	214	a	a	a	DT	O	det	O	-1	O
+0	10	214	1163	1169	S	210	system	system	system	NN	O	ccomp	O	-1	B-noun.cognition
+0	10	215	1170	1172	S	214	of	of	of	IN	O	prep	O	-1	O
+0	10	216	1173	1187	S	215	representation	representation	representation	NN	O	pobj	O	-1	B-noun.artifact
+0	10	217	1188	1190	S	214	is	is	be	VBZ	O	dep	O	-1	B-verb.stative
+0	10	218	1191	1195	S	217	also	also	also	RB	O	advmod	O	-1	O
+0	10	219	1196	1202	S	218	better	better	better	RBR	O	advmod	O	-1	O
+0	10	220	1203	1206	S	218	for	for	for	IN	O	dep	O	-1	O
+0	10	221	1207	1210	S	223	the	the	the	DT	O	det	O	-1	O
+0	10	222	1211	1219	S	223	American	American	american	JJ	MISC	amod	O	-1	O
+0	10	223	1220	1229		220	colonists	colonists	colonist	NNS	O	pobj	O	-1	B-noun.person
+0	10	224	1229	1230	S	209	.	.	.	.	O	punct	O	-1	O
+0	11	225	1231	1237	S	226	Having	Having	have	VBG	O	aux	O	-1	O
+0	11	226	1238	1247	S	236	expressed	expressed	express	VBN	O	dep	O	-1	B-verb.communication
+0	11	227	1248	1251	S	228	his	his	he	PRP$	O	poss	O	0	O
+0	11	228	1252	1264	S	226	disagreement	disagreement	disagreement	NN	O	dobj	O	-1	B-noun.state
+0	11	229	1265	1269	S	228	with	with	with	IN	O	prep	O	-1	O
+0	11	230	1270	1277	S	231	British	British	british	JJ	MISC	amod	O	-1	O
+0	11	231	1278	1283	S	229	reign	reign	reign	NN	O	pobj	O	-1	B-noun.time
+0	11	232	1284	1286	S	231	in	in	in	IN	O	prep	O	-1	O
+0	11	233	1287	1294		232	America	America	America	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	11	234	1294	1295	S	236	,	,	,	,	O	punct	O	-1	O
+0	11	235	1296	1301	S	236	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	11	236	1302	1310	S	-1	proceeds	proceeds	proceed	VBZ	O	null	O	-1	B-verb.communication
+0	11	237	1311	1313	S	238	to	to	to	TO	O	aux	O	-1	O
+0	11	238	1314	1320	S	236	launch	launch	launch	VB	O	xcomp	O	-1	B-verb.social
+0	11	239	1321	1322	S	241	a	a	a	DT	O	det	O	-1	O
+0	11	240	1323	1330	S	241	general	general	general	JJ	O	amod	O	-1	O
+0	11	241	1331	1337	S	238	attack	attack	attack	NN	O	dobj	O	-1	B-noun.act
+0	11	242	1338	1340	S	238	on	on	on	IN	O	prep	O	-1	O
+0	11	243	1341	1344	S	245	the	the	the	DT	O	det	O	-1	O
+0	11	244	1345	1352	S	245	British	British	british	JJ	MISC	amod	O	-1	O
+0	11	245	1353	1359	S	242	system	system	system	NN	O	pobj	O	-1	B-noun.cognition
+0	11	246	1360	1362	S	245	of	of	of	IN	O	prep	O	-1	O
+0	11	247	1363	1373		246	government	government	government	NN	O	pobj	O	-1	B-noun.group
+0	11	248	1373	1374	S	236	.	.	.	.	O	punct	O	-1	O
+0	12	249	1375	1380	S	250	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	12	250	1381	1385	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	12	251	1386	1389	S	253	the	the	the	DT	O	det	O	-1	O
+0	12	252	1390	1397	S	253	British	British	british	JJ	MISC	amod	O	-1	O
+0	12	253	1398	1404	S	256	system	system	system	NN	O	nsubj	O	-1	B-noun.artifact
+0	12	254	1405	1407	S	256	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	12	255	1408	1411	S	256	too	too	too	RB	O	advmod	O	-1	O
+0	12	256	1412	1419	S	250	complex	complex	complex	JJ	O	ccomp	O	-1	O
+0	12	257	1420	1423	S	256	and	and	and	CC	O	cc	O	-1	O
+0	12	258	1424	1428	S	256	rife	rife	rife	JJ	O	conj	O	-1	O
+0	12	259	1429	1433	S	258	with	with	with	IN	O	prep	O	-1	O
+0	12	260	1434	1448		259	contradictions	contradictions	contradiction	NNS	O	pobj	O	-1	B-noun.relation
+0	12	261	1448	1449	S	256	,	,	,	,	O	punct	O	-1	O
+0	12	262	1450	1453	S	256	and	and	and	CC	O	cc	O	-1	O
+0	12	263	1454	1458	S	267	that	that	that	IN	O	complm	O	-1	O
+0	12	264	1459	1462	S	265	the	the	the	DT	O	det	O	-1	O
+0	12	265	1463	1471	S	267	monarchy	monarchy	monarchy	NN	O	nsubjpass	O	-1	B-noun.group
+0	12	266	1472	1474	S	267	is	is	be	VBZ	O	auxpass	O	-1	O
+0	12	267	1475	1482	S	256	granted	granted	grant	VBN	O	conj	O	-1	B-verb.possession
+0	12	268	1483	1486	S	271	far	far	far	RB	O	advmod	O	-1	O
+0	12	269	1487	1490	S	270	too	too	too	RB	O	advmod	O	-1	O
+0	12	270	1491	1495	S	271	much	much	much	JJ	O	amod	O	-1	O
+0	12	271	1496	1501		267	power	power	power	NN	O	dobj	O	-1	B-noun.attribute
+0	12	272	1501	1502	S	250	.	.	.	.	O	punct	O	-1	O
+0	13	273	1503	1506	S	275	The	The	the	DT	O	det	O	-1	O
+0	13	274	1507	1514	S	275	British	British	british	JJ	MISC	amod	O	-1	O
+0	13	275	1515	1521	S	276	system	system	system	NN	O	nsubj	O	-1	B-noun.artifact
+0	13	276	1522	1530	S	-1	pretends	pretends	pretend	VBZ	O	null	O	-1	B-verb.communication
+0	13	277	1531	1533	S	278	to	to	to	TO	O	aux	O	-1	O
+0	13	278	1534	1539	S	276	offer	offer	offer	VB	O	xcomp	O	-1	B-verb.possession
+0	13	279	1540	1541	S	281	a	a	a	DT	O	det	O	-1	O
+0	13	280	1542	1552	S	281	reasonable	reasonable	reasonable	JJ	O	amod	O	-1	O
+0	13	281	1553	1559	S	278	system	system	system	NN	O	dobj	O	-1	B-noun.cognition
+0	13	282	1560	1562	S	281	of	of	of	IN	O	prep	O	-1	O
+0	13	283	1563	1569	S	282	checks	checks	check	NNS	O	pobj	O	-1	B-noun.possession
+0	13	284	1570	1573	S	283	and	and	and	CC	O	cc	O	-1	O
+0	13	285	1574	1582		283	balances	balances	balance	NNS	O	conj	O	-1	B-noun.state
+0	13	286	1582	1583	S	276	,	,	,	,	O	punct	O	-1	O
+0	13	287	1584	1587	S	276	but	but	but	CC	O	cc	O	-1	O
+0	13	288	1588	1590	S	292	in	in	in	IN	O	prep	O	-1	O
+0	13	289	1591	1595		288	fact	fact	fact	NN	O	pobj	O	-1	B-noun.cognition
+0	13	290	1595	1596	S	292	,	,	,	,	O	punct	O	-1	O
+0	13	291	1597	1599	S	292	it	it	it	PRP	O	nsubj	O	-1	O
+0	13	292	1600	1604	S	276	does	does	do	VBZ	O	conj	O	-1	O
+0	13	293	1605	1608		292	not	not	not	RB	O	neg	O	-1	O
+0	13	294	1608	1609	S	276	.	.	.	.	O	punct	O	-1	O
+0	14	295	1610	1614	S	-1	From	From	from	IN	O	null	O	-1	O
+0	14	296	1615	1619	S	298	here	here	here	RB	O	advmod	O	-1	O
+0	14	297	1620	1625	S	298	Paine	Paine	paine	NN	PERSON	nn	O	0	B-noun.person
+0	14	298	1626	1631	S	295	moves	moves	move	NNS	O	pobj	O	-1	B-noun.act
+0	14	299	1632	1634	S	298	on	on	on	IN	O	dep	O	-1	O
+0	14	300	1635	1637	S	301	to	to	to	TO	O	aux	O	-1	O
+0	14	301	1638	1645		298	discuss	discuss	discuss	VB	O	infmod	O	-1	B-verb.communication
+0	14	302	1645	1646	S	295	,	,	,	,	O	dep	O	-1	O
+0	14	303	1647	1649	S	302	in	in	in	IN	O	dep	O	-1	O
+0	14	304	1650	1657		303	general	general	general	JJ	O	pobj	O	-1	O
+0	14	305	1657	1658	S	303	,	,	,	,	O	dep	O	-1	O
+0	14	306	1659	1662	S	307	the	the	the	DT	O	det	O	-1	O
+0	14	307	1663	1670	S	305	notions	notions	notion	NNS	O	dobj	O	-1	B-noun.cognition
+0	14	308	1671	1673	S	307	of	of	of	IN	O	prep	O	-1	O
+0	14	309	1674	1682	S	308	monarchy	monarchy	monarchy	NN	O	pobj	O	-1	B-noun.group
+0	14	310	1683	1686	S	309	and	and	and	CC	O	cc	O	-1	O
+0	14	311	1687	1697	S	312	hereditary	hereditary	hereditary	JJ	O	amod	O	-1	O
+0	14	312	1698	1708		309	succession	succession	succession	NN	O	conj	O	-1	B-noun.attribute
+0	14	313	1708	1709	S	295	.	.	.	.	O	punct	O	-1	O
+0	15	314	1710	1713		320	Man	Man	man	NN	O	nsubjpass	O	-1	O
+0	15	315	1713	1714	S	320	,	,	,	,	O	punct	O	-1	O
+0	15	316	1715	1719	S	320	Pain	Pain	pain	NN	O	nsubjpass	O	-1	O
+0	15	317	1720	1726		316	argues	argues	argue	VBZ	O	ccomp	O	-1	O
+0	15	318	1726	1727	S	316	,	,	,	,	O	punct	O	-1	O
+0	15	319	1728	1731	S	320	was	was	be	VBD	O	auxpass	O	-1	O
+0	15	320	1732	1736	S	-1	born	born	bear	VBN	O	null	O	-1	B-verb.body
+0	15	321	1737	1741	S	320	into	into	into	IN	O	prep	O	-1	O
+0	15	322	1742	1743	S	323	a	a	a	DT	O	det	O	-1	O
+0	15	323	1744	1749	S	321	state	state	state	NN	O	pobj	O	-1	B-noun.state
+0	15	324	1750	1752	S	323	of	of	of	IN	O	prep	O	-1	O
+0	15	325	1753	1761		324	equality	equality	equality	NN	O	pobj	O	-1	B-noun.attribute
+0	15	326	1761	1762	S	320	,	,	,	,	O	punct	O	-1	O
+0	15	327	1763	1766	S	320	and	and	and	CC	O	cc	O	-1	O
+0	15	328	1767	1770	S	329	the	the	the	DT	O	det	O	-1	O
+0	15	329	1771	1782	S	340	distinction	distinction	distinction	NN	O	nsubj	O	-1	B-noun.cognition
+0	15	330	1783	1787	S	332	that	that	that	WDT	O	nsubj	O	-1	O
+0	15	331	1788	1791	S	332	has	has	have	VBZ	O	aux	O	-1	O
+0	15	332	1792	1798	S	329	arisen	arisen	arise	VBN	O	rcmod	O	-1	B-verb.stative
+0	15	333	1799	1806	S	332	between	between	between	IN	O	prep	O	-1	O
+0	15	334	1807	1811	S	333	king	king	king	NN	O	pobj	O	-1	B-noun.person
+0	15	335	1812	1815	S	334	and	and	and	CC	O	cc	O	-1	O
+0	15	336	1816	1823	S	334	subject	subject	subject	NN	O	conj	O	-1	B-noun.communication
+0	15	337	1824	1826	S	340	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	15	338	1827	1829	S	340	an	an	a	DT	O	det	O	-1	O
+0	15	339	1830	1839	S	340	unnatural	unnatural	unnatural	JJ	O	amod	O	-1	O
+0	15	340	1840	1843		320	one	one	one	CD	NUMBER	conj	O	-1	O
+0	15	341	1843	1844	S	320	.	.	.	.	O	punct	O	-1	O
+0	16	342	1845	1847	S	-1	At	At	at	IN	O	null	O	-1	O
+0	16	343	1848	1853		342	first	first	first	RB	ORDINAL	pobj	O	-1	O
+0	16	344	1853	1854	S	346	,	,	,	,	O	punct	O	-1	O
+0	16	345	1855	1860	S	346	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	16	346	1861	1865		342	says	says	say	VBZ	O	dep	O	-1	B-verb.communication
+0	16	347	1865	1866	S	346	,	,	,	,	O	punct	O	-1	O
+0	16	348	1867	1870	S	349	the	the	the	DT	O	det	O	-1	O
+0	16	349	1871	1876	S	346	world	world	world	NN	O	dep	O	-1	B-noun.object
+0	16	350	1877	1880	S	349	was	was	be	VBD	O	dep	O	-1	B-verb.stative
+0	16	351	1881	1888	S	350	without	without	without	IN	O	prep	O	-1	O
+0	16	352	1889	1894		351	kings	kings	king	NNS	O	pobj	O	-1	B-noun.person
+0	16	353	1894	1895	S	346	,	,	,	,	O	punct	O	-1	O
+0	16	354	1896	1899	S	342	but	but	but	CC	O	cc	O	-1	O
+0	16	355	1900	1903	S	357	the	the	the	DT	O	det	O	-1	O
+0	16	356	1904	1911	S	357	ancient	ancient	ancient	JJ	O	amod	O	-1	O
+0	16	357	1912	1916	S	358	Jews	Jews	Jews	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	16	358	1917	1924	S	342	decided	decided	decide	VBD	O	conj	O	-1	B-verb.cognition
+0	16	359	1925	1929	S	360	they	they	they	PRP	O	nsubj	O	-1	O
+0	16	360	1930	1936	S	358	wanted	wanted	want	VBD	O	ccomp	O	-1	B-verb.emotion
+0	16	361	1937	1938	S	362	a	a	a	DT	O	det	O	-1	O
+0	16	362	1939	1943		360	king	king	king	NN	O	dobj	O	-1	B-noun.person
+0	16	363	1943	1944	S	342	.	.	.	.	O	punct	O	-1	O
+0	17	364	1945	1949	S	366	This	This	this	DT	O	det	O	-1	O
+0	17	365	1950	1957	S	366	angered	angered	angered	JJ	O	amod	O	-1	O
+0	17	366	1958	1961		-1	God	God	God	NNP	O	null	O	-1	O
+0	17	367	1961	1962	S	366	,	,	,	,	O	punct	O	-1	O
+0	17	368	1963	1966	S	366	but	but	but	CC	O	cc	O	-1	O
+0	17	369	1967	1969	S	370	he	he	he	PRP	O	nsubj	O	-1	O
+0	17	370	1970	1977	S	366	allowed	allowed	allow	VBD	O	conj	O	-1	B-verb.communication
+0	17	371	1978	1982	S	373	them	them	they	PRP	O	nsubj	O	-1	O
+0	17	372	1983	1985	S	373	to	to	to	TO	O	aux	O	-1	O
+0	17	373	1986	1990	S	370	have	have	have	VB	O	xcomp	O	-1	B-verb.possession
+0	17	374	1991	1994		373	one	one	one	CD	NUMBER	dobj	O	-1	O
+0	17	375	1994	1995	S	366	.	.	.	.	O	punct	O	-1	O
+0	18	376	1996	2001	S	377	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	18	377	2002	2010	S	-1	presents	presents	present	VBZ	O	null	O	-1	B-verb.creation
+0	18	378	2011	2016	S	377	pages	pages	page	NNS	O	dobj	O	-1	B-noun.communication
+0	18	379	2017	2019	S	378	of	of	of	IN	O	prep	O	-1	O
+0	18	380	2020	2028	S	381	biblical	biblical	biblical	JJ	O	amod	O	-1	O
+0	18	381	2029	2037	S	379	evidence	evidence	evidence	NN	O	pobj	O	-1	B-noun.cognition
+0	18	382	2038	2047	S	381	detailing	detailing	detail	VBG	O	partmod	O	-1	B-verb.communication
+0	18	383	2048	2051		385	God	God	God	NNP	O	poss	O	-1	B-noun.person
+0	18	384	2051	2053	S	383	's	's	's	POS	O	possessive	O	-1	O
+0	18	385	2054	2059	S	382	wrath	wrath	wrath	NN	O	dobj	O	-1	B-noun.feeling
+0	18	386	2060	2062	S	385	at	at	at	IN	O	prep	O	-1	O
+0	18	387	2063	2066	S	388	the	the	the	DT	O	det	O	-1	O
+0	18	388	2067	2071	S	386	idea	idea	idea	NN	O	pobj	O	-1	B-noun.cognition
+0	18	389	2072	2074	S	388	of	of	of	IN	O	prep	O	-1	O
+0	18	390	2075	2078	S	391	the	the	the	DT	O	det	O	-1	O
+0	18	391	2079	2083	S	389	Jews	Jews	Jews	NNPS	MISC	pobj	O	-1	B-noun.person
+0	18	392	2084	2090	S	391	having	having	have	VBG	O	partmod	O	-1	B-verb.possession
+0	18	393	2091	2092	S	394	a	a	a	DT	O	det	O	-1	O
+0	18	394	2093	2097		392	king	king	king	NN	O	dobj	O	-1	B-noun.person
+0	18	395	2097	2098	S	377	.	.	.	.	O	punct	O	-1	O
+0	19	396	2099	2102	S	397	The	The	the	DT	O	det	O	-1	O
+0	19	397	2103	2113	S	400	conclusion	conclusion	conclusion	NN	O	nsubj	O	-1	B-noun.cognition
+0	19	398	2114	2119	S	399	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	19	399	2120	2127	S	397	reaches	reaches	reach	VBZ	O	rcmod	O	-1	B-verb.motion
+0	19	400	2128	2130	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	19	401	2131	2135	S	406	that	that	that	IN	O	complm	O	-1	O
+0	19	402	2136	2139	S	403	the	the	the	DT	O	det	O	-1	O
+0	19	403	2140	2148	S	406	practice	practice	practice	NN	O	nsubj	O	-1	B-noun.act
+0	19	404	2149	2151	S	403	of	of	of	IN	O	prep	O	-1	O
+0	19	405	2152	2160	S	404	monarchy	monarchy	monarchy	NN	O	pobj	O	-1	B-noun.group
+0	19	406	2161	2171	S	400	originates	originates	originate	VBZ	O	ccomp	O	-1	B-verb.stative
+0	19	407	2172	2176	S	406	from	from	from	IN	O	prep	O	-1	O
+0	19	408	2177	2180		407	sin	sin	sin	NN	O	pobj	O	-1	B-noun.attribute
+0	19	409	2180	2181	S	400	,	,	,	,	O	punct	O	-1	O
+0	19	410	2182	2185	S	400	and	and	and	CC	O	cc	O	-1	O
+0	19	411	2186	2188	S	413	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	19	412	2189	2191	S	413	an	an	a	DT	O	det	O	-1	O
+0	19	413	2192	2203	S	400	institution	institution	institution	NN	O	conj	O	-1	B-noun.group
+0	19	414	2204	2208	S	419	that	that	that	IN	O	dobj	O	-1	O
+0	19	415	2209	2212	S	416	the	the	the	DT	O	det	O	-1	O
+0	19	416	2213	2218	S	419	Bible	Bible	Bible	NNP	O	nsubj	O	-1	O
+0	19	417	2219	2222	S	416	and	and	and	CC	O	cc	O	-1	O
+0	19	418	2223	2226	S	416	God	God	God	NNP	O	conj	O	-1	B-noun.person
+0	19	419	2227	2234		413	condemn	condemn	condemn	VBP	O	rcmod	O	-1	B-verb.communication
+0	19	420	2234	2235	S	400	.	.	.	.	O	punct	O	-1	O
+0	20	421	2236	2241	S	422	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	20	422	2242	2247	S	-1	calls	calls	call	VBZ	O	null	O	-1	B-verb.communication
+0	20	423	2248	2258	S	424	hereditary	hereditary	hereditary	JJ	O	amod	O	-1	O
+0	20	424	2259	2269	S	427	succession	succession	succession	NN	O	nsubj	O	-1	B-noun.attribute
+0	20	425	2270	2272	S	427	an	an	a	DT	O	det	O	-1	O
+0	20	426	2273	2283	S	427	abominable	abominable	abominable	JJ	O	amod	O	-1	O
+0	20	427	2284	2292		422	practice	practice	practice	NN	O	xcomp	O	-1	B-noun.act
+0	20	428	2292	2293	S	422	.	.	.	.	O	punct	O	-1	O
+0	21	429	2294	2296	S	430	He	He	he	PRP	O	nsubj	O	0	O
+0	21	430	2297	2301	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	21	431	2302	2306	S	435	that	that	that	IN	O	complm	O	-1	O
+0	21	432	2307	2311	S	435	even	even	even	RB	O	advmod	O	-1	O
+0	21	433	2312	2314	S	435	if	if	if	IN	O	dep	O	-1	O
+0	21	434	2315	2321	S	435	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	21	435	2322	2326	S	430	were	were	be	VBD	O	ccomp	O	-1	B-verb.stative
+0	21	436	2327	2329	S	437	to	to	to	TO	O	aux	O	-1	O
+0	21	437	2330	2336	S	435	choose	choose	choose	VB	O	xcomp	O	-1	B-verb.cognition
+0	21	438	2337	2339	S	439	to	to	to	TO	O	aux	O	-1	O
+0	21	439	2340	2344	S	437	have	have	have	VB	O	xcomp	O	-1	B-verb.possession
+0	21	440	2345	2346	S	441	a	a	a	DT	O	det	O	-1	O
+0	21	441	2347	2351		439	king	king	king	NN	O	dobj	O	-1	O
+0	21	442	2351	2352	S	441	,	,	,	,	O	punct	O	-1	O
+0	21	443	2353	2357	S	446	that	that	that	WDT	O	nsubj	O	-1	O
+0	21	444	2358	2362	S	446	does	does	do	VBZ	O	aux	O	-1	O
+0	21	445	2363	2366	S	446	not	not	not	RB	O	neg	O	-1	O
+0	21	446	2367	2377	S	441	legitimize	legitimize	legitimize	VB	O	rcmod	O	-1	B-verb.social
+0	21	447	2378	2382	S	446	that	that	that	IN	O	prep	O	-1	O
+0	21	448	2383	2387		450	King	King	King	NNP	ORGANIZATION	poss	O	-1	B-noun.person
+0	21	449	2387	2389	S	448	's	's	's	POS	O	possessive	O	-1	O
+0	21	450	2390	2395	S	447	child	child	child	NN	O	nsubj	O	-1	B-noun.person
+0	21	451	2396	2402	S	450	acting	acting	act	VBG	O	partmod	O	-1	B-verb.stative
+0	21	452	2403	2405	S	451	as	as	as	IN	O	prep	O	-1	O
+0	21	453	2406	2407	S	455	a	a	a	DT	O	det	O	-1	O
+0	21	454	2408	2414	S	455	future	future	future	JJ	DATE	amod	O	-1	O
+0	21	455	2415	2420		452	ruler	ruler	ruler	NN	O	pobj	O	-1	B-noun.person
+0	21	456	2420	2421	S	430	.	.	.	.	O	punct	O	-1	O
+0	22	457	2422	2433		462	Furthermore	Furthermore	furthermore	RB	O	advmod	O	-1	O
+0	22	458	2433	2434	S	462	,	,	,	,	O	punct	O	-1	O
+0	22	459	2435	2445	S	460	hereditary	hereditary	hereditary	JJ	O	amod	O	-1	O
+0	22	460	2446	2456	S	462	succession	succession	succession	NN	O	nsubj	O	-1	B-noun.attribute
+0	22	461	2457	2460	S	462	has	has	have	VBZ	O	aux	O	-1	O
+0	22	462	2461	2468	S	-1	brought	brought	bring	VBN	O	null	O	-1	B-verb.motion
+0	22	463	2469	2473	S	462	with	with	with	IN	O	prep	O	-1	O
+0	22	464	2474	2476	S	463	it	it	it	PRP	O	pobj	O	-1	O
+0	22	465	2477	2488	S	466	innumerable	innumerable	innumerable	JJ	O	amod	O	-1	O
+0	22	466	2489	2494		464	evils	evils	evil	NNS	O	dep	O	-1	B-noun.act
+0	22	467	2494	2495	S	466	,	,	,	,	O	punct	O	-1	O
+0	22	468	2496	2500	S	469	such	such	such	JJ	O	dep	O	-1	O
+0	22	469	2501	2503	S	466	as	as	as	IN	O	prep	O	-1	O
+0	22	470	2504	2515	S	471	incompetent	incompetent	incompetent	JJ	O	amod	O	-1	O
+0	22	471	2516	2521		469	kings	kings	king	NNS	O	pobj	O	-1	B-noun.person
+0	22	472	2521	2522	S	471	,	,	,	,	O	punct	O	-1	O
+0	22	473	2523	2533		471	corruption	corruption	corruption	NN	O	conj	O	-1	O
+0	22	474	2533	2534	S	466	,	,	,	,	O	punct	O	-1	O
+0	22	475	2535	2538	S	466	and	and	and	CC	O	cc	O	-1	O
+0	22	476	2539	2544	S	477	civil	civil	civil	JJ	O	amod	O	-1	O
+0	22	477	2545	2548		466	war	war	war	NN	O	conj	O	-1	B-noun.act
+0	22	478	2548	2549	S	462	.	.	.	.	O	punct	O	-1	O
+0	23	479	2550	2556	S	480	Having	Having	have	VBG	O	aux	O	-1	O
+0	23	480	2557	2566	S	488	dispensed	dispensed	dispense	VBN	O	dep	O	-1	B-verb.possession
+0	23	481	2567	2571	S	480	with	with	with	IN	O	prep	O	-1	O
+0	23	482	2572	2575	S	485	the	the	the	DT	O	det	O	-1	O
+0	23	483	2576	2587	S	485	preliminary	preliminary	preliminary	JJ	O	amod	O	-1	O
+0	23	484	2588	2599	S	485	theoretical	theoretical	theoretical	JJ	O	amod	O	-1	O
+0	23	485	2600	2606		481	issues	issues	issue	NNS	O	pobj	O	-1	B-noun.cognition
+0	23	486	2606	2607	S	488	,	,	,	,	O	punct	O	-1	O
+0	23	487	2608	2613	S	488	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	23	488	2614	2618	S	-1	sets	sets	set	VBZ	O	null	O	-1	B-verb.change
+0	23	489	2619	2621	S	488	in	in	in	IN	O	advmod	O	-1	O
+0	23	490	2622	2624	S	491	to	to	to	TO	O	aux	O	-1	O
+0	23	491	2625	2632	S	488	discuss	discuss	discuss	VB	O	xcomp	O	-1	B-verb.communication
+0	23	492	2633	2636	S	493	the	the	the	DT	O	det	O	-1	O
+0	23	493	2637	2644	S	491	details	details	detail	NNS	O	dobj	O	-1	B-noun.cognition
+0	23	494	2645	2647	S	493	of	of	of	IN	O	prep	O	-1	O
+0	23	495	2648	2651	S	497	the	the	the	DT	O	det	O	-1	O
+0	23	496	2652	2660	S	497	American	American	american	JJ	MISC	amod	O	-1	O
+0	23	497	2661	2670		494	situation	situation	situation	NN	O	pobj	O	-1	B-noun.state
+0	23	498	2670	2671	S	488	.	.	.	.	O	punct	O	-1	O
+0	24	499	2672	2674	S	514	In	In	in	IN	O	prep	O	-1	O
+0	24	500	2675	2683	S	499	response	response	response	NN	O	pobj	O	-1	B-noun.act
+0	24	501	2684	2686	S	500	to	to	to	TO	O	prep	O	-1	O
+0	24	502	2687	2690	S	503	the	the	the	DT	O	det	O	-1	O
+0	24	503	2691	2699	S	501	argument	argument	argument	NN	O	pobj	O	-1	B-noun.communication
+0	24	504	2700	2704	S	507	that	that	that	WDT	O	dobj	O	-1	O
+0	24	505	2705	2712	S	507	America	America	America	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	24	506	2713	2716	S	507	has	has	have	VBZ	O	aux	O	-1	O
+0	24	507	2717	2727	S	503	flourished	flourished	flourish	VBN	O	rcmod	O	-1	B-verb.change
+0	24	508	2728	2733	S	507	under	under	under	IN	O	prep	O	-1	O
+0	24	509	2734	2741	S	510	British	British	british	JJ	MISC	amod	O	-1	O
+0	24	510	2742	2746		508	rule	rule	rule	NN	O	pobj	O	-1	B-noun.cognition
+0	24	511	2746	2747	S	507	,	,	,	,	O	punct	O	-1	O
+0	24	512	2748	2751	S	507	and	and	and	CC	O	cc	O	-1	O
+0	24	513	2752	2761	S	507	therefore	therefore	therefore	RB	O	advmod	O	-1	O
+0	24	514	2762	2767	S	522	ought	ought	ought	MD	O	advcl	O	-1	O
+0	24	515	2768	2770	S	516	to	to	to	TO	O	aux	O	-1	O
+0	24	516	2771	2775	S	514	stay	stay	stay	VB	O	xcomp	O	-1	B-verb.change
+0	24	517	2776	2781	S	516	under	under	under	IN	O	prep	O	-1	O
+0	24	518	2782	2785	S	519	the	the	the	DT	O	det	O	-1	O
+0	24	519	2786	2790		517	king	king	king	NN	O	pobj	O	-1	O
+0	24	520	2790	2791	S	522	,	,	,	,	O	punct	O	-1	O
+0	24	521	2792	2797	S	522	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	24	522	2798	2802	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	24	523	2803	2807	S	527	that	that	that	IN	O	complm	O	-1	O
+0	24	524	2808	2812	S	526	such	such	such	PDT	O	predet	O	-1	O
+0	24	525	2813	2815	S	526	an	an	a	DT	O	det	O	-1	O
+0	24	526	2816	2824	S	527	argument	argument	argument	NN	O	nsubj	O	-1	B-noun.communication
+0	24	527	2825	2830	S	522	fails	fails	fail	VBZ	O	ccomp	O	-1	B-verb.social
+0	24	528	2831	2833	S	529	to	to	to	TO	O	aux	O	-1	O
+0	24	529	2834	2841	S	527	realize	realize	realize	VB	O	xcomp	O	-1	B-verb.cognition
+0	24	530	2842	2846	S	533	that	that	that	IN	O	complm	O	-1	O
+0	24	531	2847	2854	S	533	America	America	America	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	24	532	2855	2858	S	533	has	has	have	VBZ	O	aux	O	-1	O
+0	24	533	2859	2866	S	529	evolved	evolved	evolve	VBN	O	ccomp	O	-1	B-verb.change
+0	24	534	2867	2870	S	533	and	and	and	CC	O	cc	O	-1	O
+0	24	535	2871	2873	S	537	no	no	no	RB	O	advmod	O	-1	O
+0	24	536	2874	2880	S	535	longer	longer	longer	RBR	O	advmod	O	-1	O
+0	24	537	2881	2886	S	533	needs	needs	need	VBZ	O	conj	O	-1	B-verb.stative
+0	24	538	2887	2894		540	Britain	Britain	Britain	NNP	LOCATION	poss	O	-1	B-noun.location
+0	24	539	2894	2896	S	538	's	's	's	POS	O	possessive	O	-1	O
+0	24	540	2897	2901		537	help	help	help	NN	O	dobj	O	-1	B-noun.act
+0	24	541	2901	2902	S	522	.	.	.	.	O	punct	O	-1	O
+0	25	542	2903	2907	S	543	Some	Some	some	DT	O	nsubj	O	-1	O
+0	25	543	2908	2911	S	-1	say	say	say	VBP	O	null	O	-1	B-verb.communication
+0	25	544	2912	2916	S	547	that	that	that	IN	O	complm	O	-1	O
+0	25	545	2917	2924	S	547	Britain	Britain	Britain	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	25	546	2925	2928	S	547	has	has	have	VBZ	O	aux	O	-1	O
+0	25	547	2929	2938	S	543	protected	protected	protect	VBN	O	ccomp	O	-1	B-verb.competition
+0	25	548	2939	2946		547	America	America	America	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	25	549	2946	2947	S	547	,	,	,	,	O	punct	O	-1	O
+0	25	550	2948	2951	S	547	and	and	and	CC	O	cc	O	-1	O
+0	25	551	2952	2961	S	552	therefore	therefore	therefore	RB	O	advmod	O	-1	O
+0	25	552	2962	2970	S	547	deserves	deserves	deserve	VBZ	O	conj	O	-1	B-verb.stative
+0	25	553	2971	2981		552	allegiance	allegiance	allegiance	NN	O	dobj	O	-1	B-noun.act
+0	25	554	2981	2982	S	547	,	,	,	,	O	punct	O	-1	O
+0	25	555	2983	2986	S	547	but	but	but	CC	O	cc	O	-1	O
+0	25	556	2987	2992	S	557	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	25	557	2993	3001	S	547	responds	responds	respond	VBZ	O	conj	O	-1	B-verb.cognition
+0	25	558	3002	3006	S	562	that	that	that	IN	O	complm	O	-1	O
+0	25	559	3007	3014	S	562	Britain	Britain	Britain	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	25	560	3015	3018	S	562	has	has	have	VBZ	O	aux	O	-1	B-verb.possession
+0	25	561	3019	3023	S	562	only	only	only	RB	O	advmod	O	-1	O
+0	25	562	3024	3031	S	557	watched	watched	watch	VBN	O	ccomp	O	-1	B-verb.social
+0	25	563	3032	3036	S	562	over	over	over	IN	O	prep	O	-1	O
+0	25	564	3037	3044	S	563	America	America	America	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	25	565	3045	3047	S	568	in	in	in	IN	O	mark	O	-1	O
+0	25	566	3048	3053	S	568	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	25	567	3054	3056	S	568	to	to	to	TO	O	aux	O	-1	O
+0	25	568	3057	3063	S	562	secure	secure	secure	VB	O	purpcl	O	-1	B-verb.possession
+0	25	569	3064	3067	S	572	its	its	its	PRP$	O	poss	O	-1	O
+0	25	570	3068	3071	S	572	own	own	own	JJ	O	amod	O	-1	O
+0	25	571	3072	3080	S	572	economic	economic	economic	JJ	O	amod	O	-1	O
+0	25	572	3081	3091		568	well-being	well-being	well-being	NN	O	dobj	O	-1	B-noun.state
+0	25	573	3091	3092	S	543	.	.	.	.	O	punct	O	-1	O
+0	26	574	3093	3098	S	575	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	26	575	3099	3103	S	-1	adds	adds	add	VBZ	O	null	O	-1	B-verb.communication
+0	26	576	3104	3108	S	591	that	that	that	IN	O	complm	O	-1	O
+0	26	577	3109	3113	S	591	most	most	most	JJS	O	advcl	O	-1	O
+0	26	578	3114	3122		577	recently	recently	recently	RB	DATE	advmod	O	-1	O
+0	26	579	3122	3123	S	577	,	,	,	,	O	punct	O	-1	O
+0	26	580	3124	3131	S	581	instead	instead	instead	RB	O	dep	O	-1	O
+0	26	581	3132	3134	S	577	of	of	of	IN	O	prep	O	-1	O
+0	26	582	3135	3143	S	581	watching	watching	watch	VBG	O	pcomp	O	-1	B-verb.social
+0	26	583	3144	3148	S	582	over	over	over	IN	O	prep	O	-1	O
+0	26	584	3149	3152	S	585	the	the	the	DT	O	det	O	-1	O
+0	26	585	3153	3161		583	colonies	colonies	colony	NNS	O	pobj	O	-1	B-noun.group
+0	26	586	3161	3162	S	591	,	,	,	,	O	punct	O	-1	O
+0	26	587	3163	3166	S	588	the	the	the	DT	O	det	O	-1	O
+0	26	588	3167	3174	S	591	British	British	British	NNP	MISC	nsubj	O	-1	B-noun.person
+0	26	589	3175	3179	S	591	have	have	have	VBP	O	aux	O	-1	O
+0	26	590	3180	3184	S	591	been	been	be	VBN	O	aux	O	-1	O
+0	26	591	3185	3194	S	575	attacking	attacking	attack	VBG	O	ccomp	O	-1	B-verb.competition
+0	26	592	3195	3199		591	them	them	they	PRP	O	dobj	O	-1	O
+0	26	593	3199	3200	S	591	,	,	,	,	O	punct	O	-1	O
+0	26	594	3201	3204	S	591	and	and	and	CC	O	cc	O	-1	O
+0	26	595	3205	3208	S	597	are	are	be	VBP	O	aux	O	-1	B-verb.stative
+0	26	596	3209	3218	S	597	therefore	therefore	therefore	RB	O	advmod	O	-1	O
+0	26	597	3219	3230	S	591	undeserving	undeserving	undeserve	VBG	O	conj	O	-1	O
+0	26	598	3231	3233	S	597	of	of	of	IN	O	prep	O	-1	O
+0	26	599	3234	3242	S	600	American	American	american	JJ	MISC	amod	O	-1	O
+0	26	600	3243	3250		598	loyalty	loyalty	loyalty	NN	O	pobj	O	-1	B-noun.attribute
+0	26	601	3250	3251	S	575	.	.	.	.	O	punct	O	-1	O
+0	27	602	3252	3257	S	603	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	27	603	3258	3262	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	27	604	3263	3267	S	607	that	that	that	IN	O	complm	O	-1	O
+0	27	605	3268	3271	S	606	the	the	the	DT	O	det	O	-1	O
+0	27	606	3272	3280	S	607	colonies	colonies	colony	NNS	O	nsubj	O	-1	B-noun.group
+0	27	607	3281	3285	S	603	have	have	have	VBP	O	ccomp	O	-1	B-verb.possession
+0	27	608	3286	3292	S	607	little	little	little	JJ	O	dobj	O	-1	O
+0	27	609	3293	3295	S	610	to	to	to	TO	O	aux	O	-1	O
+0	27	610	3296	3300	S	608	gain	gain	gain	VB	O	infmod	O	-1	B-verb.possession
+0	27	611	3301	3305	S	610	from	from	from	IN	O	prep	O	-1	O
+0	27	612	3306	3315	S	611	remaining	remaining	remain	VBG	O	pcomp	O	-1	B-verb.change
+0	27	613	3316	3324	S	612	attached	attached	attach	VBN	O	partmod	O	-1	B-verb.contact
+0	27	614	3325	3327	S	613	to	to	to	TO	O	prep	O	-1	O
+0	27	615	3328	3335		614	Britain	Britain	Britain	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	27	616	3335	3336	S	603	.	.	.	.	O	punct	O	-1	O
+0	28	617	3337	3345	S	620	Commerce	Commerce	Commerce	NNP	O	nsubjpass	O	-1	B-noun.group
+0	28	618	3346	3349	S	620	can	can	can	MD	O	aux	O	-1	O
+0	28	619	3350	3352	S	620	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	28	620	3353	3359	S	-1	better	better	better	JJR	O	null	O	-1	O
+0	28	621	3360	3369	S	620	conducted	conducted	conduct	VBN	O	partmod	O	-1	B-verb.social
+0	28	622	3370	3374	S	621	with	with	with	IN	O	prep	O	-1	O
+0	28	623	3375	3378	S	624	the	the	the	DT	O	det	O	-1	O
+0	28	624	3379	3383	S	622	rest	rest	rest	NN	O	pobj	O	-1	B-noun.relation
+0	28	625	3384	3386	S	624	of	of	of	IN	O	prep	O	-1	O
+0	28	626	3387	3393		625	Europe	Europe	Europe	NNP	LOCATION	pobj	O	-1	O
+0	28	627	3393	3394	S	620	,	,	,	,	O	punct	O	-1	O
+0	28	628	3395	3398	S	620	but	but	but	CC	O	cc	O	-1	O
+0	28	629	3399	3403	S	630	only	only	only	RB	O	dep	O	-1	O
+0	28	630	3404	3409	S	620	after	after	after	IN	O	conj	O	-1	O
+0	28	631	3410	3417	S	633	America	America	America	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	28	632	3418	3425	S	633	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	28	633	3426	3437		630	independent	independent	independent	JJ	O	pcomp	O	-1	O
+0	28	634	3437	3438	S	620	.	.	.	.	O	punct	O	-1	O
+0	29	635	3439	3444	S	637	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	29	636	3445	3449	S	637	also	also	also	RB	O	advmod	O	-1	O
+0	29	637	3450	3457	S	-1	asserts	asserts	assert	VBZ	O	null	O	-1	B-verb.communication
+0	29	638	3458	3462	S	657	that	that	that	IN	O	complm	O	-1	O
+0	29	639	3463	3465	S	643	if	if	if	IN	O	mark	O	-1	O
+0	29	640	3466	3469	S	641	the	the	the	DT	O	det	O	-1	O
+0	29	641	3470	3478	S	643	colonies	colonies	colony	NNS	O	nsubjpass	O	-1	B-noun.group
+0	29	642	3479	3485	S	643	remain	remain	remain	VBP	O	auxpass	O	-1	B-verb.change
+0	29	643	3486	3494	S	657	attached	attached	attach	VBN	O	advcl	O	-1	B-verb.contact
+0	29	644	3495	3497	S	643	to	to	to	TO	O	prep	O	-1	O
+0	29	645	3498	3505		644	Britain	Britain	Britain	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	29	646	3505	3506	S	657	,	,	,	,	O	punct	O	-1	O
+0	29	647	3507	3510	S	649	the	the	the	DT	O	det	O	-1	O
+0	29	648	3511	3515	S	649	same	same	same	JJ	O	amod	O	-1	O
+0	29	649	3516	3524	S	657	problems	problems	problem	NNS	O	nsubj	O	-1	B-noun.state
+0	29	650	3525	3529	S	652	that	that	that	WDT	O	nsubj	O	-1	O
+0	29	651	3530	3534	S	652	have	have	have	VBP	O	aux	O	-1	O
+0	29	652	3535	3541	S	649	arisen	arisen	arise	VBN	O	rcmod	O	-1	B-verb.stative
+0	29	653	3542	3544	S	652	in	in	in	IN	O	prep	O	-1	O
+0	29	654	3545	3548	S	655	the	the	the	DT	DATE	det	O	-1	O
+0	29	655	3549	3553	S	653	past	past	past	NN	DATE	pobj	O	-1	B-noun.time
+0	29	656	3554	3558	S	657	will	will	will	MD	O	aux	O	-1	O
+0	29	657	3559	3564	S	637	arise	arise	arise	VB	O	ccomp	O	-1	B-verb.stative
+0	29	658	3565	3567	S	657	in	in	in	IN	O	prep	O	-1	O
+0	29	659	3568	3571	S	660	the	the	the	DT	DATE	det	O	-1	O
+0	29	660	3572	3578		658	future	future	future	NN	DATE	pobj	O	-1	B-noun.time
+0	29	661	3578	3579	S	637	.	.	.	.	O	punct	O	-1	O
+0	30	662	3580	3585	S	663	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	30	663	3586	3592	S	-1	argues	argues	argue	VBZ	O	null	O	-1	B-verb.communication
+0	30	664	3593	3597	S	667	that	that	that	IN	O	complm	O	-1	O
+0	30	665	3598	3600	S	667	it	it	it	PRP	O	nsubj	O	-1	O
+0	30	666	3601	3603	S	667	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	30	667	3604	3613	S	663	necessary	necessary	necessary	JJ	O	ccomp	O	-1	O
+0	30	668	3614	3616	S	669	to	to	to	TO	O	aux	O	-1	O
+0	30	669	3617	3621	S	667	seek	seek	seek	VB	O	xcomp	O	-1	B-verb.possession
+0	30	670	3622	3634	S	669	independence	independence	independence	NN	O	dobj	O	-1	B-noun.state
+0	30	671	3635	3638		669	now	now	now	RB	DATE	advmod	O	-1	O
+0	30	672	3638	3639	S	669	,	,	,	,	O	punct	O	-1	O
+0	30	673	3640	3642	S	675	as	as	as	IN	O	mark	O	-1	O
+0	30	674	3643	3645	S	675	to	to	to	TO	O	aux	O	-1	O
+0	30	675	3646	3648	S	680	do	do	do	VB	O	csubj	O	-1	B-verb.social
+0	30	676	3649	3658	S	675	otherwise	otherwise	otherwise	RB	O	advmod	O	-1	O
+0	30	677	3659	3664	S	680	would	would	would	MD	O	aux	O	-1	O
+0	30	678	3665	3669	S	679	only	only	only	RB	O	advmod	O	-1	O
+0	30	679	3670	3677	S	680	briefly	briefly	briefly	RB	O	advmod	O	-1	O
+0	30	680	3678	3683	S	669	cover	cover	cover	VB	O	ccomp	O	-1	B-verb.perception
+0	30	681	3684	3686	S	680	up	up	up	RP	O	prt	O	-1	O
+0	30	682	3687	3695	S	680	problems	problems	problem	NNS	O	dobj	O	-1	B-noun.state
+0	30	683	3696	3700	S	686	that	that	that	WDT	O	nsubj	O	-1	O
+0	30	684	3701	3705	S	686	will	will	will	MD	O	aux	O	-1	O
+0	30	685	3706	3712	S	686	surely	surely	surely	RB	O	advmod	O	-1	O
+0	30	686	3713	3721		682	reemerge	reemerge	reemerge	VB	O	rcmod	O	-1	O
+0	30	687	3721	3722	S	663	.	.	.	.	O	punct	O	-1	O
+0	31	688	3723	3728	S	690	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	31	689	3729	3733	S	690	even	even	even	RB	O	advmod	O	-1	O
+0	31	690	3734	3742	S	-1	proposes	proposes	propose	VBZ	O	null	O	-1	B-verb.communication
+0	31	691	3743	3746	S	692	the	the	the	DT	O	det	O	-1	O
+0	31	692	3747	3751	S	690	form	form	form	NN	O	dobj	O	-1	B-noun.group
+0	31	693	3752	3754	S	692	of	of	of	IN	O	prep	O	-1	O
+0	31	694	3755	3765	S	693	government	government	government	NN	O	pobj	O	-1	B-noun.group
+0	31	695	3766	3770	S	700	that	that	that	IN	O	dobj	O	-1	O
+0	31	696	3771	3774	S	698	the	the	the	DT	O	det	O	-1	O
+0	31	697	3775	3786	S	698	independent	independent	independent	JJ	O	amod	O	-1	O
+0	31	698	3787	3795	S	700	colonies	colonies	colony	NNS	O	nsubj	O	-1	B-noun.group
+0	31	699	3796	3802	S	700	should	should	should	MD	O	aux	O	-1	O
+0	31	700	3803	3808		692	adopt	adopt	adopt	VB	O	rcmod	O	-1	O
+0	31	701	3808	3809	S	690	.	.	.	.	O	punct	O	-1	O
+0	32	702	3810	3813	S	703	His	His	he	PRP$	O	poss	O	0	O
+0	32	703	3814	3828	S	704	recommendation	recommendation	recommendation	NN	O	nsubj	O	-1	B-noun.communication
+0	32	704	3829	3831	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	32	705	3832	3835	S	704	for	for	for	IN	O	prep	O	-1	O
+0	32	706	3836	3837	S	708	a	a	a	DT	O	det	O	-1	O
+0	32	707	3838	3852	S	708	representative	representative	representative	JJ	O	amod	O	-1	O
+0	32	708	3853	3862	S	705	democracy	democracy	democracy	NN	O	pobj	O	-1	B-noun.cognition
+0	32	709	3863	3867	S	710	that	that	that	WDT	O	nsubj	O	-1	O
+0	32	710	3868	3873	S	708	gives	gives	give	VBZ	O	rcmod	O	-1	B-verb.possession
+0	32	711	3874	3881	S	712	roughly	roughly	roughly	RB	O	advmod	O	-1	O
+0	32	712	3882	3887	S	713	equal	equal	equal	JJ	O	amod	O	-1	O
+0	32	713	3888	3894	S	710	weight	weight	weight	NN	O	dobj	O	-1	B-noun.attribute
+0	32	714	3895	3897	S	710	to	to	to	TO	O	prep	O	-1	O
+0	32	715	3898	3902	S	714	each	each	each	DT	O	pobj	O	-1	O
+0	32	716	3903	3905	S	715	of	of	of	IN	O	prep	O	-1	O
+0	32	717	3906	3909	S	718	the	the	the	DT	O	det	O	-1	O
+0	32	718	3910	3918		716	colonies	colonies	colony	NNS	O	pobj	O	-1	B-noun.group
+0	32	719	3918	3919	S	704	.	.	.	.	O	punct	O	-1	O
+0	33	720	3920	3925	S	721	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	33	721	3926	3934	S	-1	explains	explains	explain	VBZ	O	null	O	-1	B-verb.communication
+0	33	722	3935	3938	S	729	why	why	why	WRB	O	advmod	O	-1	O
+0	33	723	3939	3942	S	725	the	the	the	DT	O	det	O	-1	O
+0	33	724	3943	3950	S	725	current	current	current	JJ	DATE	amod	O	-1	O
+0	33	725	3951	3955	S	729	time	time	time	NN	O	nsubj	O	-1	B-noun.time
+0	33	726	3956	3958	S	729	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	33	727	3959	3960	S	729	a	a	a	DT	O	det	O	-1	O
+0	33	728	3961	3965	S	729	good	good	good	JJ	O	amod	O	-1	O
+0	33	729	3966	3970	S	721	time	time	time	NN	O	advcl	O	-1	B-noun.time
+0	33	730	3971	3973	S	731	to	to	to	TO	O	aux	O	-1	O
+0	33	731	3974	3979	S	729	break	break	break	VB	O	infmod	O	-1	B-verb.change
+0	33	732	3980	3984	S	731	free	free	free	JJ	O	advmod	O	-1	O
+0	33	733	3985	3987	S	732	of	of	of	IN	O	prep	O	-1	O
+0	33	734	3988	3995		733	Britain	Britain	Britain	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	33	735	3995	3996	S	721	.	.	.	.	O	punct	O	-1	O
+0	34	736	3997	4006		739	Primarily	Primarily	primarily	RB	O	advmod	O	-1	O
+0	34	737	4006	4007	S	739	,	,	,	,	O	punct	O	-1	O
+0	34	738	4008	4013	S	739	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	34	739	4014	4021	S	-1	focuses	focuses	focus	VBZ	O	null	O	-1	B-verb.cognition
+0	34	740	4022	4024	S	739	on	on	on	IN	O	prep	O	-1	O
+0	34	741	4025	4028	S	743	the	the	the	DT	O	det	O	-1	O
+0	34	742	4029	4036	S	743	present	present	present	JJ	DATE	amod	O	-1	O
+0	34	743	4037	4041	S	740	size	size	size	NN	O	pobj	O	-1	B-noun.attribute
+0	34	744	4042	4044	S	743	of	of	of	IN	O	prep	O	-1	O
+0	34	745	4045	4048	S	746	the	the	the	DT	O	det	O	-1	O
+0	34	746	4049	4057		744	colonies	colonies	colony	NNS	O	pobj	O	-1	B-noun.group
+0	34	747	4057	4058	S	739	,	,	,	,	O	punct	O	-1	O
+0	34	748	4059	4062	S	739	and	and	and	CC	O	cc	O	-1	O
+0	34	749	4063	4065	S	739	on	on	on	IN	O	conj	O	-1	O
+0	34	750	4066	4071	S	752	their	their	they	PRP$	O	poss	O	-1	O
+0	34	751	4072	4079	S	752	current	current	current	JJ	DATE	amod	O	-1	O
+0	34	752	4080	4092		749	capabilities	capabilities	capability	NNS	O	pobj	O	-1	B-noun.attribute
+0	34	753	4092	4093	S	739	.	.	.	.	O	punct	O	-1	O
+0	35	754	4094	4096	S	755	He	He	he	PRP	O	nsubj	O	0	O
+0	35	755	4097	4105	S	-1	presents	presents	present	VBZ	O	null	O	-1	B-verb.perception
+0	35	756	4106	4108	S	757	an	an	a	DT	O	det	O	-1	O
+0	35	757	4109	4118	S	755	inventory	inventory	inventory	NN	O	dobj	O	-1	B-noun.communication
+0	35	758	4119	4121	S	757	of	of	of	IN	O	prep	O	-1	O
+0	35	759	4122	4125	S	761	the	the	the	DT	O	det	O	-1	O
+0	35	760	4126	4133	S	761	British	British	british	JJ	O	amod	O	-1	O
+0	35	761	4134	4138	S	758	Navy	Navy	Navy	NNP	ORGANIZATION	pobj	O	-1	B-noun.group
+0	35	762	4139	4142	S	755	and	and	and	CC	O	cc	O	-1	O
+0	35	763	4143	4148	S	755	gives	gives	give	VBZ	O	conj	O	-1	B-verb.possession
+0	35	764	4149	4161	S	763	calculations	calculations	calculation	NNS	O	dobj	O	-1	B-noun.act
+0	35	765	4162	4171	S	764	revealing	revealing	reveal	VBG	O	partmod	O	-1	B-verb.perception
+0	35	766	4172	4175	S	769	how	how	how	WRB	O	advmod	O	-1	O
+0	35	767	4176	4183	S	769	America	America	America	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	35	768	4184	4189	S	769	could	could	could	MD	O	aux	O	-1	O
+0	35	769	4190	4195	S	765	build	build	build	VB	O	ccomp	O	-1	B-verb.creation
+0	35	770	4196	4197	S	771	a	a	a	DT	O	det	O	-1	O
+0	35	771	4198	4202	S	769	navy	navy	navy	NN	O	dobj	O	-1	B-noun.group
+0	35	772	4203	4205	S	771	of	of	of	IN	O	prep	O	-1	O
+0	35	773	4206	4216	S	774	comparable	comparable	comparable	JJ	O	amod	O	-1	O
+0	35	774	4217	4221		772	size	size	size	NN	O	pobj	O	-1	B-noun.attribute
+0	35	775	4221	4222	S	755	.	.	.	.	O	punct	O	-1	O
+0	36	776	4223	4228	S	777	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	36	777	4229	4239	S	-1	recommends	recommends	recommend	VBZ	O	null	O	-1	B-verb.communication
+0	36	778	4240	4244	S	777	this	this	this	DT	O	dobj	O	-1	O
+0	36	779	4245	4247	S	777	as	as	as	IN	O	prep	O	-1	O
+0	36	780	4248	4249	S	781	a	a	a	DT	O	det	O	-1	O
+0	36	781	4250	4253	S	779	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	36	782	4254	4256	S	781	of	of	of	IN	O	prep	O	-1	O
+0	36	783	4257	4265	S	782	ensuring	ensuring	ensure	VBG	O	pcomp	O	-1	B-verb.communication
+0	36	784	4266	4273		786	America	America	America	NNP	LOCATION	poss	O	-1	B-noun.location
+0	36	785	4273	4275	S	784	's	's	's	POS	O	possessive	O	-1	O
+0	36	786	4276	4284	S	783	security	security	security	NN	O	dobj	O	-1	B-noun.possession
+0	36	787	4285	4288	S	786	and	and	and	CC	O	cc	O	-1	O
+0	36	788	4289	4299	S	786	prosperity	prosperity	prosperity	NN	O	conj	O	-1	B-noun.state
+0	36	789	4300	4302	S	788	in	in	in	IN	O	prep	O	-1	O
+0	36	790	4303	4308		789	trade	trade	trade	NN	O	pobj	O	-1	B-noun.act
+0	36	791	4308	4309	S	777	.	.	.	.	O	punct	O	-1	O
+0	37	792	4310	4315	S	794	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	37	793	4316	4320	S	794	also	also	also	RB	O	advmod	O	-1	O
+0	37	794	4321	4327	S	-1	argues	argues	argue	VBZ	O	null	O	-1	B-verb.communication
+0	37	795	4328	4332	S	799	that	that	that	IN	O	complm	O	-1	O
+0	37	796	4333	4340	S	799	America	America	America	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	37	797	4341	4343	S	799	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	37	798	4344	4356	S	799	sufficiently	sufficiently	sufficiently	RB	O	advmod	O	-1	O
+0	37	799	4357	4362	S	794	small	small	small	JJ	O	ccomp	O	-1	O
+0	37	800	4363	4365	S	803	as	as	as	IN	O	mark	O	-1	O
+0	37	801	4366	4368	S	803	to	to	to	TO	O	aux	O	-1	O
+0	37	802	4369	4371	S	803	be	be	be	VB	O	auxpass	O	-1	O
+0	37	803	4372	4378	S	799	united	united	unite	VBN	O	advcl	O	-1	B-verb.social
+0	37	804	4379	4382		803	now	now	now	RB	DATE	advmod	O	-1	O
+0	37	805	4382	4383	S	794	.	.	.	.	O	punct	O	-1	O
+0	38	806	4384	4386	S	829	If	If	if	IN	O	mark	O	-1	O
+0	38	807	4387	4391	S	829	time	time	time	NN	O	nsubj	O	-1	B-noun.time
+0	38	808	4392	4396	S	807	were	were	be	VBD	O	dep	O	-1	B-verb.stative
+0	38	809	4397	4399	S	810	to	to	to	TO	O	aux	O	-1	O
+0	38	810	4400	4406		808	elapse	elapse	elapse	VB	O	xcomp	O	-1	B-verb.motion
+0	38	811	4406	4407	S	807	,	,	,	,	O	punct	O	-1	O
+0	38	812	4408	4411	S	807	and	and	and	CC	O	cc	O	-1	O
+0	38	813	4412	4415	S	814	the	the	the	DT	O	det	O	-1	O
+0	38	814	4416	4426	S	807	population	population	population	NN	O	conj	O	-1	B-noun.group
+0	38	815	4427	4429	S	814	of	of	of	IN	O	prep	O	-1	O
+0	38	816	4430	4433	S	817	the	the	the	DT	O	det	O	-1	O
+0	38	817	4434	4442	S	815	colonies	colonies	colony	NNS	O	pobj	O	-1	B-noun.group
+0	38	818	4443	4445	S	819	to	to	to	TO	O	aux	O	-1	O
+0	38	819	4446	4450		817	grow	grow	grow	VB	O	infmod	O	-1	B-verb.change
+0	38	820	4450	4451	S	807	,	,	,	,	O	punct	O	-1	O
+0	38	821	4452	4455	S	823	the	the	the	DT	O	det	O	-1	O
+0	38	822	4456	4460	S	823	same	same	same	JJ	O	amod	O	-1	O
+0	38	823	4461	4468	S	807	feeling	feeling	feeling	NN	O	conj	O	-1	B-noun.cognition
+0	38	824	4469	4471	S	823	of	of	of	IN	O	prep	O	-1	O
+0	38	825	4472	4477	S	824	unity	unity	unity	NN	O	pobj	O	-1	B-noun.state
+0	38	826	4478	4483	S	829	would	would	would	MD	O	aux	O	-1	O
+0	38	827	4484	4487	S	829	not	not	not	RB	O	neg	O	-1	O
+0	38	828	4488	4490	S	829	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	38	829	4491	4498		-1	present	present	present	JJ	DATE	null	O	-1	O
+0	38	830	4498	4499	S	829	.	.	.	.	O	punct	O	-1	O
+0	39	831	4500	4505	S	832	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	39	832	4506	4510	S	-1	adds	adds	add	VBZ	O	null	O	-1	B-verb.communication
+0	39	833	4511	4515	S	832	that	that	that	IN	O	dobj	O	-1	O
+0	39	834	4516	4518	S	842	if	if	if	IN	O	mark	O	-1	O
+0	39	835	4519	4522	S	837	the	the	the	DT	O	det	O	-1	O
+0	39	836	4523	4532	S	837	Americans	Americans	Americans	NNPS	MISC	nn	O	-1	B-noun.person
+0	39	837	4533	4539	S	842	revolt	revolt	revolt	NN	O	dep	O	-1	B-noun.act
+0	39	838	4540	4543		837	now	now	now	RB	DATE	advmod	O	-1	O
+0	39	839	4543	4544	S	842	,	,	,	,	O	punct	O	-1	O
+0	39	840	4545	4549	S	842	they	they	they	PRP	O	nsubj	O	-1	O
+0	39	841	4550	4553	S	842	can	can	can	MD	O	aux	O	-1	O
+0	39	842	4554	4557	S	833	use	use	use	VB	O	advcl	O	-1	B-verb.consumption
+0	39	843	4558	4561	S	845	the	the	the	DT	O	det	O	-1	O
+0	39	844	4562	4566	S	845	vast	vast	vast	JJ	O	amod	O	-1	O
+0	39	845	4567	4575	S	842	expanses	expanses	expanse	NNS	O	dobj	O	-1	B-noun.attribute
+0	39	846	4576	4578	S	845	of	of	of	IN	O	prep	O	-1	O
+0	39	847	4579	4588	S	848	uncharted	uncharted	uncharted	JJ	O	amod	O	-1	O
+0	39	848	4589	4593	S	846	land	land	land	NN	O	pobj	O	-1	B-noun.possession
+0	39	849	4594	4596	S	842	to	to	to	TO	O	prep	O	-1	O
+0	39	850	4597	4600	S	851	the	the	the	DT	O	det	O	-1	O
+0	39	851	4601	4605	S	849	West	West	West	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	39	852	4606	4608	S	855	in	in	in	IN	O	mark	O	-1	O
+0	39	853	4609	4614	S	855	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	39	854	4615	4617	S	855	to	to	to	TO	O	aux	O	-1	O
+0	39	855	4618	4621	S	842	pay	pay	pay	VB	O	purpcl	O	-1	B-verb.possession
+0	39	856	4622	4626	S	855	down	down	down	RP	O	prt	O	-1	O
+0	39	857	4627	4631	S	863	some	some	some	DT	O	dobj	O	-1	O
+0	39	858	4632	4634	S	857	of	of	of	IN	O	prep	O	-1	O
+0	39	859	4635	4638	S	860	the	the	the	DT	O	det	O	-1	O
+0	39	860	4639	4643	S	858	debt	debt	debt	NN	O	pobj	O	-1	B-noun.state
+0	39	861	4644	4648	S	863	they	they	they	PRP	O	nsubj	O	-1	O
+0	39	862	4649	4653	S	863	will	will	will	MD	O	aux	O	-1	O
+0	39	863	4654	4659		855	incur	incur	incur	VB	O	dobj	O	-1	B-verb.stative
+0	39	864	4659	4660	S	832	.	.	.	.	O	punct	O	-1	O
+0	40	865	4661	4666	S	866	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	40	866	4667	4671	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	40	867	4672	4676	S	875	that	that	that	IN	O	complm	O	-1	O
+0	40	868	4677	4679	S	875	as	as	as	IN	O	prep	O	-1	O
+0	40	869	4680	4681	S	870	a	a	a	DT	O	det	O	-1	O
+0	40	870	4682	4688	S	868	colony	colony	colony	NN	O	pobj	O	-1	B-noun.group
+0	40	871	4689	4691	S	870	of	of	of	IN	O	prep	O	-1	O
+0	40	872	4692	4699		871	Britain	Britain	Britain	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	40	873	4699	4700	S	875	,	,	,	,	O	punct	O	-1	O
+0	40	874	4701	4708	S	875	America	America	America	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	40	875	4709	4714	S	866	lacks	lacks	lack	VBZ	O	ccomp	O	-1	B-verb.stative
+0	40	876	4715	4729	S	875	respectability	respectability	respectability	NN	O	dobj	O	-1	B-noun.attribute
+0	40	877	4730	4732	S	875	on	on	on	IN	O	prep	O	-1	O
+0	40	878	4733	4736	S	880	the	the	the	DT	O	det	O	-1	O
+0	40	879	4737	4750	S	880	international	international	international	JJ	O	amod	O	-1	O
+0	40	880	4751	4756		877	scene	scene	scene	NN	O	pobj	O	-1	B-noun.communication
+0	40	881	4756	4757	S	866	.	.	.	.	O	punct	O	-1	O
+0	41	882	4758	4762	S	884	They	They	they	PRP	O	nsubjpass	O	-1	O
+0	41	883	4763	4766	S	884	are	are	be	VBP	O	auxpass	O	-1	O
+0	41	884	4767	4771	S	-1	seen	seen	see	VBN	O	null	O	-1	B-verb.perception
+0	41	885	4772	4778	S	886	simply	simply	simply	RB	O	dep	O	-1	O
+0	41	886	4779	4781	S	884	as	as	as	IN	O	prep	O	-1	O
+0	41	887	4782	4788		886	rebels	rebels	rebel	NNS	O	pobj	O	-1	B-noun.person
+0	41	888	4788	4789	S	884	,	,	,	,	O	punct	O	-1	O
+0	41	889	4790	4793	S	884	and	and	and	CC	O	cc	O	-1	O
+0	41	890	4794	4797		892	can	can	can	MD	O	aux	O	-1	O
+0	41	891	4797	4800	S	892	not	not	not	RB	O	neg	O	-1	O
+0	41	892	4801	4805	S	884	form	form	form	VB	O	conj	O	-1	B-verb.stative
+0	41	893	4806	4817	S	894	substantial	substantial	substantial	JJ	O	amod	O	-1	O
+0	41	894	4818	4827	S	892	alliances	alliances	alliance	NNS	O	dobj	O	-1	B-noun.state
+0	41	895	4828	4832	S	894	with	with	with	IN	O	prep	O	-1	O
+0	41	896	4833	4838	S	897	other	other	other	JJ	O	amod	O	-1	O
+0	41	897	4839	4846		895	nations	nations	nation	NNS	O	pobj	O	-1	B-noun.group
+0	41	898	4846	4847	S	884	.	.	.	.	O	punct	O	-1	O
+0	42	899	4848	4850	S	902	In	In	in	IN	O	mark	O	-1	O
+0	42	900	4851	4856	S	902	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	42	901	4857	4859	S	902	to	to	to	TO	O	aux	O	-1	O
+0	42	902	4860	4867	S	910	prosper	prosper	prosper	VB	O	advcl	O	-1	B-verb.possession
+0	42	903	4868	4870	S	902	in	in	in	IN	O	prep	O	-1	O
+0	42	904	4871	4874	S	906	the	the	the	DT	O	det	O	-1	O
+0	42	905	4875	4879	S	906	long	long	long	JJ	O	amod	O	-1	O
+0	42	906	4880	4884		903	term	term	term	NN	O	pobj	O	-1	B-noun.communication
+0	42	907	4884	4885	S	910	,	,	,	,	O	punct	O	-1	O
+0	42	908	4886	4889	S	909	the	the	the	DT	O	det	O	-1	O
+0	42	909	4890	4898	S	910	colonies	colonies	colony	NNS	O	nsubj	O	-1	B-noun.group
+0	42	910	4899	4903	S	-1	need	need	need	VBP	O	null	O	-1	B-verb.stative
+0	42	911	4904	4906	S	913	to	to	to	TO	O	aux	O	-1	O
+0	42	912	4907	4909	S	913	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	42	913	4910	4921		910	independent	independent	independent	JJ	O	xcomp	O	-1	O
+0	42	914	4921	4922	S	910	.	.	.	.	O	punct	O	-1	O
+0	43	915	4923	4928	S	916	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	43	916	4929	4933	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	43	917	4934	4938		926	that	that	that	IN	O	complm	O	-1	O
+0	43	918	4938	4939	S	926	,	,	,	,	O	punct	O	-1	O
+0	43	919	4940	4942	S	926	by	by	by	IN	O	prep	O	-1	O
+0	43	920	4943	4952	S	919	declaring	declaring	declare	VBG	O	pcomp	O	-1	B-verb.communication
+0	43	921	4953	4965		920	independence	independence	independence	NN	O	dobj	O	-1	B-noun.state
+0	43	922	4965	4966	S	926	,	,	,	,	O	punct	O	-1	O
+0	43	923	4967	4974	S	926	America	America	America	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	43	924	4975	4979	S	926	will	will	will	MD	O	aux	O	-1	O
+0	43	925	4980	4982	S	926	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	43	926	4983	4987	S	916	able	able	able	JJ	O	ccomp	O	-1	O
+0	43	927	4988	4990	S	928	to	to	to	TO	O	aux	O	-1	O
+0	43	928	4991	4994	S	926	ask	ask	ask	VB	O	xcomp	O	-1	B-verb.communication
+0	43	929	4995	4998	S	928	for	for	for	IN	O	prep	O	-1	O
+0	43	930	4999	5002	S	931	the	the	the	DT	O	det	O	-1	O
+0	43	931	5003	5007	S	929	help	help	help	NN	O	pobj	O	-1	B-noun.act
+0	43	932	5008	5010	S	931	of	of	of	IN	O	prep	O	-1	O
+0	43	933	5011	5016	S	934	other	other	other	JJ	O	amod	O	-1	O
+0	43	934	5017	5026	S	932	countries	countries	country	NNS	O	pobj	O	-1	B-noun.group
+0	43	935	5027	5029	S	931	in	in	in	IN	O	prep	O	-1	O
+0	43	936	5030	5033	S	937	its	its	its	PRP$	O	poss	O	-1	O
+0	43	937	5034	5042	S	935	struggle	struggle	struggle	NN	O	pobj	O	-1	B-noun.act
+0	43	938	5043	5046	S	937	for	for	for	IN	O	prep	O	-1	O
+0	43	939	5047	5054		938	freedom	freedom	freedom	NN	O	pobj	O	-1	B-noun.state
+0	43	940	5054	5055	S	916	.	.	.	.	O	punct	O	-1	O
+0	44	941	5056	5059	S	948	For	For	for	IN	O	prep	O	-1	O
+0	44	942	5060	5063	S	941	all	all	all	DT	O	pobj	O	-1	O
+0	44	943	5064	5066	S	942	of	of	of	IN	O	prep	O	-1	O
+0	44	944	5067	5072	S	945	these	these	these	DT	O	det	O	-1	O
+0	44	945	5073	5080		943	reasons	reasons	reason	NNS	O	pobj	O	-1	B-noun.motive
+0	44	946	5080	5081	S	948	,	,	,	,	O	punct	O	-1	O
+0	44	947	5082	5087	S	948	Paine	Paine	Paine	NNP	PERSON	nsubj	O	0	B-noun.person
+0	44	948	5088	5092	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	44	949	5093	5095	S	951	it	it	it	PRP	O	nsubj	O	-1	O
+0	44	950	5096	5098	S	951	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	44	951	5099	5109	S	948	imperative	imperative	imperative	JJ	O	ccomp	O	-1	O
+0	44	952	5110	5113	S	951	and	and	and	CC	O	cc	O	-1	O
+0	44	953	5114	5120	S	951	urgent	urgent	urgent	JJ	O	conj	O	-1	O
+0	44	954	5121	5125	S	957	that	that	that	IN	O	complm	O	-1	O
+0	44	955	5126	5129	S	956	the	the	the	DT	O	det	O	-1	O
+0	44	956	5130	5138	S	957	colonies	colonies	colony	NNS	O	nsubj	O	-1	B-noun.group
+0	44	957	5139	5146	S	951	declare	declare	declare	VBP	O	ccomp	O	-1	B-verb.communication
+0	44	958	5147	5159		957	independence	independence	independence	NN	O	dobj	O	-1	B-noun.state
+0	44	959	5159	5160	N	948	.	.	.	.	O	punct	O	-1	O

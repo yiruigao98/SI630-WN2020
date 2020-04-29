@@ -1,0 +1,654 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	6	S	1	Oliver	Oliver	Oliver	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	7	12	S	3	Twist	Twist	twist	NN	PERSON	nsubjpass	O	-1	I-noun.person
+0	0	2	13	15	S	3	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	3	16	20	S	-1	born	born	bear	VBN	O	null	O	-1	B-verb.body
+0	0	4	21	23	N	3	in	in	in	IN	O	prep	O	-1	O
+0	0	5	24	25	S	6	a	a	a	DT	O	det	O	-1	O
+0	0	6	26	35	S	4	workhouse	workhouse	workhouse	NN	O	pobj	O	-1	B-noun.artifact
+0	0	7	36	38	S	6	in	in	in	IN	O	prep	O	-1	O
+0	0	8	39	44	S	9	1830s	1830s	1830s	CD	DATE	num	O	-1	O
+0	0	9	45	52		7	England	England	England	NNP	LOCATION	pobj	O	-1	O
+0	0	10	52	53	S	3	.	.	.	.	O	punct	O	-1	O
+0	1	11	54	57	S	12	His	His	he	PRP$	O	poss	O	-1	O
+0	1	12	58	64		-1	mother	mother	mother	NN	O	null	O	-1	B-noun.person
+0	1	13	64	65	N	12	,	,	,	,	O	punct	O	-1	O
+0	1	14	66	71	S	15	whose	whose	whose	WP$	O	poss	O	-1	O
+0	1	15	72	76	S	12	name	name	name	NN	O	appos	O	-1	B-noun.communication
+0	1	16	77	79	S	17	no	no	no	DT	O	det	O	-1	O
+0	1	17	80	83	S	21	one	one	one	NN	NUMBER	nsubjpass	O	-1	O
+0	1	18	84	89		21	knows	knows	know	VBZ	O	auxpass	O	-1	B-verb.cognition
+0	1	19	89	90	S	21	,	,	,	,	O	punct	O	-1	O
+0	1	20	91	93	S	21	is	is	be	VBZ	O	auxpass	O	-1	O
+0	1	21	94	99	S	15	found	found	find	VBN	O	rcmod	O	-1	B-verb.possession
+0	1	22	100	102	S	21	on	on	on	IN	O	prep	O	-1	O
+0	1	23	103	106	S	24	the	the	the	DT	O	det	O	-1	O
+0	1	24	107	113	S	22	street	street	street	NN	O	pobj	O	-1	B-noun.artifact
+0	1	25	114	117	S	21	and	and	and	CC	O	cc	O	-1	O
+0	1	26	118	122	S	21	dies	dies	die	VBZ	O	conj	O	-1	B-verb.change
+0	1	27	123	127	S	28	just	just	just	RB	O	dep	O	-1	O
+0	1	28	128	133	N	26	after	after	after	IN	O	prep	O	-1	O
+0	1	29	134	140		31	Oliver	Oliver	Oliver	NNP	PERSON	poss	O	3	B-noun.person
+0	1	30	140	142	S	29	’s	's	's	POS	O	possessive	O	-1	O
+0	1	31	143	148		28	birth	birth	birth	NN	O	pobj	O	-1	B-noun.time
+0	1	32	148	149	S	12	.	.	.	.	O	punct	O	-1	O
+0	2	33	150	156	S	34	Oliver	Oliver	Oliver	NNP	PERSON	nsubj	O	3	B-noun.person
+0	2	34	157	163	S	-1	spends	spends	spend	VBZ	O	null	O	-1	B-verb.stative
+0	2	35	164	167	S	38	the	the	the	DT	DURATION	det	O	-1	O
+0	2	36	168	173	S	38	first	first	first	JJ	DURATION	amod	O	-1	O
+0	2	37	174	178	S	38	nine	nine	nine	CD	DURATION	num	O	-1	O
+0	2	38	179	184	S	34	years	years	year	NNS	DURATION	dobj	O	-1	B-noun.time
+0	2	39	185	187	S	38	of	of	of	IN	O	prep	O	-1	O
+0	2	40	188	191	S	41	his	his	he	PRP$	O	poss	O	3	O
+0	2	41	192	196	S	39	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	2	42	197	199	N	41	in	in	in	IN	O	prep	O	-1	O
+0	2	43	200	201	S	46	a	a	a	DT	O	det	O	-1	O
+0	2	44	202	207	S	45	badly	badly	badly	RB	O	advmod	O	-1	O
+0	2	45	208	211	S	46	run	run	run	VBN	O	amod	O	-1	B-verb.motion
+0	2	46	212	216	S	42	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	2	47	217	220	S	46	for	for	for	IN	O	prep	O	-1	O
+0	2	48	221	226	S	49	young	young	young	JJ	O	amod	O	-1	O
+0	2	49	227	234	S	47	orphans	orphans	orphan	NNS	O	pobj	O	-1	B-noun.person
+0	2	50	235	238	S	34	and	and	and	CC	O	cc	O	-1	O
+0	2	51	239	243	S	34	then	then	then	RB	O	advmod	O	-1	O
+0	2	52	244	246	S	53	is	is	be	VBZ	O	auxpass	O	-1	O
+0	2	53	247	258	S	34	transferred	transferred	transfer	VBN	O	ccomp	O	-1	B-verb.motion
+0	2	54	259	261	S	53	to	to	to	TO	O	prep	O	-1	O
+0	2	55	262	263	N	56	a	a	a	DT	O	det	O	-1	O
+0	2	56	264	273	S	54	workhouse	workhouse	workhouse	NN	O	pobj	O	-1	B-noun.artifact
+0	2	57	274	277	S	56	for	for	for	IN	O	prep	O	-1	O
+0	2	58	278	284		57	adults	adults	adult	NNS	O	pobj	O	-1	B-noun.animal
+0	2	59	284	285	S	34	.	.	.	.	O	punct	O	-1	O
+0	3	60	286	291	S	85	After	After	after	IN	O	prep	O	-1	O
+0	3	61	292	295	S	65	the	the	the	DT	O	det	O	-1	O
+0	3	62	296	301	S	65	other	other	other	JJ	O	amod	O	-1	O
+0	3	63	302	306	S	65	boys	boys	boy	NNS	O	nn	O	-1	B-noun.person
+0	3	64	307	312	S	65	bully	bully	bully	NN	O	nn	O	-1	B-noun.person
+0	3	65	313	319	S	60	Oliver	Oliver	Oliver	NNP	PERSON	pobj	O	3	I-noun.person
+0	3	66	320	324	S	85	into	into	into	IN	O	prep	O	-1	O
+0	3	67	325	331	N	66	asking	asking	ask	VBG	O	pcomp	O	-1	B-verb.communication
+0	3	68	332	335	S	67	for	for	for	IN	O	prep	O	-1	O
+0	3	69	336	340	S	70	more	more	more	JJR	O	amod	O	-1	O
+0	3	70	341	346	S	68	gruel	gruel	gruel	NN	O	pobj	O	-1	B-noun.food
+0	3	71	347	349	S	70	at	at	at	IN	O	prep	O	-1	O
+0	3	72	350	353	S	73	the	the	the	DT	O	det	O	-1	O
+0	3	73	354	357	S	71	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	3	74	358	360	S	73	of	of	of	IN	O	prep	O	-1	O
+0	3	75	361	362	S	76	a	a	a	DT	O	det	O	-1	O
+0	3	76	363	367		74	meal	meal	meal	NN	O	pobj	O	-1	B-noun.food
+0	3	77	367	368	S	85	,	,	,	,	O	punct	O	-1	O
+0	3	78	369	372	S	79	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	3	79	373	379		85	Bumble	Bumble	Bumble	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	3	80	379	380	S	79	,	,	,	,	O	punct	O	-1	O
+0	3	81	381	384	S	83	the	the	the	DT	O	det	O	-1	O
+0	3	82	385	391	S	83	parish	parish	parish	NN	O	nn	O	-1	B-noun.group
+0	3	83	392	398		79	beadle	beadle	beadle	NN	O	appos	O	-1	B-noun.person
+0	3	84	398	399	N	79	,	,	,	,	O	punct	O	-1	O
+0	3	85	400	406	S	-1	offers	offers	offer	VBZ	O	null	O	-1	B-verb.possession
+0	3	86	407	411	S	87	five	five	five	CD	MONEY	num	O	-1	O
+0	3	87	412	418	S	85	pounds	pounds	pound	NNS	MONEY	dobj	O	-1	B-noun.quantity
+0	3	88	419	421	S	85	to	to	to	TO	O	prep	O	-1	O
+0	3	89	422	428	S	88	anyone	anyone	anyone	NN	O	pobj	O	-1	O
+0	3	90	429	432	S	92	who	who	who	WP	O	nsubj	O	-1	O
+0	3	91	433	437	S	92	will	will	will	MD	O	aux	O	-1	O
+0	3	92	438	442	S	89	take	take	take	VB	O	rcmod	O	-1	B-verb.change
+0	3	93	443	446	S	94	the	the	the	DT	O	det	O	-1	O
+0	3	94	447	450	S	92	boy	boy	boy	NN	O	dobj	O	-1	B-noun.person
+0	3	95	451	455	S	92	away	away	away	RB	O	advmod	O	-1	O
+0	3	96	456	460	S	95	from	from	from	IN	O	dep	O	-1	O
+0	3	97	461	464	N	98	the	the	the	DT	O	det	O	-1	O
+0	3	98	465	474		96	workhouse	workhouse	workhouse	NN	O	pobj	O	-1	B-noun.artifact
+0	3	99	474	475	S	85	.	.	.	.	O	punct	O	-1	O
+0	4	100	476	482	S	104	Oliver	Oliver	Oliver	NNP	PERSON	nsubj	O	3	B-noun.person
+0	4	101	483	491	S	104	narrowly	narrowly	narrowly	RB	O	advmod	O	-1	O
+0	4	102	492	499	S	104	escapes	escapes	escape	VBZ	O	aux	O	-1	B-verb.motion
+0	4	103	500	505	S	104	being	being	be	VBG	O	auxpass	O	-1	O
+0	4	104	506	517	S	120	apprenticed	apprenticed	apprentice	VBN	O	ccomp	O	-1	B-verb.cognition
+0	4	105	518	520	S	104	to	to	to	TO	O	prep	O	-1	O
+0	4	106	521	522	S	109	a	a	a	DT	O	det	O	-1	O
+0	4	107	523	530	N	109	brutish	brutish	brutish	JJ	O	amod	O	-1	O
+0	4	108	531	538	S	109	chimney	chimney	chimney	NN	O	nn	O	-1	B-noun.artifact
+0	4	109	539	544	S	105	sweep	sweep	sweep	NN	O	pobj	O	-1	B-noun.attribute
+0	4	110	545	548	S	104	and	and	and	CC	O	cc	O	-1	O
+0	4	111	549	551	S	113	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	4	112	552	562	S	113	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	4	113	563	574	S	104	apprenticed	apprenticed	apprentice	VBN	O	conj	O	-1	B-verb.cognition
+0	4	114	575	577	S	113	to	to	to	TO	O	prep	O	-1	O
+0	4	115	578	579	S	117	a	a	a	DT	O	det	O	-1	O
+0	4	116	580	585	S	117	local	local	local	JJ	O	amod	O	-1	O
+0	4	117	586	596		114	undertaker	undertaker	undertaker	NN	O	pobj	O	-1	B-noun.person
+0	4	118	596	597	N	120	,	,	,	,	O	punct	O	-1	O
+0	4	119	598	601	S	120	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	4	120	602	612		-1	Sowerberry	Sowerberry	Sowerberry	NNP	PERSON	null	O	-1	I-noun.person
+0	4	121	612	613	S	120	.	.	.	.	O	punct	O	-1	O
+0	5	122	614	618	S	132	When	When	when	WRB	O	advmod	O	-1	O
+0	5	123	619	622	S	124	the	the	the	DT	O	det	O	-1	O
+0	5	124	623	633		127	undertaker	undertaker	undertaker	NN	O	poss	O	-1	B-noun.person
+0	5	125	633	635	S	124	’s	's	's	POS	O	possessive	O	-1	O
+0	5	126	636	641	S	127	other	other	other	JJ	O	amod	O	-1	O
+0	5	127	642	652		132	apprentice	apprentice	apprentice	NN	O	nsubj	O	-1	B-noun.person
+0	5	128	652	653	S	127	,	,	,	,	O	punct	O	-1	O
+0	5	129	654	658	S	130	Noah	Noah	Noah	NNP	PERSON	nn	O	-1	B-noun.person
+0	5	130	659	667		127	Claypole	Claypole	Claypole	NNP	PERSON	appos	O	-1	I-noun.person
+0	5	131	667	668	N	127	,	,	,	,	O	punct	O	-1	O
+0	5	132	669	674	S	-1	makes	makes	make	VBZ	O	null	O	-1	O
+0	5	133	675	686	S	132	disparaging	disparaging	disparage	VBG	O	xcomp	O	-1	B-verb.communication
+0	5	134	687	695	S	133	comments	comments	comment	NNS	O	dobj	O	-1	B-noun.communication
+0	5	135	696	701	S	134	about	about	about	IN	O	prep	O	-1	O
+0	5	136	702	708		138	Oliver	Oliver	Oliver	NNP	PERSON	poss	O	3	B-noun.person
+0	5	137	708	710	S	136	’s	's	's	POS	O	possessive	O	-1	O
+0	5	138	711	717		135	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	5	139	717	718	S	132	,	,	,	,	O	punct	O	-1	O
+0	5	140	719	725	S	141	Oliver	Oliver	Oliver	NNP	PERSON	nn	O	3	B-noun.person
+0	5	141	726	733	N	139	attacks	attacks	attack	NNS	O	nsubj	O	-1	B-noun.act
+0	5	142	734	737	S	148	him	him	he	PRP	O	nsubj	O	3	O
+0	5	143	738	741	S	142	and	and	and	CC	O	cc	O	-1	O
+0	5	144	742	748	S	142	incurs	incurs	incur	VBZ	O	conj	O	-1	B-verb.stative
+0	5	145	749	752	S	146	the	the	the	DT	O	det	O	-1	O
+0	5	146	753	764		148	Sowerberrys	Sowerberrys	Sowerberrys	NNPS	O	poss	O	-1	B-noun.person
+0	5	147	764	765	S	146	’	'	'	POS	O	possessive	O	-1	O
+0	5	148	766	771		141	wrath	wrath	wrath	NN	O	rcmod	O	-1	B-noun.feeling
+0	5	149	771	772	S	132	.	.	.	.	O	punct	O	-1	O
+0	6	150	773	782		153	Desperate	Desperate	desperate	JJ	O	nsubj	O	-1	O
+0	6	151	782	783	S	153	,	,	,	,	O	punct	O	-1	O
+0	6	152	784	790	S	153	Oliver	Oliver	Oliver	NNP	PERSON	nsubj	O	3	B-noun.person
+0	6	153	791	795	S	-1	runs	runs	run	VBZ	O	null	O	-1	B-verb.motion
+0	6	154	796	800	N	153	away	away	away	RB	O	advmod	O	-1	O
+0	6	155	801	803	S	153	at	at	at	IN	O	prep	O	-1	O
+0	6	156	804	808	S	155	dawn	dawn	dawn	NN	O	pobj	O	-1	B-noun.time
+0	6	157	809	812	S	153	and	and	and	CC	O	cc	O	-1	O
+0	6	158	813	820	S	153	travels	travels	travel	VBZ	O	conj	O	-1	B-verb.motion
+0	6	159	821	827	S	158	toward	toward	toward	IN	O	prep	O	-1	O
+0	6	160	828	834		159	London	London	London	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	6	161	834	835	S	153	.	.	.	.	O	punct	O	-1	O
+0	7	162	836	843	S	163	Outside	Outside	outside	JJ	O	amod	O	-1	O
+0	7	163	844	850		171	London	London	London	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	7	164	850	851	S	163	,	,	,	,	O	punct	O	-1	O
+0	7	165	852	858		163	Oliver	Oliver	Oliver	NNP	PERSON	appos	O	3	O
+0	7	166	858	859	S	163	,	,	,	,	O	punct	O	-1	O
+0	7	167	860	867	S	163	starved	starved	starve	VBN	O	dep	O	-1	B-verb.consumption
+0	7	168	868	871	S	167	and	and	and	CC	O	cc	O	-1	O
+0	7	169	872	881		167	exhausted	exhausted	exhaust	VBN	O	conj	O	-1	B-verb.body
+0	7	170	881	882	S	163	,	,	,	,	O	punct	O	-1	O
+0	7	171	883	888	N	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	7	172	889	893	S	173	Jack	Jack	Jack	NNP	PERSON	nn	O	-1	B-noun.person
+0	7	173	894	901		171	Dawkins	Dawkins	Dawkins	NNP	PERSON	dobj	O	-1	I-noun.person
+0	7	174	901	902	S	173	,	,	,	,	O	punct	O	-1	O
+0	7	175	903	904	S	176	a	a	a	DT	O	det	O	-1	O
+0	7	176	905	908	S	173	boy	boy	boy	NN	O	appos	O	-1	B-noun.person
+0	7	177	909	912	S	179	his	his	he	PRP$	O	poss	O	3	O
+0	7	178	913	916	S	179	own	own	own	JJ	O	amod	O	-1	O
+0	7	179	917	920		176	age	age	age	NN	O	dep	O	-1	B-noun.attribute
+0	7	180	920	921	S	171	.	.	.	.	O	punct	O	-1	O
+0	8	181	922	926	S	182	Jack	Jack	Jack	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	8	182	927	933	S	-1	offers	offers	offer	VBZ	O	null	O	-1	B-verb.possession
+0	8	183	934	937	S	184	him	him	he	PRP	O	nsubj	O	-1	O
+0	8	184	938	945	S	182	shelter	shelter	shelter	NN	O	ccomp	O	-1	B-noun.artifact
+0	8	185	946	948	S	184	in	in	in	IN	O	prep	O	-1	O
+0	8	186	949	952	N	188	the	the	the	DT	O	det	O	-1	O
+0	8	187	953	959	S	188	London	London	London	NNP	LOCATION	nn	O	-1	B-noun.location
+0	8	188	960	965	S	185	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	8	189	966	968	S	188	of	of	of	IN	O	prep	O	-1	O
+0	8	190	969	972	S	191	his	his	he	PRP$	O	poss	O	-1	O
+0	8	191	973	983		189	benefactor	benefactor	benefactor	NN	O	pobj	O	-1	B-noun.person
+0	8	192	983	984	S	191	,	,	,	,	O	punct	O	-1	O
+0	8	193	985	990		191	Fagin	Fagin	Fagin	NNP	PERSON	appos	O	4	B-noun.person
+0	8	194	990	991	S	182	.	.	.	.	O	punct	O	-1	O
+0	9	195	992	994	S	196	It	It	it	PRP	O	nsubj	O	-1	O
+0	9	196	995	1000	S	-1	turns	turns	turn	VBZ	O	null	O	-1	B-verb.stative
+0	9	197	1001	1004	S	196	out	out	out	RP	O	prt	O	-1	O
+0	9	198	1005	1009	S	203	that	that	that	IN	O	complm	O	-1	O
+0	9	199	1010	1015	S	203	Fagin	Fagin	Fagin	NNP	PERSON	nsubj	O	4	B-noun.person
+0	9	200	1016	1018	N	203	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	9	201	1019	1020	S	203	a	a	a	DT	O	det	O	-1	O
+0	9	202	1021	1027	S	203	career	career	career	NN	O	nn	O	-1	B-noun.act
+0	9	203	1028	1036	S	196	criminal	criminal	criminal	NN	O	ccomp	O	-1	B-noun.person
+0	9	204	1037	1040	S	205	who	who	who	WP	O	nsubj	O	-1	O
+0	9	205	1041	1047	S	203	trains	trains	train	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	9	206	1048	1054	S	207	orphan	orphan	orphan	NN	O	nn	O	-1	B-noun.person
+0	9	207	1055	1059	S	205	boys	boys	boy	NNS	O	dobj	O	-1	B-noun.person
+0	9	208	1060	1062	S	209	to	to	to	TO	O	aux	O	-1	O
+0	9	209	1063	1067	S	205	pick	pick	pick	VB	O	xcomp	O	-1	B-verb.possession
+0	9	210	1068	1075	S	209	pockets	pockets	pocket	NNS	O	dobj	O	-1	B-noun.artifact
+0	9	211	1076	1079	S	209	for	for	for	IN	O	prep	O	-1	O
+0	9	212	1080	1083		211	him	him	he	PRP	O	pobj	O	4	O
+0	9	213	1083	1084	N	196	.	.	.	.	O	punct	O	-1	O
+0	10	214	1085	1090	S	223	After	After	after	IN	O	prep	O	-1	O
+0	10	215	1091	1092	S	217	a	a	a	DT	DURATION	det	O	-1	O
+0	10	216	1093	1096	S	217	few	few	few	JJ	DURATION	amod	O	-1	O
+0	10	217	1097	1101	S	214	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	10	218	1102	1104	S	217	of	of	of	IN	O	prep	O	-1	O
+0	10	219	1105	1113		218	training	training	training	NN	O	pobj	O	-1	B-noun.act
+0	10	220	1113	1114	S	223	,	,	,	,	O	punct	O	-1	O
+0	10	221	1115	1121	S	223	Oliver	Oliver	Oliver	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	10	222	1122	1124	S	223	is	is	be	VBZ	O	auxpass	O	-1	O
+0	10	223	1125	1129	S	-1	sent	sent	send	VBN	O	null	O	-1	B-verb.motion
+0	10	224	1130	1132	S	223	on	on	on	IN	O	prep	O	-1	O
+0	10	225	1133	1134	S	227	a	a	a	DT	O	det	O	-1	O
+0	10	226	1135	1148	N	227	pickpocketing	pickpocketing	pickpocketing	NN	O	nn	O	-1	B-noun.person
+0	10	227	1149	1156	S	224	mission	mission	mission	NN	O	pobj	O	-1	B-noun.group
+0	10	228	1157	1161	S	227	with	with	with	IN	O	prep	O	-1	O
+0	10	229	1162	1165	S	231	two	two	two	CD	NUMBER	num	O	-1	O
+0	10	230	1166	1171	S	231	other	other	other	JJ	O	amod	O	-1	O
+0	10	231	1172	1176		228	boys	boys	boy	NNS	O	pobj	O	-1	B-noun.person
+0	10	232	1176	1177	S	223	.	.	.	.	O	punct	O	-1	O
+0	11	233	1178	1182	S	235	When	When	when	WRB	O	advmod	O	-1	O
+0	11	234	1183	1185	S	235	he	he	he	PRP	O	nsubj	O	3	O
+0	11	235	1186	1190	S	247	sees	sees	see	VBZ	O	dep	O	-1	B-verb.perception
+0	11	236	1191	1195	S	237	them	them	they	PRP	O	nsubj	O	-1	O
+0	11	237	1196	1201	S	235	swipe	swipe	swipe	NN	O	ccomp	O	-1	B-noun.act
+0	11	238	1202	1203	S	239	a	a	a	DT	O	det	O	-1	O
+0	11	239	1204	1216	N	237	handkerchief	handkerchief	handkerchief	NN	O	dep	O	-1	B-noun.artifact
+0	11	240	1217	1221	S	239	from	from	from	IN	O	prep	O	-1	O
+0	11	241	1222	1224	S	243	an	an	a	DT	O	det	O	-1	O
+0	11	242	1225	1232	S	243	elderly	elderly	elderly	JJ	O	amod	O	-1	O
+0	11	243	1233	1242		240	gentleman	gentleman	gentleman	NN	O	pobj	O	-1	B-noun.person
+0	11	244	1242	1243	S	247	,	,	,	,	O	punct	O	-1	O
+0	11	245	1244	1250	S	247	Oliver	Oliver	Oliver	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	11	246	1251	1253	S	247	is	is	be	VBZ	O	auxpass	O	-1	O
+0	11	247	1254	1263	S	-1	horrified	horrified	horrify	VBN	O	null	O	-1	B-verb.emotion
+0	11	248	1264	1267	S	247	and	and	and	CC	O	cc	O	-1	O
+0	11	249	1268	1272	S	247	runs	runs	run	VBZ	O	conj	O	-1	B-verb.motion
+0	11	250	1273	1276		249	off	off	off	RP	O	prt	O	-1	O
+0	11	251	1276	1277	S	247	.	.	.	.	O	punct	O	-1	O
+0	12	252	1278	1280	N	254	He	He	he	PRP	O	nsubjpass	O	3	O
+0	12	253	1281	1283	S	254	is	is	be	VBZ	O	auxpass	O	-1	O
+0	12	254	1284	1290	S	-1	caught	caught	catch	VBN	O	null	O	-1	B-verb.cognition
+0	12	255	1291	1294	S	254	but	but	but	CC	O	cc	O	-1	O
+0	12	256	1295	1303	S	257	narrowly	narrowly	narrowly	RB	O	advmod	O	-1	O
+0	12	257	1304	1311	S	254	escapes	escapes	escape	VBZ	O	conj	O	-1	B-verb.motion
+0	12	258	1312	1317	S	259	being	being	be	VBG	O	auxpass	O	-1	O
+0	12	259	1318	1327	S	257	convicted	convicted	convict	VBN	O	xcomp	O	-1	B-verb.communication
+0	12	260	1328	1330	S	259	of	of	of	IN	O	prep	O	-1	O
+0	12	261	1331	1334	S	262	the	the	the	DT	O	det	O	-1	O
+0	12	262	1335	1340		260	theft	theft	theft	NN	O	pobj	O	-1	B-noun.act
+0	12	263	1340	1341	S	254	.	.	.	.	O	punct	O	-1	O
+0	13	264	1342	1345	N	265	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	13	265	1346	1354		274	Brownlow	Brownlow	Brownlow	NNP	PERSON	nsubj	O	1	I-noun.person
+0	13	266	1354	1355	S	265	,	,	,	,	O	punct	O	-1	O
+0	13	267	1356	1359	S	268	the	the	the	DT	O	det	O	-1	O
+0	13	268	1360	1363	S	265	man	man	man	NN	O	appos	O	-1	B-noun.person
+0	13	269	1364	1369	S	270	whose	whose	whose	WP$	O	poss	O	-1	O
+0	13	270	1370	1382	S	272	handkerchief	handkerchief	handkerchief	NN	O	nsubjpass	O	-1	B-noun.artifact
+0	13	271	1383	1386	S	272	was	was	be	VBD	O	auxpass	O	-1	O
+0	13	272	1387	1393		268	stolen	stolen	steal	VBN	O	rcmod	O	-1	O
+0	13	273	1393	1394	S	265	,	,	,	,	O	punct	O	-1	O
+0	13	274	1395	1400	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.change
+0	13	275	1401	1404	S	277	the	the	the	DT	O	det	O	-1	O
+0	13	276	1405	1413	N	277	feverish	feverish	feverish	JJ	O	amod	O	-1	O
+0	13	277	1414	1420	S	274	Oliver	Oliver	Oliver	NNP	PERSON	dobj	O	3	B-noun.person
+0	13	278	1421	1423	S	274	to	to	to	TO	O	prep	O	-1	O
+0	13	279	1424	1427	S	280	his	his	he	PRP$	O	poss	O	3	O
+0	13	280	1428	1432	S	278	home	home	home	NN	O	pobj	O	-1	B-noun.artifact
+0	13	281	1433	1436	S	280	and	and	and	CC	O	cc	O	-1	O
+0	13	282	1437	1443	S	280	nurses	nurses	nurse	NNS	O	conj	O	-1	B-noun.person
+0	13	283	1444	1447	S	282	him	him	he	PRP	O	dobj	O	3	O
+0	13	284	1448	1452	S	280	back	back	back	RB	O	advmod	O	-1	O
+0	13	285	1453	1455	S	284	to	to	to	TO	O	dep	O	-1	O
+0	13	286	1456	1462		285	health	health	health	NN	O	pobj	O	-1	B-noun.state
+0	13	287	1462	1463	S	274	.	.	.	.	O	punct	O	-1	O
+0	14	288	1464	1467	S	289	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	14	289	1468	1476	S	291	Brownlow	Brownlow	Brownlow	NNP	PERSON	nsubjpass	O	1	I-noun.person
+0	14	290	1477	1479	N	291	is	is	be	VBZ	O	auxpass	O	-1	O
+0	14	291	1480	1486	S	-1	struck	struck	strike	VBN	O	null	O	-1	B-verb.contact
+0	14	292	1487	1489	S	291	by	by	by	IN	O	prep	O	-1	O
+0	14	293	1490	1496		295	Oliver	Oliver	Oliver	NNP	PERSON	poss	O	3	B-noun.person
+0	14	294	1496	1498	S	293	’s	's	's	POS	O	possessive	O	-1	O
+0	14	295	1499	1510	S	292	resemblance	resemblance	resemblance	NN	O	pobj	O	-1	B-noun.attribute
+0	14	296	1511	1513	S	295	to	to	to	TO	O	prep	O	-1	O
+0	14	297	1514	1515	S	298	a	a	a	DT	O	det	O	-1	O
+0	14	298	1516	1524	S	296	portrait	portrait	portrait	NN	O	pobj	O	-1	B-noun.artifact
+0	14	299	1525	1527	S	298	of	of	of	IN	O	prep	O	-1	O
+0	14	300	1528	1529	S	302	a	a	a	DT	O	det	O	-1	O
+0	14	301	1530	1535	S	302	young	young	young	JJ	O	amod	O	-1	O
+0	14	302	1536	1541	S	299	woman	woman	woman	NN	O	pobj	O	-1	B-noun.person
+0	14	303	1542	1546	N	304	that	that	that	WDT	O	nsubj	O	-1	O
+0	14	304	1547	1552	S	302	hangs	hangs	hang	VBZ	O	rcmod	O	-1	B-verb.change
+0	14	305	1553	1555	S	304	in	in	in	IN	O	prep	O	-1	O
+0	14	306	1556	1559	S	307	his	his	he	PRP$	O	poss	O	3	O
+0	14	307	1560	1565		305	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	14	308	1565	1566	S	291	.	.	.	.	O	punct	O	-1	O
+0	15	309	1567	1573	S	310	Oliver	Oliver	Oliver	NNP	PERSON	nsubj	O	3	B-noun.person
+0	15	310	1574	1581	S	-1	thrives	thrives	thrive	VBZ	O	null	O	-1	B-verb.change
+0	15	311	1582	1584	S	310	in	in	in	IN	O	prep	O	-1	O
+0	15	312	1585	1588	S	313	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	15	313	1589	1597		315	Brownlow	Brownlow	Brownlow	NNP	PERSON	poss	O	1	I-noun.person
+0	15	314	1597	1599	S	313	’s	's	's	POS	O	possessive	O	-1	O
+0	15	315	1600	1604		311	home	home	home	NN	O	pobj	O	-1	O
+0	15	316	1604	1605	S	310	,	,	,	,	O	punct	O	-1	O
+0	15	317	1606	1609	S	310	but	but	but	CC	O	cc	O	-1	O
+0	15	318	1610	1613	N	320	two	two	two	CD	NUMBER	num	O	-1	O
+0	15	319	1614	1619	S	320	young	young	young	JJ	O	amod	O	-1	O
+0	15	320	1620	1626	S	310	adults	adults	adult	NNS	O	conj	O	-1	B-noun.person
+0	15	321	1627	1629	S	320	in	in	in	IN	O	prep	O	-1	O
+0	15	322	1630	1635		324	Fagin	Fagin	Fagin	NNP	PERSON	poss	O	4	B-noun.person
+0	15	323	1635	1637	S	322	’s	's	's	POS	O	possessive	O	-1	O
+0	15	324	1638	1642		321	gang	gang	gang	NN	O	pobj	O	-1	B-noun.group
+0	15	325	1642	1643	S	320	,	,	,	,	O	punct	O	-1	O
+0	15	326	1644	1648	S	327	Bill	Bill	Bill	NNP	PERSON	nn	O	-1	O
+0	15	327	1649	1654	S	320	Sikes	Sikes	Sikes	NNP	PERSON	appos	O	-1	O
+0	15	328	1655	1658	S	327	and	and	and	CC	O	cc	O	-1	O
+0	15	329	1659	1662	S	331	his	his	he	PRP$	O	poss	O	3	O
+0	15	330	1663	1668	S	331	lover	lover	lover	NN	O	nn	O	-1	B-noun.person
+0	15	331	1669	1674		327	Nancy	Nancy	Nancy	NNP	PERSON	conj	O	2	O
+0	15	332	1674	1675	S	327	,	,	,	,	O	punct	O	-1	O
+0	15	333	1676	1683	N	334	capture	capture	capture	NN	O	nn	O	-1	B-noun.act
+0	15	334	1684	1690	S	327	Oliver	Oliver	Oliver	NNP	PERSON	conj	O	3	B-noun.person
+0	15	335	1691	1694	S	310	and	and	and	CC	O	cc	O	-1	O
+0	15	336	1695	1701	S	310	return	return	return	VB	O	conj	O	-1	B-verb.motion
+0	15	337	1702	1705	S	336	him	him	he	PRP	O	dobj	O	3	O
+0	15	338	1706	1708	S	336	to	to	to	TO	O	prep	O	-1	O
+0	15	339	1709	1714		338	Fagin	Fagin	Fagin	NNP	PERSON	pobj	O	4	B-noun.person
+0	15	340	1714	1715	S	310	.	.	.	.	O	punct	O	-1	O
+0	16	341	1716	1721	S	342	Fagin	Fagin	Fagin	NNP	PERSON	nsubj	O	4	B-noun.person
+0	16	342	1722	1727	S	-1	sends	sends	send	VBZ	O	null	O	-1	B-verb.motion
+0	16	343	1728	1734	S	345	Oliver	Oliver	Oliver	NNP	PERSON	nsubj	O	3	B-noun.person
+0	16	344	1735	1737	S	345	to	to	to	TO	O	aux	O	-1	O
+0	16	345	1738	1744	S	342	assist	assist	assist	VB	O	ccomp	O	-1	B-verb.social
+0	16	346	1745	1750	S	345	Sikes	Sikes	Sikes	NNP	PERSON	dobj	O	0	B-noun.person
+0	16	347	1751	1753	S	345	in	in	in	IN	O	prep	O	-1	O
+0	16	348	1754	1755	S	349	a	a	a	DT	O	det	O	-1	O
+0	16	349	1756	1764		347	burglary	burglary	burglary	NN	O	pobj	O	-1	B-noun.act
+0	16	350	1764	1765	S	342	.	.	.	.	O	punct	O	-1	O
+0	17	351	1766	1772	N	353	Oliver	Oliver	Oliver	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	17	352	1773	1775	S	353	is	is	be	VBZ	O	auxpass	O	-1	O
+0	17	353	1776	1780	S	-1	shot	shot	shoot	VBN	O	null	O	-1	B-verb.social
+0	17	354	1781	1783	S	353	by	by	by	IN	O	prep	O	-1	O
+0	17	355	1784	1785	S	356	a	a	a	DT	O	det	O	-1	O
+0	17	356	1786	1793	S	354	servant	servant	servant	NN	O	pobj	O	-1	B-noun.person
+0	17	357	1794	1796	S	356	of	of	of	IN	O	prep	O	-1	O
+0	17	358	1797	1800	S	359	the	the	the	DT	O	det	O	-1	O
+0	17	359	1801	1806	S	357	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	17	360	1807	1810		353	and	and	and	CC	O	cc	O	-1	O
+0	17	361	1810	1811	S	353	,	,	,	,	O	punct	O	-1	O
+0	17	362	1812	1817	S	364	after	after	after	IN	O	mark	O	-1	O
+0	17	363	1818	1823	S	364	Sikes	Sikes	Sikes	NNP	PERSON	nsubj	O	0	B-noun.person
+0	17	364	1824	1831		367	escapes	escapes	escape	VBZ	O	advcl	O	-1	B-verb.motion
+0	17	365	1831	1832	S	367	,	,	,	,	O	punct	O	-1	O
+0	17	366	1833	1835	S	367	is	is	be	VBZ	O	auxpass	O	-1	O
+0	17	367	1836	1841	N	353	taken	taken	take	VBN	O	ccomp	O	-1	B-verb.possession
+0	17	368	1842	1844	S	367	in	in	in	RP	O	prt	O	-1	O
+0	17	369	1845	1847	S	367	by	by	by	IN	O	prep	O	-1	O
+0	17	370	1848	1851	S	371	the	the	the	DT	O	det	O	-1	O
+0	17	371	1852	1857	S	369	women	women	woman	NNS	O	pobj	O	-1	B-noun.person
+0	17	372	1858	1861	S	373	who	who	who	WP	O	nsubj	O	-1	O
+0	17	373	1862	1866	S	371	live	live	live	VBP	O	rcmod	O	-1	B-verb.stative
+0	17	374	1867	1872		373	there	there	there	RB	O	advmod	O	-1	O
+0	17	375	1872	1873	S	353	,	,	,	,	O	punct	O	-1	O
+0	17	376	1874	1878	S	377	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	-1	B-noun.person
+0	17	377	1879	1885	S	353	Maylie	Maylie	Maylie	NNP	PERSON	dobj	O	-1	I-noun.person
+0	17	378	1886	1889	S	377	and	and	and	CC	O	cc	O	-1	O
+0	17	379	1890	1893	S	383	her	her	she	PRP$	O	poss	O	2	O
+0	17	380	1894	1903	S	383	beautiful	beautiful	beautiful	JJ	O	amod	O	-1	O
+0	17	381	1904	1911	N	383	adopted	adopted	adopt	VBN	O	amod	O	-1	B-verb.possession
+0	17	382	1912	1917	S	383	niece	niece	niece	NN	O	nn	O	-1	B-noun.person
+0	17	383	1918	1922		377	Rose	Rose	Rose	NNP	PERSON	conj	O	5	O
+0	17	384	1922	1923	S	353	.	.	.	.	O	punct	O	-1	O
+0	18	385	1924	1928	S	386	They	They	they	PRP	O	nsubj	O	-1	O
+0	18	386	1929	1933	S	-1	grow	grow	grow	VBP	O	null	O	-1	B-verb.change
+0	18	387	1934	1938	S	386	fond	fond	fond	JJ	O	acomp	O	-1	O
+0	18	388	1939	1941	S	387	of	of	of	IN	O	prep	O	-1	O
+0	18	389	1942	1948		388	Oliver	Oliver	Oliver	NNP	PERSON	pobj	O	3	B-noun.person
+0	18	390	1948	1949	S	386	,	,	,	,	O	punct	O	-1	O
+0	18	391	1950	1953	S	386	and	and	and	CC	O	cc	O	-1	O
+0	18	392	1954	1956	S	393	he	he	he	PRP	O	nsubj	O	3	O
+0	18	393	1957	1963	S	386	spends	spends	spend	VBZ	O	conj	O	-1	B-verb.stative
+0	18	394	1964	1966	S	396	an	an	a	DT	O	det	O	-1	O
+0	18	395	1967	1974	S	396	idyllic	idyllic	idyllic	JJ	O	amod	O	-1	O
+0	18	396	1975	1981	S	393	summer	summer	summer	NN	DATE	tmod	O	-1	B-noun.time
+0	18	397	1982	1986	N	393	with	with	with	IN	O	prep	O	-1	O
+0	18	398	1987	1991	S	397	them	them	they	PRP	O	pobj	O	-1	O
+0	18	399	1992	1994	S	393	in	in	in	IN	O	prep	O	-1	O
+0	18	400	1995	1998	S	401	the	the	the	DT	O	det	O	-1	O
+0	18	401	1999	2010		399	countryside	countryside	countryside	NN	O	pobj	O	-1	B-noun.location
+0	18	402	2010	2011	S	386	.	.	.	.	O	punct	O	-1	O
+0	19	403	2012	2015	S	412	But	But	but	CC	O	cc	O	-1	O
+0	19	404	2016	2021	S	412	Fagin	Fagin	Fagin	NNP	PERSON	nsubjpass	O	4	B-noun.person
+0	19	405	2022	2025	S	404	and	and	and	CC	O	cc	O	-1	O
+0	19	406	2026	2027	S	408	a	a	a	DT	O	det	O	-1	O
+0	19	407	2028	2038	S	408	mysterious	mysterious	mysterious	JJ	O	amod	O	-1	O
+0	19	408	2039	2042	S	404	man	man	man	NN	O	conj	O	-1	B-noun.person
+0	19	409	2043	2048	S	408	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	19	410	2049	2054	N	409	Monks	Monks	Monks	NNPS	MISC	dep	O	-1	B-noun.person
+0	19	411	2055	2058	S	412	are	are	be	VBP	O	auxpass	O	-1	O
+0	19	412	2059	2062	S	-1	set	set	set	VBN	O	null	O	-1	B-verb.competition
+0	19	413	2063	2065	S	412	on	on	on	IN	O	prep	O	-1	O
+0	19	414	2066	2077	S	413	recapturing	recapturing	recapture	VBG	O	pcomp	O	-1	B-verb.emotion
+0	19	415	2078	2084		414	Oliver	Oliver	Oliver	NNP	PERSON	dobj	O	3	B-noun.person
+0	19	416	2084	2085	S	412	.	.	.	.	O	punct	O	-1	O
+0	20	417	2086	2095		421	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	20	418	2095	2096	S	421	,	,	,	,	O	punct	O	-1	O
+0	20	419	2097	2099	S	421	it	it	it	PRP	O	nsubjpass	O	-1	O
+0	20	420	2100	2102	S	421	is	is	be	VBZ	O	auxpass	O	-1	O
+0	20	421	2103	2111	S	-1	revealed	revealed	reveal	VBN	O	null	O	-1	B-verb.perception
+0	20	422	2112	2116	S	426	that	that	that	IN	O	complm	O	-1	O
+0	20	423	2117	2123		425	Oliver	Oliver	Oliver	NNP	PERSON	poss	O	3	B-noun.person
+0	20	424	2123	2125	N	423	’s	's	's	POS	O	possessive	O	-1	O
+0	20	425	2126	2132	S	426	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	20	426	2133	2137	S	421	left	left	leave	VBD	O	ccomp	O	-1	B-verb.motion
+0	20	427	2138	2144	S	426	behind	behind	behind	IN	O	prep	O	-1	O
+0	20	428	2145	2146	S	430	a	a	a	DT	O	det	O	-1	O
+0	20	429	2147	2151	S	430	gold	gold	gold	NN	O	nn	O	-1	B-noun.possession
+0	20	430	2152	2158	S	427	locket	locket	locket	NN	O	pobj	O	-1	B-noun.artifact
+0	20	431	2159	2163	S	433	when	when	when	WRB	O	advmod	O	-1	O
+0	20	432	2164	2167	S	433	she	she	she	PRP	O	nsubj	O	-1	O
+0	20	433	2168	2172		426	died	died	die	VBD	O	advcl	O	-1	B-verb.change
+0	20	434	2172	2173	S	421	.	.	.	.	O	punct	O	-1	O
+0	21	435	2174	2179	S	436	Monks	Monks	Monks	NNPS	MISC	nn	O	-1	B-noun.person
+0	21	436	2180	2187	S	-1	obtains	obtains	obtain	NNS	O	null	O	-1	I-noun.person
+0	21	437	2188	2191	N	436	and	and	and	CC	O	cc	O	-1	O
+0	21	438	2192	2200	S	440	destroys	destroys	destroy	VBZ	O	dep	O	-1	B-verb.creation
+0	21	439	2201	2205	S	440	that	that	that	IN	O	nsubj	O	-1	O
+0	21	440	2206	2212		436	locket	locket	locket	NN	O	conj	O	-1	B-noun.artifact
+0	21	441	2212	2213	S	436	.	.	.	.	O	punct	O	-1	O
+0	22	442	2214	2218	S	445	When	When	when	WRB	O	advmod	O	-1	O
+0	22	443	2219	2222	S	444	the	the	the	DT	O	det	O	-1	O
+0	22	444	2223	2230	S	445	Maylies	Maylies	Maylies	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	22	445	2231	2235	S	450	come	come	come	VBP	O	dep	O	-1	B-verb.motion
+0	22	446	2236	2238	S	445	to	to	to	TO	O	prep	O	-1	O
+0	22	447	2239	2245		446	London	London	London	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	22	448	2245	2246	S	450	,	,	,	,	O	punct	O	-1	O
+0	22	449	2247	2252	S	450	Nancy	Nancy	Nancy	NNP	PERSON	nsubj	O	2	B-noun.person
+0	22	450	2253	2258	N	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	22	451	2259	2267	S	450	secretly	secretly	secretly	RB	O	advmod	O	-1	O
+0	22	452	2268	2272	S	450	with	with	with	IN	O	prep	O	-1	O
+0	22	453	2273	2277	S	452	Rose	Rose	Rose	NNP	PERSON	pobj	O	5	B-noun.person
+0	22	454	2278	2281	S	450	and	and	and	CC	O	cc	O	-1	O
+0	22	455	2282	2289	S	450	informs	informs	inform	VBZ	O	conj	O	-1	B-verb.communication
+0	22	456	2290	2293	S	455	her	her	she	PRP$	O	dobj	O	2	O
+0	22	457	2294	2296	S	456	of	of	of	IN	O	prep	O	-1	O
+0	22	458	2297	2302		460	Fagin	Fagin	Fagin	NNP	PERSON	poss	O	4	B-noun.person
+0	22	459	2302	2304	S	458	’s	's	's	POS	O	possessive	O	-1	O
+0	22	460	2305	2312		457	designs	designs	design	NNS	O	pobj	O	-1	B-noun.act
+0	22	461	2312	2313	S	450	,	,	,	,	O	punct	O	-1	O
+0	22	462	2314	2317	S	450	but	but	but	CC	O	cc	O	-1	O
+0	22	463	2318	2319	S	464	a	a	a	DT	O	det	O	-1	O
+0	22	464	2320	2326	N	469	member	member	member	NN	O	nsubj	O	-1	B-noun.person
+0	22	465	2327	2329	S	464	of	of	of	IN	O	prep	O	-1	O
+0	22	466	2330	2335		468	Fagin	Fagin	Fagin	NNP	PERSON	poss	O	4	B-noun.person
+0	22	467	2335	2337	S	466	’s	's	's	POS	O	possessive	O	-1	O
+0	22	468	2338	2342	S	465	gang	gang	gang	NN	O	pobj	O	-1	B-noun.group
+0	22	469	2343	2352	S	450	overhears	overhears	overhear	VBZ	O	conj	O	-1	B-verb.perception
+0	22	470	2353	2356	S	471	the	the	the	DT	O	det	O	-1	O
+0	22	471	2357	2369		469	conversation	conversation	conversation	NN	O	dobj	O	-1	B-noun.communication
+0	22	472	2369	2370	S	450	.	.	.	.	O	punct	O	-1	O
+0	23	473	2371	2375	S	-1	When	When	when	WRB	O	null	O	-1	O
+0	23	474	2376	2380	S	473	word	word	word	NN	O	dep	O	-1	B-noun.communication
+0	23	475	2381	2383	S	474	of	of	of	IN	O	prep	O	-1	O
+0	23	476	2384	2389		478	Nancy	Nancy	Nancy	NNP	PERSON	poss	O	2	B-noun.person
+0	23	477	2389	2391	N	476	’s	's	's	POS	O	possessive	O	-1	O
+0	23	478	2392	2402	S	475	disclosure	disclosure	disclosure	NN	O	pobj	O	-1	B-noun.communication
+0	23	479	2403	2410	S	478	reaches	reaches	reach	VBZ	O	dep	O	-1	B-verb.motion
+0	23	480	2411	2416		479	Sikes	Sikes	Sikes	NNP	PERSON	dobj	O	0	O
+0	23	481	2416	2417	S	484	,	,	,	,	O	punct	O	-1	O
+0	23	482	2418	2420	S	484	he	he	he	PRP	O	nsubj	O	0	O
+0	23	483	2421	2429	S	484	brutally	brutally	brutally	RB	O	advmod	O	-1	O
+0	23	484	2430	2437	S	485	murders	murders	murder	NNS	O	dep	O	-1	B-noun.act
+0	23	485	2438	2443	S	474	Nancy	Nancy	Nancy	NNP	PERSON	dep	O	2	B-noun.person
+0	23	486	2444	2447	S	474	and	and	and	CC	O	cc	O	-1	O
+0	23	487	2448	2453	S	474	flees	flees	flee	VBZ	O	conj	O	-1	B-verb.motion
+0	23	488	2454	2460		487	London	London	London	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	23	489	2460	2461	N	473	.	.	.	.	O	punct	O	-1	O
+0	24	490	2462	2469	S	502	Pursued	Pursued	pursue	VBN	O	ccomp	O	-1	B-verb.social
+0	24	491	2470	2472	S	490	by	by	by	IN	O	prep	O	-1	O
+0	24	492	2473	2476	S	494	his	his	he	PRP$	O	poss	O	0	O
+0	24	493	2477	2483	S	494	guilty	guilty	guilty	JJ	O	amod	O	-1	O
+0	24	494	2484	2494	S	491	conscience	conscience	conscience	NN	O	pobj	O	-1	B-noun.motive
+0	24	495	2495	2498	S	494	and	and	and	CC	O	cc	O	-1	O
+0	24	496	2499	2501	S	498	an	an	a	DT	O	det	O	-1	O
+0	24	497	2502	2507	S	498	angry	angry	angry	JJ	O	amod	O	-1	O
+0	24	498	2508	2511		494	mob	mob	mob	NN	O	conj	O	-1	B-noun.group
+0	24	499	2511	2512	S	502	,	,	,	,	O	punct	O	-1	O
+0	24	500	2513	2515	S	502	he	he	he	PRP	O	nsubj	O	0	O
+0	24	501	2516	2529	N	502	inadvertently	inadvertently	inadvertently	RB	O	advmod	O	-1	O
+0	24	502	2530	2535	S	-1	hangs	hangs	hang	VBZ	O	null	O	-1	B-verb.contact
+0	24	503	2536	2543	S	502	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	24	504	2544	2549	S	505	while	while	while	IN	O	mark	O	-1	O
+0	24	505	2550	2556	S	502	trying	trying	try	VBG	O	advcl	O	-1	B-verb.social
+0	24	506	2557	2559	S	507	to	to	to	TO	O	aux	O	-1	O
+0	24	507	2560	2566		505	escape	escape	escape	VB	O	xcomp	O	-1	B-verb.motion
+0	24	508	2566	2567	S	502	.	.	.	.	O	punct	O	-1	O
+0	25	509	2568	2571	S	510	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	25	510	2572	2580		520	Brownlow	Brownlow	Brownlow	NNP	PERSON	nsubj	O	1	I-noun.person
+0	25	511	2580	2581	S	510	,	,	,	,	O	punct	O	-1	O
+0	25	512	2582	2586	S	517	with	with	with	IN	O	prep	O	-1	O
+0	25	513	2587	2591	S	512	whom	whom	whom	WP	O	pobj	O	-1	O
+0	25	514	2592	2595	S	515	the	the	the	DT	O	det	O	-1	O
+0	25	515	2596	2603	S	517	Maylies	Maylies	Maylies	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	25	516	2604	2608	S	517	have	have	have	VBP	O	aux	O	-1	O
+0	25	517	2609	2617	S	510	reunited	reunited	reunite	VBN	O	rcmod	O	-1	B-verb.social
+0	25	518	2618	2624		517	Oliver	Oliver	Oliver	NNP	PERSON	dobj	O	3	B-noun.person
+0	25	519	2624	2625	S	510	,	,	,	,	O	punct	O	-1	O
+0	25	520	2626	2635	N	-1	confronts	confronts	confront	VBZ	O	null	O	-1	B-verb.competition
+0	25	521	2636	2641	S	520	Monks	Monks	Monks	NNPS	MISC	dobj	O	-1	B-noun.person
+0	25	522	2642	2645	S	520	and	and	and	CC	O	cc	O	-1	O
+0	25	523	2646	2652	S	520	wrings	wrings	wring	VBZ	O	conj	O	-1	B-verb.contact
+0	25	524	2653	2656	S	525	the	the	the	DT	O	det	O	-1	O
+0	25	525	2657	2662	S	523	truth	truth	truth	NN	O	dobj	O	-1	B-noun.cognition
+0	25	526	2663	2668	S	525	about	about	about	IN	O	prep	O	-1	O
+0	25	527	2669	2675		529	Oliver	Oliver	Oliver	NNP	PERSON	poss	O	3	B-noun.person
+0	25	528	2675	2677	S	527	’s	's	's	POS	O	possessive	O	-1	O
+0	25	529	2678	2687	S	526	parentage	parentage	parentage	NN	O	pobj	O	-1	B-noun.state
+0	25	530	2688	2692	S	529	from	from	from	IN	O	prep	O	-1	O
+0	25	531	2693	2696		530	him	him	he	PRP	O	pobj	O	3	O
+0	25	532	2696	2697	S	520	.	.	.	.	O	punct	O	-1	O
+0	26	533	2698	2700	N	535	It	It	it	PRP	O	nsubjpass	O	-1	O
+0	26	534	2701	2703	S	535	is	is	be	VBZ	O	auxpass	O	-1	O
+0	26	535	2704	2712	S	-1	revealed	revealed	reveal	VBN	O	null	O	-1	B-verb.perception
+0	26	536	2713	2717	S	542	that	that	that	IN	O	complm	O	-1	O
+0	26	537	2718	2723	S	542	Monks	Monks	Monks	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	26	538	2724	2726	S	542	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	26	539	2727	2733		542	Oliver	Oliver	Oliver	NNP	PERSON	poss	O	3	B-noun.person
+0	26	540	2733	2735	S	539	’s	's	's	POS	O	possessive	O	-1	O
+0	26	541	2736	2740	S	542	half	half	half	NN	O	nn	O	-1	O
+0	26	542	2741	2748		535	brother	brother	brother	NN	O	ccomp	O	-1	O
+0	26	543	2748	2749	S	535	.	.	.	.	O	punct	O	-1	O
+0	27	544	2750	2755	S	545	Their	Their	they	PRP$	O	poss	O	-1	O
+0	27	545	2756	2762		552	father	father	father	NN	O	nsubjpass	O	-1	B-noun.person
+0	27	546	2762	2763	S	545	,	,	,	,	O	punct	O	-1	O
+0	27	547	2764	2767	N	548	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	27	548	2768	2775		545	Leeford	Leeford	Leeford	NNP	PERSON	appos	O	-1	I-noun.person
+0	27	549	2775	2776	S	545	,	,	,	,	O	punct	O	-1	O
+0	27	550	2777	2780	S	552	was	was	be	VBD	O	auxpass	O	-1	O
+0	27	551	2781	2790	S	552	unhappily	unhappily	unhappily	RB	O	advmod	O	-1	O
+0	27	552	2791	2798	S	567	married	married	marry	VBN	O	ccomp	O	-1	B-verb.social
+0	27	553	2799	2801	S	552	to	to	to	TO	O	prep	O	-1	O
+0	27	554	2802	2803	S	556	a	a	a	DT	O	det	O	-1	O
+0	27	555	2804	2811	S	556	wealthy	wealthy	wealthy	JJ	O	amod	O	-1	O
+0	27	556	2812	2817	S	553	woman	woman	woman	NN	O	pobj	O	-1	B-noun.person
+0	27	557	2818	2821	S	552	and	and	and	CC	O	cc	O	-1	O
+0	27	558	2822	2825	S	552	had	had	have	VBD	O	conj	O	-1	B-verb.possession
+0	27	559	2826	2828	S	560	an	an	a	DT	O	det	O	-1	O
+0	27	560	2829	2835	N	558	affair	affair	affair	NN	O	dobj	O	-1	B-noun.cognition
+0	27	561	2836	2840	S	560	with	with	with	IN	O	prep	O	-1	O
+0	27	562	2841	2847		564	Oliver	Oliver	Oliver	NNP	PERSON	poss	O	3	B-noun.person
+0	27	563	2847	2849	S	562	’s	's	's	POS	O	possessive	O	-1	O
+0	27	564	2850	2856		561	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	27	565	2856	2857	S	567	,	,	,	,	O	punct	O	-1	O
+0	27	566	2858	2863	S	567	Agnes	Agnes	Agnes	NNP	PERSON	nn	O	-1	O
+0	27	567	2864	2871		-1	Fleming	Fleming	Fleming	NNP	PERSON	null	O	-1	O
+0	27	568	2871	2872	S	567	.	.	.	.	O	punct	O	-1	O
+0	28	569	2873	2878	S	572	Monks	Monks	Monks	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	28	570	2879	2882	S	572	has	has	have	VBZ	O	aux	O	-1	O
+0	28	571	2883	2887	S	572	been	been	be	VBN	O	aux	O	-1	O
+0	28	572	2888	2896	S	-1	pursuing	pursuing	pursue	VBG	O	null	O	-1	B-verb.social
+0	28	573	2897	2903	N	572	Oliver	Oliver	Oliver	NNP	PERSON	dobj	O	3	B-noun.person
+0	28	574	2904	2907	S	575	all	all	all	DT	O	dep	O	-1	O
+0	28	575	2908	2913	S	573	along	along	along	IN	O	prep	O	-1	O
+0	28	576	2914	2916	S	575	in	in	in	IN	O	dep	O	-1	O
+0	28	577	2917	2920	S	578	the	the	the	DT	O	det	O	-1	O
+0	28	578	2921	2926	S	576	hopes	hopes	hope	NNS	O	pobj	O	-1	B-noun.feeling
+0	28	579	2927	2929	S	578	of	of	of	IN	O	prep	O	-1	O
+0	28	580	2930	2938	S	579	ensuring	ensuring	ensure	VBG	O	pcomp	O	-1	B-verb.communication
+0	28	581	2939	2943	S	585	that	that	that	IN	O	complm	O	-1	O
+0	28	582	2944	2947	S	583	his	his	he	PRP$	O	poss	O	3	O
+0	28	583	2948	2960	S	585	half-brother	half-brother	half-brother	NN	O	nsubjpass	O	-1	B-noun.person
+0	28	584	2961	2963	S	585	is	is	be	VBZ	O	auxpass	O	-1	O
+0	28	585	2964	2972	N	580	deprived	deprived	deprive	VBN	O	ccomp	O	-1	B-verb.possession
+0	28	586	2973	2975	S	585	of	of	of	IN	O	prep	O	-1	O
+0	28	587	2976	2979	S	588	his	his	he	PRP$	O	poss	O	3	O
+0	28	588	2980	2985	S	586	share	share	share	NN	O	pobj	O	-1	B-noun.possession
+0	28	589	2986	2988	S	588	of	of	of	IN	O	prep	O	-1	O
+0	28	590	2989	2992	S	592	the	the	the	DT	O	det	O	-1	O
+0	28	591	2993	2999	S	592	family	family	family	NN	O	nn	O	-1	B-noun.group
+0	28	592	3000	3011		589	inheritance	inheritance	inheritance	NN	O	pobj	O	-1	B-noun.act
+0	28	593	3011	3012	S	572	.	.	.	.	O	punct	O	-1	O
+0	29	594	3013	3016	S	595	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	29	595	3017	3025	S	596	Brownlow	Brownlow	Brownlow	NNP	PERSON	nsubj	O	1	I-noun.person
+0	29	596	3026	3032	S	-1	forces	forces	force	VBZ	O	null	O	-1	B-verb.social
+0	29	597	3033	3038	N	599	Monks	Monks	Monks	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	29	598	3039	3041	S	599	to	to	to	TO	O	aux	O	-1	O
+0	29	599	3042	3046	S	596	sign	sign	sign	VB	O	ccomp	O	-1	B-verb.social
+0	29	600	3047	3051	S	599	over	over	over	RP	O	prt	O	-1	O
+0	29	601	3052	3058		603	Oliver	Oliver	Oliver	NNP	PERSON	poss	O	3	B-noun.person
+0	29	602	3058	3060	S	601	’s	's	's	POS	O	possessive	O	-1	O
+0	29	603	3061	3066	S	599	share	share	share	NN	O	dobj	O	-1	B-noun.possession
+0	29	604	3067	3069	S	599	to	to	to	TO	O	prep	O	-1	O
+0	29	605	3070	3076		604	Oliver	Oliver	Oliver	NNP	PERSON	pobj	O	3	B-noun.person
+0	29	606	3076	3077	S	596	.	.	.	.	O	punct	O	-1	O
+0	30	607	3078	3086		611	Moreover	Moreover	moreover	RB	O	advmod	O	-1	O
+0	30	608	3086	3087	S	611	,	,	,	,	O	punct	O	-1	O
+0	30	609	3088	3090	S	611	it	it	it	PRP	O	nsubjpass	O	-1	O
+0	30	610	3091	3093	S	611	is	is	be	VBZ	O	auxpass	O	-1	O
+0	30	611	3094	3104	N	-1	discovered	discovered	discover	VBN	O	null	O	-1	B-verb.cognition
+0	30	612	3105	3109	S	618	that	that	that	IN	O	complm	O	-1	O
+0	30	613	3110	3114	S	618	Rose	Rose	Rose	NNP	PERSON	nsubj	O	5	B-noun.person
+0	30	614	3115	3117	S	618	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	30	615	3118	3123		618	Agnes	Agnes	Agnes	NNP	PERSON	poss	O	-1	B-noun.person
+0	30	616	3123	3125	S	615	’s	's	's	POS	O	possessive	O	-1	O
+0	30	617	3126	3133	S	618	younger	younger	younger	JJR	O	amod	O	-1	O
+0	30	618	3134	3140		611	sister	sister	sister	NN	O	ccomp	O	-1	B-noun.person
+0	30	619	3140	3141	S	618	,	,	,	,	O	punct	O	-1	O
+0	30	620	3142	3147	S	618	hence	hence	hence	RB	O	advmod	O	-1	O
+0	30	621	3148	3154		623	Oliver	Oliver	Oliver	NNP	PERSON	poss	O	3	B-noun.person
+0	30	622	3154	3156	S	621	’s	's	's	POS	O	possessive	O	-1	O
+0	30	623	3157	3161		618	aunt	aunt	aunt	NN	O	conj	O	-1	B-noun.person
+0	30	624	3161	3162	S	611	.	.	.	.	O	punct	O	-1	O
+0	31	625	3163	3168	N	627	Fagin	Fagin	Fagin	NNP	PERSON	nsubjpass	O	4	B-noun.person
+0	31	626	3169	3171	S	627	is	is	be	VBZ	O	auxpass	O	-1	O
+0	31	627	3172	3176	S	-1	hung	hung	hang	VBN	O	null	O	-1	B-verb.contact
+0	31	628	3177	3180	S	627	for	for	for	IN	O	prep	O	-1	O
+0	31	629	3181	3184	S	630	his	his	he	PRP$	O	poss	O	3	O
+0	31	630	3185	3191		628	crimes	crimes	crime	NNS	O	pobj	O	-1	B-noun.act
+0	31	631	3191	3192	S	627	.	.	.	.	O	punct	O	-1	O
+0	32	632	3193	3200		636	Finally	Finally	finally	RB	O	advmod	O	-1	O
+0	32	633	3200	3201	S	636	,	,	,	,	O	punct	O	-1	O
+0	32	634	3202	3205	S	635	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	1	B-noun.person
+0	32	635	3206	3214	S	636	Brownlow	Brownlow	Brownlow	NNP	PERSON	nsubj	O	1	I-noun.person
+0	32	636	3215	3221	S	-1	adopts	adopts	adopt	VBZ	O	null	O	-1	B-verb.possession
+0	32	637	3222	3228		636	Oliver	Oliver	Oliver	NNP	PERSON	dobj	O	3	B-noun.person
+0	32	638	3228	3229	S	636	,	,	,	,	O	punct	O	-1	O
+0	32	639	3230	3233	N	636	and	and	and	CC	O	cc	O	-1	O
+0	32	640	3234	3238	S	644	they	they	they	PRP	O	nsubj	O	-1	O
+0	32	641	3239	3242	S	640	and	and	and	CC	O	cc	O	-1	O
+0	32	642	3243	3246	S	643	the	the	the	DT	O	det	O	-1	O
+0	32	643	3247	3254	S	640	Maylies	Maylies	Maylies	NNPS	MISC	conj	O	-1	B-noun.person
+0	32	644	3255	3261	S	636	retire	retire	retire	VBP	O	conj	O	-1	B-verb.social
+0	32	645	3262	3264	S	644	to	to	to	TO	O	prep	O	-1	O
+0	32	646	3265	3266	S	648	a	a	a	DT	O	det	O	-1	O
+0	32	647	3267	3275	S	648	blissful	blissful	blissful	JJ	O	amod	O	-1	O
+0	32	648	3276	3285	S	645	existence	existence	existence	NN	O	pobj	O	-1	B-noun.state
+0	32	649	3286	3288	S	648	in	in	in	IN	O	prep	O	-1	O
+0	32	650	3289	3292	S	651	the	the	the	DT	O	det	O	-1	O
+0	32	651	3293	3304		649	countryside	countryside	countryside	NN	O	pobj	O	-1	B-noun.location
+0	32	652	3304	3305	N	636	.	.	.	.	O	punct	O	-1	O

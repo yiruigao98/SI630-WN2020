@@ -1,0 +1,375 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	1		19	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	0	1	1	5		3	Girl	Girl	Girl	NNP	O	nsubj	I-QUOTE	-1	O
+0	0	2	5	6	S	3	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	0	3	7	15	S	19	consists	consists	consist	VBZ	O	ccomp	O	-1	B-verb.stative
+0	0	4	16	18	S	3	of	of	of	IN	O	prep	O	-1	O
+0	0	5	19	20	S	7	a	a	a	DT	O	det	O	-1	O
+0	0	6	21	27	S	7	single	single	single	JJ	O	amod	O	-1	O
+0	0	7	28	36	S	4	sentence	sentence	sentence	NN	O	pobj	O	-1	B-noun.communication
+0	0	8	37	39	S	7	of	of	of	IN	O	prep	O	-1	O
+0	0	9	40	46	S	8	advice	advice	advice	NN	O	pobj	O	-1	B-noun.communication
+0	0	10	47	48	S	11	a	a	a	DT	O	det	O	-1	O
+0	0	11	49	55	S	12	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	0	12	56	63	S	9	imparts	imparts	impart	VBZ	O	rcmod	O	-1	B-verb.possession
+0	0	13	64	66	S	12	to	to	to	TO	O	prep	O	-1	O
+0	0	14	67	70	S	15	her	her	she	PRP$	O	poss	O	-1	O
+0	0	15	71	79		13	daughter	daughter	daughter	NN	O	pobj	O	-1	B-noun.person
+0	0	16	79	80	S	19	,	,	,	,	O	punct	O	-1	O
+0	0	17	81	85	S	19	only	only	only	RB	O	advmod	O	-1	O
+0	0	18	86	91	S	19	twice	twice	twice	RB	O	advmod	O	-1	O
+0	0	19	92	103	S	-1	interrupted	interrupted	interrupt	VBN	O	null	O	-1	B-verb.communication
+0	0	20	104	106	S	19	by	by	by	IN	O	prep	O	-1	O
+0	0	21	107	110	S	22	the	the	the	DT	O	det	O	-1	O
+0	0	22	111	115	S	20	girl	girl	girl	NN	O	pobj	O	-1	B-noun.person
+0	0	23	116	118	S	24	to	to	to	TO	O	aux	O	-1	O
+0	0	24	119	122	S	22	ask	ask	ask	VB	O	infmod	O	-1	B-verb.communication
+0	0	25	123	124	S	26	a	a	a	DT	O	det	O	-1	O
+0	0	26	125	133	S	24	question	question	question	NN	O	dobj	O	-1	B-noun.communication
+0	0	27	134	136	S	24	or	or	or	CC	O	cc	O	-1	O
+0	0	28	137	143	S	24	defend	defend	defend	VB	O	conj	O	-1	B-verb.competition
+0	0	29	144	151		28	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	0	30	151	152	S	19	.	.	.	.	O	punct	O	-1	O
+0	1	31	153	156	S	32	She	She	she	PRP	O	nsubj	O	-1	O
+0	1	32	157	164	S	-1	intends	intends	intend	VBZ	O	null	O	-1	B-verb.cognition
+0	1	33	165	168	S	34	the	the	the	DT	O	det	O	-1	O
+0	1	34	169	175	S	32	advice	advice	advice	NN	O	dobj	O	-1	B-noun.communication
+0	1	35	176	178	S	37	to	to	to	TO	O	aux	O	-1	O
+0	1	36	179	183	S	37	both	both	both	DT	O	dep	O	-1	O
+0	1	37	184	188	S	32	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	1	38	189	192	S	39	her	her	she	PRP$	O	poss	O	-1	O
+0	1	39	193	201	S	37	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	1	40	202	205	S	37	and	and	and	CC	O	cc	O	-1	O
+0	1	41	206	211	S	37	scold	scold	scold	VB	O	conj	O	-1	B-verb.communication
+0	1	42	212	215	S	41	her	her	she	PRP$	O	dobj	O	-1	O
+0	1	43	216	218	S	42	at	at	at	IN	O	prep	O	-1	O
+0	1	44	219	222	S	46	the	the	the	DT	O	det	O	-1	O
+0	1	45	223	227	S	46	same	same	same	JJ	O	amod	O	-1	O
+0	1	46	228	232		43	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	1	47	232	233	S	32	.	.	.	.	O	punct	O	-1	O
+0	2	48	234	241	S	49	Kincaid	Kincaid	Kincaid	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	2	49	242	246	S	-1	uses	uses	use	VBZ	O	null	O	-1	B-verb.consumption
+0	2	50	247	257	S	49	semicolons	semicolons	semicolon	NNS	O	dobj	O	-1	B-noun.communication
+0	2	51	258	260	S	52	to	to	to	TO	O	aux	O	-1	O
+0	2	52	261	269	S	49	separate	separate	separate	VB	O	xcomp	O	-1	B-verb.stative
+0	2	53	270	273	S	54	the	the	the	DT	O	det	O	-1	O
+0	2	54	274	287	S	52	admonishments	admonishments	admonishment	NNS	O	dobj	O	-1	B-noun.communication
+0	2	55	288	291	S	54	and	and	and	CC	O	cc	O	-1	O
+0	2	56	292	297	S	54	words	words	word	NNS	O	conj	O	-1	B-noun.communication
+0	2	57	298	300	S	54	of	of	of	IN	O	prep	O	-1	O
+0	2	58	301	307	S	57	wisdom	wisdom	wisdom	NN	O	pobj	O	-1	B-noun.cognition
+0	2	59	308	311	S	52	but	but	but	CC	O	cc	O	-1	O
+0	2	60	312	317	S	61	often	often	often	RB	O	advmod	O	-1	O
+0	2	61	318	325	S	52	repeats	repeats	repeat	NNS	O	conj	O	-1	B-noun.event
+0	2	62	326	333		61	herself	herself	herself	PRP	O	dep	O	-1	O
+0	2	63	333	334	S	61	,	,	,	,	O	punct	O	-1	O
+0	2	64	335	345	S	66	especially	especially	especially	RB	O	advmod	O	-1	O
+0	2	65	346	348	S	66	to	to	to	TO	O	aux	O	-1	O
+0	2	66	349	353	S	61	warn	warn	warn	VB	O	infmod	O	-1	B-verb.communication
+0	2	67	354	357	S	68	her	her	she	PRP$	O	poss	O	-1	O
+0	2	68	358	366	S	66	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	2	69	367	374	S	66	against	against	against	IN	O	prep	O	-1	O
+0	2	70	375	383	S	69	becoming	becoming	become	VBG	O	pcomp	O	-1	B-verb.stative
+0	2	71	384	385	S	73	a	a	a	DT	O	det	O	-1	O
+0	2	72	386	387		73	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	2	73	387	391		70	slut	slut	slut	NN	O	dobj	I-QUOTE	-1	O
+0	2	74	391	392		49	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	2	75	392	393	S	49	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	76	394	401	S	85	Besides	Besides	besides	IN	O	prep	O	-1	O
+0	3	77	402	407	S	78	these	these	these	DT	O	det	O	-1	O
+0	3	78	408	419		76	repetitions	repetitions	repetition	NNS	O	pobj	O	-1	B-noun.event
+0	3	79	419	420	S	85	,	,	,	,	O	punct	O	-1	O
+0	3	80	421	422		85	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	81	422	426		85	Girl	Girl	Girl	NNP	O	nsubj	I-QUOTE	-1	O
+0	3	82	426	427	S	85	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	83	428	432		85	does	does	do	VBZ	O	aux	O	-1	O
+0	3	84	432	435	S	85	n’t	n't	not	RB	O	neg	O	-1	O
+0	3	85	436	440	S	-1	move	move	move	VB	O	null	O	-1	B-verb.motion
+0	3	86	441	448	S	85	forward	forward	forward	RB	O	advmod	O	-1	O
+0	3	87	449	464		85	chronologically	chronologically	chronologically	RB	O	advmod	O	-1	O
+0	3	88	464	465	S	85	:	:	:	:	O	punct	O	-1	O
+0	3	89	466	471	S	90	there	there	there	EX	O	expl	O	-1	O
+0	3	90	472	474	S	85	is	is	be	VBZ	O	parataxis	O	-1	B-verb.stative
+0	3	91	475	477	S	92	no	no	no	DT	O	det	O	-1	O
+0	3	92	478	487		90	beginning	beginning	beginning	NN	O	nsubj	O	-1	B-noun.event
+0	3	93	487	488	S	92	,	,	,	,	O	punct	O	-1	O
+0	3	94	489	495		92	middle	middle	middle	NN	O	conj	O	-1	O
+0	3	95	495	496	S	92	,	,	,	,	O	punct	O	-1	O
+0	3	96	497	499	S	92	or	or	or	CC	O	cc	O	-1	O
+0	3	97	500	503	S	92	end	end	end	VB	O	conj	O	-1	B-verb.change
+0	3	98	504	506	S	97	to	to	to	TO	O	prep	O	-1	O
+0	3	99	507	510	S	100	the	the	the	DT	O	det	O	-1	O
+0	3	100	511	517		98	stream	stream	stream	NN	O	pobj	O	-1	B-noun.object
+0	3	101	517	518	S	85	.	.	.	.	O	punct	O	-1	O
+0	4	102	519	522	S	103	The	The	the	DT	O	det	O	-1	O
+0	4	103	523	529	S	104	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	4	104	530	539	S	-1	dispenses	dispenses	dispense	VBZ	O	null	O	-1	B-verb.possession
+0	4	105	540	544	S	109	much	much	much	JJ	O	amod	O	-1	O
+0	4	106	545	554	S	109	practical	practical	practical	JJ	O	amod	O	-1	O
+0	4	107	555	558	S	106	and	and	and	CC	O	cc	O	-1	O
+0	4	108	559	566	S	106	helpful	helpful	helpful	JJ	O	conj	O	-1	O
+0	4	109	567	573	S	104	advice	advice	advice	NN	O	dobj	O	-1	B-noun.communication
+0	4	110	574	578	S	112	that	that	that	WDT	O	nsubj	O	-1	O
+0	4	111	579	583	S	112	will	will	will	MD	O	aux	O	-1	O
+0	4	112	584	588	S	109	help	help	help	VB	O	rcmod	O	-1	B-verb.social
+0	4	113	589	592	S	114	her	her	she	PRP$	O	poss	O	-1	O
+0	4	114	593	601	S	115	daughter	daughter	daughter	NN	O	nsubj	O	-1	B-noun.person
+0	4	115	602	606	S	112	keep	keep	keep	VB	O	ccomp	O	-1	B-verb.stative
+0	4	116	607	608	S	117	a	a	a	DT	O	det	O	-1	O
+0	4	117	609	614	S	115	house	house	house	NN	O	dobj	O	-1	B-noun.artifact
+0	4	118	615	617	S	117	of	of	of	IN	O	prep	O	-1	O
+0	4	119	618	621	S	120	her	her	she	PRP$	O	poss	O	-1	O
+0	4	120	622	625	S	118	own	own	own	JJ	O	pobj	O	-1	O
+0	4	121	626	630	S	122	some	some	some	DT	O	det	O	-1	O
+0	4	122	631	634		117	day	day	day	NN	DURATION	dep	O	-1	B-noun.time
+0	4	123	634	635	S	104	.	.	.	.	O	punct	O	-1	O
+0	5	124	636	639	S	125	She	She	she	PRP	O	nsubj	O	-1	O
+0	5	125	640	645	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	5	126	646	649	S	127	her	her	she	PRP$	O	poss	O	-1	O
+0	5	127	650	658	S	125	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	5	128	659	662	S	130	how	how	how	WRB	O	advmod	O	-1	O
+0	5	129	663	665	S	130	to	to	to	TO	O	aux	O	-1	O
+0	5	130	666	668	S	125	do	do	do	VB	O	dep	O	-1	B-verb.social
+0	5	131	669	673	S	133	such	such	such	JJ	O	amod	O	-1	O
+0	5	132	674	683	S	133	household	household	household	NN	O	nn	O	-1	B-noun.group
+0	5	133	684	690	S	130	chores	chores	chore	NNS	O	dobj	O	-1	B-noun.act
+0	5	134	691	693	S	130	as	as	as	IN	O	prep	O	-1	O
+0	5	135	694	701		134	laundry	laundry	laundry	NN	O	pobj	O	-1	B-noun.artifact
+0	5	136	701	702	S	135	,	,	,	,	O	punct	O	-1	O
+0	5	137	703	709		135	sewing	sewing	sewing	NN	O	appos	O	-1	B-noun.act
+0	5	138	709	710	S	130	,	,	,	,	O	punct	O	-1	O
+0	5	139	711	718		130	ironing	ironing	iron	VBG	O	conj	O	-1	O
+0	5	140	718	719	S	130	,	,	,	,	O	punct	O	-1	O
+0	5	141	720	727		130	cooking	cooking	cooking	NN	O	dobj	O	-1	O
+0	5	142	727	728	S	130	,	,	,	,	O	punct	O	-1	O
+0	5	143	729	736	S	130	setting	setting	set	VBG	O	conj	O	-1	B-verb.cognition
+0	5	144	737	740	S	145	the	the	the	DT	O	det	O	-1	O
+0	5	145	741	746		143	table	table	table	NN	O	dobj	O	-1	B-noun.artifact
+0	5	146	746	747	S	145	,	,	,	,	O	punct	O	-1	O
+0	5	147	748	756		145	sweeping	sweeping	sweeping	JJ	O	amod	O	-1	O
+0	5	148	756	757	S	130	,	,	,	,	O	punct	O	-1	O
+0	5	149	758	761	S	130	and	and	and	CC	O	cc	O	-1	O
+0	5	150	762	769		130	washing	washing	wash	VBG	O	conj	O	-1	B-verb.contact
+0	5	151	769	770	S	125	.	.	.	.	O	punct	O	-1	O
+0	6	152	771	774	S	153	The	The	the	DT	O	det	O	-1	O
+0	6	153	775	781	S	155	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	6	154	782	786	S	155	also	also	also	RB	O	advmod	O	-1	O
+0	6	155	787	792	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	6	156	793	796	S	157	the	the	the	DT	O	det	O	-1	O
+0	6	157	797	801	S	155	girl	girl	girl	NN	O	dobj	O	-1	B-noun.person
+0	6	158	802	805	S	160	how	how	how	WRB	O	advmod	O	-1	O
+0	6	159	806	808	S	160	to	to	to	TO	O	aux	O	-1	O
+0	6	160	809	811	S	157	do	do	do	VB	O	ccomp	O	-1	B-verb.social
+0	6	161	812	817	S	162	other	other	other	JJ	O	amod	O	-1	O
+0	6	162	818	824	S	160	things	things	thing	NNS	O	dobj	O	-1	B-noun.attribute
+0	6	163	825	828		165	she	she	she	PRP	O	nsubj	O	-1	O
+0	6	164	828	831	S	165	’ll	'll	will	MD	O	aux	O	-1	O
+0	6	165	832	836	S	162	need	need	need	VB	O	rcmod	O	-1	B-verb.stative
+0	6	166	837	839	S	167	to	to	to	TO	O	aux	O	-1	O
+0	6	167	840	844	S	165	know	know	know	VB	O	xcomp	O	-1	B-verb.cognition
+0	6	168	845	850		167	about	about	about	RB	O	prep	O	-1	O
+0	6	169	850	851	S	168	,	,	,	,	O	punct	O	-1	O
+0	6	170	852	861	S	168	including	including	include	VBG	O	conj	O	-1	B-verb.stative
+0	6	171	862	865	S	173	how	how	how	WRB	O	advmod	O	-1	O
+0	6	172	866	868	S	173	to	to	to	TO	O	aux	O	-1	O
+0	6	173	869	873	S	170	make	make	make	VB	O	pcomp	O	-1	B-verb.change
+0	6	174	874	880	S	175	herbal	herbal	herbal	JJ	O	amod	O	-1	O
+0	6	175	881	890	S	173	medicines	medicines	medicine	NNS	O	dobj	O	-1	B-noun.cognition
+0	6	176	891	894	S	173	and	and	and	CC	O	cc	O	-1	O
+0	6	177	895	900	S	173	catch	catch	catch	VB	O	conj	O	-1	B-verb.contact
+0	6	178	901	902	S	179	a	a	a	DT	O	det	O	-1	O
+0	6	179	903	907		177	fish	fish	fish	NN	O	dobj	O	-1	B-noun.animal
+0	6	180	907	908	S	155	.	.	.	.	O	punct	O	-1	O
+0	7	181	909	914	S	182	These	These	these	DT	O	det	O	-1	O
+0	7	182	915	920	S	185	words	words	word	NNS	O	nsubj	O	-1	B-noun.communication
+0	7	183	921	923	S	182	of	of	of	IN	O	prep	O	-1	O
+0	7	184	924	930	S	183	wisdom	wisdom	wisdom	NN	O	pobj	O	-1	B-noun.cognition
+0	7	185	931	938	S	-1	suggest	suggest	suggest	VBP	O	null	O	-1	B-verb.communication
+0	7	186	939	943	S	189	that	that	that	IN	O	complm	O	-1	O
+0	7	187	944	947	S	188	the	the	the	DT	O	det	O	-1	O
+0	7	188	948	953	S	189	women	women	woman	NNS	O	nsubj	O	-1	B-noun.person
+0	7	189	954	958	S	203	live	live	live	VBP	O	csubj	O	-1	B-verb.stative
+0	7	190	959	961	S	189	in	in	in	IN	O	prep	O	-1	O
+0	7	191	962	963	S	195	a	a	a	DT	O	det	O	-1	O
+0	7	192	964	968		195	poor	poor	poor	JJ	O	amod	O	-1	O
+0	7	193	968	969	S	195	,	,	,	,	O	punct	O	-1	O
+0	7	194	970	975	S	195	rural	rural	rural	JJ	O	amod	O	-1	O
+0	7	195	976	983		190	setting	setting	setting	NN	O	pobj	O	-1	B-noun.location
+0	7	196	983	984	S	195	,	,	,	,	O	punct	O	-1	O
+0	7	197	985	990	S	198	where	where	where	WRB	O	advmod	O	-1	O
+0	7	198	991	998	S	195	passing	passing	pass	VBG	O	rcmod	O	-1	B-verb.possession
+0	7	199	999	1001	S	198	on	on	on	IN	O	prep	O	-1	O
+0	7	200	1002	1006	S	201	such	such	such	JJ	O	amod	O	-1	O
+0	7	201	1007	1013	S	199	advice	advice	advice	NN	O	pobj	O	-1	B-noun.communication
+0	7	202	1014	1016	S	203	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	7	203	1017	1026	S	185	essential	essential	essential	JJ	O	ccomp	O	-1	O
+0	7	204	1027	1030	S	203	for	for	for	IN	O	prep	O	-1	O
+0	7	205	1031	1036	S	206	daily	daily	daily	JJ	SET	amod	O	-1	O
+0	7	206	1037	1043		204	living	living	living	NN	O	pobj	O	-1	B-noun.cognition
+0	7	207	1043	1044	S	185	.	.	.	.	O	punct	O	-1	O
+0	8	208	1045	1054	S	215	Alongside	Alongside	alongside	IN	O	prep	O	-1	O
+0	8	209	1055	1064	S	210	practical	practical	practical	JJ	O	amod	O	-1	O
+0	8	210	1065	1071		208	advice	advice	advice	NN	O	pobj	O	-1	B-noun.communication
+0	8	211	1071	1072	S	215	,	,	,	,	O	punct	O	-1	O
+0	8	212	1073	1076	S	213	the	the	the	DT	O	det	O	-1	O
+0	8	213	1077	1083	S	215	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	8	214	1084	1088	S	215	also	also	also	RB	O	advmod	O	-1	O
+0	8	215	1089	1098	S	-1	instructs	instructs	instruct	VBZ	O	null	O	-1	B-verb.communication
+0	8	216	1099	1102	S	217	her	her	she	PRP	O	dep	O	-1	O
+0	8	217	1103	1111	S	215	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	8	218	1112	1114	S	217	on	on	on	IN	O	prep	O	-1	O
+0	8	219	1115	1118	S	221	how	how	how	WRB	O	advmod	O	-1	O
+0	8	220	1119	1121	S	221	to	to	to	TO	O	aux	O	-1	O
+0	8	221	1122	1126	S	218	live	live	live	VB	O	pcomp	O	-1	B-verb.stative
+0	8	222	1127	1128	S	224	a	a	a	DT	O	det	O	-1	O
+0	8	223	1129	1139	S	224	fulfilling	fulfilling	fulfil	VBG	O	amod	O	-1	B-verb.creation
+0	8	224	1140	1144		221	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	8	225	1144	1145	S	215	.	.	.	.	O	punct	O	-1	O
+0	9	226	1146	1149	S	227	She	She	she	PRP	O	nsubj	O	-1	O
+0	9	227	1150	1156	S	-1	offers	offers	offer	VBZ	O	null	O	-1	B-verb.possession
+0	9	228	1157	1165		227	sympathy	sympathy	sympathy	NN	O	dobj	O	-1	B-noun.cognition
+0	9	229	1165	1166	S	228	,	,	,	,	O	punct	O	-1	O
+0	9	230	1167	1171	S	231	such	such	such	JJ	O	dep	O	-1	O
+0	9	231	1172	1174	S	228	as	as	as	IN	O	prep	O	-1	O
+0	9	232	1175	1179	S	234	when	when	when	WRB	O	advmod	O	-1	O
+0	9	233	1180	1183	S	234	she	she	she	PRP	O	nsubj	O	-1	O
+0	9	234	1184	1189	S	231	talks	talks	talk	VBZ	O	pcomp	O	-1	B-verb.communication
+0	9	235	1190	1195	S	243	about	about	about	IN	O	mark	O	-1	O
+0	9	236	1196	1199	S	237	the	the	the	DT	O	det	O	-1	O
+0	9	237	1200	1213	S	243	relationships	relationships	relationship	NNS	O	nsubj	O	-1	B-noun.relation
+0	9	238	1214	1217	S	239	her	her	she	PRP$	O	poss	O	-1	O
+0	9	239	1218	1226	S	242	daughter	daughter	daughter	NN	O	nsubj	O	-1	B-noun.person
+0	9	240	1227	1231	S	242	will	will	will	MD	O	aux	O	-1	O
+0	9	241	1232	1235	S	242	one	one	one	CD	DURATION	num	O	-1	O
+0	9	242	1236	1239	S	237	day	day	day	NN	DURATION	rcmod	O	-1	B-noun.time
+0	9	243	1240	1244	S	234	have	have	have	VBP	O	advcl	O	-1	B-verb.possession
+0	9	244	1245	1249	S	243	with	with	with	IN	O	prep	O	-1	O
+0	9	245	1250	1253		244	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	9	246	1253	1254	S	243	,	,	,	,	O	punct	O	-1	O
+0	9	247	1255	1262	S	243	warning	warning	warn	VBG	O	xcomp	O	-1	B-verb.communication
+0	9	248	1263	1267	S	254	that	that	that	IN	O	complm	O	-1	O
+0	9	249	1268	1271	S	254	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	9	250	1272	1275	S	249	and	and	and	CC	O	cc	O	-1	O
+0	9	251	1276	1281	S	249	women	women	woman	NNS	O	conj	O	-1	B-noun.person
+0	9	252	1282	1291	S	254	sometimes	sometimes	sometimes	RB	O	advmod	O	-1	O
+0	9	253	1292	1293		254	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	9	254	1293	1298		247	bully	bully	bully	NN	O	ccomp	I-QUOTE	-1	O
+0	9	255	1298	1299	S	254	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	9	256	1300	1304	S	257	each	each	each	DT	O	det	O	-1	O
+0	9	257	1305	1310		254	other	other	other	JJ	O	amod	O	-1	O
+0	9	258	1310	1311	S	227	.	.	.	.	O	punct	O	-1	O
+0	10	259	1312	1315	S	261	She	She	she	PRP	O	nsubj	O	-1	O
+0	10	260	1316	1320	S	261	also	also	also	RB	O	advmod	O	-1	O
+0	10	261	1321	1325	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	10	262	1326	1330	S	264	that	that	that	IN	O	complm	O	-1	O
+0	10	263	1331	1336	S	264	there	there	there	EX	O	expl	O	-1	O
+0	10	264	1337	1340	S	261	are	are	be	VBP	O	ccomp	O	-1	B-verb.stative
+0	10	265	1341	1345	S	266	many	many	many	JJ	O	amod	O	-1	O
+0	10	266	1346	1351	S	264	kinds	kinds	kind	NNS	O	nsubj	O	-1	B-noun.cognition
+0	10	267	1352	1354	S	266	of	of	of	IN	O	prep	O	-1	O
+0	10	268	1355	1368	S	267	relationships	relationships	relationship	NNS	O	pobj	O	-1	B-noun.relation
+0	10	269	1369	1372	S	266	and	and	and	CC	O	cc	O	-1	O
+0	10	270	1373	1377	S	272	some	some	some	DT	O	nsubj	O	-1	O
+0	10	271	1378	1383	S	272	never	never	never	RB	O	neg	O	-1	O
+0	10	272	1384	1388	S	266	work	work	work	VBP	O	conj	O	-1	B-verb.social
+0	10	273	1389	1392		272	out	out	out	RP	O	prt	O	-1	O
+0	10	274	1392	1393	S	261	.	.	.	.	O	punct	O	-1	O
+0	11	275	1394	1397	S	276	The	The	the	DT	O	det	O	-1	O
+0	11	276	1398	1404	S	278	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	11	277	1405	1409	S	278	also	also	also	RB	O	advmod	O	-1	O
+0	11	278	1410	1415	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	11	279	1416	1419	S	280	the	the	the	DT	O	det	O	-1	O
+0	11	280	1420	1424	S	278	girl	girl	girl	NN	O	dobj	O	-1	B-noun.person
+0	11	281	1425	1428	S	283	how	how	how	WRB	O	advmod	O	-1	O
+0	11	282	1429	1431	S	283	to	to	to	TO	O	aux	O	-1	O
+0	11	283	1432	1438	S	280	behave	behave	behave	VB	O	ccomp	O	-1	B-verb.body
+0	11	284	1439	1441	S	283	in	in	in	IN	O	prep	O	-1	O
+0	11	285	1442	1451	S	286	different	different	different	JJ	O	amod	O	-1	O
+0	11	286	1452	1462		284	situations	situations	situation	NNS	O	pobj	O	-1	B-noun.state
+0	11	287	1462	1463	S	286	,	,	,	,	O	punct	O	-1	O
+0	11	288	1464	1473	S	286	including	including	include	VBG	O	prep	O	-1	B-verb.stative
+0	11	289	1474	1477	S	291	how	how	how	WRB	O	advmod	O	-1	O
+0	11	290	1478	1480	S	291	to	to	to	TO	O	aux	O	-1	O
+0	11	291	1481	1485	S	288	talk	talk	talk	VB	O	pcomp	O	-1	B-verb.communication
+0	11	292	1486	1490	S	291	with	with	with	IN	O	prep	O	-1	O
+0	11	293	1491	1497	S	292	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	11	294	1498	1501	S	297	she	she	she	PRP	O	nsubj	O	-1	O
+0	11	295	1502	1506		297	does	does	do	VBZ	O	aux	O	-1	O
+0	11	296	1506	1509	S	297	n’t	n't	not	RB	O	neg	O	-1	O
+0	11	297	1510	1514		293	like	like	like	VB	O	rcmod	O	-1	B-verb.emotion
+0	11	298	1514	1515	S	278	.	.	.	.	O	punct	O	-1	O
+0	12	299	1516	1521		308	Often	Often	often	RB	O	advmod	O	-1	O
+0	12	300	1521	1522	S	308	,	,	,	,	O	punct	O	-1	O
+0	12	301	1523	1530		308	however	however	however	RB	O	advmod	O	-1	O
+0	12	302	1530	1531	S	308	,	,	,	,	O	punct	O	-1	O
+0	12	303	1532	1535	S	304	the	the	the	DT	O	det	O	-1	O
+0	12	304	1536	1542		306	mother	mother	mother	NN	O	poss	O	-1	B-noun.person
+0	12	305	1542	1544	S	304	’s	's	's	POS	O	possessive	O	-1	O
+0	12	306	1545	1551	S	308	advice	advice	advice	NN	O	nsubj	O	-1	B-noun.communication
+0	12	307	1552	1557	S	308	seems	seems	seem	VBZ	O	cop	O	-1	B-verb.perception
+0	12	308	1558	1565	S	-1	caustic	caustic	caustic	JJ	O	null	O	-1	O
+0	12	309	1566	1569	S	308	and	and	and	CC	O	cc	O	-1	O
+0	12	310	1570	1581		308	castigating	castigating	castigate	VBG	O	conj	O	-1	B-verb.communication
+0	12	311	1581	1582	S	310	,	,	,	,	O	punct	O	-1	O
+0	12	312	1583	1586	S	310	out	out	out	IN	O	prep	O	-1	O
+0	12	313	1587	1589	S	312	of	of	of	IN	O	dep	O	-1	O
+0	12	314	1590	1594	S	313	fear	fear	fear	NN	O	pobj	O	-1	B-noun.feeling
+0	12	315	1595	1599	S	318	that	that	that	IN	O	complm	O	-1	O
+0	12	316	1600	1603	S	317	her	her	she	PRP$	O	poss	O	-1	O
+0	12	317	1604	1612	S	318	daughter	daughter	daughter	NN	O	nsubj	O	-1	B-noun.person
+0	12	318	1613	1615	S	314	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	12	319	1616	1623	S	320	already	already	already	RB	O	advmod	O	-1	O
+0	12	320	1624	1628	S	318	well	well	well	RB	O	advmod	O	-1	O
+0	12	321	1629	1631	S	318	on	on	on	IN	O	prep	O	-1	O
+0	12	322	1632	1635	S	323	her	her	she	PRP$	O	poss	O	-1	O
+0	12	323	1636	1639	S	321	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	12	324	1640	1642	S	323	to	to	to	TO	O	prep	O	-1	O
+0	12	325	1643	1651	S	324	becoming	becoming	become	VBG	O	pcomp	O	-1	B-verb.change
+0	12	326	1652	1653	S	328	a	a	a	DT	O	det	O	-1	O
+0	12	327	1654	1655		328	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	12	328	1655	1659		325	slut	slut	slut	NN	O	dobj	I-QUOTE	-1	O
+0	12	329	1659	1660		308	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	12	330	1660	1661	S	308	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	13	331	1662	1665	S	332	She	She	she	PRP	O	nsubj	O	-1	O
+0	13	332	1666	1671	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	13	333	1672	1675	S	334	the	the	the	DT	O	det	O	-1	O
+0	13	334	1676	1680		332	girl	girl	girl	NN	O	dobj	O	-1	B-noun.person
+0	13	335	1680	1681	S	332	,	,	,	,	O	punct	O	-1	O
+0	13	336	1682	1685	S	332	for	for	for	IN	O	prep	O	-1	O
+0	13	337	1686	1693		336	example	example	example	NN	O	pobj	O	-1	B-noun.cognition
+0	13	338	1693	1694	S	332	,	,	,	,	O	punct	O	-1	O
+0	13	339	1695	1698	S	340	not	not	not	RB	O	dep	O	-1	O
+0	13	340	1699	1701	S	332	to	to	to	TO	O	prep	O	-1	O
+0	13	341	1702	1707	S	340	squat	squat	squat	JJ	O	pobj	O	-1	O
+0	13	342	1708	1713	S	332	while	while	while	IN	O	prep	O	-1	O
+0	13	343	1714	1721	S	342	playing	playing	play	VBG	O	pcomp	O	-1	B-verb.creation
+0	13	344	1722	1729		343	marbles	marbles	marble	NNS	O	dobj	O	-1	B-noun.artifact
+0	13	345	1729	1730	S	343	,	,	,	,	O	punct	O	-1	O
+0	13	346	1731	1734	S	343	not	not	not	RB	O	conj	O	-1	O
+0	13	347	1735	1737	S	348	to	to	to	TO	O	aux	O	-1	O
+0	13	348	1738	1742	S	343	sing	sing	sing	VB	O	xcomp	O	-1	B-verb.creation
+0	13	349	1743	1746	S	352	any	any	any	DT	O	det	O	-1	O
+0	13	350	1747	1755	S	352	Antiguan	Antiguan	antiguan	JJ	MISC	amod	O	-1	O
+0	13	351	1756	1760	S	352	folk	folk	folk	NN	O	nn	O	-1	B-noun.communication
+0	13	352	1761	1766	S	348	songs	songs	song	NNS	O	dobj	O	-1	I-noun.communication
+0	13	353	1767	1769	S	348	in	in	in	IN	O	prep	O	-1	O
+0	13	354	1770	1776	S	355	Sunday	Sunday	Sunday	NNP	DATE	nn	O	-1	B-noun.group
+0	13	355	1777	1783		353	school	school	school	NN	O	pobj	O	-1	I-noun.group
+0	13	356	1783	1784	S	332	,	,	,	,	O	punct	O	-1	O
+0	13	357	1785	1788	S	332	and	and	and	CC	O	cc	O	-1	O
+0	13	358	1789	1791	S	360	to	to	to	TO	O	aux	O	-1	O
+0	13	359	1792	1798	S	360	always	always	always	RB	O	advmod	O	-1	O
+0	13	360	1799	1803	S	332	walk	walk	walk	VB	O	conj	O	-1	B-verb.motion
+0	13	361	1804	1808	S	360	like	like	like	IN	O	prep	O	-1	O
+0	13	362	1809	1810	S	363	a	a	a	DT	O	det	O	-1	O
+0	13	363	1811	1815		361	lady	lady	lady	NN	O	pobj	O	-1	B-noun.person
+0	13	364	1815	1816	S	332	.	.	.	.	O	punct	O	-1	O
+0	14	365	1817	1820	S	366	The	The	the	DT	O	det	O	-1	O
+0	14	366	1821	1825	S	368	girl	girl	girl	NN	O	nsubj	O	-1	B-noun.person
+0	14	367	1826	1838	S	368	periodically	periodically	periodically	RB	O	advmod	O	-1	O
+0	14	368	1839	1849	S	-1	interjects	interjects	interject	VBZ	O	null	O	-1	B-verb.communication
+0	14	369	1850	1852	S	370	to	to	to	TO	O	aux	O	-1	O
+0	14	370	1853	1860	S	368	protest	protest	protest	VB	O	xcomp	O	-1	B-verb.social
+0	14	371	1861	1864	S	372	her	her	she	PRP$	O	poss	O	-1	O
+0	14	372	1865	1874		370	innocence	innocence	innocence	NN	O	dobj	O	-1	B-noun.attribute
+0	14	373	1874	1875	N	368	.	.	.	.	O	punct	O	-1	O

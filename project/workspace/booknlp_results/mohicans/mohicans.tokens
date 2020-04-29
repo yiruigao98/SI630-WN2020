@@ -1,0 +1,719 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	2	S	4	It	It	it	PRP	O	nsubj	O	-1	O
+0	0	1	3	5	S	4	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	0	2	6	9	S	4	the	the	the	DT	O	det	O	-1	O
+0	0	3	10	14	S	4	late	late	late	JJ	O	amod	O	-1	O
+0	0	4	15	20		-1	1750s	1750s	1750	NNS	DATE	null	O	-1	B-noun.time
+0	0	5	20	21	S	4	,	,	,	,	O	punct	O	-1	O
+0	0	6	22	25	N	4	and	and	and	CC	O	cc	O	-1	O
+0	0	7	26	29	S	12	the	the	the	DT	O	det	O	-1	O
+0	0	8	30	36	S	12	French	French	french	JJ	MISC	amod	O	-1	O
+0	0	9	37	40	S	8	and	and	and	CC	O	cc	O	-1	O
+0	0	10	41	47	S	8	Indian	Indian	indian	JJ	MISC	conj	O	-1	O
+0	0	11	48	51	S	12	War	War	war	NN	MISC	nn	O	-1	B-noun.act
+0	0	12	52	57	S	4	grips	grips	grip	NNS	O	conj	O	-1	B-noun.act
+0	0	13	58	61	S	16	the	the	the	DT	O	det	O	-1	O
+0	0	14	62	66	S	16	wild	wild	wild	JJ	O	amod	O	-1	O
+0	0	15	67	73	S	16	forest	forest	forest	NN	O	nn	O	-1	B-noun.group
+0	0	16	74	82	S	12	frontier	frontier	frontier	NN	O	dep	O	-1	B-noun.location
+0	0	17	83	85	S	16	of	of	of	IN	O	prep	O	-1	O
+0	0	18	86	93	N	20	western	western	western	JJ	O	amod	O	-1	O
+0	0	19	94	97	S	20	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.group
+0	0	20	98	102		17	York	York	York	NNP	LOCATION	pobj	O	-1	I-noun.group
+0	0	21	102	103	S	4	.	.	.	.	O	punct	O	-1	O
+0	1	22	104	107	S	24	The	The	the	DT	O	det	O	-1	O
+0	1	23	108	114	S	24	French	French	french	JJ	MISC	amod	O	-1	O
+0	1	24	115	119	S	26	army	army	army	NN	O	nsubj	O	-1	B-noun.group
+0	1	25	120	122	S	26	is	is	be	VBZ	O	aux	O	-1	O
+0	1	26	123	132	S	-1	attacking	attacking	attack	VBG	O	null	O	-1	B-verb.competition
+0	1	27	133	137	S	29	Fort	Fort	Fort	NNP	PERSON	nn	O	6	B-noun.group
+0	1	28	138	145	S	29	William	William	William	NNP	PERSON	nn	O	6	B-noun.person
+0	1	29	146	151		26	Henry	Henry	Henry	NNP	PERSON	dobj	O	6	I-noun.person
+0	1	30	151	152	S	29	,	,	,	,	O	punct	O	-1	O
+0	1	31	153	154	S	33	a	a	a	DT	O	det	O	-1	O
+0	1	32	155	162	N	33	British	British	british	JJ	MISC	amod	O	-1	O
+0	1	33	163	170	S	29	outpost	outpost	outpost	NN	O	appos	O	-1	B-noun.group
+0	1	34	171	180	S	33	commanded	commanded	command	VBN	O	partmod	O	-1	B-verb.communication
+0	1	35	181	183	S	34	by	by	by	IN	O	prep	O	-1	O
+0	1	36	184	191	S	37	Colonel	Colonel	Colonel	NNP	O	nn	O	-1	B-noun.person
+0	1	37	192	197		35	Munro	Munro	Munro	NNP	PERSON	pobj	O	2	I-noun.person
+0	1	38	197	198	S	26	.	.	.	.	O	punct	O	-1	O
+0	2	39	199	204		42	Munro	Munro	Munro	NNP	PERSON	poss	O	2	B-noun.person
+0	2	40	204	206	S	39	’s	's	's	POS	O	possessive	O	-1	O
+0	2	41	207	216	S	42	daughters	daughters	daughter	NNS	O	nn	O	-1	B-noun.person
+0	2	42	217	222	S	45	Alice	Alice	Alice	NNP	PERSON	nsubj	O	5	I-noun.person
+0	2	43	223	226	N	42	and	and	and	CC	O	cc	O	-1	O
+0	2	44	227	231	S	42	Cora	Cora	Cora	NNP	PERSON	conj	O	3	B-noun.person
+0	2	45	232	235	S	-1	set	set	set	VBD	O	null	O	-1	B-verb.contact
+0	2	46	236	239	S	45	out	out	out	RP	O	prt	O	-1	O
+0	2	47	240	244	S	45	from	from	from	IN	O	prep	O	-1	O
+0	2	48	245	249	S	49	Fort	Fort	Fort	NNP	PERSON	nn	O	-1	B-noun.location
+0	2	49	250	256	S	47	Edward	Edward	Edward	NNP	PERSON	pobj	O	-1	I-noun.location
+0	2	50	257	259	S	51	to	to	to	TO	O	aux	O	-1	O
+0	2	51	260	265	S	45	visit	visit	visit	VB	O	xcomp	O	-1	B-verb.social
+0	2	52	266	271	S	53	their	their	they	PRP$	O	poss	O	-1	O
+0	2	53	272	278		51	father	father	father	NN	O	dobj	O	-1	B-noun.person
+0	2	54	278	279	S	53	,	,	,	,	O	punct	O	-1	O
+0	2	55	280	288	S	53	escorted	escorted	escort	VBN	O	partmod	O	-1	B-verb.motion
+0	2	56	289	296	N	55	through	through	through	IN	O	prep	O	-1	O
+0	2	57	297	300	S	59	the	the	the	DT	O	det	O	-1	O
+0	2	58	301	310	S	59	dangerous	dangerous	dangerous	JJ	O	amod	O	-1	O
+0	2	59	311	317	S	56	forest	forest	forest	NN	O	pobj	O	-1	B-noun.group
+0	2	60	318	320	S	55	by	by	by	IN	O	prep	O	-1	O
+0	2	61	321	326	S	63	Major	Major	major	JJ	O	amod	O	-1	O
+0	2	62	327	333	S	63	Duncan	Duncan	Duncan	NNP	PERSON	nn	O	-1	B-noun.person
+0	2	63	334	341	S	60	Heyward	Heyward	Heyward	NNP	PERSON	pobj	O	-1	I-noun.person
+0	2	64	342	345	S	55	and	and	and	CC	O	cc	O	-1	O
+0	2	65	346	352	S	55	guided	guided	guide	VBN	O	conj	O	-1	B-verb.motion
+0	2	66	353	355	S	65	by	by	by	IN	O	prep	O	-1	O
+0	2	67	356	358	S	66	an	an	a	DT	O	pobj	O	-1	O
+0	2	68	359	365	S	67	Indian	Indian	indian	JJ	MISC	amod	O	-1	O
+0	2	69	366	371	N	68	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	2	70	372	377		69	Magua	Magua	Magua	NNP	PERSON	dep	O	0	B-noun.person
+0	2	71	377	378	S	45	.	.	.	.	O	punct	O	-1	O
+0	3	72	379	383	S	75	Soon	Soon	soon	RB	O	advmod	O	-1	O
+0	3	73	384	388	S	75	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	3	74	389	392	S	75	are	are	be	VBP	O	auxpass	O	-1	O
+0	3	75	393	399	S	-1	joined	joined	join	VBN	O	null	O	-1	B-verb.social
+0	3	76	400	402	S	75	by	by	by	IN	O	prep	O	-1	O
+0	3	77	403	408	S	78	David	David	David	NNP	PERSON	nn	O	-1	B-noun.person
+0	3	78	409	414		76	Gamut	Gamut	Gamut	NNP	PERSON	pobj	O	-1	I-noun.person
+0	3	79	414	415	S	78	,	,	,	,	O	punct	O	-1	O
+0	3	80	416	417	S	82	a	a	a	DT	O	det	O	-1	O
+0	3	81	418	425	S	82	singing	singing	singing	NN	O	nn	O	-1	B-noun.act
+0	3	82	426	432	S	78	master	master	master	NN	O	appos	O	-1	B-noun.person
+0	3	83	433	436	N	82	and	and	and	CC	O	cc	O	-1	O
+0	3	84	437	446	S	85	religious	religious	religious	JJ	O	amod	O	-1	O
+0	3	85	447	455	S	82	follower	follower	follower	NN	O	conj	O	-1	B-noun.person
+0	3	86	456	458	S	85	of	of	of	IN	O	prep	O	-1	O
+0	3	87	459	468		86	Calvinism	Calvinism	Calvinism	NNP	O	pobj	O	-1	O
+0	3	88	468	469	S	75	.	.	.	.	O	punct	O	-1	O
+0	4	89	470	479	S	94	Traveling	Traveling	travel	VBG	O	dep	O	-1	B-verb.motion
+0	4	90	480	490		89	cautiously	cautiously	cautiously	RB	O	advmod	O	-1	O
+0	4	91	490	491	S	94	,	,	,	,	O	punct	O	-1	O
+0	4	92	492	495	S	93	the	the	the	DT	O	det	O	-1	O
+0	4	93	496	501	N	94	group	group	group	NN	O	nsubj	O	-1	B-noun.group
+0	4	94	502	512	S	-1	encounters	encounters	encounter	VBZ	O	null	O	-1	B-verb.motion
+0	4	95	513	516	S	99	the	the	the	DT	O	det	O	-1	O
+0	4	96	517	522	S	99	white	white	white	JJ	O	amod	O	-1	O
+0	4	97	523	528	S	99	scout	scout	scout	NN	O	nn	O	-1	B-noun.person
+0	4	98	529	534	S	99	Natty	Natty	Natty	NNP	O	nn	O	-1	I-noun.person
+0	4	99	535	541		94	Bumppo	Bumppo	Bumppo	NNP	O	dobj	O	-1	I-noun.person
+0	4	100	541	542	S	99	,	,	,	,	O	punct	O	-1	O
+0	4	101	543	546	S	102	who	who	who	WP	O	nsubj	O	-1	O
+0	4	102	547	551	S	99	goes	goes	go	VBZ	O	rcmod	O	-1	B-verb.motion
+0	4	103	552	554	S	102	by	by	by	IN	O	prep	O	-1	O
+0	4	104	555	558	S	105	the	the	the	DT	O	det	O	-1	O
+0	4	105	559	563	S	103	name	name	name	NN	O	pobj	O	-1	B-noun.communication
+0	4	106	564	571		105	Hawkeye	Hawkeye	Hawkeye	NNP	LOCATION	dep	O	-1	O
+0	4	107	571	572	N	99	,	,	,	,	O	punct	O	-1	O
+0	4	108	573	576	S	99	and	and	and	CC	O	cc	O	-1	O
+0	4	109	577	580	S	112	his	his	he	PRP$	O	poss	O	-1	O
+0	4	110	581	584	S	112	two	two	two	CD	NUMBER	num	O	-1	O
+0	4	111	585	591	S	112	Indian	Indian	indian	JJ	MISC	amod	O	-1	O
+0	4	112	592	602		99	companions	companions	companion	NNS	O	conj	O	-1	B-noun.person
+0	4	113	602	603	S	99	,	,	,	,	O	punct	O	-1	O
+0	4	114	604	616	S	99	Chingachgook	Chingachgook	Chingachgook	NNP	PERSON	conj	O	8	B-noun.person
+0	4	115	617	620	S	99	and	and	and	CC	O	cc	O	-1	O
+0	4	116	621	626		99	Uncas	Uncas	Uncas	NNP	PERSON	conj	O	4	O
+0	4	117	626	627	S	99	,	,	,	,	O	punct	O	-1	O
+0	4	118	628	640		120	Chingachgook	Chingachgook	Chingachgook	NNP	PERSON	poss	O	8	B-noun.person
+0	4	119	640	642	N	118	’s	's	's	POS	O	possessive	O	-1	O
+0	4	120	643	646		99	son	son	son	NN	O	appos	O	-1	B-noun.person
+0	4	121	646	647	S	99	,	,	,	,	O	punct	O	-1	O
+0	4	122	648	651	S	125	the	the	the	DT	O	det	O	-1	O
+0	4	123	652	656	S	125	only	only	only	JJ	O	amod	O	-1	O
+0	4	124	657	666	S	125	surviving	surviving	survive	VBG	O	amod	O	-1	B-verb.stative
+0	4	125	667	674	S	99	members	members	member	NNS	O	appos	O	-1	B-noun.person
+0	4	126	675	677	S	125	of	of	of	IN	O	prep	O	-1	O
+0	4	127	678	681	S	131	the	the	the	DT	O	det	O	-1	O
+0	4	128	682	686	S	129	once	once	once	RB	DATE	advmod	O	-1	O
+0	4	129	687	692	S	131	great	great	great	JJ	O	amod	O	-1	O
+0	4	130	693	700	S	131	Mohican	Mohican	Mohican	NNP	MISC	nn	O	-1	B-noun.person
+0	4	131	701	706		126	tribe	tribe	tribe	NN	O	pobj	O	-1	I-noun.person
+0	4	132	706	707	N	94	.	.	.	.	O	punct	O	-1	O
+0	5	133	708	715	S	134	Hawkeye	Hawkeye	Hawkeye	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	5	134	716	720	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	5	135	721	725	S	142	that	that	that	IN	O	complm	O	-1	O
+0	5	136	726	731		142	Magua	Magua	Magua	NNP	PERSON	nsubj	O	0	O
+0	5	137	731	732	S	136	,	,	,	,	O	punct	O	-1	O
+0	5	138	733	734	S	139	a	a	a	DT	O	det	O	-1	O
+0	5	139	735	740		136	Huron	Huron	Huron	NNP	O	appos	O	-1	O
+0	5	140	740	741	S	136	,	,	,	,	O	punct	O	-1	O
+0	5	141	742	745	S	142	has	has	have	VBZ	O	aux	O	-1	O
+0	5	142	746	754	S	134	betrayed	betrayed	betray	VBN	O	ccomp	O	-1	B-verb.communication
+0	5	143	755	758	S	144	the	the	the	DT	O	det	O	-1	O
+0	5	144	759	764	S	142	group	group	group	NN	O	dobj	O	-1	B-noun.group
+0	5	145	765	767	S	142	by	by	by	IN	O	prep	O	-1	O
+0	5	146	768	775	N	145	leading	leading	lead	VBG	O	pcomp	O	-1	B-verb.motion
+0	5	147	776	780	S	146	them	them	they	PRP	O	dobj	O	-1	O
+0	5	148	781	783	S	146	in	in	in	IN	O	prep	O	-1	O
+0	5	149	784	787	S	151	the	the	the	DT	O	det	O	-1	O
+0	5	150	788	793	S	151	wrong	wrong	wrong	JJ	O	amod	O	-1	O
+0	5	151	794	803		148	direction	direction	direction	NN	O	pobj	O	-1	B-noun.communication
+0	5	152	803	804	S	134	.	.	.	.	O	punct	O	-1	O
+0	6	153	805	808	S	154	The	The	the	DT	O	det	O	-1	O
+0	6	154	809	817	S	155	Mohicans	Mohicans	Mohicans	NNPS	O	nsubj	O	-1	B-noun.person
+0	6	155	818	825	S	-1	attempt	attempt	attempt	NN	O	null	O	-1	B-noun.act
+0	6	156	826	828	S	157	to	to	to	TO	O	aux	O	-1	O
+0	6	157	829	836	S	155	capture	capture	capture	VB	O	infmod	O	-1	B-verb.creation
+0	6	158	837	840	N	160	the	the	the	DT	O	det	O	-1	O
+0	6	159	841	851	S	160	traitorous	traitorous	traitorous	JJ	O	amod	O	-1	O
+0	6	160	852	857		157	Huron	Huron	Huron	NNP	PERSON	dobj	O	1	O
+0	6	161	857	858	S	155	,	,	,	,	O	punct	O	-1	O
+0	6	162	859	862	S	155	but	but	but	CC	O	cc	O	-1	O
+0	6	163	863	865	S	164	he	he	he	PRP	O	nsubj	O	-1	O
+0	6	164	866	873		155	escapes	escapes	escape	VBZ	O	conj	O	-1	B-verb.motion
+0	6	165	873	874	S	155	.	.	.	.	O	punct	O	-1	O
+0	7	166	875	882	S	170	Hawkeye	Hawkeye	Hawkeye	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	7	167	883	886	S	166	and	and	and	CC	O	cc	O	-1	O
+0	7	168	887	890	S	169	the	the	the	DT	O	det	O	-1	O
+0	7	169	891	899	S	166	Mohicans	Mohicans	Mohicans	NNPS	ORGANIZATION	conj	O	-1	B-noun.person
+0	7	170	900	904	S	-1	lead	lead	lead	VBP	O	null	O	-1	B-verb.motion
+0	7	171	905	908	S	172	the	the	the	DT	O	det	O	-1	O
+0	7	172	909	914	S	170	group	group	group	NN	O	dobj	O	-1	B-noun.group
+0	7	173	915	917	S	170	to	to	to	TO	O	prep	O	-1	O
+0	7	174	918	924	S	173	safety	safety	safety	NN	O	pobj	O	-1	B-noun.state
+0	7	175	925	927	N	174	in	in	in	IN	O	prep	O	-1	O
+0	7	176	928	929	S	177	a	a	a	DT	O	det	O	-1	O
+0	7	177	930	934	S	175	cave	cave	cave	NN	O	pobj	O	-1	B-noun.object
+0	7	178	935	939	S	177	near	near	near	IN	O	prep	O	-1	O
+0	7	179	940	941	S	180	a	a	a	DT	O	det	O	-1	O
+0	7	180	942	951		178	waterfall	waterfall	waterfall	NN	O	pobj	O	-1	B-noun.object
+0	7	181	951	952	S	170	,	,	,	,	O	punct	O	-1	O
+0	7	182	953	956	S	170	but	but	but	CC	O	cc	O	-1	O
+0	7	183	957	962	S	184	Huron	Huron	Huron	NNP	PERSON	nn	O	1	O
+0	7	184	963	969	S	191	allies	allies	ally	NNS	O	nsubj	O	-1	O
+0	7	185	970	972	S	184	of	of	of	IN	O	prep	O	-1	O
+0	7	186	973	978	S	187	Magua	Magua	magua	NN	LOCATION	nn	O	-1	B-noun.location
+0	7	187	979	985	S	185	attack	attack	attack	NN	O	pobj	O	-1	B-noun.act
+0	7	188	986	991	N	191	early	early	early	RB	DATE	advmod	O	-1	O
+0	7	189	992	995	S	191	the	the	the	DT	DATE	det	O	-1	O
+0	7	190	996	1000	S	191	next	next	next	JJ	DATE	amod	O	-1	O
+0	7	191	1001	1008		170	morning	morning	morning	NN	DATE	conj	O	-1	B-noun.time
+0	7	192	1008	1009	S	170	.	.	.	.	O	punct	O	-1	O
+0	8	193	1010	1017	S	197	Hawkeye	Hawkeye	Hawkeye	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	8	194	1018	1021	S	193	and	and	and	CC	O	cc	O	-1	O
+0	8	195	1022	1025	S	196	the	the	the	DT	O	det	O	-1	O
+0	8	196	1026	1034	S	193	Mohicans	Mohicans	Mohicans	NNPS	MISC	conj	O	-1	B-noun.person
+0	8	197	1035	1041	S	-1	escape	escape	escape	VBP	O	null	O	-1	B-verb.motion
+0	8	198	1042	1046	S	197	down	down	down	RP	O	prt	O	-1	O
+0	8	199	1047	1050	S	200	the	the	the	DT	O	det	O	-1	O
+0	8	200	1051	1056		197	river	river	river	NN	O	dobj	O	-1	B-noun.object
+0	8	201	1056	1057	N	197	,	,	,	,	O	punct	O	-1	O
+0	8	202	1058	1061	S	197	but	but	but	CC	O	cc	O	-1	O
+0	8	203	1062	1068	S	204	Hurons	Hurons	Hurons	NNPS	MISC	nsubj	O	-1	O
+0	8	204	1069	1076	S	197	capture	capture	capture	VBP	O	conj	O	-1	B-verb.creation
+0	8	205	1077	1082		204	Alice	Alice	Alice	NNP	PERSON	dobj	O	5	O
+0	8	206	1082	1083	S	205	,	,	,	,	O	punct	O	-1	O
+0	8	207	1084	1088		205	Cora	Cora	Cora	NNP	PERSON	conj	O	3	O
+0	8	208	1088	1089	S	207	,	,	,	,	O	punct	O	-1	O
+0	8	209	1090	1097		207	Heyward	Heyward	Heyward	NNP	PERSON	conj	O	7	O
+0	8	210	1097	1098	S	205	,	,	,	,	O	punct	O	-1	O
+0	8	211	1099	1102	S	205	and	and	and	CC	O	cc	O	-1	O
+0	8	212	1103	1108		205	Gamut	Gamut	Gamut	NNP	O	conj	O	-1	O
+0	8	213	1108	1109	S	197	.	.	.	.	O	punct	O	-1	O
+0	9	214	1110	1115	S	215	Magua	Magua	Magua	NNP	PERSON	nsubj	O	0	B-noun.person
+0	9	215	1116	1126	N	-1	celebrates	celebrates	celebrate	VBZ	O	null	O	-1	B-verb.social
+0	9	216	1127	1130	S	217	the	the	the	DT	O	det	O	-1	O
+0	9	217	1131	1141		215	kidnapping	kidnapping	kidnapping	NN	O	dobj	O	-1	B-noun.act
+0	9	218	1141	1142	S	215	.	.	.	.	O	punct	O	-1	O
+0	10	219	1143	1147	S	221	When	When	when	WRB	O	advmod	O	-1	O
+0	10	220	1148	1155	S	221	Heyward	Heyward	Heyward	NNP	PERSON	nsubj	O	7	B-noun.person
+0	10	221	1156	1161	S	232	tries	tries	try	VBZ	O	dep	O	-1	B-verb.social
+0	10	222	1162	1164	S	223	to	to	to	TO	O	aux	O	-1	O
+0	10	223	1165	1172	S	221	convert	convert	convert	VB	O	xcomp	O	-1	B-verb.change
+0	10	224	1173	1178	S	223	Magua	Magua	Magua	NNP	PERSON	dobj	O	0	B-noun.person
+0	10	225	1179	1181	S	223	to	to	to	TO	O	prep	O	-1	O
+0	10	226	1182	1185	S	228	the	the	the	DT	O	det	O	-1	O
+0	10	227	1186	1193	N	228	English	English	english	JJ	MISC	amod	O	-1	O
+0	10	228	1194	1198		225	side	side	side	NN	O	pobj	O	-1	B-noun.location
+0	10	229	1198	1199	S	232	,	,	,	,	O	punct	O	-1	O
+0	10	230	1200	1203	S	231	the	the	the	DT	O	det	O	-1	O
+0	10	231	1204	1209	S	232	Huron	Huron	Huron	NNP	PERSON	nsubj	O	1	O
+0	10	232	1210	1217	S	-1	reveals	reveals	reveal	VBZ	O	null	O	-1	B-verb.perception
+0	10	233	1218	1222	S	235	that	that	that	IN	O	complm	O	-1	O
+0	10	234	1223	1225	S	235	he	he	he	PRP	O	nsubj	O	7	O
+0	10	235	1226	1231	S	232	seeks	seeks	seek	VBZ	O	ccomp	O	-1	B-verb.possession
+0	10	236	1232	1239	S	235	revenge	revenge	revenge	NN	O	dobj	O	-1	B-noun.act
+0	10	237	1240	1242	S	236	on	on	on	IN	O	prep	O	-1	O
+0	10	238	1243	1248	S	237	Munro	Munro	Munro	NNP	PERSON	pobj	O	2	B-noun.person
+0	10	239	1249	1252	S	235	for	for	for	IN	O	prep	O	-1	O
+0	10	240	1253	1257	N	241	past	past	past	JJ	DATE	amod	O	-1	O
+0	10	241	1258	1269	S	239	humiliation	humiliation	humiliation	NN	O	pobj	O	-1	B-noun.state
+0	10	242	1270	1273	S	235	and	and	and	CC	O	cc	O	-1	O
+0	10	243	1274	1282	S	235	proposes	proposes	propose	VBZ	O	conj	O	-1	B-verb.communication
+0	10	244	1283	1285	S	243	to	to	to	TO	O	prep	O	-1	O
+0	10	245	1286	1290	S	246	free	free	free	JJ	O	amod	O	-1	O
+0	10	246	1291	1296	S	244	Alice	Alice	Alice	NNP	PERSON	pobj	O	5	B-noun.person
+0	10	247	1297	1299	S	250	if	if	if	IN	O	mark	O	-1	O
+0	10	248	1300	1304	S	250	Cora	Cora	Cora	NNP	PERSON	nsubj	O	3	B-noun.person
+0	10	249	1305	1309	S	250	will	will	will	MD	O	aux	O	-1	O
+0	10	250	1310	1315	S	235	marry	marry	marry	VB	O	advcl	O	-1	B-verb.social
+0	10	251	1316	1319		250	him	him	he	PRP	O	dobj	O	3	O
+0	10	252	1319	1320	S	232	.	.	.	.	O	punct	O	-1	O
+0	11	253	1321	1325	N	254	Cora	Cora	Cora	NNP	PERSON	nsubj	O	3	B-noun.person
+0	11	254	1326	1329	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	11	255	1330	1338	S	256	romantic	romantic	romantic	JJ	O	amod	O	-1	O
+0	11	256	1339	1347	S	254	feelings	feelings	feeling	NNS	O	dobj	O	-1	B-noun.Tops
+0	11	257	1348	1351	S	256	for	for	for	IN	O	prep	O	-1	O
+0	11	258	1352	1357		257	Uncas	Uncas	Uncas	NNP	PERSON	pobj	O	4	O
+0	11	259	1357	1358	S	254	,	,	,	,	O	punct	O	-1	O
+0	11	260	1359	1366		254	however	however	however	RB	O	advmod	O	-1	O
+0	11	261	1366	1367	S	254	,	,	,	,	O	punct	O	-1	O
+0	11	262	1368	1371	S	254	and	and	and	CC	O	cc	O	-1	O
+0	11	263	1372	1379	S	264	angrily	angrily	angrily	RB	O	advmod	O	-1	O
+0	11	264	1380	1387	S	254	refuses	refuses	refuse	VBZ	O	conj	O	-1	B-verb.communication
+0	11	265	1388	1393		264	Magua	Magua	Magua	NNP	PERSON	dobj	O	0	O
+0	11	266	1393	1394	N	254	.	.	.	.	O	punct	O	-1	O
+0	12	267	1395	1403	S	-1	Suddenly	Suddenly	suddenly	RB	O	null	O	-1	O
+0	12	268	1404	1411	S	267	Hawkeye	Hawkeye	Hawkeye	NNP	LOCATION	dep	O	-1	B-noun.person
+0	12	269	1412	1415	S	268	and	and	and	CC	O	cc	O	-1	O
+0	12	270	1416	1419	S	272	the	the	the	DT	O	det	O	-1	O
+0	12	271	1420	1428	S	272	Mohicans	Mohicans	Mohicans	NNPS	MISC	nn	O	-1	B-noun.person
+0	12	272	1429	1434	S	268	burst	burst	burst	NN	O	conj	O	-1	B-noun.act
+0	12	273	1435	1439	S	272	onto	onto	onto	IN	O	prep	O	-1	O
+0	12	274	1440	1443	S	275	the	the	the	DT	O	det	O	-1	O
+0	12	275	1444	1449		273	scene	scene	scene	NN	O	pobj	O	-1	B-noun.location
+0	12	276	1449	1450	S	277	,	,	,	,	O	punct	O	-1	O
+0	12	277	1451	1459	N	267	rescuing	rescuing	rescue	VBG	O	dep	O	-1	B-verb.social
+0	12	278	1460	1463	S	279	the	the	the	DT	O	det	O	-1	O
+0	12	279	1464	1472	S	277	captives	captives	captive	NNS	O	dobj	O	-1	B-noun.person
+0	12	280	1473	1476	S	277	and	and	and	CC	O	cc	O	-1	O
+0	12	281	1477	1484	S	277	killing	killing	kill	VBG	O	conj	O	-1	B-verb.contact
+0	12	282	1485	1490	S	283	every	every	every	DT	O	det	O	-1	O
+0	12	283	1491	1496	S	281	Huron	Huron	Huron	NNP	PERSON	dobj	O	1	B-noun.person
+0	12	284	1497	1500	S	283	but	but	but	CC	O	cc	O	-1	O
+0	12	285	1501	1506		283	Magua	Magua	Magua	NNP	PERSON	conj	O	0	O
+0	12	286	1506	1507	S	285	,	,	,	,	O	punct	O	-1	O
+0	12	287	1508	1511	S	288	who	who	who	WP	O	nsubj	O	-1	O
+0	12	288	1512	1519		285	escapes	escapes	escape	VBZ	O	rcmod	O	-1	B-verb.motion
+0	12	289	1519	1520	S	267	.	.	.	.	O	punct	O	-1	O
+0	13	290	1521	1526	N	301	After	After	after	IN	O	prep	O	-1	O
+0	13	291	1527	1528	S	293	a	a	a	DT	O	det	O	-1	O
+0	13	292	1529	1538	S	293	harrowing	harrowing	harrowing	JJ	O	amod	O	-1	O
+0	13	293	1539	1546	S	290	journey	journey	journey	NN	O	pobj	O	-1	B-noun.act
+0	13	294	1547	1554	S	293	impeded	impeded	impede	VBN	O	partmod	O	-1	B-verb.social
+0	13	295	1555	1557	S	294	by	by	by	IN	O	prep	O	-1	O
+0	13	296	1558	1564	S	297	Indian	Indian	indian	JJ	MISC	amod	O	-1	O
+0	13	297	1565	1572		295	attacks	attacks	attack	NNS	O	pobj	O	-1	B-noun.act
+0	13	298	1572	1573	S	301	,	,	,	,	O	punct	O	-1	O
+0	13	299	1574	1577	S	300	the	the	the	DT	O	det	O	-1	O
+0	13	300	1578	1583	S	301	group	group	group	NN	O	nsubj	O	-1	B-noun.group
+0	13	301	1584	1591	N	-1	reaches	reaches	reach	VBZ	O	null	O	-1	B-verb.motion
+0	13	302	1592	1596	S	304	Fort	Fort	Fort	NNP	PERSON	nn	O	6	B-noun.location
+0	13	303	1597	1604	S	304	William	William	William	NNP	PERSON	nn	O	6	B-noun.person
+0	13	304	1605	1610		301	Henry	Henry	Henry	NNP	PERSON	dobj	O	6	I-noun.person
+0	13	305	1610	1611	S	304	,	,	,	,	O	punct	O	-1	O
+0	13	306	1612	1615	S	308	the	the	the	DT	O	det	O	-1	O
+0	13	307	1616	1623	S	308	English	English	English	NNP	MISC	nn	O	-1	O
+0	13	308	1624	1634		304	stronghold	stronghold	stronghold	NN	O	appos	O	-1	O
+0	13	309	1634	1635	S	301	.	.	.	.	O	punct	O	-1	O
+0	14	310	1636	1640	S	311	They	They	they	PRP	O	nsubj	O	-1	O
+0	14	311	1641	1646	S	-1	sneak	sneak	sneak	VBP	O	null	O	-1	B-verb.motion
+0	14	312	1647	1654	S	311	through	through	through	IN	O	prep	O	-1	O
+0	14	313	1655	1658	N	315	the	the	the	DT	O	det	O	-1	O
+0	14	314	1659	1665	S	315	French	French	french	JJ	MISC	amod	O	-1	O
+0	14	315	1666	1670	S	312	army	army	army	NN	O	pobj	O	-1	B-noun.group
+0	14	316	1671	1680	S	315	besieging	besieging	besiege	VBG	O	partmod	O	-1	B-verb.competition
+0	14	317	1681	1684	S	318	the	the	the	DT	O	det	O	-1	O
+0	14	318	1685	1689		316	fort	fort	fort	NN	O	dobj	O	-1	B-noun.artifact
+0	14	319	1689	1690	S	311	,	,	,	,	O	punct	O	-1	O
+0	14	320	1691	1694		311	and	and	and	CC	O	cc	O	-1	O
+0	14	321	1694	1695	S	311	,	,	,	,	O	punct	O	-1	O
+0	14	322	1696	1700	S	323	once	once	once	RB	DATE	advmod	O	-1	O
+0	14	323	1701	1707		328	inside	inside	inside	RB	O	advmod	O	-1	O
+0	14	324	1707	1708	S	328	,	,	,	,	O	punct	O	-1	O
+0	14	325	1709	1713	S	328	Cora	Cora	Cora	NNP	PERSON	nsubj	O	3	B-noun.person
+0	14	326	1714	1717	S	325	and	and	and	CC	O	cc	O	-1	O
+0	14	327	1718	1723	N	325	Alice	Alice	Alice	NNP	PERSON	conj	O	5	B-noun.person
+0	14	328	1724	1731	S	311	reunite	reunite	reunite	VB	O	ccomp	O	-1	B-verb.social
+0	14	329	1732	1736	S	328	with	with	with	IN	O	prep	O	-1	O
+0	14	330	1737	1742	S	331	their	their	they	PRP$	O	poss	O	-1	O
+0	14	331	1743	1749		329	father	father	father	NN	O	pobj	O	-1	B-noun.person
+0	14	332	1749	1750	S	311	.	.	.	.	O	punct	O	-1	O
+0	15	333	1751	1752	S	335	A	A	a	DT	DATE	det	O	-1	O
+0	15	334	1753	1756	S	335	few	few	few	JJ	DATE	amod	O	-1	O
+0	15	335	1757	1761	S	336	days	days	day	NNS	DATE	dep	O	-1	B-noun.time
+0	15	336	1762	1767		341	later	later	later	RB	DATE	advmod	O	-1	O
+0	15	337	1767	1768	S	341	,	,	,	,	O	punct	O	-1	O
+0	15	338	1769	1772	S	340	the	the	the	DT	O	det	O	-1	O
+0	15	339	1773	1780	S	340	English	English	english	JJ	MISC	amod	O	-1	O
+0	15	340	1781	1787	S	341	forces	forces	force	NNS	O	nsubj	O	-1	B-noun.group
+0	15	341	1788	1792	S	-1	call	call	call	VBP	O	null	O	-1	B-verb.communication
+0	15	342	1793	1796	S	341	for	for	for	IN	O	prep	O	-1	O
+0	15	343	1797	1798	S	344	a	a	a	DT	O	det	O	-1	O
+0	15	344	1799	1804		342	truce	truce	truce	NN	O	pobj	O	-1	B-noun.state
+0	15	345	1804	1805	N	341	.	.	.	.	O	punct	O	-1	O
+0	16	346	1806	1811	S	347	Munro	Munro	Munro	NNP	PERSON	nsubj	O	2	B-noun.person
+0	16	347	1812	1818	S	-1	learns	learns	learn	VBZ	O	null	O	-1	B-verb.cognition
+0	16	348	1819	1823	S	351	that	that	that	IN	O	complm	O	-1	O
+0	16	349	1824	1826	S	351	he	he	he	PRP	O	nsubj	O	2	O
+0	16	350	1827	1831	S	351	will	will	will	MD	O	aux	O	-1	O
+0	16	351	1832	1839	S	347	receive	receive	receive	VB	O	ccomp	O	-1	B-verb.possession
+0	16	352	1840	1842	S	353	no	no	no	DT	O	det	O	-1	O
+0	16	353	1843	1857	S	351	reinforcements	reinforcements	reinforcement	NNS	O	dobj	O	-1	B-noun.act
+0	16	354	1858	1861	S	353	for	for	for	IN	O	prep	O	-1	O
+0	16	355	1862	1865	S	356	the	the	the	DT	O	det	O	-1	O
+0	16	356	1866	1870	N	354	fort	fort	fort	NN	O	pobj	O	-1	B-noun.artifact
+0	16	357	1871	1874	S	351	and	and	and	CC	O	cc	O	-1	O
+0	16	358	1875	1879	S	359	will	will	will	MD	O	aux	O	-1	O
+0	16	359	1880	1884	S	351	have	have	have	VB	O	conj	O	-1	O
+0	16	360	1885	1887	S	361	to	to	to	TO	O	aux	O	-1	O
+0	16	361	1888	1897		359	surrender	surrender	surrender	VB	O	xcomp	O	-1	B-verb.competition
+0	16	362	1897	1898	S	347	.	.	.	.	O	punct	O	-1	O
+0	17	363	1899	1901	S	364	He	He	he	PRP	O	nsubj	O	2	O
+0	17	364	1902	1909	S	-1	reveals	reveals	reveal	VBZ	O	null	O	-1	B-verb.perception
+0	17	365	1910	1912	S	364	to	to	to	TO	O	prep	O	-1	O
+0	17	366	1913	1920	S	365	Heyward	Heyward	Heyward	NNP	PERSON	pobj	O	7	B-noun.person
+0	17	367	1921	1925	S	372	that	that	that	IN	O	complm	O	-1	O
+0	17	368	1926	1930		370	Cora	Cora	Cora	NNP	PERSON	poss	O	3	B-noun.person
+0	17	369	1930	1932	S	368	’s	's	's	POS	O	possessive	O	-1	O
+0	17	370	1933	1939	N	372	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	17	371	1940	1943	S	372	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	17	372	1944	1948	S	364	part	part	part	NN	O	ccomp	O	-1	B-noun.relation
+0	17	373	1949	1950		372	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	17	374	1950	1955		372	Negro	Negro	Negro	NNP	MISC	dep	I-QUOTE	-1	O
+0	17	375	1955	1956		372	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	17	376	1956	1957	S	372	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	17	377	1958	1963	S	378	which	which	which	WDT	O	nsubj	O	-1	O
+0	17	378	1964	1972	S	372	explains	explains	explain	VBZ	O	rcmod	O	-1	B-verb.communication
+0	17	379	1973	1976	S	381	her	her	she	PRP$	O	poss	O	-1	O
+0	17	380	1977	1981	S	381	dark	dark	dark	JJ	O	amod	O	-1	O
+0	17	381	1982	1992	S	378	complexion	complexion	complexion	NN	O	dobj	O	-1	B-noun.attribute
+0	17	382	1993	1996	S	381	and	and	and	CC	O	cc	O	-1	O
+0	17	383	1997	2002	S	384	raven	raven	raven	NN	O	nn	O	-1	B-noun.animal
+0	17	384	2003	2007		381	hair	hair	hair	NN	O	conj	O	-1	B-noun.body
+0	17	385	2007	2008	S	364	.	.	.	.	O	punct	O	-1	O
+0	18	386	2009	2014	N	387	Munro	Munro	Munro	NNP	PERSON	nsubj	O	2	B-noun.person
+0	18	387	2015	2022	S	-1	accuses	accuses	accuse	VBZ	O	null	O	-1	B-verb.communication
+0	18	388	2023	2030	S	387	Heyward	Heyward	Heyward	NNP	PERSON	dobj	O	7	B-noun.person
+0	18	389	2031	2033	S	388	of	of	of	IN	O	prep	O	-1	O
+0	18	390	2034	2040	S	389	racism	racism	racism	NN	O	pobj	O	-1	B-noun.cognition
+0	18	391	2041	2048	S	393	because	because	because	IN	O	mark	O	-1	O
+0	18	392	2049	2051	S	393	he	he	he	PRP	O	nsubj	O	2	O
+0	18	393	2052	2059	S	387	prefers	prefers	prefer	VBZ	O	advcl	O	-1	B-verb.emotion
+0	18	394	2060	2062	S	395	to	to	to	TO	O	aux	O	-1	O
+0	18	395	2063	2068	S	393	marry	marry	marry	VB	O	xcomp	O	-1	B-verb.social
+0	18	396	2069	2075	S	397	blonde	blonde	blonde	JJ	O	amod	O	-1	O
+0	18	397	2076	2081	N	395	Alice	Alice	Alice	NNP	PERSON	dobj	O	5	B-noun.person
+0	18	398	2082	2086	S	395	over	over	over	IN	O	prep	O	-1	O
+0	18	399	2087	2091	S	400	dark	dark	dark	JJ	O	amod	O	-1	O
+0	18	400	2092	2096		398	Cora	Cora	Cora	NNP	PERSON	pobj	O	3	B-noun.person
+0	18	401	2096	2097	S	387	,	,	,	,	O	punct	O	-1	O
+0	18	402	2098	2101	S	387	but	but	but	CC	O	cc	O	-1	O
+0	18	403	2102	2109	S	404	Heyward	Heyward	Heyward	NNP	PERSON	nsubj	O	7	B-noun.person
+0	18	404	2110	2116	S	387	denies	denies	deny	VBZ	O	conj	O	-1	B-verb.communication
+0	18	405	2117	2120	S	406	the	the	the	DT	O	det	O	-1	O
+0	18	406	2121	2127		404	charge	charge	charge	NN	O	dobj	O	-1	B-noun.communication
+0	18	407	2127	2128	S	387	.	.	.	.	O	punct	O	-1	O
+0	19	408	2129	2135	S	-1	During	During	during	IN	O	null	O	-1	O
+0	19	409	2136	2139	S	410	the	the	the	DT	O	det	O	-1	O
+0	19	410	2140	2150	N	408	withdrawal	withdrawal	withdrawal	NN	O	pobj	O	-1	B-noun.communication
+0	19	411	2151	2153	S	410	of	of	of	IN	O	prep	O	-1	O
+0	19	412	2154	2157	S	414	the	the	the	DT	O	det	O	-1	O
+0	19	413	2158	2165	S	414	English	English	English	NNP	MISC	nn	O	-1	O
+0	19	414	2166	2172	S	411	troops	troops	troops	NNS	O	pobj	O	-1	B-noun.group
+0	19	415	2173	2177	S	410	from	from	from	IN	O	prep	O	-1	O
+0	19	416	2178	2182	S	418	Fort	Fort	Fort	NNP	O	nn	O	-1	B-noun.location
+0	19	417	2183	2190	S	418	William	William	William	NNP	PERSON	nn	O	6	B-noun.person
+0	19	418	2191	2196		415	Henry	Henry	Henry	NNP	PERSON	pobj	O	6	I-noun.person
+0	19	419	2196	2197	S	418	,	,	,	,	O	punct	O	-1	O
+0	19	420	2198	2201	S	422	the	the	the	DT	O	det	O	-1	O
+0	19	421	2202	2208	S	422	Indian	Indian	indian	JJ	MISC	amod	O	-1	O
+0	19	422	2209	2215	N	426	allies	allies	ally	NNS	O	nsubj	O	-1	B-noun.group
+0	19	423	2216	2218	S	426	of	of	of	IN	O	dep	O	-1	O
+0	19	424	2219	2222	S	425	the	the	the	DT	O	det	O	-1	O
+0	19	425	2223	2229	S	426	French	French	french	JJ	MISC	dep	O	-1	O
+0	19	426	2230	2237	S	418	indulge	indulge	indulge	VBP	O	rcmod	O	-1	B-verb.social
+0	19	427	2238	2243	S	428	their	their	they	PRP$	O	poss	O	-1	O
+0	19	428	2244	2253	S	426	bloodlust	bloodlust	bloodlust	NN	O	dobj	O	-1	B-noun.feeling
+0	19	429	2254	2257	S	428	and	and	and	CC	O	cc	O	-1	O
+0	19	430	2258	2262	S	428	prey	prey	prey	NN	O	conj	O	-1	B-noun.person
+0	19	431	2263	2267	S	426	upon	upon	upon	IN	O	prep	O	-1	O
+0	19	432	2268	2271	S	435	the	the	the	DT	O	det	O	-1	O
+0	19	433	2272	2282	N	435	vulnerable	vulnerable	vulnerable	JJ	O	amod	O	-1	O
+0	19	434	2283	2293	S	435	retreating	retreating	retreat	VBG	O	amod	O	-1	B-verb.motion
+0	19	435	2294	2302		431	soldiers	soldiers	soldier	NNS	O	pobj	O	-1	B-noun.person
+0	19	436	2302	2303	S	408	.	.	.	.	O	punct	O	-1	O
+0	20	437	2304	2306	S	444	In	In	in	IN	O	prep	O	-1	O
+0	20	438	2307	2310	S	439	the	the	the	DT	O	det	O	-1	O
+0	20	439	2311	2316	S	437	chaos	chaos	chaos	NN	O	pobj	O	-1	B-noun.state
+0	20	440	2317	2319	S	439	of	of	of	IN	O	prep	O	-1	O
+0	20	441	2320	2329		440	slaughter	slaughter	slaughter	NN	O	pobj	O	-1	B-noun.act
+0	20	442	2329	2330	S	444	,	,	,	,	O	punct	O	-1	O
+0	20	443	2331	2336	S	444	Magua	Magua	magua	NN	PERSON	nsubj	O	0	O
+0	20	444	2337	2344	S	-1	manages	manages	manage	VBZ	O	null	O	-1	B-verb.social
+0	20	445	2345	2347	N	446	to	to	to	TO	O	aux	O	-1	O
+0	20	446	2348	2357	S	444	recapture	recapture	recapture	VB	O	xcomp	O	-1	B-verb.emotion
+0	20	447	2358	2362		446	Cora	Cora	Cora	NNP	PERSON	dobj	O	3	B-noun.person
+0	20	448	2362	2363	S	447	,	,	,	,	O	punct	O	-1	O
+0	20	449	2364	2369		447	Alice	Alice	Alice	NNP	PERSON	conj	O	5	O
+0	20	450	2369	2370	S	444	,	,	,	,	O	punct	O	-1	O
+0	20	451	2371	2374	S	444	and	and	and	CC	O	cc	O	-1	O
+0	20	452	2375	2380	S	444	Gamut	Gamut	Gamut	NNP	PERSON	conj	O	-1	B-noun.person
+0	20	453	2381	2384	S	452	and	and	and	CC	O	cc	O	-1	O
+0	20	454	2385	2387	S	455	to	to	to	TO	O	aux	O	-1	O
+0	20	455	2388	2394	S	452	escape	escape	escape	VB	O	conj	O	-1	B-verb.motion
+0	20	456	2395	2399	S	455	with	with	with	IN	O	prep	O	-1	O
+0	20	457	2400	2404	S	456	them	them	they	PRP	O	pobj	O	-1	O
+0	20	458	2405	2409	S	455	into	into	into	IN	O	prep	O	-1	O
+0	20	459	2410	2413	N	460	the	the	the	DT	O	det	O	-1	O
+0	20	460	2414	2420		458	forest	forest	forest	NN	O	pobj	O	-1	B-noun.group
+0	20	461	2420	2421	S	444	.	.	.	.	O	punct	O	-1	O
+0	21	462	2422	2427	S	463	Three	Three	three	CD	DATE	num	O	-1	O
+0	21	463	2428	2432	S	464	days	days	day	NNS	DATE	dep	O	-1	B-noun.time
+0	21	464	2433	2438		475	later	later	later	RB	DATE	advmod	O	-1	O
+0	21	465	2438	2439	S	475	,	,	,	,	O	punct	O	-1	O
+0	21	466	2440	2447		475	Heyward	Heyward	Heyward	NNP	PERSON	nsubj	O	7	O
+0	21	467	2447	2448	S	466	,	,	,	,	O	punct	O	-1	O
+0	21	468	2449	2456		466	Hawkeye	Hawkeye	Hawkeye	NNP	LOCATION	conj	O	-1	O
+0	21	469	2456	2457	S	468	,	,	,	,	O	punct	O	-1	O
+0	21	470	2458	2463		468	Munro	Munro	Munro	NNP	PERSON	conj	O	2	O
+0	21	471	2463	2464	S	466	,	,	,	,	O	punct	O	-1	O
+0	21	472	2465	2468	S	466	and	and	and	CC	O	cc	O	-1	O
+0	21	473	2469	2472	S	474	the	the	the	DT	O	det	O	-1	O
+0	21	474	2473	2481	S	466	Mohicans	Mohicans	Mohicans	NNPS	O	conj	O	-1	B-noun.person
+0	21	475	2482	2490	N	-1	discover	discover	discover	VBP	O	null	O	-1	B-verb.communication
+0	21	476	2491	2496		478	Magua	Magua	Magua	NNP	PERSON	poss	O	0	B-noun.person
+0	21	477	2496	2498	S	476	’s	's	's	POS	O	possessive	O	-1	O
+0	21	478	2499	2504	S	475	trail	trail	trail	NN	O	dobj	O	-1	B-noun.artifact
+0	21	479	2505	2508	S	475	and	and	and	CC	O	cc	O	-1	O
+0	21	480	2509	2514	S	475	begin	begin	begin	VB	O	conj	O	-1	B-verb.change
+0	21	481	2515	2517	S	482	to	to	to	TO	O	aux	O	-1	O
+0	21	482	2518	2524	S	480	pursue	pursue	pursue	VB	O	xcomp	O	-1	B-verb.social
+0	21	483	2525	2528	S	484	the	the	the	DT	O	det	O	-1	O
+0	21	484	2529	2536		482	villain	villain	villain	NN	O	dobj	O	-1	B-noun.person
+0	21	485	2536	2537	S	475	.	.	.	.	O	punct	O	-1	O
+0	22	486	2538	2543	S	487	Gamut	Gamut	gamut	NN	O	nsubj	O	-1	B-noun.attribute
+0	22	487	2544	2553	S	-1	reappears	reappears	reappear	VBZ	O	null	O	-1	B-verb.change
+0	22	488	2554	2557	N	487	and	and	and	CC	O	cc	O	-1	O
+0	22	489	2558	2566	S	487	explains	explains	explain	VBZ	O	conj	O	-1	B-verb.communication
+0	22	490	2567	2571	S	493	that	that	that	IN	O	complm	O	-1	O
+0	22	491	2572	2577	S	493	Magua	Magua	Magua	NNP	PERSON	nsubj	O	0	B-noun.person
+0	22	492	2578	2581	S	493	has	has	have	VBZ	O	aux	O	-1	O
+0	22	493	2582	2591	S	489	separated	separated	separate	VBN	O	ccomp	O	-1	B-verb.stative
+0	22	494	2592	2595	S	495	his	his	he	PRP$	O	poss	O	7	O
+0	22	495	2596	2604		493	captives	captives	captive	NNS	O	dobj	O	-1	B-noun.person
+0	22	496	2604	2605	S	493	,	,	,	,	O	punct	O	-1	O
+0	22	497	2606	2615	S	493	confining	confining	confine	VBG	O	dep	O	-1	B-verb.change
+0	22	498	2616	2621	N	497	Alice	Alice	Alice	NNP	PERSON	dobj	O	5	B-noun.person
+0	22	499	2622	2624	S	497	to	to	to	TO	O	prep	O	-1	O
+0	22	500	2625	2626	S	502	a	a	a	DT	O	det	O	-1	O
+0	22	501	2627	2632	S	502	Huron	Huron	Huron	NNP	O	nn	O	-1	O
+0	22	502	2633	2637	S	499	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	22	503	2638	2641	S	497	and	and	and	CC	O	cc	O	-1	O
+0	22	504	2642	2649	S	497	sending	sending	send	VBG	O	conj	O	-1	B-verb.motion
+0	22	505	2650	2654	S	504	Cora	Cora	Cora	NNP	PERSON	dobj	O	3	B-noun.person
+0	22	506	2655	2657	S	504	to	to	to	TO	O	prep	O	-1	O
+0	22	507	2658	2659	S	509	a	a	a	DT	O	det	O	-1	O
+0	22	508	2660	2668	S	509	Delaware	Delaware	Delaware	NNP	LOCATION	nn	O	-1	B-noun.group
+0	22	509	2669	2673		506	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	22	510	2673	2674	S	487	.	.	.	.	O	punct	O	-1	O
+0	23	511	2675	2680	S	521	Using	Using	use	VBG	O	dep	O	-1	B-verb.consumption
+0	23	512	2681	2690	N	511	deception	deception	deception	NN	O	dobj	O	-1	B-noun.communication
+0	23	513	2691	2694	S	512	and	and	and	CC	O	cc	O	-1	O
+0	23	514	2695	2696	S	515	a	a	a	DT	O	det	O	-1	O
+0	23	515	2697	2704	S	512	variety	variety	variety	NN	O	conj	O	-1	B-noun.group
+0	23	516	2705	2707	S	512	of	of	of	IN	O	prep	O	-1	O
+0	23	517	2708	2717		516	disguises	disguises	disguise	NNS	O	pobj	O	-1	B-noun.attribute
+0	23	518	2717	2718	S	521	,	,	,	,	O	punct	O	-1	O
+0	23	519	2719	2722	S	520	the	the	the	DT	O	det	O	-1	O
+0	23	520	2723	2728	S	521	group	group	group	NN	O	nsubj	O	-1	B-noun.group
+0	23	521	2729	2736	S	-1	manages	manages	manage	VBZ	O	null	O	-1	B-verb.social
+0	23	522	2737	2739	S	523	to	to	to	TO	O	aux	O	-1	O
+0	23	523	2740	2746	S	521	rescue	rescue	rescue	VB	O	xcomp	O	-1	B-verb.social
+0	23	524	2747	2752	S	523	Alice	Alice	Alice	NNP	PERSON	dobj	O	5	B-noun.person
+0	23	525	2753	2757	N	523	from	from	from	IN	O	prep	O	-1	O
+0	23	526	2758	2761	S	527	the	the	the	DT	O	det	O	-1	O
+0	23	527	2762	2768		525	Hurons	Hurons	Hurons	NNPS	MISC	pobj	O	-1	O
+0	23	528	2768	2769	S	527	,	,	,	,	O	punct	O	-1	O
+0	23	529	2770	2772	S	527	at	at	at	IN	O	prep	O	-1	O
+0	23	530	2773	2778	S	531	which	which	which	WDT	O	det	O	-1	O
+0	23	531	2779	2784	S	529	point	point	point	NN	O	pobj	O	-1	B-noun.state
+0	23	532	2785	2792	S	533	Heyward	Heyward	Heyward	NNP	PERSON	nsubj	O	7	B-noun.person
+0	23	533	2793	2802	S	527	confesses	confesses	confess	VBZ	O	rcmod	O	-1	B-verb.communication
+0	23	534	2803	2806	S	536	his	his	he	PRP$	O	poss	O	7	O
+0	23	535	2807	2815	S	536	romantic	romantic	romantic	JJ	O	amod	O	-1	O
+0	23	536	2816	2824	N	533	interest	interest	interest	NN	O	dobj	O	-1	B-noun.cognition
+0	23	537	2825	2827	S	536	in	in	in	IN	O	prep	O	-1	O
+0	23	538	2828	2831		537	her	her	she	PRP$	O	pobj	O	5	O
+0	23	539	2831	2832	S	521	.	.	.	.	O	punct	O	-1	O
+0	24	540	2833	2835	S	546	At	At	at	IN	O	prep	O	-1	O
+0	24	541	2836	2839	S	543	the	the	the	DT	O	det	O	-1	O
+0	24	542	2840	2848	S	543	Delaware	Delaware	Delaware	NNP	LOCATION	nn	O	-1	B-noun.group
+0	24	543	2849	2856		540	village	village	village	NN	O	pobj	O	-1	I-noun.group
+0	24	544	2856	2857	S	546	,	,	,	,	O	punct	O	-1	O
+0	24	545	2858	2863	S	546	Magua	Magua	magua	NN	PERSON	nsubj	O	0	O
+0	24	546	2864	2873	S	-1	convinces	convinces	convince	VBZ	O	null	O	-1	B-verb.communication
+0	24	547	2874	2877	S	548	the	the	the	DT	O	det	O	-1	O
+0	24	548	2878	2883	S	546	tribe	tribe	tribe	NN	O	dobj	O	-1	B-noun.group
+0	24	549	2884	2888	N	557	that	that	that	WDT	O	dobj	O	-1	O
+0	24	550	2889	2896	S	557	Hawkeye	Hawkeye	Hawkeye	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	24	551	2897	2900	S	550	and	and	and	CC	O	cc	O	-1	O
+0	24	552	2901	2904	S	553	his	his	he	PRP$	O	poss	O	-1	O
+0	24	553	2905	2915	S	550	companions	companions	companion	NNS	O	conj	O	-1	B-noun.person
+0	24	554	2916	2919	S	557	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	24	555	2920	2925	S	557	their	their	they	PRP$	O	poss	O	-1	O
+0	24	556	2926	2932	S	557	racist	racist	racist	JJ	O	amod	O	-1	O
+0	24	557	2933	2940		548	enemies	enemies	enemy	NNS	O	rcmod	O	-1	B-noun.person
+0	24	558	2940	2941	S	546	.	.	.	.	O	punct	O	-1	O
+0	25	559	2942	2947	S	560	Uncas	Uncas	Uncas	NNP	PERSON	nsubj	O	4	B-noun.person
+0	25	560	2948	2955	N	-1	reveals	reveals	reveal	VBZ	O	null	O	-1	B-verb.perception
+0	25	561	2956	2959	S	563	his	his	he	PRP$	O	poss	O	-1	O
+0	25	562	2960	2967	S	563	exalted	exalted	exalted	JJ	O	amod	O	-1	O
+0	25	563	2968	2976	S	560	heritage	heritage	heritage	NN	O	dobj	O	-1	B-noun.cognition
+0	25	564	2977	2979	S	560	to	to	to	TO	O	prep	O	-1	O
+0	25	565	2980	2983	S	568	the	the	the	DT	O	det	O	-1	O
+0	25	566	2984	2992	S	568	Delaware	Delaware	Delaware	NNP	LOCATION	nn	O	-1	B-noun.group
+0	25	567	2993	2997	S	568	sage	sage	sage	NN	O	nn	O	-1	B-noun.person
+0	25	568	2998	3006	S	564	Tamenund	Tamenund	Tamenund	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	25	569	3007	3010	S	560	and	and	and	CC	O	cc	O	-1	O
+0	25	570	3011	3015	S	571	then	then	then	RB	O	advmod	O	-1	O
+0	25	571	3016	3023	N	560	demands	demands	demand	VBZ	O	conj	O	-1	B-verb.communication
+0	25	572	3024	3027	S	573	the	the	the	DT	O	det	O	-1	O
+0	25	573	3028	3035	S	571	release	release	release	NN	O	dobj	O	-1	B-noun.act
+0	25	574	3036	3038	S	573	of	of	of	IN	O	prep	O	-1	O
+0	25	575	3039	3042	S	577	all	all	all	PDT	O	predet	O	-1	O
+0	25	576	3043	3046	S	577	his	his	he	PRP$	O	poss	O	-1	O
+0	25	577	3047	3054	S	574	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	25	578	3055	3058	S	560	but	but	but	CC	O	cc	O	-1	O
+0	25	579	3059	3063		584	Cora	Cora	Cora	NNP	PERSON	nsubj	O	3	B-noun.person
+0	25	580	3063	3064	S	579	,	,	,	,	O	punct	O	-1	O
+0	25	581	3065	3068	S	583	who	who	who	WP	O	rel	O	-1	O
+0	25	582	3069	3071	S	583	he	he	he	PRP	O	nsubj	O	3	O
+0	25	583	3072	3078	S	584	admits	admits	admit	VBZ	O	csubj	O	-1	B-verb.communication
+0	25	584	3079	3086	S	560	belongs	belongs	belong	VBZ	O	conj	O	-1	B-verb.stative
+0	25	585	3087	3089	N	584	to	to	to	TO	O	prep	O	-1	O
+0	25	586	3090	3095		585	Magua	Magua	Magua	NNP	LOCATION	pobj	O	-1	O
+0	25	587	3095	3096	S	560	.	.	.	.	O	punct	O	-1	O
+0	26	588	3097	3102	S	589	Magua	Magua	Magua	NNP	PERSON	nsubj	O	0	B-noun.person
+0	26	589	3103	3110	S	-1	departs	departs	depart	VBZ	O	null	O	-1	B-verb.motion
+0	26	590	3111	3115	S	589	with	with	with	IN	O	prep	O	-1	O
+0	26	591	3116	3120		590	Cora	Cora	Cora	NNP	PERSON	pobj	O	3	B-noun.person
+0	26	592	3120	3121	S	589	.	.	.	.	O	punct	O	-1	O
+0	27	593	3122	3123	S	594	A	A	a	DT	O	det	O	-1	O
+0	27	594	3124	3129	S	598	chase	chase	chase	NN	O	nsubj	O	-1	B-noun.act
+0	27	595	3130	3133	S	594	and	and	and	CC	O	cc	O	-1	O
+0	27	596	3134	3135	S	597	a	a	a	DT	O	det	O	-1	O
+0	27	597	3136	3142	S	594	battle	battle	battle	NN	O	conj	O	-1	B-noun.act
+0	27	598	3143	3148		-1	ensue	ensue	ensue	VBP	O	null	O	-1	B-verb.stative
+0	27	599	3148	3149	S	598	.	.	.	.	O	punct	O	-1	O
+0	28	600	3150	3155	N	604	Magua	Magua	magua	NN	PERSON	nsubj	O	0	B-noun.person
+0	28	601	3156	3159	S	600	and	and	and	CC	O	cc	O	-1	O
+0	28	602	3160	3163	S	603	his	his	he	PRP$	O	poss	O	3	O
+0	28	603	3164	3170	S	600	Hurons	Hurons	Hurons	NNPS	MISC	conj	O	-1	O
+0	28	604	3171	3177	S	-1	suffer	suffer	suffer	VBP	O	null	O	-1	B-verb.perception
+0	28	605	3178	3185	S	606	painful	painful	painful	JJ	O	amod	O	-1	O
+0	28	606	3186	3192		604	defeat	defeat	defeat	NN	O	dobj	O	-1	B-noun.event
+0	28	607	3192	3193	S	604	,	,	,	,	O	punct	O	-1	O
+0	28	608	3194	3197	S	604	but	but	but	CC	O	cc	O	-1	O
+0	28	609	3198	3199	S	610	a	a	a	DT	O	det	O	-1	O
+0	28	610	3200	3205	S	604	rogue	rogue	rogue	NN	O	conj	O	-1	B-noun.person
+0	28	611	3206	3211	S	612	Huron	Huron	Huron	NNP	PERSON	nsubj	O	1	I-noun.person
+0	28	612	3212	3217	S	610	kills	kills	kill	VBZ	O	rcmod	O	-1	B-verb.contact
+0	28	613	3218	3222		612	Cora	Cora	Cora	NNP	PERSON	dobj	O	3	B-noun.person
+0	28	614	3222	3223	N	604	.	.	.	.	O	punct	O	-1	O
+0	29	615	3224	3229	S	616	Uncas	Uncas	Uncas	NNP	PERSON	nsubj	O	4	B-noun.person
+0	29	616	3230	3236	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	29	617	3237	3239	S	618	to	to	to	TO	O	aux	O	-1	O
+0	29	618	3240	3246	S	616	attack	attack	attack	VB	O	xcomp	O	-1	B-verb.competition
+0	29	619	3247	3250	S	620	the	the	the	DT	O	det	O	-1	O
+0	29	620	3251	3256	S	618	Huron	Huron	Huron	NNP	O	dobj	O	-1	O
+0	29	621	3257	3260	S	622	who	who	who	WP	O	nsubj	O	-1	O
+0	29	622	3261	3267	S	620	killed	killed	kill	VBD	O	rcmod	O	-1	B-verb.contact
+0	29	623	3268	3272		622	Cora	Cora	Cora	NNP	PERSON	dobj	O	3	B-noun.person
+0	29	624	3272	3273	S	616	,	,	,	,	O	punct	O	-1	O
+0	29	625	3274	3277	S	616	but	but	but	CC	O	cc	O	-1	O
+0	29	626	3278	3283	S	627	Magua	Magua	Magua	NNP	PERSON	nsubj	O	0	B-noun.person
+0	29	627	3284	3289	N	616	stabs	stabs	stab	VBZ	O	conj	O	-1	B-verb.contact
+0	29	628	3290	3295	S	627	Uncas	Uncas	Uncas	NNP	PERSON	dobj	O	4	B-noun.person
+0	29	629	3296	3298	S	627	in	in	in	IN	O	prep	O	-1	O
+0	29	630	3299	3302	S	631	the	the	the	DT	O	det	O	-1	O
+0	29	631	3303	3307		629	back	back	back	NN	O	pobj	O	-1	B-noun.body
+0	29	632	3307	3308	S	616	.	.	.	.	O	punct	O	-1	O
+0	30	633	3309	3314	S	634	Magua	Magua	Magua	NNP	PERSON	nsubj	O	0	B-noun.person
+0	30	634	3315	3320	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	30	635	3321	3323	S	636	to	to	to	TO	O	aux	O	-1	O
+0	30	636	3324	3328	S	634	leap	leap	leap	VB	O	xcomp	O	-1	B-verb.motion
+0	30	637	3329	3335	S	636	across	across	across	IN	O	prep	O	-1	O
+0	30	638	3336	3337	S	640	a	a	a	DT	O	det	O	-1	O
+0	30	639	3338	3343	S	640	great	great	great	JJ	O	amod	O	-1	O
+0	30	640	3344	3350		637	divide	divide	divide	NN	O	pobj	O	-1	B-noun.state
+0	30	641	3350	3351	S	634	,	,	,	,	O	punct	O	-1	O
+0	30	642	3352	3355	N	634	but	but	but	CC	O	cc	O	-1	O
+0	30	643	3356	3358	S	644	he	he	he	PRP	O	nsubj	O	3	O
+0	30	644	3359	3364	S	634	falls	falls	fall	VBZ	O	conj	O	-1	B-verb.contact
+0	30	645	3365	3370	S	644	short	short	short	JJ	O	acomp	O	-1	O
+0	30	646	3371	3374	S	634	and	and	and	CC	O	cc	O	-1	O
+0	30	647	3375	3379	S	648	must	must	must	MD	O	aux	O	-1	O
+0	30	648	3380	3385	S	634	cling	cling	cling	VB	O	conj	O	-1	B-verb.contact
+0	30	649	3386	3388	S	648	to	to	to	TO	O	prep	O	-1	O
+0	30	650	3389	3390	S	651	a	a	a	DT	O	det	O	-1	O
+0	30	651	3391	3396	S	649	shrub	shrub	shrub	NN	O	pobj	O	-1	B-noun.plant
+0	30	652	3397	3399	S	653	to	to	to	TO	O	aux	O	-1	O
+0	30	653	3400	3405	S	648	avoid	avoid	avoid	VB	O	xcomp	O	-1	B-verb.social
+0	30	654	3406	3414	S	653	tumbling	tumbling	tumble	VBG	O	dep	O	-1	B-verb.motion
+0	30	655	3415	3418	S	654	off	off	off	RB	O	advmod	O	-1	O
+0	30	656	3419	3422	N	654	and	and	and	CC	O	cc	O	-1	O
+0	30	657	3423	3428		654	dying	dying	die	VBG	O	conj	O	-1	B-verb.change
+0	30	658	3428	3429	S	634	.	.	.	.	O	punct	O	-1	O
+0	31	659	3430	3437	S	660	Hawkeye	Hawkeye	hawkeye	NN	LOCATION	nsubj	O	-1	O
+0	31	660	3438	3444	S	-1	shoots	shoots	shoot	VBZ	O	null	O	-1	B-verb.competition
+0	31	661	3445	3448		660	him	him	he	PRP	O	dobj	O	-1	O
+0	31	662	3448	3449	S	660	,	,	,	,	O	punct	O	-1	O
+0	31	663	3450	3453	S	660	and	and	and	CC	O	cc	O	-1	O
+0	31	664	3454	3459	S	660	Magua	Magua	magua	NN	PERSON	conj	O	0	B-noun.person
+0	31	665	3460	3462	S	664	at	at	at	IN	O	prep	O	-1	O
+0	31	666	3463	3467	S	667	last	last	last	JJ	O	amod	O	-1	O
+0	31	667	3468	3476	S	665	plummets	plummets	plummet	NNS	O	pobj	O	-1	B-noun.artifact
+0	31	668	3477	3479	S	664	to	to	to	TO	O	prep	O	-1	O
+0	31	669	3480	3483	S	670	his	his	he	PRP$	O	poss	O	-1	O
+0	31	670	3484	3489		668	death	death	death	NN	O	pobj	O	-1	B-noun.time
+0	31	671	3489	3490	S	660	.	.	.	.	O	punct	O	-1	O
+0	32	672	3491	3495	S	675	Cora	Cora	Cora	NNP	PERSON	nsubj	O	3	B-noun.person
+0	32	673	3496	3499	S	672	and	and	and	CC	O	cc	O	-1	O
+0	32	674	3500	3505	S	672	Uncas	Uncas	Uncas	NNP	PERSON	conj	O	4	B-noun.person
+0	32	675	3506	3513	S	-1	receive	receive	receive	VBP	O	null	O	-1	B-verb.possession
+0	32	676	3514	3520	S	677	proper	proper	proper	JJ	O	amod	O	-1	O
+0	32	677	3521	3528	S	675	burials	burials	burial	NNS	O	iobj	O	-1	B-noun.event
+0	32	678	3529	3532	S	680	the	the	the	DT	DATE	det	O	-1	O
+0	32	679	3533	3537	S	680	next	next	next	JJ	DATE	amod	O	-1	O
+0	32	680	3538	3545	N	675	morning	morning	morning	NN	DATE	dobj	O	-1	B-noun.time
+0	32	681	3546	3550	S	680	amid	amid	amid	IN	O	prep	O	-1	O
+0	32	682	3551	3557	S	683	ritual	ritual	ritual	NN	O	nn	O	-1	B-noun.act
+0	32	683	3558	3564	S	681	chants	chants	chant	NNS	O	pobj	O	-1	B-noun.communication
+0	32	684	3565	3574	S	683	performed	performed	perform	VBN	O	partmod	O	-1	B-verb.creation
+0	32	685	3575	3577	S	684	by	by	by	IN	O	prep	O	-1	O
+0	32	686	3578	3581	S	687	the	the	the	DT	O	det	O	-1	O
+0	32	687	3582	3591		685	Delawares	Delawares	Delawares	NNPS	ORGANIZATION	pobj	O	-1	O
+0	32	688	3591	3592	S	675	.	.	.	.	O	punct	O	-1	O
+0	33	689	3593	3605	S	690	Chingachgook	Chingachgook	Chingachgook	NNP	PERSON	nsubj	O	8	B-noun.person
+0	33	690	3606	3612	S	-1	mourns	mourns	mourn	VBZ	O	null	O	-1	B-verb.emotion
+0	33	691	3613	3616	N	692	the	the	the	DT	O	det	O	-1	O
+0	33	692	3617	3621	S	690	loss	loss	loss	NN	O	dobj	O	-1	B-noun.possession
+0	33	693	3622	3624	S	692	of	of	of	IN	O	prep	O	-1	O
+0	33	694	3625	3628	S	695	his	his	he	PRP$	O	poss	O	3	O
+0	33	695	3629	3632		693	son	son	son	NN	O	pobj	O	-1	B-noun.person
+0	33	696	3632	3633	S	690	,	,	,	,	O	punct	O	-1	O
+0	33	697	3634	3639	S	700	while	while	while	IN	O	mark	O	-1	O
+0	33	698	3640	3648	S	700	Tamenund	Tamenund	Tamenund	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	33	699	3649	3660	S	700	sorrowfully	sorrowfully	sorrowfully	RB	O	advmod	O	-1	O
+0	33	700	3661	3669	S	690	declares	declares	declare	VBZ	O	advcl	O	-1	B-verb.communication
+0	33	701	3670	3674	S	704	that	that	that	IN	O	complm	O	-1	O
+0	33	702	3675	3677	S	704	he	he	he	PRP	O	nsubj	O	3	O
+0	33	703	3678	3681	S	704	has	has	have	VBZ	O	aux	O	-1	O
+0	33	704	3682	3687	N	700	lived	lived	live	VBN	O	ccomp	O	-1	B-verb.stative
+0	33	705	3688	3690	S	706	to	to	to	TO	O	aux	O	-1	O
+0	33	706	3691	3694	S	704	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	33	707	3695	3698	S	709	the	the	the	DT	O	det	O	-1	O
+0	33	708	3699	3703	S	709	last	last	last	JJ	O	amod	O	-1	O
+0	33	709	3704	3711	S	706	warrior	warrior	warrior	NN	O	dobj	O	-1	B-noun.person
+0	33	710	3712	3714	S	709	of	of	of	IN	O	prep	O	-1	O
+0	33	711	3715	3718	S	713	the	the	the	DT	O	det	O	-1	O
+0	33	712	3719	3724	S	713	noble	noble	noble	JJ	O	amod	O	-1	O
+0	33	713	3725	3729	S	710	race	race	race	NN	O	pobj	O	-1	B-noun.event
+0	33	714	3730	3732	S	713	of	of	of	IN	O	prep	O	-1	O
+0	33	715	3733	3736	S	716	the	the	the	DT	O	det	O	-1	O
+0	33	716	3737	3745		714	Mohicans	Mohicans	Mohicans	NNPS	O	pobj	O	-1	B-noun.person
+0	33	717	3745	3746	N	690	.	.	.	.	O	punct	O	-1	O

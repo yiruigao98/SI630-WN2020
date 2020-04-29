@@ -1,0 +1,602 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	5	S	2	Bosom	Bosom	bosom	NN	O	nn	O	-1	B-noun.state
+0	0	1	6	13	S	2	buddies	buddies	buddy	NNS	O	nn	O	-1	B-noun.person
+0	0	2	14	23	S	5	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	0	3	24	27	S	2	and	and	and	CC	O	cc	O	-1	O
+0	0	4	28	35	S	2	Proteus	Proteus	Proteus	NNP	O	conj	O	-1	B-noun.person
+0	0	5	36	39	S	-1	bid	bid	bid	VBD	O	null	O	-1	B-verb.possession
+0	0	6	40	41	S	8	a	a	a	DT	O	det	O	-1	O
+0	0	7	42	49	S	8	tearful	tearful	tearful	JJ	O	amod	O	-1	O
+0	0	8	50	58	S	5	farewell	farewell	farewell	NN	O	dobj	O	-1	B-noun.communication
+0	0	9	59	61	S	5	on	on	on	IN	O	prep	O	-1	O
+0	0	10	62	63	S	11	a	a	a	DT	O	det	O	-1	O
+0	0	11	64	70	S	9	street	street	street	NN	O	pobj	O	-1	B-noun.artifact
+0	0	12	71	73	S	11	in	in	in	IN	O	prep	O	-1	O
+0	0	13	74	80		12	Verona	Verona	Verona	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	14	80	81	S	5	.	.	.	.	O	punct	O	-1	O
+0	1	15	82	91	S	16	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	1	16	92	94	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	1	17	95	98	S	16	off	off	off	RB	O	advmod	O	-1	O
+0	1	18	99	101	S	19	to	to	to	TO	O	aux	O	-1	O
+0	1	19	102	109	S	16	improve	improve	improve	VB	O	xcomp	O	-1	B-verb.change
+0	1	20	110	117		19	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	1	21	117	118	S	16	,	,	,	,	O	punct	O	-1	O
+0	1	22	119	128	S	16	venturing	venturing	venture	VBG	O	xcomp	O	-1	O
+0	1	23	129	132	S	22	out	out	out	RP	O	prt	O	-1	O
+0	1	24	133	135	S	25	to	to	to	TO	O	aux	O	-1	O
+0	1	25	136	139	S	22	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	1	26	140	143	S	27	the	the	the	DT	O	det	O	-1	O
+0	1	27	144	149		25	world	world	world	NN	O	dobj	O	-1	B-noun.object
+0	1	28	149	150	S	16	,	,	,	,	O	punct	O	-1	O
+0	1	29	151	156	S	31	while	while	while	IN	O	mark	O	-1	O
+0	1	30	157	164	S	31	Proteus	Proteus	Proteus	NNP	MISC	nsubj	O	-1	B-noun.person
+0	1	31	165	170	S	16	stays	stays	stay	VBZ	O	advcl	O	-1	B-verb.motion
+0	1	32	171	175	S	31	home	home	home	NN	O	dobj	O	-1	B-noun.location
+0	1	33	176	178	S	31	in	in	in	IN	O	prep	O	-1	O
+0	1	34	179	185		33	Verona	Verona	Verona	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	1	35	185	186	S	34	,	,	,	,	O	punct	O	-1	O
+0	1	36	187	191	S	34	tied	tied	tie	VBN	O	partmod	O	-1	B-verb.contact
+0	1	37	192	194	S	36	by	by	by	IN	O	prep	O	-1	O
+0	1	38	195	198	S	39	his	his	he	PRP$	O	poss	O	-1	O
+0	1	39	199	203	S	37	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	1	40	204	207	S	39	for	for	for	IN	O	prep	O	-1	O
+0	1	41	208	213		40	Julia	Julia	Julia	NNP	PERSON	pobj	O	1	O
+0	1	42	213	214	S	16	.	.	.	.	O	punct	O	-1	O
+0	2	43	215	220	S	45	After	After	after	IN	O	mark	O	-1	O
+0	2	44	221	230	S	45	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	2	45	231	238		52	departs	departs	depart	VBZ	O	advcl	O	-1	B-verb.motion
+0	2	46	238	239	S	52	,	,	,	,	O	punct	O	-1	O
+0	2	47	240	243	S	48	his	his	he	PRP$	O	poss	O	3	O
+0	2	48	244	251		52	servant	servant	servant	NN	O	nsubj	O	-1	B-noun.person
+0	2	49	251	252	S	48	,	,	,	,	O	punct	O	-1	O
+0	2	50	253	258		48	Speed	Speed	speed	NN	O	appos	O	-1	B-noun.time
+0	2	51	258	259	S	48	,	,	,	,	O	punct	O	-1	O
+0	2	52	260	266		-1	enters	enters	enter	VBZ	O	null	O	-1	B-verb.motion
+0	2	53	266	267	S	52	.	.	.	.	O	punct	O	-1	O
+0	3	54	268	275	S	55	Proteus	Proteus	Proteus	NNP	O	nsubj	O	-1	B-noun.person
+0	3	55	276	284	S	-1	inquires	inquires	inquire	VBZ	O	null	O	-1	B-verb.communication
+0	3	56	285	292	S	59	whether	whether	whether	IN	O	complm	O	-1	O
+0	3	57	293	295	S	59	or	or	or	CC	O	dep	O	-1	O
+0	3	58	296	299	S	59	not	not	not	RB	O	dep	O	-1	O
+0	3	59	300	305	S	55	Speed	Speed	speed	VB	O	ccomp	O	-1	O
+0	3	60	306	315	S	59	delivered	delivered	deliver	VBN	O	prep	O	-1	B-verb.communication
+0	3	61	316	317	S	62	a	a	a	DT	O	det	O	-1	O
+0	3	62	318	324	S	60	letter	letter	letter	NN	O	dep	O	-1	B-noun.communication
+0	3	63	325	327	S	62	to	to	to	TO	O	prep	O	-1	O
+0	3	64	328	333		63	Julia	Julia	Julia	NNP	PERSON	pobj	O	1	O
+0	3	65	333	334	S	59	,	,	,	,	O	punct	O	-1	O
+0	3	66	335	337	S	69	to	to	to	TO	O	rel	O	-1	O
+0	3	67	338	343	S	66	which	which	which	WDT	O	pobj	O	-1	O
+0	3	68	344	349	S	69	Speed	Speed	speed	NN	O	nsubj	O	-1	B-noun.time
+0	3	69	350	357	S	59	replies	replies	reply	VBZ	O	xcomp	O	-1	B-verb.communication
+0	3	70	358	371		69	affirmatively	affirmatively	affirmatively	RB	O	advmod	O	-1	O
+0	3	71	371	372	S	55	.	.	.	.	O	punct	O	-1	O
+0	4	72	373	378		76	Julia	Julia	Julia	NNP	PERSON	nsubj	O	1	O
+0	4	73	378	379	S	76	,	,	,	,	O	punct	O	-1	O
+0	4	74	380	389		76	meanwhile	meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	4	75	389	390	S	76	,	,	,	,	O	punct	O	-1	O
+0	4	76	391	395	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	4	77	396	399	S	78	her	her	she	PRP$	O	poss	O	1	O
+0	4	78	400	404		76	maid	maid	maid	NN	O	dobj	O	-1	B-noun.person
+0	4	79	404	405	S	76	,	,	,	,	O	punct	O	-1	O
+0	4	80	406	413		87	Lucetta	Lucetta	Lucetta	NNP	LOCATION	dep	O	-1	O
+0	4	81	413	414	S	80	,	,	,	,	O	punct	O	-1	O
+0	4	82	415	419	S	80	with	with	with	IN	O	prep	O	-1	O
+0	4	83	420	425	S	84	which	which	which	WDT	O	det	O	-1	O
+0	4	84	426	429	S	82	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	4	85	430	433	S	87	she	she	she	PRP	O	nsubj	O	1	O
+0	4	86	434	440	S	87	should	should	should	MD	O	aux	O	-1	O
+0	4	87	441	445	S	76	fall	fall	fall	VB	O	conj	O	-1	B-verb.motion
+0	4	88	446	448	S	87	in	in	in	IN	O	prep	O	-1	O
+0	4	89	449	453		88	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	4	90	453	454	S	76	,	,	,	,	O	punct	O	-1	O
+0	4	91	455	458	S	76	and	and	and	CC	O	cc	O	-1	O
+0	4	92	459	466	S	93	Lucetta	Lucetta	Lucetta	NNP	PERSON	nsubj	O	4	B-noun.person
+0	4	93	467	477	S	76	recommends	recommends	recommend	VBZ	O	conj	O	-1	B-verb.communication
+0	4	94	478	485		93	Proteus	Proteus	Proteus	NNP	O	dobj	O	-1	B-noun.person
+0	4	95	485	486	S	76	.	.	.	.	O	punct	O	-1	O
+0	5	96	487	494	S	97	Lucetta	Lucetta	Lucetta	NNP	PERSON	nsubj	O	4	B-noun.person
+0	5	97	495	501	S	-1	admits	admits	admit	VBZ	O	null	O	-1	B-verb.communication
+0	5	98	502	506	S	100	that	that	that	IN	O	complm	O	-1	O
+0	5	99	507	510	S	100	she	she	she	PRP	O	nsubj	O	1	O
+0	5	100	511	514	S	97	has	has	have	VBZ	O	ccomp	O	-1	B-verb.possession
+0	5	101	515	516	S	102	a	a	a	DT	O	det	O	-1	O
+0	5	102	517	523	S	100	letter	letter	letter	NN	O	dobj	O	-1	B-noun.communication
+0	5	103	524	527	S	102	for	for	for	IN	O	prep	O	-1	O
+0	5	104	528	533	S	103	Julia	Julia	Julia	NNP	PERSON	pobj	O	1	B-noun.person
+0	5	105	534	538	S	102	from	from	from	IN	O	prep	O	-1	O
+0	5	106	539	546		105	Proteus	Proteus	Proteus	NNP	O	pobj	O	-1	B-noun.person
+0	5	107	546	547	S	97	.	.	.	.	O	punct	O	-1	O
+0	6	108	548	553	S	113	After	After	after	IN	O	mark	O	-1	O
+0	6	109	554	558	S	110	much	much	much	JJ	O	amod	O	-1	O
+0	6	110	559	568		113	bickering	bickering	bickering	NN	O	nsubj	O	-1	B-noun.communication
+0	6	111	568	569	S	113	,	,	,	,	O	punct	O	-1	O
+0	6	112	570	575	S	113	Julia	Julia	Julia	NNP	PERSON	nsubj	O	1	O
+0	6	113	576	581	S	120	tears	tears	tear	NNS	O	advcl	O	-1	B-noun.body
+0	6	114	582	584	S	113	up	up	up	IN	O	prep	O	-1	O
+0	6	115	585	588	S	116	the	the	the	DT	O	det	O	-1	O
+0	6	116	589	595		114	letter	letter	letter	NN	O	pobj	O	-1	B-noun.communication
+0	6	117	595	596	S	120	,	,	,	,	O	punct	O	-1	O
+0	6	118	597	601	S	120	only	only	only	RB	O	advmod	O	-1	O
+0	6	119	602	604	S	120	to	to	to	TO	O	aux	O	-1	O
+0	6	120	605	611	S	-1	regret	regret	regret	VB	O	null	O	-1	B-verb.emotion
+0	6	121	612	616	S	122	this	this	this	DT	O	det	O	-1	O
+0	6	122	617	620	S	120	act	act	act	NN	O	dobj	O	-1	B-noun.communication
+0	6	123	621	623	S	124	an	an	a	DT	O	det	O	-1	O
+0	6	124	624	631	S	120	instant	instant	instant	NN	O	tmod	O	-1	B-noun.time
+0	6	125	632	637		124	later	later	later	RB	O	advmod	O	-1	O
+0	6	126	637	638	S	120	.	.	.	.	O	punct	O	-1	O
+0	7	127	639	646	S	128	Antonio	Antonio	Antonio	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	7	128	647	654	S	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	7	129	655	657	S	130	to	to	to	TO	O	aux	O	-1	O
+0	7	130	658	662	S	128	send	send	send	VB	O	xcomp	O	-1	B-verb.motion
+0	7	131	663	670		130	Proteus	Proteus	Proteus	NNP	O	dobj	O	-1	B-noun.person
+0	7	132	670	671	S	128	,	,	,	,	O	punct	O	-1	O
+0	7	133	672	675	S	134	his	his	he	PRP$	O	poss	O	-1	O
+0	7	134	676	679		128	son	son	son	NN	O	dobj	O	-1	B-noun.person
+0	7	135	679	680	S	134	,	,	,	,	O	punct	O	-1	O
+0	7	136	681	683	S	134	to	to	to	TO	O	prep	O	-1	O
+0	7	137	684	687	S	138	the	the	the	DT	O	det	O	-1	O
+0	7	138	688	692		140	Duke	Duke	Duke	NNP	O	poss	O	-1	B-noun.person
+0	7	139	692	694	S	138	's	's	's	POS	O	possessive	O	-1	O
+0	7	140	695	700	S	136	court	court	court	NN	O	pobj	O	-1	B-noun.group
+0	7	141	701	703	S	140	in	in	in	IN	O	prep	O	-1	O
+0	7	142	704	709		141	Milan	Milan	Milan	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	7	143	709	710	S	134	,	,	,	,	O	punct	O	-1	O
+0	7	144	711	712	S	145	a	a	a	DT	O	det	O	-1	O
+0	7	145	713	721	S	134	decision	decision	decision	NN	O	appos	O	-1	B-noun.act
+0	7	146	722	726	S	154	with	with	with	IN	O	rel	O	-1	O
+0	7	147	727	732	S	146	which	which	which	WDT	O	pobj	O	-1	O
+0	7	148	733	740	S	149	neither	neither	neither	CC	O	preconj	O	-1	O
+0	7	149	741	748	S	154	Proteus	Proteus	Proteus	NNP	ORGANIZATION	nsubj	O	-1	B-noun.person
+0	7	150	749	752	S	149	nor	nor	nor	CC	O	cc	O	-1	O
+0	7	151	753	758	S	149	Julia	Julia	Julia	NNP	PERSON	conj	O	1	B-noun.person
+0	7	152	759	761	S	154	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	7	153	762	774	S	154	particularly	particularly	particularly	RB	O	advmod	O	-1	O
+0	7	154	775	780		145	happy	happy	happy	JJ	O	rcmod	O	-1	O
+0	7	155	780	781	S	128	.	.	.	.	O	punct	O	-1	O
+0	8	156	782	786	S	157	They	They	they	PRP	O	nsubj	O	-1	O
+0	8	157	787	795	S	-1	exchange	exchange	exchange	VBP	O	null	O	-1	B-verb.possession
+0	8	158	796	801	S	157	rings	rings	ring	NNS	O	dobj	O	-1	B-noun.attribute
+0	8	159	802	805	S	157	and	and	and	CC	O	cc	O	-1	O
+0	8	160	806	814	S	157	promises	promises	promise	VBZ	O	conj	O	-1	B-verb.communication
+0	8	161	815	817	S	162	to	to	to	TO	O	aux	O	-1	O
+0	8	162	818	822	S	160	keep	keep	keep	VB	O	xcomp	O	-1	B-verb.stative
+0	8	163	823	829	S	162	loving	loving	loving	JJ	O	dep	O	-1	O
+0	8	164	830	834	S	165	each	each	each	DT	O	det	O	-1	O
+0	8	165	835	840		163	other	other	other	JJ	O	dep	O	-1	O
+0	8	166	840	841	S	157	.	.	.	.	O	punct	O	-1	O
+0	9	167	842	851		171	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	9	168	851	852	S	171	,	,	,	,	O	punct	O	-1	O
+0	9	169	853	862	S	171	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	9	170	863	866	S	171	has	has	have	VBZ	O	aux	O	-1	O
+0	9	171	867	873	S	-1	fallen	fallen	fall	VBN	O	null	O	-1	B-verb.change
+0	9	172	874	876	S	171	in	in	in	IN	O	prep	O	-1	O
+0	9	173	877	881	S	172	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	9	174	882	886	S	173	with	with	with	IN	O	prep	O	-1	O
+0	9	175	887	890	S	176	the	the	the	DT	O	det	O	-1	O
+0	9	176	891	895		179	Duke	Duke	Duke	NNP	ORGANIZATION	poss	O	0	B-noun.person
+0	9	177	895	897	S	176	's	's	's	POS	O	possessive	O	-1	O
+0	9	178	898	904	S	179	feisty	feisty	feisty	JJ	O	amod	O	-1	O
+0	9	179	905	913		174	daughter	daughter	daughter	NN	O	pobj	O	-1	B-noun.person
+0	9	180	913	914	S	179	,	,	,	,	O	punct	O	-1	O
+0	9	181	915	921		179	Silvia	Silvia	Silvia	NNP	PERSON	appos	O	6	O
+0	9	182	921	922	S	171	.	.	.	.	O	punct	O	-1	O
+0	10	183	923	927	S	185	When	When	when	WRB	O	advmod	O	-1	O
+0	10	184	928	935	S	185	Proteus	Proteus	Proteus	NNP	O	nsubj	O	-1	B-noun.person
+0	10	185	936	943	S	191	arrives	arrives	arrive	VBZ	O	dep	O	-1	B-verb.motion
+0	10	186	944	946	S	185	at	at	at	IN	O	prep	O	-1	O
+0	10	187	947	952		186	court	court	court	NN	O	pobj	O	-1	B-noun.group
+0	10	188	952	953	S	191	,	,	,	,	O	punct	O	-1	O
+0	10	189	954	956	S	191	he	he	he	PRP	O	nsubj	O	-1	O
+0	10	190	957	960	S	191	too	too	too	RB	O	advmod	O	-1	O
+0	10	191	961	966	S	-1	falls	falls	fall	VBZ	O	null	O	-1	B-verb.change
+0	10	192	967	969	S	191	in	in	in	IN	O	prep	O	-1	O
+0	10	193	970	974	S	192	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	10	194	975	979	S	193	with	with	with	IN	O	prep	O	-1	O
+0	10	195	980	986		194	Silvia	Silvia	Silvia	NNP	PERSON	pobj	O	6	O
+0	10	196	986	987	S	191	,	,	,	,	O	punct	O	-1	O
+0	10	197	988	991	S	191	and	and	and	CC	O	cc	O	-1	O
+0	10	198	992	996	S	191	vows	vows	vow	VBZ	O	conj	O	-1	B-verb.communication
+0	10	199	997	999	S	200	to	to	to	TO	O	aux	O	-1	O
+0	10	200	1000	1002	S	198	do	do	do	VB	O	xcomp	O	-1	B-verb.social
+0	10	201	1003	1011	S	200	anything	anything	anything	NN	O	dobj	O	-1	O
+0	10	202	1012	1014	S	203	he	he	he	PRP	O	nsubj	O	-1	O
+0	10	203	1015	1018	S	201	can	can	can	MD	O	rcmod	O	-1	O
+0	10	204	1019	1021	S	205	to	to	to	TO	O	aux	O	-1	O
+0	10	205	1022	1025	S	203	win	win	win	VB	O	xcomp	O	-1	B-verb.competition
+0	10	206	1026	1029	S	205	her	her	she	PRP$	O	ccomp	O	-1	O
+0	10	207	1030	1034	S	206	away	away	away	RB	O	advmod	O	-1	O
+0	10	208	1035	1039	S	207	from	from	from	IN	O	dep	O	-1	O
+0	10	209	1040	1049		208	Valentine	Valentine	Valentine	NNP	PERSON	pobj	O	3	B-noun.person
+0	10	210	1049	1050	S	191	.	.	.	.	O	punct	O	-1	O
+0	11	211	1051	1055	S	213	When	When	when	WRB	O	advmod	O	-1	O
+0	11	212	1056	1065	S	213	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	11	213	1066	1075	S	223	confesses	confesses	confess	VBZ	O	dep	O	-1	B-verb.communication
+0	11	214	1076	1080	S	220	that	that	that	IN	O	complm	O	-1	O
+0	11	215	1081	1083	S	220	he	he	he	PRP	O	nsubj	O	3	O
+0	11	216	1084	1087	S	215	and	and	and	CC	O	cc	O	-1	O
+0	11	217	1088	1094	S	218	Silvia	Silvia	Silvia	NNP	PERSON	nn	O	6	O
+0	11	218	1095	1099	S	215	plan	plan	plan	NN	O	conj	O	-1	B-noun.cognition
+0	11	219	1100	1102	S	220	to	to	to	TO	O	aux	O	-1	O
+0	11	220	1103	1108		213	elope	elope	elope	VB	O	ccomp	O	-1	B-verb.motion
+0	11	221	1108	1109	S	223	,	,	,	,	O	punct	O	-1	O
+0	11	222	1110	1117	S	223	Proteus	Proteus	Proteus	NNP	O	nsubj	O	-1	B-noun.person
+0	11	223	1118	1126	S	-1	notifies	notifies	notify	VBZ	O	null	O	-1	B-verb.communication
+0	11	224	1127	1130	S	225	the	the	the	DT	O	det	O	-1	O
+0	11	225	1131	1135	S	223	Duke	Duke	Duke	NNP	ORGANIZATION	dobj	O	0	B-noun.person
+0	11	226	1136	1138	S	225	of	of	of	IN	O	prep	O	-1	O
+0	11	227	1139	1144	S	228	their	their	they	PRP$	O	poss	O	-1	O
+0	11	228	1145	1150		226	plans	plans	plan	NNS	O	pobj	O	-1	B-noun.cognition
+0	11	229	1150	1151	S	223	,	,	,	,	O	punct	O	-1	O
+0	11	230	1152	1159	S	223	gaining	gaining	gain	VBG	O	xcomp	O	-1	B-verb.possession
+0	11	231	1160	1165	S	230	favor	favor	favor	NN	O	dobj	O	-1	B-noun.act
+0	11	232	1166	1169	S	230	for	for	for	IN	O	prep	O	-1	O
+0	11	233	1170	1177	S	232	himself	himself	himself	PRP	O	pobj	O	-1	O
+0	11	234	1178	1181	S	230	and	and	and	CC	O	cc	O	-1	O
+0	11	235	1182	1191	S	230	effecting	effecting	effect	VBG	O	conj	O	-1	B-verb.creation
+0	11	236	1192	1201		238	Valentine	Valentine	Valentine	NNP	PERSON	poss	O	3	B-noun.person
+0	11	237	1201	1203	S	236	's	's	's	POS	O	possessive	O	-1	O
+0	11	238	1204	1214	S	235	banishment	banishment	banishment	NN	O	dobj	O	-1	B-noun.state
+0	11	239	1215	1219	S	235	from	from	from	IN	O	prep	O	-1	O
+0	11	240	1220	1225		239	court	court	court	NN	O	pobj	O	-1	B-noun.group
+0	11	241	1225	1226	S	223	.	.	.	.	O	punct	O	-1	O
+0	12	242	1227	1231	S	248	Back	Back	back	RB	O	advmod	O	-1	O
+0	12	243	1232	1234	S	242	in	in	in	IN	O	dep	O	-1	O
+0	12	244	1235	1241		243	Verona	Verona	Verona	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	12	245	1241	1242	S	248	,	,	,	,	O	punct	O	-1	O
+0	12	246	1243	1248	S	248	Julia	Julia	Julia	NNP	PERSON	nsubj	O	1	B-noun.person
+0	12	247	1249	1252	S	248	has	has	have	VBZ	O	aux	O	-1	O
+0	12	248	1253	1260	S	-1	hatched	hatched	hatch	VBN	O	null	O	-1	B-verb.body
+0	12	249	1261	1262	S	250	a	a	a	DT	O	det	O	-1	O
+0	12	250	1263	1267	S	248	plan	plan	plan	NN	O	dobj	O	-1	B-noun.cognition
+0	12	251	1268	1270	S	252	to	to	to	TO	O	aux	O	-1	O
+0	12	252	1271	1279	S	250	disguise	disguise	disguise	VB	O	infmod	O	-1	B-verb.perception
+0	12	253	1280	1287	S	252	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	12	254	1288	1290	S	261	as	as	as	IN	O	mark	O	-1	O
+0	12	255	1291	1292	S	256	a	a	a	DT	O	det	O	-1	O
+0	12	256	1293	1296	S	261	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	12	257	1297	1299	S	261	so	so	so	RB	O	advmod	O	-1	O
+0	12	258	1300	1304	S	261	that	that	that	IN	O	dep	O	-1	O
+0	12	259	1305	1308	S	261	she	she	she	PRP	O	nsubj	O	1	O
+0	12	260	1309	1312	S	261	can	can	can	MD	O	aux	O	-1	O
+0	12	261	1313	1320	S	252	journey	journey	journey	NN	O	advcl	O	-1	B-noun.act
+0	12	262	1321	1323	S	261	to	to	to	TO	O	prep	O	-1	O
+0	12	263	1324	1329	S	262	Milan	Milan	Milan	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	12	264	1330	1332	S	266	to	to	to	TO	O	aux	O	-1	O
+0	12	265	1333	1335	S	266	be	be	be	VB	O	auxpass	O	-1	O
+0	12	266	1336	1344	S	261	reunited	reunited	reunite	VBN	O	infmod	O	-1	B-verb.social
+0	12	267	1345	1349	S	266	with	with	with	IN	O	prep	O	-1	O
+0	12	268	1350	1357		267	Proteus	Proteus	Proteus	NNP	O	pobj	O	-1	B-noun.person
+0	12	269	1357	1358	S	248	.	.	.	.	O	punct	O	-1	O
+0	13	270	1359	1363	S	-1	Upon	Upon	upon	IN	O	null	O	-1	O
+0	13	271	1364	1372	S	270	arriving	arriving	arrive	VBG	O	pcomp	O	-1	B-verb.motion
+0	13	272	1373	1375	S	271	at	at	at	IN	O	prep	O	-1	O
+0	13	273	1376	1381		272	court	court	court	NN	O	pobj	O	-1	B-noun.group
+0	13	274	1381	1382	S	270	,	,	,	,	O	punct	O	-1	O
+0	13	275	1383	1386	S	274	she	she	she	PRP	O	null	O	1	O
+0	13	276	1387	1396	S	277	witnesses	witnesses	witness	NNS	O	nn	O	-1	B-noun.person
+0	13	277	1397	1404	S	275	Proteus	Proteus	Proteus	NNP	O	dep	O	-1	B-noun.person
+0	13	278	1405	1408	S	277	and	and	and	CC	O	cc	O	-1	O
+0	13	279	1409	1415	S	277	Thurio	Thurio	Thurio	NNP	O	conj	O	-1	B-noun.person
+0	13	280	1416	1422	S	279	wooing	wooing	woo	VBG	O	partmod	O	-1	B-verb.social
+0	13	281	1423	1429		280	Silvia	Silvia	Silvia	NNP	PERSON	dobj	O	6	O
+0	13	282	1429	1430	S	275	.	.	.	.	O	punct	O	-1	O
+0	14	283	1431	1434	S	285	The	The	the	DT	O	det	O	-1	O
+0	14	284	1435	1443	S	285	banished	banished	banish	VBN	O	amod	O	-1	B-verb.social
+0	14	285	1444	1453		293	Valentine	Valentine	Valentine	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	14	286	1453	1454	S	293	,	,	,	,	O	punct	O	-1	O
+0	14	287	1455	1460	S	288	while	while	while	IN	O	mark	O	-1	O
+0	14	288	1461	1470	S	293	traveling	traveling	travel	VBG	O	dep	O	-1	B-verb.motion
+0	14	289	1471	1473	S	288	to	to	to	TO	O	prep	O	-1	O
+0	14	290	1474	1480		289	Mantua	Mantua	Mantua	NNP	LOCATION	pobj	O	-1	O
+0	14	291	1480	1481	S	293	,	,	,	,	O	punct	O	-1	O
+0	14	292	1482	1484	S	293	is	is	be	VBZ	O	auxpass	O	-1	O
+0	14	293	1485	1496	S	-1	apprehended	apprehended	apprehend	VBN	O	null	O	-1	B-verb.cognition
+0	14	294	1497	1499	S	293	by	by	by	IN	O	prep	O	-1	O
+0	14	295	1500	1501	S	296	a	a	a	DT	O	det	O	-1	O
+0	14	296	1502	1507	S	294	group	group	group	NN	O	pobj	O	-1	B-noun.group
+0	14	297	1508	1510	S	296	of	of	of	IN	O	prep	O	-1	O
+0	14	298	1511	1518		297	outlaws	outlaws	outlaw	NNS	O	pobj	O	-1	B-noun.person
+0	14	299	1518	1519	S	293	.	.	.	.	O	punct	O	-1	O
+0	15	300	1520	1523	S	301	The	The	the	DT	O	det	O	-1	O
+0	15	301	1524	1531		307	outlaws	outlaws	outlaw	NNS	O	nsubjpass	O	-1	B-noun.person
+0	15	302	1531	1532	S	301	,	,	,	,	O	punct	O	-1	O
+0	15	303	1533	1536	S	301	all	all	all	DT	O	dep	O	-1	O
+0	15	304	1537	1539	S	303	of	of	of	IN	O	prep	O	-1	O
+0	15	305	1540	1544	S	304	whom	whom	whom	WP	O	pobj	O	-1	O
+0	15	306	1545	1548	S	307	are	are	be	VBP	O	auxpass	O	-1	O
+0	15	307	1549	1557	S	-1	banished	banished	banish	VBN	O	null	O	-1	B-verb.social
+0	15	308	1558	1567	S	307	gentlemen	gentlemen	gentleman	NNS	O	dobj	O	-1	B-noun.person
+0	15	309	1568	1570	S	310	as	as	as	RB	O	advmod	O	-1	O
+0	15	310	1571	1575		308	well	well	well	RB	O	advmod	O	-1	O
+0	15	311	1575	1576	S	308	,	,	,	,	O	punct	O	-1	O
+0	15	312	1577	1583	S	313	demand	demand	demand	NN	O	nn	O	-1	B-noun.communication
+0	15	313	1584	1593	S	308	Valentine	Valentine	Valentine	NNP	O	appos	O	-1	B-noun.person
+0	15	314	1594	1596	S	317	to	to	to	TO	O	aux	O	-1	O
+0	15	315	1597	1603	S	317	become	become	become	VB	O	cop	O	-1	B-verb.change
+0	15	316	1604	1609	S	317	their	their	they	PRP$	O	poss	O	-1	O
+0	15	317	1610	1614		308	king	king	king	NN	O	xcomp	O	-1	O
+0	15	318	1614	1615	S	307	.	.	.	.	O	punct	O	-1	O
+0	16	319	1616	1621	S	321	Since	Since	since	IN	O	mark	O	-1	O
+0	16	320	1622	1626	S	321	they	they	they	PRP	O	nsubj	O	-1	O
+0	16	321	1627	1635	S	330	threaten	threaten	threaten	VBP	O	ccomp	O	-1	B-verb.stative
+0	16	322	1636	1638	S	323	to	to	to	TO	O	aux	O	-1	O
+0	16	323	1639	1643	S	321	kill	kill	kill	VB	O	xcomp	O	-1	B-verb.contact
+0	16	324	1644	1647	S	323	him	him	he	PRP	O	dobj	O	-1	O
+0	16	325	1648	1650	S	327	if	if	if	IN	O	mark	O	-1	O
+0	16	326	1651	1653	S	327	he	he	he	PRP	O	nsubj	O	-1	O
+0	16	327	1654	1661		323	refuses	refuses	refuse	VBZ	O	advcl	O	-1	O
+0	16	328	1661	1662	S	330	,	,	,	,	O	punct	O	-1	O
+0	16	329	1663	1672	S	330	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	16	330	1673	1680		-1	accepts	accepts	accept	VBZ	O	null	O	-1	B-verb.cognition
+0	16	331	1680	1681	S	330	.	.	.	.	O	punct	O	-1	O
+0	17	332	1682	1688	S	344	Silvia	Silvia	Silvia	NNP	PERSON	nsubj	O	6	O
+0	17	333	1689	1692	S	332	and	and	and	CC	O	cc	O	-1	O
+0	17	334	1693	1698		332	Julia	Julia	Julia	NNP	PERSON	conj	O	1	O
+0	17	335	1698	1699	S	332	,	,	,	,	O	punct	O	-1	O
+0	17	336	1700	1703	S	338	who	who	who	WP	O	nsubjpass	O	-1	O
+0	17	337	1704	1706	S	338	is	is	be	VBZ	O	auxpass	O	-1	O
+0	17	338	1707	1716	S	332	disguised	disguised	disguise	VBN	O	rcmod	O	-1	B-verb.perception
+0	17	339	1717	1719	S	338	as	as	as	IN	O	prep	O	-1	O
+0	17	340	1720	1723	S	341	the	the	the	DT	O	det	O	-1	O
+0	17	341	1724	1728	S	339	page	page	page	NN	O	pobj	O	-1	B-noun.communication
+0	17	342	1729	1738		341	Sebastian	Sebastian	Sebastian	NNP	PERSON	dep	O	5	O
+0	17	343	1738	1739	S	332	,	,	,	,	O	punct	O	-1	O
+0	17	344	1740	1744	S	-1	meet	meet	meet	VBP	O	null	O	-1	B-verb.social
+0	17	345	1745	1749	S	347	when	when	when	WRB	O	advmod	O	-1	O
+0	17	346	1750	1755	S	347	Julia	Julia	Julia	NNP	PERSON	nsubj	O	1	B-noun.person
+0	17	347	1756	1764	S	344	delivers	delivers	deliver	VBZ	O	advcl	O	-1	B-verb.communication
+0	17	348	1765	1768	S	349	the	the	the	DT	O	det	O	-1	O
+0	17	349	1769	1773	S	347	ring	ring	ring	NN	O	dobj	O	-1	B-noun.group
+0	17	350	1774	1781	S	352	Proteus	Proteus	Proteus	NNP	O	nsubj	O	-1	B-noun.person
+0	17	351	1782	1785	S	352	had	had	have	VBD	O	aux	O	-1	O
+0	17	352	1786	1791	S	349	given	given	give	VBN	O	rcmod	O	-1	B-verb.possession
+0	17	353	1792	1795	S	352	her	her	she	PRP$	O	prep	O	1	O
+0	17	354	1796	1798	S	353	to	to	to	TO	O	prep	O	-1	O
+0	17	355	1799	1805	S	354	Silvia	Silvia	Silvia	NNP	PERSON	pobj	O	6	B-noun.person
+0	17	356	1806	1808	S	352	on	on	on	IN	O	prep	O	-1	O
+0	17	357	1809	1815	S	356	behalf	behalf	behalf	NN	O	pobj	O	-1	B-noun.act
+0	17	358	1816	1818	S	357	of	of	of	IN	O	prep	O	-1	O
+0	17	359	1819	1826		358	Proteus	Proteus	Proteus	NNP	O	pobj	O	-1	B-noun.person
+0	17	360	1826	1827	S	344	.	.	.	.	O	punct	O	-1	O
+0	18	361	1828	1833	S	364	Julia	Julia	Julia	NNP	PERSON	nsubj	O	1	B-noun.person
+0	18	362	1834	1838	S	364	does	does	do	VBZ	O	aux	O	-1	O
+0	18	363	1839	1842	S	364	not	not	not	RB	O	neg	O	-1	O
+0	18	364	1843	1849	S	-1	reveal	reveal	reveal	VB	O	null	O	-1	B-verb.perception
+0	18	365	1850	1853	S	366	her	her	she	PRP$	O	poss	O	1	O
+0	18	366	1854	1862		364	identity	identity	identity	NN	O	dobj	O	-1	B-noun.attribute
+0	18	367	1862	1863	S	364	.	.	.	.	O	punct	O	-1	O
+0	19	368	1864	1870	S	369	Silvia	Silvia	Silvia	NNP	PERSON	nsubj	O	6	O
+0	19	369	1871	1876	S	-1	calls	calls	call	VBZ	O	null	O	-1	B-verb.communication
+0	19	370	1877	1879	S	369	on	on	on	IN	O	prep	O	-1	O
+0	19	371	1880	1883	S	374	her	her	she	PRP$	O	poss	O	1	O
+0	19	372	1884	1890	S	374	friend	friend	friend	NN	O	nn	O	-1	B-noun.person
+0	19	373	1891	1894	S	374	Sir	Sir	Sir	NNP	O	nn	O	-1	B-noun.person
+0	19	374	1895	1903	S	370	Eglamour	Eglamour	Eglamour	NNP	PERSON	pobj	O	2	I-noun.person
+0	19	375	1904	1906	S	376	to	to	to	TO	O	aux	O	-1	O
+0	19	376	1907	1911	S	369	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	19	377	1912	1915	S	378	her	her	she	PRP$	O	poss	O	1	O
+0	19	378	1916	1922	S	376	escape	escape	escape	NN	O	dobj	O	-1	B-noun.act
+0	19	379	1923	1926	S	380	her	her	she	PRP$	O	poss	O	1	O
+0	19	380	1927	1933		383	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	19	381	1933	1935	S	380	's	's	's	POS	O	possessive	O	-1	O
+0	19	382	1936	1946	S	383	oppressive	oppressive	oppressive	JJ	O	amod	O	-1	O
+0	19	383	1947	1951	S	386	will	will	will	NN	O	nsubj	O	-1	O
+0	19	384	1952	1953		386	(	-LRB-	-lrb-	-LRB-	O	punct	O	-1	O
+0	19	385	1953	1955	S	386	he	he	he	PRP	O	nsubj	O	6	O
+0	19	386	1956	1961	S	378	wants	wants	want	VBZ	O	rcmod	O	-1	B-verb.emotion
+0	19	387	1962	1965	S	386	her	her	she	PRP$	O	dobj	O	1	O
+0	19	388	1966	1968	S	389	to	to	to	TO	O	aux	O	-1	O
+0	19	389	1969	1974	S	387	marry	marry	marry	VB	O	xcomp	O	-1	B-verb.social
+0	19	390	1975	1981		391	Thurio	Thurio	Thurio	NNP	O	nn	O	-1	O
+0	19	391	1981	1982	S	389	)	-RRB-	-rrb-	-RRB-	O	dobj	O	-1	O
+0	19	392	1983	1986	S	391	and	and	and	CC	O	cc	O	-1	O
+0	19	393	1987	1989	S	394	to	to	to	TO	O	aux	O	-1	O
+0	19	394	1990	1994	S	391	find	find	find	VB	O	conj	O	-1	B-verb.possession
+0	19	395	1995	2004		394	Valentine	Valentine	Valentine	NNP	PERSON	dobj	O	3	B-noun.person
+0	19	396	2004	2005	S	369	.	.	.	.	O	punct	O	-1	O
+0	20	397	2006	2013		409	However	However	however	RB	O	advmod	O	-1	O
+0	20	398	2013	2014	S	409	,	,	,	,	O	punct	O	-1	O
+0	20	399	2015	2020	S	400	while	while	while	IN	O	mark	O	-1	O
+0	20	400	2021	2030	S	409	traveling	traveling	travel	VBG	O	dep	O	-1	B-verb.motion
+0	20	401	2031	2038	S	400	through	through	through	IN	O	prep	O	-1	O
+0	20	402	2039	2042	S	403	the	the	the	DT	O	det	O	-1	O
+0	20	403	2043	2049		401	forest	forest	forest	NN	O	pobj	O	-1	B-noun.group
+0	20	404	2049	2050	S	409	,	,	,	,	O	punct	O	-1	O
+0	20	405	2051	2054	S	409	she	she	she	PRP	O	nsubjpass	O	1	O
+0	20	406	2055	2058	S	405	and	and	and	CC	O	cc	O	-1	O
+0	20	407	2059	2067	S	405	Eglamour	Eglamour	Eglamour	NNP	PERSON	conj	O	2	B-noun.person
+0	20	408	2068	2071	S	409	are	are	be	VBP	O	auxpass	O	-1	O
+0	20	409	2072	2081	S	-1	overtaken	overtaken	overtake	VBN	O	null	O	-1	B-verb.competition
+0	20	410	2082	2084	S	409	by	by	by	IN	O	prep	O	-1	O
+0	20	411	2085	2086	S	412	a	a	a	DT	O	det	O	-1	O
+0	20	412	2087	2091	S	410	band	band	band	NN	O	pobj	O	-1	B-noun.group
+0	20	413	2092	2094	S	412	of	of	of	IN	O	prep	O	-1	O
+0	20	414	2095	2102		413	outlaws	outlaws	outlaw	NNS	O	pobj	O	-1	B-noun.person
+0	20	415	2102	2103	S	409	.	.	.	.	O	punct	O	-1	O
+0	21	416	2104	2112	S	417	Eglamour	Eglamour	Eglamour	NNP	PERSON	nsubj	O	2	B-noun.person
+0	21	417	2113	2117	S	-1	runs	runs	run	VBZ	O	null	O	-1	B-verb.motion
+0	21	418	2118	2122		417	away	away	away	RB	O	advmod	O	-1	O
+0	21	419	2122	2123	S	417	,	,	,	,	O	punct	O	-1	O
+0	21	420	2124	2131	S	417	leaving	leaving	leave	VBG	O	xcomp	O	-1	B-verb.motion
+0	21	421	2132	2138	S	423	Silvia	Silvia	Silvia	NNP	PERSON	nsubj	O	6	O
+0	21	422	2139	2141	S	423	to	to	to	TO	O	aux	O	-1	O
+0	21	423	2142	2146	S	420	fend	fend	fend	VB	O	ccomp	O	-1	B-verb.social
+0	21	424	2147	2150	S	423	for	for	for	IN	O	prep	O	-1	O
+0	21	425	2151	2158	S	424	herself	herself	herself	PRP	O	pobj	O	-1	O
+0	21	426	2159	2166	S	423	against	against	against	IN	O	prep	O	-1	O
+0	21	427	2167	2170	S	428	the	the	the	DT	O	det	O	-1	O
+0	21	428	2171	2178		426	outlaws	outlaws	outlaw	NNS	O	pobj	O	-1	B-noun.person
+0	21	429	2178	2179	S	417	.	.	.	.	O	punct	O	-1	O
+0	22	430	2180	2182	S	448	By	By	by	IN	O	prep	O	-1	O
+0	22	431	2183	2187	S	432	this	this	this	DT	O	det	O	-1	O
+0	22	432	2188	2192		430	time	time	time	NN	O	pobj	O	-1	B-noun.event
+0	22	433	2192	2193	S	448	,	,	,	,	O	punct	O	-1	O
+0	22	434	2194	2197	S	435	the	the	the	DT	O	det	O	-1	O
+0	22	435	2198	2202		448	Duke	Duke	Duke	NNP	ORGANIZATION	nsubj	O	0	B-noun.person
+0	22	436	2202	2203	S	435	,	,	,	,	O	punct	O	-1	O
+0	22	437	2204	2211		435	Proteus	Proteus	Proteus	NNP	O	conj	O	-1	O
+0	22	438	2211	2212	S	435	,	,	,	,	O	punct	O	-1	O
+0	22	439	2213	2216	S	435	and	and	and	CC	O	cc	O	-1	O
+0	22	440	2217	2223		435	Thurio	Thurio	Thurio	NNP	O	conj	O	-1	O
+0	22	441	2223	2224	S	435	,	,	,	,	O	punct	O	-1	O
+0	22	442	2225	2229	S	435	with	with	with	IN	O	prep	O	-1	O
+0	22	443	2230	2245	S	442	Sebastian/Julia	Sebastian/Julia	Sebastian/Julia	NNP	O	pobj	O	-1	B-noun.person
+0	22	444	2246	2248	S	435	in	in	in	IN	O	prep	O	-1	O
+0	22	445	2249	2252		444	tow	tow	tow	NN	O	pobj	O	-1	B-noun.act
+0	22	446	2252	2253	S	435	,	,	,	,	O	punct	O	-1	O
+0	22	447	2254	2258	S	448	have	have	have	VBP	O	aux	O	-1	O
+0	22	448	2259	2268	S	-1	organized	organized	organize	VBN	O	null	O	-1	B-verb.social
+0	22	449	2269	2270	S	451	a	a	a	DT	O	det	O	-1	O
+0	22	450	2271	2277	S	451	search	search	search	NN	O	nn	O	-1	B-noun.group
+0	22	451	2278	2283	S	448	party	party	party	NN	O	dobj	O	-1	I-noun.group
+0	22	452	2284	2287	S	451	for	for	for	IN	O	prep	O	-1	O
+0	22	453	2288	2294		452	Silvia	Silvia	Silvia	NNP	PERSON	pobj	O	6	O
+0	22	454	2294	2295	S	448	.	.	.	.	O	punct	O	-1	O
+0	23	455	2296	2303	S	456	Proteus	Proteus	Proteus	NNP	O	nsubj	O	-1	B-noun.person
+0	23	456	2304	2310	S	-1	wrests	wrests	wrest	VBZ	O	null	O	-1	B-verb.contact
+0	23	457	2311	2317	S	456	Silvia	Silvia	Silvia	NNP	PERSON	dobj	O	6	B-noun.person
+0	23	458	2318	2322	S	456	away	away	away	RB	O	advmod	O	-1	O
+0	23	459	2323	2327	S	458	from	from	from	IN	O	dep	O	-1	O
+0	23	460	2328	2331	S	461	the	the	the	DT	O	det	O	-1	O
+0	23	461	2332	2339		459	outlaws	outlaws	outlaw	NNS	O	pobj	O	-1	B-noun.person
+0	23	462	2339	2340	S	456	.	.	.	.	O	punct	O	-1	O
+0	24	463	2341	2350	S	464	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	24	464	2351	2358	S	-1	watches	watches	watch	VBZ	O	null	O	-1	B-verb.perception
+0	24	465	2359	2362	S	466	the	the	the	DT	O	det	O	-1	O
+0	24	466	2363	2374	S	467	interaction	interaction	interaction	NN	O	nsubj	O	-1	B-noun.act
+0	24	467	2375	2381		464	unseen	unseen	unseen	JJ	O	xcomp	O	-1	O
+0	24	468	2381	2382	S	464	.	.	.	.	O	punct	O	-1	O
+0	25	469	2383	2390	S	470	Proteus	Proteus	Proteus	NNP	O	nsubj	O	-1	B-noun.person
+0	25	470	2391	2398	S	-1	demands	demands	demand	VBZ	O	null	O	-1	B-verb.communication
+0	25	471	2399	2403	S	473	that	that	that	IN	O	complm	O	-1	O
+0	25	472	2404	2410	S	473	Silvia	Silvia	Silvia	NNP	PERSON	nsubj	O	6	B-noun.person
+0	25	473	2411	2415	S	470	give	give	give	VB	O	ccomp	O	-1	B-verb.possession
+0	25	474	2416	2419	S	473	him	him	he	PRP	O	iobj	O	-1	O
+0	25	475	2420	2424	S	476	some	some	some	DT	O	det	O	-1	O
+0	25	476	2425	2429	S	473	sign	sign	sign	NN	O	dobj	O	-1	B-noun.communication
+0	25	477	2430	2432	S	476	of	of	of	IN	O	prep	O	-1	O
+0	25	478	2433	2436	S	479	her	her	she	PRP$	O	poss	O	1	O
+0	25	479	2437	2442	S	477	favor	favor	favor	NN	O	pobj	O	-1	B-noun.act
+0	25	480	2443	2446	S	473	for	for	for	IN	O	prep	O	-1	O
+0	25	481	2447	2454	S	480	freeing	freeing	free	VBG	O	pcomp	O	-1	B-verb.social
+0	25	482	2455	2458		481	her	her	she	PRP	O	dobj	O	1	O
+0	25	483	2458	2459	S	470	,	,	,	,	O	punct	O	-1	O
+0	25	484	2460	2463	S	470	but	but	but	CC	O	cc	O	-1	O
+0	25	485	2464	2467	S	486	she	she	she	PRP	O	nsubj	O	1	O
+0	25	486	2468	2475		470	refuses	refuses	refuse	VBZ	O	conj	O	-1	O
+0	25	487	2475	2476	S	470	.	.	.	.	O	punct	O	-1	O
+0	26	488	2477	2479	S	489	He	He	he	PRP	O	nsubj	O	-1	O
+0	26	489	2480	2485	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	26	490	2486	2488	S	491	to	to	to	TO	O	aux	O	-1	O
+0	26	491	2489	2493	S	489	rape	rape	rape	NN	O	xcomp	O	-1	B-noun.plant
+0	26	492	2494	2497	S	491	her	her	she	PRP$	O	dobj	O	1	O
+0	26	493	2498	2501	S	492	for	for	for	IN	O	prep	O	-1	O
+0	26	494	2502	2505	S	495	her	her	she	PRP$	O	poss	O	1	O
+0	26	495	2506	2516		493	resistance	resistance	resistance	NN	O	pobj	O	-1	B-noun.act
+0	26	496	2516	2517	S	489	,	,	,	,	O	punct	O	-1	O
+0	26	497	2518	2521	S	489	but	but	but	CC	O	cc	O	-1	O
+0	26	498	2522	2531	S	499	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	26	499	2532	2537	S	489	jumps	jumps	jump	VBZ	O	conj	O	-1	B-verb.motion
+0	26	500	2538	2541	S	499	out	out	out	RP	O	prt	O	-1	O
+0	26	501	2542	2545	S	499	and	and	and	CC	O	cc	O	-1	O
+0	26	502	2546	2551	S	499	stops	stops	stop	VBZ	O	conj	O	-1	B-verb.motion
+0	26	503	2552	2555		502	him	him	he	PRP	O	dobj	O	3	O
+0	26	504	2555	2556	S	489	.	.	.	.	O	punct	O	-1	O
+0	27	505	2557	2564	S	507	Proteus	Proteus	Proteus	NNP	O	nsubj	O	-1	B-noun.person
+0	27	506	2565	2576	S	507	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	27	507	2577	2587		-1	apologizes	apologizes	apologize	VBZ	O	null	O	-1	B-verb.communication
+0	27	508	2587	2588	S	507	,	,	,	,	O	punct	O	-1	O
+0	27	509	2589	2592	S	507	and	and	and	CC	O	cc	O	-1	O
+0	27	510	2593	2602	S	511	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	27	511	2603	2609	S	507	offers	offers	offer	VBZ	O	conj	O	-1	B-verb.possession
+0	27	512	2610	2612	S	513	to	to	to	TO	O	aux	O	-1	O
+0	27	513	2613	2617	S	511	give	give	give	VB	O	xcomp	O	-1	B-verb.possession
+0	27	514	2618	2621	S	513	him	him	he	PRP	O	iobj	O	3	O
+0	27	515	2622	2628	S	513	Silvia	Silvia	Silvia	NNP	PERSON	dobj	O	6	O
+0	27	516	2629	2631	S	513	as	as	as	IN	O	prep	O	-1	O
+0	27	517	2632	2633	S	518	a	a	a	DT	O	det	O	-1	O
+0	27	518	2634	2639	S	516	token	token	token	JJ	O	pobj	O	-1	O
+0	27	519	2640	2642	S	518	of	of	of	IN	O	prep	O	-1	O
+0	27	520	2643	2648	S	521	their	their	they	PRP$	O	poss	O	-1	O
+0	27	521	2649	2659		519	friendship	friendship	friendship	NN	O	pobj	O	-1	B-noun.state
+0	27	522	2659	2660	S	507	.	.	.	.	O	punct	O	-1	O
+0	28	523	2661	2663	S	-1	At	At	at	IN	O	null	O	-1	O
+0	28	524	2664	2668	S	525	this	this	this	DT	O	det	O	-1	O
+0	28	525	2669	2675		523	moment	moment	moment	NN	O	pobj	O	-1	B-noun.time
+0	28	526	2675	2676	S	523	,	,	,	,	O	punct	O	-1	O
+0	28	527	2677	2686	S	528	Sebastian	Sebastian	Sebastian	NNP	PERSON	nn	O	5	O
+0	28	528	2687	2693	S	526	faints	faints	faint	NNS	O	nsubj	O	-1	B-noun.event
+0	28	529	2694	2697	S	528	and	and	and	CC	O	cc	O	-1	O
+0	28	530	2698	2701	S	532	his	his	he	PRP$	O	poss	O	3	O
+0	28	531	2702	2706	S	532	true	true	true	JJ	O	amod	O	-1	O
+0	28	532	2707	2715	S	534	identity	identity	identity	NN	O	nsubj	O	-1	B-noun.attribute
+0	28	533	2716	2723	S	534	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	28	534	2724	2729		528	clear	clear	clear	JJ	O	conj	O	-1	O
+0	28	535	2729	2730	S	523	.	.	.	.	O	punct	O	-1	O
+0	29	536	2731	2738	S	537	Proteus	Proteus	Proteus	NNP	O	nsubj	O	-1	B-noun.person
+0	29	537	2739	2746	S	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	29	538	2747	2751	S	541	that	that	that	IN	O	complm	O	-1	O
+0	29	539	2752	2754	S	541	he	he	he	PRP	O	nsubj	O	-1	O
+0	29	540	2755	2761	S	541	really	really	really	RB	O	advmod	O	-1	O
+0	29	541	2762	2767	S	537	loves	loves	love	VBZ	O	ccomp	O	-1	B-verb.emotion
+0	29	542	2768	2773	S	541	Julia	Julia	Julia	NNP	PERSON	dobj	O	1	B-noun.person
+0	29	543	2774	2780	S	542	better	better	better	JJR	O	amod	O	-1	O
+0	29	544	2781	2785	S	543	than	than	than	IN	O	prep	O	-1	O
+0	29	545	2786	2792		544	Silvia	Silvia	Silvia	NNP	PERSON	pobj	O	6	O
+0	29	546	2792	2793	S	537	,	,	,	,	O	punct	O	-1	O
+0	29	547	2794	2797	S	537	and	and	and	CC	O	cc	O	-1	O
+0	29	548	2798	2803	S	537	takes	takes	take	VBZ	O	conj	O	-1	B-verb.motion
+0	29	549	2804	2807	S	550	her	her	she	PRP$	O	poss	O	1	O
+0	29	550	2808	2815		548	instead	instead	instead	RB	O	dobj	O	-1	O
+0	29	551	2815	2816	S	537	.	.	.	.	O	punct	O	-1	O
+0	30	552	2817	2820	S	553	The	The	the	DT	O	det	O	-1	O
+0	30	553	2821	2825	S	554	Duke	Duke	Duke	NNP	PERSON	nsubj	O	0	B-noun.person
+0	30	554	2826	2834	S	-1	realizes	realizes	realize	VBZ	O	null	O	-1	B-verb.cognition
+0	30	555	2835	2839	S	559	that	that	that	IN	O	complm	O	-1	O
+0	30	556	2840	2846	S	559	Thurio	Thurio	Thurio	NNP	O	nsubj	O	-1	B-noun.person
+0	30	557	2847	2849	S	559	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	30	558	2850	2851	S	559	a	a	a	DT	O	det	O	-1	O
+0	30	559	2852	2856	S	554	thug	thug	thug	NN	O	ccomp	O	-1	B-noun.person
+0	30	560	2857	2860	S	554	and	and	and	CC	O	cc	O	-1	O
+0	30	561	2861	2865	S	554	says	says	say	VBZ	O	conj	O	-1	B-verb.communication
+0	30	562	2866	2870	S	566	that	that	that	IN	O	complm	O	-1	O
+0	30	563	2871	2880	S	566	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	30	564	2881	2883	S	566	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	30	565	2884	2887	S	566	far	far	far	RB	O	advmod	O	-1	O
+0	30	566	2888	2894	S	561	nobler	nobler	nobler	JJ	O	ccomp	O	-1	O
+0	30	567	2895	2898	S	566	and	and	and	CC	O	cc	O	-1	O
+0	30	568	2899	2902	S	569	can	can	can	MD	O	aux	O	-1	O
+0	30	569	2903	2908	S	566	marry	marry	marry	VB	O	conj	O	-1	B-verb.social
+0	30	570	2909	2915		569	Silvia	Silvia	Silvia	NNP	PERSON	dobj	O	6	O
+0	30	571	2915	2916	S	554	.	.	.	.	O	punct	O	-1	O
+0	31	572	2917	2926	S	573	Valentine	Valentine	Valentine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	31	573	2927	2931	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	31	574	2932	2935	S	573	for	for	for	IN	O	prep	O	-1	O
+0	31	575	2936	2944	S	574	clemency	clemency	clemency	NN	O	pobj	O	-1	B-noun.state
+0	31	576	2945	2948	S	575	for	for	for	IN	O	prep	O	-1	O
+0	31	577	2949	2952	S	578	the	the	the	DT	O	det	O	-1	O
+0	31	578	2953	2960		576	outlaws	outlaws	outlaw	NNS	O	pobj	O	-1	B-noun.person
+0	31	579	2960	2961	S	573	,	,	,	,	O	punct	O	-1	O
+0	31	580	2962	2965	S	573	and	and	and	CC	O	cc	O	-1	O
+0	31	581	2966	2974	S	573	suggests	suggests	suggest	VBZ	O	conj	O	-1	B-verb.communication
+0	31	582	2975	2979	S	594	that	that	that	IN	O	complm	O	-1	O
+0	31	583	2980	2983	S	584	his	his	he	PRP$	O	poss	O	3	O
+0	31	584	2984	2992	S	594	marriage	marriage	marriage	NN	O	nsubj	O	-1	B-noun.state
+0	31	585	2993	2995	S	584	to	to	to	TO	O	prep	O	-1	O
+0	31	586	2996	3002	S	590	Silvia	Silvia	Silvia	NNP	PERSON	nn	O	6	B-noun.person
+0	31	587	3003	3006	S	586	and	and	and	CC	O	cc	O	-1	O
+0	31	588	3007	3014		586	Proteus	Proteus	Proteus	NNP	O	conj	O	-1	B-noun.person
+0	31	589	3014	3015	S	588	'	'	'	POS	O	possessive	O	-1	O
+0	31	590	3016	3024	S	585	marriage	marriage	marriage	NN	O	pobj	O	-1	B-noun.state
+0	31	591	3025	3027	S	584	to	to	to	TO	O	prep	O	-1	O
+0	31	592	3028	3033	S	591	Julia	Julia	Julia	NNP	PERSON	pobj	O	1	B-noun.person
+0	31	593	3034	3040	S	594	should	should	should	MD	O	aux	O	-1	O
+0	31	594	3041	3045	S	581	take	take	take	VB	O	ccomp	O	-1	B-verb.change
+0	31	595	3046	3051	S	594	place	place	place	NN	O	dobj	O	-1	I-verb.change
+0	31	596	3052	3054	S	594	on	on	on	IN	O	prep	O	-1	O
+0	31	597	3055	3058	S	599	the	the	the	DT	DATE	det	O	-1	O
+0	31	598	3059	3063	S	599	same	same	same	JJ	DATE	amod	O	-1	O
+0	31	599	3064	3067		596	day	day	day	NN	DATE	pobj	O	-1	B-noun.time
+0	31	600	3067	3068	N	573	.	.	.	.	O	punct	O	-1	O

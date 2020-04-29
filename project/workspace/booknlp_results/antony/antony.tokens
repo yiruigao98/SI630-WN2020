@@ -1,0 +1,940 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	4	S	1	Mark	Mark	Mark	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	5	11		13	Antony	Antony	Antony	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	2	11	12	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	13	16	S	1	one	one	one	CD	NUMBER	appos	O	-1	O
+0	0	4	17	19	S	3	of	of	of	IN	O	prep	O	-1	O
+0	0	5	20	23	S	7	the	the	the	DT	O	det	O	-1	O
+0	0	6	24	29	N	7	three	three	three	CD	NUMBER	num	O	-1	O
+0	0	7	30	36	S	4	rulers	rulers	ruler	NNS	O	pobj	O	-1	B-noun.person
+0	0	8	37	39	S	7	of	of	of	IN	O	prep	O	-1	O
+0	0	9	40	43	S	11	the	the	the	DT	O	det	O	-1	O
+0	0	10	44	49	S	11	Roman	Roman	Roman	NNP	LOCATION	nn	O	-1	B-noun.group
+0	0	11	50	56		8	Empire	Empire	Empire	NNP	LOCATION	pobj	O	-1	I-noun.group
+0	0	12	56	57	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	13	58	64	S	-1	spends	spends	spend	VBZ	O	null	O	-1	O
+0	0	14	65	68	S	15	his	his	he	PRP$	O	poss	O	-1	O
+0	0	15	69	73	S	13	time	time	time	NN	O	dobj	O	-1	B-noun.time
+0	0	16	74	76	S	15	in	in	in	IN	O	prep	O	-1	O
+0	0	17	77	82		16	Egypt	Egypt	Egypt	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	18	82	83	N	13	,	,	,	,	O	punct	O	-1	O
+0	0	19	84	90	S	13	living	living	live	VBG	O	xcomp	O	-1	B-verb.stative
+0	0	20	91	92	S	21	a	a	a	DT	O	det	O	-1	O
+0	0	21	93	97	S	19	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	0	22	98	100	S	21	of	of	of	IN	O	prep	O	-1	O
+0	0	23	101	110	S	22	decadence	decadence	decadence	NN	O	pobj	O	-1	B-noun.state
+0	0	24	111	114	S	19	and	and	and	CC	O	cc	O	-1	O
+0	0	25	115	125	S	19	conducting	conducting	conduct	VBG	O	conj	O	-1	B-verb.social
+0	0	26	126	128	S	27	an	an	a	DT	O	det	O	-1	O
+0	0	27	129	135	S	25	affair	affair	affair	NN	O	dobj	O	-1	B-noun.cognition
+0	0	28	136	140	S	25	with	with	with	IN	O	prep	O	-1	O
+0	0	29	141	144	S	30	the	the	the	DT	O	det	O	-1	O
+0	0	30	145	152		33	country	country	country	NN	O	poss	O	-1	B-noun.group
+0	0	31	152	154	N	30	’s	's	's	POS	O	possessive	O	-1	O
+0	0	32	155	164	S	33	beautiful	beautiful	beautiful	JJ	O	amod	O	-1	O
+0	0	33	165	170		28	queen	queen	queen	NN	O	pobj	O	-1	B-noun.animal
+0	0	34	170	171	S	33	,	,	,	,	O	punct	O	-1	O
+0	0	35	172	181		33	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	appos	O	0	B-noun.person
+0	0	36	181	182	S	13	.	.	.	.	O	punct	O	-1	O
+0	1	37	183	187	S	40	When	When	when	WRB	O	advmod	O	-1	O
+0	1	38	188	189	S	39	a	a	a	DT	O	det	O	-1	O
+0	1	39	190	197	S	40	message	message	message	NN	O	nsubj	O	-1	B-noun.communication
+0	1	40	198	205	S	-1	arrives	arrives	arrive	VBZ	O	null	O	-1	O
+0	1	41	206	215	S	40	informing	informing	inform	VBG	O	dep	O	-1	B-verb.communication
+0	1	42	216	219	N	41	him	him	he	PRP	O	dobj	O	-1	O
+0	1	43	220	224	S	50	that	that	that	IN	O	complm	O	-1	O
+0	1	44	225	228	S	45	his	his	he	PRP$	O	poss	O	-1	O
+0	1	45	229	233		50	wife	wife	wife	NN	O	nsubj	O	-1	B-noun.person
+0	1	46	233	234	S	45	,	,	,	,	O	punct	O	-1	O
+0	1	47	235	241		45	Fulvia	Fulvia	Fulvia	NNP	PERSON	appos	O	-1	O
+0	1	48	241	242	S	45	,	,	,	,	O	punct	O	-1	O
+0	1	49	243	245	S	50	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	50	246	250	S	41	dead	dead	dead	JJ	O	dep	O	-1	O
+0	1	51	251	254	S	50	and	and	and	CC	O	cc	O	-1	O
+0	1	52	255	259	S	55	that	that	that	IN	O	complm	O	-1	O
+0	1	53	260	266	S	55	Pompey	Pompey	Pompey	NNP	PERSON	nsubj	O	2	B-noun.person
+0	1	54	267	269	S	55	is	is	be	VBZ	O	aux	O	-1	O
+0	1	55	270	277	S	65	raising	raising	raise	VBG	O	advcl	O	-1	B-verb.creation
+0	1	56	278	280	S	57	an	an	a	DT	O	det	O	-1	O
+0	1	57	281	285	N	55	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	1	58	286	288	S	59	to	to	to	TO	O	aux	O	-1	O
+0	1	59	289	294	S	57	rebel	rebel	rebel	VB	O	infmod	O	-1	B-verb.social
+0	1	60	295	302	S	59	against	against	against	IN	O	prep	O	-1	O
+0	1	61	303	306	S	62	the	the	the	DT	O	det	O	-1	O
+0	1	62	307	318		60	triumvirate	triumvirate	triumvirate	NN	O	pobj	O	-1	B-noun.group
+0	1	63	318	319	S	65	,	,	,	,	O	punct	O	-1	O
+0	1	64	320	326	S	65	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	1	65	327	334	S	50	decides	decides	decide	VBZ	O	conj	O	-1	B-verb.cognition
+0	1	66	335	337	S	67	to	to	to	TO	O	aux	O	-1	O
+0	1	67	338	344	S	65	return	return	return	VB	O	xcomp	O	-1	B-verb.motion
+0	1	68	345	347	S	67	to	to	to	TO	O	prep	O	-1	O
+0	1	69	348	352		68	Rome	Rome	Rome	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	1	70	352	353	N	40	.	.	.	.	O	punct	O	-1	O
+0	2	71	354	356	S	85	In	In	in	IN	O	prep	O	-1	O
+0	2	72	357	363		74	Antony	Antony	Antony	NNP	PERSON	poss	O	3	B-noun.person
+0	2	73	363	365	S	72	’s	's	's	POS	O	possessive	O	-1	O
+0	2	74	366	373		71	absence	absence	absence	NN	O	pobj	O	-1	B-noun.state
+0	2	75	373	374	S	85	,	,	,	,	O	punct	O	-1	O
+0	2	76	375	383	S	77	Octavius	Octavius	Octavius	NNP	PERSON	nn	O	-1	O
+0	2	77	384	390	S	85	Caesar	Caesar	Caesar	NNP	PERSON	nsubj	O	-1	O
+0	2	78	391	394	S	77	and	and	and	CC	O	cc	O	-1	O
+0	2	79	395	402		77	Lepidus	Lepidus	Lepidus	NNP	PERSON	conj	O	1	O
+0	2	80	402	403	S	77	,	,	,	,	O	punct	O	-1	O
+0	2	81	404	407	S	83	his	his	he	PRP$	O	poss	O	-1	O
+0	2	82	408	414	S	83	fellow	fellow	fellow	JJ	O	amod	O	-1	O
+0	2	83	415	424		77	triumvirs	triumvirs	triumvir	NNS	O	appos	O	-1	B-noun.person
+0	2	84	424	425	N	77	,	,	,	,	O	punct	O	-1	O
+0	2	85	426	431	S	-1	worry	worry	worry	VBP	O	null	O	-1	B-verb.emotion
+0	2	86	432	437	S	85	about	about	about	IN	O	prep	O	-1	O
+0	2	87	438	444		90	Pompey	Pompey	Pompey	NNP	PERSON	poss	O	2	B-noun.person
+0	2	88	444	446	S	87	’s	's	's	POS	O	possessive	O	-1	O
+0	2	89	447	457	S	90	increasing	increasing	increase	VBG	O	amod	O	-1	B-verb.change
+0	2	90	458	466		86	strength	strength	strength	NN	O	pobj	O	-1	B-noun.attribute
+0	2	91	466	467	S	85	.	.	.	.	O	punct	O	-1	O
+0	3	92	468	474	S	93	Caesar	Caesar	Caesar	NNP	PERSON	nsubj	O	4	B-noun.person
+0	3	93	475	483	S	-1	condemns	condemns	condemn	VBZ	O	null	O	-1	B-verb.communication
+0	3	94	484	490	N	93	Antony	Antony	Antony	NNP	PERSON	dobj	O	3	B-noun.person
+0	3	95	491	494	S	93	for	for	for	IN	O	prep	O	-1	O
+0	3	96	495	505	S	95	neglecting	neglecting	neglect	VBG	O	pcomp	O	-1	B-verb.cognition
+0	3	97	506	509	S	98	his	his	he	PRP$	O	poss	O	4	O
+0	3	98	510	516	S	96	duties	duties	duty	NNS	O	dobj	O	-1	B-noun.act
+0	3	99	517	519	S	96	as	as	as	IN	O	prep	O	-1	O
+0	3	100	520	521	S	101	a	a	a	DT	O	det	O	-1	O
+0	3	101	522	531	S	99	statesman	statesman	statesman	NN	O	pobj	O	-1	B-noun.person
+0	3	102	532	535	S	101	and	and	and	CC	O	cc	O	-1	O
+0	3	103	536	544	S	104	military	military	military	JJ	O	amod	O	-1	O
+0	3	104	545	552	S	101	officer	officer	officer	NN	O	conj	O	-1	B-noun.person
+0	3	105	553	555	N	108	in	in	in	IN	O	mark	O	-1	O
+0	3	106	556	561	S	108	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	3	107	562	564	S	108	to	to	to	TO	O	aux	O	-1	O
+0	3	108	565	569	S	101	live	live	live	VB	O	purpcl	O	-1	B-verb.stative
+0	3	109	570	571	S	111	a	a	a	DT	O	det	O	-1	O
+0	3	110	572	580	S	111	decadent	decadent	decadent	JJ	O	amod	O	-1	O
+0	3	111	581	585	S	108	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	3	112	586	588	S	111	by	by	by	IN	O	prep	O	-1	O
+0	3	113	589	598		115	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	poss	O	0	B-noun.person
+0	3	114	598	600	S	113	’s	's	's	POS	O	possessive	O	-1	O
+0	3	115	601	605		112	side	side	side	NN	O	pobj	O	-1	B-noun.location
+0	3	116	605	606	S	93	.	.	.	.	O	punct	O	-1	O
+0	4	117	607	610	S	118	The	The	the	DT	O	det	O	-1	O
+0	4	118	611	615	S	-1	news	news	news	NN	O	null	O	-1	B-noun.communication
+0	4	119	616	618	S	118	of	of	of	IN	O	prep	O	-1	O
+0	4	120	619	622	S	121	his	his	he	PRP$	O	poss	O	4	O
+0	4	121	623	627		123	wife	wife	wife	NN	O	poss	O	-1	B-noun.person
+0	4	122	627	629	S	121	’s	's	's	POS	O	possessive	O	-1	O
+0	4	123	630	635	S	119	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	4	124	636	639	S	123	and	and	and	CC	O	cc	O	-1	O
+0	4	125	640	648	S	126	imminent	imminent	imminent	JJ	O	amod	O	-1	O
+0	4	126	649	655	S	127	battle	battle	battle	NN	O	nsubj	O	-1	B-noun.act
+0	4	127	656	662	N	123	pricks	pricks	prick	VBZ	O	conj	O	-1	B-verb.contact
+0	4	128	663	669		130	Antony	Antony	Antony	NNP	PERSON	poss	O	3	B-noun.person
+0	4	129	669	671	S	128	’s	's	's	POS	O	possessive	O	-1	O
+0	4	130	672	677	S	127	sense	sense	sense	NN	O	dobj	O	-1	B-noun.cognition
+0	4	131	678	680	S	130	of	of	of	IN	O	prep	O	-1	O
+0	4	132	681	685		131	duty	duty	duty	NN	O	pobj	O	-1	B-noun.act
+0	4	133	685	686	S	118	,	,	,	,	O	punct	O	-1	O
+0	4	134	687	690	S	118	and	and	and	CC	O	cc	O	-1	O
+0	4	135	691	693	S	136	he	he	he	PRP	O	nsubj	O	3	O
+0	4	136	694	699	S	118	feels	feels	feel	VBZ	O	conj	O	-1	B-verb.cognition
+0	4	137	700	709	S	136	compelled	compelled	compel	VBN	O	dep	O	-1	B-verb.social
+0	4	138	710	712	S	139	to	to	to	TO	O	aux	O	-1	O
+0	4	139	713	719	S	137	return	return	return	VB	O	xcomp	O	-1	B-verb.motion
+0	4	140	720	722	S	139	to	to	to	TO	O	prep	O	-1	O
+0	4	141	723	727		140	Rome	Rome	Rome	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	4	142	727	728	N	118	.	.	.	.	O	punct	O	-1	O
+0	5	143	729	733	S	150	Upon	Upon	upon	IN	O	prep	O	-1	O
+0	5	144	734	737	S	145	his	his	he	PRP$	O	poss	O	3	O
+0	5	145	738	745		143	arrival	arrival	arrival	NN	O	pobj	O	-1	B-noun.act
+0	5	146	745	746	S	150	,	,	,	,	O	punct	O	-1	O
+0	5	147	747	749	S	150	he	he	he	PRP	O	nsubj	O	3	O
+0	5	148	750	753	S	147	and	and	and	CC	O	cc	O	-1	O
+0	5	149	754	760	S	147	Caesar	Caesar	Caesar	NNP	PERSON	conj	O	4	B-noun.person
+0	5	150	761	768		-1	quarrel	quarrel	quarrel	VBP	O	null	O	-1	B-verb.communication
+0	5	151	768	769	S	150	,	,	,	,	O	punct	O	-1	O
+0	5	152	770	775	S	155	while	while	while	IN	O	mark	O	-1	O
+0	5	153	776	783	S	155	Lepidus	Lepidus	Lepidus	NNP	PERSON	nsubj	O	1	B-noun.person
+0	5	154	784	797	N	155	ineffectually	ineffectually	ineffectually	RB	O	advmod	O	-1	O
+0	5	155	798	803	S	150	tries	tries	try	VBZ	O	advcl	O	-1	B-verb.social
+0	5	156	804	806	S	157	to	to	to	TO	O	aux	O	-1	O
+0	5	157	807	811	S	155	make	make	make	VB	O	xcomp	O	-1	B-verb.change
+0	5	158	812	817		157	peace	peace	peace	NN	O	dobj	O	-1	B-noun.state
+0	5	159	817	818	S	150	.	.	.	.	O	punct	O	-1	O
+0	6	160	819	828	S	-1	Realizing	Realizing	realize	VBG	O	null	O	-1	B-verb.cognition
+0	6	161	829	833	S	165	that	that	that	IN	O	complm	O	-1	O
+0	6	162	834	836	S	163	an	an	a	DT	O	det	O	-1	O
+0	6	163	837	845	S	165	alliance	alliance	alliance	NN	O	nsubj	O	-1	B-noun.state
+0	6	164	846	848	S	165	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	165	849	858	S	160	necessary	necessary	necessary	JJ	O	ccomp	O	-1	O
+0	6	166	859	861	N	167	to	to	to	TO	O	aux	O	-1	O
+0	6	167	862	868	S	165	defeat	defeat	defeat	VB	O	xcomp	O	-1	B-verb.competition
+0	6	168	869	875		167	Pompey	Pompey	Pompey	NNP	PERSON	dobj	O	2	B-noun.person
+0	6	169	875	876	S	168	,	,	,	,	O	punct	O	-1	O
+0	6	170	877	883	S	168	Antony	Antony	Antony	NNP	PERSON	conj	O	3	B-noun.person
+0	6	171	884	887	S	168	and	and	and	CC	O	cc	O	-1	O
+0	6	172	888	894	S	168	Caesar	Caesar	Caesar	NNP	PERSON	conj	O	4	B-noun.person
+0	6	173	895	900	S	165	agree	agree	agree	VBP	O	dep	O	-1	B-verb.communication
+0	6	174	901	905	S	177	that	that	that	IN	O	complm	O	-1	O
+0	6	175	906	912	S	177	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	6	176	913	917	S	177	will	will	will	MD	O	aux	O	-1	O
+0	6	177	918	923	S	173	marry	marry	marry	VB	O	ccomp	O	-1	B-verb.social
+0	6	178	924	930		180	Caesar	Caesar	Caesar	NNP	PERSON	poss	O	4	B-noun.person
+0	6	179	930	932	S	178	’s	's	's	POS	O	possessive	O	-1	O
+0	6	180	933	939		177	sister	sister	sister	NN	O	dobj	O	-1	B-noun.person
+0	6	181	939	940	N	180	,	,	,	,	O	punct	O	-1	O
+0	6	182	941	948		180	Octavia	Octavia	Octavia	NNP	O	appos	O	-1	O
+0	6	183	948	949	S	180	,	,	,	,	O	punct	O	-1	O
+0	6	184	950	953	S	186	who	who	who	WP	O	nsubj	O	-1	O
+0	6	185	954	958	S	186	will	will	will	MD	O	aux	O	-1	O
+0	6	186	959	967	S	180	solidify	solidify	solidify	VB	O	rcmod	O	-1	B-verb.change
+0	6	187	968	973	S	188	their	their	they	PRP$	O	poss	O	-1	O
+0	6	188	974	981	S	186	loyalty	loyalty	loyalty	NN	O	dobj	O	-1	B-noun.attribute
+0	6	189	982	984	S	186	to	to	to	TO	O	prep	O	-1	O
+0	6	190	985	988	S	189	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	6	191	989	996		190	another	another	another	DT	O	dep	O	-1	O
+0	6	192	996	997	S	160	.	.	.	.	O	punct	O	-1	O
+0	7	193	998	1007		200	Enobarbus	Enobarbus	Enobarbus	NNP	MISC	nsubj	O	-1	O
+0	7	194	1007	1008	N	193	,	,	,	,	O	punct	O	-1	O
+0	7	195	1009	1015		198	Antony	Antony	Antony	NNP	PERSON	poss	O	3	B-noun.person
+0	7	196	1015	1017	S	195	’s	's	's	POS	O	possessive	O	-1	O
+0	7	197	1018	1025	S	198	closest	closest	closest	JJS	O	amod	O	-1	O
+0	7	198	1026	1032		193	friend	friend	friend	NN	O	appos	O	-1	B-noun.person
+0	7	199	1032	1033	S	193	,	,	,	,	O	punct	O	-1	O
+0	7	200	1034	1042	S	-1	predicts	predicts	predict	VBZ	O	null	O	-1	B-verb.communication
+0	7	201	1043	1045	S	200	to	to	to	TO	O	prep	O	-1	O
+0	7	202	1046	1052		204	Caesar	Caesar	Caesar	NNP	PERSON	poss	O	4	B-noun.person
+0	7	203	1052	1054	S	202	’s	's	's	POS	O	possessive	O	-1	O
+0	7	204	1055	1058	S	201	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	7	205	1059	1063		214	that	that	that	IN	O	complm	O	-1	O
+0	7	206	1063	1064	S	214	,	,	,	,	O	punct	O	-1	O
+0	7	207	1065	1072	N	214	despite	despite	despite	IN	O	prep	O	-1	O
+0	7	208	1073	1076	S	209	the	the	the	DT	O	det	O	-1	O
+0	7	209	1077	1085		207	marriage	marriage	marriage	NN	O	pobj	O	-1	B-noun.state
+0	7	210	1085	1086	S	214	,	,	,	,	O	punct	O	-1	O
+0	7	211	1087	1093	S	214	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	7	212	1094	1098	S	214	will	will	will	MD	O	aux	O	-1	O
+0	7	213	1099	1105	S	214	surely	surely	surely	RB	O	advmod	O	-1	O
+0	7	214	1106	1112	S	204	return	return	return	VB	O	ccomp	O	-1	B-verb.motion
+0	7	215	1113	1115	S	214	to	to	to	TO	O	prep	O	-1	O
+0	7	216	1116	1125		215	Cleopatra	Cleopatra	Cleopatra	NNP	O	pobj	O	-1	B-noun.person
+0	7	217	1125	1126	S	200	.	.	.	.	O	punct	O	-1	O
+0	8	218	1127	1129	S	222	In	In	in	IN	O	prep	O	-1	O
+0	8	219	1130	1135		218	Egypt	Egypt	Egypt	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	8	220	1135	1136	S	222	,	,	,	,	O	punct	O	-1	O
+0	8	221	1137	1146	S	222	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	nsubj	O	0	B-noun.person
+0	8	222	1147	1153	S	-1	learns	learns	learn	VBZ	O	null	O	-1	B-verb.cognition
+0	8	223	1154	1156	S	222	of	of	of	IN	O	prep	O	-1	O
+0	8	224	1157	1163		226	Antony	Antony	Antony	NNP	PERSON	poss	O	3	B-noun.person
+0	8	225	1163	1165	S	224	’s	's	's	POS	O	possessive	O	-1	O
+0	8	226	1166	1174	S	223	marriage	marriage	marriage	NN	O	pobj	O	-1	B-noun.state
+0	8	227	1175	1178	S	222	and	and	and	CC	O	cc	O	-1	O
+0	8	228	1179	1184	N	222	flies	flies	fly	VBZ	O	conj	O	-1	B-verb.motion
+0	8	229	1185	1189	S	228	into	into	into	IN	O	prep	O	-1	O
+0	8	230	1190	1191	S	232	a	a	a	DT	O	det	O	-1	O
+0	8	231	1192	1199	S	232	jealous	jealous	jealous	JJ	O	amod	O	-1	O
+0	8	232	1200	1204		229	rage	rage	rage	NN	O	pobj	O	-1	B-noun.feeling
+0	8	233	1204	1205	S	222	.	.	.	.	O	punct	O	-1	O
+0	9	234	1206	1213		-1	However	However	however	RB	O	null	O	-1	O
+0	9	235	1213	1214	S	234	,	,	,	,	O	dep	O	-1	O
+0	9	236	1215	1219	S	239	when	when	when	WRB	O	advmod	O	-1	O
+0	9	237	1220	1221	S	238	a	a	a	DT	O	det	O	-1	O
+0	9	238	1222	1231	S	239	messenger	messenger	messenger	NN	O	nsubj	O	-1	B-noun.person
+0	9	239	1232	1240	S	235	delivers	delivers	deliver	VBZ	O	advcl	O	-1	B-verb.communication
+0	9	240	1241	1245	S	239	word	word	word	NN	O	dobj	O	-1	B-noun.communication
+0	9	241	1246	1250	N	250	that	that	that	WDT	O	punct	O	-1	O
+0	9	242	1251	1258	S	244	Octavia	Octavia	Octavia	NNP	O	nsubj	O	-1	B-noun.person
+0	9	243	1259	1261	S	244	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	9	244	1262	1267	S	250	plain	plain	plain	JJ	O	ccomp	O	-1	O
+0	9	245	1268	1271	S	244	and	and	and	CC	O	cc	O	-1	O
+0	9	246	1272	1284		244	unimpressive	unimpressive	unimpressive	JJ	O	conj	O	-1	O
+0	9	247	1284	1285	S	250	,	,	,	,	O	punct	O	-1	O
+0	9	248	1286	1295	S	250	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	nsubj	O	0	B-noun.person
+0	9	249	1296	1303	S	250	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	9	250	1304	1313	S	240	confident	confident	confident	JJ	O	dep	O	-1	O
+0	9	251	1314	1318	N	254	that	that	that	IN	O	complm	O	-1	O
+0	9	252	1319	1322	S	254	she	she	she	PRP	O	nsubj	O	0	O
+0	9	253	1323	1327	S	254	will	will	will	MD	O	aux	O	-1	O
+0	9	254	1328	1331	S	250	win	win	win	VB	O	ccomp	O	-1	B-verb.competition
+0	9	255	1332	1338	S	254	Antony	Antony	Antony	NNP	PERSON	dobj	O	3	B-noun.person
+0	9	256	1339	1343		254	back	back	back	RB	O	advmod	O	-1	O
+0	9	257	1343	1344	S	234	.	.	.	.	O	punct	O	-1	O
+0	10	258	1345	1348	S	259	The	The	the	DT	O	det	O	-1	O
+0	10	259	1349	1358	S	260	triumvirs	triumvirs	triumvir	NNS	O	nsubj	O	-1	B-noun.person
+0	10	260	1359	1363	S	-1	meet	meet	meet	VBP	O	null	O	-1	B-verb.social
+0	10	261	1364	1370	S	260	Pompey	Pompey	Pompey	NNP	PERSON	dobj	O	2	B-noun.person
+0	10	262	1371	1374	S	260	and	and	and	CC	O	cc	O	-1	O
+0	10	263	1375	1381	S	260	settle	settle	settle	VB	O	conj	O	-1	B-verb.communication
+0	10	264	1382	1387	S	265	their	their	they	PRP$	O	poss	O	-1	O
+0	10	265	1388	1399	N	263	differences	differences	difference	NNS	O	dobj	O	-1	B-noun.attribute
+0	10	266	1400	1407	S	263	without	without	without	IN	O	prep	O	-1	O
+0	10	267	1408	1413	S	266	going	going	go	VBG	O	pcomp	O	-1	B-verb.motion
+0	10	268	1414	1416	S	267	to	to	to	TO	O	prep	O	-1	O
+0	10	269	1417	1423		268	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	10	270	1423	1424	S	260	.	.	.	.	O	punct	O	-1	O
+0	11	271	1425	1431	S	272	Pompey	Pompey	Pompey	NNP	PERSON	nsubj	O	2	B-noun.person
+0	11	272	1432	1438	S	-1	agrees	agrees	agree	VBZ	O	null	O	-1	B-verb.communication
+0	11	273	1439	1441	S	274	to	to	to	TO	O	aux	O	-1	O
+0	11	274	1442	1446	S	272	keep	keep	keep	VB	O	xcomp	O	-1	B-verb.stative
+0	11	275	1447	1452	S	274	peace	peace	peace	NN	O	dobj	O	-1	B-noun.state
+0	11	276	1453	1455	S	274	in	in	in	IN	O	prep	O	-1	O
+0	11	277	1456	1464	N	276	exchange	exchange	exchange	NN	O	pobj	O	-1	B-noun.phenomenon
+0	11	278	1465	1468	S	277	for	for	for	IN	O	prep	O	-1	O
+0	11	279	1469	1473	S	278	rule	rule	rule	NN	O	pobj	O	-1	B-noun.cognition
+0	11	280	1474	1478	S	279	over	over	over	IN	O	prep	O	-1	O
+0	11	281	1479	1485	S	280	Sicily	Sicily	Sicily	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	11	282	1486	1489	S	281	and	and	and	CC	O	cc	O	-1	O
+0	11	283	1490	1498		281	Sardinia	Sardinia	Sardinia	NNP	LOCATION	conj	O	-1	B-noun.location
+0	11	284	1498	1499	S	272	.	.	.	.	O	punct	O	-1	O
+0	12	285	1500	1504	S	286	That	That	that	DT	O	det	O	-1	O
+0	12	286	1505	1512		291	evening	evening	evening	NN	TIME	nsubj	O	-1	B-noun.time
+0	12	287	1512	1513	S	291	,	,	,	,	O	punct	O	-1	O
+0	12	288	1514	1517	S	290	the	the	the	DT	O	det	O	-1	O
+0	12	289	1518	1522	S	290	four	four	four	CD	NUMBER	num	O	-1	O
+0	12	290	1523	1526	S	291	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	12	291	1527	1532	N	-1	drink	drink	drink	VBP	O	null	O	-1	B-verb.consumption
+0	12	292	1533	1535	S	293	to	to	to	TO	O	aux	O	-1	O
+0	12	293	1536	1545	S	291	celebrate	celebrate	celebrate	VB	O	xcomp	O	-1	B-verb.social
+0	12	294	1546	1551	S	295	their	their	they	PRP$	O	poss	O	-1	O
+0	12	295	1552	1557		293	truce	truce	truce	NN	O	dobj	O	-1	B-noun.state
+0	12	296	1557	1558	S	291	.	.	.	.	O	punct	O	-1	O
+0	13	297	1559	1562	S	302	One	One	one	CD	NUMBER	nsubj	O	-1	O
+0	13	298	1563	1565	S	297	of	of	of	IN	O	prep	O	-1	O
+0	13	299	1566	1572		301	Pompey	Pompey	Pompey	NNP	PERSON	poss	O	2	B-noun.person
+0	13	300	1572	1574	S	299	’s	's	's	POS	O	possessive	O	-1	O
+0	13	301	1575	1583	S	298	soldiers	soldiers	soldier	NNS	O	pobj	O	-1	B-noun.person
+0	13	302	1584	1593	S	-1	discloses	discloses	disclose	VBZ	O	null	O	-1	B-verb.communication
+0	13	303	1594	1596	N	302	to	to	to	TO	O	prep	O	-1	O
+0	13	304	1597	1600	S	303	him	him	he	PRP	O	pobj	O	3	O
+0	13	305	1601	1602	S	306	a	a	a	DT	O	det	O	-1	O
+0	13	306	1603	1607	S	302	plan	plan	plan	NN	O	dobj	O	-1	B-noun.cognition
+0	13	307	1608	1610	S	308	to	to	to	TO	O	aux	O	-1	O
+0	13	308	1611	1622	S	306	assassinate	assassinate	assassinate	VB	O	infmod	O	-1	B-verb.social
+0	13	309	1623	1626	S	310	the	the	the	DT	O	det	O	-1	O
+0	13	310	1627	1636		308	triumvirs	triumvirs	triumvir	NNS	O	dobj	O	-1	B-noun.person
+0	13	311	1636	1637	S	302	,	,	,	,	O	punct	O	-1	O
+0	13	312	1638	1645	S	313	thereby	thereby	thereby	RB	O	advmod	O	-1	O
+0	13	313	1646	1656	S	302	delivering	delivering	deliver	VBG	O	xcomp	O	-1	B-verb.contact
+0	13	314	1657	1662	N	315	world	world	world	NN	O	nn	O	-1	B-noun.group
+0	13	315	1663	1668	S	313	power	power	power	NN	O	dobj	O	-1	I-noun.group
+0	13	316	1669	1673	S	313	into	into	into	IN	O	prep	O	-1	O
+0	13	317	1674	1680		319	Pompey	Pompey	Pompey	NNP	PERSON	poss	O	2	B-noun.person
+0	13	318	1680	1682	S	317	’s	's	's	POS	O	possessive	O	-1	O
+0	13	319	1683	1688		316	hands	hands	hand	NNS	O	pobj	O	-1	B-noun.body
+0	13	320	1688	1689	S	302	,	,	,	,	O	punct	O	-1	O
+0	13	321	1690	1693	S	302	but	but	but	CC	O	cc	O	-1	O
+0	13	322	1694	1700	S	323	Pompey	Pompey	Pompey	NNP	PERSON	nsubj	O	2	B-noun.person
+0	13	323	1701	1710	S	302	dismisses	dismisses	dismiss	VBZ	O	conj	O	-1	B-verb.communication
+0	13	324	1711	1714	S	325	the	the	the	DT	O	det	O	-1	O
+0	13	325	1715	1721	S	323	scheme	scheme	scheme	NN	O	dobj	O	-1	B-noun.cognition
+0	13	326	1722	1724	S	323	as	as	as	IN	O	prep	O	-1	O
+0	13	327	1725	1727	N	328	an	an	a	DT	O	det	O	-1	O
+0	13	328	1728	1735	S	326	affront	affront	affront	NN	O	pobj	O	-1	B-noun.act
+0	13	329	1736	1738	S	328	to	to	to	TO	O	prep	O	-1	O
+0	13	330	1739	1742	S	331	his	his	he	PRP$	O	poss	O	3	O
+0	13	331	1743	1748		329	honor	honor	honor	NN	O	pobj	O	-1	B-noun.communication
+0	13	332	1748	1749	S	302	.	.	.	.	O	punct	O	-1	O
+0	14	333	1750	1759		341	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	14	334	1759	1760	S	341	,	,	,	,	O	punct	O	-1	O
+0	14	335	1761	1764	S	341	one	one	one	CD	NUMBER	nsubj	O	-1	O
+0	14	336	1765	1767	S	335	of	of	of	IN	O	prep	O	-1	O
+0	14	337	1768	1774		340	Antony	Antony	Antony	NNP	PERSON	poss	O	3	B-noun.person
+0	14	338	1774	1776	S	337	’s	's	's	POS	O	possessive	O	-1	O
+0	14	339	1777	1778		340	-	-	-	:	O	punct	O	-1	O
+0	14	340	1778	1786	S	336	generals	generals	general	NNS	O	pobj	O	-1	B-noun.person
+0	14	341	1787	1791	N	-1	wins	wins	win	VBZ	O	null	O	-1	B-verb.competition
+0	14	342	1792	1793	S	343	a	a	a	DT	O	det	O	-1	O
+0	14	343	1794	1801	S	341	victory	victory	victory	NN	O	dobj	O	-1	B-noun.event
+0	14	344	1802	1806	S	343	over	over	over	IN	O	prep	O	-1	O
+0	14	345	1807	1810	S	346	the	the	the	DT	O	det	O	-1	O
+0	14	346	1811	1818	S	344	kingdom	kingdom	kingdom	NN	O	pobj	O	-1	B-noun.state
+0	14	347	1819	1821	S	346	of	of	of	IN	O	prep	O	-1	O
+0	14	348	1822	1829		347	Parthia	Parthia	Parthia	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	14	349	1829	1830	S	341	.	.	.	.	O	punct	O	-1	O
+0	15	350	1831	1837	S	353	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	15	351	1838	1841	S	350	and	and	and	CC	O	cc	O	-1	O
+0	15	352	1842	1849	S	350	Octavia	Octavia	Octavia	NNP	O	conj	O	-1	B-noun.person
+0	15	353	1850	1856	S	-1	depart	depart	depart	VBP	O	null	O	-1	B-verb.motion
+0	15	354	1857	1860	S	353	for	for	for	IN	O	prep	O	-1	O
+0	15	355	1861	1867		354	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	15	356	1867	1868	S	353	.	.	.	.	O	punct	O	-1	O
+0	16	357	1869	1873	S	360	Once	Once	once	IN	DATE	mark	O	-1	O
+0	16	358	1874	1878	S	360	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	16	359	1879	1882	S	360	are	are	be	VBP	O	auxpass	O	-1	O
+0	16	360	1883	1887		363	gone	gone	go	VBN	O	advcl	O	-1	B-verb.motion
+0	16	361	1887	1888	N	363	,	,	,	,	O	punct	O	-1	O
+0	16	362	1889	1895	S	363	Caesar	Caesar	Caesar	NNP	PERSON	nsubj	O	4	B-noun.person
+0	16	363	1896	1902	S	-1	breaks	breaks	break	VBZ	O	null	O	-1	B-verb.motion
+0	16	364	1903	1906	S	365	his	his	he	PRP$	O	poss	O	4	O
+0	16	365	1907	1912		363	truce	truce	truce	NN	O	dobj	O	-1	B-noun.state
+0	16	366	1912	1913	S	363	,	,	,	,	O	punct	O	-1	O
+0	16	367	1914	1919	S	368	wages	wages	wages	NNS	O	nn	O	-1	B-noun.possession
+0	16	368	1920	1923	S	363	war	war	war	NN	O	dobj	O	-1	B-noun.act
+0	16	369	1924	1931	S	368	against	against	against	IN	O	prep	O	-1	O
+0	16	370	1932	1938		369	Pompey	Pompey	Pompey	NNP	PERSON	pobj	O	2	B-noun.person
+0	16	371	1938	1939	S	363	,	,	,	,	O	punct	O	-1	O
+0	16	372	1940	1943	S	363	and	and	and	CC	O	cc	O	-1	O
+0	16	373	1944	1951	S	363	defeats	defeats	defeat	VBZ	O	conj	O	-1	B-verb.competition
+0	16	374	1952	1955		373	him	him	he	PRP	O	dobj	O	4	O
+0	16	375	1955	1956	S	363	.	.	.	.	O	punct	O	-1	O
+0	17	376	1957	1962	N	387	After	After	after	IN	O	prep	O	-1	O
+0	17	377	1963	1968	S	376	using	using	use	VBG	O	pcomp	O	-1	B-verb.consumption
+0	17	378	1969	1976		380	Lepidus	Lepidus	Lepidus	NNP	PERSON	poss	O	1	B-noun.person
+0	17	379	1976	1978	S	378	’s	's	's	POS	O	possessive	O	-1	O
+0	17	380	1979	1983	S	377	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	17	381	1984	1986	S	382	to	to	to	TO	O	aux	O	-1	O
+0	17	382	1987	1993	S	377	secure	secure	secure	VB	O	xcomp	O	-1	B-verb.possession
+0	17	383	1994	1995	S	384	a	a	a	DT	O	det	O	-1	O
+0	17	384	1996	2003		382	victory	victory	victory	NN	O	dobj	O	-1	B-noun.event
+0	17	385	2003	2004	S	387	,	,	,	,	O	punct	O	-1	O
+0	17	386	2005	2007	S	387	he	he	he	PRP	O	nsubj	O	4	O
+0	17	387	2008	2015	S	-1	accuses	accuses	accuse	VBZ	O	null	O	-1	B-verb.communication
+0	17	388	2016	2023	S	387	Lepidus	Lepidus	Lepidus	NNP	PERSON	dobj	O	1	B-noun.person
+0	17	389	2024	2026	S	388	of	of	of	IN	O	prep	O	-1	O
+0	17	390	2027	2034		389	treason	treason	treason	NNS	O	pobj	O	-1	B-noun.act
+0	17	391	2034	2035	N	387	,	,	,	,	O	punct	O	-1	O
+0	17	392	2036	2045	S	387	imprisons	imprisons	imprison	VBZ	O	conj	O	-1	B-verb.social
+0	17	393	2046	2049		392	him	him	he	PRP	O	dobj	O	4	O
+0	17	394	2049	2050	S	387	,	,	,	,	O	punct	O	-1	O
+0	17	395	2051	2054	S	387	and	and	and	CC	O	cc	O	-1	O
+0	17	396	2055	2066	S	387	confiscates	confiscates	confiscate	VBZ	O	conj	O	-1	B-verb.possession
+0	17	397	2067	2070	S	398	his	his	he	PRP$	O	poss	O	4	O
+0	17	398	2071	2075	S	396	land	land	land	NN	O	dobj	O	-1	B-noun.possession
+0	17	399	2076	2079	S	398	and	and	and	CC	O	cc	O	-1	O
+0	17	400	2080	2091		398	possessions	possessions	possession	NNS	O	conj	O	-1	B-noun.Tops
+0	17	401	2091	2092	S	387	.	.	.	.	O	punct	O	-1	O
+0	18	402	2093	2097	S	403	This	This	this	DT	O	det	O	-1	O
+0	18	403	2098	2102	N	404	news	news	news	NN	O	nsubj	O	-1	B-noun.communication
+0	18	404	2103	2109	S	-1	angers	angers	anger	VBZ	O	null	O	-1	B-verb.emotion
+0	18	405	2110	2116		404	Antony	Antony	Antony	NNP	PERSON	dobj	O	3	B-noun.person
+0	18	406	2116	2117	S	405	,	,	,	,	O	punct	O	-1	O
+0	18	407	2118	2120	S	405	as	as	as	RB	O	prep	O	-1	O
+0	18	408	2121	2123	S	407	do	do	do	VBP	O	dep	O	-1	O
+0	18	409	2124	2127	S	410	the	the	the	DT	O	det	O	-1	O
+0	18	410	2128	2134	S	408	rumors	rumors	rumor	NNS	O	dobj	O	-1	B-noun.communication
+0	18	411	2135	2139	S	415	that	that	that	IN	O	complm	O	-1	O
+0	18	412	2140	2146	S	415	Caesar	Caesar	Caesar	NNP	PERSON	nsubj	O	4	B-noun.person
+0	18	413	2147	2150	S	415	has	has	have	VBZ	O	aux	O	-1	O
+0	18	414	2151	2155	S	415	been	been	be	VBN	O	aux	O	-1	O
+0	18	415	2156	2164	S	410	speaking	speaking	speak	VBG	O	ccomp	O	-1	B-verb.communication
+0	18	416	2165	2168	N	415	out	out	out	RP	O	prt	O	-1	O
+0	18	417	2169	2176	S	415	against	against	against	IN	O	prep	O	-1	O
+0	18	418	2177	2180	S	417	him	him	he	PRP	O	pobj	O	4	O
+0	18	419	2181	2183	S	415	in	in	in	IN	O	prep	O	-1	O
+0	18	420	2184	2190		419	public	public	public	NN	O	pobj	O	-1	B-noun.group
+0	18	421	2190	2191	S	404	.	.	.	.	O	punct	O	-1	O
+0	19	422	2192	2199	S	423	Octavia	Octavia	Octavia	NNP	O	nn	O	-1	O
+0	19	423	2200	2206	S	-1	pleads	pleads	plead	NNS	O	null	O	-1	O
+0	19	424	2207	2211	S	423	with	with	with	IN	O	prep	O	-1	O
+0	19	425	2212	2218	S	424	Antony	Antony	Antony	NNP	PERSON	pobj	O	3	B-noun.person
+0	19	426	2219	2221	S	427	to	to	to	TO	O	aux	O	-1	O
+0	19	427	2222	2230	S	423	maintain	maintain	maintain	VB	O	infmod	O	-1	B-verb.possession
+0	19	428	2231	2232	N	430	a	a	a	DT	O	det	O	-1	O
+0	19	429	2233	2241	S	430	peaceful	peaceful	peaceful	JJ	O	amod	O	-1	O
+0	19	430	2242	2254	S	427	relationship	relationship	relationship	NN	O	dobj	O	-1	B-noun.relation
+0	19	431	2255	2259	S	430	with	with	with	IN	O	prep	O	-1	O
+0	19	432	2260	2263	S	433	her	her	she	PRP$	O	poss	O	-1	O
+0	19	433	2264	2271		431	brother	brother	brother	NN	O	pobj	O	-1	B-noun.person
+0	19	434	2271	2272	S	423	.	.	.	.	O	punct	O	-1	O
+0	20	435	2273	2279	S	449	Should	Should	should	MD	O	aux	O	-1	O
+0	20	436	2280	2286	S	442	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	20	437	2287	2290	S	436	and	and	and	CC	O	cc	O	-1	O
+0	20	438	2291	2297	N	439	Caesar	Caesar	Caesar	NNP	PERSON	nn	O	4	B-noun.person
+0	20	439	2298	2303		436	fight	fight	fight	NN	O	conj	O	-1	B-noun.act
+0	20	440	2303	2304	S	442	,	,	,	,	O	punct	O	-1	O
+0	20	441	2305	2308	S	442	she	she	she	PRP	O	nsubj	O	-1	O
+0	20	442	2309	2313		449	says	says	say	VBZ	O	parataxis	O	-1	B-verb.communication
+0	20	443	2313	2314	S	449	,	,	,	,	O	punct	O	-1	O
+0	20	444	2315	2318	S	445	her	her	she	PRP$	O	poss	O	-1	O
+0	20	445	2319	2329	S	449	affections	affections	affection	NNS	O	nsubjpass	O	-1	B-noun.feeling
+0	20	446	2330	2335	S	449	would	would	would	MD	O	aux	O	-1	O
+0	20	447	2336	2338	S	449	be	be	be	VB	O	auxpass	O	-1	B-verb.stative
+0	20	448	2339	2348	S	449	painfully	painfully	painfully	RB	O	advmod	O	-1	O
+0	20	449	2349	2356		-1	divided	divided	divide	VBN	O	null	O	-1	B-verb.social
+0	20	450	2356	2357	S	449	.	.	.	.	O	punct	O	-1	O
+0	21	451	2358	2364	N	452	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	21	452	2365	2375	S	-1	dispatches	dispatches	dispatch	VBZ	O	null	O	-1	B-verb.motion
+0	21	453	2376	2379	S	452	her	her	she	PRP	O	dobj	O	-1	O
+0	21	454	2380	2382	S	452	to	to	to	TO	O	prep	O	-1	O
+0	21	455	2383	2387	S	454	Rome	Rome	Rome	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	21	456	2388	2390	S	452	on	on	on	IN	O	prep	O	-1	O
+0	21	457	2391	2392	S	459	a	a	a	DT	O	det	O	-1	O
+0	21	458	2393	2398	S	459	peace	peace	peace	NN	O	nn	O	-1	B-noun.state
+0	21	459	2399	2406		456	mission	mission	mission	NN	O	pobj	O	-1	O
+0	21	460	2406	2407	S	459	,	,	,	,	O	punct	O	-1	O
+0	21	461	2408	2411	S	459	and	and	and	CC	O	cc	O	-1	O
+0	21	462	2412	2419	S	463	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	21	463	2420	2427	S	459	returns	returns	return	VBZ	O	conj	O	-1	B-verb.motion
+0	21	464	2428	2430	N	463	to	to	to	TO	O	prep	O	-1	O
+0	21	465	2431	2436	S	464	Egypt	Egypt	Egypt	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	21	466	2437	2440	S	465	and	and	and	CC	O	cc	O	-1	O
+0	21	467	2441	2450		465	Cleopatra	Cleopatra	Cleopatra	NNP	O	conj	O	-1	B-noun.person
+0	21	468	2450	2451	S	452	.	.	.	.	O	punct	O	-1	O
+0	22	469	2452	2457		472	There	There	there	RB	O	advmod	O	-1	O
+0	22	470	2457	2458	S	472	,	,	,	,	O	punct	O	-1	O
+0	22	471	2459	2461	S	472	he	he	he	PRP	O	nsubj	O	3	O
+0	22	472	2462	2468	S	-1	raises	raises	raise	VBZ	O	null	O	-1	B-verb.communication
+0	22	473	2469	2470	S	475	a	a	a	DT	O	det	O	-1	O
+0	22	474	2471	2476	S	475	large	large	large	JJ	O	amod	O	-1	O
+0	22	475	2477	2481	S	472	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	22	476	2482	2484	S	477	to	to	to	TO	O	aux	O	-1	O
+0	22	477	2485	2490	S	475	fight	fight	fight	VB	O	infmod	O	-1	B-verb.competition
+0	22	478	2491	2497		477	Caesar	Caesar	Caesar	NNP	PERSON	dobj	O	4	B-noun.person
+0	22	479	2497	2498	N	478	,	,	,	,	O	punct	O	-1	O
+0	22	480	2499	2502	S	478	and	and	and	CC	O	cc	O	-1	O
+0	22	481	2503	2509		478	Caesar	Caesar	Caesar	NNP	PERSON	conj	O	4	B-noun.person
+0	22	482	2509	2510	S	478	,	,	,	,	O	punct	O	-1	O
+0	22	483	2511	2519	S	478	incensed	incensed	incense	VBN	O	partmod	O	-1	B-verb.perception
+0	22	484	2520	2524	S	483	over	over	over	IN	O	prep	O	-1	O
+0	22	485	2525	2531		487	Antony	Antony	Antony	NNP	PERSON	poss	O	3	B-noun.person
+0	22	486	2531	2533	S	485	’s	's	's	POS	O	possessive	O	-1	O
+0	22	487	2534	2543	S	484	treatment	treatment	treatment	NN	O	pobj	O	-1	B-noun.act
+0	22	488	2544	2546	S	487	of	of	of	IN	O	prep	O	-1	O
+0	22	489	2547	2550	S	490	his	his	he	PRP$	O	poss	O	3	O
+0	22	490	2551	2557		488	sister	sister	sister	NN	O	pobj	O	-1	B-noun.person
+0	22	491	2557	2558	S	472	,	,	,	,	O	punct	O	-1	O
+0	22	492	2559	2567	N	472	responds	responds	respond	VBZ	O	conj	O	-1	B-verb.cognition
+0	22	493	2568	2570	S	492	in	in	in	IN	O	prep	O	-1	O
+0	22	494	2571	2575		493	kind	kind	kind	NN	O	pobj	O	-1	B-noun.cognition
+0	22	495	2575	2576	S	472	.	.	.	.	O	punct	O	-1	O
+0	23	496	2577	2583	S	497	Caesar	Caesar	Caesar	NNP	PERSON	nsubj	O	4	B-noun.person
+0	23	497	2584	2592	S	-1	commands	commands	command	VBZ	O	null	O	-1	B-verb.communication
+0	23	498	2593	2596	S	499	his	his	he	PRP$	O	poss	O	4	O
+0	23	499	2597	2601	S	497	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	23	500	2602	2605	S	499	and	and	and	CC	O	cc	O	-1	O
+0	23	501	2606	2610	S	499	navy	navy	navy	NN	O	conj	O	-1	B-noun.group
+0	23	502	2611	2613	S	497	to	to	to	TO	O	prep	O	-1	O
+0	23	503	2614	2619		502	Egypt	Egypt	Egypt	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	23	504	2619	2620	S	497	.	.	.	.	O	punct	O	-1	O
+0	24	505	2621	2629	S	513	Ignoring	Ignoring	ignore	VBG	O	dep	O	-1	B-verb.communication
+0	24	506	2630	2633	N	507	all	all	all	DT	O	det	O	-1	O
+0	24	507	2634	2640	S	505	advice	advice	advice	NN	O	dobj	O	-1	B-noun.communication
+0	24	508	2641	2643	S	505	to	to	to	TO	O	prep	O	-1	O
+0	24	509	2644	2647	S	510	the	the	the	DT	O	det	O	-1	O
+0	24	510	2648	2656		508	contrary	contrary	contrary	NN	O	pobj	O	-1	B-noun.relation
+0	24	511	2656	2657	S	513	,	,	,	,	O	punct	O	-1	O
+0	24	512	2658	2664	S	513	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	24	513	2665	2671	S	-1	elects	elects	elect	VBZ	O	null	O	-1	B-verb.social
+0	24	514	2672	2674	S	515	to	to	to	TO	O	aux	O	-1	O
+0	24	515	2675	2680	S	513	fight	fight	fight	VB	O	xcomp	O	-1	B-verb.competition
+0	24	516	2681	2684	S	515	him	him	he	PRP	O	dobj	O	3	O
+0	24	517	2685	2687	S	515	at	at	at	IN	O	prep	O	-1	O
+0	24	518	2688	2691		517	sea	sea	sea	NN	O	pobj	O	-1	B-noun.object
+0	24	519	2691	2692	S	513	,	,	,	,	O	punct	O	-1	O
+0	24	520	2693	2701	N	513	allowing	allowing	allow	VBG	O	xcomp	O	-1	B-verb.social
+0	24	521	2702	2711	S	523	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	nsubj	O	0	B-noun.person
+0	24	522	2712	2714	S	523	to	to	to	TO	O	aux	O	-1	O
+0	24	523	2715	2722	S	520	command	command	command	VB	O	xcomp	O	-1	B-verb.communication
+0	24	524	2723	2724	S	525	a	a	a	DT	O	det	O	-1	O
+0	24	525	2725	2729	S	523	ship	ship	ship	NN	O	dobj	O	-1	B-noun.artifact
+0	24	526	2730	2737	S	523	despite	despite	despite	IN	O	prep	O	-1	O
+0	24	527	2738	2747		530	Enobarbus	Enobarbus	Enobarbus	NNP	O	poss	O	-1	B-noun.person
+0	24	528	2747	2749	S	527	’s	's	's	POS	O	possessive	O	-1	O
+0	24	529	2750	2756	S	530	strong	strong	strong	JJ	O	amod	O	-1	O
+0	24	530	2757	2767		526	objections	objections	objection	NNS	O	pobj	O	-1	B-noun.communication
+0	24	531	2767	2768	N	513	.	.	.	.	O	punct	O	-1	O
+0	25	532	2769	2775		534	Antony	Antony	Antony	NNP	PERSON	poss	O	3	B-noun.person
+0	25	533	2775	2777	S	532	’s	's	's	POS	O	possessive	O	-1	O
+0	25	534	2778	2784	S	535	forces	forces	force	NNS	O	nsubj	O	-1	B-noun.attribute
+0	25	535	2785	2789	S	-1	lose	lose	lose	VBP	O	null	O	-1	B-verb.possession
+0	25	536	2790	2793	S	537	the	the	the	DT	O	det	O	-1	O
+0	25	537	2794	2800	S	535	battle	battle	battle	NN	O	dobj	O	-1	B-noun.act
+0	25	538	2801	2805	S	537	when	when	when	WRB	O	dep	O	-1	O
+0	25	539	2806	2815		542	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	poss	O	0	B-noun.person
+0	25	540	2815	2817	S	539	’s	's	's	POS	O	possessive	O	-1	O
+0	25	541	2818	2822	S	542	ship	ship	ship	NN	O	nn	O	-1	B-noun.artifact
+0	25	542	2823	2828	S	538	flees	flees	flee	NNS	O	dobj	O	-1	I-noun.artifact
+0	25	543	2829	2832	N	542	and	and	and	CC	O	cc	O	-1	O
+0	25	544	2833	2839		546	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	25	545	2839	2841	S	544	’s	's	's	POS	O	possessive	O	-1	O
+0	25	546	2842	2849		542	follows	follows	follow	VBZ	O	conj	O	-1	O
+0	25	547	2849	2850	S	542	,	,	,	,	O	punct	O	-1	O
+0	25	548	2851	2858	S	542	leaving	leaving	leave	VBG	O	partmod	O	-1	B-verb.motion
+0	25	549	2859	2862	S	550	the	the	the	DT	O	det	O	-1	O
+0	25	550	2863	2867	S	548	rest	rest	rest	NN	O	dobj	O	-1	B-noun.relation
+0	25	551	2868	2870	S	550	of	of	of	IN	O	prep	O	-1	O
+0	25	552	2871	2874	S	553	the	the	the	DT	O	det	O	-1	O
+0	25	553	2875	2880	S	551	fleet	fleet	fleet	NN	O	pobj	O	-1	B-noun.group
+0	25	554	2881	2891		553	vulnerable	vulnerable	vulnerable	JJ	O	amod	O	-1	O
+0	25	555	2891	2892	S	535	.	.	.	.	O	punct	O	-1	O
+0	26	556	2893	2899	S	557	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	26	557	2900	2908		-1	despairs	despairs	despair	VBZ	O	null	O	-1	B-verb.emotion
+0	26	558	2908	2909	S	557	,	,	,	,	O	punct	O	-1	O
+0	26	559	2910	2920	S	557	condemning	condemning	condemn	VBG	O	xcomp	O	-1	B-verb.communication
+0	26	560	2921	2930	S	559	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	dobj	O	0	B-noun.person
+0	26	561	2931	2934	S	559	for	for	for	IN	O	prep	O	-1	O
+0	26	562	2935	2942	S	561	leading	leading	lead	VBG	O	pcomp	O	-1	B-verb.motion
+0	26	563	2943	2946	N	562	him	him	he	PRP	O	dobj	O	3	O
+0	26	564	2947	2951	S	562	into	into	into	IN	O	prep	O	-1	O
+0	26	565	2952	2958	S	564	infamy	infamy	infamy	NN	O	pobj	O	-1	B-noun.state
+0	26	566	2959	2962	S	562	but	but	but	CC	O	cc	O	-1	O
+0	26	567	2963	2970	S	568	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	26	568	2971	2980	S	562	forgiving	forgiving	forgive	VBG	O	conj	O	-1	B-verb.communication
+0	26	569	2981	2984		568	her	her	she	PRP	O	dobj	O	0	O
+0	26	570	2984	2985	S	557	.	.	.	.	O	punct	O	-1	O
+0	27	571	2986	2988	S	574	He	He	he	PRP	O	nsubj	O	3	O
+0	27	572	2989	2992	S	571	and	and	and	CC	O	cc	O	-1	O
+0	27	573	2993	3002	S	571	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	conj	O	0	B-noun.person
+0	27	574	3003	3007	S	-1	send	send	send	VBP	O	null	O	-1	B-verb.motion
+0	27	575	3008	3016	N	574	requests	requests	request	NNS	O	dobj	O	-1	B-noun.communication
+0	27	576	3017	3019	S	575	to	to	to	TO	O	prep	O	-1	O
+0	27	577	3020	3025	S	578	their	their	they	PRP$	O	poss	O	-1	O
+0	27	578	3026	3035		576	conqueror	conqueror	conqueror	NN	O	pobj	O	-1	B-noun.person
+0	27	579	3035	3036	S	574	:	:	:	:	O	punct	O	-1	O
+0	27	580	3037	3043	S	581	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	27	581	3044	3048	S	574	asks	asks	ask	VBZ	O	parataxis	O	-1	B-verb.communication
+0	27	582	3049	3051	S	584	to	to	to	TO	O	aux	O	-1	O
+0	27	583	3052	3054	S	584	be	be	be	VB	O	auxpass	O	-1	O
+0	27	584	3055	3062	S	581	allowed	allowed	allow	VBN	O	xcomp	O	-1	B-verb.social
+0	27	585	3063	3065	S	586	to	to	to	TO	O	aux	O	-1	O
+0	27	586	3066	3070	S	584	live	live	live	VB	O	purpcl	O	-1	B-verb.stative
+0	27	587	3071	3073	S	586	in	in	in	IN	O	prep	O	-1	O
+0	27	588	3074	3079		587	Egypt	Egypt	Egypt	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	27	589	3079	3080	N	581	,	,	,	,	O	punct	O	-1	O
+0	27	590	3081	3086	S	592	while	while	while	IN	O	mark	O	-1	O
+0	27	591	3087	3096	S	592	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	nsubj	O	0	B-noun.person
+0	27	592	3097	3101	S	581	asks	asks	ask	VBZ	O	advcl	O	-1	B-verb.communication
+0	27	593	3102	3106	S	597	that	that	that	IN	O	complm	O	-1	O
+0	27	594	3107	3110	S	595	her	her	she	PRP$	O	poss	O	0	O
+0	27	595	3111	3118	S	597	kingdom	kingdom	kingdom	NN	O	nsubjpass	O	-1	B-noun.state
+0	27	596	3119	3121	S	597	be	be	be	VB	O	auxpass	O	-1	O
+0	27	597	3122	3128	S	592	passed	passed	pass	VBN	O	ccomp	O	-1	B-verb.motion
+0	27	598	3129	3133	S	597	down	down	down	RP	O	prt	O	-1	O
+0	27	599	3134	3136	S	597	to	to	to	TO	O	prep	O	-1	O
+0	27	600	3137	3140	S	602	her	her	she	PRP$	O	poss	O	0	O
+0	27	601	3141	3149	S	602	rightful	rightful	rightful	JJ	O	amod	O	-1	O
+0	27	602	3150	3155		599	heirs	heirs	heir	NNS	O	pobj	O	-1	B-noun.person
+0	27	603	3155	3156	N	574	.	.	.	.	O	punct	O	-1	O
+0	28	604	3157	3163	S	605	Caesar	Caesar	Caesar	NNP	PERSON	nsubj	O	4	B-noun.person
+0	28	605	3164	3173	S	-1	dismisses	dismisses	dismiss	VBZ	O	null	O	-1	B-verb.communication
+0	28	606	3174	3180		608	Antony	Antony	Antony	NNP	PERSON	poss	O	3	B-noun.person
+0	28	607	3180	3182	S	606	’s	's	's	POS	O	possessive	O	-1	O
+0	28	608	3183	3190		605	request	request	request	NN	O	dobj	O	-1	B-noun.communication
+0	28	609	3190	3191	S	605	,	,	,	,	O	punct	O	-1	O
+0	28	610	3192	3195	S	605	but	but	but	CC	O	cc	O	-1	O
+0	28	611	3196	3198	S	612	he	he	he	PRP	O	nsubj	O	3	O
+0	28	612	3199	3207	S	605	promises	promises	promise	VBZ	O	conj	O	-1	B-verb.communication
+0	28	613	3208	3217	S	616	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	nn	O	0	B-noun.person
+0	28	614	3218	3219	S	616	a	a	a	DT	O	det	O	-1	O
+0	28	615	3220	3224	N	616	fair	fair	fair	JJ	O	amod	O	-1	O
+0	28	616	3225	3232	S	612	hearing	hearing	hearing	NN	O	dobj	O	-1	B-noun.state
+0	28	617	3233	3235	S	619	if	if	if	IN	O	mark	O	-1	O
+0	28	618	3236	3239	S	619	she	she	she	PRP	O	nsubj	O	0	O
+0	28	619	3240	3247	S	612	betrays	betrays	betray	VBZ	O	advcl	O	-1	B-verb.communication
+0	28	620	3248	3251	S	621	her	her	she	PRP$	O	poss	O	0	O
+0	28	621	3252	3257		619	lover	lover	lover	NN	O	dobj	O	-1	B-noun.person
+0	28	622	3257	3258	S	605	.	.	.	.	O	punct	O	-1	O
+0	29	623	3259	3268	S	624	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	nsubj	O	0	B-noun.person
+0	29	624	3269	3274	S	-1	seems	seems	seem	VBZ	O	null	O	-1	B-verb.perception
+0	29	625	3275	3277	S	627	to	to	to	TO	O	aux	O	-1	O
+0	29	626	3278	3280	S	627	be	be	be	VB	O	aux	O	-1	O
+0	29	627	3281	3287	S	624	giving	giving	give	VBG	O	xcomp	O	-1	B-verb.possession
+0	29	628	3288	3295	N	627	thought	thought	think	VBN	O	prep	O	-1	B-verb.cognition
+0	29	629	3296	3298	S	628	to	to	to	TO	O	prep	O	-1	O
+0	29	630	3299	3305		632	Caesar	Caesar	Caesar	NNP	PERSON	poss	O	4	B-noun.person
+0	29	631	3305	3307	S	630	’s	's	's	POS	O	possessive	O	-1	O
+0	29	632	3308	3315	S	629	message	message	message	NN	O	pobj	O	-1	B-noun.communication
+0	29	633	3316	3320	S	649	when	when	when	WRB	O	advmod	O	-1	O
+0	29	634	3321	3327	S	635	Antony	Antony	Antony	NNP	PERSON	nn	O	3	B-noun.person
+0	29	635	3328	3334	S	649	barges	barges	barge	NNS	O	nsubj	O	-1	B-noun.artifact
+0	29	636	3335	3337		649	in	in	in	IN	O	dep	O	-1	O
+0	29	637	3337	3338	S	649	,	,	,	,	O	punct	O	-1	O
+0	29	638	3339	3345	S	649	curses	curses	curse	NNS	O	dep	O	-1	B-noun.communication
+0	29	639	3346	3349	S	638	her	her	she	PRP$	O	amod	O	0	O
+0	29	640	3350	3353	S	639	for	for	for	IN	O	prep	O	-1	O
+0	29	641	3354	3357	S	642	her	her	she	PRP$	O	poss	O	0	O
+0	29	642	3358	3367		640	treachery	treachery	treachery	NN	O	pobj	O	-1	B-noun.attribute
+0	29	643	3367	3368	N	638	,	,	,	,	O	punct	O	-1	O
+0	29	644	3369	3372	S	638	and	and	and	CC	O	cc	O	-1	O
+0	29	645	3373	3379	S	638	orders	orders	order	NNS	O	conj	O	-1	B-noun.communication
+0	29	646	3380	3383	S	648	the	the	the	DT	O	det	O	-1	O
+0	29	647	3384	3392	S	648	innocent	innocent	innocent	JJ	O	amod	O	-1	O
+0	29	648	3393	3402	S	649	messenger	messenger	messenger	NN	O	nsubj	O	-1	B-noun.person
+0	29	649	3403	3410		632	whipped	whipped	whip	VBD	O	dep	O	-1	B-verb.contact
+0	29	650	3410	3411	S	624	.	.	.	.	O	punct	O	-1	O
+0	30	651	3412	3416		657	When	When	when	WRB	O	advmod	O	-1	O
+0	30	652	3416	3417	S	657	,	,	,	,	O	punct	O	-1	O
+0	30	653	3418	3425	S	654	moments	moments	moment	NNS	O	dep	O	-1	B-noun.time
+0	30	654	3426	3431		657	later	later	later	RB	O	advmod	O	-1	O
+0	30	655	3431	3432	N	657	,	,	,	,	O	punct	O	-1	O
+0	30	656	3433	3439	S	657	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	30	657	3440	3448	S	-1	forgives	forgives	forgive	VBZ	O	null	O	-1	B-verb.communication
+0	30	658	3449	3458		657	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	nsubj	O	0	B-noun.person
+0	30	659	3458	3459	S	658	,	,	,	,	O	punct	O	-1	O
+0	30	660	3460	3469	S	658	Enobarbus	Enobarbus	Enobarbus	NNP	PERSON	appos	O	-1	O
+0	30	661	3470	3477	S	657	decides	decides	decide	VBZ	O	dep	O	-1	B-verb.cognition
+0	30	662	3478	3482	S	666	that	that	that	IN	O	complm	O	-1	O
+0	30	663	3483	3486	S	664	his	his	he	PRP$	O	poss	O	3	O
+0	30	664	3487	3493	S	666	master	master	master	NN	O	nsubjpass	O	-1	B-noun.person
+0	30	665	3494	3496	N	666	is	is	be	VBZ	O	auxpass	O	-1	O
+0	30	666	3497	3505	S	657	finished	finished	finish	VBN	O	ccomp	O	-1	B-verb.change
+0	30	667	3506	3509	S	666	and	and	and	CC	O	cc	O	-1	O
+0	30	668	3510	3517	S	666	defects	defects	defect	VBZ	O	conj	O	-1	B-verb.social
+0	30	669	3518	3520	S	668	to	to	to	TO	O	prep	O	-1	O
+0	30	670	3521	3527		672	Caesar	Caesar	Caesar	NNP	PERSON	poss	O	4	B-noun.person
+0	30	671	3527	3529	S	670	’s	's	's	POS	O	possessive	O	-1	O
+0	30	672	3530	3534		669	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	30	673	3534	3535	S	657	.	.	.	.	O	punct	O	-1	O
+0	31	674	3536	3542	S	675	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	31	675	3543	3548	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	31	676	3549	3555		678	Caesar	Caesar	Caesar	NNP	PERSON	poss	O	4	B-noun.person
+0	31	677	3555	3557	S	676	’s	's	's	POS	O	possessive	O	-1	O
+0	31	678	3558	3564	S	675	troops	troops	troops	NNS	O	dobj	O	-1	B-noun.group
+0	31	679	3565	3567	S	675	in	in	in	IN	O	prep	O	-1	O
+0	31	680	3568	3574	S	679	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	31	681	3575	3578	S	680	and	and	and	CC	O	cc	O	-1	O
+0	31	682	3579	3585	S	680	scores	scores	score	NNS	O	conj	O	-1	B-noun.cognition
+0	31	683	3586	3588	N	685	an	an	a	DT	O	det	O	-1	O
+0	31	684	3589	3599	S	685	unexpected	unexpected	unexpected	JJ	O	amod	O	-1	O
+0	31	685	3600	3607		680	victory	victory	victory	NN	O	dep	O	-1	B-noun.event
+0	31	686	3607	3608	S	675	.	.	.	.	O	punct	O	-1	O
+0	32	687	3609	3613	S	689	When	When	when	WRB	O	advmod	O	-1	O
+0	32	688	3614	3616	S	689	he	he	he	PRP	O	nsubj	O	3	O
+0	32	689	3617	3623	S	696	learns	learns	learn	VBZ	O	dep	O	-1	B-verb.cognition
+0	32	690	3624	3626	S	689	of	of	of	IN	O	prep	O	-1	O
+0	32	691	3627	3636		693	Enobarbus	Enobarbus	Enobarbus	NNP	O	poss	O	-1	B-noun.person
+0	32	692	3636	3638	S	691	’s	's	's	POS	O	possessive	O	-1	O
+0	32	693	3639	3648		690	desertion	desertion	desertion	NN	O	pobj	O	-1	B-noun.act
+0	32	694	3648	3649	S	696	,	,	,	,	O	punct	O	-1	O
+0	32	695	3650	3656	N	696	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	32	696	3657	3664	S	-1	laments	laments	lament	VBZ	O	null	O	-1	B-verb.emotion
+0	32	697	3665	3668	S	700	his	his	he	PRP$	O	poss	O	3	O
+0	32	698	3669	3672	S	700	own	own	own	JJ	O	amod	O	-1	O
+0	32	699	3673	3676	S	700	bad	bad	bad	JJ	O	amod	O	-1	O
+0	32	700	3677	3684		696	fortune	fortune	fortune	NN	O	dobj	O	-1	B-noun.state
+0	32	701	3684	3685	S	700	,	,	,	,	O	punct	O	-1	O
+0	32	702	3686	3691	S	704	which	which	which	WDT	O	rel	O	-1	O
+0	32	703	3692	3694	S	704	he	he	he	PRP	O	nsubj	O	3	O
+0	32	704	3695	3703	S	700	believes	believes	believe	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	32	705	3704	3707	S	706	has	has	have	VBZ	O	aux	O	-1	O
+0	32	706	3708	3717	S	704	corrupted	corrupted	corrupt	VBN	O	ccomp	O	-1	B-verb.social
+0	32	707	3718	3720	N	709	an	an	a	DT	O	det	O	-1	O
+0	32	708	3721	3730	S	709	honorable	honorable	honorable	JJ	O	amod	O	-1	O
+0	32	709	3731	3734		706	man	man	man	NN	O	dobj	O	-1	B-noun.person
+0	32	710	3734	3735	S	696	.	.	.	.	O	punct	O	-1	O
+0	33	711	3736	3738	S	712	He	He	he	PRP	O	nsubj	O	3	O
+0	33	712	3739	3744	S	-1	sends	sends	send	VBZ	O	null	O	-1	B-verb.motion
+0	33	713	3745	3748	S	714	his	his	he	PRP$	O	poss	O	3	O
+0	33	714	3749	3755		716	friend	friend	friend	NN	O	poss	O	-1	B-noun.person
+0	33	715	3755	3757	S	714	’s	's	's	POS	O	possessive	O	-1	O
+0	33	716	3758	3769	S	712	possessions	possessions	possession	NNS	O	dobj	O	-1	B-noun.act
+0	33	717	3770	3772	S	712	to	to	to	TO	O	prep	O	-1	O
+0	33	718	3773	3779		720	Caesar	Caesar	Caesar	NNP	PERSON	poss	O	4	B-noun.person
+0	33	719	3779	3781	S	718	’s	's	's	POS	O	possessive	O	-1	O
+0	33	720	3782	3786	N	717	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	33	721	3787	3790	S	720	and	and	and	CC	O	cc	O	-1	O
+0	33	722	3791	3798	S	720	returns	returns	return	NNS	O	conj	O	-1	B-noun.communication
+0	33	723	3799	3801	S	712	to	to	to	TO	O	prep	O	-1	O
+0	33	724	3802	3811	S	723	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	pobj	O	0	B-noun.person
+0	33	725	3812	3814	S	726	to	to	to	TO	O	aux	O	-1	O
+0	33	726	3815	3824	S	712	celebrate	celebrate	celebrate	VB	O	xcomp	O	-1	B-verb.social
+0	33	727	3825	3828	S	728	his	his	he	PRP$	O	poss	O	4	O
+0	33	728	3829	3836		726	victory	victory	victory	NN	O	dobj	O	-1	B-noun.event
+0	33	729	3836	3837	S	712	.	.	.	.	O	punct	O	-1	O
+0	34	730	3838	3847		740	Enobarbus	Enobarbus	Enobarbus	NNP	MISC	nsubj	O	-1	O
+0	34	731	3847	3848	S	730	,	,	,	,	O	punct	O	-1	O
+0	34	732	3849	3855	N	730	undone	undone	undo	VBN	O	partmod	O	-1	B-verb.contact
+0	34	733	3856	3858	S	732	by	by	by	IN	O	prep	O	-1	O
+0	34	734	3859	3864	S	733	shame	shame	shame	NN	O	pobj	O	-1	B-noun.feeling
+0	34	735	3865	3867	S	732	at	at	at	IN	O	prep	O	-1	O
+0	34	736	3868	3871	S	738	his	his	he	PRP$	O	poss	O	4	O
+0	34	737	3872	3875	S	738	own	own	own	JJ	O	amod	O	-1	O
+0	34	738	3876	3886		735	disloyalty	disloyalty	disloyalty	NN	O	pobj	O	-1	B-noun.attribute
+0	34	739	3886	3887	S	730	,	,	,	,	O	punct	O	-1	O
+0	34	740	3888	3892	S	-1	bows	bows	bow	VBZ	O	null	O	-1	B-verb.communication
+0	34	741	3893	3898	S	740	under	under	under	IN	O	prep	O	-1	O
+0	34	742	3899	3902	S	743	the	the	the	DT	O	det	O	-1	O
+0	34	743	3903	3909	S	741	weight	weight	weight	NN	O	pobj	O	-1	B-noun.attribute
+0	34	744	3910	3912	S	743	of	of	of	IN	O	prep	O	-1	O
+0	34	745	3913	3916	S	746	his	his	he	PRP$	O	poss	O	4	O
+0	34	746	3917	3922	N	744	guilt	guilt	guilt	NN	O	pobj	O	-1	B-noun.state
+0	34	747	3923	3926	S	740	and	and	and	CC	O	cc	O	-1	O
+0	34	748	3927	3931		740	dies	dies	die	VBZ	O	conj	O	-1	B-verb.change
+0	34	749	3931	3932	S	740	.	.	.	.	O	punct	O	-1	O
+0	35	750	3933	3940	S	751	Another	Another	another	DT	DURATION	det	O	-1	O
+0	35	751	3941	3944	S	752	day	day	day	NN	DURATION	nsubj	O	-1	B-noun.time
+0	35	752	3945	3951	S	-1	brings	brings	bring	VBZ	O	null	O	-1	B-verb.motion
+0	35	753	3952	3959	S	754	another	another	another	DT	O	det	O	-1	O
+0	35	754	3960	3966		752	battle	battle	battle	NN	O	dobj	O	-1	B-noun.act
+0	35	755	3966	3967	S	754	,	,	,	,	O	punct	O	-1	O
+0	35	756	3968	3971	S	754	and	and	and	CC	O	cc	O	-1	O
+0	35	757	3972	3976	S	758	once	once	once	RB	DATE	advmod	O	-1	O
+0	35	758	3977	3982	S	760	again	again	again	RB	O	advmod	O	-1	O
+0	35	759	3983	3989	N	760	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	35	760	3990	3995	S	754	meets	meets	meet	VBZ	O	conj	O	-1	B-verb.motion
+0	35	761	3996	4002	S	760	Caesar	Caesar	Caesar	NNP	PERSON	dobj	O	4	B-noun.person
+0	35	762	4003	4005	S	760	at	at	at	IN	O	prep	O	-1	O
+0	35	763	4006	4009		762	sea	sea	sea	NN	O	pobj	O	-1	B-noun.object
+0	35	764	4009	4010	S	752	.	.	.	.	O	punct	O	-1	O
+0	36	765	4011	4013	S	771	As	As	as	IN	O	prep	O	-1	O
+0	36	766	4014	4020		765	before	before	before	RB	O	dep	O	-1	O
+0	36	767	4020	4021	S	771	,	,	,	,	O	punct	O	-1	O
+0	36	768	4022	4025	S	770	the	the	the	DT	O	det	O	-1	O
+0	36	769	4026	4034	S	770	Egyptian	Egyptian	egyptian	JJ	MISC	amod	O	-1	O
+0	36	770	4035	4040	S	771	fleet	fleet	fleet	NN	O	nsubj	O	-1	B-noun.group
+0	36	771	4041	4047	S	-1	proves	proves	prove	VBZ	O	null	O	-1	B-verb.stative
+0	36	772	4048	4059		771	treacherous	treacherous	treacherous	JJ	O	acomp	O	-1	O
+0	36	773	4059	4060	N	771	;	;	;	:	O	punct	O	-1	O
+0	36	774	4061	4063	S	775	it	it	it	PRP	O	nsubj	O	-1	O
+0	36	775	4064	4072	S	771	abandons	abandons	abandon	VBZ	O	parataxis	O	-1	B-verb.possession
+0	36	776	4073	4076	S	777	the	the	the	DT	O	det	O	-1	O
+0	36	777	4077	4082	S	775	fight	fight	fight	NN	O	dobj	O	-1	B-noun.act
+0	36	778	4083	4086	S	775	and	and	and	CC	O	cc	O	-1	O
+0	36	779	4087	4093	S	782	leaves	leaves	leave	VBZ	O	aux	O	-1	B-verb.motion
+0	36	780	4094	4100	S	782	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	36	781	4101	4103	S	782	to	to	to	TO	O	aux	O	-1	O
+0	36	782	4104	4110	S	775	suffer	suffer	suffer	VB	O	conj	O	-1	B-verb.perception
+0	36	783	4111	4117		782	defeat	defeat	defeat	NN	O	dobj	O	-1	B-noun.event
+0	36	784	4117	4118	S	771	.	.	.	.	O	punct	O	-1	O
+0	37	785	4119	4128	S	794	Convinced	Convinced	convinced	JJ	O	dep	O	-1	O
+0	37	786	4129	4133	N	790	that	that	that	IN	O	complm	O	-1	O
+0	37	787	4134	4137	S	788	his	his	he	PRP$	O	poss	O	3	O
+0	37	788	4138	4143	S	790	lover	lover	lover	NN	O	nsubj	O	-1	B-noun.person
+0	37	789	4144	4147	S	790	has	has	have	VBZ	O	aux	O	-1	O
+0	37	790	4148	4156	S	785	betrayed	betrayed	betray	VBN	O	ccomp	O	-1	B-verb.communication
+0	37	791	4157	4160		790	him	him	he	PRP	O	dobj	O	3	O
+0	37	792	4160	4161	S	794	,	,	,	,	O	punct	O	-1	O
+0	37	793	4162	4168	S	794	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	37	794	4169	4173	S	-1	vows	vows	vow	VBZ	O	null	O	-1	B-verb.communication
+0	37	795	4174	4176	S	796	to	to	to	TO	O	aux	O	-1	O
+0	37	796	4177	4181	S	794	kill	kill	kill	VB	O	xcomp	O	-1	B-verb.contact
+0	37	797	4182	4191		796	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	dobj	O	0	B-noun.person
+0	37	798	4191	4192	S	794	.	.	.	.	O	punct	O	-1	O
+0	38	799	4193	4195	S	802	In	In	in	IN	O	mark	O	-1	O
+0	38	800	4196	4201	N	802	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	38	801	4202	4204	S	802	to	to	to	TO	O	aux	O	-1	O
+0	38	802	4205	4212	S	806	protect	protect	protect	VB	O	advcl	O	-1	B-verb.competition
+0	38	803	4213	4220		802	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	38	804	4220	4221	S	806	,	,	,	,	O	punct	O	-1	O
+0	38	805	4222	4225	S	806	she	she	she	PRP	O	nsubj	O	0	O
+0	38	806	4226	4234	S	-1	quarters	quarters	quarter	NNS	O	null	O	-1	B-noun.artifact
+0	38	807	4235	4242	S	806	herself	herself	herself	PRP	O	dep	O	-1	O
+0	38	808	4243	4245	S	806	in	in	in	IN	O	prep	O	-1	O
+0	38	809	4246	4249	S	810	her	her	she	PRP$	O	poss	O	0	O
+0	38	810	4250	4258	S	808	monument	monument	monument	NN	O	pobj	O	-1	B-noun.artifact
+0	38	811	4259	4262	S	806	and	and	and	CC	O	cc	O	-1	O
+0	38	812	4263	4268	N	813	sends	sends	send	VBZ	O	cop	O	-1	B-verb.communication
+0	38	813	4269	4273	S	806	word	word	word	NN	O	conj	O	-1	B-noun.communication
+0	38	814	4274	4278	S	817	that	that	that	IN	O	complm	O	-1	O
+0	38	815	4279	4282	S	817	she	she	she	PRP	O	nsubj	O	0	O
+0	38	816	4283	4286	S	817	has	has	have	VBZ	O	aux	O	-1	O
+0	38	817	4287	4296	S	813	committed	committed	commit	VBN	O	ccomp	O	-1	B-verb.possession
+0	38	818	4297	4304		817	suicide	suicide	suicide	NN	O	dobj	O	-1	B-noun.act
+0	38	819	4304	4305	S	806	.	.	.	.	O	punct	O	-1	O
+0	39	820	4306	4312		826	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	39	821	4312	4313	S	820	,	,	,	,	O	punct	O	-1	O
+0	39	822	4314	4320	S	820	racked	racked	rack	VBN	O	partmod	O	-1	B-verb.motion
+0	39	823	4321	4325	S	822	with	with	with	IN	O	prep	O	-1	O
+0	39	824	4326	4331		823	grief	grief	grief	NN	O	pobj	O	-1	B-noun.feeling
+0	39	825	4331	4332	N	820	,	,	,	,	O	punct	O	-1	O
+0	39	826	4333	4343	S	-1	determines	determines	determine	VBZ	O	null	O	-1	B-verb.communication
+0	39	827	4344	4346	S	828	to	to	to	TO	O	aux	O	-1	O
+0	39	828	4347	4351	S	826	join	join	join	VB	O	xcomp	O	-1	B-verb.social
+0	39	829	4352	4355	S	830	his	his	he	PRP$	O	poss	O	3	O
+0	39	830	4356	4361	S	828	queen	queen	queen	NN	O	dobj	O	-1	B-noun.person
+0	39	831	4362	4364	S	828	in	in	in	IN	O	prep	O	-1	O
+0	39	832	4365	4368	S	833	the	the	the	DT	O	det	O	-1	O
+0	39	833	4369	4378		831	afterlife	afterlife	afterlife	NN	O	pobj	O	-1	B-noun.time
+0	39	834	4378	4379	S	826	.	.	.	.	O	punct	O	-1	O
+0	40	835	4380	4382	S	836	He	He	he	PRP	O	nsubj	O	3	O
+0	40	836	4383	4391	S	-1	commands	commands	command	VBZ	O	null	O	-1	B-verb.communication
+0	40	837	4392	4395	S	836	one	one	one	CD	NUMBER	dobj	O	-1	O
+0	40	838	4396	4398	N	837	of	of	of	IN	O	prep	O	-1	O
+0	40	839	4399	4402	S	840	his	his	he	PRP$	O	poss	O	3	O
+0	40	840	4403	4413	S	838	attendants	attendants	attendant	NNS	O	pobj	O	-1	B-noun.person
+0	40	841	4414	4416	S	842	to	to	to	TO	O	aux	O	-1	O
+0	40	842	4417	4424	S	837	fulfill	fulfill	fulfill	VB	O	infmod	O	-1	B-verb.creation
+0	40	843	4425	4428	S	844	his	his	he	PRP$	O	poss	O	3	O
+0	40	844	4429	4436	S	842	promise	promise	promise	NN	O	dobj	O	-1	B-noun.communication
+0	40	845	4437	4439	S	844	of	of	of	IN	O	prep	O	-1	O
+0	40	846	4440	4452	S	847	unquestioned	unquestioned	unquestioned	JJ	O	amod	O	-1	O
+0	40	847	4453	4460	S	845	service	service	service	NN	O	pobj	O	-1	B-noun.act
+0	40	848	4461	4464	S	842	and	and	and	CC	O	cc	O	-1	O
+0	40	849	4465	4469	N	842	kill	kill	kill	VB	O	conj	O	-1	B-verb.contact
+0	40	850	4470	4473		849	him	him	he	PRP	O	dobj	O	3	O
+0	40	851	4473	4474	S	836	.	.	.	.	O	punct	O	-1	O
+0	41	852	4475	4478	S	853	The	The	the	DT	O	det	O	-1	O
+0	41	853	4479	4488	S	854	attendant	attendant	attendant	JJ	O	nsubj	O	-1	O
+0	41	854	4489	4494	S	-1	kills	kills	kill	VBZ	O	null	O	-1	B-verb.contact
+0	41	855	4495	4502	S	854	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	41	856	4503	4510		854	instead	instead	instead	RB	O	advmod	O	-1	O
+0	41	857	4510	4511	S	854	.	.	.	.	O	punct	O	-1	O
+0	42	858	4512	4518	S	860	Antony	Antony	Antony	NNP	PERSON	nsubj	O	3	B-noun.person
+0	42	859	4519	4523	S	860	then	then	then	RB	O	advmod	O	-1	O
+0	42	860	4524	4529	S	-1	falls	falls	fall	VBZ	O	null	O	-1	B-verb.motion
+0	42	861	4530	4532	S	860	on	on	on	IN	O	prep	O	-1	O
+0	42	862	4533	4536	S	864	his	his	he	PRP$	O	poss	O	3	O
+0	42	863	4537	4540	N	864	own	own	own	JJ	O	amod	O	-1	O
+0	42	864	4541	4546		861	sword	sword	sword	NN	O	pobj	O	-1	B-noun.artifact
+0	42	865	4546	4547	S	860	,	,	,	,	O	punct	O	-1	O
+0	42	866	4548	4551	S	860	but	but	but	CC	O	cc	O	-1	O
+0	42	867	4552	4555	S	868	the	the	the	DT	O	det	O	-1	O
+0	42	868	4556	4561	S	872	wound	wound	wound	NN	O	nsubj	O	-1	B-noun.state
+0	42	869	4562	4564	S	872	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	42	870	4565	4568	S	872	not	not	not	RB	O	neg	O	-1	O
+0	42	871	4569	4580	S	872	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	42	872	4581	4586		860	fatal	fatal	fatal	JJ	O	conj	O	-1	O
+0	42	873	4586	4587	S	860	.	.	.	.	O	punct	O	-1	O
+0	43	874	4588	4590	S	876	He	He	he	PRP	O	nsubjpass	O	3	O
+0	43	875	4591	4593	S	876	is	is	be	VBZ	O	auxpass	O	-1	O
+0	43	876	4594	4601	S	-1	carried	carried	carry	VBN	O	null	O	-1	B-verb.contact
+0	43	877	4602	4604	S	876	to	to	to	TO	O	prep	O	-1	O
+0	43	878	4605	4614		880	Cleopatra	Cleopatra	Cleopatra	NNP	PERSON	poss	O	0	B-noun.person
+0	43	879	4614	4616	N	878	’s	's	's	POS	O	possessive	O	-1	O
+0	43	880	4617	4625		877	monument	monument	monument	NN	O	pobj	O	-1	B-noun.artifact
+0	43	881	4625	4626	S	880	,	,	,	,	O	punct	O	-1	O
+0	43	882	4627	4632	S	886	where	where	where	WRB	O	advmod	O	-1	O
+0	43	883	4633	4636	S	884	the	the	the	DT	O	det	O	-1	O
+0	43	884	4637	4643	S	886	lovers	lovers	lover	NNS	O	nsubjpass	O	-1	B-noun.person
+0	43	885	4644	4647	S	886	are	are	be	VBP	O	auxpass	O	-1	O
+0	43	886	4648	4656	S	880	reunited	reunited	reunite	VBN	O	rcmod	O	-1	B-verb.social
+0	43	887	4657	4664	S	886	briefly	briefly	briefly	NN	O	dobj	O	-1	B-noun.person
+0	43	888	4665	4671	S	886	before	before	before	IN	O	prep	O	-1	O
+0	43	889	4672	4678		891	Antony	Antony	Antony	NNP	PERSON	poss	O	3	B-noun.person
+0	43	890	4678	4680	N	889	’s	's	's	POS	O	possessive	O	-1	O
+0	43	891	4681	4686		888	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	43	892	4686	4687	S	876	.	.	.	.	O	punct	O	-1	O
+0	44	893	4688	4694	S	894	Caesar	Caesar	Caesar	NNP	PERSON	nsubj	O	4	B-noun.person
+0	44	894	4695	4700	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.motion
+0	44	895	4701	4704	S	897	the	the	the	DT	O	det	O	-1	O
+0	44	896	4705	4710	S	897	queen	queen	queen	NN	O	nn	O	-1	B-noun.animal
+0	44	897	4711	4719		894	prisoner	prisoner	prisoner	NN	O	dobj	O	-1	B-noun.person
+0	44	898	4719	4720	S	894	,	,	,	,	O	punct	O	-1	O
+0	44	899	4721	4729	S	894	planning	planning	plan	VBG	O	xcomp	O	-1	B-verb.cognition
+0	44	900	4730	4732	S	901	to	to	to	TO	O	aux	O	-1	O
+0	44	901	4733	4740	S	899	display	display	display	VB	O	xcomp	O	-1	B-verb.perception
+0	44	902	4741	4744	N	901	her	her	she	PRP	O	dobj	O	0	O
+0	44	903	4745	4747	S	901	in	in	in	IN	O	prep	O	-1	O
+0	44	904	4748	4752	S	903	Rome	Rome	Rome	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	44	905	4753	4755	S	901	as	as	as	IN	O	prep	O	-1	O
+0	44	906	4756	4757	S	907	a	a	a	DT	O	det	O	-1	O
+0	44	907	4758	4767	S	905	testament	testament	testament	NN	O	pobj	O	-1	B-noun.cognition
+0	44	908	4768	4770	S	907	to	to	to	TO	O	prep	O	-1	O
+0	44	909	4771	4774	S	910	the	the	the	DT	O	det	O	-1	O
+0	44	910	4775	4780	S	908	might	might	might	NN	O	pobj	O	-1	B-noun.attribute
+0	44	911	4781	4783	S	910	of	of	of	IN	O	prep	O	-1	O
+0	44	912	4784	4787	S	913	his	his	he	PRP$	O	poss	O	4	O
+0	44	913	4788	4794		911	empire	empire	empire	NN	O	pobj	O	-1	B-noun.location
+0	44	914	4794	4795	S	894	,	,	,	,	O	punct	O	-1	O
+0	44	915	4796	4799	S	894	but	but	but	CC	O	cc	O	-1	O
+0	44	916	4800	4803	S	917	she	she	she	PRP	O	nsubj	O	0	O
+0	44	917	4804	4810	N	894	learns	learns	learn	VBZ	O	conj	O	-1	B-verb.cognition
+0	44	918	4811	4813	S	917	of	of	of	IN	O	prep	O	-1	O
+0	44	919	4814	4817	S	920	his	his	he	PRP$	O	poss	O	4	O
+0	44	920	4818	4822	S	918	plan	plan	plan	NN	O	pobj	O	-1	B-noun.cognition
+0	44	921	4823	4826	S	894	and	and	and	CC	O	cc	O	-1	O
+0	44	922	4827	4832	S	894	kills	kills	kill	VBZ	O	conj	O	-1	B-verb.contact
+0	44	923	4833	4840	S	922	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	44	924	4841	4845	S	922	with	with	with	IN	O	prep	O	-1	O
+0	44	925	4846	4849	S	926	the	the	the	DT	O	det	O	-1	O
+0	44	926	4850	4854	S	924	help	help	help	NN	O	pobj	O	-1	B-noun.act
+0	44	927	4855	4857	S	926	of	of	of	IN	O	prep	O	-1	O
+0	44	928	4858	4865	S	930	several	several	several	JJ	O	amod	O	-1	O
+0	44	929	4866	4875	S	930	poisonous	poisonous	poisonous	JJ	O	amod	O	-1	O
+0	44	930	4876	4882		927	snakes	snakes	snake	NNS	O	pobj	O	-1	B-noun.animal
+0	44	931	4882	4883	N	894	.	.	.	.	O	punct	O	-1	O
+0	45	932	4884	4890	S	933	Caesar	Caesar	Caesar	NNP	PERSON	nsubj	O	4	B-noun.person
+0	45	933	4891	4894	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	45	934	4895	4898	S	935	her	her	she	PRP$	O	poss	O	0	O
+0	45	935	4899	4905	S	933	buried	buried	bury	VBN	O	dobj	O	-1	B-verb.perception
+0	45	936	4906	4912	S	935	beside	beside	beside	IN	O	prep	O	-1	O
+0	45	937	4913	4919		936	Antony	Antony	Antony	NNP	PERSON	pobj	O	3	B-noun.person
+0	45	938	4919	4920	N	933	.	.	.	.	O	punct	O	-1	O

@@ -1,0 +1,987 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	7	S	4	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	0	1	8	11	S	0	and	and	and	CC	O	cc	O	-1	O
+0	0	2	12	16	S	0	Park	Park	Park	NNP	O	conj	O	-1	B-noun.location
+0	0	3	17	19	S	4	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	4	20	23	S	-1	set	set	set	VBN	O	null	O	-1	B-verb.change
+0	0	5	24	26	S	4	in	in	in	IN	O	prep	O	-1	O
+0	0	6	27	32		5	Omaha	Omaha	Omaha	NNP	LOCATION	pobj	O	-1	O
+0	0	7	32	33	S	6	,	,	,	,	O	punct	O	-1	O
+0	0	8	34	42		6	Nebraska	Nebraska	Nebraska	NNP	LOCATION	appos	O	-1	O
+0	0	9	42	43	S	6	,	,	,	,	O	punct	O	-1	O
+0	0	10	44	48	S	4	over	over	over	IN	O	prep	O	-1	O
+0	0	11	49	52	S	12	the	the	the	DT	O	det	O	-1	O
+0	0	12	53	59	S	10	course	course	course	NN	O	pobj	O	-1	B-noun.act
+0	0	13	60	62	S	12	of	of	of	IN	O	prep	O	-1	O
+0	0	14	63	66	S	16	the	the	the	DT	O	det	O	-1	O
+0	0	15	67	73	S	16	school	school	school	NN	O	nn	O	-1	B-noun.time
+0	0	16	74	78	S	13	year	year	year	NN	DATE	pobj	O	-1	I-noun.time
+0	0	17	79	83	S	4	from	from	from	IN	DATE	prep	O	-1	O
+0	0	18	84	87	S	19	the	the	the	DT	DATE	det	O	-1	O
+0	0	19	88	92	S	17	fall	fall	fall	NN	DATE	pobj	O	-1	B-noun.time
+0	0	20	93	95	S	19	of	of	of	IN	DATE	prep	O	-1	O
+0	0	21	96	100	S	20	1986	1986	1986	CD	DATE	pobj	O	-1	O
+0	0	22	101	103	S	4	to	to	to	TO	O	prep	O	-1	O
+0	0	23	104	107	S	24	the	the	the	DT	DATE	det	O	-1	O
+0	0	24	108	114	S	22	summer	summer	summer	NN	DATE	pobj	O	-1	B-noun.time
+0	0	25	115	117	S	24	of	of	of	IN	DATE	prep	O	-1	O
+0	0	26	118	122		25	1987	1987	1987	CD	DATE	pobj	O	-1	O
+0	0	27	122	123	S	4	.	.	.	.	O	punct	O	-1	O
+0	1	28	124	127	S	29	The	The	the	DT	O	det	O	-1	O
+0	1	29	128	132	S	30	book	book	book	NN	O	nsubj	O	-1	B-noun.communication
+0	1	30	133	135	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	1	31	136	138	S	30	in	in	in	IN	O	prep	O	-1	O
+0	1	32	139	142	S	34	the	the	the	DT	O	det	O	-1	O
+0	1	33	143	148	S	34	third	third	third	JJ	ORDINAL	amod	O	-1	O
+0	1	34	149	155		31	person	person	person	NN	O	pobj	O	-1	B-noun.person
+0	1	35	155	156	S	30	,	,	,	,	O	punct	O	-1	O
+0	1	36	157	160	S	30	and	and	and	CC	O	cc	O	-1	O
+0	1	37	161	164	S	39	the	the	the	DT	O	det	O	-1	O
+0	1	38	165	174	S	39	narrative	narrative	narrative	JJ	O	amod	O	-1	O
+0	1	39	175	185	S	30	alternates	alternates	alternate	NNS	O	conj	O	-1	B-noun.person
+0	1	40	186	193	S	39	between	between	between	IN	O	prep	O	-1	O
+0	1	41	194	201		43	Eleanor	Eleanor	Eleanor	NNP	PERSON	poss	O	0	B-noun.person
+0	1	42	201	203	S	41	’s	's	's	POS	O	possessive	O	-1	O
+0	1	43	204	215	S	40	perspective	perspective	perspective	NN	O	pobj	O	-1	B-noun.cognition
+0	1	44	216	219	S	43	and	and	and	CC	O	cc	O	-1	O
+0	1	45	220	224		47	Park	Park	park	NN	PERSON	poss	O	3	B-noun.location
+0	1	46	224	226	S	45	’s	's	's	POS	O	possessive	O	-1	O
+0	1	47	227	238		43	perspective	perspective	perspective	NN	O	conj	O	-1	B-noun.cognition
+0	1	48	238	239	S	30	.	.	.	.	O	punct	O	-1	O
+0	2	49	240	247	S	50	Eleanor	Eleanor	Eleanor	NNP	PERSON	nn	O	-1	B-noun.person
+0	2	50	248	255	S	53	Douglas	Douglas	Douglas	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	2	51	256	258	S	53	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	2	52	259	260	S	53	a	a	a	DT	O	det	O	-1	O
+0	2	53	261	273	S	-1	tenth-grader	tenth-grader	tenth-grader	NN	O	null	O	-1	B-noun.person
+0	2	54	274	277	S	57	who	who	who	WP	O	nsubj	O	-1	O
+0	2	55	278	281	S	57	has	has	have	VBZ	O	aux	O	-1	O
+0	2	56	282	286	S	57	just	just	just	RB	O	advmod	O	-1	O
+0	2	57	287	298	S	53	transferred	transferred	transfer	VBN	O	rcmod	O	-1	B-verb.motion
+0	2	58	299	301	S	57	to	to	to	TO	O	prep	O	-1	O
+0	2	59	302	303	S	62	a	a	a	DT	O	det	O	-1	O
+0	2	60	304	307	S	62	new	new	new	JJ	O	amod	O	-1	O
+0	2	61	308	312	S	62	high	high	high	JJ	O	amod	O	-1	O
+0	2	62	313	319		58	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	2	63	319	320	S	53	.	.	.	.	O	punct	O	-1	O
+0	3	64	321	328	S	65	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	3	65	329	335	S	92	stands	stands	stand	VBZ	O	ccomp	O	-1	B-verb.stative
+0	3	66	336	339	S	65	out	out	out	RP	O	prt	O	-1	O
+0	3	67	340	344	S	65	from	from	from	IN	O	prep	O	-1	O
+0	3	68	345	348	S	69	the	the	the	DT	O	det	O	-1	O
+0	3	69	349	353	S	67	rest	rest	rest	NN	O	pobj	O	-1	B-noun.relation
+0	3	70	354	356	S	69	of	of	of	IN	O	prep	O	-1	O
+0	3	71	357	360	S	72	the	the	the	DT	O	det	O	-1	O
+0	3	72	361	369	S	70	students	students	student	NNS	O	pobj	O	-1	B-noun.person
+0	3	73	370	372	S	72	in	in	in	IN	O	prep	O	-1	O
+0	3	74	373	376	S	75	her	her	she	PRP$	O	poss	O	0	O
+0	3	75	377	387		73	appearance	appearance	appearance	NN	O	pobj	O	-1	B-noun.attribute
+0	3	76	387	388	S	65	,	,	,	,	O	punct	O	-1	O
+0	3	77	389	394	S	81	since	since	since	IN	O	mark	O	-1	O
+0	3	78	395	398	S	81	she	she	she	PRP	O	nsubj	O	0	O
+0	3	79	399	401	S	81	is	is	be	VBZ	O	cop	O	-1	O
+0	3	80	402	403		81	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	81	403	406	S	65	big	big	big	JJ	O	advcl	I-QUOTE	-1	O
+0	3	82	407	410	S	81	and	and	and	CC	O	cc	I-QUOTE	-1	O
+0	3	83	411	418		81	awkward	awkward	awkward	JJ	O	conj	I-QUOTE	-1	O
+0	3	84	418	419		92	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	3	85	419	420	S	92	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	86	421	424	S	92	has	has	have	VBZ	O	ccomp	O	-1	O
+0	3	87	425	430	S	89	curly	curly	curly	JJ	O	amod	O	-1	O
+0	3	88	431	434	S	89	red	red	red	JJ	O	amod	O	-1	O
+0	3	89	435	439		86	hair	hair	hair	NN	O	dobj	O	-1	B-noun.body
+0	3	90	439	440	S	92	,	,	,	,	O	punct	O	-1	O
+0	3	91	441	444	S	92	and	and	and	CC	O	dep	O	-1	O
+0	3	92	445	450	S	-1	wears	wears	wear	VBZ	O	null	O	-1	B-verb.body
+0	3	93	451	454		95	men	men	man	NNS	O	poss	O	-1	B-noun.person
+0	3	94	454	456	S	93	’s	's	's	POS	O	possessive	O	-1	O
+0	3	95	457	464	S	92	clothes	clothes	clothes	NNS	O	dobj	O	-1	B-noun.artifact
+0	3	96	465	469	S	95	with	with	with	IN	O	prep	O	-1	O
+0	3	97	470	477	S	98	unusual	unusual	unusual	JJ	O	amod	O	-1	O
+0	3	98	478	489		96	accessories	accessories	accessory	NNS	O	pobj	O	-1	B-noun.artifact
+0	3	99	489	490	S	92	.	.	.	.	O	punct	O	-1	O
+0	4	100	491	493	S	101	No	No	no	DT	O	det	O	-1	O
+0	4	101	494	497	S	102	one	one	one	NN	NUMBER	nsubj	O	-1	O
+0	4	102	498	503	S	-1	wants	wants	want	VBZ	O	null	O	-1	B-verb.emotion
+0	4	103	504	506	S	104	to	to	to	TO	O	aux	O	-1	O
+0	4	104	507	511	S	102	make	make	make	VB	O	xcomp	O	-1	B-verb.social
+0	4	105	512	516	S	104	room	room	room	NN	O	dobj	O	-1	B-noun.quantity
+0	4	106	517	520	S	105	for	for	for	IN	O	prep	O	-1	O
+0	4	107	521	524	S	106	her	her	she	PRP$	O	pobj	O	0	O
+0	4	108	525	527	S	107	on	on	on	IN	O	prep	O	-1	O
+0	4	109	528	531	S	110	the	the	the	DT	O	det	O	-1	O
+0	4	110	532	535		108	bus	bus	bus	NN	O	pobj	O	-1	B-noun.artifact
+0	4	111	535	536	S	102	,	,	,	,	O	punct	O	-1	O
+0	4	112	537	540	S	102	but	but	but	CC	O	cc	O	-1	O
+0	4	113	541	545	S	115	Park	Park	Park	NNP	PERSON	nsubj	O	3	B-noun.location
+0	4	114	546	556	S	115	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	4	115	557	561	S	102	lets	lets	let	VBZ	O	conj	O	-1	B-verb.social
+0	4	116	562	565	S	117	her	her	she	PRP	O	dep	O	0	O
+0	4	117	566	569	S	115	sit	sit	sit	VB	O	ccomp	O	-1	B-verb.contact
+0	4	118	570	574	S	117	next	next	next	JJ	O	advmod	O	-1	O
+0	4	119	575	577	S	118	to	to	to	TO	O	dep	O	-1	O
+0	4	120	578	581		119	him	him	he	PRP	O	pobj	O	-1	O
+0	4	121	581	582	S	102	.	.	.	.	O	punct	O	-1	O
+0	5	122	583	590	S	125	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	5	123	591	593	S	125	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	5	124	594	603	S	125	extremely	extremely	extremely	RB	O	advmod	O	-1	O
+0	5	125	604	609	S	-1	smart	smart	smart	JJ	O	null	O	-1	O
+0	5	126	610	613	S	125	and	and	and	CC	O	cc	O	-1	O
+0	5	127	614	619		125	sharp	sharp	sharp	JJ	O	conj	O	-1	O
+0	5	128	619	620	S	125	,	,	,	,	O	punct	O	-1	O
+0	5	129	621	633	S	130	particularly	particularly	particularly	RB	O	advmod	O	-1	O
+0	5	130	634	643	S	125	excelling	excelling	excel	VBG	O	ccomp	O	-1	B-verb.stative
+0	5	131	644	646	S	130	in	in	in	IN	O	prep	O	-1	O
+0	5	132	647	654	S	133	English	English	English	NNP	MISC	nn	O	-1	O
+0	5	133	655	660		131	class	class	class	NN	O	pobj	O	-1	O
+0	5	134	660	661	S	125	.	.	.	.	O	punct	O	-1	O
+0	6	135	662	665	S	137	Her	Her	she	PRP$	O	poss	O	0	O
+0	6	136	666	670	S	137	home	home	home	NN	O	nn	O	-1	B-noun.artifact
+0	6	137	671	675		143	life	life	life	NN	O	nsubjpass	O	-1	O
+0	6	138	675	676	S	143	,	,	,	,	O	punct	O	-1	O
+0	6	139	677	684		143	however	however	however	RB	O	advmod	O	-1	O
+0	6	140	684	685	S	143	,	,	,	,	O	punct	O	-1	O
+0	6	141	686	688	S	143	is	is	be	VBZ	O	auxpass	O	-1	O
+0	6	142	689	695	S	143	deeply	deeply	deeply	RB	O	advmod	O	-1	O
+0	6	143	696	704		-1	troubled	troubled	trouble	VBN	O	null	O	-1	O
+0	6	144	704	705	S	143	.	.	.	.	O	punct	O	-1	O
+0	7	145	706	713		163	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	O
+0	7	146	713	714	S	145	,	,	,	,	O	punct	O	-1	O
+0	7	147	715	718	S	148	her	her	she	PRP$	O	poss	O	0	O
+0	7	148	719	725		145	mother	mother	mother	NN	O	appos	O	-1	B-noun.person
+0	7	149	725	726	S	145	,	,	,	,	O	punct	O	-1	O
+0	7	150	727	730	S	154	her	her	she	PRP$	O	poss	O	0	O
+0	7	151	731	738	S	154	abusive	abusive	abusive	JJ	O	amod	O	-1	O
+0	7	152	739	742	S	151	and	and	and	CC	O	cc	O	-1	O
+0	7	153	743	752	S	151	alcoholic	alcoholic	alcoholic	JJ	O	conj	O	-1	O
+0	7	154	753	763	S	145	stepfather	stepfather	stepfather	NN	O	appos	O	-1	B-noun.person
+0	7	155	764	770		154	Richie	Richie	Richie	NNP	PERSON	dep	O	1	O
+0	7	156	770	771	S	145	,	,	,	,	O	punct	O	-1	O
+0	7	157	772	775	S	145	and	and	and	CC	O	cc	O	-1	O
+0	7	158	776	779	S	161	her	her	she	PRP$	O	poss	O	0	O
+0	7	159	780	784	S	161	four	four	four	CD	NUMBER	num	O	-1	O
+0	7	160	785	792	S	161	younger	younger	younger	JJR	O	amod	O	-1	O
+0	7	161	793	801		145	siblings	siblings	sibling	NNS	O	conj	O	-1	B-noun.person
+0	7	162	801	802	S	163	,	,	,	,	O	punct	O	-1	O
+0	7	163	803	807	S	-1	live	live	live	VB	O	null	O	-1	B-verb.stative
+0	7	164	808	810	S	163	in	in	in	IN	O	prep	O	-1	O
+0	7	165	811	818		164	poverty	poverty	poverty	NN	O	pobj	O	-1	B-noun.state
+0	7	166	818	819	S	163	.	.	.	.	O	punct	O	-1	O
+0	8	167	820	823	S	169	All	All	all	PDT	O	predet	O	-1	O
+0	8	168	824	827	S	169	the	the	the	DT	O	det	O	-1	O
+0	8	169	828	832	S	170	kids	kids	kid	NNS	O	nsubj	O	-1	B-noun.person
+0	8	170	833	837	S	-1	have	have	have	VBP	O	null	O	-1	O
+0	8	171	838	840	S	172	to	to	to	TO	O	aux	O	-1	O
+0	8	172	841	846	S	170	share	share	share	VB	O	xcomp	O	-1	B-verb.possession
+0	8	173	847	850	S	174	one	one	one	CD	NUMBER	num	O	-1	O
+0	8	174	851	858		172	bedroom	bedroom	bedroom	NN	O	dobj	O	-1	B-noun.artifact
+0	8	175	858	859	S	170	,	,	,	,	O	punct	O	-1	O
+0	8	176	860	863	S	170	and	and	and	CC	O	cc	O	-1	O
+0	8	177	864	868	S	180	they	they	they	PRP	O	nsubj	O	-1	O
+0	8	178	869	871		180	ca	ca	can	MD	O	aux	O	-1	O
+0	8	179	871	874	S	180	n’t	n't	not	RB	O	neg	O	-1	O
+0	8	180	875	881	S	170	afford	afford	afford	VB	O	conj	O	-1	B-verb.consumption
+0	8	181	882	883	S	182	a	a	a	DT	O	det	O	-1	O
+0	8	182	884	889		180	phone	phone	phone	NN	O	dobj	O	-1	B-noun.artifact
+0	8	183	889	890	S	170	.	.	.	.	O	punct	O	-1	O
+0	9	184	891	898	S	187	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	9	185	899	902	S	187	has	has	have	VBZ	O	aux	O	-1	O
+0	9	186	903	907	S	187	just	just	just	RB	O	advmod	O	-1	O
+0	9	187	908	916	S	-1	returned	returned	return	VBN	O	null	O	-1	B-verb.motion
+0	9	188	917	921	S	187	back	back	back	RB	O	advmod	O	-1	O
+0	9	189	922	924	S	187	to	to	to	TO	O	prep	O	-1	O
+0	9	190	925	928	S	191	her	her	she	PRP$	O	poss	O	0	O
+0	9	191	929	934	S	189	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	9	192	935	940	S	187	after	after	after	IN	O	prep	O	-1	O
+0	9	193	941	944	S	197	her	her	she	PRP$	O	poss	O	0	O
+0	9	194	945	948	S	196	the	the	the	DT	O	det	O	-1	O
+0	9	195	949	953	S	196	evil	evil	evil	JJ	O	amod	O	-1	O
+0	9	196	954	960	S	197	Richie	Richie	Richie	NNP	PERSON	nsubj	O	1	B-noun.person
+0	9	197	961	967	S	192	kicked	kicked	kick	VBD	O	pobj	O	-1	B-verb.contact
+0	9	198	968	971	S	197	her	her	she	PRP	O	dobj	O	0	O
+0	9	199	972	975	S	197	out	out	out	RP	O	prt	O	-1	O
+0	9	200	976	979	S	197	for	for	for	IN	O	prep	O	-1	O
+0	9	201	980	981	S	202	a	a	a	DT	DURATION	det	O	-1	O
+0	9	202	982	986		200	year	year	year	NN	DURATION	pobj	O	-1	B-noun.time
+0	9	203	986	987	S	187	.	.	.	.	O	punct	O	-1	O
+0	10	204	988	994	S	205	Richie	Richie	Richie	NNP	PERSON	nsubj	O	1	B-noun.person
+0	10	205	995	1005	S	-1	terrorizes	terrorizes	terrorize	VBZ	O	null	O	-1	B-verb.social
+0	10	206	1006	1009	S	208	the	the	the	DT	O	det	O	-1	O
+0	10	207	1010	1015	S	208	whole	whole	whole	JJ	O	amod	O	-1	O
+0	10	208	1016	1022		205	family	family	family	NN	O	dobj	O	-1	B-noun.group
+0	10	209	1022	1023	S	205	.	.	.	.	O	punct	O	-1	O
+0	11	210	1024	1031		212	Eleanor	Eleanor	Eleanor	NNP	PERSON	poss	O	0	B-noun.person
+0	11	211	1031	1033	S	210	’s	's	's	POS	O	possessive	O	-1	O
+0	11	212	1034	1037	S	213	mom	mom	mom	NN	O	nsubj	O	-1	B-noun.person
+0	11	213	1038	1043	S	-1	wants	wants	want	VBZ	O	null	O	-1	B-verb.emotion
+0	11	214	1044	1046	S	217	to	to	to	TO	O	aux	O	-1	O
+0	11	215	1047	1049	S	217	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	11	216	1050	1051	S	217	a	a	a	DT	O	det	O	-1	O
+0	11	217	1052	1062	S	213	peacemaker	peacemaker	peacemaker	NN	O	xcomp	O	-1	B-noun.person
+0	11	218	1063	1066	S	213	and	and	and	CC	O	cc	O	-1	O
+0	11	219	1067	1074	S	213	pretend	pretend	pretend	VB	O	conj	O	-1	B-verb.communication
+0	11	220	1075	1079	S	221	that	that	that	DT	O	det	O	-1	O
+0	11	221	1080	1090	S	223	everything	everything	everything	NN	O	nsubj	O	-1	O
+0	11	222	1091	1093	S	223	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	11	223	1094	1098		219	fine	fine	fine	JJ	O	xcomp	O	-1	O
+0	11	224	1098	1099	S	223	,	,	,	,	O	punct	O	-1	O
+0	11	225	1100	1104	S	229	even	even	even	RB	O	advmod	O	-1	O
+0	11	226	1105	1111	S	229	though	though	though	IN	O	dep	O	-1	O
+0	11	227	1112	1118	S	229	Richie	Richie	Richie	NNP	PERSON	nsubj	O	1	B-noun.person
+0	11	228	1119	1121	S	229	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	11	229	1122	1129	S	223	violent	violent	violent	JJ	O	dep	O	-1	O
+0	11	230	1130	1133	S	229	and	and	and	CC	O	cc	O	-1	O
+0	11	231	1134	1141		229	abusive	abusive	abusive	JJ	O	conj	O	-1	O
+0	11	232	1141	1142	S	213	.	.	.	.	O	punct	O	-1	O
+0	12	233	1143	1150	S	236	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	12	234	1151	1155		236	does	does	do	VBZ	O	aux	O	-1	O
+0	12	235	1155	1158	S	236	n’t	n't	not	RB	O	neg	O	-1	O
+0	12	236	1159	1163	S	-1	feel	feel	feel	VB	O	null	O	-1	B-verb.emotion
+0	12	237	1164	1168	S	236	safe	safe	safe	JJ	O	acomp	O	-1	O
+0	12	238	1169	1171	S	236	at	at	at	IN	O	prep	O	-1	O
+0	12	239	1172	1176		238	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	12	240	1176	1177	S	236	.	.	.	.	O	punct	O	-1	O
+0	13	241	1178	1184	S	244	Fellow	Fellow	Fellow	NNP	O	nn	O	-1	B-noun.person
+0	13	242	1185	1196	S	244	tenth-grade	tenth-grade	tenth-grade	NNP	O	nn	O	-1	I-noun.person
+0	13	243	1197	1201	S	244	Park	Park	Park	NNP	PERSON	nn	O	-1	I-noun.person
+0	13	244	1202	1210	S	245	Sheridan	Sheridan	Sheridan	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	13	245	1211	1216	S	-1	feels	feels	feel	VBZ	O	null	O	-1	B-verb.emotion
+0	13	246	1217	1221	S	245	like	like	like	IN	O	prep	O	-1	O
+0	13	247	1222	1224	S	248	an	an	a	DT	O	det	O	-1	O
+0	13	248	1225	1233	S	246	outsider	outsider	outsider	NN	O	pobj	O	-1	B-noun.person
+0	13	249	1234	1236	S	250	as	as	as	RB	O	advmod	O	-1	O
+0	13	250	1237	1241		248	well	well	well	RB	O	advmod	O	-1	O
+0	13	251	1241	1242	S	245	,	,	,	,	O	punct	O	-1	O
+0	13	252	1243	1249		245	though	though	though	RB	O	advmod	O	-1	O
+0	13	253	1249	1250	S	245	,	,	,	,	O	punct	O	-1	O
+0	13	254	1251	1257	S	263	unlike	unlike	unlike	IN	O	prep	O	-1	O
+0	13	255	1258	1265		254	Eleanor	Eleanor	Eleanor	NNP	PERSON	pobj	O	0	O
+0	13	256	1265	1266	S	255	,	,	,	,	O	punct	O	-1	O
+0	13	257	1267	1270	S	259	the	the	the	DT	O	det	O	-1	O
+0	13	258	1271	1276	S	259	other	other	other	JJ	O	amod	O	-1	O
+0	13	259	1277	1281	S	255	kids	kids	kid	NNS	O	conj	O	-1	B-noun.person
+0	13	260	1282	1284		263	do	do	do	VBP	O	aux	O	-1	O
+0	13	261	1284	1287	S	263	n’t	n't	not	RB	O	neg	O	-1	O
+0	13	262	1288	1294	S	263	really	really	really	RB	O	advmod	O	-1	O
+0	13	263	1295	1300	S	245	tease	tease	tease	VB	O	ccomp	O	-1	B-verb.emotion
+0	13	264	1301	1304		263	him	him	he	PRP	O	dobj	O	-1	O
+0	13	265	1304	1305	S	245	.	.	.	.	O	punct	O	-1	O
+0	14	266	1306	1310	S	270	Even	Even	even	RB	O	advmod	O	-1	O
+0	14	267	1311	1317	S	270	though	though	though	IN	O	dep	O	-1	O
+0	14	268	1318	1320		270	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	14	269	1320	1322	S	270	’s	's	be	VBZ	O	auxpass	O	-1	O
+0	14	270	1323	1328	S	280	lived	lived	live	VBN	O	advcl	O	-1	B-verb.stative
+0	14	271	1329	1331	S	270	in	in	in	IN	O	prep	O	-1	O
+0	14	272	1332	1337	S	275	Omaha	Omaha	Omaha	NNP	LOCATION	nn	O	-1	B-noun.person
+0	14	273	1338	1341	S	275	his	his	he	PRP$	O	poss	O	-1	O
+0	14	274	1342	1347	S	275	whole	whole	whole	JJ	O	amod	O	-1	O
+0	14	275	1348	1352		271	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	14	276	1352	1353	S	280	,	,	,	,	O	punct	O	-1	O
+0	14	277	1354	1356	S	280	he	he	he	PRP	O	nsubj	O	-1	O
+0	14	278	1357	1361		280	does	does	do	VBZ	O	aux	O	-1	O
+0	14	279	1361	1364	S	280	n’t	n't	not	RB	O	neg	O	-1	O
+0	14	280	1365	1369	S	-1	feel	feel	feel	VB	O	null	O	-1	B-verb.emotion
+0	14	281	1370	1373	S	283	any	any	any	DT	O	det	O	-1	O
+0	14	282	1374	1378	S	283	deep	deep	deep	JJ	O	amod	O	-1	O
+0	14	283	1379	1389	S	280	connection	connection	connection	NN	O	dobj	O	-1	B-noun.relation
+0	14	284	1390	1392	S	280	to	to	to	TO	O	prep	O	-1	O
+0	14	285	1393	1396	S	287	the	the	the	DT	O	det	O	-1	O
+0	14	286	1397	1402	S	287	other	other	other	JJ	O	amod	O	-1	O
+0	14	287	1403	1411	S	284	students	students	student	NNS	O	pobj	O	-1	B-noun.person
+0	14	288	1412	1414	S	280	at	at	at	IN	O	prep	O	-1	O
+0	14	289	1415	1421		288	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	14	290	1421	1422	S	280	.	.	.	.	O	punct	O	-1	O
+0	15	291	1423	1425	S	294	He	He	he	PRP	O	nsubj	O	-1	O
+0	15	292	1426	1428	S	294	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	15	293	1429	1434	S	294	Asian	Asian	asian	JJ	MISC	amod	O	-1	O
+0	15	294	1435	1443		-1	American	American	American	NNP	MISC	null	O	-1	O
+0	15	295	1443	1444	S	294	,	,	,	,	O	punct	O	-1	O
+0	15	296	1445	1450	S	299	which	which	which	WDT	O	nsubj	O	-1	O
+0	15	297	1451	1453	S	299	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	15	298	1454	1458	S	299	very	very	very	RB	O	advmod	O	-1	O
+0	15	299	1459	1463	S	294	rare	rare	rare	JJ	O	rcmod	O	-1	O
+0	15	300	1464	1466	S	299	in	in	in	IN	O	prep	O	-1	O
+0	15	301	1467	1472		300	Omaha	Omaha	Omaha	NNP	LOCATION	pobj	O	-1	O
+0	15	302	1472	1473	S	299	,	,	,	,	O	punct	O	-1	O
+0	15	303	1474	1477	S	299	and	and	and	CC	O	cc	O	-1	O
+0	15	304	1478	1480	S	305	he	he	he	PRP	O	nsubj	O	-1	O
+0	15	305	1481	1486	S	299	likes	likes	like	VBZ	O	conj	O	-1	B-verb.emotion
+0	15	306	1487	1492	S	309	music	music	music	NN	O	nn	O	-1	B-noun.communication
+0	15	307	1493	1496	S	306	and	and	and	CC	O	cc	O	-1	O
+0	15	308	1497	1502	S	306	comic	comic	comic	JJ	O	conj	O	-1	O
+0	15	309	1503	1508		305	books	books	book	NNS	O	dobj	O	-1	B-noun.communication
+0	15	310	1508	1509	S	294	.	.	.	.	O	punct	O	-1	O
+0	16	311	1510	1514		314	Park	Park	Park	NNP	O	poss	O	-1	B-noun.location
+0	16	312	1514	1516	S	311	’s	's	's	POS	O	possessive	O	-1	O
+0	16	313	1517	1521	S	314	home	home	home	NN	O	nn	O	-1	B-noun.artifact
+0	16	314	1522	1526	S	318	life	life	life	NN	O	nsubj	O	-1	B-noun.state
+0	16	315	1527	1529	S	318	is	is	be	VBZ	O	aux	O	-1	B-verb.stative
+0	16	316	1530	1534	S	318	much	much	much	RB	O	advmod	O	-1	O
+0	16	317	1535	1539	S	316	more	more	more	RBR	O	advmod	O	-1	O
+0	16	318	1540	1549	S	-1	welcoming	welcoming	welcome	VBG	O	null	O	-1	B-verb.possession
+0	16	319	1550	1554	S	318	than	than	than	IN	O	prep	O	-1	O
+0	16	320	1555	1562		319	Eleanor	Eleanor	Eleanor	NNP	PERSON	pobj	O	0	B-noun.person
+0	16	321	1562	1564		320	’s	's	's	POS	O	possessive	O	-1	O
+0	16	322	1564	1565	S	320	,	,	,	,	O	punct	O	-1	O
+0	16	323	1566	1571	S	326	since	since	since	IN	O	mark	O	-1	O
+0	16	324	1572	1575	S	325	his	his	he	PRP$	O	poss	O	-1	O
+0	16	325	1576	1583	S	326	parents	parents	parent	NNS	O	nsubj	O	-1	B-noun.person
+0	16	326	1584	1588	S	322	have	have	have	VBP	O	advcl	O	-1	B-verb.possession
+0	16	327	1589	1590	S	329	a	a	a	DT	O	det	O	-1	O
+0	16	328	1591	1597	S	329	loving	loving	loving	JJ	O	amod	O	-1	O
+0	16	329	1598	1610	S	326	relationship	relationship	relationship	NN	O	dobj	O	-1	B-noun.state
+0	16	330	1611	1614	S	326	and	and	and	CC	O	cc	O	-1	O
+0	16	331	1615	1619	S	332	they	they	they	PRP	O	nsubj	O	-1	O
+0	16	332	1620	1624	S	326	have	have	have	VBP	O	conj	O	-1	B-verb.possession
+0	16	333	1625	1626	S	335	a	a	a	DT	O	det	O	-1	O
+0	16	334	1627	1638	S	335	comfortable	comfortable	comfortable	JJ	O	amod	O	-1	O
+0	16	335	1639	1648		332	lifestyle	lifestyle	lifestyle	NN	O	dobj	O	-1	B-noun.attribute
+0	16	336	1648	1649	S	318	.	.	.	.	O	punct	O	-1	O
+0	17	337	1650	1657		340	However	However	however	RB	O	advmod	O	-1	O
+0	17	338	1657	1658	S	340	,	,	,	,	O	punct	O	-1	O
+0	17	339	1659	1663	S	340	Park	Park	Park	NNP	PERSON	nsubj	O	3	B-noun.location
+0	17	340	1664	1669	S	-1	faces	faces	face	VBZ	O	null	O	-1	B-verb.competition
+0	17	341	1670	1678	S	340	tensions	tensions	tension	NNS	O	dobj	O	-1	B-noun.state
+0	17	342	1679	1681	S	340	at	at	at	IN	O	prep	O	-1	O
+0	17	343	1682	1686		342	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	17	344	1686	1687	S	340	,	,	,	,	O	punct	O	-1	O
+0	17	345	1688	1693	S	348	since	since	since	IN	O	mark	O	-1	O
+0	17	346	1694	1697	S	347	his	his	he	PRP$	O	poss	O	-1	O
+0	17	347	1698	1701	S	348	dad	dad	dad	NN	O	nsubj	O	-1	B-noun.person
+0	17	348	1702	1707	S	340	wants	wants	want	VBZ	O	advcl	O	-1	B-verb.emotion
+0	17	349	1708	1711	S	353	him	him	he	PRP	O	nsubj	O	-1	O
+0	17	350	1712	1714	S	353	to	to	to	TO	O	aux	O	-1	O
+0	17	351	1715	1717	S	353	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	17	352	1718	1722	S	353	more	more	more	RBR	O	advmod	O	-1	O
+0	17	353	1723	1732		348	masculine	masculine	masculine	JJ	O	xcomp	O	-1	O
+0	17	354	1732	1733	S	348	,	,	,	,	O	punct	O	-1	O
+0	17	355	1734	1737	S	348	and	and	and	CC	O	cc	O	-1	O
+0	17	356	1738	1742	S	358	Park	Park	Park	NNP	PERSON	nsubj	O	3	B-noun.location
+0	17	357	1743	1749	S	358	always	always	always	RB	O	advmod	O	-1	O
+0	17	358	1750	1755	S	348	feels	feels	feel	VBZ	O	conj	O	-1	B-verb.emotion
+0	17	359	1756	1760	S	362	like	like	like	IN	O	mark	O	-1	O
+0	17	360	1761	1763		362	he	he	he	PRP	O	nsubj	O	-1	O
+0	17	361	1763	1765	S	362	’s	's	be	VBZ	O	aux	O	-1	O
+0	17	362	1766	1773	S	379	letting	letting	let	VBG	O	dep	O	-1	B-verb.social
+0	17	363	1774	1777	S	362	him	him	he	PRP	O	dobj	O	-1	O
+0	17	364	1778	1782	S	362	down	down	down	RP	O	prt	O	-1	O
+0	17	365	1783	1787	S	367	When	When	when	WRB	O	advmod	O	-1	O
+0	17	366	1788	1795	S	367	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	17	367	1796	1800	S	362	sits	sits	sit	VBZ	O	ccomp	O	-1	B-verb.motion
+0	17	368	1801	1805	S	367	down	down	down	RP	O	prt	O	-1	O
+0	17	369	1806	1808	S	367	on	on	on	IN	O	prep	O	-1	O
+0	17	370	1809	1812	S	371	the	the	the	DT	O	det	O	-1	O
+0	17	371	1813	1816	S	369	bus	bus	bus	NN	O	pobj	O	-1	B-noun.artifact
+0	17	372	1817	1821	S	373	next	next	next	IN	O	dep	O	-1	O
+0	17	373	1822	1824	S	367	to	to	to	TO	O	prep	O	-1	O
+0	17	374	1825	1829		373	Park	Park	Park	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	17	375	1829	1830	S	379	,	,	,	,	O	punct	O	-1	O
+0	17	376	1831	1835	S	379	they	they	they	PRP	O	nsubj	O	-1	O
+0	17	377	1836	1839	S	379	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	17	378	1840	1844	S	379	both	both	both	DT	O	preconj	O	-1	O
+0	17	379	1845	1851	S	358	sullen	sullen	sullen	JJ	O	dep	O	-1	O
+0	17	380	1852	1855	S	379	and	and	and	CC	O	cc	O	-1	O
+0	17	381	1856	1865	S	379	resentful	resentful	resentful	JJ	O	conj	O	-1	O
+0	17	382	1866	1868	S	381	of	of	of	IN	O	prep	O	-1	O
+0	17	383	1869	1872	S	384	the	the	the	DT	O	det	O	-1	O
+0	17	384	1873	1882		382	situation	situation	situation	NN	O	pobj	O	-1	B-noun.state
+0	17	385	1882	1883	S	348	,	,	,	,	O	punct	O	-1	O
+0	17	386	1884	1894	S	390	especially	especially	especially	RB	O	advmod	O	-1	O
+0	17	387	1895	1900	S	390	since	since	since	IN	O	dep	O	-1	O
+0	17	388	1901	1905	S	390	they	they	they	PRP	O	nsubj	O	-1	O
+0	17	389	1906	1910	S	388	both	both	both	DT	O	dep	O	-1	O
+0	17	390	1911	1915	S	405	know	know	know	VBP	O	advcl	O	-1	B-verb.cognition
+0	17	391	1916	1919	S	394	the	the	the	DT	O	det	O	-1	O
+0	17	392	1920	1928	S	394	unspoken	unspoken	unspoken	JJ	O	amod	O	-1	O
+0	17	393	1929	1935	S	394	social	social	social	JJ	O	amod	O	-1	O
+0	17	394	1936	1940	S	390	code	code	code	NN	O	dobj	O	-1	B-noun.communication
+0	17	395	1941	1945	S	398	that	that	that	WDT	O	nsubj	O	-1	O
+0	17	396	1946	1950	S	398	once	once	once	RB	DATE	advmod	O	-1	O
+0	17	397	1951	1954	S	398	you	you	you	PRP	O	nsubj	O	-1	O
+0	17	398	1955	1961	S	394	choose	choose	choose	VB	O	rcmod	O	-1	B-verb.cognition
+0	17	399	1962	1966	S	401	your	your	you	PRP$	O	poss	O	-1	O
+0	17	400	1967	1970	S	401	bus	bus	bus	NN	O	nn	O	-1	B-noun.artifact
+0	17	401	1971	1975		398	seat	seat	seat	NN	O	dobj	O	-1	O
+0	17	402	1975	1976	S	405	,	,	,	,	O	punct	O	-1	O
+0	17	403	1977	1980		405	you	you	you	PRP	O	nsubjpass	O	-1	O
+0	17	404	1980	1983	S	405	’re	're	be	VBP	O	aux	O	-1	O
+0	17	405	1984	1990	S	348	locked	locked	lock	VBN	O	ccomp	O	-1	B-verb.contact
+0	17	406	1991	1993	S	405	in	in	in	IN	O	prep	O	-1	O
+0	17	407	1994	1996	S	406	to	to	to	TO	O	dep	O	-1	O
+0	17	408	1997	1999	S	407	it	it	it	PRP	O	pobj	O	-1	O
+0	17	409	2000	2003	S	405	for	for	for	IN	O	prep	O	-1	O
+0	17	410	2004	2007	S	411	the	the	the	DT	DATE	det	O	-1	O
+0	17	411	2008	2012		409	year	year	year	NN	DATE	pobj	O	-1	B-noun.time
+0	17	412	2012	2013	S	340	.	.	.	.	O	punct	O	-1	O
+0	18	413	2014	2018		-1	Soon	Soon	soon	RB	O	null	O	-1	O
+0	18	414	2018	2019	S	418	,	,	,	,	O	punct	O	-1	O
+0	18	415	2020	2027		418	however	however	however	RB	O	advmod	O	-1	O
+0	18	416	2027	2028	S	418	,	,	,	,	O	punct	O	-1	O
+0	18	417	2029	2033	S	418	this	this	this	DT	O	det	O	-1	O
+0	18	418	2034	2041	S	413	changes	changes	change	NNS	O	null	O	-1	B-noun.event
+0	18	419	2042	2051		418	radically	radically	radically	RB	O	advmod	O	-1	O
+0	18	420	2051	2052	S	418	.	.	.	.	O	punct	O	-1	O
+0	19	421	2053	2060	S	425	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	19	422	2061	2064	S	421	and	and	and	CC	O	cc	O	-1	O
+0	19	423	2065	2069	S	421	Park	Park	Park	NNP	LOCATION	conj	O	-1	B-noun.location
+0	19	424	2070	2076	S	425	slowly	slowly	slowly	RB	O	advmod	O	-1	O
+0	19	425	2077	2082	S	-1	begin	begin	begin	VB	O	null	O	-1	B-verb.change
+0	19	426	2083	2085	S	427	to	to	to	TO	O	aux	O	-1	O
+0	19	427	2086	2090	S	425	form	form	form	VB	O	xcomp	O	-1	B-verb.stative
+0	19	428	2091	2092	S	429	a	a	a	DT	O	det	O	-1	O
+0	19	429	2093	2103	S	427	connection	connection	connection	NN	O	dobj	O	-1	B-noun.relation
+0	19	430	2104	2108	S	429	over	over	over	IN	O	prep	O	-1	O
+0	19	431	2109	2112	S	432	the	the	the	DT	O	det	O	-1	O
+0	19	432	2113	2119	S	430	course	course	course	NN	O	pobj	O	-1	B-noun.act
+0	19	433	2120	2122	S	432	of	of	of	IN	O	prep	O	-1	O
+0	19	434	2123	2128	S	436	their	their	they	PRP$	O	poss	O	-1	O
+0	19	435	2129	2132	S	436	bus	bus	bus	NN	O	nn	O	-1	B-noun.artifact
+0	19	436	2133	2138		433	rides	rides	ride	NNS	O	pobj	O	-1	B-noun.act
+0	19	437	2138	2139	S	425	.	.	.	.	O	punct	O	-1	O
+0	20	438	2140	2144	S	440	They	They	they	PRP	O	nsubj	O	-1	O
+0	20	439	2145	2150	S	440	first	first	first	RB	ORDINAL	advmod	O	-1	O
+0	20	440	2151	2156	S	-1	build	build	build	VB	O	null	O	-1	B-verb.creation
+0	20	441	2157	2162	S	442	their	their	they	PRP$	O	poss	O	-1	O
+0	20	442	2163	2175	S	440	relationship	relationship	relationship	NN	O	dobj	O	-1	B-noun.state
+0	20	443	2176	2184	S	444	silently	silently	silently	RB	O	dep	O	-1	O
+0	20	444	2185	2187	S	440	by	by	by	IN	O	prep	O	-1	O
+0	20	445	2188	2197	S	444	listening	listening	listen	VBG	O	pcomp	O	-1	B-verb.perception
+0	20	446	2198	2200	S	445	to	to	to	TO	O	prep	O	-1	O
+0	20	447	2201	2206	S	451	music	music	music	NN	O	nn	O	-1	B-noun.communication
+0	20	448	2207	2210	S	447	and	and	and	CC	O	cc	O	-1	O
+0	20	449	2211	2218	S	447	reading	reading	reading	NN	O	conj	O	-1	B-noun.cognition
+0	20	450	2219	2224	S	451	comic	comic	comic	JJ	O	amod	O	-1	O
+0	20	451	2225	2230	S	446	books	books	book	NNS	O	pobj	O	-1	B-noun.communication
+0	20	452	2231	2239		445	together	together	together	RB	O	advmod	O	-1	O
+0	20	453	2239	2240	S	440	.	.	.	.	O	punct	O	-1	O
+0	21	454	2241	2251		458	Eventually	Eventually	eventually	RB	O	advmod	O	-1	O
+0	21	455	2251	2252	S	458	,	,	,	,	O	punct	O	-1	O
+0	21	456	2253	2258	S	457	their	their	they	PRP$	O	poss	O	-1	O
+0	21	457	2259	2271	S	458	relationship	relationship	relationship	NN	O	nsubj	O	-1	B-noun.relation
+0	21	458	2272	2277		461	grows	grows	grow	VBZ	O	advcl	O	-1	B-verb.change
+0	21	459	2277	2278	S	461	,	,	,	,	O	punct	O	-1	O
+0	21	460	2279	2283	S	461	they	they	they	PRP	O	nsubj	O	-1	O
+0	21	461	2284	2289	S	-1	start	start	start	VBP	O	null	O	-1	B-verb.change
+0	21	462	2290	2297		461	talking	talking	talk	VBG	O	xcomp	O	-1	B-verb.communication
+0	21	463	2297	2298	S	461	,	,	,	,	O	punct	O	-1	O
+0	21	464	2299	2302	S	461	and	and	and	CC	O	cc	O	-1	O
+0	21	465	2303	2308	S	467	their	their	they	PRP$	O	poss	O	-1	O
+0	21	466	2309	2312	S	467	bus	bus	bus	NN	O	nn	O	-1	B-noun.artifact
+0	21	467	2313	2318	S	471	rides	rides	ride	NNS	O	nsubj	O	-1	B-noun.act
+0	21	468	2319	2325	S	471	become	become	become	VBP	O	cop	O	-1	B-verb.stative
+0	21	469	2326	2329	S	471	the	the	the	DT	O	det	O	-1	O
+0	21	470	2330	2334	S	471	best	best	best	JJS	O	amod	O	-1	O
+0	21	471	2335	2340	S	461	parts	parts	part	NNS	O	conj	O	-1	B-noun.relation
+0	21	472	2341	2343	S	471	of	of	of	IN	O	prep	O	-1	O
+0	21	473	2344	2349	S	474	their	their	they	PRP$	O	poss	O	-1	O
+0	21	474	2350	2354		472	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	21	475	2354	2355	S	461	.	.	.	.	O	punct	O	-1	O
+0	22	476	2356	2360	S	479	When	When	when	WRB	O	advmod	O	-1	O
+0	22	477	2361	2365	S	479	they	they	they	PRP	O	nsubj	O	-1	O
+0	22	478	2366	2373	S	479	finally	finally	finally	RB	O	advmod	O	-1	O
+0	22	479	2374	2378	S	482	hold	hold	hold	VBP	O	dep	O	-1	B-verb.stative
+0	22	480	2379	2384		479	hands	hands	hand	NNS	O	dobj	O	-1	B-noun.body
+0	22	481	2384	2385	S	482	,	,	,	,	O	punct	O	-1	O
+0	22	482	2386	2392	S	-1	sparks	sparks	spark	VBZ	O	null	O	-1	B-verb.creation
+0	22	483	2393	2396		482	fly	fly	fly	NN	O	dobj	O	-1	B-noun.animal
+0	22	484	2396	2397	S	482	.	.	.	.	O	punct	O	-1	O
+0	23	485	2398	2402	S	489	Park	Park	Park	NNP	O	nsubjpass	O	-1	B-noun.location
+0	23	486	2403	2406	S	485	and	and	and	CC	O	cc	O	-1	O
+0	23	487	2407	2414	S	485	Eleanor	Eleanor	Eleanor	NNP	PERSON	conj	O	0	B-noun.person
+0	23	488	2415	2421	S	489	become	become	become	VBP	O	auxpass	O	-1	B-verb.change
+0	23	489	2422	2432	S	-1	infatuated	infatuated	infatuate	VBN	O	null	O	-1	B-verb.emotion
+0	23	490	2433	2437	S	489	with	with	with	IN	O	prep	O	-1	O
+0	23	491	2438	2442	S	492	each	each	each	DT	O	det	O	-1	O
+0	23	492	2443	2448		490	other	other	other	JJ	O	pobj	O	-1	O
+0	23	493	2448	2449	S	489	.	.	.	.	O	punct	O	-1	O
+0	24	494	2450	2454	S	495	Park	Park	Park	NNP	PERSON	nsubj	O	3	B-noun.location
+0	24	495	2455	2460	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	24	496	2461	2468	S	495	Eleanor	Eleanor	Eleanor	NNP	PERSON	dobj	O	0	B-noun.person
+0	24	497	2469	2473	S	499	that	that	that	IN	O	complm	O	-1	O
+0	24	498	2474	2476	S	499	he	he	he	PRP	O	nsubj	O	-1	O
+0	24	499	2477	2482	S	495	loves	loves	love	VBZ	O	ccomp	O	-1	B-verb.emotion
+0	24	500	2483	2486		499	her	her	she	PRP	O	dobj	O	0	O
+0	24	501	2486	2487	S	495	,	,	,	,	O	punct	O	-1	O
+0	24	502	2488	2491	S	495	and	and	and	CC	O	cc	O	-1	O
+0	24	503	2492	2499	S	504	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	24	504	2500	2509	S	495	expresses	expresses	express	VBZ	O	conj	O	-1	B-verb.communication
+0	24	505	2510	2513	S	506	her	her	she	PRP$	O	poss	O	0	O
+0	24	506	2514	2523	S	504	affection	affection	affection	NN	O	dobj	O	-1	B-noun.feeling
+0	24	507	2524	2526	S	504	in	in	in	IN	O	prep	O	-1	O
+0	24	508	2527	2531	S	509	many	many	many	JJ	O	amod	O	-1	O
+0	24	509	2532	2536		507	ways	ways	way	NNS	O	pobj	O	-1	B-noun.act
+0	24	510	2536	2537	S	495	,	,	,	,	O	punct	O	-1	O
+0	24	511	2538	2541	S	495	yet	yet	yet	RB	O	advmod	O	-1	O
+0	24	512	2542	2545	S	516	she	she	she	PRP	O	nsubj	O	0	O
+0	24	513	2546	2550		516	does	does	do	VBZ	O	aux	O	-1	O
+0	24	514	2550	2553	S	516	n’t	n't	not	RB	O	neg	O	-1	O
+0	24	515	2554	2558	S	516	ever	ever	ever	RB	O	advmod	O	-1	O
+0	24	516	2559	2562	S	495	say	say	say	VB	O	ccomp	O	-1	B-verb.communication
+0	24	517	2563	2567	S	519	that	that	that	IN	O	complm	O	-1	O
+0	24	518	2568	2571	S	519	she	she	she	PRP	O	nsubj	O	0	O
+0	24	519	2572	2577	S	516	loves	loves	love	VBZ	O	ccomp	O	-1	B-verb.emotion
+0	24	520	2578	2581	S	519	him	him	he	PRP	O	dobj	O	-1	O
+0	24	521	2582	2586		519	back	back	back	RB	O	advmod	O	-1	O
+0	24	522	2586	2587	S	495	.	.	.	.	O	punct	O	-1	O
+0	25	523	2588	2594	S	538	Though	Though	though	IN	O	mark	O	-1	O
+0	25	524	2595	2602	S	529	Eleanor	Eleanor	Eleanor	NNP	PERSON	nn	O	0	B-noun.person
+0	25	525	2603	2606	S	524	and	and	and	CC	O	cc	O	-1	O
+0	25	526	2607	2611		524	Park	Park	Park	NNP	PERSON	conj	O	3	B-noun.location
+0	25	527	2611	2613	S	526	’s	's	's	POS	O	possessive	O	-1	O
+0	25	528	2614	2626	S	529	relationship	relationship	relationship	NN	O	nn	O	-1	B-noun.relation
+0	25	529	2627	2635		538	blossoms	blossoms	blossom	NNS	O	nsubj	O	-1	O
+0	25	530	2635	2636	S	529	,	,	,	,	O	punct	O	-1	O
+0	25	531	2637	2642	S	532	other	other	other	JJ	O	amod	O	-1	O
+0	25	532	2643	2648	S	529	parts	parts	part	NNS	O	conj	O	-1	B-noun.relation
+0	25	533	2649	2651	S	532	of	of	of	IN	O	prep	O	-1	O
+0	25	534	2652	2657	S	535	their	their	they	PRP$	O	poss	O	-1	O
+0	25	535	2658	2663	S	533	lives	lives	life	NNS	O	pobj	O	-1	B-noun.state
+0	25	536	2664	2666	S	538	do	do	do	VBP	O	aux	O	-1	O
+0	25	537	2667	2670	S	538	not	not	not	RB	O	neg	O	-1	O
+0	25	538	2671	2673	S	-1	go	go	go	VB	O	null	O	-1	B-verb.motion
+0	25	539	2674	2676	S	540	as	as	as	RB	O	advmod	O	-1	O
+0	25	540	2677	2681		538	well	well	well	RB	O	advmod	O	-1	O
+0	25	541	2681	2682	S	538	.	.	.	.	O	punct	O	-1	O
+0	26	542	2683	2690	S	544	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	26	543	2691	2695	S	544	gets	gets	get	VBZ	O	auxpass	O	-1	O
+0	26	544	2696	2703	S	-1	bullied	bullied	bully	VBN	O	null	O	-1	B-verb.emotion
+0	26	545	2704	2706	S	544	at	at	at	IN	O	prep	O	-1	O
+0	26	546	2707	2713		545	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	26	547	2713	2714	S	544	,	,	,	,	O	punct	O	-1	O
+0	26	548	2715	2725	S	549	especially	especially	especially	RB	O	dep	O	-1	O
+0	26	549	2726	2728	S	544	in	in	in	IN	O	prep	O	-1	O
+0	26	550	2729	2732	S	553	the	the	the	DT	O	det	O	-1	O
+0	26	551	2733	2736	S	553	gym	gym	gym	NN	O	nn	O	-1	B-noun.artifact
+0	26	552	2737	2743	S	553	locker	locker	locker	NN	O	nn	O	-1	B-noun.artifact
+0	26	553	2744	2748		549	room	room	room	NN	O	pobj	O	-1	I-noun.artifact
+0	26	554	2748	2749	S	553	,	,	,	,	O	punct	O	-1	O
+0	26	555	2750	2755	S	559	where	where	where	WRB	O	advmod	O	-1	O
+0	26	556	2756	2759	S	558	the	the	the	DT	O	det	O	-1	O
+0	26	557	2760	2765	S	558	other	other	other	JJ	O	amod	O	-1	O
+0	26	558	2766	2771	S	559	girls	girls	girl	NNS	O	nsubj	O	-1	B-noun.person
+0	26	559	2772	2777	S	553	cover	cover	cover	VB	O	rcmod	O	-1	B-verb.contact
+0	26	560	2778	2781	S	561	her	her	she	PRP$	O	poss	O	0	O
+0	26	561	2782	2788	S	559	locker	locker	locker	NN	O	dobj	O	-1	B-noun.artifact
+0	26	562	2789	2791	S	561	in	in	in	IN	O	prep	O	-1	O
+0	26	563	2792	2800	S	564	sanitary	sanitary	sanitary	JJ	O	amod	O	-1	O
+0	26	564	2801	2805	S	562	pads	pads	pad	NNS	O	pobj	O	-1	B-noun.substance
+0	26	565	2806	2809	S	559	and	and	and	CC	O	cc	O	-1	O
+0	26	566	2810	2815	S	559	flush	flush	flush	VB	O	conj	O	-1	B-verb.body
+0	26	567	2816	2819	S	568	her	her	she	PRP$	O	poss	O	0	O
+0	26	568	2820	2827	S	566	clothes	clothes	clothes	NNS	O	dobj	O	-1	B-noun.artifact
+0	26	569	2828	2830	S	568	in	in	in	IN	O	prep	O	-1	O
+0	26	570	2831	2834	S	571	the	the	the	DT	O	det	O	-1	O
+0	26	571	2835	2841		569	toilet	toilet	toilet	NN	O	pobj	O	-1	B-noun.artifact
+0	26	572	2841	2842	S	544	.	.	.	.	O	punct	O	-1	O
+0	27	573	2843	2847	S	574	Park	Park	Park	NNP	O	nsubj	O	-1	B-noun.location
+0	27	574	2848	2853	S	-1	beats	beats	beat	VBZ	O	null	O	-1	B-verb.contact
+0	27	575	2854	2856	S	574	up	up	up	RP	O	prt	O	-1	O
+0	27	576	2857	2862		574	Steve	Steve	Steve	NNP	PERSON	dobj	O	2	O
+0	27	577	2862	2863	S	576	,	,	,	,	O	punct	O	-1	O
+0	27	578	2864	2865	S	579	a	a	a	DT	O	det	O	-1	O
+0	27	579	2866	2871		576	bully	bully	bully	NN	O	appos	O	-1	B-noun.person
+0	27	580	2871	2872	S	576	,	,	,	,	O	punct	O	-1	O
+0	27	581	2873	2876	S	574	for	for	for	IN	O	prep	O	-1	O
+0	27	582	2877	2884	S	583	leading	leading	lead	VBG	O	amod	O	-1	B-verb.motion
+0	27	583	2885	2891	S	581	taunts	taunts	taunt	NNS	O	pobj	O	-1	B-noun.act
+0	27	584	2892	2899	S	583	against	against	against	IN	O	prep	O	-1	O
+0	27	585	2900	2907		584	Eleanor	Eleanor	Eleanor	NNP	PERSON	pobj	O	0	O
+0	27	586	2907	2908	S	574	.	.	.	.	O	punct	O	-1	O
+0	28	587	2909	2916		590	Eleanor	Eleanor	Eleanor	NNP	PERSON	poss	O	0	B-noun.person
+0	28	588	2916	2918	S	587	’s	's	's	POS	O	possessive	O	-1	O
+0	28	589	2919	2923	S	590	home	home	home	NN	O	nn	O	-1	B-noun.artifact
+0	28	590	2924	2928	S	593	life	life	life	NN	O	nsubj	O	-1	B-noun.state
+0	28	591	2929	2933	S	593	also	also	also	RB	O	advmod	O	-1	O
+0	28	592	2934	2938	S	593	gets	gets	get	VBZ	O	dep	O	-1	B-verb.change
+0	28	593	2939	2944	S	-1	worse	worse	worse	JJR	O	null	O	-1	O
+0	28	594	2945	2948	S	595	and	and	and	CC	O	cc	O	-1	O
+0	28	595	2949	2954		593	worse	worse	worse	JJR	O	num	O	-1	O
+0	28	596	2954	2955	S	593	.	.	.	.	O	punct	O	-1	O
+0	29	597	2956	2960	S	599	When	When	when	WRB	O	advmod	O	-1	O
+0	29	598	2961	2968	S	599	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	29	599	2969	2974	S	605	hears	hears	hear	VBZ	O	dep	O	-1	B-verb.perception
+0	29	600	2975	2983	S	599	gunshots	gunshots	gunshot	NNS	O	dobj	O	-1	B-noun.act
+0	29	601	2984	2987	S	602	one	one	one	CD	NUMBER	num	O	-1	O
+0	29	602	2988	2993		600	night	night	night	NN	TIME	dep	O	-1	B-noun.time
+0	29	603	2993	2994	S	605	,	,	,	,	O	punct	O	-1	O
+0	29	604	2995	2998	S	605	she	she	she	PRP	O	nsubj	O	0	O
+0	29	605	2999	3004	S	-1	calls	calls	call	VBZ	O	null	O	-1	B-verb.communication
+0	29	606	3005	3008	S	607	the	the	the	DT	O	det	O	-1	O
+0	29	607	3009	3015		605	police	police	police	NN	O	dobj	O	-1	B-noun.group
+0	29	608	3015	3016	S	607	,	,	,	,	O	punct	O	-1	O
+0	29	609	3017	3022	S	610	which	which	which	WDT	O	nsubj	O	-1	O
+0	29	610	3023	3028	S	607	makes	makes	make	VBZ	O	rcmod	O	-1	B-verb.change
+0	29	611	3029	3035	S	612	Richie	Richie	Richie	NNP	PERSON	nsubj	O	1	B-noun.person
+0	29	612	3036	3043	S	610	angrier	angrier	angrier	JJR	O	xcomp	O	-1	O
+0	29	613	3044	3048	S	612	than	than	than	IN	O	prep	O	-1	O
+0	29	614	3049	3053		613	ever	ever	ever	RB	O	dep	O	-1	O
+0	29	615	3053	3054	S	605	.	.	.	.	O	punct	O	-1	O
+0	30	616	3055	3059	S	620	Park	Park	Park	NNP	O	nsubj	O	-1	B-noun.location
+0	30	617	3060	3063	S	616	and	and	and	CC	O	cc	O	-1	O
+0	30	618	3064	3071	S	616	Eleanor	Eleanor	Eleanor	NNP	PERSON	conj	O	0	B-noun.person
+0	30	619	3072	3076	S	620	both	both	both	CC	O	dep	O	-1	O
+0	30	620	3077	3084	S	-1	display	display	display	VBP	O	null	O	-1	B-verb.perception
+0	30	621	3085	3089	S	622	some	some	some	DT	O	det	O	-1	O
+0	30	622	3090	3095	S	620	range	range	range	NN	O	dobj	O	-1	B-noun.attribute
+0	30	623	3096	3098	S	622	of	of	of	IN	O	prep	O	-1	O
+0	30	624	3099	3105	S	625	gender	gender	gender	NN	O	nn	O	-1	B-noun.communication
+0	30	625	3106	3116		623	expression	expression	expression	NN	O	pobj	O	-1	B-noun.communication
+0	30	626	3116	3117	S	620	.	.	.	.	O	punct	O	-1	O
+0	31	627	3118	3125	S	628	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	31	628	3126	3131	S	-1	likes	likes	like	VBZ	O	null	O	-1	B-verb.emotion
+0	31	629	3132	3134	S	630	to	to	to	TO	O	aux	O	-1	O
+0	31	630	3135	3139	S	628	wear	wear	wear	VB	O	xcomp	O	-1	B-verb.body
+0	31	631	3140	3143		633	men	men	man	NNS	O	poss	O	-1	B-noun.person
+0	31	632	3143	3145	S	631	’s	's	's	POS	O	possessive	O	-1	O
+0	31	633	3146	3150	S	630	ties	ties	tie	NNS	O	dobj	O	-1	B-noun.state
+0	31	634	3151	3154	S	633	and	and	and	CC	O	cc	O	-1	O
+0	31	635	3155	3161		633	shirts	shirts	shirt	NNS	O	conj	O	-1	B-noun.artifact
+0	31	636	3161	3162	S	628	.	.	.	.	O	punct	O	-1	O
+0	32	637	3163	3167		639	Park	Park	Park	NNP	O	poss	O	-1	B-noun.location
+0	32	638	3167	3169	S	637	’s	's	's	POS	O	possessive	O	-1	O
+0	32	639	3170	3173	S	640	mom	mom	mom	NN	O	nsubj	O	-1	B-noun.person
+0	32	640	3174	3177	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	32	641	3178	3179	S	643	a	a	a	DT	O	det	O	-1	O
+0	32	642	3180	3185	S	643	tough	tough	tough	JJ	O	amod	O	-1	O
+0	32	643	3186	3190	S	640	time	time	time	NN	O	dobj	O	-1	B-noun.time
+0	32	644	3191	3200	S	643	accepting	accepting	accept	VBG	O	partmod	O	-1	B-verb.cognition
+0	32	645	3201	3208	S	644	Eleanor	Eleanor	Eleanor	NNP	PERSON	dobj	O	0	B-noun.person
+0	32	646	3209	3211	S	644	at	at	at	IN	O	prep	O	-1	O
+0	32	647	3212	3217		646	first	first	first	RB	ORDINAL	pobj	O	-1	O
+0	32	648	3217	3218	S	640	,	,	,	,	O	punct	O	-1	O
+0	32	649	3219	3226	S	653	because	because	because	IN	O	mark	O	-1	O
+0	32	650	3227	3234	S	653	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	32	651	3235	3239		653	does	does	do	VBZ	O	aux	O	-1	O
+0	32	652	3239	3242	S	653	n’t	n't	not	RB	O	neg	O	-1	O
+0	32	653	3243	3247	S	640	care	care	care	VB	O	advcl	O	-1	B-verb.emotion
+0	32	654	3248	3253	S	658	about	about	about	RB	O	advmod	O	-1	O
+0	32	655	3254	3267	S	658	traditionally	traditionally	traditionally	RB	O	advmod	O	-1	O
+0	32	656	3268	3276	S	658	feminine	feminine	feminine	JJ	O	amod	O	-1	O
+0	32	657	3277	3283	S	658	beauty	beauty	beauty	NN	O	nn	O	-1	B-noun.attribute
+0	32	658	3284	3293		653	standards	standards	standard	NNS	O	dobj	O	-1	B-noun.communication
+0	32	659	3293	3294	S	640	.	.	.	.	O	punct	O	-1	O
+0	33	660	3295	3298	S	676	But	But	but	CC	O	cc	O	-1	O
+0	33	661	3299	3303	S	665	when	when	when	WRB	O	advmod	O	-1	O
+0	33	662	3304	3308		664	Park	Park	Park	NNP	PERSON	poss	O	3	B-noun.location
+0	33	663	3308	3310	S	662	’s	's	's	POS	O	possessive	O	-1	O
+0	33	664	3311	3314	S	665	mom	mom	mom	NN	O	nsubj	O	-1	B-noun.person
+0	33	665	3315	3323	S	676	realizes	realizes	realize	VBZ	O	dep	O	-1	B-verb.cognition
+0	33	666	3324	3327	S	667	the	the	the	DT	O	det	O	-1	O
+0	33	667	3328	3337	S	665	hardships	hardships	hardship	NNS	O	dobj	O	-1	B-noun.state
+0	33	668	3338	3342	S	671	that	that	that	WDT	O	dobj	O	-1	O
+0	33	669	3343	3350	S	671	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	33	670	3351	3354	S	671	has	has	have	VBZ	O	aux	O	-1	O
+0	33	671	3355	3359	S	667	been	been	be	VBN	O	rcmod	O	-1	O
+0	33	672	3360	3367		671	through	through	through	IN	O	advmod	O	-1	O
+0	33	673	3367	3368	S	676	,	,	,	,	O	punct	O	-1	O
+0	33	674	3369	3372	S	676	she	she	she	PRP	O	nsubj	O	0	O
+0	33	675	3373	3376	S	676	can	can	can	MD	O	aux	O	-1	O
+0	33	676	3377	3383	S	-1	relate	relate	relate	VB	O	null	O	-1	B-verb.cognition
+0	33	677	3384	3386	S	676	to	to	to	TO	O	prep	O	-1	O
+0	33	678	3387	3390		677	her	her	she	PRP	O	pobj	O	0	O
+0	33	679	3390	3391	S	676	,	,	,	,	O	punct	O	-1	O
+0	33	680	3392	3395	S	676	and	and	and	CC	O	cc	O	-1	O
+0	33	681	3396	3399	S	682	she	she	she	PRP	O	nsubj	O	0	O
+0	33	682	3400	3404	S	676	sees	sees	see	VBZ	O	conj	O	-1	B-verb.cognition
+0	33	683	3405	3409	S	686	that	that	that	IN	O	complm	O	-1	O
+0	33	684	3410	3417	S	686	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	33	685	3418	3420	S	686	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	33	686	3421	3425	S	682	good	good	good	JJ	O	ccomp	O	-1	O
+0	33	687	3426	3429	S	686	for	for	for	IN	O	prep	O	-1	O
+0	33	688	3430	3434		687	Park	Park	Park	NNP	O	pobj	O	-1	B-noun.location
+0	33	689	3434	3435	S	676	.	.	.	.	O	punct	O	-1	O
+0	34	690	3436	3440	S	691	Park	Park	Park	NNP	PERSON	nsubj	O	3	B-noun.location
+0	34	691	3441	3450	S	-1	discovers	discovers	discover	VBZ	O	null	O	-1	B-verb.communication
+0	34	692	3451	3455	S	694	that	that	that	IN	O	complm	O	-1	O
+0	34	693	3456	3458	S	694	he	he	he	PRP	O	nsubj	O	1	O
+0	34	694	3459	3465	S	691	enjoys	enjoys	enjoy	VBZ	O	ccomp	O	-1	B-verb.emotion
+0	34	695	3466	3473	S	696	wearing	wearing	wear	VBG	O	amod	O	-1	B-verb.body
+0	34	696	3474	3482		694	eyeliner	eyeliner	eyeliner	NN	O	dobj	O	-1	B-noun.artifact
+0	34	697	3482	3483	S	696	,	,	,	,	O	punct	O	-1	O
+0	34	698	3484	3489	S	699	which	which	which	WDT	O	nsubj	O	-1	O
+0	34	699	3490	3495	S	696	makes	makes	make	VBZ	O	rcmod	O	-1	B-verb.change
+0	34	700	3496	3499	S	701	his	his	he	PRP$	O	poss	O	1	O
+0	34	701	3500	3503	S	702	dad	dad	dad	NN	O	nsubj	O	-1	B-noun.person
+0	34	702	3504	3511		699	furious	furious	furious	JJ	O	xcomp	O	-1	O
+0	34	703	3511	3512	S	696	,	,	,	,	O	punct	O	-1	O
+0	34	704	3513	3518	S	707	since	since	since	IN	O	mark	O	-1	O
+0	34	705	3519	3522	S	706	his	his	he	PRP$	O	poss	O	1	O
+0	34	706	3523	3526	S	707	dad	dad	dad	NN	O	nsubj	O	-1	B-noun.person
+0	34	707	3527	3532	S	694	wants	wants	want	VBZ	O	advcl	O	-1	B-verb.emotion
+0	34	708	3533	3536	S	713	him	him	he	PRP	O	nsubj	O	1	O
+0	34	709	3537	3539	S	713	to	to	to	TO	O	aux	O	-1	O
+0	34	710	3540	3542	S	713	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	34	711	3543	3547	S	712	more	more	more	RBR	O	advmod	O	-1	O
+0	34	712	3548	3561	S	713	traditionally	traditionally	traditionally	RB	O	advmod	O	-1	O
+0	34	713	3562	3571		707	masculine	masculine	masculine	JJ	O	xcomp	O	-1	O
+0	34	714	3571	3572	S	691	.	.	.	.	O	punct	O	-1	O
+0	35	715	3573	3580		-1	However	However	however	RB	O	null	O	-1	O
+0	35	716	3580	3581	S	715	,	,	,	,	O	dep	O	-1	O
+0	35	717	3582	3586	S	719	when	when	when	WRB	O	advmod	O	-1	O
+0	35	718	3587	3591	S	719	Park	Park	Park	NNP	PERSON	nsubj	O	3	B-noun.location
+0	35	719	3592	3598	S	716	sticks	sticks	stick	VBZ	O	advcl	O	-1	B-verb.communication
+0	35	720	3599	3601	S	719	up	up	up	RP	O	prt	O	-1	O
+0	35	721	3602	3605	S	719	for	for	for	IN	O	prep	O	-1	O
+0	35	722	3606	3613	S	721	Eleanor	Eleanor	Eleanor	NNP	PERSON	pobj	O	0	B-noun.person
+0	35	723	3614	3617	S	719	and	and	and	CC	O	cc	O	-1	O
+0	35	724	3618	3623	S	719	comes	comes	come	VBZ	O	conj	O	-1	B-verb.motion
+0	35	725	3624	3628	S	724	into	into	into	IN	O	prep	O	-1	O
+0	35	726	3629	3632	S	727	his	his	he	PRP$	O	poss	O	1	O
+0	35	727	3633	3636	S	725	own	own	own	JJ	O	pobj	O	-1	O
+0	35	728	3637	3639	S	719	as	as	as	IN	O	prep	O	-1	O
+0	35	729	3640	3641	S	731	a	a	a	DT	O	det	O	-1	O
+0	35	730	3642	3651	S	731	confident	confident	confident	JJ	O	amod	O	-1	O
+0	35	731	3652	3658		728	person	person	person	NN	O	pobj	O	-1	B-noun.person
+0	35	732	3658	3659	S	731	,	,	,	,	O	punct	O	-1	O
+0	35	733	3660	3664		735	Park	Park	Park	NNP	PERSON	poss	O	3	B-noun.location
+0	35	734	3664	3666	S	733	’s	's	's	POS	O	possessive	O	-1	O
+0	35	735	3667	3670	S	737	dad	dad	dad	NN	O	nsubj	O	-1	B-noun.person
+0	35	736	3671	3681	S	737	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	35	737	3682	3689	S	731	accepts	accepts	accept	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	35	738	3690	3694	S	737	Park	Park	Park	NNP	PERSON	dobj	O	3	B-noun.location
+0	35	739	3695	3698	S	737	for	for	for	IN	O	prep	O	-1	O
+0	35	740	3699	3702	S	742	who	who	who	WP	O	dobj	O	-1	O
+0	35	741	3703	3705	S	742	he	he	he	PRP	O	nsubj	O	-1	O
+0	35	742	3706	3708		739	is	is	be	VBZ	O	pcomp	O	-1	O
+0	35	743	3708	3709	S	715	.	.	.	.	O	punct	O	-1	O
+0	36	744	3710	3713	S	745	The	The	the	DT	O	det	O	-1	O
+0	36	745	3714	3720	S	749	climax	climax	climax	NN	O	nsubj	O	-1	B-noun.event
+0	36	746	3721	3723	S	745	of	of	of	IN	O	prep	O	-1	O
+0	36	747	3724	3727	S	748	the	the	the	DT	O	det	O	-1	O
+0	36	748	3728	3733	S	746	story	story	story	NN	O	pobj	O	-1	B-noun.communication
+0	36	749	3734	3739	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.stative
+0	36	750	3740	3744	S	749	when	when	when	WRB	O	dep	O	-1	O
+0	36	751	3745	3752	S	753	Eleanor	Eleanor	Eleanor	NNP	PERSON	nn	O	0	B-noun.person
+0	36	752	3753	3760	S	753	returns	returns	return	NNS	O	nn	O	-1	B-noun.communication
+0	36	753	3761	3765	S	750	home	home	home	NN	O	dep	O	-1	B-noun.artifact
+0	36	754	3766	3769	S	755	one	one	one	CD	NUMBER	num	O	-1	O
+0	36	755	3770	3775		753	night	night	night	NN	TIME	dep	O	-1	B-noun.time
+0	36	756	3775	3776	S	753	,	,	,	,	O	punct	O	-1	O
+0	36	757	3777	3781	S	765	just	just	just	RB	O	advmod	O	-1	O
+0	36	758	3782	3787	S	765	after	after	after	IN	O	dep	O	-1	O
+0	36	759	3788	3791	S	765	she	she	she	PRP	O	nsubj	O	0	O
+0	36	760	3792	3795	S	759	and	and	and	CC	O	cc	O	-1	O
+0	36	761	3796	3800	S	762	Park	Park	Park	NNP	PERSON	nn	O	3	B-noun.location
+0	36	762	3801	3805		759	kiss	kiss	kiss	NN	O	conj	O	-1	B-noun.act
+0	36	763	3805	3806	S	759	,	,	,	,	O	punct	O	-1	O
+0	36	764	3807	3809	S	765	to	to	to	TO	O	aux	O	-1	O
+0	36	765	3810	3814	S	753	find	find	find	VB	O	infmod	O	-1	B-verb.cognition
+0	36	766	3815	3819	S	768	that	that	that	IN	O	complm	O	-1	O
+0	36	767	3820	3826	S	768	Richie	Richie	Richie	NNP	PERSON	nsubj	O	1	B-noun.person
+0	36	768	3827	3836	S	765	destroyed	destroyed	destroy	VBD	O	ccomp	O	-1	B-verb.contact
+0	36	769	3837	3840	S	770	her	her	she	PRP$	O	poss	O	0	O
+0	36	770	3841	3844	S	768	box	box	box	NN	O	dobj	O	-1	B-noun.artifact
+0	36	771	3845	3847	S	770	of	of	of	IN	O	prep	O	-1	O
+0	36	772	3848	3855	S	773	private	private	private	JJ	O	amod	O	-1	O
+0	36	773	3856	3867		771	possessions	possessions	possession	NNS	O	pobj	O	-1	B-noun.Tops
+0	36	774	3867	3868	S	773	,	,	,	,	O	punct	O	-1	O
+0	36	775	3869	3874	S	776	which	which	which	WDT	O	nsubj	O	-1	O
+0	36	776	3875	3882	S	773	include	include	include	VBP	O	rcmod	O	-1	B-verb.stative
+0	36	777	3883	3886	S	778	mix	mix	mix	NN	O	nn	O	-1	B-noun.food
+0	36	778	3887	3892	S	776	tapes	tapes	tape	NNS	O	dobj	O	-1	B-noun.artifact
+0	36	779	3893	3897	S	781	Park	Park	Park	NNP	PERSON	nsubj	O	3	B-noun.location
+0	36	780	3898	3901	S	781	had	had	have	VBD	O	aux	O	-1	O
+0	36	781	3902	3906	S	778	made	made	make	VBN	O	rcmod	O	-1	B-verb.social
+0	36	782	3907	3910	S	781	her	her	she	PRP$	O	dobj	O	0	O
+0	36	783	3911	3914	S	782	and	and	and	CC	O	cc	O	-1	O
+0	36	784	3915	3921	S	782	makeup	makeup	makeup	NN	O	conj	O	-1	B-noun.artifact
+0	36	785	3922	3926	S	782	from	from	from	IN	O	prep	O	-1	O
+0	36	786	3927	3931		788	Park	Park	Park	NNP	PERSON	poss	O	3	B-noun.location
+0	36	787	3931	3933	S	786	’s	's	's	POS	O	possessive	O	-1	O
+0	36	788	3934	3937		785	mom	mom	mom	NN	O	pobj	O	-1	B-noun.person
+0	36	789	3937	3938	S	749	.	.	.	.	O	punct	O	-1	O
+0	37	790	3939	3945	S	791	Richie	Richie	Richie	NNP	PERSON	nsubj	O	1	B-noun.person
+0	37	791	3946	3952	S	-1	leaves	leaves	leave	VBZ	O	null	O	-1	B-verb.motion
+0	37	792	3953	3960	S	795	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	37	793	3961	3962	S	795	a	a	a	DT	O	det	O	-1	O
+0	37	794	3963	3974	S	795	threatening	threatening	threatening	JJ	O	amod	O	-1	O
+0	37	795	3975	3979		791	note	note	note	NN	O	xcomp	O	-1	B-noun.communication
+0	37	796	3979	3980	S	795	,	,	,	,	O	punct	O	-1	O
+0	37	797	3981	3986	S	798	which	which	which	WDT	O	nsubj	O	-1	O
+0	37	798	3987	3992	S	795	makes	makes	make	VBZ	O	rcmod	O	-1	B-verb.change
+0	37	799	3993	4000	S	800	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	37	800	4001	4008	S	798	realize	realize	realize	VB	O	xcomp	O	-1	B-verb.cognition
+0	37	801	4009	4013	S	805	that	that	that	IN	O	complm	O	-1	O
+0	37	802	4014	4020	S	805	Richie	Richie	Richie	NNP	PERSON	nsubj	O	1	B-noun.person
+0	37	803	4021	4024	S	805	has	has	have	VBZ	O	aux	O	-1	O
+0	37	804	4025	4029	S	805	been	been	be	VBN	O	cop	O	-1	B-verb.stative
+0	37	805	4030	4033	S	800	the	the	the	DT	O	ccomp	O	-1	O
+0	37	806	4034	4037	S	805	one	one	one	CD	NUMBER	nsubj	O	-1	O
+0	37	807	4038	4045	S	806	leaving	leaving	leave	VBG	O	partmod	O	-1	B-verb.motion
+0	37	808	4046	4050	S	809	lewd	lewd	lewd	JJ	O	amod	O	-1	O
+0	37	809	4051	4059	S	807	messages	messages	message	NNS	O	dobj	O	-1	B-noun.communication
+0	37	810	4060	4063	S	809	all	all	all	DT	O	dep	O	-1	O
+0	37	811	4064	4068	S	810	over	over	over	IN	O	prep	O	-1	O
+0	37	812	4069	4072	S	813	her	her	she	PRP$	O	poss	O	0	O
+0	37	813	4073	4082	S	811	textbooks	textbooks	textbook	NNS	O	pobj	O	-1	B-noun.communication
+0	37	814	4083	4087	S	815	that	that	that	WDT	O	dep	O	-1	O
+0	37	815	4088	4092		813	year	year	year	NN	DURATION	dep	O	-1	B-noun.time
+0	37	816	4092	4093	S	791	.	.	.	.	O	punct	O	-1	O
+0	38	817	4094	4101	S	818	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	38	818	4102	4109	S	-1	escapes	escapes	escape	VBZ	O	null	O	-1	B-verb.motion
+0	38	819	4110	4114	S	818	from	from	from	IN	O	prep	O	-1	O
+0	38	820	4115	4118	S	821	the	the	the	DT	O	det	O	-1	O
+0	38	821	4119	4124		819	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	38	822	4124	4125	S	818	.	.	.	.	O	punct	O	-1	O
+0	39	823	4126	4129	S	827	Two	Two	two	CD	NUMBER	nsubj	O	-1	O
+0	39	824	4130	4132	S	823	of	of	of	IN	O	prep	O	-1	O
+0	39	825	4133	4136	S	826	the	the	the	DT	O	det	O	-1	O
+0	39	826	4137	4144	S	824	biggest	biggest	biggest	JJS	O	pobj	O	-1	O
+0	39	827	4145	4152	S	-1	bullies	bullies	bully	VBZ	O	null	O	-1	B-verb.emotion
+0	39	828	4153	4155	S	827	at	at	at	IN	O	prep	O	-1	O
+0	39	829	4156	4162		828	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	39	830	4162	4163	S	827	,	,	,	,	O	punct	O	-1	O
+0	39	831	4164	4168	S	827	Tina	Tina	Tina	NNP	PERSON	appos	O	-1	B-noun.person
+0	39	832	4169	4172	S	831	and	and	and	CC	O	cc	O	-1	O
+0	39	833	4173	4178		831	Steve	Steve	Steve	NNP	PERSON	conj	O	2	O
+0	39	834	4178	4179	S	827	,	,	,	,	O	punct	O	-1	O
+0	39	835	4180	4184	S	827	help	help	help	VB	O	xcomp	O	-1	O
+0	39	836	4185	4188	S	835	her	her	she	PRP	O	dobj	O	0	O
+0	39	837	4189	4192	S	835	out	out	out	RP	O	prt	O	-1	O
+0	39	838	4193	4197	S	844	even	even	even	RB	O	advmod	O	-1	O
+0	39	839	4198	4204	S	844	though	though	though	IN	O	dep	O	-1	O
+0	39	840	4205	4209		844	they	they	they	PRP	O	nsubj	O	-1	O
+0	39	841	4209	4212	S	844	’ve	've	have	VBP	O	aux	O	-1	O
+0	39	842	4213	4218	S	844	never	never	never	RB	O	neg	O	-1	O
+0	39	843	4219	4223	S	844	been	been	be	VBN	O	cop	O	-1	B-verb.stative
+0	39	844	4224	4228	S	835	nice	nice	nice	JJ	O	ccomp	O	-1	O
+0	39	845	4229	4231	S	844	to	to	to	TO	O	prep	O	-1	O
+0	39	846	4232	4235	S	845	her	her	she	PRP	O	pobj	O	0	O
+0	39	847	4236	4242	S	844	before	before	before	RB	O	advmod	O	-1	O
+0	39	848	4243	4250	S	851	because	because	because	IN	O	mark	O	-1	O
+0	39	849	4251	4255	S	851	they	they	they	PRP	O	nsubj	O	-1	O
+0	39	850	4256	4259	S	851	can	can	can	MD	O	aux	O	-1	O
+0	39	851	4260	4263	S	847	see	see	see	VB	O	dep	O	-1	B-verb.cognition
+0	39	852	4264	4268	S	856	that	that	that	IN	O	complm	O	-1	O
+0	39	853	4269	4275	S	856	Richie	Richie	Richie	NNP	PERSON	nsubj	O	1	B-noun.person
+0	39	854	4276	4278	S	856	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	39	855	4279	4283	S	856	pure	pure	pure	JJ	O	amod	O	-1	O
+0	39	856	4284	4288		851	evil	evil	evil	NN	O	ccomp	O	-1	B-noun.act
+0	39	857	4288	4289	S	827	.	.	.	.	O	punct	O	-1	O
+0	40	858	4290	4297	S	859	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	40	859	4298	4306	S	-1	realizes	realizes	realize	VBZ	O	null	O	-1	B-verb.cognition
+0	40	860	4307	4311	S	873	that	that	that	IN	O	complm	O	-1	O
+0	40	861	4312	4315	S	863	the	the	the	DT	O	det	O	-1	O
+0	40	862	4316	4319	S	863	one	one	one	CD	NUMBER	num	O	-1	O
+0	40	863	4320	4326	S	873	person	person	person	NN	O	nsubj	O	-1	B-noun.person
+0	40	864	4327	4330	S	867	she	she	she	PRP	O	nsubj	O	0	O
+0	40	865	4331	4336	S	867	might	might	might	MD	O	aux	O	-1	O
+0	40	866	4337	4339	S	867	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	40	867	4340	4344	S	863	able	able	able	JJ	O	rcmod	O	-1	O
+0	40	868	4345	4347	S	869	to	to	to	TO	O	aux	O	-1	O
+0	40	869	4348	4352	S	867	live	live	live	VB	O	xcomp	O	-1	B-verb.stative
+0	40	870	4353	4357	S	869	with	with	with	IN	O	prep	O	-1	O
+0	40	871	4358	4360	S	873	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	40	872	4361	4364	S	873	her	her	she	PRP$	O	poss	O	0	O
+0	40	873	4365	4370	S	859	uncle	uncle	uncle	NN	O	ccomp	O	-1	B-noun.person
+0	40	874	4371	4373	S	873	in	in	in	IN	O	prep	O	-1	O
+0	40	875	4374	4383		874	Minnesota	Minnesota	Minnesota	NNP	LOCATION	pobj	O	-1	O
+0	40	876	4383	4384	S	873	,	,	,	,	O	punct	O	-1	O
+0	40	877	4385	4388	S	873	and	and	and	CC	O	cc	O	-1	O
+0	40	878	4389	4393	S	880	Park	Park	Park	NNP	PERSON	nsubj	O	3	B-noun.location
+0	40	879	4394	4405	S	880	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	40	880	4406	4412	S	873	offers	offers	offer	VBZ	O	conj	O	-1	B-verb.possession
+0	40	881	4413	4415	S	882	to	to	to	TO	O	aux	O	-1	O
+0	40	882	4416	4421	S	880	drive	drive	drive	VB	O	xcomp	O	-1	B-verb.motion
+0	40	883	4422	4425	S	884	her	her	she	PRP$	O	poss	O	0	O
+0	40	884	4426	4431		882	there	there	there	EX	O	dobj	O	-1	O
+0	40	885	4431	4432	S	859	.	.	.	.	O	punct	O	-1	O
+0	41	886	4433	4440	S	889	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	B-noun.person
+0	41	887	4441	4444	S	886	and	and	and	CC	O	cc	O	-1	O
+0	41	888	4445	4449	S	886	Park	Park	Park	NNP	O	conj	O	-1	B-noun.location
+0	41	889	4450	4454	S	-1	have	have	have	VBP	O	null	O	-1	B-verb.possession
+0	41	890	4455	4456	S	893	a	a	a	DT	O	det	O	-1	O
+0	41	891	4457	4461	S	892	very	very	very	RB	O	advmod	O	-1	O
+0	41	892	4462	4473	S	893	bittersweet	bittersweet	bittersweet	JJ	O	amod	O	-1	O
+0	41	893	4474	4478		889	trip	trip	trip	NN	O	dobj	O	-1	B-noun.act
+0	41	894	4478	4479	S	889	,	,	,	,	O	punct	O	-1	O
+0	41	895	4480	4487	S	897	because	because	because	IN	O	mark	O	-1	O
+0	41	896	4488	4492	S	897	they	they	they	PRP	O	nsubj	O	-1	O
+0	41	897	4493	4497	S	889	know	know	know	VBP	O	advcl	O	-1	B-verb.cognition
+0	41	898	4498	4500	S	903	it	it	it	PRP	O	nsubj	O	-1	O
+0	41	899	4501	4506	S	903	might	might	might	MD	O	aux	O	-1	O
+0	41	900	4507	4509	S	903	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	41	901	4510	4513	S	903	the	the	the	DT	O	det	O	-1	O
+0	41	902	4514	4518	S	903	last	last	last	JJ	O	amod	O	-1	O
+0	41	903	4519	4523	S	897	time	time	time	NN	O	ccomp	O	-1	B-noun.time
+0	41	904	4524	4528	S	905	they	they	they	PRP	O	nsubj	O	-1	O
+0	41	905	4529	4532	S	903	see	see	see	VBP	O	rcmod	O	-1	B-verb.perception
+0	41	906	4533	4537	S	907	each	each	each	DT	O	det	O	-1	O
+0	41	907	4538	4543	S	905	other	other	other	JJ	O	dobj	O	-1	O
+0	41	908	4544	4547	S	907	for	for	for	IN	O	prep	O	-1	O
+0	41	909	4548	4549	S	911	a	a	a	DT	O	det	O	-1	O
+0	41	910	4550	4554	S	911	long	long	long	JJ	O	amod	O	-1	O
+0	41	911	4555	4559		908	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	41	912	4559	4560	S	889	.	.	.	.	O	punct	O	-1	O
+0	42	913	4561	4566	S	915	After	After	after	IN	O	mark	O	-1	O
+0	42	914	4567	4571	S	915	they	they	they	PRP	O	nsubj	O	-1	O
+0	42	915	4572	4576		918	part	part	part	NN	O	advcl	O	-1	B-noun.relation
+0	42	916	4576	4577	S	918	,	,	,	,	O	punct	O	-1	O
+0	42	917	4578	4582	S	918	Park	Park	Park	NNP	PERSON	nsubj	O	3	B-noun.location
+0	42	918	4583	4588	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	42	919	4589	4596	S	918	sending	sending	send	VBG	O	xcomp	O	-1	B-verb.motion
+0	42	920	4597	4604	S	919	letters	letters	letter	NNS	O	dobj	O	-1	B-noun.communication
+0	42	921	4605	4608	S	920	and	and	and	CC	O	cc	O	-1	O
+0	42	922	4609	4617	S	920	packages	packages	package	NNS	O	conj	O	-1	B-noun.group
+0	42	923	4618	4620	S	919	to	to	to	TO	O	prep	O	-1	O
+0	42	924	4621	4628		923	Eleanor	Eleanor	Eleanor	NNP	PERSON	pobj	O	0	O
+0	42	925	4628	4629	S	918	,	,	,	,	O	punct	O	-1	O
+0	42	926	4630	4633	S	918	but	but	but	CC	O	cc	O	-1	O
+0	42	927	4634	4637	S	930	she	she	she	PRP	O	nsubj	O	0	O
+0	42	928	4638	4640	S	930	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	42	929	4641	4644	S	930	too	too	too	RB	O	advmod	O	-1	O
+0	42	930	4645	4650	S	918	upset	upset	upset	JJ	O	conj	O	-1	O
+0	42	931	4651	4653	S	933	to	to	to	TO	O	aux	O	-1	O
+0	42	932	4654	4658	S	933	even	even	even	RB	O	advmod	O	-1	O
+0	42	933	4659	4662	S	930	let	let	let	VB	O	xcomp	O	-1	B-verb.social
+0	42	934	4663	4670	S	935	herself	herself	herself	PRP	O	nsubj	O	-1	O
+0	42	935	4671	4675	S	933	open	open	open	VB	O	ccomp	O	-1	B-verb.contact
+0	42	936	4676	4680		935	them	them	they	PRP	O	dobj	O	-1	O
+0	42	937	4680	4681	S	918	,	,	,	,	O	punct	O	-1	O
+0	42	938	4682	4685	S	918	and	and	and	CC	O	cc	O	-1	O
+0	42	939	4686	4689	S	941	she	she	she	PRP	O	nsubj	O	0	O
+0	42	940	4690	4695	S	941	never	never	never	RB	O	neg	O	-1	O
+0	42	941	4696	4703		918	replies	replies	reply	VBZ	O	conj	O	-1	B-verb.communication
+0	42	942	4703	4704	S	918	.	.	.	.	O	punct	O	-1	O
+0	43	943	4705	4715		948	Eventually	Eventually	eventually	RB	O	advmod	O	-1	O
+0	43	944	4715	4716	S	948	,	,	,	,	O	punct	O	-1	O
+0	43	945	4717	4718	S	947	a	a	a	DT	O	det	O	-1	O
+0	43	946	4719	4730	S	947	heartbroken	heartbroken	heartbroken	JJ	O	amod	O	-1	O
+0	43	947	4731	4735	S	948	Park	Park	park	NN	O	nsubj	O	-1	B-noun.location
+0	43	948	4736	4742	S	-1	tapers	tapers	taper	VBZ	O	null	O	-1	B-verb.change
+0	43	949	4743	4746	S	948	off	off	off	RP	O	prt	O	-1	O
+0	43	950	4747	4760	S	948	communication	communication	communication	NN	O	dobj	O	-1	B-noun.communication
+0	43	951	4761	4764	S	948	and	and	and	CC	O	cc	O	-1	O
+0	43	952	4765	4770	S	948	tries	tries	try	VBZ	O	conj	O	-1	B-verb.social
+0	43	953	4771	4773	S	954	to	to	to	TO	O	aux	O	-1	O
+0	43	954	4774	4778	S	952	move	move	move	VB	O	xcomp	O	-1	B-verb.motion
+0	43	955	4779	4781		954	on	on	on	IN	O	prt	O	-1	O
+0	43	956	4781	4782	S	948	.	.	.	.	O	punct	O	-1	O
+0	44	957	4783	4785	S	967	At	At	at	IN	O	prep	O	-1	O
+0	44	958	4786	4789	S	960	the	the	the	DT	O	det	O	-1	O
+0	44	959	4790	4794	S	960	very	very	very	JJ	O	amod	O	-1	O
+0	44	960	4795	4798	S	957	end	end	end	NN	O	pobj	O	-1	B-noun.cognition
+0	44	961	4799	4801	S	960	of	of	of	IN	O	prep	O	-1	O
+0	44	962	4802	4805	S	963	the	the	the	DT	O	det	O	-1	O
+0	44	963	4806	4811		961	novel	novel	novel	JJ	O	pobj	O	-1	O
+0	44	964	4811	4812	S	967	,	,	,	,	O	punct	O	-1	O
+0	44	965	4813	4820	S	967	Eleanor	Eleanor	Eleanor	NNP	PERSON	nsubj	O	0	O
+0	44	966	4821	4828	S	967	finally	finally	finally	RB	O	advmod	O	-1	O
+0	44	967	4829	4835	S	-1	writes	writes	write	VBZ	O	null	O	-1	B-verb.creation
+0	44	968	4836	4840	S	970	Park	Park	Park	NNP	O	nn	O	-1	B-noun.location
+0	44	969	4841	4842	S	970	a	a	a	DT	O	det	O	-1	O
+0	44	970	4843	4851	S	967	postcard	postcard	postcard	NN	O	dobj	O	-1	B-noun.communication
+0	44	971	4852	4856	S	972	that	that	that	WDT	O	nsubj	O	-1	O
+0	44	972	4857	4865	S	970	contains	contains	contain	VBZ	O	rcmod	O	-1	B-verb.stative
+0	44	973	4866	4870	S	974	just	just	just	RB	O	quantmod	O	-1	O
+0	44	974	4871	4876	S	975	three	three	three	CD	NUMBER	num	O	-1	O
+0	44	975	4877	4882		972	words	words	word	NNS	O	dobj	O	-1	B-noun.communication
+0	44	976	4882	4883	S	967	.	.	.	.	O	punct	O	-1	O
+0	45	977	4884	4889	S	978	These	These	these	DT	O	det	O	-1	O
+0	45	978	4890	4895	S	981	words	words	word	NNS	O	nsubjpass	O	-1	B-noun.communication
+0	45	979	4896	4899	S	981	are	are	be	VBP	O	auxpass	O	-1	B-verb.stative
+0	45	980	4900	4903	S	981	not	not	not	RB	O	neg	O	-1	O
+0	45	981	4904	4913	S	-1	disclosed	disclosed	disclose	VBN	O	null	O	-1	B-verb.communication
+0	45	982	4914	4916	S	981	to	to	to	TO	O	prep	O	-1	O
+0	45	983	4917	4920	S	984	the	the	the	DT	O	det	O	-1	O
+0	45	984	4921	4927		982	reader	reader	reader	NN	O	pobj	O	-1	O
+0	45	985	4927	4928	N	981	.	.	.	.	O	punct	O	-1	O

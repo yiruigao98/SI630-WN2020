@@ -1,0 +1,864 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	7	S	1	Winston	Winston	Winston	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	8	13	S	5	Smith	Smith	Smith	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	2	14	16	S	5	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	0	3	17	18	S	5	a	a	a	DT	O	det	O	-1	O
+0	0	4	19	30	N	5	low-ranking	low-ranking	low-ranking	JJ	O	amod	O	-1	O
+0	0	5	31	37	S	-1	member	member	member	NN	O	null	O	-1	B-noun.person
+0	0	6	38	40	S	5	of	of	of	IN	O	prep	O	-1	O
+0	0	7	41	44	S	8	the	the	the	DT	O	det	O	-1	O
+0	0	8	45	51	S	6	ruling	ruling	ruling	NN	O	pobj	O	-1	B-noun.act
+0	0	9	52	57	S	8	Party	Party	Party	NNP	ORGANIZATION	dep	O	5	B-noun.group
+0	0	10	58	60	S	8	in	in	in	IN	O	prep	O	-1	O
+0	0	11	61	67		10	London	London	London	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	12	67	68	S	5	,	,	,	,	O	punct	O	-1	O
+0	0	13	69	71	S	5	in	in	in	IN	O	prep	O	-1	O
+0	0	14	72	75	S	15	the	the	the	DT	O	det	O	-1	O
+0	0	15	76	82	N	13	nation	nation	nation	NN	O	pobj	O	-1	B-noun.group
+0	0	16	83	85	S	15	of	of	of	IN	O	prep	O	-1	O
+0	0	17	86	93		16	Oceania	Oceania	Oceania	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	18	93	94	S	5	.	.	.	.	O	punct	O	-1	O
+0	1	19	95	105	S	21	Everywhere	Everywhere	everywhere	RB	O	advmod	O	-1	O
+0	1	20	106	113	S	21	Winston	Winston	Winston	NNP	O	nsubj	O	-1	B-noun.person
+0	1	21	114	118		-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.motion
+0	1	22	118	119	S	21	,	,	,	,	O	punct	O	-1	O
+0	1	23	120	124	S	26	even	even	even	RB	O	advmod	O	-1	O
+0	1	24	125	128	S	26	his	his	he	PRP$	O	poss	O	-1	O
+0	1	25	129	132	S	26	own	own	own	JJ	O	amod	O	-1	O
+0	1	26	133	137		30	home	home	home	NN	O	nsubj	O	-1	B-noun.location
+0	1	27	137	138	S	30	,	,	,	,	O	punct	O	-1	O
+0	1	28	139	142	S	29	the	the	the	DT	O	det	O	-1	O
+0	1	29	143	148	N	30	Party	Party	Party	NNP	ORGANIZATION	nsubj	O	5	B-noun.group
+0	1	30	149	156	S	21	watches	watches	watch	VBZ	O	conj	O	-1	B-verb.perception
+0	1	31	157	160	S	30	him	him	he	PRP	O	dobj	O	-1	O
+0	1	32	161	168	S	30	through	through	through	IN	O	prep	O	-1	O
+0	1	33	169	180		32	telescreens	telescreens	telescreen	NNS	O	pobj	O	-1	O
+0	1	34	180	181	S	21	;	;	;	:	O	punct	O	-1	O
+0	1	35	182	192	S	37	everywhere	everywhere	everywhere	RB	O	advmod	O	-1	O
+0	1	36	193	195	S	37	he	he	he	PRP	O	nsubj	O	-1	O
+0	1	37	196	201	S	21	looks	looks	look	VBZ	O	parataxis	O	-1	B-verb.cognition
+0	1	38	202	204	S	39	he	he	he	PRP	O	nsubj	O	-1	O
+0	1	39	205	209	S	37	sees	sees	see	VBZ	O	ccomp	O	-1	B-verb.cognition
+0	1	40	210	213	N	41	the	the	the	DT	O	det	O	-1	O
+0	1	41	214	218	S	39	face	face	face	NN	O	dobj	O	-1	B-noun.body
+0	1	42	219	221	S	41	of	of	of	IN	O	prep	O	-1	O
+0	1	43	222	225	S	44	the	the	the	DT	O	det	O	-1	O
+0	1	44	226	231		48	Party	Party	Party	NNP	ORGANIZATION	poss	O	5	B-noun.group
+0	1	45	231	233	S	44	’s	's	's	POS	O	possessive	O	-1	O
+0	1	46	234	243	S	47	seemingly	seemingly	seemingly	RB	O	advmod	O	-1	O
+0	1	47	244	254	S	48	omniscient	omniscient	omniscient	JJ	O	amod	O	-1	O
+0	1	48	255	261		42	leader	leader	leader	NN	O	pobj	O	-1	B-noun.person
+0	1	49	261	262	S	37	,	,	,	,	O	punct	O	-1	O
+0	1	50	263	264	S	51	a	a	a	DT	O	det	O	-1	O
+0	1	51	265	271	S	37	figure	figure	figure	NN	O	dobj	O	-1	B-noun.artifact
+0	1	52	272	277	N	51	known	known	know	VBN	O	partmod	O	-1	B-verb.cognition
+0	1	53	278	282	S	54	only	only	only	RB	O	dep	O	-1	O
+0	1	54	283	285	S	52	as	as	as	IN	O	prep	O	-1	O
+0	1	55	286	289	S	56	Big	Big	big	JJ	O	amod	O	-1	O
+0	1	56	290	297		54	Brother	Brother	Brother	NNP	O	pobj	O	-1	B-noun.person
+0	1	57	297	298	S	21	.	.	.	.	O	punct	O	-1	O
+0	2	58	299	302	S	59	The	The	the	DT	O	det	O	-1	O
+0	2	59	303	308	S	60	Party	Party	Party	NNP	ORGANIZATION	nsubj	O	5	B-noun.group
+0	2	60	309	317	S	-1	controls	controls	control	VBZ	O	null	O	-1	B-verb.social
+0	2	61	318	328	S	60	everything	everything	everything	NN	O	dobj	O	-1	O
+0	2	62	329	331	S	60	in	in	in	IN	O	prep	O	-1	O
+0	2	63	332	339		62	Oceania	Oceania	Oceania	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	2	64	339	340	S	60	,	,	,	,	O	punct	O	-1	O
+0	2	65	341	345	N	60	even	even	even	RB	O	advmod	O	-1	O
+0	2	66	346	349	S	67	the	the	the	DT	O	det	O	-1	O
+0	2	67	350	356		69	people	people	people	NNS	O	poss	O	-1	B-noun.group
+0	2	68	356	358	S	67	’s	's	's	POS	O	possessive	O	-1	O
+0	2	69	359	366	S	60	history	history	history	NN	O	dobj	O	-1	B-noun.time
+0	2	70	367	370	S	69	and	and	and	CC	O	cc	O	-1	O
+0	2	71	371	379		69	language	language	language	NN	O	conj	O	-1	B-noun.communication
+0	2	72	379	380	S	60	.	.	.	.	O	punct	O	-1	O
+0	3	73	381	390		78	Currently	Currently	currently	RB	DATE	advmod	O	-1	O
+0	3	74	390	391	S	78	,	,	,	,	O	punct	O	-1	O
+0	3	75	392	395	S	76	the	the	the	DT	O	det	O	-1	O
+0	3	76	396	401	S	78	Party	Party	Party	NNP	ORGANIZATION	nsubj	O	5	B-noun.group
+0	3	77	402	404	S	78	is	is	be	VBZ	O	aux	O	-1	O
+0	3	78	405	412	N	-1	forcing	forcing	force	VBG	O	null	O	-1	B-verb.social
+0	3	79	413	416	S	80	the	the	the	DT	O	det	O	-1	O
+0	3	80	417	431	S	78	implementation	implementation	implementation	NN	O	dobj	O	-1	B-noun.act
+0	3	81	432	434	S	80	of	of	of	IN	O	prep	O	-1	O
+0	3	82	435	437	S	84	an	an	a	DT	O	det	O	-1	O
+0	3	83	438	446	S	84	invented	invented	invent	VBN	O	amod	O	-1	B-verb.creation
+0	3	84	447	455	S	81	language	language	language	NN	O	pobj	O	-1	B-noun.communication
+0	3	85	456	462	S	84	called	called	call	VBN	O	partmod	O	-1	B-verb.communication
+0	3	86	463	471		85	Newspeak	Newspeak	Newspeak	NNP	O	dep	O	-1	O
+0	3	87	471	472	S	84	,	,	,	,	O	punct	O	-1	O
+0	3	88	473	478	N	89	which	which	which	WDT	O	nsubj	O	-1	O
+0	3	89	479	487	S	84	attempts	attempts	attempt	VBZ	O	rcmod	O	-1	B-verb.social
+0	3	90	488	490	S	91	to	to	to	TO	O	aux	O	-1	O
+0	3	91	491	498	S	89	prevent	prevent	prevent	VB	O	xcomp	O	-1	B-verb.social
+0	3	92	499	508	S	93	political	political	political	JJ	O	amod	O	-1	O
+0	3	93	509	518	S	91	rebellion	rebellion	rebellion	NN	O	dobj	O	-1	B-noun.act
+0	3	94	519	521	S	91	by	by	by	IN	O	prep	O	-1	O
+0	3	95	522	533	S	94	eliminating	eliminating	eliminate	VBG	O	pcomp	O	-1	B-verb.change
+0	3	96	534	537	S	97	all	all	all	DT	O	det	O	-1	O
+0	3	97	538	543	N	95	words	words	word	NNS	O	dobj	O	-1	B-noun.communication
+0	3	98	544	551	S	97	related	related	relate	VBN	O	partmod	O	-1	B-verb.communication
+0	3	99	552	554	S	98	to	to	to	TO	O	prep	O	-1	O
+0	3	100	555	557		99	it	it	it	PRP	O	pobj	O	-1	O
+0	3	101	557	558	S	78	.	.	.	.	O	punct	O	-1	O
+0	4	102	559	563	S	103	Even	Even	even	RB	O	advmod	O	-1	O
+0	4	103	564	572	S	107	thinking	thinking	think	VBG	O	csubj	O	-1	B-verb.cognition
+0	4	104	573	583	S	105	rebellious	rebellious	rebellious	JJ	O	amod	O	-1	O
+0	4	105	584	592	S	103	thoughts	thoughts	thought	NNS	O	dobj	O	-1	B-noun.cognition
+0	4	106	593	595	S	107	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	107	596	603		-1	illegal	illegal	illegal	JJ	O	null	O	-1	O
+0	4	108	603	604	S	107	.	.	.	.	O	punct	O	-1	O
+0	5	109	605	609	N	110	Such	Such	such	JJ	O	amod	O	-1	O
+0	5	110	610	622	S	-1	thoughtcrime	thoughtcrime	thoughtcrime	NN	O	null	O	-1	B-noun.person
+0	5	111	623	625		110	is	is	be	VBZ	O	dep	O	-1	O
+0	5	112	625	626	S	111	,	,	,	,	O	punct	O	-1	O
+0	5	113	627	629	S	112	in	in	in	IN	O	dep	O	-1	O
+0	5	114	630	634		113	fact	fact	fact	NN	O	pobj	O	-1	B-noun.cognition
+0	5	115	634	635	S	113	,	,	,	,	O	dep	O	-1	O
+0	5	116	636	639	S	117	the	the	the	DT	O	det	O	-1	O
+0	5	117	640	645	S	115	worst	worst	worst	JJS	O	dobj	O	-1	O
+0	5	118	646	648	S	117	of	of	of	IN	O	prep	O	-1	O
+0	5	119	649	652	S	120	all	all	all	DT	O	det	O	-1	O
+0	5	120	653	659		118	crimes	crimes	crime	NNS	O	pobj	O	-1	B-noun.act
+0	5	121	659	660	S	115	.	.	.	.	O	punct	O	-1	O
+0	6	122	661	663	S	125	As	As	as	IN	O	mark	O	-1	O
+0	6	123	664	667	S	124	the	the	the	DT	O	det	O	-1	O
+0	6	124	668	673	S	125	novel	novel	novel	JJ	O	nsubj	O	-1	O
+0	6	125	674	679		129	opens	opens	open	VBZ	O	advcl	O	-1	B-verb.social
+0	6	126	679	680	S	129	,	,	,	,	O	punct	O	-1	O
+0	6	127	681	688	S	129	Winston	Winston	Winston	NNP	PERSON	nsubjpass	O	4	B-noun.person
+0	6	128	689	694	S	129	feels	feels	feel	VBZ	O	auxpass	O	-1	O
+0	6	129	695	705	S	-1	frustrated	frustrated	frustrate	VBN	O	null	O	-1	B-verb.social
+0	6	130	706	708	S	129	by	by	by	IN	O	prep	O	-1	O
+0	6	131	709	712	S	132	the	the	the	DT	O	det	O	-1	O
+0	6	132	713	723	S	130	oppression	oppression	oppression	NN	O	pobj	O	-1	B-noun.act
+0	6	133	724	727	N	132	and	and	and	CC	O	cc	O	-1	O
+0	6	134	728	733	S	135	rigid	rigid	rigid	JJ	O	amod	O	-1	O
+0	6	135	734	741	S	132	control	control	control	NN	O	conj	O	-1	B-noun.attribute
+0	6	136	742	744	S	135	of	of	of	IN	O	prep	O	-1	O
+0	6	137	745	748	S	138	the	the	the	DT	O	det	O	-1	O
+0	6	138	749	754		136	Party	Party	Party	NNP	ORGANIZATION	pobj	O	5	B-noun.group
+0	6	139	754	755	S	138	,	,	,	,	O	punct	O	-1	O
+0	6	140	756	761	S	141	which	which	which	WDT	O	nsubj	O	-1	O
+0	6	141	762	771	S	138	prohibits	prohibits	prohibit	VBZ	O	rcmod	O	-1	B-verb.communication
+0	6	142	772	776	S	143	free	free	free	JJ	O	amod	O	-1	O
+0	6	143	777	784		141	thought	thought	thought	NN	O	dobj	O	-1	B-noun.cognition
+0	6	144	784	785	S	143	,	,	,	,	O	punct	O	-1	O
+0	6	145	786	789		143	sex	sex	sex	NN	O	conj	O	-1	B-noun.act
+0	6	146	789	790	S	129	,	,	,	,	O	punct	O	-1	O
+0	6	147	791	794	S	129	and	and	and	CC	O	cc	O	-1	O
+0	6	148	795	798	N	149	any	any	any	DT	O	det	O	-1	O
+0	6	149	799	809	S	129	expression	expression	expression	NN	O	conj	O	-1	B-noun.communication
+0	6	150	810	812	S	149	of	of	of	IN	O	prep	O	-1	O
+0	6	151	813	826		150	individuality	individuality	individuality	NN	O	pobj	O	-1	B-noun.attribute
+0	6	152	826	827	S	129	.	.	.	.	O	punct	O	-1	O
+0	7	153	828	835	S	154	Winston	Winston	Winston	NNP	PERSON	nn	O	4	B-noun.person
+0	7	154	836	844	S	156	dislikes	dislikes	dislikes	NN	O	nsubj	O	-1	B-noun.cognition
+0	7	155	845	848	S	156	the	the	the	DT	O	det	O	-1	O
+0	7	156	849	854	S	-1	party	party	party	NN	O	null	O	-1	B-noun.group
+0	7	157	855	858	S	156	and	and	and	CC	O	cc	O	-1	O
+0	7	158	859	862	S	160	has	has	have	VBZ	O	aux	O	-1	O
+0	7	159	863	872	N	160	illegally	illegally	illegally	RB	O	advmod	O	-1	O
+0	7	160	873	882	S	156	purchased	purchased	purchase	VBN	O	conj	O	-1	B-verb.possession
+0	7	161	883	884	S	162	a	a	a	DT	O	det	O	-1	O
+0	7	162	885	890	S	160	diary	diary	diary	NN	O	dobj	O	-1	B-noun.communication
+0	7	163	891	893	S	162	in	in	in	IN	O	prep	O	-1	O
+0	7	164	894	899	S	163	which	which	which	WDT	O	pobj	O	-1	O
+0	7	165	900	902	S	166	to	to	to	TO	O	aux	O	-1	O
+0	7	166	903	908	S	162	write	write	write	VB	O	infmod	O	-1	B-verb.creation
+0	7	167	909	912	S	169	his	his	he	PRP$	O	poss	O	4	O
+0	7	168	913	921	S	169	criminal	criminal	criminal	JJ	O	amod	O	-1	O
+0	7	169	922	930		166	thoughts	thoughts	thought	NNS	O	dobj	O	-1	B-noun.cognition
+0	7	170	930	931	S	156	.	.	.	.	O	punct	O	-1	O
+0	8	171	932	934	S	175	He	He	he	PRP	O	nsubj	O	4	O
+0	8	172	935	938	N	175	has	has	have	VBZ	O	aux	O	-1	O
+0	8	173	939	943	S	175	also	also	also	RB	O	advmod	O	-1	O
+0	8	174	944	950	S	175	become	become	become	VBN	O	auxpass	O	-1	B-verb.change
+0	8	175	951	958	S	-1	fixated	fixated	fixate	VBN	O	null	O	-1	B-verb.social
+0	8	176	959	961	S	175	on	on	on	IN	O	prep	O	-1	O
+0	8	177	962	963	S	180	a	a	a	DT	O	det	O	-1	O
+0	8	178	964	972	S	180	powerful	powerful	powerful	JJ	O	amod	O	-1	O
+0	8	179	973	978	S	180	Party	Party	Party	NNP	ORGANIZATION	nn	O	5	B-noun.group
+0	8	180	979	985	S	176	member	member	member	NN	O	pobj	O	-1	B-noun.person
+0	8	181	986	991	S	180	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	8	182	992	999		181	O’Brien	O'Brien	O'Brien	NNP	PERSON	dep	O	0	B-noun.person
+0	8	183	999	1000	S	180	,	,	,	,	O	punct	O	-1	O
+0	8	184	1001	1005	N	186	whom	whom	whom	WP	O	rel	O	-1	O
+0	8	185	1006	1013	S	186	Winston	Winston	Winston	NNP	PERSON	nsubj	O	4	B-noun.person
+0	8	186	1014	1022	S	180	believes	believes	believe	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	8	187	1023	1025	S	190	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	8	188	1026	1027	S	190	a	a	a	DT	O	det	O	-1	O
+0	8	189	1028	1034	S	190	secret	secret	secret	JJ	O	amod	O	-1	O
+0	8	190	1035	1041	S	186	member	member	member	NN	O	ccomp	O	-1	B-noun.person
+0	8	191	1042	1044	S	190	of	of	of	IN	O	prep	O	-1	O
+0	8	192	1045	1048	S	193	the	the	the	DT	O	det	O	-1	O
+0	8	193	1049	1060		191	Brotherhood	Brotherhood	Brotherhood	NNP	O	pobj	O	-1	O
+0	8	194	1060	1061		199	—	--	--	:	O	punct	O	-1	O
+0	8	195	1061	1064	S	199	the	the	the	DT	O	det	O	-1	O
+0	8	196	1065	1075		199	mysterious	mysterious	mysterious	JJ	O	amod	O	-1	O
+0	8	197	1075	1076	N	199	,	,	,	,	O	punct	O	-1	O
+0	8	198	1077	1086	S	199	legendary	legendary	legendary	JJ	O	amod	O	-1	O
+0	8	199	1087	1092	S	186	group	group	group	NN	O	dep	O	-1	B-noun.group
+0	8	200	1093	1097	S	201	that	that	that	WDT	O	nsubj	O	-1	O
+0	8	201	1098	1103	S	199	works	works	work	VBZ	O	rcmod	O	-1	B-verb.social
+0	8	202	1104	1106	S	203	to	to	to	TO	O	aux	O	-1	O
+0	8	203	1107	1116	S	201	overthrow	overthrow	overthrow	VB	O	xcomp	O	-1	B-verb.social
+0	8	204	1117	1120	S	205	the	the	the	DT	O	det	O	-1	O
+0	8	205	1121	1126		203	Party	Party	Party	NNP	ORGANIZATION	dobj	O	5	B-noun.group
+0	8	206	1126	1127	S	175	.	.	.	.	O	punct	O	-1	O
+0	9	207	1128	1135	S	208	Winston	Winston	Winston	NNP	O	nsubj	O	-1	B-noun.person
+0	9	208	1136	1141	S	-1	works	works	work	VBZ	O	null	O	-1	B-verb.social
+0	9	209	1142	1144	S	208	in	in	in	IN	O	prep	O	-1	O
+0	9	210	1145	1148	S	211	the	the	the	DT	O	det	O	-1	O
+0	9	211	1149	1157	S	209	Ministry	Ministry	Ministry	NNP	ORGANIZATION	pobj	O	-1	B-noun.group
+0	9	212	1158	1160	S	211	of	of	of	IN	ORGANIZATION	prep	O	-1	O
+0	9	213	1161	1166		212	Truth	Truth	Truth	NNP	ORGANIZATION	pobj	O	-1	O
+0	9	214	1166	1167	S	213	,	,	,	,	O	punct	O	-1	O
+0	9	215	1168	1173	S	217	where	where	where	WRB	O	advmod	O	-1	O
+0	9	216	1174	1176	S	217	he	he	he	PRP	O	nsubj	O	-1	O
+0	9	217	1177	1183	N	213	alters	alters	alter	VBZ	O	rcmod	O	-1	B-verb.change
+0	9	218	1184	1194	S	219	historical	historical	historical	JJ	O	amod	O	-1	O
+0	9	219	1195	1202	S	217	records	records	record	NNS	O	dobj	O	-1	B-noun.artifact
+0	9	220	1203	1205	S	221	to	to	to	TO	O	aux	O	-1	O
+0	9	221	1206	1209	S	217	fit	fit	fit	VB	O	xcomp	O	-1	B-verb.stative
+0	9	222	1210	1213	S	223	the	the	the	DT	O	det	O	-1	O
+0	9	223	1214	1219	S	221	needs	needs	need	NNS	O	dobj	O	-1	B-noun.object
+0	9	224	1220	1222	S	223	of	of	of	IN	O	prep	O	-1	O
+0	9	225	1223	1226	S	226	the	the	the	DT	O	det	O	-1	O
+0	9	226	1227	1232		224	Party	Party	Party	NNP	ORGANIZATION	pobj	O	5	B-noun.group
+0	9	227	1232	1233	S	208	.	.	.	.	O	punct	O	-1	O
+0	10	228	1234	1236	S	229	He	He	he	PRP	O	nsubj	O	-1	O
+0	10	229	1237	1244	S	-1	notices	notices	notice	NNS	O	null	O	-1	B-noun.communication
+0	10	230	1245	1246	S	231	a	a	a	DT	O	det	O	-1	O
+0	10	231	1247	1255		229	coworker	coworker	coworker	NN	O	dobj	O	-1	O
+0	10	232	1255	1256	N	231	,	,	,	,	O	punct	O	-1	O
+0	10	233	1257	1258	S	236	a	a	a	DT	O	det	O	-1	O
+0	10	234	1259	1268	S	236	beautiful	beautiful	beautiful	JJ	O	amod	O	-1	O
+0	10	235	1269	1280	S	236	dark-haired	dark-haired	dark-haired	JJ	O	amod	O	-1	O
+0	10	236	1281	1285		231	girl	girl	girl	NN	O	appos	O	-1	B-noun.person
+0	10	237	1285	1286	S	229	,	,	,	,	O	punct	O	-1	O
+0	10	238	1287	1294	S	229	staring	staring	stare	VBG	O	xcomp	O	-1	B-verb.perception
+0	10	239	1295	1297	S	238	at	at	at	IN	O	prep	O	-1	O
+0	10	240	1298	1301		239	him	him	he	PRP	O	pobj	O	-1	O
+0	10	241	1301	1302	S	229	,	,	,	,	O	punct	O	-1	O
+0	10	242	1303	1306	S	229	and	and	and	CC	O	cc	O	-1	O
+0	10	243	1307	1314	S	229	worries	worries	worry	NNS	O	conj	O	-1	B-noun.cognition
+0	10	244	1315	1319	S	248	that	that	that	IN	O	complm	O	-1	O
+0	10	245	1320	1323	N	248	she	she	she	PRP	O	nsubj	O	-1	O
+0	10	246	1324	1326	S	248	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	10	247	1327	1329	S	248	an	an	a	DT	O	det	O	-1	O
+0	10	248	1330	1339	S	243	informant	informant	informant	NN	O	ccomp	O	-1	B-noun.person
+0	10	249	1340	1343	S	251	who	who	who	WP	O	nsubj	O	-1	O
+0	10	250	1344	1348	S	251	will	will	will	MD	O	aux	O	-1	O
+0	10	251	1349	1353	S	248	turn	turn	turn	VB	O	rcmod	O	-1	B-verb.change
+0	10	252	1354	1357	S	251	him	him	he	PRP	O	dobj	O	-1	O
+0	10	253	1358	1360	S	251	in	in	in	IN	O	prep	O	-1	O
+0	10	254	1361	1364	S	253	for	for	for	IN	O	dep	O	-1	O
+0	10	255	1365	1368	S	256	his	his	he	PRP$	O	poss	O	-1	O
+0	10	256	1369	1381		254	thoughtcrime	thoughtcrime	thoughtcrime	NN	O	pobj	O	-1	O
+0	10	257	1381	1382	S	229	.	.	.	.	O	punct	O	-1	O
+0	11	258	1383	1385	S	260	He	He	he	PRP	O	nsubjpass	O	-1	O
+0	11	259	1386	1388	N	260	is	is	be	VBZ	O	auxpass	O	-1	O
+0	11	260	1389	1397	S	-1	troubled	troubled	trouble	VBN	O	null	O	-1	B-verb.emotion
+0	11	261	1398	1400	S	260	by	by	by	IN	O	prep	O	-1	O
+0	11	262	1401	1404	S	263	the	the	the	DT	O	det	O	-1	O
+0	11	263	1405	1410		265	Party	Party	Party	NNP	ORGANIZATION	poss	O	5	B-noun.group
+0	11	264	1410	1412	S	263	’s	's	's	POS	O	possessive	O	-1	O
+0	11	265	1413	1420	S	261	control	control	control	NN	O	pobj	O	-1	B-noun.attribute
+0	11	266	1421	1423	S	265	of	of	of	IN	O	prep	O	-1	O
+0	11	267	1424	1431		266	history	history	history	NN	O	pobj	O	-1	B-noun.time
+0	11	268	1431	1432	S	260	:	:	:	:	O	punct	O	-1	O
+0	11	269	1433	1436	S	270	the	the	the	DT	O	det	O	-1	O
+0	11	270	1437	1442	S	271	Party	Party	Party	NNP	ORGANIZATION	nsubj	O	5	B-noun.group
+0	11	271	1443	1449	S	260	claims	claims	claim	VBZ	O	parataxis	O	-1	B-verb.communication
+0	11	272	1450	1454	N	277	that	that	that	IN	O	complm	O	-1	O
+0	11	273	1455	1462	S	277	Oceania	Oceania	Oceania	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	11	274	1463	1466	S	277	has	has	have	VBZ	O	aux	O	-1	O
+0	11	275	1467	1473	S	277	always	always	always	RB	O	advmod	O	-1	O
+0	11	276	1474	1478	S	277	been	been	be	VBN	O	auxpass	O	-1	O
+0	11	277	1479	1485	S	271	allied	allied	ally	VBN	O	ccomp	O	-1	B-verb.social
+0	11	278	1486	1490	S	277	with	with	with	IN	O	prep	O	-1	O
+0	11	279	1491	1499	S	278	Eastasia	Eastasia	eastasia	NN	LOCATION	pobj	O	-1	B-noun.person
+0	11	280	1500	1502	S	279	in	in	in	IN	O	prep	O	-1	O
+0	11	281	1503	1504	S	282	a	a	a	DT	O	det	O	-1	O
+0	11	282	1505	1508	S	280	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	11	283	1509	1516	S	282	against	against	against	IN	O	prep	O	-1	O
+0	11	284	1517	1524		283	Eurasia	Eurasia	Eurasia	NNP	ORGANIZATION	pobj	O	-1	O
+0	11	285	1524	1525	N	271	,	,	,	,	O	punct	O	-1	O
+0	11	286	1526	1529	S	271	but	but	but	CC	O	cc	O	-1	O
+0	11	287	1530	1537	S	288	Winston	Winston	Winston	NNP	PERSON	nsubj	O	4	B-noun.person
+0	11	288	1538	1543	S	271	seems	seems	seem	VBZ	O	conj	O	-1	B-verb.perception
+0	11	289	1544	1546	S	290	to	to	to	TO	O	aux	O	-1	O
+0	11	290	1547	1553	S	288	recall	recall	recall	VB	O	xcomp	O	-1	B-verb.cognition
+0	11	291	1554	1555	S	292	a	a	a	DT	O	det	O	-1	O
+0	11	292	1556	1560	S	290	time	time	time	NN	O	dobj	O	-1	B-noun.time
+0	11	293	1561	1565	S	297	when	when	when	WRB	O	advmod	O	-1	O
+0	11	294	1566	1570	S	297	this	this	this	DT	O	nsubj	O	-1	O
+0	11	295	1571	1574	S	297	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	11	296	1575	1578	S	297	not	not	not	RB	O	neg	O	-1	O
+0	11	297	1579	1583		292	true	true	true	JJ	O	dep	O	-1	O
+0	11	298	1583	1584	S	260	.	.	.	.	O	punct	O	-1	O
+0	12	299	1585	1588	S	300	The	The	the	DT	O	det	O	-1	O
+0	12	300	1589	1594	N	302	Party	Party	Party	NNP	ORGANIZATION	nsubj	O	5	B-noun.group
+0	12	301	1595	1599	S	302	also	also	also	RB	O	advmod	O	-1	O
+0	12	302	1600	1606	S	-1	claims	claims	claim	VBZ	O	null	O	-1	B-verb.communication
+0	12	303	1607	1611	S	318	that	that	that	IN	O	complm	O	-1	O
+0	12	304	1612	1620	S	305	Emmanuel	Emmanuel	Emmanuel	NNP	PERSON	nn	O	3	B-noun.person
+0	12	305	1621	1630		318	Goldstein	Goldstein	Goldstein	NNP	PERSON	nsubj	O	3	I-noun.person
+0	12	306	1630	1631	S	305	,	,	,	,	O	punct	O	-1	O
+0	12	307	1632	1635	S	309	the	the	the	DT	O	det	O	-1	O
+0	12	308	1636	1643	S	309	alleged	alleged	alleged	JJ	O	amod	O	-1	O
+0	12	309	1644	1650	S	305	leader	leader	leader	NN	O	appos	O	-1	B-noun.person
+0	12	310	1651	1653	S	309	of	of	of	IN	O	prep	O	-1	O
+0	12	311	1654	1657	S	312	the	the	the	DT	O	det	O	-1	O
+0	12	312	1658	1669		310	Brotherhood	Brotherhood	Brotherhood	NNP	O	pobj	O	-1	O
+0	12	313	1669	1670	N	305	,	,	,	,	O	punct	O	-1	O
+0	12	314	1671	1673	S	318	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	12	315	1674	1677	S	318	the	the	the	DT	O	det	O	-1	O
+0	12	316	1678	1682	S	317	most	most	most	RBS	O	advmod	O	-1	O
+0	12	317	1683	1692	S	318	dangerous	dangerous	dangerous	JJ	O	amod	O	-1	O
+0	12	318	1693	1696	S	302	man	man	man	NN	O	ccomp	O	-1	B-noun.person
+0	12	319	1697	1702		318	alive	alive	alive	JJ	O	amod	O	-1	O
+0	12	320	1702	1703	S	302	,	,	,	,	O	punct	O	-1	O
+0	12	321	1704	1707	S	302	but	but	but	CC	O	cc	O	-1	O
+0	12	322	1708	1712	S	325	this	this	this	DT	O	nsubj	O	-1	O
+0	12	323	1713	1717	S	325	does	does	do	VBZ	O	aux	O	-1	O
+0	12	324	1718	1721	S	325	not	not	not	RB	O	neg	O	-1	O
+0	12	325	1722	1726	S	302	seem	seem	seem	VB	O	conj	O	-1	B-verb.perception
+0	12	326	1727	1736	N	325	plausible	plausible	plausible	JJ	O	dobj	O	-1	O
+0	12	327	1737	1739	S	326	to	to	to	TO	O	prep	O	-1	O
+0	12	328	1740	1747		327	Winston	Winston	Winston	NNP	PERSON	pobj	O	4	B-noun.person
+0	12	329	1747	1748	S	302	.	.	.	.	O	punct	O	-1	O
+0	13	330	1749	1756	S	331	Winston	Winston	Winston	NNP	PERSON	nsubj	O	4	B-noun.person
+0	13	331	1757	1763	S	-1	spends	spends	spend	VBZ	O	null	O	-1	B-verb.stative
+0	13	332	1764	1767	S	333	his	his	he	PRP$	O	poss	O	4	O
+0	13	333	1768	1776	S	331	evenings	evenings	evening	NNS	TIME	dobj	O	-1	B-noun.time
+0	13	334	1777	1786	S	331	wandering	wandering	wander	VBG	O	xcomp	O	-1	B-verb.motion
+0	13	335	1787	1794	S	334	through	through	through	IN	O	prep	O	-1	O
+0	13	336	1795	1798	S	338	the	the	the	DT	O	det	O	-1	O
+0	13	337	1799	1806	N	338	poorest	poorest	poorest	JJS	O	amod	O	-1	O
+0	13	338	1807	1820	S	335	neighborhoods	neighborhoods	neighborhood	NNS	O	pobj	O	-1	B-noun.location
+0	13	339	1821	1823	S	338	in	in	in	IN	O	prep	O	-1	O
+0	13	340	1824	1830		339	London	London	London	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	13	341	1830	1831	S	340	,	,	,	,	O	punct	O	-1	O
+0	13	342	1832	1837	S	349	where	where	where	WRB	O	advmod	O	-1	O
+0	13	343	1838	1841	S	344	the	the	the	DT	O	det	O	-1	O
+0	13	344	1842	1854		349	proletarians	proletarians	proletarian	NNS	O	nsubj	O	-1	B-noun.person
+0	13	345	1854	1855	S	344	,	,	,	,	O	punct	O	-1	O
+0	13	346	1856	1858	S	344	or	or	or	CC	O	cc	O	-1	O
+0	13	347	1859	1865		344	proles	proles	prole	NNS	O	conj	O	-1	B-noun.person
+0	13	348	1865	1866	S	349	,	,	,	,	O	punct	O	-1	O
+0	13	349	1867	1871	N	340	live	live	live	VBP	O	rcmod	O	-1	B-verb.stative
+0	13	350	1872	1879	S	351	squalid	squalid	squalid	JJ	O	amod	O	-1	O
+0	13	351	1880	1885		349	lives	lives	life	NNS	O	dobj	O	-1	B-noun.state
+0	13	352	1885	1886	S	354	,	,	,	,	O	punct	O	-1	O
+0	13	353	1887	1897	S	354	relatively	relatively	relatively	RB	O	advmod	O	-1	O
+0	13	354	1898	1902	S	351	free	free	free	JJ	O	amod	O	-1	O
+0	13	355	1903	1905	S	354	of	of	of	IN	O	prep	O	-1	O
+0	13	356	1906	1911	S	357	Party	Party	Party	NNP	O	nn	O	-1	B-noun.group
+0	13	357	1912	1922		355	monitoring	monitoring	monitoring	NN	O	pobj	O	-1	B-noun.act
+0	13	358	1922	1923	S	331	.	.	.	.	O	punct	O	-1	O
+0	14	359	1924	1927	S	360	One	One	one	CD	DURATION	num	O	-1	O
+0	14	360	1928	1931		363	day	day	day	NN	DURATION	tmod	O	-1	B-noun.time
+0	14	361	1931	1932	S	363	,	,	,	,	O	punct	O	-1	O
+0	14	362	1933	1940	S	363	Winston	Winston	Winston	NNP	PERSON	nsubj	O	4	B-noun.person
+0	14	363	1941	1949	S	-1	receives	receives	receive	VBZ	O	null	O	-1	B-verb.possession
+0	14	364	1950	1951	S	365	a	a	a	DT	O	det	O	-1	O
+0	14	365	1952	1956	S	363	note	note	note	NN	O	dobj	O	-1	B-noun.communication
+0	14	366	1957	1961	S	363	from	from	from	IN	O	prep	O	-1	O
+0	14	367	1962	1965	S	369	the	the	the	DT	O	det	O	-1	O
+0	14	368	1966	1977	N	369	dark-haired	dark-haired	dark-haired	JJ	O	amod	O	-1	O
+0	14	369	1978	1982	S	366	girl	girl	girl	NN	O	pobj	O	-1	B-noun.person
+0	14	370	1983	1987	S	371	that	that	that	WDT	O	nsubj	O	-1	O
+0	14	371	1988	1993	S	369	reads	reads	read	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	14	372	1994	1995		373	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	14	373	1995	1996	S	374	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+0	14	374	1997	2001	S	371	love	love	love	VBP	O	ccomp	I-QUOTE	-1	B-verb.emotion
+0	14	375	2002	2005		374	you	you	you	PRP	O	dobj	I-QUOTE	-1	O
+0	14	376	2005	2006		363	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	14	377	2006	2007	S	363	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	15	378	2008	2011	S	379	She	She	she	PRP	O	nsubj	O	-1	O
+0	15	379	2012	2017	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	15	380	2018	2021	S	379	him	him	he	PRP	O	dobj	O	4	O
+0	15	381	2022	2025	S	382	her	her	she	PRP$	O	poss	O	-1	O
+0	15	382	2026	2030		379	name	name	name	NN	O	dobj	O	-1	B-noun.communication
+0	15	383	2030	2031	S	382	,	,	,	,	O	punct	O	-1	O
+0	15	384	2032	2037		382	Julia	Julia	Julia	NNP	PERSON	appos	O	2	O
+0	15	385	2037	2038	S	379	,	,	,	,	O	punct	O	-1	O
+0	15	386	2039	2042	N	379	and	and	and	CC	O	cc	O	-1	O
+0	15	387	2043	2047	S	388	they	they	they	PRP	O	nsubj	O	-1	O
+0	15	388	2048	2053	S	379	begin	begin	begin	VBP	O	conj	O	-1	B-verb.change
+0	15	389	2054	2055	S	391	a	a	a	DT	O	det	O	-1	O
+0	15	390	2056	2062	S	391	covert	covert	covert	JJ	O	amod	O	-1	O
+0	15	391	2063	2069		388	affair	affair	affair	NN	O	dobj	O	-1	B-noun.cognition
+0	15	392	2069	2070	S	388	,	,	,	,	O	punct	O	-1	O
+0	15	393	2071	2077	S	388	always	always	always	RB	O	advmod	O	-1	O
+0	15	394	2078	2080	S	388	on	on	on	IN	O	prep	O	-1	O
+0	15	395	2081	2084	S	396	the	the	the	DT	O	det	O	-1	O
+0	15	396	2085	2092	S	394	lookout	lookout	lookout	NN	O	pobj	O	-1	B-noun.person
+0	15	397	2093	2096	S	396	for	for	for	IN	O	prep	O	-1	O
+0	15	398	2097	2102	S	397	signs	signs	sign	NNS	O	pobj	O	-1	B-noun.communication
+0	15	399	2103	2105	S	398	of	of	of	IN	O	prep	O	-1	O
+0	15	400	2106	2111	N	401	Party	Party	Party	NNP	ORGANIZATION	nn	O	5	B-noun.group
+0	15	401	2112	2122		399	monitoring	monitoring	monitoring	NN	O	pobj	O	-1	B-noun.act
+0	15	402	2122	2123	S	379	.	.	.	.	O	punct	O	-1	O
+0	16	403	2124	2134	S	405	Eventually	Eventually	eventually	RB	O	advmod	O	-1	O
+0	16	404	2135	2139	S	405	they	they	they	PRP	O	nsubj	O	-1	O
+0	16	405	2140	2144	S	-1	rent	rent	rent	VB	O	null	O	-1	B-verb.contact
+0	16	406	2145	2146	S	407	a	a	a	DT	O	det	O	-1	O
+0	16	407	2147	2151	S	405	room	room	room	NN	O	dobj	O	-1	B-noun.artifact
+0	16	408	2152	2157	S	407	above	above	above	IN	O	prep	O	-1	O
+0	16	409	2158	2161	S	411	the	the	the	DT	O	det	O	-1	O
+0	16	410	2162	2172	S	411	secondhand	secondhand	secondhand	JJ	O	amod	O	-1	O
+0	16	411	2173	2178	N	408	store	store	store	NN	O	pobj	O	-1	B-noun.artifact
+0	16	412	2179	2181	S	411	in	in	in	IN	O	prep	O	-1	O
+0	16	413	2182	2185	S	415	the	the	the	DT	O	det	O	-1	O
+0	16	414	2186	2191	S	415	prole	prole	prole	NN	O	nn	O	-1	B-noun.person
+0	16	415	2192	2200	S	412	district	district	district	NN	O	pobj	O	-1	B-noun.location
+0	16	416	2201	2206	S	418	where	where	where	WRB	O	advmod	O	-1	O
+0	16	417	2207	2214	S	418	Winston	Winston	Winston	NNP	PERSON	nsubj	O	4	B-noun.person
+0	16	418	2215	2221	S	415	bought	bought	buy	VBD	O	rcmod	O	-1	B-verb.possession
+0	16	419	2222	2225	S	420	the	the	the	DT	O	det	O	-1	O
+0	16	420	2226	2231		418	diary	diary	diary	NN	O	dobj	O	-1	B-noun.communication
+0	16	421	2231	2232	S	405	.	.	.	.	O	punct	O	-1	O
+0	17	422	2233	2237	S	423	This	This	this	DT	O	det	O	-1	O
+0	17	423	2238	2250	N	424	relationship	relationship	relationship	NN	O	nsubj	O	-1	B-noun.relation
+0	17	424	2251	2256	S	-1	lasts	lasts	last	VBZ	O	null	O	-1	B-verb.stative
+0	17	425	2257	2260	S	424	for	for	for	IN	O	prep	O	-1	O
+0	17	426	2261	2265	S	427	some	some	some	DT	O	det	O	-1	O
+0	17	427	2266	2270		425	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	17	428	2270	2271	S	424	.	.	.	.	O	punct	O	-1	O
+0	18	429	2272	2279	S	431	Winston	Winston	Winston	NNP	O	nsubj	O	-1	B-noun.person
+0	18	430	2280	2282	S	431	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	18	431	2283	2287	S	-1	sure	sure	sure	JJ	O	null	O	-1	O
+0	18	432	2288	2292	S	436	that	that	that	IN	O	complm	O	-1	O
+0	18	433	2293	2297	S	436	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	18	434	2298	2302	S	436	will	will	will	MD	O	aux	O	-1	O
+0	18	435	2303	2305	S	436	be	be	be	VB	O	auxpass	O	-1	O
+0	18	436	2306	2312	S	431	caught	caught	catch	VBN	O	ccomp	O	-1	B-verb.contact
+0	18	437	2313	2316	N	436	and	and	and	CC	O	cc	O	-1	O
+0	18	438	2317	2325	S	446	punished	punished	punish	VBN	O	nsubj	O	-1	B-verb.social
+0	18	439	2326	2332	S	446	sooner	sooner	sooner	RBR	O	advmod	O	-1	O
+0	18	440	2333	2335	S	439	or	or	or	CC	O	cc	O	-1	O
+0	18	441	2336	2341	S	439	later	later	later	RBR	O	conj	O	-1	O
+0	18	442	2342	2343		446	(	-LRB-	-lrb-	-LRB-	O	advmod	O	-1	O
+0	18	443	2343	2346	S	445	the	the	the	DT	O	det	O	-1	O
+0	18	444	2347	2357	S	445	fatalistic	fatalistic	fatalistic	JJ	O	amod	O	-1	O
+0	18	445	2358	2365	S	446	Winston	Winston	Winston	NNP	PERSON	nsubj	O	4	B-noun.person
+0	18	446	2366	2371	S	436	knows	knows	know	VBZ	O	conj	O	-1	B-verb.cognition
+0	18	447	2372	2376	S	451	that	that	that	IN	O	complm	O	-1	O
+0	18	448	2377	2379	S	451	he	he	he	PRP	O	nsubj	O	4	O
+0	18	449	2380	2383	N	451	has	has	have	VBZ	O	aux	O	-1	O
+0	18	450	2384	2388	S	451	been	been	be	VBN	O	auxpass	O	-1	O
+0	18	451	2389	2395	S	446	doomed	doomed	doom	VBN	O	ccomp	O	-1	B-verb.communication
+0	18	452	2396	2401	S	454	since	since	since	IN	O	mark	O	-1	O
+0	18	453	2402	2404	S	454	he	he	he	PRP	O	nsubj	O	4	O
+0	18	454	2405	2410	S	451	wrote	wrote	write	VBD	O	advcl	O	-1	B-verb.communication
+0	18	455	2411	2414	S	458	his	his	he	PRP$	O	poss	O	4	O
+0	18	456	2415	2420	S	458	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	18	457	2421	2426	S	458	diary	diary	diary	NN	O	nn	O	-1	B-noun.communication
+0	18	458	2427	2432		459	entry	entry	entry	NN	O	nsubj	O	-1	B-noun.communication
+0	18	459	2432	2433		454	)	-RRB-	-rrb-	-RRB-	O	xcomp	O	-1	O
+0	18	460	2433	2434	S	454	,	,	,	,	O	punct	O	-1	O
+0	18	461	2435	2440	S	465	while	while	while	IN	O	mark	O	-1	O
+0	18	462	2441	2446	S	465	Julia	Julia	Julia	NNP	PERSON	nsubj	O	2	B-noun.person
+0	18	463	2447	2449	N	465	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	18	464	2450	2454	S	465	more	more	more	RBR	O	advmod	O	-1	O
+0	18	465	2455	2464	S	454	pragmatic	pragmatic	pragmatic	JJ	O	advcl	O	-1	O
+0	18	466	2465	2468	S	465	and	and	and	CC	O	cc	O	-1	O
+0	18	467	2469	2479		465	optimistic	optimistic	optimistic	JJ	O	conj	O	-1	O
+0	18	468	2479	2480	S	431	.	.	.	.	O	punct	O	-1	O
+0	19	469	2481	2483	S	482	As	As	as	IN	O	mark	O	-1	O
+0	19	470	2484	2491		472	Winston	Winston	Winston	NNP	PERSON	poss	O	4	B-noun.person
+0	19	471	2491	2493	S	470	’s	's	's	POS	O	possessive	O	-1	O
+0	19	472	2494	2500	S	482	affair	affair	affair	NN	O	nsubj	O	-1	B-noun.cognition
+0	19	473	2501	2505	S	475	with	with	with	IN	O	mark	O	-1	O
+0	19	474	2506	2511	S	475	Julia	Julia	Julia	NNP	PERSON	nsubj	O	2	B-noun.person
+0	19	475	2512	2522		482	progresses	progresses	progress	VBZ	O	advcl	O	-1	B-verb.change
+0	19	476	2522	2523	S	482	,	,	,	,	O	punct	O	-1	O
+0	19	477	2524	2527	N	478	his	his	he	PRP$	O	poss	O	4	O
+0	19	478	2528	2534	S	482	hatred	hatred	hatred	NN	O	nsubj	O	-1	B-noun.feeling
+0	19	479	2535	2538	S	478	for	for	for	IN	O	prep	O	-1	O
+0	19	480	2539	2542	S	481	the	the	the	DT	O	det	O	-1	O
+0	19	481	2543	2548	S	479	Party	Party	Party	NNP	ORGANIZATION	pobj	O	5	B-noun.group
+0	19	482	2549	2554	S	-1	grows	grows	grow	VBZ	O	null	O	-1	B-verb.change
+0	19	483	2555	2559	S	482	more	more	more	RBR	O	dobj	O	-1	O
+0	19	484	2560	2563	S	483	and	and	and	CC	O	cc	O	-1	O
+0	19	485	2564	2568	S	486	more	more	more	RBR	O	advmod	O	-1	O
+0	19	486	2569	2576		483	intense	intense	intense	JJ	O	conj	O	-1	O
+0	19	487	2576	2577	S	482	.	.	.	.	O	punct	O	-1	O
+0	20	488	2578	2580	S	492	At	At	at	IN	O	prep	O	-1	O
+0	20	489	2581	2585		488	last	last	last	JJ	O	pobj	O	-1	O
+0	20	490	2585	2586	S	492	,	,	,	,	O	punct	O	-1	O
+0	20	491	2587	2589	S	492	he	he	he	PRP	O	nsubj	O	4	O
+0	20	492	2590	2598	N	-1	receives	receives	receive	VBZ	O	null	O	-1	B-verb.possession
+0	20	493	2599	2602	S	494	the	the	the	DT	O	det	O	-1	O
+0	20	494	2603	2610	S	492	message	message	message	NN	O	dobj	O	-1	B-noun.communication
+0	20	495	2611	2615	S	499	that	that	that	IN	O	complm	O	-1	O
+0	20	496	2616	2618	S	499	he	he	he	PRP	O	nsubj	O	4	O
+0	20	497	2619	2622	S	499	has	has	have	VBZ	O	aux	O	-1	O
+0	20	498	2623	2627	S	499	been	been	be	VBN	O	aux	O	-1	O
+0	20	499	2628	2635	S	494	waiting	waiting	wait	VBG	O	ccomp	O	-1	B-verb.stative
+0	20	500	2636	2639		499	for	for	for	IN	O	prep	O	-1	O
+0	20	501	2639	2640	S	499	:	:	:	:	O	punct	O	-1	O
+0	20	502	2641	2648	S	503	O’Brien	O'Brien	O'Brien	NNP	PERSON	nsubj	O	0	O
+0	20	503	2649	2654	S	499	wants	wants	want	VBZ	O	parataxis	O	-1	B-verb.emotion
+0	20	504	2655	2657	S	505	to	to	to	TO	O	aux	O	-1	O
+0	20	505	2658	2661	S	503	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	20	506	2662	2665		505	him	him	he	PRP	O	dobj	O	0	O
+0	20	507	2665	2666	S	492	.	.	.	.	O	punct	O	-1	O
+0	21	508	2667	2674	S	-1	Winston	Winston	Winston	NNP	O	null	O	-1	B-noun.person
+0	21	509	2675	2678	S	508	and	and	and	CC	O	cc	O	-1	O
+0	21	510	2679	2684	S	511	Julia	Julia	Julia	NNP	PERSON	nn	O	2	B-noun.person
+0	21	511	2685	2691	S	508	travel	travel	travel	NN	O	conj	O	-1	B-noun.act
+0	21	512	2692	2694	S	511	to	to	to	TO	O	prep	O	-1	O
+0	21	513	2695	2702		516	O’Brien	O'Brien	O'Brien	NNP	PERSON	poss	O	0	B-noun.person
+0	21	514	2702	2704	S	513	’s	's	's	POS	O	possessive	O	-1	O
+0	21	515	2705	2714	S	516	luxurious	luxurious	luxurious	JJ	O	amod	O	-1	O
+0	21	516	2715	2724		512	apartment	apartment	apartment	NN	O	pobj	O	-1	B-noun.artifact
+0	21	517	2724	2725	N	508	.	.	.	.	O	punct	O	-1	O
+0	22	518	2726	2728	S	528	As	As	as	IN	O	mark	O	-1	O
+0	22	519	2729	2730	S	520	a	a	a	DT	O	det	O	-1	O
+0	22	520	2731	2737	S	528	member	member	member	NN	O	nsubj	O	-1	B-noun.person
+0	22	521	2738	2740	S	520	of	of	of	IN	O	prep	O	-1	O
+0	22	522	2741	2744	S	525	the	the	the	DT	O	det	O	-1	O
+0	22	523	2745	2753	S	525	powerful	powerful	powerful	JJ	O	amod	O	-1	O
+0	22	524	2754	2759	S	525	Inner	Inner	Inner	NNP	ORGANIZATION	nn	O	-1	B-noun.person
+0	22	525	2760	2765	S	521	Party	Party	Party	NNP	ORGANIZATION	pobj	O	-1	I-noun.person
+0	22	526	2766	2767		528	(	-LRB-	-lrb-	-LRB-	O	advmod	O	-1	O
+0	22	527	2767	2774	S	528	Winston	Winston	Winston	NNP	ORGANIZATION	nsubj	O	4	B-noun.person
+0	22	528	2775	2782	S	536	belongs	belongs	belong	VBZ	O	advcl	O	-1	B-verb.stative
+0	22	529	2783	2785	S	528	to	to	to	TO	O	prep	O	-1	O
+0	22	530	2786	2789	N	532	the	the	the	DT	O	det	O	-1	O
+0	22	531	2790	2795	S	532	Outer	Outer	Outer	NNP	ORGANIZATION	nn	O	-1	B-noun.person
+0	22	532	2796	2801		529	Party	Party	Party	NNP	ORGANIZATION	pobj	O	-1	I-noun.person
+0	22	533	2801	2802		532	)	-RRB-	-rrb-	-RRB-	O	dep	O	-1	O
+0	22	534	2802	2803	S	536	,	,	,	,	O	punct	O	-1	O
+0	22	535	2804	2811	S	536	O’Brien	O'Brien	O'Brien	NNP	PERSON	nsubj	O	0	B-noun.person
+0	22	536	2812	2817	S	-1	leads	leads	lead	VBZ	O	null	O	-1	B-verb.motion
+0	22	537	2818	2819	S	538	a	a	a	DT	O	det	O	-1	O
+0	22	538	2820	2824	S	536	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	22	539	2825	2827	S	538	of	of	of	IN	O	prep	O	-1	O
+0	22	540	2828	2834	S	539	luxury	luxury	luxury	NN	O	pobj	O	-1	B-noun.attribute
+0	22	541	2835	2839	S	545	that	that	that	WDT	O	dobj	O	-1	O
+0	22	542	2840	2847	S	545	Winston	Winston	Winston	NNP	ORGANIZATION	nsubj	O	4	B-noun.person
+0	22	543	2848	2851	S	545	can	can	can	MD	O	aux	O	-1	O
+0	22	544	2852	2856	N	545	only	only	only	RB	O	advmod	O	-1	O
+0	22	545	2857	2864		540	imagine	imagine	imagine	VB	O	rcmod	O	-1	B-verb.creation
+0	22	546	2864	2865	S	536	.	.	.	.	O	punct	O	-1	O
+0	23	547	2866	2873	S	548	O’Brien	O'Brien	O'Brien	NNP	PERSON	nsubj	O	0	B-noun.person
+0	23	548	2874	2882	S	-1	confirms	confirms	confirm	VBZ	O	null	O	-1	B-verb.cognition
+0	23	549	2883	2885	S	548	to	to	to	TO	O	prep	O	-1	O
+0	23	550	2886	2893	S	549	Winston	Winston	Winston	NNP	ORGANIZATION	pobj	O	4	B-noun.person
+0	23	551	2894	2897	S	550	and	and	and	CC	O	cc	O	-1	O
+0	23	552	2898	2903	S	550	Julia	Julia	Julia	NNP	PERSON	conj	O	2	B-noun.person
+0	23	553	2904	2908		559	that	that	that	IN	O	complm	O	-1	O
+0	23	554	2908	2909	S	559	,	,	,	,	O	punct	O	-1	O
+0	23	555	2910	2914	S	559	like	like	like	IN	O	prep	O	-1	O
+0	23	556	2915	2919		555	them	them	they	PRP	O	pobj	O	-1	O
+0	23	557	2919	2920	N	559	,	,	,	,	O	punct	O	-1	O
+0	23	558	2921	2923	S	559	he	he	he	PRP	O	nsubj	O	4	O
+0	23	559	2924	2929	S	548	hates	hates	hate	VBZ	O	ccomp	O	-1	B-verb.emotion
+0	23	560	2930	2933	S	561	the	the	the	DT	O	det	O	-1	O
+0	23	561	2934	2939		559	Party	Party	Party	NNP	ORGANIZATION	dobj	O	5	B-noun.group
+0	23	562	2939	2940	S	548	,	,	,	,	O	punct	O	-1	O
+0	23	563	2941	2944	S	548	and	and	and	CC	O	cc	O	-1	O
+0	23	564	2945	2949	S	548	says	says	say	VBZ	O	conj	O	-1	B-verb.communication
+0	23	565	2950	2954	S	567	that	that	that	IN	O	complm	O	-1	O
+0	23	566	2955	2957	S	567	he	he	he	PRP	O	nsubj	O	4	O
+0	23	567	2958	2963	S	564	works	works	work	VBZ	O	ccomp	O	-1	B-verb.social
+0	23	568	2964	2971	S	567	against	against	against	IN	O	prep	O	-1	O
+0	23	569	2972	2974	S	568	it	it	it	PRP	O	pobj	O	-1	O
+0	23	570	2975	2977	S	567	as	as	as	IN	O	prep	O	-1	O
+0	23	571	2978	2979	S	572	a	a	a	DT	O	det	O	-1	O
+0	23	572	2980	2986	N	570	member	member	member	NN	O	pobj	O	-1	B-noun.person
+0	23	573	2987	2989	S	572	of	of	of	IN	O	prep	O	-1	O
+0	23	574	2990	2993	S	575	the	the	the	DT	O	det	O	-1	O
+0	23	575	2994	3005		573	Brotherhood	Brotherhood	Brotherhood	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	23	576	3005	3006	S	548	.	.	.	.	O	punct	O	-1	O
+0	24	577	3007	3009	S	578	He	He	he	PRP	O	nsubj	O	4	O
+0	24	578	3010	3023	S	-1	indoctrinates	indoctrinates	indoctrinate	VBZ	O	null	O	-1	B-verb.cognition
+0	24	579	3024	3031	S	578	Winston	Winston	Winston	NNP	ORGANIZATION	dobj	O	4	B-noun.person
+0	24	580	3032	3035	S	579	and	and	and	CC	O	cc	O	-1	O
+0	24	581	3036	3041	S	579	Julia	Julia	Julia	NNP	PERSON	conj	O	2	B-noun.person
+0	24	582	3042	3046	S	578	into	into	into	IN	O	prep	O	-1	O
+0	24	583	3047	3050	N	584	the	the	the	DT	O	det	O	-1	O
+0	24	584	3051	3062		582	Brotherhood	Brotherhood	Brotherhood	NNP	O	pobj	O	-1	O
+0	24	585	3062	3063	S	578	,	,	,	,	O	punct	O	-1	O
+0	24	586	3064	3067	S	578	and	and	and	CC	O	cc	O	-1	O
+0	24	587	3068	3073	S	578	gives	gives	give	VBZ	O	conj	O	-1	B-verb.possession
+0	24	588	3074	3081	S	587	Winston	Winston	Winston	NNP	ORGANIZATION	iobj	O	4	B-noun.person
+0	24	589	3082	3083	S	590	a	a	a	DT	O	det	O	-1	O
+0	24	590	3084	3088	S	587	copy	copy	copy	NN	O	dobj	O	-1	B-noun.communication
+0	24	591	3089	3091	S	590	of	of	of	IN	O	prep	O	-1	O
+0	24	592	3092	3100	S	593	Emmanuel	Emmanuel	Emmanuel	NNP	PERSON	nn	O	3	B-noun.person
+0	24	593	3101	3110		595	Goldstein	Goldstein	Goldstein	NNP	PERSON	poss	O	3	I-noun.person
+0	24	594	3110	3112	S	593	’s	's	's	POS	O	possessive	O	-1	O
+0	24	595	3113	3117		591	book	book	book	NN	O	pobj	O	-1	B-noun.communication
+0	24	596	3117	3118	N	578	,	,	,	,	O	punct	O	-1	O
+0	24	597	3119	3122	S	598	the	the	the	DT	O	det	O	-1	O
+0	24	598	3123	3132	S	578	manifesto	manifesto	manifesto	NN	O	dobj	O	-1	B-noun.communication
+0	24	599	3133	3135	S	598	of	of	of	IN	O	prep	O	-1	O
+0	24	600	3136	3139	S	601	the	the	the	DT	O	det	O	-1	O
+0	24	601	3140	3151		599	Brotherhood	Brotherhood	Brotherhood	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	24	602	3151	3152	S	578	.	.	.	.	O	punct	O	-1	O
+0	25	603	3153	3160	S	604	Winston	Winston	Winston	NNP	O	nsubj	O	-1	B-noun.person
+0	25	604	3161	3166	S	-1	reads	reads	read	VBZ	O	null	O	-1	B-verb.cognition
+0	25	605	3167	3170	S	606	the	the	the	DT	O	det	O	-1	O
+0	25	606	3171	3175		604	book	book	book	NN	O	dobj	O	-1	B-noun.communication
+0	25	607	3175	3176		606	—	--	--	:	O	punct	O	-1	O
+0	25	608	3176	3178	S	609	an	an	a	DT	O	det	O	-1	O
+0	25	609	3179	3186	N	606	amalgam	amalgam	amalgam	NN	O	dep	O	-1	B-noun.substance
+0	25	610	3187	3189	S	609	of	of	of	IN	O	prep	O	-1	O
+0	25	611	3190	3197	S	612	several	several	several	JJ	O	amod	O	-1	O
+0	25	612	3198	3203	S	610	forms	forms	form	NNS	O	pobj	O	-1	B-noun.communication
+0	25	613	3204	3206	S	612	of	of	of	IN	O	prep	O	-1	O
+0	25	614	3207	3218	S	617	class-based	class-based	class-based	JJ	O	amod	O	-1	O
+0	25	615	3219	3236	S	617	twentieth-century	twentieth-century	twentieth-century	JJ	DATE	amod	O	-1	O
+0	25	616	3237	3243	S	617	social	social	social	JJ	O	amod	O	-1	O
+0	25	617	3244	3250		613	theory	theory	theory	NN	O	pobj	O	-1	B-noun.cognition
+0	25	618	3250	3251		609	—	--	--	:	O	punct	O	-1	O
+0	25	619	3251	3253	S	606	to	to	to	TO	O	prep	O	-1	O
+0	25	620	3254	3259	N	619	Julia	Julia	Julia	NNP	PERSON	pobj	O	2	B-noun.person
+0	25	621	3260	3262	S	604	in	in	in	IN	O	prep	O	-1	O
+0	25	622	3263	3266	S	623	the	the	the	DT	O	det	O	-1	O
+0	25	623	3267	3271	S	621	room	room	room	NN	O	pobj	O	-1	B-noun.artifact
+0	25	624	3272	3277	S	623	above	above	above	IN	O	prep	O	-1	O
+0	25	625	3278	3281	S	626	the	the	the	DT	O	det	O	-1	O
+0	25	626	3282	3287		624	store	store	store	NN	O	pobj	O	-1	B-noun.artifact
+0	25	627	3287	3288	S	604	.	.	.	.	O	punct	O	-1	O
+0	26	628	3289	3297		-1	Suddenly	Suddenly	suddenly	RB	O	null	O	-1	O
+0	26	629	3297	3298	S	628	,	,	,	,	O	dep	O	-1	O
+0	26	630	3299	3307	S	631	soldiers	soldiers	soldier	NNS	O	nn	O	-1	B-noun.person
+0	26	631	3308	3313	S	629	barge	barge	barge	NN	O	dobj	O	-1	B-noun.artifact
+0	26	632	3314	3316	S	631	in	in	in	IN	O	advmod	O	-1	O
+0	26	633	3317	3320	S	631	and	and	and	CC	O	cc	O	-1	O
+0	26	634	3321	3326	N	631	seize	seize	seize	VB	O	conj	O	-1	B-verb.contact
+0	26	635	3327	3331		634	them	them	they	PRP	O	dobj	O	-1	O
+0	26	636	3331	3332	S	628	.	.	.	.	O	punct	O	-1	O
+0	27	637	3333	3336	S	638	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	27	638	3337	3348		647	Charrington	Charrington	Charrington	NNP	PERSON	nsubjpass	O	-1	I-noun.person
+0	27	639	3348	3349	S	638	,	,	,	,	O	punct	O	-1	O
+0	27	640	3350	3353	S	641	the	the	the	DT	O	det	O	-1	O
+0	27	641	3354	3364	S	638	proprietor	proprietor	proprietor	NN	O	appos	O	-1	B-noun.person
+0	27	642	3365	3367	S	641	of	of	of	IN	O	prep	O	-1	O
+0	27	643	3368	3371	S	644	the	the	the	DT	O	det	O	-1	O
+0	27	644	3372	3377		642	store	store	store	NN	O	pobj	O	-1	B-noun.artifact
+0	27	645	3377	3378	S	638	,	,	,	,	O	punct	O	-1	O
+0	27	646	3379	3381	S	647	is	is	be	VBZ	O	auxpass	O	-1	O
+0	27	647	3382	3390	S	-1	revealed	revealed	reveal	VBN	O	null	O	-1	B-verb.perception
+0	27	648	3391	3393	N	647	as	as	as	IN	O	prep	O	-1	O
+0	27	649	3394	3400	S	652	having	having	have	VBG	O	aux	O	-1	O
+0	27	650	3401	3405	S	652	been	been	be	VBN	O	cop	O	-1	B-verb.stative
+0	27	651	3406	3407	S	652	a	a	a	DT	O	det	O	-1	O
+0	27	652	3408	3414	S	648	member	member	member	NN	O	pcomp	O	-1	B-noun.person
+0	27	653	3415	3417	S	652	of	of	of	IN	O	prep	O	-1	O
+0	27	654	3418	3421	S	656	the	the	the	DT	O	det	O	-1	O
+0	27	655	3422	3429	S	656	Thought	Thought	Thought	NNP	O	nn	O	-1	B-noun.group
+0	27	656	3430	3436	S	653	Police	Police	Police	NNP	O	pobj	O	-1	I-noun.group
+0	27	657	3437	3440	S	658	all	all	all	DT	O	dep	O	-1	O
+0	27	658	3441	3446		652	along	along	along	IN	O	advmod	O	-1	O
+0	27	659	3446	3447	S	647	.	.	.	.	O	punct	O	-1	O
+0	28	660	3448	3452	S	676	Torn	Torn	tear	VBN	O	ccomp	O	-1	B-verb.contact
+0	28	661	3453	3457	S	660	away	away	away	RB	O	advmod	O	-1	O
+0	28	662	3458	3462	S	661	from	from	from	IN	O	dep	O	-1	O
+0	28	663	3463	3468	S	662	Julia	Julia	Julia	NNP	PERSON	pobj	O	2	B-noun.person
+0	28	664	3469	3472	S	660	and	and	and	CC	O	cc	O	-1	O
+0	28	665	3473	3478	S	660	taken	taken	take	VBN	O	conj	O	-1	B-verb.social
+0	28	666	3479	3481	S	665	to	to	to	TO	O	prep	O	-1	O
+0	28	667	3482	3483	S	668	a	a	a	DT	O	det	O	-1	O
+0	28	668	3484	3489	S	666	place	place	place	NN	O	pobj	O	-1	B-noun.location
+0	28	669	3490	3496	S	668	called	called	call	VBD	O	dep	O	-1	B-verb.communication
+0	28	670	3497	3500	S	671	the	the	the	DT	O	det	O	-1	O
+0	28	671	3501	3509	N	669	Ministry	Ministry	Ministry	NNP	ORGANIZATION	dep	O	-1	B-noun.group
+0	28	672	3510	3512	S	671	of	of	of	IN	ORGANIZATION	prep	O	-1	O
+0	28	673	3513	3517		672	Love	Love	Love	NNP	ORGANIZATION	pobj	O	-1	O
+0	28	674	3517	3518	S	676	,	,	,	,	O	punct	O	-1	O
+0	28	675	3519	3526	S	676	Winston	Winston	Winston	NNP	PERSON	nsubj	O	4	B-noun.person
+0	28	676	3527	3532	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.cognition
+0	28	677	3533	3537	S	685	that	that	that	IN	O	complm	O	-1	O
+0	28	678	3538	3545		685	O’Brien	O'Brien	O'Brien	NNP	PERSON	nn	O	0	B-noun.person
+0	28	679	3545	3546	S	685	,	,	,	,	O	punct	O	-1	O
+0	28	680	3547	3550		685	too	too	too	RB	O	advmod	O	-1	O
+0	28	681	3550	3551	S	685	,	,	,	,	O	punct	O	-1	O
+0	28	682	3552	3554	S	685	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	28	683	3555	3556	S	685	a	a	a	DT	O	det	O	-1	O
+0	28	684	3557	3562	S	685	Party	Party	Party	NNP	O	nn	O	-1	B-noun.group
+0	28	685	3563	3566	S	676	spy	spy	spy	NN	O	ccomp	O	-1	B-noun.person
+0	28	686	3567	3570	S	688	who	who	who	WP	O	nsubj	O	-1	O
+0	28	687	3571	3577	S	688	simply	simply	simply	RB	O	advmod	O	-1	O
+0	28	688	3578	3587	N	685	pretended	pretended	pretend	VBD	O	rcmod	O	-1	B-verb.creation
+0	28	689	3588	3590	S	692	to	to	to	TO	O	aux	O	-1	O
+0	28	690	3591	3593	S	692	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	28	691	3594	3595	S	692	a	a	a	DT	O	det	O	-1	O
+0	28	692	3596	3602	S	688	member	member	member	NN	O	xcomp	O	-1	B-noun.person
+0	28	693	3603	3605	S	692	of	of	of	IN	O	prep	O	-1	O
+0	28	694	3606	3609	S	695	the	the	the	DT	O	det	O	-1	O
+0	28	695	3610	3621	S	693	Brotherhood	Brotherhood	Brotherhood	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	28	696	3622	3624	S	692	in	in	in	IN	O	prep	O	-1	O
+0	28	697	3625	3630	S	698	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	28	698	3631	3633	S	696	to	to	to	TO	O	dep	O	-1	O
+0	28	699	3634	3638	S	700	trap	trap	trap	NN	O	nn	O	-1	B-noun.artifact
+0	28	700	3639	3646	S	698	Winston	Winston	Winston	NNP	MISC	pobj	O	-1	B-noun.person
+0	28	701	3647	3651	N	688	into	into	into	IN	O	prep	O	-1	O
+0	28	702	3652	3662	S	701	committing	committing	commit	VBG	O	pcomp	O	-1	B-verb.social
+0	28	703	3663	3665	S	705	an	an	a	DT	O	det	O	-1	O
+0	28	704	3666	3670	S	705	open	open	open	JJ	O	amod	O	-1	O
+0	28	705	3671	3674	S	702	act	act	act	NN	O	dobj	O	-1	B-noun.communication
+0	28	706	3675	3677	S	705	of	of	of	IN	O	prep	O	-1	O
+0	28	707	3678	3687	S	706	rebellion	rebellion	rebellion	NN	O	pobj	O	-1	B-noun.act
+0	28	708	3688	3695	S	707	against	against	against	IN	O	prep	O	-1	O
+0	28	709	3696	3699	S	710	the	the	the	DT	O	det	O	-1	O
+0	28	710	3700	3705		708	Party	Party	Party	NNP	ORGANIZATION	pobj	O	5	B-noun.group
+0	28	711	3705	3706	S	676	.	.	.	.	O	punct	O	-1	O
+0	29	712	3707	3714	S	713	O’Brien	O'Brien	O'Brien	NNP	PERSON	nsubj	O	0	B-noun.person
+0	29	713	3715	3721	N	-1	spends	spends	spend	VBZ	O	null	O	-1	B-verb.stative
+0	29	714	3722	3728	S	713	months	months	month	NNS	DURATION	tmod	O	-1	B-noun.time
+0	29	715	3729	3738	S	713	torturing	torturing	torture	VBG	O	xcomp	O	-1	B-verb.emotion
+0	29	716	3739	3742	S	715	and	and	and	CC	O	cc	O	-1	O
+0	29	717	3743	3755	S	715	brainwashing	brainwashing	brainwash	VBG	O	conj	O	-1	B-verb.communication
+0	29	718	3756	3763		717	Winston	Winston	Winston	NNP	PERSON	dobj	O	4	B-noun.person
+0	29	719	3763	3764	S	718	,	,	,	,	O	punct	O	-1	O
+0	29	720	3765	3768	S	721	who	who	who	WP	O	nsubj	O	-1	O
+0	29	721	3769	3778	S	718	struggles	struggles	struggle	VBZ	O	rcmod	O	-1	B-verb.social
+0	29	722	3779	3781	S	723	to	to	to	TO	O	aux	O	-1	O
+0	29	723	3782	3788		721	resist	resist	resist	VB	O	xcomp	O	-1	B-verb.competition
+0	29	724	3788	3789	N	713	.	.	.	.	O	punct	O	-1	O
+0	30	725	3790	3792	S	729	At	At	at	IN	O	prep	O	-1	O
+0	30	726	3793	3797		725	last	last	last	JJ	O	pobj	O	-1	O
+0	30	727	3797	3798	S	729	,	,	,	,	O	punct	O	-1	O
+0	30	728	3799	3806	S	729	O’Brien	O'Brien	O'Brien	NNP	PERSON	nsubj	O	0	B-noun.person
+0	30	729	3807	3812	S	-1	sends	sends	send	VBZ	O	null	O	-1	B-verb.motion
+0	30	730	3813	3816	S	729	him	him	he	PRP	O	dobj	O	0	O
+0	30	731	3817	3819	S	729	to	to	to	TO	O	prep	O	-1	O
+0	30	732	3820	3823	S	734	the	the	the	DT	O	det	O	-1	O
+0	30	733	3824	3831	S	734	dreaded	dreaded	dreaded	JJ	O	amod	O	-1	O
+0	30	734	3832	3836	S	731	Room	Room	room	NN	O	pobj	O	-1	B-noun.artifact
+0	30	735	3837	3840		734	101	101	101	CD	NUMBER	num	O	-1	O
+0	30	736	3840	3841	N	729	,	,	,	,	O	punct	O	-1	O
+0	30	737	3842	3845	S	739	the	the	the	DT	O	det	O	-1	O
+0	30	738	3846	3851	S	739	final	final	final	JJ	O	amod	O	-1	O
+0	30	739	3852	3863	S	729	destination	destination	destination	NN	O	dobj	O	-1	B-noun.communication
+0	30	740	3864	3867	S	739	for	for	for	IN	O	prep	O	-1	O
+0	30	741	3868	3874	S	740	anyone	anyone	anyone	NN	O	pobj	O	-1	O
+0	30	742	3875	3878	S	743	who	who	who	WP	O	nsubj	O	-1	O
+0	30	743	3879	3886	S	741	opposes	opposes	oppose	VBZ	O	rcmod	O	-1	B-verb.communication
+0	30	744	3887	3890	S	745	the	the	the	DT	O	det	O	-1	O
+0	30	745	3891	3896		743	Party	Party	Party	NNP	ORGANIZATION	dobj	O	5	B-noun.group
+0	30	746	3896	3897	S	729	.	.	.	.	O	punct	O	-1	O
+0	31	747	3898	3902		750	Here	Here	here	RB	O	advmod	O	-1	O
+0	31	748	3902	3903	S	750	,	,	,	,	O	punct	O	-1	O
+0	31	749	3904	3911	N	750	O’Brien	O'Brien	O'Brien	NNP	PERSON	nsubj	O	0	B-noun.person
+0	31	750	3912	3917	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	31	751	3918	3925	S	750	Winston	Winston	Winston	NNP	PERSON	dobj	O	4	B-noun.person
+0	31	752	3926	3930	S	756	that	that	that	IN	O	complm	O	-1	O
+0	31	753	3931	3933	S	756	he	he	he	PRP	O	nsubjpass	O	4	O
+0	31	754	3934	3938	S	756	will	will	will	MD	O	aux	O	-1	O
+0	31	755	3939	3941	S	756	be	be	be	VB	O	auxpass	O	-1	O
+0	31	756	3942	3948	S	750	forced	forced	force	VBN	O	ccomp	O	-1	B-verb.social
+0	31	757	3949	3951	S	758	to	to	to	TO	O	aux	O	-1	O
+0	31	758	3952	3960	S	756	confront	confront	confront	VB	O	xcomp	O	-1	B-verb.competition
+0	31	759	3961	3964	S	761	his	his	he	PRP$	O	poss	O	4	O
+0	31	760	3965	3970	S	761	worst	worst	worst	JJS	O	amod	O	-1	O
+0	31	761	3971	3975		758	fear	fear	fear	NN	O	dobj	O	-1	B-noun.feeling
+0	31	762	3975	3976	N	750	.	.	.	.	O	punct	O	-1	O
+0	32	763	3977	3987	S	769	Throughout	Throughout	throughout	IN	O	prep	O	-1	O
+0	32	764	3988	3991	S	765	the	the	the	DT	O	det	O	-1	O
+0	32	765	3992	3997		763	novel	novel	novel	JJ	O	pobj	O	-1	O
+0	32	766	3997	3998	S	769	,	,	,	,	O	punct	O	-1	O
+0	32	767	3999	4006	S	769	Winston	Winston	Winston	NNP	PERSON	nsubj	O	4	B-noun.person
+0	32	768	4007	4010	S	769	has	has	have	VBZ	O	aux	O	-1	O
+0	32	769	4011	4014	S	-1	had	had	have	VBN	O	null	O	-1	O
+0	32	770	4015	4024	S	769	recurring	recurring	recur	VBG	O	xcomp	O	-1	B-verb.change
+0	32	771	4025	4035	S	770	nightmares	nightmares	nightmare	NNS	O	dobj	O	-1	B-noun.state
+0	32	772	4036	4041	N	771	about	about	about	IN	O	prep	O	-1	O
+0	32	773	4042	4046		772	rats	rats	rat	NNS	O	pobj	O	-1	B-noun.animal
+0	32	774	4046	4047	S	769	;	;	;	:	O	punct	O	-1	O
+0	32	775	4048	4055	S	777	O’Brien	O'Brien	O'Brien	NNP	PERSON	nsubj	O	0	B-noun.person
+0	32	776	4056	4059	S	777	now	now	now	RB	DATE	advmod	O	-1	O
+0	32	777	4060	4066	S	769	straps	straps	strap	VBZ	O	parataxis	O	-1	B-verb.contact
+0	32	778	4067	4068	S	779	a	a	a	DT	O	det	O	-1	O
+0	32	779	4069	4073	S	777	cage	cage	cage	NN	O	dobj	O	-1	B-noun.artifact
+0	32	780	4074	4078	S	779	full	full	full	JJ	O	amod	O	-1	O
+0	32	781	4079	4081	S	780	of	of	of	IN	O	prep	O	-1	O
+0	32	782	4082	4086	S	781	rats	rats	rat	NNS	O	pobj	O	-1	B-noun.animal
+0	32	783	4087	4091	S	780	onto	onto	onto	IN	O	prep	O	-1	O
+0	32	784	4092	4099		786	Winston	Winston	Winston	NNP	ORGANIZATION	poss	O	4	B-noun.person
+0	32	785	4099	4101	S	784	’s	's	's	POS	O	possessive	O	-1	O
+0	32	786	4102	4106	N	783	head	head	head	NN	O	pobj	O	-1	B-noun.body
+0	32	787	4107	4110	S	780	and	and	and	CC	O	cc	O	-1	O
+0	32	788	4111	4119	S	780	prepares	prepares	prepare	VBZ	O	conj	O	-1	B-verb.change
+0	32	789	4120	4122	S	790	to	to	to	TO	O	aux	O	-1	O
+0	32	790	4123	4128	S	780	allow	allow	allow	VB	O	xcomp	O	-1	B-verb.social
+0	32	791	4129	4132	S	792	the	the	the	DT	O	det	O	-1	O
+0	32	792	4133	4137	S	794	rats	rats	rat	NNS	O	nsubj	O	-1	B-noun.animal
+0	32	793	4138	4140	S	794	to	to	to	TO	O	aux	O	-1	O
+0	32	794	4141	4144	S	790	eat	eat	eat	VB	O	xcomp	O	-1	B-verb.consumption
+0	32	795	4145	4148	S	796	his	his	he	PRP$	O	poss	O	4	O
+0	32	796	4149	4153		794	face	face	face	NN	O	dobj	O	-1	B-noun.body
+0	32	797	4153	4154	S	769	.	.	.	.	O	punct	O	-1	O
+0	33	798	4155	4162	S	799	Winston	Winston	Winston	NNP	O	nsubj	O	-1	B-noun.person
+0	33	799	4163	4168		-1	snaps	snaps	snap	VBZ	O	null	O	-1	B-verb.communication
+0	33	800	4168	4169	S	799	,	,	,	,	O	punct	O	-1	O
+0	33	801	4170	4178	N	799	pleading	pleading	plead	VBG	O	xcomp	O	-1	B-verb.communication
+0	33	802	4179	4183	S	801	with	with	with	IN	O	prep	O	-1	O
+0	33	803	4184	4191	S	802	O’Brien	O'Brien	O'Brien	NNP	PERSON	pobj	O	0	B-noun.person
+0	33	804	4192	4194	S	805	to	to	to	TO	O	aux	O	-1	O
+0	33	805	4195	4197	S	801	do	do	do	VB	O	xcomp	O	-1	B-verb.social
+0	33	806	4198	4200	S	805	it	it	it	PRP	O	dobj	O	-1	O
+0	33	807	4201	4203	S	805	to	to	to	TO	O	prep	O	-1	O
+0	33	808	4204	4209		807	Julia	Julia	Julia	NNP	PERSON	pobj	O	2	O
+0	33	809	4209	4210	S	805	,	,	,	,	O	punct	O	-1	O
+0	33	810	4211	4214	S	805	not	not	not	RB	O	neg	O	-1	O
+0	33	811	4215	4217	S	805	to	to	to	TO	O	prep	O	-1	O
+0	33	812	4218	4221		811	him	him	he	PRP	O	pobj	O	-1	O
+0	33	813	4221	4222	S	799	.	.	.	.	O	punct	O	-1	O
+0	34	814	4223	4229	S	-1	Giving	Giving	give	VBG	O	null	O	-1	B-verb.possession
+0	34	815	4230	4232	S	814	up	up	up	RP	O	prt	O	-1	O
+0	34	816	4233	4238	S	814	Julia	Julia	Julia	NNP	PERSON	dobj	O	2	B-noun.person
+0	34	817	4239	4241	S	814	is	is	be	VBZ	O	dep	O	-1	B-verb.stative
+0	34	818	4242	4246	S	820	what	what	what	WDT	O	dobj	O	-1	O
+0	34	819	4247	4254	S	820	O’Brien	O'Brien	O'Brien	NNP	PERSON	nsubj	O	0	B-noun.person
+0	34	820	4255	4261	S	817	wanted	wanted	want	VBD	O	ccomp	O	-1	B-verb.emotion
+0	34	821	4262	4266	S	820	from	from	from	IN	O	prep	O	-1	O
+0	34	822	4267	4274	S	821	Winston	Winston	Winston	NNP	ORGANIZATION	pobj	O	4	B-noun.person
+0	34	823	4275	4278	N	824	all	all	all	DT	O	dep	O	-1	O
+0	34	824	4279	4284		820	along	along	along	IN	O	advmod	O	-1	O
+0	34	825	4284	4285	S	814	.	.	.	.	O	punct	O	-1	O
+0	35	826	4286	4289	S	827	His	His	he	PRP$	O	poss	O	4	O
+0	35	827	4290	4296	S	832	spirit	spirit	spirit	NN	O	nsubjpass	O	-1	B-noun.person
+0	35	828	4297	4303		827	broken	broken	break	VBN	O	partmod	O	-1	B-verb.change
+0	35	829	4303	4304	S	827	,	,	,	,	O	punct	O	-1	O
+0	35	830	4305	4312	S	827	Winston	Winston	Winston	NNP	PERSON	appos	O	4	B-noun.person
+0	35	831	4313	4315	S	832	is	is	be	VBZ	O	auxpass	O	-1	O
+0	35	832	4316	4324	S	-1	released	released	release	VBN	O	null	O	-1	B-verb.contact
+0	35	833	4325	4327	S	832	to	to	to	TO	O	prep	O	-1	O
+0	35	834	4328	4331	S	836	the	the	the	DT	O	det	O	-1	O
+0	35	835	4332	4339	S	836	outside	outside	outside	JJ	O	amod	O	-1	O
+0	35	836	4340	4345		833	world	world	world	NN	O	pobj	O	-1	B-noun.group
+0	35	837	4345	4346	N	832	.	.	.	.	O	punct	O	-1	O
+0	36	838	4347	4349	S	839	He	He	he	PRP	O	nsubj	O	4	O
+0	36	839	4350	4355	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	36	840	4356	4361	S	839	Julia	Julia	Julia	NNP	PERSON	dobj	O	2	B-noun.person
+0	36	841	4362	4365	S	839	but	but	but	CC	O	cc	O	-1	O
+0	36	842	4366	4368	S	844	no	no	no	RB	O	advmod	O	-1	O
+0	36	843	4369	4375	S	842	longer	longer	longer	RBR	O	advmod	O	-1	O
+0	36	844	4376	4381	S	839	feels	feels	feel	VBZ	O	conj	O	-1	B-verb.cognition
+0	36	845	4382	4390	S	844	anything	anything	anything	NN	O	dobj	O	-1	O
+0	36	846	4391	4394	S	844	for	for	for	IN	O	prep	O	-1	O
+0	36	847	4395	4398		846	her	her	she	PRP	O	pobj	O	2	O
+0	36	848	4398	4399	S	839	.	.	.	.	O	punct	O	-1	O
+0	37	849	4400	4402	S	851	He	He	he	PRP	O	nsubj	O	4	O
+0	37	850	4403	4406	S	851	has	has	have	VBZ	O	aux	O	-1	O
+0	37	851	4407	4415	N	-1	accepted	accepted	accept	VBN	O	null	O	-1	B-verb.cognition
+0	37	852	4416	4419	S	853	the	the	the	DT	O	det	O	-1	O
+0	37	853	4420	4425	S	851	Party	Party	Party	NNP	ORGANIZATION	dobj	O	5	B-noun.group
+0	37	854	4426	4434	S	851	entirely	entirely	entirely	RB	O	advmod	O	-1	O
+0	37	855	4435	4438	S	851	and	and	and	CC	O	cc	O	-1	O
+0	37	856	4439	4442	S	857	has	has	have	VBZ	O	aux	O	-1	O
+0	37	857	4443	4450	S	851	learned	learned	learn	VBN	O	conj	O	-1	B-verb.cognition
+0	37	858	4451	4453	S	859	to	to	to	TO	O	aux	O	-1	O
+0	37	859	4454	4458	S	857	love	love	love	VB	O	xcomp	O	-1	B-verb.emotion
+0	37	860	4459	4462	S	861	Big	Big	big	JJ	O	amod	O	-1	O
+0	37	861	4463	4470		859	Brother	Brother	Brother	NNP	O	dobj	O	-1	B-noun.person
+0	37	862	4470	4471	N	851	.	.	.	.	O	punct	O	-1	O

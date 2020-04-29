@@ -1,0 +1,975 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	2	S	8	On	On	on	IN	O	prep	O	-1	O
+0	0	1	3	4	S	4	a	a	a	DT	O	det	O	-1	O
+0	0	2	5	9	S	4	dark	dark	dark	JJ	O	amod	O	-1	O
+0	0	3	10	16	S	4	winter	winter	winter	NN	DATE	nn	O	-1	B-noun.time
+0	0	4	17	22		0	night	night	night	NN	TIME	pobj	O	-1	B-noun.time
+0	0	5	22	23	S	8	,	,	,	,	O	punct	O	-1	O
+0	0	6	24	25	N	7	a	a	a	DT	O	det	O	-1	O
+0	0	7	26	31	S	8	ghost	ghost	ghost	NN	O	nsubj	O	-1	B-noun.cognition
+0	0	8	32	37	S	-1	walks	walks	walk	VBZ	O	null	O	-1	B-verb.motion
+0	0	9	38	41	S	10	the	the	the	DT	O	det	O	-1	O
+0	0	10	42	50	S	8	ramparts	ramparts	rampart	NNS	O	dobj	O	-1	B-noun.artifact
+0	0	11	51	53	S	10	of	of	of	IN	O	prep	O	-1	O
+0	0	12	54	62	S	13	Elsinore	Elsinore	Elsinore	NNP	LOCATION	nn	O	-1	B-noun.person
+0	0	13	63	69	S	11	Castle	Castle	Castle	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	0	14	70	72	S	13	in	in	in	IN	O	prep	O	-1	O
+0	0	15	73	80		14	Denmark	Denmark	Denmark	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	16	80	81	S	8	.	.	.	.	O	punct	O	-1	O
+0	1	17	82	92	N	-1	Discovered	Discovered	discover	VBN	O	null	O	-1	B-verb.cognition
+0	1	18	93	98	S	17	first	first	first	RB	ORDINAL	advmod	O	-1	O
+0	1	19	99	101	S	17	by	by	by	IN	O	prep	O	-1	O
+0	1	20	102	103	S	21	a	a	a	DT	O	det	O	-1	O
+0	1	21	104	108	S	19	pair	pair	pair	NN	O	pobj	O	-1	B-noun.group
+0	1	22	109	111	S	21	of	of	of	IN	O	prep	O	-1	O
+0	1	23	112	120		22	watchmen	watchmen	watchmen	NN	O	pobj	O	-1	B-noun.artifact
+0	1	24	120	121	S	17	,	,	,	,	O	punct	O	-1	O
+0	1	25	122	126	S	17	then	then	then	RB	O	advmod	O	-1	O
+0	1	26	127	129	S	17	by	by	by	IN	O	prep	O	-1	O
+0	1	27	130	133	S	28	the	the	the	DT	O	det	O	-1	O
+0	1	28	134	141	S	26	scholar	scholar	scholar	NN	O	pobj	O	-1	B-noun.person
+0	1	29	142	149		33	Horatio	Horatio	Horatio	NNP	PERSON	nsubj	O	0	O
+0	1	30	149	150	S	29	,	,	,	,	O	punct	O	-1	O
+0	1	31	151	154	S	32	the	the	the	DT	O	det	O	-1	O
+0	1	32	155	160	N	29	ghost	ghost	ghost	NN	O	appos	O	-1	B-noun.cognition
+0	1	33	161	170	S	28	resembles	resembles	resemble	VBZ	O	rcmod	O	-1	B-verb.stative
+0	1	34	171	174	S	38	the	the	the	DT	O	det	O	-1	O
+0	1	35	175	183	S	36	recently	recently	recently	RB	DATE	advmod	O	-1	O
+0	1	36	184	192	S	38	deceased	deceased	decease	VBN	O	amod	O	-1	B-verb.change
+0	1	37	193	197	S	38	King	King	King	NNP	O	nn	O	-1	B-noun.person
+0	1	38	198	204		33	Hamlet	Hamlet	Hamlet	NNP	PERSON	dobj	O	2	I-noun.person
+0	1	39	204	205	S	38	,	,	,	,	O	punct	O	-1	O
+0	1	40	206	211	S	41	whose	whose	whose	WP$	O	poss	O	-1	O
+0	1	41	212	219	S	44	brother	brother	brother	NN	O	nsubj	O	-1	B-noun.person
+0	1	42	220	228	N	41	Claudius	Claudius	Claudius	NNP	PERSON	dep	O	3	B-noun.person
+0	1	43	229	232	S	44	has	has	have	VBZ	O	aux	O	-1	O
+0	1	44	233	242	S	38	inherited	inherited	inherit	VBN	O	rcmod	O	-1	B-verb.possession
+0	1	45	243	246	S	46	the	the	the	DT	O	det	O	-1	O
+0	1	46	247	253	S	44	throne	throne	throne	NN	O	dobj	O	-1	B-noun.artifact
+0	1	47	254	257	S	44	and	and	and	CC	O	cc	O	-1	O
+0	1	48	258	265	S	44	married	married	marry	VBD	O	conj	O	-1	B-verb.social
+0	1	49	266	269	S	50	the	the	the	DT	O	det	O	-1	O
+0	1	50	270	274		52	king	king	king	NN	O	poss	O	-1	B-noun.person
+0	1	51	274	276	S	50	’s	's	's	POS	O	possessive	O	-1	O
+0	1	52	277	282		48	widow	widow	widow	NN	O	dobj	O	-1	B-noun.person
+0	1	53	282	283	S	52	,	,	,	,	O	punct	O	-1	O
+0	1	54	284	289	S	55	Queen	Queen	Queen	NNP	O	nn	O	-1	B-noun.person
+0	1	55	290	298		52	Gertrude	Gertrude	Gertrude	NNP	PERSON	appos	O	4	I-noun.person
+0	1	56	298	299	S	17	.	.	.	.	O	punct	O	-1	O
+0	2	57	300	304	N	62	When	When	when	WRB	O	advmod	O	-1	O
+0	2	58	305	312	S	62	Horatio	Horatio	Horatio	NNP	PERSON	nsubj	O	0	B-noun.person
+0	2	59	313	316	S	58	and	and	and	CC	O	cc	O	-1	O
+0	2	60	317	320	S	61	the	the	the	DT	O	det	O	-1	O
+0	2	61	321	329	S	58	watchmen	watchmen	watchman	NNS	O	conj	O	-1	B-noun.artifact
+0	2	62	330	335	S	81	bring	bring	bring	VBP	O	dep	O	-1	B-verb.contact
+0	2	63	336	342	S	64	Prince	Prince	Prince	NNP	PERSON	nn	O	-1	B-noun.person
+0	2	64	343	349		62	Hamlet	Hamlet	Hamlet	NNP	PERSON	dobj	O	-1	I-noun.person
+0	2	65	349	350	S	64	,	,	,	,	O	punct	O	-1	O
+0	2	66	351	354	S	67	the	the	the	DT	O	det	O	-1	O
+0	2	67	355	358	S	64	son	son	son	NN	O	appos	O	-1	B-noun.person
+0	2	68	359	361	S	67	of	of	of	IN	O	prep	O	-1	O
+0	2	69	362	370	N	68	Gertrude	Gertrude	Gertrude	NNP	PERSON	pobj	O	4	B-noun.person
+0	2	70	371	374	S	69	and	and	and	CC	O	cc	O	-1	O
+0	2	71	375	378	S	73	the	the	the	DT	O	det	O	-1	O
+0	2	72	379	383	S	73	dead	dead	dead	JJ	O	amod	O	-1	O
+0	2	73	384	388		69	king	king	king	NN	O	conj	O	-1	B-noun.person
+0	2	74	388	389	S	62	,	,	,	,	O	punct	O	-1	O
+0	2	75	390	392	S	76	to	to	to	TO	O	aux	O	-1	O
+0	2	76	393	396	S	62	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	2	77	397	400	S	78	the	the	the	DT	O	det	O	-1	O
+0	2	78	401	406		76	ghost	ghost	ghost	NN	O	dobj	O	-1	B-noun.cognition
+0	2	79	406	407	S	81	,	,	,	,	O	punct	O	-1	O
+0	2	80	408	410	S	81	it	it	it	PRP	O	nsubj	O	-1	O
+0	2	81	411	417	S	-1	speaks	speaks	speak	VBZ	O	null	O	-1	B-verb.communication
+0	2	82	418	420	S	81	to	to	to	TO	O	prep	O	-1	O
+0	2	83	421	424		82	him	him	he	PRP	O	pobj	O	-1	O
+0	2	84	424	425	S	81	,	,	,	,	O	punct	O	-1	O
+0	2	85	426	435	N	81	declaring	declaring	declare	VBG	O	xcomp	O	-1	B-verb.communication
+0	2	86	436	445	S	85	ominously	ominously	ominously	RB	O	advmod	O	-1	O
+0	2	87	446	450	S	94	that	that	that	IN	O	complm	O	-1	O
+0	2	88	451	453	S	94	it	it	it	PRP	O	nsubj	O	-1	O
+0	2	89	454	456	S	94	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	2	90	457	463	S	94	indeed	indeed	indeed	RB	O	advmod	O	-1	O
+0	2	91	464	467	S	92	his	his	he	PRP$	O	poss	O	-1	O
+0	2	92	468	474		94	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	2	93	474	476	S	92	’s	's	's	POS	O	possessive	O	-1	O
+0	2	94	477	483		85	spirit	spirit	spirit	NN	O	ccomp	O	-1	B-noun.person
+0	2	95	483	484	S	94	,	,	,	,	O	punct	O	-1	O
+0	2	96	485	488	S	94	and	and	and	CC	O	cc	O	-1	O
+0	2	97	489	493	S	100	that	that	that	IN	O	complm	O	-1	O
+0	2	98	494	496	S	100	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	2	99	497	500	N	100	was	was	be	VBD	O	auxpass	O	-1	O
+0	2	100	501	509	S	94	murdered	murdered	murder	VBN	O	conj	O	-1	B-verb.social
+0	2	101	510	512	S	100	by	by	by	IN	O	prep	O	-1	O
+0	2	102	513	517	S	101	none	none	none	NN	O	pobj	O	-1	O
+0	2	103	518	523	S	102	other	other	other	JJ	O	amod	O	-1	O
+0	2	104	524	528	S	103	than	than	than	IN	O	prep	O	-1	O
+0	2	105	529	537		104	Claudius	Claudius	Claudius	NNP	PERSON	pobj	O	3	B-noun.person
+0	2	106	537	538	S	81	.	.	.	.	O	punct	O	-1	O
+0	3	107	539	547	S	126	Ordering	Ordering	order	VBG	O	dep	O	-1	B-verb.communication
+0	3	108	548	554	S	110	Hamlet	Hamlet	Hamlet	NNP	O	nsubj	O	-1	B-noun.group
+0	3	109	555	557	S	110	to	to	to	TO	O	aux	O	-1	O
+0	3	110	558	562	S	107	seek	seek	seek	VB	O	ccomp	O	-1	B-verb.possession
+0	3	111	563	570	N	110	revenge	revenge	revenge	NN	O	dobj	O	-1	B-noun.act
+0	3	112	571	573	S	111	on	on	on	IN	O	prep	O	-1	O
+0	3	113	574	577	S	114	the	the	the	DT	O	det	O	-1	O
+0	3	114	578	581	S	112	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	3	115	582	585	S	116	who	who	who	WP	O	nsubj	O	-1	O
+0	3	116	586	593	S	114	usurped	usurped	usurp	VBD	O	rcmod	O	-1	B-verb.possession
+0	3	117	594	597	S	118	his	his	he	PRP$	O	poss	O	-1	O
+0	3	118	598	604	S	116	throne	throne	throne	NN	O	dobj	O	-1	B-noun.artifact
+0	3	119	605	608	S	116	and	and	and	CC	O	cc	O	-1	O
+0	3	120	609	616	S	116	married	married	marry	VBD	O	conj	O	-1	B-verb.social
+0	3	121	617	620	S	122	his	his	he	PRP$	O	poss	O	-1	O
+0	3	122	621	625		120	wife	wife	wife	NN	O	dobj	O	-1	B-noun.person
+0	3	123	625	626	S	126	,	,	,	,	O	punct	O	-1	O
+0	3	124	627	630	S	125	the	the	the	DT	O	det	O	-1	O
+0	3	125	631	636	N	126	ghost	ghost	ghost	NN	O	nsubj	O	-1	B-noun.cognition
+0	3	126	637	647	S	-1	disappears	disappears	disappear	VBZ	O	null	O	-1	B-verb.change
+0	3	127	648	652	S	126	with	with	with	IN	O	prep	O	-1	O
+0	3	128	653	656	S	129	the	the	the	DT	O	det	O	-1	O
+0	3	129	657	661		127	dawn	dawn	dawn	NN	O	pobj	O	-1	B-noun.time
+0	3	130	661	662	S	126	.	.	.	.	O	punct	O	-1	O
+0	4	131	663	669	S	132	Prince	Prince	Prince	NNP	O	nn	O	-1	B-noun.person
+0	4	132	670	676	S	133	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	I-noun.person
+0	4	133	677	684	S	154	devotes	devotes	devote	VBZ	O	ccomp	O	-1	B-verb.communication
+0	4	134	685	692	S	133	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	4	135	693	695	S	133	to	to	to	TO	O	prep	O	-1	O
+0	4	136	696	704	S	135	avenging	avenging	avenge	VBG	O	pcomp	O	-1	B-verb.competition
+0	4	137	705	708	S	138	his	his	he	PRP$	O	poss	O	-1	O
+0	4	138	709	715		140	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	4	139	715	717	N	138	’s	's	's	POS	O	possessive	O	-1	O
+0	4	140	718	723		136	death	death	death	NN	O	dobj	O	-1	B-noun.event
+0	4	141	723	724	S	133	,	,	,	,	O	punct	O	-1	O
+0	4	142	725	728		133	but	but	but	CC	O	cc	O	-1	O
+0	4	143	728	729	S	133	,	,	,	,	O	punct	O	-1	O
+0	4	144	730	737	S	147	because	because	because	IN	O	mark	O	-1	O
+0	4	145	738	740	S	147	he	he	he	PRP	O	nsubj	O	-1	O
+0	4	146	741	743	S	147	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	147	744	757	S	133	contemplative	contemplative	contemplative	JJ	O	advcl	O	-1	O
+0	4	148	758	761	S	147	and	and	and	CC	O	cc	O	-1	O
+0	4	149	762	772	S	147	thoughtful	thoughtful	thoughtful	JJ	O	conj	O	-1	O
+0	4	150	773	775	S	149	by	by	by	IN	O	prep	O	-1	O
+0	4	151	776	782		150	nature	nature	nature	NN	O	pobj	O	-1	B-noun.attribute
+0	4	152	782	783	N	154	,	,	,	,	O	punct	O	-1	O
+0	4	153	784	786	S	154	he	he	he	PRP	O	nsubj	O	-1	O
+0	4	154	787	793		-1	delays	delays	delay	VBZ	O	null	O	-1	B-verb.change
+0	4	155	793	794	S	154	,	,	,	,	O	punct	O	-1	O
+0	4	156	795	803	S	154	entering	entering	enter	VBG	O	xcomp	O	-1	B-verb.motion
+0	4	157	804	808	S	156	into	into	into	IN	O	prep	O	-1	O
+0	4	158	809	810	S	164	a	a	a	DT	O	det	O	-1	O
+0	4	159	811	815	S	164	deep	deep	deep	JJ	O	amod	O	-1	O
+0	4	160	816	826	S	159	melancholy	melancholy	melancholy	JJ	O	dep	O	-1	O
+0	4	161	827	830	S	159	and	and	and	CC	O	cc	O	-1	O
+0	4	162	831	835	S	163	even	even	even	RB	O	advmod	O	-1	O
+0	4	163	836	844	S	159	apparent	apparent	apparent	JJ	O	conj	O	-1	O
+0	4	164	845	852		157	madness	madness	madness	NN	O	pobj	O	-1	B-noun.state
+0	4	165	852	853	S	154	.	.	.	.	O	punct	O	-1	O
+0	5	166	854	862	N	169	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	5	167	863	866	S	166	and	and	and	CC	O	cc	O	-1	O
+0	5	168	867	875	S	166	Gertrude	Gertrude	Gertrude	NNP	PERSON	conj	O	4	B-noun.person
+0	5	169	876	881	S	-1	worry	worry	worry	VBP	O	null	O	-1	B-verb.emotion
+0	5	170	882	887	S	169	about	about	about	IN	O	prep	O	-1	O
+0	5	171	888	891	S	172	the	the	the	DT	O	det	O	-1	O
+0	5	172	892	898		175	prince	prince	prince	NN	O	poss	O	-1	B-noun.person
+0	5	173	898	900	S	172	’s	's	's	POS	O	possessive	O	-1	O
+0	5	174	901	908	S	175	erratic	erratic	erratic	JJ	O	amod	O	-1	O
+0	5	175	909	917	S	170	behavior	behavior	behavior	NN	O	pobj	O	-1	B-noun.act
+0	5	176	918	921	S	175	and	and	and	CC	O	cc	O	-1	O
+0	5	177	922	929	N	175	attempt	attempt	attempt	NN	O	conj	O	-1	B-noun.act
+0	5	178	930	932	S	179	to	to	to	TO	O	aux	O	-1	O
+0	5	179	933	941	S	177	discover	discover	discover	VB	O	infmod	O	-1	B-verb.perception
+0	5	180	942	945	S	181	its	its	its	PRP$	O	poss	O	-1	O
+0	5	181	946	951		179	cause	cause	cause	NN	O	dobj	O	-1	B-noun.communication
+0	5	182	951	952	S	169	.	.	.	.	O	punct	O	-1	O
+0	6	183	953	957	S	184	They	They	they	PRP	O	nsubj	O	-1	O
+0	6	184	958	964	S	-1	employ	employ	employ	VBP	O	null	O	-1	B-verb.consumption
+0	6	185	965	966	S	186	a	a	a	DT	O	det	O	-1	O
+0	6	186	967	971	S	184	pair	pair	pair	NN	O	dobj	O	-1	B-noun.group
+0	6	187	972	974	S	186	of	of	of	IN	O	prep	O	-1	O
+0	6	188	975	981		190	Hamlet	Hamlet	Hamlet	NNP	PERSON	poss	O	2	B-noun.group
+0	6	189	981	983	S	188	’s	's	's	POS	O	possessive	O	-1	O
+0	6	190	984	991		187	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	6	191	991	992	S	186	,	,	,	,	O	punct	O	-1	O
+0	6	192	993	1004	N	186	Rosencrantz	Rosencrantz	Rosencrantz	NNP	PERSON	appos	O	1	B-noun.person
+0	6	193	1005	1008	S	192	and	and	and	CC	O	cc	O	-1	O
+0	6	194	1009	1021		192	Guildenstern	Guildenstern	Guildenstern	NNP	PERSON	conj	O	-1	O
+0	6	195	1021	1022	S	186	,	,	,	,	O	punct	O	-1	O
+0	6	196	1023	1025	S	197	to	to	to	TO	O	aux	O	-1	O
+0	6	197	1026	1031	S	186	watch	watch	watch	VB	O	infmod	O	-1	B-verb.perception
+0	6	198	1032	1035		197	him	him	he	PRP	O	dobj	O	3	O
+0	6	199	1035	1036	S	184	.	.	.	.	O	punct	O	-1	O
+0	7	200	1037	1041	S	208	When	When	when	WRB	O	advmod	O	-1	O
+0	7	201	1042	1050		208	Polonius	Polonius	Polonius	NNP	MISC	nsubj	O	-1	O
+0	7	202	1050	1051	S	201	,	,	,	,	O	punct	O	-1	O
+0	7	203	1052	1055	S	206	the	the	the	DT	O	det	O	-1	O
+0	7	204	1056	1063	S	206	pompous	pompous	pompous	JJ	O	amod	O	-1	O
+0	7	205	1064	1068	N	206	Lord	Lord	Lord	NNP	PERSON	nn	O	-1	B-noun.person
+0	7	206	1069	1080		201	Chamberlain	Chamberlain	Chamberlain	NNP	PERSON	appos	O	-1	I-noun.person
+0	7	207	1080	1081	S	201	,	,	,	,	O	punct	O	-1	O
+0	7	208	1082	1090	S	-1	suggests	suggests	suggest	VBZ	O	null	O	-1	B-verb.communication
+0	7	209	1091	1095	S	213	that	that	that	IN	O	complm	O	-1	O
+0	7	210	1096	1102	S	213	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	7	211	1103	1106	S	213	may	may	may	MD	O	aux	O	-1	O
+0	7	212	1107	1109	S	213	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	7	213	1110	1113	S	223	mad	mad	mad	JJ	O	advcl	O	-1	O
+0	7	214	1114	1118	S	213	with	with	with	IN	O	prep	O	-1	O
+0	7	215	1119	1123	S	214	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	7	216	1124	1127	S	215	for	for	for	IN	O	prep	O	-1	O
+0	7	217	1128	1131	S	218	his	his	he	PRP$	O	poss	O	-1	O
+0	7	218	1132	1140		216	daughter	daughter	daughter	NN	O	pobj	O	-1	B-noun.person
+0	7	219	1140	1141	N	218	,	,	,	,	O	punct	O	-1	O
+0	7	220	1142	1149		218	Ophelia	Ophelia	Ophelia	NNP	PERSON	appos	O	6	O
+0	7	221	1149	1150	S	223	,	,	,	,	O	punct	O	-1	O
+0	7	222	1151	1159	S	223	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	7	223	1160	1166	S	208	agrees	agrees	agree	VBZ	O	ccomp	O	-1	B-verb.communication
+0	7	224	1167	1169	S	225	to	to	to	TO	O	aux	O	-1	O
+0	7	225	1170	1173	S	223	spy	spy	spy	VB	O	xcomp	O	-1	B-verb.perception
+0	7	226	1174	1176	S	225	on	on	on	IN	O	prep	O	-1	O
+0	7	227	1177	1183	S	226	Hamlet	Hamlet	Hamlet	NNP	O	pobj	O	-1	B-noun.group
+0	7	228	1184	1186	S	225	in	in	in	IN	O	prep	O	-1	O
+0	7	229	1187	1199	S	228	conversation	conversation	conversation	NN	O	pobj	O	-1	B-noun.communication
+0	7	230	1200	1204	S	229	with	with	with	IN	O	prep	O	-1	O
+0	7	231	1205	1208	N	232	the	the	the	DT	O	det	O	-1	O
+0	7	232	1209	1213		230	girl	girl	girl	NN	O	pobj	O	-1	B-noun.person
+0	7	233	1213	1214	S	208	.	.	.	.	O	punct	O	-1	O
+0	8	234	1215	1218	S	244	But	But	but	CC	O	cc	O	-1	O
+0	8	235	1219	1225	S	239	though	though	though	IN	O	mark	O	-1	O
+0	8	236	1226	1232	S	239	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	8	237	1233	1242	S	239	certainly	certainly	certainly	RB	O	advmod	O	-1	O
+0	8	238	1243	1248	S	239	seems	seems	seem	VBZ	O	cop	O	-1	B-verb.perception
+0	8	239	1249	1252		244	mad	mad	mad	JJ	O	dep	O	-1	O
+0	8	240	1252	1253	S	244	,	,	,	,	O	punct	O	-1	O
+0	8	241	1254	1256	S	244	he	he	he	PRP	O	nsubj	O	3	O
+0	8	242	1257	1261	S	244	does	does	do	VBZ	O	aux	O	-1	O
+0	8	243	1262	1265	S	244	not	not	not	RB	O	neg	O	-1	O
+0	8	244	1266	1270	S	-1	seem	seem	seem	VB	O	null	O	-1	B-verb.perception
+0	8	245	1271	1273	N	246	to	to	to	TO	O	aux	O	-1	O
+0	8	246	1274	1278	S	244	love	love	love	VB	O	xcomp	O	-1	B-verb.emotion
+0	8	247	1279	1286		246	Ophelia	Ophelia	Ophelia	NNP	PERSON	dobj	O	6	O
+0	8	248	1286	1287	S	244	:	:	:	:	O	punct	O	-1	O
+0	8	249	1288	1290	S	250	he	he	he	PRP	O	nsubj	O	3	O
+0	8	250	1291	1297	S	244	orders	orders	order	VBZ	O	parataxis	O	-1	B-verb.communication
+0	8	251	1298	1301	S	250	her	her	she	PRP$	O	dobj	O	6	O
+0	8	252	1302	1304	S	253	to	to	to	TO	O	aux	O	-1	O
+0	8	253	1305	1310	S	251	enter	enter	enter	VB	O	xcomp	O	-1	B-verb.motion
+0	8	254	1311	1312	S	255	a	a	a	DT	O	det	O	-1	O
+0	8	255	1313	1320	S	253	nunnery	nunnery	nunnery	NN	O	dobj	O	-1	B-noun.artifact
+0	8	256	1321	1324	S	250	and	and	and	CC	O	cc	O	-1	O
+0	8	257	1325	1333	S	250	declares	declares	declare	VBZ	O	conj	O	-1	B-verb.communication
+0	8	258	1334	1338	N	260	that	that	that	IN	O	complm	O	-1	O
+0	8	259	1339	1341	S	260	he	he	he	PRP	O	nsubj	O	3	O
+0	8	260	1342	1348	S	257	wishes	wishes	wish	VBZ	O	ccomp	O	-1	B-verb.emotion
+0	8	261	1349	1351	S	262	to	to	to	TO	O	aux	O	-1	O
+0	8	262	1352	1355	S	260	ban	ban	ban	VB	O	xcomp	O	-1	B-verb.social
+0	8	263	1356	1365		262	marriages	marriages	marriage	NNS	O	dobj	O	-1	B-noun.group
+0	8	264	1365	1366	S	244	.	.	.	.	O	punct	O	-1	O
+0	9	265	1367	1368	S	266	A	A	a	DT	O	det	O	-1	O
+0	9	266	1369	1374	S	270	group	group	group	NN	O	nsubj	O	-1	B-noun.group
+0	9	267	1375	1377	S	266	of	of	of	IN	O	prep	O	-1	O
+0	9	268	1378	1387	S	267	traveling	traveling	travel	VBG	O	pcomp	O	-1	B-verb.motion
+0	9	269	1388	1394	S	268	actors	actors	actor	NNS	O	dobj	O	-1	B-noun.person
+0	9	270	1395	1400	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	9	271	1401	1403	S	270	to	to	to	TO	O	prep	O	-1	O
+0	9	272	1404	1412		271	Elsinore	Elsinore	Elsinore	NNP	LOCATION	pobj	O	-1	O
+0	9	273	1412	1413	S	270	,	,	,	,	O	punct	O	-1	O
+0	9	274	1414	1417	S	270	and	and	and	CC	O	cc	O	-1	O
+0	9	275	1418	1424	N	276	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	9	276	1425	1431	S	270	seizes	seizes	seize	VBZ	O	conj	O	-1	B-verb.contact
+0	9	277	1432	1436	S	276	upon	upon	upon	IN	O	prep	O	-1	O
+0	9	278	1437	1439	S	279	an	an	a	DT	O	det	O	-1	O
+0	9	279	1440	1444	S	277	idea	idea	idea	NN	O	pobj	O	-1	B-noun.cognition
+0	9	280	1445	1447	S	281	to	to	to	TO	O	aux	O	-1	O
+0	9	281	1448	1452	S	279	test	test	test	VB	O	infmod	O	-1	B-verb.social
+0	9	282	1453	1456	S	283	his	his	he	PRP$	O	poss	O	3	O
+0	9	283	1457	1462		285	uncle	uncle	uncle	NN	O	poss	O	-1	B-noun.person
+0	9	284	1462	1464	S	283	’s	's	's	POS	O	possessive	O	-1	O
+0	9	285	1465	1470		281	guilt	guilt	guilt	NN	O	dobj	O	-1	B-noun.state
+0	9	286	1470	1471	S	270	.	.	.	.	O	punct	O	-1	O
+0	10	287	1472	1474	S	289	He	He	he	PRP	O	nsubj	O	3	O
+0	10	288	1475	1479	S	289	will	will	will	MD	O	aux	O	-1	O
+0	10	289	1480	1484	S	321	have	have	have	VB	O	ccomp	O	-1	B-verb.possession
+0	10	290	1485	1488	N	291	the	the	the	DT	O	det	O	-1	O
+0	10	291	1489	1496	S	292	players	players	player	NNS	O	nsubj	O	-1	B-noun.person
+0	10	292	1497	1504	S	289	perform	perform	perform	VBP	O	ccomp	O	-1	B-verb.creation
+0	10	293	1505	1506	S	294	a	a	a	DT	O	det	O	-1	O
+0	10	294	1507	1512	S	292	scene	scene	scene	NN	O	dobj	O	-1	B-noun.communication
+0	10	295	1513	1520	S	296	closely	closely	closely	RB	O	advmod	O	-1	O
+0	10	296	1521	1531	S	294	resembling	resembling	resemble	VBG	O	partmod	O	-1	B-verb.stative
+0	10	297	1532	1535	S	298	the	the	the	DT	O	det	O	-1	O
+0	10	298	1536	1544	S	296	sequence	sequence	sequence	NN	O	dobj	O	-1	B-noun.group
+0	10	299	1545	1547	S	302	by	by	by	IN	O	rel	O	-1	O
+0	10	300	1548	1553	N	299	which	which	which	WDT	O	pobj	O	-1	O
+0	10	301	1554	1560	S	302	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	10	302	1561	1569	S	298	imagines	imagines	imagine	VBZ	O	rcmod	O	-1	B-verb.creation
+0	10	303	1570	1573	S	304	his	his	he	PRP$	O	poss	O	3	O
+0	10	304	1574	1579	S	302	uncle	uncle	uncle	NN	O	dobj	O	-1	B-noun.person
+0	10	305	1580	1582	S	307	to	to	to	TO	O	aux	O	-1	O
+0	10	306	1583	1587	S	307	have	have	have	VB	O	aux	O	-1	O
+0	10	307	1588	1596	S	304	murdered	murdered	murder	VBN	O	infmod	O	-1	B-verb.social
+0	10	308	1597	1600	S	309	his	his	he	PRP$	O	poss	O	3	O
+0	10	309	1601	1607		307	father	father	father	NN	O	dobj	O	-1	B-noun.person
+0	10	310	1607	1608	S	289	,	,	,	,	O	punct	O	-1	O
+0	10	311	1609	1611	S	316	so	so	so	RB	O	advmod	O	-1	O
+0	10	312	1612	1616	S	316	that	that	that	IN	O	dep	O	-1	O
+0	10	313	1617	1619	N	316	if	if	if	IN	O	mark	O	-1	O
+0	10	314	1620	1628	S	316	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	10	315	1629	1631	S	316	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	10	316	1632	1638		289	guilty	guilty	guilty	JJ	O	dep	O	-1	O
+0	10	317	1638	1639	S	321	,	,	,	,	O	punct	O	-1	O
+0	10	318	1640	1642	S	321	he	he	he	PRP	O	nsubj	O	3	O
+0	10	319	1643	1647	S	321	will	will	will	MD	O	aux	O	-1	O
+0	10	320	1648	1654	S	321	surely	surely	surely	RB	O	advmod	O	-1	O
+0	10	321	1655	1660		-1	react	react	react	VB	O	null	O	-1	B-verb.cognition
+0	10	322	1660	1661	S	321	.	.	.	.	O	punct	O	-1	O
+0	11	323	1662	1666	S	329	When	When	when	WRB	O	advmod	O	-1	O
+0	11	324	1667	1670	S	325	the	the	the	DT	O	det	O	-1	O
+0	11	325	1671	1677	S	329	moment	moment	moment	NN	O	nsubj	O	-1	B-noun.time
+0	11	326	1678	1680	S	325	of	of	of	IN	O	prep	O	-1	O
+0	11	327	1681	1684	N	328	the	the	the	DT	O	det	O	-1	O
+0	11	328	1685	1691	S	326	murder	murder	murder	NN	O	pobj	O	-1	B-noun.act
+0	11	329	1692	1699	S	335	arrives	arrives	arrive	VBZ	O	dep	O	-1	B-verb.motion
+0	11	330	1700	1702	S	329	in	in	in	IN	O	prep	O	-1	O
+0	11	331	1703	1706	S	332	the	the	the	DT	O	det	O	-1	O
+0	11	332	1707	1714		330	theater	theater	theater	NN	O	pobj	O	-1	B-noun.artifact
+0	11	333	1714	1715	S	335	,	,	,	,	O	punct	O	-1	O
+0	11	334	1716	1724	S	335	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	11	335	1725	1730	S	-1	leaps	leaps	leap	VBZ	O	null	O	-1	B-verb.motion
+0	11	336	1731	1733	S	335	up	up	up	RP	O	prt	O	-1	O
+0	11	337	1734	1737	S	335	and	and	and	CC	O	cc	O	-1	O
+0	11	338	1738	1744	S	335	leaves	leaves	leave	VBZ	O	conj	O	-1	B-verb.motion
+0	11	339	1745	1748	N	340	the	the	the	DT	O	det	O	-1	O
+0	11	340	1749	1753		338	room	room	room	NN	O	dobj	O	-1	B-noun.artifact
+0	11	341	1753	1754	S	335	.	.	.	.	O	punct	O	-1	O
+0	12	342	1755	1761	S	345	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	12	343	1762	1765	S	342	and	and	and	CC	O	cc	O	-1	O
+0	12	344	1766	1773	S	342	Horatio	Horatio	Horatio	NNP	PERSON	conj	O	0	B-noun.person
+0	12	345	1774	1779	S	-1	agree	agree	agree	VBP	O	null	O	-1	B-verb.communication
+0	12	346	1780	1784	S	348	that	that	that	IN	O	complm	O	-1	O
+0	12	347	1785	1789	S	348	this	this	this	DT	O	nsubj	O	-1	O
+0	12	348	1790	1796	S	345	proves	proves	prove	VBZ	O	ccomp	O	-1	B-verb.stative
+0	12	349	1797	1800	S	350	his	his	he	PRP$	O	poss	O	0	O
+0	12	350	1801	1806		348	guilt	guilt	guilt	NN	O	dobj	O	-1	B-noun.state
+0	12	351	1806	1807	S	345	.	.	.	.	O	punct	O	-1	O
+0	13	352	1808	1814	N	353	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	13	353	1815	1819	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.stative
+0	13	354	1820	1822	S	355	to	to	to	TO	O	aux	O	-1	O
+0	13	355	1823	1827	S	353	kill	kill	kill	VB	O	xcomp	O	-1	B-verb.contact
+0	13	356	1828	1836	S	355	Claudius	Claudius	Claudius	NNP	PERSON	dobj	O	3	B-noun.person
+0	13	357	1837	1840	S	353	but	but	but	CC	O	cc	O	-1	O
+0	13	358	1841	1846	S	360	finds	finds	find	VBZ	O	aux	O	-1	B-verb.perception
+0	13	359	1847	1850	S	360	him	him	he	PRP	O	nsubj	O	3	O
+0	13	360	1851	1858		353	praying	praying	pray	VBG	O	conj	O	-1	B-verb.communication
+0	13	361	1858	1859	S	353	.	.	.	.	O	punct	O	-1	O
+0	14	362	1860	1865	S	364	Since	Since	since	IN	O	mark	O	-1	O
+0	14	363	1866	1868	S	364	he	he	he	PRP	O	nsubj	O	3	O
+0	14	364	1869	1877	S	380	believes	believes	believe	VBZ	O	advcl	O	-1	B-verb.cognition
+0	14	365	1878	1882	N	372	that	that	that	IN	O	complm	O	-1	O
+0	14	366	1883	1890	S	372	killing	killing	kill	VBG	O	csubj	O	-1	B-verb.contact
+0	14	367	1891	1899	S	366	Claudius	Claudius	Claudius	NNP	PERSON	dobj	O	3	B-noun.person
+0	14	368	1900	1905	S	366	while	while	while	IN	O	prep	O	-1	O
+0	14	369	1906	1908	S	368	in	in	in	IN	O	dep	O	-1	O
+0	14	370	1909	1915	S	369	prayer	prayer	prayer	NN	O	pobj	O	-1	B-noun.act
+0	14	371	1916	1921	S	372	would	would	would	MD	O	aux	O	-1	O
+0	14	372	1922	1926	S	364	send	send	send	VB	O	ccomp	O	-1	B-verb.motion
+0	14	373	1927	1935		375	Claudius	Claudius	Claudius	NNP	PERSON	poss	O	3	B-noun.person
+0	14	374	1935	1937	S	373	’s	's	's	POS	O	possessive	O	-1	O
+0	14	375	1938	1942	S	372	soul	soul	soul	NN	O	dobj	O	-1	B-noun.person
+0	14	376	1943	1945	S	372	to	to	to	TO	O	prep	O	-1	O
+0	14	377	1946	1952		376	heaven	heaven	heaven	NN	O	pobj	O	-1	B-noun.location
+0	14	378	1952	1953	N	380	,	,	,	,	O	punct	O	-1	O
+0	14	379	1954	1960	S	380	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	14	380	1961	1970	S	-1	considers	considers	consider	VBZ	O	null	O	-1	B-verb.cognition
+0	14	381	1971	1975	S	387	that	that	that	IN	O	complm	O	-1	O
+0	14	382	1976	1978	S	387	it	it	it	PRP	O	nsubj	O	-1	O
+0	14	383	1979	1984	S	387	would	would	would	MD	O	aux	O	-1	O
+0	14	384	1985	1987	S	387	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	14	385	1988	1990	S	387	an	an	a	DT	O	det	O	-1	O
+0	14	386	1991	2001	S	387	inadequate	inadequate	inadequate	JJ	O	amod	O	-1	O
+0	14	387	2002	2009	S	380	revenge	revenge	revenge	NN	O	ccomp	O	-1	B-noun.act
+0	14	388	2010	2013	S	387	and	and	and	CC	O	cc	O	-1	O
+0	14	389	2014	2021	N	387	decides	decides	decide	VBZ	O	conj	O	-1	B-verb.cognition
+0	14	390	2022	2024	S	391	to	to	to	TO	O	aux	O	-1	O
+0	14	391	2025	2029		389	wait	wait	wait	VB	O	xcomp	O	-1	B-verb.stative
+0	14	392	2029	2030	S	380	.	.	.	.	O	punct	O	-1	O
+0	15	393	2031	2039		408	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	15	394	2039	2040	S	393	,	,	,	,	O	punct	O	-1	O
+0	15	395	2041	2044	S	396	now	now	now	RB	DATE	advmod	O	-1	O
+0	15	396	2045	2055	S	393	frightened	frightened	frighten	VBN	O	partmod	O	-1	B-verb.emotion
+0	15	397	2056	2058	S	396	of	of	of	IN	O	prep	O	-1	O
+0	15	398	2059	2065		400	Hamlet	Hamlet	Hamlet	NNP	PERSON	poss	O	2	B-noun.group
+0	15	399	2065	2067	S	398	’s	's	's	POS	O	possessive	O	-1	O
+0	15	400	2068	2075	S	397	madness	madness	madness	NN	O	pobj	O	-1	B-noun.state
+0	15	401	2076	2079	S	393	and	and	and	CC	O	cc	O	-1	O
+0	15	402	2080	2087	N	393	fearing	fearing	fear	VBG	O	conj	O	-1	B-verb.emotion
+0	15	403	2088	2091	S	402	for	for	for	IN	O	prep	O	-1	O
+0	15	404	2092	2095	S	406	his	his	he	PRP$	O	poss	O	3	O
+0	15	405	2096	2099	S	406	own	own	own	JJ	O	amod	O	-1	O
+0	15	406	2100	2106		403	safety	safety	safety	NN	O	pobj	O	-1	B-noun.state
+0	15	407	2106	2107	S	393	,	,	,	,	O	punct	O	-1	O
+0	15	408	2108	2114	S	-1	orders	orders	order	NNS	O	null	O	-1	B-noun.communication
+0	15	409	2115	2119	S	412	that	that	that	WDT	O	dobj	O	-1	O
+0	15	410	2120	2126	S	412	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubjpass	O	2	B-noun.group
+0	15	411	2127	2129	S	412	be	be	be	VB	O	auxpass	O	-1	O
+0	15	412	2130	2134	S	408	sent	sent	send	VBN	O	rcmod	O	-1	B-verb.motion
+0	15	413	2135	2137	S	412	to	to	to	TO	O	prep	O	-1	O
+0	15	414	2138	2145	S	413	England	England	England	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	15	415	2146	2148	S	412	at	at	at	IN	O	prep	O	-1	O
+0	15	416	2149	2153		415	once	once	once	RB	DATE	pobj	O	-1	O
+0	15	417	2153	2154	S	408	.	.	.	.	O	punct	O	-1	O
+0	16	418	2155	2161	S	419	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	16	419	2162	2166	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.stative
+0	16	420	2167	2169	S	421	to	to	to	TO	O	aux	O	-1	O
+0	16	421	2170	2178	S	419	confront	confront	confront	VB	O	xcomp	O	-1	B-verb.competition
+0	16	422	2179	2182	S	423	his	his	he	PRP$	O	poss	O	3	O
+0	16	423	2183	2189		421	mother	mother	mother	NN	O	dobj	O	-1	B-noun.person
+0	16	424	2189	2190	S	421	,	,	,	,	O	punct	O	-1	O
+0	16	425	2191	2193	S	421	in	in	in	IN	O	prep	O	-1	O
+0	16	426	2194	2199	S	427	whose	whose	whose	WP$	O	poss	O	-1	O
+0	16	427	2200	2210	N	425	bedchamber	bedchamber	bedchamber	NN	O	pobj	O	-1	B-noun.artifact
+0	16	428	2211	2219	S	430	Polonius	Polonius	Polonius	NNP	MISC	nsubj	O	-1	B-noun.person
+0	16	429	2220	2223	S	430	has	has	have	VBZ	O	aux	O	-1	O
+0	16	430	2224	2230	S	427	hidden	hidden	hide	VBN	O	rcmod	O	-1	B-verb.perception
+0	16	431	2231	2237	S	430	behind	behind	behind	IN	O	prep	O	-1	O
+0	16	432	2238	2239	S	433	a	a	a	DT	O	det	O	-1	O
+0	16	433	2240	2248		431	tapestry	tapestry	tapestry	NN	O	pobj	O	-1	B-noun.attribute
+0	16	434	2248	2249	S	419	.	.	.	.	O	punct	O	-1	O
+0	17	435	2250	2257	S	444	Hearing	Hearing	hear	VBG	O	dep	O	-1	B-verb.perception
+0	17	436	2258	2259	S	437	a	a	a	DT	O	det	O	-1	O
+0	17	437	2260	2265	S	435	noise	noise	noise	NN	O	dobj	O	-1	B-noun.event
+0	17	438	2266	2270	S	435	from	from	from	IN	O	prep	O	-1	O
+0	17	439	2271	2277	N	438	behind	behind	behind	IN	O	dep	O	-1	O
+0	17	440	2278	2281	S	441	the	the	the	DT	O	det	O	-1	O
+0	17	441	2282	2290		439	tapestry	tapestry	tapestry	NN	O	pobj	O	-1	B-noun.attribute
+0	17	442	2290	2291	S	444	,	,	,	,	O	punct	O	-1	O
+0	17	443	2292	2298	S	444	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	17	444	2299	2307	S	-1	believes	believes	believe	VBZ	O	null	O	-1	B-verb.cognition
+0	17	445	2308	2311	S	446	the	the	the	DT	O	det	O	-1	O
+0	17	446	2312	2316	S	448	king	king	king	NN	O	nsubj	O	-1	B-noun.person
+0	17	447	2317	2319	S	448	is	is	be	VBZ	O	aux	O	-1	O
+0	17	448	2320	2326	S	444	hiding	hiding	hide	VBG	O	ccomp	O	-1	B-verb.perception
+0	17	449	2327	2332		448	there	there	there	RB	O	advmod	O	-1	O
+0	17	450	2332	2333	S	444	.	.	.	.	O	punct	O	-1	O
+0	18	451	2334	2336	S	452	He	He	he	PRP	O	nsubj	O	-1	O
+0	18	452	2337	2342	N	-1	draws	draws	draw	VBZ	O	null	O	-1	B-verb.contact
+0	18	453	2343	2346	S	454	his	his	he	PRP$	O	poss	O	-1	O
+0	18	454	2347	2352	S	452	sword	sword	sword	NN	O	dobj	O	-1	B-noun.artifact
+0	18	455	2353	2356	S	452	and	and	and	CC	O	cc	O	-1	O
+0	18	456	2357	2362	S	452	stabs	stabs	stab	VBZ	O	conj	O	-1	B-verb.contact
+0	18	457	2363	2370	S	456	through	through	through	IN	O	prep	O	-1	O
+0	18	458	2371	2374	S	459	the	the	the	DT	O	det	O	-1	O
+0	18	459	2375	2381		457	fabric	fabric	fabric	NN	O	pobj	O	-1	B-noun.artifact
+0	18	460	2381	2382	S	452	,	,	,	,	O	punct	O	-1	O
+0	18	461	2383	2390	S	452	killing	killing	kill	VBG	O	xcomp	O	-1	B-verb.contact
+0	18	462	2391	2399		461	Polonius	Polonius	Polonius	NNP	MISC	dobj	O	-1	O
+0	18	463	2399	2400	S	452	.	.	.	.	O	punct	O	-1	O
+0	19	464	2401	2404	N	471	For	For	for	IN	O	prep	O	-1	O
+0	19	465	2405	2409	S	466	this	this	this	DT	O	det	O	-1	O
+0	19	466	2410	2415		464	crime	crime	crime	NN	O	pobj	O	-1	B-noun.act
+0	19	467	2415	2416	S	471	,	,	,	,	O	punct	O	-1	O
+0	19	468	2417	2419	S	471	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	19	469	2420	2422	S	471	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	19	470	2423	2434	S	471	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	19	471	2435	2445	S	-1	dispatched	dispatched	dispatch	VBN	O	null	O	-1	B-verb.motion
+0	19	472	2446	2448	S	471	to	to	to	TO	O	prep	O	-1	O
+0	19	473	2449	2456	S	472	England	England	England	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	19	474	2457	2461	S	471	with	with	with	IN	O	prep	O	-1	O
+0	19	475	2462	2473	N	474	Rosencrantz	Rosencrantz	Rosencrantz	NNP	PERSON	pobj	O	1	B-noun.person
+0	19	476	2474	2477	S	475	and	and	and	CC	O	cc	O	-1	O
+0	19	477	2478	2490		475	Guildenstern	Guildenstern	Guildenstern	NNP	MISC	conj	O	-1	O
+0	19	478	2490	2491	S	471	.	.	.	.	O	punct	O	-1	O
+0	20	479	2492	2499		486	However	However	however	RB	O	advmod	O	-1	O
+0	20	480	2499	2500	S	486	,	,	,	,	O	punct	O	-1	O
+0	20	481	2501	2509		483	Claudius	Claudius	Claudius	NNP	PERSON	poss	O	3	B-noun.person
+0	20	482	2509	2511	S	481	’s	's	's	POS	O	possessive	O	-1	O
+0	20	483	2512	2516	S	486	plan	plan	plan	NN	O	nsubj	O	-1	B-noun.cognition
+0	20	484	2517	2520	S	483	for	for	for	IN	O	prep	O	-1	O
+0	20	485	2521	2527	S	484	Hamlet	Hamlet	Hamlet	NNP	PERSON	pobj	O	2	B-noun.group
+0	20	486	2528	2536	S	494	includes	includes	include	VBZ	O	advcl	O	-1	B-verb.stative
+0	20	487	2537	2541	N	486	more	more	more	JJR	O	dobj	O	-1	O
+0	20	488	2542	2546	S	487	than	than	than	IN	O	prep	O	-1	O
+0	20	489	2547	2557		488	banishment	banishment	banishment	NN	O	pobj	O	-1	B-noun.state
+0	20	490	2557	2558	S	494	,	,	,	,	O	punct	O	-1	O
+0	20	491	2559	2561	S	494	as	as	as	IN	O	mark	O	-1	O
+0	20	492	2562	2564	S	494	he	he	he	PRP	O	nsubj	O	3	O
+0	20	493	2565	2568	S	494	has	has	have	VBZ	O	aux	O	-1	O
+0	20	494	2569	2574	S	-1	given	given	give	VBN	O	null	O	-1	B-verb.possession
+0	20	495	2575	2586	S	498	Rosencrantz	Rosencrantz	Rosencrantz	NNP	PERSON	nsubj	O	1	B-noun.person
+0	20	496	2587	2590	S	495	and	and	and	CC	O	cc	O	-1	O
+0	20	497	2591	2603	S	495	Guildenstern	Guildenstern	Guildenstern	NNP	MISC	conj	O	-1	B-noun.person
+0	20	498	2604	2610	S	494	sealed	sealed	seal	VBN	O	ccomp	O	-1	B-verb.contact
+0	20	499	2611	2617	N	498	orders	orders	order	NNS	O	dobj	O	-1	B-noun.communication
+0	20	500	2618	2621	S	499	for	for	for	IN	O	prep	O	-1	O
+0	20	501	2622	2625	S	502	the	the	the	DT	O	det	O	-1	O
+0	20	502	2626	2630	S	500	King	King	King	NNP	O	pobj	O	-1	B-noun.person
+0	20	503	2631	2633	S	502	of	of	of	IN	O	prep	O	-1	O
+0	20	504	2634	2641	S	503	England	England	England	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	20	505	2642	2651	S	499	demanding	demanding	demand	VBG	O	partmod	O	-1	B-verb.communication
+0	20	506	2652	2656	S	509	that	that	that	IN	O	complm	O	-1	O
+0	20	507	2657	2663	S	509	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubjpass	O	2	B-noun.group
+0	20	508	2664	2666	S	509	be	be	be	VB	O	auxpass	O	-1	O
+0	20	509	2667	2670	S	505	put	put	put	VBN	O	ccomp	O	-1	B-verb.social
+0	20	510	2671	2673	S	509	to	to	to	TO	O	prep	O	-1	O
+0	20	511	2674	2679		510	death	death	death	NN	O	pobj	O	-1	B-noun.phenomenon
+0	20	512	2679	2680	S	494	.	.	.	.	O	punct	O	-1	O
+0	21	513	2681	2683	S	523	In	In	in	IN	O	prep	O	-1	O
+0	21	514	2684	2687	S	515	the	the	the	DT	O	det	O	-1	O
+0	21	515	2688	2697	S	513	aftermath	aftermath	aftermath	NN	O	pobj	O	-1	B-noun.phenomenon
+0	21	516	2698	2700	S	515	of	of	of	IN	O	prep	O	-1	O
+0	21	517	2701	2704	S	518	her	her	she	PRP$	O	poss	O	-1	O
+0	21	518	2705	2711		520	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	21	519	2711	2713	S	518	’s	's	's	POS	O	possessive	O	-1	O
+0	21	520	2714	2719		516	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	21	521	2719	2720	S	523	,	,	,	,	O	punct	O	-1	O
+0	21	522	2721	2728	S	523	Ophelia	Ophelia	Ophelia	NNP	PERSON	nsubj	O	6	O
+0	21	523	2729	2733	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.change
+0	21	524	2734	2737	N	523	mad	mad	mad	JJ	O	acomp	O	-1	O
+0	21	525	2738	2742	S	524	with	with	with	IN	O	prep	O	-1	O
+0	21	526	2743	2748	S	525	grief	grief	grief	NN	O	pobj	O	-1	B-noun.feeling
+0	21	527	2749	2752	S	526	and	and	and	CC	O	cc	O	-1	O
+0	21	528	2753	2759	S	526	drowns	drowns	drown	NNS	O	conj	O	-1	B-noun.person
+0	21	529	2760	2762	S	526	in	in	in	IN	O	prep	O	-1	O
+0	21	530	2763	2766	S	531	the	the	the	DT	O	det	O	-1	O
+0	21	531	2767	2772		529	river	river	river	NN	O	pobj	O	-1	B-noun.object
+0	21	532	2772	2773	S	523	.	.	.	.	O	punct	O	-1	O
+0	22	533	2774	2782		535	Polonius	Polonius	Polonius	NNP	O	poss	O	-1	B-noun.person
+0	22	534	2782	2784	S	533	’s	's	's	POS	O	possessive	O	-1	O
+0	22	535	2785	2788		546	son	son	son	NN	O	nsubj	O	-1	B-noun.person
+0	22	536	2788	2789	S	535	,	,	,	,	O	punct	O	-1	O
+0	22	537	2790	2797		535	Laertes	Laertes	Laertes	NNP	ORGANIZATION	appos	O	5	O
+0	22	538	2797	2798	S	535	,	,	,	,	O	punct	O	-1	O
+0	22	539	2799	2802	N	542	who	who	who	WP	O	nsubj	O	-1	O
+0	22	540	2803	2806	S	542	has	has	have	VBZ	O	aux	O	-1	O
+0	22	541	2807	2811	S	542	been	been	be	VBN	O	aux	O	-1	O
+0	22	542	2812	2819	S	535	staying	staying	stay	VBG	O	rcmod	O	-1	B-verb.change
+0	22	543	2820	2822	S	542	in	in	in	IN	O	prep	O	-1	O
+0	22	544	2823	2829		543	France	France	France	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	22	545	2829	2830	S	535	,	,	,	,	O	punct	O	-1	O
+0	22	546	2831	2838	S	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	22	547	2839	2841	S	546	to	to	to	TO	O	prep	O	-1	O
+0	22	548	2842	2849	S	547	Denmark	Denmark	Denmark	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	22	549	2850	2852	S	546	in	in	in	IN	O	prep	O	-1	O
+0	22	550	2853	2854	S	551	a	a	a	DT	O	det	O	-1	O
+0	22	551	2855	2859		549	rage	rage	rage	NN	O	pobj	O	-1	B-noun.feeling
+0	22	552	2859	2860	S	546	.	.	.	.	O	punct	O	-1	O
+0	23	553	2861	2869	N	554	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	23	554	2870	2879	S	-1	convinces	convinces	convince	VBZ	O	null	O	-1	B-verb.communication
+0	23	555	2880	2883	S	554	him	him	he	PRP	O	dobj	O	3	O
+0	23	556	2884	2888	S	558	that	that	that	IN	O	complm	O	-1	O
+0	23	557	2889	2895	S	558	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	23	558	2896	2898	S	554	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	23	559	2899	2901	S	560	to	to	to	TO	O	aux	O	-1	O
+0	23	560	2902	2907	S	558	blame	blame	blame	VB	O	xcomp	O	-1	B-verb.communication
+0	23	561	2908	2911	S	560	for	for	for	IN	O	prep	O	-1	O
+0	23	562	2912	2915	S	563	his	his	he	PRP$	O	poss	O	3	O
+0	23	563	2916	2922		561	father	father	father	NN	O	pobj	O	-1	B-noun.person
+0	23	564	2922	2924	S	563	’s	's	's	POS	O	possessive	O	-1	O
+0	23	565	2925	2928	S	563	and	and	and	CC	O	cc	O	-1	O
+0	23	566	2929	2935		568	sister	sister	sister	NN	O	poss	O	-1	B-noun.person
+0	23	567	2935	2937	N	566	’s	's	's	POS	O	possessive	O	-1	O
+0	23	568	2938	2944		563	deaths	deaths	death	NNS	O	conj	O	-1	B-noun.event
+0	23	569	2944	2945	S	554	.	.	.	.	O	punct	O	-1	O
+0	24	570	2946	2950	S	575	When	When	when	WRB	O	advmod	O	-1	O
+0	24	571	2951	2958	S	575	Horatio	Horatio	Horatio	NNP	PERSON	nsubj	O	0	B-noun.person
+0	24	572	2959	2962	S	571	and	and	and	CC	O	cc	O	-1	O
+0	24	573	2963	2966	S	574	the	the	the	DT	O	det	O	-1	O
+0	24	574	2967	2971	S	571	king	king	king	NN	O	conj	O	-1	B-noun.person
+0	24	575	2972	2979	S	598	receive	receive	receive	VBP	O	dep	O	-1	B-verb.possession
+0	24	576	2980	2987	S	575	letters	letters	letter	NNS	O	dobj	O	-1	B-noun.communication
+0	24	577	2988	2992	S	575	from	from	from	IN	O	prep	O	-1	O
+0	24	578	2993	2999	S	577	Hamlet	Hamlet	Hamlet	NNP	ORGANIZATION	pobj	O	2	B-noun.group
+0	24	579	3000	3010	S	575	indicating	indicating	indicate	VBG	O	xcomp	O	-1	B-verb.communication
+0	24	580	3011	3015	N	584	that	that	that	IN	O	complm	O	-1	O
+0	24	581	3016	3019	S	582	the	the	the	DT	O	det	O	-1	O
+0	24	582	3020	3026	S	584	prince	prince	prince	NN	O	nsubj	O	-1	B-noun.person
+0	24	583	3027	3030	S	584	has	has	have	VBZ	O	aux	O	-1	O
+0	24	584	3031	3039	S	579	returned	returned	return	VBN	O	ccomp	O	-1	B-verb.motion
+0	24	585	3040	3042	S	584	to	to	to	TO	O	prep	O	-1	O
+0	24	586	3043	3050	S	585	Denmark	Denmark	Denmark	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	24	587	3051	3056	S	589	after	after	after	IN	O	mark	O	-1	O
+0	24	588	3057	3064	S	589	pirates	pirates	pirate	NNS	O	nsubj	O	-1	B-noun.person
+0	24	589	3065	3073	S	584	attacked	attacked	attack	VBN	O	advcl	O	-1	B-verb.competition
+0	24	590	3074	3077	S	591	his	his	he	PRP$	O	poss	O	-1	O
+0	24	591	3078	3082	N	589	ship	ship	ship	NN	O	dobj	O	-1	B-noun.artifact
+0	24	592	3083	3085	S	589	en	en	en	IN	O	prep	O	-1	O
+0	24	593	3086	3091	S	592	route	route	route	NN	O	pobj	O	-1	B-noun.location
+0	24	594	3092	3094	S	593	to	to	to	TO	O	prep	O	-1	O
+0	24	595	3095	3102		594	England	England	England	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	24	596	3102	3103	S	598	,	,	,	,	O	punct	O	-1	O
+0	24	597	3104	3112	S	598	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	24	598	3113	3121	S	-1	concocts	concocts	concoct	VBZ	O	null	O	-1	B-verb.contact
+0	24	599	3122	3123	S	600	a	a	a	DT	O	det	O	-1	O
+0	24	600	3124	3128	S	598	plan	plan	plan	NN	O	dobj	O	-1	B-noun.cognition
+0	24	601	3129	3131	S	602	to	to	to	TO	O	aux	O	-1	O
+0	24	602	3132	3135	S	600	use	use	use	VB	O	infmod	O	-1	B-verb.consumption
+0	24	603	3136	3143		605	Laertes	Laertes	Laertes	NNP	ORGANIZATION	poss	O	5	B-noun.person
+0	24	604	3143	3144	S	603	’	'	'	POS	O	possessive	O	-1	O
+0	24	605	3145	3151	N	602	desire	desire	desire	NN	O	dobj	O	-1	B-noun.feeling
+0	24	606	3152	3155	S	602	for	for	for	IN	O	prep	O	-1	O
+0	24	607	3156	3163	S	606	revenge	revenge	revenge	NN	O	pobj	O	-1	B-noun.act
+0	24	608	3164	3166	S	609	to	to	to	TO	O	aux	O	-1	O
+0	24	609	3167	3173	S	602	secure	secure	secure	VB	O	xcomp	O	-1	B-verb.possession
+0	24	610	3174	3180		612	Hamlet	Hamlet	Hamlet	NNP	PERSON	poss	O	2	B-noun.group
+0	24	611	3180	3182	S	610	’s	's	's	POS	O	possessive	O	-1	O
+0	24	612	3183	3188		609	death	death	death	NN	O	dobj	O	-1	B-noun.event
+0	24	613	3188	3189	S	598	.	.	.	.	O	punct	O	-1	O
+0	25	614	3190	3197	S	616	Laertes	Laertes	Laertes	NNP	ORGANIZATION	nsubj	O	5	B-noun.person
+0	25	615	3198	3202	S	616	will	will	will	MD	O	aux	O	-1	O
+0	25	616	3203	3208	S	-1	fence	fence	fence	NN	O	null	O	-1	B-noun.artifact
+0	25	617	3209	3213	S	616	with	with	with	IN	O	prep	O	-1	O
+0	25	618	3214	3220	N	617	Hamlet	Hamlet	Hamlet	NNP	PERSON	pobj	O	2	B-noun.group
+0	25	619	3221	3223	S	616	in	in	in	IN	O	prep	O	-1	O
+0	25	620	3224	3232	S	621	innocent	innocent	innocent	JJ	O	amod	O	-1	O
+0	25	621	3233	3238		619	sport	sport	sport	NN	O	pobj	O	-1	B-noun.act
+0	25	622	3238	3239	S	616	,	,	,	,	O	punct	O	-1	O
+0	25	623	3240	3243	S	616	but	but	but	CC	O	cc	O	-1	O
+0	25	624	3244	3252	S	626	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	25	625	3253	3257	S	626	will	will	will	MD	O	aux	O	-1	O
+0	25	626	3258	3264	S	616	poison	poison	poison	NN	O	conj	O	-1	B-noun.substance
+0	25	627	3265	3272		629	Laertes	Laertes	Laertes	NNP	ORGANIZATION	poss	O	5	B-noun.person
+0	25	628	3272	3273	S	627	’	'	'	POS	O	possessive	O	-1	O
+0	25	629	3274	3279	S	626	blade	blade	blade	NN	O	dobj	O	-1	B-noun.plant
+0	25	630	3280	3282	S	639	so	so	so	IN	O	mark	O	-1	O
+0	25	631	3283	3287	N	639	that	that	that	IN	O	dep	O	-1	O
+0	25	632	3288	3290	S	634	if	if	if	IN	O	mark	O	-1	O
+0	25	633	3291	3293	S	634	he	he	he	PRP	O	nsubj	O	3	O
+0	25	634	3294	3299	S	639	draws	draws	draw	VBZ	O	advcl	O	-1	B-verb.contact
+0	25	635	3300	3305		634	blood	blood	blood	NN	O	dobj	O	-1	B-noun.body
+0	25	636	3305	3306	S	639	,	,	,	,	O	punct	O	-1	O
+0	25	637	3307	3313	S	639	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	25	638	3314	3318	S	639	will	will	will	MD	O	aux	O	-1	O
+0	25	639	3319	3322		626	die	die	die	VB	O	advcl	O	-1	B-verb.change
+0	25	640	3322	3323	S	616	.	.	.	.	O	punct	O	-1	O
+0	26	641	3324	3326	S	648	As	As	as	IN	O	prep	O	-1	O
+0	26	642	3327	3328	S	644	a	a	a	DT	O	det	O	-1	O
+0	26	643	3329	3335	S	644	backup	backup	backup	NN	O	nn	O	-1	B-noun.process
+0	26	644	3336	3340		641	plan	plan	plan	NN	O	pobj	O	-1	B-noun.cognition
+0	26	645	3340	3341	S	648	,	,	,	,	O	punct	O	-1	O
+0	26	646	3342	3345	S	647	the	the	the	DT	O	det	O	-1	O
+0	26	647	3346	3350	S	648	king	king	king	NN	O	nsubj	O	-1	B-noun.person
+0	26	648	3351	3358	N	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	26	649	3359	3361	S	650	to	to	to	TO	O	aux	O	-1	O
+0	26	650	3362	3368	S	668	poison	poison	poison	NN	O	csubj	O	-1	B-noun.substance
+0	26	651	3369	3370	S	652	a	a	a	DT	O	det	O	-1	O
+0	26	652	3371	3377		650	goblet	goblet	goblet	NN	O	dobj	O	-1	B-noun.artifact
+0	26	653	3377	3378	S	652	,	,	,	,	O	punct	O	-1	O
+0	26	654	3379	3384	S	657	which	which	which	WDT	O	dobj	O	-1	O
+0	26	655	3385	3387	S	657	he	he	he	PRP	O	nsubj	O	-1	O
+0	26	656	3388	3392	S	657	will	will	will	MD	O	aux	O	-1	O
+0	26	657	3393	3397	S	652	give	give	give	VB	O	rcmod	O	-1	B-verb.possession
+0	26	658	3398	3404	S	657	Hamlet	Hamlet	Hamlet	NNP	PERSON	dobj	O	2	B-noun.group
+0	26	659	3405	3407	S	660	to	to	to	TO	O	aux	O	-1	O
+0	26	660	3408	3413	S	658	drink	drink	drink	VB	O	xcomp	O	-1	B-verb.consumption
+0	26	661	3414	3420	S	662	should	should	should	MD	O	aux	O	-1	O
+0	26	662	3421	3427	N	657	Hamlet	Hamlet	Hamlet	NNP	PERSON	iobj	O	2	B-noun.group
+0	26	663	3428	3433	S	668	score	score	score	VBP	O	cop	O	-1	B-verb.competition
+0	26	664	3434	3437	S	668	the	the	the	DT	O	det	O	-1	O
+0	26	665	3438	3443	S	668	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	26	666	3444	3446	S	665	or	or	or	CC	O	cc	O	-1	O
+0	26	667	3447	3453	S	665	second	second	second	JJ	ORDINAL	conj	O	-1	O
+0	26	668	3454	3458	S	648	hits	hits	hit	NNS	O	dobj	O	-1	B-noun.act
+0	26	669	3459	3461	S	668	of	of	of	IN	O	prep	O	-1	O
+0	26	670	3462	3465	S	671	the	the	the	DT	O	det	O	-1	O
+0	26	671	3466	3471		669	match	match	match	NN	O	pobj	O	-1	B-noun.artifact
+0	26	672	3471	3472	S	648	.	.	.	.	O	punct	O	-1	O
+0	27	673	3473	3479	S	674	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	27	674	3480	3487	S	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	27	675	3488	3490	S	674	to	to	to	TO	O	prep	O	-1	O
+0	27	676	3491	3494	N	677	the	the	the	DT	O	det	O	-1	O
+0	27	677	3495	3503	S	675	vicinity	vicinity	vicinity	NN	O	pobj	O	-1	B-noun.location
+0	27	678	3504	3506	S	677	of	of	of	IN	O	prep	O	-1	O
+0	27	679	3507	3515	S	678	Elsinore	Elsinore	Elsinore	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	27	680	3516	3520	S	674	just	just	just	RB	O	advmod	O	-1	O
+0	27	681	3521	3523	S	680	as	as	as	IN	O	dep	O	-1	O
+0	27	682	3524	3531		684	Ophelia	Ophelia	Ophelia	NNP	PERSON	poss	O	6	B-noun.person
+0	27	683	3531	3533	S	682	’s	's	's	POS	O	possessive	O	-1	O
+0	27	684	3534	3541	S	686	funeral	funeral	funeral	NN	O	nsubj	O	-1	B-noun.event
+0	27	685	3542	3544	S	686	is	is	be	VBZ	O	aux	O	-1	O
+0	27	686	3545	3551	S	681	taking	taking	take	VBG	O	pcomp	O	-1	B-verb.change
+0	27	687	3552	3557		686	place	place	place	NN	O	dobj	O	-1	I-verb.change
+0	27	688	3557	3558	N	674	.	.	.	.	O	punct	O	-1	O
+0	28	689	3559	3567	S	694	Stricken	Stricken	stricken	JJ	O	dep	O	-1	O
+0	28	690	3568	3572	S	689	with	with	with	IN	O	prep	O	-1	O
+0	28	691	3573	3578		690	grief	grief	grief	NN	O	pobj	O	-1	B-noun.feeling
+0	28	692	3578	3579	S	694	,	,	,	,	O	punct	O	-1	O
+0	28	693	3580	3582	S	694	he	he	he	PRP	O	nsubj	O	-1	O
+0	28	694	3583	3590	S	-1	attacks	attacks	attack	VBZ	O	null	O	-1	B-verb.competition
+0	28	695	3591	3598	S	694	Laertes	Laertes	Laertes	NNP	ORGANIZATION	dobj	O	5	B-noun.person
+0	28	696	3599	3602	S	694	and	and	and	CC	O	cc	O	-1	O
+0	28	697	3603	3611	S	694	declares	declares	declare	VBZ	O	conj	O	-1	B-verb.communication
+0	28	698	3612	3616	S	700	that	that	that	IN	O	complm	O	-1	O
+0	28	699	3617	3619	S	700	he	he	he	PRP	O	nsubj	O	-1	O
+0	28	700	3620	3623	N	697	had	had	have	VBD	O	ccomp	O	-1	B-verb.possession
+0	28	701	3624	3626	S	700	in	in	in	IN	O	prep	O	-1	O
+0	28	702	3627	3631	S	701	fact	fact	fact	NN	O	pobj	O	-1	B-noun.cognition
+0	28	703	3632	3638	S	704	always	always	always	RB	O	advmod	O	-1	O
+0	28	704	3639	3644	S	700	loved	loved	love	VBD	O	dep	O	-1	B-verb.emotion
+0	28	705	3645	3652		704	Ophelia	Ophelia	Ophelia	NNP	PERSON	dobj	O	6	O
+0	28	706	3652	3653	S	694	.	.	.	.	O	punct	O	-1	O
+0	29	707	3654	3658	S	713	Back	Back	back	RB	O	advmod	O	-1	O
+0	29	708	3659	3661	S	707	at	at	at	IN	O	dep	O	-1	O
+0	29	709	3662	3665	S	710	the	the	the	DT	O	det	O	-1	O
+0	29	710	3666	3672		708	castle	castle	castle	NN	O	pobj	O	-1	B-noun.artifact
+0	29	711	3672	3673	S	713	,	,	,	,	O	punct	O	-1	O
+0	29	712	3674	3676	S	713	he	he	he	PRP	O	nsubj	O	-1	O
+0	29	713	3677	3682	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	29	714	3683	3690	S	713	Horatio	Horatio	Horatio	NNP	PERSON	dobj	O	0	B-noun.person
+0	29	715	3691	3695	N	717	that	that	that	IN	O	complm	O	-1	O
+0	29	716	3696	3698	S	717	he	he	he	PRP	O	nsubj	O	-1	O
+0	29	717	3699	3707	S	713	believes	believes	believe	VBZ	O	ccomp	O	-1	B-verb.cognition
+0	29	718	3708	3711	S	721	one	one	one	CD	NUMBER	nsubjpass	O	-1	O
+0	29	719	3712	3716	S	721	must	must	must	MD	O	aux	O	-1	O
+0	29	720	3717	3719	S	721	be	be	be	VB	O	auxpass	O	-1	O
+0	29	721	3720	3728	S	717	prepared	prepared	prepare	VBN	O	ccomp	O	-1	B-verb.change
+0	29	722	3729	3731	S	723	to	to	to	TO	O	aux	O	-1	O
+0	29	723	3732	3735		721	die	die	die	VB	O	xcomp	O	-1	B-verb.change
+0	29	724	3735	3736	S	721	,	,	,	,	O	punct	O	-1	O
+0	29	725	3737	3742	S	728	since	since	since	IN	O	mark	O	-1	O
+0	29	726	3743	3748	S	728	death	death	death	NN	O	nsubj	O	-1	B-noun.state
+0	29	727	3749	3752	S	728	can	can	can	MD	O	aux	O	-1	O
+0	29	728	3753	3757	S	721	come	come	come	VB	O	advcl	O	-1	B-verb.motion
+0	29	729	3758	3760	S	728	at	at	at	IN	O	prep	O	-1	O
+0	29	730	3761	3764	N	731	any	any	any	DT	O	det	O	-1	O
+0	29	731	3765	3771		729	moment	moment	moment	NN	O	pobj	O	-1	B-noun.time
+0	29	732	3771	3772	S	713	.	.	.	.	O	punct	O	-1	O
+0	30	733	3773	3774	S	735	A	A	a	DT	O	det	O	-1	O
+0	30	734	3775	3782	S	735	foolish	foolish	foolish	JJ	O	amod	O	-1	O
+0	30	735	3783	3791	S	-1	courtier	courtier	courtier	NN	O	null	O	-1	B-noun.person
+0	30	736	3792	3797	S	735	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	30	737	3798	3803	S	738	Osric	Osric	Osric	NNP	MISC	nsubj	O	-1	B-noun.person
+0	30	738	3804	3811	S	736	arrives	arrives	arrive	VBZ	O	dep	O	-1	B-verb.motion
+0	30	739	3812	3814	S	738	on	on	on	IN	O	prep	O	-1	O
+0	30	740	3815	3823		742	Claudius	Claudius	Claudius	NNP	PERSON	poss	O	3	B-noun.person
+0	30	741	3823	3825	S	740	’s	's	's	POS	O	possessive	O	-1	O
+0	30	742	3826	3832	N	739	orders	orders	order	NNS	O	pobj	O	-1	B-noun.communication
+0	30	743	3833	3835	S	744	to	to	to	TO	O	aux	O	-1	O
+0	30	744	3836	3843	S	738	arrange	arrange	arrange	VB	O	xcomp	O	-1	B-verb.contact
+0	30	745	3844	3847	S	747	the	the	the	DT	O	det	O	-1	O
+0	30	746	3848	3855	S	747	fencing	fencing	fencing	NN	O	nn	O	-1	B-noun.artifact
+0	30	747	3856	3861	S	744	match	match	match	NN	O	dobj	O	-1	B-noun.artifact
+0	30	748	3862	3869	S	747	between	between	between	IN	O	prep	O	-1	O
+0	30	749	3870	3876	S	748	Hamlet	Hamlet	Hamlet	NNP	PERSON	pobj	O	2	B-noun.group
+0	30	750	3877	3880	S	749	and	and	and	CC	O	cc	O	-1	O
+0	30	751	3881	3888		749	Laertes	Laertes	Laertes	NNP	LOCATION	conj	O	-1	B-noun.person
+0	30	752	3888	3889	S	735	.	.	.	.	O	punct	O	-1	O
+0	31	753	3890	3893	S	754	The	The	the	DT	O	det	O	-1	O
+0	31	754	3894	3908	S	755	sword-fighting	sword-fighting	sword-fighting	JJ	O	nsubj	O	-1	O
+0	31	755	3909	3915		-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	31	756	3915	3916	S	755	.	.	.	.	O	punct	O	-1	O
+0	32	757	3917	3923	S	758	Hamlet	Hamlet	Hamlet	NNP	O	nn	O	-1	B-noun.group
+0	32	758	3924	3930	S	-1	scores	scores	score	NNS	O	null	O	-1	B-noun.cognition
+0	32	759	3931	3934	S	761	the	the	the	DT	O	det	O	-1	O
+0	32	760	3935	3940	S	761	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	32	761	3941	3944		758	hit	hit	hit	NN	O	dobj	O	-1	B-noun.act
+0	32	762	3944	3945	N	758	,	,	,	,	O	punct	O	-1	O
+0	32	763	3946	3949	S	758	but	but	but	CC	O	cc	O	-1	O
+0	32	764	3950	3958	S	758	declines	declines	decline	VBZ	O	conj	O	-1	B-verb.change
+0	32	765	3959	3961	S	766	to	to	to	TO	O	aux	O	-1	O
+0	32	766	3962	3967	S	764	drink	drink	drink	VB	O	xcomp	O	-1	B-verb.consumption
+0	32	767	3968	3972	S	766	from	from	from	IN	O	prep	O	-1	O
+0	32	768	3973	3976	S	769	the	the	the	DT	O	det	O	-1	O
+0	32	769	3977	3981		772	king	king	king	NN	O	poss	O	-1	B-noun.person
+0	32	770	3981	3983	S	769	’s	's	's	POS	O	possessive	O	-1	O
+0	32	771	3984	3993	S	772	proffered	proffered	proffer	VBN	O	amod	O	-1	B-verb.possession
+0	32	772	3994	4000		767	goblet	goblet	goblet	NN	O	pobj	O	-1	B-noun.artifact
+0	32	773	4000	4001	S	758	.	.	.	.	O	punct	O	-1	O
+0	33	774	4002	4009		777	Instead	Instead	instead	RB	O	advmod	O	-1	O
+0	33	775	4009	4010	N	777	,	,	,	,	O	punct	O	-1	O
+0	33	776	4011	4019	S	777	Gertrude	Gertrude	Gertrude	NNP	PERSON	nsubj	O	4	O
+0	33	777	4020	4025	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.change
+0	33	778	4026	4027	S	779	a	a	a	DT	O	det	O	-1	O
+0	33	779	4028	4033	S	777	drink	drink	drink	NN	O	dobj	O	-1	B-noun.food
+0	33	780	4034	4038	S	777	from	from	from	IN	O	prep	O	-1	O
+0	33	781	4039	4041	S	780	it	it	it	PRP	O	pobj	O	-1	O
+0	33	782	4042	4045	S	777	and	and	and	CC	O	cc	O	-1	O
+0	33	783	4046	4048	S	785	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	33	784	4049	4056	S	785	swiftly	swiftly	swiftly	RB	O	advmod	O	-1	O
+0	33	785	4057	4063	S	777	killed	killed	kill	VBN	O	conj	O	-1	B-verb.contact
+0	33	786	4064	4066	S	785	by	by	by	IN	O	prep	O	-1	O
+0	33	787	4067	4070	S	788	the	the	the	DT	O	det	O	-1	O
+0	33	788	4071	4077		786	poison	poison	poison	NN	O	pobj	O	-1	B-noun.substance
+0	33	789	4077	4078	N	777	.	.	.	.	O	punct	O	-1	O
+0	34	790	4079	4086	S	791	Laertes	Laertes	Laertes	NNP	ORGANIZATION	nsubj	O	5	B-noun.person
+0	34	791	4087	4095	S	-1	succeeds	succeeds	succeed	VBZ	O	null	O	-1	B-verb.social
+0	34	792	4096	4098	S	791	in	in	in	IN	O	prep	O	-1	O
+0	34	793	4099	4107	S	792	wounding	wounding	wound	VBG	O	pcomp	O	-1	B-verb.body
+0	34	794	4108	4114		793	Hamlet	Hamlet	Hamlet	NNP	PERSON	dobj	O	2	B-noun.group
+0	34	795	4114	4115	S	791	,	,	,	,	O	punct	O	-1	O
+0	34	796	4116	4122	S	800	though	though	though	IN	O	mark	O	-1	O
+0	34	797	4123	4129	S	800	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	34	798	4130	4134	S	800	does	does	do	VBZ	O	aux	O	-1	O
+0	34	799	4135	4138	S	800	not	not	not	RB	O	neg	O	-1	O
+0	34	800	4139	4142	N	791	die	die	die	VB	O	advcl	O	-1	B-verb.change
+0	34	801	4143	4145	S	800	of	of	of	IN	O	prep	O	-1	O
+0	34	802	4146	4149	S	803	the	the	the	DT	O	det	O	-1	O
+0	34	803	4150	4156	S	801	poison	poison	poison	NN	O	pobj	O	-1	B-noun.substance
+0	34	804	4157	4168		800	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	34	805	4168	4169	S	791	.	.	.	.	O	punct	O	-1	O
+0	35	806	4170	4175		810	First	First	first	RB	ORDINAL	advmod	O	-1	O
+0	35	807	4175	4176	S	810	,	,	,	,	O	punct	O	-1	O
+0	35	808	4177	4184	S	810	Laertes	Laertes	Laertes	NNP	ORGANIZATION	nsubjpass	O	5	B-noun.person
+0	35	809	4185	4187	S	810	is	is	be	VBZ	O	auxpass	O	-1	O
+0	35	810	4188	4191	S	835	cut	cut	cut	VBN	O	ccomp	O	-1	B-verb.change
+0	35	811	4192	4194	S	810	by	by	by	IN	O	prep	O	-1	O
+0	35	812	4195	4198	S	814	his	his	he	PRP$	O	poss	O	-1	O
+0	35	813	4199	4202	S	814	own	own	own	JJ	O	amod	O	-1	O
+0	35	814	4203	4208		816	sword	sword	sword	NN	O	poss	O	-1	B-noun.artifact
+0	35	815	4208	4210	N	814	’s	's	's	POS	O	possessive	O	-1	O
+0	35	816	4211	4216		811	blade	blade	blade	NN	O	pobj	O	-1	B-noun.plant
+0	35	817	4216	4217	S	810	,	,	,	,	O	punct	O	-1	O
+0	35	818	4218	4221		810	and	and	and	CC	O	cc	O	-1	O
+0	35	819	4221	4222	S	810	,	,	,	,	O	punct	O	-1	O
+0	35	820	4223	4228	S	810	after	after	after	IN	O	prep	O	-1	O
+0	35	821	4229	4238	S	820	revealing	revealing	reveal	VBG	O	pcomp	O	-1	B-verb.perception
+0	35	822	4239	4241	S	821	to	to	to	TO	O	prep	O	-1	O
+0	35	823	4242	4248	S	822	Hamlet	Hamlet	Hamlet	NNP	PERSON	pobj	O	2	B-noun.group
+0	35	824	4249	4253	S	827	that	that	that	IN	O	complm	O	-1	O
+0	35	825	4254	4262	S	827	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	35	826	4263	4265	S	827	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	35	827	4266	4277	N	821	responsible	responsible	responsible	JJ	O	ccomp	O	-1	O
+0	35	828	4278	4281	S	827	for	for	for	IN	O	prep	O	-1	O
+0	35	829	4282	4285	S	830	the	the	the	DT	O	det	O	-1	O
+0	35	830	4286	4291		832	queen	queen	queen	NN	O	poss	O	-1	B-noun.animal
+0	35	831	4291	4293	S	830	’s	's	's	POS	O	possessive	O	-1	O
+0	35	832	4294	4299		828	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	35	833	4299	4300	S	835	,	,	,	,	O	punct	O	-1	O
+0	35	834	4301	4303	S	835	he	he	he	PRP	O	nsubj	O	3	O
+0	35	835	4304	4308	S	-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	35	836	4309	4313	S	835	from	from	from	IN	O	prep	O	-1	O
+0	35	837	4314	4317	S	838	the	the	the	DT	O	det	O	-1	O
+0	35	838	4318	4323		840	blade	blade	blade	NN	O	poss	O	-1	B-noun.plant
+0	35	839	4323	4325	S	838	’s	's	's	POS	O	possessive	O	-1	O
+0	35	840	4326	4332		836	poison	poison	poison	NN	O	pobj	O	-1	B-noun.substance
+0	35	841	4332	4333	S	835	.	.	.	.	O	punct	O	-1	O
+0	36	842	4334	4340	S	844	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	36	843	4341	4345	N	844	then	then	then	RB	O	advmod	O	-1	O
+0	36	844	4346	4351	S	-1	stabs	stabs	stab	VBZ	O	null	O	-1	B-verb.contact
+0	36	845	4352	4360	S	844	Claudius	Claudius	Claudius	NNP	PERSON	dobj	O	3	B-noun.person
+0	36	846	4361	4368	S	844	through	through	through	IN	O	prep	O	-1	O
+0	36	847	4369	4373	S	846	with	with	with	IN	O	dep	O	-1	O
+0	36	848	4374	4377	S	850	the	the	the	DT	O	det	O	-1	O
+0	36	849	4378	4386	S	850	poisoned	poisoned	poison	VBN	O	amod	O	-1	B-verb.social
+0	36	850	4387	4392	S	847	sword	sword	sword	NN	O	pobj	O	-1	B-noun.artifact
+0	36	851	4393	4396	S	850	and	and	and	CC	O	cc	O	-1	O
+0	36	852	4397	4403	S	850	forces	forces	force	NNS	O	conj	O	-1	B-noun.attribute
+0	36	853	4404	4407	S	855	him	him	he	PRP	O	nsubj	O	3	O
+0	36	854	4408	4410	N	855	to	to	to	TO	O	aux	O	-1	O
+0	36	855	4411	4416	S	852	drink	drink	drink	VB	O	rcmod	O	-1	B-verb.consumption
+0	36	856	4417	4421	S	855	down	down	down	RP	O	prt	O	-1	O
+0	36	857	4422	4425	S	858	the	the	the	DT	O	det	O	-1	O
+0	36	858	4426	4430	S	855	rest	rest	rest	NN	O	dobj	O	-1	B-noun.relation
+0	36	859	4431	4433	S	858	of	of	of	IN	O	prep	O	-1	O
+0	36	860	4434	4437	S	862	the	the	the	DT	O	det	O	-1	O
+0	36	861	4438	4446	S	862	poisoned	poisoned	poison	VBN	O	amod	O	-1	B-verb.social
+0	36	862	4447	4451		859	wine	wine	wine	NN	O	pobj	O	-1	B-noun.food
+0	36	863	4451	4452	S	844	.	.	.	.	O	punct	O	-1	O
+0	37	864	4453	4461	S	865	Claudius	Claudius	Claudius	NNP	PERSON	nsubj	O	3	B-noun.person
+0	37	865	4462	4466		-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	37	866	4466	4467	S	865	,	,	,	,	O	punct	O	-1	O
+0	37	867	4468	4471	S	865	and	and	and	CC	O	cc	O	-1	O
+0	37	868	4472	4478	N	869	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubj	O	2	B-noun.group
+0	37	869	4479	4483	S	865	dies	dies	die	VBZ	O	conj	O	-1	B-verb.change
+0	37	870	4484	4495	S	869	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	37	871	4496	4501	S	869	after	after	after	IN	O	prep	O	-1	O
+0	37	872	4502	4511	S	871	achieving	achieving	achieve	VBG	O	pcomp	O	-1	B-verb.social
+0	37	873	4512	4515	S	874	his	his	he	PRP$	O	poss	O	3	O
+0	37	874	4516	4523		872	revenge	revenge	revenge	NN	O	dobj	O	-1	B-noun.act
+0	37	875	4523	4524	S	865	.	.	.	.	O	punct	O	-1	O
+0	38	876	4525	4527	S	901	At	At	at	IN	O	prep	O	-1	O
+0	38	877	4528	4532	S	878	this	this	this	DT	O	det	O	-1	O
+0	38	878	4533	4539		876	moment	moment	moment	NN	O	pobj	O	-1	B-noun.time
+0	38	879	4539	4540	S	901	,	,	,	,	O	punct	O	-1	O
+0	38	880	4541	4542	S	882	a	a	a	DT	O	det	O	-1	O
+0	38	881	4543	4552	S	882	Norwegian	Norwegian	norwegian	JJ	MISC	amod	O	-1	O
+0	38	882	4553	4559	S	901	prince	prince	prince	NN	O	nsubj	O	-1	B-noun.person
+0	38	883	4560	4565	S	882	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	38	884	4566	4576		883	Fortinbras	Fortinbras	Fortinbras	NNP	O	dep	O	-1	B-noun.person
+0	38	885	4576	4577	S	882	,	,	,	,	O	punct	O	-1	O
+0	38	886	4578	4581	N	888	who	who	who	WP	O	nsubj	O	-1	O
+0	38	887	4582	4585	S	888	has	has	have	VBZ	O	aux	O	-1	O
+0	38	888	4586	4589	S	882	led	led	lead	VBN	O	rcmod	O	-1	B-verb.stative
+0	38	889	4590	4592	S	890	an	an	a	DT	O	det	O	-1	O
+0	38	890	4593	4597	S	888	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	38	891	4598	4600	S	888	to	to	to	TO	O	prep	O	-1	O
+0	38	892	4601	4608	S	891	Denmark	Denmark	Denmark	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	38	893	4609	4612	S	888	and	and	and	CC	O	cc	O	-1	O
+0	38	894	4613	4621	S	888	attacked	attacked	attack	VBN	O	conj	O	-1	B-verb.competition
+0	38	895	4622	4628	S	894	Poland	Poland	Poland	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	38	896	4629	4636	S	894	earlier	earlier	earlier	RBR	O	advmod	O	-1	O
+0	38	897	4637	4639	S	896	in	in	in	IN	O	dep	O	-1	O
+0	38	898	4640	4643	S	899	the	the	the	DT	O	det	O	-1	O
+0	38	899	4644	4648		897	play	play	play	NN	O	pobj	O	-1	B-noun.communication
+0	38	900	4648	4649	S	882	,	,	,	,	O	punct	O	-1	O
+0	38	901	4650	4656	N	-1	enters	enters	enter	VBZ	O	null	O	-1	B-verb.motion
+0	38	902	4657	4661	S	901	with	with	with	IN	O	prep	O	-1	O
+0	38	903	4662	4673	S	902	ambassadors	ambassadors	ambassador	NNS	O	pobj	O	-1	B-noun.person
+0	38	904	4674	4678	S	903	from	from	from	IN	O	prep	O	-1	O
+0	38	905	4679	4686		904	England	England	England	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	38	906	4686	4687	S	903	,	,	,	,	O	punct	O	-1	O
+0	38	907	4688	4691	S	908	who	who	who	WP	O	nsubj	O	-1	O
+0	38	908	4692	4698	S	903	report	report	report	VBP	O	rcmod	O	-1	B-verb.communication
+0	38	909	4699	4703	S	914	that	that	that	IN	O	complm	O	-1	O
+0	38	910	4704	4715	S	914	Rosencrantz	Rosencrantz	Rosencrantz	NNP	PERSON	nsubj	O	1	B-noun.person
+0	38	911	4716	4719	S	910	and	and	and	CC	O	cc	O	-1	O
+0	38	912	4720	4732	N	910	Guildenstern	Guildenstern	Guildenstern	NNP	MISC	conj	O	-1	B-noun.person
+0	38	913	4733	4736	S	914	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	38	914	4737	4741		908	dead	dead	dead	JJ	O	ccomp	O	-1	O
+0	38	915	4741	4742	S	901	.	.	.	.	O	punct	O	-1	O
+0	39	916	4743	4753	S	918	Fortinbras	Fortinbras	Fortinbras	NNP	O	nsubjpass	O	-1	B-noun.person
+0	39	917	4754	4756	S	918	is	is	be	VBZ	O	auxpass	O	-1	O
+0	39	918	4757	4764	S	-1	stunned	stunned	stun	VBN	O	null	O	-1	B-verb.change
+0	39	919	4765	4767	S	918	by	by	by	IN	O	prep	O	-1	O
+0	39	920	4768	4771	S	922	the	the	the	DT	O	det	O	-1	O
+0	39	921	4772	4780	S	922	gruesome	gruesome	gruesome	JJ	O	amod	O	-1	O
+0	39	922	4781	4786	S	919	sight	sight	sight	NN	O	pobj	O	-1	B-noun.cognition
+0	39	923	4787	4789	S	922	of	of	of	IN	O	prep	O	-1	O
+0	39	924	4790	4793	S	927	the	the	the	DT	O	det	O	-1	O
+0	39	925	4794	4800	N	927	entire	entire	entire	JJ	O	amod	O	-1	O
+0	39	926	4801	4806	S	927	royal	royal	royal	NN	O	nn	O	-1	B-noun.group
+0	39	927	4807	4813	S	923	family	family	family	NN	O	pobj	O	-1	I-noun.group
+0	39	928	4814	4819	S	929	lying	lying	lie	VBG	O	auxpass	O	-1	O
+0	39	929	4820	4828	S	927	sprawled	sprawled	sprawl	VBN	O	partmod	O	-1	B-verb.contact
+0	39	930	4829	4831	S	929	on	on	on	IN	O	prep	O	-1	O
+0	39	931	4832	4835	S	932	the	the	the	DT	O	det	O	-1	O
+0	39	932	4836	4841	S	930	floor	floor	floor	NN	O	pobj	O	-1	B-noun.artifact
+0	39	933	4842	4846		929	dead	dead	dead	JJ	O	dep	O	-1	O
+0	39	934	4846	4847	S	918	.	.	.	.	O	punct	O	-1	O
+0	40	935	4848	4850	S	936	He	He	he	PRP	O	nsubj	O	-1	O
+0	40	936	4851	4856	S	-1	moves	moves	move	VBZ	O	null	O	-1	B-verb.motion
+0	40	937	4857	4859	S	938	to	to	to	TO	O	aux	O	-1	O
+0	40	938	4860	4864	N	936	take	take	take	VB	O	xcomp	O	-1	B-verb.possession
+0	40	939	4865	4870	S	938	power	power	power	NN	O	dobj	O	-1	B-noun.attribute
+0	40	940	4871	4873	S	939	of	of	of	IN	O	prep	O	-1	O
+0	40	941	4874	4877	S	942	the	the	the	DT	O	det	O	-1	O
+0	40	942	4878	4885		940	kingdom	kingdom	kingdom	NN	O	pobj	O	-1	B-noun.state
+0	40	943	4885	4886	S	936	.	.	.	.	O	punct	O	-1	O
+0	41	944	4887	4894		952	Horatio	Horatio	Horatio	NNP	PERSON	nsubj	O	0	O
+0	41	945	4894	4895	S	952	,	,	,	,	O	punct	O	-1	O
+0	41	946	4896	4906	S	952	fulfilling	fulfilling	fulfil	VBG	O	partmod	O	-1	B-verb.creation
+0	41	947	4907	4913		950	Hamlet	Hamlet	Hamlet	NNP	PERSON	poss	O	2	B-noun.group
+0	41	948	4913	4915	S	947	’s	's	's	POS	O	possessive	O	-1	O
+0	41	949	4916	4920	N	950	last	last	last	JJ	O	amod	O	-1	O
+0	41	950	4921	4928		946	request	request	request	NN	O	dobj	O	-1	B-noun.communication
+0	41	951	4928	4929	S	952	,	,	,	,	O	punct	O	-1	O
+0	41	952	4930	4935	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	41	953	4936	4939	S	952	him	him	he	PRP	O	dobj	O	0	O
+0	41	954	4940	4946		957	Hamlet	Hamlet	Hamlet	NNP	PERSON	poss	O	2	B-noun.group
+0	41	955	4946	4948	S	954	’s	's	's	POS	O	possessive	O	-1	O
+0	41	956	4949	4955	S	957	tragic	tragic	tragic	JJ	O	amod	O	-1	O
+0	41	957	4956	4961		952	story	story	story	NN	O	dobj	O	-1	B-noun.communication
+0	41	958	4961	4962	S	952	.	.	.	.	O	punct	O	-1	O
+0	42	959	4963	4973	S	960	Fortinbras	Fortinbras	Fortinbras	NNP	O	nn	O	-1	O
+0	42	960	4974	4980	S	-1	orders	orders	order	NNS	O	null	O	-1	B-noun.communication
+0	42	961	4981	4985	N	964	that	that	that	WDT	O	dep	O	-1	O
+0	42	962	4986	4992	S	964	Hamlet	Hamlet	Hamlet	NNP	PERSON	nsubjpass	O	2	B-noun.group
+0	42	963	4993	4995	S	964	be	be	be	VB	O	auxpass	O	-1	O
+0	42	964	4996	5003	S	960	carried	carried	carry	VBN	O	rcmod	O	-1	B-verb.contact
+0	42	965	5004	5008	S	964	away	away	away	RB	O	advmod	O	-1	O
+0	42	966	5009	5011	S	964	in	in	in	IN	O	prep	O	-1	O
+0	42	967	5012	5013	S	968	a	a	a	DT	O	det	O	-1	O
+0	42	968	5014	5020	S	966	manner	manner	manner	NN	O	pobj	O	-1	B-noun.attribute
+0	42	969	5021	5030	S	972	befitting	befitting	befitting	JJ	O	amod	O	-1	O
+0	42	970	5031	5032	S	972	a	a	a	DT	O	det	O	-1	O
+0	42	971	5033	5039	S	972	fallen	fallen	fall	VBN	O	amod	O	-1	B-verb.motion
+0	42	972	5040	5047		968	soldier	soldier	soldier	NN	O	dep	O	-1	B-noun.person
+0	42	973	5047	5048	N	960	.	.	.	.	O	punct	O	-1	O

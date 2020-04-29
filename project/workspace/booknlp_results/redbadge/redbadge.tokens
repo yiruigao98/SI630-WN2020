@@ -1,0 +1,956 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	6	S	8	During	During	during	IN	O	prep	O	-1	O
+0	0	1	7	10	S	3	the	the	the	DT	O	det	O	-1	O
+0	0	2	11	16	S	3	Civil	Civil	civil	JJ	MISC	amod	O	-1	O
+0	0	3	17	20		0	War	War	war	NN	MISC	pobj	O	-1	O
+0	0	4	20	21	S	8	,	,	,	,	O	punct	O	-1	O
+0	0	5	22	23	N	7	a	a	a	DT	O	det	O	-1	O
+0	0	6	24	29	S	7	Union	Union	Union	NNP	O	nn	O	-1	B-noun.group
+0	0	7	30	38	S	8	regiment	regiment	regiment	NN	O	nsubj	O	-1	B-noun.group
+0	0	8	39	44	S	-1	rests	rests	rest	VBZ	O	null	O	-1	B-verb.stative
+0	0	9	45	50	S	8	along	along	along	IN	O	prep	O	-1	O
+0	0	10	51	52	S	11	a	a	a	DT	O	det	O	-1	O
+0	0	11	53	62		9	riverbank	riverbank	riverbank	NN	O	pobj	O	-1	B-noun.object
+0	0	12	62	63	S	11	,	,	,	,	O	punct	O	-1	O
+0	0	13	64	69	S	17	where	where	where	WRB	O	advmod	O	-1	O
+0	0	14	70	72	S	17	it	it	it	PRP	O	nsubj	O	-1	O
+0	0	15	73	76	S	17	has	has	have	VBZ	O	aux	O	-1	O
+0	0	16	77	81	S	17	been	been	be	VBN	O	auxpass	O	-1	O
+0	0	17	82	88	N	11	camped	camped	camp	VBN	O	rcmod	O	-1	B-verb.stative
+0	0	18	89	92	S	17	for	for	for	IN	O	prep	O	-1	O
+0	0	19	93	98		18	weeks	weeks	week	NNS	DURATION	pobj	O	-1	B-noun.time
+0	0	20	98	99	S	8	.	.	.	.	O	punct	O	-1	O
+0	1	21	100	101	S	23	A	A	a	DT	O	det	O	-1	O
+0	1	22	102	106	S	23	tall	tall	tall	JJ	O	amod	O	-1	O
+0	1	23	107	114	S	-1	soldier	soldier	soldier	NN	O	null	O	-1	B-noun.person
+0	1	24	115	120	S	23	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	1	25	121	124	S	26	Jim	Jim	Jim	NNP	PERSON	nn	O	2	B-noun.person
+0	1	26	125	132	S	27	Conklin	Conklin	Conklin	NNP	PERSON	nsubj	O	2	I-noun.person
+0	1	27	133	140	S	24	spreads	spreads	spread	VBZ	O	dep	O	-1	B-verb.contact
+0	1	28	141	142	S	29	a	a	a	DT	O	det	O	-1	O
+0	1	29	143	148	S	27	rumor	rumor	rumor	NN	O	dobj	O	-1	B-noun.communication
+0	1	30	149	153	N	35	that	that	that	IN	O	complm	O	-1	O
+0	1	31	154	157	S	32	the	the	the	DT	O	det	O	-1	O
+0	1	32	158	162	S	35	army	army	army	NN	O	nsubj	O	-1	B-noun.group
+0	1	33	163	167	S	35	will	will	will	MD	O	aux	O	-1	O
+0	1	34	168	172	S	35	soon	soon	soon	RB	O	advmod	O	-1	O
+0	1	35	173	178		29	march	march	march	VB	O	ccomp	O	-1	B-verb.motion
+0	1	36	178	179	S	23	.	.	.	.	O	punct	O	-1	O
+0	2	37	180	185	S	38	Henry	Henry	Henry	NNP	PERSON	nn	O	-1	B-noun.person
+0	2	38	186	193		48	Fleming	Fleming	Fleming	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	2	39	193	194	S	38	,	,	,	,	O	punct	O	-1	O
+0	2	40	195	196	S	41	a	a	a	DT	O	det	O	-1	O
+0	2	41	197	203	S	38	recent	recent	recent	JJ	O	appos	O	-1	O
+0	2	42	204	211	S	41	recruit	recruit	recruit	VB	O	amod	O	-1	B-verb.social
+0	2	43	212	216	S	42	with	with	with	IN	O	prep	O	-1	O
+0	2	44	217	221	S	46	this	this	this	DT	O	det	O	-1	O
+0	2	45	222	227	N	46	304th	304th	304th	JJ	O	amod	O	-1	O
+0	2	46	228	236		43	Regiment	Regiment	regiment	NN	O	pobj	O	-1	B-noun.group
+0	2	47	236	237	S	38	,	,	,	,	O	punct	O	-1	O
+0	2	48	238	245	S	-1	worries	worries	worry	VBZ	O	null	O	-1	B-verb.emotion
+0	2	49	246	251	S	48	about	about	about	IN	O	prep	O	-1	O
+0	2	50	252	255	S	51	his	his	he	PRP$	O	poss	O	-1	O
+0	2	51	256	263		49	courage	courage	courage	NN	O	pobj	O	-1	B-noun.attribute
+0	2	52	263	264	S	48	.	.	.	.	O	punct	O	-1	O
+0	3	53	265	267	S	54	He	He	he	PRP	O	nsubj	O	-1	O
+0	3	54	268	273	S	-1	fears	fears	fear	VBZ	O	null	O	-1	B-verb.emotion
+0	3	55	274	278	S	65	that	that	that	IN	O	complm	O	-1	O
+0	3	56	279	281	S	58	if	if	if	IN	O	mark	O	-1	O
+0	3	57	282	284	S	58	he	he	he	PRP	O	nsubj	O	-1	O
+0	3	58	285	289	S	65	were	were	be	VBD	O	advcl	O	-1	B-verb.stative
+0	3	59	290	292	N	60	to	to	to	TO	O	aux	O	-1	O
+0	3	60	293	296	S	58	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	3	61	297	303		60	battle	battle	battle	NN	O	dobj	O	-1	B-noun.act
+0	3	62	303	304	S	65	,	,	,	,	O	punct	O	-1	O
+0	3	63	305	307	S	65	he	he	he	PRP	O	nsubj	O	-1	O
+0	3	64	308	313	S	65	might	might	might	MD	O	aux	O	-1	O
+0	3	65	314	317		54	run	run	run	VB	O	ccomp	O	-1	B-verb.motion
+0	3	66	317	318	S	54	.	.	.	.	O	punct	O	-1	O
+0	4	67	319	322	S	68	The	The	the	DT	O	det	O	-1	O
+0	4	68	323	331	S	69	narrator	narrator	narrator	NN	O	nsubj	O	-1	B-noun.person
+0	4	69	332	339	S	-1	reveals	reveals	reveal	VBZ	O	null	O	-1	B-verb.perception
+0	4	70	340	344	S	72	that	that	that	IN	O	complm	O	-1	O
+0	4	71	345	350	S	72	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	4	72	351	357	N	69	joined	joined	join	VBD	O	ccomp	O	-1	B-verb.social
+0	4	73	358	361	S	74	the	the	the	DT	O	det	O	-1	O
+0	4	74	362	366	S	72	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	4	75	367	374	S	78	because	because	because	IN	O	mark	O	-1	O
+0	4	76	375	377	S	78	he	he	he	PRP	O	nsubjpass	O	0	O
+0	4	77	378	381	S	78	was	was	be	VBD	O	auxpass	O	-1	O
+0	4	78	382	387	S	72	drawn	drawn	draw	VBN	O	advcl	O	-1	B-verb.emotion
+0	4	79	388	390	S	78	to	to	to	TO	O	prep	O	-1	O
+0	4	80	391	394	S	81	the	the	the	DT	O	det	O	-1	O
+0	4	81	395	400	S	79	glory	glory	glory	NN	O	pobj	O	-1	B-noun.attribute
+0	4	82	401	403	S	81	of	of	of	IN	O	prep	O	-1	O
+0	4	83	404	412	S	84	military	military	military	JJ	O	amod	O	-1	O
+0	4	84	413	421		82	conflict	conflict	conflict	NN	O	pobj	O	-1	B-noun.act
+0	4	85	421	422	N	69	.	.	.	.	O	punct	O	-1	O
+0	5	86	423	428	S	99	Since	Since	since	IN	O	prep	O	-1	O
+0	5	87	429	432	S	88	the	the	the	DT	O	det	O	-1	O
+0	5	88	433	437	S	86	time	time	time	NN	O	pobj	O	-1	B-noun.event
+0	5	89	438	440	S	90	he	he	he	PRP	O	nsubj	O	0	O
+0	5	90	441	447		88	joined	joined	join	VBD	O	rcmod	O	-1	B-verb.social
+0	5	91	447	448	S	99	,	,	,	,	O	punct	O	-1	O
+0	5	92	449	456		99	however	however	however	RB	O	advmod	O	-1	O
+0	5	93	456	457	S	99	,	,	,	,	O	punct	O	-1	O
+0	5	94	458	461	S	95	the	the	the	DT	O	det	O	-1	O
+0	5	95	462	466	S	99	army	army	army	NN	O	nsubj	O	-1	B-noun.group
+0	5	96	467	470	S	99	has	has	have	VBZ	O	aux	O	-1	O
+0	5	97	471	477	S	99	merely	merely	merely	RB	O	advmod	O	-1	O
+0	5	98	478	482	S	99	been	been	be	VBN	O	aux	O	-1	O
+0	5	99	483	490	N	-1	waiting	waiting	wait	VBG	O	null	O	-1	B-verb.stative
+0	5	100	491	494	S	99	for	for	for	IN	O	prep	O	-1	O
+0	5	101	495	505		100	engagement	engagement	engagement	NN	O	pobj	O	-1	B-noun.act
+0	5	102	505	506	S	99	.	.	.	.	O	punct	O	-1	O
+0	6	103	507	509	S	108	At	At	at	IN	O	prep	O	-1	O
+0	6	104	510	514	S	106	last	last	last	JJ	O	amod	O	-1	O
+0	6	105	515	518	S	106	the	the	the	DT	O	det	O	-1	O
+0	6	106	519	527	S	103	regiment	regiment	regiment	NN	O	pobj	O	-1	B-noun.group
+0	6	107	528	530	S	108	is	is	be	VBZ	O	auxpass	O	-1	O
+0	6	108	531	536	S	-1	given	given	give	VBN	O	null	O	-1	B-verb.possession
+0	6	109	537	543	S	108	orders	orders	order	NNS	O	dobj	O	-1	B-noun.communication
+0	6	110	544	546	S	111	to	to	to	TO	O	aux	O	-1	O
+0	6	111	547	552		109	march	march	march	VB	O	infmod	O	-1	B-verb.motion
+0	6	112	552	553	S	108	,	,	,	,	O	punct	O	-1	O
+0	6	113	554	557	S	108	and	and	and	CC	O	cc	O	-1	O
+0	6	114	558	561	N	115	the	the	the	DT	O	det	O	-1	O
+0	6	115	562	570	S	116	soldiers	soldiers	soldier	NNS	O	nsubj	O	-1	B-noun.person
+0	6	116	571	576	S	108	spend	spend	spend	VBP	O	conj	O	-1	B-verb.stative
+0	6	117	577	584	S	119	several	several	several	JJ	O	amod	O	-1	O
+0	6	118	585	590	S	119	weary	weary	weary	JJ	O	amod	O	-1	O
+0	6	119	591	595	S	116	days	days	day	NNS	DURATION	dobj	O	-1	B-noun.time
+0	6	120	596	605	S	119	traveling	traveling	travel	VBG	O	partmod	O	-1	B-verb.motion
+0	6	121	606	608	S	120	on	on	on	IN	O	prep	O	-1	O
+0	6	122	609	613		121	foot	foot	foot	NN	O	pobj	O	-1	B-noun.body
+0	6	123	613	614	S	108	.	.	.	.	O	punct	O	-1	O
+0	7	124	615	625	N	126	Eventually	Eventually	eventually	RB	O	advmod	O	-1	O
+0	7	125	626	630	S	126	they	they	they	PRP	O	nsubj	O	-1	O
+0	7	126	631	639	S	-1	approach	approach	approach	VBP	O	null	O	-1	B-verb.motion
+0	7	127	640	641	S	128	a	a	a	DT	O	det	O	-1	O
+0	7	128	642	653	S	126	battlefield	battlefield	battlefield	NN	O	dobj	O	-1	B-noun.location
+0	7	129	654	657	S	126	and	and	and	CC	O	cc	O	-1	O
+0	7	130	658	663	S	126	begin	begin	begin	VB	O	conj	O	-1	B-verb.change
+0	7	131	664	666	S	132	to	to	to	TO	O	aux	O	-1	O
+0	7	132	667	671	S	130	hear	hear	hear	VB	O	xcomp	O	-1	B-verb.perception
+0	7	133	672	675	S	135	the	the	the	DT	O	det	O	-1	O
+0	7	134	676	683	S	135	distant	distant	distant	JJ	O	amod	O	-1	O
+0	7	135	684	688	S	132	roar	roar	roar	NN	O	dobj	O	-1	B-noun.event
+0	7	136	689	691	N	135	of	of	of	IN	O	prep	O	-1	O
+0	7	137	692	700		136	conflict	conflict	conflict	NN	O	pobj	O	-1	B-noun.act
+0	7	138	700	701	S	126	.	.	.	.	O	punct	O	-1	O
+0	8	139	702	707	S	146	After	After	after	IN	O	prep	O	-1	O
+0	8	140	708	716	S	139	securing	securing	secure	VBG	O	pcomp	O	-1	B-verb.possession
+0	8	141	717	720	S	142	its	its	its	PRP$	O	poss	O	-1	O
+0	8	142	721	729		140	position	position	position	NN	O	dobj	O	-1	B-noun.location
+0	8	143	729	730	S	146	,	,	,	,	O	punct	O	-1	O
+0	8	144	731	734	S	146	the	the	the	DT	O	det	O	-1	O
+0	8	145	735	740	S	146	enemy	enemy	enemy	NN	O	nn	O	-1	B-noun.group
+0	8	146	741	748		-1	charges	charges	charge	NNS	O	null	O	-1	B-noun.communication
+0	8	147	748	749	S	146	.	.	.	.	O	punct	O	-1	O
+0	9	148	750	755		157	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	O
+0	9	149	755	756	N	148	,	,	,	,	O	punct	O	-1	O
+0	9	150	757	762	S	148	boxed	boxed	box	VBN	O	partmod	O	-1	B-verb.contact
+0	9	151	763	765	S	150	in	in	in	IN	O	prep	O	-1	O
+0	9	152	766	768	S	151	by	by	by	IN	O	dep	O	-1	O
+0	9	153	769	772	S	155	his	his	he	PRP$	O	poss	O	0	O
+0	9	154	773	779	S	155	fellow	fellow	fellow	JJ	O	amod	O	-1	O
+0	9	155	780	788		152	soldiers	soldiers	soldier	NNS	O	pobj	O	-1	B-noun.person
+0	9	156	788	789	S	148	,	,	,	,	O	punct	O	-1	O
+0	9	157	790	798	S	-1	realizes	realizes	realize	VBZ	O	null	O	-1	B-verb.cognition
+0	9	158	799	803	S	162	that	that	that	IN	O	complm	O	-1	O
+0	9	159	804	806	S	162	he	he	he	PRP	O	nsubj	O	0	O
+0	9	160	807	812	S	162	could	could	could	MD	O	aux	O	-1	O
+0	9	161	813	816	S	162	not	not	not	RB	O	neg	O	-1	O
+0	9	162	817	820	N	157	run	run	run	VB	O	ccomp	O	-1	B-verb.motion
+0	9	163	821	825	S	166	even	even	even	RB	O	advmod	O	-1	O
+0	9	164	826	828	S	166	if	if	if	IN	O	dep	O	-1	O
+0	9	165	829	831	S	166	he	he	he	PRP	O	nsubj	O	0	O
+0	9	166	832	838	S	162	wanted	wanted	want	VBD	O	ccomp	O	-1	B-verb.emotion
+0	9	167	839	841		166	to	to	to	TO	O	advmod	O	-1	O
+0	9	168	841	842	S	157	.	.	.	.	O	punct	O	-1	O
+0	10	169	843	845	S	170	He	He	he	PRP	O	nsubj	O	0	O
+0	10	170	846	851	S	-1	fires	fires	fire	VBZ	O	null	O	-1	B-verb.competition
+0	10	171	852	864		170	mechanically	mechanically	mechanically	RB	O	advmod	O	-1	O
+0	10	172	864	865	S	170	,	,	,	,	O	punct	O	-1	O
+0	10	173	866	873	S	170	feeling	feeling	feel	VBG	O	xcomp	O	-1	B-verb.emotion
+0	10	174	874	878	S	173	like	like	like	IN	O	prep	O	-1	O
+0	10	175	879	880	S	176	a	a	a	DT	O	det	O	-1	O
+0	10	176	881	884	N	174	cog	cog	cog	NN	O	pobj	O	-1	B-noun.person
+0	10	177	885	887	S	176	in	in	in	IN	O	prep	O	-1	O
+0	10	178	888	889	S	179	a	a	a	DT	O	det	O	-1	O
+0	10	179	890	897		177	machine	machine	machine	NN	O	pobj	O	-1	B-noun.artifact
+0	10	180	897	898	S	170	.	.	.	.	O	punct	O	-1	O
+0	11	181	899	902	S	187	The	The	the	DT	O	nsubj	O	-1	O
+0	11	182	903	907	S	187	blue	blue	blue	JJ	O	dep	O	-1	O
+0	11	183	908	909		187	(	-LRB-	-lrb-	-LRB-	O	punct	O	-1	O
+0	11	184	909	914		187	Union	Union	Union	NNP	O	nsubj	O	-1	O
+0	11	185	914	915	S	187	)	-RRB-	-rrb-	-RRB-	O	punct	O	-1	O
+0	11	186	916	924	S	187	regiment	regiment	regiment	NN	O	nsubj	O	-1	B-noun.group
+0	11	187	925	932	S	-1	defeats	defeats	defeat	VBZ	O	null	O	-1	B-verb.competition
+0	11	188	933	936	S	189	the	the	the	DT	O	det	O	-1	O
+0	11	189	937	941	S	193	gray	gray	gray	JJ	O	num	O	-1	O
+0	11	190	942	943		193	(	-LRB-	-lrb-	-LRB-	O	num	O	-1	O
+0	11	191	943	954		193	Confederate	Confederate	confederate	JJ	O	amod	O	-1	O
+0	11	192	954	955	N	193	)	-RRB-	-rrb-	-RRB-	O	amod	O	-1	O
+0	11	193	956	964		187	soldiers	soldiers	soldier	NNS	O	dobj	O	-1	O
+0	11	194	964	965	S	187	,	,	,	,	O	punct	O	-1	O
+0	11	195	966	969	S	187	and	and	and	CC	O	cc	O	-1	O
+0	11	196	970	973	S	197	the	the	the	DT	O	det	O	-1	O
+0	11	197	974	981	S	198	victors	victors	victor	NNS	O	nsubj	O	-1	B-noun.person
+0	11	198	982	994	S	187	congratulate	congratulate	congratulate	VBP	O	conj	O	-1	B-verb.communication
+0	11	199	995	998	S	198	one	one	one	CD	NUMBER	dobj	O	-1	O
+0	11	200	999	1006		199	another	another	another	DT	O	dep	O	-1	O
+0	11	201	1006	1007	S	187	.	.	.	.	O	punct	O	-1	O
+0	12	202	1008	1013	S	203	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	12	203	1014	1019	N	-1	wakes	wakes	wake	VBZ	O	null	O	-1	B-verb.body
+0	12	204	1020	1024	S	203	from	from	from	IN	O	prep	O	-1	O
+0	12	205	1025	1026	S	207	a	a	a	DT	O	det	O	-1	O
+0	12	206	1027	1032	S	207	brief	brief	brief	JJ	O	amod	O	-1	O
+0	12	207	1033	1036	S	204	nap	nap	nap	NN	O	pobj	O	-1	B-noun.time
+0	12	208	1037	1039	S	209	to	to	to	TO	O	aux	O	-1	O
+0	12	209	1040	1044	S	203	find	find	find	VB	O	xcomp	O	-1	B-verb.cognition
+0	12	210	1045	1049	S	215	that	that	that	IN	O	complm	O	-1	O
+0	12	211	1050	1053	S	212	the	the	the	DT	O	det	O	-1	O
+0	12	212	1054	1059	S	215	enemy	enemy	enemy	NN	O	nsubj	O	-1	B-noun.group
+0	12	213	1060	1062	S	215	is	is	be	VBZ	O	aux	O	-1	B-verb.stative
+0	12	214	1063	1068	S	215	again	again	again	RB	O	advmod	O	-1	O
+0	12	215	1069	1077	S	209	charging	charging	charge	VBG	O	ccomp	O	-1	B-verb.competition
+0	12	216	1078	1081	S	217	his	his	he	PRP$	O	poss	O	0	O
+0	12	217	1082	1090		215	regiment	regiment	regiment	NN	O	dobj	O	-1	B-noun.group
+0	12	218	1090	1091	N	203	.	.	.	.	O	punct	O	-1	O
+0	13	219	1092	1098	S	220	Terror	Terror	terror	NN	O	nsubj	O	-1	B-noun.feeling
+0	13	220	1099	1108	S	-1	overtakes	overtakes	overtake	VBZ	O	null	O	-1	B-verb.emotion
+0	13	221	1109	1112	S	220	him	him	he	PRP	O	dobj	O	0	O
+0	13	222	1113	1117	S	223	this	this	this	DT	O	det	O	-1	O
+0	13	223	1118	1122	S	220	time	time	time	NN	O	tmod	O	-1	B-noun.event
+0	13	224	1123	1126	S	220	and	and	and	CC	O	cc	O	-1	O
+0	13	225	1127	1129	S	226	he	he	he	PRP	O	nsubj	O	0	O
+0	13	226	1130	1135	S	220	leaps	leaps	leap	VBZ	O	conj	O	-1	B-verb.motion
+0	13	227	1136	1138	S	226	up	up	up	RB	O	advmod	O	-1	O
+0	13	228	1139	1142	S	220	and	and	and	CC	O	cc	O	-1	O
+0	13	229	1143	1148	S	220	flees	flees	flee	VBZ	O	conj	O	-1	B-verb.motion
+0	13	230	1149	1152	N	231	the	the	the	DT	O	det	O	-1	O
+0	13	231	1153	1157		229	line	line	line	NN	O	dobj	O	-1	B-noun.group
+0	13	232	1157	1158	S	220	.	.	.	.	O	punct	O	-1	O
+0	14	233	1159	1161	S	235	As	As	as	IN	O	mark	O	-1	O
+0	14	234	1162	1164	S	235	he	he	he	PRP	O	nsubj	O	0	O
+0	14	235	1165	1173	S	241	scampers	scampers	scamper	VBZ	O	advcl	O	-1	B-verb.motion
+0	14	236	1174	1180	S	235	across	across	across	IN	O	prep	O	-1	O
+0	14	237	1181	1184	S	238	the	the	the	DT	O	det	O	-1	O
+0	14	238	1185	1194		236	landscape	landscape	landscape	NN	O	pobj	O	-1	B-noun.location
+0	14	239	1194	1195	S	241	,	,	,	,	O	punct	O	-1	O
+0	14	240	1196	1198	S	241	he	he	he	PRP	O	nsubj	O	0	O
+0	14	241	1199	1204	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	14	242	1205	1212	S	241	himself	himself	himself	PRP	O	dep	O	-1	O
+0	14	243	1213	1217	N	244	that	that	that	WDT	O	nsubj	O	-1	O
+0	14	244	1218	1222	S	241	made	made	make	VBD	O	dep	O	-1	B-verb.social
+0	14	245	1223	1226	S	247	the	the	the	DT	O	det	O	-1	O
+0	14	246	1227	1232	S	247	right	right	right	JJ	O	amod	O	-1	O
+0	14	247	1233	1241		244	decision	decision	decision	NN	O	dobj	O	-1	B-noun.act
+0	14	248	1241	1242	S	244	,	,	,	,	O	punct	O	-1	O
+0	14	249	1243	1247	S	255	that	that	that	IN	O	complm	O	-1	O
+0	14	250	1248	1251	S	251	his	his	he	PRP$	O	poss	O	0	O
+0	14	251	1252	1260	S	255	regiment	regiment	regiment	NN	O	nsubjpass	O	-1	B-noun.group
+0	14	252	1261	1266	S	255	could	could	could	MD	O	aux	O	-1	O
+0	14	253	1267	1270	S	255	not	not	not	RB	O	neg	O	-1	O
+0	14	254	1271	1275	S	255	have	have	have	VB	O	aux	O	-1	O
+0	14	255	1276	1279		244	won	won	win	VBN	O	ccomp	O	-1	O
+0	14	256	1279	1280	S	255	,	,	,	,	O	punct	O	-1	O
+0	14	257	1281	1284	N	255	and	and	and	CC	O	cc	O	-1	O
+0	14	258	1285	1289	S	266	that	that	that	IN	O	complm	O	-1	O
+0	14	259	1290	1293	S	260	the	the	the	DT	O	det	O	-1	O
+0	14	260	1294	1297	S	266	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	14	261	1298	1301	S	262	who	who	who	WP	O	nsubj	O	-1	O
+0	14	262	1302	1310	S	260	remained	remained	remain	VBD	O	rcmod	O	-1	B-verb.stative
+0	14	263	1311	1313	S	264	to	to	to	TO	O	aux	O	-1	O
+0	14	264	1314	1319	S	262	fight	fight	fight	VB	O	xcomp	O	-1	B-verb.competition
+0	14	265	1320	1324	S	266	were	were	be	VBD	O	cop	O	-1	B-verb.stative
+0	14	266	1325	1330		255	fools	fools	fool	NNS	O	conj	O	-1	B-noun.person
+0	14	267	1330	1331	S	241	.	.	.	.	O	punct	O	-1	O
+0	15	268	1332	1334	S	269	He	He	he	PRP	O	nsubj	O	0	O
+0	15	269	1335	1341	S	-1	passes	passes	pass	VBZ	O	null	O	-1	B-verb.motion
+0	15	270	1342	1343	S	271	a	a	a	DT	O	det	O	-1	O
+0	15	271	1344	1351	N	269	general	general	general	JJ	O	dobj	O	-1	O
+0	15	272	1352	1354	S	271	on	on	on	IN	O	prep	O	-1	O
+0	15	273	1355	1364	S	272	horseback	horseback	horseback	NN	O	pobj	O	-1	B-noun.animal
+0	15	274	1365	1368	S	269	and	and	and	CC	O	cc	O	-1	O
+0	15	275	1369	1378	S	269	overhears	overhears	overhear	VBZ	O	conj	O	-1	B-verb.perception
+0	15	276	1379	1382	S	277	the	the	the	DT	O	det	O	-1	O
+0	15	277	1383	1392	S	275	commander	commander	commander	NN	O	dobj	O	-1	B-noun.person
+0	15	278	1393	1399	S	277	saying	saying	say	VBG	O	partmod	O	-1	B-verb.communication
+0	15	279	1400	1404	S	283	that	that	that	IN	O	complm	O	-1	O
+0	15	280	1405	1408	S	281	the	the	the	DT	O	det	O	-1	O
+0	15	281	1409	1417	N	283	regiment	regiment	regiment	NN	O	nsubj	O	-1	B-noun.group
+0	15	282	1418	1421	S	283	has	has	have	VBZ	O	aux	O	-1	O
+0	15	283	1422	1426	S	278	held	held	hold	VBN	O	ccomp	O	-1	B-verb.competition
+0	15	284	1427	1431	S	283	back	back	back	RP	O	prt	O	-1	O
+0	15	285	1432	1435	S	287	the	the	the	DT	O	det	O	-1	O
+0	15	286	1436	1441	S	287	enemy	enemy	enemy	NN	O	nn	O	-1	B-noun.group
+0	15	287	1442	1448		283	charge	charge	charge	NN	O	dobj	O	-1	B-noun.communication
+0	15	288	1448	1449	S	269	.	.	.	.	O	punct	O	-1	O
+0	16	289	1450	1457	S	295	Ashamed	Ashamed	ashamed	JJ	O	ccomp	O	-1	O
+0	16	290	1458	1460	S	289	of	of	of	IN	O	prep	O	-1	O
+0	16	291	1461	1464	S	292	his	his	he	PRP$	O	poss	O	0	O
+0	16	292	1465	1474		290	cowardice	cowardice	cowardice	NN	O	pobj	O	-1	B-noun.attribute
+0	16	293	1474	1475	S	295	,	,	,	,	O	punct	O	-1	O
+0	16	294	1476	1481	N	295	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	16	295	1482	1487	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	16	296	1488	1490	S	297	to	to	to	TO	O	aux	O	-1	O
+0	16	297	1491	1499	S	295	convince	convince	convince	VB	O	xcomp	O	-1	B-verb.communication
+0	16	298	1500	1507	S	297	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	16	299	1508	1512	S	302	that	that	that	IN	O	complm	O	-1	O
+0	16	300	1513	1515	S	302	he	he	he	PRP	O	nsubj	O	0	O
+0	16	301	1516	1519	S	302	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	16	302	1520	1525	S	297	right	right	right	JJ	O	ccomp	O	-1	O
+0	16	303	1526	1528	S	304	to	to	to	TO	O	aux	O	-1	O
+0	16	304	1529	1537	S	302	preserve	preserve	preserve	VB	O	xcomp	O	-1	B-verb.stative
+0	16	305	1538	1541	S	307	his	his	he	PRP$	O	poss	O	0	O
+0	16	306	1542	1545	N	307	own	own	own	JJ	O	amod	O	-1	O
+0	16	307	1546	1550	S	309	life	life	life	NN	O	nsubj	O	-1	B-noun.cognition
+0	16	308	1551	1553	S	309	to	to	to	TO	O	aux	O	-1	O
+0	16	309	1554	1556	S	304	do	do	do	VB	O	xcomp	O	-1	B-verb.social
+0	16	310	1557	1559		309	so	so	so	RB	O	advmod	O	-1	O
+0	16	311	1559	1560	S	295	.	.	.	.	O	punct	O	-1	O
+0	17	312	1561	1563	S	313	He	He	he	PRP	O	nsubj	O	0	O
+0	17	313	1564	1571	S	-1	wanders	wanders	wander	VBZ	O	null	O	-1	B-verb.motion
+0	17	314	1572	1579	S	313	through	through	through	IN	O	prep	O	-1	O
+0	17	315	1580	1581	S	317	a	a	a	DT	O	det	O	-1	O
+0	17	316	1582	1588	S	317	forest	forest	forest	NN	O	nn	O	-1	B-noun.group
+0	17	317	1589	1594	S	314	glade	glade	glade	NN	O	pobj	O	-1	B-noun.location
+0	17	318	1595	1597	S	321	in	in	in	IN	O	rel	O	-1	O
+0	17	319	1598	1603	S	318	which	which	which	WDT	O	pobj	O	-1	O
+0	17	320	1604	1606	S	321	he	he	he	PRP	O	nsubj	O	0	O
+0	17	321	1607	1617	S	317	encounters	encounters	encounter	VBZ	O	rcmod	O	-1	B-verb.motion
+0	17	322	1618	1621	N	324	the	the	the	DT	O	det	O	-1	O
+0	17	323	1622	1630	S	324	decaying	decaying	decay	VBG	O	amod	O	-1	B-verb.change
+0	17	324	1631	1637	S	321	corpse	corpse	corpse	NN	O	dobj	O	-1	B-noun.body
+0	17	325	1638	1640	S	324	of	of	of	IN	O	prep	O	-1	O
+0	17	326	1641	1642	S	327	a	a	a	DT	O	det	O	-1	O
+0	17	327	1643	1650		325	soldier	soldier	soldier	NN	O	pobj	O	-1	B-noun.person
+0	17	328	1650	1651	S	313	.	.	.	.	O	punct	O	-1	O
+0	18	329	1652	1658		332	Shaken	Shaken	shake	VBN	O	ccomp	O	-1	B-verb.motion
+0	18	330	1658	1659	S	332	,	,	,	,	O	punct	O	-1	O
+0	18	331	1660	1662	S	332	he	he	he	PRP	O	nsubj	O	0	O
+0	18	332	1663	1670	S	-1	hurries	hurries	hurry	VBZ	O	null	O	-1	B-verb.motion
+0	18	333	1671	1675		332	away	away	away	RB	O	advmod	O	-1	O
+0	18	334	1675	1676	S	332	.	.	.	.	O	punct	O	-1	O
+0	19	335	1677	1682	S	340	After	After	after	IN	O	prep	O	-1	O
+0	19	336	1683	1684	S	337	a	a	a	DT	O	det	O	-1	O
+0	19	337	1685	1689		335	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	19	338	1689	1690	S	340	,	,	,	,	O	punct	O	-1	O
+0	19	339	1691	1696	S	340	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	19	340	1697	1702	S	-1	joins	joins	join	VBZ	O	null	O	-1	B-verb.social
+0	19	341	1703	1704	S	342	a	a	a	DT	O	det	O	-1	O
+0	19	342	1705	1711	S	340	column	column	column	NN	O	dobj	O	-1	B-noun.group
+0	19	343	1712	1714	S	342	of	of	of	IN	O	prep	O	-1	O
+0	19	344	1715	1722	S	345	wounded	wounded	wounded	JJ	O	amod	O	-1	O
+0	19	345	1723	1731	N	343	soldiers	soldiers	soldier	NNS	O	pobj	O	-1	B-noun.person
+0	19	346	1732	1739	S	345	winding	winding	wind	VBG	O	partmod	O	-1	B-verb.motion
+0	19	347	1740	1744	S	346	down	down	down	IN	O	advmod	O	-1	O
+0	19	348	1745	1748	S	349	the	the	the	DT	O	det	O	-1	O
+0	19	349	1749	1753		347	road	road	road	NN	O	pobj	O	-1	B-noun.artifact
+0	19	350	1753	1754	S	340	.	.	.	.	O	punct	O	-1	O
+0	20	351	1755	1757	S	354	He	He	he	PRP	O	nsubj	O	0	O
+0	20	352	1758	1760	S	354	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	20	353	1761	1767	S	354	deeply	deeply	deeply	RB	O	advmod	O	-1	O
+0	20	354	1768	1775	S	-1	envious	envious	envious	JJ	O	null	O	-1	O
+0	20	355	1776	1778	S	354	of	of	of	IN	O	prep	O	-1	O
+0	20	356	1779	1784	S	357	these	these	these	DT	O	det	O	-1	O
+0	20	357	1785	1788		355	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	20	358	1788	1789	S	354	,	,	,	,	O	punct	O	-1	O
+0	20	359	1790	1798	N	354	thinking	thinking	think	VBG	O	xcomp	O	-1	B-verb.cognition
+0	20	360	1799	1803	S	363	that	that	that	IN	O	complm	O	-1	O
+0	20	361	1804	1805	S	362	a	a	a	DT	O	det	O	-1	O
+0	20	362	1806	1811	S	363	wound	wound	wound	NN	O	nsubj	O	-1	B-noun.state
+0	20	363	1812	1814	S	359	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	20	364	1815	1819	S	363	like	like	like	IN	O	prep	O	-1	O
+0	20	365	1820	1821		364	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	20	366	1821	1822	S	368	a	a	a	DT	O	det	I-QUOTE	-1	O
+0	20	367	1823	1826	S	368	red	red	red	JJ	O	amod	I-QUOTE	-1	O
+0	20	368	1827	1832	S	364	badge	badge	badge	NN	O	pobj	I-QUOTE	-1	B-noun.communication
+0	20	369	1833	1835	S	368	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	20	370	1836	1843		369	courage	courage	courage	NN	O	pobj	I-QUOTE	-1	B-noun.attribute
+0	20	371	1843	1844		368	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	20	372	1844	1845		368	—	--	--	:	O	punct	O	-1	O
+0	20	373	1845	1852	S	374	visible	visible	visible	JJ	O	amod	O	-1	O
+0	20	374	1853	1858	S	368	proof	proof	proof	NN	O	dep	O	-1	B-noun.communication
+0	20	375	1859	1861	N	374	of	of	of	IN	O	prep	O	-1	O
+0	20	376	1862	1870	S	377	valorous	valorous	valorous	JJ	O	amod	O	-1	O
+0	20	377	1871	1879		375	behavior	behavior	behavior	NN	O	pobj	O	-1	B-noun.act
+0	20	378	1879	1880	S	354	.	.	.	.	O	punct	O	-1	O
+0	21	379	1881	1883	S	380	He	He	he	PRP	O	nsubj	O	0	O
+0	21	380	1884	1889	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	21	381	1890	1891	S	383	a	a	a	DT	O	det	O	-1	O
+0	21	382	1892	1900	S	383	tattered	tattered	tattered	JJ	O	amod	O	-1	O
+0	21	383	1901	1904	S	380	man	man	man	NN	O	dobj	O	-1	B-noun.person
+0	21	384	1905	1908	S	387	who	who	who	WP	O	nsubj	O	-1	O
+0	21	385	1909	1912	S	387	has	has	have	VBZ	O	aux	O	-1	O
+0	21	386	1913	1917	S	387	been	been	be	VBN	O	auxpass	O	-1	O
+0	21	387	1918	1922	S	383	shot	shot	shoot	VBN	O	rcmod	O	-1	B-verb.social
+0	21	388	1923	1928	N	387	twice	twice	twice	RB	O	advmod	O	-1	O
+0	21	389	1929	1932	S	387	and	and	and	CC	O	cc	O	-1	O
+0	21	390	1933	1936	S	391	who	who	who	WP	O	nsubj	O	-1	O
+0	21	391	1937	1943	S	387	speaks	speaks	speak	VBZ	O	conj	O	-1	B-verb.communication
+0	21	392	1944	1951	S	391	proudly	proudly	proudly	RB	O	advmod	O	-1	O
+0	21	393	1952	1954	S	391	of	of	of	IN	O	prep	O	-1	O
+0	21	394	1955	1958	S	395	the	the	the	DT	O	det	O	-1	O
+0	21	395	1959	1963	S	393	fact	fact	fact	NN	O	pobj	O	-1	B-noun.cognition
+0	21	396	1964	1968	S	401	that	that	that	IN	O	complm	O	-1	O
+0	21	397	1969	1972	S	398	his	his	he	PRP$	O	poss	O	0	O
+0	21	398	1973	1981	S	401	regiment	regiment	regiment	NN	O	nsubj	O	-1	B-noun.group
+0	21	399	1982	1985	S	401	did	did	do	VBD	O	aux	O	-1	O
+0	21	400	1986	1989	S	401	not	not	not	RB	O	neg	O	-1	O
+0	21	401	1990	1994		395	flee	flee	flee	VB	O	ccomp	O	-1	B-verb.motion
+0	21	402	1994	1995	N	380	.	.	.	.	O	punct	O	-1	O
+0	22	403	1996	1998	S	405	He	He	he	PRP	O	nsubj	O	0	O
+0	22	404	1999	2009	S	405	repeatedly	repeatedly	repeatedly	RB	O	advmod	O	-1	O
+0	22	405	2010	2014	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	22	406	2015	2020	S	405	Henry	Henry	Henry	NNP	PERSON	dobj	O	0	B-noun.person
+0	22	407	2021	2026	S	410	where	where	where	WRB	O	advmod	O	-1	O
+0	22	408	2027	2029	S	410	he	he	he	PRP	O	nsubjpass	O	0	O
+0	22	409	2030	2032	S	410	is	is	be	VBZ	O	auxpass	O	-1	O
+0	22	410	2033	2040		406	wounded	wounded	wound	VBN	O	rcmod	O	-1	B-verb.body
+0	22	411	2040	2041	S	406	,	,	,	,	O	punct	O	-1	O
+0	22	412	2042	2047	S	413	which	which	which	WDT	O	nsubj	O	-1	O
+0	22	413	2048	2053	S	406	makes	makes	make	VBZ	O	rcmod	O	-1	B-verb.change
+0	22	414	2054	2059	N	416	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	22	415	2060	2066	S	416	deeply	deeply	deeply	RB	O	advmod	O	-1	O
+0	22	416	2067	2080	S	413	uncomfortable	uncomfortable	uncomfortable	JJ	O	xcomp	O	-1	O
+0	22	417	2081	2084	S	413	and	and	and	CC	O	cc	O	-1	O
+0	22	418	2085	2092	S	421	compels	compels	compel	VBZ	O	aux	O	-1	B-verb.social
+0	22	419	2093	2096	S	421	him	him	he	PRP	O	nsubj	O	0	O
+0	22	420	2097	2099	S	421	to	to	to	TO	O	aux	O	-1	O
+0	22	421	2100	2105	S	413	hurry	hurry	hurry	VB	O	conj	O	-1	B-verb.motion
+0	22	422	2106	2110	S	421	away	away	away	RB	O	advmod	O	-1	O
+0	22	423	2111	2113	S	421	to	to	to	TO	O	prep	O	-1	O
+0	22	424	2114	2115	S	426	a	a	a	DT	O	det	O	-1	O
+0	22	425	2116	2125	N	426	different	different	different	JJ	O	amod	O	-1	O
+0	22	426	2126	2130	S	423	part	part	part	NN	O	pobj	O	-1	B-noun.relation
+0	22	427	2131	2133	S	426	of	of	of	IN	O	prep	O	-1	O
+0	22	428	2134	2137	S	429	the	the	the	DT	O	det	O	-1	O
+0	22	429	2138	2144		427	column	column	column	NN	O	pobj	O	-1	B-noun.group
+0	22	430	2144	2145	S	405	.	.	.	.	O	punct	O	-1	O
+0	23	431	2146	2148	S	432	He	He	he	PRP	O	nsubj	O	0	O
+0	23	432	2149	2154	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	23	433	2155	2156	S	435	a	a	a	DT	O	det	O	-1	O
+0	23	434	2157	2165	S	435	spectral	spectral	spectral	JJ	O	amod	O	-1	O
+0	23	435	2166	2173	S	432	soldier	soldier	soldier	NN	O	dobj	O	-1	B-noun.person
+0	23	436	2174	2178	S	432	with	with	with	IN	O	prep	O	-1	O
+0	23	437	2179	2180	S	441	a	a	a	DT	O	det	O	-1	O
+0	23	438	2181	2188		441	distant	distant	distant	JJ	O	amod	O	-1	O
+0	23	439	2188	2189	N	441	,	,	,	,	O	punct	O	-1	O
+0	23	440	2190	2194	S	441	numb	numb	numb	JJ	O	amod	O	-1	O
+0	23	441	2195	2199	S	436	look	look	look	NN	O	pobj	O	-1	B-noun.attribute
+0	23	442	2200	2202	S	441	on	on	on	IN	O	prep	O	-1	O
+0	23	443	2203	2206	S	444	his	his	he	PRP$	O	poss	O	0	O
+0	23	444	2207	2211		442	face	face	face	NN	O	pobj	O	-1	B-noun.body
+0	23	445	2211	2212	S	432	.	.	.	.	O	punct	O	-1	O
+0	24	446	2213	2218	S	448	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	24	447	2219	2229	S	448	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	24	448	2230	2240	S	-1	recognizes	recognizes	recognize	VBZ	O	null	O	-1	B-verb.cognition
+0	24	449	2241	2244	S	450	the	the	the	DT	O	det	O	-1	O
+0	24	450	2245	2248	S	448	man	man	man	NN	O	dobj	O	-1	B-noun.person
+0	24	451	2249	2251	S	448	as	as	as	IN	O	prep	O	-1	O
+0	24	452	2252	2253	N	456	a	a	a	DT	O	det	O	-1	O
+0	24	453	2254	2259	S	454	badly	badly	badly	RB	O	advmod	O	-1	O
+0	24	454	2260	2267	S	456	wounded	wounded	wound	VBN	O	amod	O	-1	B-verb.body
+0	24	455	2268	2271	S	456	Jim	Jim	Jim	NNP	PERSON	nn	O	2	B-noun.person
+0	24	456	2272	2279		451	Conklin	Conklin	Conklin	NNP	PERSON	pobj	O	2	I-noun.person
+0	24	457	2279	2280	S	448	.	.	.	.	O	punct	O	-1	O
+0	25	458	2281	2286	S	459	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	25	459	2287	2295	S	-1	promises	promises	promise	VBZ	O	null	O	-1	B-verb.communication
+0	25	460	2296	2298	S	461	to	to	to	TO	O	aux	O	-1	O
+0	25	461	2299	2303	S	459	take	take	take	VB	O	xcomp	O	-1	B-verb.social
+0	25	462	2304	2308	S	461	care	care	care	NN	O	dobj	O	-1	B-noun.act
+0	25	463	2309	2311	S	461	of	of	of	IN	O	prep	O	-1	O
+0	25	464	2312	2315		463	Jim	Jim	Jim	NNP	PERSON	pobj	O	2	O
+0	25	465	2315	2316	S	459	,	,	,	,	O	punct	O	-1	O
+0	25	466	2317	2320	N	459	but	but	but	CC	O	cc	O	-1	O
+0	25	467	2321	2324	S	468	Jim	Jim	Jim	NNP	PERSON	nsubj	O	2	B-noun.person
+0	25	468	2325	2329	S	459	runs	runs	run	VBZ	O	conj	O	-1	B-verb.motion
+0	25	469	2330	2334	S	468	from	from	from	IN	O	prep	O	-1	O
+0	25	470	2335	2338	S	471	the	the	the	DT	O	det	O	-1	O
+0	25	471	2339	2343	S	469	line	line	line	NN	O	pobj	O	-1	B-noun.artifact
+0	25	472	2344	2348	S	468	into	into	into	IN	O	prep	O	-1	O
+0	25	473	2349	2350	S	475	a	a	a	DT	O	det	O	-1	O
+0	25	474	2351	2356	S	475	small	small	small	JJ	O	amod	O	-1	O
+0	25	475	2357	2362	S	472	grove	grove	grove	NN	O	pobj	O	-1	B-noun.group
+0	25	476	2363	2365	S	475	of	of	of	IN	O	prep	O	-1	O
+0	25	477	2366	2372	S	476	bushes	bushes	bush	NNS	O	pobj	O	-1	B-noun.plant
+0	25	478	2373	2378	S	484	where	where	where	WRB	O	advmod	O	-1	O
+0	25	479	2379	2384	N	484	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	25	480	2385	2388	S	479	and	and	and	CC	O	cc	O	-1	O
+0	25	481	2389	2392	S	483	the	the	the	DT	O	det	O	-1	O
+0	25	482	2393	2401	S	483	tattered	tattered	tattered	JJ	O	amod	O	-1	O
+0	25	483	2402	2405	S	479	man	man	man	NN	O	conj	O	-1	B-noun.person
+0	25	484	2406	2411	S	477	watch	watch	watch	VB	O	rcmod	O	-1	B-verb.perception
+0	25	485	2412	2415	S	484	him	him	he	PRP	O	dobj	O	0	O
+0	25	486	2416	2419		484	die	die	die	VB	O	dep	O	-1	B-verb.change
+0	25	487	2419	2420	S	459	.	.	.	.	O	punct	O	-1	O
+0	26	488	2421	2426	S	493	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	26	489	2427	2430	S	488	and	and	and	CC	O	cc	O	-1	O
+0	26	490	2431	2434	S	492	the	the	the	DT	O	det	O	-1	O
+0	26	491	2435	2443	S	492	tattered	tattered	tattered	JJ	O	amod	O	-1	O
+0	26	492	2444	2451	S	488	soldier	soldier	soldier	NN	O	conj	O	-1	B-noun.person
+0	26	493	2452	2458	S	-1	wander	wander	wander	VBP	O	null	O	-1	B-verb.motion
+0	26	494	2459	2466	S	493	through	through	through	IN	O	prep	O	-1	O
+0	26	495	2467	2470	S	496	the	the	the	DT	O	det	O	-1	O
+0	26	496	2471	2476		494	woods	woods	wood	NNS	O	pobj	O	-1	B-noun.group
+0	26	497	2476	2477	S	493	.	.	.	.	O	punct	O	-1	O
+0	27	498	2478	2483	N	499	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	27	499	2484	2489	S	-1	hears	hears	hear	VBZ	O	null	O	-1	B-verb.perception
+0	27	500	2490	2493	S	501	the	the	the	DT	O	nsubj	O	-1	O
+0	27	501	2494	2500	S	499	rumble	rumble	rumble	VB	O	xcomp	O	-1	B-verb.perception
+0	27	502	2501	2503	S	501	of	of	of	IN	O	prep	O	-1	O
+0	27	503	2504	2510	S	502	combat	combat	combat	NN	O	pobj	O	-1	B-noun.act
+0	27	504	2511	2513	S	503	in	in	in	IN	O	prep	O	-1	O
+0	27	505	2514	2517	S	506	the	the	the	DT	O	det	O	-1	O
+0	27	506	2518	2526		504	distance	distance	distance	NN	O	pobj	O	-1	B-noun.attribute
+0	27	507	2526	2527	S	499	.	.	.	.	O	punct	O	-1	O
+0	28	508	2528	2531	S	510	The	The	the	DT	O	det	O	-1	O
+0	28	509	2532	2540	S	510	tattered	tattered	tattered	JJ	O	amod	O	-1	O
+0	28	510	2541	2548	N	511	soldier	soldier	soldier	NN	O	nsubj	O	-1	B-noun.person
+0	28	511	2549	2558	S	-1	continues	continues	continue	VBZ	O	null	O	-1	B-verb.stative
+0	28	512	2559	2561	S	513	to	to	to	TO	O	aux	O	-1	O
+0	28	513	2562	2565	S	511	ask	ask	ask	VB	O	xcomp	O	-1	B-verb.communication
+0	28	514	2566	2571	S	513	Henry	Henry	Henry	NNP	PERSON	dobj	O	0	B-noun.person
+0	28	515	2572	2577	S	513	about	about	about	IN	O	prep	O	-1	O
+0	28	516	2578	2581	S	517	his	his	he	PRP$	O	poss	O	0	O
+0	28	517	2582	2587		515	wound	wound	wound	NN	O	pobj	O	-1	B-noun.state
+0	28	518	2587	2588	S	513	,	,	,	,	O	punct	O	-1	O
+0	28	519	2589	2593	S	520	even	even	even	RB	O	dep	O	-1	O
+0	28	520	2594	2596	S	525	as	as	as	IN	O	mark	O	-1	O
+0	28	521	2597	2600	S	523	his	his	he	PRP$	O	poss	O	0	O
+0	28	522	2601	2604	S	523	own	own	own	JJ	O	amod	O	-1	O
+0	28	523	2605	2611	S	525	health	health	health	NN	O	nsubj	O	-1	B-noun.state
+0	28	524	2612	2619	N	525	visibly	visibly	visibly	RB	O	advmod	O	-1	O
+0	28	525	2620	2627		513	worsens	worsens	worsen	VBZ	O	advcl	O	-1	B-verb.change
+0	28	526	2627	2628	S	511	.	.	.	.	O	punct	O	-1	O
+0	29	527	2629	2631	S	532	At	At	at	IN	O	prep	O	-1	O
+0	29	528	2632	2636		527	last	last	last	JJ	O	pobj	O	-1	O
+0	29	529	2636	2637	S	532	,	,	,	,	O	punct	O	-1	O
+0	29	530	2638	2643	S	532	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	29	531	2644	2646	S	532	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	29	532	2647	2653	S	-1	unable	unable	unable	JJ	O	null	O	-1	O
+0	29	533	2654	2656	S	534	to	to	to	TO	O	aux	O	-1	O
+0	29	534	2657	2661	S	532	bear	bear	bear	VB	O	xcomp	O	-1	B-verb.possession
+0	29	535	2662	2665	S	537	the	the	the	DT	O	det	O	-1	O
+0	29	536	2666	2674	S	537	tattered	tattered	tattered	JJ	O	amod	O	-1	O
+0	29	537	2675	2678		539	man	man	man	NN	O	poss	O	-1	B-noun.person
+0	29	538	2678	2680	S	537	’s	's	's	POS	O	possessive	O	-1	O
+0	29	539	2681	2692	N	534	questioning	questioning	question	VBG	O	dobj	O	-1	B-verb.communication
+0	29	540	2693	2696	S	532	and	and	and	CC	O	cc	O	-1	O
+0	29	541	2697	2705	S	544	abandons	abandons	abandon	VBZ	O	aux	O	-1	B-verb.possession
+0	29	542	2706	2709	S	544	him	him	he	PRP	O	nsubj	O	0	O
+0	29	543	2710	2712	S	544	to	to	to	TO	O	aux	O	-1	O
+0	29	544	2713	2716	S	532	die	die	die	VB	O	conj	O	-1	B-verb.change
+0	29	545	2717	2719	S	544	in	in	in	IN	O	prep	O	-1	O
+0	29	546	2720	2723	S	547	the	the	the	DT	O	det	O	-1	O
+0	29	547	2724	2730		545	forest	forest	forest	NN	O	pobj	O	-1	B-noun.group
+0	29	548	2730	2731	S	532	.	.	.	.	O	punct	O	-1	O
+0	30	549	2732	2737	S	550	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	30	550	2738	2747	S	-1	continues	continues	continue	VBZ	O	null	O	-1	B-verb.stative
+0	30	551	2748	2750	S	552	to	to	to	TO	O	aux	O	-1	O
+0	30	552	2751	2757	S	550	wander	wander	wander	VB	O	xcomp	O	-1	B-verb.motion
+0	30	553	2758	2763	S	555	until	until	until	IN	O	mark	O	-1	O
+0	30	554	2764	2766	S	555	he	he	he	PRP	O	nsubj	O	0	O
+0	30	555	2767	2772	S	552	finds	finds	find	VBZ	O	advcl	O	-1	B-verb.perception
+0	30	556	2773	2780	S	555	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	30	557	2781	2786	N	558	close	close	close	RB	O	advmod	O	-1	O
+0	30	558	2787	2793	S	555	enough	enough	enough	RB	O	advmod	O	-1	O
+0	30	559	2794	2796	S	558	to	to	to	TO	O	dep	O	-1	O
+0	30	560	2797	2800	S	561	the	the	the	DT	O	det	O	-1	O
+0	30	561	2801	2812	S	559	battlefield	battlefield	battlefield	NN	O	pobj	O	-1	B-noun.location
+0	30	562	2813	2815	S	564	to	to	to	TO	O	aux	O	-1	O
+0	30	563	2816	2818	S	564	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	30	564	2819	2823	S	555	able	able	able	JJ	O	xcomp	O	-1	O
+0	30	565	2824	2826	S	566	to	to	to	TO	O	aux	O	-1	O
+0	30	566	2827	2832	S	564	watch	watch	watch	VB	O	xcomp	O	-1	B-verb.perception
+0	30	567	2833	2837	S	566	some	some	some	DT	O	dobj	O	-1	O
+0	30	568	2838	2840	S	567	of	of	of	IN	O	prep	O	-1	O
+0	30	569	2841	2844	S	570	the	the	the	DT	O	det	O	-1	O
+0	30	570	2845	2853		568	fighting	fighting	fighting	NN	O	pobj	O	-1	B-noun.act
+0	30	571	2853	2854	N	550	.	.	.	.	O	punct	O	-1	O
+0	31	572	2855	2857	S	573	He	He	he	PRP	O	nsubj	O	0	O
+0	31	573	2858	2862	S	-1	sees	sees	see	VBZ	O	null	O	-1	B-verb.perception
+0	31	574	2863	2864	S	576	a	a	a	DT	O	det	O	-1	O
+0	31	575	2865	2869	S	576	blue	blue	blue	JJ	O	amod	O	-1	O
+0	31	576	2870	2878	S	573	regiment	regiment	regiment	NN	O	dobj	O	-1	B-noun.group
+0	31	577	2879	2881	S	573	in	in	in	IN	O	prep	O	-1	O
+0	31	578	2882	2889	S	577	retreat	retreat	retreat	NN	O	pobj	O	-1	B-noun.act
+0	31	579	2890	2893	S	573	and	and	and	CC	O	cc	O	-1	O
+0	31	580	2894	2902	S	573	attempts	attempts	attempt	VBZ	O	conj	O	-1	B-verb.social
+0	31	581	2903	2905	S	582	to	to	to	TO	O	aux	O	-1	O
+0	31	582	2906	2910	S	580	stop	stop	stop	VB	O	xcomp	O	-1	B-verb.social
+0	31	583	2911	2914	S	584	the	the	the	DT	O	det	O	-1	O
+0	31	584	2915	2923	N	582	soldiers	soldiers	soldier	NNS	O	dobj	O	-1	B-noun.person
+0	31	585	2924	2926	S	586	to	to	to	TO	O	aux	O	-1	O
+0	31	586	2927	2931	S	582	find	find	find	VB	O	xcomp	O	-1	B-verb.communication
+0	31	587	2932	2935	S	586	out	out	out	RP	O	prt	O	-1	O
+0	31	588	2936	2940	S	590	what	what	what	WP	O	nsubj	O	-1	O
+0	31	589	2941	2944	S	590	has	has	have	VBZ	O	aux	O	-1	O
+0	31	590	2945	2953		586	happened	happened	happen	VBN	O	ccomp	O	-1	B-verb.change
+0	31	591	2953	2954	S	573	.	.	.	.	O	punct	O	-1	O
+0	32	592	2955	2958	S	597	One	One	one	CD	NUMBER	nsubj	O	-1	O
+0	32	593	2959	2961	S	592	of	of	of	IN	O	prep	O	-1	O
+0	32	594	2962	2965	S	596	the	the	the	DT	O	det	O	-1	O
+0	32	595	2966	2973	S	596	fleeing	fleeing	flee	VBG	O	amod	O	-1	B-verb.motion
+0	32	596	2974	2977	S	593	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	32	597	2978	2982	S	-1	hits	hits	hit	VBZ	O	null	O	-1	B-verb.contact
+0	32	598	2983	2986	S	597	him	him	he	PRP	O	dobj	O	0	O
+0	32	599	2987	2989	N	597	on	on	on	IN	O	prep	O	-1	O
+0	32	600	2990	2993	S	601	the	the	the	DT	O	det	O	-1	O
+0	32	601	2994	2998	S	599	head	head	head	NN	O	pobj	O	-1	B-noun.body
+0	32	602	2999	3003	S	601	with	with	with	IN	O	prep	O	-1	O
+0	32	603	3004	3005	S	604	a	a	a	DT	O	det	O	-1	O
+0	32	604	3006	3011		602	rifle	rifle	rifle	NN	O	pobj	O	-1	B-noun.artifact
+0	32	605	3011	3012	S	597	,	,	,	,	O	punct	O	-1	O
+0	32	606	3013	3020	S	597	opening	opening	open	VBG	O	xcomp	O	-1	B-verb.contact
+0	32	607	3021	3022	S	609	a	a	a	DT	O	det	O	-1	O
+0	32	608	3023	3029	S	609	bloody	bloody	bloody	JJ	O	amod	O	-1	O
+0	32	609	3030	3034	S	606	gash	gash	gash	NN	O	dobj	O	-1	B-noun.state
+0	32	610	3035	3037	S	609	on	on	on	IN	O	prep	O	-1	O
+0	32	611	3038	3043		613	Henry	Henry	Henry	NNP	PERSON	poss	O	0	B-noun.person
+0	32	612	3043	3045	S	611	’s	's	's	POS	O	possessive	O	-1	O
+0	32	613	3046	3050		610	head	head	head	NN	O	pobj	O	-1	B-noun.body
+0	32	614	3050	3051	S	597	.	.	.	.	O	punct	O	-1	O
+0	33	615	3052	3062		619	Eventually	Eventually	eventually	RB	O	advmod	O	-1	O
+0	33	616	3062	3063	N	619	,	,	,	,	O	punct	O	-1	O
+0	33	617	3064	3071	S	618	another	another	another	DT	O	det	O	-1	O
+0	33	618	3072	3079	S	619	soldier	soldier	soldier	NN	O	nsubj	O	-1	B-noun.person
+0	33	619	3080	3085	S	-1	leads	leads	lead	VBZ	O	null	O	-1	B-verb.motion
+0	33	620	3086	3091	S	619	Henry	Henry	Henry	NNP	PERSON	dobj	O	0	B-noun.person
+0	33	621	3092	3094	S	619	to	to	to	TO	O	prep	O	-1	O
+0	33	622	3095	3098	S	623	his	his	he	PRP$	O	poss	O	0	O
+0	33	623	3099	3107		625	regiment	regiment	regiment	NN	O	poss	O	-1	B-noun.group
+0	33	624	3107	3109	S	623	’s	's	's	POS	O	possessive	O	-1	O
+0	33	625	3110	3114		621	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	33	626	3114	3115	S	625	,	,	,	,	O	punct	O	-1	O
+0	33	627	3116	3121	S	630	where	where	where	WRB	O	advmod	O	-1	O
+0	33	628	3122	3127	N	630	Henry	Henry	Henry	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	33	629	3128	3130	S	630	is	is	be	VBZ	O	auxpass	O	-1	O
+0	33	630	3131	3139	S	625	reunited	reunited	reunite	VBN	O	rcmod	O	-1	B-verb.social
+0	33	631	3140	3144	S	630	with	with	with	IN	O	prep	O	-1	O
+0	33	632	3145	3148	S	633	his	his	he	PRP$	O	poss	O	0	O
+0	33	633	3149	3159		631	companions	companions	companion	NNS	O	pobj	O	-1	B-noun.person
+0	33	634	3159	3160	S	619	.	.	.	.	O	punct	O	-1	O
+0	34	635	3161	3164	S	637	His	His	he	PRP$	O	poss	O	0	O
+0	34	636	3165	3171	S	637	friend	friend	friend	NN	O	nn	O	-1	B-noun.person
+0	34	637	3172	3178		646	Wilson	Wilson	Wilson	NNP	PERSON	nsubj	O	1	B-noun.person
+0	34	638	3178	3179	S	646	,	,	,	,	O	punct	O	-1	O
+0	34	639	3180	3189	S	646	believing	believing	believe	VBG	O	partmod	O	-1	B-verb.cognition
+0	34	640	3190	3194	N	644	that	that	that	IN	O	complm	O	-1	O
+0	34	641	3195	3200	S	644	Henry	Henry	Henry	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	34	642	3201	3204	S	644	has	has	have	VBZ	O	aux	O	-1	O
+0	34	643	3205	3209	S	644	been	been	be	VBN	O	auxpass	O	-1	O
+0	34	644	3210	3214		639	shot	shot	shoot	VBN	O	ccomp	O	-1	B-verb.social
+0	34	645	3214	3215	S	646	,	,	,	,	O	punct	O	-1	O
+0	34	646	3216	3221	S	-1	cares	cares	care	VBZ	O	null	O	-1	B-verb.emotion
+0	34	647	3222	3225	S	646	for	for	for	IN	O	prep	O	-1	O
+0	34	648	3226	3229	S	647	him	him	he	PRP	O	pobj	O	0	O
+0	34	649	3230	3238		648	tenderly	tenderly	tenderly	RB	O	advmod	O	-1	O
+0	34	650	3238	3239	S	646	.	.	.	.	O	punct	O	-1	O
+0	35	651	3240	3243	S	653	The	The	the	DT	DATE	det	O	-1	O
+0	35	652	3244	3248	S	653	next	next	next	JJ	DATE	amod	O	-1	O
+0	35	653	3249	3252		657	day	day	day	NN	DATE	nsubj	O	-1	B-noun.time
+0	35	654	3252	3253	S	657	,	,	,	,	O	punct	O	-1	O
+0	35	655	3254	3257	S	656	the	the	the	DT	O	det	O	-1	O
+0	35	656	3258	3266	S	657	regiment	regiment	regiment	NN	O	nsubj	O	-1	B-noun.group
+0	35	657	3267	3275	S	-1	proceeds	proceeds	proceed	VBZ	O	null	O	-1	B-verb.motion
+0	35	658	3276	3280	S	657	back	back	back	RB	O	advmod	O	-1	O
+0	35	659	3281	3283	N	658	to	to	to	TO	O	dep	O	-1	O
+0	35	660	3284	3287	S	661	the	the	the	DT	O	det	O	-1	O
+0	35	661	3288	3299		659	battlefield	battlefield	battlefield	NN	O	pobj	O	-1	B-noun.location
+0	35	662	3299	3300	S	657	.	.	.	.	O	punct	O	-1	O
+0	36	663	3301	3306	S	664	Henry	Henry	Henry	NNP	PERSON	nn	O	0	B-noun.person
+0	36	664	3307	3313	S	-1	fights	fights	fight	NNS	O	null	O	-1	B-noun.act
+0	36	665	3314	3318	S	664	like	like	like	IN	O	prep	O	-1	O
+0	36	666	3319	3320	S	667	a	a	a	DT	O	det	O	-1	O
+0	36	667	3321	3325		665	lion	lion	lion	NN	O	pobj	O	-1	B-noun.animal
+0	36	668	3325	3326	S	664	.	.	.	.	O	punct	O	-1	O
+0	37	669	3327	3335	S	675	Thinking	Thinking	think	VBG	O	dep	O	-1	B-verb.cognition
+0	37	670	3336	3338	S	669	of	of	of	IN	O	prep	O	-1	O
+0	37	671	3339	3342	S	672	Jim	Jim	Jim	NNP	PERSON	nn	O	2	B-noun.person
+0	37	672	3343	3350		670	Conklin	Conklin	Conklin	NNP	PERSON	pobj	O	2	I-noun.person
+0	37	673	3350	3351	N	675	,	,	,	,	O	punct	O	-1	O
+0	37	674	3352	3354	S	675	he	he	he	PRP	O	nsubj	O	0	O
+0	37	675	3355	3360	S	-1	vents	vents	vent	VBZ	O	null	O	-1	B-verb.communication
+0	37	676	3361	3364	S	677	his	his	he	PRP$	O	poss	O	0	O
+0	37	677	3365	3369	S	675	rage	rage	rage	NN	O	dobj	O	-1	B-noun.feeling
+0	37	678	3370	3377	S	677	against	against	against	IN	O	prep	O	-1	O
+0	37	679	3378	3381	S	681	the	the	the	DT	O	det	O	-1	O
+0	37	680	3382	3387	S	681	enemy	enemy	enemy	NN	O	nn	O	-1	B-noun.group
+0	37	681	3388	3396		678	soldiers	soldiers	soldier	NNS	O	pobj	O	-1	B-noun.person
+0	37	682	3396	3397	S	675	.	.	.	.	O	punct	O	-1	O
+0	38	683	3398	3401	S	684	His	His	he	PRP$	O	poss	O	0	O
+0	38	684	3402	3412	S	685	lieutenant	lieutenant	lieutenant	NN	O	nsubj	O	-1	B-noun.person
+0	38	685	3413	3417	N	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	38	686	3418	3422	S	694	that	that	that	IN	O	complm	O	-1	O
+0	38	687	3423	3427	S	694	with	with	with	IN	O	prep	O	-1	O
+0	38	688	3428	3431	S	689	ten	ten	ten	CD	NUMBER	number	O	-1	O
+0	38	689	3432	3440	S	690	thousand	thousand	thousand	CD	NUMBER	num	O	-1	O
+0	38	690	3441	3447		687	Henrys	Henrys	henry	NNS	ORGANIZATION	pobj	O	-1	O
+0	38	691	3447	3448	S	694	,	,	,	,	O	punct	O	-1	O
+0	38	692	3449	3451	S	694	he	he	he	PRP	O	nsubj	O	0	O
+0	38	693	3452	3457	S	694	could	could	could	MD	O	aux	O	-1	O
+0	38	694	3458	3461	S	685	win	win	win	VB	O	ccomp	O	-1	B-verb.competition
+0	38	695	3462	3465	S	696	the	the	the	DT	O	det	O	-1	O
+0	38	696	3466	3469	S	694	war	war	war	NN	O	dobj	O	-1	B-noun.act
+0	38	697	3470	3472	S	694	in	in	in	IN	O	prep	O	-1	O
+0	38	698	3473	3474	S	699	a	a	a	DT	DURATION	det	O	-1	O
+0	38	699	3475	3479		697	week	week	week	NN	DURATION	pobj	O	-1	B-noun.time
+0	38	700	3479	3480	S	685	.	.	.	.	O	punct	O	-1	O
+0	39	701	3481	3493		706	Nevertheless	Nevertheless	nevertheless	RB	O	advmod	O	-1	O
+0	39	702	3493	3494	S	706	,	,	,	,	O	punct	O	-1	O
+0	39	703	3495	3500	N	706	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	39	704	3501	3504	S	703	and	and	and	CC	O	cc	O	-1	O
+0	39	705	3505	3511	S	703	Wilson	Wilson	Wilson	NNP	PERSON	conj	O	1	B-noun.person
+0	39	706	3512	3520	S	-1	overhear	overhear	overhear	VBP	O	null	O	-1	B-verb.perception
+0	39	707	3521	3523	S	708	an	an	a	DT	O	det	O	-1	O
+0	39	708	3524	3531	S	709	officer	officer	officer	NN	O	nsubj	O	-1	B-noun.person
+0	39	709	3532	3535	S	706	say	say	say	VBP	O	ccomp	O	-1	B-verb.communication
+0	39	710	3536	3540	S	709	that	that	that	IN	O	prep	O	-1	O
+0	39	711	3541	3544	S	712	the	the	the	DT	O	det	O	-1	O
+0	39	712	3545	3553	S	710	soldiers	soldiers	soldier	NNS	O	dobj	O	-1	B-noun.person
+0	39	713	3554	3556	S	712	of	of	of	IN	O	prep	O	-1	O
+0	39	714	3557	3560	S	716	the	the	the	DT	O	det	O	-1	O
+0	39	715	3561	3566	N	716	304th	304th	304th	JJ	O	amod	O	-1	O
+0	39	716	3567	3572	S	713	fight	fight	fight	NN	O	pobj	O	-1	B-noun.act
+0	39	717	3573	3577	S	716	like	like	like	IN	O	prep	O	-1	O
+0	39	718	3578	3579		717	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	39	719	3579	3583	S	720	mule	mule	mule	JJ	O	amod	I-QUOTE	-1	O
+0	39	720	3584	3591		717	drivers	drivers	driver	NNS	O	pobj	I-QUOTE	-1	B-noun.person
+0	39	721	3591	3592		706	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	39	722	3592	3593	S	706	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	40	723	3594	3602		728	Insulted	Insulted	insult	VBN	O	ccomp	O	-1	O
+0	40	724	3602	3603	S	728	,	,	,	,	O	punct	O	-1	O
+0	40	725	3604	3608	S	728	they	they	they	PRP	O	nsubj	O	-1	O
+0	40	726	3609	3613	S	728	long	long	long	RB	O	advmod	O	-1	O
+0	40	727	3614	3616	S	728	to	to	to	TO	O	aux	O	-1	O
+0	40	728	3617	3622	S	-1	prove	prove	prove	VB	O	null	O	-1	B-verb.stative
+0	40	729	3623	3626	S	730	the	the	the	DT	O	det	O	-1	O
+0	40	730	3627	3630	N	731	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	40	731	3631	3636		728	wrong	wrong	wrong	JJ	O	xcomp	O	-1	O
+0	40	732	3636	3637	S	728	.	.	.	.	O	punct	O	-1	O
+0	41	733	3638	3640	S	743	In	In	in	IN	O	prep	O	-1	O
+0	41	734	3641	3643	S	736	an	an	a	DT	O	det	O	-1	O
+0	41	735	3644	3651	S	736	ensuing	ensuing	ensue	VBG	O	amod	O	-1	B-verb.stative
+0	41	736	3652	3658		733	charge	charge	charge	NN	O	pobj	O	-1	B-noun.communication
+0	41	737	3658	3659	S	743	,	,	,	,	O	punct	O	-1	O
+0	41	738	3660	3663	S	739	the	the	the	DT	O	det	O	-1	O
+0	41	739	3664	3672		742	regiment	regiment	regiment	NN	O	poss	O	-1	B-noun.group
+0	41	740	3672	3674	S	739	’s	's	's	POS	O	possessive	O	-1	O
+0	41	741	3675	3680	S	742	color	color	color	NN	O	nn	O	-1	B-noun.person
+0	41	742	3681	3687	S	743	bearer	bearer	bearer	NN	O	nsubj	O	-1	I-noun.person
+0	41	743	3688	3693		-1	falls	falls	fall	VBZ	O	null	O	-1	B-verb.motion
+0	41	744	3693	3694	N	743	.	.	.	.	O	punct	O	-1	O
+0	42	745	3695	3700	S	746	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	42	746	3701	3706	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.motion
+0	42	747	3707	3710	S	748	the	the	the	DT	O	det	O	-1	O
+0	42	748	3711	3715	S	746	flag	flag	flag	NN	O	dobj	O	-1	B-noun.artifact
+0	42	749	3716	3719	S	746	and	and	and	CC	O	cc	O	-1	O
+0	42	750	3720	3727	S	746	carries	carries	carry	VBZ	O	conj	O	-1	B-verb.contact
+0	42	751	3728	3730	S	750	it	it	it	PRP	O	dobj	O	-1	O
+0	42	752	3731	3738	S	750	proudly	proudly	proudly	RB	O	advmod	O	-1	O
+0	42	753	3739	3745	S	750	before	before	before	IN	O	prep	O	-1	O
+0	42	754	3746	3749	S	755	the	the	the	DT	O	det	O	-1	O
+0	42	755	3750	3758		753	regiment	regiment	regiment	NN	O	pobj	O	-1	B-noun.group
+0	42	756	3758	3759	N	746	.	.	.	.	O	punct	O	-1	O
+0	43	757	3760	3765	S	760	After	After	after	IN	O	mark	O	-1	O
+0	43	758	3766	3769	S	759	the	the	the	DT	O	det	O	-1	O
+0	43	759	3770	3776	S	760	charge	charge	charge	NN	O	nsubj	O	-1	B-noun.communication
+0	43	760	3777	3782		765	fails	fails	fail	VBZ	O	advcl	O	-1	O
+0	43	761	3782	3783	S	765	,	,	,	,	O	punct	O	-1	O
+0	43	762	3784	3787	S	764	the	the	the	DT	O	det	O	-1	O
+0	43	763	3788	3796	S	764	derisive	derisive	derisive	JJ	O	amod	O	-1	O
+0	43	764	3797	3804	S	765	officer	officer	officer	NN	O	nsubj	O	-1	B-noun.person
+0	43	765	3805	3810	S	782	tells	tells	tell	VBZ	O	ccomp	O	-1	B-verb.communication
+0	43	766	3811	3814	S	767	the	the	the	DT	O	det	O	-1	O
+0	43	767	3815	3823		769	regiment	regiment	regiment	NN	O	poss	O	-1	B-noun.group
+0	43	768	3823	3825	N	767	’s	's	's	POS	O	possessive	O	-1	O
+0	43	769	3826	3833	S	765	colonel	colonel	colonel	NN	O	dobj	O	-1	B-noun.person
+0	43	770	3834	3838	S	773	that	that	that	IN	O	complm	O	-1	O
+0	43	771	3839	3842	S	772	his	his	he	PRP$	O	poss	O	0	O
+0	43	772	3843	3846	S	773	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	43	773	3847	3852	S	769	fight	fight	fight	VB	O	ccomp	O	-1	B-verb.competition
+0	43	774	3853	3857	S	773	like	like	like	IN	O	prep	O	-1	O
+0	43	775	3858	3859		774	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	43	776	3859	3862	S	777	mud	mud	mud	NN	O	nn	I-QUOTE	-1	O
+0	43	777	3863	3870		774	diggers	diggers	digger	NNS	O	pobj	I-QUOTE	-1	O
+0	43	778	3870	3871		782	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	43	779	3871	3872	S	782	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	43	780	3873	3880	S	781	further	further	further	RBR	O	advmod	O	-1	O
+0	43	781	3881	3892	N	782	infuriating	infuriating	infuriating	JJ	O	amod	O	-1	O
+0	43	782	3893	3898		-1	Henry	Henry	Henry	NNP	PERSON	null	O	0	B-noun.person
+0	43	783	3898	3899	S	782	.	.	.	.	O	punct	O	-1	O
+0	44	784	3900	3907	S	785	Another	Another	another	DT	O	det	O	-1	O
+0	44	785	3908	3915	S	786	soldier	soldier	soldier	NN	O	nsubj	O	-1	B-noun.person
+0	44	786	3916	3921	S	800	tells	tells	tell	VBZ	O	advcl	O	-1	B-verb.communication
+0	44	787	3922	3927	S	786	Henry	Henry	Henry	NNP	PERSON	dobj	O	0	B-noun.person
+0	44	788	3928	3931	S	787	and	and	and	CC	O	cc	O	-1	O
+0	44	789	3932	3938		787	Wilson	Wilson	Wilson	NNP	PERSON	conj	O	1	B-noun.person
+0	44	790	3938	3939	S	800	,	,	,	,	O	punct	O	-1	O
+0	44	791	3940	3942	S	800	to	to	to	TO	O	prep	O	-1	O
+0	44	792	3943	3948	S	793	their	their	they	PRP$	O	poss	O	-1	O
+0	44	793	3949	3962		791	gratification	gratification	gratification	NN	O	pobj	O	-1	B-noun.state
+0	44	794	3962	3963	N	800	,	,	,	,	O	punct	O	-1	O
+0	44	795	3964	3968	S	800	that	that	that	IN	O	complm	O	-1	O
+0	44	796	3969	3972	S	797	the	the	the	DT	O	det	O	-1	O
+0	44	797	3973	3980	S	800	colonel	colonel	colonel	NN	O	nsubj	O	-1	B-noun.person
+0	44	798	3981	3984	S	797	and	and	and	CC	O	cc	O	-1	O
+0	44	799	3985	3995	S	797	lieutenant	lieutenant	lieutenant	NN	O	conj	O	-1	B-noun.person
+0	44	800	3996	4004	S	-1	consider	consider	consider	VBP	O	null	O	-1	B-verb.communication
+0	44	801	4005	4009	S	804	them	them	they	PRP	O	nsubj	O	-1	O
+0	44	802	4010	4013	S	804	the	the	the	DT	O	det	O	-1	O
+0	44	803	4014	4018	S	804	best	best	best	JJS	O	amod	O	-1	O
+0	44	804	4019	4027	N	800	fighters	fighters	fighter	NNS	O	xcomp	O	-1	B-noun.person
+0	44	805	4028	4030	S	804	in	in	in	IN	O	prep	O	-1	O
+0	44	806	4031	4034	S	807	the	the	the	DT	O	det	O	-1	O
+0	44	807	4035	4043		805	regiment	regiment	regiment	NN	O	pobj	O	-1	B-noun.group
+0	44	808	4043	4044	S	800	.	.	.	.	O	punct	O	-1	O
+0	45	809	4045	4048	S	810	The	The	the	DT	O	det	O	-1	O
+0	45	810	4049	4054	S	812	group	group	group	NN	O	nsubjpass	O	-1	B-noun.group
+0	45	811	4055	4057	S	812	is	is	be	VBZ	O	auxpass	O	-1	O
+0	45	812	4058	4062	S	-1	sent	sent	send	VBN	O	null	O	-1	B-verb.motion
+0	45	813	4063	4067	S	812	into	into	into	IN	O	prep	O	-1	O
+0	45	814	4068	4072	S	815	more	more	more	JJR	O	amod	O	-1	O
+0	45	815	4073	4081		813	fighting	fighting	fighting	NN	O	pobj	O	-1	B-noun.act
+0	45	816	4081	4082	S	812	,	,	,	,	O	punct	O	-1	O
+0	45	817	4083	4086	S	812	and	and	and	CC	O	cc	O	-1	O
+0	45	818	4087	4092	S	819	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	45	819	4093	4102	N	812	continues	continues	continue	VBZ	O	conj	O	-1	B-verb.stative
+0	45	820	4103	4105	S	821	to	to	to	TO	O	aux	O	-1	O
+0	45	821	4106	4111	S	819	carry	carry	carry	VB	O	xcomp	O	-1	B-verb.contact
+0	45	822	4112	4115	S	823	the	the	the	DT	O	det	O	-1	O
+0	45	823	4116	4120		821	flag	flag	flag	NN	O	dobj	O	-1	B-noun.artifact
+0	45	824	4120	4121	S	812	.	.	.	.	O	punct	O	-1	O
+0	46	825	4122	4125	S	826	The	The	the	DT	O	det	O	-1	O
+0	46	826	4126	4134	S	827	regiment	regiment	regiment	NN	O	nsubj	O	-1	B-noun.group
+0	46	827	4135	4142	S	-1	charges	charges	charge	VBZ	O	null	O	-1	B-verb.competition
+0	46	828	4143	4144	S	829	a	a	a	DT	O	det	O	-1	O
+0	46	829	4145	4150	S	827	group	group	group	NN	O	dobj	O	-1	B-noun.group
+0	46	830	4151	4153	S	829	of	of	of	IN	O	prep	O	-1	O
+0	46	831	4154	4159	S	832	enemy	enemy	enemy	NN	O	nn	O	-1	B-noun.group
+0	46	832	4160	4168	N	830	soldiers	soldiers	soldier	NNS	O	pobj	O	-1	B-noun.person
+0	46	833	4169	4178	S	827	fortified	fortified	fortify	VBD	O	dep	O	-1	B-verb.change
+0	46	834	4179	4185	S	833	behind	behind	behind	IN	O	prep	O	-1	O
+0	46	835	4186	4187	S	836	a	a	a	DT	O	det	O	-1	O
+0	46	836	4188	4193		834	fence	fence	fence	NN	O	pobj	O	-1	B-noun.artifact
+0	46	837	4193	4194	S	833	,	,	,	,	O	punct	O	-1	O
+0	46	838	4195	4198		833	and	and	and	CC	O	cc	O	-1	O
+0	46	839	4198	4199	S	833	,	,	,	,	O	punct	O	-1	O
+0	46	840	4200	4205	S	845	after	after	after	IN	O	mark	O	-1	O
+0	46	841	4206	4207	S	843	a	a	a	DT	O	det	O	-1	O
+0	46	842	4208	4215	S	843	pitched	pitched	pitched	JJ	O	amod	O	-1	O
+0	46	843	4216	4222		845	battle	battle	battle	NN	O	nsubj	O	-1	B-noun.act
+0	46	844	4222	4223	S	843	,	,	,	,	O	punct	O	-1	O
+0	46	845	4224	4228	S	833	wins	wins	win	VBZ	O	advcl	O	-1	B-verb.competition
+0	46	846	4229	4232	N	847	the	the	the	DT	O	det	O	-1	O
+0	46	847	4233	4238		845	fence	fence	fence	NN	O	dobj	O	-1	B-noun.artifact
+0	46	848	4238	4239	S	827	.	.	.	.	O	punct	O	-1	O
+0	47	849	4240	4246	S	850	Wilson	Wilson	Wilson	NNP	PERSON	nsubj	O	1	B-noun.person
+0	47	850	4247	4253	S	-1	seizes	seizes	seize	VBZ	O	null	O	-1	B-verb.contact
+0	47	851	4254	4257	S	853	the	the	the	DT	O	det	O	-1	O
+0	47	852	4258	4263	S	853	enemy	enemy	enemy	NN	O	nn	O	-1	B-noun.group
+0	47	853	4264	4268	S	850	flag	flag	flag	NN	O	dobj	O	-1	B-noun.artifact
+0	47	854	4269	4272	S	853	and	and	and	CC	O	cc	O	-1	O
+0	47	855	4273	4276	S	856	the	the	the	DT	O	det	O	-1	O
+0	47	856	4277	4285	S	857	regiment	regiment	regiment	NN	O	nsubj	O	-1	B-noun.group
+0	47	857	4286	4291	S	853	takes	takes	take	VBZ	O	conj	O	-1	B-verb.social
+0	47	858	4292	4296	N	859	four	four	four	CD	NUMBER	num	O	-1	O
+0	47	859	4297	4306		857	prisoners	prisoners	prisoner	NNS	O	dobj	O	-1	B-noun.person
+0	47	860	4306	4307	S	850	.	.	.	.	O	punct	O	-1	O
+0	48	861	4308	4310	S	873	As	As	as	IN	O	prep	O	-1	O
+0	48	862	4311	4313	S	861	he	he	he	PRP	O	pobj	O	1	O
+0	48	863	4314	4317	S	862	and	and	and	CC	O	cc	O	-1	O
+0	48	864	4318	4321	S	865	the	the	the	DT	O	det	O	-1	O
+0	48	865	4322	4328	S	866	others	others	other	NNS	O	nsubj	O	-1	O
+0	48	866	4329	4334	S	862	march	march	march	VB	O	conj	O	-1	B-verb.motion
+0	48	867	4335	4339	S	866	back	back	back	RB	O	advmod	O	-1	O
+0	48	868	4340	4342	S	867	to	to	to	TO	O	dep	O	-1	O
+0	48	869	4343	4348	S	870	their	their	they	PRP$	O	poss	O	-1	O
+0	48	870	4349	4357		868	position	position	position	NN	O	pobj	O	-1	B-noun.location
+0	48	871	4357	4358	S	873	,	,	,	,	O	punct	O	-1	O
+0	48	872	4359	4364	N	873	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	48	873	4365	4373	S	-1	reflects	reflects	reflect	VBZ	O	null	O	-1	B-verb.perception
+0	48	874	4374	4376	S	873	on	on	on	IN	O	prep	O	-1	O
+0	48	875	4377	4380	S	876	his	his	he	PRP$	O	poss	O	0	O
+0	48	876	4381	4392	S	874	experiences	experiences	experience	NNS	O	pobj	O	-1	B-noun.cognition
+0	48	877	4393	4395	S	876	in	in	in	IN	O	prep	O	-1	O
+0	48	878	4396	4399	S	879	the	the	the	DT	O	det	O	-1	O
+0	48	879	4400	4403		877	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	48	880	4403	4404	S	873	.	.	.	.	O	punct	O	-1	O
+0	49	881	4405	4411	S	883	Though	Though	though	IN	O	mark	O	-1	O
+0	49	882	4412	4414	S	883	he	he	he	PRP	O	nsubj	O	0	O
+0	49	883	4415	4421	S	892	revels	revels	revel	NNS	O	advcl	O	-1	B-noun.act
+0	49	884	4422	4424	S	883	in	in	in	IN	O	prep	O	-1	O
+0	49	885	4425	4428	N	887	his	his	he	PRP$	O	poss	O	0	O
+0	49	886	4429	4435	S	887	recent	recent	recent	JJ	O	amod	O	-1	O
+0	49	887	4436	4443	S	884	success	success	success	NN	O	pobj	O	-1	B-noun.event
+0	49	888	4444	4446	S	887	in	in	in	IN	O	prep	O	-1	O
+0	49	889	4447	4453		888	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	49	890	4453	4454	S	892	,	,	,	,	O	punct	O	-1	O
+0	49	891	4455	4457	S	892	he	he	he	PRP	O	nsubj	O	0	O
+0	49	892	4458	4463	S	-1	feels	feels	feel	VBZ	O	null	O	-1	B-verb.cognition
+0	49	893	4464	4470	S	894	deeply	deeply	deeply	RB	O	advmod	O	-1	O
+0	49	894	4471	4478	S	892	ashamed	ashamed	ashamed	JJ	O	acomp	O	-1	O
+0	49	895	4479	4481	S	894	of	of	of	IN	O	prep	O	-1	O
+0	49	896	4482	4485	S	897	his	his	he	PRP$	O	poss	O	0	O
+0	49	897	4486	4494	N	895	behavior	behavior	behavior	NN	O	pobj	O	-1	B-noun.act
+0	49	898	4495	4498	S	900	the	the	the	DT	DATE	det	O	-1	O
+0	49	899	4499	4507	S	900	previous	previous	previous	JJ	DATE	amod	O	-1	O
+0	49	900	4508	4511		897	day	day	day	NN	DATE	dep	O	-1	B-noun.time
+0	49	901	4511	4512	S	892	,	,	,	,	O	punct	O	-1	O
+0	49	902	4513	4523	S	904	especially	especially	especially	RB	O	advmod	O	-1	O
+0	49	903	4524	4527	S	904	his	his	he	PRP$	O	poss	O	0	O
+0	49	904	4528	4539	S	892	abandonment	abandonment	abandonment	NN	O	ccomp	O	-1	B-noun.act
+0	49	905	4540	4542	S	904	of	of	of	IN	O	prep	O	-1	O
+0	49	906	4543	4546	S	908	the	the	the	DT	O	det	O	-1	O
+0	49	907	4547	4555	S	908	tattered	tattered	tattered	JJ	O	amod	O	-1	O
+0	49	908	4556	4559		905	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	49	909	4559	4560	N	892	.	.	.	.	O	punct	O	-1	O
+0	50	910	4561	4564	S	916	But	But	but	CC	O	cc	O	-1	O
+0	50	911	4565	4570	S	916	after	after	after	IN	O	prep	O	-1	O
+0	50	912	4571	4572	S	913	a	a	a	DT	O	det	O	-1	O
+0	50	913	4573	4579		911	moment	moment	moment	NN	O	pobj	O	-1	B-noun.time
+0	50	914	4579	4580	S	916	,	,	,	,	O	punct	O	-1	O
+0	50	915	4581	4583	S	916	he	he	he	PRP	O	nsubj	O	0	O
+0	50	916	4584	4588	S	-1	puts	puts	put	VBZ	O	null	O	-1	B-verb.contact
+0	50	917	4589	4592	S	918	his	his	he	PRP$	O	poss	O	0	O
+0	50	918	4593	4598	S	916	guilt	guilt	guilt	NN	O	dobj	O	-1	B-noun.state
+0	50	919	4599	4605	S	916	behind	behind	behind	IN	O	prep	O	-1	O
+0	50	920	4606	4609	S	919	him	him	he	PRP	O	pobj	O	0	O
+0	50	921	4610	4613	S	916	and	and	and	CC	O	cc	O	-1	O
+0	50	922	4614	4622	S	916	realizes	realizes	realize	VBZ	O	conj	O	-1	B-verb.cognition
+0	50	923	4623	4627	N	926	that	that	that	IN	O	complm	O	-1	O
+0	50	924	4628	4630	S	926	he	he	he	PRP	O	nsubj	O	0	O
+0	50	925	4631	4634	S	926	has	has	have	VBZ	O	aux	O	-1	O
+0	50	926	4635	4639	S	922	come	come	come	VBN	O	ccomp	O	-1	B-verb.change
+0	50	927	4640	4647	S	926	through	through	through	IN	O	prep	O	-1	O
+0	50	928	4648	4649		927	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	50	929	4649	4652	S	931	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	50	930	4653	4656	S	931	red	red	red	JJ	O	amod	I-QUOTE	-1	O
+0	50	931	4657	4665		927	sickness	sickness	sickness	NN	O	pobj	I-QUOTE	-1	B-noun.state
+0	50	932	4665	4666	S	931	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	50	933	4667	4669	S	931	of	of	of	IN	O	prep	O	-1	O
+0	50	934	4670	4676		933	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	50	935	4676	4677	S	916	.	.	.	.	O	punct	O	-1	O
+0	51	936	4678	4680	S	939	He	He	he	PRP	O	nsubj	O	0	O
+0	51	937	4681	4683	S	939	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	51	938	4684	4687	S	939	now	now	now	RB	DATE	advmod	O	-1	O
+0	51	939	4688	4692	N	-1	able	able	able	JJ	O	null	O	-1	O
+0	51	940	4693	4695	S	941	to	to	to	TO	O	aux	O	-1	O
+0	51	941	4696	4700	S	939	look	look	look	VB	O	xcomp	O	-1	B-verb.cognition
+0	51	942	4701	4708	S	941	forward	forward	forward	RB	O	advmod	O	-1	O
+0	51	943	4709	4711	S	941	to	to	to	TO	O	prep	O	-1	O
+0	51	944	4712	4717		943	peace	peace	peace	NN	O	pobj	O	-1	B-noun.state
+0	51	945	4717	4718	S	939	,	,	,	,	O	punct	O	-1	O
+0	51	946	4719	4726	S	939	feeling	feeling	feel	VBG	O	xcomp	O	-1	B-verb.perception
+0	51	947	4727	4728	S	951	a	a	a	DT	O	det	O	-1	O
+0	51	948	4729	4734		951	quiet	quiet	quiet	JJ	O	amod	O	-1	O
+0	51	949	4734	4735	S	951	,	,	,	,	O	punct	O	-1	O
+0	51	950	4736	4742	S	951	steady	steady	steady	JJ	O	amod	O	-1	O
+0	51	951	4743	4750	S	946	manhood	manhood	manhood	NN	O	dobj	O	-1	B-noun.state
+0	51	952	4751	4757	N	946	within	within	within	IN	O	prep	O	-1	O
+0	51	953	4758	4765		952	himself	himself	himself	PRP	O	pobj	O	-1	O
+0	51	954	4765	4766	N	939	.	.	.	.	O	punct	O	-1	O

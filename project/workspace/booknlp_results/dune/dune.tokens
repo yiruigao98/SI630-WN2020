@@ -1,0 +1,821 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	4	S	2	Dune	Dune	dune	NN	O	nsubjpass	O	-1	B-noun.object
+0	0	1	5	7	S	2	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	2	8	13	S	-1	based	based	base	VBN	O	null	O	-1	B-verb.cognition
+0	0	3	14	16	S	2	on	on	on	IN	O	prep	O	-1	O
+0	0	4	17	18	N	8	a	a	a	DT	O	det	O	-1	O
+0	0	5	19	26	S	8	complex	complex	complex	JJ	O	amod	O	-1	O
+0	0	6	27	35	S	8	imagined	imagined	imagine	VBN	O	amod	O	-1	B-verb.creation
+0	0	7	36	43	S	8	society	society	society	NN	O	nn	O	-1	B-noun.group
+0	0	8	44	47	S	3	set	set	set	NN	O	pobj	O	-1	B-noun.group
+0	0	9	48	55	S	10	roughly	roughly	roughly	RB	O	quantmod	O	-1	O
+0	0	10	56	62	S	11	20,000	20,000	20,000	CD	DURATION	num	O	-1	O
+0	0	11	63	68	N	8	years	years	year	NNS	DURATION	dep	O	-1	B-noun.time
+0	0	12	69	71	S	11	in	in	in	IN	O	prep	O	-1	O
+0	0	13	72	75	S	14	the	the	the	DT	DATE	det	O	-1	O
+0	0	14	76	82		12	future	future	future	NN	DATE	pobj	O	-1	B-noun.time
+0	0	15	82	83	S	2	.	.	.	.	O	punct	O	-1	O
+0	1	16	84	87	S	17	The	The	the	DT	O	det	O	-1	O
+0	1	17	88	95	S	20	setting	setting	setting	NN	O	nsubj	O	-1	B-noun.location
+0	1	18	96	98	S	20	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	19	99	102	S	20	the	the	the	DT	DATE	det	O	-1	O
+0	1	20	103	107	S	-1	year	year	year	NN	DATE	null	O	-1	B-noun.time
+0	1	21	108	114		20	10,191	10,191	10,191	CD	NUMBER	num	O	-1	O
+0	1	22	114	115	N	20	,	,	,	,	O	punct	O	-1	O
+0	1	23	116	119	S	20	and	and	and	CC	O	cc	O	-1	O
+0	1	24	120	125	S	25	human	human	human	JJ	O	amod	O	-1	O
+0	1	25	126	132	S	27	beings	beings	being	NNS	O	nsubj	O	-1	B-noun.state
+0	1	26	133	137	S	27	have	have	have	VBP	O	aux	O	-1	O
+0	1	27	138	144	S	20	spread	spread	spread	VBN	O	conj	O	-1	B-verb.motion
+0	1	28	145	148	S	27	out	out	out	RP	O	prt	O	-1	O
+0	1	29	149	152	S	27	and	and	and	CC	O	cc	O	-1	O
+0	1	30	153	162	S	31	colonized	colonized	colonize	VBN	O	amod	O	-1	B-verb.social
+0	1	31	163	170	S	27	planets	planets	planet	NNS	O	conj	O	-1	B-noun.object
+0	1	32	171	181	N	31	throughout	throughout	throughout	IN	O	prep	O	-1	O
+0	1	33	182	185	S	34	the	the	the	DT	O	det	O	-1	O
+0	1	34	186	194		32	universe	universe	universe	NN	O	pobj	O	-1	B-noun.object
+0	1	35	194	195	S	20	.	.	.	.	O	punct	O	-1	O
+0	2	36	196	198	S	49	On	On	on	IN	O	prep	O	-1	O
+0	2	37	199	202	S	39	the	the	the	DT	O	det	O	-1	O
+0	2	38	203	209	S	39	planet	planet	planet	NN	O	nn	O	-1	B-noun.object
+0	2	39	210	217		36	Caladan	Caladan	caladan	NN	PERSON	pobj	O	-1	O
+0	2	40	217	218	S	49	,	,	,	,	O	punct	O	-1	O
+0	2	41	219	223	S	42	Duke	Duke	Duke	NNP	PERSON	nn	O	5	B-noun.person
+0	2	42	224	228	S	49	Leto	Leto	Leto	NNP	PERSON	nsubj	O	5	I-noun.person
+0	2	43	229	231	S	42	of	of	of	IN	O	prep	O	-1	O
+0	2	44	232	235	S	45	the	the	the	DT	O	det	O	-1	O
+0	2	45	236	241	S	43	House	House	House	NNP	ORGANIZATION	pobj	O	-1	B-noun.group
+0	2	46	242	244	S	45	of	of	of	IN	ORGANIZATION	prep	O	-1	O
+0	2	47	245	253	N	46	Atreides	Atreides	Atreides	NNPS	ORGANIZATION	pobj	O	-1	B-noun.person
+0	2	48	254	256	S	49	is	is	be	VBZ	O	aux	O	-1	O
+0	2	49	257	266	S	-1	preparing	preparing	prepare	VBG	O	null	O	-1	B-verb.change
+0	2	50	267	269	S	51	to	to	to	TO	O	aux	O	-1	O
+0	2	51	270	275	S	49	leave	leave	leave	VB	O	xcomp	O	-1	B-verb.motion
+0	2	52	276	279	S	51	for	for	for	IN	O	prep	O	-1	O
+0	2	53	280	283	S	55	his	his	he	PRP$	O	poss	O	5	O
+0	2	54	284	287	S	55	new	new	new	JJ	O	amod	O	-1	O
+0	2	55	288	296	S	52	position	position	position	NN	O	pobj	O	-1	B-noun.location
+0	2	56	297	299	S	55	as	as	as	IN	O	prep	O	-1	O
+0	2	57	300	303	S	58	the	the	the	DT	O	det	O	-1	O
+0	2	58	304	312	S	56	governor	governor	governor	NN	O	pobj	O	-1	B-noun.person
+0	2	59	313	315	S	58	of	of	of	IN	O	prep	O	-1	O
+0	2	60	316	323		59	Arrakis	Arrakis	Arrakis	NNP	MISC	pobj	O	-1	O
+0	2	61	323	324	N	60	,	,	,	,	O	punct	O	-1	O
+0	2	62	325	326	S	64	a	a	a	DT	O	det	O	-1	O
+0	2	63	327	333	S	64	desert	desert	desert	NN	O	nn	O	-1	B-noun.location
+0	2	64	334	340	S	60	planet	planet	planet	NN	O	appos	O	-1	B-noun.object
+0	2	65	341	345	S	64	with	with	with	IN	O	prep	O	-1	O
+0	2	66	346	354	S	67	valuable	valuable	valuable	JJ	O	amod	O	-1	O
+0	2	67	355	364	S	65	resources	resources	resource	NNS	O	pobj	O	-1	B-noun.attribute
+0	2	68	365	367	S	67	of	of	of	IN	O	prep	O	-1	O
+0	2	69	368	375		68	melange	melange	melange	NN	O	pobj	O	-1	B-noun.group
+0	2	70	375	376	S	60	,	,	,	,	O	punct	O	-1	O
+0	2	71	377	378	S	73	a	a	a	DT	O	det	O	-1	O
+0	2	72	379	384	S	73	spice	spice	spice	NN	O	nn	O	-1	B-noun.substance
+0	2	73	385	389	N	60	drug	drug	drug	NN	O	appos	O	-1	B-noun.artifact
+0	2	74	390	394	S	77	that	that	that	WDT	O	nsubj	O	-1	O
+0	2	75	395	397	S	77	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	2	76	398	407	S	77	extremely	extremely	extremely	RB	O	advmod	O	-1	O
+0	2	77	408	415	S	73	popular	popular	popular	JJ	O	rcmod	O	-1	O
+0	2	78	416	420	S	77	with	with	with	IN	O	prep	O	-1	O
+0	2	79	421	428	S	80	wealthy	wealthy	wealthy	JJ	O	amod	O	-1	O
+0	2	80	429	435		78	people	people	people	NNS	O	pobj	O	-1	B-noun.group
+0	2	81	435	436	S	49	.	.	.	.	O	punct	O	-1	O
+0	3	82	437	441	S	-1	Leto	Leto	Leto	NNP	PERSON	null	O	5	B-noun.person
+0	3	83	442	445	S	82	and	and	and	CC	O	cc	O	-1	O
+0	3	84	446	449	S	85	his	his	he	PRP$	O	poss	O	5	O
+0	3	85	450	456		82	family	family	family	NN	O	conj	O	-1	B-noun.group
+0	3	86	456	457	N	82	,	,	,	,	O	punct	O	-1	O
+0	3	87	458	467	S	82	including	including	include	VBG	O	prep	O	-1	B-verb.stative
+0	3	88	468	471	S	89	his	his	he	PRP$	O	poss	O	5	O
+0	3	89	472	481		87	concubine	concubine	concubine	NN	O	pobj	O	-1	B-noun.person
+0	3	90	481	482	S	89	,	,	,	,	O	punct	O	-1	O
+0	3	91	483	490		89	Jessica	Jessica	Jessica	NNP	PERSON	appos	O	2	O
+0	3	92	490	491	S	82	,	,	,	,	O	punct	O	-1	O
+0	3	93	492	495	S	82	and	and	and	CC	O	cc	O	-1	O
+0	3	94	496	499	S	95	his	his	he	PRP$	O	poss	O	5	O
+0	3	95	500	503		82	son	son	son	NN	O	conj	O	-1	B-noun.person
+0	3	96	503	504	S	95	,	,	,	,	O	punct	O	-1	O
+0	3	97	505	509		95	Paul	Paul	Paul	NNP	PERSON	appos	O	7	O
+0	3	98	509	510	S	95	,	,	,	,	O	punct	O	-1	O
+0	3	99	511	518	S	95	suspect	suspect	suspect	VB	O	appos	O	-1	B-verb.communication
+0	3	100	519	520	S	101	a	a	a	DT	O	det	O	-1	O
+0	3	101	521	525	N	99	trap	trap	trap	NN	O	dobj	O	-1	B-noun.artifact
+0	3	102	526	528	S	99	by	by	by	IN	O	prep	O	-1	O
+0	3	103	529	534	S	104	their	their	they	PRP$	O	poss	O	-1	O
+0	3	104	535	541		102	rivals	rivals	rival	NNS	O	pobj	O	-1	B-noun.person
+0	3	105	541	542	S	95	,	,	,	,	O	punct	O	-1	O
+0	3	106	543	546	S	107	the	the	the	DT	O	det	O	-1	O
+0	3	107	547	557		95	Harkonnens	Harkonnens	Harkonnens	NNPS	PERSON	appos	O	-1	O
+0	3	108	557	558	S	95	,	,	,	,	O	punct	O	-1	O
+0	3	109	559	562	S	95	led	led	lead	VBN	O	partmod	O	-1	B-verb.motion
+0	3	110	563	565	S	109	by	by	by	IN	O	prep	O	-1	O
+0	3	111	566	571	S	112	Baron	Baron	Baron	NNP	PERSON	nn	O	9	B-noun.person
+0	3	112	572	581		110	Harkonnen	Harkonnen	Harkonnen	NNP	PERSON	pobj	O	9	I-noun.person
+0	3	113	581	582	S	82	.	.	.	.	O	punct	O	-1	O
+0	4	114	583	587	S	115	Leto	Leto	Leto	NNP	PERSON	nsubj	O	5	B-noun.person
+0	4	115	588	595	N	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	4	116	596	598	S	117	to	to	to	TO	O	aux	O	-1	O
+0	4	117	599	605	S	115	settle	settle	settle	VB	O	xcomp	O	-1	B-verb.change
+0	4	118	606	608	S	117	on	on	on	IN	O	prep	O	-1	O
+0	4	119	609	616	S	118	Arrakis	Arrakis	Arrakis	NNP	MISC	pobj	O	-1	B-noun.person
+0	4	120	617	624	S	121	because	because	because	IN	O	dep	O	-1	O
+0	4	121	625	627	S	117	of	of	of	IN	O	prep	O	-1	O
+0	4	122	628	631	S	124	its	its	its	PRP$	O	poss	O	-1	O
+0	4	123	632	636	S	124	rich	rich	rich	JJ	O	amod	O	-1	O
+0	4	124	637	645	S	121	supplies	supplies	supplies	NNS	O	pobj	O	-1	B-noun.possession
+0	4	125	646	648	S	124	of	of	of	IN	O	prep	O	-1	O
+0	4	126	649	656		125	melange	melange	melange	NN	O	pobj	O	-1	B-noun.group
+0	4	127	656	657	S	117	,	,	,	,	O	punct	O	-1	O
+0	4	128	658	665	N	117	despite	despite	despite	IN	O	prep	O	-1	O
+0	4	129	666	674	S	128	warnings	warnings	warning	NNS	O	pobj	O	-1	B-noun.communication
+0	4	130	675	679	S	129	from	from	from	IN	O	prep	O	-1	O
+0	4	131	680	683	S	132	his	his	he	PRP$	O	poss	O	5	O
+0	4	132	684	687		130	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	4	133	687	688	S	129	,	,	,	,	O	punct	O	-1	O
+0	4	134	689	698	S	129	including	including	include	VBG	O	prep	O	-1	B-verb.stative
+0	4	135	699	702	S	136	his	his	he	PRP$	O	poss	O	5	O
+0	4	136	703	710		134	adviser	adviser	adviser	NN	O	pobj	O	-1	B-noun.person
+0	4	137	710	711	S	136	,	,	,	,	O	punct	O	-1	O
+0	4	138	712	718	S	139	Thufir	Thufir	Thufir	NNP	PERSON	nn	O	-1	O
+0	4	139	719	724		136	Hawat	Hawat	Hawat	NNP	PERSON	appos	O	-1	O
+0	4	140	724	725	S	136	,	,	,	,	O	punct	O	-1	O
+0	4	141	726	729	N	136	and	and	and	CC	O	cc	O	-1	O
+0	4	142	730	733	S	143	his	his	he	PRP$	O	poss	O	5	O
+0	4	143	734	748		136	master-of-arms	master-of-arms	master-of-arm	NNS	O	conj	O	-1	O
+0	4	144	748	749	S	136	,	,	,	,	O	punct	O	-1	O
+0	4	145	750	756	S	146	Gurney	Gurney	Gurney	NNP	PERSON	nn	O	-1	O
+0	4	146	757	764		136	Halleck	Halleck	Halleck	NNP	PERSON	appos	O	-1	O
+0	4	147	764	765	S	115	.	.	.	.	O	punct	O	-1	O
+0	5	148	766	769	S	149	The	The	the	DT	O	det	O	-1	O
+0	5	149	770	778	S	150	Atreides	Atreides	Atreides	NNP	MISC	nsubj	O	-1	B-noun.person
+0	5	150	779	785	S	-1	arrive	arrive	arrive	VB	O	null	O	-1	B-verb.motion
+0	5	151	786	788	S	150	on	on	on	IN	O	prep	O	-1	O
+0	5	152	789	796	S	151	Arrakis	Arrakis	Arrakis	NNP	MISC	pobj	O	-1	B-noun.person
+0	5	153	797	800	S	152	and	and	and	CC	O	cc	O	-1	O
+0	5	154	801	804	S	155	the	the	the	DT	O	det	O	-1	O
+0	5	155	805	809	S	152	duke	duke	duke	NN	O	conj	O	-1	B-noun.person
+0	5	156	810	817	S	157	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	5	157	818	823	N	150	moves	moves	move	VBZ	O	dep	O	-1	B-verb.motion
+0	5	158	824	826	S	159	to	to	to	TO	O	aux	O	-1	O
+0	5	159	827	833	S	157	secure	secure	secure	VB	O	xcomp	O	-1	B-verb.possession
+0	5	160	834	837	S	161	the	the	the	DT	O	det	O	-1	O
+0	5	161	838	844	S	159	planet	planet	planet	NN	O	dobj	O	-1	B-noun.object
+0	5	162	845	849	S	159	from	from	from	IN	O	prep	O	-1	O
+0	5	163	850	851	S	165	a	a	a	DT	O	det	O	-1	O
+0	5	164	852	861	S	165	Harkonnen	Harkonnen	Harkonnen	NNP	O	nn	O	-1	B-noun.person
+0	5	165	862	868		162	attack	attack	attack	NN	O	pobj	O	-1	B-noun.act
+0	5	166	868	869	S	150	.	.	.	.	O	punct	O	-1	O
+0	6	167	870	873	S	169	His	His	he	PRP$	O	poss	O	5	O
+0	6	168	874	878	S	169	main	main	main	JJ	O	amod	O	-1	O
+0	6	169	879	883	S	170	plan	plan	plan	NN	O	nsubj	O	-1	B-noun.cognition
+0	6	170	884	886	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	6	171	887	889	S	172	to	to	to	TO	O	aux	O	-1	O
+0	6	172	890	896	N	170	enlist	enlist	enlist	VB	O	xcomp	O	-1	B-verb.competition
+0	6	173	897	900	S	174	the	the	the	DT	O	det	O	-1	O
+0	6	174	901	907		172	Fremen	Fremen	Fremen	NNP	MISC	dobj	O	-1	O
+0	6	175	907	908	S	174	,	,	,	,	O	punct	O	-1	O
+0	6	176	909	912	S	178	the	the	the	DT	O	det	O	-1	O
+0	6	177	913	918	S	178	tough	tough	tough	JJ	O	amod	O	-1	O
+0	6	178	919	926	S	174	natives	natives	native	NNS	O	appos	O	-1	B-noun.person
+0	6	179	927	929	S	178	of	of	of	IN	O	prep	O	-1	O
+0	6	180	930	933	S	182	the	the	the	DT	O	det	O	-1	O
+0	6	181	934	942	S	182	Arrakeen	Arrakeen	Arrakeen	NNP	O	nn	O	-1	O
+0	6	182	943	949		179	desert	desert	desert	NN	O	pobj	O	-1	O
+0	6	183	949	950	S	174	,	,	,	,	O	punct	O	-1	O
+0	6	184	951	953	S	172	as	as	as	IN	O	prep	O	-1	O
+0	6	185	954	962	N	184	soldiers	soldiers	soldier	NNS	O	pobj	O	-1	B-noun.person
+0	6	186	963	966	S	185	and	and	and	CC	O	cc	O	-1	O
+0	6	187	967	975		185	advisers	advisers	adviser	NNS	O	conj	O	-1	B-noun.person
+0	6	188	975	976	S	170	.	.	.	.	O	punct	O	-1	O
+0	7	189	977	986		198	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	7	190	986	987	S	198	,	,	,	,	O	punct	O	-1	O
+0	7	191	988	992		197	Paul	Paul	Paul	NNP	PERSON	nn	O	7	B-noun.person
+0	7	192	992	994	S	191	’s	's	's	POS	O	possessive	O	-1	O
+0	7	193	995	998	S	191	and	and	and	CC	O	cc	O	-1	O
+0	7	194	999	1006		191	Jessica	Jessica	Jessica	NNP	PERSON	conj	O	2	B-noun.person
+0	7	195	1006	1008	S	194	’s	's	's	POS	O	possessive	O	-1	O
+0	7	196	1009	1016	S	197	special	special	special	JJ	O	amod	O	-1	O
+0	7	197	1017	1026	S	198	abilities	abilities	ability	NNS	O	nsubj	O	-1	B-noun.attribute
+0	7	198	1027	1035	N	-1	intrigue	intrigue	intrigue	VBP	O	null	O	-1	B-verb.stative
+0	7	199	1036	1039	S	200	the	the	the	DT	O	det	O	-1	O
+0	7	200	1040	1046		198	Fremen	Fremen	Fremen	NNP	MISC	dobj	O	-1	O
+0	7	201	1046	1047	S	198	.	.	.	.	O	punct	O	-1	O
+0	8	202	1048	1055	S	205	Jessica	Jessica	Jessica	NNP	PERSON	nsubj	O	2	B-noun.person
+0	8	203	1056	1058	S	205	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	8	204	1059	1060	S	205	a	a	a	DT	O	det	O	-1	O
+0	8	205	1061	1067	S	-1	member	member	member	NN	O	null	O	-1	B-noun.person
+0	8	206	1068	1070	S	205	of	of	of	IN	O	prep	O	-1	O
+0	8	207	1071	1074	S	209	the	the	the	DT	O	det	O	-1	O
+0	8	208	1075	1079	S	209	Bene	Bene	Bene	NNP	PERSON	nn	O	-1	B-noun.person
+0	8	209	1080	1088		206	Gesserit	Gesserit	Gesserit	NNP	PERSON	pobj	O	-1	I-noun.person
+0	8	210	1088	1089	S	209	,	,	,	,	O	punct	O	-1	O
+0	8	211	1090	1091	S	212	a	a	a	DT	O	det	O	-1	O
+0	8	212	1092	1098	S	209	school	school	school	NN	O	appos	O	-1	B-noun.group
+0	8	213	1099	1101	N	212	of	of	of	IN	O	prep	O	-1	O
+0	8	214	1102	1116	S	215	quasi-mystical	quasi-mystical	quasi-mystical	JJ	O	amod	O	-1	O
+0	8	215	1117	1124	S	213	witches	witches	witch	NNS	O	pobj	O	-1	B-noun.person
+0	8	216	1125	1129	S	212	with	with	with	IN	O	prep	O	-1	O
+0	8	217	1130	1137	S	218	strange	strange	strange	JJ	O	amod	O	-1	O
+0	8	218	1138	1144		216	powers	powers	power	NNS	O	pobj	O	-1	B-noun.cognition
+0	8	219	1144	1145	S	205	.	.	.	.	O	punct	O	-1	O
+0	9	220	1146	1149	S	221	The	The	the	DT	O	det	O	-1	O
+0	9	221	1150	1156	S	222	Fremen	Fremen	fremen	JJ	MISC	nsubj	O	-1	O
+0	9	222	1157	1164	S	-1	believe	believe	believe	VBP	O	null	O	-1	B-verb.cognition
+0	9	223	1165	1169	N	229	that	that	that	IN	O	complm	O	-1	O
+0	9	224	1170	1177	S	229	Jessica	Jessica	Jessica	NNP	PERSON	nsubj	O	2	B-noun.person
+0	9	225	1178	1181	S	224	and	and	and	CC	O	cc	O	-1	O
+0	9	226	1182	1185	S	227	her	her	she	PRP$	O	poss	O	2	O
+0	9	227	1186	1189	S	224	son	son	son	NN	O	conj	O	-1	B-noun.person
+0	9	228	1190	1193	S	229	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	9	229	1194	1201	S	222	saviors	saviors	savior	NNS	O	ccomp	O	-1	B-noun.person
+0	9	230	1202	1205	S	232	who	who	who	WP	O	nsubj	O	-1	O
+0	9	231	1206	1210	S	232	have	have	have	VBP	O	aux	O	-1	O
+0	9	232	1211	1215	S	229	come	come	come	VBN	O	rcmod	O	-1	B-verb.motion
+0	9	233	1216	1218	S	234	to	to	to	TO	O	aux	O	-1	O
+0	9	234	1219	1223	S	232	lead	lead	lead	VB	O	xcomp	O	-1	B-verb.motion
+0	9	235	1224	1228	S	234	them	them	they	PRP	O	dobj	O	-1	O
+0	9	236	1229	1235	N	234	toward	toward	toward	IN	O	prep	O	-1	O
+0	9	237	1236	1244	S	236	creating	creating	create	VBG	O	pcomp	O	-1	B-verb.creation
+0	9	238	1245	1246	S	240	a	a	a	DT	O	det	O	-1	O
+0	9	239	1247	1251	S	240	lush	lush	lush	JJ	O	amod	O	-1	O
+0	9	240	1252	1260	S	237	paradise	paradise	paradise	NN	O	dobj	O	-1	B-noun.location
+0	9	241	1261	1263	S	240	on	on	on	IN	O	prep	O	-1	O
+0	9	242	1264	1267	S	244	the	the	the	DT	O	det	O	-1	O
+0	9	243	1268	1271	S	244	dry	dry	dry	JJ	O	amod	O	-1	O
+0	9	244	1272	1279		241	Arrakis	Arrakis	Arrakis	NNP	MISC	pobj	O	-1	O
+0	9	245	1279	1280	S	222	.	.	.	.	O	punct	O	-1	O
+0	10	246	1281	1284	S	247	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	6	B-noun.person
+0	10	247	1285	1289		256	Yueh	Yueh	Yueh	NNP	PERSON	nsubj	O	6	I-noun.person
+0	10	248	1289	1290	S	247	,	,	,	,	O	punct	O	-1	O
+0	10	249	1291	1292	S	250	a	a	a	DT	O	det	O	-1	O
+0	10	250	1293	1299	S	247	member	member	member	NN	O	appos	O	-1	B-noun.person
+0	10	251	1300	1302	S	250	of	of	of	IN	O	prep	O	-1	O
+0	10	252	1303	1306	S	254	the	the	the	DT	O	det	O	-1	O
+0	10	253	1307	1315	S	254	Atreides	Atreides	Atreides	NNP	O	nn	O	-1	O
+0	10	254	1316	1321		251	house	house	house	NN	O	pobj	O	-1	O
+0	10	255	1321	1322	S	247	,	,	,	,	O	punct	O	-1	O
+0	10	256	1323	1330	S	-1	betrays	betrays	betray	VBZ	O	null	O	-1	B-verb.communication
+0	10	257	1331	1335		256	them	them	they	PRP	O	dobj	O	-1	O
+0	10	258	1335	1336	N	256	.	.	.	.	O	punct	O	-1	O
+0	11	259	1337	1340	S	260	The	The	the	DT	O	det	O	-1	O
+0	11	260	1341	1351	S	261	Harkonnens	Harkonnens	harkonnen	NNS	O	nsubj	O	-1	O
+0	11	261	1352	1358	S	-1	arrive	arrive	arrive	VBP	O	null	O	-1	B-verb.motion
+0	11	262	1359	1362	S	261	and	and	and	CC	O	cc	O	-1	O
+0	11	263	1363	1367	S	261	wipe	wipe	wipe	VBP	O	conj	O	-1	B-verb.contact
+0	11	264	1368	1372	S	263	most	most	most	JJS	O	dobj	O	-1	O
+0	11	265	1373	1375	S	264	of	of	of	IN	O	prep	O	-1	O
+0	11	266	1376	1379	S	267	the	the	the	DT	O	det	O	-1	O
+0	11	267	1380	1388	S	265	Atreides	Atreides	Atreides	NNPS	O	pobj	O	-1	B-noun.person
+0	11	268	1389	1392	S	263	out	out	out	RP	O	prt	O	-1	O
+0	11	269	1393	1395	S	263	by	by	by	IN	O	prep	O	-1	O
+0	11	270	1396	1401	S	269	using	using	use	VBG	O	pcomp	O	-1	B-verb.consumption
+0	11	271	1402	1411		270	Sardaukar	Sardaukar	Sardaukar	NNP	PERSON	dobj	O	0	O
+0	11	272	1411	1412	N	261	,	,	,	,	O	punct	O	-1	O
+0	11	273	1413	1416	S	274	the	the	the	DT	O	det	O	-1	O
+0	11	274	1417	1431	S	272	super-soldiers	super-soldiers	super-soldier	NNS	O	dobj	O	-1	O
+0	11	275	1432	1434	S	274	of	of	of	IN	O	prep	O	-1	O
+0	11	276	1435	1438	S	277	the	the	the	DT	O	det	O	-1	O
+0	11	277	1439	1446		275	emperor	emperor	emperor	NN	O	pobj	O	-1	B-noun.person
+0	11	278	1446	1447	S	274	,	,	,	,	O	punct	O	-1	O
+0	11	279	1448	1451	S	282	who	who	who	WP	O	nsubj	O	-1	O
+0	11	280	1452	1454	S	282	is	is	be	VBZ	O	aux	O	-1	B-verb.stative
+0	11	281	1455	1463	S	282	secretly	secretly	secretly	RB	O	advmod	O	-1	O
+0	11	282	1464	1471	S	274	helping	helping	help	VBG	O	rcmod	O	-1	B-verb.social
+0	11	283	1472	1475	S	284	the	the	the	DT	O	det	O	-1	O
+0	11	284	1476	1486		282	Harkonnens	Harkonnens	Harkonnens	NNPS	O	dobj	O	-1	O
+0	11	285	1486	1487	N	261	.	.	.	.	O	punct	O	-1	O
+0	12	286	1488	1491	S	287	The	The	the	DT	O	det	O	-1	O
+0	12	287	1492	1499		-1	traitor	traitor	traitor	NN	O	null	O	-1	B-noun.person
+0	12	288	1499	1500	S	287	,	,	,	,	O	punct	O	-1	O
+0	12	289	1501	1504	S	290	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	6	B-noun.person
+0	12	290	1505	1509		287	Yueh	Yueh	Yueh	NNP	PERSON	appos	O	6	I-noun.person
+0	12	291	1509	1510	S	287	,	,	,	,	O	punct	O	-1	O
+0	12	292	1511	1516	S	294	hands	hands	hand	NNS	O	nn	O	-1	B-noun.body
+0	12	293	1517	1521	S	294	Duke	Duke	Duke	NNP	PERSON	nn	O	5	B-noun.person
+0	12	294	1522	1526	S	287	Leto	Leto	Leto	NNP	PERSON	appos	O	5	I-noun.person
+0	12	295	1527	1531	S	287	over	over	over	IN	O	prep	O	-1	O
+0	12	296	1532	1534	S	295	to	to	to	TO	O	dep	O	-1	O
+0	12	297	1535	1538	S	298	the	the	the	DT	O	det	O	-1	O
+0	12	298	1539	1544		296	baron	baron	baron	NN	O	pobj	O	-1	B-noun.person
+0	12	299	1544	1545	S	287	,	,	,	,	O	punct	O	-1	O
+0	12	300	1546	1549	S	287	but	but	but	CC	O	cc	O	-1	O
+0	12	301	1550	1552	N	305	in	in	in	IN	O	prep	O	-1	O
+0	12	302	1553	1556	S	303	his	his	he	PRP$	O	poss	O	5	O
+0	12	303	1557	1562	S	301	guilt	guilt	guilt	NN	O	pobj	O	-1	B-noun.state
+0	12	304	1563	1565	S	305	he	he	he	PRP	O	nsubj	O	5	O
+0	12	305	1566	1571	S	287	helps	helps	help	VBZ	O	conj	O	-1	B-verb.social
+0	12	306	1572	1579	S	305	Jessica	Jessica	Jessica	NNP	PERSON	dobj	O	2	B-noun.person
+0	12	307	1580	1583	S	306	and	and	and	CC	O	cc	O	-1	O
+0	12	308	1584	1588	S	309	Paul	Paul	Paul	NNP	PERSON	nn	O	7	B-noun.person
+0	12	309	1589	1595		306	escape	escape	escape	NN	O	conj	O	-1	B-noun.act
+0	12	310	1595	1596	S	287	.	.	.	.	O	punct	O	-1	O
+0	13	311	1597	1600	S	312	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	6	B-noun.person
+0	13	312	1601	1605	S	313	Yueh	Yueh	Yueh	NNP	PERSON	nsubj	O	6	I-noun.person
+0	13	313	1606	1612	S	-1	places	places	place	VBZ	O	null	O	-1	B-verb.contact
+0	13	314	1613	1614	S	316	a	a	a	DT	O	det	O	-1	O
+0	13	315	1615	1621	N	316	secret	secret	secret	JJ	O	amod	O	-1	O
+0	13	316	1622	1627	S	313	tooth	tooth	tooth	NN	O	dobj	O	-1	B-noun.body
+0	13	317	1628	1630	S	313	in	in	in	IN	O	prep	O	-1	O
+0	13	318	1631	1635	S	319	Duke	Duke	Duke	NNP	PERSON	nn	O	5	B-noun.person
+0	13	319	1636	1640		321	Leto	Leto	Leto	NNP	PERSON	poss	O	5	I-noun.person
+0	13	320	1640	1642	S	319	’s	's	's	POS	O	possessive	O	-1	O
+0	13	321	1643	1648		317	mouth	mouth	mouth	NN	O	pobj	O	-1	B-noun.body
+0	13	322	1648	1649	S	313	.	.	.	.	O	punct	O	-1	O
+0	14	323	1650	1654	S	324	Duke	Duke	Duke	NNP	PERSON	nn	O	5	B-noun.person
+0	14	324	1655	1659	S	325	Leto	Leto	Leto	NNP	PERSON	nsubj	O	5	I-noun.person
+0	14	325	1660	1664	S	-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	14	326	1665	1667	S	325	by	by	by	IN	O	prep	O	-1	O
+0	14	327	1668	1676	S	326	emitting	emitting	emit	VBG	O	pcomp	O	-1	B-verb.body
+0	14	328	1677	1683	S	329	poison	poison	poison	NN	O	nn	O	-1	B-noun.substance
+0	14	329	1684	1687	N	327	gas	gas	gas	NN	O	dobj	O	-1	I-noun.substance
+0	14	330	1688	1692	S	327	from	from	from	IN	O	prep	O	-1	O
+0	14	331	1693	1696	S	333	the	the	the	DT	O	det	O	-1	O
+0	14	332	1697	1703	S	333	secret	secret	secret	JJ	O	amod	O	-1	O
+0	14	333	1704	1709		330	tooth	tooth	tooth	NN	O	pobj	O	-1	B-noun.body
+0	14	334	1709	1710	S	325	,	,	,	,	O	punct	O	-1	O
+0	14	335	1711	1713	S	325	in	in	in	IN	O	prep	O	-1	O
+0	14	336	1714	1715	S	338	a	a	a	DT	O	det	O	-1	O
+0	14	337	1716	1722	S	338	failed	failed	failed	JJ	O	amod	O	-1	O
+0	14	338	1723	1730	S	335	attempt	attempt	attempt	NN	O	pobj	O	-1	B-noun.act
+0	14	339	1731	1733	S	340	to	to	to	TO	O	aux	O	-1	O
+0	14	340	1734	1738	S	338	kill	kill	kill	VB	O	infmod	O	-1	B-verb.contact
+0	14	341	1739	1742	S	342	the	the	the	DT	O	det	O	-1	O
+0	14	342	1743	1748		340	baron	baron	baron	NN	O	dobj	O	-1	B-noun.person
+0	14	343	1748	1749	S	325	.	.	.	.	O	punct	O	-1	O
+0	15	344	1750	1755	N	347	Hawat	Hawat	hawat	NN	PERSON	nn	O	4	B-noun.person
+0	15	345	1756	1759	S	344	and	and	and	CC	O	cc	O	-1	O
+0	15	346	1760	1767	S	344	Halleck	Halleck	halleck	NN	PERSON	conj	O	3	B-noun.person
+0	15	347	1768	1774	S	-1	escape	escape	escape	NN	O	null	O	-1	B-noun.act
+0	15	348	1775	1777	S	349	as	as	as	RB	O	advmod	O	-1	O
+0	15	349	1778	1782		347	well	well	well	RB	O	advmod	O	-1	O
+0	15	350	1782	1783	S	347	.	.	.	.	O	punct	O	-1	O
+0	16	351	1784	1791	S	352	Halleck	Halleck	Halleck	NNP	PERSON	nsubj	O	3	B-noun.person
+0	16	352	1792	1797	S	-1	joins	joins	join	VBZ	O	null	O	-1	B-verb.social
+0	16	353	1798	1801	S	355	the	the	the	DT	O	det	O	-1	O
+0	16	354	1802	1807	S	355	local	local	local	JJ	O	amod	O	-1	O
+0	16	355	1808	1817	S	352	smugglers	smugglers	smuggler	NNS	O	dobj	O	-1	B-noun.person
+0	16	356	1818	1823	N	352	while	while	while	IN	O	prep	O	-1	O
+0	16	357	1824	1829	S	358	Hawat	Hawat	hawat	NN	PERSON	nn	O	4	B-noun.location
+0	16	358	1830	1838	S	356	attempts	attempts	attempt	NNS	O	dep	O	-1	B-noun.act
+0	16	359	1839	1841	S	360	to	to	to	TO	O	aux	O	-1	O
+0	16	360	1842	1846	S	358	join	join	join	VB	O	infmod	O	-1	B-verb.social
+0	16	361	1847	1850	S	362	the	the	the	DT	O	det	O	-1	O
+0	16	362	1851	1857		360	Fremen	Fremen	Fremen	NNP	MISC	dobj	O	-1	O
+0	16	363	1857	1858	S	358	,	,	,	,	O	punct	O	-1	O
+0	16	364	1859	1862	S	358	but	but	but	CC	O	cc	O	-1	O
+0	16	365	1863	1868	S	367	Hawat	Hawat	Hawat	NNP	PERSON	nsubjpass	O	4	B-noun.person
+0	16	366	1869	1871	S	367	is	is	be	VBZ	O	auxpass	O	-1	O
+0	16	367	1872	1880	S	358	captured	captured	capture	VBN	O	conj	O	-1	B-verb.creation
+0	16	368	1881	1883	S	367	by	by	by	IN	O	prep	O	-1	O
+0	16	369	1884	1887	N	370	the	the	the	DT	O	det	O	-1	O
+0	16	370	1888	1898		368	Harkonnens	Harkonnens	Harkonnens	NNP	O	pobj	O	-1	O
+0	16	371	1898	1899	S	352	.	.	.	.	O	punct	O	-1	O
+0	17	372	1900	1902	S	374	He	He	he	PRP	O	nsubj	O	5	O
+0	17	373	1903	1907	S	374	then	then	then	RB	O	advmod	O	-1	O
+0	17	374	1908	1914	S	-1	agrees	agrees	agree	VBZ	O	null	O	-1	B-verb.communication
+0	17	375	1915	1917	S	376	to	to	to	TO	O	aux	O	-1	O
+0	17	376	1918	1922	S	374	work	work	work	VB	O	xcomp	O	-1	B-verb.social
+0	17	377	1923	1926	S	376	for	for	for	IN	O	prep	O	-1	O
+0	17	378	1927	1932	S	379	Baron	Baron	Baron	NNP	PERSON	nn	O	9	B-noun.person
+0	17	379	1933	1942	S	377	Harkonnen	Harkonnen	Harkonnen	NNP	PERSON	pobj	O	9	I-noun.person
+0	17	380	1943	1945	S	376	as	as	as	IN	O	prep	O	-1	O
+0	17	381	1946	1947	S	382	a	a	a	DT	O	det	O	-1	O
+0	17	382	1948	1954		380	Mentat	Mentat	Mentat	NNP	O	pobj	O	-1	O
+0	17	383	1954	1955	N	382	,	,	,	,	O	punct	O	-1	O
+0	17	384	1956	1958	S	382	or	or	or	CC	O	cc	O	-1	O
+0	17	385	1959	1966		382	thinker	thinker	thinker	NN	O	conj	O	-1	B-noun.person
+0	17	386	1966	1967	S	374	,	,	,	,	O	punct	O	-1	O
+0	17	387	1968	1973	S	389	while	while	while	IN	O	mark	O	-1	O
+0	17	388	1974	1982	S	389	secretly	secretly	secretly	RB	O	advmod	O	-1	O
+0	17	389	1983	1991	S	374	plotting	plotting	plot	VBG	O	advcl	O	-1	B-verb.cognition
+0	17	390	1992	1995	S	391	his	his	he	PRP$	O	poss	O	9	O
+0	17	391	1996	2003	S	389	revenge	revenge	revenge	NN	O	dobj	O	-1	B-noun.act
+0	17	392	2004	2011	S	391	against	against	against	IN	O	prep	O	-1	O
+0	17	393	2012	2015	S	394	the	the	the	DT	O	det	O	-1	O
+0	17	394	2016	2021	N	392	baron	baron	baron	NN	O	pobj	O	-1	B-noun.person
+0	17	395	2022	2025	S	392	and	and	and	CC	O	cc	O	-1	O
+0	17	396	2026	2033	S	392	against	against	against	IN	O	conj	O	-1	O
+0	17	397	2034	2041		396	Jessica	Jessica	Jessica	NNP	PERSON	pobj	O	2	B-noun.person
+0	17	398	2041	2042	S	397	,	,	,	,	O	punct	O	-1	O
+0	17	399	2043	2046	S	401	who	who	who	WP	O	dobj	O	-1	O
+0	17	400	2047	2049	S	401	he	he	he	PRP	O	nsubj	O	9	O
+0	17	401	2050	2056	S	397	thinks	thinks	think	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	17	402	2057	2065	S	389	betrayed	betrayed	betray	VBD	O	dep	O	-1	B-verb.communication
+0	17	403	2066	2070	S	404	Duke	Duke	Duke	NNP	PERSON	nn	O	5	B-noun.person
+0	17	404	2071	2075		402	Leto	Leto	Leto	NNP	PERSON	dobj	O	5	I-noun.person
+0	17	405	2075	2076	S	374	.	.	.	.	O	punct	O	-1	O
+0	18	406	2077	2080	S	407	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	18	407	2081	2086		416	Kynes	Kynes	Kynes	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	18	408	2086	2087	S	407	,	,	,	,	O	punct	O	-1	O
+0	18	409	2088	2089	S	411	a	a	a	DT	O	det	O	-1	O
+0	18	410	2090	2096	S	411	Fremen	Fremen	fremen	JJ	MISC	amod	O	-1	O
+0	18	411	2097	2103	S	407	leader	leader	leader	NN	O	appos	O	-1	B-noun.person
+0	18	412	2104	2107	S	411	and	and	and	CC	O	cc	O	-1	O
+0	18	413	2108	2117	S	414	planetary	planetary	planetary	JJ	O	amod	O	-1	O
+0	18	414	2118	2127		411	ecologist	ecologist	ecologist	NN	O	conj	O	-1	B-noun.person
+0	18	415	2127	2128	S	407	,	,	,	,	O	punct	O	-1	O
+0	18	416	2129	2135	N	-1	orders	orders	order	NNS	O	null	O	-1	B-noun.communication
+0	18	417	2136	2139	S	418	the	the	the	DT	O	det	O	-1	O
+0	18	418	2140	2146	S	416	Fremen	Fremen	Fremen	NNP	MISC	dobj	O	-1	B-noun.person
+0	18	419	2147	2149	S	420	to	to	to	TO	O	aux	O	-1	O
+0	18	420	2150	2154	S	416	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	18	421	2155	2162	S	420	Jessica	Jessica	Jessica	NNP	PERSON	dobj	O	2	B-noun.person
+0	18	422	2163	2166	S	421	and	and	and	CC	O	cc	O	-1	O
+0	18	423	2167	2171		421	Paul	Paul	Paul	NNP	PERSON	conj	O	7	B-noun.person
+0	18	424	2171	2172	S	416	.	.	.	.	O	punct	O	-1	O
+0	19	425	2173	2176	S	427	The	The	the	DT	O	det	O	-1	O
+0	19	426	2177	2183	S	427	Fremen	Fremen	fremen	JJ	MISC	amod	O	-1	O
+0	19	427	2184	2191	S	-1	capture	capture	capture	NN	O	null	O	-1	B-noun.act
+0	19	428	2192	2195	S	427	and	and	and	CC	O	cc	O	-1	O
+0	19	429	2196	2200	S	427	then	then	then	RB	O	advmod	O	-1	O
+0	19	430	2201	2208	N	431	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	19	431	2209	2215	S	427	accept	accept	accept	VB	O	dep	O	-1	B-verb.possession
+0	19	432	2216	2223	S	431	Jessica	Jessica	Jessica	NNP	PERSON	dobj	O	2	B-noun.person
+0	19	433	2224	2227	S	432	and	and	and	CC	O	cc	O	-1	O
+0	19	434	2228	2232	S	432	Paul	Paul	Paul	NNP	PERSON	conj	O	7	B-noun.person
+0	19	435	2233	2235	S	431	as	as	as	IN	O	prep	O	-1	O
+0	19	436	2236	2241	S	438	their	their	they	PRP$	O	poss	O	-1	O
+0	19	437	2242	2250	S	438	destined	destined	destine	VBN	O	amod	O	-1	B-verb.communication
+0	19	438	2251	2258		435	leaders	leaders	leader	NNS	O	pobj	O	-1	B-noun.person
+0	19	439	2258	2259	S	427	.	.	.	.	O	punct	O	-1	O
+0	20	440	2260	2267	S	441	Jessica	Jessica	Jessica	NNP	PERSON	nsubj	O	2	B-noun.person
+0	20	441	2268	2275	N	-1	becomes	becomes	become	VBZ	O	null	O	-1	B-verb.change
+0	20	442	2276	2281	S	444	their	their	they	PRP$	O	poss	O	-1	O
+0	20	443	2282	2290	S	444	reverend	reverend	reverend	NN	O	nn	O	-1	B-noun.person
+0	20	444	2291	2297		441	mother	mother	mother	NN	O	dobj	O	-1	B-noun.person
+0	20	445	2297	2298	S	441	,	,	,	,	O	punct	O	-1	O
+0	20	446	2299	2304	S	449	while	while	while	IN	O	mark	O	-1	O
+0	20	447	2305	2309	S	449	Paul	Paul	Paul	NNP	PERSON	nsubjpass	O	7	B-noun.person
+0	20	448	2310	2312	S	449	is	is	be	VBZ	O	auxpass	O	-1	O
+0	20	449	2313	2323	S	441	recognized	recognized	recognize	VBN	O	advcl	O	-1	B-verb.cognition
+0	20	450	2324	2326	S	449	as	as	as	IN	O	prep	O	-1	O
+0	20	451	2327	2336	S	450	something	something	something	NN	O	pobj	O	-1	O
+0	20	452	2337	2342	N	451	close	close	close	RB	O	amod	O	-1	O
+0	20	453	2343	2345	S	452	to	to	to	TO	O	prep	O	-1	O
+0	20	454	2346	2347	S	456	a	a	a	DT	O	det	O	-1	O
+0	20	455	2348	2357	S	456	religious	religious	religious	JJ	O	amod	O	-1	O
+0	20	456	2358	2365		453	prophet	prophet	prophet	NN	O	pobj	O	-1	B-noun.person
+0	20	457	2365	2366	S	441	.	.	.	.	O	punct	O	-1	O
+0	21	458	2367	2371	S	459	Paul	Paul	Paul	NNP	PERSON	nsubj	O	7	B-noun.person
+0	21	459	2372	2377	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.motion
+0	21	460	2378	2381	S	464	the	the	the	DT	O	det	O	-1	O
+0	21	461	2382	2386	S	464	name	name	name	NN	O	nn	O	-1	B-noun.communication
+0	21	462	2387	2391		464	Muad	Muad	Muad	NNP	PERSON	nn	O	-1	O
+0	21	463	2391	2393		464	’D	'D	'D	NNP	O	nn	O	-1	O
+0	21	464	2393	2395		459	ib	ib	ib	NNP	O	dobj	O	-1	O
+0	21	465	2395	2396	S	464	,	,	,	,	O	punct	O	-1	O
+0	21	466	2397	2398	S	468	a	a	a	DT	O	det	O	-1	O
+0	21	467	2399	2408	N	468	religious	religious	religious	JJ	O	amod	O	-1	O
+0	21	468	2409	2414	S	464	title	title	title	NN	O	appos	O	-1	B-noun.communication
+0	21	469	2415	2419	S	470	that	that	that	WDT	O	nsubj	O	-1	O
+0	21	470	2420	2425	S	468	means	means	mean	VBZ	O	rcmod	O	-1	B-verb.stative
+0	21	471	2426	2431		470	mouse	mouse	mouse	NN	O	dobj	O	-1	B-noun.animal
+0	21	472	2431	2432	S	459	.	.	.	.	O	punct	O	-1	O
+0	22	473	2433	2435	S	475	As	As	as	IN	O	mark	O	-1	O
+0	22	474	2436	2438	S	475	he	he	he	PRP	O	nsubj	O	7	O
+0	22	475	2439	2446	S	484	matures	matures	mature	VBZ	O	advcl	O	-1	B-verb.change
+0	22	476	2447	2454	S	475	swiftly	swiftly	swiftly	RB	O	advmod	O	-1	O
+0	22	477	2455	2464	S	475	following	following	follow	VBG	O	prep	O	-1	O
+0	22	478	2465	2468	S	479	his	his	he	PRP$	O	poss	O	7	O
+0	22	479	2469	2475		481	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	22	480	2475	2477	N	479	’s	's	's	POS	O	possessive	O	-1	O
+0	22	481	2478	2483		477	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	22	482	2483	2484	S	484	,	,	,	,	O	punct	O	-1	O
+0	22	483	2485	2489	S	484	Paul	Paul	Paul	NNP	PERSON	nsubj	O	7	B-noun.person
+0	22	484	2490	2499	S	-1	discovers	discovers	discover	VBZ	O	null	O	-1	B-verb.cognition
+0	22	485	2500	2502	S	486	he	he	he	PRP	O	nsubj	O	7	O
+0	22	486	2503	2506	S	484	has	has	have	VBZ	O	ccomp	O	-1	B-verb.possession
+0	22	487	2507	2512	S	488	great	great	great	JJ	O	amod	O	-1	O
+0	22	488	2513	2519	S	486	powers	powers	power	NNS	O	dobj	O	-1	B-noun.cognition
+0	22	489	2520	2525	S	488	above	above	above	IN	O	prep	O	-1	O
+0	22	490	2526	2529	S	489	and	and	and	CC	O	cc	O	-1	O
+0	22	491	2530	2536	S	489	beyond	beyond	beyond	IN	O	conj	O	-1	O
+0	22	492	2537	2542	N	491	those	those	those	DT	O	pobj	O	-1	O
+0	22	493	2543	2545	S	492	of	of	of	IN	O	prep	O	-1	O
+0	22	494	2546	2549	S	495	his	his	he	PRP$	O	poss	O	7	O
+0	22	495	2550	2556		493	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	22	496	2556	2557	S	484	.	.	.	.	O	punct	O	-1	O
+0	23	497	2558	2560	S	499	He	He	he	PRP	O	nsubj	O	7	O
+0	23	498	2561	2564	S	499	can	can	can	MD	O	aux	O	-1	O
+0	23	499	2565	2568	S	-1	see	see	see	VB	O	null	O	-1	B-verb.perception
+0	23	500	2569	2573	S	499	into	into	into	IN	O	prep	O	-1	O
+0	23	501	2574	2578	S	503	both	both	both	CC	O	preconj	O	-1	O
+0	23	502	2579	2582	S	503	the	the	the	DT	DATE	det	O	-1	O
+0	23	503	2583	2589	S	500	future	future	future	NN	DATE	pobj	O	-1	B-noun.time
+0	23	504	2590	2593	S	503	and	and	and	CC	O	cc	O	-1	O
+0	23	505	2594	2597	S	507	the	the	the	DT	O	det	O	-1	O
+0	23	506	2598	2605	S	507	distant	distant	distant	JJ	O	amod	O	-1	O
+0	23	507	2606	2610		503	past	past	past	NN	DATE	conj	O	-1	B-noun.time
+0	23	508	2610	2611	N	499	.	.	.	.	O	punct	O	-1	O
+0	24	509	2612	2615	S	510	His	His	he	PRP$	O	poss	O	7	O
+0	24	510	2616	2627	S	513	consumption	consumption	consumption	NN	O	nsubj	O	-1	B-noun.act
+0	24	511	2628	2630	S	510	of	of	of	IN	O	prep	O	-1	O
+0	24	512	2631	2638	S	511	melange	melange	melange	NN	O	pobj	O	-1	B-noun.group
+0	24	513	2639	2648	S	-1	heightens	heightens	heighten	VBZ	O	null	O	-1	B-verb.change
+0	24	514	2649	2652	S	515	his	his	he	PRP$	O	poss	O	7	O
+0	24	515	2653	2659		513	powers	powers	power	NNS	O	dobj	O	-1	B-noun.cognition
+0	24	516	2659	2660	S	513	.	.	.	.	O	punct	O	-1	O
+0	25	517	2661	2664	S	518	Two	Two	two	CD	DURATION	num	O	-1	O
+0	25	518	2665	2670	S	519	years	years	year	NNS	DURATION	nsubj	O	-1	B-noun.time
+0	25	519	2671	2675		-1	pass	pass	pass	VBP	O	null	O	-1	B-verb.motion
+0	25	520	2675	2676	S	519	.	.	.	.	O	punct	O	-1	O
+0	26	521	2677	2680	S	522	The	The	the	DT	O	det	O	-1	O
+0	26	522	2681	2686		531	baron	baron	baron	NN	O	nsubj	O	-1	B-noun.person
+0	26	523	2686	2687	S	522	,	,	,	,	O	punct	O	-1	O
+0	26	524	2688	2694	S	522	living	living	live	VBG	O	partmod	O	-1	B-verb.stative
+0	26	525	2695	2697	S	524	on	on	on	IN	O	prep	O	-1	O
+0	26	526	2698	2701	S	529	the	the	the	DT	O	det	O	-1	O
+0	26	527	2702	2711	S	529	Harkonnen	Harkonnen	Harkonnen	NNP	O	nn	O	-1	B-noun.person
+0	26	528	2712	2716	S	529	home	home	home	NN	O	nn	O	-1	B-noun.artifact
+0	26	529	2717	2722		525	world	world	world	NN	O	pobj	O	-1	O
+0	26	530	2722	2723	N	522	,	,	,	,	O	punct	O	-1	O
+0	26	531	2724	2731	S	-1	schemes	schemes	scheme	NNS	O	null	O	-1	B-noun.cognition
+0	26	532	2732	2734	S	533	to	to	to	TO	O	aux	O	-1	O
+0	26	533	2735	2740	S	531	usurp	usurp	usurp	VB	O	xcomp	O	-1	B-verb.possession
+0	26	534	2741	2744	S	535	the	the	the	DT	O	det	O	-1	O
+0	26	535	2745	2752		533	emperor	emperor	emperor	NN	O	dobj	O	-1	B-noun.person
+0	26	536	2752	2753	S	533	,	,	,	,	O	punct	O	-1	O
+0	26	537	2754	2759	S	538	while	while	while	IN	O	mark	O	-1	O
+0	26	538	2760	2768	S	533	grooming	grooming	groom	VBG	O	advcl	O	-1	B-verb.social
+0	26	539	2769	2772	S	538	one	one	one	CD	NUMBER	dobj	O	-1	O
+0	26	540	2773	2775	S	539	of	of	of	IN	O	prep	O	-1	O
+0	26	541	2776	2779	S	543	his	his	he	PRP$	O	poss	O	-1	O
+0	26	542	2780	2783	S	543	own	own	own	JJ	O	amod	O	-1	O
+0	26	543	2784	2791		540	nephews	nephews	nephew	NNS	O	pobj	O	-1	B-noun.person
+0	26	544	2791	2792	N	543	,	,	,	,	O	punct	O	-1	O
+0	26	545	2793	2804		543	Feyd-Rautha	Feyd-Rautha	feyd-rautha	NN	PERSON	appos	O	10	O
+0	26	546	2804	2805	S	533	,	,	,	,	O	punct	O	-1	O
+0	26	547	2806	2808	S	548	to	to	to	TO	O	aux	O	-1	O
+0	26	548	2809	2813	S	533	take	take	take	VB	O	xcomp	O	-1	B-verb.possession
+0	26	549	2814	2818	S	548	over	over	over	RP	O	prt	O	-1	O
+0	26	550	2819	2822	S	551	the	the	the	DT	O	det	O	-1	O
+0	26	551	2823	2826		548	job	job	job	NN	O	dobj	O	-1	B-noun.act
+0	26	552	2826	2827	S	531	.	.	.	.	O	punct	O	-1	O
+0	27	553	2828	2837		562	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	27	554	2837	2838	S	562	,	,	,	,	O	punct	O	-1	O
+0	27	555	2839	2841	S	562	on	on	on	IN	O	prep	O	-1	O
+0	27	556	2842	2849		555	Arrakis	Arrakis	Arrakis	NNP	MISC	pobj	O	-1	O
+0	27	557	2849	2850	S	562	,	,	,	,	O	punct	O	-1	O
+0	27	558	2851	2855	S	562	Paul	Paul	Paul	NNP	PERSON	nsubj	O	7	B-noun.person
+0	27	559	2856	2859	N	562	has	has	have	VBZ	O	aux	O	-1	O
+0	27	560	2860	2866	S	562	become	become	become	VBN	O	cop	O	-1	B-verb.change
+0	27	561	2867	2871	S	562	very	very	very	RB	O	advmod	O	-1	O
+0	27	562	2872	2880	S	-1	powerful	powerful	powerful	JJ	O	null	O	-1	O
+0	27	563	2881	2884	S	562	and	and	and	CC	O	cc	O	-1	O
+0	27	564	2885	2896	S	562	influential	influential	influential	JJ	O	conj	O	-1	O
+0	27	565	2897	2902	S	562	among	among	among	IN	O	prep	O	-1	O
+0	27	566	2903	2906	S	567	the	the	the	DT	O	det	O	-1	O
+0	27	567	2907	2913		565	Fremen	Fremen	Fremen	NNP	MISC	pobj	O	-1	O
+0	27	568	2913	2914	S	562	.	.	.	.	O	punct	O	-1	O
+0	28	569	2915	2917	S	576	He	He	he	PRP	O	nsubj	O	7	O
+0	28	570	2918	2920	S	576	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	28	571	2921	2925	N	576	both	both	both	DT	O	preconj	O	-1	O
+0	28	572	2926	2931	S	576	their	their	they	PRP$	O	poss	O	-1	O
+0	28	573	2932	2939	S	576	secular	secular	secular	JJ	O	amod	O	-1	O
+0	28	574	2940	2943	S	573	and	and	and	CC	O	cc	O	-1	O
+0	28	575	2944	2953	S	573	religious	religious	religious	JJ	O	conj	O	-1	O
+0	28	576	2954	2960		-1	leader	leader	leader	NN	O	null	O	-1	B-noun.person
+0	28	577	2960	2961	S	576	,	,	,	,	O	punct	O	-1	O
+0	28	578	2962	2966	S	576	like	like	like	IN	O	prep	O	-1	O
+0	28	579	2967	2972	S	578	Kynes	Kynes	Kynes	NNPS	PERSON	pobj	O	1	B-noun.person
+0	28	580	2973	2979	S	576	before	before	before	IN	O	prep	O	-1	O
+0	28	581	2980	2983		580	him	him	he	PRP	O	pobj	O	7	O
+0	28	582	2983	2984	S	576	,	,	,	,	O	punct	O	-1	O
+0	28	583	2985	2988	S	576	but	but	but	CC	O	cc	O	-1	O
+0	28	584	2989	2992	N	585	his	his	he	PRP$	O	poss	O	7	O
+0	28	585	2993	2999	S	588	powers	powers	power	NNS	O	nsubj	O	-1	B-noun.cognition
+0	28	586	3000	3003	S	588	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	28	587	3004	3007	S	588	far	far	far	RB	O	advmod	O	-1	O
+0	28	588	3008	3015	S	576	greater	greater	greater	JJR	O	conj	O	-1	O
+0	28	589	3016	3020	S	588	than	than	than	IN	O	prep	O	-1	O
+0	28	590	3021	3026	S	589	those	those	those	DT	O	pobj	O	-1	O
+0	28	591	3027	3029	S	590	of	of	of	IN	O	prep	O	-1	O
+0	28	592	3030	3035		591	Kynes	Kynes	Kynes	NNP	PERSON	pobj	O	1	O
+0	28	593	3035	3036	S	576	.	.	.	.	O	punct	O	-1	O
+0	29	594	3037	3039	S	595	He	He	he	PRP	O	nsubj	O	7	O
+0	29	595	3040	3043	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	29	596	3044	3045	S	597	a	a	a	DT	O	det	O	-1	O
+0	29	597	3046	3051	S	595	child	child	child	NN	O	dobj	O	-1	B-noun.person
+0	29	598	3052	3056	N	595	with	with	with	IN	O	prep	O	-1	O
+0	29	599	3057	3058	S	601	a	a	a	DT	O	det	O	-1	O
+0	29	600	3059	3065	S	601	Fremen	Fremen	fremen	JJ	MISC	amod	O	-1	O
+0	29	601	3066	3071		598	woman	woman	woman	NN	O	pobj	O	-1	B-noun.person
+0	29	602	3071	3072	S	601	,	,	,	,	O	punct	O	-1	O
+0	29	603	3073	3078		601	Chani	Chani	Chani	NNP	PERSON	appos	O	-1	O
+0	29	604	3078	3079	S	595	,	,	,	,	O	punct	O	-1	O
+0	29	605	3080	3083	S	606	the	the	the	DT	O	det	O	-1	O
+0	29	606	3084	3092	S	614	daughter	daughter	daughter	NN	O	nsubj	O	-1	B-noun.person
+0	29	607	3093	3095	S	606	of	of	of	IN	O	prep	O	-1	O
+0	29	608	3096	3101		607	Kynes	Kynes	Kynes	NNP	PERSON	pobj	O	1	O
+0	29	609	3101	3102	S	606	,	,	,	,	O	punct	O	-1	O
+0	29	610	3103	3106	S	606	and	and	and	CC	O	cc	O	-1	O
+0	29	611	3107	3110	S	612	his	his	he	PRP$	O	poss	O	7	O
+0	29	612	3111	3117	S	606	mother	mother	mother	NN	O	conj	O	-1	B-noun.person
+0	29	613	3118	3121	N	614	has	has	have	VBZ	O	aux	O	-1	O
+0	29	614	3122	3127	S	595	given	given	give	VBN	O	dep	O	-1	B-verb.possession
+0	29	615	3128	3133	S	614	birth	birth	birth	NN	O	dobj	O	-1	B-noun.time
+0	29	616	3134	3136	S	615	to	to	to	TO	O	prep	O	-1	O
+0	29	617	3137	3141		616	Alia	Alia	Alia	NNP	PERSON	pobj	O	8	O
+0	29	618	3141	3142	S	617	,	,	,	,	O	punct	O	-1	O
+0	29	619	3143	3147	S	620	Duke	Duke	Duke	NNP	PERSON	nn	O	5	B-noun.person
+0	29	620	3148	3152		622	Leto	Leto	Leto	NNP	PERSON	poss	O	5	I-noun.person
+0	29	621	3152	3154	S	620	’s	's	's	POS	O	possessive	O	-1	O
+0	29	622	3155	3163		617	daughter	daughter	daughter	NN	O	appos	O	-1	B-noun.person
+0	29	623	3163	3164	S	595	.	.	.	.	O	punct	O	-1	O
+0	30	624	3165	3169	S	625	Paul	Paul	Paul	NNP	PERSON	nsubj	O	7	B-noun.person
+0	30	625	3170	3177	S	-1	teaches	teaches	teach	VBZ	O	null	O	-1	B-verb.communication
+0	30	626	3178	3181	S	627	the	the	the	DT	O	det	O	-1	O
+0	30	627	3182	3188	N	625	Fremen	Fremen	Fremen	NNP	MISC	dobj	O	-1	B-noun.person
+0	30	628	3189	3191	S	629	to	to	to	TO	O	aux	O	-1	O
+0	30	629	3192	3197	S	625	fight	fight	fight	VB	O	xcomp	O	-1	B-verb.competition
+0	30	630	3198	3203	S	629	using	using	use	VBG	O	xcomp	O	-1	B-verb.consumption
+0	30	631	3204	3205	S	633	a	a	a	DT	O	det	O	-1	O
+0	30	632	3206	3213	S	633	special	special	special	JJ	O	amod	O	-1	O
+0	30	633	3214	3219	S	630	style	style	style	NN	O	dobj	O	-1	B-noun.attribute
+0	30	634	3220	3226	S	629	called	called	call	VBD	O	dep	O	-1	B-verb.communication
+0	30	635	3227	3230	S	638	the	the	the	DT	O	det	O	-1	O
+0	30	636	3231	3232		638	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	30	637	3232	3240	S	638	weirding	weirding	weirding	JJ	O	amod	I-QUOTE	-1	O
+0	30	638	3241	3244		634	way	way	way	NN	O	dobj	I-QUOTE	-1	O
+0	30	639	3244	3245	S	638	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	30	640	3246	3249	S	625	and	and	and	CC	O	cc	O	-1	O
+0	30	641	3250	3255	N	625	using	using	use	VBG	O	conj	O	-1	B-verb.consumption
+0	30	642	3256	3259	S	645	the	the	the	DT	O	det	O	-1	O
+0	30	643	3260	3268	S	645	advanced	advanced	advanced	JJ	O	amod	O	-1	O
+0	30	644	3269	3277	S	645	fighting	fighting	fighting	NN	O	nn	O	-1	B-noun.act
+0	30	645	3278	3288	S	641	techniques	techniques	technique	NNS	O	dobj	O	-1	B-noun.cognition
+0	30	646	3289	3291	S	645	of	of	of	IN	O	prep	O	-1	O
+0	30	647	3292	3295	S	649	the	the	the	DT	O	det	O	-1	O
+0	30	648	3296	3300	S	649	Bene	Bene	Bene	NNP	O	nn	O	-1	B-noun.person
+0	30	649	3301	3309		646	Gesserit	Gesserit	Gesserit	NNP	O	pobj	O	-1	I-noun.person
+0	30	650	3309	3310	S	625	.	.	.	.	O	punct	O	-1	O
+0	31	651	3311	3314	S	652	One	One	one	CD	DURATION	num	O	-1	O
+0	31	652	3315	3318		656	day	day	day	NN	DURATION	tmod	O	-1	B-noun.time
+0	31	653	3318	3319	N	656	,	,	,	,	O	punct	O	-1	O
+0	31	654	3320	3323	S	655	the	the	the	DT	O	det	O	-1	O
+0	31	655	3324	3330	S	656	Fremen	Fremen	fremen	JJ	MISC	nsubj	O	-1	O
+0	31	656	3331	3339	S	-1	discover	discover	discover	VBP	O	null	O	-1	B-verb.cognition
+0	31	657	3340	3344	S	661	that	that	that	IN	O	complm	O	-1	O
+0	31	658	3345	3348	S	659	the	the	the	DT	O	det	O	-1	O
+0	31	659	3349	3354	S	661	baron	baron	baron	NN	O	nsubj	O	-1	B-noun.person
+0	31	660	3355	3358	S	661	has	has	have	VBZ	O	aux	O	-1	O
+0	31	661	3359	3368	S	656	abandoned	abandoned	abandon	VBN	O	ccomp	O	-1	B-verb.possession
+0	31	662	3369	3372	S	663	his	his	he	PRP$	O	poss	O	-1	O
+0	31	663	3373	3376	S	661	aid	aid	aid	NN	O	dobj	O	-1	B-noun.attribute
+0	31	664	3377	3379	S	661	to	to	to	TO	O	prep	O	-1	O
+0	31	665	3380	3386		664	Rabban	Rabban	Rabban	NNP	O	pobj	O	-1	O
+0	31	666	3386	3387	N	665	,	,	,	,	O	punct	O	-1	O
+0	31	667	3388	3391	S	668	the	the	the	DT	O	det	O	-1	O
+0	31	668	3392	3398	S	661	nephew	nephew	nephew	NN	O	dobj	O	-1	B-noun.person
+0	31	669	3399	3401	S	670	he	he	he	PRP	O	nsubj	O	-1	O
+0	31	670	3402	3410	S	668	assigned	assigned	assign	VBD	O	rcmod	O	-1	B-verb.possession
+0	31	671	3411	3413	S	672	to	to	to	TO	O	aux	O	-1	O
+0	31	672	3414	3418	S	670	rule	rule	rule	VB	O	xcomp	O	-1	B-verb.social
+0	31	673	3419	3423	S	672	over	over	over	IN	O	prep	O	-1	O
+0	31	674	3424	3431		673	Arrakis	Arrakis	Arrakis	NNP	O	pobj	O	-1	O
+0	31	675	3431	3432	S	656	.	.	.	.	O	punct	O	-1	O
+0	32	676	3433	3437	S	680	Paul	Paul	Paul	NNP	PERSON	nsubj	O	7	B-noun.person
+0	32	677	3438	3441	S	676	and	and	and	CC	O	cc	O	-1	O
+0	32	678	3442	3445	S	679	the	the	the	DT	O	det	O	-1	O
+0	32	679	3446	3452	N	676	Fremen	Fremen	Fremen	NNP	MISC	conj	O	-1	B-noun.person
+0	32	680	3453	3457	S	-1	make	make	make	VB	O	null	O	-1	B-verb.social
+0	32	681	3458	3463	S	680	plans	plans	plan	NNS	O	dobj	O	-1	B-noun.cognition
+0	32	682	3464	3466	S	683	to	to	to	TO	O	aux	O	-1	O
+0	32	683	3467	3471	S	681	raid	raid	raid	VB	O	infmod	O	-1	B-verb.social
+0	32	684	3472	3475	S	686	the	the	the	DT	O	det	O	-1	O
+0	32	685	3476	3484	S	686	Arrakeen	Arrakeen	arrakeen	JJ	MISC	amod	O	-1	O
+0	32	686	3485	3492	S	683	capital	capital	capital	NN	O	dobj	O	-1	B-noun.possession
+0	32	687	3493	3496	S	691	now	now	now	RB	DATE	advmod	O	-1	O
+0	32	688	3497	3501	S	691	that	that	that	IN	O	dep	O	-1	O
+0	32	689	3502	3508	S	691	Rabban	Rabban	rabban	NN	PERSON	nsubjpass	O	-1	B-noun.person
+0	32	690	3509	3511	S	691	is	is	be	VBZ	O	auxpass	O	-1	O
+0	32	691	3512	3515	S	683	cut	cut	cut	VBN	O	ccomp	O	-1	B-verb.communication
+0	32	692	3516	3519	N	691	off	off	off	RP	O	prt	O	-1	O
+0	32	693	3520	3524	S	691	from	from	from	IN	O	prep	O	-1	O
+0	32	694	3525	3528	S	695	the	the	the	DT	O	det	O	-1	O
+0	32	695	3529	3534		697	baron	baron	baron	NN	O	poss	O	-1	B-noun.person
+0	32	696	3534	3536	S	695	’s	's	's	POS	O	possessive	O	-1	O
+0	32	697	3537	3541		693	help	help	help	NN	O	pobj	O	-1	B-noun.act
+0	32	698	3541	3542	S	680	.	.	.	.	O	punct	O	-1	O
+0	33	699	3543	3547	S	710	Upon	Upon	upon	IN	O	prep	O	-1	O
+0	33	700	3548	3559	S	699	discovering	discovering	discover	VBG	O	pcomp	O	-1	B-verb.perception
+0	33	701	3560	3563	S	702	the	the	the	DT	O	det	O	-1	O
+0	33	702	3564	3569	S	700	power	power	power	NN	O	dobj	O	-1	B-noun.attribute
+0	33	703	3570	3572	S	702	of	of	of	IN	O	prep	O	-1	O
+0	33	704	3573	3576	S	705	the	the	the	DT	O	det	O	-1	O
+0	33	705	3577	3583		703	Fremen	Fremen	Fremen	NNP	MISC	pobj	O	-1	O
+0	33	706	3583	3584	S	705	,	,	,	,	O	punct	O	-1	O
+0	33	707	3585	3588	S	708	the	the	the	DT	O	det	O	-1	O
+0	33	708	3589	3596	N	705	emperor	emperor	emperor	NN	O	appos	O	-1	B-noun.person
+0	33	709	3597	3604	S	708	himself	himself	himself	PRP	O	dep	O	-1	O
+0	33	710	3605	3610	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	33	711	3611	3613	S	710	to	to	to	TO	O	prep	O	-1	O
+0	33	712	3614	3621		711	Arrakis	Arrakis	Arrakis	NNP	MISC	pobj	O	-1	O
+0	33	713	3621	3622	S	714	,	,	,	,	O	punct	O	-1	O
+0	33	714	3623	3628	S	712	along	along	along	IN	O	null	O	-1	O
+0	33	715	3629	3633	S	714	with	with	with	IN	O	dep	O	-1	O
+0	33	716	3634	3637	S	717	his	his	he	PRP$	O	poss	O	-1	O
+0	33	717	3638	3647	S	715	Sardaukar	Sardaukar	Sardaukar	NNP	PERSON	pobj	O	0	B-noun.person
+0	33	718	3648	3651	S	717	and	and	and	CC	O	cc	O	-1	O
+0	33	719	3652	3655	S	720	the	the	the	DT	O	det	O	-1	O
+0	33	720	3656	3666		717	Harkonnens	Harkonnens	Harkonnens	NNP	O	conj	O	-1	O
+0	33	721	3666	3667	S	714	.	.	.	.	O	punct	O	-1	O
+0	34	722	3668	3671	N	724	The	The	the	DT	O	det	O	-1	O
+0	34	723	3672	3678	S	724	Fremen	Fremen	fremen	JJ	MISC	amod	O	-1	O
+0	34	724	3679	3685	S	726	attack	attack	attack	NN	O	nsubj	O	-1	B-noun.act
+0	34	725	3686	3689	S	726	the	the	the	DT	O	det	O	-1	O
+0	34	726	3690	3697		-1	emperor	emperor	emperor	NN	O	null	O	-1	B-noun.person
+0	34	727	3697	3698	S	726	,	,	,	,	O	punct	O	-1	O
+0	34	728	3699	3706	S	729	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	34	729	3707	3718	S	726	dismantling	dismantling	dismantle	VBG	O	xcomp	O	-1	B-verb.creation
+0	34	730	3719	3722	S	731	his	his	he	PRP$	O	poss	O	-1	O
+0	34	731	3723	3733	S	729	spaceships	spaceships	spaceship	NNS	O	dobj	O	-1	B-noun.artifact
+0	34	732	3734	3739	N	733	while	while	while	IN	O	mark	O	-1	O
+0	34	733	3740	3750	S	729	destroying	destroying	destroy	VBG	O	advcl	O	-1	B-verb.creation
+0	34	734	3751	3754	S	735	the	the	the	DT	O	det	O	-1	O
+0	34	735	3755	3764		733	Sardaukar	Sardaukar	Sardaukar	NNP	O	dobj	O	-1	O
+0	34	736	3764	3765	S	726	.	.	.	.	O	punct	O	-1	O
+0	35	737	3766	3768	S	742	In	In	in	IN	O	prep	O	-1	O
+0	35	738	3769	3772	S	739	the	the	the	DT	O	det	O	-1	O
+0	35	739	3773	3779		737	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	35	740	3779	3780	S	742	,	,	,	,	O	punct	O	-1	O
+0	35	741	3781	3785	S	742	Alia	Alia	Alia	NNP	PERSON	nsubj	O	8	O
+0	35	742	3786	3791	S	-1	kills	kills	kill	VBZ	O	null	O	-1	B-verb.contact
+0	35	743	3792	3797	S	744	Baron	Baron	Baron	NNP	PERSON	nn	O	9	B-noun.person
+0	35	744	3798	3807		742	Harkonnen	Harkonnen	Harkonnen	NNP	PERSON	dobj	O	9	I-noun.person
+0	35	745	3807	3808	N	742	,	,	,	,	O	punct	O	-1	O
+0	35	746	3809	3812	S	742	and	and	and	CC	O	cc	O	-1	O
+0	35	747	3813	3817		750	Paul	Paul	Paul	NNP	PERSON	poss	O	7	B-noun.person
+0	35	748	3817	3819	S	747	’s	's	's	POS	O	possessive	O	-1	O
+0	35	749	3820	3825	S	750	young	young	young	JJ	O	amod	O	-1	O
+0	35	750	3826	3829	S	751	son	son	son	NN	O	nsubj	O	-1	B-noun.person
+0	35	751	3830	3834	S	742	dies	dies	die	VBZ	O	conj	O	-1	B-verb.change
+0	35	752	3835	3837	S	751	in	in	in	IN	O	prep	O	-1	O
+0	35	753	3838	3839	S	754	a	a	a	DT	O	det	O	-1	O
+0	35	754	3840	3844		752	raid	raid	raid	NN	O	pobj	O	-1	B-noun.act
+0	35	755	3844	3845	S	742	.	.	.	.	O	punct	O	-1	O
+0	36	756	3846	3850	S	757	Paul	Paul	Paul	NNP	PERSON	nsubj	O	7	B-noun.person
+0	36	757	3851	3858	S	-1	demands	demands	demand	VBZ	O	null	O	-1	B-verb.communication
+0	36	758	3859	3863	S	761	that	that	that	IN	O	complm	O	-1	O
+0	36	759	3864	3867	S	760	the	the	the	DT	O	det	O	-1	O
+0	36	760	3868	3875	N	761	emperor	emperor	emperor	NN	O	nsubj	O	-1	B-noun.person
+0	36	761	3876	3880	S	757	step	step	step	VB	O	ccomp	O	-1	B-verb.social
+0	36	762	3881	3885		761	down	down	down	RB	O	advmod	O	-1	O
+0	36	763	3885	3886	S	757	;	;	;	:	O	punct	O	-1	O
+0	36	764	3887	3891	S	765	Paul	Paul	Paul	NNP	PERSON	nsubj	O	7	B-noun.person
+0	36	765	3892	3896	S	757	asks	asks	ask	VBZ	O	parataxis	O	-1	B-verb.communication
+0	36	766	3897	3899	S	767	to	to	to	TO	O	aux	O	-1	O
+0	36	767	3900	3905	S	765	marry	marry	marry	VB	O	xcomp	O	-1	B-verb.social
+0	36	768	3906	3909	S	769	the	the	the	DT	O	det	O	-1	O
+0	36	769	3910	3917		771	emperor	emperor	emperor	NN	O	poss	O	-1	B-noun.person
+0	36	770	3917	3919	S	769	’s	's	's	POS	O	possessive	O	-1	O
+0	36	771	3920	3928		767	daughter	daughter	daughter	NN	O	dobj	O	-1	B-noun.person
+0	36	772	3928	3929	S	771	,	,	,	,	O	punct	O	-1	O
+0	36	773	3930	3936		771	Irulan	Irulan	Irulan	NNP	PERSON	appos	O	-1	O
+0	36	774	3936	3937	S	765	,	,	,	,	O	punct	O	-1	O
+0	36	775	3938	3940	N	782	so	so	so	RB	O	advmod	O	-1	O
+0	36	776	3941	3945	S	782	that	that	that	IN	O	dep	O	-1	O
+0	36	777	3946	3948	S	782	he	he	he	PRP	O	nsubj	O	7	O
+0	36	778	3949	3952	S	782	may	may	may	MD	O	aux	O	-1	O
+0	36	779	3953	3959	S	782	become	become	become	VB	O	cop	O	-1	B-verb.change
+0	36	780	3960	3963	S	782	the	the	the	DT	O	det	O	-1	O
+0	36	781	3964	3967	S	782	new	new	new	JJ	O	amod	O	-1	O
+0	36	782	3968	3975		757	emperor	emperor	emperor	NN	O	dobj	O	-1	B-noun.person
+0	36	783	3975	3976	S	757	.	.	.	.	O	punct	O	-1	O
+0	37	784	3977	3988	S	786	Feyd-Rautha	Feyd-Rautha	feyd-rautha	NN	PERSON	nn	O	10	O
+0	37	785	3989	3999	S	786	challenges	challenges	challenge	NNS	O	nn	O	-1	B-noun.state
+0	37	786	4000	4004		795	Paul	Paul	Paul	NNP	PERSON	nn	O	7	B-noun.person
+0	37	787	4004	4005	N	795	,	,	,	,	O	punct	O	-1	O
+0	37	788	4006	4012	S	795	citing	citing	cite	VBG	O	partmod	O	-1	B-verb.communication
+0	37	789	4013	4016	S	790	the	the	the	DT	O	det	O	-1	O
+0	37	790	4017	4022	S	788	right	right	right	NN	O	dobj	O	-1	B-noun.attribute
+0	37	791	4023	4025	S	790	of	of	of	IN	O	prep	O	-1	O
+0	37	792	4026	4035		791	vengeance	vengeance	vengeance	NN	O	pobj	O	-1	B-noun.act
+0	37	793	4035	4036	S	795	,	,	,	,	O	punct	O	-1	O
+0	37	794	4037	4040	S	795	and	and	and	CC	O	cc	O	-1	O
+0	37	795	4041	4045	S	796	Paul	Paul	Paul	NNP	PERSON	nsubj	O	7	B-noun.person
+0	37	796	4046	4051	S	-1	kills	kills	kill	VBZ	O	null	O	-1	B-verb.contact
+0	37	797	4052	4055	S	796	him	him	he	PRP	O	dobj	O	7	O
+0	37	798	4056	4058	S	796	in	in	in	IN	O	prep	O	-1	O
+0	37	799	4059	4060	S	800	a	a	a	DT	O	det	O	-1	O
+0	37	800	4061	4065		798	duel	duel	duel	NN	O	pobj	O	-1	B-noun.act
+0	37	801	4065	4066	S	796	.	.	.	.	O	punct	O	-1	O
+0	38	802	4067	4076	N	807	Powerless	Powerless	powerless	JJ	O	ccomp	O	-1	O
+0	38	803	4077	4080		802	now	now	now	RB	DATE	advmod	O	-1	O
+0	38	804	4080	4081	S	807	,	,	,	,	O	punct	O	-1	O
+0	38	805	4082	4085	S	806	the	the	the	DT	O	det	O	-1	O
+0	38	806	4086	4093	S	807	emperor	emperor	emperor	NN	O	nsubj	O	-1	B-noun.person
+0	38	807	4094	4100	S	-1	agrees	agrees	agree	VBZ	O	null	O	-1	B-verb.communication
+0	38	808	4101	4103	S	807	to	to	to	TO	O	prep	O	-1	O
+0	38	809	4104	4108		811	Paul	Paul	Paul	NNP	PERSON	poss	O	7	B-noun.person
+0	38	810	4108	4110	S	809	’s	's	's	POS	O	possessive	O	-1	O
+0	38	811	4111	4118		808	demands	demands	demand	NNS	O	pobj	O	-1	B-noun.communication
+0	38	812	4118	4119	S	807	,	,	,	,	O	punct	O	-1	O
+0	38	813	4120	4123	S	807	and	and	and	CC	O	cc	O	-1	O
+0	38	814	4124	4128	S	818	Paul	Paul	Paul	NNP	PERSON	nsubj	O	7	B-noun.person
+0	38	815	4129	4136	S	818	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	38	816	4137	4140	N	818	the	the	the	DT	O	det	O	-1	O
+0	38	817	4141	4144	S	818	new	new	new	JJ	O	amod	O	-1	O
+0	38	818	4145	4152		807	emperor	emperor	emperor	NN	O	conj	O	-1	B-noun.person
+0	38	819	4152	4153	N	807	.	.	.	.	O	punct	O	-1	O

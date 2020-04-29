@@ -1,0 +1,758 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	3	S	1	Jon	Jon	Jon	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	4	12		9	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubjpass	O	-1	I-noun.person
+0	0	2	12	13	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	14	20	S	1	author	author	author	NN	O	appos	O	-1	B-noun.person
+0	0	4	21	24	S	3	and	and	and	CC	O	cc	O	-1	O
+0	0	5	25	33	S	6	mountain	mountain	mountain	NN	O	nn	O	-1	B-noun.person
+0	0	6	34	41		3	climber	climber	climber	NN	O	conj	O	-1	I-noun.person
+0	0	7	41	42	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	8	43	45	S	9	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	9	46	51	S	-1	hired	hired	hire	VBN	O	null	O	-1	B-verb.social
+0	0	10	52	54	S	9	by	by	by	IN	O	prep	O	-1	O
+0	0	11	55	62	S	12	Outside	Outside	outside	JJ	ORGANIZATION	amod	O	-1	O
+0	0	12	63	71	S	10	Magazine	Magazine	magazine	NN	ORGANIZATION	pobj	O	-1	B-noun.communication
+0	0	13	72	74	S	14	to	to	to	TO	O	aux	O	-1	O
+0	0	14	75	80	S	9	write	write	write	VB	O	xcomp	O	-1	B-verb.creation
+0	0	15	81	83	S	16	an	an	a	DT	O	det	O	-1	O
+0	0	16	84	91	S	14	article	article	article	NN	O	dobj	O	-1	B-noun.communication
+0	0	17	92	97	S	16	about	about	about	IN	O	prep	O	-1	O
+0	0	18	98	101	S	19	the	the	the	DT	O	det	O	-1	O
+0	0	19	102	115	S	17	commercialism	commercialism	commercialism	NN	O	pobj	O	-1	B-noun.act
+0	0	20	116	118	S	19	on	on	on	IN	O	prep	O	-1	O
+0	0	21	119	124	S	22	Mount	Mount	Mount	NNP	LOCATION	nn	O	-1	B-noun.location
+0	0	22	125	132		20	Everest	Everest	Everest	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	0	23	132	133	S	9	.	.	.	.	O	punct	O	-1	O
+0	1	24	134	142	S	25	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubj	O	1	B-noun.person
+0	1	25	143	150	S	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	1	26	151	153	S	27	he	he	he	PRP	O	nsubj	O	1	O
+0	1	27	154	159	S	25	wants	wants	want	VBZ	O	ccomp	O	-1	B-verb.emotion
+0	1	28	160	162	S	29	to	to	to	TO	O	aux	O	-1	O
+0	1	29	163	168	S	27	climb	climb	climb	VB	O	xcomp	O	-1	B-verb.motion
+0	1	30	169	172	S	31	the	the	the	DT	O	det	O	-1	O
+0	1	31	173	181		29	mountain	mountain	mountain	NN	O	dobj	O	-1	B-noun.object
+0	1	32	181	182	S	25	,	,	,	,	O	punct	O	-1	O
+0	1	33	183	186	S	25	and	and	and	CC	O	cc	O	-1	O
+0	1	34	187	192	S	25	joins	joins	join	VBZ	O	conj	O	-1	B-verb.social
+0	1	35	193	196	S	39	the	the	the	DT	O	det	O	-1	O
+0	1	36	197	201	S	37	most	most	most	RBS	O	advmod	O	-1	O
+0	1	37	202	212	S	39	disastrous	disastrous	disastrous	JJ	O	amod	O	-1	O
+0	1	38	213	220	S	39	Everest	Everest	Everest	NNP	LOCATION	nn	O	-1	O
+0	1	39	221	231	S	34	expedition	expedition	expedition	NN	O	dobj	O	-1	B-noun.act
+0	1	40	232	234	S	34	in	in	in	IN	O	prep	O	-1	O
+0	1	41	235	242		40	history	history	history	NN	O	pobj	O	-1	B-noun.time
+0	1	42	242	243	S	25	.	.	.	.	O	punct	O	-1	O
+0	2	43	244	252	S	44	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubj	O	1	B-noun.person
+0	2	44	253	258	S	-1	joins	joins	join	VBZ	O	null	O	-1	B-verb.social
+0	2	45	259	262	S	47	the	the	the	DT	O	det	O	-1	O
+0	2	46	263	271	S	47	climbing	climbing	climb	VBG	O	amod	O	-1	B-verb.motion
+0	2	47	272	279	S	44	service	service	service	NN	O	dobj	O	-1	B-noun.act
+0	2	48	280	286	S	47	called	called	call	VBN	O	partmod	O	-1	B-verb.communication
+0	2	49	287	296	S	50	Adventure	Adventure	adventure	NN	O	nn	O	-1	B-noun.act
+0	2	50	297	308		48	Consultants	Consultants	consultant	NNS	O	dep	O	-1	O
+0	2	51	308	309	S	47	,	,	,	,	O	punct	O	-1	O
+0	2	52	310	316	S	47	guided	guided	guide	VBN	O	partmod	O	-1	B-verb.motion
+0	2	53	317	319	S	52	by	by	by	IN	O	prep	O	-1	O
+0	2	54	320	323	S	55	Rob	Rob	Rob	NNP	PERSON	nn	O	2	B-noun.person
+0	2	55	324	328		53	Hall	Hall	Hall	NNP	PERSON	pobj	O	2	I-noun.person
+0	2	56	328	329	S	44	.	.	.	.	O	punct	O	-1	O
+0	3	57	330	333	S	59	The	The	the	DT	O	det	O	-1	O
+0	3	58	334	339	S	59	guide	guide	guide	NN	O	nn	O	-1	B-noun.person
+0	3	59	340	347	S	61	service	service	service	NN	O	nsubjpass	O	-1	B-noun.act
+0	3	60	348	350	S	61	is	is	be	VBZ	O	auxpass	O	-1	O
+0	3	61	351	359	S	-1	intended	intended	intend	VBN	O	null	O	-1	B-verb.cognition
+0	3	62	360	362	S	63	to	to	to	TO	O	aux	O	-1	O
+0	3	63	363	368	S	61	speed	speed	speed	VB	O	xcomp	O	-1	B-verb.change
+0	3	64	369	371	S	63	up	up	up	RP	O	prt	O	-1	O
+0	3	65	372	375	S	67	the	the	the	DT	O	det	O	-1	O
+0	3	66	376	391	S	67	acclimatization	acclimatization	acclimatization	NN	O	nn	O	-1	B-noun.process
+0	3	67	392	399	S	63	process	process	process	NN	O	dobj	O	-1	B-noun.act
+0	3	68	400	403	S	67	and	and	and	CC	O	cc	O	-1	O
+0	3	69	404	409	S	67	guide	guide	guide	NN	O	conj	O	-1	B-noun.person
+0	3	70	410	413	S	71	the	the	the	DT	O	det	O	-1	O
+0	3	71	414	422	S	69	climbers	climbers	climber	NNS	O	dobj	O	-1	B-noun.plant
+0	3	72	423	435	S	63	successfully	successfully	successfully	RB	O	advmod	O	-1	O
+0	3	73	436	438	S	72	to	to	to	TO	O	dep	O	-1	O
+0	3	74	439	442	S	75	the	the	the	DT	O	det	O	-1	O
+0	3	75	443	449	S	73	summit	summit	summit	NN	O	pobj	O	-1	B-noun.state
+0	3	76	450	452	S	75	of	of	of	IN	O	prep	O	-1	O
+0	3	77	453	458	S	78	Mount	Mount	Mount	NNP	LOCATION	nn	O	-1	B-noun.location
+0	3	78	459	466		76	Everest	Everest	Everest	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	3	79	466	467	S	61	.	.	.	.	O	punct	O	-1	O
+0	4	80	468	471	S	81	The	The	the	DT	O	det	O	-1	O
+0	4	81	472	477	S	83	climb	climb	climb	NN	O	nsubj	O	-1	B-noun.object
+0	4	82	478	480	S	83	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	83	481	490	S	-1	structure	structure	structure	NN	O	null	O	-1	B-noun.artifact
+0	4	84	491	495	S	83	into	into	into	IN	O	prep	O	-1	O
+0	4	85	496	501		84	camps	camps	camp	NNS	O	pobj	O	-1	B-noun.artifact
+0	4	86	501	502	S	83	:	:	:	:	O	punct	O	-1	O
+0	4	87	503	507	S	88	Base	Base	Base	NNP	O	nn	O	-1	B-noun.group
+0	4	88	508	512		83	Camp	Camp	Camp	NNP	O	dep	O	-1	I-noun.group
+0	4	89	512	513	S	88	,	,	,	,	O	punct	O	-1	O
+0	4	90	514	518	S	88	Camp	Camp	Camp	NNP	MISC	conj	O	-1	B-noun.group
+0	4	91	519	522		90	One	One	one	CD	NUMBER	num	O	-1	O
+0	4	92	522	523	S	90	,	,	,	,	O	punct	O	-1	O
+0	4	93	524	528	S	90	Camp	Camp	Camp	NNP	LOCATION	conj	O	-1	B-noun.group
+0	4	94	529	532		93	Two	Two	two	CD	LOCATION	num	O	-1	O
+0	4	95	532	533	S	93	,	,	,	,	O	punct	O	-1	O
+0	4	96	534	538	S	93	Camp	Camp	Camp	NNP	O	conj	O	-1	B-noun.group
+0	4	97	539	544	S	96	Three	Three	three	CD	NUMBER	num	O	-1	O
+0	4	98	545	548	S	88	and	and	and	CC	O	cc	O	-1	O
+0	4	99	549	553	S	88	Camp	Camp	Camp	NNP	O	conj	O	-1	B-noun.group
+0	4	100	554	558		99	Four	Four	four	CD	NUMBER	num	O	-1	O
+0	4	101	558	559	S	83	.	.	.	.	O	punct	O	-1	O
+0	5	102	560	565	S	111	After	After	after	IN	O	prep	O	-1	O
+0	5	103	566	574	S	102	spending	spending	spend	VBG	O	pcomp	O	-1	B-verb.stative
+0	5	104	575	580	S	103	weeks	weeks	week	NNS	DURATION	tmod	O	-1	B-noun.time
+0	5	105	581	583	S	103	at	at	at	IN	O	prep	O	-1	O
+0	5	106	584	588	S	107	Base	Base	Base	NNP	LOCATION	nn	O	-1	B-noun.location
+0	5	107	589	593		105	Camp	Camp	Camp	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	5	108	593	594	S	107	,	,	,	,	O	punct	O	-1	O
+0	5	109	595	598	S	110	the	the	the	DT	O	det	O	-1	O
+0	5	110	599	604	S	107	group	group	group	NN	O	appos	O	-1	B-noun.group
+0	5	111	605	610	S	-1	makes	makes	make	VBZ	O	null	O	-1	B-verb.creation
+0	5	112	611	612	S	113	a	a	a	DT	O	det	O	-1	O
+0	5	113	613	619	S	111	number	number	number	NN	O	dobj	O	-1	B-noun.attribute
+0	5	114	620	622	S	113	of	of	of	IN	O	prep	O	-1	O
+0	5	115	623	628	S	114	trips	trips	trip	NNS	O	pobj	O	-1	B-noun.act
+0	5	116	629	631	S	115	up	up	up	IN	O	advmod	O	-1	O
+0	5	117	632	634	S	116	to	to	to	TO	O	dep	O	-1	O
+0	5	118	635	638	S	120	the	the	the	DT	O	det	O	-1	O
+0	5	119	639	644	S	120	other	other	other	JJ	O	amod	O	-1	O
+0	5	120	645	650	S	117	camps	camps	camp	NNS	O	pobj	O	-1	B-noun.artifact
+0	5	121	651	653	S	122	to	to	to	TO	O	aux	O	-1	O
+0	5	122	654	659	S	113	speed	speed	speed	VB	O	infmod	O	-1	B-verb.change
+0	5	123	660	662	S	122	up	up	up	RP	O	prt	O	-1	O
+0	5	124	663	666	S	126	the	the	the	DT	O	det	O	-1	O
+0	5	125	667	682	S	126	acclimatization	acclimatization	acclimatization	NN	O	nn	O	-1	B-noun.process
+0	5	126	683	690		122	process	process	process	NN	O	dobj	O	-1	O
+0	5	127	690	691	S	111	.	.	.	.	O	punct	O	-1	O
+0	6	128	692	694	S	137	In	In	in	IN	O	prep	O	-1	O
+0	6	129	695	698	S	130	the	the	the	DT	DATE	det	O	-1	O
+0	6	130	699	708	S	128	beginning	beginning	beginning	NN	DATE	pobj	O	-1	B-noun.event
+0	6	131	709	711	S	130	of	of	of	IN	DATE	prep	O	-1	O
+0	6	132	712	715		131	May	May	May	NNP	DATE	pobj	O	-1	O
+0	6	133	715	716	S	137	,	,	,	,	O	punct	O	-1	O
+0	6	134	717	720	S	136	the	the	the	DT	O	det	O	-1	O
+0	6	135	721	723	S	136	gr	gr	gr	NN	O	nn	O	-1	O
+0	6	136	724	727	S	137	oup	oup	oup	NN	O	nsubj	O	-1	O
+0	6	137	728	733	S	-1	makes	makes	make	VBZ	O	null	O	-1	B-verb.change
+0	6	138	734	735	S	140	a	a	a	DT	O	det	O	-1	O
+0	6	139	736	742	S	140	summit	summit	summit	NN	O	nn	O	-1	B-noun.state
+0	6	140	743	747		137	push	push	push	NN	O	dobj	O	-1	B-noun.act
+0	6	141	747	748	S	137	.	.	.	.	O	punct	O	-1	O
+0	7	142	749	759	S	-1	Throughout	Throughout	throughout	IN	O	null	O	-1	O
+0	7	143	760	763	S	144	the	the	the	DT	O	det	O	-1	O
+0	7	144	764	769		142	climb	climb	climb	NN	O	pobj	O	-1	B-noun.object
+0	7	145	769	770	S	144	,	,	,	,	O	punct	O	-1	O
+0	7	146	771	779	S	147	Krakauer	Krakauer	Krakauer	NNP	PERSON	nn	O	1	O
+0	7	147	780	787	S	144	details	details	detail	NNS	O	conj	O	-1	B-noun.cognition
+0	7	148	788	791	S	149	his	his	he	PRP$	O	poss	O	1	O
+0	7	149	792	801		147	teammates	teammates	teammate	NNS	O	dobj	O	-1	B-noun.person
+0	7	150	801	802	S	144	,	,	,	,	O	punct	O	-1	O
+0	7	151	803	806	S	152	his	his	he	PRP$	O	poss	O	1	O
+0	7	152	807	813	S	144	guides	guides	guide	NNS	O	conj	O	-1	B-noun.person
+0	7	153	814	817	S	144	and	and	and	CC	O	cc	O	-1	O
+0	7	154	818	823	S	155	other	other	other	JJ	O	amod	O	-1	O
+0	7	155	824	835	S	144	expeditions	expeditions	expedition	NNS	O	conj	O	-1	B-noun.act
+0	7	156	836	838	S	144	on	on	on	IN	O	prep	O	-1	O
+0	7	157	839	842	S	158	the	the	the	DT	O	det	O	-1	O
+0	7	158	843	851		156	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	7	159	851	852	S	142	.	.	.	.	O	punct	O	-1	O
+0	8	160	853	855	S	161	He	He	he	PRP	O	nsubj	O	1	O
+0	8	161	856	861	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	8	162	862	864	S	163	to	to	to	TO	O	aux	O	-1	O
+0	8	163	865	870	S	161	piece	piece	piece	VB	O	xcomp	O	-1	B-verb.contact
+0	8	164	871	879	S	163	together	together	together	RB	O	advmod	O	-1	O
+0	8	165	880	881	S	167	a	a	a	DT	O	det	O	-1	O
+0	8	166	882	892	S	167	continuous	continuous	continuous	JJ	O	amod	O	-1	O
+0	8	167	893	901	S	163	timeline	timeline	timeline	NN	O	dobj	O	-1	B-noun.communication
+0	8	168	902	904	S	167	of	of	of	IN	O	prep	O	-1	O
+0	8	169	905	908	S	170	the	the	the	DT	O	det	O	-1	O
+0	8	170	909	915	S	178	events	events	event	NNS	O	nsubj	O	-1	B-noun.event
+0	8	171	916	920	S	172	that	that	that	WDT	O	nsubj	O	-1	O
+0	8	172	921	925	S	178	take	take	take	VBP	O	dep	O	-1	B-verb.change
+0	8	173	926	931	S	172	place	place	place	NN	O	dobj	O	-1	I-verb.change
+0	8	174	932	934	S	172	in	in	in	IN	O	prep	O	-1	O
+0	8	175	935	938	S	176	the	the	the	DT	DURATION	det	O	-1	O
+0	8	176	939	944	S	174	weeks	weeks	week	NNS	DURATION	pobj	O	-1	B-noun.time
+0	8	177	945	949	S	178	they	they	they	PRP	O	nsubj	O	-1	O
+0	8	178	950	953	S	168	are	are	be	VBP	O	pcomp	O	-1	B-verb.stative
+0	8	179	954	956	S	178	on	on	on	IN	O	prep	O	-1	O
+0	8	180	957	960	S	181	the	the	the	DT	O	det	O	-1	O
+0	8	181	961	969		179	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	8	182	969	970	S	161	.	.	.	.	O	punct	O	-1	O
+0	9	183	971	974	S	187	All	All	all	DT	O	nsubj	O	-1	O
+0	9	184	975	977	S	183	of	of	of	IN	O	prep	O	-1	O
+0	9	185	978	981	S	186	the	the	the	DT	O	det	O	-1	O
+0	9	186	982	989	S	184	clients	clients	client	NNS	O	pobj	O	-1	B-noun.person
+0	9	187	990	994	S	-1	have	have	have	VBP	O	null	O	-1	B-verb.possession
+0	9	188	995	1005	S	187	difficulty	difficulty	difficulty	NN	O	dobj	O	-1	B-noun.act
+0	9	189	1006	1015	S	188	adjusting	adjusting	adjust	VBG	O	dep	O	-1	B-verb.change
+0	9	190	1016	1018	S	189	to	to	to	TO	O	prep	O	-1	O
+0	9	191	1019	1022	S	192	the	the	the	DT	O	det	O	-1	O
+0	9	192	1023	1031		190	altitude	altitude	altitude	NN	O	pobj	O	-1	B-noun.attribute
+0	9	193	1031	1032	S	187	,	,	,	,	O	punct	O	-1	O
+0	9	194	1033	1039	S	187	tiring	tiring	tire	VBG	O	dep	O	-1	B-verb.body
+0	9	195	1040	1046		194	easily	easily	easily	RB	O	advmod	O	-1	O
+0	9	196	1046	1047	S	194	,	,	,	,	O	punct	O	-1	O
+0	9	197	1048	1054	S	194	losing	losing	lose	VBG	O	dep	O	-1	B-verb.possession
+0	9	198	1055	1061	S	197	weight	weight	weight	NN	O	dobj	O	-1	B-noun.attribute
+0	9	199	1062	1065	S	197	and	and	and	CC	O	cc	O	-1	O
+0	9	200	1066	1072	S	197	moving	moving	move	VBG	O	conj	O	-1	B-verb.motion
+0	9	201	1073	1079		200	slowly	slowly	slowly	RB	O	advmod	O	-1	O
+0	9	202	1079	1080	S	187	.	.	.	.	O	punct	O	-1	O
+0	10	203	1081	1084	S	204	The	The	the	DT	O	det	O	-1	O
+0	10	204	1085	1093		206	climbers	climbers	climber	NNS	O	poss	O	-1	B-noun.plant
+0	10	205	1093	1094	S	204	'	'	'	POS	O	possessive	O	-1	O
+0	10	206	1095	1105	S	214	experience	experience	experience	NN	O	nsubj	O	-1	B-noun.cognition
+0	10	207	1106	1108	S	206	in	in	in	IN	O	prep	O	-1	O
+0	10	208	1109	1117	S	209	mountain	mountain	mountain	NN	O	nn	O	-1	B-noun.act
+0	10	209	1118	1126	S	207	climbing	climbing	climbing	NN	O	pobj	O	-1	I-noun.act
+0	10	210	1127	1130	S	207	and	and	and	CC	O	cc	O	-1	O
+0	10	211	1131	1133	S	207	at	at	at	IN	O	conj	O	-1	O
+0	10	212	1134	1138	S	213	high	high	high	JJ	O	amod	O	-1	O
+0	10	213	1139	1148	S	211	altitudes	altitudes	altitude	NNS	O	pobj	O	-1	B-noun.attribute
+0	10	214	1149	1155		-1	varies	varies	vary	VBZ	O	null	O	-1	B-verb.change
+0	10	215	1155	1156		221	—	--	--	:	O	punct	O	-1	O
+0	10	216	1156	1160	S	221	some	some	some	DT	O	nsubjpass	O	-1	O
+0	10	217	1161	1163	S	216	of	of	of	IN	O	prep	O	-1	O
+0	10	218	1164	1168	S	217	them	them	they	PRP	O	pobj	O	-1	O
+0	10	219	1169	1172	S	221	are	are	be	VBP	O	auxpass	O	-1	B-verb.stative
+0	10	220	1173	1178	S	221	quite	quite	quite	RB	O	advmod	O	-1	O
+0	10	221	1179	1188		214	qualified	qualified	qualify	VBN	O	parataxis	O	-1	B-verb.stative
+0	10	222	1188	1189	S	221	,	,	,	,	O	punct	O	-1	O
+0	10	223	1190	1196	S	225	others	others	other	NNS	O	nsubj	O	-1	O
+0	10	224	1197	1201	S	225	very	very	very	RB	O	advmod	O	-1	O
+0	10	225	1202	1215	S	221	inexperienced	inexperienced	inexperienced	JJ	O	dep	O	-1	O
+0	10	226	1216	1219	S	225	and	and	and	CC	O	cc	O	-1	O
+0	10	227	1220	1226	S	228	highly	highly	highly	RB	O	advmod	O	-1	O
+0	10	228	1227	1234	S	225	reliant	reliant	reliant	JJ	O	conj	O	-1	O
+0	10	229	1235	1237	S	228	on	on	on	IN	O	prep	O	-1	O
+0	10	230	1238	1241	S	231	the	the	the	DT	O	det	O	-1	O
+0	10	231	1242	1248		229	guides	guides	guide	NNS	O	pobj	O	-1	B-noun.person
+0	10	232	1248	1249	S	214	.	.	.	.	O	punct	O	-1	O
+0	11	233	1250	1257	S	245	Despite	Despite	despite	IN	O	prep	O	-1	O
+0	11	234	1258	1259	S	235	a	a	a	DT	O	det	O	-1	O
+0	11	235	1260	1266	S	233	number	number	number	NN	O	pobj	O	-1	B-noun.attribute
+0	11	236	1267	1269	S	235	of	of	of	IN	O	prep	O	-1	O
+0	11	237	1270	1277		236	mishaps	mishaps	mishap	NNS	O	pobj	O	-1	B-noun.phenomenon
+0	11	238	1277	1278	S	245	,	,	,	,	O	punct	O	-1	O
+0	11	239	1279	1282	S	241	the	the	the	DT	O	det	O	-1	O
+0	11	240	1283	1288	S	241	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	11	241	1289	1294	S	245	death	death	death	NN	O	nsubj	O	-1	B-noun.event
+0	11	242	1295	1299	S	245	does	does	do	VBZ	O	aux	O	-1	O
+0	11	243	1300	1303	S	245	not	not	not	RB	O	neg	O	-1	O
+0	11	244	1304	1312	S	245	actually	actually	actually	RB	O	advmod	O	-1	O
+0	11	245	1313	1318	S	-1	occur	occur	occur	VB	O	null	O	-1	B-verb.change
+0	11	246	1319	1324	S	245	until	until	until	IN	O	prep	O	-1	O
+0	11	247	1325	1332	S	246	Chapter	Chapter	chapter	NN	MISC	pobj	O	-1	B-noun.communication
+0	11	248	1333	1335		247	11	11	11	CD	NUMBER	num	O	-1	O
+0	11	249	1335	1336	S	245	.	.	.	.	O	punct	O	-1	O
+0	12	250	1337	1341	S	-1	From	From	from	IN	O	null	O	-1	O
+0	12	251	1342	1346	S	252	that	that	that	DT	O	det	O	-1	O
+0	12	252	1347	1352	S	253	point	point	point	NN	O	measure	O	-1	B-noun.cognition
+0	12	253	1353	1355		250	on	on	on	IN	O	dep	O	-1	O
+0	12	254	1355	1356	S	250	,	,	,	,	O	dep	O	-1	O
+0	12	255	1357	1363		259	though	though	though	IN	O	mark	O	-1	O
+0	12	256	1363	1364	S	259	,	,	,	,	O	punct	O	-1	O
+0	12	257	1365	1370	S	259	death	death	death	NN	O	nsubj	O	-1	B-noun.phenomenon
+0	12	258	1371	1373	S	259	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	12	259	1374	1383	S	254	something	something	something	NN	O	advcl	O	-1	O
+0	12	260	1384	1387	S	262	all	all	all	PDT	O	predet	O	-1	O
+0	12	261	1388	1391	S	262	the	the	the	DT	O	det	O	-1	O
+0	12	262	1392	1400	S	264	climbers	climbers	climber	NNS	O	nsubj	O	-1	B-noun.plant
+0	12	263	1401	1407	S	264	become	become	become	VBP	O	cop	O	-1	B-verb.change
+0	12	264	1408	1416	S	259	familiar	familiar	familiar	JJ	O	rcmod	O	-1	O
+0	12	265	1417	1421		264	with	with	with	IN	O	prep	O	-1	O
+0	12	266	1421	1422	S	250	.	.	.	.	O	punct	O	-1	O
+0	13	267	1423	1426	S	270	The	The	the	DT	O	det	O	-1	O
+0	13	268	1427	1433	S	270	actual	actual	actual	JJ	O	amod	O	-1	O
+0	13	269	1434	1440	S	270	summit	summit	summit	NN	O	nn	O	-1	B-noun.state
+0	13	270	1441	1445	S	271	push	push	push	NN	O	nsubj	O	-1	B-noun.act
+0	13	271	1446	1448	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	13	272	1449	1453	S	274	when	when	when	WRB	O	advmod	O	-1	O
+0	13	273	1454	1464	S	274	everything	everything	everything	NN	O	nsubj	O	-1	O
+0	13	274	1465	1471	S	271	begins	begins	begin	VBZ	O	advcl	O	-1	B-verb.stative
+0	13	275	1472	1474	S	276	to	to	to	TO	O	aux	O	-1	O
+0	13	276	1475	1479	S	274	fall	fall	fall	VB	O	xcomp	O	-1	B-verb.contact
+0	13	277	1480	1485		276	apart	apart	apart	RB	O	advmod	O	-1	O
+0	13	278	1485	1486	S	271	.	.	.	.	O	punct	O	-1	O
+0	14	279	1487	1490	S	280	Rob	Rob	Rob	NNP	PERSON	nn	O	2	B-noun.person
+0	14	280	1491	1495	S	281	Hall	Hall	Hall	NNP	PERSON	nsubj	O	2	I-noun.person
+0	14	281	1496	1504	S	-1	appoints	appoints	appoint	VBZ	O	null	O	-1	B-verb.social
+0	14	282	1505	1506	S	286	a	a	a	DT	O	det	O	-1	O
+0	14	283	1507	1511	S	284	2:00	2:00	2:00	CD	TIME	dep	O	-1	O
+0	14	284	1512	1514	S	286	pm	pm	pm	NN	TIME	amod	O	-1	B-noun.act
+0	14	285	1515	1526	S	286	turn-around	turn-around	turn-around	NN	O	nn	O	-1	I-noun.act
+0	14	286	1527	1531		281	time	time	time	NN	O	dobj	O	-1	B-noun.time
+0	14	287	1531	1532	S	281	,	,	,	,	O	punct	O	-1	O
+0	14	288	1533	1540	S	281	meaning	meaning	mean	VBG	O	xcomp	O	-1	B-verb.communication
+0	14	289	1541	1545	S	301	that	that	that	IN	O	complm	O	-1	O
+0	14	290	1546	1554	S	301	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	14	291	1555	1558	S	295	who	who	who	WP	O	nsubj	O	-1	O
+0	14	292	1559	1562	S	295	has	has	have	VBZ	O	aux	O	-1	O
+0	14	293	1563	1566	S	295	not	not	not	RB	O	neg	O	-1	O
+0	14	294	1567	1575	S	295	actually	actually	actually	RB	O	advmod	O	-1	O
+0	14	295	1576	1583	S	290	reached	reached	reach	VBD	O	rcmod	O	-1	B-verb.motion
+0	14	296	1584	1587	S	297	the	the	the	DT	O	det	O	-1	O
+0	14	297	1588	1594	S	295	summit	summit	summit	NN	O	dobj	O	-1	B-noun.state
+0	14	298	1595	1597	S	295	by	by	by	IN	O	prep	O	-1	O
+0	14	299	1598	1602	S	298	then	then	then	RB	O	pobj	O	-1	O
+0	14	300	1603	1607	S	301	must	must	must	MD	O	aux	O	-1	O
+0	14	301	1608	1612	S	288	turn	turn	turn	VB	O	ccomp	O	-1	B-verb.motion
+0	14	302	1613	1619		301	around	around	around	RP	O	prt	O	-1	O
+0	14	303	1619	1620	S	301	,	,	,	,	O	punct	O	-1	O
+0	14	304	1621	1623	S	305	no	no	no	DT	O	det	O	-1	O
+0	14	305	1624	1630	S	301	matter	matter	matter	NN	O	dobj	O	-1	B-noun.cognition
+0	14	306	1631	1634	S	311	how	how	how	WRB	O	advmod	O	-1	O
+0	14	307	1635	1640	S	311	close	close	close	RB	O	advmod	O	-1	O
+0	14	308	1641	1643	S	311	he	he	he	PRP	O	nsubj	O	2	O
+0	14	309	1644	1646	S	308	or	or	or	CC	O	cc	O	-1	O
+0	14	310	1647	1650	S	308	she	she	she	PRP	O	conj	O	-1	O
+0	14	311	1651	1653		305	is	is	be	VBZ	O	ccomp	O	-1	O
+0	14	312	1653	1654	S	281	.	.	.	.	O	punct	O	-1	O
+0	15	313	1655	1659	S	314	That	That	that	DT	O	det	O	-1	O
+0	15	314	1660	1663		323	day	day	day	NN	DURATION	tmod	O	-1	B-noun.time
+0	15	315	1663	1664	S	323	,	,	,	,	O	punct	O	-1	O
+0	15	316	1665	1669	S	317	only	only	only	RB	O	advmod	O	-1	O
+0	15	317	1670	1678	S	323	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubj	O	1	B-noun.person
+0	15	318	1679	1682	S	317	and	and	and	CC	O	cc	O	-1	O
+0	15	319	1683	1684	S	322	a	a	a	DT	O	det	O	-1	O
+0	15	320	1685	1688	S	322	few	few	few	JJ	O	amod	O	-1	O
+0	15	321	1689	1694	S	322	other	other	other	JJ	O	amod	O	-1	O
+0	15	322	1695	1703	S	317	climbers	climbers	climber	NNS	O	conj	O	-1	B-noun.plant
+0	15	323	1704	1708	S	-1	make	make	make	VBP	O	null	O	-1	B-verb.change
+0	15	324	1709	1711	S	323	it	it	it	PRP	O	dobj	O	-1	O
+0	15	325	1712	1714	S	323	to	to	to	TO	O	prep	O	-1	O
+0	15	326	1715	1718	S	327	the	the	the	DT	O	det	O	-1	O
+0	15	327	1719	1722	S	325	top	top	top	NN	O	pobj	O	-1	B-noun.location
+0	15	328	1723	1729	S	323	before	before	before	IN	O	prep	O	-1	O
+0	15	329	1730	1734	S	330	2:00	2:00	2:00	CD	TIME	num	O	-1	O
+0	15	330	1735	1737		328	pm	pm	pm	NN	TIME	pobj	O	-1	B-noun.act
+0	15	331	1737	1738	S	323	.	.	.	.	O	punct	O	-1	O
+0	16	332	1739	1746	S	336	Members	Members	member	NNS	O	nsubj	O	-1	B-noun.person
+0	16	333	1747	1749	S	332	of	of	of	IN	O	prep	O	-1	O
+0	16	334	1750	1753	S	335	his	his	he	PRP$	O	poss	O	1	O
+0	16	335	1754	1759	S	333	group	group	group	NN	O	pobj	O	-1	B-noun.group
+0	16	336	1760	1765	S	-1	reach	reach	reach	VB	O	null	O	-1	B-verb.motion
+0	16	337	1766	1769	S	338	the	the	the	DT	O	det	O	-1	O
+0	16	338	1770	1773	S	336	top	top	top	NN	O	dobj	O	-1	B-noun.location
+0	16	339	1774	1776	S	351	as	as	as	IN	O	mark	O	-1	O
+0	16	340	1777	1781	S	351	late	late	late	JJ	O	advmod	O	-1	O
+0	16	341	1782	1784	S	340	as	as	as	IN	O	prep	O	-1	O
+0	16	342	1785	1789	S	343	4:00	4:00	4:00	CD	TIME	num	O	-1	O
+0	16	343	1790	1792		341	pm	pm	pm	NN	TIME	pobj	O	-1	B-noun.act
+0	16	344	1792	1793		340	—	--	--	:	O	punct	O	-1	O
+0	16	345	1793	1796	S	346	the	the	the	DT	O	det	O	-1	O
+0	16	346	1797	1801	S	348	turn	turn	turn	NN	O	amod	O	-1	B-noun.event
+0	16	347	1802	1808	S	346	around	around	around	RP	O	prt	O	-1	O
+0	16	348	1809	1813	S	351	time	time	time	NN	O	nsubjpass	O	-1	B-noun.time
+0	16	349	1814	1816	S	351	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	16	350	1817	1820	S	351	not	not	not	RB	O	neg	O	-1	O
+0	16	351	1821	1829		336	enforced	enforced	enforce	VBN	O	advcl	O	-1	O
+0	16	352	1829	1830	S	336	.	.	.	.	O	punct	O	-1	O
+0	17	353	1831	1836	S	360	Among	Among	among	IN	O	prep	O	-1	O
+0	17	354	1837	1840	S	356	the	the	the	DT	O	det	O	-1	O
+0	17	355	1841	1846	S	356	later	later	later	JJ	O	amod	O	-1	O
+0	17	356	1847	1855	S	353	arrivals	arrivals	arrival	NNS	O	pobj	O	-1	B-noun.act
+0	17	357	1856	1858	S	353	to	to	to	TO	O	dep	O	-1	O
+0	17	358	1859	1862	S	359	the	the	the	DT	O	det	O	-1	O
+0	17	359	1863	1866	S	357	top	top	top	NN	O	pobj	O	-1	B-noun.location
+0	17	360	1867	1869	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	17	361	1870	1873	S	362	Rob	Rob	Rob	NNP	PERSON	nn	O	2	B-noun.person
+0	17	362	1874	1878	S	360	Hall	Hall	Hall	NNP	PERSON	nsubj	O	2	I-noun.person
+0	17	363	1879	1882	S	362	and	and	and	CC	O	cc	O	-1	O
+0	17	364	1883	1890	S	365	another	another	another	DT	O	det	O	-1	O
+0	17	365	1891	1897		362	member	member	member	NN	O	conj	O	-1	B-noun.person
+0	17	366	1897	1898	S	365	,	,	,	,	O	punct	O	-1	O
+0	17	367	1899	1903	S	368	Doug	Doug	Doug	NNP	PERSON	nn	O	-1	O
+0	17	368	1904	1910		365	Hansen	Hansen	Hansen	NNP	PERSON	appos	O	-1	O
+0	17	369	1910	1911	S	360	.	.	.	.	O	punct	O	-1	O
+0	18	370	1912	1916	S	371	They	They	they	PRP	O	nsubj	O	-1	O
+0	18	371	1917	1923	S	-1	arrive	arrive	arrive	VBP	O	null	O	-1	B-verb.motion
+0	18	372	1924	1927	S	373	jus	jus	jus	NN	O	nn	O	-1	B-noun.person
+0	18	373	1928	1929	S	371	t	t	t	NN	O	dobj	O	-1	O
+0	18	374	1930	1936	S	373	behind	behind	behind	IN	O	prep	O	-1	O
+0	18	375	1937	1944	S	377	another	another	another	DT	O	det	O	-1	O
+0	18	376	1945	1953	S	377	climbing	climbing	climb	VBG	O	amod	O	-1	B-verb.motion
+0	18	377	1954	1959	S	374	group	group	group	NN	O	pobj	O	-1	B-noun.group
+0	18	378	1960	1966	S	377	guided	guided	guide	VBN	O	partmod	O	-1	B-verb.motion
+0	18	379	1967	1969	S	378	by	by	by	IN	O	prep	O	-1	O
+0	18	380	1970	1975	S	381	Scott	Scott	Scott	NNP	PERSON	nn	O	-1	B-noun.person
+0	18	381	1976	1983		379	Fischer	Fischer	Fischer	NNP	PERSON	pobj	O	-1	I-noun.person
+0	18	382	1983	1984	S	371	.	.	.	.	O	punct	O	-1	O
+0	19	383	1985	1986	S	384	A	A	a	DT	O	det	O	-1	O
+0	19	384	1987	1992	S	385	storm	storm	storm	NN	O	nsubj	O	-1	B-noun.phenomenon
+0	19	385	1993	1997	S	-1	hits	hits	hit	VBZ	O	null	O	-1	B-verb.contact
+0	19	386	1998	2001	S	387	the	the	the	DT	O	det	O	-1	O
+0	19	387	2002	2008	S	385	summit	summit	summit	NN	O	dobj	O	-1	B-noun.state
+0	19	388	2009	2013	S	389	that	that	that	DT	O	det	O	-1	O
+0	19	389	2014	2023		385	afternoon	afternoon	afternoon	NN	TIME	tmod	O	-1	B-noun.time
+0	19	390	2023	2024	S	385	,	,	,	,	O	punct	O	-1	O
+0	19	391	2025	2028	S	385	and	and	and	CC	O	cc	O	-1	O
+0	19	392	2029	2037	S	393	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubj	O	1	B-noun.person
+0	19	393	2038	2045	S	385	catches	catches	catch	VBZ	O	conj	O	-1	B-verb.cognition
+0	19	394	2046	2050	S	397	only	only	only	RB	O	advmod	O	-1	O
+0	19	395	2051	2054	S	397	the	the	the	DT	O	det	O	-1	O
+0	19	396	2055	2059	S	397	tail	tail	tail	NN	O	nn	O	-1	B-noun.time
+0	19	397	2060	2063	S	393	end	end	end	NN	O	dobj	O	-1	I-noun.time
+0	19	398	2064	2066	S	397	of	of	of	IN	O	prep	O	-1	O
+0	19	399	2067	2069	S	398	it	it	it	PRP	O	pobj	O	-1	O
+0	19	400	2070	2076	S	403	before	before	before	IN	O	mark	O	-1	O
+0	19	401	2077	2079	S	403	he	he	he	PRP	O	nsubj	O	1	O
+0	19	402	2080	2092	S	403	successfully	successfully	successfully	RB	O	advmod	O	-1	O
+0	19	403	2093	2100	S	393	reaches	reaches	reach	VBZ	O	advcl	O	-1	B-verb.motion
+0	19	404	2101	2104	S	405	the	the	the	DT	O	det	O	-1	O
+0	19	405	2105	2111	S	403	refuse	refuse	refuse	NN	O	dobj	O	-1	B-noun.substance
+0	19	406	2112	2114	S	405	of	of	of	IN	O	prep	O	-1	O
+0	19	407	2115	2119	S	406	Camp	Camp	Camp	NNP	MISC	pobj	O	-1	B-noun.group
+0	19	408	2120	2124		407	Four	Four	four	CD	NUMBER	num	O	-1	O
+0	19	409	2124	2125	S	385	.	.	.	.	O	punct	O	-1	O
+0	20	410	2126	2134	S	411	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubj	O	1	B-noun.person
+0	20	411	2135	2137	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	20	412	2138	2142	S	413	well	well	well	RB	O	advmod	O	-1	O
+0	20	413	2143	2148	S	411	ahead	ahead	ahead	RB	O	advmod	O	-1	O
+0	20	414	2149	2151	S	413	of	of	of	IN	O	dep	O	-1	O
+0	20	415	2152	2156	S	414	most	most	most	JJS	O	pobj	O	-1	O
+0	20	416	2157	2159	S	415	of	of	of	IN	O	prep	O	-1	O
+0	20	417	2160	2163	S	418	his	his	he	PRP$	O	poss	O	1	O
+0	20	418	2164	2173	S	416	teammates	teammates	teammate	NNS	O	pobj	O	-1	B-noun.person
+0	20	419	2174	2177	S	411	and	and	and	CC	O	cc	O	-1	O
+0	20	420	2178	2181	S	411	has	has	have	VBZ	O	conj	O	-1	B-verb.possession
+0	20	421	2182	2184	S	422	no	no	no	DT	O	det	O	-1	O
+0	20	422	2185	2189	S	420	idea	idea	idea	NN	O	dobj	O	-1	B-noun.cognition
+0	20	423	2190	2194	S	424	what	what	what	WDT	O	nsubj	O	-1	O
+0	20	424	2195	2199	S	422	lies	lies	lie	VBZ	O	rcmod	O	-1	B-verb.stative
+0	20	425	2200	2202	S	424	in	in	in	IN	O	prep	O	-1	O
+0	20	426	2203	2208	S	425	store	store	store	NN	O	pobj	O	-1	B-noun.artifact
+0	20	427	2209	2212	S	426	for	for	for	IN	O	prep	O	-1	O
+0	20	428	2213	2217		427	them	them	they	PRP	O	pobj	O	-1	O
+0	20	429	2217	2218	S	411	.	.	.	.	O	punct	O	-1	O
+0	21	430	2219	2223	S	434	Hall	Hall	Hall	NNP	O	nsubjpass	O	-1	B-noun.person
+0	21	431	2224	2227	S	430	and	and	and	CC	O	cc	O	-1	O
+0	21	432	2228	2234	S	430	Hansen	Hansen	Hansen	NNP	PERSON	conj	O	0	B-noun.person
+0	21	433	2235	2238	S	434	get	get	get	VB	O	auxpass	O	-1	O
+0	21	434	2239	2247		-1	stranded	stranded	strand	VBN	O	null	O	-1	O
+0	21	435	2247	2248	S	434	.	.	.	.	O	punct	O	-1	O
+0	22	436	2249	2255	S	437	Hansen	Hansen	Hansen	NNP	PERSON	nsubj	O	0	B-noun.person
+0	22	437	2256	2260	S	-1	runs	runs	run	VBZ	O	null	O	-1	B-verb.motion
+0	22	438	2261	2264	S	437	out	out	out	IN	O	prep	O	-1	O
+0	22	439	2265	2267	S	438	of	of	of	IN	O	dep	O	-1	O
+0	22	440	2268	2280	S	441	supplemental	supplemental	supplemental	JJ	O	amod	O	-1	O
+0	22	441	2281	2287	S	439	oxygen	oxygen	oxygen	NN	O	pobj	O	-1	B-noun.substance
+0	22	442	2288	2291	S	437	and	and	and	CC	O	cc	O	-1	O
+0	22	443	2292	2295		445	can	can	can	MD	O	aux	O	-1	O
+0	22	444	2295	2298	S	445	not	not	not	RB	O	neg	O	-1	O
+0	22	445	2299	2307		437	continue	continue	continue	VB	O	conj	O	-1	B-verb.stative
+0	22	446	2307	2308	S	437	.	.	.	.	O	punct	O	-1	O
+0	23	447	2309	2316	S	448	Another	Another	another	DT	O	det	O	-1	O
+0	23	448	2317	2322	S	450	group	group	group	NN	O	nsubjpass	O	-1	B-noun.group
+0	23	449	2323	2327	S	450	gets	gets	get	VBZ	O	auxpass	O	-1	B-verb.change
+0	23	450	2328	2332	S	-1	lost	lost	lose	VBN	O	null	O	-1	B-verb.possession
+0	23	451	2333	2335	S	450	in	in	in	IN	O	prep	O	-1	O
+0	23	452	2336	2339	S	453	the	the	the	DT	O	det	O	-1	O
+0	23	453	2340	2348	S	451	blizzard	blizzard	blizzard	NN	O	pobj	O	-1	B-noun.phenomenon
+0	23	454	2349	2352	S	453	and	and	and	CC	O	cc	O	-1	O
+0	23	455	2353	2358		453	later	later	later	RB	O	advmod	O	-1	O
+0	23	456	2358	2359	S	450	,	,	,	,	O	punct	O	-1	O
+0	23	457	2360	2362	S	459	an	an	a	DT	O	det	O	-1	O
+0	23	458	2363	2372	S	459	assistant	assistant	assistant	JJ	O	amod	O	-1	O
+0	23	459	2373	2378	S	460	guide	guide	guide	NN	O	nsubj	O	-1	B-noun.person
+0	23	460	2379	2386	S	450	rescues	rescues	rescue	VBZ	O	ccomp	O	-1	B-verb.social
+0	23	461	2387	2390	S	462	all	all	all	DT	O	dep	O	-1	O
+0	23	462	2391	2394	S	460	but	but	but	CC	O	dep	O	-1	O
+0	23	463	2395	2398	S	462	two	two	two	CD	NUMBER	num	O	-1	O
+0	23	464	2399	2401	S	462	of	of	of	IN	O	prep	O	-1	O
+0	23	465	2402	2406		464	them	them	they	PRP	O	pobj	O	-1	O
+0	23	466	2406	2407	S	450	.	.	.	.	O	punct	O	-1	O
+0	24	467	2408	2411	S	469	The	The	the	DT	O	dep	O	-1	O
+0	24	468	2412	2421	S	469	remaining	remaining	remain	VBG	O	amod	O	-1	B-verb.change
+0	24	469	2422	2425	S	471	two	two	two	CD	NUMBER	nsubjpass	O	-1	O
+0	24	470	2426	2429	S	471	are	are	be	VBP	O	auxpass	O	-1	O
+0	24	471	2430	2434		-1	left	left	leave	VBN	O	null	O	-1	B-verb.motion
+0	24	472	2434	2435	S	471	,	,	,	,	O	punct	O	-1	O
+0	24	473	2436	2446	S	474	presumably	presumably	presumably	RB	O	advmod	O	-1	O
+0	24	474	2447	2451		471	dead	dead	dead	JJ	O	dep	O	-1	O
+0	24	475	2451	2452	S	471	.	.	.	.	O	punct	O	-1	O
+0	25	476	2453	2460	S	479	Fischer	Fischer	Fischer	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	25	477	2461	2465	S	479	also	also	also	RB	O	advmod	O	-1	O
+0	25	478	2466	2470	S	479	gets	gets	get	VBZ	O	auxpass	O	-1	O
+0	25	479	2471	2479		-1	stranded	stranded	strand	VBN	O	null	O	-1	O
+0	25	480	2479	2480	S	479	,	,	,	,	O	punct	O	-1	O
+0	25	481	2481	2484	S	479	and	and	and	CC	O	cc	O	-1	O
+0	25	482	2485	2489	S	486	when	when	when	WRB	O	advmod	O	-1	O
+0	25	483	2490	2492	S	486	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	25	484	2493	2495	S	486	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	25	485	2496	2503	S	486	finally	finally	finally	RB	O	advmod	O	-1	O
+0	25	486	2504	2509		479	found	found	find	VBN	O	conj	O	-1	B-verb.possession
+0	25	487	2509	2510	S	490	,	,	,	,	O	punct	O	-1	O
+0	25	488	2511	2513	S	490	he	he	he	PRP	O	nsubj	O	-1	O
+0	25	489	2514	2516	S	490	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	25	490	2517	2521		486	dead	dead	dead	JJ	O	dep	O	-1	O
+0	25	491	2521	2522	S	479	.	.	.	.	O	punct	O	-1	O
+0	26	492	2523	2529	S	493	Hansen	Hansen	Hansen	NNP	PERSON	nsubj	O	0	B-noun.person
+0	26	493	2530	2534	S	-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	26	494	2535	2538	S	493	and	and	and	CC	O	cc	O	-1	O
+0	26	495	2539	2542	S	500	one	one	one	CD	NUMBER	nsubj	O	-1	O
+0	26	496	2543	2545	S	495	of	of	of	IN	O	prep	O	-1	O
+0	26	497	2546	2550		499	Hall	Hall	Hall	NNP	PERSON	poss	O	2	B-noun.person
+0	26	498	2550	2552	S	497	's	's	's	POS	O	possessive	O	-1	O
+0	26	499	2553	2560	S	496	Sherpas	Sherpas	Sherpas	NNPS	O	pobj	O	-1	B-noun.person
+0	26	500	2561	2566	S	493	tries	tries	try	VBZ	O	conj	O	-1	B-verb.social
+0	26	501	2567	2569	S	500	to	to	to	TO	O	prep	O	-1	O
+0	26	502	2570	2576	S	503	rescue	rescue	rescue	NN	O	nn	O	-1	B-noun.act
+0	26	503	2577	2581		501	Hall	Hall	hall	NN	PERSON	pobj	O	2	O
+0	26	504	2581	2582	S	493	,	,	,	,	O	punct	O	-1	O
+0	26	505	2583	2586	S	493	but	but	but	CC	O	cc	O	-1	O
+0	26	506	2587	2590		508	can	can	can	MD	O	aux	O	-1	O
+0	26	507	2590	2593	S	508	not	not	not	RB	O	neg	O	-1	O
+0	26	508	2594	2599	S	493	climb	climb	climb	VB	O	conj	O	-1	B-verb.motion
+0	26	509	2600	2604	S	508	high	high	high	JJ	O	acomp	O	-1	O
+0	26	510	2605	2611		509	enough	enough	enough	RB	O	advmod	O	-1	O
+0	26	511	2611	2612	S	493	.	.	.	.	O	punct	O	-1	O
+0	27	512	2613	2614	S	514	A	A	a	DT	O	det	O	-1	O
+0	27	513	2615	2620	S	514	guide	guide	guide	NN	O	nn	O	-1	B-noun.person
+0	27	514	2621	2630	S	515	assistant	assistant	assistant	NN	O	nsubj	O	-1	B-noun.person
+0	27	515	2631	2635	S	-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	27	516	2636	2642	S	515	trying	trying	try	VBG	O	xcomp	O	-1	B-verb.social
+0	27	517	2643	2645	S	516	to	to	to	TO	O	prep	O	-1	O
+0	27	518	2646	2652	S	519	rescue	rescue	rescue	NN	O	nn	O	-1	B-noun.act
+0	27	519	2653	2657	S	517	Hall	Hall	hall	NN	PERSON	pobj	O	2	B-noun.artifact
+0	27	520	2658	2661	S	519	and	and	and	CC	O	cc	O	-1	O
+0	27	521	2662	2668		519	Hansen	Hansen	Hansen	NNP	PERSON	conj	O	0	O
+0	27	522	2668	2669	S	515	.	.	.	.	O	punct	O	-1	O
+0	28	523	2670	2673	S	528	One	One	one	CD	NUMBER	nsubj	O	-1	O
+0	28	524	2674	2676	S	523	of	of	of	IN	O	prep	O	-1	O
+0	28	525	2677	2680	S	527	the	the	the	DT	O	det	O	-1	O
+0	28	526	2681	2684	S	527	two	two	two	CD	NUMBER	num	O	-1	O
+0	28	527	2685	2692	S	524	clients	clients	client	NNS	O	pobj	O	-1	B-noun.person
+0	28	528	2693	2697	S	-1	left	left	leave	VBD	O	null	O	-1	B-verb.motion
+0	28	529	2698	2701	S	528	for	for	for	IN	O	prep	O	-1	O
+0	28	530	2702	2706		529	dead	dead	dead	JJ	O	pobj	O	-1	O
+0	28	531	2706	2707	S	528	,	,	,	,	O	punct	O	-1	O
+0	28	532	2708	2712	S	533	Beck	Beck	Beck	NNP	PERSON	nn	O	-1	O
+0	28	533	2713	2721		536	Weathers	Weathers	Weathers	NNP	PERSON	nsubj	O	-1	O
+0	28	534	2721	2722	S	533	,	,	,	,	O	punct	O	-1	O
+0	28	535	2723	2731	S	536	actually	actually	actually	RB	O	advmod	O	-1	O
+0	28	536	2732	2737	S	528	makes	makes	make	VBZ	O	dep	O	-1	B-verb.change
+0	28	537	2738	2740	S	536	it	it	it	PRP	O	dobj	O	-1	O
+0	28	538	2741	2745	S	536	back	back	back	RB	O	advmod	O	-1	O
+0	28	539	2746	2748	S	538	to	to	to	TO	O	dep	O	-1	O
+0	28	540	2749	2753	S	539	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	28	541	2754	2757	S	536	and	and	and	CC	O	cc	O	-1	O
+0	28	542	2758	2770	S	543	miraculously	miraculously	miraculously	RB	O	advmod	O	-1	O
+0	28	543	2771	2779	S	536	survives	survives	survive	VBZ	O	conj	O	-1	B-verb.stative
+0	28	544	2780	2783	S	545	the	the	the	DT	O	det	O	-1	O
+0	28	545	2784	2790		543	ordeal	ordeal	ordeal	NN	O	dobj	O	-1	B-noun.event
+0	28	546	2790	2791	S	528	.	.	.	.	O	punct	O	-1	O
+0	29	547	2792	2794	S	549	He	He	he	PRP	O	nsubj	O	-1	O
+0	29	548	2795	2805	S	549	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	29	549	2806	2815	S	-1	undergoes	undergoes	undergo	VBZ	O	null	O	-1	B-verb.perception
+0	29	550	2816	2817	S	551	a	a	a	DT	O	det	O	-1	O
+0	29	551	2818	2824	S	549	number	number	number	NN	O	dobj	O	-1	B-noun.attribute
+0	29	552	2825	2827	S	551	of	of	of	IN	O	prep	O	-1	O
+0	29	553	2828	2838	S	552	amputation	amputation	amputation	NN	O	pobj	O	-1	B-noun.state
+0	29	554	2839	2842	S	553	and	and	and	CC	O	cc	O	-1	O
+0	29	555	2843	2852	S	553	surgeries	surgeries	surgery	NNS	O	conj	O	-1	B-noun.cognition
+0	29	556	2853	2856	S	549	for	for	for	IN	O	prep	O	-1	O
+0	29	557	2857	2860	S	558	his	his	he	PRP$	O	poss	O	-1	O
+0	29	558	2861	2869		556	injuries	injuries	injury	NNS	O	pobj	O	-1	B-noun.state
+0	29	559	2869	2870	S	549	.	.	.	.	O	punct	O	-1	O
+0	30	560	2871	2874	S	561	All	All	all	DT	O	nsubj	O	-1	O
+0	30	561	2875	2879		566	told	told	tell	VBD	O	ccomp	O	-1	B-verb.communication
+0	30	562	2879	2880	S	566	,	,	,	,	O	punct	O	-1	O
+0	30	563	2881	2882	S	565	a	a	a	DT	O	det	O	-1	O
+0	30	564	2883	2888	S	565	dozen	dozen	dozen	NN	NUMBER	nn	O	-1	B-noun.quantity
+0	30	565	2889	2895	S	566	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	30	566	2896	2899	S	-1	die	die	die	VBP	O	null	O	-1	B-verb.change
+0	30	567	2900	2902	S	566	on	on	on	IN	O	prep	O	-1	O
+0	30	568	2903	2910	S	570	Everest	Everest	Everest	NNP	LOCATION	nn	O	-1	O
+0	30	569	2911	2915	S	570	that	that	that	WDT	O	dep	O	-1	O
+0	30	570	2916	2922		567	season	season	season	NN	O	pobj	O	-1	B-noun.time
+0	30	571	2922	2923	S	566	,	,	,	,	O	punct	O	-1	O
+0	30	572	2924	2925	S	574	a	a	a	DT	O	det	O	-1	O
+0	30	573	2926	2928	S	574	nd	nd	nd	NN	O	nn	O	-1	B-noun.substance
+0	30	574	2929	2937		579	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubj	O	1	O
+0	30	575	2937	2938	S	574	,	,	,	,	O	punct	O	-1	O
+0	30	576	2939	2949	S	577	originally	originally	originally	RB	O	advmod	O	-1	O
+0	30	577	2950	2955	S	574	there	there	there	RB	O	advmod	O	-1	O
+0	30	578	2956	2958	S	579	to	to	to	TO	O	aux	O	-1	O
+0	30	579	2959	2965	S	566	report	report	report	VB	O	ccomp	O	-1	B-verb.communication
+0	30	580	2966	2968	S	579	on	on	on	IN	O	prep	O	-1	O
+0	30	581	2969	2972	S	582	the	the	the	DT	O	det	O	-1	O
+0	30	582	2973	2981	S	580	business	business	business	NN	O	pobj	O	-1	B-noun.group
+0	30	583	2982	2984	S	582	of	of	of	IN	O	prep	O	-1	O
+0	30	584	2985	2991	S	583	taking	taking	take	VBG	O	pcomp	O	-1	B-verb.social
+0	30	585	2992	2998	S	584	people	people	people	NNS	O	dobj	O	-1	B-noun.group
+0	30	586	2999	3001	S	592	up	up	up	IN	O	mark	O	-1	O
+0	30	587	3002	3005	S	588	the	the	the	DT	O	det	O	-1	O
+0	30	588	3006	3014		592	mountain	mountain	mountain	NN	O	nsubj	O	-1	B-noun.object
+0	30	589	3014	3015	S	588	,	,	,	,	O	punct	O	-1	O
+0	30	590	3016	3019		592	can	can	can	MD	O	aux	O	-1	O
+0	30	591	3019	3022	S	592	not	not	not	RB	O	neg	O	-1	O
+0	30	592	3023	3029	S	584	forget	forget	forget	VB	O	advcl	O	-1	B-verb.cognition
+0	30	593	3030	3034	S	595	what	what	what	WP	O	dobj	O	-1	O
+0	30	594	3035	3037	S	595	he	he	he	PRP	O	nsubj	O	1	O
+0	30	595	3038	3042	S	592	sees	sees	see	VBZ	O	ccomp	O	-1	B-verb.cognition
+0	30	596	3043	3048		595	there	there	there	RB	O	advmod	O	-1	O
+0	30	597	3048	3049	S	566	.	.	.	.	O	punct	O	-1	O
+0	31	598	3050	3055	S	600	After	After	after	IN	O	mark	O	-1	O
+0	31	599	3056	3064	S	600	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubj	O	1	B-noun.person
+0	31	600	3065	3074	S	605	publishes	publishes	publish	VBZ	O	advcl	O	-1	B-verb.creation
+0	31	601	3075	3078	S	602	his	his	he	PRP$	O	poss	O	1	O
+0	31	602	3079	3086		600	article	article	article	NN	O	dobj	O	-1	B-noun.communication
+0	31	603	3086	3087	S	605	,	,	,	,	O	punct	O	-1	O
+0	31	604	3088	3090	S	605	he	he	he	PRP	O	nsubj	O	1	O
+0	31	605	3091	3097	S	-1	writes	writes	write	VBZ	O	null	O	-1	B-verb.creation
+0	31	606	3098	3102	S	607	this	this	this	DT	O	det	O	-1	O
+0	31	607	3103	3107	S	605	book	book	book	NN	O	dobj	O	-1	B-noun.communication
+0	31	608	3108	3115	S	610	because	because	because	IN	O	mark	O	-1	O
+0	31	609	3116	3118	S	610	he	he	he	PRP	O	nsubj	O	1	O
+0	31	610	3119	3124	S	605	feels	feels	feel	VBZ	O	advcl	O	-1	B-verb.cognition
+0	31	611	3125	3127	S	612	he	he	he	PRP	O	nsubj	O	1	O
+0	31	612	3128	3131	S	610	has	has	have	VBZ	O	ccomp	O	-1	B-verb.possession
+0	31	613	3132	3136	S	612	more	more	more	JJR	O	dobj	O	-1	O
+0	31	614	3137	3139	S	615	to	to	to	TO	O	aux	O	-1	O
+0	31	615	3140	3143		613	say	say	say	VB	O	infmod	O	-1	B-verb.communication
+0	31	616	3143	3144	S	605	.	.	.	.	O	punct	O	-1	O
+0	32	617	3145	3147	S	619	He	He	he	PRP	O	nsubj	O	1	O
+0	32	618	3148	3151	S	619	has	has	have	VBZ	O	aux	O	-1	O
+0	32	619	3152	3156	S	-1	done	done	do	VBN	O	null	O	-1	B-verb.social
+0	32	620	3157	3166	S	621	extensive	extensive	extensive	JJ	O	amod	O	-1	O
+0	32	621	3167	3175	S	619	research	research	research	NN	O	dobj	O	-1	B-noun.act
+0	32	622	3176	3179	S	619	and	and	and	CC	O	cc	O	-1	O
+0	32	623	3180	3189	S	619	conducted	conducted	conduct	VBN	O	conj	O	-1	B-verb.social
+0	32	624	3190	3200	S	623	interviews	interviews	interview	NNS	O	dobj	O	-1	B-noun.communication
+0	32	625	3201	3205	S	623	with	with	with	IN	O	prep	O	-1	O
+0	32	626	3206	3209	S	625	all	all	all	DT	O	pobj	O	-1	O
+0	32	627	3210	3212	S	626	of	of	of	IN	O	prep	O	-1	O
+0	32	628	3213	3216	S	629	the	the	the	DT	O	det	O	-1	O
+0	32	629	3217	3226		627	survivors	survivors	survivor	NNS	O	pobj	O	-1	B-noun.person
+0	32	630	3226	3227	S	619	,	,	,	,	O	punct	O	-1	O
+0	32	631	3228	3231	S	619	and	and	and	CC	O	cc	O	-1	O
+0	32	632	3232	3235	S	633	has	has	have	VBZ	O	aux	O	-1	B-verb.possession
+0	32	633	3236	3247	S	619	information	information	information	NN	O	conj	O	-1	B-noun.communication
+0	32	634	3248	3252	S	638	that	that	that	IN	O	dobj	O	-1	O
+0	32	635	3253	3255	S	638	he	he	he	PRP	O	nsubj	O	1	O
+0	32	636	3256	3259		638	did	did	do	VBD	O	aux	O	-1	O
+0	32	637	3259	3262	S	638	n't	n't	not	RB	O	neg	O	-1	O
+0	32	638	3263	3267	S	643	have	have	have	VB	O	advcl	O	-1	B-verb.possession
+0	32	639	3268	3270	S	638	at	at	at	IN	O	prep	O	-1	O
+0	32	640	3271	3274	S	641	the	the	the	DT	O	det	O	-1	O
+0	32	641	3275	3279	S	639	time	time	time	NN	DATE	pobj	O	-1	B-noun.event
+0	32	642	3280	3282	S	643	he	he	he	PRP	O	nsubj	O	1	O
+0	32	643	3283	3288	S	633	wrote	wrote	write	VBD	O	rcmod	O	-1	B-verb.communication
+0	32	644	3289	3292	S	645	the	the	the	DT	O	det	O	-1	O
+0	32	645	3293	3300		643	article	article	article	NN	O	dobj	O	-1	B-noun.communication
+0	32	646	3300	3301	S	619	.	.	.	.	O	punct	O	-1	O
+0	33	647	3302	3305	S	648	His	His	he	PRP$	O	poss	O	1	O
+0	33	648	3306	3313	S	649	opinion	opinion	opinion	NN	O	nsubj	O	-1	B-noun.cognition
+0	33	649	3314	3316	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	33	650	3317	3321	S	649	that	that	that	IN	O	prep	O	-1	O
+0	33	651	3322	3325	S	652	the	the	the	DT	O	det	O	-1	O
+0	33	652	3326	3332	S	650	events	events	event	NNS	O	null	O	-1	B-noun.event
+0	33	653	3333	3337	S	654	that	that	that	WDT	O	nsubj	O	-1	O
+0	33	654	3338	3346	S	652	happened	happened	happen	VBD	O	rcmod	O	-1	B-verb.change
+0	33	655	3347	3349	S	654	on	on	on	IN	O	prep	O	-1	O
+0	33	656	3350	3353	S	657	the	the	the	DT	O	det	O	-1	O
+0	33	657	3354	3362	S	655	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	33	658	3363	3370	S	654	deserve	deserve	deserve	VB	O	xcomp	O	-1	B-verb.stative
+0	33	659	3371	3373	S	661	to	to	to	TO	O	aux	O	-1	O
+0	33	660	3374	3376	S	661	be	be	be	VB	O	auxpass	O	-1	O
+0	33	661	3377	3381	S	658	told	told	tell	VBN	O	xcomp	O	-1	B-verb.communication
+0	33	662	3382	3384	S	661	in	in	in	IN	O	prep	O	-1	O
+0	33	663	3385	3386	S	668	a	a	a	DT	O	det	O	-1	O
+0	33	664	3387	3395	S	668	thorough	thorough	thorough	JJ	O	amod	O	-1	O
+0	33	665	3396	3399	S	664	and	and	and	CC	O	cc	O	-1	O
+0	33	666	3400	3408	S	664	accurate	accurate	accurate	JJ	O	conj	O	-1	O
+0	33	667	3409	3410	S	668	a	a	a	DT	O	det	O	-1	O
+0	33	668	3411	3417	S	662	manner	manner	manner	NN	O	pobj	O	-1	B-noun.attribute
+0	33	669	3418	3421	S	661	and	and	and	CC	O	cc	O	-1	O
+0	33	670	3422	3430		661	possible	possible	possible	JJ	O	conj	O	-1	O
+0	33	671	3430	3431	S	652	.	.	.	.	O	punct	O	-1	O
+0	34	672	3432	3434	S	673	He	He	he	PRP	O	nsubj	O	1	O
+0	34	673	3435	3441	S	-1	spends	spends	spend	VBZ	O	null	O	-1	B-verb.stative
+0	34	674	3442	3443	S	676	a	a	a	DT	O	det	O	-1	O
+0	34	675	3444	3456	S	676	considerable	considerable	considerable	JJ	O	amod	O	-1	O
+0	34	676	3457	3463	S	673	amount	amount	amount	NN	O	dobj	O	-1	B-noun.attribute
+0	34	677	3464	3466	S	676	of	of	of	IN	O	prep	O	-1	O
+0	34	678	3467	3471	S	677	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	34	679	3472	3482	S	676	reflecting	reflecting	reflect	VBG	O	partmod	O	-1	B-verb.perception
+0	34	680	3483	3485	S	679	on	on	on	IN	O	prep	O	-1	O
+0	34	681	3486	3490	S	682	what	what	what	WP	O	nsubj	O	-1	O
+0	34	682	3491	3499	S	680	happened	happened	happen	VBD	O	pcomp	O	-1	B-verb.change
+0	34	683	3500	3503	S	682	and	and	and	CC	O	cc	O	-1	O
+0	34	684	3504	3507	S	687	how	how	how	WRB	O	advmod	O	-1	O
+0	34	685	3508	3510	S	687	it	it	it	PRP	O	nsubj	O	-1	O
+0	34	686	3511	3514	S	687	has	has	have	VBZ	O	aux	O	-1	O
+0	34	687	3515	3522	S	682	changed	changed	change	VBN	O	conj	O	-1	B-verb.change
+0	34	688	3523	3526	S	689	his	his	he	PRP$	O	poss	O	1	O
+0	34	689	3527	3531	S	687	life	life	life	NN	O	dobj	O	-1	B-noun.time
+0	34	690	3532	3539		687	forever	forever	forever	RB	O	advmod	O	-1	O
+0	34	691	3539	3540	S	673	.	.	.	.	O	punct	O	-1	O
+0	35	692	3541	3549	S	693	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubj	O	1	B-noun.person
+0	35	693	3550	3559	S	-1	struggles	struggles	struggle	VBZ	O	null	O	-1	B-verb.social
+0	35	694	3560	3564	S	693	with	with	with	IN	O	prep	O	-1	O
+0	35	695	3565	3573		697	survivor	survivor	survivor	NN	O	poss	O	-1	B-noun.person
+0	35	696	3573	3575	S	695	's	's	's	POS	O	possessive	O	-1	O
+0	35	697	3576	3581	S	694	guilt	guilt	guilt	NN	O	pobj	O	-1	B-noun.state
+0	35	698	3582	3585	S	697	and	and	and	CC	O	cc	O	-1	O
+0	35	699	3586	3587	S	701	a	a	a	DT	O	det	O	-1	O
+0	35	700	3588	3597	S	701	redefined	redefined	redefine	VBN	O	amod	O	-1	B-verb.stative
+0	35	701	3598	3602	S	697	view	view	view	NN	O	conj	O	-1	B-noun.cognition
+0	35	702	3603	3605	S	701	on	on	on	IN	O	prep	O	-1	O
+0	35	703	3606	3615	S	706	mortality	mortality	mortality	NN	O	nn	O	-1	B-noun.attribute
+0	35	704	3616	3619	S	703	and	and	and	CC	O	cc	O	-1	O
+0	35	705	3620	3629	S	703	addresses	addresses	address	NNS	O	conj	O	-1	B-noun.communication
+0	35	706	3630	3639	S	702	questions	questions	question	NNS	O	pobj	O	-1	B-noun.communication
+0	35	707	3640	3645	S	706	about	about	about	IN	O	prep	O	-1	O
+0	35	708	3646	3652	S	707	events	events	event	NNS	O	pobj	O	-1	B-noun.event
+0	35	709	3653	3655	S	708	on	on	on	IN	O	prep	O	-1	O
+0	35	710	3656	3659	S	711	the	the	the	DT	O	det	O	-1	O
+0	35	711	3660	3668	S	709	mountain	mountain	mountain	NN	O	pobj	O	-1	B-noun.object
+0	35	712	3669	3673	S	716	that	that	that	WDT	O	nsubj	O	-1	O
+0	35	713	3674	3681	S	716	perhaps	perhaps	perhaps	RB	O	advmod	O	-1	O
+0	35	714	3682	3684		716	do	do	do	VBP	O	aux	O	-1	O
+0	35	715	3684	3687	S	716	n't	n't	not	RB	O	neg	O	-1	O
+0	35	716	3688	3692	S	711	have	have	have	VB	O	rcmod	O	-1	B-verb.possession
+0	35	717	3693	3700		716	answers	answers	answer	NNS	O	dobj	O	-1	B-noun.communication
+0	35	718	3700	3701	S	693	.	.	.	.	O	punct	O	-1	O
+0	36	719	3702	3710	S	720	Krakauer	Krakauer	Krakauer	NNP	PERSON	nsubj	O	1	B-noun.person
+0	36	720	3711	3723	S	-1	acknowledges	acknowledges	acknowledge	VBZ	O	null	O	-1	B-verb.communication
+0	36	721	3724	3727	S	720	and	and	and	CC	O	cc	O	-1	O
+0	36	722	3728	3738	S	720	apologizes	apologizes	apologize	VBZ	O	conj	O	-1	B-verb.communication
+0	36	723	3739	3742	S	722	for	for	for	IN	O	prep	O	-1	O
+0	36	724	3743	3746	S	725	any	any	any	DT	O	det	O	-1	O
+0	36	725	3747	3751	S	723	pain	pain	pain	NN	O	pobj	O	-1	B-noun.state
+0	36	726	3752	3754	S	725	or	or	or	CC	O	cc	O	-1	O
+0	36	727	3755	3760	S	725	anger	anger	anger	NN	O	conj	O	-1	B-noun.feeling
+0	36	728	3761	3764	S	729	his	his	he	PRP$	O	poss	O	1	O
+0	36	729	3765	3769	S	731	book	book	book	NN	O	nsubj	O	-1	B-noun.communication
+0	36	730	3770	3775	S	731	might	might	might	MD	O	aux	O	-1	O
+0	36	731	3776	3781	S	725	arose	arose	arise	VBD	O	rcmod	O	-1	B-verb.stative
+0	36	732	3782	3784	S	731	in	in	in	IN	O	prep	O	-1	O
+0	36	733	3785	3788	S	734	the	the	the	DT	O	det	O	-1	O
+0	36	734	3789	3796	S	732	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	36	735	3797	3800	S	734	and	and	and	CC	O	cc	O	-1	O
+0	36	736	3801	3809	S	734	families	families	family	NNS	O	conj	O	-1	B-noun.group
+0	36	737	3810	3812	S	734	of	of	of	IN	O	prep	O	-1	O
+0	36	738	3813	3815	S	739	vi	vi	vi	LS	O	amod	O	-1	O
+0	36	739	3816	3821		737	ctims	ctims	ctim	NNS	O	pobj	O	-1	O
+0	36	740	3821	3822	S	720	,	,	,	,	O	punct	O	-1	O
+0	36	741	3823	3826	S	720	but	but	but	CC	O	cc	O	-1	O
+0	36	742	3827	3829	S	743	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	36	743	3830	3840	S	720	undeterred	undeterred	undeterred	JJ	O	conj	O	-1	O
+0	36	744	3841	3845	S	743	from	from	from	IN	O	prep	O	-1	O
+0	36	745	3846	3855	S	744	detailing	detailing	detail	VBG	O	pcomp	O	-1	B-verb.communication
+0	36	746	3856	3859	S	747	the	the	the	DT	O	det	O	-1	O
+0	36	747	3860	3866		745	events	events	event	NNS	O	dobj	O	-1	B-noun.event
+0	36	748	3866	3867	S	720	,	,	,	,	O	punct	O	-1	O
+0	36	749	3868	3870	S	753	be	be	be	VB	O	cop	O	-1	O
+0	36	750	3871	3875	S	753	they	they	they	PRP	O	punct	O	-1	O
+0	36	751	3876	3882		753	heroic	heroic	heroic	JJ	O	dep	O	-1	O
+0	36	752	3882	3883	S	753	,	,	,	,	O	punct	O	-1	O
+0	36	753	3884	3891	S	720	selfish	selfish	selfish	JJ	O	dep	O	-1	O
+0	36	754	3892	3894	S	753	or	or	or	CC	O	cc	O	-1	O
+0	36	755	3895	3901		753	tragic	tragic	tragic	JJ	O	conj	O	-1	O
+0	36	756	3901	3902	N	720	.	.	.	.	O	punct	O	-1	O

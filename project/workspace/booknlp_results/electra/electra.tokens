@@ -1,0 +1,907 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	7		13	Pylades	Pylades	Pylades	NNP	O	nsubj	O	-1	B-noun.person
+0	0	1	7	8	S	0	,	,	,	,	O	punct	O	-1	O
+0	0	2	9	16		0	Orestes	Orestes	Orestes	NNP	PERSON	conj	O	0	O
+0	0	3	16	17	S	0	,	,	,	,	O	punct	O	-1	O
+0	0	4	18	21	S	0	and	and	and	CC	O	cc	O	-1	O
+0	0	5	22	25	S	7	the	the	the	DT	O	det	O	-1	O
+0	0	6	26	29	S	7	Old	Old	old	JJ	MISC	amod	O	-1	O
+0	0	7	30	33		0	Man	Man	man	NN	MISC	conj	O	-1	B-noun.person
+0	0	8	33	34	S	7	,	,	,	,	O	punct	O	-1	O
+0	0	9	35	42		11	Orestes	Orestes	Orestes	NNP	PERSON	poss	O	0	B-noun.person
+0	0	10	42	44	S	9	's	's	's	POS	O	possessive	O	-1	O
+0	0	11	45	51		7	keeper	keeper	keeper	NN	O	appos	O	-1	B-noun.person
+0	0	12	51	52	S	7	,	,	,	,	O	punct	O	-1	O
+0	0	13	53	59	S	-1	arrive	arrive	arrive	VBP	O	null	O	-1	B-verb.motion
+0	0	14	60	62	S	13	at	at	at	IN	O	prep	O	-1	O
+0	0	15	63	70	S	14	Mycenae	Mycenae	Mycenae	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	16	71	73	S	13	at	at	at	IN	O	prep	O	-1	O
+0	0	17	74	82		16	daybreak	daybreak	daybreak	NN	O	pobj	O	-1	B-noun.time
+0	0	18	82	83	S	13	.	.	.	.	O	punct	O	-1	O
+0	1	19	84	88	S	21	They	They	they	PRP	O	nsubj	O	-1	O
+0	1	20	89	93	S	21	have	have	have	VBP	O	aux	O	-1	O
+0	1	21	94	98	S	-1	come	come	come	VBN	O	null	O	-1	B-verb.motion
+0	1	22	99	101	S	21	to	to	to	TO	O	prep	O	-1	O
+0	1	23	102	107	S	24	exact	exact	exact	JJ	O	amod	O	-1	O
+0	1	24	108	115	S	22	revenge	revenge	revenge	NN	O	pobj	O	-1	B-noun.act
+0	1	25	116	119	S	21	for	for	for	IN	O	prep	O	-1	O
+0	1	26	120	123	S	27	the	the	the	DT	O	det	O	-1	O
+0	1	27	124	130	S	25	murder	murder	murder	NN	O	pobj	O	-1	B-noun.act
+0	1	28	131	133	S	27	of	of	of	IN	O	prep	O	-1	O
+0	1	29	134	143		28	Agamemnon	Agamemnon	Agamemnon	NNP	O	pobj	O	-1	B-noun.person
+0	1	30	143	144	S	21	,	,	,	,	O	punct	O	-1	O
+0	1	31	145	152		33	Orestes	Orestes	Orestes	NNP	PERSON	poss	O	0	B-noun.person
+0	1	32	152	154	S	31	's	's	's	POS	O	possessive	O	-1	O
+0	1	33	155	161		21	father	father	father	NN	O	appos	O	-1	B-noun.person
+0	1	34	161	162	S	33	,	,	,	,	O	punct	O	-1	O
+0	1	35	163	165	S	36	as	as	as	IN	O	mark	O	-1	O
+0	1	36	166	176	S	33	instructed	instructed	instruct	VBN	O	advcl	O	-1	B-verb.communication
+0	1	37	177	179	S	36	by	by	by	IN	O	prep	O	-1	O
+0	1	38	180	182	S	39	an	an	a	DT	O	det	O	-1	O
+0	1	39	183	189	S	37	oracle	oracle	oracle	NN	O	pobj	O	-1	B-noun.artifact
+0	1	40	190	192	S	39	of	of	of	IN	O	prep	O	-1	O
+0	1	41	193	199		40	Apollo	Apollo	Apollo	NNP	O	pobj	O	-1	B-noun.person
+0	1	42	199	200	S	21	.	.	.	.	O	punct	O	-1	O
+0	2	43	201	208		50	Electra	Electra	Electra	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	2	44	208	209	S	43	,	,	,	,	O	punct	O	-1	O
+0	2	45	210	217		47	Orestes	Orestes	Orestes	NNP	PERSON	poss	O	0	B-noun.person
+0	2	46	217	219	S	45	's	's	's	POS	O	possessive	O	-1	O
+0	2	47	220	226		43	sister	sister	sister	NN	O	appos	O	-1	B-noun.person
+0	2	48	226	227	S	43	,	,	,	,	O	punct	O	-1	O
+0	2	49	228	230	S	50	is	is	be	VBZ	O	auxpass	O	-1	O
+0	2	50	231	236	S	-1	heard	heard	hear	VBN	O	null	O	-1	B-verb.perception
+0	2	51	237	244	S	50	sobbing	sobbing	sob	VBG	O	xcomp	O	-1	B-verb.body
+0	2	52	245	251	S	51	within	within	within	IN	O	prep	O	-1	O
+0	2	53	252	255	S	54	the	the	the	DT	O	det	O	-1	O
+0	2	54	256	261	S	52	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	2	55	262	269	S	51	outside	outside	outside	IN	O	prep	O	-1	O
+0	2	56	270	272	S	55	of	of	of	IN	O	dep	O	-1	O
+0	2	57	273	278	S	56	which	which	which	WDT	O	pobj	O	-1	O
+0	2	58	279	282	S	60	the	the	the	DT	O	det	O	-1	O
+0	2	59	283	288	S	60	three	three	three	CD	NUMBER	num	O	-1	O
+0	2	60	289	294	S	56	stand	stand	stand	NN	O	dep	O	-1	B-noun.artifact
+0	2	61	295	305	S	60	discussing	discussing	discuss	VBG	O	partmod	O	-1	B-verb.communication
+0	2	62	306	309	S	64	how	how	how	WRB	O	advmod	O	-1	O
+0	2	63	310	312	S	64	to	to	to	TO	O	aux	O	-1	O
+0	2	64	313	320	S	61	execute	execute	execute	VB	O	ccomp	O	-1	B-verb.social
+0	2	65	321	326	S	66	their	their	they	PRP$	O	poss	O	-1	O
+0	2	66	327	331		64	plan	plan	plan	NN	O	dobj	O	-1	B-noun.cognition
+0	2	67	331	332	S	50	.	.	.	.	O	punct	O	-1	O
+0	3	68	333	340	S	69	Orestes	Orestes	Orestes	NNP	PERSON	nsubj	O	0	B-noun.person
+0	3	69	341	347	S	-1	wishes	wishes	wish	VBZ	O	null	O	-1	B-verb.emotion
+0	3	70	348	350	S	71	to	to	to	TO	O	aux	O	-1	O
+0	3	71	351	356	S	69	greet	greet	greet	VB	O	xcomp	O	-1	B-verb.communication
+0	3	72	357	360		71	her	her	she	PRP	O	dobj	O	1	O
+0	3	73	360	361	S	69	,	,	,	,	O	punct	O	-1	O
+0	3	74	362	365	S	69	but	but	but	CC	O	cc	O	-1	O
+0	3	75	366	373	S	79	instead	instead	instead	RB	O	advmod	O	-1	O
+0	3	76	374	377	S	78	the	the	the	DT	O	det	O	-1	O
+0	3	77	378	381	S	78	Old	Old	old	JJ	MISC	amod	O	-1	O
+0	3	78	382	385	S	79	Man	Man	man	NN	MISC	nsubj	O	-1	B-noun.person
+0	3	79	386	391	S	69	leads	leads	lead	VBZ	O	conj	O	-1	B-verb.motion
+0	3	80	392	395	S	79	him	him	he	PRP	O	dobj	O	-1	O
+0	3	81	396	400	S	79	away	away	away	RB	O	advmod	O	-1	O
+0	3	82	401	403	S	83	to	to	to	TO	O	aux	O	-1	O
+0	3	83	404	411	S	79	present	present	present	VB	DATE	xcomp	O	-1	B-verb.perception
+0	3	84	412	414	S	85	an	an	a	DT	O	det	O	-1	O
+0	3	85	415	423	S	83	offering	offering	offering	NN	O	dobj	O	-1	B-noun.communication
+0	3	86	424	426	S	85	at	at	at	IN	O	prep	O	-1	O
+0	3	87	427	430	S	88	his	his	he	PRP$	O	poss	O	-1	O
+0	3	88	431	437		90	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	3	89	437	439	S	88	's	's	's	POS	O	possessive	O	-1	O
+0	3	90	440	445		86	grave	grave	grave	NN	O	pobj	O	-1	B-noun.time
+0	3	91	445	446	S	85	,	,	,	,	O	punct	O	-1	O
+0	3	92	447	449	S	97	as	as	as	IN	O	mark	O	-1	O
+0	3	93	450	456		95	Apollo	Apollo	Apollo	NNP	O	poss	O	-1	B-noun.person
+0	3	94	456	458	S	93	's	's	's	POS	O	possessive	O	-1	O
+0	3	95	459	465	S	97	oracle	oracle	oracle	NN	O	nsubjpass	O	-1	B-noun.person
+0	3	96	466	469	S	97	has	has	have	VBZ	O	aux	O	-1	O
+0	3	97	470	480		85	instructed	instructed	instruct	VBN	O	dep	O	-1	B-verb.communication
+0	3	98	480	481	S	69	.	.	.	.	O	punct	O	-1	O
+0	4	99	482	489	S	100	Electra	Electra	electra	NN	O	nsubj	O	-1	B-noun.person
+0	4	100	490	497	S	-1	emerges	emerges	emerge	VBZ	O	null	O	-1	B-verb.change
+0	4	101	498	502	S	100	from	from	from	IN	O	prep	O	-1	O
+0	4	102	503	509	S	101	inside	inside	inside	IN	O	dep	O	-1	O
+0	4	103	510	513	S	105	the	the	the	DT	O	det	O	-1	O
+0	4	104	514	520	S	105	palace	palace	palace	NN	O	nn	O	-1	B-noun.artifact
+0	4	105	521	526		102	gates	gates	gate	NNS	O	pobj	O	-1	B-noun.artifact
+0	4	106	526	527	S	100	,	,	,	,	O	punct	O	-1	O
+0	4	107	528	535	S	100	pouring	pouring	pour	VBG	O	xcomp	O	-1	B-verb.motion
+0	4	108	536	541	S	107	forth	forth	forth	RB	O	advmod	O	-1	O
+0	4	109	542	545	S	110	her	her	she	PRP$	O	poss	O	-1	O
+0	4	110	546	551	S	107	grief	grief	grief	NN	O	dobj	O	-1	B-noun.feeling
+0	4	111	552	554	S	107	in	in	in	IN	O	prep	O	-1	O
+0	4	112	555	556	S	114	a	a	a	DT	O	det	O	-1	O
+0	4	113	557	565	S	114	mournful	mournful	mournful	JJ	O	amod	O	-1	O
+0	4	114	566	573	S	111	address	address	address	NN	O	pobj	O	-1	B-noun.communication
+0	4	115	574	576	S	114	to	to	to	TO	O	prep	O	-1	O
+0	4	116	577	580	S	117	the	the	the	DT	O	det	O	-1	O
+0	4	117	581	588	S	115	heavens	heavens	heaven	NNS	O	pobj	O	-1	B-noun.location
+0	4	118	589	592	S	107	and	and	and	CC	O	cc	O	-1	O
+0	4	119	593	600	S	107	praying	praying	pray	VBG	O	conj	O	-1	B-verb.communication
+0	4	120	601	603	S	119	to	to	to	TO	O	prep	O	-1	O
+0	4	121	604	607	S	122	the	the	the	DT	O	det	O	-1	O
+0	4	122	608	615	S	120	deities	deities	deity	NNS	O	pobj	O	-1	B-noun.person
+0	4	123	616	618	S	124	to	to	to	TO	O	aux	O	-1	O
+0	4	124	619	623	S	119	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	4	125	624	627	S	127	her	her	she	PRP$	O	poss	O	-1	O
+0	4	126	628	633	S	127	exact	exact	exact	JJ	O	amod	O	-1	O
+0	4	127	634	641	S	124	revenge	revenge	revenge	NN	O	dobj	O	-1	B-noun.act
+0	4	128	642	645	S	124	for	for	for	IN	O	prep	O	-1	O
+0	4	129	646	649	S	130	her	her	she	PRP$	O	poss	O	-1	O
+0	4	130	650	656		132	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	4	131	656	658	S	130	's	's	's	POS	O	possessive	O	-1	O
+0	4	132	659	664		128	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	4	133	664	665	S	100	.	.	.	.	O	punct	O	-1	O
+0	5	134	666	669	S	135	The	The	the	DT	O	det	O	-1	O
+0	5	135	670	676		-1	chorus	chorus	chorus	NN	O	null	O	-1	B-noun.event
+0	5	136	676	677	S	135	,	,	,	,	O	punct	O	-1	O
+0	5	137	678	683	S	139	which	which	which	WDT	O	nsubjpass	O	-1	O
+0	5	138	684	686	S	139	is	is	be	VBZ	O	auxpass	O	-1	O
+0	5	139	687	696	S	135	comprised	comprised	comprise	VBN	O	rcmod	O	-1	B-verb.stative
+0	5	140	697	699	S	139	of	of	of	IN	O	prep	O	-1	O
+0	5	141	700	703	S	142	the	the	the	DT	O	det	O	-1	O
+0	5	142	704	711	S	140	virgins	virgins	virgin	NNS	O	pobj	O	-1	B-noun.person
+0	5	143	712	714	S	142	of	of	of	IN	O	prep	O	-1	O
+0	5	144	715	718	S	145	the	the	the	DT	O	det	O	-1	O
+0	5	145	719	725		143	palace	palace	palace	NN	O	pobj	O	-1	B-noun.artifact
+0	5	146	725	726	S	135	,	,	,	,	O	punct	O	-1	O
+0	5	147	727	734	S	135	attempt	attempt	attempt	NN	O	conj	O	-1	B-noun.act
+0	5	148	735	737	S	149	to	to	to	TO	O	aux	O	-1	O
+0	5	149	738	745	S	147	console	console	console	VB	O	infmod	O	-1	B-verb.emotion
+0	5	150	746	753		149	Electra	Electra	Electra	NNP	O	dobj	O	-1	B-noun.person
+0	5	151	753	754	S	135	,	,	,	,	O	punct	O	-1	O
+0	5	152	755	758	S	135	but	but	but	CC	O	cc	O	-1	O
+0	5	153	759	766		183	Electra	Electra	Electra	NNP	PERSON	nsubj	O	1	B-noun.person
+0	5	154	766	767	S	183	,	,	,	,	O	punct	O	-1	O
+0	5	155	768	777	S	183	bemoaning	bemoaning	bemoan	VBG	O	partmod	O	-1	B-verb.communication
+0	5	156	778	781	S	157	the	the	the	DT	O	det	O	-1	O
+0	5	157	782	792	S	155	oppression	oppression	oppression	NN	O	dobj	O	-1	B-noun.act
+0	5	158	793	796	S	159	she	she	she	PRP	O	nsubj	O	1	O
+0	5	159	797	804	S	157	suffers	suffers	suffer	VBZ	O	rcmod	O	-1	B-verb.perception
+0	5	160	805	807	S	159	at	at	at	IN	O	prep	O	-1	O
+0	5	161	808	811	S	162	her	her	she	PRP$	O	poss	O	1	O
+0	5	162	812	818		164	mother	mother	mother	NN	O	poss	O	-1	B-noun.person
+0	5	163	818	820	S	162	's	's	's	POS	O	possessive	O	-1	O
+0	5	164	821	826		160	hands	hands	hand	NNS	O	pobj	O	-1	B-noun.body
+0	5	165	826	827	S	183	,	,	,	,	O	punct	O	-1	O
+0	5	166	828	831	S	168	her	her	she	PRP$	O	poss	O	1	O
+0	5	167	832	836	S	168	deep	deep	deep	JJ	O	amod	O	-1	O
+0	5	168	837	843	S	183	sorrow	sorrow	sorrow	NN	O	nsubj	O	-1	B-noun.feeling
+0	5	169	844	846	S	168	at	at	at	IN	O	prep	O	-1	O
+0	5	170	847	850	S	171	her	her	she	PRP$	O	poss	O	1	O
+0	5	171	851	857		173	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	5	172	857	859	S	171	's	's	's	POS	O	possessive	O	-1	O
+0	5	173	860	865		169	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	5	174	865	866	S	168	,	,	,	,	O	punct	O	-1	O
+0	5	175	867	870	S	168	and	and	and	CC	O	cc	O	-1	O
+0	5	176	871	874	S	177	her	her	she	PRP$	O	poss	O	1	O
+0	5	177	875	882	S	168	longing	longing	longing	NN	O	conj	O	-1	B-noun.feeling
+0	5	178	883	886	S	177	for	for	for	IN	O	prep	O	-1	O
+0	5	179	887	894		181	Orestes	Orestes	Orestes	NNP	PERSON	poss	O	0	B-noun.person
+0	5	180	894	895	S	179	'	'	'	POS	O	possessive	O	-1	O
+0	5	181	896	902		178	return	return	return	NN	O	pobj	O	-1	B-noun.communication
+0	5	182	902	903	S	168	,	,	,	,	O	punct	O	-1	O
+0	5	183	904	910	S	135	proves	proves	prove	VBZ	O	conj	O	-1	B-verb.stative
+0	5	184	911	923		183	inconsolable	inconsolable	inconsolable	JJ	O	acomp	O	-1	O
+0	5	185	923	924	S	135	.	.	.	.	O	punct	O	-1	O
+0	6	186	925	937		193	Chrysothemis	Chrysothemis	Chrysothemis	NNP	MISC	nsubj	O	-1	O
+0	6	187	937	938	S	186	,	,	,	,	O	punct	O	-1	O
+0	6	188	939	946		191	Electra	Electra	Electra	NNP	PERSON	poss	O	1	B-noun.person
+0	6	189	946	948	S	188	's	's	's	POS	O	possessive	O	-1	O
+0	6	190	949	956	S	191	younger	younger	younger	JJR	O	amod	O	-1	O
+0	6	191	957	963		186	sister	sister	sister	NN	O	appos	O	-1	B-noun.person
+0	6	192	963	964	S	186	,	,	,	,	O	punct	O	-1	O
+0	6	193	965	972	S	-1	emerges	emerges	emerge	VBZ	O	null	O	-1	B-verb.change
+0	6	194	973	977	S	193	from	from	from	IN	O	prep	O	-1	O
+0	6	195	978	981	S	196	the	the	the	DT	O	det	O	-1	O
+0	6	196	982	988	S	194	palace	palace	palace	NN	O	pobj	O	-1	B-noun.artifact
+0	6	197	989	993	S	196	with	with	with	IN	O	prep	O	-1	O
+0	6	198	994	995	S	200	a	a	a	DT	O	det	O	-1	O
+0	6	199	996	1003	S	200	funeral	funeral	funeral	JJ	O	amod	O	-1	O
+0	6	200	1004	1012		197	offering	offering	offering	NN	O	pobj	O	-1	B-noun.communication
+0	6	201	1012	1013	S	193	.	.	.	.	O	punct	O	-1	O
+0	7	202	1014	1017	S	204	She	She	she	PRP	O	nsubj	O	1	O
+0	7	203	1018	1020	S	204	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	7	204	1021	1032	S	-1	unsurprised	unsurprised	unsurprised	JJ	O	null	O	-1	O
+0	7	205	1033	1035	S	206	to	to	to	TO	O	aux	O	-1	O
+0	7	206	1036	1040	S	204	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	7	207	1041	1048	S	208	Electra	Electra	Electra	NNP	O	nn	O	-1	B-noun.person
+0	7	208	1049	1057	S	206	mourning	mourning	mourning	NN	O	dobj	O	-1	B-noun.state
+0	7	209	1058	1060	S	206	as	as	as	IN	O	prep	O	-1	O
+0	7	210	1061	1066	S	209	usual	usual	usual	JJ	O	pobj	O	-1	O
+0	7	211	1067	1074	S	210	outside	outside	outside	IN	O	prep	O	-1	O
+0	7	212	1075	1078	S	214	the	the	the	DT	O	det	O	-1	O
+0	7	213	1079	1085	S	214	palace	palace	palace	NN	O	nn	O	-1	B-noun.artifact
+0	7	214	1086	1091		211	gates	gates	gate	NNS	O	pobj	O	-1	B-noun.artifact
+0	7	215	1091	1092	S	204	,	,	,	,	O	punct	O	-1	O
+0	7	216	1093	1096	S	204	and	and	and	CC	O	cc	O	-1	O
+0	7	217	1097	1103	S	204	scolds	scolds	scold	VBZ	O	conj	O	-1	B-verb.communication
+0	7	218	1104	1107	S	217	her	her	she	PRP$	O	dobj	O	-1	O
+0	7	219	1108	1111	S	218	for	for	for	IN	O	prep	O	-1	O
+0	7	220	1112	1114		219	it	it	it	PRP	O	pobj	O	-1	O
+0	7	221	1114	1115	S	204	,	,	,	,	O	punct	O	-1	O
+0	7	222	1116	1122	S	204	urging	urging	urge	VBG	O	xcomp	O	-1	B-verb.communication
+0	7	223	1123	1126	S	222	her	her	she	PRP	O	dobj	O	-1	O
+0	7	224	1127	1129	S	225	to	to	to	TO	O	aux	O	-1	O
+0	7	225	1130	1133	S	222	get	get	get	VB	O	xcomp	O	-1	B-verb.social
+0	7	226	1134	1136	S	225	on	on	on	IN	O	prep	O	-1	O
+0	7	227	1137	1141	S	226	with	with	with	IN	O	dep	O	-1	O
+0	7	228	1142	1145	S	229	her	her	she	PRP$	O	poss	O	-1	O
+0	7	229	1146	1150		227	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	7	230	1150	1151	S	204	.	.	.	.	O	punct	O	-1	O
+0	8	231	1152	1155	S	232	She	She	she	PRP	O	nsubj	O	-1	O
+0	8	232	1156	1161	S	-1	warns	warns	warn	VBZ	O	null	O	-1	B-verb.communication
+0	8	233	1162	1169	S	232	Electra	Electra	Electra	NNP	PERSON	dobj	O	1	B-noun.person
+0	8	234	1170	1174	S	245	that	that	that	WDT	O	rel	O	-1	O
+0	8	235	1175	1184		245	Aegisthus	Aegisthus	Aegisthus	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	8	236	1184	1185	S	245	,	,	,	,	O	punct	O	-1	O
+0	8	237	1186	1191	S	238	their	their	they	PRP$	O	poss	O	-1	O
+0	8	238	1192	1198		245	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	8	239	1198	1199	S	238	,	,	,	,	O	punct	O	-1	O
+0	8	240	1200	1212		238	Clytemnestra	Clytemnestra	Clytemnestra	NNP	O	appos	O	-1	B-noun.person
+0	8	241	1212	1214		240	's	's	's	POS	O	possessive	O	-1	O
+0	8	242	1214	1215	S	238	,	,	,	,	O	punct	O	-1	O
+0	8	243	1216	1223		238	husband	husband	husband	NN	O	appos	O	-1	B-noun.person
+0	8	244	1223	1224	S	238	,	,	,	,	O	punct	O	-1	O
+0	8	245	1225	1232	S	233	intends	intends	intend	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	8	246	1233	1235	S	247	to	to	to	TO	O	aux	O	-1	O
+0	8	247	1236	1240	S	245	lock	lock	lock	VB	O	xcomp	O	-1	B-verb.contact
+0	8	248	1241	1244	S	249	her	her	she	PRP$	O	poss	O	1	O
+0	8	249	1245	1249	S	247	away	away	away	RB	O	dobj	O	-1	O
+0	8	250	1250	1252	S	247	in	in	in	IN	O	prep	O	-1	O
+0	8	251	1253	1254	S	253	a	a	a	DT	O	det	O	-1	O
+0	8	252	1255	1263	S	253	secluded	secluded	secluded	JJ	O	amod	O	-1	O
+0	8	253	1264	1268	S	250	room	room	room	NN	O	pobj	O	-1	B-noun.artifact
+0	8	254	1269	1275	S	256	unless	unless	unless	IN	O	mark	O	-1	O
+0	8	255	1276	1279	S	256	she	she	she	PRP	O	nsubj	O	1	O
+0	8	256	1280	1285	S	247	pulls	pulls	pull	VBZ	O	advcl	O	-1	B-verb.motion
+0	8	257	1286	1293	S	256	herself	herself	herself	PRP	O	dobj	O	-1	O
+0	8	258	1294	1302		256	together	together	together	RB	O	advmod	O	-1	O
+0	8	259	1302	1303	S	247	,	,	,	,	O	punct	O	-1	O
+0	8	260	1304	1306	S	247	to	to	to	TO	O	prep	O	-1	O
+0	8	261	1307	1312	S	264	which	which	which	WDT	O	det	O	-1	O
+0	8	262	1313	1319	S	264	threat	threat	threat	NN	O	nn	O	-1	B-noun.state
+0	8	263	1320	1327	S	264	Electra	Electra	electra	NN	PERSON	nn	O	1	B-noun.person
+0	8	264	1328	1333	S	260	rolls	rolls	roll	NNS	O	pobj	O	-1	B-noun.event
+0	8	265	1334	1337	S	266	her	her	she	PRP$	O	poss	O	1	O
+0	8	266	1338	1342		264	eyes	eyes	eye	NNS	O	dobj	O	-1	B-noun.body
+0	8	267	1342	1343	S	232	.	.	.	.	O	punct	O	-1	O
+0	9	268	1344	1356	S	270	Chrysothemis	Chrysothemis	Chrysothemis	NNP	O	nsubj	O	-1	O
+0	9	269	1357	1361	S	270	then	then	then	RB	O	advmod	O	-1	O
+0	9	270	1362	1370	S	-1	explains	explains	explain	VBZ	O	null	O	-1	B-verb.communication
+0	9	271	1371	1374	S	272	her	her	she	PRP	O	dep	O	1	O
+0	9	272	1375	1382	S	270	purpose	purpose	purpose	NN	O	dobj	O	-1	B-noun.cognition
+0	9	273	1383	1385	S	272	in	in	in	IN	O	prep	O	-1	O
+0	9	274	1386	1394	S	273	carrying	carrying	carry	VBG	O	pcomp	O	-1	B-verb.stative
+0	9	275	1395	1402	S	276	funeral	funeral	funeral	JJ	O	amod	O	-1	O
+0	9	276	1403	1412		274	offerings	offerings	offering	NNS	O	dobj	O	-1	B-noun.communication
+0	9	277	1412	1413	S	270	.	.	.	.	O	punct	O	-1	O
+0	10	278	1414	1417	S	281	She	She	she	PRP	O	nsubj	O	1	O
+0	10	279	1418	1421	S	281	has	has	have	VBZ	O	aux	O	-1	O
+0	10	280	1422	1426	S	281	been	been	be	VBN	O	auxpass	O	-1	O
+0	10	281	1427	1431	S	-1	sent	sent	send	VBN	O	null	O	-1	B-verb.motion
+0	10	282	1432	1434	S	283	to	to	to	TO	O	aux	O	-1	O
+0	10	283	1435	1439	S	281	make	make	make	VB	O	xcomp	O	-1	B-verb.social
+0	10	284	1440	1442	S	285	an	an	a	DT	O	det	O	-1	O
+0	10	285	1443	1451	S	283	offering	offering	offering	NN	O	dobj	O	-1	B-noun.communication
+0	10	286	1452	1454	S	285	at	at	at	IN	O	prep	O	-1	O
+0	10	287	1455	1464		289	Agamemnon	Agamemnon	Agamemnon	NNP	O	poss	O	-1	B-noun.person
+0	10	288	1464	1466	S	287	's	's	's	POS	O	possessive	O	-1	O
+0	10	289	1467	1472	S	286	grave	grave	grave	NN	O	pobj	O	-1	B-noun.time
+0	10	290	1473	1475	S	300	by	by	by	IN	O	mark	O	-1	O
+0	10	291	1476	1488		300	Clytemnestra	Clytemnestra	Clytemnestra	NNP	PERSON	nsubj	O	2	B-noun.person
+0	10	292	1488	1489	S	291	,	,	,	,	O	punct	O	-1	O
+0	10	293	1490	1493	S	295	who	who	who	WP	O	nsubjpass	O	-1	O
+0	10	294	1494	1496	S	295	is	is	be	VBZ	O	auxpass	O	-1	O
+0	10	295	1497	1506	S	300	terrified	terrified	terrify	VBN	O	dep	O	-1	B-verb.emotion
+0	10	296	1507	1509	S	295	by	by	by	IN	O	prep	O	-1	O
+0	10	297	1510	1511	S	298	a	a	a	DT	O	det	O	-1	O
+0	10	298	1512	1517	S	296	dream	dream	dream	NN	O	pobj	O	-1	B-noun.cognition
+0	10	299	1518	1521	S	300	she	she	she	PRP	O	nsubj	O	1	O
+0	10	300	1522	1525	S	289	had	had	have	VBD	O	dep	O	-1	B-verb.possession
+0	10	301	1526	1529	S	302	the	the	the	DT	O	det	O	-1	O
+0	10	302	1530	1535	S	300	night	night	night	NN	TIME	dobj	O	-1	B-noun.time
+0	10	303	1536	1542	S	300	before	before	before	IN	TIME	prep	O	-1	O
+0	10	304	1543	1547	S	312	that	that	that	DT	O	complm	O	-1	O
+0	10	305	1548	1557		312	Agamemnon	Agamemnon	Agamemnon	NNP	O	nsubj	O	-1	B-noun.person
+0	10	306	1557	1558	S	305	,	,	,	,	O	punct	O	-1	O
+0	10	307	1559	1562	S	308	the	the	the	DT	O	det	O	-1	O
+0	10	308	1563	1570	S	305	husband	husband	husband	NN	O	appos	O	-1	B-noun.person
+0	10	309	1571	1574	S	310	she	she	she	PRP	O	nsubj	O	1	O
+0	10	310	1575	1583		308	murdered	murdered	murder	VBD	O	rcmod	O	-1	O
+0	10	311	1583	1584	S	305	,	,	,	,	O	punct	O	-1	O
+0	10	312	1585	1593	S	303	returned	returned	return	VBD	O	pcomp	O	-1	B-verb.motion
+0	10	313	1594	1597	S	312	and	and	and	CC	O	cc	O	-1	O
+0	10	314	1598	1605	S	312	planted	planted	plant	VBD	O	conj	O	-1	B-verb.contact
+0	10	315	1606	1609	S	316	his	his	he	PRP$	O	poss	O	-1	O
+0	10	316	1610	1617	S	314	scepter	scepter	scepter	NN	O	dobj	O	-1	B-noun.state
+0	10	317	1618	1620	S	314	in	in	in	IN	O	prep	O	-1	O
+0	10	318	1621	1624	S	319	the	the	the	DT	O	det	O	-1	O
+0	10	319	1625	1630	S	317	floor	floor	floor	NN	O	pobj	O	-1	B-noun.artifact
+0	10	320	1631	1633	S	319	of	of	of	IN	O	prep	O	-1	O
+0	10	321	1634	1637	S	322	the	the	the	DT	O	det	O	-1	O
+0	10	322	1638	1643		320	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	10	323	1643	1644	S	281	.	.	.	.	O	punct	O	-1	O
+0	11	324	1645	1648	S	325	The	The	the	DT	O	det	O	-1	O
+0	11	325	1649	1656	S	326	scepter	scepter	scepter	NN	O	nsubj	O	-1	B-noun.state
+0	11	326	1657	1661	S	-1	grew	grew	grow	VBD	O	null	O	-1	B-verb.change
+0	11	327	1662	1670	S	326	branches	branches	branch	NNS	O	dobj	O	-1	B-noun.plant
+0	11	328	1671	1675	S	330	from	from	from	IN	O	rel	O	-1	O
+0	11	329	1676	1681	S	328	which	which	which	WDT	O	pobj	O	-1	O
+0	11	330	1682	1688	S	327	leaves	leaves	leave	VBZ	O	rcmod	O	-1	B-verb.motion
+0	11	331	1689	1693	S	330	grew	grew	grow	VBD	O	dep	O	-1	B-verb.change
+0	11	332	1694	1697	S	331	and	and	and	CC	O	cc	O	-1	O
+0	11	333	1698	1710	S	331	overshadowed	overshadowed	overshadow	VBD	O	conj	O	-1	B-verb.stative
+0	11	334	1711	1714	S	335	the	the	the	DT	O	det	O	-1	O
+0	11	335	1715	1719		333	land	land	land	NN	O	dobj	O	-1	B-noun.object
+0	11	336	1719	1720	S	326	.	.	.	.	O	punct	O	-1	O
+0	12	337	1721	1728	S	339	Electra	Electra	Electra	NNP	PERSON	nsubj	O	1	B-noun.person
+0	12	338	1729	1741	S	339	successfully	successfully	successfully	RB	O	advmod	O	-1	O
+0	12	339	1742	1751	S	-1	convinces	convinces	convince	VBZ	O	null	O	-1	B-verb.communication
+0	12	340	1752	1755	S	341	her	her	she	PRP	O	dep	O	1	O
+0	12	341	1756	1762	S	339	sister	sister	sister	NN	O	dobj	O	-1	B-noun.person
+0	12	342	1763	1765	S	343	to	to	to	TO	O	aux	O	-1	O
+0	12	343	1766	1771	S	341	throw	throw	throw	VB	O	xcomp	O	-1	B-verb.contact
+0	12	344	1772	1776	S	343	away	away	away	RP	O	prt	O	-1	O
+0	12	345	1777	1782	S	346	their	their	they	PRP$	O	poss	O	-1	O
+0	12	346	1783	1789		348	mother	mother	mother	NN	O	poss	O	-1	B-noun.person
+0	12	347	1789	1791	S	346	's	's	's	POS	O	possessive	O	-1	O
+0	12	348	1792	1800	S	343	offering	offering	offering	NN	O	dobj	O	-1	B-noun.communication
+0	12	349	1801	1804	S	343	and	and	and	CC	O	cc	O	-1	O
+0	12	350	1805	1812	S	343	instead	instead	instead	RB	O	advmod	O	-1	O
+0	12	351	1813	1815	S	352	to	to	to	TO	O	aux	O	-1	O
+0	12	352	1816	1821	S	343	leave	leave	leave	VB	O	xcomp	O	-1	B-verb.motion
+0	12	353	1822	1824	S	354	an	an	a	DT	O	det	O	-1	O
+0	12	354	1825	1833	S	352	offering	offering	offering	NN	O	dobj	O	-1	B-noun.communication
+0	12	355	1834	1836	S	354	of	of	of	IN	O	prep	O	-1	O
+0	12	356	1837	1842	S	357	their	their	they	PRP$	O	poss	O	-1	O
+0	12	357	1843	1846		355	own	own	own	JJ	O	pobj	O	-1	O
+0	12	358	1846	1847	S	339	.	.	.	.	O	punct	O	-1	O
+0	13	359	1848	1860	S	360	Chrysothemis	Chrysothemis	Chrysothemis	NNP	O	nsubj	O	-1	B-noun.person
+0	13	360	1861	1867	S	-1	agrees	agrees	agree	VBZ	O	null	O	-1	B-verb.communication
+0	13	361	1868	1871	S	360	and	and	and	CC	O	cc	O	-1	O
+0	13	362	1872	1878	S	360	leaves	leaves	leave	VBZ	O	conj	O	-1	B-verb.motion
+0	13	363	1879	1881	S	364	to	to	to	TO	O	aux	O	-1	O
+0	13	364	1882	1884	S	362	do	do	do	VB	O	xcomp	O	-1	B-verb.social
+0	13	365	1885	1887		364	so	so	so	RB	O	advmod	O	-1	O
+0	13	366	1887	1888	S	360	.	.	.	.	O	punct	O	-1	O
+0	14	367	1889	1901	S	368	Clytemnestra	Clytemnestra	Clytemnestra	NNP	O	nsubj	O	-1	B-noun.person
+0	14	368	1902	1912	S	-1	approaches	approaches	approach	VBZ	O	null	O	-1	B-verb.motion
+0	14	369	1913	1917	S	368	with	with	with	IN	O	prep	O	-1	O
+0	14	370	1918	1919	S	371	a	a	a	DT	O	det	O	-1	O
+0	14	371	1920	1927	S	369	servant	servant	servant	NN	O	pobj	O	-1	B-noun.person
+0	14	372	1928	1931	S	374	who	who	who	WP	O	nsubj	O	-1	O
+0	14	373	1932	1936	S	374	also	also	also	RB	O	advmod	O	-1	O
+0	14	374	1937	1944	S	371	carries	carries	carry	VBZ	O	rcmod	O	-1	B-verb.communication
+0	14	375	1945	1947	S	376	an	an	a	DT	O	det	O	-1	O
+0	14	376	1948	1956		374	offering	offering	offering	NN	O	dobj	O	-1	B-noun.communication
+0	14	377	1956	1957	S	368	.	.	.	.	O	punct	O	-1	O
+0	15	378	1958	1961	S	379	She	She	she	PRP	O	nsubj	O	1	O
+0	15	379	1962	1971	S	-1	chastises	chastises	chastise	VBZ	O	null	O	-1	B-verb.communication
+0	15	380	1972	1979	S	379	Electra	Electra	Electra	NNP	PERSON	dobj	O	1	B-noun.person
+0	15	381	1980	1983	S	379	for	for	for	IN	O	prep	O	-1	O
+0	15	382	1984	1992	S	381	mourning	mourning	mourn	VBG	O	pcomp	O	-1	B-verb.emotion
+0	15	383	1993	1995	S	382	in	in	in	IN	O	prep	O	-1	O
+0	15	384	1996	1999	S	385	the	the	the	DT	O	det	O	-1	O
+0	15	385	2000	2007		383	streets	streets	street	NNS	O	pobj	O	-1	B-noun.artifact
+0	15	386	2007	2008	S	379	,	,	,	,	O	punct	O	-1	O
+0	15	387	2009	2012	S	379	and	and	and	CC	O	cc	O	-1	O
+0	15	388	2013	2016	S	389	the	the	the	DT	O	dep	O	-1	O
+0	15	389	2017	2020	S	390	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	15	390	2021	2025	S	379	have	have	have	VBP	O	conj	O	-1	B-verb.possession
+0	15	391	2026	2028	S	392	an	an	a	DT	O	det	O	-1	O
+0	15	392	2029	2037	S	390	argument	argument	argument	NN	O	dobj	O	-1	B-noun.communication
+0	15	393	2038	2043	S	392	about	about	about	IN	O	prep	O	-1	O
+0	15	394	2044	2053		396	Agamemnon	Agamemnon	Agamemnon	NNP	O	poss	O	-1	B-noun.person
+0	15	395	2053	2055	S	394	's	's	's	POS	O	possessive	O	-1	O
+0	15	396	2056	2062		393	murder	murder	murder	NN	O	pobj	O	-1	B-noun.act
+0	15	397	2062	2063	S	379	.	.	.	.	O	punct	O	-1	O
+0	16	398	2064	2076	S	399	Clytemnestra	Clytemnestra	Clytemnestra	NNP	PERSON	nsubj	O	2	B-noun.person
+0	16	399	2077	2086	S	-1	maintains	maintains	maintain	VBZ	O	null	O	-1	B-verb.stative
+0	16	400	2087	2091	S	405	that	that	that	IN	O	complm	O	-1	O
+0	16	401	2092	2094	S	405	it	it	it	PRP	O	nsubj	O	-1	O
+0	16	402	2095	2098	S	405	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	16	403	2099	2100	S	405	a	a	a	DT	O	det	O	-1	O
+0	16	404	2101	2105	S	405	just	just	just	RB	O	advmod	O	-1	O
+0	16	405	2106	2112		399	murder	murder	murder	NN	O	ccomp	O	-1	B-noun.act
+0	16	406	2112	2113	S	405	,	,	,	,	O	punct	O	-1	O
+0	16	407	2114	2118	S	405	done	done	do	VBN	O	partmod	O	-1	O
+0	16	408	2119	2121	S	407	as	as	as	IN	O	prep	O	-1	O
+0	16	409	2122	2129	S	408	revenge	revenge	revenge	NN	O	pobj	O	-1	B-noun.act
+0	16	410	2130	2133	S	409	for	for	for	IN	O	prep	O	-1	O
+0	16	411	2134	2143		413	Agamemnon	Agamemnon	Agamemnon	NNP	O	poss	O	-1	B-noun.person
+0	16	412	2143	2145	S	411	's	's	's	POS	O	possessive	O	-1	O
+0	16	413	2146	2155	S	410	sacrifice	sacrifice	sacrifice	NN	O	pobj	O	-1	B-noun.act
+0	16	414	2156	2158	S	413	of	of	of	IN	O	prep	O	-1	O
+0	16	415	2159	2164	S	416	their	their	they	PRP$	O	poss	O	-1	O
+0	16	416	2165	2173		414	daughter	daughter	daughter	NN	O	pobj	O	-1	B-noun.person
+0	16	417	2173	2174	S	416	,	,	,	,	O	punct	O	-1	O
+0	16	418	2175	2184		416	Iphigenia	Iphigenia	Iphigenia	NNP	O	appos	O	-1	B-noun.person
+0	16	419	2184	2185	S	399	.	.	.	.	O	punct	O	-1	O
+0	17	420	2186	2193	S	421	Electra	Electra	Electra	NNP	PERSON	nsubj	O	1	B-noun.person
+0	17	421	2194	2199	S	-1	holds	holds	hold	VBZ	O	null	O	-1	B-verb.cognition
+0	17	422	2200	2204	S	426	that	that	that	IN	O	complm	O	-1	O
+0	17	423	2205	2208	S	424	the	the	the	DT	O	det	O	-1	O
+0	17	424	2209	2218	S	426	sacrifice	sacrifice	sacrifice	NN	O	nsubj	O	-1	B-noun.act
+0	17	425	2219	2222	S	426	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	17	426	2223	2232		421	necessary	necessary	necessary	JJ	O	ccomp	O	-1	O
+0	17	427	2232	2233	S	426	,	,	,	,	O	punct	O	-1	O
+0	17	428	2234	2237	S	426	and	and	and	CC	O	cc	O	-1	O
+0	17	429	2238	2242		437	that	that	that	IN	O	complm	O	-1	O
+0	17	430	2242	2243	S	437	,	,	,	,	O	punct	O	-1	O
+0	17	431	2244	2254	S	437	regardless	regardless	regardless	RB	O	advmod	O	-1	O
+0	17	432	2255	2257	S	431	of	of	of	IN	O	dep	O	-1	O
+0	17	433	2258	2262	S	434	this	this	this	DT	O	det	O	-1	O
+0	17	434	2263	2269		432	detail	detail	detail	NN	O	pobj	O	-1	B-noun.communication
+0	17	435	2269	2270	S	437	,	,	,	,	O	punct	O	-1	O
+0	17	436	2271	2283	S	437	Clytemnestra	Clytemnestra	Clytemnestra	NNP	O	nsubj	O	-1	B-noun.person
+0	17	437	2284	2292	S	426	murdered	murdered	murder	VBN	O	conj	O	-1	B-verb.social
+0	17	438	2293	2302	S	437	Agamemnon	Agamemnon	Agamemnon	NNP	O	dobj	O	-1	B-noun.person
+0	17	439	2303	2306	S	437	out	out	out	IN	O	prep	O	-1	O
+0	17	440	2307	2309	S	439	of	of	of	IN	O	dep	O	-1	O
+0	17	441	2310	2314	S	440	lust	lust	lust	NN	O	pobj	O	-1	B-noun.feeling
+0	17	442	2315	2318	S	441	for	for	for	IN	O	prep	O	-1	O
+0	17	443	2319	2328		442	Aegisthus	Aegisthus	Aegisthus	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	17	444	2328	2329	S	421	.	.	.	.	O	punct	O	-1	O
+0	18	445	2330	2335	S	457	After	After	after	IN	O	prep	O	-1	O
+0	18	446	2336	2340	S	448	this	this	this	DT	O	det	O	-1	O
+0	18	447	2341	2346	S	448	angry	angry	angry	JJ	O	amod	O	-1	O
+0	18	448	2347	2358		445	altercation	altercation	altercation	NN	O	pobj	O	-1	B-noun.communication
+0	18	449	2358	2359	S	448	,	,	,	,	O	punct	O	-1	O
+0	18	450	2360	2372		448	Clytemnestra	Clytemnestra	Clytemnestra	NNP	O	appos	O	-1	O
+0	18	451	2372	2373	S	457	,	,	,	,	O	punct	O	-1	O
+0	18	452	2374	2382	S	457	standing	standing	stand	VBG	O	partmod	O	-1	B-verb.contact
+0	18	453	2383	2389	S	452	beside	beside	beside	IN	O	prep	O	-1	O
+0	18	454	2390	2392	S	455	an	an	a	DT	O	det	O	-1	O
+0	18	455	2393	2398		453	altar	altar	altar	NN	O	pobj	O	-1	B-noun.artifact
+0	18	456	2398	2399	S	457	,	,	,	,	O	punct	O	-1	O
+0	18	457	2400	2405	S	-1	prays	prays	pray	VBZ	O	null	O	-1	B-verb.communication
+0	18	458	2406	2408	S	457	to	to	to	TO	O	prep	O	-1	O
+0	18	459	2409	2415	S	458	Apollo	Apollo	Apollo	NNP	O	pobj	O	-1	B-noun.person
+0	18	460	2416	2419	S	457	for	for	for	IN	O	prep	O	-1	O
+0	18	461	2420	2426		460	wealth	wealth	wealth	NN	O	pobj	O	-1	B-noun.state
+0	18	462	2426	2427	S	461	,	,	,	,	O	punct	O	-1	O
+0	18	463	2428	2437		461	longevity	longevity	longevity	NN	O	conj	O	-1	O
+0	18	464	2437	2438	S	457	,	,	,	,	O	punct	O	-1	O
+0	18	465	2439	2442		457	and	and	and	CC	O	cc	O	-1	O
+0	18	466	2442	2443	S	485	,	,	,	,	O	punct	O	-1	O
+0	18	467	2444	2446	S	485	in	in	in	IN	O	prep	O	-1	O
+0	18	468	2447	2454	S	469	guarded	guarded	guard	VBN	O	amod	O	-1	B-verb.social
+0	18	469	2455	2460		467	terms	terms	term	NNS	O	pobj	O	-1	B-noun.communication
+0	18	470	2460	2461	S	485	,	,	,	,	O	punct	O	-1	O
+0	18	471	2462	2465	S	485	for	for	for	IN	O	prep	O	-1	O
+0	18	472	2466	2469	S	473	the	the	the	DT	O	det	O	-1	O
+0	18	473	2470	2475	S	471	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	18	474	2476	2478	S	473	of	of	of	IN	O	prep	O	-1	O
+0	18	475	2479	2482	S	476	her	her	she	PRP$	O	poss	O	1	O
+0	18	476	2483	2486		474	son	son	son	NN	O	pobj	O	-1	B-noun.person
+0	18	477	2486	2487	S	476	,	,	,	,	O	punct	O	-1	O
+0	18	478	2488	2495		476	Orestes	Orestes	Orestes	NNP	PERSON	appos	O	0	O
+0	18	479	2495	2496	S	485	,	,	,	,	O	punct	O	-1	O
+0	18	480	2497	2499	S	485	so	so	so	RB	O	advmod	O	-1	O
+0	18	481	2500	2504	S	485	that	that	that	IN	O	dep	O	-1	O
+0	18	482	2505	2507	S	485	he	he	he	PRP	O	nsubj	O	-1	O
+0	18	483	2508	2513	S	485	might	might	might	MD	O	aux	O	-1	O
+0	18	484	2514	2517	S	485	not	not	not	RB	O	neg	O	-1	O
+0	18	485	2518	2524	S	457	return	return	return	VB	O	parataxis	O	-1	B-verb.motion
+0	18	486	2525	2528	S	485	and	and	and	CC	O	cc	O	-1	O
+0	18	487	2529	2536	S	485	disrupt	disrupt	disrupt	VB	O	conj	O	-1	B-verb.communication
+0	18	488	2537	2540	S	489	her	her	she	PRP$	O	poss	O	1	O
+0	18	489	2541	2545		487	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	18	490	2545	2546	S	457	.	.	.	.	O	punct	O	-1	O
+0	19	491	2547	2549	S	492	As	As	as	RB	O	advmod	O	-1	O
+0	19	492	2550	2554	S	502	soon	soon	soon	RB	O	advmod	O	-1	O
+0	19	493	2555	2557	S	496	as	as	as	IN	O	mark	O	-1	O
+0	19	494	2558	2570	S	496	Clytemnestra	Clytemnestra	Clytemnestra	NNP	PERSON	nsubj	O	2	B-noun.person
+0	19	495	2571	2574	S	496	has	has	have	VBZ	O	aux	O	-1	O
+0	19	496	2575	2583	S	492	finished	finished	finish	VBN	O	dep	O	-1	B-verb.change
+0	19	497	2584	2591		496	praying	praying	pray	VBG	O	xcomp	O	-1	B-verb.communication
+0	19	498	2591	2592	S	502	,	,	,	,	O	punct	O	-1	O
+0	19	499	2593	2596	S	501	the	the	the	DT	O	det	O	-1	O
+0	19	500	2597	2600	S	501	Old	Old	Old	NNP	MISC	nn	O	-1	B-noun.person
+0	19	501	2601	2604	S	502	Man	Man	Man	NNP	MISC	nsubj	O	-1	I-noun.person
+0	19	502	2605	2611	S	-1	enters	enters	enter	VBZ	O	null	O	-1	B-verb.motion
+0	19	503	2612	2614	S	502	in	in	in	IN	O	prep	O	-1	O
+0	19	504	2615	2618	S	505	the	the	the	DT	O	det	O	-1	O
+0	19	505	2619	2628	S	503	character	character	character	NN	O	pobj	O	-1	B-noun.cognition
+0	19	506	2629	2631	S	505	of	of	of	IN	O	prep	O	-1	O
+0	19	507	2632	2633	S	508	a	a	a	DT	O	det	O	-1	O
+0	19	508	2634	2641		506	Phocian	Phocian	Phocian	NNP	MISC	pobj	O	-1	O
+0	19	509	2641	2642	S	502	,	,	,	,	O	punct	O	-1	O
+0	19	510	2643	2650	S	502	bearing	bearing	bear	VBG	O	xcomp	O	-1	B-verb.stative
+0	19	511	2651	2652	S	513	a	a	a	DT	O	det	O	-1	O
+0	19	512	2653	2658	S	513	false	false	false	JJ	O	amod	O	-1	O
+0	19	513	2659	2666	S	510	account	account	account	NN	O	dobj	O	-1	B-noun.communication
+0	19	514	2667	2669	S	513	of	of	of	IN	O	prep	O	-1	O
+0	19	515	2670	2677		517	Orestes	Orestes	Orestes	NNP	PERSON	poss	O	0	B-noun.person
+0	19	516	2677	2679	S	515	's	's	's	POS	O	possessive	O	-1	O
+0	19	517	2680	2685		514	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	19	518	2685	2686	S	502	.	.	.	.	O	punct	O	-1	O
+0	20	519	2687	2699	S	522	Clytemnestra	Clytemnestra	Clytemnestra	NNP	O	nsubjpass	O	-1	B-noun.person
+0	20	520	2700	2702	S	522	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	20	521	2703	2710	S	522	briefly	briefly	briefly	RB	O	advmod	O	-1	O
+0	20	522	2711	2718	S	-1	touched	touched	touch	VBN	O	null	O	-1	B-verb.contact
+0	20	523	2719	2721	S	522	by	by	by	IN	O	prep	O	-1	O
+0	20	524	2722	2730	S	525	maternal	maternal	maternal	JJ	O	amod	O	-1	O
+0	20	525	2731	2739		523	feelings	feelings	feeling	NNS	O	pobj	O	-1	B-noun.Tops
+0	20	526	2739	2740	S	522	,	,	,	,	O	punct	O	-1	O
+0	20	527	2741	2744	S	528	yet	yet	yet	RB	O	advmod	O	-1	O
+0	20	528	2745	2754	S	522	delighted	delighted	delighted	JJ	O	conj	O	-1	O
+0	20	529	2755	2759	S	534	that	that	that	IN	O	complm	O	-1	O
+0	20	530	2760	2763	S	531	her	her	she	PRP$	O	poss	O	1	O
+0	20	531	2764	2770	S	534	prayer	prayer	prayer	NN	O	nsubjpass	O	-1	B-noun.act
+0	20	532	2771	2774	S	534	has	has	have	VBZ	O	aux	O	-1	O
+0	20	533	2775	2779	S	534	been	been	be	VBN	O	auxpass	O	-1	O
+0	20	534	2780	2788		528	answered	answered	answer	VBN	O	ccomp	O	-1	B-verb.communication
+0	20	535	2788	2789	S	522	;	;	;	:	O	punct	O	-1	O
+0	20	536	2790	2797	S	538	Electra	Electra	Electra	NNP	LOCATION	nsubjpass	O	-1	B-noun.person
+0	20	537	2798	2800	S	538	is	is	be	VBZ	O	auxpass	O	-1	O
+0	20	538	2801	2809	S	522	overcome	overcome	overcome	VBN	O	parataxis	O	-1	B-verb.competition
+0	20	539	2810	2814	S	538	with	with	with	IN	O	prep	O	-1	O
+0	20	540	2815	2820		539	grief	grief	grief	NN	O	pobj	O	-1	B-noun.feeling
+0	20	541	2820	2821	S	522	.	.	.	.	O	punct	O	-1	O
+0	21	542	2822	2834	S	543	Clytemnestra	Clytemnestra	Clytemnestra	NNP	O	nsubj	O	-1	B-noun.person
+0	21	543	2835	2841	S	-1	ushers	ushers	usher	VBZ	O	null	O	-1	B-verb.motion
+0	21	544	2842	2845	S	546	the	the	the	DT	O	det	O	-1	O
+0	21	545	2846	2849	S	546	Old	Old	old	JJ	MISC	amod	O	-1	O
+0	21	546	2850	2853	S	543	Man	Man	man	NN	MISC	dobj	O	-1	B-noun.person
+0	21	547	2854	2860	S	543	inside	inside	inside	IN	O	advmod	O	-1	O
+0	21	548	2861	2863	S	549	to	to	to	TO	O	aux	O	-1	O
+0	21	549	2864	2871	S	543	receive	receive	receive	VB	O	xcomp	O	-1	B-verb.possession
+0	21	550	2872	2875	S	551	her	her	she	PRP$	O	poss	O	-1	O
+0	21	551	2876	2887		549	hospitality	hospitality	hospitality	NN	O	dobj	O	-1	B-noun.communication
+0	21	552	2887	2888	S	543	.	.	.	.	O	punct	O	-1	O
+0	22	553	2889	2901	S	554	Chrysothemis	Chrysothemis	Chrysothemis	NNP	MISC	nn	O	-1	O
+0	22	554	2902	2909	S	-1	returns	returns	return	NNS	O	null	O	-1	B-noun.communication
+0	22	555	2910	2914	S	554	from	from	from	IN	O	prep	O	-1	O
+0	22	556	2915	2924		558	Agamemnon	Agamemnon	Agamemnon	NNP	O	poss	O	-1	B-noun.person
+0	22	557	2924	2926	S	556	's	's	's	POS	O	possessive	O	-1	O
+0	22	558	2927	2932		555	grave	grave	grave	NN	O	pobj	O	-1	B-noun.time
+0	22	559	2932	2933	S	554	,	,	,	,	O	punct	O	-1	O
+0	22	560	2934	2938	S	554	full	full	full	JJ	O	amod	O	-1	O
+0	22	561	2939	2941	S	560	of	of	of	IN	O	prep	O	-1	O
+0	22	562	2942	2945	S	561	joy	joy	joy	NN	O	pobj	O	-1	B-noun.feeling
+0	22	563	2946	2949	S	560	and	and	and	CC	O	cc	O	-1	O
+0	22	564	2950	2954	S	560	sure	sure	sure	JJ	O	conj	O	-1	O
+0	22	565	2955	2959	S	568	that	that	that	IN	O	complm	O	-1	O
+0	22	566	2960	2967	S	568	Orestes	Orestes	Orestes	NNP	PERSON	nsubj	O	0	B-noun.person
+0	22	567	2968	2971	S	568	has	has	have	VBZ	O	aux	O	-1	O
+0	22	568	2972	2980		560	returned	returned	return	VBN	O	ccomp	O	-1	O
+0	22	569	2980	2981	S	568	,	,	,	,	O	punct	O	-1	O
+0	22	570	2982	2989	S	571	because	because	because	IN	O	dep	O	-1	O
+0	22	571	2990	2992	S	577	at	at	at	IN	O	advmod	O	-1	O
+0	22	572	2993	2998	S	573	their	their	they	PRP$	O	poss	O	-1	O
+0	22	573	2999	3005		577	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	22	574	3005	3007	S	573	's	's	's	POS	O	possessive	O	-1	O
+0	22	575	3008	3013	S	577	grave	grave	grave	JJ	O	advmod	O	-1	O
+0	22	576	3014	3017	S	577	she	she	she	PRP	O	nsubj	O	-1	O
+0	22	577	3018	3023	S	568	found	found	find	VBD	O	advcl	O	-1	B-verb.perception
+0	22	578	3024	3025	S	580	a	a	a	DT	O	det	O	-1	O
+0	22	579	3026	3031	S	580	fresh	fresh	fresh	JJ	O	amod	O	-1	O
+0	22	580	3032	3040	S	577	offering	offering	offering	NN	O	dobj	O	-1	B-noun.communication
+0	22	581	3041	3043	S	580	of	of	of	IN	O	prep	O	-1	O
+0	22	582	3044	3051	S	581	flowers	flowers	flower	NNS	O	pobj	O	-1	B-noun.plant
+0	22	583	3052	3055	S	580	and	and	and	CC	O	cc	O	-1	O
+0	22	584	3056	3057	S	585	a	a	a	DT	O	det	O	-1	O
+0	22	585	3058	3062	S	580	lock	lock	lock	NN	O	conj	O	-1	B-noun.artifact
+0	22	586	3063	3065	S	585	of	of	of	IN	O	prep	O	-1	O
+0	22	587	3066	3070		586	hair	hair	hair	NN	O	pobj	O	-1	B-noun.body
+0	22	588	3070	3071	S	554	.	.	.	.	O	punct	O	-1	O
+0	23	589	3072	3079	S	590	Electra	Electra	Electra	NNP	PERSON	nsubj	O	1	B-noun.person
+0	23	590	3080	3087	S	-1	informs	informs	inform	VBZ	O	null	O	-1	B-verb.communication
+0	23	591	3088	3091	S	592	her	her	she	PRP$	O	poss	O	1	O
+0	23	592	3092	3098	S	590	sister	sister	sister	NN	O	dobj	O	-1	B-noun.person
+0	23	593	3099	3103		601	that	that	that	IN	O	complm	O	-1	O
+0	23	594	3103	3104	S	601	,	,	,	,	O	punct	O	-1	O
+0	23	595	3105	3107	S	601	to	to	to	TO	O	prep	O	-1	O
+0	23	596	3108	3111	S	597	the	the	the	DT	O	det	O	-1	O
+0	23	597	3112	3120		595	contrary	contrary	contrary	NN	O	pobj	O	-1	B-noun.relation
+0	23	598	3120	3121	S	601	,	,	,	,	O	punct	O	-1	O
+0	23	599	3122	3129	S	601	Orestes	Orestes	Orestes	NNP	PERSON	nsubj	O	0	B-noun.person
+0	23	600	3130	3132	S	601	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	23	601	3133	3137		592	dead	dead	dead	JJ	O	ccomp	O	-1	O
+0	23	602	3137	3138	S	590	,	,	,	,	O	punct	O	-1	O
+0	23	603	3139	3142	S	590	and	and	and	CC	O	cc	O	-1	O
+0	23	604	3143	3147	S	606	that	that	that	DT	O	nsubj	O	-1	O
+0	23	605	3148	3150	S	606	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	23	606	3151	3158	S	615	revenge	revenge	revenge	NN	O	nsubj	O	-1	B-noun.act
+0	23	607	3159	3161	S	615	is	is	be	VBZ	O	dep	O	-1	B-verb.stative
+0	23	608	3162	3164	S	610	to	to	to	TO	O	aux	O	-1	O
+0	23	609	3165	3167	S	610	be	be	be	VB	O	auxpass	O	-1	O
+0	23	610	3168	3176		607	achieved	achieved	achieve	VBN	O	xcomp	O	-1	O
+0	23	611	3176	3177	S	615	,	,	,	,	O	punct	O	-1	O
+0	23	612	3178	3181	S	613	the	the	the	DT	O	det	O	-1	O
+0	23	613	3182	3189	S	615	sisters	sisters	sister	NNS	O	nsubj	O	-1	B-noun.person
+0	23	614	3190	3194	S	615	must	must	must	MD	O	aux	O	-1	O
+0	23	615	3195	3199	S	590	take	take	take	VB	O	conj	O	-1	B-verb.cognition
+0	23	616	3200	3207	S	615	matters	matters	matter	NNS	O	dobj	O	-1	B-noun.cognition
+0	23	617	3208	3212	S	615	into	into	into	IN	O	prep	O	-1	O
+0	23	618	3213	3218	S	620	their	their	they	PRP$	O	poss	O	-1	O
+0	23	619	3219	3222	S	620	own	own	own	JJ	O	amod	O	-1	O
+0	23	620	3223	3228		617	hands	hands	hand	NNS	O	pobj	O	-1	B-noun.body
+0	23	621	3228	3229	S	590	.	.	.	.	O	punct	O	-1	O
+0	24	622	3230	3242	S	623	Chrysothemis	Chrysothemis	Chrysothemis	NNP	O	nsubj	O	-1	B-noun.person
+0	24	623	3243	3250	S	-1	rejects	rejects	reject	VBZ	O	null	O	-1	B-verb.cognition
+0	24	624	3251	3254	S	625	the	the	the	DT	O	det	O	-1	O
+0	24	625	3255	3259	S	623	idea	idea	idea	NN	O	dobj	O	-1	B-noun.cognition
+0	24	626	3260	3262	S	628	as	as	as	IN	O	mark	O	-1	O
+0	24	627	3263	3266	S	628	too	too	too	RB	O	advmod	O	-1	O
+0	24	628	3267	3272		623	risky	risky	risky	JJ	O	advcl	O	-1	O
+0	24	629	3272	3273	S	623	,	,	,	,	O	punct	O	-1	O
+0	24	630	3274	3277	S	623	and	and	and	CC	O	cc	O	-1	O
+0	24	631	3278	3284	S	623	leaves	leaves	leave	VBZ	O	conj	O	-1	B-verb.motion
+0	24	632	3285	3292	S	631	Electra	Electra	Electra	NNP	PERSON	dobj	O	1	B-noun.person
+0	24	633	3293	3295	S	631	to	to	to	TO	O	prep	O	-1	O
+0	24	634	3296	3299	S	635	her	her	she	PRP$	O	poss	O	1	O
+0	24	635	3300	3308		633	grieving	grieving	grieving	NN	O	pobj	O	-1	O
+0	24	636	3308	3309	S	623	.	.	.	.	O	punct	O	-1	O
+0	25	637	3310	3317	S	639	Orestes	Orestes	Orestes	NNP	PERSON	nsubj	O	0	B-noun.person
+0	25	638	3318	3322	S	639	then	then	then	RB	O	advmod	O	-1	O
+0	25	639	3323	3333	S	-1	approaches	approaches	approach	VBZ	O	null	O	-1	B-verb.motion
+0	25	640	3334	3338	S	639	with	with	with	IN	O	prep	O	-1	O
+0	25	641	3339	3346	S	640	Pylades	Pylades	pylade	NNS	PERSON	pobj	O	-1	B-noun.person
+0	25	642	3347	3349	S	641	in	in	in	IN	O	prep	O	-1	O
+0	25	643	3350	3353	S	644	the	the	the	DT	O	det	O	-1	O
+0	25	644	3354	3363	S	642	character	character	character	NN	O	pobj	O	-1	B-noun.cognition
+0	25	645	3364	3366	S	644	of	of	of	IN	O	prep	O	-1	O
+0	25	646	3367	3368	S	647	a	a	a	DT	O	det	O	-1	O
+0	25	647	3369	3376		645	Phocian	Phocian	Phocian	NNP	MISC	pobj	O	-1	O
+0	25	648	3376	3377	S	639	,	,	,	,	O	punct	O	-1	O
+0	25	649	3378	3386	S	639	carrying	carrying	carry	VBG	O	xcomp	O	-1	B-verb.contact
+0	25	650	3387	3389	S	651	an	an	a	DT	O	det	O	-1	O
+0	25	651	3390	3393	S	649	urn	urn	urn	NN	O	dobj	O	-1	B-noun.artifact
+0	25	652	3394	3398		656	that	that	that	IN	O	complm	O	-1	O
+0	25	653	3398	3399	S	656	,	,	,	,	O	punct	O	-1	O
+0	25	654	3400	3402	S	656	it	it	it	PRP	O	nsubj	O	-1	O
+0	25	655	3403	3405	S	656	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	25	656	3406	3415		651	pretended	pretended	pretended	JJ	O	ccomp	O	-1	O
+0	25	657	3415	3416	S	639	,	,	,	,	O	punct	O	-1	O
+0	25	658	3417	3425	S	639	contains	contains	contain	VBZ	O	dep	O	-1	B-verb.stative
+0	25	659	3426	3433		661	Orestes	Orestes	Orestes	NNP	PERSON	poss	O	0	B-noun.person
+0	25	660	3433	3434	S	659	'	'	'	POS	O	possessive	O	-1	O
+0	25	661	3435	3440		658	ashes	ashes	ash	NNS	O	dobj	O	-1	B-noun.substance
+0	25	662	3440	3441	S	639	.	.	.	.	O	punct	O	-1	O
+0	26	663	3442	3449		665	Electra	Electra	Electra	NNP	PERSON	poss	O	1	B-noun.person
+0	26	664	3449	3451	S	663	's	's	's	POS	O	possessive	O	-1	O
+0	26	665	3452	3459	S	667	despair	despair	despair	NN	O	nsubjpass	O	-1	B-noun.state
+0	26	666	3460	3462	S	667	is	is	be	VBZ	O	auxpass	O	-1	O
+0	26	667	3463	3473		-1	heightened	heightened	heighten	VBN	O	null	O	-1	B-verb.change
+0	26	668	3473	3474	S	667	,	,	,	,	O	punct	O	-1	O
+0	26	669	3475	3478	S	667	and	and	and	CC	O	cc	O	-1	O
+0	26	670	3479	3482	S	671	she	she	she	PRP	O	nsubj	O	1	O
+0	26	671	3483	3488	S	667	takes	takes	take	VBZ	O	conj	O	-1	B-verb.change
+0	26	672	3489	3492	S	673	the	the	the	DT	O	det	O	-1	O
+0	26	673	3493	3496	S	671	urn	urn	urn	NN	O	dobj	O	-1	B-noun.artifact
+0	26	674	3497	3500	S	671	and	and	and	CC	O	cc	O	-1	O
+0	26	675	3501	3508	S	671	laments	laments	lament	VBZ	O	conj	O	-1	B-verb.emotion
+0	26	676	3509	3513	S	675	over	over	over	IN	O	prep	O	-1	O
+0	26	677	3514	3516	S	676	it	it	it	PRP	O	pobj	O	-1	O
+0	26	678	3517	3519	S	675	at	at	at	IN	O	prep	O	-1	O
+0	26	679	3520	3526		678	length	length	length	NN	O	pobj	O	-1	B-noun.attribute
+0	26	680	3526	3527	S	667	.	.	.	.	O	punct	O	-1	O
+0	27	681	3528	3535		694	Orestes	Orestes	Orestes	NNP	PERSON	nsubj	O	0	B-noun.person
+0	27	682	3535	3536	S	681	,	,	,	,	O	punct	O	-1	O
+0	27	683	3537	3544	S	684	visibly	visibly	visibly	RB	O	advmod	O	-1	O
+0	27	684	3545	3553	S	681	affected	affected	affect	VBN	O	partmod	O	-1	B-verb.change
+0	27	685	3554	3556	S	684	by	by	by	IN	O	prep	O	-1	O
+0	27	686	3557	3560	S	687	the	the	the	DT	O	det	O	-1	O
+0	27	687	3561	3566	S	685	sight	sight	sight	NN	O	pobj	O	-1	B-noun.cognition
+0	27	688	3567	3569	S	687	of	of	of	IN	O	prep	O	-1	O
+0	27	689	3570	3573	S	690	his	his	he	PRP$	O	poss	O	-1	O
+0	27	690	3574	3580		692	sister	sister	sister	NN	O	poss	O	-1	B-noun.person
+0	27	691	3580	3582	S	690	's	's	's	POS	O	possessive	O	-1	O
+0	27	692	3583	3592		688	suffering	suffering	suffering	NN	O	pobj	O	-1	B-noun.state
+0	27	693	3592	3593	S	681	,	,	,	,	O	punct	O	-1	O
+0	27	694	3594	3601	S	-1	reveals	reveals	reveal	VBZ	O	null	O	-1	B-verb.perception
+0	27	695	3602	3609	S	694	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	27	696	3610	3612	S	694	to	to	to	TO	O	prep	O	-1	O
+0	27	697	3613	3616		696	her	her	she	PRP	O	pobj	O	-1	O
+0	27	698	3616	3617	S	694	,	,	,	,	O	punct	O	-1	O
+0	27	699	3618	3628	S	694	displaying	displaying	display	VBG	O	xcomp	O	-1	B-verb.perception
+0	27	700	3629	3634	S	701	their	their	they	PRP$	O	poss	O	-1	O
+0	27	701	3635	3641		703	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	27	702	3641	3643	S	701	's	's	's	POS	O	possessive	O	-1	O
+0	27	703	3644	3648	S	699	ring	ring	ring	NN	O	dobj	O	-1	B-noun.attribute
+0	27	704	3649	3651	S	699	as	as	as	IN	O	prep	O	-1	O
+0	27	705	3652	3657	S	704	proof	proof	proof	NN	O	pobj	O	-1	B-noun.cognition
+0	27	706	3658	3660	S	705	of	of	of	IN	O	prep	O	-1	O
+0	27	707	3661	3664	S	708	his	his	he	PRP$	O	poss	O	-1	O
+0	27	708	3665	3673		706	identity	identity	identity	NN	O	pobj	O	-1	B-noun.attribute
+0	27	709	3673	3674	S	694	.	.	.	.	O	punct	O	-1	O
+0	28	710	3675	3682		712	Electra	Electra	Electra	NNP	PERSON	poss	O	1	B-noun.person
+0	28	711	3682	3684	S	710	's	's	's	POS	O	possessive	O	-1	O
+0	28	712	3685	3690	S	715	grief	grief	grief	NN	O	nsubjpass	O	-1	B-noun.feeling
+0	28	713	3691	3693	S	715	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	28	714	3694	3705	S	715	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	28	715	3706	3714	S	-1	replaced	replaced	replace	VBN	O	null	O	-1	B-verb.change
+0	28	716	3715	3719	S	715	with	with	with	IN	O	prep	O	-1	O
+0	28	717	3720	3723		716	joy	joy	joy	NN	O	pobj	O	-1	B-noun.feeling
+0	28	718	3723	3724	S	715	,	,	,	,	O	punct	O	-1	O
+0	28	719	3725	3728	S	715	and	and	and	CC	O	cc	O	-1	O
+0	28	720	3729	3732	S	721	she	she	she	PRP	O	nsubj	O	1	O
+0	28	721	3733	3735	S	715	is	is	be	VBZ	O	conj	O	-1	B-verb.stative
+0	28	722	3736	3738	S	721	in	in	in	IN	O	prep	O	-1	O
+0	28	723	3739	3742	S	724	the	the	the	DT	O	det	O	-1	O
+0	28	724	3743	3749	S	722	middle	middle	middle	NN	O	pobj	O	-1	B-noun.location
+0	28	725	3750	3752	S	724	of	of	of	IN	O	prep	O	-1	O
+0	28	726	3753	3764	S	725	celebrating	celebrating	celebrate	VBG	O	pcomp	O	-1	B-verb.social
+0	28	727	3765	3769	S	731	when	when	when	WRB	O	advmod	O	-1	O
+0	28	728	3770	3773	S	730	the	the	the	DT	O	det	O	-1	O
+0	28	729	3774	3777	S	730	Old	Old	Old	NNP	MISC	nn	O	-1	B-noun.person
+0	28	730	3778	3781	S	731	Man	Man	Man	NNP	MISC	nsubj	O	-1	I-noun.person
+0	28	731	3782	3789	S	726	emerges	emerges	emerge	VBZ	O	advcl	O	-1	B-verb.change
+0	28	732	3790	3794	S	731	from	from	from	IN	O	prep	O	-1	O
+0	28	733	3795	3801	S	732	within	within	within	IN	O	dep	O	-1	O
+0	28	734	3802	3805	S	735	the	the	the	DT	O	det	O	-1	O
+0	28	735	3806	3812	S	733	palace	palace	palace	NN	O	pobj	O	-1	B-noun.artifact
+0	28	736	3813	3816	S	731	and	and	and	CC	O	cc	O	-1	O
+0	28	737	3817	3824	S	731	hurries	hurries	hurry	VBZ	O	conj	O	-1	B-verb.motion
+0	28	738	3825	3832	S	731	Orestes	Orestes	Orestes	NNP	O	dobj	O	-1	B-noun.person
+0	28	739	3833	3839	S	741	inside	inside	inside	IN	O	mark	O	-1	O
+0	28	740	3840	3842	S	741	to	to	to	TO	O	aux	O	-1	O
+0	28	741	3843	3847	S	731	kill	kill	kill	VB	O	advcl	O	-1	B-verb.contact
+0	28	742	3848	3860		741	Clytemnestra	Clytemnestra	Clytemnestra	NNP	O	dobj	O	-1	B-noun.person
+0	28	743	3860	3861	S	715	.	.	.	.	O	punct	O	-1	O
+0	29	744	3862	3869	S	746	Electra	Electra	electra	NN	PERSON	nsubj	O	1	B-noun.person
+0	29	745	3870	3877	S	746	remains	remains	remain	VBZ	O	cop	O	-1	B-verb.change
+0	29	746	3878	3885		-1	outside	outside	outside	JJ	O	null	O	-1	O
+0	29	747	3885	3886	S	746	,	,	,	,	O	punct	O	-1	O
+0	29	748	3887	3895	S	746	watching	watching	watch	VBG	O	xcomp	O	-1	B-verb.perception
+0	29	749	3896	3899	S	748	for	for	for	IN	O	prep	O	-1	O
+0	29	750	3900	3909	S	749	Aegisthus	Aegisthus	Aegisthus	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	29	751	3910	3912	S	756	so	so	so	IN	O	mark	O	-1	O
+0	29	752	3913	3917	S	756	that	that	that	IN	O	dep	O	-1	O
+0	29	753	3918	3920	S	756	he	he	he	PRP	O	nsubj	O	-1	O
+0	29	754	3921	3926	S	756	might	might	might	MD	O	aux	O	-1	O
+0	29	755	3927	3930	S	756	not	not	not	RB	O	neg	O	-1	O
+0	29	756	3931	3937	S	748	return	return	return	VB	O	advcl	O	-1	B-verb.possession
+0	29	757	3938	3948		756	unobserved	unobserved	unobserved	JJ	O	advmod	O	-1	O
+0	29	758	3948	3949	S	746	.	.	.	.	O	punct	O	-1	O
+0	30	759	3950	3953	S	760	She	She	she	PRP	O	nsubj	O	1	O
+0	30	760	3954	3961	S	-1	listens	listens	listen	VBZ	O	null	O	-1	B-verb.perception
+0	30	761	3962	3971	S	760	excitedly	excitedly	excitedly	RB	O	advmod	O	-1	O
+0	30	762	3972	3974	S	760	to	to	to	TO	O	prep	O	-1	O
+0	30	763	3975	3978	S	764	the	the	the	DT	O	det	O	-1	O
+0	30	764	3979	3985	S	762	sounds	sounds	sound	NNS	O	pobj	O	-1	B-noun.cognition
+0	30	765	3986	3988	S	764	of	of	of	IN	O	prep	O	-1	O
+0	30	766	3989	3996	S	765	Orestes	Orestes	Orestes	NNP	O	pobj	O	-1	B-noun.person
+0	30	767	3997	4004	S	766	killing	killing	kill	VBG	O	partmod	O	-1	B-verb.contact
+0	30	768	4005	4017		767	Clytemnestra	Clytemnestra	Clytemnestra	NNP	O	dobj	O	-1	B-noun.person
+0	30	769	4017	4018	S	760	.	.	.	.	O	punct	O	-1	O
+0	31	770	4019	4026		778	Orestes	Orestes	Orestes	NNP	PERSON	nn	O	0	B-noun.person
+0	31	771	4026	4027	S	778	,	,	,	,	O	punct	O	-1	O
+0	31	772	4028	4034	S	774	having	having	have	VBG	O	aux	O	-1	O
+0	31	773	4035	4047	S	774	successfully	successfully	successfully	RB	O	advmod	O	-1	O
+0	31	774	4048	4054	S	778	killed	killed	kill	VBN	O	dep	O	-1	B-verb.contact
+0	31	775	4055	4058	S	776	his	his	he	PRP$	O	poss	O	-1	O
+0	31	776	4059	4065		774	mother	mother	mother	NN	O	dobj	O	-1	B-noun.person
+0	31	777	4065	4066	S	778	,	,	,	,	O	punct	O	-1	O
+0	31	778	4067	4074	S	-1	returns	returns	return	NNS	O	null	O	-1	B-noun.communication
+0	31	779	4075	4077	S	778	to	to	to	TO	O	prep	O	-1	O
+0	31	780	4078	4085	S	779	Electra	Electra	Electra	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	31	781	4086	4088	S	782	to	to	to	TO	O	aux	O	-1	O
+0	31	782	4089	4093	S	778	tell	tell	tell	VB	O	infmod	O	-1	B-verb.communication
+0	31	783	4094	4097	S	785	her	her	she	PRP$	O	poss	O	-1	O
+0	31	784	4098	4101	S	785	the	the	the	DT	O	det	O	-1	O
+0	31	785	4102	4106		782	news	news	news	NN	O	dobj	O	-1	B-noun.communication
+0	31	786	4106	4107	S	778	,	,	,	,	O	punct	O	-1	O
+0	31	787	4108	4111	S	778	but	but	but	CC	O	cc	O	-1	O
+0	31	788	4112	4114	S	789	he	he	he	PRP	O	nsubj	O	-1	O
+0	31	789	4115	4122	S	778	hurries	hurries	hurry	VBZ	O	conj	O	-1	B-verb.motion
+0	31	790	4123	4127	S	789	back	back	back	RB	O	advmod	O	-1	O
+0	31	791	4128	4134	S	789	inside	inside	inside	RB	O	advmod	O	-1	O
+0	31	792	4135	4137	S	794	as	as	as	IN	O	mark	O	-1	O
+0	31	793	4138	4142	S	794	they	they	they	PRP	O	nsubj	O	-1	O
+0	31	794	4143	4146	S	789	see	see	see	VBP	O	advcl	O	-1	B-verb.perception
+0	31	795	4147	4156	S	796	Aegisthus	Aegisthus	Aegisthus	NNP	O	nsubj	O	-1	B-noun.person
+0	31	796	4157	4168		794	approaching	approaching	approach	VBG	O	ccomp	O	-1	B-verb.motion
+0	31	797	4168	4169	S	778	.	.	.	.	O	punct	O	-1	O
+0	32	798	4170	4179	S	799	Aegisthus	Aegisthus	Aegisthus	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	32	799	4180	4184	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	32	800	4185	4192	S	799	Electra	Electra	Electra	NNP	PERSON	dobj	O	1	B-noun.person
+0	32	801	4193	4198	S	811	where	where	where	WRB	O	advmod	O	-1	O
+0	32	802	4199	4202	S	803	the	the	the	DT	O	det	O	-1	O
+0	32	803	4203	4211	S	811	Phocians	Phocians	Phocians	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	32	804	4212	4216	S	803	with	with	with	IN	O	prep	O	-1	O
+0	32	805	4217	4221	S	804	news	news	news	NN	O	pobj	O	-1	B-noun.communication
+0	32	806	4222	4224	S	805	of	of	of	IN	O	prep	O	-1	O
+0	32	807	4225	4232		809	Orestes	Orestes	Orestes	NNP	PERSON	poss	O	0	B-noun.person
+0	32	808	4232	4234	S	807	's	's	's	POS	O	possessive	O	-1	O
+0	32	809	4235	4240	S	806	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	32	810	4241	4245	S	811	have	have	have	VBP	O	aux	O	-1	O
+0	32	811	4246	4250		800	gone	gone	go	VBN	O	rcmod	O	-1	B-verb.motion
+0	32	812	4250	4251	S	799	,	,	,	,	O	punct	O	-1	O
+0	32	813	4252	4255	S	799	and	and	and	CC	O	cc	O	-1	O
+0	32	814	4256	4259	S	815	she	she	she	PRP	O	nsubj	O	1	O
+0	32	815	4260	4266	S	799	points	points	point	VBZ	O	conj	O	-1	B-verb.communication
+0	32	816	4267	4273	S	815	inside	inside	inside	IN	O	prep	O	-1	O
+0	32	817	4274	4277	S	818	the	the	the	DT	O	det	O	-1	O
+0	32	818	4278	4283		816	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	32	819	4283	4284	S	799	.	.	.	.	O	punct	O	-1	O
+0	33	820	4285	4287	S	821	He	He	he	PRP	O	nsubj	O	-1	O
+0	33	821	4288	4295	S	-1	demands	demands	demand	VBZ	O	null	O	-1	B-verb.communication
+0	33	822	4296	4300	S	831	that	that	that	IN	O	complm	O	-1	O
+0	33	823	4301	4304	S	824	the	the	the	DT	O	det	O	-1	O
+0	33	824	4305	4310	S	831	doors	doors	door	NNS	O	nsubjpass	O	-1	B-noun.artifact
+0	33	825	4311	4314	S	824	and	and	and	CC	O	cc	O	-1	O
+0	33	826	4315	4320	S	824	gates	gates	gate	NNS	O	conj	O	-1	B-noun.artifact
+0	33	827	4321	4323	S	824	of	of	of	IN	O	prep	O	-1	O
+0	33	828	4324	4327	S	829	the	the	the	DT	O	det	O	-1	O
+0	33	829	4328	4334	S	827	palace	palace	palace	NN	O	pobj	O	-1	B-noun.artifact
+0	33	830	4335	4337	S	831	be	be	be	VB	O	auxpass	O	-1	O
+0	33	831	4338	4344		821	opened	opened	open	VBN	O	ccomp	O	-1	B-verb.contact
+0	33	832	4344	4345	S	831	,	,	,	,	O	punct	O	-1	O
+0	33	833	4346	4348	S	838	so	so	so	IN	O	mark	O	-1	O
+0	33	834	4349	4353	S	838	that	that	that	IN	O	dep	O	-1	O
+0	33	835	4354	4357	S	836	the	the	the	DT	O	det	O	-1	O
+0	33	836	4358	4366	S	838	citizens	citizens	citizen	NNS	O	nsubj	O	-1	B-noun.person
+0	33	837	4367	4370	S	838	can	can	can	MD	O	aux	O	-1	O
+0	33	838	4371	4374	S	845	see	see	see	VB	O	csubj	O	-1	B-verb.cognition
+0	33	839	4375	4379	S	841	what	what	what	WP	O	dobj	O	-1	O
+0	33	840	4380	4382	S	841	he	he	he	PRP	O	nsubj	O	-1	O
+0	33	841	4383	4389	S	838	thinks	thinks	think	VBZ	O	ccomp	O	-1	B-verb.cognition
+0	33	842	4390	4392	S	845	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	33	843	4393	4400		845	Orestes	Orestes	Orestes	NNP	PERSON	poss	O	0	B-noun.person
+0	33	844	4400	4402	S	843	's	's	's	POS	O	possessive	O	-1	O
+0	33	845	4403	4409		831	corpse	corpse	corpse	NN	O	ccomp	O	-1	B-noun.body
+0	33	846	4409	4410	S	821	.	.	.	.	O	punct	O	-1	O
+0	34	847	4411	4418	S	848	Orestes	Orestes	Orestes	NNP	PERSON	nsubj	O	0	B-noun.person
+0	34	848	4419	4425	S	-1	brings	brings	bring	VBZ	O	null	O	-1	B-verb.motion
+0	34	849	4426	4429	S	850	the	the	the	DT	O	det	O	-1	O
+0	34	850	4430	4436	S	848	corpse	corpse	corpse	NN	O	dobj	O	-1	B-noun.body
+0	34	851	4437	4439	S	850	of	of	of	IN	O	prep	O	-1	O
+0	34	852	4440	4452		851	Clytemnestra	Clytemnestra	Clytemnestra	NNP	O	pobj	O	-1	B-noun.person
+0	34	853	4452	4453	S	848	,	,	,	,	O	punct	O	-1	O
+0	34	854	4454	4461	S	848	covered	covered	cover	VBN	O	conj	O	-1	B-verb.contact
+0	34	855	4462	4466	S	854	with	with	with	IN	O	prep	O	-1	O
+0	34	856	4467	4468	S	857	a	a	a	DT	O	det	O	-1	O
+0	34	857	4469	4474		855	sheet	sheet	sheet	NN	O	pobj	O	-1	B-noun.communication
+0	34	858	4474	4475	S	857	,	,	,	,	O	punct	O	-1	O
+0	34	859	4476	4478	S	857	to	to	to	TO	O	prep	O	-1	O
+0	34	860	4479	4488		859	Aegisthus	Aegisthus	Aegisthus	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	34	861	4488	4489	S	848	,	,	,	,	O	punct	O	-1	O
+0	34	862	4490	4493	S	848	and	and	and	CC	O	cc	O	-1	O
+0	34	863	4494	4498	S	867	when	when	when	WRB	O	advmod	O	-1	O
+0	34	864	4499	4502	S	865	the	the	the	DT	O	det	O	-1	O
+0	34	865	4503	4507	S	867	body	body	body	NN	O	nsubj	O	-1	B-noun.body
+0	34	866	4508	4510	S	867	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	34	867	4511	4520		870	uncovered	uncovered	uncovered	JJ	O	dep	O	-1	O
+0	34	868	4520	4521	S	870	,	,	,	,	O	punct	O	-1	O
+0	34	869	4522	4531	S	870	Aegisthus	Aegisthus	Aegisthus	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	34	870	4532	4540	S	848	realizes	realizes	realize	VBZ	O	conj	O	-1	B-verb.cognition
+0	34	871	4541	4545	S	875	that	that	that	IN	O	complm	O	-1	O
+0	34	872	4546	4548	S	875	he	he	he	PRP	O	nsubj	O	-1	O
+0	34	873	4549	4552	S	875	has	has	have	VBZ	O	aux	O	-1	O
+0	34	874	4553	4557	S	875	been	been	be	VBN	O	auxpass	O	-1	O
+0	34	875	4558	4565	S	870	trapped	trapped	trap	VBN	O	ccomp	O	-1	B-verb.social
+0	34	876	4566	4569	S	875	and	and	and	CC	O	cc	O	-1	O
+0	34	877	4570	4574	S	875	that	that	that	IN	O	conj	O	-1	O
+0	34	878	4575	4580	S	877	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	34	879	4581	4583	S	878	is	is	be	VBZ	O	amod	O	-1	B-verb.stative
+0	34	880	4584	4588	S	879	upon	upon	upon	IN	O	prep	O	-1	O
+0	34	881	4589	4592		880	him	him	he	PRP	O	pobj	O	-1	O
+0	34	882	4592	4593	S	848	.	.	.	.	O	punct	O	-1	O
+0	35	883	4594	4601	S	885	Orestes	Orestes	Orestes	NNP	O	nn	O	-1	B-noun.person
+0	35	884	4602	4608	S	885	orders	orders	order	NNS	O	nn	O	-1	B-noun.communication
+0	35	885	4609	4618	S	-1	Aegisthus	Aegisthus	Aegisthus	NNP	O	null	O	-1	B-noun.person
+0	35	886	4619	4625	S	885	inside	inside	inside	IN	O	prep	O	-1	O
+0	35	887	4626	4628	S	886	so	so	so	RB	O	pobj	O	-1	O
+0	35	888	4629	4633	S	891	that	that	that	IN	O	complm	O	-1	O
+0	35	889	4634	4636	S	891	he	he	he	PRP	O	nsubj	O	-1	O
+0	35	890	4637	4642	S	891	might	might	might	MD	O	aux	O	-1	O
+0	35	891	4643	4647	S	885	kill	kill	kill	VB	O	ccomp	O	-1	B-verb.contact
+0	35	892	4648	4651	S	891	him	him	he	PRP	O	dobj	O	-1	O
+0	35	893	4652	4654	S	891	in	in	in	IN	O	prep	O	-1	O
+0	35	894	4655	4658	S	896	the	the	the	DT	O	det	O	-1	O
+0	35	895	4659	4664	S	896	exact	exact	exact	JJ	O	amod	O	-1	O
+0	35	896	4665	4669	S	893	spot	spot	spot	NN	O	pobj	O	-1	B-noun.location
+0	35	897	4670	4675		903	where	where	where	WRB	O	advmod	O	-1	O
+0	35	898	4675	4676	S	903	,	,	,	,	O	punct	O	-1	O
+0	35	899	4677	4682	S	903	years	years	year	NNS	DURATION	dep	O	-1	B-noun.time
+0	35	900	4683	4689		899	before	before	before	IN	O	ccomp	O	-1	O
+0	35	901	4689	4690	S	903	,	,	,	,	O	punct	O	-1	O
+0	35	902	4691	4700	S	903	Aegisthus	Aegisthus	Aegisthus	NNP	O	nsubj	O	-1	B-noun.person
+0	35	903	4701	4707	S	896	killed	killed	kill	VBD	O	rcmod	O	-1	B-verb.contact
+0	35	904	4708	4717		903	Agamemnon	Agamemnon	Agamemnon	NNP	O	dobj	O	-1	B-noun.person
+0	35	905	4717	4718	N	885	.	.	.	.	O	punct	O	-1	O

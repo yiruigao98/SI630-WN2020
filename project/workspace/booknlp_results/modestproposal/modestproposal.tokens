@@ -1,0 +1,346 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	3	S	2	The	The	the	DT	O	det	O	-1	O
+0	0	1	4	8	S	2	full	full	full	JJ	O	amod	O	-1	O
+0	0	2	9	14	S	11	title	title	title	NN	O	nsubj	O	-1	B-noun.communication
+0	0	3	15	17	S	2	of	of	of	IN	O	prep	O	-1	O
+0	0	4	18	23		6	Swift	Swift	Swift	NNP	PERSON	poss	O	-1	B-noun.person
+0	0	5	23	25	S	4	's	's	's	POS	O	possessive	O	-1	O
+0	0	6	26	34	S	3	pamphlet	pamphlet	pamphlet	NN	O	pobj	O	-1	B-noun.communication
+0	0	7	35	37	S	11	is	is	be	VBZ	O	cop	O	-1	O
+0	0	8	38	39		11	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	0	9	39	40	S	11	A	A	a	DT	O	det	I-QUOTE	-1	O
+0	0	10	41	47	S	11	Modest	Modest	modest	JJS	O	amod	I-QUOTE	-1	O
+0	0	11	48	56	S	-1	Proposal	Proposal	proposal	NN	O	null	I-QUOTE	-1	B-noun.communication
+0	0	12	57	60	S	11	for	for	for	IN	O	prep	I-QUOTE	-1	O
+0	0	13	61	71	S	12	Preventing	Preventing	prevent	VBG	O	pcomp	I-QUOTE	-1	B-verb.social
+0	0	14	72	75	S	15	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	0	15	76	84	S	13	Children	Children	Children	NNP	ORGANIZATION	dobj	I-QUOTE	-1	B-noun.person
+0	0	16	85	87	S	15	of	of	of	IN	ORGANIZATION	prep	I-QUOTE	-1	O
+0	0	17	88	92	S	18	Poor	Poor	Poor	NNP	ORGANIZATION	nn	I-QUOTE	-1	B-noun.group
+0	0	18	93	99	S	16	People	People	people	NNS	ORGANIZATION	pobj	I-QUOTE	-1	I-noun.group
+0	0	19	100	104	S	13	from	from	from	IN	O	prep	I-QUOTE	-1	O
+0	0	20	105	110	S	19	Being	Being	be	VBG	O	pcomp	I-QUOTE	-1	B-verb.stative
+0	0	21	111	112	S	22	a	a	a	DT	O	det	I-QUOTE	-1	O
+0	0	22	113	120	S	20	Burthen	Burthen	burthen	NN	MISC	dobj	I-QUOTE	-1	B-noun.artifact
+0	0	23	121	123	S	20	to	to	to	TO	O	prep	I-QUOTE	-1	O
+0	0	24	124	129	S	25	their	their	they	PRP$	O	poss	I-QUOTE	-1	O
+0	0	25	130	137		23	Parents	Parents	parent	NNS	O	pobj	I-QUOTE	-1	B-noun.person
+0	0	26	137	138	S	11	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	27	139	141	S	11	or	or	or	CC	O	cc	I-QUOTE	-1	O
+0	0	28	142	145	S	29	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	0	29	146	153		11	Country	Country	country	NN	O	conj	I-QUOTE	-1	B-noun.location
+0	0	30	153	154	S	11	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	31	155	158	S	11	and	and	and	CC	O	cc	I-QUOTE	-1	O
+0	0	32	159	162	S	11	for	for	for	IN	O	conj	I-QUOTE	-1	O
+0	0	33	163	169	S	32	Making	Making	make	VBG	O	pcomp	I-QUOTE	-1	B-verb.social
+0	0	34	170	174	S	35	them	them	they	PRP	O	nsubj	I-QUOTE	-1	O
+0	0	35	175	185	S	33	Beneficial	Beneficial	Beneficial	NNP	O	xcomp	I-QUOTE	-1	B-noun.person
+0	0	36	186	188	S	35	to	to	to	TO	O	prep	I-QUOTE	-1	O
+0	0	37	189	192	S	38	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	0	38	193	200		36	Publick	Publick	Publick	NNP	O	pobj	I-QUOTE	-1	O
+0	0	39	200	201		11	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	0	40	201	202	S	11	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	1	41	203	206	S	42	The	The	the	DT	O	det	O	-1	O
+0	1	42	207	212	S	47	tract	tract	tract	NN	O	nsubj	O	-1	B-noun.location
+0	1	43	213	215	S	47	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	44	216	218	S	47	an	an	a	DT	O	det	O	-1	O
+0	1	45	219	229	S	46	ironically	ironically	ironically	RB	O	advmod	O	-1	O
+0	1	46	230	239	S	47	conceived	conceived	conceive	VBN	O	amod	O	-1	B-verb.creation
+0	1	47	240	247	S	-1	attempt	attempt	attempt	NN	O	null	O	-1	B-noun.act
+0	1	48	248	250	S	50	to	to	to	TO	O	aux	O	-1	O
+0	1	49	251	252		50	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	1	50	252	256	S	47	find	find	find	VB	O	infmod	I-QUOTE	-1	B-verb.communication
+0	1	51	257	260	S	50	out	out	out	RP	O	prt	I-QUOTE	-1	O
+0	1	52	261	262	S	55	a	a	a	DT	O	det	I-QUOTE	-1	O
+0	1	53	263	267		55	fair	fair	fair	JJ	O	advmod	I-QUOTE	-1	O
+0	1	54	267	268	S	55	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	1	55	269	274		50	cheap	cheap	cheap	JJ	O	dep	I-QUOTE	-1	O
+0	1	56	274	275	S	55	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	1	57	276	279	S	55	and	and	and	CC	O	cc	I-QUOTE	-1	O
+0	1	58	280	284	S	59	easy	easy	easy	JJ	O	amod	I-QUOTE	-1	O
+0	1	59	285	291		55	Method	Method	method	NN	O	conj	I-QUOTE	-1	B-noun.cognition
+0	1	60	291	292	S	55	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	1	61	293	296	S	55	for	for	for	IN	O	prep	O	-1	O
+0	1	62	297	307	S	61	converting	converting	convert	VBG	O	pcomp	O	-1	B-verb.change
+0	1	63	308	311	S	65	the	the	the	DT	O	det	O	-1	O
+0	1	64	312	320	S	65	starving	starving	starving	JJ	O	amod	O	-1	O
+0	1	65	321	329	S	62	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	1	66	330	332	S	65	of	of	of	IN	O	prep	O	-1	O
+0	1	67	333	340	S	66	Ireland	Ireland	Ireland	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	1	68	341	345	S	62	into	into	into	IN	O	prep	O	-1	O
+0	1	69	346	347		68	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	1	70	347	352	S	73	sound	sound	sound	JJ	O	amod	I-QUOTE	-1	O
+0	1	71	353	356	S	70	and	and	and	CC	O	cc	I-QUOTE	-1	O
+0	1	72	357	363	S	70	useful	useful	useful	JJ	O	conj	I-QUOTE	-1	O
+0	1	73	364	371	S	68	members	members	member	NNS	O	pobj	I-QUOTE	-1	B-noun.person
+0	1	74	372	374	S	73	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	1	75	375	378	S	76	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	1	76	379	391		74	Commonwealth	Commonwealth	Commonwealth	NNP	O	pobj	I-QUOTE	-1	B-noun.location
+0	1	77	391	392		47	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	1	78	392	393	S	47	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	2	79	394	400	S	89	Across	Across	across	IN	O	prep	O	-1	O
+0	2	80	401	404	S	81	the	the	the	DT	O	det	O	-1	O
+0	2	81	405	412	S	79	country	country	country	NN	O	pobj	O	-1	B-noun.group
+0	2	82	413	417	S	83	poor	poor	poor	JJ	O	amod	O	-1	O
+0	2	83	418	426		81	children	children	child	NNS	O	rcmod	O	-1	B-noun.person
+0	2	84	426	427	S	89	,	,	,	,	O	punct	O	-1	O
+0	2	85	428	441	S	86	predominantly	predominantly	predominantly	RB	O	advmod	O	-1	O
+0	2	86	442	451		89	Catholics	Catholics	Catholics	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	2	87	451	452	S	86	,	,	,	,	O	punct	O	-1	O
+0	2	88	453	456	S	89	are	are	be	VBP	O	aux	O	-1	O
+0	2	89	457	463	S	-1	living	living	live	VBG	O	null	O	-1	B-verb.stative
+0	2	90	464	466	S	89	in	in	in	IN	O	prep	O	-1	O
+0	2	91	467	474	S	90	squalor	squalor	squalor	NN	O	pobj	O	-1	B-noun.state
+0	2	92	475	482	S	97	because	because	because	IN	O	mark	O	-1	O
+0	2	93	483	488	S	94	their	their	they	PRP$	O	poss	O	-1	O
+0	2	94	489	497	S	97	families	families	family	NNS	O	nsubj	O	-1	B-noun.group
+0	2	95	498	501	S	97	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	2	96	502	505	S	97	too	too	too	RB	O	advmod	O	-1	O
+0	2	97	506	510	S	89	poor	poor	poor	JJ	O	advcl	O	-1	O
+0	2	98	511	513	S	99	to	to	to	TO	O	aux	O	-1	O
+0	2	99	514	518	S	97	keep	keep	keep	VB	O	xcomp	O	-1	B-verb.stative
+0	2	100	519	523	S	101	them	them	they	PRP	O	nsubj	O	-1	O
+0	2	101	524	527	S	99	fed	fed	feed	VBN	O	xcomp	O	-1	B-verb.consumption
+0	2	102	528	531	S	101	and	and	and	CC	O	cc	O	-1	O
+0	2	103	532	539		101	clothed	clothed	clothe	VBN	O	conj	O	-1	B-verb.body
+0	2	104	539	540	S	89	.	.	.	.	O	punct	O	-1	O
+0	3	105	541	544	S	106	The	The	the	DT	O	det	O	-1	O
+0	3	106	545	551	S	107	author	author	author	NN	O	nsubj	O	-1	B-noun.person
+0	3	107	552	558		-1	argues	argues	argue	VBZ	O	null	O	-1	B-verb.communication
+0	3	108	558	559	S	107	,	,	,	,	O	punct	O	-1	O
+0	3	109	560	562	S	107	by	by	by	IN	O	prep	O	-1	O
+0	3	110	563	573	S	112	hard-edged	hard-edged	hard-edged	JJ	O	amod	O	-1	O
+0	3	111	574	582	S	112	economic	economic	economic	JJ	O	amod	O	-1	O
+0	3	112	583	592	S	109	reasoning	reasoning	reasoning	NN	O	pobj	O	-1	B-noun.cognition
+0	3	113	593	595	S	114	as	as	as	RB	O	dep	O	-1	O
+0	3	114	596	600	S	107	well	well	well	RB	O	advmod	O	-1	O
+0	3	115	601	603	S	114	as	as	as	IN	O	dep	O	-1	O
+0	3	116	604	608	S	107	from	from	from	IN	O	prep	O	-1	O
+0	3	117	609	610	S	120	a	a	a	DT	O	det	O	-1	O
+0	3	118	611	625	S	120	self-righteous	self-righteous	self-righteous	JJ	O	amod	O	-1	O
+0	3	119	626	631	S	120	moral	moral	moral	JJ	O	amod	O	-1	O
+0	3	120	632	638		116	stance	stance	stance	NN	O	pobj	O	-1	B-noun.attribute
+0	3	121	638	639	S	107	,	,	,	,	O	punct	O	-1	O
+0	3	122	640	643	S	107	for	for	for	IN	O	prep	O	-1	O
+0	3	123	644	645	S	124	a	a	a	DT	O	det	O	-1	O
+0	3	124	646	649	S	122	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	3	125	650	652	S	126	to	to	to	TO	O	aux	O	-1	O
+0	3	126	653	657	S	124	turn	turn	turn	VB	O	infmod	O	-1	B-verb.motion
+0	3	127	658	662	S	128	this	this	this	DT	O	det	O	-1	O
+0	3	128	663	670	S	126	problem	problem	problem	NN	O	dobj	O	-1	B-noun.state
+0	3	129	671	675	S	126	into	into	into	IN	O	prep	O	-1	O
+0	3	130	676	679	S	132	its	its	its	PRP$	O	poss	O	-1	O
+0	3	131	680	683	S	132	own	own	own	JJ	O	amod	O	-1	O
+0	3	132	684	692		129	solution	solution	solution	NN	O	pobj	O	-1	B-noun.substance
+0	3	133	692	693	S	107	.	.	.	.	O	punct	O	-1	O
+0	4	134	694	697	S	135	His	His	he	PRP$	O	poss	O	-1	O
+0	4	135	698	706		140	proposal	proposal	proposal	NN	O	nsubj	O	-1	B-noun.communication
+0	4	136	706	707	S	140	,	,	,	,	O	punct	O	-1	O
+0	4	137	708	710	S	140	in	in	in	IN	O	prep	O	-1	O
+0	4	138	711	717		137	effect	effect	effect	NN	O	pobj	O	-1	B-noun.phenomenon
+0	4	139	717	718	S	140	,	,	,	,	O	punct	O	-1	O
+0	4	140	719	721	S	-1	is	is	be	VBZ	O	null	O	-1	O
+0	4	141	722	724	S	142	to	to	to	TO	O	aux	O	-1	O
+0	4	142	725	731	S	140	fatten	fatten	fatten	VB	O	xcomp	O	-1	B-verb.consumption
+0	4	143	732	734	S	142	up	up	up	RP	O	prt	O	-1	O
+0	4	144	735	740	S	146	these	these	these	DT	O	det	O	-1	O
+0	4	145	741	755	S	146	undernourished	undernourished	undernourished	JJ	O	amod	O	-1	O
+0	4	146	756	764	S	142	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	4	147	765	768	S	142	and	and	and	CC	O	cc	O	-1	O
+0	4	148	769	773	S	142	feed	feed	feed	VB	O	conj	O	-1	B-verb.consumption
+0	4	149	774	778	S	148	them	them	they	PRP	O	dobj	O	-1	O
+0	4	150	779	781	S	148	to	to	to	TO	O	prep	O	-1	O
+0	4	151	782	789		154	Ireland	Ireland	Ireland	NNP	LOCATION	poss	O	-1	B-noun.location
+0	4	152	789	791	S	151	's	's	's	POS	O	possessive	O	-1	O
+0	4	153	792	796	S	154	rich	rich	rich	JJ	O	amod	O	-1	O
+0	4	154	797	808		150	land-owners	land-owners	land-owner	NNS	O	pobj	O	-1	O
+0	4	155	808	809	S	140	.	.	.	.	O	punct	O	-1	O
+0	5	156	810	818	S	162	Children	Children	child	NNS	O	nsubjpass	O	-1	B-noun.person
+0	5	157	819	821	S	156	of	of	of	IN	O	prep	O	-1	O
+0	5	158	822	825	S	159	the	the	the	DT	O	det	O	-1	O
+0	5	159	826	830	S	157	poor	poor	poor	JJ	O	pobj	O	-1	O
+0	5	160	831	836	S	162	could	could	could	MD	O	aux	O	-1	O
+0	5	161	837	839	S	162	be	be	be	VB	O	auxpass	O	-1	O
+0	5	162	840	844	S	-1	sold	sold	sell	VBN	O	null	O	-1	B-verb.possession
+0	5	163	845	849	S	162	into	into	into	IN	O	prep	O	-1	O
+0	5	164	850	851	S	166	a	a	a	DT	O	det	O	-1	O
+0	5	165	852	856	S	166	meat	meat	meat	NN	O	nn	O	-1	B-noun.artifact
+0	5	166	857	863	S	163	market	market	market	NN	O	pobj	O	-1	I-noun.artifact
+0	5	167	864	866	S	162	at	at	at	IN	O	prep	O	-1	O
+0	5	168	867	870	S	169	the	the	the	DT	O	det	O	-1	O
+0	5	169	871	874	S	167	age	age	age	NN	O	pobj	O	-1	B-noun.attribute
+0	5	170	875	877	S	169	of	of	of	IN	O	prep	O	-1	O
+0	5	171	878	881		170	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	5	172	881	882	S	174	,	,	,	,	O	punct	O	-1	O
+0	5	173	883	885	S	174	he	he	he	PRP	O	nsubj	O	-1	O
+0	5	174	886	892		177	argues	argues	argue	VBZ	O	parataxis	O	-1	B-verb.communication
+0	5	175	892	893	S	174	,	,	,	,	O	punct	O	-1	O
+0	5	176	894	898	S	177	thus	thus	thus	RB	O	advmod	O	-1	O
+0	5	177	899	908	S	162	combating	combating	combate	VBG	O	xcomp	O	-1	B-verb.competition
+0	5	178	909	923	S	177	overpopulation	overpopulation	overpopulation	NN	O	dobj	O	-1	B-noun.group
+0	5	179	924	927	S	178	and	and	and	CC	O	cc	O	-1	O
+0	5	180	928	940		178	unemployment	unemployment	unemployment	NN	O	conj	O	-1	B-noun.state
+0	5	181	940	941	S	162	,	,	,	,	O	punct	O	-1	O
+0	5	182	942	949	S	162	sparing	sparing	spare	VBG	O	conj	O	-1	O
+0	5	183	950	958	S	182	families	families	family	NNS	O	iobj	O	-1	B-noun.group
+0	5	184	959	962	S	185	the	the	the	DT	O	det	O	-1	O
+0	5	185	963	970	S	182	expense	expense	expense	NN	O	dobj	O	-1	B-noun.possession
+0	5	186	971	973	S	185	of	of	of	IN	O	prep	O	-1	O
+0	5	187	974	987	S	186	child-bearing	child-bearing	child-bearing	JJ	O	pobj	O	-1	O
+0	5	188	988	993	S	189	while	while	while	IN	O	mark	O	-1	O
+0	5	189	994	1003	S	182	providing	providing	provide	VBG	O	advcl	O	-1	B-verb.possession
+0	5	190	1004	1008	S	189	them	them	they	PRP	O	dobj	O	-1	O
+0	5	191	1009	1013	S	189	with	with	with	IN	O	prep	O	-1	O
+0	5	192	1014	1015	S	195	a	a	a	DT	O	det	O	-1	O
+0	5	193	1016	1022	S	195	little	little	little	JJ	O	amod	O	-1	O
+0	5	194	1023	1028	S	195	extra	extra	extra	JJ	O	amod	O	-1	O
+0	5	195	1029	1035		191	income	income	income	NN	O	pobj	O	-1	B-noun.possession
+0	5	196	1035	1036	S	182	,	,	,	,	O	punct	O	-1	O
+0	5	197	1037	1046	S	182	improving	improving	improve	VBG	O	conj	O	-1	B-verb.change
+0	5	198	1047	1050	S	200	the	the	the	DT	O	det	O	-1	O
+0	5	199	1051	1059	S	200	culinary	culinary	culinary	JJ	O	amod	O	-1	O
+0	5	200	1060	1070	S	197	experience	experience	experience	NN	O	dobj	O	-1	B-noun.cognition
+0	5	201	1071	1073	S	200	of	of	of	IN	O	prep	O	-1	O
+0	5	202	1074	1077	S	203	the	the	the	DT	O	det	O	-1	O
+0	5	203	1078	1085		201	wealthy	wealthy	wealthy	JJ	O	pobj	O	-1	O
+0	5	204	1085	1086	S	162	,	,	,	,	O	punct	O	-1	O
+0	5	205	1087	1090	S	162	and	and	and	CC	O	cc	O	-1	O
+0	5	206	1091	1103	S	162	contributing	contributing	contribute	VBG	O	conj	O	-1	B-verb.possession
+0	5	207	1104	1106	S	206	to	to	to	TO	O	prep	O	-1	O
+0	5	208	1107	1110	S	211	the	the	the	DT	O	det	O	-1	O
+0	5	209	1111	1118	S	211	overall	overall	overall	JJ	O	amod	O	-1	O
+0	5	210	1119	1127	S	211	economic	economic	economic	JJ	O	amod	O	-1	O
+0	5	211	1128	1138	S	207	well-being	well-being	well-being	NN	O	pobj	O	-1	B-noun.state
+0	5	212	1139	1141	S	211	of	of	of	IN	O	prep	O	-1	O
+0	5	213	1142	1145	S	214	the	the	the	DT	O	det	O	-1	O
+0	5	214	1146	1152		212	nation	nation	nation	NN	O	pobj	O	-1	B-noun.group
+0	5	215	1152	1153	S	162	.	.	.	.	O	punct	O	-1	O
+0	6	216	1154	1157	S	217	The	The	the	DT	O	det	O	-1	O
+0	6	217	1158	1164	S	218	author	author	author	NN	O	nsubj	O	-1	B-noun.person
+0	6	218	1165	1171	S	-1	offers	offers	offer	VBZ	O	null	O	-1	B-verb.possession
+0	6	219	1172	1183	S	220	statistical	statistical	statistical	JJ	O	amod	O	-1	O
+0	6	220	1184	1191	S	218	support	support	support	NN	O	dobj	O	-1	B-noun.act
+0	6	221	1192	1195	S	220	for	for	for	IN	O	prep	O	-1	O
+0	6	222	1196	1199	S	223	his	his	he	PRP$	O	poss	O	-1	O
+0	6	223	1200	1210	S	221	assertions	assertions	assertion	NNS	O	pobj	O	-1	B-noun.communication
+0	6	224	1211	1214	S	218	and	and	and	CC	O	cc	O	-1	O
+0	6	225	1215	1220	S	218	gives	gives	give	VBZ	O	conj	O	-1	B-verb.possession
+0	6	226	1221	1229	S	227	specific	specific	specific	JJ	O	amod	O	-1	O
+0	6	227	1230	1234	S	225	data	data	datum	NNS	O	dobj	O	-1	B-noun.group
+0	6	228	1235	1240	S	227	about	about	about	IN	O	prep	O	-1	O
+0	6	229	1241	1244	S	230	the	the	the	DT	O	det	O	-1	O
+0	6	230	1245	1251	S	228	number	number	number	NN	O	pobj	O	-1	B-noun.attribute
+0	6	231	1252	1254	S	230	of	of	of	IN	O	prep	O	-1	O
+0	6	232	1255	1263	S	231	children	children	child	NNS	O	pobj	O	-1	B-noun.person
+0	6	233	1264	1266	S	235	to	to	to	TO	O	aux	O	-1	O
+0	6	234	1267	1269	S	235	be	be	be	VB	O	auxpass	O	-1	O
+0	6	235	1270	1274		232	sold	sold	sell	VBN	O	infmod	O	-1	B-verb.possession
+0	6	236	1274	1275	S	218	,	,	,	,	O	punct	O	-1	O
+0	6	237	1276	1281	S	238	their	their	they	PRP$	O	poss	O	-1	O
+0	6	238	1282	1288	S	218	weight	weight	weight	NN	O	dobj	O	-1	B-noun.attribute
+0	6	239	1289	1292	S	238	and	and	and	CC	O	cc	O	-1	O
+0	6	240	1293	1298		238	price	price	price	NN	O	conj	O	-1	B-noun.attribute
+0	6	241	1298	1299	S	218	,	,	,	,	O	punct	O	-1	O
+0	6	242	1300	1303	S	218	and	and	and	CC	O	cc	O	-1	O
+0	6	243	1304	1307	S	246	the	the	the	DT	O	det	O	-1	O
+0	6	244	1308	1317	S	246	projected	projected	project	VBN	O	amod	O	-1	B-verb.perception
+0	6	245	1318	1329	S	246	consumption	consumption	consumption	NN	O	nn	O	-1	B-noun.act
+0	6	246	1330	1338		218	patterns	patterns	pattern	NNS	O	conj	O	-1	B-noun.cognition
+0	6	247	1338	1339	S	218	.	.	.	.	O	punct	O	-1	O
+0	7	248	1340	1342	S	249	He	He	he	PRP	O	nsubj	O	-1	O
+0	7	249	1343	1351	S	-1	suggests	suggests	suggest	VBZ	O	null	O	-1	B-verb.communication
+0	7	250	1352	1356	S	251	some	some	some	DT	O	det	O	-1	O
+0	7	251	1357	1364	S	249	recipes	recipes	recipe	NNS	O	dobj	O	-1	B-noun.communication
+0	7	252	1365	1368	S	251	for	for	for	IN	O	prep	O	-1	O
+0	7	253	1369	1378	S	252	preparing	preparing	prepare	VBG	O	pcomp	O	-1	B-verb.change
+0	7	254	1379	1383	S	257	this	this	this	DT	O	det	O	-1	O
+0	7	255	1384	1393	S	257	delicious	delicious	delicious	JJ	O	amod	O	-1	O
+0	7	256	1394	1397	S	257	new	new	new	JJ	O	amod	O	-1	O
+0	7	257	1398	1402		253	meat	meat	meat	NN	O	dobj	O	-1	B-noun.food
+0	7	258	1402	1403	S	249	,	,	,	,	O	punct	O	-1	O
+0	7	259	1404	1407	S	249	and	and	and	CC	O	cc	O	-1	O
+0	7	260	1408	1410	S	261	he	he	he	PRP	O	nsubj	O	-1	O
+0	7	261	1411	1416	S	249	feels	feels	feel	VBZ	O	conj	O	-1	B-verb.cognition
+0	7	262	1417	1421	S	261	sure	sure	sure	JJ	O	acomp	O	-1	O
+0	7	263	1422	1426	S	268	that	that	that	IN	O	complm	O	-1	O
+0	7	264	1427	1437	S	265	innovative	innovative	innovative	JJ	O	amod	O	-1	O
+0	7	265	1438	1443	S	268	cooks	cooks	cook	NNS	O	nsubj	O	-1	B-noun.person
+0	7	266	1444	1448	S	268	will	will	will	MD	O	aux	O	-1	O
+0	7	267	1449	1451	S	268	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	7	268	1452	1457	S	262	quick	quick	quick	JJ	O	ccomp	O	-1	O
+0	7	269	1458	1460	S	270	to	to	to	TO	O	aux	O	-1	O
+0	7	270	1461	1469	S	268	generate	generate	generate	VB	O	xcomp	O	-1	B-verb.creation
+0	7	271	1470	1474		270	more	more	more	JJR	O	dobj	O	-1	O
+0	7	272	1474	1475	S	249	.	.	.	.	O	punct	O	-1	O
+0	8	273	1476	1478	S	275	He	He	he	PRP	O	nsubj	O	-1	O
+0	8	274	1479	1483	S	275	also	also	also	RB	O	advmod	O	-1	O
+0	8	275	1484	1495	S	-1	anticipates	anticipates	anticipate	VBZ	O	null	O	-1	B-verb.cognition
+0	8	276	1496	1500	S	285	that	that	that	IN	O	complm	O	-1	O
+0	8	277	1501	1504	S	278	the	the	the	DT	O	det	O	-1	O
+0	8	278	1505	1513	S	285	practice	practice	practice	NN	O	nsubj	O	-1	B-noun.act
+0	8	279	1514	1516	S	278	of	of	of	IN	O	prep	O	-1	O
+0	8	280	1517	1524	S	279	selling	selling	selling	NN	O	pobj	O	-1	B-noun.act
+0	8	281	1525	1528	S	280	and	and	and	CC	O	cc	O	-1	O
+0	8	282	1529	1535	S	283	eating	eating	eating	JJ	O	amod	O	-1	O
+0	8	283	1536	1544	S	280	children	children	child	NNS	O	conj	O	-1	B-noun.person
+0	8	284	1545	1549	S	285	will	will	will	MD	O	aux	O	-1	O
+0	8	285	1550	1554	S	275	have	have	have	VB	O	ccomp	O	-1	B-verb.possession
+0	8	286	1555	1563	S	287	positive	positive	positive	JJ	O	amod	O	-1	O
+0	8	287	1564	1571	S	285	effects	effects	effect	NNS	O	dobj	O	-1	B-noun.phenomenon
+0	8	288	1572	1574	S	287	on	on	on	IN	O	prep	O	-1	O
+0	8	289	1575	1581	S	290	family	family	family	NN	O	nn	O	-1	B-noun.group
+0	8	290	1582	1590		288	morality	morality	morality	NN	O	pobj	O	-1	B-noun.attribute
+0	8	291	1590	1591	S	287	:	:	:	:	O	punct	O	-1	O
+0	8	292	1592	1600	S	294	husbands	husbands	husband	NNS	O	nsubj	O	-1	B-noun.person
+0	8	293	1601	1605	S	294	will	will	will	MD	O	aux	O	-1	O
+0	8	294	1606	1611	S	287	treat	treat	treat	VB	O	dep	O	-1	B-verb.social
+0	8	295	1612	1617	S	296	their	their	they	PRP$	O	poss	O	-1	O
+0	8	296	1618	1623	S	294	wives	wives	wife	NNS	O	dobj	O	-1	B-noun.person
+0	8	297	1624	1628	S	294	with	with	with	IN	O	prep	O	-1	O
+0	8	298	1629	1633	S	299	more	more	more	JJR	O	amod	O	-1	O
+0	8	299	1634	1641		297	respect	respect	respect	NN	O	pobj	O	-1	B-noun.cognition
+0	8	300	1641	1642	S	294	,	,	,	,	O	punct	O	-1	O
+0	8	301	1643	1646	S	294	and	and	and	CC	O	cc	O	-1	O
+0	8	302	1647	1654	S	304	parents	parents	parent	NNS	O	nsubj	O	-1	B-noun.person
+0	8	303	1655	1659	S	304	will	will	will	MD	O	aux	O	-1	O
+0	8	304	1660	1665	S	294	value	value	value	VB	O	conj	O	-1	B-verb.cognition
+0	8	305	1666	1671	S	306	their	their	they	PRP$	O	poss	O	-1	O
+0	8	306	1672	1680	S	304	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	8	307	1681	1683	S	304	in	in	in	IN	O	prep	O	-1	O
+0	8	308	1684	1688	S	307	ways	ways	way	NNS	O	pobj	O	-1	B-noun.act
+0	8	309	1689	1697	S	310	hitherto	hitherto	hitherto	RB	O	advmod	O	-1	O
+0	8	310	1698	1705		308	unknown	unknown	unknown	JJ	O	amod	O	-1	O
+0	8	311	1705	1706	S	275	.	.	.	.	O	punct	O	-1	O
+0	9	312	1707	1710	S	313	His	His	he	PRP$	O	poss	O	-1	O
+0	9	313	1711	1721	S	314	conclusion	conclusion	conclusion	NN	O	nsubj	O	-1	B-noun.cognition
+0	9	314	1722	1724	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	9	315	1725	1729	S	322	that	that	that	IN	O	complm	O	-1	O
+0	9	316	1730	1733	S	317	the	the	the	DT	O	det	O	-1	O
+0	9	317	1734	1748	S	322	implementation	implementation	implementation	NN	O	nsubj	O	-1	B-noun.act
+0	9	318	1749	1751	S	317	of	of	of	IN	O	prep	O	-1	O
+0	9	319	1752	1756	S	320	this	this	this	DT	O	det	O	-1	O
+0	9	320	1757	1764	S	318	project	project	project	NN	O	pobj	O	-1	B-noun.act
+0	9	321	1765	1769	S	322	will	will	will	MD	O	aux	O	-1	O
+0	9	322	1770	1772	S	314	do	do	do	VB	O	ccomp	O	-1	B-verb.social
+0	9	323	1773	1777	S	322	more	more	more	JJR	O	dobj	O	-1	O
+0	9	324	1778	1780	S	325	to	to	to	TO	O	aux	O	-1	O
+0	9	325	1781	1786	S	322	solve	solve	solve	VB	O	xcomp	O	-1	B-verb.cognition
+0	9	326	1787	1794		328	Ireland	Ireland	Ireland	NNP	LOCATION	poss	O	-1	B-noun.location
+0	9	327	1794	1796	S	326	's	's	's	POS	O	possessive	O	-1	O
+0	9	328	1797	1804	S	329	complex	complex	complex	NN	O	nsubj	O	-1	B-noun.cognition
+0	9	329	1805	1811		325	social	social	social	JJ	O	xcomp	O	-1	O
+0	9	330	1811	1812	S	329	,	,	,	,	O	punct	O	-1	O
+0	9	331	1813	1822		329	political	political	political	JJ	O	conj	O	-1	O
+0	9	332	1822	1823	S	314	,	,	,	,	O	punct	O	-1	O
+0	9	333	1824	1827	S	314	and	and	and	CC	O	cc	O	-1	O
+0	9	334	1828	1836	S	335	economic	economic	economic	JJ	O	amod	O	-1	O
+0	9	335	1837	1845	S	314	problems	problems	problem	NNS	O	conj	O	-1	B-noun.state
+0	9	336	1846	1850	S	335	than	than	than	IN	O	prep	O	-1	O
+0	9	337	1851	1854	S	339	any	any	any	DT	O	det	O	-1	O
+0	9	338	1855	1860	S	339	other	other	other	JJ	O	amod	O	-1	O
+0	9	339	1861	1868	S	336	measure	measure	measure	NN	O	pobj	O	-1	B-noun.attribute
+0	9	340	1869	1873	S	343	that	that	that	WDT	O	nsubj	O	-1	O
+0	9	341	1874	1877	S	343	has	has	have	VBZ	O	aux	O	-1	O
+0	9	342	1878	1882	S	343	been	been	be	VBN	O	auxpass	O	-1	O
+0	9	343	1883	1891		339	proposed	proposed	propose	VBN	O	rcmod	O	-1	B-verb.communication
+0	9	344	1891	1892	N	314	.	.	.	.	O	punct	O	-1	O

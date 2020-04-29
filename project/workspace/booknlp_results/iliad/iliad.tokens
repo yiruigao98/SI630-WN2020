@@ -1,0 +1,932 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	4	S	1	Nine	Nine	nine	CD	DURATION	num	O	-1	O
+0	0	1	5	10	S	-1	years	years	year	NNS	DURATION	null	O	-1	B-noun.time
+0	0	2	11	16	S	1	after	after	after	IN	O	prep	O	-1	O
+0	0	3	17	20	S	4	the	the	the	DT	O	det	O	-1	O
+0	0	4	21	26	S	2	start	start	start	NN	O	pobj	O	-1	B-noun.event
+0	0	5	27	29	N	4	of	of	of	IN	O	prep	O	-1	O
+0	0	6	30	33	S	8	the	the	the	DT	O	det	O	-1	O
+0	0	7	34	40	S	8	Trojan	Trojan	Trojan	NNP	MISC	nn	O	-1	B-noun.person
+0	0	8	41	44		5	War	War	War	NNP	MISC	pobj	O	-1	O
+0	0	9	44	45	S	8	,	,	,	,	O	punct	O	-1	O
+0	0	10	46	49	S	11	the	the	the	DT	O	dep	O	-1	O
+0	0	11	50	55	S	8	Greek	Greek	greek	JJ	MISC	amod	O	-1	O
+0	0	12	56	57		14	(	-LRB-	-lrb-	-LRB-	O	punct	O	-1	O
+0	0	13	57	58		14	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	0	14	58	65		11	Achaean	Achaean	achaean	NN	O	dep	I-QUOTE	-1	O
+0	0	15	65	66		11	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	0	16	66	67	S	11	)	-RRB-	-rrb-	-RRB-	O	dep	O	-1	O
+0	0	17	68	72	S	18	army	army	army	NN	O	nn	O	-1	B-noun.group
+0	0	18	73	78	S	16	sacks	sacks	sack	NNS	O	dep	O	-1	B-noun.artifact
+0	0	19	79	85		18	Chryse	Chryse	Chryse	NNP	PERSON	dep	O	-1	O
+0	0	20	85	86	N	19	,	,	,	,	O	punct	O	-1	O
+0	0	21	87	88	S	22	a	a	a	DT	O	det	O	-1	O
+0	0	22	89	93	S	19	town	town	town	NN	O	appos	O	-1	B-noun.location
+0	0	23	94	100	S	22	allied	allied	ally	VBN	O	partmod	O	-1	B-verb.social
+0	0	24	101	105	S	23	with	with	with	IN	O	prep	O	-1	O
+0	0	25	106	110		24	Troy	Troy	Troy	NNP	PERSON	pobj	O	-1	O
+0	0	26	110	111	S	1	.	.	.	.	O	punct	O	-1	O
+0	1	27	112	118	S	33	During	During	during	IN	O	prep	O	-1	O
+0	1	28	119	122	S	29	the	the	the	DT	O	det	O	-1	O
+0	1	29	123	129		27	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	1	30	129	130	S	33	,	,	,	,	O	punct	O	-1	O
+0	1	31	131	134	S	32	the	the	the	DT	O	det	O	-1	O
+0	1	32	135	143	S	33	Achaeans	Achaeans	Achaeans	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	1	33	144	151	N	-1	capture	capture	capture	VBP	O	null	O	-1	B-verb.creation
+0	1	34	152	153	S	35	a	a	a	DT	O	det	O	-1	O
+0	1	35	154	158	S	33	pair	pair	pair	NN	O	dobj	O	-1	B-noun.group
+0	1	36	159	161	S	35	of	of	of	IN	O	prep	O	-1	O
+0	1	37	162	171	S	38	beautiful	beautiful	beautiful	JJ	O	amod	O	-1	O
+0	1	38	172	179		36	maidens	maidens	maiden	NNS	O	pobj	O	-1	B-noun.person
+0	1	39	179	180	S	35	,	,	,	,	O	punct	O	-1	O
+0	1	40	181	189	S	35	Chryseis	Chryseis	Chryseis	NNP	O	appos	O	-1	B-noun.person
+0	1	41	190	193	S	40	and	and	and	CC	O	cc	O	-1	O
+0	1	42	194	201		40	Briseis	Briseis	Briseis	NNP	O	conj	O	-1	O
+0	1	43	201	202	S	33	.	.	.	.	O	punct	O	-1	O
+0	2	44	203	212		53	Agamemnon	Agamemnon	Agamemnon	NNP	O	nsubj	O	-1	B-noun.person
+0	2	45	212	213	S	44	,	,	,	,	O	punct	O	-1	O
+0	2	46	214	217	N	47	the	the	the	DT	O	det	O	-1	O
+0	2	47	218	224	S	44	leader	leader	leader	NN	O	appos	O	-1	B-noun.person
+0	2	48	225	227	S	47	of	of	of	IN	O	prep	O	-1	O
+0	2	49	228	231	S	51	the	the	the	DT	O	det	O	-1	O
+0	2	50	232	239	S	51	Achaean	Achaean	achaean	JJ	MISC	amod	O	-1	O
+0	2	51	240	246		48	forces	forces	force	NNS	O	pobj	O	-1	B-noun.group
+0	2	52	246	247	S	44	,	,	,	,	O	punct	O	-1	O
+0	2	53	248	253	S	68	takes	takes	take	VBZ	O	ccomp	O	-1	B-verb.social
+0	2	54	254	262	S	53	Chryseis	Chryseis	Chryseis	NNP	PERSON	dobj	O	2	B-noun.person
+0	2	55	263	265	S	53	as	as	as	IN	O	prep	O	-1	O
+0	2	56	266	269	S	57	his	his	he	PRP$	O	poss	O	-1	O
+0	2	57	270	275		55	prize	prize	prize	NN	O	pobj	O	-1	B-noun.possession
+0	2	58	275	276	S	57	,	,	,	,	O	punct	O	-1	O
+0	2	59	277	280	S	57	and	and	and	CC	O	cc	O	-1	O
+0	2	60	281	289		57	Achilles	Achilles	Achilles	NNP	PERSON	conj	O	4	B-noun.person
+0	2	61	289	290	N	68	,	,	,	,	O	punct	O	-1	O
+0	2	62	291	294	S	63	the	the	the	DT	O	det	O	-1	O
+0	2	63	295	303		66	Achaeans	Achaeans	Achaeans	NNP	MISC	poss	O	-1	B-noun.person
+0	2	64	303	304	S	63	’	'	'	POS	O	possessive	O	-1	O
+0	2	65	305	313	S	66	greatest	greatest	greatest	JJS	O	amod	O	-1	O
+0	2	66	314	321		68	warrior	warrior	warrior	NN	O	nsubj	O	-1	B-noun.person
+0	2	67	321	322	S	66	,	,	,	,	O	punct	O	-1	O
+0	2	68	323	329	S	-1	claims	claims	claim	VBZ	O	null	O	-1	B-verb.communication
+0	2	69	330	337		68	Briseis	Briseis	Briseis	NNP	O	nsubj	O	-1	O
+0	2	70	337	338	S	68	.	.	.	.	O	punct	O	-1	O
+0	3	71	339	347		73	Chryseis	Chryseis	Chryseis	NNP	O	poss	O	-1	B-noun.person
+0	3	72	347	349	S	71	’s	's	's	POS	O	possessive	O	-1	O
+0	3	73	350	356		87	father	father	father	NN	O	nsubj	O	-1	B-noun.person
+0	3	74	356	357	N	73	,	,	,	,	O	punct	O	-1	O
+0	3	75	358	365		73	Chryses	Chryses	Chryses	NNP	PERSON	appos	O	-1	O
+0	3	76	365	366	S	73	,	,	,	,	O	punct	O	-1	O
+0	3	77	367	370	S	78	who	who	who	WP	O	nsubj	O	-1	O
+0	3	78	371	377	S	73	serves	serves	serve	VBZ	O	rcmod	O	-1	B-verb.stative
+0	3	79	378	380	S	78	as	as	as	IN	O	prep	O	-1	O
+0	3	80	381	382	S	81	a	a	a	DT	O	det	O	-1	O
+0	3	81	383	389	S	79	priest	priest	priest	NN	O	pobj	O	-1	B-noun.person
+0	3	82	390	392	S	81	of	of	of	IN	O	prep	O	-1	O
+0	3	83	393	396	S	84	the	the	the	DT	O	det	O	-1	O
+0	3	84	397	400	S	82	god	god	god	NN	O	pobj	O	-1	B-noun.person
+0	3	85	401	407		84	Apollo	Apollo	Apollo	NNP	MISC	dep	O	-1	B-noun.person
+0	3	86	407	408	S	73	,	,	,	,	O	punct	O	-1	O
+0	3	87	409	415	S	-1	offers	offers	offer	VBZ	O	null	O	-1	B-verb.possession
+0	3	88	416	418	S	90	an	an	a	DT	O	det	O	-1	O
+0	3	89	419	427	N	90	enormous	enormous	enormous	JJ	O	amod	O	-1	O
+0	3	90	428	434	S	87	ransom	ransom	ransom	NN	O	dobj	O	-1	B-noun.possession
+0	3	91	435	437	S	90	in	in	in	IN	O	prep	O	-1	O
+0	3	92	438	444	S	91	return	return	return	NN	O	pobj	O	-1	B-noun.communication
+0	3	93	445	448	S	92	for	for	for	IN	O	prep	O	-1	O
+0	3	94	449	452	S	95	his	his	he	PRP$	O	poss	O	-1	O
+0	3	95	453	461		93	daughter	daughter	daughter	NN	O	pobj	O	-1	B-noun.person
+0	3	96	461	462	S	87	,	,	,	,	O	punct	O	-1	O
+0	3	97	463	466	S	87	but	but	but	CC	O	cc	O	-1	O
+0	3	98	467	476	S	99	Agamemnon	Agamemnon	Agamemnon	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	3	99	477	484	S	87	refuses	refuses	refuse	VBZ	O	conj	O	-1	B-verb.communication
+0	3	100	485	487	S	101	to	to	to	TO	O	aux	O	-1	O
+0	3	101	488	492	N	99	give	give	give	VB	O	xcomp	O	-1	B-verb.possession
+0	3	102	493	501	S	101	Chryseis	Chryseis	Chryseis	NNP	PERSON	dobj	O	2	B-noun.person
+0	3	103	502	506		101	back	back	back	RB	O	advmod	O	-1	O
+0	3	104	506	507	S	87	.	.	.	.	O	punct	O	-1	O
+0	4	105	508	515	S	107	Chryses	Chryses	chrys	NNS	O	nsubj	O	-1	O
+0	4	106	516	520	S	107	then	then	then	RB	O	advmod	O	-1	O
+0	4	107	521	526	S	-1	prays	prays	pray	VBZ	O	null	O	-1	B-verb.communication
+0	4	108	527	529	S	107	to	to	to	TO	O	prep	O	-1	O
+0	4	109	530	536		108	Apollo	Apollo	Apollo	NNP	O	pobj	O	-1	B-noun.person
+0	4	110	536	537	S	109	,	,	,	,	O	punct	O	-1	O
+0	4	111	538	541	S	112	who	who	who	WP	O	nsubj	O	-1	O
+0	4	112	542	547	S	109	sends	sends	send	VBZ	O	rcmod	O	-1	B-verb.motion
+0	4	113	548	549	S	114	a	a	a	DT	O	dep	O	-1	O
+0	4	114	550	556	N	112	plague	plague	plague	VB	O	dobj	O	-1	B-verb.weather
+0	4	115	557	561	S	114	upon	upon	upon	IN	O	prep	O	-1	O
+0	4	116	562	565	S	118	the	the	the	DT	O	det	O	-1	O
+0	4	117	566	573	S	118	Achaean	Achaean	Achaean	NNP	MISC	nn	O	-1	B-noun.group
+0	4	118	574	578		115	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	4	119	578	579	S	107	.	.	.	.	O	punct	O	-1	O
+0	5	120	580	585	S	123	After	After	after	IN	O	mark	O	-1	O
+0	5	121	586	590	S	122	many	many	many	JJ	O	amod	O	-1	O
+0	5	122	591	599	S	123	Achaeans	Achaeans	Achaeans	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	5	123	600	603		126	die	die	die	VB	O	advcl	O	-1	B-verb.change
+0	5	124	603	604	S	126	,	,	,	,	O	punct	O	-1	O
+0	5	125	605	614	S	126	Agamemnon	Agamemnon	Agamemnon	NNP	O	nsubj	O	-1	B-noun.person
+0	5	126	615	623	S	-1	consults	consults	consult	VBZ	O	null	O	-1	B-verb.communication
+0	5	127	624	627	S	129	the	the	the	DT	O	det	O	-1	O
+0	5	128	628	635	N	129	prophet	prophet	prophet	NN	O	nn	O	-1	B-noun.person
+0	5	129	636	643	S	126	Calchas	Calchas	calchas	NN	PERSON	dobj	O	-1	I-noun.person
+0	5	130	644	646	S	131	to	to	to	TO	O	aux	O	-1	O
+0	5	131	647	656	S	129	determine	determine	determine	VB	O	infmod	O	-1	B-verb.communication
+0	5	132	657	660	S	133	the	the	the	DT	O	det	O	-1	O
+0	5	133	661	666	S	131	cause	cause	cause	NN	O	dobj	O	-1	B-noun.act
+0	5	134	667	669	S	133	of	of	of	IN	O	prep	O	-1	O
+0	5	135	670	673	S	136	the	the	the	DT	O	det	O	-1	O
+0	5	136	674	680		134	plague	plague	plague	VBP	O	pobj	O	-1	O
+0	5	137	680	681	S	126	.	.	.	.	O	punct	O	-1	O
+0	6	138	682	686	S	140	When	When	when	WRB	O	advmod	O	-1	O
+0	6	139	687	689	S	140	he	he	he	PRP	O	nsubj	O	-1	O
+0	6	140	690	696	S	149	learns	learns	learn	VBZ	O	dep	O	-1	B-verb.cognition
+0	6	141	697	701	N	145	that	that	that	IN	O	complm	O	-1	O
+0	6	142	702	710	S	145	Chryseis	Chryseis	Chryseis	NNP	PERSON	nsubj	O	2	B-noun.person
+0	6	143	711	713	S	145	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	144	714	717	S	145	the	the	the	DT	O	det	O	-1	O
+0	6	145	718	723		140	cause	cause	cause	NN	O	ccomp	O	-1	B-noun.communication
+0	6	146	723	724	S	149	,	,	,	,	O	punct	O	-1	O
+0	6	147	725	727	S	149	he	he	he	PRP	O	nsubj	O	-1	O
+0	6	148	728	739	S	149	reluctantly	reluctantly	reluctantly	RB	O	advmod	O	-1	O
+0	6	149	740	745	S	-1	gives	gives	give	VBZ	O	null	O	-1	B-verb.possession
+0	6	150	746	749	S	149	her	her	she	PRP	O	dobj	O	-1	O
+0	6	151	750	752	S	149	up	up	up	RP	O	prt	O	-1	O
+0	6	152	753	756	S	149	but	but	but	CC	O	cc	O	-1	O
+0	6	153	757	761	S	149	then	then	then	RB	O	advmod	O	-1	O
+0	6	154	762	769	N	149	demands	demands	demand	VBZ	O	dep	O	-1	B-verb.communication
+0	6	155	770	777	S	154	Briseis	Briseis	Briseis	NNP	O	dobj	O	-1	B-noun.person
+0	6	156	778	782	S	154	from	from	from	IN	O	prep	O	-1	O
+0	6	157	783	791	S	156	Achilles	Achilles	Achilles	NNPS	PERSON	pobj	O	4	B-noun.person
+0	6	158	792	794	S	154	as	as	as	IN	O	prep	O	-1	O
+0	6	159	795	807		158	compensation	compensation	compensation	NN	O	pobj	O	-1	B-noun.possession
+0	6	160	807	808	S	149	.	.	.	.	O	punct	O	-1	O
+0	7	161	809	816	S	167	Furious	Furious	furious	JJ	O	ccomp	O	-1	O
+0	7	162	817	819	S	161	at	at	at	IN	O	prep	O	-1	O
+0	7	163	820	824	S	164	this	this	this	DT	O	det	O	-1	O
+0	7	164	825	831		162	insult	insult	insult	NN	O	pobj	O	-1	B-noun.communication
+0	7	165	831	832	S	167	,	,	,	,	O	punct	O	-1	O
+0	7	166	833	841	S	167	Achilles	Achilles	Achilles	NNPS	PERSON	nn	O	4	B-noun.person
+0	7	167	842	849	N	-1	returns	returns	return	NNS	O	null	O	-1	B-noun.communication
+0	7	168	850	852	S	167	to	to	to	TO	O	prep	O	-1	O
+0	7	169	853	856	S	170	his	his	he	PRP$	O	poss	O	4	O
+0	7	170	857	861	S	168	tent	tent	tent	NN	O	pobj	O	-1	B-noun.artifact
+0	7	171	862	864	S	170	in	in	in	IN	O	prep	O	-1	O
+0	7	172	865	868	S	174	the	the	the	DT	O	det	O	-1	O
+0	7	173	869	873	S	174	army	army	army	NN	O	nn	O	-1	B-noun.group
+0	7	174	874	878	S	171	camp	camp	camp	NN	O	pobj	O	-1	B-noun.group
+0	7	175	879	882	S	167	and	and	and	CC	O	cc	O	-1	O
+0	7	176	883	890	S	167	refuses	refuses	refuse	VBZ	O	conj	O	-1	B-verb.communication
+0	7	177	891	893	S	178	to	to	to	TO	O	aux	O	-1	O
+0	7	178	894	899	S	176	fight	fight	fight	VB	O	xcomp	O	-1	B-verb.competition
+0	7	179	900	902	S	178	in	in	in	IN	O	prep	O	-1	O
+0	7	180	903	906	S	181	the	the	the	DT	O	det	O	-1	O
+0	7	181	907	910	S	179	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	7	182	911	914	N	178	any	any	any	RB	O	advmod	O	-1	O
+0	7	183	915	921		182	longer	longer	longer	RBR	O	advmod	O	-1	O
+0	7	184	921	922	S	167	.	.	.	.	O	punct	O	-1	O
+0	8	185	923	925	S	187	He	He	he	PRP	O	nsubj	O	4	O
+0	8	186	926	936	S	187	vengefully	vengefully	vengefully	RB	O	advmod	O	-1	O
+0	8	187	937	943	S	-1	yearns	yearns	yearn	VBZ	O	null	O	-1	B-verb.emotion
+0	8	188	944	946	S	189	to	to	to	TO	O	aux	O	-1	O
+0	8	189	947	950	S	187	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	8	190	951	954	S	191	the	the	the	DT	O	det	O	-1	O
+0	8	191	955	963	S	189	Achaeans	Achaeans	Achaeans	NNPS	MISC	dobj	O	-1	B-noun.person
+0	8	192	964	973	S	189	destroyed	destroyed	destroy	VBD	O	dep	O	-1	B-verb.contact
+0	8	193	974	977	S	187	and	and	and	CC	O	cc	O	-1	O
+0	8	194	978	982	N	187	asks	asks	ask	VBZ	O	conj	O	-1	B-verb.communication
+0	8	195	983	986	S	196	his	his	he	PRP$	O	poss	O	4	O
+0	8	196	987	993		194	mother	mother	mother	NN	O	dobj	O	-1	B-noun.person
+0	8	197	993	994	S	187	,	,	,	,	O	punct	O	-1	O
+0	8	198	995	998	S	200	the	the	the	DT	O	det	O	-1	O
+0	8	199	999	1008	S	200	sea-nymph	sea-nymph	sea-nymph	JJ	O	amod	O	-1	O
+0	8	200	1009	1015		187	Thetis	Thetis	Thetis	NNP	O	appos	O	-1	B-noun.person
+0	8	201	1015	1016	S	200	,	,	,	,	O	punct	O	-1	O
+0	8	202	1017	1019	S	203	to	to	to	TO	O	aux	O	-1	O
+0	8	203	1020	1026	S	200	enlist	enlist	enlist	VB	O	infmod	O	-1	B-verb.competition
+0	8	204	1027	1030	S	205	the	the	the	DT	O	det	O	-1	O
+0	8	205	1031	1039	S	203	services	services	service	NNS	O	dobj	O	-1	B-noun.act
+0	8	206	1040	1042	S	205	of	of	of	IN	O	prep	O	-1	O
+0	8	207	1043	1047		206	Zeus	Zeus	Zeus	NNP	O	pobj	O	-1	B-noun.person
+0	8	208	1047	1048	S	207	,	,	,	,	O	punct	O	-1	O
+0	8	209	1049	1053	N	207	king	king	king	NN	O	appos	O	-1	B-noun.person
+0	8	210	1054	1056	S	209	of	of	of	IN	O	prep	O	-1	O
+0	8	211	1057	1060	S	212	the	the	the	DT	O	det	O	-1	O
+0	8	212	1061	1065		210	gods	gods	god	NNS	O	pobj	O	-1	B-noun.person
+0	8	213	1065	1066	S	203	,	,	,	,	O	punct	O	-1	O
+0	8	214	1067	1073	S	203	toward	toward	toward	IN	O	prep	O	-1	O
+0	8	215	1074	1078	S	216	this	this	this	DT	O	det	O	-1	O
+0	8	216	1079	1082		214	end	end	end	NN	O	pobj	O	-1	B-noun.event
+0	8	217	1082	1083	S	187	.	.	.	.	O	punct	O	-1	O
+0	9	218	1084	1087	S	219	The	The	the	DT	O	det	O	-1	O
+0	9	219	1088	1094	S	224	Trojan	Trojan	Trojan	NNP	O	nsubj	O	-1	B-noun.person
+0	9	220	1095	1098	S	219	and	and	and	CC	O	cc	O	-1	O
+0	9	221	1099	1106	S	222	Achaean	Achaean	Achaean	NNP	MISC	nn	O	-1	B-noun.person
+0	9	222	1107	1112	S	219	sides	sides	side	NNS	O	conj	O	-1	B-noun.group
+0	9	223	1113	1117	N	224	have	have	have	VBP	O	aux	O	-1	O
+0	9	224	1118	1126	S	-1	declared	declared	declare	VBN	O	null	O	-1	B-verb.communication
+0	9	225	1127	1128	S	226	a	a	a	DT	O	det	O	-1	O
+0	9	226	1129	1139	S	224	cease-fire	cease-fire	cease-fire	NN	O	dobj	O	-1	B-noun.state
+0	9	227	1140	1144	S	226	with	with	with	IN	O	prep	O	-1	O
+0	9	228	1145	1149	S	229	each	each	each	DT	O	det	O	-1	O
+0	9	229	1150	1155		227	other	other	other	JJ	O	pobj	O	-1	O
+0	9	230	1155	1156	S	224	,	,	,	,	O	punct	O	-1	O
+0	9	231	1157	1160	S	224	but	but	but	CC	O	cc	O	-1	O
+0	9	232	1161	1164	S	235	now	now	now	RB	DATE	advmod	O	-1	O
+0	9	233	1165	1168	S	234	the	the	the	DT	O	det	O	-1	O
+0	9	234	1169	1176	S	235	Trojans	Trojans	Trojans	NNPS	ORGANIZATION	nsubj	O	0	B-noun.person
+0	9	235	1177	1183	N	224	breach	breach	breach	VBP	O	conj	O	-1	B-verb.social
+0	9	236	1184	1187	S	237	the	the	the	DT	O	det	O	-1	O
+0	9	237	1188	1194	S	240	treaty	treaty	treaty	NN	O	nsubj	O	-1	B-noun.communication
+0	9	238	1195	1198	S	237	and	and	and	CC	O	cc	O	-1	O
+0	9	239	1199	1203	S	237	Zeus	Zeus	zeus	NN	O	conj	O	-1	B-noun.person
+0	9	240	1204	1209	S	235	comes	comes	come	VBZ	O	ccomp	O	-1	B-verb.motion
+0	9	241	1210	1212	S	240	to	to	to	TO	O	prep	O	-1	O
+0	9	242	1213	1218	S	243	their	their	they	PRP$	O	poss	O	-1	O
+0	9	243	1219	1222		241	aid	aid	aid	NN	O	pobj	O	-1	B-noun.attribute
+0	9	244	1222	1223	S	224	.	.	.	.	O	punct	O	-1	O
+0	10	245	1224	1228	S	258	With	With	with	IN	O	prep	O	-1	O
+0	10	246	1229	1233	S	245	Zeus	Zeus	Zeus	NNP	O	pobj	O	-1	B-noun.person
+0	10	247	1234	1244	S	258	supporting	supporting	support	VBG	O	dep	O	-1	B-verb.social
+0	10	248	1245	1248	S	249	the	the	the	DT	O	det	O	-1	O
+0	10	249	1249	1256	S	247	Trojans	Trojans	Trojans	NNPS	O	dobj	O	-1	B-noun.person
+0	10	250	1257	1260	S	249	and	and	and	CC	O	cc	O	-1	O
+0	10	251	1261	1269	S	252	Achilles	Achilles	Achilles	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	10	252	1270	1278	N	249	refusing	refusing	refuse	VBG	O	conj	O	-1	B-verb.communication
+0	10	253	1279	1281	S	254	to	to	to	TO	O	aux	O	-1	O
+0	10	254	1282	1287		252	fight	fight	fight	VB	O	xcomp	O	-1	B-verb.competition
+0	10	255	1287	1288	S	258	,	,	,	,	O	punct	O	-1	O
+0	10	256	1289	1292	S	257	the	the	the	DT	O	det	O	-1	O
+0	10	257	1293	1301	S	258	Achaeans	Achaeans	Achaeans	NNP	MISC	nsubj	O	-1	B-noun.person
+0	10	258	1302	1308	S	-1	suffer	suffer	suffer	VBP	O	null	O	-1	B-verb.body
+0	10	259	1309	1314	S	260	great	great	great	JJ	O	amod	O	-1	O
+0	10	260	1315	1321		258	losses	losses	loss	NNS	O	dobj	O	-1	B-noun.possession
+0	10	261	1321	1322	S	258	.	.	.	.	O	punct	O	-1	O
+0	11	262	1323	1330	S	263	Several	Several	several	JJ	DURATION	amod	O	-1	O
+0	11	263	1331	1335	S	267	days	days	day	NNS	DURATION	nsubj	O	-1	B-noun.time
+0	11	264	1336	1338	S	263	of	of	of	IN	O	prep	O	-1	O
+0	11	265	1339	1345	N	266	fierce	fierce	fierce	JJ	O	amod	O	-1	O
+0	11	266	1346	1354	S	264	conflict	conflict	conflict	NN	O	pobj	O	-1	B-noun.act
+0	11	267	1355	1360		-1	ensue	ensue	ensue	VBP	O	null	O	-1	B-verb.stative
+0	11	268	1360	1361	S	267	,	,	,	,	O	punct	O	-1	O
+0	11	269	1362	1371	S	267	including	including	include	VBG	O	prep	O	-1	B-verb.stative
+0	11	270	1372	1377	S	269	duels	duels	duel	NNS	O	pobj	O	-1	B-noun.act
+0	11	271	1378	1385	S	270	between	between	between	IN	O	prep	O	-1	O
+0	11	272	1386	1391	S	271	Paris	Paris	Paris	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	11	273	1392	1395	S	272	and	and	and	CC	O	cc	O	-1	O
+0	11	274	1396	1404	S	272	Menelaus	Menelaus	Menelaus	NNP	PERSON	conj	O	6	B-noun.person
+0	11	275	1405	1408	S	271	and	and	and	CC	O	cc	O	-1	O
+0	11	276	1409	1416	N	271	between	between	between	IN	O	conj	O	-1	O
+0	11	277	1417	1423	S	276	Hector	Hector	Hector	NNP	PERSON	pobj	O	1	B-noun.person
+0	11	278	1424	1427	S	277	and	and	and	CC	O	cc	O	-1	O
+0	11	279	1428	1432		277	Ajax	Ajax	Ajax	NNP	ORGANIZATION	conj	O	-1	B-noun.person
+0	11	280	1432	1433	S	267	.	.	.	.	O	punct	O	-1	O
+0	12	281	1434	1437	S	282	The	The	the	DT	O	det	O	-1	O
+0	12	282	1438	1446	S	283	Achaeans	Achaeans	Achaeans	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	12	283	1447	1451	S	-1	make	make	make	VBP	O	null	O	-1	B-verb.social
+0	12	284	1452	1454	S	285	no	no	no	DT	O	det	O	-1	O
+0	12	285	1455	1463		283	progress	progress	progress	NN	O	dobj	O	-1	B-noun.act
+0	12	286	1463	1464	S	283	;	;	;	:	O	punct	O	-1	O
+0	12	287	1465	1469	S	289	even	even	even	RB	O	advmod	O	-1	O
+0	12	288	1470	1473	S	289	the	the	the	DT	O	det	O	-1	O
+0	12	289	1474	1481	N	283	heroism	heroism	heroism	NN	O	parataxis	O	-1	B-noun.attribute
+0	12	290	1482	1484	S	289	of	of	of	IN	O	prep	O	-1	O
+0	12	291	1485	1488	S	294	the	the	the	DT	O	det	O	-1	O
+0	12	292	1489	1494	S	294	great	great	great	JJ	O	amod	O	-1	O
+0	12	293	1495	1502	S	294	Achaean	Achaean	achaean	JJ	MISC	amod	O	-1	O
+0	12	294	1503	1510	S	290	warrior	warrior	warrior	NN	O	pobj	O	-1	B-noun.person
+0	12	295	1511	1519	S	296	Diomedes	Diomedes	Diomedes	NNP	PERSON	nsubj	O	5	B-noun.person
+0	12	296	1520	1526	S	294	proves	proves	prove	VBZ	O	rcmod	O	-1	B-verb.stative
+0	12	297	1527	1536		296	fruitless	fruitless	fruitless	JJ	O	dobj	O	-1	O
+0	12	298	1536	1537	S	283	.	.	.	.	O	punct	O	-1	O
+0	13	299	1538	1541	S	300	The	The	the	DT	O	det	O	-1	O
+0	13	300	1542	1549	N	301	Trojans	Trojans	Trojans	NNPS	O	nsubj	O	-1	B-noun.person
+0	13	301	1550	1554	S	-1	push	push	push	VBP	O	null	O	-1	B-verb.motion
+0	13	302	1555	1558	S	303	the	the	the	DT	O	det	O	-1	O
+0	13	303	1559	1567	S	301	Achaeans	Achaeans	Achaeans	NNPS	MISC	dobj	O	-1	B-noun.person
+0	13	304	1568	1572		301	back	back	back	RB	O	advmod	O	-1	O
+0	13	305	1572	1573	S	301	,	,	,	,	O	punct	O	-1	O
+0	13	306	1574	1581	S	301	forcing	forcing	force	VBG	O	xcomp	O	-1	B-verb.social
+0	13	307	1582	1586	S	309	them	them	they	PRP	O	nsubj	O	-1	O
+0	13	308	1587	1589	S	309	to	to	to	TO	O	aux	O	-1	O
+0	13	309	1590	1594	S	306	take	take	take	VB	O	xcomp	O	-1	B-verb.possession
+0	13	310	1595	1601	S	309	refuge	refuge	refuge	NN	O	dobj	O	-1	B-noun.act
+0	13	311	1602	1608	S	309	behind	behind	behind	IN	O	prep	O	-1	O
+0	13	312	1609	1612	S	313	the	the	the	DT	O	det	O	-1	O
+0	13	313	1613	1621	S	311	ramparts	ramparts	rampart	NNS	O	pobj	O	-1	B-noun.artifact
+0	13	314	1622	1626	N	315	that	that	that	WDT	O	nsubj	O	-1	O
+0	13	315	1627	1634	S	313	protect	protect	protect	VBP	O	rcmod	O	-1	B-verb.competition
+0	13	316	1635	1640	S	317	their	their	they	PRP$	O	poss	O	-1	O
+0	13	317	1641	1646		315	ships	ships	ship	NNS	O	dobj	O	-1	B-noun.artifact
+0	13	318	1646	1647	S	301	.	.	.	.	O	punct	O	-1	O
+0	14	319	1648	1651	S	320	The	The	the	DT	O	det	O	-1	O
+0	14	320	1652	1660	S	321	Achaeans	Achaeans	Achaeans	NNP	MISC	nsubj	O	-1	B-noun.person
+0	14	321	1661	1666	S	-1	begin	begin	begin	VB	O	null	O	-1	B-verb.change
+0	14	322	1667	1669	S	323	to	to	to	TO	O	aux	O	-1	O
+0	14	323	1670	1677	S	321	nurture	nurture	nurture	VB	O	xcomp	O	-1	B-verb.communication
+0	14	324	1678	1682	S	325	some	some	some	DT	O	det	O	-1	O
+0	14	325	1683	1687	S	323	hope	hope	hope	NN	O	dobj	O	-1	B-noun.feeling
+0	14	326	1688	1691	N	323	for	for	for	IN	O	prep	O	-1	O
+0	14	327	1692	1695	S	328	the	the	the	DT	DATE	det	O	-1	O
+0	14	328	1696	1702	S	326	future	future	future	NN	DATE	pobj	O	-1	B-noun.time
+0	14	329	1703	1707	S	323	when	when	when	WRB	O	dep	O	-1	O
+0	14	330	1708	1709	S	333	a	a	a	DT	O	det	O	-1	O
+0	14	331	1710	1719	S	333	nighttime	nighttime	nighttime	JJ	TIME	amod	O	-1	O
+0	14	332	1720	1734	S	333	reconnaissance	reconnaissance	reconnaissance	NN	O	nn	O	-1	B-noun.act
+0	14	333	1735	1742	S	329	mission	mission	mission	NN	O	dep	O	-1	I-noun.act
+0	14	334	1743	1745	S	333	by	by	by	IN	O	prep	O	-1	O
+0	14	335	1746	1754	S	334	Diomedes	Diomedes	Diomedes	NNPS	PERSON	pobj	O	5	B-noun.person
+0	14	336	1755	1758	N	335	and	and	and	CC	O	cc	O	-1	O
+0	14	337	1759	1767	S	338	Odysseus	Odysseus	Odysseus	NNP	PERSON	nn	O	-1	B-noun.person
+0	14	338	1768	1774	S	335	yields	yields	yield	NNS	O	conj	O	-1	B-noun.act
+0	14	339	1775	1786	S	350	information	information	information	NN	O	nsubj	O	-1	B-noun.communication
+0	14	340	1787	1792	S	339	about	about	about	IN	O	prep	O	-1	O
+0	14	341	1793	1796	S	342	the	the	the	DT	O	det	O	-1	O
+0	14	342	1797	1804		344	Trojans	Trojans	Trojans	NNPS	ORGANIZATION	poss	O	0	B-noun.person
+0	14	343	1804	1805	S	342	’	'	'	POS	O	possessive	O	-1	O
+0	14	344	1806	1811		340	plans	plans	plan	NNS	O	pobj	O	-1	B-noun.cognition
+0	14	345	1811	1812	S	339	,	,	,	,	O	punct	O	-1	O
+0	14	346	1813	1816	S	339	but	but	but	CC	O	cc	O	-1	O
+0	14	347	1817	1820	S	349	the	the	the	DT	DATE	det	O	-1	O
+0	14	348	1821	1825	N	349	next	next	next	JJ	DATE	amod	O	-1	O
+0	14	349	1826	1829	S	339	day	day	day	NN	DATE	conj	O	-1	B-noun.time
+0	14	350	1830	1836	S	338	brings	brings	bring	VBZ	O	rcmod	O	-1	B-verb.motion
+0	14	351	1837	1845		350	disaster	disaster	disaster	NN	O	dobj	O	-1	B-noun.state
+0	14	352	1845	1846	S	321	.	.	.	.	O	punct	O	-1	O
+0	15	353	1847	1854	S	355	Several	Several	several	JJ	O	amod	O	-1	O
+0	15	354	1855	1862	S	355	Achaean	Achaean	achaean	NN	MISC	nn	O	-1	B-noun.person
+0	15	355	1863	1873	S	357	commanders	commanders	commander	NNS	O	nsubjpass	O	-1	B-noun.person
+0	15	356	1874	1880	S	357	become	become	become	VBP	O	auxpass	O	-1	B-verb.change
+0	15	357	1881	1888		-1	wounded	wounded	wound	VBN	O	null	O	-1	B-verb.body
+0	15	358	1888	1889	N	357	,	,	,	,	O	punct	O	-1	O
+0	15	359	1890	1893	S	357	and	and	and	CC	O	cc	O	-1	O
+0	15	360	1894	1897	S	362	the	the	the	DT	O	det	O	-1	O
+0	15	361	1898	1905	S	362	Trojans	Trojans	Trojans	NNPS	ORGANIZATION	nn	O	0	B-noun.person
+0	15	362	1906	1911	S	357	break	break	break	NN	O	conj	O	-1	B-noun.event
+0	15	363	1912	1919	S	362	through	through	through	IN	O	prep	O	-1	O
+0	15	364	1920	1923	S	366	the	the	the	DT	O	det	O	-1	O
+0	15	365	1924	1931	S	366	Achaean	Achaean	Achaean	NNP	MISC	nn	O	-1	B-noun.group
+0	15	366	1932	1940		363	ramparts	ramparts	rampart	NNS	O	pobj	O	-1	B-noun.artifact
+0	15	367	1940	1941	S	357	.	.	.	.	O	punct	O	-1	O
+0	16	368	1942	1946	S	369	They	They	they	PRP	O	nsubj	O	-1	O
+0	16	369	1947	1954	N	-1	advance	advance	advance	VBP	O	null	O	-1	B-verb.motion
+0	16	370	1955	1958	S	372	all	all	all	PDT	O	predet	O	-1	O
+0	16	371	1959	1962	S	372	the	the	the	DT	O	det	O	-1	O
+0	16	372	1963	1966	S	369	way	way	way	NN	O	dobj	O	-1	B-noun.attribute
+0	16	373	1967	1969	S	369	up	up	up	IN	O	prep	O	-1	O
+0	16	374	1970	1972	S	373	to	to	to	TO	O	dep	O	-1	O
+0	16	375	1973	1976	S	376	the	the	the	DT	O	det	O	-1	O
+0	16	376	1977	1985	S	374	boundary	boundary	boundary	NN	O	pobj	O	-1	B-noun.location
+0	16	377	1986	1988	S	376	of	of	of	IN	O	prep	O	-1	O
+0	16	378	1989	1992	S	380	the	the	the	DT	O	det	O	-1	O
+0	16	379	1993	2000	S	380	Achaean	Achaean	Achaean	NNP	MISC	nn	O	-1	B-noun.group
+0	16	380	2001	2005	S	377	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	16	381	2006	2009	S	369	and	and	and	CC	O	cc	O	-1	O
+0	16	382	2010	2013	S	383	set	set	set	VBN	O	amod	O	-1	B-verb.contact
+0	16	383	2014	2018	N	369	fire	fire	fire	NN	O	conj	O	-1	B-noun.act
+0	16	384	2019	2021	S	383	to	to	to	TO	O	prep	O	-1	O
+0	16	385	2022	2025	S	384	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	16	386	2026	2028	S	385	of	of	of	IN	O	prep	O	-1	O
+0	16	387	2029	2032	S	388	the	the	the	DT	O	det	O	-1	O
+0	16	388	2033	2038		386	ships	ships	ship	NNS	O	pobj	O	-1	B-noun.artifact
+0	16	389	2038	2039	S	369	.	.	.	.	O	punct	O	-1	O
+0	17	390	2040	2046	S	392	Defeat	Defeat	defeat	NN	O	nsubj	O	-1	B-noun.event
+0	17	391	2047	2052	S	392	seems	seems	seem	VBZ	O	cop	O	-1	B-verb.perception
+0	17	392	2053	2061		-1	imminent	imminent	imminent	JJ	O	null	O	-1	O
+0	17	393	2061	2062	S	392	,	,	,	,	O	punct	O	-1	O
+0	17	394	2063	2070	S	395	because	because	because	IN	O	dep	O	-1	O
+0	17	395	2071	2078	S	403	without	without	without	IN	O	prep	O	-1	O
+0	17	396	2079	2082	N	397	the	the	the	DT	O	det	O	-1	O
+0	17	397	2083	2088		395	ships	ships	ship	NNS	O	pobj	O	-1	B-noun.artifact
+0	17	398	2088	2089	S	403	,	,	,	,	O	punct	O	-1	O
+0	17	399	2090	2093	S	400	the	the	the	DT	O	det	O	-1	O
+0	17	400	2094	2098	S	403	army	army	army	NN	O	nsubjpass	O	-1	B-noun.group
+0	17	401	2099	2103	S	403	will	will	will	MD	O	aux	O	-1	O
+0	17	402	2104	2106	S	403	be	be	be	VB	O	auxpass	O	-1	O
+0	17	403	2107	2115	S	392	stranded	stranded	strand	VBN	O	ccomp	O	-1	B-verb.possession
+0	17	404	2116	2118	S	403	at	at	at	IN	O	prep	O	-1	O
+0	17	405	2119	2123	S	404	Troy	Troy	Troy	NNP	O	pobj	O	-1	B-noun.location
+0	17	406	2124	2127	S	403	and	and	and	CC	O	cc	O	-1	O
+0	17	407	2128	2134	S	408	almost	almost	almost	RB	O	advmod	O	-1	O
+0	17	408	2135	2144	S	409	certainly	certainly	certainly	RB	O	advmod	O	-1	O
+0	17	409	2145	2154		403	destroyed	destroyed	destroy	VBN	O	conj	O	-1	B-verb.creation
+0	17	410	2154	2155	S	392	.	.	.	.	O	punct	O	-1	O
+0	18	411	2156	2165	S	425	Concerned	Concerned	concerned	JJ	O	ccomp	O	-1	O
+0	18	412	2166	2169	S	411	for	for	for	IN	O	prep	O	-1	O
+0	18	413	2170	2173	S	414	his	his	he	PRP$	O	poss	O	-1	O
+0	18	414	2174	2182	S	412	comrades	comrades	comrade	NNS	O	pobj	O	-1	B-noun.person
+0	18	415	2183	2186	S	411	but	but	but	CC	O	cc	O	-1	O
+0	18	416	2187	2192	S	418	still	still	still	RB	O	advmod	O	-1	O
+0	18	417	2193	2196	S	418	too	too	too	RB	O	advmod	O	-1	O
+0	18	418	2197	2202	S	411	proud	proud	proud	JJ	O	conj	O	-1	O
+0	18	419	2203	2205	S	420	to	to	to	TO	O	aux	O	-1	O
+0	18	420	2206	2210	N	411	help	help	help	VB	O	xcomp	O	-1	B-verb.social
+0	18	421	2211	2215	S	420	them	them	they	PRP	O	dobj	O	-1	O
+0	18	422	2216	2223		420	himself	himself	himself	PRP	O	dep	O	-1	O
+0	18	423	2223	2224	S	425	,	,	,	,	O	punct	O	-1	O
+0	18	424	2225	2233	S	425	Achilles	Achilles	Achilles	NNPS	PERSON	nsubj	O	4	B-noun.person
+0	18	425	2234	2240	S	-1	agrees	agrees	agree	VBZ	O	null	O	-1	B-verb.communication
+0	18	426	2241	2243	S	425	to	to	to	TO	O	prep	O	-1	O
+0	18	427	2244	2245	S	428	a	a	a	DT	O	det	O	-1	O
+0	18	428	2246	2250	S	426	plan	plan	plan	NN	O	pobj	O	-1	B-noun.cognition
+0	18	429	2251	2259	S	428	proposed	proposed	propose	VBN	O	partmod	O	-1	B-verb.communication
+0	18	430	2260	2262	S	429	by	by	by	IN	O	prep	O	-1	O
+0	18	431	2263	2269	S	430	Nestor	Nestor	Nestor	NNP	PERSON	pobj	O	-1	B-noun.person
+0	18	432	2270	2274	N	434	that	that	that	WDT	O	nsubj	O	-1	O
+0	18	433	2275	2279	S	434	will	will	will	MD	O	aux	O	-1	O
+0	18	434	2280	2285	S	428	allow	allow	allow	VB	O	rcmod	O	-1	B-verb.social
+0	18	435	2286	2289	S	438	his	his	he	PRP$	O	poss	O	4	O
+0	18	436	2290	2297	S	438	beloved	beloved	beloved	JJ	O	amod	O	-1	O
+0	18	437	2298	2304	S	438	friend	friend	friend	NN	O	nn	O	-1	B-noun.person
+0	18	438	2305	2314	S	440	Patroclus	Patroclus	patroclus	NN	O	nsubj	O	-1	B-noun.person
+0	18	439	2315	2317	S	440	to	to	to	TO	O	aux	O	-1	O
+0	18	440	2318	2322	S	434	take	take	take	VB	O	xcomp	O	-1	B-verb.motion
+0	18	441	2323	2326	S	442	his	his	he	PRP$	O	poss	O	4	O
+0	18	442	2327	2332	S	440	place	place	place	NN	O	dobj	O	-1	B-noun.location
+0	18	443	2333	2335	S	440	in	in	in	IN	O	prep	O	-1	O
+0	18	444	2336	2342		443	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	18	445	2342	2343	N	425	,	,	,	,	O	punct	O	-1	O
+0	18	446	2344	2351	S	425	wearing	wearing	wear	VBG	O	xcomp	O	-1	B-verb.body
+0	18	447	2352	2355	S	448	his	his	he	PRP$	O	poss	O	4	O
+0	18	448	2356	2361		446	armor	armor	armor	NN	O	dobj	O	-1	B-noun.artifact
+0	18	449	2361	2362	S	425	.	.	.	.	O	punct	O	-1	O
+0	19	450	2363	2372	S	454	Patroclus	Patroclus	patroclus	NN	O	nsubj	O	-1	B-noun.person
+0	19	451	2373	2375	S	454	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	19	452	2376	2377	S	454	a	a	a	DT	O	det	O	-1	O
+0	19	453	2378	2382	S	454	fine	fine	fine	JJ	O	amod	O	-1	O
+0	19	454	2383	2390		462	warrior	warrior	warrior	NN	O	nsubj	O	-1	B-noun.person
+0	19	455	2390	2391	S	454	,	,	,	,	O	punct	O	-1	O
+0	19	456	2392	2395	S	454	and	and	and	CC	O	cc	O	-1	O
+0	19	457	2396	2399	S	458	his	his	he	PRP$	O	poss	O	-1	O
+0	19	458	2400	2408	N	454	presence	presence	presence	NN	O	conj	O	-1	B-noun.state
+0	19	459	2409	2411	S	458	on	on	on	IN	O	prep	O	-1	O
+0	19	460	2412	2415	S	461	the	the	the	DT	O	det	O	-1	O
+0	19	461	2416	2427	S	459	battlefield	battlefield	battlefield	NN	O	pobj	O	-1	B-noun.location
+0	19	462	2428	2433	S	-1	helps	helps	help	VBZ	O	null	O	-1	B-verb.social
+0	19	463	2434	2437	S	464	the	the	the	DT	O	det	O	-1	O
+0	19	464	2438	2446	S	465	Achaeans	Achaeans	Achaeans	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	19	465	2447	2451	S	462	push	push	push	VBP	O	ccomp	O	-1	B-verb.motion
+0	19	466	2452	2455	S	467	the	the	the	DT	O	det	O	-1	O
+0	19	467	2456	2463	S	465	Trojans	Trojans	Trojans	NNPS	ORGANIZATION	dobj	O	0	B-noun.person
+0	19	468	2464	2468	S	465	away	away	away	RB	O	advmod	O	-1	O
+0	19	469	2469	2473	N	468	from	from	from	IN	O	dep	O	-1	O
+0	19	470	2474	2477	S	471	the	the	the	DT	O	det	O	-1	O
+0	19	471	2478	2483	S	469	ships	ships	ship	NNS	O	pobj	O	-1	B-noun.artifact
+0	19	472	2484	2487	S	465	and	and	and	CC	O	cc	O	-1	O
+0	19	473	2488	2492	S	465	back	back	back	RB	O	advmod	O	-1	O
+0	19	474	2493	2495	S	473	to	to	to	TO	O	dep	O	-1	O
+0	19	475	2496	2499	S	477	the	the	the	DT	O	det	O	-1	O
+0	19	476	2500	2504	S	477	city	city	city	NN	O	nn	O	-1	B-noun.location
+0	19	477	2505	2510		474	walls	walls	wall	NNS	O	pobj	O	-1	B-noun.artifact
+0	19	478	2510	2511	S	462	.	.	.	.	O	punct	O	-1	O
+0	20	479	2512	2515	S	483	But	But	but	CC	O	cc	O	-1	O
+0	20	480	2516	2519	S	481	the	the	the	DT	O	det	O	-1	O
+0	20	481	2520	2533	S	483	counterattack	counterattack	counterattack	NN	O	nsubj	O	-1	B-noun.act
+0	20	482	2534	2538	N	483	soon	soon	soon	RB	O	advmod	O	-1	O
+0	20	483	2539	2546		-1	falters	falters	falter	VBZ	O	null	O	-1	B-verb.stative
+0	20	484	2546	2547	S	483	.	.	.	.	O	punct	O	-1	O
+0	21	485	2548	2554	S	486	Apollo	Apollo	Apollo	NNP	O	nsubj	O	-1	B-noun.person
+0	21	486	2555	2561	S	-1	knocks	knocks	knock	VBZ	O	null	O	-1	B-verb.contact
+0	21	487	2562	2571		489	Patroclus	Patroclus	patroclus	NN	O	poss	O	-1	B-noun.person
+0	21	488	2571	2573	S	487	’s	's	's	POS	O	possessive	O	-1	O
+0	21	489	2574	2579	S	486	armor	armor	armor	NN	O	dobj	O	-1	B-noun.artifact
+0	21	490	2580	2582	S	486	to	to	to	TO	O	prep	O	-1	O
+0	21	491	2583	2586	S	492	the	the	the	DT	O	det	O	-1	O
+0	21	492	2587	2593		490	ground	ground	ground	NN	O	pobj	O	-1	B-noun.object
+0	21	493	2593	2594	S	486	,	,	,	,	O	punct	O	-1	O
+0	21	494	2595	2598	S	486	and	and	and	CC	O	cc	O	-1	O
+0	21	495	2599	2605	N	496	Hector	Hector	Hector	NNP	PERSON	nsubj	O	1	B-noun.person
+0	21	496	2606	2611	S	486	slays	slays	slay	VBZ	O	conj	O	-1	B-verb.social
+0	21	497	2612	2615		496	him	him	he	PRP	O	dobj	O	1	O
+0	21	498	2615	2616	S	486	.	.	.	.	O	punct	O	-1	O
+0	22	499	2617	2625	S	501	Fighting	Fighting	fighting	NN	O	nsubj	O	-1	B-noun.act
+0	22	500	2626	2630	S	501	then	then	then	RB	O	advmod	O	-1	O
+0	22	501	2631	2637	S	-1	breaks	breaks	break	VBZ	O	null	O	-1	B-verb.change
+0	22	502	2638	2641	S	501	out	out	out	RP	O	prt	O	-1	O
+0	22	503	2642	2644	S	506	as	as	as	IN	O	mark	O	-1	O
+0	22	504	2645	2649	S	505	both	both	both	DT	O	det	O	-1	O
+0	22	505	2650	2655	S	506	sides	sides	side	NNS	O	nsubj	O	-1	B-noun.group
+0	22	506	2656	2659	S	501	try	try	try	VBP	O	advcl	O	-1	B-verb.social
+0	22	507	2660	2662	S	508	to	to	to	TO	O	aux	O	-1	O
+0	22	508	2663	2666	S	506	lay	lay	lay	VB	O	xcomp	O	-1	B-verb.stative
+0	22	509	2667	2672	N	508	claim	claim	claim	NN	O	dobj	O	-1	B-noun.communication
+0	22	510	2673	2675	S	508	to	to	to	TO	O	prep	O	-1	O
+0	22	511	2676	2679	S	512	the	the	the	DT	O	det	O	-1	O
+0	22	512	2680	2684	S	510	body	body	body	NN	O	pobj	O	-1	B-noun.body
+0	22	513	2685	2688	S	512	and	and	and	CC	O	cc	O	-1	O
+0	22	514	2689	2694		512	armor	armor	armor	NN	O	conj	O	-1	B-noun.artifact
+0	22	515	2694	2695	S	501	.	.	.	.	O	punct	O	-1	O
+0	23	516	2696	2702	S	517	Hector	Hector	Hector	NNP	PERSON	nsubj	O	1	B-noun.person
+0	23	517	2703	2707	S	-1	ends	ends	end	VBZ	O	null	O	-1	B-verb.change
+0	23	518	2708	2710	S	517	up	up	up	RP	O	prt	O	-1	O
+0	23	519	2711	2715	S	517	with	with	with	IN	O	prep	O	-1	O
+0	23	520	2716	2719	S	521	the	the	the	DT	O	det	O	-1	O
+0	23	521	2720	2725		519	armor	armor	armor	NN	O	pobj	O	-1	B-noun.artifact
+0	23	522	2725	2726	S	517	,	,	,	,	O	punct	O	-1	O
+0	23	523	2727	2730	S	517	but	but	but	CC	O	cc	O	-1	O
+0	23	524	2731	2734	S	525	the	the	the	DT	O	det	O	-1	O
+0	23	525	2735	2743		527	Achaeans	Achaeans	Achaeans	NNPS	MISC	nsubj	O	-1	B-noun.person
+0	23	526	2743	2744	N	525	,	,	,	,	O	punct	O	-1	O
+0	23	527	2745	2751	S	537	thanks	thanks	thanks	NNS	O	nsubj	O	-1	B-noun.communication
+0	23	528	2752	2754	S	527	to	to	to	TO	O	prep	O	-1	O
+0	23	529	2755	2756	S	531	a	a	a	DT	O	det	O	-1	O
+0	23	530	2757	2767	S	531	courageous	courageous	courageous	JJ	O	amod	O	-1	O
+0	23	531	2768	2774	S	528	effort	effort	effort	NN	O	pobj	O	-1	B-noun.act
+0	23	532	2775	2777	S	531	by	by	by	IN	O	prep	O	-1	O
+0	23	533	2778	2786	S	532	Menelaus	Menelaus	Menelaus	NNP	PERSON	pobj	O	6	B-noun.person
+0	23	534	2787	2790	S	533	and	and	and	CC	O	cc	O	-1	O
+0	23	535	2791	2797		533	others	others	other	NNS	O	conj	O	-1	O
+0	23	536	2797	2798	S	527	,	,	,	,	O	punct	O	-1	O
+0	23	537	2799	2805	S	517	manage	manage	manage	VBP	O	conj	O	-1	B-verb.social
+0	23	538	2806	2808	N	539	to	to	to	TO	O	aux	O	-1	O
+0	23	539	2809	2814	S	537	bring	bring	bring	VB	O	xcomp	O	-1	B-verb.contact
+0	23	540	2815	2818	S	541	the	the	the	DT	O	det	O	-1	O
+0	23	541	2819	2823	S	539	body	body	body	NN	O	dobj	O	-1	B-noun.body
+0	23	542	2824	2828	S	539	back	back	back	RB	O	advmod	O	-1	O
+0	23	543	2829	2831	S	542	to	to	to	TO	O	dep	O	-1	O
+0	23	544	2832	2837	S	545	their	their	they	PRP$	O	poss	O	-1	O
+0	23	545	2838	2842		543	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	23	546	2842	2843	S	517	.	.	.	.	O	punct	O	-1	O
+0	24	547	2844	2848	S	549	When	When	when	WRB	O	advmod	O	-1	O
+0	24	548	2849	2857	S	549	Achilles	Achilles	Achilles	NNPS	PERSON	nsubj	O	4	B-noun.person
+0	24	549	2858	2867	S	557	discovers	discovers	discover	VBZ	O	dep	O	-1	B-verb.cognition
+0	24	550	2868	2872	N	553	that	that	that	IN	O	complm	O	-1	O
+0	24	551	2873	2879	S	553	Hector	Hector	Hector	NNP	PERSON	nsubj	O	1	B-noun.person
+0	24	552	2880	2883	S	553	has	has	have	VBZ	O	aux	O	-1	O
+0	24	553	2884	2890	S	549	killed	killed	kill	VBN	O	ccomp	O	-1	B-verb.contact
+0	24	554	2891	2900		553	Patroclus	Patroclus	patroclus	NN	MISC	dobj	O	-1	B-noun.person
+0	24	555	2900	2901	S	557	,	,	,	,	O	punct	O	-1	O
+0	24	556	2902	2904	S	557	he	he	he	PRP	O	nsubj	O	1	O
+0	24	557	2905	2910	S	-1	fills	fills	fill	VBZ	O	null	O	-1	B-verb.change
+0	24	558	2911	2915	S	557	with	with	with	IN	O	prep	O	-1	O
+0	24	559	2916	2920	S	560	such	such	such	JJ	O	amod	O	-1	O
+0	24	560	2921	2926	S	558	grief	grief	grief	NN	O	pobj	O	-1	B-noun.feeling
+0	24	561	2927	2930	S	560	and	and	and	CC	O	cc	O	-1	O
+0	24	562	2931	2935	S	560	rage	rage	rage	NN	O	conj	O	-1	B-noun.feeling
+0	24	563	2936	2940	N	565	that	that	that	IN	O	rel	O	-1	O
+0	24	564	2941	2943	S	565	he	he	he	PRP	O	nsubj	O	1	O
+0	24	565	2944	2950	S	560	agrees	agrees	agree	VBZ	O	rcmod	O	-1	B-verb.communication
+0	24	566	2951	2953	S	567	to	to	to	TO	O	aux	O	-1	O
+0	24	567	2954	2963	S	565	reconcile	reconcile	reconcile	VB	O	xcomp	O	-1	B-verb.change
+0	24	568	2964	2968	S	567	with	with	with	IN	O	prep	O	-1	O
+0	24	569	2969	2978	S	568	Agamemnon	Agamemnon	Agamemnon	NNP	O	pobj	O	-1	B-noun.person
+0	24	570	2979	2982	S	567	and	and	and	CC	O	cc	O	-1	O
+0	24	571	2983	2989	S	567	rejoin	rejoin	rejoin	VB	O	conj	O	-1	B-verb.social
+0	24	572	2990	2993	S	573	the	the	the	DT	O	det	O	-1	O
+0	24	573	2994	3000		571	battle	battle	battle	NN	O	dobj	O	-1	B-noun.act
+0	24	574	3000	3001	S	557	.	.	.	.	O	punct	O	-1	O
+0	25	575	3002	3008	N	576	Thetis	Thetis	Thetis	NNP	O	nsubj	O	-1	B-noun.person
+0	25	576	3009	3013	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.stative
+0	25	577	3014	3016	S	576	to	to	to	TO	O	prep	O	-1	O
+0	25	578	3017	3022	S	579	Mount	Mount	Mount	NNP	ORGANIZATION	nn	O	-1	B-noun.location
+0	25	579	3023	3030	S	577	Olympus	Olympus	Olympus	NNP	ORGANIZATION	pobj	O	-1	I-noun.location
+0	25	580	3031	3034	S	576	and	and	and	CC	O	cc	O	-1	O
+0	25	581	3035	3044	S	576	persuades	persuades	persuade	VBZ	O	conj	O	-1	B-verb.social
+0	25	582	3045	3048	S	583	the	the	the	DT	O	det	O	-1	O
+0	25	583	3049	3052	S	581	god	god	god	NN	O	dobj	O	-1	B-noun.person
+0	25	584	3053	3063	S	583	Hephaestus	Hephaestus	Hephaestus	NNP	O	dep	O	-1	B-noun.person
+0	25	585	3064	3066	S	586	to	to	to	TO	O	aux	O	-1	O
+0	25	586	3067	3072	N	581	forge	forge	forge	VB	O	xcomp	O	-1	B-verb.creation
+0	25	587	3073	3081	S	586	Achilles	Achilles	Achilles	NNP	PERSON	dobj	O	4	B-noun.person
+0	25	588	3082	3083	S	590	a	a	a	DT	O	det	O	-1	O
+0	25	589	3084	3087	S	590	new	new	new	JJ	O	amod	O	-1	O
+0	25	590	3088	3092	S	587	suit	suit	suit	NN	O	dobj	O	-1	B-noun.artifact
+0	25	591	3093	3095	S	590	of	of	of	IN	O	prep	O	-1	O
+0	25	592	3096	3101		591	armor	armor	armor	NN	O	pobj	O	-1	B-noun.artifact
+0	25	593	3101	3102	S	592	,	,	,	,	O	punct	O	-1	O
+0	25	594	3103	3108	S	596	which	which	which	WDT	O	dobj	O	-1	O
+0	25	595	3109	3112	S	596	she	she	she	PRP	O	nsubj	O	1	O
+0	25	596	3113	3121	S	592	presents	presents	present	VBZ	O	rcmod	O	-1	B-verb.perception
+0	25	597	3122	3124	S	596	to	to	to	TO	O	prep	O	-1	O
+0	25	598	3125	3128	S	597	him	him	he	PRP	O	pobj	O	4	O
+0	25	599	3129	3132	S	601	the	the	the	DT	DATE	det	O	-1	O
+0	25	600	3133	3137	N	601	next	next	next	JJ	DATE	amod	O	-1	O
+0	25	601	3138	3145		596	morning	morning	morning	NN	DATE	tmod	O	-1	B-noun.time
+0	25	602	3145	3146	S	576	.	.	.	.	O	punct	O	-1	O
+0	26	603	3147	3155	S	-1	Achilles	Achilles	Achilles	NNPS	PERSON	null	O	4	B-noun.person
+0	26	604	3156	3160	S	603	then	then	then	RB	O	advmod	O	-1	O
+0	26	605	3161	3166	S	603	rides	rides	ride	NNS	O	dep	O	-1	B-noun.act
+0	26	606	3167	3170	S	605	out	out	out	IN	O	prep	O	-1	O
+0	26	607	3171	3173	S	606	to	to	to	TO	O	dep	O	-1	O
+0	26	608	3174	3180	S	607	battle	battle	battle	NN	O	pobj	O	-1	B-noun.act
+0	26	609	3181	3183	S	608	at	at	at	IN	O	prep	O	-1	O
+0	26	610	3184	3187	S	611	the	the	the	DT	O	det	O	-1	O
+0	26	611	3188	3192	S	609	head	head	head	NN	O	pobj	O	-1	B-noun.body
+0	26	612	3193	3195	S	611	of	of	of	IN	O	prep	O	-1	O
+0	26	613	3196	3199	S	615	the	the	the	DT	O	det	O	-1	O
+0	26	614	3200	3207	N	615	Achaean	Achaean	Achaean	NNP	MISC	nn	O	-1	B-noun.group
+0	26	615	3208	3212		612	army	army	army	NN	O	pobj	O	-1	I-noun.group
+0	26	616	3212	3213	S	603	.	.	.	.	O	punct	O	-1	O
+0	27	617	3214	3223		630	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	27	618	3223	3224	S	630	,	,	,	,	O	punct	O	-1	O
+0	27	619	3225	3231		630	Hector	Hector	Hector	NNP	PERSON	nsubj	O	1	O
+0	27	620	3231	3232	S	619	,	,	,	,	O	punct	O	-1	O
+0	27	621	3233	3236	S	622	not	not	not	RB	O	neg	O	-1	O
+0	27	622	3237	3246	S	619	expecting	expecting	expect	VBG	O	partmod	O	-1	B-verb.cognition
+0	27	623	3247	3255	S	625	Achilles	Achilles	Achilles	NNPS	PERSON	nsubj	O	4	B-noun.person
+0	27	624	3256	3258	S	625	to	to	to	TO	O	aux	O	-1	O
+0	27	625	3259	3265	S	622	rejoin	rejoin	rejoin	VB	O	xcomp	O	-1	B-verb.social
+0	27	626	3266	3269	N	627	the	the	the	DT	O	det	O	-1	O
+0	27	627	3270	3276		625	battle	battle	battle	NN	O	dobj	O	-1	B-noun.act
+0	27	628	3276	3277	S	619	,	,	,	,	O	punct	O	-1	O
+0	27	629	3278	3281	S	630	has	has	have	VBZ	O	aux	O	-1	O
+0	27	630	3282	3289	S	-1	ordered	ordered	order	VBN	O	null	O	-1	B-verb.communication
+0	27	631	3290	3293	S	632	his	his	he	PRP$	O	poss	O	4	O
+0	27	632	3294	3297	S	630	men	men	man	NNS	O	dobj	O	-1	B-noun.person
+0	27	633	3298	3300	S	630	to	to	to	TO	O	prep	O	-1	O
+0	27	634	3301	3305	S	633	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	27	635	3306	3313	S	630	outside	outside	outside	IN	O	prep	O	-1	O
+0	27	636	3314	3317	S	637	the	the	the	DT	O	det	O	-1	O
+0	27	637	3318	3323	S	635	walls	walls	wall	NNS	O	pobj	O	-1	B-noun.artifact
+0	27	638	3324	3326	S	637	of	of	of	IN	O	prep	O	-1	O
+0	27	639	3327	3331		638	Troy	Troy	Troy	NNP	O	pobj	O	-1	O
+0	27	640	3331	3332	S	630	.	.	.	.	O	punct	O	-1	O
+0	28	641	3333	3336	N	650	But	But	but	CC	O	cc	O	-1	O
+0	28	642	3337	3341	S	647	when	when	when	WRB	O	advmod	O	-1	O
+0	28	643	3342	3345	S	646	the	the	the	DT	O	det	O	-1	O
+0	28	644	3346	3352	S	646	Trojan	Trojan	Trojan	NNP	MISC	nn	O	-1	B-noun.person
+0	28	645	3353	3357	S	646	army	army	army	NN	O	nn	O	-1	B-noun.group
+0	28	646	3358	3366	S	647	glimpses	glimpses	glimpse	NNS	O	nsubj	O	-1	B-noun.act
+0	28	647	3367	3375		650	Achilles	Achilles	Achilles	NNPS	O	dep	O	-1	B-noun.person
+0	28	648	3375	3376	S	650	,	,	,	,	O	punct	O	-1	O
+0	28	649	3377	3379	S	650	it	it	it	PRP	O	nsubj	O	-1	O
+0	28	650	3380	3385	S	-1	flees	flees	flee	VBZ	O	null	O	-1	B-verb.motion
+0	28	651	3386	3388	S	650	in	in	in	IN	O	prep	O	-1	O
+0	28	652	3389	3395	S	651	terror	terror	terror	NN	O	pobj	O	-1	B-noun.feeling
+0	28	653	3396	3400	N	650	back	back	back	RB	O	advmod	O	-1	O
+0	28	654	3401	3407	S	650	behind	behind	behind	IN	O	prep	O	-1	O
+0	28	655	3408	3411	S	657	the	the	the	DT	O	det	O	-1	O
+0	28	656	3412	3416	S	657	city	city	city	NN	O	nn	O	-1	B-noun.location
+0	28	657	3417	3422		654	walls	walls	wall	NNS	O	pobj	O	-1	B-noun.artifact
+0	28	658	3422	3423	S	650	.	.	.	.	O	punct	O	-1	O
+0	29	659	3424	3432	S	660	Achilles	Achilles	Achilles	NNPS	O	nn	O	-1	B-noun.person
+0	29	660	3433	3437	S	-1	cuts	cuts	cut	NNS	O	null	O	-1	B-noun.possession
+0	29	661	3438	3442	S	660	down	down	down	IN	O	prep	O	-1	O
+0	29	662	3443	3448	S	663	every	every	every	DT	O	det	O	-1	O
+0	29	663	3449	3455	S	661	Trojan	Trojan	Trojan	NNP	MISC	dep	O	-1	B-noun.person
+0	29	664	3456	3458	S	665	he	he	he	PRP	O	nsubj	O	-1	O
+0	29	665	3459	3463		663	sees	sees	see	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	29	666	3463	3464	N	660	.	.	.	.	O	punct	O	-1	O
+0	30	667	3465	3477	S	674	Strengthened	Strengthened	strengthen	VBN	O	ccomp	O	-1	B-verb.change
+0	30	668	3478	3480	S	667	by	by	by	IN	O	prep	O	-1	O
+0	30	669	3481	3484	S	670	his	his	he	PRP$	O	poss	O	-1	O
+0	30	670	3485	3489		668	rage	rage	rage	NN	O	pobj	O	-1	B-noun.feeling
+0	30	671	3489	3490	S	674	,	,	,	,	O	punct	O	-1	O
+0	30	672	3491	3493	S	674	he	he	he	PRP	O	nsubj	O	-1	O
+0	30	673	3494	3498	S	674	even	even	even	RB	O	advmod	O	-1	O
+0	30	674	3499	3505	S	-1	fights	fights	fight	VBZ	O	null	O	-1	B-verb.competition
+0	30	675	3506	3509	S	676	the	the	the	DT	O	det	O	-1	O
+0	30	676	3510	3513	S	674	god	god	god	NN	O	dobj	O	-1	B-noun.person
+0	30	677	3514	3516	S	676	of	of	of	IN	O	prep	O	-1	O
+0	30	678	3517	3520	S	680	the	the	the	DT	O	det	O	-1	O
+0	30	679	3521	3526	S	680	river	river	river	NN	O	nn	O	-1	B-noun.object
+0	30	680	3527	3534		677	Xanthus	Xanthus	Xanthus	NNP	PERSON	pobj	O	-1	O
+0	30	681	3534	3535	N	680	,	,	,	,	O	punct	O	-1	O
+0	30	682	3536	3539	S	684	who	who	who	WP	O	nsubjpass	O	-1	O
+0	30	683	3540	3542	S	684	is	is	be	VBZ	O	auxpass	O	-1	O
+0	30	684	3543	3550	S	680	angered	angered	anger	VBN	O	rcmod	O	-1	B-verb.emotion
+0	30	685	3551	3555	S	688	that	that	that	IN	O	complm	O	-1	O
+0	30	686	3556	3564	S	688	Achilles	Achilles	Achilles	NNPS	PERSON	nsubj	O	4	B-noun.person
+0	30	687	3565	3568	S	688	has	has	have	VBZ	O	aux	O	-1	O
+0	30	688	3569	3575	S	684	caused	caused	cause	VBN	O	ccomp	O	-1	B-verb.creation
+0	30	689	3576	3578	S	690	so	so	so	RB	O	advmod	O	-1	O
+0	30	690	3579	3583	S	691	many	many	many	JJ	O	amod	O	-1	O
+0	30	691	3584	3591	S	693	corpses	corpses	corpse	NNS	O	nsubj	O	-1	B-noun.group
+0	30	692	3592	3594	S	693	to	to	to	TO	O	aux	O	-1	O
+0	30	693	3595	3599	N	688	fall	fall	fall	VB	O	xcomp	O	-1	B-verb.stative
+0	30	694	3600	3604	S	693	into	into	into	IN	O	prep	O	-1	O
+0	30	695	3605	3608	S	696	his	his	he	PRP$	O	poss	O	4	O
+0	30	696	3609	3616		694	streams	streams	stream	NNS	O	pobj	O	-1	O
+0	30	697	3616	3617	S	674	.	.	.	.	O	punct	O	-1	O
+0	31	698	3618	3625		701	Finally	Finally	finally	RB	O	advmod	O	-1	O
+0	31	699	3625	3626	S	701	,	,	,	,	O	punct	O	-1	O
+0	31	700	3627	3635	S	701	Achilles	Achilles	Achilles	NNPS	PERSON	nsubj	O	4	B-noun.person
+0	31	701	3636	3645	S	-1	confronts	confronts	confront	VBZ	O	null	O	-1	B-verb.competition
+0	31	702	3646	3652	S	701	Hector	Hector	Hector	NNP	PERSON	dobj	O	1	B-noun.person
+0	31	703	3653	3660	S	701	outside	outside	outside	IN	O	prep	O	-1	O
+0	31	704	3661	3664	N	705	the	the	the	DT	O	det	O	-1	O
+0	31	705	3665	3670	S	703	walls	walls	wall	NNS	O	pobj	O	-1	B-noun.artifact
+0	31	706	3671	3673	S	705	of	of	of	IN	O	prep	O	-1	O
+0	31	707	3674	3678		706	Troy	Troy	Troy	NNP	O	pobj	O	-1	O
+0	31	708	3678	3679	S	701	.	.	.	.	O	punct	O	-1	O
+0	32	709	3680	3687	S	721	Ashamed	Ashamed	ashamed	JJ	O	dep	O	-1	O
+0	32	710	3688	3690	S	709	at	at	at	IN	O	prep	O	-1	O
+0	32	711	3691	3694	S	713	the	the	the	DT	O	det	O	-1	O
+0	32	712	3695	3699	S	713	poor	poor	poor	JJ	O	amod	O	-1	O
+0	32	713	3700	3706	S	710	advice	advice	advice	NN	O	pobj	O	-1	B-noun.communication
+0	32	714	3707	3711	S	716	that	that	that	IN	O	complm	O	-1	O
+0	32	715	3712	3714	S	716	he	he	he	PRP	O	nsubj	O	4	O
+0	32	716	3715	3719	S	709	gave	gave	give	VBD	O	ccomp	O	-1	B-verb.possession
+0	32	717	3720	3723	S	718	his	his	he	PRP$	O	poss	O	4	O
+0	32	718	3724	3732		716	comrades	comrades	comrade	NNS	O	dobj	O	-1	B-noun.person
+0	32	719	3732	3733	N	721	,	,	,	,	O	punct	O	-1	O
+0	32	720	3734	3740	S	721	Hector	Hector	Hector	NNP	PERSON	nsubj	O	1	B-noun.person
+0	32	721	3741	3748	S	-1	refuses	refuses	refuse	VBZ	O	null	O	-1	B-verb.communication
+0	32	722	3749	3751	S	723	to	to	to	TO	O	aux	O	-1	O
+0	32	723	3752	3756	S	721	flee	flee	flee	VB	O	xcomp	O	-1	B-verb.motion
+0	32	724	3757	3763	S	723	inside	inside	inside	IN	O	prep	O	-1	O
+0	32	725	3764	3767	S	726	the	the	the	DT	O	det	O	-1	O
+0	32	726	3768	3772	S	724	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	32	727	3773	3777	S	726	with	with	with	IN	O	prep	O	-1	O
+0	32	728	3778	3782		727	them	them	they	PRP	O	pobj	O	-1	O
+0	32	729	3782	3783	S	721	.	.	.	.	O	punct	O	-1	O
+0	33	730	3784	3792	S	731	Achilles	Achilles	Achilles	NNPS	O	nsubj	O	-1	B-noun.person
+0	33	731	3793	3799	N	-1	chases	chases	chase	VBZ	O	null	O	-1	B-verb.motion
+0	33	732	3800	3803	S	731	him	him	he	PRP	O	dobj	O	-1	O
+0	33	733	3804	3810	S	731	around	around	around	IN	O	prep	O	-1	O
+0	33	734	3811	3814	S	735	the	the	the	DT	O	det	O	-1	O
+0	33	735	3815	3819		737	city	city	city	NN	O	poss	O	-1	B-noun.location
+0	33	736	3819	3821	S	735	’s	's	's	POS	O	possessive	O	-1	O
+0	33	737	3822	3831	S	733	periphery	periphery	periphery	NN	O	pobj	O	-1	B-noun.shape
+0	33	738	3832	3837	S	739	three	three	three	CD	NUMBER	num	O	-1	O
+0	33	739	3838	3843		737	times	times	time	NNS	O	dep	O	-1	O
+0	33	740	3843	3844	S	731	,	,	,	,	O	punct	O	-1	O
+0	33	741	3845	3848	S	731	but	but	but	CC	O	cc	O	-1	O
+0	33	742	3849	3852	S	744	the	the	the	DT	O	det	O	-1	O
+0	33	743	3853	3860	S	744	goddess	goddess	goddess	NN	O	nn	O	-1	B-noun.person
+0	33	744	3861	3867	N	746	Athena	Athena	Athena	NNP	ORGANIZATION	nsubj	O	-1	B-noun.person
+0	33	745	3868	3875	S	746	finally	finally	finally	RB	O	advmod	O	-1	O
+0	33	746	3876	3882	S	731	tricks	tricks	trick	NNS	O	conj	O	-1	B-noun.act
+0	33	747	3883	3889	S	746	Hector	Hector	Hector	NNP	PERSON	dobj	O	1	B-noun.person
+0	33	748	3890	3894	S	746	into	into	into	IN	O	prep	O	-1	O
+0	33	749	3895	3902	S	748	turning	turning	turn	VBG	O	pcomp	O	-1	B-verb.motion
+0	33	750	3903	3909	S	749	around	around	around	RB	O	advmod	O	-1	O
+0	33	751	3910	3913	S	749	and	and	and	CC	O	cc	O	-1	O
+0	33	752	3914	3922	S	749	fighting	fighting	fight	VBG	O	conj	O	-1	B-verb.competition
+0	33	753	3923	3931		752	Achilles	Achilles	Achilles	NNPS	PERSON	dobj	O	4	B-noun.person
+0	33	754	3931	3932	N	731	.	.	.	.	O	punct	O	-1	O
+0	34	755	3933	3935	S	761	In	In	in	IN	O	prep	O	-1	O
+0	34	756	3936	3937	S	758	a	a	a	DT	O	det	O	-1	O
+0	34	757	3938	3946	S	758	dramatic	dramatic	dramatic	JJ	O	amod	O	-1	O
+0	34	758	3947	3951		755	duel	duel	duel	NN	O	pobj	O	-1	B-noun.act
+0	34	759	3951	3952	S	761	,	,	,	,	O	punct	O	-1	O
+0	34	760	3953	3961	S	761	Achilles	Achilles	achilles	NN	PERSON	nsubj	O	4	B-noun.person
+0	34	761	3962	3967	S	-1	kills	kills	kill	VBZ	O	null	O	-1	B-verb.contact
+0	34	762	3968	3974		761	Hector	Hector	Hector	NNP	PERSON	dobj	O	1	B-noun.person
+0	34	763	3974	3975	S	761	.	.	.	.	O	punct	O	-1	O
+0	35	764	3976	3978	S	766	He	He	he	PRP	O	nsubj	O	4	O
+0	35	765	3979	3983	S	766	then	then	then	RB	O	advmod	O	-1	O
+0	35	766	3984	3990	N	-1	lashes	lashes	lash	VBZ	O	null	O	-1	B-verb.contact
+0	35	767	3991	3994	S	768	the	the	the	DT	O	det	O	-1	O
+0	35	768	3995	3999	S	766	body	body	body	NN	O	dobj	O	-1	B-noun.body
+0	35	769	4000	4002	S	766	to	to	to	TO	O	prep	O	-1	O
+0	35	770	4003	4006	S	771	the	the	the	DT	O	det	O	-1	O
+0	35	771	4007	4011	S	769	back	back	back	NN	O	pobj	O	-1	B-noun.body
+0	35	772	4012	4014	S	771	of	of	of	IN	O	prep	O	-1	O
+0	35	773	4015	4018	S	774	his	his	he	PRP$	O	poss	O	4	O
+0	35	774	4019	4026	S	772	chariot	chariot	chariot	NN	O	pobj	O	-1	B-noun.artifact
+0	35	775	4027	4030	S	766	and	and	and	CC	O	cc	O	-1	O
+0	35	776	4031	4036	S	766	drags	drags	drag	VBZ	O	conj	O	-1	B-verb.contact
+0	35	777	4037	4039	S	776	it	it	it	PRP	O	dobj	O	-1	O
+0	35	778	4040	4046	S	776	across	across	across	IN	O	prep	O	-1	O
+0	35	779	4047	4050	S	780	the	the	the	DT	O	det	O	-1	O
+0	35	780	4051	4062	N	778	battlefield	battlefield	battlefield	NN	O	pobj	O	-1	B-noun.location
+0	35	781	4063	4065	S	776	to	to	to	TO	O	prep	O	-1	O
+0	35	782	4066	4069	S	784	the	the	the	DT	O	det	O	-1	O
+0	35	783	4070	4077	S	784	Achaean	Achaean	Achaean	NNP	MISC	nn	O	-1	B-noun.group
+0	35	784	4078	4082		781	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	35	785	4082	4083	S	766	.	.	.	.	O	punct	O	-1	O
+0	36	786	4084	4088	S	794	Upon	Upon	upon	IN	O	prep	O	-1	O
+0	36	787	4089	4097		789	Achilles	Achilles	Achilles	NNPS	O	poss	O	-1	B-noun.person
+0	36	788	4097	4098	S	787	’	'	'	POS	O	possessive	O	-1	O
+0	36	789	4099	4106		786	arrival	arrival	arrival	NN	O	pobj	O	-1	B-noun.act
+0	36	790	4106	4107	S	794	,	,	,	,	O	punct	O	-1	O
+0	36	791	4108	4111	S	793	the	the	the	DT	O	det	O	-1	O
+0	36	792	4112	4122	S	793	triumphant	triumphant	triumphant	JJ	O	amod	O	-1	O
+0	36	793	4123	4131	N	794	Achaeans	Achaeans	Achaeans	NNP	MISC	nsubj	O	-1	B-noun.person
+0	36	794	4132	4141	S	-1	celebrate	celebrate	celebrate	VB	O	null	O	-1	B-verb.social
+0	36	795	4142	4151		797	Patroclus	Patroclus	patroclus	NN	O	poss	O	-1	B-noun.person
+0	36	796	4151	4153	S	795	’s	's	's	POS	O	possessive	O	-1	O
+0	36	797	4154	4161	S	794	funeral	funeral	funeral	NN	O	dobj	O	-1	B-noun.event
+0	36	798	4162	4166	S	794	with	with	with	IN	O	prep	O	-1	O
+0	36	799	4167	4168	S	801	a	a	a	DT	O	det	O	-1	O
+0	36	800	4169	4173	S	801	long	long	long	JJ	O	amod	O	-1	O
+0	36	801	4174	4180	S	798	series	series	series	NN	O	pobj	O	-1	B-noun.group
+0	36	802	4181	4183	S	801	of	of	of	IN	O	prep	O	-1	O
+0	36	803	4184	4192	S	804	athletic	athletic	athletic	JJ	O	amod	O	-1	O
+0	36	804	4193	4198	N	802	games	games	game	NNS	O	pobj	O	-1	B-noun.act
+0	36	805	4199	4201	S	804	in	in	in	IN	O	prep	O	-1	O
+0	36	806	4202	4205	S	807	his	his	he	PRP$	O	poss	O	-1	O
+0	36	807	4206	4211		805	honor	honor	honor	NN	O	pobj	O	-1	B-noun.communication
+0	36	808	4211	4212	S	794	.	.	.	.	O	punct	O	-1	O
+0	37	809	4213	4217	S	810	Each	Each	each	DT	SET	det	O	-1	O
+0	37	810	4218	4221	S	818	day	day	day	NN	SET	tmod	O	-1	B-noun.time
+0	37	811	4222	4225	S	810	for	for	for	IN	O	prep	O	-1	O
+0	37	812	4226	4229	S	815	the	the	the	DT	DURATION	det	O	-1	O
+0	37	813	4230	4234	S	815	next	next	next	JJ	DURATION	amod	O	-1	O
+0	37	814	4235	4239	S	815	nine	nine	nine	CD	DURATION	num	O	-1	O
+0	37	815	4240	4244		811	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	37	816	4244	4245	S	818	,	,	,	,	O	punct	O	-1	O
+0	37	817	4246	4254	S	818	Achilles	Achilles	Achilles	NNPS	PERSON	nsubj	O	4	B-noun.person
+0	37	818	4255	4260	S	-1	drags	drags	drag	VBZ	O	null	O	-1	B-verb.contact
+0	37	819	4261	4267		821	Hector	Hector	Hector	NNP	PERSON	poss	O	1	B-noun.person
+0	37	820	4267	4269	N	819	’s	's	's	POS	O	possessive	O	-1	O
+0	37	821	4270	4274	S	818	body	body	body	NN	O	dobj	O	-1	B-noun.body
+0	37	822	4275	4277	S	818	in	in	in	IN	O	prep	O	-1	O
+0	37	823	4278	4285	S	822	circles	circles	circle	NNS	O	pobj	O	-1	B-noun.shape
+0	37	824	4286	4292	S	823	around	around	around	IN	O	prep	O	-1	O
+0	37	825	4293	4302		828	Patroclus	Patroclus	patroclus	NN	O	poss	O	-1	B-noun.person
+0	37	826	4302	4304	S	825	’s	's	's	POS	O	possessive	O	-1	O
+0	37	827	4305	4312	S	828	funeral	funeral	funeral	JJ	O	amod	O	-1	O
+0	37	828	4313	4317		824	bier	bier	bier	NN	O	pobj	O	-1	B-noun.artifact
+0	37	829	4317	4318	S	818	.	.	.	.	O	punct	O	-1	O
+0	38	830	4319	4321	S	835	At	At	at	IN	O	prep	O	-1	O
+0	38	831	4322	4326		830	last	last	last	JJ	O	pobj	O	-1	O
+0	38	832	4326	4327	S	835	,	,	,	,	O	punct	O	-1	O
+0	38	833	4328	4331	S	834	the	the	the	DT	O	det	O	-1	O
+0	38	834	4332	4336	S	835	gods	gods	god	NNS	O	nsubj	O	-1	B-noun.person
+0	38	835	4337	4342	S	-1	agree	agree	agree	VBP	O	null	O	-1	B-verb.communication
+0	38	836	4343	4347	S	838	that	that	that	IN	O	complm	O	-1	O
+0	38	837	4348	4354	S	838	Hector	Hector	Hector	NNP	PERSON	nsubj	O	1	B-noun.person
+0	38	838	4355	4363	S	835	deserves	deserves	deserve	VBZ	O	ccomp	O	-1	B-verb.stative
+0	38	839	4364	4365	S	841	a	a	a	DT	O	det	O	-1	O
+0	38	840	4366	4372	N	841	proper	proper	proper	JJ	O	amod	O	-1	O
+0	38	841	4373	4379		838	burial	burial	burial	NN	O	dobj	O	-1	B-noun.event
+0	38	842	4379	4380	S	835	.	.	.	.	O	punct	O	-1	O
+0	39	843	4381	4385	S	844	Zeus	Zeus	Zeus	NNP	O	nsubj	O	-1	B-noun.person
+0	39	844	4386	4391	S	-1	sends	sends	send	VBZ	O	null	O	-1	B-verb.motion
+0	39	845	4392	4395	S	847	the	the	the	DT	O	det	O	-1	O
+0	39	846	4396	4399	S	847	god	god	god	NN	O	nn	O	-1	B-noun.person
+0	39	847	4400	4406	S	844	Hermes	Hermes	herme	NNS	ORGANIZATION	dobj	O	-1	B-noun.person
+0	39	848	4407	4409	S	844	to	to	to	TO	O	prep	O	-1	O
+0	39	849	4410	4416	S	851	escort	escort	escort	NN	O	nn	O	-1	B-noun.person
+0	39	850	4417	4421	S	851	King	King	King	NNP	O	nn	O	-1	B-noun.person
+0	39	851	4422	4427		848	Priam	Priam	Priam	NNP	PERSON	pobj	O	3	I-noun.person
+0	39	852	4427	4428	S	851	,	,	,	,	O	punct	O	-1	O
+0	39	853	4429	4435		855	Hector	Hector	Hector	NNP	PERSON	poss	O	1	B-noun.person
+0	39	854	4435	4437	N	853	’s	's	's	POS	O	possessive	O	-1	O
+0	39	855	4438	4444	S	851	father	father	father	NN	O	appos	O	-1	B-noun.person
+0	39	856	4445	4448	S	855	and	and	and	CC	O	cc	O	-1	O
+0	39	857	4449	4452	S	858	the	the	the	DT	O	det	O	-1	O
+0	39	858	4453	4458	S	855	ruler	ruler	ruler	NN	O	conj	O	-1	B-noun.person
+0	39	859	4459	4461	S	858	of	of	of	IN	O	prep	O	-1	O
+0	39	860	4462	4466		859	Troy	Troy	Troy	NNP	O	pobj	O	-1	O
+0	39	861	4466	4467	S	844	,	,	,	,	O	punct	O	-1	O
+0	39	862	4468	4472	S	844	into	into	into	IN	O	prep	O	-1	O
+0	39	863	4473	4476	S	865	the	the	the	DT	O	det	O	-1	O
+0	39	864	4477	4484	S	865	Achaean	Achaean	Achaean	NNP	MISC	nn	O	-1	B-noun.group
+0	39	865	4485	4489		862	camp	camp	camp	NN	O	pobj	O	-1	B-noun.artifact
+0	39	866	4489	4490	S	844	.	.	.	.	O	punct	O	-1	O
+0	40	867	4491	4496	S	869	Priam	Priam	Priam	NNP	PERSON	nsubj	O	3	B-noun.person
+0	40	868	4497	4506	N	869	tearfully	tearfully	tearfully	RB	O	advmod	O	-1	O
+0	40	869	4507	4513	S	-1	pleads	pleads	plead	VBZ	O	null	O	-1	B-verb.communication
+0	40	870	4514	4518	S	869	with	with	with	IN	O	prep	O	-1	O
+0	40	871	4519	4527	S	870	Achilles	Achilles	Achilles	NNPS	PERSON	pobj	O	4	B-noun.person
+0	40	872	4528	4530	S	873	to	to	to	TO	O	aux	O	-1	O
+0	40	873	4531	4535	S	869	take	take	take	VB	O	xcomp	O	-1	B-verb.possession
+0	40	874	4536	4540	S	873	pity	pity	pity	NN	O	dobj	O	-1	B-noun.feeling
+0	40	875	4541	4543	S	873	on	on	on	IN	O	prep	O	-1	O
+0	40	876	4544	4545	S	877	a	a	a	DT	O	det	O	-1	O
+0	40	877	4546	4552	S	875	father	father	father	NN	O	pobj	O	-1	B-noun.person
+0	40	878	4553	4559	S	877	bereft	bereft	bereft	JJ	O	amod	O	-1	O
+0	40	879	4560	4562	S	878	of	of	of	IN	O	prep	O	-1	O
+0	40	880	4563	4566	S	881	his	his	he	PRP$	O	poss	O	4	O
+0	40	881	4567	4570	N	879	son	son	son	NN	O	pobj	O	-1	B-noun.person
+0	40	882	4571	4574	S	881	and	and	and	CC	O	cc	O	-1	O
+0	40	883	4575	4581	S	884	return	return	return	NN	O	nn	O	-1	B-noun.communication
+0	40	884	4582	4588		886	Hector	Hector	Hector	NNP	PERSON	poss	O	1	B-noun.person
+0	40	885	4588	4590	S	884	’s	's	's	POS	O	possessive	O	-1	O
+0	40	886	4591	4595		881	body	body	body	NN	O	conj	O	-1	B-noun.body
+0	40	887	4595	4596	S	869	.	.	.	.	O	punct	O	-1	O
+0	41	888	4597	4599	S	889	He	He	he	PRP	O	nsubj	O	1	O
+0	41	889	4600	4607	S	-1	invokes	invokes	invoke	VBZ	O	null	O	-1	B-verb.creation
+0	41	890	4608	4611	S	891	the	the	the	DT	O	det	O	-1	O
+0	41	891	4612	4618	S	889	memory	memory	memory	NN	O	dobj	O	-1	B-noun.cognition
+0	41	892	4619	4621	S	891	of	of	of	IN	O	prep	O	-1	O
+0	41	893	4622	4630		896	Achilles	Achilles	Achilles	NNPS	PERSON	poss	O	4	B-noun.person
+0	41	894	4630	4631	S	893	’	'	'	POS	O	possessive	O	-1	O
+0	41	895	4632	4635	N	896	own	own	own	JJ	O	amod	O	-1	O
+0	41	896	4636	4642		892	father	father	father	NN	O	pobj	O	-1	B-noun.person
+0	41	897	4642	4643	S	896	,	,	,	,	O	punct	O	-1	O
+0	41	898	4644	4650		896	Peleus	Peleus	Peleus	NNP	PERSON	appos	O	-1	B-noun.person
+0	41	899	4650	4651	S	889	.	.	.	.	O	punct	O	-1	O
+0	42	900	4652	4658	S	901	Deeply	Deeply	deeply	RB	O	advmod	O	-1	O
+0	42	901	4659	4664		905	moved	moved	move	VBN	O	dep	O	-1	B-verb.motion
+0	42	902	4664	4665	S	905	,	,	,	,	O	punct	O	-1	O
+0	42	903	4666	4674	S	905	Achilles	Achilles	Achilles	NNPS	PERSON	nsubj	O	4	B-noun.person
+0	42	904	4675	4682	S	905	finally	finally	finally	RB	O	advmod	O	-1	O
+0	42	905	4683	4690	S	-1	relents	relents	relent	VBZ	O	null	O	-1	B-verb.stative
+0	42	906	4691	4694	S	905	and	and	and	CC	O	cc	O	-1	O
+0	42	907	4695	4702	N	905	returns	returns	return	VBZ	O	conj	O	-1	B-verb.motion
+0	42	908	4703	4709		910	Hector	Hector	Hector	NNP	PERSON	poss	O	1	B-noun.person
+0	42	909	4709	4711	S	908	’s	's	's	POS	O	possessive	O	-1	O
+0	42	910	4712	4718	S	907	corpse	corpse	corpse	NN	O	dobj	O	-1	B-noun.body
+0	42	911	4719	4721	S	907	to	to	to	TO	O	prep	O	-1	O
+0	42	912	4722	4725	S	913	the	the	the	DT	O	det	O	-1	O
+0	42	913	4726	4733		911	Trojans	Trojans	Trojans	NNPS	O	pobj	O	-1	B-noun.person
+0	42	914	4733	4734	S	905	.	.	.	.	O	punct	O	-1	O
+0	43	915	4735	4739	S	916	Both	Both	both	DT	O	det	O	-1	O
+0	43	916	4740	4745	S	917	sides	sides	side	NNS	O	nsubj	O	-1	B-noun.group
+0	43	917	4746	4751	S	-1	agree	agree	agree	VBP	O	null	O	-1	B-verb.communication
+0	43	918	4752	4754	S	917	to	to	to	TO	O	prep	O	-1	O
+0	43	919	4755	4756	S	921	a	a	a	DT	O	det	O	-1	O
+0	43	920	4757	4766	N	921	temporary	temporary	temporary	JJ	O	amod	O	-1	O
+0	43	921	4767	4772		918	truce	truce	truce	NN	O	pobj	O	-1	B-noun.state
+0	43	922	4772	4773	S	917	,	,	,	,	O	punct	O	-1	O
+0	43	923	4774	4777	S	917	and	and	and	CC	O	cc	O	-1	O
+0	43	924	4778	4784	S	925	Hector	Hector	Hector	NNP	PERSON	nsubj	O	1	B-noun.person
+0	43	925	4785	4793	S	917	receives	receives	receive	VBZ	O	conj	O	-1	B-verb.possession
+0	43	926	4794	4795	S	927	a	a	a	DT	O	det	O	-1	O
+0	43	927	4796	4800		929	hero	hero	hero	NN	O	poss	O	-1	B-noun.person
+0	43	928	4800	4802	S	927	’s	's	's	POS	O	possessive	O	-1	O
+0	43	929	4803	4810		925	funeral	funeral	funeral	NN	O	dobj	O	-1	B-noun.event
+0	43	930	4810	4811	N	917	.	.	.	.	O	punct	O	-1	O

@@ -1,0 +1,497 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	7	S	1	Herbert	Herbert	Herbert	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	8	15	S	2	Clutter	Clutter	Clutter	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	2	16	24	S	-1	inspects	inspects	inspect	VBZ	O	null	O	-1	B-verb.perception
+0	0	3	25	28	S	4	his	his	he	PRP$	O	poss	O	-1	O
+0	0	4	29	34	S	2	ranch	ranch	ranch	NN	O	dobj	O	-1	B-noun.artifact
+0	0	5	35	37	S	4	on	on	on	IN	O	prep	O	-1	O
+0	0	6	38	41	S	7	the	the	the	DT	TIME	det	O	-1	O
+0	0	7	42	49	S	5	morning	morning	morning	NN	TIME	pobj	O	-1	B-noun.time
+0	0	8	50	52	S	7	of	of	of	IN	TIME	prep	O	-1	O
+0	0	9	53	61	S	8	November	November	November	NNP	DATE	pobj	O	-1	O
+0	0	10	62	64		9	14	14	14	CD	DATE	num	O	-1	O
+0	0	11	64	65	S	9	,	,	,	,	DATE	punct	O	-1	O
+0	0	12	66	70		9	1959	1959	1959	CD	DATE	appos	O	-1	O
+0	0	13	70	71	S	2	.	.	.	.	O	punct	O	-1	O
+0	1	14	72	76	S	16	That	That	that	DT	O	det	O	-1	O
+0	1	15	77	81	S	16	same	same	same	JJ	O	amod	O	-1	O
+0	1	16	82	89		27	morning	morning	morning	NN	TIME	tmod	O	-1	B-noun.time
+0	1	17	89	90	S	27	,	,	,	,	O	punct	O	-1	O
+0	1	18	91	93	S	27	on	on	on	IN	O	prep	O	-1	O
+0	1	19	94	97	S	21	the	the	the	DT	O	det	O	-1	O
+0	1	20	98	103	S	21	other	other	other	JJ	O	amod	O	-1	O
+0	1	21	104	108	S	18	side	side	side	NN	O	pobj	O	-1	B-noun.location
+0	1	22	109	111	S	21	of	of	of	IN	O	prep	O	-1	O
+0	1	23	112	118		22	Kansas	Kansas	Kansas	NNP	LOCATION	pobj	O	-1	O
+0	1	24	118	119	S	27	,	,	,	,	O	punct	O	-1	O
+0	1	25	120	125	S	26	Perry	Perry	Perry	NNP	PERSON	nn	O	-1	B-noun.person
+0	1	26	126	131	S	27	Smith	Smith	Smith	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	1	27	132	137	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	1	28	138	140	S	27	up	up	up	RP	O	prt	O	-1	O
+0	1	29	141	145	S	27	with	with	with	IN	O	prep	O	-1	O
+0	1	30	146	150	S	31	Dick	Dick	Dick	NNP	PERSON	nn	O	0	B-noun.person
+0	1	31	151	158		29	Hickock	Hickock	Hickock	NNP	PERSON	pobj	O	0	I-noun.person
+0	1	32	158	159	S	27	.	.	.	.	O	punct	O	-1	O
+0	2	33	160	165	S	36	While	While	while	IN	O	mark	O	-1	O
+0	2	34	166	169	S	35	the	the	the	DT	O	det	O	-1	O
+0	2	35	170	178	S	36	Clutters	Clutters	clutter	NNS	O	nsubj	O	-1	B-noun.communication
+0	2	36	179	181	S	53	go	go	go	VBP	O	advcl	O	-1	B-verb.social
+0	2	37	182	187	S	36	about	about	about	IN	O	prep	O	-1	O
+0	2	38	188	193	S	40	their	their	they	PRP$	O	poss	O	-1	O
+0	2	39	194	199	S	40	daily	daily	daily	JJ	SET	amod	O	-1	O
+0	2	40	200	208		37	business	business	business	NN	O	pobj	O	-1	B-noun.group
+0	2	41	208	209	S	36	,	,	,	,	O	punct	O	-1	O
+0	2	42	210	217	S	36	running	running	run	VBG	O	xcomp	O	-1	B-verb.motion
+0	2	43	218	225	S	42	errands	errands	errand	NNS	O	dobj	O	-1	B-noun.act
+0	2	44	226	229	S	42	and	and	and	CC	O	cc	O	-1	O
+0	2	45	230	236	S	42	baking	baking	bake	VBG	O	conj	O	-1	B-verb.change
+0	2	46	237	243	S	47	cherry	cherry	cherry	NN	O	nn	O	-1	B-noun.plant
+0	2	47	244	248		45	pies	pies	pie	NNS	O	dobj	O	-1	B-noun.food
+0	2	48	248	249	S	53	,	,	,	,	O	punct	O	-1	O
+0	2	49	250	257	S	53	Hickock	Hickock	Hickock	NNP	PERSON	nsubj	O	0	B-noun.person
+0	2	50	258	261	S	49	and	and	and	CC	O	cc	O	-1	O
+0	2	51	262	267	S	49	Smith	Smith	Smith	NNP	PERSON	conj	O	-1	B-noun.person
+0	2	52	268	271	S	53	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	2	53	272	278	S	-1	tuning	tuning	tuning	NN	O	null	O	-1	B-noun.act
+0	2	54	279	284	S	55	their	their	they	PRP$	O	poss	O	-1	O
+0	2	55	285	288		53	car	car	car	NN	O	dobj	O	-1	B-noun.artifact
+0	2	56	288	289	S	53	.	.	.	.	O	punct	O	-1	O
+0	3	57	290	295	S	63	After	After	after	IN	O	prep	O	-1	O
+0	3	58	296	297	S	60	a	a	a	DT	O	det	O	-1	O
+0	3	59	298	302	S	60	long	long	long	JJ	O	amod	O	-1	O
+0	3	60	303	308		57	drive	drive	drive	NN	O	pobj	O	-1	B-noun.act
+0	3	61	308	309	S	63	,	,	,	,	O	punct	O	-1	O
+0	3	62	310	314	S	63	they	they	they	PRP	O	nsubj	O	-1	O
+0	3	63	315	319	S	-1	pull	pull	pull	VBP	O	null	O	-1	B-verb.motion
+0	3	64	320	322	S	63	up	up	up	RP	O	prt	O	-1	O
+0	3	65	323	325	S	63	to	to	to	TO	O	prep	O	-1	O
+0	3	66	326	329	S	68	the	the	the	DT	O	det	O	-1	O
+0	3	67	330	337	S	68	Clutter	Clutter	Clutter	NNP	O	nn	O	-1	O
+0	3	68	338	342	S	65	home	home	home	NN	O	pobj	O	-1	B-noun.artifact
+0	3	69	343	347	S	68	with	with	with	IN	O	prep	O	-1	O
+0	3	70	348	349	S	71	a	a	a	DT	O	det	O	-1	O
+0	3	71	350	357	S	69	shotgun	shotgun	shotgun	NN	O	pobj	O	-1	B-noun.artifact
+0	3	72	358	361	S	71	and	and	and	CC	O	cc	O	-1	O
+0	3	73	362	367	S	71	knife	knife	knife	NN	O	conj	O	-1	B-noun.artifact
+0	3	74	368	370	S	71	in	in	in	IN	O	prep	O	-1	O
+0	3	75	371	375		74	hand	hand	hand	NN	O	pobj	O	-1	B-noun.body
+0	3	76	375	376	S	63	.	.	.	.	O	punct	O	-1	O
+0	4	77	377	381	S	78	That	That	that	DT	O	det	O	-1	O
+0	4	78	382	389		83	morning	morning	morning	NN	TIME	nsubjpass	O	-1	B-noun.time
+0	4	79	389	390	S	83	,	,	,	,	O	punct	O	-1	O
+0	4	80	391	394	S	81	the	the	the	DT	O	det	O	-1	O
+0	4	81	395	401	S	83	bodies	bodies	body	NNS	O	nsubjpass	O	-1	B-noun.body
+0	4	82	402	405	S	83	are	are	be	VBP	O	auxpass	O	-1	O
+0	4	83	406	416	S	-1	discovered	discovered	discover	VBN	O	null	O	-1	B-verb.creation
+0	4	84	417	419	S	83	by	by	by	IN	O	prep	O	-1	O
+0	4	85	420	425	S	86	Susan	Susan	Susan	NNP	PERSON	nn	O	-1	B-noun.person
+0	4	86	426	433	S	84	Kidwell	Kidwell	Kidwell	NNP	PERSON	pobj	O	-1	I-noun.person
+0	4	87	434	437	S	86	and	and	and	CC	O	cc	O	-1	O
+0	4	88	438	445	S	86	another	another	another	DT	O	conj	O	-1	O
+0	4	89	446	448	S	88	of	of	of	IN	O	prep	O	-1	O
+0	4	90	449	454		92	Nancy	Nancy	Nancy	NNP	PERSON	poss	O	-1	B-noun.person
+0	4	91	454	456	S	90	's	's	's	POS	O	possessive	O	-1	O
+0	4	92	457	464		89	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	4	93	464	465	S	83	.	.	.	.	O	punct	O	-1	O
+0	5	94	466	475		99	Initially	Initially	initially	RB	O	advmod	O	-1	O
+0	5	95	475	476	S	99	,	,	,	,	O	punct	O	-1	O
+0	5	96	477	480	S	97	the	the	the	DT	O	det	O	-1	O
+0	5	97	481	487	S	99	police	police	police	NNS	O	nsubjpass	O	-1	B-noun.group
+0	5	98	488	491	S	99	are	are	be	VBP	O	auxpass	O	-1	O
+0	5	99	492	499		-1	baffled	baffled	baffle	VBN	O	null	O	-1	B-verb.cognition
+0	5	100	499	500	S	99	.	.	.	.	O	punct	O	-1	O
+0	6	101	501	506	S	102	Bobby	Bobby	Bobby	NNP	PERSON	nn	O	-1	B-noun.person
+0	6	102	507	511	S	105	Rupp	Rupp	Rupp	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	6	103	512	514	S	105	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	104	515	516	S	105	a	a	a	DT	O	det	O	-1	O
+0	6	105	517	524	S	-1	suspect	suspect	suspect	NN	O	null	O	-1	B-noun.person
+0	6	106	525	530	S	108	until	until	until	IN	O	mark	O	-1	O
+0	6	107	531	533	S	108	he	he	he	PRP	O	nsubj	O	-1	O
+0	6	108	534	540	S	105	passes	passes	pass	VBZ	O	advcl	O	-1	B-verb.motion
+0	6	109	541	542	S	112	a	a	a	DT	O	det	O	-1	O
+0	6	110	543	546	S	112	lie	lie	lie	NN	O	nn	O	-1	B-noun.artifact
+0	6	111	547	555	S	112	detector	detector	detector	NN	O	nn	O	-1	I-noun.artifact
+0	6	112	556	560		108	test	test	test	NN	O	dobj	O	-1	O
+0	6	113	560	561	S	105	.	.	.	.	O	punct	O	-1	O
+0	7	114	562	567	S	115	Alvin	Alvin	Alvin	NNP	PERSON	nn	O	-1	B-noun.person
+0	7	115	568	573		126	Dewey	Dewey	Dewey	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	7	116	573	574	S	115	,	,	,	,	O	punct	O	-1	O
+0	7	117	575	578	S	119	the	the	the	DT	O	det	O	-1	O
+0	7	118	579	582	S	119	KBI	KBI	KBI	NNP	ORGANIZATION	nn	O	-1	O
+0	7	119	583	588	S	115	agent	agent	agent	NN	O	appos	O	-1	B-noun.object
+0	7	120	589	591	S	119	in	in	in	IN	O	prep	O	-1	O
+0	7	121	592	598	S	120	charge	charge	charge	NN	O	pobj	O	-1	B-noun.act
+0	7	122	599	601	S	121	of	of	of	IN	O	prep	O	-1	O
+0	7	123	602	605	S	124	the	the	the	DT	O	det	O	-1	O
+0	7	124	606	619		122	investigation	investigation	investigation	NN	O	pobj	O	-1	B-noun.cognition
+0	7	125	619	620	S	115	,	,	,	,	O	punct	O	-1	O
+0	7	126	621	627	S	-1	thinks	thinks	think	VBZ	O	null	O	-1	B-verb.cognition
+0	7	127	628	632	S	132	that	that	that	IN	O	complm	O	-1	O
+0	7	128	633	636	S	129	the	the	the	DT	O	det	O	-1	O
+0	7	129	637	643	S	132	killer	killer	killer	NN	O	nsubj	O	-1	B-noun.person
+0	7	130	644	648	S	132	must	must	must	MD	O	aux	O	-1	O
+0	7	131	649	651	S	132	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	7	132	652	659	S	126	someone	someone	someone	NN	O	ccomp	O	-1	O
+0	7	133	660	665	S	132	close	close	close	RB	O	amod	O	-1	O
+0	7	134	666	668	S	133	to	to	to	TO	O	dep	O	-1	O
+0	7	135	669	672	S	136	the	the	the	DT	O	det	O	-1	O
+0	7	136	673	679		134	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	7	137	679	680	S	126	.	.	.	.	O	punct	O	-1	O
+0	8	138	681	686	S	139	Rumor	Rumor	rumor	NN	O	nsubj	O	-1	B-noun.communication
+0	8	139	687	691	S	-1	sets	sets	set	VBZ	O	null	O	-1	B-verb.change
+0	8	140	692	695	S	142	the	the	the	DT	O	det	O	-1	O
+0	8	141	696	701	S	142	small	small	small	JJ	O	amod	O	-1	O
+0	8	142	702	706	S	139	town	town	town	NN	O	dobj	O	-1	B-noun.location
+0	8	143	707	709	S	142	of	of	of	IN	O	prep	O	-1	O
+0	8	144	710	717	S	143	Holcomb	Holcomb	Holcomb	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	8	145	718	720	S	139	on	on	on	IN	O	prep	O	-1	O
+0	8	146	721	725		145	fire	fire	fire	NN	O	pobj	O	-1	B-noun.act
+0	8	147	725	726	S	139	.	.	.	.	O	punct	O	-1	O
+0	9	148	727	734		150	Hartman	Hartman	Hartman	NNP	PERSON	poss	O	-1	B-noun.person
+0	9	149	734	736	S	148	's	's	's	POS	O	possessive	O	-1	O
+0	9	150	737	741	S	153	Cafe	Cafe	Cafe	NNP	MISC	nsubj	O	-1	O
+0	9	151	742	744	S	153	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	9	152	745	748	S	153	the	the	the	DT	O	det	O	-1	O
+0	9	153	749	755	S	-1	center	center	center	NN	O	null	O	-1	B-noun.location
+0	9	154	756	758	S	153	of	of	of	IN	O	prep	O	-1	O
+0	9	155	759	767	S	156	numerous	numerous	numerous	JJ	O	amod	O	-1	O
+0	9	156	768	776		154	theories	theories	theory	NNS	O	pobj	O	-1	B-noun.cognition
+0	9	157	776	777	S	153	.	.	.	.	O	punct	O	-1	O
+0	10	158	778	787		164	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	10	159	787	788	S	164	,	,	,	,	O	punct	O	-1	O
+0	10	160	789	794	S	164	Perry	Perry	Perry	NNP	PERSON	nsubj	O	1	B-noun.person
+0	10	161	795	798	S	160	and	and	and	CC	O	cc	O	-1	O
+0	10	162	799	803	S	160	Dick	Dick	Dick	NNP	PERSON	conj	O	0	B-noun.person
+0	10	163	804	808	S	164	have	have	have	VBP	O	aux	O	-1	O
+0	10	164	809	817	S	-1	returned	returned	return	VBN	O	null	O	-1	B-verb.motion
+0	10	165	818	820	S	164	to	to	to	TO	O	prep	O	-1	O
+0	10	166	821	825		168	Dick	Dick	Dick	NNP	PERSON	poss	O	0	B-noun.person
+0	10	167	825	827	S	166	's	's	's	POS	O	possessive	O	-1	O
+0	10	168	828	836	S	165	hometown	hometown	hometown	NN	O	pobj	O	-1	B-noun.location
+0	10	169	837	839	S	168	of	of	of	IN	O	prep	O	-1	O
+0	10	170	840	846		169	Olathe	Olathe	Olathe	NNP	LOCATION	pobj	O	-1	O
+0	10	171	846	847	S	164	.	.	.	.	O	punct	O	-1	O
+0	11	172	848	852	S	173	Dick	Dick	Dick	NNP	PERSON	nsubj	O	0	B-noun.person
+0	11	173	853	859	S	-1	passes	passes	pass	VBZ	O	null	O	-1	B-verb.motion
+0	11	174	860	864	S	176	some	some	some	DT	O	det	O	-1	O
+0	11	175	865	868	S	176	hot	hot	hot	JJ	O	amod	O	-1	O
+0	11	176	869	875		173	checks	checks	check	NNS	O	dobj	O	-1	B-noun.possession
+0	11	177	875	876	S	173	,	,	,	,	O	punct	O	-1	O
+0	11	178	877	880	S	173	and	and	and	CC	O	cc	O	-1	O
+0	11	179	881	884	S	180	the	the	the	DT	O	dep	O	-1	O
+0	11	180	885	888	S	181	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	11	181	889	893	S	173	flee	flee	flee	VBP	O	conj	O	-1	B-verb.motion
+0	11	182	894	896	S	181	to	to	to	TO	O	prep	O	-1	O
+0	11	183	897	903		182	Mexico	Mexico	Mexico	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	11	184	903	904	S	173	.	.	.	.	O	punct	O	-1	O
+0	12	185	905	910	S	188	Perry	Perry	Perry	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	12	186	911	914	S	188	has	has	have	VBZ	O	aux	O	-1	O
+0	12	187	915	921	S	188	always	always	always	RB	O	advmod	O	-1	O
+0	12	188	922	929	S	-1	dreamed	dreamed	dream	VBN	O	null	O	-1	B-verb.creation
+0	12	189	930	932	S	188	of	of	of	IN	O	prep	O	-1	O
+0	12	190	933	940	S	189	finding	finding	find	VBG	O	pcomp	O	-1	B-verb.possession
+0	12	191	941	947	S	192	sunken	sunken	sunken	JJ	O	amod	O	-1	O
+0	12	192	948	956	S	190	treasure	treasure	treasure	NN	O	dobj	O	-1	B-noun.possession
+0	12	193	957	959	S	192	in	in	in	IN	O	prep	O	-1	O
+0	12	194	960	966		193	Mexico	Mexico	Mexico	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	12	195	966	967	S	188	.	.	.	.	O	punct	O	-1	O
+0	13	196	968	973	S	201	While	While	while	IN	O	mark	O	-1	O
+0	13	197	974	977	S	198	the	the	the	DT	O	det	O	-1	O
+0	13	198	978	991	S	201	investigation	investigation	investigation	NN	O	nsubj	O	-1	B-noun.cognition
+0	13	199	992	994	S	198	in	in	in	IN	O	prep	O	-1	O
+0	13	200	995	1001	S	199	Kansas	Kansas	Kansas	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	13	201	1002	1008	S	213	begins	begins	begin	VBZ	O	advcl	O	-1	B-verb.change
+0	13	202	1009	1011	S	204	to	to	to	TO	O	aux	O	-1	O
+0	13	203	1012	1024	S	204	methodically	methodically	methodically	RB	O	advmod	O	-1	O
+0	13	204	1025	1031	S	201	follow	follow	follow	VB	O	xcomp	O	-1	B-verb.change
+0	13	205	1032	1034	S	204	up	up	up	RP	O	prt	O	-1	O
+0	13	206	1035	1039	S	207	dead	dead	dead	JJ	O	amod	O	-1	O
+0	13	207	1040	1043	S	204	end	end	end	NN	O	dobj	O	-1	B-noun.location
+0	13	208	1044	1049		213	leads	leads	lead	VBZ	O	dep	O	-1	B-verb.stative
+0	13	209	1049	1050	S	213	,	,	,	,	O	punct	O	-1	O
+0	13	210	1051	1056	S	213	Perry	Perry	Perry	NNP	PERSON	nsubj	O	1	B-noun.person
+0	13	211	1057	1060	S	210	and	and	and	CC	O	cc	O	-1	O
+0	13	212	1061	1065	S	210	Dick	Dick	Dick	NNP	PERSON	conj	O	0	B-noun.person
+0	13	213	1066	1071	S	-1	spend	spend	spend	VBP	O	null	O	-1	B-verb.stative
+0	13	214	1072	1076	S	215	some	some	some	DT	O	det	O	-1	O
+0	13	215	1077	1081	S	213	time	time	time	NN	O	dobj	O	-1	B-noun.time
+0	13	216	1082	1094	S	215	entertaining	entertaining	entertain	VBG	O	dep	O	-1	B-verb.social
+0	13	217	1095	1096	S	220	a	a	a	DT	O	det	O	-1	O
+0	13	218	1097	1101	S	220	rich	rich	rich	JJ	O	amod	O	-1	O
+0	13	219	1102	1108	S	218	German	German	german	JJ	MISC	dep	O	-1	O
+0	13	220	1109	1116	S	216	tourist	tourist	tourist	NN	O	dobj	O	-1	B-noun.person
+0	13	221	1117	1123	S	223	before	before	before	IN	O	mark	O	-1	O
+0	13	222	1124	1128	S	223	they	they	they	PRP	O	nsubj	O	-1	O
+0	13	223	1129	1132	S	216	run	run	run	VBP	O	advcl	O	-1	B-verb.stative
+0	13	224	1133	1136	S	223	out	out	out	IN	O	prep	O	-1	O
+0	13	225	1137	1139	S	224	of	of	of	IN	O	dep	O	-1	O
+0	13	226	1140	1145	S	225	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	13	227	1146	1148	S	223	in	in	in	IN	O	prep	O	-1	O
+0	13	228	1149	1155	S	229	Mexico	Mexico	Mexico	NNP	LOCATION	nn	O	-1	B-noun.location
+0	13	229	1156	1160		227	City	City	City	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	13	230	1160	1161	S	213	.	.	.	.	O	punct	O	-1	O
+0	14	231	1162	1167	S	234	While	While	while	IN	O	mark	O	-1	O
+0	14	232	1168	1175	S	234	packing	packing	packing	NN	O	nsubj	O	-1	B-noun.substance
+0	14	233	1176	1178	S	234	to	to	to	TO	O	aux	O	-1	O
+0	14	234	1179	1185	S	240	return	return	return	VB	O	advcl	O	-1	B-verb.motion
+0	14	235	1186	1188	S	234	to	to	to	TO	O	prep	O	-1	O
+0	14	236	1189	1192	S	237	the	the	the	DT	O	det	O	-1	O
+0	14	237	1193	1199		235	states	states	state	NNS	O	pobj	O	-1	B-noun.location
+0	14	238	1199	1200	S	240	,	,	,	,	O	punct	O	-1	O
+0	14	239	1201	1206	S	240	Perry	Perry	Perry	NNP	PERSON	nsubj	O	1	B-noun.person
+0	14	240	1207	1211	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.perception
+0	14	241	1212	1219	S	240	through	through	through	IN	O	prep	O	-1	O
+0	14	242	1220	1223	S	244	his	his	he	PRP$	O	poss	O	1	O
+0	14	243	1224	1232	S	244	personal	personal	personal	JJ	O	amod	O	-1	O
+0	14	244	1233	1243	S	241	belongings	belongings	belongings	NNS	O	pobj	O	-1	B-noun.feeling
+0	14	245	1244	1247	S	240	and	and	and	CC	O	cc	O	-1	O
+0	14	246	1248	1257	S	240	remembers	remembers	remember	VBZ	O	conj	O	-1	B-verb.cognition
+0	14	247	1258	1261	S	248	his	his	he	PRP$	O	poss	O	1	O
+0	14	248	1262	1271		246	childhood	childhood	childhood	NN	O	dobj	O	-1	B-noun.time
+0	14	249	1271	1272	S	240	.	.	.	.	O	punct	O	-1	O
+0	15	250	1273	1276	S	251	His	His	he	PRP$	O	poss	O	1	O
+0	15	251	1277	1283	S	254	mother	mother	mother	NN	O	nsubj	O	-1	B-noun.person
+0	15	252	1284	1287	S	251	and	and	and	CC	O	cc	O	-1	O
+0	15	253	1288	1294	S	251	father	father	father	NN	O	conj	O	-1	B-noun.person
+0	15	254	1295	1299	S	-1	rode	rode	ride	VBD	O	null	O	-1	B-verb.motion
+0	15	255	1300	1303	S	257	the	the	the	DT	O	det	O	-1	O
+0	15	256	1304	1309	S	257	rodeo	rodeo	rodeo	NN	O	nn	O	-1	B-noun.act
+0	15	257	1310	1317	S	254	circuit	circuit	circuit	NN	O	dobj	O	-1	B-noun.artifact
+0	15	258	1318	1323	S	260	until	until	until	IN	O	mark	O	-1	O
+0	15	259	1324	1328	S	260	they	they	they	PRP	O	nsubj	O	-1	O
+0	15	260	1329	1332	S	254	had	had	have	VBD	O	advcl	O	-1	B-verb.possession
+0	15	261	1333	1334	S	260	a	a	a	DT	O	dobj	O	-1	O
+0	15	262	1335	1342	S	261	falling	falling	fall	VBG	O	amod	O	-1	B-verb.motion
+0	15	263	1343	1346		260	out	out	out	RP	O	prt	O	-1	O
+0	15	264	1346	1347	S	254	.	.	.	.	O	punct	O	-1	O
+0	16	265	1348	1353	S	267	Perry	Perry	Perry	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	16	266	1354	1357	S	267	was	was	be	VBD	O	auxpass	O	-1	O
+0	16	267	1358	1364	S	-1	passed	passed	pass	VBN	O	null	O	-1	B-verb.motion
+0	16	268	1365	1369	S	267	from	from	from	IN	O	prep	O	-1	O
+0	16	269	1370	1374	S	268	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	16	270	1375	1377	S	267	to	to	to	TO	O	prep	O	-1	O
+0	16	271	1378	1382	S	270	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	16	272	1383	1385	S	267	as	as	as	IN	O	prep	O	-1	O
+0	16	273	1386	1387	S	274	a	a	a	DT	O	det	O	-1	O
+0	16	274	1388	1393		272	child	child	child	NN	O	pobj	O	-1	B-noun.person
+0	16	275	1393	1394	S	267	.	.	.	.	O	punct	O	-1	O
+0	17	276	1395	1398		284	Now	Now	now	RB	DATE	advmod	O	-1	O
+0	17	277	1398	1399	S	284	,	,	,	,	O	punct	O	-1	O
+0	17	278	1400	1403	S	284	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	17	279	1404	1406	S	278	of	of	of	IN	O	prep	O	-1	O
+0	17	280	1407	1410	S	282	his	his	he	PRP$	O	poss	O	1	O
+0	17	281	1411	1416	S	282	three	three	three	CD	NUMBER	num	O	-1	O
+0	17	282	1417	1425	S	279	siblings	siblings	sibling	NNS	O	pobj	O	-1	B-noun.person
+0	17	283	1426	1430	S	284	have	have	have	VBP	O	aux	O	-1	O
+0	17	284	1431	1437	S	-1	killed	killed	kill	VBN	O	null	O	-1	B-verb.contact
+0	17	285	1438	1448		284	themselves	themselves	themselves	PRP	O	dobj	O	-1	O
+0	17	286	1448	1449	S	284	.	.	.	.	O	punct	O	-1	O
+0	18	287	1450	1453	S	288	The	The	the	DT	O	det	O	-1	O
+0	18	288	1454	1467	S	293	investigation	investigation	investigation	NN	O	nsubj	O	-1	B-noun.cognition
+0	18	289	1468	1470	S	288	of	of	of	IN	O	prep	O	-1	O
+0	18	290	1471	1474	S	292	the	the	the	DT	O	det	O	-1	O
+0	18	291	1475	1482	S	292	Clutter	Clutter	clutter	NN	O	nn	O	-1	B-noun.state
+0	18	292	1483	1490	S	289	murders	murders	murder	NNS	O	pobj	O	-1	B-noun.act
+0	18	293	1491	1496	S	-1	seems	seems	seem	VBZ	O	null	O	-1	B-verb.perception
+0	18	294	1497	1499	S	296	to	to	to	TO	O	aux	O	-1	O
+0	18	295	1500	1502	S	296	be	be	be	VB	O	aux	O	-1	O
+0	18	296	1503	1510	S	293	heading	heading	head	VBG	O	xcomp	O	-1	B-verb.motion
+0	18	297	1511	1518		296	nowhere	nowhere	nowhere	RB	O	advmod	O	-1	O
+0	18	298	1518	1519	S	293	.	.	.	.	O	punct	O	-1	O
+0	19	299	1520	1527		314	However	However	however	RB	O	advmod	O	-1	O
+0	19	300	1527	1528	S	314	,	,	,	,	O	punct	O	-1	O
+0	19	301	1529	1530	S	302	a	a	a	DT	O	det	O	-1	O
+0	19	302	1531	1534	S	314	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	19	303	1535	1537	S	302	in	in	in	IN	O	prep	O	-1	O
+0	19	304	1538	1541	S	307	the	the	the	DT	O	det	O	-1	O
+0	19	305	1542	1548	S	307	Kansas	Kansas	Kansas	NNP	LOCATION	nn	O	-1	B-noun.group
+0	19	306	1549	1554	S	307	state	state	state	NN	O	nn	O	-1	B-noun.artifact
+0	19	307	1555	1561	S	303	prison	prison	prison	NN	O	pobj	O	-1	I-noun.artifact
+0	19	308	1562	1564	S	302	at	at	at	IN	O	prep	O	-1	O
+0	19	309	1565	1572		308	Lansing	Lansing	Lansing	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	19	310	1572	1573	S	309	,	,	,	,	O	punct	O	-1	O
+0	19	311	1574	1579	S	312	Floyd	Floyd	Floyd	NNP	PERSON	nn	O	-1	O
+0	19	312	1580	1585		309	Wells	Wells	Wells	NNP	PERSON	appos	O	-1	O
+0	19	313	1585	1586	S	302	,	,	,	,	O	punct	O	-1	O
+0	19	314	1587	1592	S	-1	hears	hears	hear	VBZ	O	null	O	-1	B-verb.perception
+0	19	315	1593	1595	S	314	of	of	of	IN	O	prep	O	-1	O
+0	19	316	1596	1599	S	318	the	the	the	DT	O	det	O	-1	O
+0	19	317	1600	1606	S	318	murder	murder	murder	NN	O	nn	O	-1	B-noun.act
+0	19	318	1607	1611		315	case	case	case	NN	O	pobj	O	-1	B-noun.event
+0	19	319	1611	1612	S	314	.	.	.	.	O	punct	O	-1	O
+0	20	320	1613	1617	S	328	Sure	Sure	sure	JJ	O	ccomp	O	-1	O
+0	20	321	1618	1622	S	325	that	that	that	IN	O	complm	O	-1	O
+0	20	322	1623	1627	S	323	Dick	Dick	Dick	NNP	PERSON	nn	O	0	B-noun.person
+0	20	323	1628	1635	S	325	Hickock	Hickock	Hickock	NNP	PERSON	nsubj	O	0	I-noun.person
+0	20	324	1636	1638	S	325	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	20	325	1639	1650		320	responsible	responsible	responsible	JJ	O	ccomp	O	-1	O
+0	20	326	1650	1651	S	328	,	,	,	,	O	punct	O	-1	O
+0	20	327	1652	1654	S	328	he	he	he	PRP	O	nsubj	O	0	O
+0	20	328	1655	1661	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	20	329	1662	1664	S	330	to	to	to	TO	O	aux	O	-1	O
+0	20	330	1665	1670	S	328	think	think	think	VB	O	xcomp	O	-1	B-verb.cognition
+0	20	331	1671	1673	S	330	of	of	of	IN	O	prep	O	-1	O
+0	20	332	1674	1681	S	331	talking	talking	talk	VBG	O	pcomp	O	-1	B-verb.communication
+0	20	333	1682	1684	S	332	to	to	to	TO	O	prep	O	-1	O
+0	20	334	1685	1688	S	335	the	the	the	DT	O	det	O	-1	O
+0	20	335	1689	1700		333	authorities	authorities	authority	NNS	O	pobj	O	-1	B-noun.group
+0	20	336	1700	1701	S	328	.	.	.	.	O	punct	O	-1	O
+0	21	337	1702	1711		343	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	21	338	1711	1712	S	343	,	,	,	,	O	punct	O	-1	O
+0	21	339	1713	1717	S	343	Dick	Dick	Dick	NNP	PERSON	nsubj	O	0	B-noun.person
+0	21	340	1718	1721	S	339	and	and	and	CC	O	cc	O	-1	O
+0	21	341	1722	1727	S	339	Perry	Perry	Perry	NNP	PERSON	conj	O	1	B-noun.person
+0	21	342	1728	1731	S	343	are	are	be	VBP	O	aux	O	-1	O
+0	21	343	1732	1743	S	-1	hitchhiking	hitchhiking	hitchhike	VBG	O	null	O	-1	B-verb.motion
+0	21	344	1744	1746	S	343	in	in	in	IN	O	prep	O	-1	O
+0	21	345	1747	1750	S	347	the	the	the	DT	O	det	O	-1	O
+0	21	346	1751	1759	S	347	American	American	american	JJ	MISC	amod	O	-1	O
+0	21	347	1760	1766		344	desert	desert	desert	NN	O	pobj	O	-1	O
+0	21	348	1766	1767	S	343	.	.	.	.	O	punct	O	-1	O
+0	22	349	1768	1772	S	350	They	They	they	PRP	O	nsubj	O	-1	O
+0	22	350	1773	1776	S	-1	try	try	try	VBP	O	null	O	-1	B-verb.social
+0	22	351	1777	1779	S	352	to	to	to	TO	O	aux	O	-1	O
+0	22	352	1780	1785	S	350	steal	steal	steal	VB	O	xcomp	O	-1	B-verb.possession
+0	22	353	1786	1787	S	354	a	a	a	DT	O	det	O	-1	O
+0	22	354	1788	1791		352	car	car	car	NN	O	dobj	O	-1	B-noun.artifact
+0	22	355	1791	1792	S	350	,	,	,	,	O	punct	O	-1	O
+0	22	356	1793	1796	S	350	but	but	but	CC	O	cc	O	-1	O
+0	22	357	1797	1801		350	fail	fail	fail	VBP	O	conj	O	-1	B-verb.social
+0	22	358	1801	1802	S	350	.	.	.	.	O	punct	O	-1	O
+0	23	359	1803	1805	S	365	By	By	by	IN	O	prep	O	-1	O
+0	23	360	1806	1810	S	361	this	this	this	DT	O	det	O	-1	O
+0	23	361	1811	1815		359	time	time	time	NN	O	pobj	O	-1	B-noun.event
+0	23	362	1815	1816	S	365	,	,	,	,	O	punct	O	-1	O
+0	23	363	1817	1822	S	365	Floyd	Floyd	Floyd	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	23	364	1823	1826	S	365	has	has	have	VBZ	O	aux	O	-1	O
+0	23	365	1827	1836		-1	confessed	confessed	confess	VBN	O	null	O	-1	B-verb.communication
+0	23	366	1836	1837	S	365	,	,	,	,	O	punct	O	-1	O
+0	23	367	1838	1841	S	365	and	and	and	CC	O	cc	O	-1	O
+0	23	368	1842	1847	S	365	Dewey	Dewey	Dewey	NNP	PERSON	conj	O	-1	B-noun.person
+0	23	369	1848	1851	S	368	and	and	and	CC	O	cc	O	-1	O
+0	23	370	1852	1855	S	371	his	his	he	PRP$	O	poss	O	-1	O
+0	23	371	1856	1860	S	368	team	team	team	NN	O	conj	O	-1	B-noun.group
+0	23	372	1861	1864	S	373	are	are	be	VBP	O	aux	O	-1	O
+0	23	373	1865	1874	S	365	beginning	beginning	begin	VBG	O	advcl	O	-1	B-verb.change
+0	23	374	1875	1877	S	376	an	an	a	DT	O	det	O	-1	O
+0	23	375	1878	1887	S	376	elaborate	elaborate	elaborate	JJ	O	amod	O	-1	O
+0	23	376	1888	1895		373	manhunt	manhunt	manhunt	NN	O	dobj	O	-1	B-noun.act
+0	23	377	1895	1896	S	365	.	.	.	.	O	punct	O	-1	O
+0	24	378	1897	1903	S	381	Before	Before	before	IN	O	mark	O	-1	O
+0	24	379	1904	1908	S	381	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	24	380	1909	1912	S	381	are	are	be	VBP	O	auxpass	O	-1	O
+0	24	381	1913	1919		386	caught	caught	catch	VBN	O	advcl	O	-1	B-verb.cognition
+0	24	382	1919	1920	S	386	,	,	,	,	O	punct	O	-1	O
+0	24	383	1921	1925	S	386	Dick	Dick	Dick	NNP	PERSON	nsubj	O	0	B-noun.person
+0	24	384	1926	1929	S	383	and	and	and	CC	O	cc	O	-1	O
+0	24	385	1930	1935	S	383	Perry	Perry	Perry	NNP	PERSON	conj	O	1	B-noun.person
+0	24	386	1936	1941	S	-1	steal	steal	steal	VBP	O	null	O	-1	B-verb.possession
+0	24	387	1942	1943	S	388	a	a	a	DT	O	det	O	-1	O
+0	24	388	1944	1947		386	car	car	car	NN	O	dobj	O	-1	B-noun.artifact
+0	24	389	1947	1948	S	388	,	,	,	,	O	punct	O	-1	O
+0	24	390	1949	1955	S	388	return	return	return	NN	O	appos	O	-1	B-noun.communication
+0	24	391	1956	1958	S	390	to	to	to	TO	O	prep	O	-1	O
+0	24	392	1959	1965	S	393	Kansas	Kansas	Kansas	NNP	LOCATION	nn	O	-1	B-noun.location
+0	24	393	1966	1970		391	City	City	City	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	24	394	1970	1971	S	386	,	,	,	,	O	punct	O	-1	O
+0	24	395	1972	1976	S	386	pass	pass	pass	VB	O	conj	O	-1	B-verb.motion
+0	24	396	1977	1981	S	398	more	more	more	JJR	O	amod	O	-1	O
+0	24	397	1982	1985	S	398	hot	hot	hot	JJ	O	amod	O	-1	O
+0	24	398	1986	1992		395	checks	checks	check	NNS	O	dobj	O	-1	B-noun.possession
+0	24	399	1992	1993	S	386	,	,	,	,	O	punct	O	-1	O
+0	24	400	1994	1997	S	386	and	and	and	CC	O	cc	O	-1	O
+0	24	401	1998	2002	S	386	take	take	take	VB	O	conj	O	-1	B-verb.change
+0	24	402	2003	2005	S	401	up	up	up	RP	O	prt	O	-1	O
+0	24	403	2006	2015	S	401	residence	residence	residence	NN	O	dobj	O	-1	B-noun.location
+0	24	404	2016	2018	S	401	in	in	in	IN	O	prep	O	-1	O
+0	24	405	2019	2024		404	Miami	Miami	Miami	NNP	LOCATION	pobj	O	-1	B-noun.person
+0	24	406	2024	2025	S	386	.	.	.	.	O	punct	O	-1	O
+0	25	407	2026	2030	S	409	They	They	they	PRP	O	nsubj	O	-1	O
+0	25	408	2031	2041	S	409	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	25	409	2042	2051	S	-1	backtrack	backtrack	backtrack	VBP	O	null	O	-1	B-verb.motion
+0	25	410	2052	2054	S	409	to	to	to	TO	O	prep	O	-1	O
+0	25	411	2055	2058	S	412	Las	Las	Las	NNP	LOCATION	nn	O	-1	B-noun.location
+0	25	412	2059	2064		410	Vegas	Vegas	Vegas	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	25	413	2064	2065	S	412	,	,	,	,	O	punct	O	-1	O
+0	25	414	2066	2071	S	417	where	where	where	WRB	O	advmod	O	-1	O
+0	25	415	2072	2073	S	416	a	a	a	DT	O	det	O	-1	O
+0	25	416	2074	2085	S	417	policewoman	policewoman	policewoman	NN	O	nsubj	O	-1	B-noun.person
+0	25	417	2086	2096	S	412	recognizes	recognizes	recognize	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	25	418	2097	2102	S	421	their	their	they	PRP$	O	poss	O	-1	O
+0	25	419	2103	2110	S	421	license	license	license	NN	O	nn	O	-1	B-noun.artifact
+0	25	420	2111	2116	S	421	plate	plate	plate	NN	O	nn	O	-1	I-noun.artifact
+0	25	421	2117	2123		417	number	number	number	NN	O	dobj	O	-1	O
+0	25	422	2123	2124	S	409	.	.	.	.	O	punct	O	-1	O
+0	26	423	2125	2129	S	424	Dick	Dick	Dick	NNP	PERSON	nsubj	O	0	B-noun.person
+0	26	424	2130	2139	S	-1	confesses	confesses	confess	VBZ	O	null	O	-1	B-verb.communication
+0	26	425	2140	2145	S	431	after	after	after	IN	O	mark	O	-1	O
+0	26	426	2146	2153	S	431	intense	intense	intense	JJ	O	nsubj	O	-1	O
+0	26	427	2154	2165		426	questioning	questioning	question	VBG	O	amod	O	-1	B-verb.communication
+0	26	428	2165	2166	S	426	,	,	,	,	O	punct	O	-1	O
+0	26	429	2167	2170	S	426	and	and	and	CC	O	cc	O	-1	O
+0	26	430	2171	2176	S	426	Perry	Perry	Perry	NNP	PERSON	conj	O	1	B-noun.person
+0	26	431	2177	2184	S	424	follows	follows	follow	VBZ	O	advcl	O	-1	B-verb.stative
+0	26	432	2185	2189		431	suit	suit	suit	NN	O	dobj	O	-1	B-noun.artifact
+0	26	433	2189	2190	S	424	.	.	.	.	O	punct	O	-1	O
+0	27	434	2191	2194	S	435	The	The	the	DT	O	det	O	-1	O
+0	27	435	2195	2200	S	436	trial	trial	trial	NN	O	nsubj	O	-1	B-noun.act
+0	27	436	2201	2205	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.motion
+0	27	437	2206	2214		436	smoothly	smoothly	smoothly	RB	O	advmod	O	-1	O
+0	27	438	2214	2215	S	436	,	,	,	,	O	punct	O	-1	O
+0	27	439	2216	2219	S	436	and	and	and	CC	O	cc	O	-1	O
+0	27	440	2220	2223	S	441	the	the	the	DT	O	dep	O	-1	O
+0	27	441	2224	2227	S	443	two	two	two	CD	NUMBER	nsubjpass	O	-1	O
+0	27	442	2228	2231	S	443	are	are	be	VBP	O	auxpass	O	-1	O
+0	27	443	2232	2241	S	436	condemned	condemned	condemn	VBN	O	conj	O	-1	B-verb.communication
+0	27	444	2242	2244	S	443	to	to	to	TO	O	prep	O	-1	O
+0	27	445	2245	2250		444	death	death	death	NN	O	pobj	O	-1	B-noun.phenomenon
+0	27	446	2250	2251	S	436	.	.	.	.	O	punct	O	-1	O
+0	28	447	2252	2258	S	-1	During	During	during	IN	O	null	O	-1	O
+0	28	448	2259	2260	S	451	a	a	a	DT	O	det	O	-1	O
+0	28	449	2261	2270	S	451	five-year	five-year	five-year	JJ	DURATION	amod	O	-1	O
+0	28	450	2271	2278	S	451	appeals	appeals	appeal	NNS	O	nn	O	-1	B-noun.communication
+0	28	451	2279	2286		447	process	process	process	NN	O	pobj	O	-1	O
+0	28	452	2286	2287	S	451	,	,	,	,	O	punct	O	-1	O
+0	28	453	2288	2292	S	456	Dick	Dick	Dick	NNP	PERSON	nsubj	O	0	B-noun.person
+0	28	454	2293	2296	S	453	and	and	and	CC	O	cc	O	-1	O
+0	28	455	2297	2302	S	453	Perry	Perry	Perry	NNP	PERSON	conj	O	1	B-noun.person
+0	28	456	2303	2311	S	451	languish	languish	languish	VBP	O	rcmod	O	-1	B-verb.change
+0	28	457	2312	2314	S	456	in	in	in	IN	O	prep	O	-1	O
+0	28	458	2315	2320	S	459	Death	Death	Death	NNP	O	nn	O	-1	O
+0	28	459	2321	2324		457	Row	Row	Row	NNP	O	pobj	O	-1	O
+0	28	460	2324	2325	S	447	.	.	.	.	O	punct	O	-1	O
+0	29	461	2326	2331	S	462	Perry	Perry	Perry	NNP	PERSON	nsubj	O	1	B-noun.person
+0	29	462	2332	2337	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	29	463	2338	2340	S	464	to	to	to	TO	O	aux	O	-1	O
+0	29	464	2341	2347	S	462	starve	starve	starve	VB	O	xcomp	O	-1	B-verb.consumption
+0	29	465	2348	2355	S	464	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	29	466	2356	2361	S	468	while	while	while	IN	O	mark	O	-1	O
+0	29	467	2362	2366	S	468	Dick	Dick	Dick	NNP	PERSON	nsubj	O	0	B-noun.person
+0	29	468	2367	2373	S	464	writes	writes	write	VBZ	O	advcl	O	-1	B-verb.creation
+0	29	469	2374	2381	S	468	letters	letters	letter	NNS	O	dobj	O	-1	B-noun.communication
+0	29	470	2382	2384	S	468	to	to	to	TO	O	prep	O	-1	O
+0	29	471	2385	2392	S	473	various	various	various	JJ	O	amod	O	-1	O
+0	29	472	2393	2400	S	473	appeals	appeals	appeal	NNS	O	nn	O	-1	B-noun.communication
+0	29	473	2401	2413		470	organization	organization	organization	NN	O	pobj	O	-1	B-noun.group
+0	29	474	2413	2414	S	462	.	.	.	.	O	punct	O	-1	O
+0	30	475	2415	2419	S	477	They	They	they	PRP	O	nsubjpass	O	-1	O
+0	30	476	2420	2423	S	477	are	are	be	VBP	O	auxpass	O	-1	O
+0	30	477	2424	2428	S	-1	kept	kept	keep	VBN	O	null	O	-1	B-verb.stative
+0	30	478	2429	2436	S	477	company	company	company	NN	O	dobj	O	-1	I-verb.stative
+0	30	479	2437	2439	S	477	by	by	by	IN	O	prep	O	-1	O
+0	30	480	2440	2447	S	482	various	various	various	JJ	O	amod	O	-1	O
+0	30	481	2448	2457	S	482	appalling	appalling	appalling	JJ	O	amod	O	-1	O
+0	30	482	2458	2467		479	criminals	criminals	criminal	NNS	O	pobj	O	-1	B-noun.person
+0	30	483	2467	2468	S	477	.	.	.	.	O	punct	O	-1	O
+0	31	484	2469	2473	S	486	When	When	when	WRB	O	advmod	O	-1	O
+0	31	485	2474	2479	S	486	death	death	death	NN	O	nsubj	O	-1	B-noun.event
+0	31	486	2480	2485		-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	31	487	2485	2486	S	490	,	,	,	,	O	punct	O	-1	O
+0	31	488	2487	2491	S	490	Dick	Dick	Dick	NNP	PERSON	nsubj	O	0	B-noun.person
+0	31	489	2492	2494	S	490	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	31	490	2495	2502	S	486	awkward	awkward	awkward	JJ	O	acomp	O	-1	O
+0	31	491	2503	2506	S	490	and	and	and	CC	O	cc	O	-1	O
+0	31	492	2507	2512	S	494	Perry	Perry	Perry	NNP	PERSON	nsubj	O	1	B-noun.person
+0	31	493	2513	2515	S	494	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	31	494	2516	2526		490	remorseful	remorseful	remorseful	JJ	O	conj	O	-1	O
+0	31	495	2526	2527	N	486	.	.	.	.	O	punct	O	-1	O

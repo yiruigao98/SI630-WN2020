@@ -1,0 +1,335 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	2	S	3	In	In	in	IN	O	prep	O	-1	O
+0	0	1	3	6	S	2	Our	Our	we	PRP$	O	poss	O	-1	O
+0	0	2	7	11	S	0	Time	Time	time	NN	O	pobj	O	-1	B-noun.time
+0	0	3	12	14	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	0	4	15	16	S	5	a	a	a	DT	O	det	O	-1	O
+0	0	5	17	27	S	3	collection	collection	collection	NN	O	nsubj	O	-1	B-noun.group
+0	0	6	28	30	S	5	of	of	of	IN	O	prep	O	-1	O
+0	0	7	31	36	S	8	short	short	short	JJ	O	amod	O	-1	O
+0	0	8	37	44	S	6	stories	stories	story	NNS	O	pobj	O	-1	B-noun.communication
+0	0	9	45	48	S	8	and	and	and	CC	O	cc	O	-1	O
+0	0	10	49	58	S	8	vignettes	vignettes	vignette	NNS	O	conj	O	-1	B-noun.communication
+0	0	11	59	64	S	8	about	about	about	IN	DURATION	prep	O	-1	O
+0	0	12	65	68	S	13	the	the	the	DT	DURATION	det	O	-1	O
+0	0	13	69	74	S	11	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	0	14	75	81		5	before	before	before	IN	O	advmod	O	-1	O
+0	0	15	81	82	S	3	,	,	,	,	O	punct	O	-1	O
+0	0	16	83	89		3	during	during	during	IN	O	prep	O	-1	O
+0	0	17	89	90	S	16	,	,	,	,	O	punct	O	-1	O
+0	0	18	91	94	S	16	and	and	and	CC	O	cc	O	-1	O
+0	0	19	95	100	S	16	after	after	after	IN	O	conj	O	-1	O
+0	0	20	101	106	S	22	World	World	World	NNP	MISC	nn	O	-1	B-noun.group
+0	0	21	107	110	S	22	War	War	War	NNP	MISC	nn	O	-1	I-noun.group
+0	0	22	111	112		19	I	I	I	NNP	O	pobj	O	-1	O
+0	0	23	112	113	S	3	.	.	.	.	O	punct	O	-1	O
+0	1	24	114	117	S	25	The	The	the	DT	O	det	O	-1	O
+0	1	25	118	125		32	stories	stories	story	NNS	O	nsubjpass	O	-1	B-noun.communication
+0	1	26	125	126	S	25	,	,	,	,	O	punct	O	-1	O
+0	1	27	127	132	S	29	which	which	which	WDT	O	nsubjpass	O	-1	O
+0	1	28	133	136	S	29	are	are	be	VBP	O	auxpass	O	-1	O
+0	1	29	137	143		25	titled	titled	title	VBN	O	rcmod	O	-1	B-verb.communication
+0	1	30	143	144	S	25	,	,	,	,	O	punct	O	-1	O
+0	1	31	145	148	S	32	are	are	be	VBP	O	auxpass	O	-1	O
+0	1	32	149	158	S	-1	separated	separated	separate	VBN	O	null	O	-1	B-verb.stative
+0	1	33	159	161	S	32	by	by	by	IN	O	prep	O	-1	O
+0	1	34	162	171		33	vignettes	vignettes	vignette	NNS	O	pobj	O	-1	B-noun.communication
+0	1	35	171	172	S	34	,	,	,	,	O	punct	O	-1	O
+0	1	36	173	177	S	41	each	each	each	DT	O	nsubj	O	-1	O
+0	1	37	178	180	S	36	of	of	of	IN	O	prep	O	-1	O
+0	1	38	181	186	S	37	which	which	which	WDT	O	pobj	O	-1	O
+0	1	39	187	189	S	41	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	40	190	191	S	41	a	a	a	DT	O	det	O	-1	O
+0	1	41	192	199		34	chapter	chapter	chapter	NN	O	rcmod	O	-1	B-noun.communication
+0	1	42	199	200	S	32	.	.	.	.	O	punct	O	-1	O
+0	2	43	201	204	S	45	The	The	the	DT	O	det	O	-1	O
+0	2	44	205	210	S	45	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	2	45	211	216		55	story	story	story	NN	O	nsubj	O	-1	B-noun.communication
+0	2	46	216	217	S	45	,	,	,	,	O	punct	O	-1	O
+0	2	47	218	219		45	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	2	48	219	221	S	45	On	On	on	IN	O	prep	I-QUOTE	-1	O
+0	2	49	222	225	S	50	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	2	50	226	230	S	48	Quai	Quai	Quai	NNP	O	pobj	I-QUOTE	-1	B-noun.person
+0	2	51	231	233	S	50	at	at	at	IN	O	prep	I-QUOTE	-1	O
+0	2	52	234	240		51	Smyrna	Smyrna	Smyrna	NNP	LOCATION	pobj	I-QUOTE	-1	B-noun.location
+0	2	53	240	241		55	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	54	241	242	S	55	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	2	55	243	253	S	-1	introduces	introduces	introduce	VBZ	O	null	O	-1	B-verb.communication
+0	2	56	254	257	S	57	the	the	the	DT	O	det	O	-1	O
+0	2	57	258	261	S	55	war	war	war	NN	O	dobj	O	-1	B-noun.act
+0	2	58	262	269	S	55	through	through	through	IN	O	prep	O	-1	O
+0	2	59	270	271	S	60	a	a	a	DT	O	det	O	-1	O
+0	2	60	272	283	S	58	description	description	description	NN	O	pobj	O	-1	B-noun.communication
+0	2	61	284	286	S	60	of	of	of	IN	O	prep	O	-1	O
+0	2	62	287	289	S	63	an	an	a	DT	O	det	O	-1	O
+0	2	63	290	300		61	evacuation	evacuation	evacuation	NN	O	pobj	O	-1	B-noun.act
+0	2	64	300	301	S	55	.	.	.	.	O	punct	O	-1	O
+0	3	65	302	306		108	Then	Then	then	RB	O	advmod	O	-1	O
+0	3	66	306	307	S	108	,	,	,	,	O	punct	O	-1	O
+0	3	67	308	309		69	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	68	309	315	S	69	Indian	Indian	indian	JJ	MISC	amod	I-QUOTE	-1	O
+0	3	69	316	320		108	Camp	Camp	Camp	NNP	MISC	nsubj	I-QUOTE	-1	B-noun.group
+0	3	70	320	321		69	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	3	71	321	322	S	69	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	72	323	324		74	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	73	324	327	S	74	The	The	the	DT	O	det	I-QUOTE	-1	O
+0	3	74	328	334	S	97	Doctor	Doctor	doctor	NN	O	dep	I-QUOTE	-1	B-noun.person
+0	3	75	335	338	S	74	and	and	and	CC	O	cc	I-QUOTE	-1	O
+0	3	76	339	342	S	77	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	3	77	343	349		79	Doctor	Doctor	Doctor	NNP	O	poss	I-QUOTE	-1	B-noun.person
+0	3	78	349	351	S	77	's	's	's	POS	O	possessive	I-QUOTE	-1	O
+0	3	79	352	356		74	Wife	Wife	Wife	NNP	O	conj	I-QUOTE	-1	B-noun.person
+0	3	80	356	357		74	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	3	81	357	358	S	74	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	82	359	360		74	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	83	360	363	S	84	The	The	the	DT	O	det	I-QUOTE	-1	O
+0	3	84	364	367	S	74	End	End	end	NN	O	conj	I-QUOTE	-1	B-noun.location
+0	3	85	368	370	S	84	of	of	of	IN	O	prep	I-QUOTE	-1	O
+0	3	86	371	380		85	Something	Something	something	NN	O	pobj	I-QUOTE	-1	O
+0	3	87	380	381		74	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	3	88	381	382	S	74	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	89	383	384		74	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	90	384	387	S	92	The	The	the	DT	O	det	I-QUOTE	-1	O
+0	3	91	388	397	S	92	Three-Day	Three-Day	Three-Day	NNP	DURATION	nn	I-QUOTE	-1	O
+0	3	92	398	402		74	Blow	Blow	Blow	NNP	O	dep	I-QUOTE	-1	O
+0	3	93	402	403		74	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	3	94	403	404	S	74	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	95	405	406		97	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	96	406	409	S	97	The	The	the	DT	O	det	I-QUOTE	-1	O
+0	3	97	410	417		69	Battler	Battler	Battler	NNP	MISC	conj	I-QUOTE	-1	B-noun.person
+0	3	98	417	418	S	97	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	99	419	422	S	69	and	and	and	CC	O	cc	O	-1	O
+0	3	100	423	430	S	105	perhaps	perhaps	perhaps	RB	O	advmod	O	-1	O
+0	3	101	431	432		105	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	3	102	432	433	S	105	A	A	a	DT	O	det	I-QUOTE	-1	O
+0	3	103	434	438	S	104	Very	Very	very	RB	O	advmod	I-QUOTE	-1	O
+0	3	104	439	444	S	105	Short	Short	short	JJ	O	amod	I-QUOTE	-1	O
+0	3	105	445	450		69	Story	Story	Story	NNP	O	conj	I-QUOTE	-1	O
+0	3	106	450	451	S	69	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	3	107	452	455	S	108	all	all	all	DT	O	dep	O	-1	O
+0	3	108	456	464	S	-1	describe	describe	describe	VBP	O	null	O	-1	B-verb.communication
+0	3	109	465	467	S	110	an	an	a	DT	O	det	O	-1	O
+0	3	110	468	477	S	108	encounter	encounter	encounter	NN	O	dobj	O	-1	B-noun.act
+0	3	111	478	480	S	110	in	in	in	IN	O	prep	O	-1	O
+0	3	112	481	484	S	113	the	the	the	DT	O	det	O	-1	O
+0	3	113	485	489	S	111	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	3	114	490	492	S	113	of	of	of	IN	O	prep	O	-1	O
+0	3	115	493	497	S	116	Nick	Nick	Nick	NNP	PERSON	nn	O	0	O
+0	3	116	498	503		114	Adams	Adams	Adams	NNP	PERSON	pobj	O	0	O
+0	3	117	503	504	S	108	.	.	.	.	O	punct	O	-1	O
+0	4	118	505	512	S	123	Through	Through	through	IN	O	prep	O	-1	O
+0	4	119	513	518	S	120	these	these	these	DT	O	det	O	-1	O
+0	4	120	519	526		118	stories	stories	story	NNS	O	pobj	O	-1	B-noun.communication
+0	4	121	526	527	S	123	,	,	,	,	O	punct	O	-1	O
+0	4	122	528	532	S	123	Nick	Nick	Nick	NNP	PERSON	nsubj	O	0	O
+0	4	123	533	538	S	-1	seems	seems	seem	VBZ	O	null	O	-1	B-verb.perception
+0	4	124	539	541	S	126	to	to	to	TO	O	aux	O	-1	O
+0	4	125	542	544	S	126	be	be	be	VB	O	aux	O	-1	O
+0	4	126	545	552	S	123	growing	growing	grow	VBG	O	xcomp	O	-1	B-verb.change
+0	4	127	553	555		126	up	up	up	RP	O	prt	O	-1	O
+0	4	128	555	556	S	123	.	.	.	.	O	punct	O	-1	O
+0	5	129	557	560	S	130	The	The	the	DT	O	det	O	-1	O
+0	5	130	561	570	S	132	vignettes	vignettes	vignette	NNS	O	nsubj	O	-1	B-noun.communication
+0	5	131	571	574	S	132	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	5	132	575	581	S	-1	scenes	scenes	scene	NNS	O	null	O	-1	B-noun.communication
+0	5	133	582	586	S	132	from	from	from	IN	O	prep	O	-1	O
+0	5	134	587	590		133	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	5	135	590	591	S	134	,	,	,	,	O	punct	O	-1	O
+0	5	136	592	594	S	141	in	in	in	IN	O	rel	O	-1	O
+0	5	137	595	600	S	136	which	which	which	WDT	O	pobj	O	-1	O
+0	5	138	601	604	S	139	few	few	few	JJ	O	amod	O	-1	O
+0	5	139	605	615	S	141	characters	characters	character	NNS	O	nsubjpass	O	-1	B-noun.person
+0	5	140	616	619	S	141	are	are	be	VBP	O	auxpass	O	-1	O
+0	5	141	620	625		134	named	named	name	VBN	O	rcmod	O	-1	B-verb.communication
+0	5	142	625	626	S	132	.	.	.	.	O	punct	O	-1	O
+0	6	143	627	634	S	144	Chapter	Chapter	chapter	NN	O	nn	O	-1	O
+0	6	144	635	637		154	VI	VI	VI	NNP	O	nsubj	O	-1	O
+0	6	145	637	638	S	144	,	,	,	,	O	punct	O	-1	O
+0	6	146	639	644	S	149	after	after	after	IN	O	dep	O	-1	O
+0	6	147	645	646		149	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	6	148	646	649	S	149	The	The	the	DT	O	det	I-QUOTE	-1	O
+0	6	149	650	657		144	Battler	Battler	Battler	NNP	MISC	appos	I-QUOTE	-1	B-noun.person
+0	6	150	657	658		144	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	6	151	658	659	S	144	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	6	152	660	662	S	154	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	153	663	668	S	154	about	about	about	RB	O	advmod	O	-1	O
+0	6	154	669	673	S	-1	Nick	Nick	Nick	NNP	PERSON	null	O	0	B-noun.person
+0	6	155	674	676	S	154	in	in	in	IN	O	prep	O	-1	O
+0	6	156	677	680	S	157	the	the	the	DT	O	det	O	-1	O
+0	6	157	681	684		155	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	6	158	684	685	S	154	.	.	.	.	O	punct	O	-1	O
+0	7	159	686	691	S	164	After	After	after	IN	O	prep	O	-1	O
+0	7	160	692	696		159	that	that	that	DT	O	pobj	O	-1	O
+0	7	161	696	697	S	164	,	,	,	,	O	punct	O	-1	O
+0	7	162	698	701	S	163	the	the	the	DT	O	det	O	-1	O
+0	7	163	702	711	S	164	vignettes	vignettes	vignette	NNS	O	nsubj	O	-1	B-noun.communication
+0	7	164	712	716	S	-1	turn	turn	turn	VBP	O	null	O	-1	B-verb.motion
+0	7	165	717	721	S	164	away	away	away	RB	O	advmod	O	-1	O
+0	7	166	722	726	S	165	from	from	from	IN	O	dep	O	-1	O
+0	7	167	727	734	S	166	stories	stories	story	NNS	O	pobj	O	-1	B-noun.communication
+0	7	168	735	737	S	167	of	of	of	IN	O	prep	O	-1	O
+0	7	169	738	741	S	170	the	the	the	DT	O	det	O	-1	O
+0	7	170	742	745	S	168	war	war	war	NN	O	pobj	O	-1	B-noun.act
+0	7	171	746	749	S	170	and	and	and	CC	O	cc	O	-1	O
+0	7	172	750	753	S	174	the	the	the	DT	O	det	O	-1	O
+0	7	173	754	759	S	174	short	short	short	JJ	O	amod	O	-1	O
+0	7	174	760	767	S	175	stories	stories	story	NNS	O	nsubj	O	-1	B-noun.communication
+0	7	175	768	772	S	170	take	take	take	VBP	O	conj	O	-1	B-verb.stative
+0	7	176	773	775	S	175	up	up	up	RP	O	prt	O	-1	O
+0	7	177	776	777	S	179	a	a	a	DT	O	det	O	-1	O
+0	7	178	778	787	S	179	different	different	different	JJ	O	amod	O	-1	O
+0	7	179	788	795		175	subject	subject	subject	NN	O	dobj	O	-1	B-noun.communication
+0	7	180	795	796	S	164	.	.	.	.	O	punct	O	-1	O
+0	8	181	797	798		-1	"	``	``	``	O	null	B-QUOTE	-1	O
+0	8	182	798	799	S	183	A	A	a	DT	O	det	I-QUOTE	-1	O
+0	8	183	800	807		185	Soldier	Soldier	soldier	NN	O	poss	I-QUOTE	-1	B-noun.person
+0	8	184	807	809	S	183	's	's	's	POS	O	possessive	I-QUOTE	-1	O
+0	8	185	810	814		181	Home	Home	home	NN	O	null	I-QUOTE	-1	O
+0	8	186	814	815	S	185	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	8	187	816	818	S	186	is	is	be	VBZ	O	dep	O	-1	B-verb.stative
+0	8	188	819	824	S	187	about	about	about	IN	O	prep	O	-1	O
+0	8	189	825	826	S	190	a	a	a	DT	O	det	O	-1	O
+0	8	190	827	834	S	188	soldier	soldier	soldier	NN	O	pobj	O	-1	B-noun.person
+0	8	191	835	840	S	190	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	8	192	841	846	S	191	Krebs	Krebs	Krebs	NNP	PERSON	tmod	O	-1	B-noun.person
+0	8	193	847	856	S	187	returning	returning	return	VBG	O	xcomp	O	-1	B-verb.motion
+0	8	194	857	859	S	193	to	to	to	TO	O	prep	O	-1	O
+0	8	195	860	863	S	196	his	his	he	PRP$	O	poss	O	-1	O
+0	8	196	864	872		194	hometown	hometown	hometown	NN	O	pobj	O	-1	B-noun.location
+0	8	197	872	873	S	185	.	.	.	.	O	punct	O	-1	O
+0	9	198	874	875		206	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	9	199	875	878	S	202	Mr.	Mr.	Mr.	NNP	O	nn	I-QUOTE	-1	O
+0	9	200	879	882	S	199	And	And	and	CC	O	cc	I-QUOTE	-1	O
+0	9	201	883	887	S	199	Mrs.	Mrs.	Mrs.	NNP	PERSON	conj	I-QUOTE	-1	B-noun.person
+0	9	202	888	894		206	Elliot	Elliot	Elliot	NNP	PERSON	nsubj	I-QUOTE	-1	I-noun.person
+0	9	203	894	895		206	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	9	204	895	896	S	206	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	9	205	897	898		206	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	9	206	898	901	S	-1	Cat	Cat	cat	NN	O	null	I-QUOTE	-1	B-noun.animal
+0	9	207	902	904	S	206	in	in	in	IN	O	prep	I-QUOTE	-1	O
+0	9	208	905	908	S	209	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	9	209	909	913		207	Rain	Rain	rain	NN	O	pobj	I-QUOTE	-1	O
+0	9	210	913	914		206	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	9	211	914	915	S	206	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	9	212	916	919	S	206	and	and	and	CC	O	cc	O	-1	O
+0	9	213	920	921		206	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	9	214	921	924	S	219	Out	Out	out	IN	O	advmod	I-QUOTE	-1	O
+0	9	215	925	927	S	214	of	of	of	IN	O	dep	I-QUOTE	-1	O
+0	9	216	928	934		215	Season	Season	season	NN	O	pobj	I-QUOTE	-1	B-noun.time
+0	9	217	934	935	S	214	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	9	218	936	939	S	219	are	are	be	VBP	O	cop	O	-1	O
+0	9	219	940	943	S	206	all	all	all	DT	O	dep	O	-1	O
+0	9	220	944	949	S	219	about	about	about	IN	O	prep	O	-1	O
+0	9	221	950	958	S	222	American	American	american	JJ	MISC	amod	O	-1	O
+0	9	222	959	966	S	220	couples	couples	couple	NNS	O	pobj	O	-1	B-noun.group
+0	9	223	967	973	S	222	living	living	live	VBG	O	partmod	O	-1	B-verb.stative
+0	9	224	974	976	S	223	or	or	or	CC	O	cc	O	-1	O
+0	9	225	977	988	S	223	vacationing	vacationing	vacation	VBG	O	conj	O	-1	B-verb.stative
+0	9	226	989	991	S	225	in	in	in	IN	O	prep	O	-1	O
+0	9	227	992	998		226	Europe	Europe	Europe	NNP	LOCATION	pobj	O	-1	O
+0	9	228	998	999	S	206	.	.	.	.	O	punct	O	-1	O
+0	10	229	1000	1001		-1	"	``	``	``	O	null	B-QUOTE	-1	O
+0	10	230	1001	1014	S	231	Cross-Country	Cross-Country	Cross-Country	NNP	O	nn	I-QUOTE	-1	O
+0	10	231	1015	1019		233	Snow	Snow	Snow	NNP	O	nsubjpass	I-QUOTE	-1	O
+0	10	232	1019	1020	S	233	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	10	233	1021	1023	S	229	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	10	234	1024	1029	S	235	about	about	about	RB	O	quantmod	O	-1	O
+0	10	235	1030	1033	S	236	two	two	two	CD	NUMBER	num	O	-1	O
+0	10	236	1034	1037	S	233	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	10	237	1038	1039		236	(	-LRB-	-lrb-	-LRB-	O	dep	O	-1	O
+0	10	238	1039	1042	S	242	one	one	one	CD	NUMBER	nsubjpass	O	-1	O
+0	10	239	1043	1045	S	238	of	of	of	IN	O	prep	O	-1	O
+0	10	240	1046	1050	S	239	whom	whom	whom	WP	O	pobj	O	-1	O
+0	10	241	1051	1053	S	242	is	is	be	VBZ	O	auxpass	O	-1	O
+0	10	242	1054	1059	S	237	named	named	name	VBN	O	ccomp	O	-1	B-verb.communication
+0	10	243	1060	1064		245	Nick	Nick	Nick	NNP	PERSON	nn	O	0	O
+0	10	244	1064	1065	S	245	)	-RRB-	-rrb-	-RRB-	O	nn	O	-1	O
+0	10	245	1066	1072	S	242	skiing	skiing	skiing	NN	O	xcomp	O	-1	B-noun.act
+0	10	246	1073	1081		242	together	together	together	RB	O	advmod	O	-1	O
+0	10	247	1081	1082	S	233	.	.	.	.	O	punct	O	-1	O
+0	11	248	1083	1084		-1	"	``	``	``	O	null	B-QUOTE	-1	O
+0	11	249	1084	1086	S	251	My	My	my	PRP$	O	poss	I-QUOTE	-1	O
+0	11	250	1087	1090	S	251	Old	Old	old	JJ	O	amod	I-QUOTE	-1	O
+0	11	251	1091	1094		248	Man	Man	man	NN	O	null	I-QUOTE	-1	B-noun.person
+0	11	252	1094	1095	S	251	"	''	''	''	O	dep	I-QUOTE	-1	O
+0	11	253	1096	1098	S	252	is	is	be	VBZ	O	dep	O	-1	B-verb.stative
+0	11	254	1099	1104	S	253	about	about	about	IN	O	prep	O	-1	O
+0	11	255	1105	1106	S	256	a	a	a	DT	O	det	O	-1	O
+0	11	256	1107	1113	S	254	jockey	jockey	jockey	NN	O	pobj	O	-1	B-noun.person
+0	11	257	1114	1117	S	256	and	and	and	CC	O	cc	O	-1	O
+0	11	258	1118	1121	S	259	his	his	he	PRP$	O	poss	O	-1	O
+0	11	259	1122	1125		256	son	son	son	NN	O	conj	O	-1	B-noun.person
+0	11	260	1125	1126	S	251	.	.	.	.	O	punct	O	-1	O
+0	12	261	1127	1131		266	Then	Then	then	RB	O	advmod	O	-1	O
+0	12	262	1131	1132	S	266	,	,	,	,	O	punct	O	-1	O
+0	12	263	1133	1134		266	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	12	264	1134	1137	S	266	Big	Big	big	JJ	O	amod	I-QUOTE	-1	O
+0	12	265	1138	1149	S	266	Two-Hearted	Two-Hearted	two-hearted	JJ	MISC	amod	I-QUOTE	-1	O
+0	12	266	1150	1155		296	River	River	river	NN	MISC	nsubjpass	I-QUOTE	-1	B-noun.object
+0	12	267	1155	1156		266	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	12	268	1156	1157	S	266	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	12	269	1158	1163	S	266	parts	parts	part	NNS	O	dep	O	-1	B-noun.cognition
+0	12	270	1164	1165	S	269	I	I	i	CD	NUMBER	dep	O	-1	O
+0	12	271	1166	1169	S	270	and	and	and	CC	O	cc	O	-1	O
+0	12	272	1170	1172		270	II	II	ii	CD	NUMBER	conj	O	-1	O
+0	12	273	1172	1173	S	266	,	,	,	,	O	punct	O	-1	O
+0	12	274	1174	1177	S	296	are	are	be	VBP	O	dep	O	-1	B-verb.stative
+0	12	275	1178	1183	S	274	about	about	about	IN	O	prep	O	-1	O
+0	12	276	1184	1187	S	277	the	the	the	DT	O	det	O	-1	O
+0	12	277	1188	1194	S	275	return	return	return	NN	O	pobj	O	-1	B-noun.communication
+0	12	278	1195	1197	S	277	of	of	of	IN	O	prep	O	-1	O
+0	12	279	1198	1202	S	280	Nick	Nick	Nick	NNP	PERSON	nn	O	0	O
+0	12	280	1203	1208	S	278	Adams	Adams	Adams	NNP	PERSON	pobj	O	0	O
+0	12	281	1209	1211	S	277	to	to	to	TO	O	prep	O	-1	O
+0	12	282	1212	1215	S	284	his	his	he	PRP$	O	poss	O	0	O
+0	12	283	1216	1223	S	284	fishing	fishing	fishing	NN	O	nn	O	-1	B-noun.act
+0	12	284	1224	1230		281	ground	ground	ground	NN	O	pobj	O	-1	B-noun.object
+0	12	285	1230	1231	S	296	,	,	,	,	O	punct	O	-1	O
+0	12	286	1232	1235	S	287	the	the	the	DT	O	det	O	-1	O
+0	12	287	1236	1242	S	296	forest	forest	forest	NN	O	nsubjpass	O	-1	B-noun.group
+0	12	288	1243	1249	S	287	around	around	around	IN	O	prep	O	-1	O
+0	12	289	1250	1255	S	288	which	which	which	WDT	O	pobj	O	-1	O
+0	12	290	1256	1259	S	288	and	and	and	CC	O	cc	O	-1	O
+0	12	291	1260	1264	S	288	town	town	town	NN	O	conj	O	-1	B-noun.location
+0	12	292	1265	1267	S	291	of	of	of	IN	O	prep	O	-1	O
+0	12	293	1268	1273	S	292	which	which	which	WDT	O	pobj	O	-1	O
+0	12	294	1274	1278	S	296	have	have	have	VBP	O	aux	O	-1	O
+0	12	295	1279	1283	S	296	been	been	be	VBN	O	auxpass	O	-1	O
+0	12	296	1284	1289	S	-1	burnt	burnt	burn	VBN	O	null	O	-1	B-verb.change
+0	12	297	1290	1294		296	down	down	down	RP	O	prt	O	-1	O
+0	12	298	1294	1295	S	296	.	.	.	.	O	punct	O	-1	O
+0	13	299	1296	1299	S	300	The	The	the	DT	O	det	O	-1	O
+0	13	300	1300	1309	S	-1	vignettes	vignettes	vignette	NNS	O	null	O	-1	B-noun.communication
+0	13	301	1310	1314	S	302	that	that	that	WDT	O	nsubj	O	-1	O
+0	13	302	1315	1323	S	300	separate	separate	separate	VBP	O	rcmod	O	-1	B-verb.stative
+0	13	303	1324	1329	S	304	these	these	these	DT	O	det	O	-1	O
+0	13	304	1330	1337	S	302	stories	stories	story	NNS	O	dobj	O	-1	B-noun.communication
+0	13	305	1338	1342	S	302	vary	vary	vary	VBP	O	prep	O	-1	B-verb.change
+0	13	306	1343	1345	S	305	in	in	in	IN	O	prep	O	-1	O
+0	13	307	1346	1353	S	306	content	content	content	NN	O	pobj	O	-1	B-noun.communication
+0	13	308	1354	1357	S	302	but	but	but	CC	O	cc	O	-1	O
+0	13	309	1358	1364	S	310	mostly	mostly	mostly	RB	O	advmod	O	-1	O
+0	13	310	1365	1369	S	302	deal	deal	deal	VB	O	conj	O	-1	B-verb.communication
+0	13	311	1370	1374	S	310	with	with	with	IN	O	prep	O	-1	O
+0	13	312	1375	1387		311	bullfighting	bullfighting	bullfighting	NN	O	pobj	O	-1	B-noun.act
+0	13	313	1387	1388	S	300	.	.	.	.	O	punct	O	-1	O
+0	14	314	1389	1392	S	316	The	The	the	DT	O	det	O	-1	O
+0	14	315	1393	1398	S	316	final	final	final	JJ	O	amod	O	-1	O
+0	14	316	1399	1407		325	vignette	vignette	vignette	NN	O	nn	O	-1	B-noun.communication
+0	14	317	1407	1408	S	316	,	,	,	,	O	punct	O	-1	O
+0	14	318	1409	1410		316	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	14	319	1410	1417		316	L'Envoi	L'Envoi	L'Envoi	NNP	O	dep	I-QUOTE	-1	O
+0	14	320	1417	1418		325	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	14	321	1418	1419	S	325	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	14	322	1420	1422	S	325	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	14	323	1423	1424	S	325	a	a	a	DT	O	det	O	-1	O
+0	14	324	1425	1432	S	325	surreal	surreal	surreal	JJ	O	amod	O	-1	O
+0	14	325	1433	1438	S	-1	story	story	story	NN	O	null	O	-1	B-noun.communication
+0	14	326	1439	1444	S	325	about	about	about	IN	O	prep	O	-1	O
+0	14	327	1445	1446	S	328	a	a	a	DT	O	det	O	-1	O
+0	14	328	1447	1452	S	326	visit	visit	visit	NN	O	pobj	O	-1	B-noun.act
+0	14	329	1453	1455	S	328	to	to	to	TO	O	prep	O	-1	O
+0	14	330	1456	1457	S	332	a	a	a	DT	O	det	O	-1	O
+0	14	331	1458	1463	S	332	Greek	Greek	greek	JJ	MISC	amod	O	-1	O
+0	14	332	1464	1468		329	king	king	king	NN	O	pobj	O	-1	B-noun.person
+0	14	333	1468	1469	N	325	.	.	.	.	O	punct	O	-1	O

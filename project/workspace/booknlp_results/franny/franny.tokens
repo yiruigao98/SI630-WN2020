@@ -1,0 +1,379 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	6	S	4	Franny	Franny	Franny	NNP	PERSON	nsubjpass	O	1	B-noun.person
+0	0	1	7	10	S	0	and	and	and	CC	O	cc	O	-1	O
+0	0	2	11	16	S	0	Zooey	Zooey	Zooey	NNP	PERSON	conj	O	0	B-noun.person
+0	0	3	17	19	S	4	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	4	20	28	S	-1	composed	composed	compose	VBN	O	null	O	-1	B-verb.stative
+0	0	5	29	31	S	4	of	of	of	IN	O	prep	O	-1	O
+0	0	6	32	35	S	7	two	two	two	CD	NUMBER	num	O	-1	O
+0	0	7	36	44		5	sections	sections	section	NNS	O	pobj	O	-1	B-noun.object
+0	0	8	44	45	S	7	,	,	,	,	O	punct	O	-1	O
+0	0	9	46	51	S	12	which	which	which	WDT	O	nsubjpass	O	-1	O
+0	0	10	52	56	S	12	were	were	be	VBD	O	auxpass	O	-1	B-verb.stative
+0	0	11	57	67	S	12	originally	originally	originally	RB	O	advmod	O	-1	O
+0	0	12	68	77	S	7	published	published	publish	VBN	O	rcmod	O	-1	B-verb.creation
+0	0	13	78	80	S	12	in	in	in	IN	O	prep	O	-1	O
+0	0	14	81	84	S	17	the	the	the	DT	O	det	O	-1	O
+0	0	15	85	88	S	17	New	New	New	NNP	ORGANIZATION	nn	O	-1	B-noun.person
+0	0	16	89	95	S	17	Yorker	Yorker	Yorker	NNP	ORGANIZATION	nn	O	-1	I-noun.person
+0	0	17	96	104	S	13	magazine	magazine	magazine	NN	O	pobj	O	-1	B-noun.communication
+0	0	18	105	107	S	12	as	as	as	IN	O	prep	O	-1	O
+0	0	19	108	111	S	22	two	two	two	CD	NUMBER	num	O	-1	O
+0	0	20	112	120	S	22	separate	separate	separate	JJ	O	amod	O	-1	O
+0	0	21	121	126	S	22	short	short	short	JJ	O	amod	O	-1	O
+0	0	22	127	134		18	stories	stories	story	NNS	O	pobj	O	-1	B-noun.communication
+0	0	23	134	135	S	4	.	.	.	.	O	punct	O	-1	O
+0	1	24	136	139	S	26	The	The	the	DT	O	det	O	-1	O
+0	1	25	140	145	S	26	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	1	26	146	151	S	-1	story	story	story	NN	O	null	O	-1	B-noun.communication
+0	1	27	152	154	S	26	or	or	or	CC	O	cc	O	-1	O
+0	1	28	155	162		26	section	section	section	NN	O	conj	O	-1	B-noun.communication
+0	1	29	162	163	S	26	,	,	,	,	O	punct	O	-1	O
+0	1	30	164	165		26	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	1	31	165	171		26	Franny	Franny	Franny	NNP	O	dep	I-QUOTE	-1	O
+0	1	32	171	172		35	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	1	33	172	173	S	35	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	1	34	174	177	S	35	was	was	be	VBD	O	auxpass	O	-1	O
+0	1	35	178	187	S	26	published	published	publish	VBN	O	parataxis	O	-1	B-verb.creation
+0	1	36	188	190	S	35	in	in	in	IN	O	prep	O	-1	O
+0	1	37	191	194	S	39	the	the	the	DT	O	det	O	-1	O
+0	1	38	195	198	S	39	New	New	New	NNP	O	nn	O	-1	B-noun.person
+0	1	39	199	205	S	36	Yorker	Yorker	Yorker	NNP	O	pobj	O	-1	I-noun.person
+0	1	40	206	208	S	35	in	in	in	IN	O	prep	O	-1	O
+0	1	41	209	216	S	40	January	January	January	NNP	DATE	pobj	O	-1	O
+0	1	42	217	221		41	1955	1955	1955	CD	DATE	num	O	-1	O
+0	1	43	221	222	S	26	.	.	.	.	O	punct	O	-1	O
+0	2	44	223	225	S	51	In	In	in	IN	O	prep	O	-1	O
+0	2	45	226	227		46	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	2	46	227	233		44	Franny	Franny	Franny	NNP	O	pobj	I-QUOTE	-1	O
+0	2	47	233	234		51	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	2	48	234	235	S	51	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	2	49	236	242	S	50	Franny	Franny	Franny	NNP	O	nn	O	-1	O
+0	2	50	243	248	S	51	Glass	Glass	Glass	NNP	O	nsubj	O	-1	O
+0	2	51	249	254	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	2	52	255	258	S	53	her	her	she	PRP$	O	poss	O	-1	O
+0	2	53	259	268	S	51	boyfriend	boyfriend	boyfriend	NN	O	dobj	O	-1	B-noun.person
+0	2	54	269	273	S	55	Lane	Lane	Lane	NNP	PERSON	nn	O	-1	I-noun.person
+0	2	55	274	281	S	53	Coutell	Coutell	Coutell	NNP	PERSON	dep	O	-1	I-noun.person
+0	2	56	282	285	S	53	for	for	for	IN	O	prep	O	-1	O
+0	2	57	286	287	S	59	a	a	a	DT	O	det	O	-1	O
+0	2	58	288	296	S	59	football	football	football	NN	O	nn	O	-1	B-noun.act
+0	2	59	297	304	S	56	weekend	weekend	weekend	NN	DATE	pobj	O	-1	B-noun.time
+0	2	60	305	307	S	51	at	at	at	IN	O	prep	O	-1	O
+0	2	61	308	311	S	62	his	his	he	PRP$	O	poss	O	-1	O
+0	2	62	312	319		60	college	college	college	NN	O	pobj	O	-1	B-noun.group
+0	2	63	319	320	S	51	.	.	.	.	O	punct	O	-1	O
+0	3	64	321	325	S	67	They	They	they	PRP	O	nsubj	O	-1	O
+0	3	65	326	328	S	67	do	do	do	VBP	O	aux	O	-1	O
+0	3	66	329	332	S	67	not	not	not	RB	O	neg	O	-1	O
+0	3	67	333	336	S	-1	get	get	get	VB	O	null	O	-1	B-verb.change
+0	3	68	337	339	S	69	to	to	to	TO	O	aux	O	-1	O
+0	3	69	340	344	S	67	join	join	join	VB	O	xcomp	O	-1	B-verb.social
+0	3	70	345	349	S	69	many	many	many	JJ	O	dobj	O	-1	O
+0	3	71	350	352	S	70	of	of	of	IN	O	prep	O	-1	O
+0	3	72	353	356	S	73	the	the	the	DT	O	det	O	-1	O
+0	3	73	357	368		71	festivities	festivities	festivity	NNS	O	pobj	O	-1	B-noun.act
+0	3	74	368	369	S	67	,	,	,	,	O	punct	O	-1	O
+0	3	75	370	376		67	though	though	though	RB	O	advmod	O	-1	O
+0	3	76	376	377	S	67	,	,	,	,	O	punct	O	-1	O
+0	3	77	378	385	S	78	because	because	because	IN	O	mark	O	-1	O
+0	3	78	386	392	S	85	during	during	during	IN	O	advcl	O	-1	O
+0	3	79	393	398	S	81	their	their	they	PRP$	O	poss	O	-1	O
+0	3	80	399	404	S	81	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	3	81	405	410	S	78	lunch	lunch	lunch	NN	O	pobj	O	-1	B-noun.food
+0	3	82	411	419		78	together	together	together	RB	O	advmod	O	-1	O
+0	3	83	419	420	S	85	,	,	,	,	O	punct	O	-1	O
+0	3	84	421	427	S	85	Franny	Franny	franny	NN	PERSON	nsubj	O	1	O
+0	3	85	428	434	S	67	begins	begins	begin	VBZ	O	advcl	O	-1	B-verb.change
+0	3	86	435	437	S	87	to	to	to	TO	O	aux	O	-1	O
+0	3	87	438	442	S	85	have	have	have	VB	O	xcomp	O	-1	B-verb.possession
+0	3	88	443	444	S	89	a	a	a	DT	O	det	O	-1	O
+0	3	89	445	454		87	breakdown	breakdown	breakdown	NN	O	dobj	O	-1	B-noun.act
+0	3	90	454	455	S	67	.	.	.	.	O	punct	O	-1	O
+0	4	91	456	459	S	92	She	She	she	PRP	O	nsubj	O	-1	O
+0	4	92	460	465	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	4	93	466	470	S	92	Lane	Lane	Lane	NNP	PERSON	dobj	O	-1	B-noun.person
+0	4	94	471	475	S	97	that	that	that	IN	O	complm	O	-1	O
+0	4	95	476	479	S	97	she	she	she	PRP	O	nsubj	O	-1	O
+0	4	96	480	482	S	97	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	4	97	483	487	S	92	sick	sick	sick	JJ	O	ccomp	O	-1	O
+0	4	98	488	490	S	97	of	of	of	IN	O	prep	O	-1	O
+0	4	99	491	494	S	100	the	the	the	DT	O	det	O	-1	O
+0	4	100	495	504	S	98	phoniness	phoniness	phoniness	NN	O	pobj	O	-1	B-noun.person
+0	4	101	505	507	S	97	at	at	at	IN	O	prep	O	-1	O
+0	4	102	508	514	S	101	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	4	103	515	518	S	101	and	and	and	CC	O	cc	O	-1	O
+0	4	104	519	521	S	101	of	of	of	IN	O	conj	O	-1	O
+0	4	105	522	525	S	106	the	the	the	DT	O	det	O	-1	O
+0	4	106	526	533	S	104	egotism	egotism	egotism	NN	O	pobj	O	-1	B-noun.attribute
+0	4	107	534	536	S	106	of	of	of	IN	O	prep	O	-1	O
+0	4	108	537	540	S	109	the	the	the	DT	O	det	O	-1	O
+0	4	109	541	548		107	faculty	faculty	faculty	NN	O	pobj	O	-1	B-noun.cognition
+0	4	110	548	549	S	92	.	.	.	.	O	punct	O	-1	O
+0	5	111	550	553	S	113	She	She	she	PRP	O	nsubj	O	-1	O
+0	5	112	554	557	S	113	has	has	have	VBZ	O	aux	O	-1	O
+0	5	113	558	562	S	117	quit	quit	quit	VBN	O	attr	O	-1	B-verb.stative
+0	5	114	563	566	S	115	the	the	the	DT	O	det	O	-1	O
+0	5	115	567	571	S	117	play	play	play	NN	O	tmod	O	-1	B-noun.communication
+0	5	116	572	575	S	117	she	she	she	PRP	O	nsubj	O	-1	O
+0	5	117	576	579	S	-1	was	was	be	VBD	O	null	O	-1	B-verb.stative
+0	5	118	580	582	S	117	in	in	in	IN	O	prep	O	-1	O
+0	5	119	583	590	S	122	because	because	because	IN	O	mark	O	-1	O
+0	5	120	591	594	S	122	she	she	she	PRP	O	nsubj	O	-1	O
+0	5	121	595	597	S	122	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	5	122	598	609	S	126	embarrassed	embarrassed	embarrassed	JJ	O	dep	O	-1	O
+0	5	123	610	615	S	126	about	about	about	IN	O	dep	O	-1	O
+0	5	124	616	620	S	126	what	what	what	WP	O	dep	O	-1	O
+0	5	125	621	624	S	126	she	she	she	PRP	O	nsubj	O	-1	O
+0	5	126	625	630	S	118	feels	feels	feel	VBZ	O	pobj	O	-1	B-verb.emotion
+0	5	127	631	633	S	129	to	to	to	TO	O	aux	O	-1	O
+0	5	128	634	636	S	129	be	be	be	VB	O	aux	O	-1	O
+0	5	129	637	643	S	117	acting	acting	act	VBG	O	xcomp	O	-1	B-verb.social
+0	5	130	644	648		129	fake	fake	fake	NN	O	dobj	O	-1	B-noun.act
+0	5	131	648	649	S	117	.	.	.	.	O	punct	O	-1	O
+0	6	132	650	652	S	135	As	As	as	IN	O	mark	O	-1	O
+0	6	133	653	656	S	135	she	she	she	PRP	O	nsubjpass	O	-1	O
+0	6	134	657	661	S	135	gets	gets	get	VBZ	O	auxpass	O	-1	O
+0	6	135	662	668	S	139	worked	worked	work	VBN	O	advcl	O	-1	B-verb.social
+0	6	136	669	671		135	up	up	up	RP	O	prt	O	-1	O
+0	6	137	671	672	S	139	,	,	,	,	O	punct	O	-1	O
+0	6	138	673	676	S	139	she	she	she	PRP	O	nsubj	O	-1	O
+0	6	139	677	684	S	155	reveals	reveals	reveal	VBZ	O	ccomp	O	-1	B-verb.perception
+0	6	140	685	689	S	144	that	that	that	IN	O	complm	O	-1	O
+0	6	141	690	693	S	144	she	she	she	PRP	O	nsubj	O	-1	O
+0	6	142	694	697	S	144	has	has	have	VBZ	O	aux	O	-1	O
+0	6	143	698	704	S	144	become	become	become	VBN	O	cop	O	-1	B-verb.change
+0	6	144	705	715	S	139	interested	interested	interested	JJ	O	ccomp	O	-1	O
+0	6	145	716	718	S	144	in	in	in	IN	O	prep	O	-1	O
+0	6	146	719	722	S	149	the	the	the	DT	O	det	O	-1	O
+0	6	147	723	724		149	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	6	148	724	729	S	149	Jesus	Jesus	Jesus	NNP	O	nn	I-QUOTE	-1	O
+0	6	149	730	736		145	prayer	prayer	prayer	NN	O	pobj	I-QUOTE	-1	O
+0	6	150	736	737		155	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	6	151	737	738	S	155	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	6	152	739	740	S	154	a	a	a	DT	O	det	O	-1	O
+0	6	153	741	751	S	154	continuous	continuous	continuous	JJ	O	amod	O	-1	O
+0	6	154	752	758	S	155	prayer	prayer	prayer	NN	O	nsubj	O	-1	B-noun.act
+0	6	155	759	764	S	-1	meant	meant	mean	VBD	O	null	O	-1	B-verb.communication
+0	6	156	765	767	S	157	to	to	to	TO	O	aux	O	-1	O
+0	6	157	768	775	S	155	cleanse	cleanse	cleanse	VB	O	xcomp	O	-1	B-verb.body
+0	6	158	776	779		160	one	one	one	CD	NUMBER	poss	O	-1	O
+0	6	159	779	781	S	158	's	's	's	POS	O	possessive	O	-1	O
+0	6	160	782	788		157	spirit	spirit	spirit	NN	O	dobj	O	-1	B-noun.person
+0	6	161	788	789	S	155	.	.	.	.	O	punct	O	-1	O
+0	7	162	790	794	S	164	Lane	Lane	Lane	NNP	O	nsubj	O	-1	O
+0	7	163	795	801	S	164	mostly	mostly	mostly	RB	O	advmod	O	-1	O
+0	7	164	802	809	S	-1	brushes	brushes	brush	NNS	O	null	O	-1	B-noun.artifact
+0	7	165	810	813	S	164	off	off	off	IN	O	prep	O	-1	O
+0	7	166	814	820		168	Franny	Franny	Franny	NNP	PERSON	poss	O	1	B-noun.person
+0	7	167	820	822	S	166	's	's	's	POS	O	possessive	O	-1	O
+0	7	168	823	831	S	165	concerns	concerns	concern	NNS	O	pobj	O	-1	B-noun.cognition
+0	7	169	832	837	S	171	until	until	until	IN	O	mark	O	-1	O
+0	7	170	838	841	S	171	she	she	she	PRP	O	nsubj	O	-1	O
+0	7	171	842	848	S	164	faints	faints	faint	VBZ	O	advcl	O	-1	B-verb.body
+0	7	172	849	851	S	171	on	on	on	IN	O	prep	O	-1	O
+0	7	173	852	855	S	174	the	the	the	DT	O	det	O	-1	O
+0	7	174	856	859	S	172	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	7	175	860	862	S	174	to	to	to	TO	O	prep	O	-1	O
+0	7	176	863	866	S	177	the	the	the	DT	O	det	O	-1	O
+0	7	177	867	875		175	bathroom	bathroom	bathroom	NN	O	pobj	O	-1	B-noun.artifact
+0	7	178	875	876	S	164	.	.	.	.	O	punct	O	-1	O
+0	8	179	877	879	S	182	As	As	as	IN	O	mark	O	-1	O
+0	8	180	880	882	S	182	he	he	he	PRP	O	nsubj	O	1	O
+0	8	181	883	885	S	182	is	is	be	VBZ	O	aux	O	-1	O
+0	8	182	886	893	S	188	helping	helping	help	VBG	O	advcl	O	-1	B-verb.social
+0	8	183	894	896	S	184	to	to	to	TO	O	aux	O	-1	O
+0	8	184	897	903	S	182	revive	revive	revive	VB	O	xcomp	O	-1	B-verb.body
+0	8	185	904	907		184	her	her	she	PRP	O	dobj	O	-1	O
+0	8	186	907	908	S	188	,	,	,	,	O	punct	O	-1	O
+0	8	187	909	912	S	188	she	she	she	PRP	O	nsubj	O	-1	O
+0	8	188	913	919	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	8	189	920	922	S	190	to	to	to	TO	O	aux	O	-1	O
+0	8	190	923	928	S	188	speak	speak	speak	VB	O	xcomp	O	-1	B-verb.communication
+0	8	191	929	932	S	192	the	the	the	DT	O	det	O	-1	O
+0	8	192	933	939		190	prayer	prayer	prayer	NN	O	dobj	O	-1	B-noun.act
+0	8	193	939	940	S	188	.	.	.	.	O	punct	O	-1	O
+0	9	194	941	942		198	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	9	195	942	947		198	Zooey	Zooey	Zooey	NNP	O	nsubj	I-QUOTE	-1	O
+0	9	196	947	948	S	198	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	9	197	949	958	S	198	basically	basically	basically	RB	O	advmod	O	-1	O
+0	9	198	959	964	S	-1	picks	picks	pick	VBZ	O	null	O	-1	B-verb.cognition
+0	9	199	965	967	S	198	up	up	up	RP	O	prt	O	-1	O
+0	9	200	968	973	S	204	where	where	where	WRB	O	advmod	O	-1	O
+0	9	201	974	975		204	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	9	202	975	981		204	Franny	Franny	Franny	NNP	O	nsubj	I-QUOTE	-1	O
+0	9	203	981	982	S	204	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	9	204	983	987	S	198	left	left	leave	VBD	O	advcl	O	-1	B-verb.stative
+0	9	205	988	991		204	off	off	off	RP	O	prt	O	-1	O
+0	9	206	991	992	S	198	.	.	.	.	O	punct	O	-1	O
+0	10	207	993	998		-1	First	First	first	RB	ORDINAL	null	O	-1	O
+0	10	208	998	999	S	207	,	,	,	,	O	dep	O	-1	O
+0	10	209	1000	1006		208	though	though	though	RB	O	dep	O	-1	O
+0	10	210	1006	1007	S	209	,	,	,	,	O	dep	O	-1	O
+0	10	211	1008	1011	S	213	the	the	the	DT	O	det	O	-1	O
+0	10	212	1012	1020	S	213	narrator	narrator	narrator	NN	O	nn	O	-1	B-noun.person
+0	10	213	1021	1026	S	210	names	names	name	NNS	O	null	O	-1	B-noun.communication
+0	10	214	1027	1034		213	himself	himself	himself	PRP	O	dep	O	-1	O
+0	10	215	1034	1035	S	213	.	.	.	.	O	punct	O	-1	O
+0	11	216	1036	1039	S	217	The	The	the	DT	O	det	O	-1	O
+0	11	217	1040	1043	S	228	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	11	218	1044	1052	S	217	claiming	claiming	claim	VBG	O	partmod	O	-1	B-verb.communication
+0	11	219	1053	1055	S	222	to	to	to	TO	O	aux	O	-1	O
+0	11	220	1056	1058	S	222	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	11	221	1059	1062	S	222	the	the	the	DT	O	det	O	-1	O
+0	11	222	1063	1069	S	218	author	author	author	NN	O	xcomp	O	-1	B-noun.person
+0	11	223	1070	1072	S	222	of	of	of	IN	O	prep	O	-1	O
+0	11	224	1073	1076	S	225	the	the	the	DT	O	det	O	-1	O
+0	11	225	1077	1082	S	223	story	story	story	NN	O	pobj	O	-1	B-noun.communication
+0	11	226	1083	1085	S	228	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	11	227	1086	1091	S	228	Buddy	Buddy	Buddy	NNP	MISC	nn	O	-1	B-noun.person
+0	11	228	1092	1097		-1	Glass	Glass	Glass	NNP	MISC	null	O	-1	I-noun.person
+0	11	229	1097	1098	S	228	,	,	,	,	O	punct	O	-1	O
+0	11	230	1099	1102	S	228	one	one	one	CD	NUMBER	appos	O	-1	O
+0	11	231	1103	1105	S	230	of	of	of	IN	O	prep	O	-1	O
+0	11	232	1106	1112	S	237	Franny	Franny	Franny	NNP	PERSON	nn	O	1	B-noun.person
+0	11	233	1113	1116	S	232	and	and	and	CC	O	cc	O	-1	O
+0	11	234	1117	1122		232	Zooey	Zooey	Zooey	NNP	PERSON	conj	O	0	B-noun.person
+0	11	235	1122	1124	S	234	's	's	's	POS	O	possessive	O	-1	O
+0	11	236	1125	1130	S	237	older	older	older	JJR	O	amod	O	-1	O
+0	11	237	1131	1139		231	brothers	brothers	brother	NNS	O	pobj	O	-1	B-noun.person
+0	11	238	1139	1140	S	228	.	.	.	.	O	punct	O	-1	O
+0	12	239	1141	1144	S	240	The	The	the	DT	O	det	O	-1	O
+0	12	240	1145	1150	S	241	story	story	story	NN	O	nsubj	O	-1	B-noun.communication
+0	12	241	1151	1158		-1	resumes	resumes	resume	VBZ	O	null	O	-1	B-verb.change
+0	12	242	1158	1159	S	241	.	.	.	.	O	punct	O	-1	O
+0	13	243	1160	1162	S	246	It	It	it	PRP	O	nsubj	O	-1	O
+0	13	244	1163	1165	S	246	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	13	245	1166	1169	S	246	the	the	the	DT	O	det	O	-1	O
+0	13	246	1170	1176	S	-1	Monday	Monday	Monday	NNP	DATE	null	O	-1	B-noun.person
+0	13	247	1177	1182	S	246	after	after	after	IN	O	prep	O	-1	O
+0	13	248	1183	1186	S	249	the	the	the	DT	DATE	det	O	-1	O
+0	13	249	1187	1194	S	247	weekend	weekend	weekend	NN	DATE	pobj	O	-1	B-noun.time
+0	13	250	1195	1201		252	Franny	Franny	Franny	NNP	PERSON	poss	O	1	B-noun.person
+0	13	251	1201	1203	S	250	's	's	's	POS	O	possessive	O	-1	O
+0	13	252	1204	1213	S	253	breakdown	breakdown	breakdown	NN	O	nsubj	O	-1	B-noun.act
+0	13	253	1214	1221		249	started	started	start	VBD	O	rcmod	O	-1	B-verb.change
+0	13	254	1221	1222	S	246	,	,	,	,	O	punct	O	-1	O
+0	13	255	1223	1226	S	246	and	and	and	CC	O	cc	O	-1	O
+0	13	256	1227	1232	S	246	Zooey	Zooey	Zooey	NNP	PERSON	conj	O	0	B-noun.person
+0	13	257	1233	1235	S	246	is	is	be	VBZ	O	dep	O	-1	B-verb.stative
+0	13	258	1236	1238	S	257	at	at	at	IN	O	prep	O	-1	O
+0	13	259	1239	1243	S	258	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	13	260	1244	1246	S	259	in	in	in	IN	O	prep	O	-1	O
+0	13	261	1247	1250	S	263	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	13	262	1251	1255	S	263	York	York	York	NNP	LOCATION	nn	O	-1	I-noun.location
+0	13	263	1256	1260		260	City	City	City	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	13	264	1260	1261	S	246	.	.	.	.	O	punct	O	-1	O
+0	14	265	1262	1264	S	277	In	In	in	IN	O	prep	O	-1	O
+0	14	266	1265	1268	S	267	his	his	he	PRP$	O	poss	O	1	O
+0	14	267	1269	1281	S	265	conversation	conversation	conversation	NN	O	pobj	O	-1	B-noun.communication
+0	14	268	1282	1286	S	267	with	with	with	IN	O	prep	O	-1	O
+0	14	269	1287	1290	S	270	his	his	he	PRP$	O	poss	O	1	O
+0	14	270	1291	1297		268	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	14	271	1297	1298	S	277	,	,	,	,	O	punct	O	-1	O
+0	14	272	1299	1305	S	273	Bessie	Bessie	Bessie	NNP	PERSON	nn	O	-1	O
+0	14	273	1306	1311		277	Glass	Glass	Glass	NNP	PERSON	nsubjpass	O	-1	O
+0	14	274	1311	1312	S	277	,	,	,	,	O	punct	O	-1	O
+0	14	275	1313	1315	S	277	it	it	it	PRP	O	nsubjpass	O	-1	O
+0	14	276	1316	1318	S	277	is	is	be	VBZ	O	auxpass	O	-1	O
+0	14	277	1319	1327	S	-1	revealed	revealed	reveal	VBN	O	null	O	-1	B-verb.perception
+0	14	278	1328	1332	S	280	that	that	that	IN	O	complm	O	-1	O
+0	14	279	1333	1339	S	280	Franny	Franny	Franny	NNP	PERSON	nsubj	O	1	B-noun.person
+0	14	280	1340	1342	S	277	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	14	281	1343	1346	S	280	now	now	now	RB	DATE	advmod	O	-1	O
+0	14	282	1347	1349	S	280	at	at	at	IN	O	prep	O	-1	O
+0	14	283	1350	1354		282	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	14	284	1354	1355	S	277	,	,	,	,	O	punct	O	-1	O
+0	14	285	1356	1364	S	277	sleeping	sleeping	sleep	VBG	O	xcomp	O	-1	B-verb.body
+0	14	286	1365	1368	S	285	and	and	and	CC	O	cc	O	-1	O
+0	14	287	1369	1375	S	285	crying	crying	cry	VBG	O	conj	O	-1	B-verb.communication
+0	14	288	1376	1378	S	287	on	on	on	IN	O	prep	O	-1	O
+0	14	289	1379	1382	S	292	the	the	the	DT	O	det	O	-1	O
+0	14	290	1383	1389	S	292	living	living	living	NN	O	nn	O	-1	B-noun.artifact
+0	14	291	1390	1394	S	292	room	room	room	NN	O	nn	O	-1	I-noun.artifact
+0	14	292	1395	1399		288	sofa	sofa	sofa	NN	O	pobj	O	-1	B-noun.artifact
+0	14	293	1399	1400	S	277	.	.	.	.	O	punct	O	-1	O
+0	15	294	1401	1407	S	295	Bessie	Bessie	Bessie	NNP	PERSON	nsubj	O	-1	B-noun.person
+0	15	295	1408	1413	S	-1	wants	wants	want	VBZ	O	null	O	-1	B-verb.emotion
+0	15	296	1414	1419	S	298	Zooey	Zooey	Zooey	NNP	PERSON	nsubj	O	0	B-noun.person
+0	15	297	1420	1422	S	298	to	to	to	TO	O	aux	O	-1	O
+0	15	298	1423	1427	S	295	talk	talk	talk	VB	O	xcomp	O	-1	B-verb.communication
+0	15	299	1428	1430	S	298	to	to	to	TO	O	prep	O	-1	O
+0	15	300	1431	1437		299	Franny	Franny	Franny	NNP	PERSON	pobj	O	1	O
+0	15	301	1437	1438	S	300	,	,	,	,	O	punct	O	-1	O
+0	15	302	1439	1444	S	305	which	which	which	WDT	O	dobj	O	-1	O
+0	15	303	1445	1447	S	305	he	he	he	PRP	O	nsubj	O	1	O
+0	15	304	1448	1458	S	305	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	15	305	1459	1463		300	does	does	do	VBZ	O	rcmod	O	-1	O
+0	15	306	1463	1464	S	295	.	.	.	.	O	punct	O	-1	O
+0	16	307	1465	1468	S	308	The	The	the	DT	O	dep	O	-1	O
+0	16	308	1469	1472	S	311	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	16	309	1473	1475	S	308	of	of	of	IN	O	prep	O	-1	O
+0	16	310	1476	1480	S	309	them	them	they	PRP	O	pobj	O	-1	O
+0	16	311	1481	1485	S	-1	have	have	have	VBP	O	null	O	-1	B-verb.possession
+0	16	312	1486	1487	S	317	a	a	a	DT	O	det	O	-1	O
+0	16	313	1488	1492	S	317	long	long	long	JJ	O	amod	O	-1	O
+0	16	314	1493	1504	S	317	theological	theological	theological	JJ	O	amod	O	-1	O
+0	16	315	1505	1508	S	314	and	and	and	CC	O	cc	O	-1	O
+0	16	316	1509	1517	S	314	personal	personal	personal	JJ	O	conj	O	-1	O
+0	16	317	1518	1528		311	discussion	discussion	discussion	NN	O	dobj	O	-1	B-noun.communication
+0	16	318	1528	1529	S	311	.	.	.	.	O	punct	O	-1	O
+0	17	319	1530	1532	S	320	We	We	we	PRP	O	nsubj	O	-1	O
+0	17	320	1533	1538	S	-1	learn	learn	learn	VBP	O	null	O	-1	B-verb.cognition
+0	17	321	1539	1543	S	329	that	that	that	IN	O	complm	O	-1	O
+0	17	322	1544	1547	S	323	the	the	the	DT	O	dep	O	-1	O
+0	17	323	1548	1551	S	329	two	two	two	CD	NUMBER	nsubjpass	O	-1	O
+0	17	324	1552	1554	S	323	of	of	of	IN	O	prep	O	-1	O
+0	17	325	1555	1559	S	324	them	them	they	PRP	O	pobj	O	-1	O
+0	17	326	1560	1564	S	329	have	have	have	VBP	O	aux	O	-1	O
+0	17	327	1565	1574	S	329	basically	basically	basically	RB	O	advmod	O	-1	O
+0	17	328	1575	1579	S	329	been	been	be	VBN	O	auxpass	O	-1	O
+0	17	329	1580	1586	S	320	raised	raised	raise	VBN	O	ccomp	O	-1	B-verb.motion
+0	17	330	1587	1589	S	329	on	on	on	IN	O	prep	O	-1	O
+0	17	331	1590	1591	S	332	a	a	a	DT	O	det	O	-1	O
+0	17	332	1592	1597	S	330	blend	blend	blend	VB	O	pobj	O	-1	B-verb.stative
+0	17	333	1598	1600	S	332	of	of	of	IN	O	prep	O	-1	O
+0	17	334	1601	1610	S	335	different	different	different	JJ	O	amod	O	-1	O
+0	17	335	1611	1620		333	religions	religions	religion	NNS	O	pobj	O	-1	B-noun.cognition
+0	17	336	1620	1621	S	320	,	,	,	,	O	punct	O	-1	O
+0	17	337	1622	1628	S	320	taught	taught	teach	VBD	O	dep	O	-1	B-verb.communication
+0	17	338	1629	1631	S	337	to	to	to	TO	O	prep	O	-1	O
+0	17	339	1632	1636	S	338	them	them	they	PRP	O	pobj	O	-1	O
+0	17	340	1637	1639	S	337	by	by	by	IN	O	prep	O	-1	O
+0	17	341	1640	1645	S	344	their	their	they	PRP$	O	poss	O	-1	O
+0	17	342	1646	1651	S	344	older	older	older	JJR	O	amod	O	-1	O
+0	17	343	1652	1660	S	344	brothers	brothers	brother	NNS	O	nn	O	-1	B-noun.person
+0	17	344	1661	1666	S	340	Buddy	Buddy	Buddy	NNP	O	pobj	O	-1	B-noun.person
+0	17	345	1667	1670	S	344	and	and	and	CC	O	cc	O	-1	O
+0	17	346	1671	1678		344	Seymour	Seymour	Seymour	NNP	PERSON	conj	O	-1	B-noun.person
+0	17	347	1678	1679	S	320	.	.	.	.	O	punct	O	-1	O
+0	18	348	1680	1684	S	357	Over	Over	over	IN	O	prep	O	-1	O
+0	18	349	1685	1688	S	350	the	the	the	DT	O	det	O	-1	O
+0	18	350	1689	1695	S	348	course	course	course	NN	O	pobj	O	-1	B-noun.act
+0	18	351	1696	1698	S	350	of	of	of	IN	O	prep	O	-1	O
+0	18	352	1699	1703	S	354	this	this	this	DT	O	det	O	-1	O
+0	18	353	1704	1708	S	354	long	long	long	JJ	O	amod	O	-1	O
+0	18	354	1709	1719		351	discussion	discussion	discussion	NN	O	pobj	O	-1	B-noun.communication
+0	18	355	1719	1720	S	357	,	,	,	,	O	punct	O	-1	O
+0	18	356	1721	1726	S	357	Zooey	Zooey	Zooey	NNP	PERSON	nsubj	O	0	O
+0	18	357	1727	1732	S	-1	helps	helps	help	VBZ	O	null	O	-1	B-verb.social
+0	18	358	1733	1739	S	359	Franny	Franny	Franny	NNP	PERSON	nn	O	1	B-noun.person
+0	18	359	1740	1744	S	357	sort	sort	sort	NN	O	dobj	O	-1	B-noun.cognition
+0	18	360	1745	1748	S	357	out	out	out	IN	O	prep	O	-1	O
+0	18	361	1749	1752	S	365	her	her	she	PRP$	O	poss	O	-1	O
+0	18	362	1753	1762	S	365	spiritual	spiritual	spiritual	JJ	O	amod	O	-1	O
+0	18	363	1763	1766	S	362	and	and	and	CC	O	cc	O	-1	O
+0	18	364	1767	1775	S	362	personal	personal	personal	JJ	O	conj	O	-1	O
+0	18	365	1776	1783		360	beliefs	beliefs	belief	NNS	O	pobj	O	-1	B-noun.cognition
+0	18	366	1783	1784	S	357	,	,	,	,	O	punct	O	-1	O
+0	18	367	1785	1793	S	357	allowing	allowing	allow	VBG	O	xcomp	O	-1	B-verb.social
+0	18	368	1794	1797		367	her	her	she	PRP	O	dobj	O	-1	O
+0	18	369	1797	1798	S	368	,	,	,	,	O	punct	O	-1	O
+0	18	370	1799	1801	S	367	by	by	by	IN	O	prep	O	-1	O
+0	18	371	1802	1805	S	372	the	the	the	DT	O	det	O	-1	O
+0	18	372	1806	1809		370	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	18	373	1809	1810	S	367	,	,	,	,	O	punct	O	-1	O
+0	18	374	1811	1813	S	375	to	to	to	TO	O	aux	O	-1	O
+0	18	375	1814	1818	S	367	find	find	find	VB	O	xcomp	O	-1	B-verb.possession
+0	18	376	1819	1824		375	peace	peace	peace	NN	O	dobj	O	-1	B-noun.state
+0	18	377	1824	1825	N	357	.	.	.	.	O	punct	O	-1	O

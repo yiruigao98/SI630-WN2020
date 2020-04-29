@@ -1,0 +1,401 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	2	S	6	An	An	a	DT	O	det	O	-1	O
+0	0	1	3	12		6	ambitious	ambitious	ambitious	JJ	O	amod	O	-1	O
+0	0	2	12	13	S	6	,	,	,	,	O	punct	O	-1	O
+0	0	3	14	21	S	6	worldly	worldly	worldly	JJ	O	amod	O	-1	O
+0	0	4	22	27	S	6	young	young	young	JJ	O	amod	O	-1	O
+0	0	5	28	32	S	6	bank	bank	bank	NN	O	nn	O	-1	B-noun.group
+0	0	6	33	41	S	11	official	official	official	NN	O	nsubjpass	O	-1	B-noun.person
+0	0	7	42	47	S	11	named	named	name	VBN	O	auxpass	O	-1	B-verb.communication
+0	0	8	48	54	S	9	Joseph	Joseph	Joseph	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	9	55	57	S	11	K.	K.	K.	NNP	PERSON	nsubjpass	O	-1	I-noun.person
+0	0	10	58	60	S	11	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	11	61	69	S	-1	arrested	arrested	arrest	VBN	O	null	O	-1	B-verb.contact
+0	0	12	70	72	S	11	by	by	by	IN	O	prep	O	-1	O
+0	0	13	73	76	S	14	two	two	two	CD	NUMBER	num	O	-1	O
+0	0	14	77	84	S	18	warders	warders	warder	NNS	O	nsubj	O	-1	B-noun.person
+0	0	15	85	86		18	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	0	16	86	89	S	18	one	one	one	CD	NUMBER	num	I-QUOTE	-1	O
+0	0	17	90	94	S	18	fine	fine	fine	JJ	O	amod	I-QUOTE	-1	O
+0	0	18	95	102		12	morning	morning	morning	NN	TIME	pobj	I-QUOTE	-1	B-noun.time
+0	0	19	102	103		11	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	0	20	103	104	S	11	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	0	21	105	113	S	24	although	although	although	IN	O	mark	O	-1	O
+0	0	22	114	116	S	24	he	he	he	PRP	O	nsubj	O	-1	O
+0	0	23	117	120	S	24	has	has	have	VBZ	O	aux	O	-1	O
+0	0	24	121	125	S	11	done	done	do	VBN	O	advcl	O	-1	B-verb.social
+0	0	25	126	133	S	24	nothing	nothing	nothing	NN	O	dobj	O	-1	B-noun.quantity
+0	0	26	134	139		25	wrong	wrong	wrong	JJ	O	amod	O	-1	O
+0	0	27	139	140	S	11	.	.	.	.	O	punct	O	-1	O
+0	1	28	141	143	S	30	K.	K.	K.	NNP	O	nsubj	O	-1	O
+0	1	29	144	146	S	30	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	30	147	156	S	-1	indignant	indignant	indignant	JJ	O	null	O	-1	O
+0	1	31	157	160	S	30	and	and	and	CC	O	cc	O	-1	O
+0	1	32	161	169		30	outraged	outraged	outraged	JJ	O	conj	O	-1	O
+0	1	33	169	170	S	30	.	.	.	.	O	punct	O	-1	O
+0	2	34	171	174	S	35	The	The	the	DT	O	det	O	-1	O
+0	2	35	175	182	S	36	morning	morning	morning	NN	TIME	nsubj	O	-1	B-noun.time
+0	2	36	183	190	S	-1	happens	happens	happen	VBZ	O	null	O	-1	B-verb.change
+0	2	37	191	193	S	38	to	to	to	TO	O	aux	O	-1	O
+0	2	38	194	196	S	36	be	be	be	VB	O	xcomp	O	-1	B-verb.stative
+0	2	39	197	201	S	38	that	that	that	DT	O	dobj	O	-1	O
+0	2	40	202	204	S	39	of	of	of	IN	O	prep	O	-1	O
+0	2	41	205	208	S	43	his	his	he	PRP$	O	poss	O	-1	O
+0	2	42	209	218	S	43	thirtieth	thirtieth	thirtieth	JJ	ORDINAL	amod	O	-1	O
+0	2	43	219	227		40	birthday	birthday	birthday	NN	O	pobj	O	-1	B-noun.time
+0	2	44	227	228	S	36	.	.	.	.	O	punct	O	-1	O
+0	3	45	229	232	S	46	One	One	one	CD	DATE	num	O	-1	O
+0	3	46	233	237	S	47	year	year	year	NN	DATE	dep	O	-1	B-noun.time
+0	3	47	238	243		60	later	later	later	RB	DATE	advmod	O	-1	O
+0	3	48	243	244	S	60	,	,	,	,	O	punct	O	-1	O
+0	3	49	245	247	S	60	on	on	on	IN	O	prep	O	-1	O
+0	3	50	248	251	S	51	the	the	the	DT	O	det	O	-1	O
+0	3	51	252	259	S	49	morning	morning	morning	NN	TIME	pobj	O	-1	B-noun.time
+0	3	52	260	262	S	51	of	of	of	IN	O	prep	O	-1	O
+0	3	53	263	266	S	55	his	his	he	PRP$	O	poss	O	-1	O
+0	3	54	267	279	S	55	thirty-first	thirty-first	thirty-first	JJ	ORDINAL	amod	O	-1	O
+0	3	55	280	288		52	birthday	birthday	birthday	NN	O	pobj	O	-1	B-noun.time
+0	3	56	288	289	S	60	,	,	,	,	O	punct	O	-1	O
+0	3	57	290	293	S	58	two	two	two	CD	NUMBER	num	O	-1	O
+0	3	58	294	301	S	60	warders	warders	warder	NNS	O	nsubj	O	-1	B-noun.person
+0	3	59	302	307	S	60	again	again	again	RB	O	advmod	O	-1	O
+0	3	60	308	312	S	-1	come	come	come	VBP	O	null	O	-1	B-verb.motion
+0	3	61	313	316	S	60	for	for	for	IN	O	prep	O	-1	O
+0	3	62	317	318		61	K	K	k	NN	O	pobj	O	-1	O
+0	3	63	318	319	S	60	.	.	.	.	O	punct	O	-1	O
+0	4	64	320	324	S	65	They	They	they	PRP	O	nsubj	O	-1	O
+0	4	65	325	329	S	-1	take	take	take	VBP	O	null	O	-1	B-verb.motion
+0	4	66	330	333	S	65	him	him	he	PRP	O	dobj	O	-1	O
+0	4	67	334	336	S	65	to	to	to	TO	O	prep	O	-1	O
+0	4	68	337	338	S	69	a	a	a	DT	O	det	O	-1	O
+0	4	69	339	345	S	67	quarry	quarry	quarry	NN	O	pobj	O	-1	B-noun.person
+0	4	70	346	353	S	69	outside	outside	outside	IN	O	prep	O	-1	O
+0	4	71	354	356	S	70	of	of	of	IN	O	dep	O	-1	O
+0	4	72	357	361	S	71	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	4	73	362	365	S	65	and	and	and	CC	O	cc	O	-1	O
+0	4	74	366	370	S	65	kill	kill	kill	VB	O	conj	O	-1	B-verb.contact
+0	4	75	371	374	S	74	him	him	he	PRP	O	dobj	O	-1	O
+0	4	76	375	377	S	74	in	in	in	IN	O	prep	O	-1	O
+0	4	77	378	381	S	78	the	the	the	DT	O	det	O	-1	O
+0	4	78	382	386	S	76	name	name	name	NN	O	pobj	O	-1	B-noun.communication
+0	4	79	387	389	S	78	of	of	of	IN	O	prep	O	-1	O
+0	4	80	390	393	S	81	the	the	the	DT	O	det	O	-1	O
+0	4	81	394	397		79	Law	Law	law	NN	O	pobj	O	-1	B-noun.group
+0	4	82	397	398	S	65	.	.	.	.	O	punct	O	-1	O
+0	5	83	399	401	S	84	K.	K.	K.	NNP	O	nsubj	O	-1	O
+0	5	84	402	406	S	-1	lets	lets	let	VBZ	O	null	O	-1	B-verb.communication
+0	5	85	407	411		84	them	them	they	PRP	O	dobj	O	-1	O
+0	5	86	411	412	S	84	.	.	.	.	O	punct	O	-1	O
+0	6	87	413	416	S	88	The	The	the	DT	O	det	O	-1	O
+0	6	88	417	422	S	91	Trial	Trial	trial	NN	O	nsubj	O	-1	B-noun.act
+0	6	89	423	425	S	91	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	90	426	429	S	91	the	the	the	DT	O	det	O	-1	O
+0	6	91	430	439	S	-1	chronicle	chronicle	chronicle	NN	O	null	O	-1	B-noun.communication
+0	6	92	440	442	S	91	of	of	of	IN	O	prep	O	-1	O
+0	6	93	443	447	S	95	that	that	that	DT	O	det	O	-1	O
+0	6	94	448	459	S	95	intervening	intervening	intervene	VBG	O	amod	O	-1	B-verb.social
+0	6	95	460	464	S	92	year	year	year	NN	DURATION	pobj	O	-1	B-noun.time
+0	6	96	465	467	S	95	of	of	of	IN	O	prep	O	-1	O
+0	6	97	468	470		99	K.	K.	K.	NNP	O	poss	O	-1	B-noun.person
+0	6	98	470	472	S	97	's	's	's	POS	O	possessive	O	-1	O
+0	6	99	473	477		96	case	case	case	NN	O	pobj	O	-1	B-noun.event
+0	6	100	477	478	S	91	,	,	,	,	O	punct	O	-1	O
+0	6	101	479	482	S	102	his	his	he	PRP$	O	poss	O	-1	O
+0	6	102	483	492	S	91	struggles	struggles	struggle	NNS	O	conj	O	-1	B-noun.act
+0	6	103	493	496	S	91	and	and	and	CC	O	cc	O	-1	O
+0	6	104	497	507	S	91	encounters	encounters	encounter	NNS	O	conj	O	-1	B-noun.act
+0	6	105	508	512	S	104	with	with	with	IN	O	prep	O	-1	O
+0	6	106	513	516	S	108	the	the	the	DT	O	det	O	-1	O
+0	6	107	517	526	S	108	invisible	invisible	invisible	JJ	O	amod	O	-1	O
+0	6	108	527	530	S	105	Law	Law	law	NN	MISC	pobj	O	-1	B-noun.group
+0	6	109	531	534	S	108	and	and	and	CC	O	cc	O	-1	O
+0	6	110	535	538	S	112	the	the	the	DT	O	det	O	-1	O
+0	6	111	539	550	S	112	untouchable	untouchable	untouchable	JJ	O	amod	O	-1	O
+0	6	112	551	556		108	Court	Court	court	NN	O	conj	O	-1	B-noun.group
+0	6	113	556	557	S	91	.	.	.	.	O	punct	O	-1	O
+0	7	114	558	560	S	117	It	It	it	PRP	O	nsubj	O	-1	O
+0	7	115	561	563	S	117	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	7	116	564	566	S	117	an	an	a	DT	O	det	O	-1	O
+0	7	117	567	574		-1	account	account	account	NN	O	null	O	-1	B-noun.communication
+0	7	118	574	575	S	117	,	,	,	,	O	punct	O	-1	O
+0	7	119	576	586		117	ultimately	ultimately	ultimately	RB	O	advmod	O	-1	O
+0	7	120	586	587	S	117	,	,	,	,	O	punct	O	-1	O
+0	7	121	588	590	S	117	of	of	of	IN	O	prep	O	-1	O
+0	7	122	591	604	S	123	state-induced	state-induced	state-induced	JJ	O	amod	O	-1	O
+0	7	123	605	621		121	self-destruction	self-destruction	self-destruction	NN	O	pobj	O	-1	B-noun.act
+0	7	124	621	622	S	117	.	.	.	.	O	punct	O	-1	O
+0	8	125	623	626		140	Yet	Yet	yet	RB	O	advmod	O	-1	O
+0	8	126	626	627	S	140	,	,	,	,	O	punct	O	-1	O
+0	8	127	628	630	S	140	as	as	as	IN	O	prep	O	-1	O
+0	8	128	631	633	S	127	in	in	in	IN	O	dep	O	-1	O
+0	8	129	634	637	S	128	all	all	all	DT	O	pobj	O	-1	O
+0	8	130	638	640	S	129	of	of	of	IN	O	prep	O	-1	O
+0	8	131	641	646		134	Kafka	Kafka	Kafka	NNP	PERSON	poss	O	0	B-noun.person
+0	8	132	646	648	S	131	's	's	's	POS	O	possessive	O	-1	O
+0	8	133	649	653	S	134	best	best	best	JJS	O	amod	O	-1	O
+0	8	134	654	661		130	writing	writing	writing	NN	O	pobj	O	-1	B-noun.act
+0	8	135	661	662	S	140	,	,	,	,	O	punct	O	-1	O
+0	8	136	663	666	S	138	the	the	the	DT	O	det	O	-1	O
+0	8	137	667	668		138	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	8	138	668	675		140	meaning	meaning	meaning	NN	O	nsubj	I-QUOTE	-1	O
+0	8	139	675	676	S	140	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	8	140	677	679	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	8	141	680	683	S	140	far	far	far	RB	O	advmod	O	-1	O
+0	8	142	684	688	S	141	from	from	from	IN	O	dep	O	-1	O
+0	8	143	689	694		142	clear	clear	clear	JJ	O	pobj	O	-1	O
+0	8	144	694	695	S	140	.	.	.	.	O	punct	O	-1	O
+0	9	145	696	700	S	146	Just	Just	just	RB	O	dep	O	-1	O
+0	9	146	701	703	S	-1	as	as	as	IN	O	null	O	-1	O
+0	9	147	704	707	S	149	the	the	the	DT	O	det	O	-1	O
+0	9	148	708	715	S	149	parable	parable	parable	JJ	O	amod	O	-1	O
+0	9	149	716	723	S	146	related	related	related	JJ	O	pobj	O	-1	O
+0	9	150	724	726	S	146	by	by	by	IN	O	dep	O	-1	O
+0	9	151	727	730	S	152	the	the	the	DT	O	det	O	-1	O
+0	9	152	731	739	S	150	chaplain	chaplain	chaplain	NN	O	pobj	O	-1	B-noun.person
+0	9	153	740	742	S	146	in	in	in	IN	O	dep	O	-1	O
+0	9	154	743	750	S	153	Chapter	Chapter	chapter	NN	MISC	pobj	O	-1	B-noun.communication
+0	9	155	751	755	S	154	Nine	Nine	nine	CD	NUMBER	num	O	-1	O
+0	9	156	756	757		153	(	-LRB-	-lrb-	-LRB-	O	cc	O	-1	O
+0	9	157	757	763	S	156	called	called	call	VBN	O	partmod	O	-1	O
+0	9	158	764	765		160	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	9	159	765	768	S	160	The	The	the	DT	O	det	I-QUOTE	-1	O
+0	9	160	769	779		157	Doorkeeper	Doorkeeper	Doorkeeper	NNP	MISC	dep	I-QUOTE	-1	B-noun.person
+0	9	161	779	780	S	160	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	9	162	781	783	S	156	or	or	or	CC	O	cc	O	-1	O
+0	9	163	784	785		156	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	9	164	785	791	S	156	Before	Before	before	IN	O	prep	I-QUOTE	-1	O
+0	9	165	792	795	S	166	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	9	166	796	799		164	Law	Law	law	NN	O	pobj	I-QUOTE	-1	B-noun.group
+0	9	167	799	800		166	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	9	168	800	801	S	166	)	-RRB-	-rrb-	-RRB-	O	partmod	O	-1	O
+0	9	169	802	809	S	168	elicits	elicits	elicit	VBZ	O	dep	O	-1	B-verb.emotion
+0	9	170	810	817	S	171	endless	endless	endless	JJ	O	amod	O	-1	O
+0	9	171	818	828	S	169	commentary	commentary	commentary	NN	O	dobj	O	-1	B-noun.communication
+0	9	172	829	833	S	171	from	from	from	IN	O	prep	O	-1	O
+0	9	173	834	842	S	172	students	students	student	NNS	O	pobj	O	-1	B-noun.person
+0	9	174	843	845	S	173	of	of	of	IN	O	prep	O	-1	O
+0	9	175	846	849	S	176	the	the	the	DT	O	det	O	-1	O
+0	9	176	850	853		174	Law	Law	law	NN	O	pobj	O	-1	B-noun.group
+0	9	177	853	854	S	146	,	,	,	,	O	punct	O	-1	O
+0	9	178	855	857	S	179	so	so	so	RB	O	advmod	O	-1	O
+0	9	179	858	861	S	146	has	has	have	VBZ	O	dep	O	-1	O
+0	9	180	862	865	S	181	The	The	the	DT	O	det	O	-1	O
+0	9	181	866	871	S	184	Trial	Trial	trial	NN	O	nsubj	O	-1	B-noun.act
+0	9	182	872	876	S	184	been	been	be	VBN	O	cop	O	-1	B-verb.stative
+0	9	183	877	878	S	184	a	a	a	DT	O	det	O	-1	O
+0	9	184	879	889	S	179	touchstone	touchstone	touchstone	NN	O	xcomp	O	-1	B-noun.communication
+0	9	185	890	892	S	184	of	of	of	IN	O	prep	O	-1	O
+0	9	186	893	910	S	188	twentieth-century	twentieth-century	twentieth-century	JJ	DATE	amod	O	-1	O
+0	9	187	911	919	S	188	critical	critical	critical	JJ	O	amod	O	-1	O
+0	9	188	920	934		185	interpretation	interpretation	interpretation	NN	O	pobj	O	-1	B-noun.cognition
+0	9	189	934	935	S	146	.	.	.	.	O	punct	O	-1	O
+0	10	190	936	938	S	194	As	As	as	IN	O	mark	O	-1	O
+0	10	191	939	943	S	192	some	some	some	DT	O	det	O	-1	O
+0	10	192	944	956	S	194	commentators	commentators	commentator	NNS	O	nsubj	O	-1	B-noun.person
+0	10	193	957	961	S	194	have	have	have	VBP	O	aux	O	-1	O
+0	10	194	962	967		197	noted	noted	note	VBN	O	advcl	O	-1	O
+0	10	195	967	968	S	197	,	,	,	,	O	punct	O	-1	O
+0	10	196	969	971	S	197	it	it	it	PRP	O	nsubj	O	-1	O
+0	10	197	972	975		-1	has	has	have	VBZ	O	null	O	-1	O
+0	10	198	975	976	S	197	,	,	,	,	O	punct	O	-1	O
+0	10	199	977	979	S	197	in	in	in	IN	O	prep	O	-1	O
+0	10	200	980	985		199	parts	parts	part	NNS	O	pobj	O	-1	B-noun.relation
+0	10	201	985	986	S	197	,	,	,	,	O	punct	O	-1	O
+0	10	202	987	990	S	203	the	the	the	DT	O	det	O	-1	O
+0	10	203	991	998	S	197	quality	quality	quality	NN	O	dobj	O	-1	B-noun.attribute
+0	10	204	999	1001	S	203	of	of	of	IN	O	prep	O	-1	O
+0	10	205	1002	1010	S	206	revealed	revealed	reveal	VBN	O	amod	O	-1	B-verb.perception
+0	10	206	1011	1016		204	truth	truth	truth	NN	O	pobj	O	-1	B-noun.cognition
+0	10	207	1016	1017	S	197	;	;	;	:	O	punct	O	-1	O
+0	10	208	1018	1020	S	213	as	as	as	IN	O	mark	O	-1	O
+0	10	209	1021	1025	S	213	such	such	such	JJ	O	dep	O	-1	O
+0	10	210	1026	1028	S	213	it	it	it	PRP	O	nsubj	O	-1	O
+0	10	211	1029	1031	S	213	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	10	212	1032	1042	S	213	ultimately	ultimately	ultimately	RB	O	advmod	O	-1	O
+0	10	213	1043	1055		197	unresolvable	unresolvable	unresolvable	JJ	O	advcl	O	-1	O
+0	10	214	1055	1057		213	--	--	--	:	O	punct	O	-1	O
+0	10	215	1057	1058	S	216	a	a	a	DT	O	det	O	-1	O
+0	10	216	1059	1065	S	213	mirror	mirror	mirror	NN	O	dep	O	-1	B-noun.artifact
+0	10	217	1066	1069	S	216	for	for	for	IN	O	prep	O	-1	O
+0	10	218	1070	1073	S	220	any	any	any	DT	O	det	O	-1	O
+0	10	219	1074	1083	S	220	sectarian	sectarian	sectarian	JJ	O	amod	O	-1	O
+0	10	220	1084	1091		217	reading	reading	reading	NN	O	pobj	O	-1	B-noun.cognition
+0	10	221	1091	1092	S	197	.	.	.	.	O	punct	O	-1	O
+0	11	222	1093	1096	S	224	How	How	how	WRB	O	advmod	O	-1	O
+0	11	223	1097	1099	S	224	to	to	to	TO	O	aux	O	-1	O
+0	11	224	1100	1109	S	-1	summarize	summarize	summarize	VB	O	null	O	-1	B-verb.communication
+0	11	225	1110	1114	S	226	this	this	this	DT	O	det	O	-1	O
+0	11	226	1115	1119	S	224	kind	kind	kind	NN	O	dobj	O	-1	B-noun.cognition
+0	11	227	1120	1122	S	226	of	of	of	IN	O	prep	O	-1	O
+0	11	228	1123	1127		227	text	text	text	NN	O	pobj	O	-1	B-noun.communication
+0	11	229	1127	1128	S	224	?	?	?	.	O	punct	O	-1	O
+0	12	230	1129	1131	S	232	It	It	it	PRP	O	nsubjpass	O	-1	O
+0	12	231	1132	1135	S	232	was	was	be	VBD	O	auxpass	O	-1	O
+0	12	232	1136	1143	S	-1	written	written	write	VBN	O	null	O	-1	B-verb.creation
+0	12	233	1144	1150	S	232	during	during	during	IN	O	prep	O	-1	O
+0	12	234	1151	1160		233	1914-1915	1914-1915	1914-1915	CD	DATE	pobj	O	-1	O
+0	12	235	1160	1161	S	232	,	,	,	,	O	punct	O	-1	O
+0	12	236	1162	1167	S	240	while	while	while	IN	O	mark	O	-1	O
+0	12	237	1168	1173	S	240	Kafka	Kafka	Kafka	NNP	PERSON	nsubj	O	0	B-noun.person
+0	12	238	1174	1177	S	240	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	12	239	1178	1180	S	240	an	an	a	DT	O	det	O	-1	O
+0	12	240	1181	1189	S	232	official	official	official	NN	O	advcl	O	-1	B-noun.person
+0	12	241	1190	1192	S	240	in	in	in	IN	O	prep	O	-1	O
+0	12	242	1193	1196	S	243	the	the	the	DT	O	det	O	-1	O
+0	12	243	1197	1204		247	Workmen	Workmen	Workmen	NNP	ORGANIZATION	poss	O	-1	B-noun.group
+0	12	244	1204	1206	S	243	's	's	's	POS	ORGANIZATION	possessive	O	-1	O
+0	12	245	1207	1215	S	247	Accident	Accident	Accident	NNP	ORGANIZATION	nn	O	-1	O
+0	12	246	1216	1225	S	247	Insurance	Insurance	Insurance	NNP	ORGANIZATION	nn	O	-1	O
+0	12	247	1226	1235	S	241	Institute	Institute	Institute	NNP	ORGANIZATION	pobj	O	-1	O
+0	12	248	1236	1239	S	247	for	for	for	IN	ORGANIZATION	prep	O	-1	O
+0	12	249	1240	1243	S	250	the	the	the	DT	ORGANIZATION	det	O	-1	O
+0	12	250	1244	1251	S	248	Kingdom	Kingdom	Kingdom	NNP	ORGANIZATION	pobj	O	-1	B-noun.group
+0	12	251	1252	1254	S	250	of	of	of	IN	ORGANIZATION	prep	O	-1	O
+0	12	252	1255	1262		251	Bohemia	Bohemia	Bohemia	NNP	ORGANIZATION	pobj	O	-1	B-noun.location
+0	12	253	1262	1263	S	232	.	.	.	.	O	punct	O	-1	O
+0	13	254	1264	1266	S	259	On	On	on	IN	O	prep	O	-1	O
+0	13	255	1267	1270	S	256	one	one	one	CD	NUMBER	num	O	-1	O
+0	13	256	1271	1276	S	254	level	level	level	NN	O	pobj	O	-1	B-noun.attribute
+0	13	257	1277	1279	S	259	we	we	we	PRP	O	nsubj	O	-1	O
+0	13	258	1280	1283	S	259	can	can	can	MD	O	aux	O	-1	O
+0	13	259	1284	1287	S	-1	see	see	see	VB	O	null	O	-1	B-verb.perception
+0	13	260	1288	1290	S	259	in	in	in	IN	O	prep	O	-1	O
+0	13	261	1291	1294	S	262	The	The	the	DT	O	det	O	-1	O
+0	13	262	1295	1300	S	260	Trial	Trial	trial	NN	O	pobj	O	-1	B-noun.act
+0	13	263	1301	1302	S	264	a	a	a	DT	O	det	O	-1	O
+0	13	264	1303	1312	S	262	satirical	satirical	satirical	JJ	O	amod	O	-1	O
+0	13	265	1313	1323	S	264	pillorying	pillorying	pillory	VBG	O	amod	O	-1	B-verb.social
+0	13	266	1324	1326	S	265	of	of	of	IN	O	prep	O	-1	O
+0	13	267	1327	1330	S	269	the	the	the	DT	O	det	O	-1	O
+0	13	268	1331	1347	S	269	Austro-Hungarian	Austro-Hungarian	austro-hungarian	JJ	MISC	amod	O	-1	O
+0	13	269	1348	1359	S	266	bureaucracy	bureaucracy	bureaucracy	NN	O	pobj	O	-1	B-noun.group
+0	13	270	1360	1362	S	269	of	of	of	IN	O	prep	O	-1	O
+0	13	271	1363	1368		273	Kafka	Kafka	Kafka	NNP	PERSON	poss	O	0	B-noun.person
+0	13	272	1368	1370	S	271	's	's	's	POS	O	possessive	O	-1	O
+0	13	273	1371	1374		270	day	day	day	NN	DURATION	pobj	O	-1	B-noun.time
+0	13	274	1374	1375	S	259	.	.	.	.	O	punct	O	-1	O
+0	14	275	1376	1379	S	-1	Yet	Yet	yet	RB	O	null	O	-1	O
+0	14	276	1380	1382	S	275	to	to	to	TO	O	dep	O	-1	O
+0	14	277	1383	1387	S	278	many	many	many	JJ	O	amod	O	-1	O
+0	14	278	1388	1395	S	276	readers	readers	reader	NNS	O	pobj	O	-1	B-noun.person
+0	14	279	1396	1398	S	282	it	it	it	PRP	O	nsubj	O	-1	O
+0	14	280	1399	1401	S	282	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	14	281	1402	1408	S	282	eerily	eerily	eerily	RB	O	advmod	O	-1	O
+0	14	282	1409	1418	S	278	prescient	prescient	prescient	JJ	O	rcmod	O	-1	O
+0	14	283	1419	1421	S	282	of	of	of	IN	O	prep	O	-1	O
+0	14	284	1422	1425	S	286	the	the	the	DT	O	det	O	-1	O
+0	14	285	1426	1439	S	286	psychological	psychological	psychological	JJ	O	amod	O	-1	O
+0	14	286	1440	1448	S	283	weaponry	weaponry	weaponry	NN	O	pobj	O	-1	B-noun.artifact
+0	14	287	1449	1453	S	286	used	used	use	VBN	O	partmod	O	-1	B-verb.consumption
+0	14	288	1454	1456	S	287	by	by	by	IN	O	prep	O	-1	O
+0	14	289	1457	1460	S	294	the	the	the	DT	O	det	O	-1	O
+0	14	290	1461	1465	S	294	much	much	much	JJ	O	amod	O	-1	O
+0	14	291	1466	1470	S	294	more	more	more	JJR	O	amod	O	-1	O
+0	14	292	1471	1480	S	294	insidious	insidious	insidious	JJ	O	amod	O	-1	O
+0	14	293	1481	1493	S	294	totalitarian	totalitarian	totalitarian	NN	O	nn	O	-1	B-noun.person
+0	14	294	1494	1501	S	288	regimes	regimes	regime	NNS	O	pobj	O	-1	B-noun.group
+0	14	295	1502	1504	S	296	to	to	to	TO	O	aux	O	-1	O
+0	14	296	1505	1509		294	come	come	come	VB	O	infmod	O	-1	B-verb.motion
+0	14	297	1509	1510	S	276	,	,	,	,	O	punct	O	-1	O
+0	14	298	1511	1513	S	276	of	of	of	IN	O	dep	O	-1	O
+0	14	299	1514	1517	S	302	the	the	the	DT	O	det	O	-1	O
+0	14	300	1518	1536	S	302	legally-sanctioned	legally-sanctioned	legally-sanctioned	JJ	O	amod	O	-1	O
+0	14	301	1537	1542	S	302	death	death	death	NN	O	nn	O	-1	B-noun.phenomenon
+0	14	302	1543	1551	S	298	machines	machines	machine	NNS	O	pobj	O	-1	B-noun.artifact
+0	14	303	1552	1557	S	305	Kafka	Kafka	Kafka	NNP	PERSON	nsubj	O	0	B-noun.person
+0	14	304	1558	1563	S	305	never	never	never	RB	O	neg	O	-1	O
+0	14	305	1564	1569	S	302	lived	lived	live	VBD	O	rcmod	O	-1	B-verb.stative
+0	14	306	1570	1572	S	307	to	to	to	TO	O	aux	O	-1	O
+0	14	307	1573	1576		305	see	see	see	VB	O	xcomp	O	-1	B-verb.perception
+0	14	308	1576	1577	S	275	.	.	.	.	O	punct	O	-1	O
+0	15	309	1578	1580	S	314	It	It	it	PRP	O	nsubj	O	-1	O
+0	15	310	1581	1583	S	314	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	15	311	1584	1588	S	314	also	also	also	RB	O	advmod	O	-1	O
+0	15	312	1589	1591	S	314	an	an	a	DT	O	det	O	-1	O
+0	15	313	1592	1602	S	314	unfinished	unfinished	unfinished	JJ	O	amod	O	-1	O
+0	15	314	1603	1608		-1	novel	novel	novel	NN	O	null	O	-1	B-noun.communication
+0	15	315	1608	1609	S	314	,	,	,	,	O	punct	O	-1	O
+0	15	316	1610	1613	S	314	and	and	and	CC	O	cc	O	-1	O
+0	15	317	1614	1618	S	319	this	this	this	DT	O	nsubj	O	-1	O
+0	15	318	1619	1621	S	319	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	15	319	1622	1630	S	314	apparent	apparent	apparent	JJ	O	conj	O	-1	O
+0	15	320	1631	1633	S	319	in	in	in	IN	O	prep	O	-1	O
+0	15	321	1634	1637	S	323	the	the	the	DT	O	det	O	-1	O
+0	15	322	1638	1643	S	323	final	final	final	JJ	O	amod	O	-1	O
+0	15	323	1644	1652		320	chapters	chapters	chapter	NNS	O	pobj	O	-1	B-noun.communication
+0	15	324	1652	1653	S	314	.	.	.	.	O	punct	O	-1	O
+0	16	325	1654	1656	S	326	It	It	it	PRP	O	nsubj	O	-1	O
+0	16	326	1657	1659	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	16	327	1660	1662	S	326	at	at	at	IN	O	prep	O	-1	O
+0	16	328	1663	1668	S	327	times	times	time	NNS	O	pobj	O	-1	B-noun.event
+0	16	329	1669	1671	S	326	as	as	as	IN	O	prep	O	-1	O
+0	16	330	1672	1683	S	329	suffocating	suffocating	suffocate	VBG	O	pcomp	O	-1	B-verb.contact
+0	16	331	1684	1686	S	332	to	to	to	TO	O	aux	O	-1	O
+0	16	332	1687	1691	S	330	read	read	read	VB	O	xcomp	O	-1	B-verb.cognition
+0	16	333	1692	1694	S	332	as	as	as	IN	O	prep	O	-1	O
+0	16	334	1695	1698	S	336	the	the	the	DT	O	det	O	-1	O
+0	16	335	1699	1706	S	336	airless	airless	airless	JJ	O	amod	O	-1	O
+0	16	336	1707	1712	S	333	rooms	rooms	room	NNS	O	pobj	O	-1	B-noun.artifact
+0	16	337	1713	1715	S	336	of	of	of	IN	O	prep	O	-1	O
+0	16	338	1716	1719	S	339	the	the	the	DT	O	det	O	-1	O
+0	16	339	1720	1725	S	337	Court	Court	Court	NNP	O	pobj	O	-1	B-noun.group
+0	16	340	1726	1730	S	342	that	that	that	IN	O	dobj	O	-1	O
+0	16	341	1731	1733	S	342	it	it	it	PRP	O	nsubj	O	-1	O
+0	16	342	1734	1743		336	describes	describes	describe	VBZ	O	rcmod	O	-1	B-verb.communication
+0	16	343	1743	1744	S	326	.	.	.	.	O	punct	O	-1	O
+0	17	344	1745	1748	S	346	The	The	the	DT	O	det	O	-1	O
+0	17	345	1749	1755	S	346	German	German	german	JJ	MISC	amod	O	-1	O
+0	17	346	1756	1761		351	title	title	title	NN	O	nsubj	O	-1	B-noun.communication
+0	17	347	1761	1762	S	346	,	,	,	,	O	punct	O	-1	O
+0	17	348	1763	1766	S	349	Der	Der	Der	NNP	PERSON	nn	O	-1	O
+0	17	349	1767	1774		346	Prozess	Prozess	Prozess	NNP	PERSON	appos	O	-1	O
+0	17	350	1774	1775	S	346	,	,	,	,	O	punct	O	-1	O
+0	17	351	1776	1784	S	-1	connotes	connotes	connote	VBZ	O	null	O	-1	B-verb.communication
+0	17	352	1785	1789	S	355	both	both	both	CC	O	preconj	O	-1	O
+0	17	353	1790	1791	S	355	a	a	a	DT	O	det	O	-1	O
+0	17	354	1792	1793		355	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	17	355	1793	1798		351	trial	trial	trial	NN	O	dobj	I-QUOTE	-1	O
+0	17	356	1798	1799	S	355	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	17	357	1800	1803	S	355	and	and	and	CC	O	cc	O	-1	O
+0	17	358	1804	1805	S	360	a	a	a	DT	O	det	O	-1	O
+0	17	359	1806	1807		360	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	17	360	1807	1814		355	process	process	process	NN	O	conj	I-QUOTE	-1	O
+0	17	361	1814	1815		351	,	,	,	,	O	punct	I-QUOTE	-1	O
+0	17	362	1815	1816	S	351	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	17	363	1817	1820	S	351	and	and	and	CC	O	cc	O	-1	O
+0	17	364	1821	1823	S	369	it	it	it	PRP	O	nsubj	O	-1	O
+0	17	365	1824	1826	S	369	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	17	366	1827	1834	S	369	perhaps	perhaps	perhaps	RB	O	advmod	O	-1	O
+0	17	367	1835	1839	S	369	this	this	this	DT	O	det	O	-1	O
+0	17	368	1840	1849	S	369	maddening	maddening	maddening	JJ	O	amod	O	-1	O
+0	17	369	1850	1857	S	351	feeling	feeling	feeling	NN	O	conj	O	-1	B-noun.Tops
+0	17	370	1858	1860	S	369	of	of	of	IN	O	prep	O	-1	O
+0	17	371	1861	1874	S	370	inevitability	inevitability	inevitability	NN	O	pobj	O	-1	B-noun.attribute
+0	17	372	1875	1879	S	373	that	that	that	WDT	O	nsubj	O	-1	O
+0	17	373	1880	1886	S	371	leaves	leaves	leave	VBZ	O	rcmod	O	-1	B-verb.stative
+0	17	374	1887	1888	S	377	a	a	a	DT	O	det	O	-1	O
+0	17	375	1889	1896	S	377	lasting	lasting	lasting	JJ	O	amod	O	-1	O
+0	17	376	1897	1905	S	377	visceral	visceral	visceral	JJ	O	amod	O	-1	O
+0	17	377	1906	1916		373	impression	impression	impression	NN	O	dobj	O	-1	B-noun.cognition
+0	17	378	1916	1917	S	377	:	:	:	:	O	punct	O	-1	O
+0	17	379	1918	1921	S	380	the	the	the	DT	O	det	O	-1	O
+0	17	380	1922	1931	S	383	machinery	machinery	machinery	NN	O	nsubj	O	-1	B-noun.artifact
+0	17	381	1932	1935	S	383	has	has	have	VBZ	O	aux	O	-1	O
+0	17	382	1936	1940	S	383	been	been	be	VBN	O	auxpass	O	-1	O
+0	17	383	1941	1944	S	377	set	set	set	VBN	O	dep	O	-1	B-verb.contact
+0	17	384	1945	1947	S	383	in	in	in	IN	O	prep	O	-1	O
+0	17	385	1948	1954		384	motion	motion	motion	NN	O	pobj	O	-1	B-noun.communication
+0	17	386	1954	1955	S	383	,	,	,	,	O	punct	O	-1	O
+0	17	387	1956	1959	S	383	and	and	and	CC	O	cc	O	-1	O
+0	17	388	1960	1963	S	389	the	the	the	DT	O	det	O	-1	O
+0	17	389	1964	1971	S	391	process	process	process	NN	O	nsubj	O	-1	B-noun.act
+0	17	390	1972	1976	S	391	will	will	will	MD	O	aux	O	-1	O
+0	17	391	1977	1982	S	383	grind	grind	grind	VB	O	conj	O	-1	B-verb.social
+0	17	392	1983	1989	S	391	toward	toward	toward	IN	O	prep	O	-1	O
+0	17	393	1990	2000	S	392	conclusion	conclusion	conclusion	NN	O	pobj	O	-1	B-noun.cognition
+0	17	394	2001	2008	S	391	despite	despite	despite	IN	O	prep	O	-1	O
+0	17	395	2009	2012	S	398	our	our	we	PRP$	O	poss	O	-1	O
+0	17	396	2013	2017	S	397	most	most	most	RBS	O	advmod	O	-1	O
+0	17	397	2018	2027	S	398	desperate	desperate	desperate	JJ	O	amod	O	-1	O
+0	17	398	2028	2040		394	exhortations	exhortations	exhortation	NNS	O	pobj	O	-1	B-noun.communication
+0	17	399	2040	2041	N	351	.	.	.	.	O	punct	O	-1	O

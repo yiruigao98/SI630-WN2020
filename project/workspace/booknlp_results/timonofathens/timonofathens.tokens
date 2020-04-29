@@ -1,0 +1,1099 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	1	S	1	A	A	a	DT	O	det	O	-1	O
+0	0	1	2	6		7	Poet	Poet	Poet	NNP	MISC	nsubj	O	-1	B-noun.person
+0	0	2	6	7	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	8	15		1	Painter	Painter	Painter	NNP	O	conj	O	-1	O
+0	0	4	15	16	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	5	17	20	S	1	and	and	and	CC	O	cc	O	-1	O
+0	0	6	21	28	S	1	Jeweler	Jeweler	jeweler	NN	MISC	conj	O	-1	B-noun.person
+0	0	7	29	33	S	-1	come	come	come	VBP	O	null	O	-1	B-verb.motion
+0	0	8	34	36	S	7	to	to	to	TO	O	prep	O	-1	O
+0	0	9	37	42		11	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	0	10	42	44	S	9	's	's	's	POS	O	possessive	O	-1	O
+0	0	11	45	50		8	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	0	12	50	51	S	7	,	,	,	,	O	punct	O	-1	O
+0	0	13	52	58	S	26	hoping	hoping	hope	VBG	O	csubj	O	-1	B-verb.emotion
+0	0	14	59	61	S	15	to	to	to	TO	O	aux	O	-1	O
+0	0	15	62	66	S	13	sell	sell	sell	VB	O	xcomp	O	-1	B-verb.possession
+0	0	16	67	70	S	15	him	him	he	PRP	O	iobj	O	-1	O
+0	0	17	71	76	S	18	their	their	they	PRP$	O	poss	O	-1	O
+0	0	18	77	82		15	wares	wares	wares	NNS	O	dobj	O	-1	B-noun.artifact
+0	0	19	82	83	S	15	,	,	,	,	O	punct	O	-1	O
+0	0	20	84	87	S	15	for	for	for	IN	O	prep	O	-1	O
+0	0	21	88	93	S	20	Timon	Timon	Timon	NNP	PERSON	pobj	O	0	B-noun.person
+0	0	22	94	96	S	26	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	0	23	97	98	S	26	a	a	a	DT	O	det	O	-1	O
+0	0	24	99	103	S	25	very	very	very	RB	O	advmod	O	-1	O
+0	0	25	104	112	S	26	generous	generous	generous	JJ	O	amod	O	-1	O
+0	0	26	113	116		7	man	man	man	NN	O	xcomp	O	-1	B-noun.person
+0	0	27	116	117	S	7	.	.	.	.	O	punct	O	-1	O
+0	1	28	118	123	S	29	Timon	Timon	Timon	NNP	O	nsubj	O	-1	B-noun.person
+0	1	29	124	130		-1	enters	enters	enter	VBZ	O	null	O	-1	B-verb.motion
+0	1	30	130	131	S	29	.	.	.	.	O	punct	O	-1	O
+0	2	31	132	134	S	32	He	He	he	PRP	O	nsubj	O	-1	O
+0	2	32	135	141	S	-1	learns	learns	learn	VBZ	O	null	O	-1	B-verb.cognition
+0	2	33	142	146	S	32	from	from	from	IN	O	prep	O	-1	O
+0	2	34	147	148	S	35	a	a	a	DT	O	det	O	-1	O
+0	2	35	149	158	S	33	messenger	messenger	messenger	NN	O	pobj	O	-1	B-noun.person
+0	2	36	159	163	S	40	that	that	that	IN	O	complm	O	-1	O
+0	2	37	164	167	S	38	his	his	he	PRP$	O	poss	O	-1	O
+0	2	38	168	174	S	40	friend	friend	friend	NN	O	nsubj	O	-1	B-noun.person
+0	2	39	175	184	S	40	Ventidius	Ventidius	Ventidius	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	2	40	185	187	S	35	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	2	41	188	190	S	40	in	in	in	IN	O	prep	O	-1	O
+0	2	42	191	195		41	jail	jail	jail	NN	O	pobj	O	-1	B-noun.artifact
+0	2	43	195	196	S	40	,	,	,	,	O	punct	O	-1	O
+0	2	44	197	199	S	46	so	so	so	RB	O	advmod	O	-1	O
+0	2	45	200	202	S	46	he	he	he	PRP	O	nsubj	O	-1	O
+0	2	46	203	208	S	40	sends	sends	send	VBZ	O	ccomp	O	-1	B-verb.motion
+0	2	47	209	214	S	46	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	2	48	215	217	S	49	to	to	to	TO	O	aux	O	-1	O
+0	2	49	218	221	S	46	pay	pay	pay	VB	O	xcomp	O	-1	B-verb.possession
+0	2	50	222	225	S	49	for	for	for	IN	O	prep	O	-1	O
+0	2	51	226	229	S	52	his	his	he	PRP$	O	poss	O	-1	O
+0	2	52	230	237		50	freedom	freedom	freedom	NN	O	pobj	O	-1	B-noun.state
+0	2	53	237	238	S	32	.	.	.	.	O	punct	O	-1	O
+0	3	54	239	241	S	55	He	He	he	PRP	O	nsubj	O	-1	O
+0	3	55	242	247	S	-1	helps	helps	help	VBZ	O	null	O	-1	B-verb.social
+0	3	56	248	251	S	55	out	out	out	IN	O	prep	O	-1	O
+0	3	57	252	259	S	59	several	several	several	JJ	O	amod	O	-1	O
+0	3	58	260	265	S	59	other	other	other	JJ	O	amod	O	-1	O
+0	3	59	266	274	S	56	citizens	citizens	citizen	NNS	O	pobj	O	-1	B-noun.person
+0	3	60	275	277	S	59	in	in	in	IN	O	prep	O	-1	O
+0	3	61	278	282		60	need	need	need	NN	O	pobj	O	-1	B-noun.state
+0	3	62	282	283	S	55	,	,	,	,	O	punct	O	-1	O
+0	3	63	284	287	S	55	and	and	and	CC	O	cc	O	-1	O
+0	3	64	288	294	S	65	gladly	gladly	gladly	RB	O	advmod	O	-1	O
+0	3	65	295	302	S	55	accepts	accepts	accept	VBZ	O	conj	O	-1	B-verb.cognition
+0	3	66	303	306	S	67	the	the	the	DT	O	det	O	-1	O
+0	3	67	307	312	S	65	works	works	work	NNS	O	dobj	O	-1	B-noun.artifact
+0	3	68	313	315	S	67	of	of	of	IN	O	prep	O	-1	O
+0	3	69	316	319	S	70	the	the	the	DT	O	det	O	-1	O
+0	3	70	320	324	S	68	Poet	Poet	Poet	NNP	MISC	pobj	O	-1	B-noun.person
+0	3	71	325	328	S	70	and	and	and	CC	O	cc	O	-1	O
+0	3	72	329	336	S	70	Painter	Painter	Painter	NNP	O	conj	O	-1	B-noun.person
+0	3	73	337	340	S	70	and	and	and	CC	O	cc	O	-1	O
+0	3	74	341	344	S	75	the	the	the	DT	O	det	O	-1	O
+0	3	75	345	351	S	70	jewels	jewels	jewel	NNS	O	conj	O	-1	B-noun.artifact
+0	3	76	352	354	S	75	of	of	of	IN	O	prep	O	-1	O
+0	3	77	355	358	S	78	the	the	the	DT	O	det	O	-1	O
+0	3	78	359	366		76	Jeweler	Jeweler	jeweler	NN	MISC	pobj	O	-1	B-noun.person
+0	3	79	366	367	S	55	.	.	.	.	O	punct	O	-1	O
+0	4	80	368	377	S	81	Apemantus	Apemantus	apemantus	NN	O	nsubj	O	-1	O
+0	4	81	378	383	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	4	82	384	386	S	81	to	to	to	TO	O	prep	O	-1	O
+0	4	83	387	392		85	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	4	84	392	394	S	83	's	's	's	POS	O	possessive	O	-1	O
+0	4	85	395	400		82	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	4	86	400	401	S	87	,	,	,	,	O	punct	O	-1	O
+0	4	87	402	409	S	81	refuses	refuses	refuse	VBZ	O	parataxis	O	-1	B-verb.communication
+0	4	88	410	411	S	87	a	a	a	DT	O	dobj	O	-1	O
+0	4	89	412	420		88	greeting	greeting	greet	VBG	O	amod	O	-1	B-verb.communication
+0	4	90	420	421	S	87	,	,	,	,	O	punct	O	-1	O
+0	4	91	422	425	S	87	and	and	and	CC	O	cc	O	-1	O
+0	4	92	426	432	S	87	scorns	scorns	scorn	VBZ	O	conj	O	-1	B-verb.emotion
+0	4	93	433	438		95	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	4	94	438	440	S	93	's	's	's	POS	O	possessive	O	-1	O
+0	4	95	441	451		92	flatterers	flatterers	flatterer	NNS	O	dobj	O	-1	B-noun.person
+0	4	96	451	452	S	81	.	.	.	.	O	punct	O	-1	O
+0	5	97	453	463	S	98	Alcibiades	Alcibiades	alcibiade	NNS	PERSON	nsubj	O	2	B-noun.person
+0	5	98	464	471		-1	arrives	arrives	arrive	VBZ	O	null	O	-1	B-verb.motion
+0	5	99	471	472	S	98	,	,	,	,	O	punct	O	-1	O
+0	5	100	473	476	S	98	and	and	and	CC	O	cc	O	-1	O
+0	5	101	477	482	S	102	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	5	102	483	489	S	98	greets	greets	greet	VBZ	O	conj	O	-1	B-verb.communication
+0	5	103	490	493		102	him	him	he	PRP	O	dobj	O	-1	O
+0	5	104	493	494	S	98	.	.	.	.	O	punct	O	-1	O
+0	6	105	495	500	S	106	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	6	106	501	507	S	-1	throws	throws	throw	VBZ	O	null	O	-1	B-verb.contact
+0	6	107	508	509	S	108	a	a	a	DT	O	det	O	-1	O
+0	6	108	510	515	S	106	feast	feast	feast	NN	O	dobj	O	-1	B-noun.group
+0	6	109	516	518	S	106	at	at	at	IN	O	prep	O	-1	O
+0	6	110	519	522	S	111	his	his	he	PRP$	O	poss	O	-1	O
+0	6	111	523	527		109	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	6	112	527	528	S	106	,	,	,	,	O	punct	O	-1	O
+0	6	113	529	532	S	106	and	and	and	CC	O	cc	O	-1	O
+0	6	114	533	536	S	116	all	all	all	PDT	O	predet	O	-1	O
+0	6	115	537	540	S	116	his	his	he	PRP$	O	poss	O	-1	O
+0	6	116	541	548	S	117	friends	friends	friend	NNS	O	nsubj	O	-1	B-noun.person
+0	6	117	549	552	S	106	are	are	be	VBP	O	conj	O	-1	B-verb.stative
+0	6	118	553	555	S	117	in	in	in	IN	O	prep	O	-1	O
+0	6	119	556	566		118	attendance	attendance	attendance	NN	O	pobj	O	-1	B-noun.act
+0	6	120	566	567	S	106	.	.	.	.	O	punct	O	-1	O
+0	7	121	568	577	S	122	Apemantus	Apemantus	Apemantus	NNP	PERSON	nsubj	O	3	B-noun.person
+0	7	122	578	586	S	-1	declares	declares	declare	VBZ	O	null	O	-1	B-verb.communication
+0	7	123	587	589	S	125	he	he	he	PRP	O	nsubj	O	-1	O
+0	7	124	590	593	S	125	has	has	have	VBZ	O	aux	O	-1	O
+0	7	125	594	598	S	122	come	come	come	VBN	O	ccomp	O	-1	B-verb.change
+0	7	126	599	605	S	125	merely	merely	merely	RB	O	advmod	O	-1	O
+0	7	127	606	608	S	130	to	to	to	TO	O	aux	O	-1	O
+0	7	128	609	611	S	130	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	7	129	612	614	S	130	an	an	a	DT	O	det	O	-1	O
+0	7	130	615	623	S	125	observer	observer	observer	NN	O	xcomp	O	-1	B-noun.person
+0	7	131	624	626	S	130	of	of	of	IN	O	prep	O	-1	O
+0	7	132	627	630	S	134	the	the	the	DT	O	det	O	-1	O
+0	7	133	631	641	S	134	villainous	villainous	villainous	JJ	O	amod	O	-1	O
+0	7	134	642	652	S	131	flatterers	flatterers	flatterer	NNS	O	pobj	O	-1	B-noun.person
+0	7	135	653	656	S	136	who	who	who	WP	O	nsubj	O	-1	O
+0	7	136	657	661	S	134	fill	fill	fill	VBP	O	rcmod	O	-1	B-verb.stative
+0	7	137	662	667		139	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	7	138	667	669	S	137	's	's	's	POS	O	possessive	O	-1	O
+0	7	139	670	675		136	house	house	house	NN	O	dobj	O	-1	B-noun.artifact
+0	7	140	675	676	S	122	.	.	.	.	O	punct	O	-1	O
+0	8	141	677	682	S	142	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	8	142	683	689	S	-1	speaks	speaks	speak	VBZ	O	null	O	-1	B-verb.communication
+0	8	143	690	692	S	142	of	of	of	IN	O	prep	O	-1	O
+0	8	144	693	696	S	145	his	his	he	PRP$	O	poss	O	-1	O
+0	8	145	697	705	S	143	fondness	fondness	fondness	NN	O	pobj	O	-1	B-noun.feeling
+0	8	146	706	709	S	145	for	for	for	IN	O	prep	O	-1	O
+0	8	147	710	713	S	148	his	his	he	PRP$	O	poss	O	-1	O
+0	8	148	714	721	S	146	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	8	149	722	725	S	145	and	and	and	CC	O	cc	O	-1	O
+0	8	150	726	729	S	151	the	the	the	DT	O	det	O	-1	O
+0	8	151	730	738	S	145	pleasure	pleasure	pleasure	NN	O	conj	O	-1	B-noun.feeling
+0	8	152	739	741	S	153	he	he	he	PRP	O	nsubj	O	-1	O
+0	8	153	742	747	S	151	finds	finds	find	VBZ	O	rcmod	O	-1	B-verb.perception
+0	8	154	748	750	S	153	in	in	in	IN	O	prep	O	-1	O
+0	8	155	751	757	S	154	giving	giving	give	VBG	O	pcomp	O	-1	B-verb.possession
+0	8	156	758	762	S	155	them	them	they	PRP	O	iobj	O	-1	O
+0	8	157	763	768		155	gifts	gifts	gift	NNS	O	dobj	O	-1	B-noun.possession
+0	8	158	768	769	S	157	,	,	,	,	O	punct	O	-1	O
+0	8	159	770	773	S	157	all	all	all	DT	O	appos	O	-1	O
+0	8	160	774	781	S	159	without	without	without	IN	O	prep	O	-1	O
+0	8	161	782	793	S	160	expectation	expectation	expectation	NN	O	pobj	O	-1	B-noun.cognition
+0	8	162	794	796	S	161	of	of	of	IN	O	prep	O	-1	O
+0	8	163	797	798	S	164	a	a	a	DT	O	det	O	-1	O
+0	8	164	799	805		162	return	return	return	NN	O	pobj	O	-1	B-noun.communication
+0	8	165	805	806	S	142	.	.	.	.	O	punct	O	-1	O
+0	9	166	807	812		170	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	9	167	812	814	S	166	's	's	's	POS	O	possessive	O	-1	O
+0	9	168	815	822	S	170	servant	servant	servant	JJ	O	amod	O	-1	O
+0	9	169	823	830	S	170	Flavius	Flavius	Flavius	NNP	PERSON	nn	O	1	B-noun.person
+0	9	170	831	838	S	-1	worries	worries	worry	NNS	O	null	O	-1	B-noun.cognition
+0	9	171	839	843	S	174	that	that	that	WDT	O	dep	O	-1	O
+0	9	172	844	849	S	174	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	9	173	850	854	S	174	will	will	will	MD	O	aux	O	-1	O
+0	9	174	855	858	S	170	run	run	run	VB	O	rcmod	O	-1	B-verb.stative
+0	9	175	859	862	S	174	out	out	out	IN	O	prep	O	-1	O
+0	9	176	863	865	S	175	of	of	of	IN	O	dep	O	-1	O
+0	9	177	866	871	S	176	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	9	178	872	874	S	180	if	if	if	IN	O	mark	O	-1	O
+0	9	179	875	877	S	180	he	he	he	PRP	O	nsubj	O	-1	O
+0	9	180	878	883	S	174	keeps	keeps	keep	VBZ	O	advcl	O	-1	O
+0	9	181	884	889	S	183	being	being	be	VBG	O	cop	O	-1	B-verb.stative
+0	9	182	890	892	S	183	so	so	so	RB	O	advmod	O	-1	O
+0	9	183	893	901		180	generous	generous	generous	JJ	O	xcomp	O	-1	O
+0	9	184	901	902	S	170	.	.	.	.	O	punct	O	-1	O
+0	10	185	903	907	S	191	Most	Most	most	JJS	O	nsubjpass	O	-1	O
+0	10	186	908	910	S	185	of	of	of	IN	O	prep	O	-1	O
+0	10	187	911	917		189	Athens	Athens	Athens	NNP	LOCATION	poss	O	-1	B-noun.location
+0	10	188	917	919	S	187	's	's	's	POS	O	possessive	O	-1	O
+0	10	189	920	928	S	186	citizens	citizens	citizen	NNS	O	pobj	O	-1	B-noun.person
+0	10	190	929	932	S	191	are	are	be	VBP	O	auxpass	O	-1	O
+0	10	191	933	939	S	-1	amazed	amazed	amaze	VBN	O	null	O	-1	B-verb.cognition
+0	10	192	940	944	S	194	that	that	that	IN	O	complm	O	-1	O
+0	10	193	945	950	S	194	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	10	194	951	960	S	191	continues	continues	continue	VBZ	O	ccomp	O	-1	B-verb.stative
+0	10	195	961	963	S	198	to	to	to	TO	O	aux	O	-1	O
+0	10	196	964	966	S	198	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	10	197	967	969	S	198	so	so	so	RB	O	advmod	O	-1	O
+0	10	198	970	978		194	generous	generous	generous	JJ	O	xcomp	O	-1	O
+0	10	199	978	979	S	191	,	,	,	,	O	punct	O	-1	O
+0	10	200	980	982	S	202	as	as	as	IN	O	mark	O	-1	O
+0	10	201	983	985	S	202	it	it	it	PRP	O	nsubj	O	-1	O
+0	10	202	986	991	S	191	seems	seems	seem	VBZ	O	advcl	O	-1	B-verb.perception
+0	10	203	992	994	S	202	to	to	to	TO	O	prep	O	-1	O
+0	10	204	995	999	S	203	them	them	they	PRP	O	pobj	O	-1	O
+0	10	205	1000	1004	S	208	that	that	that	IN	O	complm	O	-1	O
+0	10	206	1005	1010	S	208	Timon	Timon	Timon	NNP	O	nsubj	O	-1	B-noun.person
+0	10	207	1011	1015	S	208	must	must	must	MD	O	aux	O	-1	O
+0	10	208	1016	1020	S	202	have	have	have	VB	O	ccomp	O	-1	B-verb.possession
+0	10	209	1021	1025	S	211	some	some	some	DT	O	det	O	-1	O
+0	10	210	1026	1033	S	211	magical	magical	magical	JJ	O	amod	O	-1	O
+0	10	211	1034	1039	S	208	power	power	power	NN	O	dobj	O	-1	B-noun.attribute
+0	10	212	1040	1042	S	213	to	to	to	TO	O	aux	O	-1	O
+0	10	213	1043	1050	S	211	possess	possess	possess	VB	O	infmod	O	-1	B-verb.possession
+0	10	214	1051	1055	S	217	such	such	such	PDT	O	predet	O	-1	O
+0	10	215	1056	1058	S	217	an	an	a	DT	O	det	O	-1	O
+0	10	216	1059	1067	S	217	unending	unending	unending	JJ	O	amod	O	-1	O
+0	10	217	1068	1074		213	bounty	bounty	bounty	NN	O	dobj	O	-1	B-noun.possession
+0	10	218	1074	1075	S	191	.	.	.	.	O	punct	O	-1	O
+0	11	219	1076	1081	S	220	Three	Three	three	CD	NUMBER	num	O	-1	O
+0	11	220	1082	1091		-1	creditors	creditors	creditor	NNS	O	null	O	-1	B-noun.person
+0	11	221	1091	1092	S	220	,	,	,	,	O	punct	O	-1	O
+0	11	222	1093	1100	S	220	friends	friends	friend	NNS	O	appos	O	-1	B-noun.person
+0	11	223	1101	1103	S	222	of	of	of	IN	O	prep	O	-1	O
+0	11	224	1104	1109	S	223	Timon	Timon	Timon	NNP	O	pobj	O	-1	B-noun.person
+0	11	225	1110	1113	S	226	who	who	who	WP	O	nsubj	O	-1	O
+0	11	226	1114	1118	S	224	lend	lend	lend	VBP	O	rcmod	O	-1	B-verb.possession
+0	11	227	1119	1122	S	228	him	him	he	PRP	O	nsubj	O	-1	O
+0	11	228	1123	1128		226	money	money	money	NN	O	ccomp	O	-1	B-noun.possession
+0	11	229	1128	1129	S	220	,	,	,	,	O	punct	O	-1	O
+0	11	230	1130	1134	S	220	call	call	call	VB	O	conj	O	-1	B-verb.communication
+0	11	231	1135	1140	S	232	their	their	they	PRP$	O	poss	O	-1	O
+0	11	232	1141	1146	S	230	debts	debts	debt	NNS	O	dobj	O	-1	B-noun.state
+0	11	233	1147	1150		237	due	due	due	RB	O	advmod	O	-1	O
+0	11	234	1150	1151	S	233	,	,	,	,	O	punct	O	-1	O
+0	11	235	1152	1155	S	233	and	and	and	CC	O	cc	O	-1	O
+0	11	236	1156	1160	S	233	send	send	send	VB	O	conj	O	-1	B-verb.motion
+0	11	237	1161	1169	S	230	servants	servants	servant	NNS	O	xcomp	O	-1	B-noun.person
+0	11	238	1170	1172	S	237	to	to	to	TO	O	prep	O	-1	O
+0	11	239	1173	1178		241	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	11	240	1178	1180	S	239	's	's	's	POS	O	possessive	O	-1	O
+0	11	241	1181	1185	S	238	door	door	door	NN	O	pobj	O	-1	B-noun.artifact
+0	11	242	1186	1190	S	237	with	with	with	IN	O	prep	O	-1	O
+0	11	243	1191	1196	S	242	bills	bills	bill	NNS	O	pobj	O	-1	B-noun.communication
+0	11	244	1197	1199	S	237	in	in	in	IN	O	prep	O	-1	O
+0	11	245	1200	1204		244	hand	hand	hand	NN	O	pobj	O	-1	B-noun.body
+0	11	246	1204	1205	S	220	.	.	.	.	O	punct	O	-1	O
+0	12	247	1206	1211	S	248	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	12	248	1212	1217	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	12	249	1218	1220	S	250	to	to	to	TO	O	aux	O	-1	O
+0	12	250	1221	1228	S	248	dismiss	dismiss	dismiss	VB	O	xcomp	O	-1	B-verb.communication
+0	12	251	1229	1233		250	them	them	they	PRP	O	dobj	O	-1	O
+0	12	252	1233	1234	S	248	,	,	,	,	O	punct	O	-1	O
+0	12	253	1235	1238	S	248	but	but	but	CC	O	cc	O	-1	O
+0	12	254	1239	1243	S	258	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	12	255	1244	1246		258	wo	wo	will	MD	O	aux	O	-1	O
+0	12	256	1246	1249	S	258	n't	n't	not	RB	O	neg	O	-1	O
+0	12	257	1250	1252	S	258	be	be	be	VB	O	auxpass	O	-1	O
+0	12	258	1253	1257	S	248	sent	sent	send	VBN	O	conj	O	-1	B-verb.contact
+0	12	259	1258	1262		258	away	away	away	RB	O	advmod	O	-1	O
+0	12	260	1262	1263	S	248	.	.	.	.	O	punct	O	-1	O
+0	13	261	1264	1269	S	262	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	13	262	1270	1274	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	13	263	1275	1282	S	262	Flavius	Flavius	Flavius	NNP	PERSON	dobj	O	1	B-noun.person
+0	13	264	1283	1286	S	266	why	why	why	WRB	O	advmod	O	-1	O
+0	13	265	1287	1289	S	266	he	he	he	PRP	O	nsubj	O	-1	O
+0	13	266	1290	1293	S	262	has	has	have	VBZ	O	advcl	O	-1	B-verb.possession
+0	13	267	1294	1303	S	266	creditors	creditors	creditor	NNS	O	dobj	O	-1	B-noun.person
+0	13	268	1304	1306	S	266	at	at	at	IN	O	prep	O	-1	O
+0	13	269	1307	1310	S	270	the	the	the	DT	O	det	O	-1	O
+0	13	270	1311	1315		268	door	door	door	NN	O	pobj	O	-1	B-noun.artifact
+0	13	271	1315	1316	S	262	,	,	,	,	O	punct	O	-1	O
+0	13	272	1317	1320	S	262	and	and	and	CC	O	cc	O	-1	O
+0	13	273	1321	1328	S	274	Flavius	Flavius	Flavius	NNP	PERSON	nsubj	O	1	B-noun.person
+0	13	274	1329	1337	S	262	explains	explains	explain	VBZ	O	conj	O	-1	B-verb.communication
+0	13	275	1338	1342	S	277	that	that	that	IN	O	complm	O	-1	O
+0	13	276	1343	1348	S	277	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	13	277	1349	1352	S	274	has	has	have	VBZ	O	ccomp	O	-1	B-verb.possession
+0	13	278	1353	1355	S	279	no	no	no	DT	O	det	O	-1	O
+0	13	279	1356	1361	S	277	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	13	280	1362	1365	S	277	and	and	and	CC	O	cc	O	-1	O
+0	13	281	1366	1368	S	277	is	is	be	VBZ	O	conj	O	-1	B-verb.stative
+0	13	282	1369	1371	S	281	in	in	in	IN	O	prep	O	-1	O
+0	13	283	1372	1376		282	debt	debt	debt	NN	O	pobj	O	-1	B-noun.state
+0	13	284	1376	1377	S	262	.	.	.	.	O	punct	O	-1	O
+0	14	285	1378	1383	S	286	Timon	Timon	timon	JJ	O	amod	O	-1	O
+0	14	286	1384	1390	S	289	orders	orders	order	NNS	O	dobj	O	-1	B-noun.communication
+0	14	287	1391	1394	S	289	him	him	he	PRP	O	nsubj	O	-1	O
+0	14	288	1395	1397	S	289	to	to	to	TO	O	aux	O	-1	O
+0	14	289	1398	1402	S	-1	sell	sell	sell	VB	O	null	O	-1	B-verb.possession
+0	14	290	1403	1406	S	291	his	his	he	PRP$	O	poss	O	-1	O
+0	14	291	1407	1411		289	land	land	land	NN	O	dobj	O	-1	B-noun.location
+0	14	292	1411	1412	S	289	,	,	,	,	O	punct	O	-1	O
+0	14	293	1413	1416	S	289	but	but	but	CC	O	cc	O	-1	O
+0	14	294	1417	1419	S	297	it	it	it	PRP	O	nsubjpass	O	-1	O
+0	14	295	1420	1422	S	297	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	14	296	1423	1430	S	297	already	already	already	RB	O	advmod	O	-1	O
+0	14	297	1431	1440		289	mortgaged	mortgaged	mortgage	VBN	O	conj	O	-1	O
+0	14	298	1440	1441	S	289	.	.	.	.	O	punct	O	-1	O
+0	15	299	1442	1447	S	300	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	15	300	1448	1452	S	-1	asks	asks	ask	VBZ	O	null	O	-1	B-verb.communication
+0	15	301	1453	1456	S	304	why	why	why	WRB	O	advmod	O	-1	O
+0	15	302	1457	1464	S	304	Flavius	Flavius	Flavius	NNP	PERSON	nsubj	O	1	O
+0	15	303	1465	1470	S	304	never	never	never	RB	O	neg	O	-1	O
+0	15	304	1471	1475	S	300	told	told	tell	VBD	O	advcl	O	-1	B-verb.communication
+0	15	305	1476	1479	S	304	him	him	he	PRP	O	dobj	O	-1	O
+0	15	306	1480	1485	S	304	about	about	about	IN	O	prep	O	-1	O
+0	15	307	1486	1489	S	308	the	the	the	DT	O	det	O	-1	O
+0	15	308	1490	1495	S	306	state	state	state	NN	O	pobj	O	-1	B-noun.location
+0	15	309	1496	1498	S	308	of	of	of	IN	O	prep	O	-1	O
+0	15	310	1499	1502	S	311	his	his	he	PRP$	O	poss	O	-1	O
+0	15	311	1503	1510	S	309	affairs	affairs	affair	NNS	O	pobj	O	-1	B-noun.cognition
+0	15	312	1511	1517		304	before	before	before	RB	O	advmod	O	-1	O
+0	15	313	1517	1518	S	304	,	,	,	,	O	punct	O	-1	O
+0	15	314	1519	1522	S	304	and	and	and	CC	O	cc	O	-1	O
+0	15	315	1523	1530	S	316	Flavius	Flavius	Flavius	NNP	PERSON	nsubj	O	1	B-noun.person
+0	15	316	1531	1538	S	304	insists	insists	insist	VBZ	O	conj	O	-1	B-verb.communication
+0	15	317	1539	1543	S	320	that	that	that	IN	O	complm	O	-1	O
+0	15	318	1544	1546	S	320	he	he	he	PRP	O	nsubj	O	-1	O
+0	15	319	1547	1550	S	320	had	had	have	VBD	O	aux	O	-1	O
+0	15	320	1551	1556		316	tried	tried	try	VBN	O	ccomp	O	-1	B-verb.social
+0	15	321	1556	1557	S	304	,	,	,	,	O	punct	O	-1	O
+0	15	322	1558	1561	S	304	but	but	but	CC	O	cc	O	-1	O
+0	15	323	1562	1567	S	325	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	15	324	1568	1574	S	325	always	always	always	RB	O	advmod	O	-1	O
+0	15	325	1575	1582	S	304	refused	refused	refuse	VBD	O	conj	O	-1	B-verb.communication
+0	15	326	1583	1585	S	327	to	to	to	TO	O	aux	O	-1	O
+0	15	327	1586	1592		325	listen	listen	listen	VB	O	xcomp	O	-1	B-verb.perception
+0	15	328	1592	1593	S	300	.	.	.	.	O	punct	O	-1	O
+0	16	329	1594	1601	S	330	Flavius	Flavius	Flavius	NNP	PERSON	nsubj	O	1	B-noun.person
+0	16	330	1602	1606	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	16	331	1607	1611	S	333	that	that	that	IN	O	complm	O	-1	O
+0	16	332	1612	1620	S	333	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	16	333	1621	1626	S	330	loved	loved	love	VBD	O	ccomp	O	-1	B-verb.emotion
+0	16	334	1627	1632		333	Timon	Timon	Timon	NNP	PERSON	dobj	O	0	O
+0	16	335	1632	1633	S	333	,	,	,	,	O	punct	O	-1	O
+0	16	336	1634	1637	S	333	but	but	but	CC	O	cc	O	-1	O
+0	16	337	1638	1642	S	341	when	when	when	WRB	O	advmod	O	-1	O
+0	16	338	1643	1646	S	339	his	his	he	PRP$	O	poss	O	-1	O
+0	16	339	1647	1655	S	341	finances	finances	finances	NNS	O	nsubjpass	O	-1	B-noun.act
+0	16	340	1656	1659	S	341	are	are	be	VBP	O	auxpass	O	-1	O
+0	16	341	1660	1664		348	gone	gone	go	VBN	O	dep	O	-1	B-verb.motion
+0	16	342	1664	1665	S	348	,	,	,	,	O	punct	O	-1	O
+0	16	343	1666	1671	S	348	those	those	those	DT	O	nsubj	O	-1	O
+0	16	344	1672	1675	S	345	who	who	who	WP	O	nsubj	O	-1	O
+0	16	345	1676	1683	S	343	praised	praised	praise	VBD	O	rcmod	O	-1	B-verb.communication
+0	16	346	1684	1687	S	345	him	him	he	PRP	O	dobj	O	-1	O
+0	16	347	1688	1692	S	348	will	will	will	MD	O	aux	O	-1	O
+0	16	348	1693	1700	S	333	abandon	abandon	abandon	VB	O	conj	O	-1	B-verb.possession
+0	16	349	1701	1704	S	348	him	him	he	PRP	O	dobj	O	-1	O
+0	16	350	1705	1708		348	too	too	too	RB	O	advmod	O	-1	O
+0	16	351	1708	1709	S	330	.	.	.	.	O	punct	O	-1	O
+0	17	352	1710	1715	S	355	Timon	Timon	Timon	NNP	O	nsubj	O	-1	B-noun.person
+0	17	353	1716	1720		355	does	does	do	VBZ	O	aux	O	-1	O
+0	17	354	1720	1723	S	355	n't	n't	not	RB	O	neg	O	-1	O
+0	17	355	1724	1731	S	-1	believe	believe	believe	VB	O	null	O	-1	B-verb.cognition
+0	17	356	1732	1735		355	him	him	he	PRP	O	dobj	O	-1	O
+0	17	357	1735	1736	S	355	,	,	,	,	O	punct	O	-1	O
+0	17	358	1737	1740	S	355	and	and	and	CC	O	cc	O	-1	O
+0	17	359	1741	1746	S	355	sends	sends	send	VBZ	O	conj	O	-1	B-verb.motion
+0	17	360	1747	1755	S	359	servants	servants	servant	NNS	O	dobj	O	-1	B-noun.person
+0	17	361	1756	1758	S	362	to	to	to	TO	O	aux	O	-1	O
+0	17	362	1759	1762	S	359	ask	ask	ask	VB	O	xcomp	O	-1	B-verb.communication
+0	17	363	1763	1766	S	364	his	his	he	PRP$	O	poss	O	-1	O
+0	17	364	1767	1774	S	362	friends	friends	friend	NNS	O	dobj	O	-1	B-noun.person
+0	17	365	1775	1778	S	362	for	for	for	IN	O	prep	O	-1	O
+0	17	366	1779	1784		365	loans	loans	loan	NNS	O	pobj	O	-1	B-noun.possession
+0	17	367	1784	1785	S	355	,	,	,	,	O	punct	O	-1	O
+0	17	368	1786	1789	S	355	but	but	but	CC	O	cc	O	-1	O
+0	17	369	1790	1797	S	370	Flavius	Flavius	Flavius	NNP	PERSON	nsubj	O	1	B-noun.person
+0	17	370	1798	1802	S	355	says	says	say	VBZ	O	conj	O	-1	B-verb.communication
+0	17	371	1803	1805	S	374	he	he	he	PRP	O	nsubj	O	-1	O
+0	17	372	1806	1809	S	374	has	has	have	VBZ	O	aux	O	-1	O
+0	17	373	1810	1817	S	374	already	already	already	RB	O	advmod	O	-1	O
+0	17	374	1818	1823	S	370	tried	tried	try	VBN	O	ccomp	O	-1	B-verb.social
+0	17	375	1824	1828		374	that	that	that	IN	O	dobj	O	-1	O
+0	17	376	1828	1829	S	375	,	,	,	,	O	punct	O	-1	O
+0	17	377	1830	1833	S	375	and	and	and	CC	O	cc	O	-1	O
+0	17	378	1834	1836	S	379	no	no	no	DT	O	dep	O	-1	O
+0	17	379	1837	1840	S	381	one	one	one	PRP	NUMBER	nsubj	O	-1	O
+0	17	380	1841	1846	S	381	would	would	would	MD	O	aux	O	-1	O
+0	17	381	1847	1851	S	375	lend	lend	lend	VB	O	conj	O	-1	B-verb.possession
+0	17	382	1852	1855	S	381	him	him	he	PRP	O	iobj	O	-1	O
+0	17	383	1856	1864		381	anything	anything	anything	NN	O	dobj	O	-1	O
+0	17	384	1864	1865	S	355	.	.	.	.	O	punct	O	-1	O
+0	18	385	1866	1870	S	392	Each	Each	each	DT	O	nsubj	O	-1	O
+0	18	386	1871	1873	S	385	of	of	of	IN	O	prep	O	-1	O
+0	18	387	1874	1879	S	386	three	three	three	CD	NUMBER	pobj	O	-1	O
+0	18	388	1880	1882	S	387	of	of	of	IN	O	prep	O	-1	O
+0	18	389	1883	1888		391	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	18	390	1888	1890	S	389	's	's	's	POS	O	possessive	O	-1	O
+0	18	391	1891	1899	S	388	servants	servants	servant	NNS	O	pobj	O	-1	B-noun.person
+0	18	392	1900	1907	S	-1	arrives	arrives	arrive	VBZ	O	null	O	-1	B-verb.motion
+0	18	393	1908	1910	S	392	at	at	at	IN	O	prep	O	-1	O
+0	18	394	1911	1914	S	393	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	18	395	1915	1917	S	394	of	of	of	IN	O	prep	O	-1	O
+0	18	396	1918	1923		398	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	18	397	1923	1925	S	396	's	's	's	POS	O	possessive	O	-1	O
+0	18	398	1926	1932		400	friend	friend	friend	NN	O	poss	O	-1	B-noun.person
+0	18	399	1932	1934	S	398	's	's	's	POS	O	possessive	O	-1	O
+0	18	400	1935	1941	S	395	houses	houses	house	NNS	O	pobj	O	-1	B-noun.artifact
+0	18	401	1942	1944	S	402	to	to	to	TO	O	aux	O	-1	O
+0	18	402	1945	1948	S	392	ask	ask	ask	VB	O	xcomp	O	-1	B-verb.communication
+0	18	403	1949	1952	S	402	for	for	for	IN	O	prep	O	-1	O
+0	18	404	1953	1954	S	405	a	a	a	DT	O	det	O	-1	O
+0	18	405	1955	1959		403	loan	loan	loan	NN	O	pobj	O	-1	B-noun.possession
+0	18	406	1959	1960	S	392	,	,	,	,	O	punct	O	-1	O
+0	18	407	1961	1964	S	392	but	but	but	CC	O	cc	O	-1	O
+0	18	408	1965	1969	S	409	each	each	each	DT	O	det	O	-1	O
+0	18	409	1970	1973	S	410	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	18	410	1974	1981		392	refuses	refuses	refuse	VBZ	O	conj	O	-1	B-verb.communication
+0	18	411	1981	1982	S	392	.	.	.	.	O	punct	O	-1	O
+0	19	412	1983	1991	S	413	Servants	Servants	servant	NNS	O	nsubj	O	-1	B-noun.person
+0	19	413	1992	1995	S	-1	ask	ask	ask	VBP	O	null	O	-1	B-verb.communication
+0	19	414	1996	1999	S	417	the	the	the	DT	O	det	O	-1	O
+0	19	415	2000	2005	S	416	newly	newly	newly	RB	O	advmod	O	-1	O
+0	19	416	2006	2014	S	417	released	released	release	VBN	O	amod	O	-1	B-verb.contact
+0	19	417	2015	2024	S	413	Ventidius	Ventidius	Ventidius	NNP	O	dobj	O	-1	B-noun.person
+0	19	418	2025	2028	S	413	for	for	for	IN	O	prep	O	-1	O
+0	19	419	2029	2030	S	420	a	a	a	DT	O	det	O	-1	O
+0	19	420	2031	2035	S	418	loan	loan	loan	NN	O	pobj	O	-1	B-noun.possession
+0	19	421	2036	2040		413	also	also	also	RB	O	advmod	O	-1	O
+0	19	422	2040	2041	S	413	,	,	,	,	O	punct	O	-1	O
+0	19	423	2042	2045	S	413	but	but	but	CC	O	cc	O	-1	O
+0	19	424	2046	2048	S	425	he	he	he	PRP	O	nsubj	O	-1	O
+0	19	425	2049	2056		413	refuses	refuses	refuse	VBZ	O	conj	O	-1	O
+0	19	426	2056	2057	S	413	.	.	.	.	O	punct	O	-1	O
+0	20	427	2058	2067		429	Creditors	Creditors	creditor	NNS	O	poss	O	-1	B-noun.person
+0	20	428	2067	2068	S	427	'	'	'	POS	O	possessive	O	-1	O
+0	20	429	2069	2077	S	430	servants	servants	servant	NNS	O	nsubj	O	-1	B-noun.person
+0	20	430	2078	2083	S	-1	swarm	swarm	swarm	VBP	O	null	O	-1	B-verb.stative
+0	20	431	2084	2090	S	430	around	around	around	IN	O	prep	O	-1	O
+0	20	432	2091	2096		434	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	20	433	2096	2098	S	432	's	's	's	POS	O	possessive	O	-1	O
+0	20	434	2099	2104		431	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	20	435	2104	2105	S	430	,	,	,	,	O	punct	O	-1	O
+0	20	436	2106	2112	S	438	though	though	though	IN	O	mark	O	-1	O
+0	20	437	2113	2117	S	438	they	they	they	PRP	O	nsubj	O	-1	O
+0	20	438	2118	2122	S	430	note	note	note	VBP	O	advcl	O	-1	B-verb.perception
+0	20	439	2123	2126	S	440	how	how	how	WRB	O	advmod	O	-1	O
+0	20	440	2127	2134	S	442	strange	strange	strange	JJ	O	dep	O	-1	O
+0	20	441	2135	2137	S	442	it	it	it	PRP	O	nsubj	O	-1	O
+0	20	442	2138	2140	S	438	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	20	443	2141	2145	S	446	that	that	that	IN	O	complm	O	-1	O
+0	20	444	2146	2151	S	445	their	their	they	PRP$	O	poss	O	-1	O
+0	20	445	2152	2159	S	446	masters	masters	master	NNS	O	nsubj	O	-1	B-noun.person
+0	20	446	2160	2164	S	442	wear	wear	wear	VBP	O	ccomp	O	-1	B-verb.body
+0	20	447	2165	2170	S	446	gifts	gifts	gift	NNS	O	dobj	O	-1	B-noun.possession
+0	20	448	2171	2175	S	447	from	from	from	IN	O	prep	O	-1	O
+0	20	449	2176	2181	S	448	Timon	Timon	Timon	NNP	O	pobj	O	-1	B-noun.person
+0	20	450	2182	2187	S	452	while	while	while	IN	O	mark	O	-1	O
+0	20	451	2188	2192	S	452	they	they	they	PRP	O	nsubj	O	-1	O
+0	20	452	2193	2199	S	446	demand	demand	demand	VBP	O	advcl	O	-1	B-verb.communication
+0	20	453	2200	2207	S	452	payment	payment	payment	NN	O	dobj	O	-1	B-noun.act
+0	20	454	2208	2210	S	453	on	on	on	IN	O	prep	O	-1	O
+0	20	455	2211	2216	S	454	loans	loans	loan	NNS	O	pobj	O	-1	B-noun.possession
+0	20	456	2217	2219	S	457	he	he	he	PRP	O	nsubj	O	-1	O
+0	20	457	2220	2224	S	455	took	took	take	VBD	O	rcmod	O	-1	B-verb.contact
+0	20	458	2225	2228	S	457	out	out	out	RP	O	prt	O	-1	O
+0	20	459	2229	2233	S	457	from	from	from	IN	O	prep	O	-1	O
+0	20	460	2234	2238	S	459	them	them	they	PRP	O	pobj	O	-1	O
+0	20	461	2239	2241	S	464	in	in	in	IN	O	mark	O	-1	O
+0	20	462	2242	2247	S	464	order	order	order	NN	O	dep	O	-1	B-noun.state
+0	20	463	2248	2250	S	464	to	to	to	TO	O	aux	O	-1	O
+0	20	464	2251	2254	S	457	buy	buy	buy	VB	O	purpcl	O	-1	B-verb.possession
+0	20	465	2255	2259	S	464	them	them	they	PRP	O	dobj	O	-1	O
+0	20	466	2260	2265		464	gifts	gifts	gift	NNS	O	xcomp	O	-1	B-noun.possession
+0	20	467	2265	2266	S	430	.	.	.	.	O	punct	O	-1	O
+0	21	468	2267	2272	S	470	Timon	Timon	Timon	NNP	O	nsubj	O	-1	B-noun.person
+0	21	469	2273	2275	S	470	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	21	470	2276	2283	S	-1	enraged	enraged	enraged	JJ	O	null	O	-1	O
+0	21	471	2284	2286	S	473	to	to	to	TO	O	aux	O	-1	O
+0	21	472	2287	2289	S	473	be	be	be	VB	O	auxpass	O	-1	O
+0	21	473	2290	2297	S	470	trapped	trapped	trap	VBN	O	xcomp	O	-1	B-verb.social
+0	21	474	2298	2300	S	473	in	in	in	IN	O	prep	O	-1	O
+0	21	475	2301	2304	S	476	his	his	he	PRP$	O	poss	O	-1	O
+0	21	476	2305	2310	S	474	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	21	477	2311	2313	S	473	by	by	by	IN	O	prep	O	-1	O
+0	21	478	2314	2320	S	477	groups	groups	group	NNS	O	pobj	O	-1	B-noun.group
+0	21	479	2321	2323	S	478	of	of	of	IN	O	prep	O	-1	O
+0	21	480	2324	2333		482	creditors	creditors	creditor	NNS	O	poss	O	-1	B-noun.person
+0	21	481	2333	2334	S	480	'	'	'	POS	O	possessive	O	-1	O
+0	21	482	2335	2343		479	servants	servants	servant	NNS	O	pobj	O	-1	O
+0	21	483	2343	2344	S	470	,	,	,	,	O	punct	O	-1	O
+0	21	484	2345	2348	S	470	and	and	and	CC	O	cc	O	-1	O
+0	21	485	2349	2354	S	470	plans	plans	plan	VBZ	O	conj	O	-1	B-verb.cognition
+0	21	486	2355	2356	S	489	a	a	a	DT	O	det	O	-1	O
+0	21	487	2357	2361	S	489	last	last	last	JJ	O	amod	O	-1	O
+0	21	488	2362	2368	S	489	dinner	dinner	dinner	NN	O	nn	O	-1	B-noun.group
+0	21	489	2369	2374		485	party	party	party	NN	O	dobj	O	-1	I-noun.group
+0	21	490	2374	2375	S	470	.	.	.	.	O	punct	O	-1	O
+0	22	491	2376	2381	S	492	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	22	492	2382	2389	S	-1	invites	invites	invite	VBZ	O	null	O	-1	B-verb.emotion
+0	22	493	2390	2393	S	495	all	all	all	PDT	O	predet	O	-1	O
+0	22	494	2394	2397	S	495	his	his	he	PRP$	O	poss	O	-1	O
+0	22	495	2398	2405	S	492	friends	friends	friend	NNS	O	dobj	O	-1	B-noun.person
+0	22	496	2406	2409	S	495	and	and	and	CC	O	cc	O	-1	O
+0	22	497	2410	2415	S	498	other	other	other	JJ	O	amod	O	-1	O
+0	22	498	2416	2421		495	Lords	Lords	Lords	NNPS	O	conj	O	-1	B-noun.person
+0	22	499	2421	2422	S	492	.	.	.	.	O	punct	O	-1	O
+0	23	500	2423	2428	S	501	Timon	Timon	Timon	NNP	O	nsubj	O	-1	B-noun.person
+0	23	501	2429	2433	S	-1	says	says	say	VBZ	O	null	O	-1	B-verb.communication
+0	23	502	2434	2439	S	501	grace	grace	grace	NN	O	dobj	O	-1	B-noun.state
+0	23	503	2440	2444	S	502	over	over	over	IN	O	prep	O	-1	O
+0	23	504	2445	2448	S	506	the	the	the	DT	O	det	O	-1	O
+0	23	505	2449	2456	S	506	covered	covered	covered	JJ	O	amod	O	-1	O
+0	23	506	2457	2463		503	dishes	dishes	dish	NNS	O	pobj	O	-1	B-noun.artifact
+0	23	507	2463	2464	S	501	,	,	,	,	O	punct	O	-1	O
+0	23	508	2465	2471	S	523	asking	asking	ask	VBG	O	nsubj	O	-1	B-verb.communication
+0	23	509	2472	2475	S	510	the	the	the	DT	O	det	O	-1	O
+0	23	510	2476	2480	S	508	gods	gods	god	NNS	O	dobj	O	-1	B-noun.person
+0	23	511	2481	2483	S	513	to	to	to	TO	O	aux	O	-1	O
+0	23	512	2484	2486	S	513	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	23	513	2487	2491	S	508	sure	sure	sure	JJ	O	xcomp	O	-1	O
+0	23	514	2492	2494	S	516	to	to	to	TO	O	aux	O	-1	O
+0	23	515	2495	2500	S	516	never	never	never	RB	O	neg	O	-1	O
+0	23	516	2501	2505	S	513	give	give	give	VB	O	xcomp	O	-1	B-verb.possession
+0	23	517	2506	2509	S	518	too	too	too	RB	O	advmod	O	-1	O
+0	23	518	2510	2514	S	516	much	much	much	JJ	O	dobj	O	-1	O
+0	23	519	2515	2517	S	516	to	to	to	TO	O	prep	O	-1	O
+0	23	520	2518	2525		519	mankind	mankind	mankind	NN	O	pobj	O	-1	B-noun.group
+0	23	521	2525	2526	S	508	,	,	,	,	O	punct	O	-1	O
+0	23	522	2527	2533	S	508	always	always	always	RB	O	advmod	O	-1	O
+0	23	523	2534	2538	S	501	hold	hold	hold	VBP	O	ccomp	O	-1	B-verb.stative
+0	23	524	2539	2548	S	523	something	something	something	NN	O	dobj	O	-1	O
+0	23	525	2549	2553		523	back	back	back	RB	O	prt	O	-1	O
+0	23	526	2553	2554	S	523	,	,	,	,	O	punct	O	-1	O
+0	23	527	2555	2558	S	523	and	and	and	CC	O	cc	O	-1	O
+0	23	528	2559	2561	S	530	to	to	to	TO	O	aux	O	-1	O
+0	23	529	2562	2567	S	530	never	never	never	RB	O	neg	O	-1	O
+0	23	530	2568	2571	S	538	ask	ask	ask	VB	O	csubj	O	-1	B-verb.communication
+0	23	531	2572	2575	S	530	for	for	for	IN	O	prep	O	-1	O
+0	23	532	2576	2584	S	531	anything	anything	anything	NN	O	pobj	O	-1	O
+0	23	533	2585	2589		532	back	back	back	RB	O	advmod	O	-1	O
+0	23	534	2589	2590	S	530	,	,	,	,	O	punct	O	-1	O
+0	23	535	2591	2594	S	530	for	for	for	IN	O	prep	O	-1	O
+0	23	536	2595	2602	S	535	mankind	mankind	mankind	NN	O	pobj	O	-1	B-noun.group
+0	23	537	2603	2607	S	538	will	will	will	MD	O	aux	O	-1	O
+0	23	538	2608	2615	S	523	abandon	abandon	abandon	VB	O	conj	O	-1	B-verb.possession
+0	23	539	2616	2620		538	them	them	they	PRP	O	dobj	O	-1	O
+0	23	540	2620	2621	S	501	.	.	.	.	O	punct	O	-1	O
+0	24	541	2622	2626	S	543	Then	Then	then	RB	O	advmod	O	-1	O
+0	24	542	2627	2629	S	543	he	he	he	PRP	O	nsubj	O	-1	O
+0	24	543	2630	2637	S	-1	reveals	reveals	reveal	VBZ	O	null	O	-1	B-verb.perception
+0	24	544	2638	2644	S	543	stones	stones	stone	NNS	O	dobj	O	-1	B-noun.object
+0	24	545	2645	2648	S	544	and	and	and	CC	O	cc	O	-1	O
+0	24	546	2649	2656	S	547	boiling	boiling	boiling	JJ	O	amod	O	-1	O
+0	24	547	2657	2662		544	water	water	water	NN	O	conj	O	-1	B-noun.substance
+0	24	548	2662	2663	S	543	.	.	.	.	O	punct	O	-1	O
+0	25	549	2664	2669	S	550	Timon	Timon	Timon	NNP	O	nn	O	-1	O
+0	25	550	2670	2676	S	-1	curses	curses	curse	NNS	O	null	O	-1	B-noun.communication
+0	25	551	2677	2680	S	552	the	the	the	DT	O	det	O	-1	O
+0	25	552	2681	2689	S	550	flattery	flattery	flattery	NN	O	dobj	O	-1	B-noun.communication
+0	25	553	2690	2692	S	552	of	of	of	IN	O	prep	O	-1	O
+0	25	554	2693	2696	S	556	his	his	he	PRP$	O	poss	O	-1	O
+0	25	555	2697	2704	S	556	alleged	alleged	alleged	JJ	O	amod	O	-1	O
+0	25	556	2705	2712		553	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	25	557	2712	2713	S	550	,	,	,	,	O	punct	O	-1	O
+0	25	558	2714	2717	S	550	and	and	and	CC	O	cc	O	-1	O
+0	25	559	2718	2724	S	550	leaves	leaves	leave	VBZ	O	conj	O	-1	B-verb.motion
+0	25	560	2725	2731		559	Athens	Athens	Athens	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	25	561	2731	2732	S	550	.	.	.	.	O	punct	O	-1	O
+0	26	562	2733	2742	S	563	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	26	563	2743	2753	S	564	Alcibiades	Alcibiades	Alcibiades	NNP	PERSON	nsubj	O	2	B-noun.person
+0	26	564	2754	2760	S	-1	argues	argues	argue	VBZ	O	null	O	-1	B-verb.communication
+0	26	565	2761	2765	S	564	with	with	with	IN	O	prep	O	-1	O
+0	26	566	2766	2769	S	567	the	the	the	DT	O	det	O	-1	O
+0	26	567	2770	2778	S	565	Senators	Senators	Senators	NNPS	O	pobj	O	-1	B-noun.person
+0	26	568	2779	2784	S	564	about	about	about	IN	O	prep	O	-1	O
+0	26	569	2785	2788	S	570	the	the	the	DT	O	det	O	-1	O
+0	26	570	2789	2793	S	568	fate	fate	fate	NN	O	pobj	O	-1	B-noun.event
+0	26	571	2794	2796	S	570	of	of	of	IN	O	prep	O	-1	O
+0	26	572	2797	2800	S	571	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	26	573	2801	2803	S	572	of	of	of	IN	O	prep	O	-1	O
+0	26	574	2804	2807	S	575	his	his	he	PRP$	O	poss	O	-1	O
+0	26	575	2808	2815		573	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	26	576	2815	2816	S	575	,	,	,	,	O	punct	O	-1	O
+0	26	577	2817	2826	S	575	sentenced	sentenced	sentence	VBN	O	partmod	O	-1	B-verb.communication
+0	26	578	2827	2829	S	577	to	to	to	TO	O	prep	O	-1	O
+0	26	579	2830	2835	S	578	death	death	death	NN	O	pobj	O	-1	B-noun.state
+0	26	580	2836	2839	S	577	for	for	for	IN	O	prep	O	-1	O
+0	26	581	2840	2846	S	582	having	having	have	VBG	O	aux	O	-1	O
+0	26	582	2847	2853	S	580	killed	killed	kill	VBN	O	pcomp	O	-1	B-verb.contact
+0	26	583	2854	2855	S	584	a	a	a	DT	O	det	O	-1	O
+0	26	584	2856	2859	S	582	man	man	man	NN	O	dobj	O	-1	B-noun.person
+0	26	585	2860	2862	S	582	in	in	in	IN	O	prep	O	-1	O
+0	26	586	2863	2864	S	587	a	a	a	DT	O	det	O	-1	O
+0	26	587	2865	2869		585	rage	rage	rage	NN	O	pobj	O	-1	B-noun.feeling
+0	26	588	2869	2870	S	564	.	.	.	.	O	punct	O	-1	O
+0	27	589	2871	2881	S	590	Alcibiades	Alcibiades	alcibiade	NNS	PERSON	nsubj	O	2	B-noun.person
+0	27	590	2882	2887	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	27	591	2888	2890	S	592	to	to	to	TO	O	aux	O	-1	O
+0	27	592	2891	2895	S	590	save	save	save	VB	O	xcomp	O	-1	B-verb.social
+0	27	593	2896	2899	S	594	his	his	he	PRP$	O	poss	O	-1	O
+0	27	594	2900	2906		592	friend	friend	friend	NN	O	dobj	O	-1	B-noun.person
+0	27	595	2906	2907	S	590	,	,	,	,	O	punct	O	-1	O
+0	27	596	2908	2911	S	590	but	but	but	CC	O	cc	O	-1	O
+0	27	597	2912	2916	S	590	ends	ends	end	VBZ	O	conj	O	-1	B-verb.change
+0	27	598	2917	2919	S	597	up	up	up	RP	O	prt	O	-1	O
+0	27	599	2920	2928	S	597	annoying	annoying	annoy	VBG	O	xcomp	O	-1	B-verb.emotion
+0	27	600	2929	2932	S	601	the	the	the	DT	O	det	O	-1	O
+0	27	601	2933	2939	S	599	senate	senate	senate	NN	O	dobj	O	-1	B-noun.group
+0	27	602	2940	2942	S	603	so	so	so	RB	O	advmod	O	-1	O
+0	27	603	2943	2947	S	599	much	much	much	RB	O	advmod	O	-1	O
+0	27	604	2948	2952	S	606	that	that	that	IN	O	complm	O	-1	O
+0	27	605	2953	2957	S	606	they	they	they	PRP	O	nsubj	O	-1	O
+0	27	606	2958	2964	S	603	banish	banish	banish	VBP	O	dep	O	-1	B-verb.social
+0	27	607	2965	2975		606	Alcibiades	Alcibiades	alcibiade	NNS	PERSON	dobj	O	2	B-noun.person
+0	27	608	2975	2976	S	590	.	.	.	.	O	punct	O	-1	O
+0	28	609	2977	2987	S	610	Alcibiades	Alcibiades	Alcibiades	NNP	PERSON	nsubj	O	2	B-noun.person
+0	28	610	2988	2994		-1	leaves	leaves	leave	VBZ	O	null	O	-1	B-verb.motion
+0	28	611	2994	2995	S	610	,	,	,	,	O	punct	O	-1	O
+0	28	612	2996	3004	S	610	planning	planning	plan	VBG	O	xcomp	O	-1	B-verb.cognition
+0	28	613	3005	3007	S	614	to	to	to	TO	O	aux	O	-1	O
+0	28	614	3008	3013	S	612	raise	raise	raise	VB	O	xcomp	O	-1	B-verb.creation
+0	28	615	3014	3016	S	616	an	an	a	DT	O	det	O	-1	O
+0	28	616	3017	3021	S	614	army	army	army	NN	O	dobj	O	-1	B-noun.group
+0	28	617	3022	3024	S	614	to	to	to	TO	O	prep	O	-1	O
+0	28	618	3025	3031	S	619	attack	attack	attack	NN	O	nn	O	-1	B-noun.act
+0	28	619	3032	3038		617	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	O
+0	28	620	3038	3039	S	610	.	.	.	.	O	punct	O	-1	O
+0	29	621	3040	3045	S	622	Timon	Timon	Timon	NNP	O	nsubj	O	-1	B-noun.person
+0	29	622	3046	3050	S	-1	sets	sets	set	VBZ	O	null	O	-1	B-verb.change
+0	29	623	3051	3054	S	622	off	off	off	RP	O	prt	O	-1	O
+0	29	624	3055	3059	S	622	into	into	into	IN	O	prep	O	-1	O
+0	29	625	3060	3063	S	626	the	the	the	DT	O	det	O	-1	O
+0	29	626	3064	3074		624	wilderness	wilderness	wilderness	NN	O	pobj	O	-1	B-noun.state
+0	29	627	3074	3075	S	622	.	.	.	.	O	punct	O	-1	O
+0	30	628	3076	3079	S	629	His	His	he	PRP$	O	poss	O	-1	O
+0	30	629	3080	3088	S	630	servants	servants	servant	NNS	O	nsubj	O	-1	B-noun.person
+0	30	630	3089	3094	S	-1	mourn	mourn	mourn	VB	O	null	O	-1	B-verb.emotion
+0	30	631	3095	3098	S	632	his	his	he	PRP$	O	poss	O	-1	O
+0	30	632	3099	3108		630	departure	departure	departure	NN	O	dobj	O	-1	B-noun.act
+0	30	633	3108	3109	S	632	,	,	,	,	O	punct	O	-1	O
+0	30	634	3110	3113	S	632	sad	sad	sad	JJ	O	amod	O	-1	O
+0	30	635	3114	3118	S	638	that	that	that	IN	O	complm	O	-1	O
+0	30	636	3119	3126	S	638	someone	someone	someone	NN	O	nsubj	O	-1	B-noun.Tops
+0	30	637	3127	3132	S	638	could	could	could	MD	O	aux	O	-1	O
+0	30	638	3133	3137	S	634	fall	fall	fall	VB	O	ccomp	O	-1	B-verb.motion
+0	30	639	3138	3140	S	640	so	so	so	RB	O	advmod	O	-1	O
+0	30	640	3141	3144	S	641	far	far	far	RB	O	dep	O	-1	O
+0	30	641	3145	3149	S	638	from	from	from	IN	O	prep	O	-1	O
+0	30	642	3150	3155	S	644	being	being	be	VBG	O	cop	O	-1	B-verb.stative
+0	30	643	3156	3158	S	644	so	so	so	RB	O	advmod	O	-1	O
+0	30	644	3159	3167		641	generous	generous	generous	JJ	O	pcomp	O	-1	O
+0	30	645	3167	3168	S	630	.	.	.	.	O	punct	O	-1	O
+0	31	646	3169	3176	S	647	Flavius	Flavius	Flavius	NNP	PERSON	nn	O	1	O
+0	31	647	3177	3183	S	-1	shares	shares	share	NNS	O	null	O	-1	B-noun.possession
+0	31	648	3184	3187	S	647	out	out	out	IN	O	prep	O	-1	O
+0	31	649	3188	3191	S	651	his	his	he	PRP$	O	poss	O	-1	O
+0	31	650	3192	3196	S	651	last	last	last	JJ	O	amod	O	-1	O
+0	31	651	3197	3202	S	648	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	31	652	3203	3206	S	647	and	and	and	CC	O	cc	O	-1	O
+0	31	653	3207	3211	S	647	sets	sets	set	VBZ	O	conj	O	-1	B-verb.change
+0	31	654	3212	3215	S	653	off	off	off	RP	O	prt	O	-1	O
+0	31	655	3216	3218	S	656	to	to	to	TO	O	aux	O	-1	O
+0	31	656	3219	3224	S	653	serve	serve	serve	VB	O	xcomp	O	-1	B-verb.stative
+0	31	657	3225	3230	S	656	Timon	Timon	Timon	NNP	O	dobj	O	-1	B-noun.person
+0	31	658	3231	3233	S	656	in	in	in	IN	O	prep	O	-1	O
+0	31	659	3234	3237	S	660	the	the	the	DT	O	det	O	-1	O
+0	31	660	3238	3248		658	wilderness	wilderness	wilderness	NN	O	pobj	O	-1	B-noun.state
+0	31	661	3248	3249	S	647	.	.	.	.	O	punct	O	-1	O
+0	32	662	3250	3255	S	663	Timon	Timon	Timon	NNP	O	nn	O	-1	O
+0	32	663	3256	3264	S	-1	searches	searches	search	NNS	O	null	O	-1	B-noun.act
+0	32	664	3265	3268	S	663	for	for	for	IN	O	prep	O	-1	O
+0	32	665	3269	3273	S	664	food	food	food	NN	O	pobj	O	-1	B-noun.food
+0	32	666	3274	3276	S	665	in	in	in	IN	O	prep	O	-1	O
+0	32	667	3277	3280	S	668	the	the	the	DT	O	det	O	-1	O
+0	32	668	3281	3287		666	forest	forest	forest	NN	O	pobj	O	-1	B-noun.group
+0	32	669	3287	3288	S	663	,	,	,	,	O	punct	O	-1	O
+0	32	670	3289	3293	S	672	only	only	only	RB	O	advmod	O	-1	O
+0	32	671	3294	3296	S	672	to	to	to	TO	O	aux	O	-1	O
+0	32	672	3297	3305	S	663	discover	discover	discover	VB	O	dep	O	-1	B-verb.perception
+0	32	673	3306	3307	S	675	a	a	a	DT	O	det	O	-1	O
+0	32	674	3308	3314	S	675	hidden	hidden	hidden	JJ	O	amod	O	-1	O
+0	32	675	3315	3320	S	672	cache	cache	cache	NN	O	dobj	O	-1	B-noun.artifact
+0	32	676	3321	3323	S	675	of	of	of	IN	O	prep	O	-1	O
+0	32	677	3324	3328		676	gold	gold	gold	NN	O	pobj	O	-1	B-noun.possession
+0	32	678	3328	3329	S	663	.	.	.	.	O	punct	O	-1	O
+0	33	679	3330	3336	S	691	Struck	Struck	strike	VBN	O	csubj	O	-1	B-verb.contact
+0	33	680	3337	3339	S	679	by	by	by	IN	O	prep	O	-1	O
+0	33	681	3340	3343	S	682	the	the	the	DT	O	det	O	-1	O
+0	33	682	3344	3349	S	680	irony	irony	irony	NN	O	pobj	O	-1	B-noun.communication
+0	33	683	3350	3352	S	682	of	of	of	IN	O	prep	O	-1	O
+0	33	684	3353	3356	S	685	his	his	he	PRP$	O	poss	O	-1	O
+0	33	685	3357	3366	S	683	discovery	discovery	discovery	NN	O	pobj	O	-1	B-noun.act
+0	33	686	3367	3370	S	691	now	now	now	RB	DATE	advmod	O	-1	O
+0	33	687	3371	3375	S	691	that	that	that	IN	O	dep	O	-1	O
+0	33	688	3376	3378	S	691	he	he	he	PRP	O	nsubj	O	-1	O
+0	33	689	3379	3381	S	691	no	no	no	RB	O	advmod	O	-1	O
+0	33	690	3382	3388	S	689	longer	longer	longer	RBR	O	advmod	O	-1	O
+0	33	691	3389	3394	S	695	needs	needs	need	VBZ	O	dep	O	-1	B-verb.consumption
+0	33	692	3395	3397		691	it	it	it	PRP	O	dobj	O	-1	O
+0	33	693	3397	3398	S	695	,	,	,	,	O	punct	O	-1	O
+0	33	694	3399	3404	S	695	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	O
+0	33	695	3405	3411	S	-1	buries	buries	bury	VBZ	O	null	O	-1	B-verb.perception
+0	33	696	3412	3415	S	697	the	the	the	DT	O	det	O	-1	O
+0	33	697	3416	3420	S	695	gold	gold	gold	NN	O	dobj	O	-1	B-noun.possession
+0	33	698	3421	3426		695	again	again	again	RB	O	advmod	O	-1	O
+0	33	699	3426	3427	S	695	,	,	,	,	O	punct	O	-1	O
+0	33	700	3428	3435	S	695	keeping	keeping	keep	VBG	O	xcomp	O	-1	B-verb.stative
+0	33	701	3436	3440		700	some	some	some	DT	O	dobj	O	-1	O
+0	33	702	3440	3441	S	695	.	.	.	.	O	punct	O	-1	O
+0	34	703	3442	3446	S	706	Then	Then	then	RB	O	advmod	O	-1	O
+0	34	704	3447	3449	S	706	he	he	he	PRP	O	nsubjpass	O	-1	O
+0	34	705	3450	3452	S	706	is	is	be	VBZ	O	auxpass	O	-1	O
+0	34	706	3453	3460	S	-1	visited	visited	visit	VBN	O	null	O	-1	B-verb.social
+0	34	707	3461	3463	S	706	by	by	by	IN	O	prep	O	-1	O
+0	34	708	3464	3467	S	709	all	all	all	DT	O	det	O	-1	O
+0	34	709	3468	3474	S	707	manner	manner	manner	NN	O	pobj	O	-1	B-noun.attribute
+0	34	710	3475	3477	S	709	of	of	of	IN	O	prep	O	-1	O
+0	34	711	3478	3481	S	710	men	men	man	NNS	O	pobj	O	-1	B-noun.person
+0	34	712	3482	3484	S	711	in	in	in	IN	O	prep	O	-1	O
+0	34	713	3485	3488	S	714	the	the	the	DT	O	det	O	-1	O
+0	34	714	3489	3494		712	woods	woods	wood	NNS	O	pobj	O	-1	B-noun.group
+0	34	715	3494	3495	S	706	,	,	,	,	O	punct	O	-1	O
+0	34	716	3496	3504	S	706	starting	starting	start	VBG	O	xcomp	O	-1	B-verb.change
+0	34	717	3505	3509	S	716	with	with	with	IN	O	prep	O	-1	O
+0	34	718	3510	3520		717	Alcibiades	Alcibiades	alcibiade	NNS	PERSON	pobj	O	2	B-noun.person
+0	34	719	3520	3521	S	706	.	.	.	.	O	punct	O	-1	O
+0	35	720	3522	3526	S	722	When	When	when	WRB	O	advmod	O	-1	O
+0	35	721	3527	3529	S	722	he	he	he	PRP	O	nsubj	O	-1	O
+0	35	722	3530	3535	S	731	hears	hears	hear	VBZ	O	dep	O	-1	B-verb.perception
+0	35	723	3536	3546		725	Alcibiades	Alcibiades	Alcibiades	NNP	PERSON	poss	O	2	B-noun.person
+0	35	724	3546	3548	S	723	's	's	's	POS	O	possessive	O	-1	O
+0	35	725	3549	3558	S	722	intention	intention	intention	NN	O	dobj	O	-1	B-noun.cognition
+0	35	726	3559	3561	S	727	to	to	to	TO	O	aux	O	-1	O
+0	35	727	3562	3569	S	725	destroy	destroy	destroy	VB	O	infmod	O	-1	B-verb.creation
+0	35	728	3570	3576		727	Athens	Athens	Athens	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	35	729	3576	3577	S	731	,	,	,	,	O	punct	O	-1	O
+0	35	730	3578	3580	S	731	he	he	he	PRP	O	nsubj	O	-1	O
+0	35	731	3581	3586	S	-1	gives	gives	give	VBZ	O	null	O	-1	B-verb.possession
+0	35	732	3587	3590	S	731	him	him	he	PRP	O	iobj	O	-1	O
+0	35	733	3591	3592	S	734	a	a	a	DT	O	det	O	-1	O
+0	35	734	3593	3601	S	731	donation	donation	donation	NN	O	dobj	O	-1	B-noun.possession
+0	35	735	3602	3604	S	731	in	in	in	IN	O	prep	O	-1	O
+0	35	736	3605	3609	S	735	gold	gold	gold	NN	O	pobj	O	-1	B-noun.possession
+0	35	737	3610	3613	S	731	and	and	and	CC	O	cc	O	-1	O
+0	35	738	3614	3619	S	731	urges	urges	urge	VBZ	O	conj	O	-1	B-verb.communication
+0	35	739	3620	3623	S	738	him	him	he	PRP	O	dobj	O	-1	O
+0	35	740	3624	3626	S	738	to	to	to	TO	O	prep	O	-1	O
+0	35	741	3627	3635	S	742	massacre	massacre	massacre	NN	O	nn	O	-1	B-noun.act
+0	35	742	3636	3644		740	everyone	everyone	everyone	NN	O	pobj	O	-1	O
+0	35	743	3644	3645	S	731	.	.	.	.	O	punct	O	-1	O
+0	36	744	3646	3655	S	745	Apemantus	Apemantus	apemantus	NN	O	nsubj	O	-1	O
+0	36	745	3656	3661	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	36	746	3662	3664	S	745	to	to	to	TO	O	prep	O	-1	O
+0	36	747	3665	3670		749	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	36	748	3670	3672	S	747	's	's	's	POS	O	possessive	O	-1	O
+0	36	749	3673	3677	S	746	cave	cave	cave	NN	O	pobj	O	-1	B-noun.event
+0	36	750	3678	3680	S	749	in	in	in	IN	O	prep	O	-1	O
+0	36	751	3681	3684	S	752	the	the	the	DT	O	det	O	-1	O
+0	36	752	3685	3691	S	750	forest	forest	forest	NN	O	pobj	O	-1	B-noun.group
+0	36	753	3692	3695	S	745	and	and	and	CC	O	cc	O	-1	O
+0	36	754	3696	3702	S	745	scorns	scorns	scorn	VBZ	O	conj	O	-1	B-verb.emotion
+0	36	755	3703	3706		754	him	him	he	PRP	O	dobj	O	-1	O
+0	36	756	3706	3707	S	754	,	,	,	,	O	punct	O	-1	O
+0	36	757	3708	3717	S	754	remarking	remarking	remark	VBG	O	xcomp	O	-1	B-verb.communication
+0	36	758	3718	3722	S	761	that	that	that	IN	O	complm	O	-1	O
+0	36	759	3723	3726	S	760	his	his	he	PRP$	O	poss	O	-1	O
+0	36	760	3727	3731	S	761	fall	fall	fall	NN	DATE	nsubj	O	-1	B-noun.time
+0	36	761	3732	3736	S	757	came	came	come	VBD	O	ccomp	O	-1	B-verb.change
+0	36	762	3737	3742	S	763	about	about	about	RB	O	dep	O	-1	O
+0	36	763	3743	3747	S	761	from	from	from	IN	O	prep	O	-1	O
+0	36	764	3748	3753	S	766	being	being	be	VBG	O	cop	O	-1	B-verb.stative
+0	36	765	3754	3756	S	766	so	so	so	RB	O	advmod	O	-1	O
+0	36	766	3757	3765	S	763	generous	generous	generous	JJ	O	pcomp	O	-1	O
+0	36	767	3766	3768	S	766	to	to	to	TO	O	prep	O	-1	O
+0	36	768	3769	3770	S	769	a	a	a	DT	O	det	O	-1	O
+0	36	769	3771	3776	S	767	bunch	bunch	bunch	NN	O	pobj	O	-1	B-noun.group
+0	36	770	3777	3779	S	769	of	of	of	IN	O	prep	O	-1	O
+0	36	771	3780	3787	S	772	no-good	no-good	no-good	JJ	O	amod	O	-1	O
+0	36	772	3788	3798		770	flatterers	flatterers	flatterer	NNS	O	pobj	O	-1	B-noun.person
+0	36	773	3798	3799	S	745	.	.	.	.	O	punct	O	-1	O
+0	37	774	3800	3803	S	776	The	The	the	DT	O	det	O	-1	O
+0	37	775	3804	3807	S	776	two	two	two	CD	NUMBER	num	O	-1	O
+0	37	776	3808	3814	S	778	insult	insult	insult	NN	O	nsubj	O	-1	B-noun.communication
+0	37	777	3815	3819	S	778	each	each	each	DT	O	det	O	-1	O
+0	37	778	3820	3825		-1	other	other	other	JJ	O	null	O	-1	O
+0	37	779	3825	3826	S	778	,	,	,	,	O	punct	O	-1	O
+0	37	780	3827	3831	S	782	then	then	then	RB	O	advmod	O	-1	O
+0	37	781	3832	3837	S	782	Timon	Timon	Timon	NNP	O	nn	O	-1	B-noun.person
+0	37	782	3838	3845	S	778	remarks	remarks	remark	NNS	O	dobj	O	-1	B-noun.communication
+0	37	783	3846	3850	S	787	that	that	that	IN	O	dobj	O	-1	O
+0	37	784	3851	3853	S	787	he	he	he	PRP	O	nsubj	O	-1	O
+0	37	785	3854	3856	S	787	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	37	786	3857	3859	S	787	so	so	so	RB	O	advmod	O	-1	O
+0	37	787	3860	3869	S	782	miserable	miserable	miserable	JJ	O	rcmod	O	-1	O
+0	37	788	3870	3872	S	790	to	to	to	TO	O	aux	O	-1	O
+0	37	789	3873	3877	S	790	have	have	have	VB	O	aux	O	-1	O
+0	37	790	3878	3884	S	787	fallen	fallen	fall	VBN	O	xcomp	O	-1	B-verb.motion
+0	37	791	3885	3892	S	794	because	because	because	IN	O	mark	O	-1	O
+0	37	792	3893	3895	S	794	he	he	he	PRP	O	nsubj	O	-1	O
+0	37	793	3896	3901	S	794	never	never	never	RB	O	neg	O	-1	O
+0	37	794	3902	3906	S	778	knew	knew	know	VBD	O	advcl	O	-1	B-verb.cognition
+0	37	795	3907	3916		794	suffering	suffering	suffering	NN	O	dobj	O	-1	B-noun.state
+0	37	796	3916	3917	S	778	,	,	,	,	O	punct	O	-1	O
+0	37	797	3918	3921	S	778	but	but	but	CC	O	cc	O	-1	O
+0	37	798	3922	3931	S	799	Apemantus	Apemantus	Apemantus	NNP	PERSON	nsubj	O	3	B-noun.person
+0	37	799	3932	3935		778	has	has	have	VBZ	O	conj	O	-1	O
+0	37	800	3935	3936	S	799	,	,	,	,	O	punct	O	-1	O
+0	37	801	3937	3943	S	805	though	though	though	IN	O	mark	O	-1	O
+0	37	802	3944	3946	S	805	he	he	he	PRP	O	nsubj	O	-1	O
+0	37	803	3947	3950	S	805	has	has	have	VBZ	O	aux	O	-1	O
+0	37	804	3951	3956	S	805	never	never	never	RB	O	neg	O	-1	O
+0	37	805	3957	3962	S	799	known	known	know	VBN	O	advcl	O	-1	B-verb.cognition
+0	37	806	3963	3967	S	808	such	such	such	PDT	O	predet	O	-1	O
+0	37	807	3968	3969	S	808	a	a	a	DT	O	det	O	-1	O
+0	37	808	3970	3976	S	805	horror	horror	horror	NN	O	dobj	O	-1	B-noun.feeling
+0	37	809	3977	3979	S	805	as	as	as	IN	O	prep	O	-1	O
+0	37	810	3980	3984	S	811	base	base	base	NN	O	nn	O	-1	B-noun.artifact
+0	37	811	3985	3993		809	flattery	flattery	flattery	NN	O	pobj	O	-1	O
+0	37	812	3993	3995		799	--	--	--	:	O	punct	O	-1	O
+0	37	813	3995	3997	S	799	so	so	so	RB	O	advmod	O	-1	O
+0	37	814	3998	4001	S	817	why	why	why	WRB	O	advmod	O	-1	O
+0	37	815	4002	4006	S	817	does	does	do	VBZ	O	aux	O	-1	O
+0	37	816	4007	4009	S	817	he	he	he	PRP	O	nsubj	O	-1	O
+0	37	817	4010	4014	S	799	hate	hate	hate	VB	O	advcl	O	-1	B-verb.emotion
+0	37	818	4015	4023		817	humanity	humanity	humanity	NN	O	dobj	O	-1	B-noun.group
+0	37	819	4023	4024	S	778	?	?	?	.	O	punct	O	-1	O
+0	38	820	4025	4030	S	823	Timon	Timon	Timon	NNP	O	nsubj	O	-1	O
+0	38	821	4031	4033	S	823	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	38	822	4034	4037	S	823	the	the	the	DT	O	det	O	-1	O
+0	38	823	4038	4041	S	-1	one	one	one	NN	NUMBER	null	O	-1	O
+0	38	824	4042	4045	S	826	who	who	who	WP	O	nsubj	O	-1	O
+0	38	825	4046	4052	S	826	really	really	really	RB	O	advmod	O	-1	O
+0	38	826	4053	4056	S	823	has	has	have	VBZ	O	rcmod	O	-1	B-verb.possession
+0	38	827	4057	4063	S	826	reason	reason	reason	NN	O	dobj	O	-1	B-noun.motive
+0	38	828	4064	4067	S	827	for	for	for	IN	O	prep	O	-1	O
+0	38	829	4068	4072	S	831	such	such	such	JJ	O	amod	O	-1	O
+0	38	830	4073	4074	S	831	a	a	a	DT	O	det	O	-1	O
+0	38	831	4075	4083		828	response	response	response	NN	O	pobj	O	-1	B-noun.phenomenon
+0	38	832	4083	4084	S	823	.	.	.	.	O	punct	O	-1	O
+0	39	833	4085	4088	S	835	The	The	the	DT	O	det	O	-1	O
+0	39	834	4089	4092	S	835	two	two	two	CD	NUMBER	num	O	-1	O
+0	39	835	4093	4096	S	836	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	39	836	4097	4104	S	-1	discuss	discuss	discuss	VBP	O	null	O	-1	B-verb.communication
+0	39	837	4105	4110	S	838	their	their	they	PRP$	O	poss	O	-1	O
+0	39	838	4111	4118	S	836	desires	desires	desire	NNS	O	dobj	O	-1	B-noun.feeling
+0	39	839	4119	4121	S	840	to	to	to	TO	O	aux	O	-1	O
+0	39	840	4122	4126	S	838	turn	turn	turn	VB	O	infmod	O	-1	B-verb.motion
+0	39	841	4127	4130	S	842	the	the	the	DT	O	det	O	-1	O
+0	39	842	4131	4136	S	840	world	world	world	NN	O	dobj	O	-1	B-noun.group
+0	39	843	4137	4141	S	840	over	over	over	IN	O	prep	O	-1	O
+0	39	844	4142	4144	S	843	to	to	to	TO	O	dep	O	-1	O
+0	39	845	4145	4148	S	846	the	the	the	DT	O	det	O	-1	O
+0	39	846	4149	4155		844	beasts	beasts	beast	NNS	O	pobj	O	-1	B-noun.Tops
+0	39	847	4155	4156	S	836	,	,	,	,	O	punct	O	-1	O
+0	39	848	4157	4160	S	836	but	but	but	CC	O	cc	O	-1	O
+0	39	849	4161	4164	S	836	end	end	end	NN	O	conj	O	-1	B-noun.location
+0	39	850	4165	4167	S	849	in	in	in	IN	O	prep	O	-1	O
+0	39	851	4168	4175		850	insults	insults	insult	NNS	O	pobj	O	-1	B-noun.communication
+0	39	852	4175	4176	S	836	,	,	,	,	O	punct	O	-1	O
+0	39	853	4177	4180	S	836	and	and	and	CC	O	cc	O	-1	O
+0	39	854	4181	4190	S	855	Apemantus	Apemantus	Apemantus	NNP	O	nsubj	O	-1	B-noun.person
+0	39	855	4191	4198		836	departs	departs	depart	VBZ	O	conj	O	-1	B-verb.motion
+0	39	856	4198	4199	S	836	.	.	.	.	O	punct	O	-1	O
+0	40	857	4200	4204	S	859	Then	Then	then	RB	O	advmod	O	-1	O
+0	40	858	4205	4212	S	859	Flavius	Flavius	Flavius	NNP	PERSON	nsubj	O	1	B-noun.person
+0	40	859	4213	4220		-1	arrives	arrives	arrive	VBZ	O	null	O	-1	B-verb.motion
+0	40	860	4220	4221	S	859	,	,	,	,	O	punct	O	-1	O
+0	40	861	4222	4230	S	859	offering	offering	offer	VBG	O	xcomp	O	-1	B-verb.possession
+0	40	862	4231	4236	S	861	Timon	Timon	Timon	NNP	O	iobj	O	-1	B-noun.person
+0	40	863	4237	4240	S	865	his	his	he	PRP$	O	poss	O	-1	O
+0	40	864	4241	4245	S	865	last	last	last	JJ	O	amod	O	-1	O
+0	40	865	4246	4251	S	861	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	40	866	4252	4255	S	861	and	and	and	CC	O	cc	O	-1	O
+0	40	867	4256	4263		861	weeping	weeping	weep	VBG	O	conj	O	-1	B-verb.body
+0	40	868	4263	4264	S	859	.	.	.	.	O	punct	O	-1	O
+0	41	869	4265	4274	S	877	Impressed	Impressed	impress	VBN	O	ccomp	O	-1	B-verb.emotion
+0	41	870	4275	4277	S	869	at	at	at	IN	O	prep	O	-1	O
+0	41	871	4278	4282	S	872	this	this	this	DT	O	det	O	-1	O
+0	41	872	4283	4287	S	870	show	show	show	NN	O	pobj	O	-1	B-noun.act
+0	41	873	4288	4290	S	872	of	of	of	IN	O	prep	O	-1	O
+0	41	874	4291	4295		873	pity	pity	pity	NN	O	pobj	O	-1	B-noun.feeling
+0	41	875	4295	4296	S	877	,	,	,	,	O	punct	O	-1	O
+0	41	876	4297	4302	S	877	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	O
+0	41	877	4303	4311	S	-1	realizes	realizes	realize	VBZ	O	null	O	-1	B-verb.cognition
+0	41	878	4312	4319	S	883	Flavius	Flavius	Flavius	NNP	PERSON	nsubj	O	1	B-noun.person
+0	41	879	4320	4323	S	883	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	41	880	4324	4327	S	883	the	the	the	DT	O	det	O	-1	O
+0	41	881	4328	4331	S	883	one	one	one	CD	NUMBER	num	O	-1	O
+0	41	882	4332	4338	S	883	honest	honest	honest	JJ	O	amod	O	-1	O
+0	41	883	4339	4342	S	877	man	man	man	NN	O	ccomp	O	-1	B-noun.person
+0	41	884	4343	4345	S	885	he	he	he	PRP	O	nsubj	O	-1	O
+0	41	885	4346	4350	S	883	came	came	come	VBD	O	rcmod	O	-1	B-verb.motion
+0	41	886	4351	4353	S	885	in	in	in	IN	O	prep	O	-1	O
+0	41	887	4354	4361	S	886	contact	contact	contact	NN	O	pobj	O	-1	B-noun.act
+0	41	888	4362	4366	S	887	with	with	with	IN	O	prep	O	-1	O
+0	41	889	4367	4369	S	888	in	in	in	IN	O	dep	O	-1	O
+0	41	890	4370	4376		889	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	41	891	4376	4377	S	877	,	,	,	,	O	punct	O	-1	O
+0	41	892	4378	4381	S	877	and	and	and	CC	O	cc	O	-1	O
+0	41	893	4382	4384	S	897	he	he	he	PRP	O	nsubj	O	-1	O
+0	41	894	4385	4387	S	897	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	41	895	4388	4391	S	897	the	the	the	DT	O	det	O	-1	O
+0	41	896	4392	4395	S	897	one	one	one	CD	NUMBER	num	O	-1	O
+0	41	897	4396	4399	S	877	man	man	man	NN	O	conj	O	-1	B-noun.person
+0	41	898	4400	4403	S	900	who	who	who	WP	O	nsubj	O	-1	O
+0	41	899	4404	4406	S	900	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	41	900	4407	4411	S	897	able	able	able	JJ	O	rcmod	O	-1	O
+0	41	901	4412	4414	S	902	to	to	to	TO	O	aux	O	-1	O
+0	41	902	4415	4421	S	900	escape	escape	escape	VB	O	xcomp	O	-1	B-verb.motion
+0	41	903	4422	4425	S	905	his	his	he	PRP$	O	poss	O	-1	O
+0	41	904	4426	4438	S	905	enthusiastic	enthusiastic	enthusiastic	JJ	O	amod	O	-1	O
+0	41	905	4439	4446	S	902	cursing	cursing	cursing	NN	O	dobj	O	-1	B-noun.person
+0	41	906	4447	4449	S	905	of	of	of	IN	O	prep	O	-1	O
+0	41	907	4450	4458		906	humanity	humanity	humanity	NN	O	pobj	O	-1	B-noun.group
+0	41	908	4458	4459	S	877	.	.	.	.	O	punct	O	-1	O
+0	42	909	4460	4465	S	910	Timon	Timon	Timon	NNP	O	nsubj	O	-1	B-noun.person
+0	42	910	4466	4471	S	-1	gives	gives	give	VBZ	O	null	O	-1	B-verb.possession
+0	42	911	4472	4475	S	910	him	him	he	PRP	O	iobj	O	-1	O
+0	42	912	4476	4480	S	910	gold	gold	gold	NN	O	dobj	O	-1	B-noun.possession
+0	42	913	4481	4484	S	912	and	and	and	CC	O	cc	O	-1	O
+0	42	914	4485	4491	S	912	orders	orders	order	NNS	O	conj	O	-1	B-noun.communication
+0	42	915	4492	4495	S	917	him	him	he	PRP	O	nsubj	O	-1	O
+0	42	916	4496	4498	S	917	to	to	to	TO	O	aux	O	-1	O
+0	42	917	4499	4504		912	leave	leave	leave	VB	O	rcmod	O	-1	B-verb.motion
+0	42	918	4504	4505	S	910	.	.	.	.	O	punct	O	-1	O
+0	43	919	4506	4509	S	920	The	The	the	DT	O	det	O	-1	O
+0	43	920	4510	4514	S	924	Poet	Poet	Poet	NNP	MISC	nsubj	O	-1	B-noun.person
+0	43	921	4515	4518	S	920	and	and	and	CC	O	cc	O	-1	O
+0	43	922	4519	4526	S	920	Painter	Painter	Painter	NNP	MISC	conj	O	-1	B-noun.person
+0	43	923	4527	4531	S	924	have	have	have	VBP	O	aux	O	-1	O
+0	43	924	4532	4537	S	-1	heard	heard	hear	VBN	O	null	O	-1	B-verb.perception
+0	43	925	4538	4543	S	926	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	43	926	4544	4547	S	924	has	has	have	VBZ	O	ccomp	O	-1	B-verb.possession
+0	43	927	4548	4552		926	gold	gold	gold	NN	O	dobj	O	-1	B-noun.possession
+0	43	928	4552	4553	S	924	,	,	,	,	O	punct	O	-1	O
+0	43	929	4554	4556	S	931	so	so	so	IN	O	mark	O	-1	O
+0	43	930	4557	4561	S	931	they	they	they	PRP	O	nsubj	O	-1	O
+0	43	931	4562	4568	S	924	arrive	arrive	arrive	VBP	O	advcl	O	-1	B-verb.motion
+0	43	932	4569	4571	S	933	to	to	to	TO	O	aux	O	-1	O
+0	43	933	4572	4582	S	931	ingratiate	ingratiate	ingratiate	VB	O	xcomp	O	-1	B-verb.emotion
+0	43	934	4583	4593	S	933	themselves	themselves	themselves	PRP	O	dobj	O	-1	O
+0	43	935	4594	4596	S	933	to	to	to	TO	O	prep	O	-1	O
+0	43	936	4597	4600		935	him	him	he	PRP	O	pobj	O	-1	O
+0	43	937	4600	4601	S	924	.	.	.	.	O	punct	O	-1	O
+0	44	938	4602	4607	S	939	Timon	Timon	Timon	NNP	O	nsubj	O	-1	B-noun.person
+0	44	939	4608	4613	S	-1	sends	sends	send	VBZ	O	null	O	-1	B-verb.motion
+0	44	940	4614	4618	S	939	them	them	they	PRP	O	dobj	O	-1	O
+0	44	941	4619	4622	S	939	off	off	off	RP	O	prt	O	-1	O
+0	44	942	4623	4625	S	939	on	on	on	IN	O	prep	O	-1	O
+0	44	943	4626	4627	S	946	a	a	a	DT	O	det	O	-1	O
+0	44	944	4628	4632	S	946	wild	wild	wild	JJ	O	amod	O	-1	O
+0	44	945	4633	4638	S	946	goose	goose	goose	NN	O	nn	O	-1	B-noun.animal
+0	44	946	4639	4644		942	chase	chase	chase	NN	O	pobj	O	-1	B-noun.act
+0	44	947	4644	4645	S	939	.	.	.	.	O	punct	O	-1	O
+0	45	948	4646	4651	S	950	Later	Later	later	RB	O	advmod	O	-1	O
+0	45	949	4652	4659	S	950	Flavius	Flavius	Flavius	NNP	PERSON	nn	O	1	O
+0	45	950	4660	4667	S	-1	returns	returns	return	NNS	O	null	O	-1	B-noun.communication
+0	45	951	4668	4672	S	950	with	with	with	IN	O	prep	O	-1	O
+0	45	952	4673	4676	S	953	two	two	two	CD	NUMBER	num	O	-1	O
+0	45	953	4677	4685	S	951	senators	senators	senator	NNS	O	pobj	O	-1	B-noun.person
+0	45	954	4686	4689	S	955	who	who	who	WP	O	nsubj	O	-1	O
+0	45	955	4690	4698	S	953	announce	announce	announce	VBP	O	rcmod	O	-1	B-verb.communication
+0	45	956	4699	4703	S	960	that	that	that	IN	O	complm	O	-1	O
+0	45	957	4704	4707	S	958	the	the	the	DT	O	det	O	-1	O
+0	45	958	4708	4714	S	960	people	people	people	NNS	O	nsubj	O	-1	B-noun.group
+0	45	959	4715	4719	S	960	have	have	have	VBP	O	aux	O	-1	O
+0	45	960	4720	4730	S	955	determined	determined	determine	VBN	O	ccomp	O	-1	B-verb.communication
+0	45	961	4731	4736		963	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	45	962	4736	4738	S	961	's	's	's	POS	O	possessive	O	-1	O
+0	45	963	4739	4748	S	965	treatment	treatment	treatment	NN	O	nsubj	O	-1	B-noun.act
+0	45	964	4749	4752	S	965	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	45	965	4753	4759		960	unfair	unfair	unfair	JJ	O	ccomp	O	-1	O
+0	45	966	4759	4760	S	950	,	,	,	,	O	punct	O	-1	O
+0	45	967	4761	4764	S	950	and	and	and	CC	O	cc	O	-1	O
+0	45	968	4765	4769	S	969	they	they	they	PRP	O	nsubj	O	-1	O
+0	45	969	4770	4774	S	950	want	want	want	VBP	O	conj	O	-1	B-verb.emotion
+0	45	970	4775	4778	S	972	him	him	he	PRP	O	nsubj	O	-1	O
+0	45	971	4779	4781	S	972	to	to	to	TO	O	aux	O	-1	O
+0	45	972	4782	4788	S	969	return	return	return	VB	O	xcomp	O	-1	B-verb.motion
+0	45	973	4789	4791	S	972	to	to	to	TO	O	prep	O	-1	O
+0	45	974	4792	4798		973	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	45	975	4798	4799	S	950	.	.	.	.	O	punct	O	-1	O
+0	46	976	4800	4805	S	977	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	46	977	4806	4813		-1	refuses	refuses	refuse	VBZ	O	null	O	-1	B-verb.communication
+0	46	978	4813	4814	S	977	.	.	.	.	O	punct	O	-1	O
+0	47	979	4815	4818	S	980	The	The	the	DT	O	det	O	-1	O
+0	47	980	4819	4827	S	981	senators	senators	senator	NNS	O	nsubj	O	-1	B-noun.person
+0	47	981	4828	4835	S	-1	believe	believe	believe	VBP	O	null	O	-1	B-verb.cognition
+0	47	982	4836	4841		984	Timon	Timon	Timon	NNP	PERSON	poss	O	0	B-noun.person
+0	47	983	4841	4843	S	982	's	's	's	POS	O	possessive	O	-1	O
+0	47	984	4844	4852	S	989	presence	presence	presence	NN	O	nsubj	O	-1	B-noun.state
+0	47	985	4853	4855	S	984	in	in	in	IN	O	prep	O	-1	O
+0	47	986	4856	4862	S	985	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	47	987	4863	4867	S	989	will	will	will	MD	O	aux	O	-1	O
+0	47	988	4868	4875	S	989	somehow	somehow	somehow	RB	O	advmod	O	-1	O
+0	47	989	4876	4880	S	981	halt	halt	halt	VB	O	ccomp	O	-1	B-verb.motion
+0	47	990	4881	4891		992	Alcibiades	Alcibiades	Alcibiades	NNP	PERSON	poss	O	2	B-noun.person
+0	47	991	4891	4893	S	990	's	's	's	POS	O	possessive	O	-1	O
+0	47	992	4894	4902		989	invasion	invasion	invasion	NN	O	dobj	O	-1	B-noun.act
+0	47	993	4902	4903	S	981	,	,	,	,	O	punct	O	-1	O
+0	47	994	4904	4907	S	981	but	but	but	CC	O	cc	O	-1	O
+0	47	995	4908	4912	S	998	they	they	they	PRP	O	nsubj	O	-1	O
+0	47	996	4913	4915		998	ca	ca	can	MD	O	aux	O	-1	O
+0	47	997	4915	4918	S	998	n't	n't	not	RB	O	neg	O	-1	O
+0	47	998	4919	4924	S	981	shift	shift	shift	VB	O	conj	O	-1	B-verb.motion
+0	47	999	4925	4930		998	Timon	Timon	Timon	NNP	O	dobj	O	-1	O
+0	47	1000	4930	4931	S	981	.	.	.	.	O	punct	O	-1	O
+0	48	1001	4932	4942	S	1002	Alcibiades	Alcibiades	alcibiade	NNS	PERSON	nsubj	O	2	B-noun.person
+0	48	1002	4943	4950	S	-1	arrives	arrives	arrive	VBZ	O	null	O	-1	B-verb.motion
+0	48	1003	4951	4953	S	1002	at	at	at	IN	O	prep	O	-1	O
+0	48	1004	4954	4957	S	1005	the	the	the	DT	O	det	O	-1	O
+0	48	1005	4958	4963	S	1003	gates	gates	gate	NNS	O	pobj	O	-1	B-noun.artifact
+0	48	1006	4964	4966	S	1005	of	of	of	IN	O	prep	O	-1	O
+0	48	1007	4967	4973		1006	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	48	1008	4973	4974	S	1002	.	.	.	.	O	punct	O	-1	O
+0	49	1009	4975	4978	S	1010	The	The	the	DT	O	det	O	-1	O
+0	49	1010	4979	4987	S	1011	senators	senators	senator	NNS	O	nsubj	O	-1	B-noun.person
+0	49	1011	4988	4995	S	-1	attempt	attempt	attempt	VBP	O	null	O	-1	B-verb.social
+0	49	1012	4996	4998	S	1013	to	to	to	TO	O	aux	O	-1	O
+0	49	1013	4999	5005	S	1011	defend	defend	defend	VB	O	xcomp	O	-1	B-verb.communication
+0	49	1014	5006	5009	S	1015	the	the	the	DT	O	det	O	-1	O
+0	49	1015	5010	5014		1013	city	city	city	NN	O	dobj	O	-1	B-noun.location
+0	49	1016	5014	5015	S	1011	,	,	,	,	O	punct	O	-1	O
+0	49	1017	5016	5026	S	1011	explaining	explaining	explain	VBG	O	xcomp	O	-1	B-verb.communication
+0	49	1018	5027	5031	S	1023	that	that	that	IN	O	complm	O	-1	O
+0	49	1019	5032	5035	S	1020	not	not	not	RB	O	neg	O	-1	O
+0	49	1020	5036	5044	S	1023	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	49	1021	5045	5047	S	1020	in	in	in	IN	O	prep	O	-1	O
+0	49	1022	5048	5054	S	1021	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	49	1023	5055	5063	S	1017	insulted	insulted	insult	VBD	O	ccomp	O	-1	B-verb.communication
+0	49	1024	5064	5074	S	1023	Alcibiades	Alcibiades	Alcibiades	NNP	PERSON	dobj	O	2	B-noun.person
+0	49	1025	5075	5078	S	1024	and	and	and	CC	O	cc	O	-1	O
+0	49	1026	5079	5084		1024	Timon	Timon	Timon	NNP	O	conj	O	-1	O
+0	49	1027	5084	5085	S	1011	,	,	,	,	O	punct	O	-1	O
+0	49	1028	5086	5089	S	1011	and	and	and	CC	O	cc	O	-1	O
+0	49	1029	5090	5094	S	1030	they	they	they	PRP	O	nsubj	O	-1	O
+0	49	1030	5095	5098	S	1011	ask	ask	ask	VBP	O	conj	O	-1	B-verb.communication
+0	49	1031	5099	5103	S	1033	that	that	that	IN	O	complm	O	-1	O
+0	49	1032	5104	5114	S	1033	Alcibiades	Alcibiades	Alcibiades	NNPS	PERSON	nsubj	O	2	B-noun.person
+0	49	1033	5115	5119	S	1030	come	come	come	VBP	O	ccomp	O	-1	B-verb.motion
+0	49	1034	5120	5124	S	1033	into	into	into	IN	O	prep	O	-1	O
+0	49	1035	5125	5128	S	1036	the	the	the	DT	O	det	O	-1	O
+0	49	1036	5129	5133	S	1034	city	city	city	NN	O	pobj	O	-1	B-noun.location
+0	49	1037	5134	5136	S	1036	in	in	in	IN	O	prep	O	-1	O
+0	49	1038	5137	5142		1037	peace	peace	peace	NN	O	pobj	O	-1	B-noun.state
+0	49	1039	5142	5143	S	1033	,	,	,	,	O	punct	O	-1	O
+0	49	1040	5144	5151	S	1033	without	without	without	IN	O	prep	O	-1	O
+0	49	1041	5152	5159	S	1040	killing	killing	kill	VBG	O	pcomp	O	-1	B-verb.contact
+0	49	1042	5160	5168		1041	everyone	everyone	everyone	NN	O	dobj	O	-1	O
+0	49	1043	5168	5169	S	1011	.	.	.	.	O	punct	O	-1	O
+0	50	1044	5170	5180	S	1045	Alcibiades	Alcibiades	alcibiade	NNS	PERSON	nsubj	O	2	B-noun.person
+0	50	1045	5181	5187		-1	agrees	agrees	agree	VBZ	O	null	O	-1	B-verb.communication
+0	50	1046	5187	5188	S	1045	,	,	,	,	O	punct	O	-1	O
+0	50	1047	5189	5192	S	1045	and	and	and	CC	O	cc	O	-1	O
+0	50	1048	5193	5201	S	1045	punishes	punishes	punish	VBZ	O	conj	O	-1	B-verb.social
+0	50	1049	5202	5206	S	1050	only	only	only	RB	O	advmod	O	-1	O
+0	50	1050	5207	5212	S	1048	those	those	those	DT	O	dobj	O	-1	O
+0	50	1051	5213	5216	S	1053	who	who	who	WP	O	nsubj	O	-1	O
+0	50	1052	5217	5221	S	1053	have	have	have	VBP	O	aux	O	-1	O
+0	50	1053	5222	5230	S	1050	slighted	slighted	slight	VBN	O	rcmod	O	-1	B-verb.cognition
+0	50	1054	5231	5238	S	1053	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	50	1055	5239	5242	S	1054	and	and	and	CC	O	cc	O	-1	O
+0	50	1056	5243	5248		1054	Timon	Timon	Timon	NNP	O	conj	O	-1	O
+0	50	1057	5248	5249	S	1045	.	.	.	.	O	punct	O	-1	O
+0	51	1058	5250	5254	S	1061	Then	Then	then	RB	O	advmod	O	-1	O
+0	51	1059	5255	5256	S	1060	a	a	a	DT	O	det	O	-1	O
+0	51	1060	5257	5264	S	1061	soldier	soldier	soldier	NN	O	nsubj	O	-1	B-noun.person
+0	51	1061	5265	5272	S	-1	arrives	arrives	arrive	VBZ	O	null	O	-1	B-verb.motion
+0	51	1062	5273	5277	S	1061	with	with	with	IN	O	prep	O	-1	O
+0	51	1063	5278	5282	S	1062	news	news	news	NN	O	pobj	O	-1	B-noun.communication
+0	51	1064	5283	5287	S	1067	that	that	that	IN	O	complm	O	-1	O
+0	51	1065	5288	5293	S	1067	Timon	Timon	Timon	NNP	PERSON	nsubj	O	0	B-noun.person
+0	51	1066	5294	5297	S	1067	has	has	have	VBZ	O	aux	O	-1	O
+0	51	1067	5298	5302		1063	died	died	die	VBN	O	ccomp	O	-1	B-verb.change
+0	51	1068	5302	5303	S	1061	,	,	,	,	O	punct	O	-1	O
+0	51	1069	5304	5307	S	1061	and	and	and	CC	O	cc	O	-1	O
+0	51	1070	5308	5318	S	1071	Alcibiades	Alcibiades	Alcibiades	NNP	PERSON	nsubj	O	2	B-noun.person
+0	51	1071	5319	5324	S	1061	reads	reads	read	VBZ	O	conj	O	-1	B-verb.cognition
+0	51	1072	5325	5328	S	1073	his	his	he	PRP$	O	poss	O	-1	O
+0	51	1073	5329	5336		1071	epitaph	epitaph	epitaph	NN	O	dobj	O	-1	B-noun.communication
+0	51	1074	5336	5337	S	1061	.	.	.	.	O	punct	O	-1	O
+0	52	1075	5338	5344	S	1077	Though	Though	though	IN	O	mark	O	-1	O
+0	52	1076	5345	5347	S	1077	he	he	he	PRP	O	nsubj	O	-1	O
+0	52	1077	5348	5352	S	-1	died	died	die	VBD	O	null	O	-1	B-verb.change
+0	52	1078	5353	5361	S	1077	thinking	thinking	think	VBG	O	xcomp	O	-1	B-verb.cognition
+0	52	1079	5362	5370	S	1080	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	52	1080	5371	5376	S	1078	hated	hated	hate	VBD	O	ccomp	O	-1	B-verb.emotion
+0	52	1081	5377	5380		1080	him	him	he	PRP	O	dobj	O	-1	O
+0	52	1082	5380	5381	S	1077	,	,	,	,	O	punct	O	-1	O
+0	52	1083	5382	5392	S	1085	Alcibiades	Alcibiades	Alcibiades	NNP	PERSON	nn	O	2	B-noun.person
+0	52	1084	5393	5399	S	1085	honors	honors	honor	NNS	O	nn	O	-1	B-noun.communication
+0	52	1085	5400	5405		1082	Timon	Timon	Timon	NNP	O	null	O	-1	O
+0	52	1086	5405	5406	S	1085	,	,	,	,	O	punct	O	-1	O
+0	52	1087	5407	5408	S	1088	a	a	a	DT	O	det	O	-1	O
+0	52	1088	5409	5412	S	1085	man	man	man	NN	O	appos	O	-1	B-noun.person
+0	52	1089	5413	5417	S	1091	much	much	much	RB	O	advmod	O	-1	O
+0	52	1090	5418	5422	S	1091	more	more	more	RBR	O	advmod	O	-1	O
+0	52	1091	5423	5430	S	1088	admired	admired	admire	VBN	O	partmod	O	-1	B-verb.perception
+0	52	1092	5431	5433	S	1091	in	in	in	IN	O	prep	O	-1	O
+0	52	1093	5434	5440	S	1092	Athens	Athens	Athens	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	52	1094	5441	5445	S	1096	than	than	than	IN	O	mark	O	-1	O
+0	52	1095	5446	5448	S	1096	he	he	he	PRP	O	nsubj	O	-1	O
+0	52	1096	5449	5457		1091	believed	believed	believe	VBD	O	advcl	O	-1	B-verb.cognition
+0	52	1097	5457	5458	N	1085	.	.	.	.	O	punct	O	-1	O

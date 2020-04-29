@@ -1,0 +1,555 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	7	S	1	Malcolm	Malcolm	Malcolm	NNP	PERSON	nn	O	2	B-noun.person
+0	0	1	8	9	S	3	X	X	x	NN	PERSON	nsubjpass	O	2	I-noun.person
+0	0	2	10	12	S	3	is	is	be	VBZ	O	auxpass	O	-1	O
+0	0	3	13	17	S	-1	born	born	bear	VBN	O	null	O	-1	B-verb.body
+0	0	4	18	25	S	5	Malcolm	Malcolm	Malcolm	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	5	26	32	S	3	Little	Little	Little	NNP	PERSON	dobj	O	-1	I-noun.person
+0	0	6	33	35	N	5	in	in	in	IN	O	prep	O	-1	O
+0	0	7	36	41		6	Omaha	Omaha	Omaha	NNP	LOCATION	pobj	O	-1	O
+0	0	8	41	42	S	7	,	,	,	,	O	punct	O	-1	O
+0	0	9	43	51		7	Nebraska	Nebraska	Nebraska	NNP	LOCATION	appos	O	-1	O
+0	0	10	51	52	S	3	.	.	.	.	O	punct	O	-1	O
+0	1	11	53	56	S	12	The	The	the	DT	O	det	O	-1	O
+0	1	12	57	64		-1	Midwest	Midwest	Midwest	NNP	LOCATION	null	O	-1	O
+0	1	13	64	65	S	19	,	,	,	,	O	punct	O	-1	O
+0	1	14	66	72	S	19	during	during	during	IN	O	prep	O	-1	O
+0	1	15	73	77	S	16	this	this	this	DT	O	det	O	-1	O
+0	1	16	78	84		14	period	period	period	NN	O	pobj	O	-1	B-noun.time
+0	1	17	84	85	S	19	,	,	,	,	O	punct	O	-1	O
+0	1	18	86	88	S	19	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	1	19	89	93	S	12	full	full	full	JJ	O	amod	O	-1	O
+0	1	20	94	96	S	19	of	of	of	IN	O	prep	O	-1	O
+0	1	21	97	111	N	20	discrimination	discrimination	discrimination	NN	O	pobj	O	-1	B-noun.act
+0	1	22	112	115	S	21	and	and	and	CC	O	cc	O	-1	O
+0	1	23	116	122	S	24	racial	racial	racial	JJ	O	amod	O	-1	O
+0	1	24	123	131		21	violence	violence	violence	NN	O	conj	O	-1	B-noun.act
+0	1	25	131	132	S	12	.	.	.	.	O	punct	O	-1	O
+0	2	26	133	140		28	Malcolm	Malcolm	Malcolm	NNP	PERSON	poss	O	2	B-noun.person
+0	2	27	140	142	S	26	’s	's	's	POS	O	possessive	O	-1	O
+0	2	28	143	149	S	29	family	family	family	NN	O	nsubj	O	-1	B-noun.group
+0	2	29	150	155	S	-1	moves	moves	move	VBZ	O	null	O	-1	B-verb.motion
+0	2	30	156	158	S	29	to	to	to	TO	O	prep	O	-1	O
+0	2	31	159	167	S	30	Michigan	Michigan	Michigan	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	2	32	168	173	S	34	where	where	where	WRB	O	advmod	O	-1	O
+0	2	33	174	178	N	34	they	they	they	PRP	O	nsubj	O	-1	O
+0	2	34	179	187	S	29	continue	continue	continue	VBP	O	advcl	O	-1	B-verb.stative
+0	2	35	188	190	S	36	to	to	to	TO	O	aux	O	-1	O
+0	2	36	191	201	S	34	experience	experience	experience	VB	O	xcomp	O	-1	B-verb.perception
+0	2	37	202	213	S	36	persecution	persecution	persecution	NN	O	dobj	O	-1	B-noun.act
+0	2	38	214	217	S	37	and	and	and	CC	O	cc	O	-1	O
+0	2	39	218	226		37	violence	violence	violence	NN	O	conj	O	-1	B-noun.act
+0	2	40	226	227	S	29	.	.	.	.	O	punct	O	-1	O
+0	3	41	228	233	S	43	White	White	white	JJ	O	amod	O	-1	O
+0	3	42	234	240	S	43	people	people	people	NNS	O	nn	O	-1	B-noun.group
+0	3	43	241	247	N	-1	murder	murder	murder	NN	O	null	O	-1	B-noun.act
+0	3	44	248	255		46	Malcolm	Malcolm	Malcolm	NNP	PERSON	poss	O	2	B-noun.person
+0	3	45	255	257	S	44	’s	's	's	POS	O	possessive	O	-1	O
+0	3	46	258	264	S	43	father	father	father	NN	O	dep	O	-1	B-noun.person
+0	3	47	265	268	S	43	and	and	and	CC	O	cc	O	-1	O
+0	3	48	269	274	S	43	force	force	force	VB	O	conj	O	-1	B-verb.social
+0	3	49	275	278	S	50	his	his	he	PRP$	O	poss	O	2	O
+0	3	50	279	285	S	48	mother	mother	mother	NN	O	dobj	O	-1	B-noun.person
+0	3	51	286	290	S	48	into	into	into	IN	O	prep	O	-1	O
+0	3	52	291	292	S	54	a	a	a	DT	O	det	O	-1	O
+0	3	53	293	299	S	54	mental	mental	mental	JJ	O	amod	O	-1	O
+0	3	54	300	308		51	hospital	hospital	hospital	NN	O	pobj	O	-1	B-noun.artifact
+0	3	55	308	309	S	43	.	.	.	.	O	punct	O	-1	O
+0	4	56	310	315	N	70	After	After	after	IN	O	prep	O	-1	O
+0	4	57	316	322	S	56	living	living	live	VBG	O	pcomp	O	-1	B-verb.stative
+0	4	58	323	325	S	57	in	in	in	IN	O	prep	O	-1	O
+0	4	59	326	327	S	62	a	a	a	DT	O	det	O	-1	O
+0	4	60	328	336	S	62	Michigan	Michigan	Michigan	NNP	LOCATION	nn	O	-1	B-noun.location
+0	4	61	337	346	S	62	detention	detention	detention	NN	O	nn	O	-1	B-noun.artifact
+0	4	62	347	351	S	58	home	home	home	NN	O	pobj	O	-1	I-noun.artifact
+0	4	63	352	355	S	57	and	and	and	CC	O	cc	O	-1	O
+0	4	64	356	366	S	57	completing	completing	complete	VBG	O	conj	O	-1	B-verb.change
+0	4	65	367	370	S	67	the	the	the	DT	O	det	O	-1	O
+0	4	66	371	377	S	67	eighth	eighth	eighth	JJ	ORDINAL	amod	O	-1	O
+0	4	67	378	383		64	grade	grade	grade	NN	O	dobj	O	-1	B-noun.group
+0	4	68	383	384	N	70	,	,	,	,	O	punct	O	-1	O
+0	4	69	385	392	S	70	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	O
+0	4	70	393	398	S	-1	moves	moves	move	VBZ	O	null	O	-1	B-verb.motion
+0	4	71	399	401	S	70	to	to	to	TO	O	prep	O	-1	O
+0	4	72	402	408		71	Boston	Boston	Boston	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	4	73	408	409	S	72	,	,	,	,	O	punct	O	-1	O
+0	4	74	410	423		72	Massachusetts	Massachusetts	Massachusetts	NNP	LOCATION	appos	O	-1	O
+0	4	75	423	424	S	70	,	,	,	,	O	punct	O	-1	O
+0	4	76	425	427	S	77	to	to	to	TO	O	aux	O	-1	O
+0	4	77	428	432	S	70	live	live	live	VB	O	xcomp	O	-1	B-verb.stative
+0	4	78	433	437	S	77	with	with	with	IN	O	prep	O	-1	O
+0	4	79	438	441	S	80	his	his	he	PRP$	O	poss	O	2	O
+0	4	80	442	453		78	half-sister	half-sister	half-sister	NN	O	pobj	O	-1	O
+0	4	81	453	454	N	80	,	,	,	,	O	punct	O	-1	O
+0	4	82	455	459		80	Ella	Ella	Ella	NNP	PERSON	appos	O	-1	O
+0	4	83	459	460	S	70	.	.	.	.	O	punct	O	-1	O
+0	5	84	461	463	S	89	In	In	in	IN	O	prep	O	-1	O
+0	5	85	464	470	S	86	Boston	Boston	Boston	NNP	LOCATION	nn	O	-1	B-noun.location
+0	5	86	471	478	S	84	Malcolm	Malcolm	Malcolm	NNP	PERSON	pobj	O	2	I-noun.location
+0	5	87	479	486	S	89	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	5	88	487	494	S	89	becomes	becomes	become	VBZ	O	auxpass	O	-1	B-verb.change
+0	5	89	495	503	S	-1	involved	involved	involve	VBN	O	null	O	-1	B-verb.stative
+0	5	90	504	506	S	89	in	in	in	IN	O	prep	O	-1	O
+0	5	91	507	512	S	92	urban	urban	urban	JJ	O	amod	O	-1	O
+0	5	92	513	522		90	nightlife	nightlife	nightlife	NN	O	pobj	O	-1	B-noun.act
+0	5	93	522	523	N	89	.	.	.	.	O	punct	O	-1	O
+0	6	94	524	526	S	95	He	He	he	PRP	O	nsubj	O	2	O
+0	6	95	527	533	S	-1	passes	passes	pass	VBZ	O	null	O	-1	B-verb.motion
+0	6	96	534	537	S	95	for	for	for	IN	O	prep	O	-1	O
+0	6	97	538	543	S	99	being	being	be	VBG	O	cop	O	-1	B-verb.stative
+0	6	98	544	548	S	99	much	much	much	JJ	O	amod	O	-1	O
+0	6	99	549	554	S	96	older	older	older	JJR	O	pcomp	O	-1	O
+0	6	100	555	559	S	102	than	than	than	IN	O	mark	O	-1	O
+0	6	101	560	562	S	102	he	he	he	PRP	O	nsubj	O	2	O
+0	6	102	563	565		99	is	is	be	VBZ	O	ccomp	O	-1	O
+0	6	103	565	566	S	99	,	,	,	,	O	punct	O	-1	O
+0	6	104	567	574	S	99	wearing	wearing	wear	VBG	O	conj	O	-1	B-verb.body
+0	6	105	575	581	S	106	flashy	flashy	flashy	JJ	O	amod	O	-1	O
+0	6	106	582	589		104	clothes	clothes	clothes	NNS	O	dobj	O	-1	B-noun.artifact
+0	6	107	589	590	N	106	,	,	,	,	O	punct	O	-1	O
+0	6	108	591	599		106	gambling	gambling	gambling	NN	O	conj	O	-1	O
+0	6	109	599	600	S	106	,	,	,	,	O	punct	O	-1	O
+0	6	110	601	609		106	drinking	drinking	drinking	NN	O	conj	O	-1	O
+0	6	111	609	610	S	95	,	,	,	,	O	punct	O	-1	O
+0	6	112	611	616	S	95	doing	doing	do	VBG	O	xcomp	O	-1	O
+0	6	113	617	622		112	drugs	drugs	drug	NNS	O	dobj	O	-1	B-noun.artifact
+0	6	114	622	623	S	112	,	,	,	,	O	punct	O	-1	O
+0	6	115	624	627	S	112	and	and	and	CC	O	cc	O	-1	O
+0	6	116	628	634	S	112	dating	dating	date	VBG	O	conj	O	-1	B-verb.social
+0	6	117	635	637	S	120	an	an	a	DT	O	det	O	-1	O
+0	6	118	638	643	S	120	older	older	older	JJR	O	amod	O	-1	O
+0	6	119	644	649	S	120	white	white	white	JJ	O	amod	O	-1	O
+0	6	120	650	655		116	woman	woman	woman	NN	O	dobj	O	-1	B-noun.person
+0	6	121	655	656	N	120	,	,	,	,	O	punct	O	-1	O
+0	6	122	657	663		120	Sophia	Sophia	Sophia	NNP	PERSON	appos	O	-1	O
+0	6	123	663	664	S	95	.	.	.	.	O	punct	O	-1	O
+0	7	124	665	672	S	126	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	O
+0	7	125	673	683	S	126	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	7	126	684	689	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.change
+0	7	127	690	691	S	128	a	a	a	DT	O	det	O	-1	O
+0	7	128	692	695	S	126	job	job	job	NN	O	dobj	O	-1	B-noun.act
+0	7	129	696	698	S	126	as	as	as	IN	O	prep	O	-1	O
+0	7	130	699	700	S	132	a	a	a	DT	O	det	O	-1	O
+0	7	131	701	708	S	132	railway	railway	railway	NN	O	nn	O	-1	B-noun.artifact
+0	7	132	709	715		129	porter	porter	porter	NN	O	pobj	O	-1	B-noun.person
+0	7	133	715	716	S	126	.	.	.	.	O	punct	O	-1	O
+0	8	134	717	719	S	136	He	He	he	PRP	O	nsubj	O	2	O
+0	8	135	720	724	N	136	then	then	then	RB	O	advmod	O	-1	O
+0	8	136	725	730	S	-1	moves	moves	move	VBZ	O	null	O	-1	B-verb.motion
+0	8	137	731	733	S	136	to	to	to	TO	O	prep	O	-1	O
+0	8	138	734	737	S	139	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	8	139	738	742		137	York	York	York	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	8	140	742	743	S	139	,	,	,	,	O	punct	O	-1	O
+0	8	141	744	749	S	143	where	where	where	WRB	O	advmod	O	-1	O
+0	8	142	750	752	S	143	he	he	he	PRP	O	nsubj	O	2	O
+0	8	143	753	759	S	136	begins	begins	begin	VBZ	O	advcl	O	-1	B-verb.change
+0	8	144	760	767	S	143	working	working	work	VBG	O	xcomp	O	-1	B-verb.social
+0	8	145	768	770	S	144	as	as	as	IN	O	prep	O	-1	O
+0	8	146	771	772	S	147	a	a	a	DT	O	det	O	-1	O
+0	8	147	773	780	S	145	hustler	hustler	hustler	NN	O	pobj	O	-1	B-noun.person
+0	8	148	781	783	S	147	in	in	in	IN	O	prep	O	-1	O
+0	8	149	784	790		148	Harlem	Harlem	Harlem	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	8	150	790	791	N	136	.	.	.	.	O	punct	O	-1	O
+0	9	151	792	799		154	Malcolm	Malcolm	Malcolm	NNP	PERSON	poss	O	2	B-noun.person
+0	9	152	799	801	S	151	’s	's	's	POS	O	possessive	O	-1	O
+0	9	153	802	809	S	154	various	various	various	JJ	O	amod	O	-1	O
+0	9	154	810	814	S	-1	jobs	jobs	job	NNS	O	null	O	-1	B-noun.act
+0	9	155	815	820	S	156	there	there	there	RB	O	nsubj	O	-1	O
+0	9	156	821	828	S	154	include	include	include	VBP	O	rcmod	O	-1	B-verb.stative
+0	9	157	829	836	S	158	running	running	run	VBG	O	amod	O	-1	B-verb.stative
+0	9	158	837	844		156	numbers	numbers	number	NNS	O	dobj	O	-1	O
+0	9	159	844	845	S	154	,	,	,	,	O	punct	O	-1	O
+0	9	160	846	853	S	154	selling	selling	sell	VBG	O	conj	O	-1	B-verb.possession
+0	9	161	854	859		160	drugs	drugs	drug	NNS	O	dobj	O	-1	B-noun.artifact
+0	9	162	859	860	N	154	,	,	,	,	O	punct	O	-1	O
+0	9	163	861	864	S	154	and	and	and	CC	O	cc	O	-1	O
+0	9	164	865	873	S	154	steering	steering	steer	VBG	O	conj	O	-1	B-verb.motion
+0	9	165	874	879	S	166	white	white	white	JJ	O	amod	O	-1	O
+0	9	166	880	886	S	164	people	people	people	NNS	O	dobj	O	-1	B-noun.group
+0	9	167	887	889	S	164	to	to	to	TO	O	prep	O	-1	O
+0	9	168	890	895	S	169	black	black	black	JJ	O	amod	O	-1	O
+0	9	169	896	904		167	brothels	brothels	brothel	NNS	O	pobj	O	-1	B-noun.artifact
+0	9	170	904	905	S	154	.	.	.	.	O	punct	O	-1	O
+0	10	171	906	908	S	173	He	He	he	PRP	O	nsubj	O	2	O
+0	10	172	909	913	S	173	also	also	also	RB	O	advmod	O	-1	O
+0	10	173	914	921	S	-1	commits	commits	commit	VBZ	O	null	O	-1	B-verb.social
+0	10	174	922	927	N	175	armed	armed	armed	JJ	O	amod	O	-1	O
+0	10	175	928	937		173	robberies	robberies	robbery	NNS	O	dobj	O	-1	B-noun.act
+0	10	176	937	938	S	173	.	.	.	.	O	punct	O	-1	O
+0	11	177	939	943	S	183	When	When	when	WRB	O	advmod	O	-1	O
+0	11	178	944	948	S	183	life	life	life	NN	O	nsubj	O	-1	B-noun.state
+0	11	179	949	951	S	178	in	in	in	IN	O	prep	O	-1	O
+0	11	180	952	958	S	179	Harlem	Harlem	Harlem	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	11	181	959	966	S	183	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	11	182	967	970	S	183	too	too	too	RB	O	advmod	O	-1	O
+0	11	183	971	980		186	dangerous	dangerous	dangerous	JJ	O	dep	O	-1	O
+0	11	184	980	981	S	186	,	,	,	,	O	punct	O	-1	O
+0	11	185	982	989	S	186	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	O
+0	11	186	990	997	N	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	11	187	998	1000	S	186	to	to	to	TO	O	prep	O	-1	O
+0	11	188	1001	1007		187	Boston	Boston	Boston	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	11	189	1007	1008	S	188	,	,	,	,	O	punct	O	-1	O
+0	11	190	1009	1014	S	195	where	where	where	WRB	O	advmod	O	-1	O
+0	11	191	1015	1017	S	195	he	he	he	PRP	O	nsubj	O	2	O
+0	11	192	1018	1025	S	195	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.stative
+0	11	193	1026	1027	S	195	a	a	a	DT	O	det	O	-1	O
+0	11	194	1028	1033	S	195	house	house	house	NN	O	nn	O	-1	B-noun.artifact
+0	11	195	1034	1041	S	188	burglar	burglar	burglar	NN	O	rcmod	O	-1	B-noun.person
+0	11	196	1042	1045	S	195	and	and	and	CC	O	cc	O	-1	O
+0	11	197	1046	1048	S	199	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	11	198	1049	1059	S	199	eventually	eventually	eventually	RB	O	advmod	O	-1	O
+0	11	199	1060	1068		195	arrested	arrested	arrest	VBN	O	conj	O	-1	B-verb.contact
+0	11	200	1068	1069	N	186	.	.	.	.	O	punct	O	-1	O
+0	12	201	1070	1072	S	205	In	In	in	IN	O	prep	O	-1	O
+0	12	202	1073	1079		201	prison	prison	prison	NN	O	pobj	O	-1	B-noun.artifact
+0	12	203	1079	1080	S	205	,	,	,	,	O	punct	O	-1	O
+0	12	204	1081	1088	S	205	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	O
+0	12	205	1089	1099	S	-1	transforms	transforms	transform	VBZ	O	null	O	-1	B-verb.change
+0	12	206	1100	1107		205	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	12	207	1107	1108	S	205	,	,	,	,	O	punct	O	-1	O
+0	12	208	1109	1119	S	205	converting	converting	convert	VBG	O	xcomp	O	-1	B-verb.change
+0	12	209	1120	1122	S	208	to	to	to	TO	O	prep	O	-1	O
+0	12	210	1123	1126	S	211	the	the	the	DT	O	det	O	-1	O
+0	12	211	1127	1133	N	209	branch	branch	branch	NN	O	pobj	O	-1	B-noun.group
+0	12	212	1134	1136	S	211	of	of	of	IN	O	prep	O	-1	O
+0	12	213	1137	1142	S	212	Islam	Islam	Islam	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	12	214	1143	1151	S	211	promoted	promoted	promote	VBN	O	partmod	O	-1	B-verb.social
+0	12	215	1152	1154	S	214	by	by	by	IN	O	prep	O	-1	O
+0	12	216	1155	1158	S	217	the	the	the	DT	ORGANIZATION	det	O	-1	O
+0	12	217	1159	1165	S	215	Nation	Nation	nation	NN	ORGANIZATION	pobj	O	-1	B-noun.group
+0	12	218	1166	1168	S	217	of	of	of	IN	ORGANIZATION	prep	O	-1	O
+0	12	219	1169	1174		218	Islam	Islam	Islam	NNP	ORGANIZATION	pobj	O	-1	B-noun.group
+0	12	220	1174	1175	S	219	,	,	,	,	O	punct	O	-1	O
+0	12	221	1176	1181	S	224	which	which	which	WDT	O	nsubj	O	-1	O
+0	12	222	1182	1185	S	224	has	has	have	VBZ	O	aux	O	-1	O
+0	12	223	1186	1193	S	224	already	already	already	RB	O	advmod	O	-1	O
+0	12	224	1194	1203	N	219	converted	converted	convert	VBN	O	rcmod	O	-1	B-verb.change
+0	12	225	1204	1205	S	226	a	a	a	DT	O	det	O	-1	O
+0	12	226	1206	1212	S	224	number	number	number	NN	O	dobj	O	-1	B-noun.attribute
+0	12	227	1213	1215	S	226	of	of	of	IN	O	prep	O	-1	O
+0	12	228	1216	1223		230	Malcolm	Malcolm	Malcolm	NNP	PERSON	poss	O	2	B-noun.person
+0	12	229	1223	1225	S	228	’s	's	's	POS	O	possessive	O	-1	O
+0	12	230	1226	1234		227	siblings	siblings	sibling	NNS	O	pobj	O	-1	B-noun.person
+0	12	231	1234	1235	S	205	.	.	.	.	O	punct	O	-1	O
+0	13	232	1236	1244	S	238	Inspired	Inspired	inspire	VBN	O	ccomp	O	-1	B-verb.emotion
+0	13	233	1245	1247	S	232	by	by	by	IN	O	prep	O	-1	O
+0	13	234	1248	1251	S	235	the	the	the	DT	O	det	O	-1	O
+0	13	235	1252	1257		233	faith	faith	faith	NN	O	pobj	O	-1	B-noun.cognition
+0	13	236	1257	1258	S	238	,	,	,	,	O	punct	O	-1	O
+0	13	237	1259	1266	S	238	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	O
+0	13	238	1267	1272	N	-1	stops	stops	stop	VBZ	O	null	O	-1	B-verb.motion
+0	13	239	1273	1278	S	238	using	using	use	VBG	O	xcomp	O	-1	B-verb.consumption
+0	13	240	1279	1284		239	drugs	drugs	drug	NNS	O	dobj	O	-1	B-noun.artifact
+0	13	241	1284	1285	S	238	;	;	;	:	O	punct	O	-1	O
+0	13	242	1286	1288	S	243	he	he	he	PRP	O	nsubj	O	2	O
+0	13	243	1289	1294	S	238	reads	reads	read	VBZ	O	parataxis	O	-1	B-verb.cognition
+0	13	244	1295	1306		243	voraciously	voraciously	voraciously	RB	O	advmod	O	-1	O
+0	13	245	1306	1307	S	243	,	,	,	,	O	punct	O	-1	O
+0	13	246	1308	1313		243	prays	prays	pray	VBZ	O	dep	O	-1	O
+0	13	247	1313	1314	S	249	,	,	,	,	O	punct	O	-1	O
+0	13	248	1315	1322	S	249	studies	studies	study	NNS	O	nn	O	-1	B-noun.act
+0	13	249	1323	1330	S	246	English	English	English	NNP	MISC	null	O	-1	B-noun.person
+0	13	250	1331	1334	S	249	and	and	and	CC	O	cc	O	-1	O
+0	13	251	1335	1340		249	Latin	Latin	Latin	NNP	O	conj	O	-1	O
+0	13	252	1340	1341	N	249	,	,	,	,	O	punct	O	-1	O
+0	13	253	1342	1345	S	249	and	and	and	CC	O	cc	O	-1	O
+0	13	254	1346	1351	S	249	joins	joins	join	VBZ	O	conj	O	-1	B-verb.social
+0	13	255	1352	1355	S	258	the	the	the	DT	O	det	O	-1	O
+0	13	256	1356	1362	S	258	prison	prison	prison	NN	O	nn	O	-1	B-noun.artifact
+0	13	257	1363	1369	S	258	debate	debate	debate	NN	O	nn	O	-1	B-noun.communication
+0	13	258	1370	1374		254	team	team	team	NN	O	dobj	O	-1	B-noun.group
+0	13	259	1374	1375	S	249	.	.	.	.	O	punct	O	-1	O
+0	14	260	1376	1379	S	261	The	The	the	DT	O	det	O	-1	O
+0	14	261	1380	1386	S	262	prison	prison	prison	NN	O	nsubj	O	-1	B-noun.artifact
+0	14	262	1387	1395	S	-1	releases	releases	release	VBZ	O	null	O	-1	B-verb.contact
+0	14	263	1396	1403	S	262	Malcolm	Malcolm	Malcolm	NNP	PERSON	dobj	O	2	B-noun.person
+0	14	264	1404	1406	S	262	on	on	on	IN	O	prep	O	-1	O
+0	14	265	1407	1413		264	parole	parole	parole	NN	O	pobj	O	-1	B-noun.communication
+0	14	266	1413	1414	S	262	.	.	.	.	O	punct	O	-1	O
+0	15	267	1415	1422	S	268	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	B-noun.person
+0	15	268	1423	1428	S	-1	moves	moves	move	VBZ	O	null	O	-1	B-verb.motion
+0	15	269	1429	1431	N	268	in	in	in	IN	O	prep	O	-1	O
+0	15	270	1432	1436	S	269	with	with	with	IN	O	pobj	O	-1	O
+0	15	271	1437	1440	S	273	his	his	he	PRP$	O	poss	O	2	O
+0	15	272	1441	1448	S	273	brother	brother	brother	NN	O	nn	O	-1	B-noun.person
+0	15	273	1449	1456	S	270	Wilfred	Wilfred	Wilfred	NNP	PERSON	pobj	O	-1	B-noun.person
+0	15	274	1457	1460	S	268	and	and	and	CC	O	cc	O	-1	O
+0	15	275	1461	1468	S	277	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	15	276	1469	1473	S	277	very	very	very	RB	O	advmod	O	-1	O
+0	15	277	1474	1480	S	268	active	active	active	JJ	O	conj	O	-1	O
+0	15	278	1481	1483	S	277	in	in	in	IN	O	prep	O	-1	O
+0	15	279	1484	1487	S	281	the	the	the	DT	O	det	O	-1	O
+0	15	280	1488	1495	N	281	Detroit	Detroit	Detroit	NNP	LOCATION	nn	O	-1	B-noun.location
+0	15	281	1496	1502	S	278	temple	temple	temple	NN	O	pobj	O	-1	B-noun.artifact
+0	15	282	1503	1505	S	281	of	of	of	IN	O	prep	O	-1	O
+0	15	283	1506	1509	S	284	the	the	the	DT	O	det	O	-1	O
+0	15	284	1510	1516	S	282	Nation	Nation	nation	NN	ORGANIZATION	pobj	O	1	B-noun.group
+0	15	285	1517	1519	S	284	of	of	of	IN	ORGANIZATION	prep	O	1	O
+0	15	286	1520	1525		285	Islam	Islam	Islam	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	15	287	1525	1526	S	268	.	.	.	.	O	punct	O	-1	O
+0	16	288	1527	1534	S	289	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	B-noun.person
+0	16	289	1535	1543	S	-1	receives	receives	receive	VBZ	O	null	O	-1	B-verb.possession
+0	16	290	1544	1554	S	289	permission	permission	permission	NN	O	dobj	O	-1	B-noun.communication
+0	16	291	1555	1557	S	292	to	to	to	TO	O	aux	O	-1	O
+0	16	292	1558	1562	N	290	drop	drop	drop	VB	O	infmod	O	-1	B-verb.motion
+0	16	293	1563	1566	S	295	his	his	he	PRP$	O	poss	O	2	O
+0	16	294	1567	1571	S	295	last	last	last	JJ	O	amod	O	-1	O
+0	16	295	1572	1576		292	name	name	name	NN	O	dobj	O	-1	B-noun.communication
+0	16	296	1576	1577	S	295	,	,	,	,	O	punct	O	-1	O
+0	16	297	1578	1583	S	302	which	which	which	WDT	O	dobj	O	-1	O
+0	16	298	1584	1585	S	301	a	a	a	DT	O	det	O	-1	O
+0	16	299	1586	1591	S	301	white	white	white	JJ	O	amod	O	-1	O
+0	16	300	1592	1597	S	301	slave	slave	slave	NN	O	nn	O	-1	B-noun.person
+0	16	301	1598	1603	S	302	owner	owner	owner	NN	O	nsubj	O	-1	I-noun.person
+0	16	302	1604	1608	S	295	gave	gave	give	VBD	O	rcmod	O	-1	B-verb.possession
+0	16	303	1609	1611	S	302	to	to	to	TO	O	prep	O	-1	O
+0	16	304	1612	1615	S	303	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	16	305	1616	1618	S	304	of	of	of	IN	O	prep	O	-1	O
+0	16	306	1619	1622	S	307	his	his	he	PRP$	O	poss	O	2	O
+0	16	307	1623	1632		305	ancestors	ancestors	ancestor	NNS	O	pobj	O	-1	B-noun.person
+0	16	308	1632	1633	N	289	.	.	.	.	O	punct	O	-1	O
+0	17	309	1634	1636	S	310	He	He	he	PRP	O	nsubj	O	2	O
+0	17	310	1637	1643	S	-1	adopts	adopts	adopt	VBZ	O	null	O	-1	B-verb.possession
+0	17	311	1644	1647	S	314	the	the	the	DT	O	det	O	-1	O
+0	17	312	1648	1659	S	314	placeholder	placeholder	placeholder	NN	O	nn	O	-1	B-noun.person
+0	17	313	1660	1661		314	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	17	314	1661	1662		310	X	X	x	NN	O	dobj	I-QUOTE	-1	O
+0	17	315	1662	1663	S	314	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	17	316	1664	1666	S	310	as	as	as	IN	O	prep	O	-1	O
+0	17	317	1667	1670	S	319	his	his	he	PRP$	O	poss	O	2	O
+0	17	318	1671	1675	S	319	last	last	last	JJ	O	amod	O	-1	O
+0	17	319	1676	1680		316	name	name	name	NN	O	pobj	O	-1	B-noun.communication
+0	17	320	1680	1681	S	310	,	,	,	,	O	punct	O	-1	O
+0	17	321	1682	1687	S	310	using	using	use	VBG	O	xcomp	O	-1	B-verb.consumption
+0	17	322	1688	1691	S	323	the	the	the	DT	O	det	O	-1	O
+0	17	323	1692	1698	N	321	letter	letter	letter	NN	O	dobj	O	-1	B-noun.communication
+0	17	324	1699	1701	S	325	to	to	to	TO	O	aux	O	-1	O
+0	17	325	1702	1711	S	323	represent	represent	represent	VB	O	infmod	O	-1	B-verb.stative
+0	17	326	1712	1715	S	328	the	the	the	DT	O	det	O	-1	O
+0	17	327	1716	1720	S	328	lost	lost	lose	VBN	O	amod	O	-1	B-verb.possession
+0	17	328	1721	1725	S	325	name	name	name	NN	O	dobj	O	-1	B-noun.communication
+0	17	329	1726	1728	S	328	of	of	of	IN	O	prep	O	-1	O
+0	17	330	1729	1732	S	332	his	his	he	PRP$	O	poss	O	2	O
+0	17	331	1733	1740	S	332	African	African	african	JJ	MISC	amod	O	-1	O
+0	17	332	1741	1750		329	ancestors	ancestors	ancestor	NNS	O	pobj	O	-1	B-noun.person
+0	17	333	1750	1751	S	310	.	.	.	.	O	punct	O	-1	O
+0	18	334	1752	1759	S	335	Malcolm	Malcolm	Malcolm	NNP	PERSON	nn	O	2	B-noun.person
+0	18	335	1760	1761	S	337	X	X	X	NNP	PERSON	nsubj	O	2	I-noun.person
+0	18	336	1762	1766	N	337	soon	soon	soon	RB	O	advmod	O	-1	O
+0	18	337	1767	1772	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	18	338	1773	1776	S	339	the	the	the	DT	O	det	O	-1	O
+0	18	339	1777	1783	S	337	Nation	Nation	nation	NN	ORGANIZATION	dobj	O	1	B-noun.group
+0	18	340	1784	1786	S	339	of	of	of	IN	ORGANIZATION	prep	O	1	O
+0	18	341	1787	1792		343	Islam	Islam	Islam	NNP	ORGANIZATION	poss	O	1	B-noun.group
+0	18	342	1792	1794	S	341	’s	's	's	POS	O	possessive	O	-1	O
+0	18	343	1795	1801		340	leader	leader	leader	NN	O	pobj	O	-1	B-noun.person
+0	18	344	1801	1802	S	337	,	,	,	,	O	punct	O	-1	O
+0	18	345	1803	1809	S	346	Elijah	Elijah	Elijah	NNP	PERSON	nn	O	0	B-noun.person
+0	18	346	1810	1818		337	Muhammad	Muhammad	Muhammad	NNP	PERSON	dobj	O	0	I-noun.person
+0	18	347	1818	1819	S	337	,	,	,	,	O	punct	O	-1	O
+0	18	348	1820	1823	S	337	and	and	and	CC	O	cc	O	-1	O
+0	18	349	1824	1829	S	337	rises	rises	rise	VBZ	O	conj	O	-1	B-verb.motion
+0	18	350	1830	1837	S	349	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	18	351	1838	1842	N	350	from	from	from	IN	O	dep	O	-1	O
+0	18	352	1843	1846	S	353	the	the	the	DT	O	det	O	-1	O
+0	18	353	1847	1851	S	351	rank	rank	rank	NN	O	pobj	O	-1	B-noun.state
+0	18	354	1852	1854	S	353	of	of	of	IN	O	prep	O	-1	O
+0	18	355	1855	1861	S	356	temple	temple	temple	NN	O	nn	O	-1	B-noun.artifact
+0	18	356	1862	1871	S	354	assistant	assistant	assistant	NN	O	pobj	O	-1	B-noun.person
+0	18	357	1872	1874	S	356	in	in	in	IN	O	prep	O	-1	O
+0	18	358	1875	1882	S	357	Detroit	Detroit	Detroit	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	18	359	1883	1885	S	353	to	to	to	TO	O	prep	O	-1	O
+0	18	360	1886	1889	S	361	the	the	the	DT	O	det	O	-1	O
+0	18	361	1890	1896		365	Nation	Nation	Nation	NNP	O	poss	O	-1	B-noun.group
+0	18	362	1896	1898	S	361	’s	's	's	POS	O	possessive	O	-1	O
+0	18	363	1899	1904	S	365	first	first	first	JJ	ORDINAL	amod	O	-1	O
+0	18	364	1905	1913	N	365	national	national	national	JJ	O	amod	O	-1	O
+0	18	365	1914	1922		359	minister	minister	minister	NN	O	pobj	O	-1	B-noun.person
+0	18	366	1922	1923	S	337	.	.	.	.	O	punct	O	-1	O
+0	19	367	1924	1931	S	368	Malcolm	Malcolm	Malcolm	NNP	PERSON	nn	O	2	B-noun.person
+0	19	368	1932	1933	S	370	X	X	X	NNP	PERSON	nsubj	O	2	I-noun.person
+0	19	369	1934	1941	S	370	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	19	370	1942	1947	S	-1	known	known	known	JJ	O	null	O	-1	O
+0	19	371	1948	1958	S	370	throughout	throughout	throughout	IN	O	prep	O	-1	O
+0	19	372	1959	1962	S	374	the	the	the	DT	O	det	O	-1	O
+0	19	373	1963	1969	S	374	United	United	United	NNP	LOCATION	nn	O	-1	B-noun.group
+0	19	374	1970	1976		371	States	States	States	NNPS	LOCATION	pobj	O	-1	I-noun.group
+0	19	375	1976	1977	N	370	,	,	,	,	O	punct	O	-1	O
+0	19	376	1978	1982	S	377	even	even	even	RB	O	dep	O	-1	O
+0	19	377	1983	1990	S	370	outside	outside	outside	IN	O	prep	O	-1	O
+0	19	378	1991	1993	S	377	of	of	of	IN	O	dep	O	-1	O
+0	19	379	1994	2000	S	380	Muslim	Muslim	muslim	JJ	MISC	amod	O	-1	O
+0	19	380	2001	2008		378	circles	circles	circle	NNS	O	pobj	O	-1	B-noun.shape
+0	19	381	2008	2009	S	370	,	,	,	,	O	punct	O	-1	O
+0	19	382	2010	2012	S	370	as	as	as	IN	O	prep	O	-1	O
+0	19	383	2013	2014	S	385	a	a	a	DT	O	det	O	-1	O
+0	19	384	2015	2020	S	385	fiery	fiery	fiery	JJ	O	amod	O	-1	O
+0	19	385	2021	2029	S	382	advocate	advocate	advocate	NN	O	pobj	O	-1	B-noun.person
+0	19	386	2030	2033	S	385	for	for	for	IN	O	prep	O	-1	O
+0	19	387	2034	2039	S	388	black	black	black	JJ	O	amod	O	-1	O
+0	19	388	2040	2045	N	386	unity	unity	unity	NN	O	pobj	O	-1	B-noun.state
+0	19	389	2046	2049	S	388	and	and	and	CC	O	cc	O	-1	O
+0	19	390	2050	2059		388	militancy	militancy	militancy	NN	O	conj	O	-1	B-noun.attribute
+0	19	391	2059	2060	S	370	.	.	.	.	O	punct	O	-1	O
+0	20	392	2061	2064	S	393	The	The	the	DT	O	det	O	-1	O
+0	20	393	2065	2071	S	398	Nation	Nation	nation	NN	ORGANIZATION	nsubj	O	1	B-noun.group
+0	20	394	2072	2074	S	393	of	of	of	IN	ORGANIZATION	prep	O	1	O
+0	20	395	2075	2080		397	Islam	Islam	Islam	NNP	ORGANIZATION	poss	O	1	B-noun.group
+0	20	396	2080	2082	S	395	’s	's	's	POS	O	possessive	O	-1	O
+0	20	397	2083	2090	S	394	leaders	leaders	leader	NNS	O	pobj	O	-1	B-noun.person
+0	20	398	2091	2097	S	-1	resent	resent	resent	VBP	O	null	O	-1	B-verb.emotion
+0	20	399	2098	2101	S	398	and	and	and	CC	O	cc	O	-1	O
+0	20	400	2102	2106	S	398	fear	fear	fear	VBP	O	conj	O	-1	B-verb.emotion
+0	20	401	2107	2114	N	400	Malcolm	Malcolm	Malcolm	NNP	PERSON	dobj	O	2	B-noun.person
+0	20	402	2115	2122	S	400	despite	despite	despite	IN	O	prep	O	-1	O
+0	20	403	2123	2126	S	404	his	his	he	PRP$	O	poss	O	2	O
+0	20	404	2127	2137	S	402	allegiance	allegiance	allegiance	NN	O	pobj	O	-1	B-noun.act
+0	20	405	2138	2140	S	404	to	to	to	TO	O	prep	O	-1	O
+0	20	406	2141	2146	S	407	their	their	they	PRP$	O	poss	O	-1	O
+0	20	407	2147	2152		405	cause	cause	cause	NN	O	pobj	O	-1	B-noun.communication
+0	20	408	2152	2153	S	398	,	,	,	,	O	punct	O	-1	O
+0	20	409	2154	2157	S	398	and	and	and	CC	O	cc	O	-1	O
+0	20	410	2158	2162	S	411	they	they	they	PRP	O	nsubj	O	-1	O
+0	20	411	2163	2170	S	398	suspend	suspend	suspend	VBP	O	conj	O	-1	B-verb.contact
+0	20	412	2171	2174	S	411	him	him	he	PRP	O	dobj	O	2	O
+0	20	413	2175	2179	N	411	from	from	from	IN	O	prep	O	-1	O
+0	20	414	2180	2183	S	415	the	the	the	DT	O	det	O	-1	O
+0	20	415	2184	2196		413	organization	organization	organization	NN	O	pobj	O	-1	B-noun.group
+0	20	416	2196	2197	S	398	.	.	.	.	O	punct	O	-1	O
+0	21	417	2198	2201	S	418	The	The	the	DT	O	det	O	-1	O
+0	21	418	2202	2208	S	-1	Nation	Nation	nation	NN	ORGANIZATION	null	O	1	B-noun.group
+0	21	419	2209	2211	S	418	of	of	of	IN	ORGANIZATION	prep	O	1	O
+0	21	420	2212	2217		422	Islam	Islam	Islam	NNP	ORGANIZATION	poss	O	1	B-noun.group
+0	21	421	2217	2219	S	420	’s	's	's	POS	O	possessive	O	-1	O
+0	21	422	2220	2231	S	419	frustration	frustration	frustration	NN	O	pobj	O	-1	B-noun.feeling
+0	21	423	2232	2236	S	425	with	with	with	IN	O	mark	O	-1	O
+0	21	424	2237	2244	S	425	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	B-noun.person
+0	21	425	2245	2256		422	intensifies	intensifies	intensify	VBZ	O	dep	O	-1	B-verb.change
+0	21	426	2256	2257	N	425	,	,	,	,	O	punct	O	-1	O
+0	21	427	2258	2261	S	425	and	and	and	CC	O	cc	O	-1	O
+0	21	428	2262	2269	S	429	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	B-noun.person
+0	21	429	2270	2276	S	425	begins	begins	begin	VBZ	O	conj	O	-1	B-verb.change
+0	21	430	2277	2286	S	429	receiving	receiving	receive	VBG	O	xcomp	O	-1	B-verb.possession
+0	21	431	2287	2292	S	432	death	death	death	NN	O	nn	O	-1	B-noun.phenomenon
+0	21	432	2293	2300		430	threats	threats	threat	NNS	O	dobj	O	-1	B-noun.communication
+0	21	433	2300	2301	S	418	.	.	.	.	O	punct	O	-1	O
+0	22	434	2302	2307	S	443	After	After	after	IN	O	prep	O	-1	O
+0	22	435	2308	2309	S	437	a	a	a	DT	O	det	O	-1	O
+0	22	436	2310	2318	S	437	divisive	divisive	divisive	JJ	O	amod	O	-1	O
+0	22	437	2319	2327	S	434	argument	argument	argument	NN	O	pobj	O	-1	B-noun.communication
+0	22	438	2328	2332	N	437	with	with	with	IN	O	prep	O	-1	O
+0	22	439	2333	2339	S	440	Elijah	Elijah	Elijah	NNP	PERSON	nn	O	0	B-noun.person
+0	22	440	2340	2348		438	Muhammad	Muhammad	Muhammad	NNP	PERSON	pobj	O	0	I-noun.person
+0	22	441	2348	2349	S	443	,	,	,	,	O	punct	O	-1	O
+0	22	442	2350	2357	S	443	Malcolm	Malcolm	Malcolm	NNP	PERSON	nsubj	O	2	O
+0	22	443	2358	2364	S	-1	leaves	leaves	leave	VBZ	O	null	O	-1	B-verb.motion
+0	22	444	2365	2368	S	445	the	the	the	DT	O	det	O	-1	O
+0	22	445	2369	2375	S	443	Nation	Nation	nation	NN	ORGANIZATION	dobj	O	1	B-noun.group
+0	22	446	2376	2378	S	445	of	of	of	IN	ORGANIZATION	prep	O	1	O
+0	22	447	2379	2384		446	Islam	Islam	Islam	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	22	448	2384	2385	S	443	.	.	.	.	O	punct	O	-1	O
+0	23	449	2386	2388	S	450	He	He	he	PRP	O	nsubj	O	2	O
+0	23	450	2389	2393	S	-1	uses	uses	use	VBZ	O	null	O	-1	B-verb.consumption
+0	23	451	2394	2397	N	452	his	his	he	PRP$	O	poss	O	2	O
+0	23	452	2398	2402	S	450	fame	fame	fame	NN	O	dobj	O	-1	B-noun.state
+0	23	453	2403	2405	S	450	to	to	to	TO	O	prep	O	-1	O
+0	23	454	2406	2411	S	453	found	found	find	VBN	O	pcomp	O	-1	B-verb.possession
+0	23	455	2412	2415	S	457	his	his	he	PRP$	O	poss	O	2	O
+0	23	456	2416	2419	S	457	own	own	own	JJ	O	amod	O	-1	O
+0	23	457	2420	2432		454	organization	organization	organization	NN	O	dep	O	-1	B-noun.group
+0	23	458	2432	2433	S	457	,	,	,	,	O	punct	O	-1	O
+0	23	459	2434	2440	S	460	Muslim	Muslim	muslim	JJ	ORGANIZATION	amod	O	-1	O
+0	23	460	2441	2447		462	Mosque	Mosque	Mosque	NNP	ORGANIZATION	tmod	O	-1	O
+0	23	461	2447	2448	S	462	,	,	,	,	ORGANIZATION	punct	O	-1	O
+0	23	462	2449	2452		457	Inc	Inc.	Inc.	NNP	ORGANIZATION	appos	O	-1	O
+0	23	463	2452	2453	S	450	.	.	.	.	O	punct	O	-1	O
+0	24	464	2454	2456	S	465	He	He	he	PRP	O	nsubj	O	2	O
+0	24	465	2457	2461	N	-1	sees	sees	see	VBZ	O	null	O	-1	B-verb.perception
+0	24	466	2462	2465	S	467	his	his	he	PRP$	O	poss	O	2	O
+0	24	467	2466	2478	S	465	organization	organization	organization	NN	O	dobj	O	-1	B-noun.group
+0	24	468	2479	2481	S	471	as	as	as	IN	O	mark	O	-1	O
+0	24	469	2482	2486	S	471	more	more	more	JJR	O	dep	O	-1	O
+0	24	470	2487	2498	S	471	politically	politically	politically	RB	O	advmod	O	-1	O
+0	24	471	2499	2505	S	465	active	active	active	JJ	O	advcl	O	-1	O
+0	24	472	2506	2510	S	471	than	than	than	IN	O	prep	O	-1	O
+0	24	473	2511	2514	S	474	the	the	the	DT	O	det	O	-1	O
+0	24	474	2515	2521	S	472	Nation	Nation	nation	NN	ORGANIZATION	pobj	O	1	B-noun.group
+0	24	475	2522	2524	S	474	of	of	of	IN	ORGANIZATION	prep	O	1	O
+0	24	476	2525	2530		475	Islam	Islam	Islam	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	24	477	2530	2531	N	465	.	.	.	.	O	punct	O	-1	O
+0	25	478	2532	2534	S	489	On	On	on	IN	O	prep	O	-1	O
+0	25	479	2535	2536	S	480	a	a	a	DT	O	det	O	-1	O
+0	25	480	2537	2541	S	478	trip	trip	trip	NN	O	pobj	O	-1	B-noun.act
+0	25	481	2542	2544	S	480	to	to	to	TO	O	prep	O	-1	O
+0	25	482	2545	2548	S	484	the	the	the	DT	O	det	O	-1	O
+0	25	483	2549	2555	S	484	Middle	Middle	Middle	NNP	LOCATION	nn	O	-1	B-noun.location
+0	25	484	2556	2560	S	481	East	East	East	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	25	485	2561	2564	S	484	and	and	and	CC	O	cc	O	-1	O
+0	25	486	2565	2571		484	Africa	Africa	Africa	NNP	LOCATION	conj	O	-1	O
+0	25	487	2571	2572	S	484	,	,	,	,	O	punct	O	-1	O
+0	25	488	2573	2580	S	484	Malcolm	Malcolm	Malcolm	NNP	PERSON	appos	O	2	O
+0	25	489	2581	2590	S	-1	discovers	discovers	discover	VBZ	O	null	O	-1	B-verb.perception
+0	25	490	2591	2595	N	492	what	what	what	WP	O	dobj	O	-1	O
+0	25	491	2596	2598	S	492	he	he	he	PRP	O	nsubj	O	2	O
+0	25	492	2599	2603	S	489	sees	sees	see	VBZ	O	ccomp	O	-1	B-verb.cognition
+0	25	493	2604	2606	S	492	as	as	as	IN	O	prep	O	-1	O
+0	25	494	2607	2611	S	495	true	true	true	JJ	O	amod	O	-1	O
+0	25	495	2612	2617		493	Islam	Islam	Islam	NNP	MISC	pobj	O	-1	B-noun.group
+0	25	496	2617	2618	S	489	.	.	.	.	O	punct	O	-1	O
+0	26	497	2619	2623	S	498	This	This	this	DT	O	det	O	-1	O
+0	26	498	2624	2631	S	501	version	version	version	NN	O	nsubj	O	-1	B-noun.cognition
+0	26	499	2632	2634	S	498	of	of	of	IN	O	prep	O	-1	O
+0	26	500	2635	2640	S	499	Islam	Islam	Islam	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	26	501	2641	2650	S	-1	contrasts	contrasts	contrast	VBZ	O	null	O	-1	B-verb.cognition
+0	26	502	2651	2655	S	501	with	with	with	IN	O	prep	O	-1	O
+0	26	503	2656	2659	N	504	the	the	the	DT	O	det	O	-1	O
+0	26	504	2660	2667	S	502	version	version	version	NN	O	pobj	O	-1	B-noun.cognition
+0	26	505	2668	2670	S	504	of	of	of	IN	O	prep	O	-1	O
+0	26	506	2671	2676	S	505	Islam	Islam	Islam	NNP	MISC	pobj	O	-1	B-noun.group
+0	26	507	2677	2679	S	510	he	he	he	PRP	O	nsubj	O	2	O
+0	26	508	2680	2683	S	510	has	has	have	VBZ	O	aux	O	-1	O
+0	26	509	2684	2688	S	510	been	been	be	VBN	O	aux	O	-1	O
+0	26	510	2689	2697		504	teaching	teaching	teach	VBG	O	rcmod	O	-1	B-verb.communication
+0	26	511	2697	2698	S	501	.	.	.	.	O	punct	O	-1	O
+0	27	512	2699	2701	S	524	By	By	by	IN	O	prep	O	-1	O
+0	27	513	2702	2705	S	514	the	the	the	DT	O	det	O	-1	O
+0	27	514	2706	2709	S	512	end	end	end	NN	O	pobj	O	-1	B-noun.location
+0	27	515	2710	2712	S	514	of	of	of	IN	O	prep	O	-1	O
+0	27	516	2713	2716	S	517	his	his	he	PRP$	O	poss	O	2	O
+0	27	517	2717	2721		515	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	27	518	2721	2722	S	524	,	,	,	,	O	punct	O	-1	O
+0	27	519	2723	2730	N	520	Malcolm	Malcolm	Malcolm	NNP	PERSON	nn	O	2	O
+0	27	520	2731	2732	S	524	X	X	x	NN	PERSON	nsubj	O	2	O
+0	27	521	2733	2735	S	524	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	27	522	2736	2738	S	524	an	an	a	DT	O	det	O	-1	O
+0	27	523	2739	2752	S	524	international	international	international	JJ	O	amod	O	-1	O
+0	27	524	2753	2759		-1	figure	figure	figure	NN	O	null	O	-1	B-noun.communication
+0	27	525	2759	2760	S	524	,	,	,	,	O	punct	O	-1	O
+0	27	526	2761	2769	S	524	welcomed	welcomed	welcome	VBN	O	dep	O	-1	B-verb.possession
+0	27	527	2770	2772	S	526	by	by	by	IN	O	prep	O	-1	O
+0	27	528	2773	2780	S	529	foreign	foreign	foreign	JJ	O	amod	O	-1	O
+0	27	529	2781	2788	S	527	leaders	leaders	leader	NNS	O	pobj	O	-1	B-noun.person
+0	27	530	2789	2792	S	526	and	and	and	CC	O	cc	O	-1	O
+0	27	531	2793	2802	N	526	committed	committed	commit	VBN	O	conj	O	-1	B-verb.communication
+0	27	532	2803	2805	S	531	to	to	to	TO	O	prep	O	-1	O
+0	27	533	2806	2811	S	532	Islam	Islam	Islam	NNP	ORGANIZATION	pobj	O	1	B-noun.group
+0	27	534	2812	2814	S	531	as	as	as	IN	O	prep	O	-1	O
+0	27	535	2815	2816	S	536	a	a	a	DT	O	det	O	-1	O
+0	27	536	2817	2825	S	534	religion	religion	religion	NN	O	pobj	O	-1	B-noun.cognition
+0	27	537	2826	2830	S	539	that	that	that	WDT	O	nsubj	O	-1	O
+0	27	538	2831	2834	S	539	can	can	can	MD	O	aux	O	-1	O
+0	27	539	2835	2844	S	536	alleviate	alleviate	alleviate	VB	O	rcmod	O	-1	B-verb.body
+0	27	540	2845	2848	S	542	the	the	the	DT	O	det	O	-1	O
+0	27	541	2849	2855	S	542	racial	racial	racial	JJ	O	amod	O	-1	O
+0	27	542	2856	2864	S	539	problems	problems	problem	NNS	O	dobj	O	-1	B-noun.state
+0	27	543	2865	2867	N	542	of	of	of	IN	O	prep	O	-1	O
+0	27	544	2868	2871	S	546	the	the	the	DT	O	det	O	-1	O
+0	27	545	2872	2878	S	546	United	United	United	NNP	LOCATION	nn	O	-1	B-noun.group
+0	27	546	2879	2885		543	States	States	States	NNPS	LOCATION	pobj	O	-1	I-noun.group
+0	27	547	2885	2886	S	524	.	.	.	.	O	punct	O	-1	O
+0	28	548	2887	2889	S	550	He	He	he	PRP	O	nsubjpass	O	2	O
+0	28	549	2890	2892	S	550	is	is	be	VBZ	O	auxpass	O	-1	O
+0	28	550	2893	2905	S	-1	assassinated	assassinated	assassinate	VBN	O	null	O	-1	B-verb.social
+0	28	551	2906	2908	S	550	in	in	in	IN	O	prep	O	-1	O
+0	28	552	2909	2913		551	1965	1965	1965	CD	DATE	pobj	O	-1	O
+0	28	553	2913	2914	N	550	.	.	.	.	O	punct	O	-1	O

@@ -1,0 +1,577 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	6	S	1	Julian	Julian	Julian	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	7	11		10	West	West	West	NNP	PERSON	nsubjpass	O	-1	I-noun.person
+0	0	2	11	12	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	13	16	S	4	the	the	the	DT	O	det	O	-1	O
+0	0	4	17	25	S	1	narrator	narrator	narrator	NN	O	appos	O	-1	B-noun.person
+0	0	5	26	28	S	4	of	of	of	IN	O	prep	O	-1	O
+0	0	6	29	36	S	5	Looking	Looking	look	VBG	O	pcomp	O	-1	B-verb.perception
+0	0	7	37	45		6	Backward	Backward	backward	RB	O	advmod	O	-1	O
+0	0	8	45	46	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	9	47	50	S	10	was	was	be	VBD	O	auxpass	O	-1	O
+0	0	10	51	55	S	-1	born	born	bear	VBN	O	null	O	-1	B-verb.body
+0	0	11	56	60	S	10	into	into	into	IN	O	prep	O	-1	O
+0	0	12	61	63	S	14	an	an	a	DT	O	det	O	-1	O
+0	0	13	64	76	S	14	aristocratic	aristocratic	aristocratic	JJ	O	amod	O	-1	O
+0	0	14	77	83	S	11	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	0	15	84	86	S	10	in	in	in	IN	O	prep	O	-1	O
+0	0	16	87	90	S	19	the	the	the	DT	DATE	det	O	-1	O
+0	0	17	91	95	S	19	late	late	late	JJ	DATE	amod	O	-1	O
+0	0	18	96	106	S	19	nineteenth	nineteenth	nineteenth	JJ	DATE	amod	O	-1	O
+0	0	19	107	114		15	century	century	century	NN	DATE	pobj	O	-1	B-noun.time
+0	0	20	114	115	S	10	.	.	.	.	O	punct	O	-1	O
+0	1	21	116	119	S	22	The	The	the	DT	O	det	O	-1	O
+0	1	22	120	123	S	-1	gap	gap	gap	NN	O	null	O	-1	B-noun.attribute
+0	1	23	124	131	S	22	between	between	between	IN	O	prep	O	-1	O
+0	1	24	132	135	S	23	the	the	the	DT	O	pobj	O	-1	O
+0	1	25	136	140	S	24	rich	rich	rich	JJ	O	amod	O	-1	O
+0	1	26	141	144	S	25	and	and	and	CC	O	cc	O	-1	O
+0	1	27	145	149	S	25	poor	poor	poor	JJ	O	conj	O	-1	O
+0	1	28	150	153	S	29	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	1	29	154	158	S	25	vast	vast	vast	JJ	O	conj	O	-1	O
+0	1	30	159	162	S	25	and	and	and	CC	O	cc	O	-1	O
+0	1	31	163	172	S	25	seemingly	seemingly	seemingly	RB	O	conj	O	-1	O
+0	1	32	173	183	S	25	impossible	impossible	impossible	JJ	O	dep	O	-1	O
+0	1	33	184	186	S	34	to	to	to	TO	O	aux	O	-1	O
+0	1	34	187	193	S	25	remedy	remedy	remedy	VB	O	xcomp	O	-1	B-verb.change
+0	1	35	194	201	S	34	through	through	through	IN	O	prep	O	-1	O
+0	1	36	202	205	S	37	any	any	any	DT	O	det	O	-1	O
+0	1	37	206	211		35	means	means	means	NNS	O	pobj	O	-1	B-noun.act
+0	1	38	211	212	S	22	.	.	.	.	O	punct	O	-1	O
+0	2	39	213	217	S	47	Like	Like	like	IN	O	prep	O	-1	O
+0	2	40	218	223	S	41	other	other	other	JJ	O	amod	O	-1	O
+0	2	41	224	231	S	39	members	members	member	NNS	O	pobj	O	-1	B-noun.person
+0	2	42	232	234	S	41	of	of	of	IN	O	prep	O	-1	O
+0	2	43	235	238	S	44	his	his	he	PRP$	O	poss	O	-1	O
+0	2	44	239	244		42	class	class	class	NN	O	pobj	O	-1	B-noun.group
+0	2	45	244	245	S	47	,	,	,	,	O	punct	O	-1	O
+0	2	46	246	252	S	47	Julian	Julian	Julian	NNP	PERSON	nsubj	O	0	B-noun.person
+0	2	47	253	260	S	-1	thought	thought	think	VBD	O	null	O	-1	B-verb.cognition
+0	2	48	261	268	S	49	himself	himself	himself	PRP	O	nsubj	O	-1	O
+0	2	49	269	277	S	47	superior	superior	superior	JJ	O	ccomp	O	-1	O
+0	2	50	278	280	S	49	to	to	to	TO	O	prep	O	-1	O
+0	2	51	281	284	S	53	the	the	the	DT	O	det	O	-1	O
+0	2	52	285	292	S	53	toiling	toiling	toiling	NN	O	nn	O	-1	O
+0	2	53	293	299		50	masses	masses	mass	NNS	O	pobj	O	-1	O
+0	2	54	299	300	S	47	,	,	,	,	O	punct	O	-1	O
+0	2	55	301	304	S	47	and	and	and	CC	O	cc	O	-1	O
+0	2	56	305	307	S	57	he	he	he	PRP	O	nsubj	O	0	O
+0	2	57	308	316	S	47	regarded	regarded	regard	VBD	O	conj	O	-1	B-verb.cognition
+0	2	58	317	322	S	60	their	their	they	PRP$	O	poss	O	-1	O
+0	2	59	323	331	S	60	frequent	frequent	frequent	JJ	O	amod	O	-1	O
+0	2	60	332	339	S	57	strikes	strikes	strike	NNS	O	dobj	O	-1	B-noun.act
+0	2	61	340	344	S	57	with	with	with	IN	O	prep	O	-1	O
+0	2	62	345	350	S	61	anger	anger	anger	NN	O	pobj	O	-1	B-noun.feeling
+0	2	63	351	354	S	62	and	and	and	CC	O	cc	O	-1	O
+0	2	64	355	363		62	contempt	contempt	contempt	NN	O	conj	O	-1	B-noun.feeling
+0	2	65	363	364	S	47	.	.	.	.	O	punct	O	-1	O
+0	3	66	365	371	S	68	Julian	Julian	Julian	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	3	67	372	375	S	68	was	was	be	VBD	O	auxpass	O	-1	O
+0	3	68	376	383	S	-1	engaged	engaged	engage	VBN	O	null	O	-1	B-verb.social
+0	3	69	384	386	S	68	to	to	to	TO	O	prep	O	-1	O
+0	3	70	387	392	S	71	Edith	Edith	Edith	NNP	PERSON	nn	O	1	B-noun.person
+0	3	71	393	401		69	Bartlett	Bartlett	Bartlett	NNP	PERSON	pobj	O	1	I-noun.person
+0	3	72	401	402	S	71	,	,	,	,	O	punct	O	-1	O
+0	3	73	403	404	S	78	a	a	a	DT	O	det	O	-1	O
+0	3	74	405	414		78	beautiful	beautiful	beautiful	JJ	O	amod	O	-1	O
+0	3	75	414	415	S	78	,	,	,	,	O	punct	O	-1	O
+0	3	76	416	424	S	78	graceful	graceful	graceful	JJ	O	amod	O	-1	O
+0	3	77	425	431	S	78	Boston	Boston	Boston	NNP	LOCATION	nn	O	-1	B-noun.location
+0	3	78	432	442		71	aristocrat	aristocrat	aristocrat	NN	O	appos	O	-1	O
+0	3	79	442	443	S	68	.	.	.	.	O	punct	O	-1	O
+0	4	80	444	448	S	81	They	They	they	PRP	O	nsubj	O	-1	O
+0	4	81	449	456	S	-1	planned	planned	plan	VBD	O	null	O	-1	B-verb.cognition
+0	4	82	457	459	S	83	to	to	to	TO	O	aux	O	-1	O
+0	4	83	460	465	S	81	marry	marry	marry	VB	O	xcomp	O	-1	B-verb.social
+0	4	84	466	470	S	92	when	when	when	WRB	O	advmod	O	-1	O
+0	4	85	471	474	S	86	the	the	the	DT	O	det	O	-1	O
+0	4	86	475	487	S	92	construction	construction	construction	NN	O	nsubjpass	O	-1	B-noun.act
+0	4	87	488	490	S	86	of	of	of	IN	O	prep	O	-1	O
+0	4	88	491	496	S	90	their	their	they	PRP$	O	poss	O	-1	O
+0	4	89	497	500	S	90	new	new	new	JJ	O	amod	O	-1	O
+0	4	90	501	505	S	87	home	home	home	NN	O	pobj	O	-1	B-noun.artifact
+0	4	91	506	509	S	92	was	was	be	VBD	O	auxpass	O	-1	O
+0	4	92	510	519		83	completed	completed	complete	VBN	O	advcl	O	-1	B-verb.change
+0	4	93	519	520	S	81	,	,	,	,	O	punct	O	-1	O
+0	4	94	521	524	S	81	but	but	but	CC	O	cc	O	-1	O
+0	4	95	525	528	S	97	the	the	the	DT	O	det	O	-1	O
+0	4	96	529	537	S	97	frequent	frequent	frequent	JJ	O	amod	O	-1	O
+0	4	97	538	545	S	103	strikes	strikes	strike	NNS	O	nsubj	O	-1	B-noun.act
+0	4	98	546	548	S	97	by	by	by	IN	O	prep	O	-1	O
+0	4	99	549	552	S	101	the	the	the	DT	O	det	O	-1	O
+0	4	100	553	561	S	101	building	building	building	NN	O	nn	O	-1	B-noun.artifact
+0	4	101	562	568	S	98	trades	trades	trade	NNS	O	pobj	O	-1	B-noun.act
+0	4	102	569	572	S	103	had	had	have	VBD	O	aux	O	-1	O
+0	4	103	573	580	S	81	delayed	delayed	delay	VBN	O	conj	O	-1	B-verb.change
+0	4	104	581	586	S	105	their	their	they	PRP$	O	poss	O	-1	O
+0	4	105	587	595	S	103	marriage	marriage	marriage	NN	O	dobj	O	-1	B-noun.state
+0	4	106	596	599	S	105	for	for	for	IN	O	prep	O	-1	O
+0	4	107	600	604	S	106	over	over	over	IN	O	dep	O	-1	O
+0	4	108	605	606	S	109	a	a	a	DT	DURATION	det	O	-1	O
+0	4	109	607	611		107	year	year	year	NN	DURATION	pobj	O	-1	B-noun.time
+0	4	110	611	612	S	81	.	.	.	.	O	punct	O	-1	O
+0	5	111	613	619		120	Julian	Julian	Julian	NNP	PERSON	nsubj	O	0	B-noun.person
+0	5	112	619	620	S	111	,	,	,	,	O	punct	O	-1	O
+0	5	113	621	622	S	114	a	a	a	DT	O	det	O	-1	O
+0	5	114	623	631	S	111	sufferer	sufferer	sufferer	NN	O	appos	O	-1	B-noun.person
+0	5	115	632	634	S	114	of	of	of	IN	O	prep	O	-1	O
+0	5	116	635	643		115	insomnia	insomnia	insomnia	NN	O	pobj	O	-1	B-noun.state
+0	5	117	643	644	S	111	,	,	,	,	O	punct	O	-1	O
+0	5	118	645	648	S	120	had	had	have	VBD	O	aux	O	-1	O
+0	5	119	649	657	S	120	secretly	secretly	secretly	RB	O	advmod	O	-1	O
+0	5	120	658	663	S	-1	built	built	build	VBN	O	null	O	-1	B-verb.creation
+0	5	121	664	666	S	124	an	an	a	DT	O	det	O	-1	O
+0	5	122	667	678	S	124	underground	underground	underground	JJ	O	amod	O	-1	O
+0	5	123	679	687	S	124	sleeping	sleeping	sleeping	NN	O	nn	O	-1	B-noun.cognition
+0	5	124	688	695	S	120	chamber	chamber	chamber	NN	O	dobj	O	-1	B-noun.artifact
+0	5	125	696	698	S	126	to	to	to	TO	O	aux	O	-1	O
+0	5	126	699	705	S	124	shield	shield	shield	VB	O	infmod	O	-1	B-verb.competition
+0	5	127	706	713	S	126	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	5	128	714	718	S	126	from	from	from	IN	O	prep	O	-1	O
+0	5	129	719	725	S	130	street	street	street	NN	O	nn	O	-1	B-noun.artifact
+0	5	130	726	732		128	noises	noises	noise	NNS	O	pobj	O	-1	B-noun.event
+0	5	131	732	733	S	120	.	.	.	.	O	punct	O	-1	O
+0	6	132	734	736	S	134	He	He	he	PRP	O	nsubj	O	0	O
+0	6	133	737	741	S	134	also	also	also	RB	O	advmod	O	-1	O
+0	6	134	742	750	S	-1	enlisted	enlisted	enlist	VBD	O	null	O	-1	B-verb.possession
+0	6	135	751	754	S	136	the	the	the	DT	O	det	O	-1	O
+0	6	136	755	758	S	134	aid	aid	aid	NN	O	dobj	O	-1	B-noun.attribute
+0	6	137	759	761	S	136	of	of	of	IN	O	prep	O	-1	O
+0	6	138	762	768	S	139	Doctor	Doctor	Doctor	NNP	O	nn	O	-1	B-noun.person
+0	6	139	769	778		137	Pillsbury	Pillsbury	Pillsbury	NNP	ORGANIZATION	pobj	O	3	I-noun.person
+0	6	140	778	779	S	139	,	,	,	,	O	punct	O	-1	O
+0	6	141	780	781	S	143	a	a	a	DT	O	det	O	-1	O
+0	6	142	782	789	S	143	skilled	skilled	skilled	JJ	O	amod	O	-1	O
+0	6	143	790	799		139	mesmerist	mesmerist	mesmerist	NN	O	appos	O	-1	B-noun.person
+0	6	144	799	800	S	139	,	,	,	,	O	punct	O	-1	O
+0	6	145	801	804	S	147	who	who	who	WP	O	nsubj	O	-1	O
+0	6	146	805	810	S	147	never	never	never	RB	O	neg	O	-1	O
+0	6	147	811	817	S	139	failed	failed	fail	VBD	O	rcmod	O	-1	B-verb.social
+0	6	148	818	820	S	149	to	to	to	TO	O	aux	O	-1	O
+0	6	149	821	826	S	147	leave	leave	leave	VB	O	xcomp	O	-1	B-verb.motion
+0	6	150	827	833	S	149	Julian	Julian	Julian	NNP	PERSON	dobj	O	0	B-noun.person
+0	6	151	834	836	S	149	in	in	in	IN	O	prep	O	-1	O
+0	6	152	837	838	S	154	a	a	a	DT	O	det	O	-1	O
+0	6	153	839	843	S	154	deep	deep	deep	JJ	O	amod	O	-1	O
+0	6	154	844	849		151	sleep	sleep	sleep	NN	O	pobj	O	-1	B-noun.state
+0	6	155	849	850	S	134	.	.	.	.	O	punct	O	-1	O
+0	7	156	851	860	S	157	Pillsbury	Pillsbury	Pillsbury	NNP	ORGANIZATION	nsubj	O	3	B-noun.person
+0	7	157	861	868	S	-1	trained	trained	train	VBD	O	null	O	-1	B-verb.social
+0	7	158	869	875		160	Julian	Julian	Julian	NNP	PERSON	poss	O	0	B-noun.person
+0	7	159	875	877	S	158	's	's	's	POS	O	possessive	O	-1	O
+0	7	160	878	885		157	servant	servant	servant	NN	O	dobj	O	-1	B-noun.person
+0	7	161	885	886	S	160	,	,	,	,	O	punct	O	-1	O
+0	7	162	887	893		160	Sawyer	Sawyer	Sawyer	NNP	PERSON	appos	O	-1	O
+0	7	163	893	894	S	160	,	,	,	,	O	punct	O	-1	O
+0	7	164	895	897	S	165	to	to	to	TO	O	aux	O	-1	O
+0	7	165	898	904	S	160	revive	revive	revive	VB	O	infmod	O	-1	B-verb.body
+0	7	166	905	911	S	165	Julian	Julian	Julian	NNP	PERSON	dobj	O	0	B-noun.person
+0	7	167	912	916	S	165	from	from	from	IN	O	prep	O	-1	O
+0	7	168	917	918	S	170	a	a	a	DT	O	det	O	-1	O
+0	7	169	919	929	S	170	mesmerized	mesmerized	mesmerize	VBN	O	amod	O	-1	B-verb.communication
+0	7	170	930	935		167	sleep	sleep	sleep	NN	O	pobj	O	-1	B-noun.state
+0	7	171	935	936	S	157	.	.	.	.	O	punct	O	-1	O
+0	8	172	937	940	S	173	The	The	the	DT	O	det	O	-1	O
+0	8	173	941	946	S	176	night	night	night	NN	TIME	nsubj	O	-1	B-noun.time
+0	8	174	947	953	S	173	before	before	before	IN	TIME	prep	O	-1	O
+0	8	175	954	963	S	174	Pillsbury	Pillsbury	Pillsbury	NNP	ORGANIZATION	pobj	O	3	B-noun.person
+0	8	176	964	968	S	187	left	left	leave	VBD	O	ccomp	O	-1	B-verb.motion
+0	8	177	969	975	S	176	Boston	Boston	Boston	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	8	178	976	979	S	176	for	for	for	IN	O	prep	O	-1	O
+0	8	179	980	981	S	181	a	a	a	DT	O	det	O	-1	O
+0	8	180	982	985	S	181	new	new	new	JJ	O	amod	O	-1	O
+0	8	181	986	989	S	178	job	job	job	NN	O	pobj	O	-1	B-noun.act
+0	8	182	990	992	S	181	in	in	in	IN	O	prep	O	-1	O
+0	8	183	993	996	S	184	New	New	New	NNP	LOCATION	nn	O	-1	B-noun.location
+0	8	184	997	1004		182	Orleans	Orleans	Orleans	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	8	185	1004	1005	S	187	,	,	,	,	O	punct	O	-1	O
+0	8	186	1006	1012	S	187	Julian	Julian	Julian	NNP	PERSON	nsubj	O	0	B-noun.person
+0	8	187	1013	1021	S	-1	enlisted	enlisted	enlist	VBD	O	null	O	-1	B-verb.competition
+0	8	188	1022	1025	S	189	his	his	he	PRP$	O	poss	O	0	O
+0	8	189	1026	1030	S	187	help	help	help	NN	O	dobj	O	-1	B-noun.act
+0	8	190	1031	1034	S	192	one	one	one	CD	NUMBER	num	O	-1	O
+0	8	191	1035	1039	S	192	last	last	last	JJ	O	amod	O	-1	O
+0	8	192	1040	1044		189	time	time	time	NN	O	dep	O	-1	B-noun.time
+0	8	193	1044	1045	S	187	.	.	.	.	O	punct	O	-1	O
+0	9	194	1046	1051	S	196	After	After	after	IN	O	mark	O	-1	O
+0	9	195	1052	1061	S	196	Pillsbury	Pillsbury	Pillsbury	NNP	ORGANIZATION	nsubj	O	3	B-noun.person
+0	9	196	1062	1066		202	left	left	leave	VBD	O	advcl	O	-1	B-verb.motion
+0	9	197	1066	1067	S	202	,	,	,	,	O	punct	O	-1	O
+0	9	198	1068	1074		200	Julian	Julian	Julian	NNP	PERSON	poss	O	0	B-noun.person
+0	9	199	1074	1076	S	198	's	's	's	POS	O	possessive	O	-1	O
+0	9	200	1077	1081	S	202	home	home	home	NN	O	nsubjpass	O	-1	B-noun.location
+0	9	201	1082	1085	S	202	was	was	be	VBD	O	auxpass	O	-1	O
+0	9	202	1086	1095	S	-1	destroyed	destroyed	destroy	VBN	O	null	O	-1	B-verb.creation
+0	9	203	1096	1098	S	202	by	by	by	IN	O	prep	O	-1	O
+0	9	204	1099	1100	S	205	a	a	a	DT	O	det	O	-1	O
+0	9	205	1101	1105		203	fire	fire	fire	NN	O	pobj	O	-1	B-noun.event
+0	9	206	1105	1106	S	202	;	;	;	:	O	punct	O	-1	O
+0	9	207	1107	1113	S	209	Julian	Julian	Julian	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	9	208	1114	1117	S	209	was	was	be	VBD	O	auxpass	O	-1	O
+0	9	209	1118	1127	S	202	protected	protected	protect	VBN	O	parataxis	O	-1	B-verb.competition
+0	9	210	1128	1130	S	209	by	by	by	IN	O	prep	O	-1	O
+0	9	211	1131	1134	S	213	his	his	he	PRP$	O	poss	O	0	O
+0	9	212	1135	1146	S	213	underground	underground	underground	JJ	O	amod	O	-1	O
+0	9	213	1147	1154		210	chamber	chamber	chamber	NN	O	pobj	O	-1	B-noun.artifact
+0	9	214	1154	1155	S	202	.	.	.	.	O	punct	O	-1	O
+0	10	215	1156	1163	S	218	Because	Because	because	IN	O	mark	O	-1	O
+0	10	216	1164	1166	S	217	no	no	no	DT	O	det	O	-1	O
+0	10	217	1167	1170	S	218	one	one	one	NN	NUMBER	nsubj	O	-1	O
+0	10	218	1171	1175	S	225	knew	knew	know	VBD	O	advcl	O	-1	B-verb.cognition
+0	10	219	1176	1178	S	218	of	of	of	IN	O	prep	O	-1	O
+0	10	220	1179	1182	S	221	his	his	he	PRP$	O	poss	O	0	O
+0	10	221	1183	1190		219	chamber	chamber	chamber	NN	O	pobj	O	-1	B-noun.artifact
+0	10	222	1190	1191	S	225	,	,	,	,	O	punct	O	-1	O
+0	10	223	1192	1198	S	225	Julian	Julian	Julian	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	10	224	1199	1202	S	225	was	was	be	VBD	O	auxpass	O	-1	O
+0	10	225	1203	1210	S	-1	assumed	assumed	assume	VBN	O	null	O	-1	B-verb.cognition
+0	10	226	1211	1215		225	dead	dead	dead	JJ	O	dobj	O	-1	O
+0	10	227	1215	1216	S	225	.	.	.	.	O	punct	O	-1	O
+0	11	228	1217	1221	S	239	Over	Over	over	IN	O	prep	O	-1	O
+0	11	229	1222	1225	S	230	one	one	one	CD	DATE	number	O	-1	O
+0	11	230	1226	1233	S	231	hundred	hundred	hundred	CD	DATE	num	O	-1	O
+0	11	231	1234	1239	S	228	years	years	year	NNS	DATE	pobj	O	-1	B-noun.time
+0	11	232	1240	1245		228	later	later	later	RB	DATE	dep	O	-1	O
+0	11	233	1245	1246	S	239	,	,	,	,	O	punct	O	-1	O
+0	11	234	1247	1253		237	Julian	Julian	Julian	NNP	PERSON	poss	O	0	B-noun.person
+0	11	235	1253	1255	S	234	's	's	's	POS	O	possessive	O	-1	O
+0	11	236	1256	1262	S	237	secret	secret	secret	JJ	O	amod	O	-1	O
+0	11	237	1263	1270	S	239	chamber	chamber	chamber	NN	O	nsubjpass	O	-1	B-noun.artifact
+0	11	238	1271	1273	S	239	is	is	be	VBZ	O	auxpass	O	-1	O
+0	11	239	1274	1284	S	-1	discovered	discovered	discover	VBN	O	null	O	-1	B-verb.creation
+0	11	240	1285	1287	S	239	by	by	by	IN	O	prep	O	-1	O
+0	11	241	1288	1294	S	242	Doctor	Doctor	Doctor	NNP	O	nn	O	-1	B-noun.person
+0	11	242	1295	1300		240	Leete	Leete	Leete	NNP	PERSON	pobj	O	2	I-noun.person
+0	11	243	1300	1301	S	242	,	,	,	,	O	punct	O	-1	O
+0	11	244	1302	1305	S	246	who	who	who	WP	O	nsubj	O	-1	O
+0	11	245	1306	1309	S	246	was	was	be	VBD	O	aux	O	-1	O
+0	11	246	1310	1319	S	242	preparing	preparing	prepare	VBG	O	rcmod	O	-1	B-verb.change
+0	11	247	1320	1323	S	248	the	the	the	DT	O	det	O	-1	O
+0	11	248	1324	1328	S	246	site	site	site	NN	O	dobj	O	-1	B-noun.location
+0	11	249	1329	1332	S	248	for	for	for	IN	O	prep	O	-1	O
+0	11	250	1333	1336	S	251	the	the	the	DT	O	det	O	-1	O
+0	11	251	1337	1349	S	249	construction	construction	construction	NN	O	pobj	O	-1	B-noun.act
+0	11	252	1350	1352	S	251	of	of	of	IN	O	prep	O	-1	O
+0	11	253	1353	1354	S	255	a	a	a	DT	O	det	O	-1	O
+0	11	254	1355	1358	S	255	new	new	new	JJ	O	amod	O	-1	O
+0	11	255	1359	1369		252	laboratory	laboratory	laboratory	NN	O	pobj	O	-1	B-noun.artifact
+0	11	256	1369	1370	S	239	.	.	.	.	O	punct	O	-1	O
+0	12	257	1371	1377	S	260	Julian	Julian	Julian	NNP	PERSON	nsubj	O	0	B-noun.person
+0	12	258	1378	1381	S	260	has	has	have	VBZ	O	aux	O	-1	O
+0	12	259	1382	1385	S	260	not	not	not	RB	O	neg	O	-1	O
+0	12	260	1386	1390	S	-1	aged	aged	age	VBN	O	null	O	-1	B-verb.change
+0	12	261	1391	1392	S	262	a	a	a	DT	DURATION	det	O	-1	O
+0	12	262	1393	1396	S	260	day	day	day	NN	DURATION	dobj	O	-1	B-noun.time
+0	12	263	1397	1404	S	266	because	because	because	IN	O	mark	O	-1	O
+0	12	264	1405	1407	S	266	he	he	he	PRP	O	nsubj	O	0	O
+0	12	265	1408	1411	S	266	has	has	have	VBZ	O	aux	O	-1	O
+0	12	266	1412	1416	S	260	been	been	be	VBN	O	advcl	O	-1	B-verb.stative
+0	12	267	1417	1419	S	266	in	in	in	IN	O	prep	O	-1	O
+0	12	268	1420	1421	S	269	a	a	a	DT	O	det	O	-1	O
+0	12	269	1422	1427	S	267	state	state	state	NN	O	pobj	O	-1	B-noun.state
+0	12	270	1428	1430	S	269	of	of	of	IN	O	prep	O	-1	O
+0	12	271	1431	1440	S	272	suspended	suspended	suspend	VBN	O	amod	O	-1	B-verb.contact
+0	12	272	1441	1450		270	animation	animation	animation	NN	O	pobj	O	-1	B-noun.state
+0	12	273	1450	1451	S	260	.	.	.	.	O	punct	O	-1	O
+0	13	274	1452	1458	S	275	Doctor	Doctor	Doctor	NNP	O	nn	O	-1	B-noun.person
+0	13	275	1459	1464	S	276	Leete	Leete	Leete	NNP	PERSON	nsubj	O	2	I-noun.person
+0	13	276	1465	1472	S	-1	revives	revives	revive	VBZ	O	null	O	-1	B-verb.body
+0	13	277	1473	1476	S	276	him	him	he	PRP	O	dobj	O	0	O
+0	13	278	1477	1480	S	276	and	and	and	CC	O	cc	O	-1	O
+0	13	279	1481	1486	S	276	takes	takes	take	VBZ	O	conj	O	-1	B-verb.change
+0	13	280	1487	1490	S	279	him	him	he	PRP	O	dobj	O	0	O
+0	13	281	1491	1495	S	279	into	into	into	IN	O	prep	O	-1	O
+0	13	282	1496	1499	S	283	his	his	he	PRP$	O	poss	O	0	O
+0	13	283	1500	1504		281	home	home	home	NN	O	pobj	O	-1	B-noun.location
+0	13	284	1504	1505	S	276	.	.	.	.	O	punct	O	-1	O
+0	14	285	1506	1512	S	287	Julian	Julian	Julian	NNP	PERSON	nsubj	O	0	B-noun.person
+0	14	286	1513	1520	S	287	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	14	287	1521	1527	S	-1	learns	learns	learn	VBZ	O	null	O	-1	B-verb.cognition
+0	14	288	1528	1532	S	293	that	that	that	IN	O	complm	O	-1	O
+0	14	289	1533	1550	S	290	twentieth-century	twentieth-century	twentieth-century	JJ	DATE	amod	O	-1	O
+0	14	290	1551	1558	S	293	society	society	society	NN	O	nsubj	O	-1	B-noun.group
+0	14	291	1559	1561	S	293	is	is	be	VBZ	O	cop	O	-1	O
+0	14	292	1562	1568	S	293	vastly	vastly	vastly	RB	O	advmod	O	-1	O
+0	14	293	1569	1578	S	287	different	different	different	JJ	O	ccomp	O	-1	O
+0	14	294	1579	1583	S	293	from	from	from	IN	O	prep	O	-1	O
+0	14	295	1584	1588	S	294	that	that	that	DT	O	pobj	O	-1	O
+0	14	296	1589	1591	S	295	of	of	of	IN	O	prep	O	-1	O
+0	14	297	1592	1595	S	299	the	the	the	DT	DATE	det	O	-1	O
+0	14	298	1596	1606	S	299	nineteenth	nineteenth	nineteenth	JJ	DATE	amod	O	-1	O
+0	14	299	1607	1614		296	century	century	century	NN	DATE	pobj	O	-1	B-noun.time
+0	14	300	1614	1615	S	287	.	.	.	.	O	punct	O	-1	O
+0	15	301	1616	1619	S	302	The	The	the	DT	O	det	O	-1	O
+0	15	302	1620	1627	S	304	economy	economy	economy	NN	O	nsubjpass	O	-1	B-noun.group
+0	15	303	1628	1630	S	304	is	is	be	VBZ	O	auxpass	O	-1	O
+0	15	304	1631	1636	S	-1	based	based	base	VBN	O	null	O	-1	B-verb.cognition
+0	15	305	1637	1639	S	304	on	on	on	IN	O	prep	O	-1	O
+0	15	306	1640	1648	S	307	publicly	publicly	publicly	RB	O	advmod	O	-1	O
+0	15	307	1649	1654	S	308	owned	owned	own	VBN	O	amod	O	-1	B-verb.possession
+0	15	308	1655	1662	S	305	capital	capital	capital	NN	O	pobj	O	-1	B-noun.possession
+0	15	309	1663	1669	S	310	rather	rather	rather	RB	O	dep	O	-1	O
+0	15	310	1670	1674	S	308	than	than	than	IN	O	prep	O	-1	O
+0	15	311	1675	1682		310	private	private	private	JJ	O	pobj	O	-1	O
+0	15	312	1682	1683	S	304	,	,	,	,	O	punct	O	-1	O
+0	15	313	1684	1686	S	316	as	as	as	IN	O	mark	O	-1	O
+0	15	314	1687	1690	S	316	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	15	315	1691	1694	S	316	the	the	the	DT	O	det	O	-1	O
+0	15	316	1695	1699	S	304	case	case	case	NN	O	advcl	O	-1	B-noun.event
+0	15	317	1700	1702	S	316	in	in	in	IN	O	prep	O	-1	O
+0	15	318	1703	1709		320	Julian	Julian	Julian	NNP	PERSON	poss	O	0	B-noun.person
+0	15	319	1709	1711	S	318	's	's	's	POS	O	possessive	O	-1	O
+0	15	320	1712	1715		317	day	day	day	NN	DURATION	pobj	O	-1	B-noun.time
+0	15	321	1715	1716	S	304	.	.	.	.	O	punct	O	-1	O
+0	16	322	1717	1720	S	323	The	The	the	DT	O	det	O	-1	O
+0	16	323	1721	1731	S	324	government	government	government	NN	O	nsubj	O	-1	B-noun.group
+0	16	324	1732	1740	S	-1	controls	controls	control	VBZ	O	null	O	-1	B-verb.social
+0	16	325	1741	1744	S	326	the	the	the	DT	O	det	O	-1	O
+0	16	326	1745	1750	S	324	means	means	means	NNS	O	dobj	O	-1	B-noun.act
+0	16	327	1751	1753	S	326	of	of	of	IN	O	prep	O	-1	O
+0	16	328	1754	1764	S	327	production	production	production	NN	O	pobj	O	-1	B-noun.act
+0	16	329	1765	1768	S	324	and	and	and	CC	O	cc	O	-1	O
+0	16	330	1769	1776	S	324	divides	divides	divide	VBZ	O	conj	O	-1	B-verb.social
+0	16	331	1777	1780	S	333	the	the	the	DT	O	det	O	-1	O
+0	16	332	1781	1789	S	333	national	national	national	JJ	O	amod	O	-1	O
+0	16	333	1790	1797	S	330	product	product	product	NN	O	dobj	O	-1	B-noun.artifact
+0	16	334	1798	1805	S	330	equally	equally	equally	RB	O	advmod	O	-1	O
+0	16	335	1806	1813	S	330	between	between	between	IN	O	prep	O	-1	O
+0	16	336	1814	1817	S	337	all	all	all	DT	O	det	O	-1	O
+0	16	337	1818	1826		335	citizens	citizens	citizen	NNS	O	pobj	O	-1	B-noun.person
+0	16	338	1826	1827	S	324	.	.	.	.	O	punct	O	-1	O
+0	17	339	1828	1833	S	340	Every	Every	every	DT	O	det	O	-1	O
+0	17	340	1834	1841	S	341	citizen	citizen	citizen	NN	O	nsubj	O	-1	B-noun.person
+0	17	341	1842	1850	S	-1	receives	receives	receive	VBZ	O	null	O	-1	B-verb.possession
+0	17	342	1851	1852	S	344	a	a	a	DT	O	det	O	-1	O
+0	17	343	1853	1866	S	344	college-level	college-level	college-level	JJ	O	amod	O	-1	O
+0	17	344	1867	1876		341	education	education	education	NN	O	dobj	O	-1	B-noun.act
+0	17	345	1876	1877	S	341	.	.	.	.	O	punct	O	-1	O
+0	18	346	1878	1889	S	348	Individuals	Individuals	individual	NNS	O	nsubjpass	O	-1	B-noun.Tops
+0	18	347	1890	1893	S	348	are	are	be	VBP	O	auxpass	O	-1	O
+0	18	348	1894	1899	S	-1	given	given	give	VBN	O	null	O	-1	B-verb.possession
+0	18	349	1900	1901	S	351	a	a	a	DT	O	det	O	-1	O
+0	18	350	1902	1907	S	351	great	great	great	JJ	O	amod	O	-1	O
+0	18	351	1908	1912	S	348	deal	deal	deal	NN	O	dobj	O	-1	B-noun.act
+0	18	352	1913	1915	S	351	of	of	of	IN	O	prep	O	-1	O
+0	18	353	1916	1923	S	352	freedom	freedom	freedom	NN	O	pobj	O	-1	B-noun.state
+0	18	354	1924	1926	S	348	in	in	in	IN	O	prep	O	-1	O
+0	18	355	1927	1935	S	354	choosing	choosing	choose	VBG	O	pcomp	O	-1	B-verb.cognition
+0	18	356	1936	1937	S	357	a	a	a	DT	O	det	O	-1	O
+0	18	357	1938	1944		355	career	career	career	NN	O	dobj	O	-1	B-noun.act
+0	18	358	1944	1945	S	348	,	,	,	,	O	punct	O	-1	O
+0	18	359	1946	1949	S	348	and	and	and	CC	O	cc	O	-1	O
+0	18	360	1950	1958	S	361	everyone	everyone	everyone	NN	O	nsubj	O	-1	O
+0	18	361	1959	1966	S	348	retires	retires	retire	VBZ	O	conj	O	-1	B-verb.social
+0	18	362	1967	1969	S	361	at	at	at	IN	O	prep	O	-1	O
+0	18	363	1970	1973	S	364	the	the	the	DT	O	det	O	-1	O
+0	18	364	1974	1977	S	362	age	age	age	NN	O	pobj	O	-1	B-noun.attribute
+0	18	365	1978	1980	S	364	of	of	of	IN	O	prep	O	-1	O
+0	18	366	1981	1991		365	forty-five	forty-five	forty-five	CD	NUMBER	pobj	O	-1	O
+0	18	367	1991	1992	S	348	.	.	.	.	O	punct	O	-1	O
+0	19	368	1993	2000	S	370	Society	Society	Society	NNP	O	nsubjpass	O	-1	B-noun.group
+0	19	369	2001	2003	S	370	is	is	be	VBZ	O	auxpass	O	-1	O
+0	19	370	2004	2009	S	-1	based	based	base	VBN	O	null	O	-1	B-verb.cognition
+0	19	371	2010	2012	S	370	on	on	on	IN	O	prep	O	-1	O
+0	19	372	2013	2015	S	373	an	an	a	DT	O	det	O	-1	O
+0	19	373	2016	2021	S	371	ideal	ideal	ideal	NN	O	pobj	O	-1	B-noun.cognition
+0	19	374	2022	2024	S	373	of	of	of	IN	O	prep	O	-1	O
+0	19	375	2025	2028	S	376	the	the	the	DT	O	det	O	-1	O
+0	19	376	2029	2040	S	374	brotherhood	brotherhood	brotherhood	NN	O	pobj	O	-1	B-noun.relation
+0	19	377	2041	2043	S	376	of	of	of	IN	O	prep	O	-1	O
+0	19	378	2044	2047		377	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	19	379	2047	2048	S	370	,	,	,	,	O	punct	O	-1	O
+0	19	380	2049	2052	S	370	and	and	and	CC	O	cc	O	-1	O
+0	19	381	2053	2055	S	383	it	it	it	PRP	O	nsubj	O	-1	O
+0	19	382	2056	2058	S	383	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	19	383	2059	2070	S	370	unthinkable	unthinkable	unthinkable	JJ	O	conj	O	-1	O
+0	19	384	2071	2075	S	388	that	that	that	IN	O	complm	O	-1	O
+0	19	385	2076	2079	S	386	any	any	any	DT	O	det	O	-1	O
+0	19	386	2080	2090	S	388	individual	individual	individual	NN	O	nsubj	O	-1	B-noun.Tops
+0	19	387	2091	2097	S	388	should	should	should	MD	O	aux	O	-1	O
+0	19	388	2098	2104	S	383	suffer	suffer	suffer	VB	O	ccomp	O	-1	B-verb.perception
+0	19	389	2105	2108	S	390	the	the	the	DT	O	det	O	-1	O
+0	19	390	2109	2114	S	388	evils	evils	evil	NNS	O	dobj	O	-1	B-noun.act
+0	19	391	2115	2117	S	390	of	of	of	IN	O	prep	O	-1	O
+0	19	392	2118	2125	S	391	poverty	poverty	poverty	NN	O	pobj	O	-1	B-noun.state
+0	19	393	2126	2128	S	392	or	or	or	CC	O	cc	O	-1	O
+0	19	394	2129	2135		392	hunger	hunger	hunger	NN	O	conj	O	-1	B-noun.state
+0	19	395	2135	2136	S	370	.	.	.	.	O	punct	O	-1	O
+0	20	396	2137	2141	S	403	With	With	with	IN	O	prep	O	-1	O
+0	20	397	2142	2148	S	398	Doctor	Doctor	Doctor	NNP	O	nn	O	-1	B-noun.person
+0	20	398	2149	2154		400	Leete	Leete	Leete	NNP	PERSON	poss	O	2	I-noun.person
+0	20	399	2154	2156	S	398	's	's	's	POS	O	possessive	O	-1	O
+0	20	400	2157	2165		396	guidance	guidance	guidance	NN	O	pobj	O	-1	B-noun.communication
+0	20	401	2165	2166	S	403	,	,	,	,	O	punct	O	-1	O
+0	20	402	2167	2173	S	403	Julian	Julian	Julian	NNP	PERSON	nsubj	O	0	B-noun.person
+0	20	403	2174	2179	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.motion
+0	20	404	2180	2182	S	405	to	to	to	TO	O	aux	O	-1	O
+0	20	405	2183	2193	S	403	understand	understand	understand	VB	O	xcomp	O	-1	B-verb.cognition
+0	20	406	2194	2197	S	405	and	and	and	CC	O	cc	O	-1	O
+0	20	407	2198	2208	S	405	appreciate	appreciate	appreciate	VB	O	conj	O	-1	B-verb.emotion
+0	20	408	2209	2212	S	410	the	the	the	DT	DATE	det	O	-1	O
+0	20	409	2213	2230	S	410	twentieth-century	twentieth-century	twentieth-century	JJ	DATE	amod	O	-1	O
+0	20	410	2231	2238		407	society	society	society	NN	O	dobj	O	-1	B-noun.group
+0	20	411	2238	2239	S	403	.	.	.	.	O	punct	O	-1	O
+0	21	412	2240	2249		415	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	21	413	2249	2250	S	415	,	,	,	,	O	punct	O	-1	O
+0	21	414	2251	2257	S	415	Julian	Julian	Julian	NNP	PERSON	nsubj	O	0	B-noun.person
+0	21	415	2258	2264	S	-1	learns	learns	learn	VBZ	O	null	O	-1	B-verb.cognition
+0	21	416	2265	2269	S	415	that	that	that	IN	O	dobj	O	-1	O
+0	21	417	2270	2276	S	418	Doctor	Doctor	Doctor	NNP	O	nn	O	-1	B-noun.person
+0	21	418	2277	2282		420	Leete	Leete	Leete	NNP	PERSON	poss	O	2	I-noun.person
+0	21	419	2282	2284	S	418	's	's	's	POS	O	possessive	O	-1	O
+0	21	420	2285	2293		416	daughter	daughter	daughter	NN	O	nsubj	O	-1	B-noun.person
+0	21	421	2293	2294	S	425	,	,	,	,	O	punct	O	-1	O
+0	21	422	2295	2300	S	425	Edith	Edith	Edith	NNP	PERSON	nsubj	O	1	B-noun.person
+0	21	423	2301	2303	S	425	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	21	424	2304	2307	S	425	the	the	the	DT	O	det	O	-1	O
+0	21	425	2308	2327	S	420	great-granddaughter	great-granddaughter	great-granddaughter	NN	O	dep	O	-1	O
+0	21	426	2328	2330	S	425	of	of	of	IN	O	prep	O	-1	O
+0	21	427	2331	2336	S	428	Edith	Edith	Edith	NNP	PERSON	nn	O	1	B-noun.person
+0	21	428	2337	2345		426	Bartlett	Bartlett	Bartlett	NNP	PERSON	pobj	O	1	I-noun.person
+0	21	429	2345	2346	S	415	.	.	.	.	O	punct	O	-1	O
+0	22	430	2347	2353	S	434	Julian	Julian	Julian	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	22	431	2354	2357	S	430	and	and	and	CC	O	cc	O	-1	O
+0	22	432	2358	2363	S	430	Edith	Edith	Edith	NNP	PERSON	conj	O	1	B-noun.person
+0	22	433	2364	2370	S	434	become	become	become	VBP	O	auxpass	O	-1	B-verb.change
+0	22	434	2371	2378		-1	engaged	engaged	engage	VBN	O	null	O	-1	B-verb.cognition
+0	22	435	2378	2379	S	434	,	,	,	,	O	punct	O	-1	O
+0	22	436	2380	2384	S	434	much	much	much	RB	O	advmod	O	-1	O
+0	22	437	2385	2387	S	436	to	to	to	TO	O	prep	O	-1	O
+0	22	438	2388	2394	S	439	Doctor	Doctor	Doctor	NNP	O	nn	O	-1	B-noun.person
+0	22	439	2395	2400		441	Leete	Leete	Leete	NNP	PERSON	poss	O	2	I-noun.person
+0	22	440	2400	2402	S	439	's	's	's	POS	O	possessive	O	-1	O
+0	22	441	2403	2411		437	pleasure	pleasure	pleasure	NN	O	pobj	O	-1	B-noun.feeling
+0	22	442	2411	2412	S	434	.	.	.	.	O	punct	O	-1	O
+0	23	443	2413	2419	S	444	Julian	Julian	Julian	NNP	PERSON	nsubj	O	0	B-noun.person
+0	23	444	2420	2423	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	23	445	2424	2425	S	447	a	a	a	DT	O	det	O	-1	O
+0	23	446	2426	2434	S	447	terrible	terrible	terrible	JJ	O	amod	O	-1	O
+0	23	447	2435	2444		444	nightmare	nightmare	nightmare	NN	O	dobj	O	-1	B-noun.state
+0	23	448	2444	2445	S	447	,	,	,	,	O	punct	O	-1	O
+0	23	449	2446	2448	S	452	in	in	in	IN	O	rel	O	-1	O
+0	23	450	2449	2454	S	449	which	which	which	WDT	O	pobj	O	-1	O
+0	23	451	2455	2457	S	452	he	he	he	PRP	O	nsubj	O	0	O
+0	23	452	2458	2464	S	447	dreams	dreams	dream	VBZ	O	rcmod	O	-1	B-verb.creation
+0	23	453	2465	2469	S	461	that	that	that	IN	O	complm	O	-1	O
+0	23	454	2470	2473	S	455	his	his	he	PRP$	O	poss	O	0	O
+0	23	455	2474	2488	S	461	transportation	transportation	transportation	NN	O	nsubj	O	-1	B-noun.artifact
+0	23	456	2489	2491	S	455	to	to	to	TO	O	prep	O	-1	O
+0	23	457	2492	2495	S	459	the	the	the	DT	DATE	det	O	-1	O
+0	23	458	2496	2505	S	459	twentieth	twentieth	twentieth	JJ	DATE	amod	O	-1	O
+0	23	459	2506	2513	S	456	century	century	century	NN	DATE	pobj	O	-1	B-noun.time
+0	23	460	2514	2517	S	461	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	23	461	2518	2525	S	452	nothing	nothing	nothing	NN	O	ccomp	O	-1	B-noun.quantity
+0	23	462	2526	2529	S	461	but	but	but	CC	O	cc	O	-1	O
+0	23	463	2530	2531	S	464	a	a	a	DT	O	det	O	-1	O
+0	23	464	2532	2537		461	dream	dream	dream	NN	O	conj	O	-1	B-noun.cognition
+0	23	465	2537	2538	S	444	.	.	.	.	O	punct	O	-1	O
+0	24	466	2539	2541	S	467	He	He	he	PRP	O	nsubj	O	0	O
+0	24	467	2542	2547	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	24	468	2548	2555	S	469	himself	himself	himself	PRP	O	nsubj	O	-1	O
+0	24	469	2556	2563	S	467	trapped	trapped	trap	VBN	O	ccomp	O	-1	B-verb.social
+0	24	470	2564	2569	S	469	again	again	again	RB	O	advmod	O	-1	O
+0	24	471	2570	2572	S	469	in	in	in	IN	O	prep	O	-1	O
+0	24	472	2573	2576	S	476	the	the	the	DT	O	det	O	-1	O
+0	24	473	2577	2582	S	476	cruel	cruel	cruel	JJ	O	amod	O	-1	O
+0	24	474	2583	2586	S	473	and	and	and	CC	O	cc	O	-1	O
+0	24	475	2587	2595	S	473	inhumane	inhumane	inhumane	JJ	O	conj	O	-1	O
+0	24	476	2596	2601	S	471	world	world	world	NN	O	pobj	O	-1	B-noun.group
+0	24	477	2602	2604	S	476	of	of	of	IN	O	prep	O	-1	O
+0	24	478	2605	2608	S	480	the	the	the	DT	DATE	det	O	-1	O
+0	24	479	2609	2619	S	480	nineteenth	nineteenth	nineteenth	JJ	DATE	amod	O	-1	O
+0	24	480	2620	2627		477	century	century	century	NN	DATE	pobj	O	-1	B-noun.time
+0	24	481	2627	2628	S	467	.	.	.	.	O	punct	O	-1	O
+0	25	482	2629	2631	S	489	To	To	to	TO	O	prep	O	-1	O
+0	25	483	2632	2635	S	485	his	his	he	PRP$	O	poss	O	0	O
+0	25	484	2636	2641	S	485	great	great	great	JJ	O	amod	O	-1	O
+0	25	485	2642	2650		482	distress	distress	distress	NN	O	pobj	O	-1	B-noun.feeling
+0	25	486	2650	2651	S	489	,	,	,	,	O	punct	O	-1	O
+0	25	487	2652	2654	S	489	he	he	he	PRP	O	nsubj	O	0	O
+0	25	488	2655	2658	S	489	now	now	now	RB	DATE	advmod	O	-1	O
+0	25	489	2659	2663	S	-1	sees	sees	see	VBZ	O	null	O	-1	B-verb.perception
+0	25	490	2664	2667	S	489	all	all	all	DT	O	dobj	O	-1	O
+0	25	491	2668	2670	S	490	of	of	of	IN	O	prep	O	-1	O
+0	25	492	2671	2674	S	494	the	the	the	DT	O	det	O	-1	O
+0	25	493	2675	2685	S	494	horrendous	horrendous	horrendous	JJ	O	amod	O	-1	O
+0	25	494	2686	2692	S	491	faults	faults	fault	NNS	O	pobj	O	-1	B-noun.state
+0	25	495	2693	2695	S	494	of	of	of	IN	O	prep	O	-1	O
+0	25	496	2696	2714	S	497	nineteenth-century	nineteenth-century	nineteenth-century	JJ	DATE	amod	O	-1	O
+0	25	497	2715	2722		495	society	society	society	NN	O	pobj	O	-1	B-noun.group
+0	25	498	2722	2723	S	489	.	.	.	.	O	punct	O	-1	O
+0	26	499	2724	2726	S	500	He	He	he	PRP	O	nsubj	O	0	O
+0	26	500	2727	2732	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	26	501	2733	2735	S	502	to	to	to	TO	O	aux	O	-1	O
+0	26	502	2736	2743	S	500	explain	explain	explain	VB	O	xcomp	O	-1	B-verb.communication
+0	26	503	2744	2746	S	502	to	to	to	TO	O	prep	O	-1	O
+0	26	504	2747	2750	S	505	his	his	he	PRP$	O	poss	O	0	O
+0	26	505	2751	2758		503	friends	friends	friend	NNS	O	pobj	O	-1	B-noun.person
+0	26	506	2758	2760		505	--	--	--	:	O	punct	O	-1	O
+0	26	507	2760	2765	S	508	Edith	Edith	Edith	NNP	PERSON	nn	O	1	O
+0	26	508	2766	2774	S	505	Bartlett	Bartlett	Bartlett	NNP	PERSON	dep	O	1	O
+0	26	509	2775	2778	S	508	and	and	and	CC	O	cc	O	-1	O
+0	26	510	2779	2782	S	511	her	her	she	PRP$	O	poss	O	1	O
+0	26	511	2783	2789		508	family	family	family	NN	O	conj	O	-1	B-noun.group
+0	26	512	2789	2791	S	508	--	--	--	:	O	punct	O	-1	O
+0	26	513	2792	2795	S	518	why	why	why	WRB	O	advmod	O	-1	O
+0	26	514	2796	2801	S	515	their	their	they	PRP$	O	poss	O	-1	O
+0	26	515	2802	2809	S	518	society	society	society	NN	O	nsubj	O	-1	B-noun.group
+0	26	516	2810	2812	S	518	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	26	517	2813	2815	S	518	so	so	so	RB	O	advmod	O	-1	O
+0	26	518	2816	2821	S	502	awful	awful	awful	JJ	O	advcl	O	-1	O
+0	26	519	2822	2825	S	518	and	and	and	CC	O	cc	O	-1	O
+0	26	520	2826	2831		518	cruel	cruel	cruel	JJ	O	conj	O	-1	O
+0	26	521	2831	2832	S	500	,	,	,	,	O	punct	O	-1	O
+0	26	522	2833	2836	S	500	and	and	and	CC	O	cc	O	-1	O
+0	26	523	2837	2840	S	527	how	how	how	WRB	O	advmod	O	-1	O
+0	26	524	2841	2843	S	527	it	it	it	PRP	O	nsubjpass	O	-1	O
+0	26	525	2844	2847	S	527	can	can	can	MD	O	aux	O	-1	O
+0	26	526	2848	2850	S	527	be	be	be	VB	O	auxpass	O	-1	O
+0	26	527	2851	2862	S	500	transformed	transformed	transform	VBN	O	conj	O	-1	B-verb.change
+0	26	528	2863	2867	S	527	into	into	into	IN	O	prep	O	-1	O
+0	26	529	2868	2877	S	528	something	something	something	NN	O	pobj	O	-1	O
+0	26	530	2878	2882	S	529	much	much	much	RB	O	advmod	O	-1	O
+0	26	531	2883	2889		530	better	better	better	RBR	O	advmod	O	-1	O
+0	26	532	2889	2890	S	500	.	.	.	.	O	punct	O	-1	O
+0	27	533	2891	2898		538	However	However	however	RB	O	advmod	O	-1	O
+0	27	534	2898	2899	S	538	,	,	,	,	O	punct	O	-1	O
+0	27	535	2900	2904	S	538	they	they	they	PRP	O	nsubj	O	-1	O
+0	27	536	2905	2908	S	538	are	are	be	VBP	O	cop	O	-1	B-verb.stative
+0	27	537	2909	2913	S	538	only	only	only	RB	O	advmod	O	-1	O
+0	27	538	2914	2924	S	-1	frightened	frightened	frightened	JJ	O	null	O	-1	O
+0	27	539	2925	2928	S	538	and	and	and	CC	O	cc	O	-1	O
+0	27	540	2929	2936		538	angered	angered	angered	JJ	O	conj	O	-1	O
+0	27	541	2936	2937	S	538	,	,	,	,	O	punct	O	-1	O
+0	27	542	2938	2940	S	544	so	so	so	IN	O	mark	O	-1	O
+0	27	543	2941	2945	S	544	they	they	they	PRP	O	nsubj	O	-1	O
+0	27	544	2946	2951	S	538	expel	expel	expel	VBP	O	advcl	O	-1	B-verb.social
+0	27	545	2952	2958	S	544	Julian	Julian	Julian	NNP	PERSON	dobj	O	0	B-noun.person
+0	27	546	2959	2963	S	544	from	from	from	IN	O	prep	O	-1	O
+0	27	547	2964	2969	S	548	their	their	they	PRP$	O	poss	O	-1	O
+0	27	548	2970	2977		546	company	company	company	NN	O	pobj	O	-1	B-noun.group
+0	27	549	2977	2978	S	538	.	.	.	.	O	punct	O	-1	O
+0	28	550	2979	2983	S	552	When	When	when	WRB	O	advmod	O	-1	O
+0	28	551	2984	2990	S	552	Julian	Julian	Julian	NNP	PERSON	nsubj	O	0	B-noun.person
+0	28	552	2991	2996	S	574	wakes	wakes	wake	VBZ	O	dep	O	-1	B-verb.body
+0	28	553	2997	3001	S	552	from	from	from	IN	O	prep	O	-1	O
+0	28	554	3002	3006	S	555	this	this	this	DT	O	det	O	-1	O
+0	28	555	3007	3016	S	553	nightmare	nightmare	nightmare	NN	O	pobj	O	-1	B-noun.state
+0	28	556	3017	3019	S	557	to	to	to	TO	O	aux	O	-1	O
+0	28	557	3020	3028	S	552	discover	discover	discover	VB	O	xcomp	O	-1	B-verb.cognition
+0	28	558	3029	3033	S	569	that	that	that	IN	O	complm	O	-1	O
+0	28	559	3034	3037	S	560	his	his	he	PRP$	O	poss	O	0	O
+0	28	560	3038	3042	S	569	trip	trip	trip	NN	O	nsubj	O	-1	B-noun.act
+0	28	561	3043	3045	S	560	to	to	to	TO	O	prep	O	-1	O
+0	28	562	3046	3049	S	564	the	the	the	DT	DATE	det	O	-1	O
+0	28	563	3050	3059	S	564	twentieth	twentieth	twentieth	JJ	DATE	amod	O	-1	O
+0	28	564	3060	3067	S	561	century	century	century	NN	DATE	pobj	O	-1	B-noun.time
+0	28	565	3068	3071	S	569	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	28	566	3072	3075	S	569	not	not	not	RB	O	neg	O	-1	O
+0	28	567	3076	3080	S	569	just	just	just	RB	O	advmod	O	-1	O
+0	28	568	3081	3082	S	569	a	a	a	DT	O	det	O	-1	O
+0	28	569	3083	3088		557	dream	dream	dream	NN	O	ccomp	O	-1	B-noun.cognition
+0	28	570	3088	3089	S	574	,	,	,	,	O	punct	O	-1	O
+0	28	571	3090	3092	S	574	he	he	he	PRP	O	nsubjpass	O	0	O
+0	28	572	3093	3095	S	574	is	is	be	VBZ	O	auxpass	O	-1	O
+0	28	573	3096	3103	S	574	greatly	greatly	greatly	RB	O	advmod	O	-1	O
+0	28	574	3104	3112		-1	relieved	relieved	relieve	VBN	O	null	O	-1	B-verb.body
+0	28	575	3112	3113	N	574	.	.	.	.	O	punct	O	-1	O

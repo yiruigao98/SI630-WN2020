@@ -1,0 +1,1408 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	2	S	-1	In	In	in	IN	O	null	O	-1	O
+0	0	1	3	6	S	4	the	the	the	DT	DATE	det	O	-1	O
+0	0	2	7	11	S	4	late	late	late	JJ	DATE	amod	O	-1	O
+0	0	3	12	18	S	4	winter	winter	winter	NN	DATE	nn	O	-1	B-noun.time
+0	0	4	19	25	S	0	months	months	month	NNS	DATE	pobj	O	-1	B-noun.time
+0	0	5	26	28	S	4	of	of	of	IN	DATE	prep	O	-1	O
+0	0	6	29	33		5	1801	1801	1801	CD	DATE	pobj	O	-1	O
+0	0	7	33	34	S	0	,	,	,	,	O	punct	O	-1	O
+0	0	8	35	36	N	9	a	a	a	DT	O	det	O	-1	O
+0	0	9	37	40	S	7	man	man	man	NN	O	dobj	O	-1	B-noun.person
+0	0	10	41	46	S	9	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	0	11	47	55	S	12	Lockwood	Lockwood	Lockwood	NNP	PERSON	nsubj	O	2	B-noun.person
+0	0	12	56	61	S	10	rents	rents	rent	NNS	O	xcomp	O	-1	B-noun.possession
+0	0	13	62	63	S	15	a	a	a	DT	O	det	O	-1	O
+0	0	14	64	69	S	15	manor	manor	manor	NN	O	nn	O	-1	B-noun.artifact
+0	0	15	70	75	S	12	house	house	house	NN	O	dobj	O	-1	I-noun.artifact
+0	0	16	76	82	S	15	called	called	call	VBN	O	partmod	O	-1	B-verb.communication
+0	0	17	83	94	S	18	Thrushcross	Thrushcross	Thrushcross	NNP	O	nn	O	-1	B-noun.person
+0	0	18	95	101	N	16	Grange	Grange	Grange	NNP	O	dep	O	-1	I-noun.person
+0	0	19	102	104	S	16	in	in	in	IN	O	prep	O	-1	O
+0	0	20	105	108	S	23	the	the	the	DT	O	det	O	-1	O
+0	0	21	109	117	S	23	isolated	isolated	isolate	VBN	O	amod	O	-1	B-verb.change
+0	0	22	118	122	S	23	moor	moor	moor	NN	O	nn	O	-1	B-noun.person
+0	0	23	123	130	S	19	country	country	country	NN	O	pobj	O	-1	B-noun.group
+0	0	24	131	133	S	23	of	of	of	IN	O	prep	O	-1	O
+0	0	25	134	141		24	England	England	England	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	0	26	141	142	S	7	.	.	.	.	O	punct	O	-1	O
+0	1	27	143	147		30	Here	Here	here	RB	O	advmod	O	-1	O
+0	1	28	147	148	S	30	,	,	,	,	O	punct	O	-1	O
+0	1	29	149	151	S	30	he	he	he	PRP	O	nsubj	O	2	O
+0	1	30	152	157	S	39	meets	meets	meet	VBZ	O	advcl	O	-1	B-verb.motion
+0	1	31	158	161	S	33	his	his	he	PRP$	O	poss	O	2	O
+0	1	32	162	166	S	33	dour	dour	dour	JJ	O	amod	O	-1	O
+0	1	33	167	175		30	landlord	landlord	landlord	NN	O	dobj	O	-1	B-noun.person
+0	1	34	175	176	N	33	,	,	,	,	O	punct	O	-1	O
+0	1	35	177	187		33	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	appos	O	4	O
+0	1	36	187	188	S	39	,	,	,	,	O	punct	O	-1	O
+0	1	37	189	190	S	39	a	a	a	DT	O	det	O	-1	O
+0	1	38	191	198	S	39	wealthy	wealthy	wealthy	JJ	O	amod	O	-1	O
+0	1	39	199	202	S	-1	man	man	man	NN	O	null	O	-1	B-noun.person
+0	1	40	203	206	S	41	who	who	who	WP	O	nsubj	O	-1	O
+0	1	41	207	212	S	39	lives	lives	live	VBZ	O	rcmod	O	-1	B-verb.stative
+0	1	42	213	215	S	41	in	in	in	IN	O	prep	O	-1	O
+0	1	43	216	219	S	45	the	the	the	DT	O	det	O	-1	O
+0	1	44	220	227	S	45	ancient	ancient	ancient	JJ	O	amod	O	-1	O
+0	1	45	228	233	S	42	manor	manor	manor	NN	O	pobj	O	-1	B-noun.artifact
+0	1	46	234	236	S	45	of	of	of	IN	O	prep	O	-1	O
+0	1	47	237	246	N	48	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	1	48	247	254		46	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	1	49	254	255	S	48	,	,	,	,	O	punct	O	-1	O
+0	1	50	256	260	S	51	four	four	four	CD	NUMBER	num	O	-1	O
+0	1	51	261	266	S	52	miles	miles	mile	NNS	O	dep	O	-1	B-noun.quantity
+0	1	52	267	271	S	41	away	away	away	RB	O	advmod	O	-1	O
+0	1	53	272	276	S	52	from	from	from	IN	O	dep	O	-1	O
+0	1	54	277	280	S	55	the	the	the	DT	O	det	O	-1	O
+0	1	55	281	287		53	Grange	Grange	Grange	NNP	O	pobj	O	-1	O
+0	1	56	287	288	S	39	.	.	.	.	O	punct	O	-1	O
+0	2	57	289	291	S	65	In	In	in	IN	O	prep	O	-1	O
+0	2	58	292	296	S	62	this	this	this	DT	O	det	O	-1	O
+0	2	59	297	301		62	wild	wild	wild	JJ	O	amod	O	-1	O
+0	2	60	301	302	S	62	,	,	,	,	O	punct	O	-1	O
+0	2	61	303	309	S	62	stormy	stormy	stormy	JJ	O	amod	O	-1	O
+0	2	62	310	321		57	countryside	countryside	countryside	NN	O	pobj	O	-1	B-noun.location
+0	2	63	321	322	N	65	,	,	,	,	O	punct	O	-1	O
+0	2	64	323	331	S	65	Lockwood	Lockwood	Lockwood	NNP	PERSON	nsubj	O	2	O
+0	2	65	332	336	S	73	asks	asks	ask	VBZ	O	advcl	O	-1	B-verb.communication
+0	2	66	337	340	S	67	his	his	he	PRP$	O	poss	O	2	O
+0	2	67	341	352		65	housekeeper	housekeeper	housekeeper	NN	O	dobj	O	-1	B-noun.person
+0	2	68	352	353	S	73	,	,	,	,	O	punct	O	-1	O
+0	2	69	354	359	S	70	Nelly	Nelly	Nelly	NNP	PERSON	nn	O	6	O
+0	2	70	360	364		73	Dean	Dean	Dean	NNP	PERSON	nsubj	O	6	O
+0	2	71	364	365	S	73	,	,	,	,	O	punct	O	-1	O
+0	2	72	366	368	S	73	to	to	to	TO	O	aux	O	-1	O
+0	2	73	369	373	S	-1	tell	tell	tell	VB	O	null	O	-1	B-verb.communication
+0	2	74	374	377	S	73	him	him	he	PRP	O	iobj	O	6	O
+0	2	75	378	381	S	76	the	the	the	DT	O	det	O	-1	O
+0	2	76	382	387	N	73	story	story	story	NN	O	dobj	O	-1	B-noun.communication
+0	2	77	388	390	S	76	of	of	of	IN	O	prep	O	-1	O
+0	2	78	391	401	S	77	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	pobj	O	4	B-noun.person
+0	2	79	402	405	S	73	and	and	and	CC	O	cc	O	-1	O
+0	2	80	406	409	S	82	the	the	the	DT	O	det	O	-1	O
+0	2	81	410	417	S	82	strange	strange	strange	JJ	O	amod	O	-1	O
+0	2	82	418	426	S	73	denizens	denizens	denizen	NNS	O	conj	O	-1	B-noun.person
+0	2	83	427	429	S	82	of	of	of	IN	O	prep	O	-1	O
+0	2	84	430	439	S	85	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	2	85	440	447		83	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	2	86	447	448	S	73	.	.	.	.	O	punct	O	-1	O
+0	3	87	449	454	N	88	Nelly	Nelly	Nelly	NNP	PERSON	nn	O	6	O
+0	3	88	455	463		-1	consents	consents	consent	NNS	O	null	O	-1	O
+0	3	89	463	464	S	88	,	,	,	,	O	punct	O	-1	O
+0	3	90	465	468	S	88	and	and	and	CC	O	cc	O	-1	O
+0	3	91	469	477	S	92	Lockwood	Lockwood	Lockwood	NNP	PERSON	nsubj	O	2	B-noun.person
+0	3	92	478	484	S	88	writes	writes	write	VBZ	O	conj	O	-1	B-verb.communication
+0	3	93	485	489	S	92	down	down	down	RP	O	prt	O	-1	O
+0	3	94	490	493	S	95	his	his	he	PRP$	O	poss	O	2	O
+0	3	95	494	507	S	92	recollections	recollections	recollection	NNS	O	dobj	O	-1	B-noun.cognition
+0	3	96	508	510	S	95	of	of	of	IN	O	prep	O	-1	O
+0	3	97	511	514	S	98	her	her	she	PRP$	O	poss	O	-1	O
+0	3	98	515	519	N	96	tale	tale	tale	NN	O	pobj	O	-1	B-noun.communication
+0	3	99	520	522	S	98	in	in	in	IN	O	prep	O	-1	O
+0	3	100	523	526	S	101	his	his	he	PRP$	O	poss	O	2	O
+0	3	101	527	532		99	diary	diary	diary	NN	O	pobj	O	-1	B-noun.communication
+0	3	102	532	533	S	88	;	;	;	:	O	punct	O	-1	O
+0	3	103	534	539	S	105	these	these	these	DT	O	det	O	-1	O
+0	3	104	540	547	S	105	written	written	write	VBN	O	amod	O	-1	B-verb.creation
+0	3	105	548	561	S	106	recollections	recollections	recollection	NNS	O	nsubj	O	-1	B-noun.cognition
+0	3	106	562	566	S	88	form	form	form	VBP	O	parataxis	O	-1	B-verb.stative
+0	3	107	567	570	S	109	the	the	the	DT	O	det	O	-1	O
+0	3	108	571	575	S	109	main	main	main	JJ	O	amod	O	-1	O
+0	3	109	576	580	S	106	part	part	part	NN	O	dobj	O	-1	B-noun.relation
+0	3	110	581	583	S	109	of	of	of	IN	O	prep	O	-1	O
+0	3	111	584	593	N	112	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	3	112	594	601		110	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	3	113	601	602	S	88	.	.	.	.	O	punct	O	-1	O
+0	4	114	603	608	S	115	Nelly	Nelly	Nelly	NNP	PERSON	nsubj	O	6	B-noun.person
+0	4	115	609	618	S	-1	remembers	remembers	remember	VBZ	O	null	O	-1	B-verb.cognition
+0	4	116	619	622	S	117	her	her	she	PRP$	O	poss	O	-1	O
+0	4	117	623	632		115	childhood	childhood	childhood	NN	O	dobj	O	-1	B-noun.time
+0	4	118	632	633	S	115	.	.	.	.	O	punct	O	-1	O
+0	5	119	634	636	S	125	As	As	as	IN	O	prep	O	-1	O
+0	5	120	637	638	S	122	a	a	a	DT	O	det	O	-1	O
+0	5	121	639	644	S	122	young	young	young	JJ	O	amod	O	-1	O
+0	5	122	645	649		119	girl	girl	girl	NN	O	pobj	O	-1	B-noun.person
+0	5	123	649	650	N	125	,	,	,	,	O	punct	O	-1	O
+0	5	124	651	654	S	125	she	she	she	PRP	O	nsubj	O	-1	O
+0	5	125	655	660	S	-1	works	works	work	VBZ	O	null	O	-1	B-verb.social
+0	5	126	661	663	S	125	as	as	as	IN	O	prep	O	-1	O
+0	5	127	664	665	S	128	a	a	a	DT	O	det	O	-1	O
+0	5	128	666	673	S	126	servant	servant	servant	NN	O	pobj	O	-1	B-noun.person
+0	5	129	674	676	S	128	at	at	at	IN	O	prep	O	-1	O
+0	5	130	677	686	S	131	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.location
+0	5	131	687	694	S	129	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	5	132	695	698	S	128	for	for	for	IN	O	prep	O	-1	O
+0	5	133	699	702	S	134	the	the	the	DT	O	det	O	-1	O
+0	5	134	703	708	S	132	owner	owner	owner	NN	O	pobj	O	-1	B-noun.person
+0	5	135	709	711	S	134	of	of	of	IN	O	prep	O	-1	O
+0	5	136	712	715	N	137	the	the	the	DT	O	det	O	-1	O
+0	5	137	716	721		135	manor	manor	manor	NN	O	pobj	O	-1	B-noun.artifact
+0	5	138	721	722	S	128	,	,	,	,	O	punct	O	-1	O
+0	5	139	723	726	S	140	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	0	B-noun.person
+0	5	140	727	735		128	Earnshaw	Earnshaw	Earnshaw	NNP	PERSON	appos	O	0	I-noun.person
+0	5	141	735	736	S	128	,	,	,	,	O	punct	O	-1	O
+0	5	142	737	740	S	128	and	and	and	CC	O	cc	O	-1	O
+0	5	143	741	744	S	144	his	his	he	PRP$	O	poss	O	0	O
+0	5	144	745	751		128	family	family	family	NN	O	conj	O	-1	B-noun.group
+0	5	145	751	752	S	125	.	.	.	.	O	punct	O	-1	O
+0	6	146	753	756	S	147	One	One	one	CD	DURATION	num	O	-1	O
+0	6	147	757	760		151	day	day	day	NN	DURATION	tmod	O	-1	B-noun.time
+0	6	148	760	761	S	151	,	,	,	,	O	punct	O	-1	O
+0	6	149	762	765	S	150	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	0	B-noun.person
+0	6	150	766	774	S	151	Earnshaw	Earnshaw	Earnshaw	NNP	PERSON	nsubj	O	0	I-noun.person
+0	6	151	775	779	N	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.stative
+0	6	152	780	782	S	151	to	to	to	TO	O	prep	O	-1	O
+0	6	153	783	792	S	152	Liverpool	Liverpool	Liverpool	NNP	ORGANIZATION	pobj	O	-1	B-noun.location
+0	6	154	793	796	S	151	and	and	and	CC	O	cc	O	-1	O
+0	6	155	797	804	S	156	returns	returns	return	NNS	O	nn	O	-1	B-noun.communication
+0	6	156	805	809	S	151	home	home	home	NN	O	conj	O	-1	B-noun.artifact
+0	6	157	810	814	S	156	with	with	with	IN	O	prep	O	-1	O
+0	6	158	815	817	S	160	an	an	a	DT	O	det	O	-1	O
+0	6	159	818	824	S	160	orphan	orphan	orphan	NN	O	nn	O	-1	B-noun.person
+0	6	160	825	828	S	157	boy	boy	boy	NN	O	pobj	O	-1	B-noun.person
+0	6	161	829	833	S	164	whom	whom	whom	WP	O	dobj	O	-1	O
+0	6	162	834	836	S	164	he	he	he	PRP	O	nsubj	O	0	O
+0	6	163	837	841	S	164	will	will	will	MD	O	aux	O	-1	O
+0	6	164	842	847	N	160	raise	raise	raise	VB	O	rcmod	O	-1	B-verb.change
+0	6	165	848	852	S	164	with	with	with	IN	O	prep	O	-1	O
+0	6	166	853	856	S	168	his	his	he	PRP$	O	poss	O	0	O
+0	6	167	857	860	S	168	own	own	own	JJ	O	amod	O	-1	O
+0	6	168	861	869		165	children	children	child	NNS	O	pobj	O	-1	B-noun.person
+0	6	169	869	870	S	151	.	.	.	.	O	punct	O	-1	O
+0	7	170	871	873	S	187	At	At	at	IN	O	prep	O	-1	O
+0	7	171	874	879		170	first	first	first	RB	ORDINAL	pobj	O	-1	O
+0	7	172	879	880	S	187	,	,	,	,	O	punct	O	-1	O
+0	7	173	881	884	S	175	the	the	the	DT	O	det	O	-1	O
+0	7	174	885	893	S	175	Earnshaw	Earnshaw	Earnshaw	NNP	MISC	nn	O	-1	O
+0	7	175	894	902		187	children	children	child	NNS	O	nsubj	O	-1	O
+0	7	176	902	903		175	—	--	--	:	O	punct	O	-1	O
+0	7	177	903	904	S	178	a	a	a	DT	O	det	O	-1	O
+0	7	178	905	908	S	175	boy	boy	boy	NN	O	dep	O	-1	B-noun.person
+0	7	179	909	914	N	178	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	7	180	915	922	S	179	Hindley	Hindley	Hindley	NNP	PERSON	xcomp	O	10	B-noun.person
+0	7	181	923	926	S	180	and	and	and	CC	O	cc	O	-1	O
+0	7	182	927	930	S	184	his	his	he	PRP$	O	poss	O	-1	O
+0	7	183	931	938	S	184	younger	younger	younger	JJR	O	amod	O	-1	O
+0	7	184	939	945	S	180	sister	sister	sister	NN	O	conj	O	-1	B-noun.person
+0	7	185	946	955		184	Catherine	Catherine	Catherine	NNP	PERSON	dep	O	8	B-noun.person
+0	7	186	955	956		178	—	--	--	:	O	punct	O	-1	O
+0	7	187	956	962	S	-1	detest	detest	detest	VBP	O	null	O	-1	B-verb.emotion
+0	7	188	963	966	S	190	the	the	the	DT	O	det	O	-1	O
+0	7	189	967	979	N	190	dark-skinned	dark-skinned	dark-skinned	JJ	O	amod	O	-1	O
+0	7	190	980	990		187	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	dobj	O	4	O
+0	7	191	990	991	S	187	.	.	.	.	O	punct	O	-1	O
+0	8	192	992	995	S	195	But	But	but	CC	O	cc	O	-1	O
+0	8	193	996	1005	S	195	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	8	B-noun.person
+0	8	194	1006	1013	S	195	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	8	195	1014	1019	S	-1	comes	comes	come	VBZ	O	null	O	-1	B-verb.perception
+0	8	196	1020	1022	S	197	to	to	to	TO	O	aux	O	-1	O
+0	8	197	1023	1027	S	195	love	love	love	VB	O	xcomp	O	-1	B-verb.emotion
+0	8	198	1028	1031		197	him	him	he	PRP	O	dobj	O	-1	O
+0	8	199	1031	1032	S	197	,	,	,	,	O	punct	O	-1	O
+0	8	200	1033	1036	S	197	and	and	and	CC	O	cc	O	-1	O
+0	8	201	1037	1040	S	197	the	the	the	DT	O	conj	O	-1	O
+0	8	202	1041	1044	N	201	two	two	two	CD	NUMBER	amod	O	-1	O
+0	8	203	1045	1049	S	204	soon	soon	soon	RB	O	advmod	O	-1	O
+0	8	204	1050	1054	S	202	grow	grow	grow	VB	O	dep	O	-1	B-verb.change
+0	8	205	1055	1066		204	inseparable	inseparable	inseparable	JJ	O	acomp	O	-1	O
+0	8	206	1066	1067	S	204	,	,	,	,	O	punct	O	-1	O
+0	8	207	1068	1076	S	204	spending	spending	spend	VBG	O	xcomp	O	-1	B-verb.stative
+0	8	208	1077	1082	S	209	their	their	they	PRP$	O	poss	O	-1	O
+0	8	209	1083	1087	S	207	days	days	day	NNS	DURATION	dobj	O	-1	B-noun.time
+0	8	210	1088	1095	S	209	playing	playing	play	VBG	O	partmod	O	-1	B-verb.creation
+0	8	211	1096	1098	S	210	on	on	on	IN	O	prep	O	-1	O
+0	8	212	1099	1102	S	213	the	the	the	DT	O	det	O	-1	O
+0	8	213	1103	1108		211	moors	moors	moor	NNS	O	pobj	O	-1	B-noun.person
+0	8	214	1108	1109	N	195	.	.	.	.	O	punct	O	-1	O
+0	9	215	1110	1115	S	223	After	After	after	IN	O	prep	O	-1	O
+0	9	216	1116	1119	S	217	his	his	he	PRP$	O	poss	O	-1	O
+0	9	217	1120	1124		219	wife	wife	wife	NN	O	poss	O	-1	B-noun.person
+0	9	218	1124	1126	S	217	’s	's	's	POS	O	possessive	O	-1	O
+0	9	219	1127	1132		215	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	9	220	1132	1133	S	223	,	,	,	,	O	punct	O	-1	O
+0	9	221	1134	1137	S	222	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	0	B-noun.person
+0	9	222	1138	1146	S	223	Earnshaw	Earnshaw	Earnshaw	NNP	PERSON	nsubj	O	0	I-noun.person
+0	9	223	1147	1152	S	-1	grows	grows	grow	VBZ	O	null	O	-1	B-verb.change
+0	9	224	1153	1155	S	225	to	to	to	TO	O	aux	O	-1	O
+0	9	225	1156	1162	S	223	prefer	prefer	prefer	VB	O	xcomp	O	-1	B-verb.emotion
+0	9	226	1163	1173	N	225	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	dobj	O	4	B-noun.person
+0	9	227	1174	1176	S	225	to	to	to	TO	O	prep	O	-1	O
+0	9	228	1177	1180	S	230	his	his	he	PRP$	O	poss	O	0	O
+0	9	229	1181	1184	S	230	own	own	own	JJ	O	amod	O	-1	O
+0	9	230	1185	1188		227	son	son	son	NN	O	pobj	O	-1	B-noun.person
+0	9	231	1188	1189	S	223	,	,	,	,	O	punct	O	-1	O
+0	9	232	1190	1193	S	223	and	and	and	CC	O	cc	O	-1	O
+0	9	233	1194	1198	S	235	when	when	when	WRB	O	advmod	O	-1	O
+0	9	234	1199	1206	S	235	Hindley	Hindley	Hindley	NNP	PERSON	nsubj	O	10	B-noun.person
+0	9	235	1207	1216	S	243	continues	continues	continue	VBZ	O	dep	O	-1	B-verb.stative
+0	9	236	1217	1220	S	237	his	his	he	PRP$	O	poss	O	0	O
+0	9	237	1221	1228	S	235	cruelty	cruelty	cruelty	NN	O	dobj	O	-1	B-noun.act
+0	9	238	1229	1231	S	235	to	to	to	TO	O	prep	O	-1	O
+0	9	239	1232	1242		238	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	pobj	O	4	O
+0	9	240	1242	1243	N	243	,	,	,	,	O	punct	O	-1	O
+0	9	241	1244	1247	S	242	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	0	B-noun.person
+0	9	242	1248	1256	S	243	Earnshaw	Earnshaw	Earnshaw	NNP	PERSON	nsubj	O	0	I-noun.person
+0	9	243	1257	1262	S	223	sends	sends	send	VBZ	O	conj	O	-1	B-verb.motion
+0	9	244	1263	1270	S	243	Hindley	Hindley	Hindley	NNP	PERSON	dobj	O	10	B-noun.person
+0	9	245	1271	1275	S	243	away	away	away	RB	O	advmod	O	-1	O
+0	9	246	1276	1278	S	243	to	to	to	TO	O	prep	O	-1	O
+0	9	247	1279	1286		246	college	college	college	NN	O	pobj	O	-1	B-noun.group
+0	9	248	1286	1287	S	223	,	,	,	,	O	punct	O	-1	O
+0	9	249	1288	1295	S	223	keeping	keeping	keep	VBG	O	xcomp	O	-1	B-verb.stative
+0	9	250	1296	1306	S	249	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	dobj	O	4	B-noun.person
+0	9	251	1307	1313		249	nearby	nearby	nearby	RB	O	advmod	O	-1	O
+0	9	252	1313	1314	S	223	.	.	.	.	O	punct	O	-1	O
+0	10	253	1315	1320	S	254	Three	Three	three	CD	DATE	num	O	-1	O
+0	10	254	1321	1326	S	255	years	years	year	NNS	DATE	dep	O	-1	B-noun.time
+0	10	255	1327	1332		259	later	later	later	RB	DATE	advmod	O	-1	O
+0	10	256	1332	1333	S	259	,	,	,	,	O	punct	O	-1	O
+0	10	257	1334	1337	S	258	Mr.	Mr.	Mr.	NNP	PERSON	nn	O	0	B-noun.person
+0	10	258	1338	1346	S	259	Earnshaw	Earnshaw	Earnshaw	NNP	PERSON	nsubj	O	0	I-noun.person
+0	10	259	1347	1351		-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	10	260	1351	1352	S	259	,	,	,	,	O	punct	O	-1	O
+0	10	261	1353	1356	S	259	and	and	and	CC	O	cc	O	-1	O
+0	10	262	1357	1364	S	263	Hindley	Hindley	Hindley	NNP	PERSON	nsubj	O	10	B-noun.person
+0	10	263	1365	1373	N	259	inherits	inherits	inherit	VBZ	O	conj	O	-1	B-verb.possession
+0	10	264	1374	1383	S	265	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	10	265	1384	1391		263	Heights	Heights	Heights	NNP	LOCATION	dobj	O	-1	I-noun.person
+0	10	266	1391	1392	S	259	.	.	.	.	O	punct	O	-1	O
+0	11	267	1393	1395	S	268	He	He	he	PRP	O	nsubj	O	0	O
+0	11	268	1396	1403	S	-1	returns	returns	return	VBZ	O	null	O	-1	B-verb.motion
+0	11	269	1404	1408	S	268	with	with	with	IN	O	prep	O	-1	O
+0	11	270	1409	1410	S	271	a	a	a	DT	O	det	O	-1	O
+0	11	271	1411	1415		269	wife	wife	wife	NN	O	pobj	O	-1	B-noun.person
+0	11	272	1415	1416	S	271	,	,	,	,	O	punct	O	-1	O
+0	11	273	1417	1424		271	Frances	Frances	Frances	NNP	PERSON	appos	O	7	O
+0	11	274	1424	1425	S	271	,	,	,	,	O	punct	O	-1	O
+0	11	275	1426	1429	S	268	and	and	and	CC	O	cc	O	-1	O
+0	11	276	1430	1441	S	277	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	11	277	1442	1447	N	268	seeks	seeks	seek	VBZ	O	conj	O	-1	B-verb.possession
+0	11	278	1448	1455	S	277	revenge	revenge	revenge	NN	O	dobj	O	-1	B-noun.act
+0	11	279	1456	1458	S	277	on	on	on	IN	O	prep	O	-1	O
+0	11	280	1459	1469		279	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	pobj	O	4	O
+0	11	281	1469	1470	S	268	.	.	.	.	O	punct	O	-1	O
+0	12	282	1471	1475	S	284	Once	Once	once	RB	DATE	advmod	O	-1	O
+0	12	283	1476	1478	S	284	an	an	a	DT	O	det	O	-1	O
+0	12	284	1479	1485		295	orphan	orphan	orphan	NN	O	nsubj	O	-1	B-noun.person
+0	12	285	1485	1486	S	284	,	,	,	,	O	punct	O	-1	O
+0	12	286	1487	1492	S	291	later	later	later	RB	O	advmod	O	-1	O
+0	12	287	1493	1494	S	291	a	a	a	DT	O	det	O	-1	O
+0	12	288	1495	1503	S	291	pampered	pampered	pampered	JJ	O	amod	O	-1	O
+0	12	289	1504	1507	S	288	and	and	and	CC	O	cc	O	-1	O
+0	12	290	1508	1515	N	288	favored	favored	favored	JJ	O	conj	O	-1	O
+0	12	291	1516	1519		284	son	son	son	NN	O	appos	O	-1	B-noun.person
+0	12	292	1519	1520	S	284	,	,	,	,	O	punct	O	-1	O
+0	12	293	1521	1531	S	284	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	appos	O	4	O
+0	12	294	1532	1535	S	295	now	now	now	RB	DATE	advmod	O	-1	O
+0	12	295	1536	1541	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	12	296	1542	1549	S	297	himself	himself	himself	PRP	O	nsubj	O	-1	O
+0	12	297	1550	1557	S	295	treated	treated	treat	VBN	O	ccomp	O	-1	B-verb.change
+0	12	298	1558	1560	S	297	as	as	as	IN	O	prep	O	-1	O
+0	12	299	1561	1562	S	301	a	a	a	DT	O	det	O	-1	O
+0	12	300	1563	1569	S	301	common	common	common	JJ	O	amod	O	-1	O
+0	12	301	1570	1577		298	laborer	laborer	laborer	NN	O	pobj	O	-1	B-noun.person
+0	12	302	1577	1578	N	301	,	,	,	,	O	punct	O	-1	O
+0	12	303	1579	1585	S	301	forced	forced	force	VBN	O	partmod	O	-1	B-verb.social
+0	12	304	1586	1588	S	305	to	to	to	TO	O	aux	O	-1	O
+0	12	305	1589	1593	S	303	work	work	work	VB	O	xcomp	O	-1	B-verb.social
+0	12	306	1594	1596	S	305	in	in	in	IN	O	prep	O	-1	O
+0	12	307	1597	1600	S	308	the	the	the	DT	O	det	O	-1	O
+0	12	308	1601	1607		306	fields	fields	field	NNS	O	pobj	O	-1	B-noun.location
+0	12	309	1607	1608	S	295	.	.	.	.	O	punct	O	-1	O
+0	13	310	1609	1619	S	311	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	B-noun.person
+0	13	311	1620	1629	S	-1	continues	continues	continue	VBZ	O	null	O	-1	B-verb.stative
+0	13	312	1630	1633	S	314	his	his	he	PRP$	O	poss	O	-1	O
+0	13	313	1634	1639	S	314	close	close	close	JJ	O	amod	O	-1	O
+0	13	314	1640	1652	N	311	relationship	relationship	relationship	NN	O	dobj	O	-1	B-noun.relation
+0	13	315	1653	1657	S	314	with	with	with	IN	O	prep	O	-1	O
+0	13	316	1658	1667		315	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	8	B-noun.person
+0	13	317	1667	1668	S	311	,	,	,	,	O	punct	O	-1	O
+0	13	318	1669	1676		311	however	however	however	RB	O	advmod	O	-1	O
+0	13	319	1676	1677	S	311	.	.	.	.	O	punct	O	-1	O
+0	14	320	1678	1681	S	321	One	One	one	CD	NUMBER	num	O	-1	O
+0	14	321	1682	1687	S	323	night	night	night	NN	TIME	tmod	O	-1	B-noun.time
+0	14	322	1688	1692	S	323	they	they	they	PRP	O	nsubj	O	-1	O
+0	14	323	1693	1699	S	-1	wander	wander	wander	VBP	O	null	O	-1	B-verb.motion
+0	14	324	1700	1702	S	323	to	to	to	TO	O	prep	O	-1	O
+0	14	325	1703	1714	S	326	Thrushcross	Thrushcross	Thrushcross	NNP	PERSON	nn	O	9	B-noun.person
+0	14	326	1715	1721		324	Grange	Grange	Grange	NNP	PERSON	pobj	O	9	I-noun.person
+0	14	327	1721	1722	N	323	,	,	,	,	O	punct	O	-1	O
+0	14	328	1723	1729	S	323	hoping	hoping	hope	VBG	O	xcomp	O	-1	B-verb.emotion
+0	14	329	1730	1732	S	330	to	to	to	TO	O	aux	O	-1	O
+0	14	330	1733	1738	S	328	tease	tease	tease	VB	O	xcomp	O	-1	B-verb.emotion
+0	14	331	1739	1744	S	330	Edgar	Edgar	Edgar	NNP	PERSON	dobj	O	5	B-noun.person
+0	14	332	1745	1748	S	331	and	and	and	CC	O	cc	O	-1	O
+0	14	333	1749	1757	S	334	Isabella	Isabella	Isabella	NNP	PERSON	nn	O	3	B-noun.person
+0	14	334	1758	1764		331	Linton	Linton	Linton	NNP	PERSON	conj	O	3	I-noun.person
+0	14	335	1764	1765	S	331	,	,	,	,	O	punct	O	-1	O
+0	14	336	1766	1769	S	340	the	the	the	DT	O	det	O	-1	O
+0	14	337	1770	1778		340	cowardly	cowardly	cowardly	JJ	O	amod	O	-1	O
+0	14	338	1778	1779	S	340	,	,	,	,	O	punct	O	-1	O
+0	14	339	1780	1788	N	340	snobbish	snobbish	snobbish	JJ	O	amod	O	-1	O
+0	14	340	1789	1797	S	331	children	children	child	NNS	O	appos	O	-1	B-noun.person
+0	14	341	1798	1801	S	342	who	who	who	WP	O	nsubj	O	-1	O
+0	14	342	1802	1806	S	340	live	live	live	VBP	O	rcmod	O	-1	B-verb.stative
+0	14	343	1807	1812		342	there	there	there	RB	O	advmod	O	-1	O
+0	14	344	1812	1813	S	323	.	.	.	.	O	punct	O	-1	O
+0	15	345	1814	1823	S	347	Catherine	Catherine	Catherine	NNP	PERSON	nsubjpass	O	8	B-noun.person
+0	15	346	1824	1826	S	347	is	is	be	VBZ	O	auxpass	O	-1	O
+0	15	347	1827	1833	S	-1	bitten	bitten	bite	VBN	O	null	O	-1	B-verb.contact
+0	15	348	1834	1836	S	347	by	by	by	IN	O	prep	O	-1	O
+0	15	349	1837	1838	S	350	a	a	a	DT	O	det	O	-1	O
+0	15	350	1839	1842	S	348	dog	dog	dog	NN	O	pobj	O	-1	B-noun.animal
+0	15	351	1843	1846	S	347	and	and	and	CC	O	cc	O	-1	O
+0	15	352	1847	1849	S	353	is	is	be	VBZ	O	auxpass	O	-1	O
+0	15	353	1850	1856	N	347	forced	forced	force	VBN	O	conj	O	-1	B-verb.social
+0	15	354	1857	1859	S	355	to	to	to	TO	O	aux	O	-1	O
+0	15	355	1860	1864	S	353	stay	stay	stay	VB	O	xcomp	O	-1	B-verb.stative
+0	15	356	1865	1867	S	355	at	at	at	IN	O	prep	O	-1	O
+0	15	357	1868	1871	S	358	the	the	the	DT	O	det	O	-1	O
+0	15	358	1872	1878	S	356	Grange	Grange	Grange	NNP	LOCATION	pobj	O	-1	O
+0	15	359	1879	1881	S	360	to	to	to	TO	O	aux	O	-1	O
+0	15	360	1882	1892	S	355	recuperate	recuperate	recuperate	VB	O	xcomp	O	-1	B-verb.possession
+0	15	361	1893	1896	S	360	for	for	for	IN	O	prep	O	-1	O
+0	15	362	1897	1901	S	363	five	five	five	CD	DURATION	num	O	-1	O
+0	15	363	1902	1907		361	weeks	weeks	week	NNS	DURATION	pobj	O	-1	B-noun.time
+0	15	364	1907	1908	S	363	,	,	,	,	O	punct	O	-1	O
+0	15	365	1909	1915	S	363	during	during	during	IN	O	prep	O	-1	O
+0	15	366	1916	1921	S	370	which	which	which	WDT	O	rel	O	-1	O
+0	15	367	1922	1926	N	369	time	time	time	NN	O	nn	O	-1	B-noun.time
+0	15	368	1927	1931	S	369	Mrs.	Mrs.	Mrs.	NNP	PERSON	nn	O	-1	B-noun.person
+0	15	369	1932	1938	S	370	Linton	Linton	Linton	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	15	370	1939	1944	S	365	works	works	work	VBZ	O	pobj	O	-1	B-verb.social
+0	15	371	1945	1947	S	372	to	to	to	TO	O	aux	O	-1	O
+0	15	372	1948	1952	S	370	make	make	make	VB	O	xcomp	O	-1	B-verb.change
+0	15	373	1953	1956	S	377	her	her	she	PRP	O	nsubj	O	-1	O
+0	15	374	1957	1958	S	377	a	a	a	DT	O	det	O	-1	O
+0	15	375	1959	1965	S	377	proper	proper	proper	JJ	O	amod	O	-1	O
+0	15	376	1966	1971	S	377	young	young	young	JJ	O	amod	O	-1	O
+0	15	377	1972	1976		372	lady	lady	lady	NN	O	xcomp	O	-1	B-noun.person
+0	15	378	1976	1977	S	347	.	.	.	.	O	punct	O	-1	O
+0	16	379	1978	1980	S	388	By	By	by	IN	O	prep	O	-1	O
+0	16	380	1981	1984	S	381	the	the	the	DT	O	det	O	-1	O
+0	16	381	1985	1989	S	379	time	time	time	NN	O	pobj	O	-1	B-noun.time
+0	16	382	1990	1999	N	383	Catherine	Catherine	Catherine	NNP	PERSON	nn	O	8	B-noun.person
+0	16	383	2000	2007		381	returns	returns	return	NNS	O	dep	O	-1	B-noun.communication
+0	16	384	2007	2008	S	388	,	,	,	,	O	punct	O	-1	O
+0	16	385	2009	2012	S	388	she	she	she	PRP	O	nsubjpass	O	8	O
+0	16	386	2013	2016	S	388	has	has	have	VBZ	O	aux	O	-1	O
+0	16	387	2017	2023	S	388	become	become	become	VBN	O	auxpass	O	-1	B-verb.change
+0	16	388	2024	2034	S	-1	infatuated	infatuated	infatuate	VBN	O	null	O	-1	B-verb.emotion
+0	16	389	2035	2039	S	388	with	with	with	IN	O	prep	O	-1	O
+0	16	390	2040	2045		389	Edgar	Edgar	Edgar	NNP	PERSON	pobj	O	5	B-noun.person
+0	16	391	2045	2046	S	388	,	,	,	,	O	punct	O	-1	O
+0	16	392	2047	2050	S	388	and	and	and	CC	O	cc	O	-1	O
+0	16	393	2051	2054	S	394	her	her	she	PRP$	O	poss	O	8	O
+0	16	394	2055	2067	N	399	relationship	relationship	relationship	NN	O	nsubj	O	-1	B-noun.relation
+0	16	395	2068	2072	S	394	with	with	with	IN	O	prep	O	-1	O
+0	16	396	2073	2083	S	395	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	pobj	O	4	B-noun.person
+0	16	397	2084	2089	S	399	grows	grows	grow	VBZ	O	cop	O	-1	B-verb.change
+0	16	398	2090	2094	S	399	more	more	more	RBR	O	advmod	O	-1	O
+0	16	399	2095	2106		388	complicated	complicated	complicated	JJ	O	conj	O	-1	O
+0	16	400	2106	2107	S	388	.	.	.	.	O	punct	O	-1	O
+0	17	401	2108	2112	S	403	When	When	when	WRB	O	advmod	O	-1	O
+0	17	402	2113	2120	S	403	Frances	Frances	Frances	NNP	PERSON	nsubj	O	7	B-noun.person
+0	17	403	2121	2125	S	415	dies	dies	die	VBZ	O	dep	O	-1	B-verb.change
+0	17	404	2126	2131	S	403	after	after	after	IN	O	prep	O	-1	O
+0	17	405	2132	2138	S	404	giving	giving	give	VBG	O	pcomp	O	-1	B-verb.body
+0	17	406	2139	2144	S	405	birth	birth	birth	NN	O	dobj	O	-1	I-verb.body
+0	17	407	2145	2147	S	405	to	to	to	TO	O	prep	O	-1	O
+0	17	408	2148	2149	S	410	a	a	a	DT	O	det	O	-1	O
+0	17	409	2150	2154	N	410	baby	baby	baby	NN	O	nn	O	-1	B-noun.person
+0	17	410	2155	2158	S	407	boy	boy	boy	NN	O	pobj	O	-1	B-noun.person
+0	17	411	2159	2164	S	410	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	17	412	2165	2172		411	Hareton	Hareton	Hareton	NNP	PERSON	dep	O	1	B-noun.person
+0	17	413	2172	2173	S	415	,	,	,	,	O	punct	O	-1	O
+0	17	414	2174	2181	S	415	Hindley	Hindley	Hindley	NNP	PERSON	nsubj	O	10	O
+0	17	415	2182	2190	S	-1	descends	descends	descend	VBZ	O	null	O	-1	B-verb.motion
+0	17	416	2191	2195	S	415	into	into	into	IN	O	prep	O	-1	O
+0	17	417	2196	2199	S	418	the	the	the	DT	O	det	O	-1	O
+0	17	418	2200	2206	S	416	depths	depths	depths	NNS	O	pobj	O	-1	B-noun.attribute
+0	17	419	2207	2209	S	418	of	of	of	IN	O	prep	O	-1	O
+0	17	420	2210	2220		419	alcoholism	alcoholism	alcoholism	NN	O	pobj	O	-1	B-noun.state
+0	17	421	2220	2221	N	415	,	,	,	,	O	punct	O	-1	O
+0	17	422	2222	2225	S	415	and	and	and	CC	O	cc	O	-1	O
+0	17	423	2226	2233	S	415	behaves	behaves	behave	VBZ	O	conj	O	-1	B-verb.body
+0	17	424	2234	2238	S	426	even	even	even	RB	O	advmod	O	-1	O
+0	17	425	2239	2243	S	426	more	more	more	RBR	O	dep	O	-1	O
+0	17	426	2244	2251	S	423	cruelly	cruelly	cruelly	RB	O	ccomp	O	-1	O
+0	17	427	2252	2255	S	426	and	and	and	CC	O	cc	O	-1	O
+0	17	428	2256	2265	S	426	abusively	abusively	abusively	RB	O	conj	O	-1	O
+0	17	429	2266	2272	S	428	toward	toward	toward	IN	O	dep	O	-1	O
+0	17	430	2273	2283		429	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	pobj	O	4	O
+0	17	431	2283	2284	S	415	.	.	.	.	O	punct	O	-1	O
+0	18	432	2285	2295		440	Eventually	Eventually	eventually	RB	O	advmod	O	-1	O
+0	18	433	2295	2296	N	440	,	,	,	,	O	punct	O	-1	O
+0	18	434	2297	2306		436	Catherine	Catherine	Catherine	NNP	PERSON	poss	O	8	B-noun.person
+0	18	435	2306	2308	S	434	’s	's	's	POS	O	possessive	O	-1	O
+0	18	436	2309	2315	S	440	desire	desire	desire	NN	O	nsubj	O	-1	B-noun.feeling
+0	18	437	2316	2319	S	436	for	for	for	IN	O	prep	O	-1	O
+0	18	438	2320	2326	S	439	social	social	social	JJ	O	amod	O	-1	O
+0	18	439	2327	2338	S	437	advancement	advancement	advancement	NN	O	pobj	O	-1	B-noun.communication
+0	18	440	2339	2346	S	-1	prompts	prompts	prompt	VBZ	O	null	O	-1	B-verb.communication
+0	18	441	2347	2350	S	440	her	her	she	PRP$	O	dobj	O	8	O
+0	18	442	2351	2353	S	444	to	to	to	TO	O	aux	O	-1	O
+0	18	443	2354	2360	N	444	become	become	become	VB	O	auxpass	O	-1	B-verb.change
+0	18	444	2361	2368	S	441	engaged	engaged	engage	VBN	O	xcomp	O	-1	B-verb.cognition
+0	18	445	2369	2371	S	444	to	to	to	TO	O	prep	O	-1	O
+0	18	446	2372	2377	S	447	Edgar	Edgar	Edgar	NNP	PERSON	nn	O	5	B-noun.person
+0	18	447	2378	2384		445	Linton	Linton	Linton	NNP	PERSON	pobj	O	5	I-noun.person
+0	18	448	2384	2385	S	444	,	,	,	,	O	punct	O	-1	O
+0	18	449	2386	2393	S	444	despite	despite	despite	IN	O	prep	O	-1	O
+0	18	450	2394	2397	S	452	her	her	she	PRP$	O	poss	O	8	O
+0	18	451	2398	2410	S	452	overpowering	overpowering	overpowering	JJ	O	amod	O	-1	O
+0	18	452	2411	2415	S	449	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	18	453	2416	2419	S	452	for	for	for	IN	O	prep	O	-1	O
+0	18	454	2420	2430		453	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	pobj	O	4	O
+0	18	455	2430	2431	N	440	.	.	.	.	O	punct	O	-1	O
+0	19	456	2432	2442	S	457	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	B-noun.person
+0	19	457	2443	2447	S	-1	runs	runs	run	VBZ	O	null	O	-1	B-verb.motion
+0	19	458	2448	2452	S	457	away	away	away	RB	O	advmod	O	-1	O
+0	19	459	2453	2457	S	458	from	from	from	IN	O	dep	O	-1	O
+0	19	460	2458	2467	S	461	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	19	461	2468	2475		459	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	19	462	2475	2476	S	457	,	,	,	,	O	punct	O	-1	O
+0	19	463	2477	2484	S	457	staying	staying	stay	VBG	O	conj	O	-1	B-verb.stative
+0	19	464	2485	2489	S	463	away	away	away	RP	O	prt	O	-1	O
+0	19	465	2490	2493	S	463	for	for	for	IN	O	prep	O	-1	O
+0	19	466	2494	2499	N	467	three	three	three	CD	DURATION	num	O	-1	O
+0	19	467	2500	2505		465	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	19	468	2505	2506	S	457	,	,	,	,	O	punct	O	-1	O
+0	19	469	2507	2510	S	457	and	and	and	CC	O	cc	O	-1	O
+0	19	470	2511	2520	S	457	returning	returning	return	VBG	O	conj	O	-1	B-verb.motion
+0	19	471	2521	2528	S	472	shortly	shortly	shortly	RB	O	dep	O	-1	O
+0	19	472	2529	2534	S	470	after	after	after	IN	O	prep	O	-1	O
+0	19	473	2535	2544	S	472	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	8	B-noun.person
+0	19	474	2545	2548	S	473	and	and	and	CC	O	cc	O	-1	O
+0	19	475	2549	2554		477	Edgar	Edgar	Edgar	NNP	PERSON	poss	O	5	B-noun.person
+0	19	476	2554	2556	S	475	’s	's	's	POS	O	possessive	O	-1	O
+0	19	477	2557	2565		473	marriage	marriage	marriage	NN	O	conj	O	-1	B-noun.state
+0	19	478	2565	2566	S	457	.	.	.	.	O	punct	O	-1	O
+0	20	479	2567	2571	S	485	When	When	when	WRB	O	advmod	O	-1	O
+0	20	480	2572	2582	S	481	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nn	O	4	B-noun.person
+0	20	481	2583	2590		485	returns	returns	return	NNS	O	nsubj	O	-1	B-noun.communication
+0	20	482	2590	2591	S	485	,	,	,	,	O	punct	O	-1	O
+0	20	483	2592	2594	S	485	he	he	he	PRP	O	nsubj	O	5	O
+0	20	484	2595	2606	S	485	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	20	485	2607	2611	S	-1	sets	sets	set	VBZ	O	null	O	-1	B-verb.creation
+0	20	486	2612	2617	S	485	about	about	about	IN	O	prep	O	-1	O
+0	20	487	2618	2625	S	486	seeking	seeking	seek	VBG	O	pcomp	O	-1	B-verb.contact
+0	20	488	2626	2633	N	487	revenge	revenge	revenge	NN	O	dobj	O	-1	B-noun.act
+0	20	489	2634	2636	S	487	on	on	on	IN	O	prep	O	-1	O
+0	20	490	2637	2640	S	489	all	all	all	DT	O	pobj	O	-1	O
+0	20	491	2641	2644	S	493	who	who	who	WP	O	nsubj	O	-1	O
+0	20	492	2645	2649	S	493	have	have	have	VBP	O	aux	O	-1	O
+0	20	493	2650	2657	S	490	wronged	wronged	wrong	VBN	O	rcmod	O	-1	B-verb.social
+0	20	494	2658	2661		493	him	him	he	PRP	O	dobj	O	5	O
+0	20	495	2661	2662	S	485	.	.	.	.	O	punct	O	-1	O
+0	21	496	2663	2669	S	497	Having	Having	have	VBG	O	aux	O	-1	O
+0	21	497	2670	2674	S	507	come	come	come	VBN	O	ccomp	O	-1	B-verb.motion
+0	21	498	2675	2679	S	497	into	into	into	IN	O	prep	O	-1	O
+0	21	499	2680	2681	S	503	a	a	a	DT	O	det	O	-1	O
+0	21	500	2682	2686	S	503	vast	vast	vast	JJ	O	amod	O	-1	O
+0	21	501	2687	2690	S	500	and	and	and	CC	O	cc	O	-1	O
+0	21	502	2691	2701	N	500	mysterious	mysterious	mysterious	JJ	O	conj	O	-1	O
+0	21	503	2702	2708		498	wealth	wealth	wealth	NN	O	pobj	O	-1	B-noun.state
+0	21	504	2708	2709	S	507	,	,	,	,	O	punct	O	-1	O
+0	21	505	2710	2712	S	507	he	he	he	PRP	O	nsubj	O	5	O
+0	21	506	2713	2722	S	507	deviously	deviously	deviously	RB	O	advmod	O	-1	O
+0	21	507	2723	2728	S	-1	lends	lends	lend	VBZ	O	null	O	-1	B-verb.possession
+0	21	508	2729	2734	S	507	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	21	509	2735	2737	S	507	to	to	to	TO	O	prep	O	-1	O
+0	21	510	2738	2741	S	512	the	the	the	DT	O	det	O	-1	O
+0	21	511	2742	2749	S	512	drunken	drunken	drunken	JJ	O	amod	O	-1	O
+0	21	512	2750	2757		509	Hindley	Hindley	Hindley	NNP	PERSON	pobj	O	10	O
+0	21	513	2757	2758	S	507	,	,	,	,	O	punct	O	-1	O
+0	21	514	2759	2766	N	507	knowing	knowing	know	VBG	O	xcomp	O	-1	B-verb.cognition
+0	21	515	2767	2771	S	518	that	that	that	IN	O	complm	O	-1	O
+0	21	516	2772	2779	S	518	Hindley	Hindley	Hindley	NNP	PERSON	nsubj	O	10	B-noun.person
+0	21	517	2780	2784	S	518	will	will	will	MD	O	aux	O	-1	O
+0	21	518	2785	2793	S	514	increase	increase	increase	VB	O	ccomp	O	-1	B-verb.change
+0	21	519	2794	2797	S	520	his	his	he	PRP$	O	poss	O	5	O
+0	21	520	2798	2803	S	518	debts	debts	debt	NNS	O	dobj	O	-1	B-noun.state
+0	21	521	2804	2807	S	518	and	and	and	CC	O	cc	O	-1	O
+0	21	522	2808	2812	S	518	fall	fall	fall	VB	O	conj	O	-1	B-verb.stative
+0	21	523	2813	2817	S	522	into	into	into	IN	O	prep	O	-1	O
+0	21	524	2818	2824	S	525	deeper	deeper	deeper	JJR	O	amod	O	-1	O
+0	21	525	2825	2836		523	despondency	despondency	despondency	NN	O	pobj	O	-1	B-noun.feeling
+0	21	526	2836	2837	N	507	.	.	.	.	O	punct	O	-1	O
+0	22	527	2838	2842	S	529	When	When	when	WRB	O	advmod	O	-1	O
+0	22	528	2843	2850	S	529	Hindley	Hindley	Hindley	NNP	PERSON	nsubj	O	10	B-noun.person
+0	22	529	2851	2855		532	dies	dies	die	VBZ	O	dep	O	-1	B-verb.change
+0	22	530	2855	2856	S	532	,	,	,	,	O	punct	O	-1	O
+0	22	531	2857	2867	S	532	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	O
+0	22	532	2868	2876	S	-1	inherits	inherits	inherit	VBZ	O	null	O	-1	B-verb.possession
+0	22	533	2877	2880	S	534	the	the	the	DT	O	det	O	-1	O
+0	22	534	2881	2886		532	manor	manor	manor	NN	O	dobj	O	-1	B-noun.artifact
+0	22	535	2886	2887	S	532	.	.	.	.	O	punct	O	-1	O
+0	23	536	2888	2890	S	538	He	He	he	PRP	O	nsubj	O	5	O
+0	23	537	2891	2895	N	538	also	also	also	RB	O	advmod	O	-1	O
+0	23	538	2896	2902	S	-1	places	places	place	VBZ	O	null	O	-1	B-verb.contact
+0	23	539	2903	2910	S	538	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	23	540	2911	2913	S	538	in	in	in	IN	O	prep	O	-1	O
+0	23	541	2914	2918	S	540	line	line	line	NN	O	pobj	O	-1	B-noun.artifact
+0	23	542	2919	2921	S	543	to	to	to	TO	O	aux	O	-1	O
+0	23	543	2922	2929	S	538	inherit	inherit	inherit	VB	O	xcomp	O	-1	B-verb.possession
+0	23	544	2930	2941	S	545	Thrushcross	Thrushcross	Thrushcross	NNP	O	nn	O	-1	B-noun.person
+0	23	545	2942	2948	S	543	Grange	Grange	Grange	NNP	O	dobj	O	-1	I-noun.person
+0	23	546	2949	2951	S	543	by	by	by	IN	O	prep	O	-1	O
+0	23	547	2952	2960	S	546	marrying	marrying	marry	VBG	O	pcomp	O	-1	B-verb.social
+0	23	548	2961	2969	N	549	Isabella	Isabella	Isabella	NNP	PERSON	nn	O	3	B-noun.person
+0	23	549	2970	2976		547	Linton	Linton	Linton	NNP	PERSON	dobj	O	3	I-noun.person
+0	23	550	2976	2977	S	549	,	,	,	,	O	punct	O	-1	O
+0	23	551	2978	2982	S	553	whom	whom	whom	WP	O	dobj	O	-1	O
+0	23	552	2983	2985	S	553	he	he	he	PRP	O	nsubj	O	5	O
+0	23	553	2986	2992	S	549	treats	treats	treat	VBZ	O	rcmod	O	-1	B-verb.social
+0	23	554	2993	2997	S	555	very	very	very	RB	O	advmod	O	-1	O
+0	23	555	2998	3005		553	cruelly	cruelly	cruelly	RB	O	advmod	O	-1	O
+0	23	556	3005	3006	S	538	.	.	.	.	O	punct	O	-1	O
+0	24	557	3007	3016	S	-1	Catherine	Catherine	Catherine	NNP	PERSON	null	O	8	B-noun.person
+0	24	558	3017	3024	S	557	becomes	becomes	become	VBZ	O	dep	O	-1	B-verb.change
+0	24	559	3025	3028		558	ill	ill	ill	RB	O	advmod	O	-1	O
+0	24	560	3028	3029	S	558	,	,	,	,	O	punct	O	-1	O
+0	24	561	3030	3035	N	558	gives	gives	give	VBZ	O	conj	O	-1	B-verb.creation
+0	24	562	3036	3041	S	561	birth	birth	birth	NN	O	dobj	O	-1	B-noun.time
+0	24	563	3042	3044	S	561	to	to	to	TO	O	prep	O	-1	O
+0	24	564	3045	3046	S	565	a	a	a	DT	O	det	O	-1	O
+0	24	565	3047	3055		563	daughter	daughter	daughter	NN	O	pobj	O	-1	B-noun.person
+0	24	566	3055	3056	S	558	,	,	,	,	O	punct	O	-1	O
+0	24	567	3057	3060	S	558	and	and	and	CC	O	cc	O	-1	O
+0	24	568	3061	3065		558	dies	dies	die	VBZ	O	conj	O	-1	B-verb.change
+0	24	569	3065	3066	S	557	.	.	.	.	O	punct	O	-1	O
+0	25	570	3067	3077	S	571	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	B-noun.person
+0	25	571	3078	3082	S	-1	begs	begs	beg	VBZ	O	null	O	-1	B-verb.communication
+0	25	572	3083	3086	S	573	her	her	she	PRP$	O	poss	O	8	O
+0	25	573	3087	3093	S	571	spirit	spirit	spirit	NN	O	dobj	O	-1	B-noun.person
+0	25	574	3094	3096	S	575	to	to	to	TO	O	aux	O	-1	O
+0	25	575	3097	3103	S	573	remain	remain	remain	VB	O	infmod	O	-1	B-verb.change
+0	25	576	3104	3106	N	575	on	on	on	IN	O	prep	O	-1	O
+0	25	577	3107	3112		576	Earth	Earth	Earth	NNP	LOCATION	pobj	O	-1	O
+0	25	578	3112	3113		571	—	--	--	:	O	punct	O	-1	O
+0	25	579	3113	3116	S	581	she	she	she	PRP	O	nsubj	O	8	O
+0	25	580	3117	3120	S	581	may	may	may	MD	O	aux	O	-1	O
+0	25	581	3121	3125	S	571	take	take	take	VB	O	parataxis	O	-1	B-verb.cognition
+0	25	582	3126	3134	S	583	whatever	whatever	whatever	WDT	O	det	O	-1	O
+0	25	583	3135	3139	S	585	form	form	form	NN	O	dobj	O	-1	B-noun.attribute
+0	25	584	3140	3143	S	585	she	she	she	PRP	O	nsubj	O	8	O
+0	25	585	3144	3148		581	will	will	will	MD	O	ccomp	O	-1	O
+0	25	586	3148	3149	S	589	,	,	,	,	O	punct	O	-1	O
+0	25	587	3150	3153	S	589	she	she	she	PRP	O	nsubj	O	8	O
+0	25	588	3154	3157	S	589	may	may	may	MD	O	aux	O	-1	O
+0	25	589	3158	3163	S	592	haunt	haunt	haunt	VB	O	parataxis	O	-1	B-verb.emotion
+0	25	590	3164	3167		589	him	him	he	PRP	O	dobj	O	5	O
+0	25	591	3167	3168	S	589	,	,	,	,	O	punct	O	-1	O
+0	25	592	3169	3174	N	571	drive	drive	drive	VB	O	ccomp	O	-1	B-verb.motion
+0	25	593	3175	3178	S	592	him	him	he	PRP	O	dobj	O	5	O
+0	25	594	3179	3182		593	mad	mad	mad	JJ	O	amod	O	-1	O
+0	25	595	3182	3183		598	—	--	--	:	O	punct	O	-1	O
+0	25	596	3183	3187	S	598	just	just	just	RB	O	advmod	O	-1	O
+0	25	597	3188	3190	S	598	as	as	as	RB	O	advmod	O	-1	O
+0	25	598	3191	3195	S	594	long	long	long	JJ	O	dep	O	-1	O
+0	25	599	3196	3198	S	603	as	as	as	IN	O	mark	O	-1	O
+0	25	600	3199	3202	S	603	she	she	she	PRP	O	nsubj	O	8	O
+0	25	601	3203	3207	S	603	does	does	do	VBZ	O	aux	O	-1	O
+0	25	602	3208	3211	S	603	not	not	not	RB	O	neg	O	-1	O
+0	25	603	3212	3217	S	598	leave	leave	leave	VB	O	ccomp	O	-1	B-verb.motion
+0	25	604	3218	3221	S	603	him	him	he	PRP	O	dobj	O	5	O
+0	25	605	3222	3227		603	alone	alone	alone	RB	O	advmod	O	-1	O
+0	25	606	3227	3228	S	571	.	.	.	.	O	punct	O	-1	O
+0	26	607	3229	3236	S	608	Shortly	Shortly	shortly	RB	O	advmod	O	-1	O
+0	26	608	3237	3247		611	thereafter	thereafter	thereafter	RB	O	advmod	O	-1	O
+0	26	609	3247	3248	N	611	,	,	,	,	O	punct	O	-1	O
+0	26	610	3249	3257	S	611	Isabella	Isabella	Isabella	NNP	PERSON	nsubj	O	3	B-noun.person
+0	26	611	3258	3263	S	-1	flees	flees	flee	VBZ	O	null	O	-1	B-verb.motion
+0	26	612	3264	3266	S	611	to	to	to	TO	O	prep	O	-1	O
+0	26	613	3267	3273	S	612	London	London	London	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	26	614	3274	3277	S	611	and	and	and	CC	O	cc	O	-1	O
+0	26	615	3278	3283	S	611	gives	gives	give	VBZ	O	conj	O	-1	B-verb.creation
+0	26	616	3284	3289	S	615	birth	birth	birth	NN	O	dobj	O	-1	B-noun.time
+0	26	617	3290	3292	S	615	to	to	to	TO	O	prep	O	-1	O
+0	26	618	3293	3303		620	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	poss	O	4	B-noun.person
+0	26	619	3303	3305	S	618	’s	's	's	POS	O	possessive	O	-1	O
+0	26	620	3306	3309		617	son	son	son	NN	O	pobj	O	-1	B-noun.person
+0	26	621	3309	3310	S	620	,	,	,	,	O	punct	O	-1	O
+0	26	622	3311	3316	N	620	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	26	623	3317	3323	S	622	Linton	Linton	Linton	NNP	PERSON	dobj	O	5	B-noun.person
+0	26	624	3324	3329	S	622	after	after	after	IN	O	prep	O	-1	O
+0	26	625	3330	3333	S	626	her	her	she	PRP$	O	poss	O	3	O
+0	26	626	3334	3340		624	family	family	family	NN	O	pobj	O	-1	B-noun.group
+0	26	627	3340	3341	S	611	.	.	.	.	O	punct	O	-1	O
+0	27	628	3342	3345	S	629	She	She	she	PRP	O	nsubj	O	3	O
+0	27	629	3346	3351	S	-1	keeps	keeps	keep	VBZ	O	null	O	-1	B-verb.stative
+0	27	630	3352	3355	S	631	the	the	the	DT	O	det	O	-1	O
+0	27	631	3356	3359	S	629	boy	boy	boy	NN	O	dobj	O	-1	B-noun.person
+0	27	632	3360	3364	S	629	with	with	with	IN	O	prep	O	-1	O
+0	27	633	3365	3368	S	634	her	her	she	PRP$	O	poss	O	3	O
+0	27	634	3369	3374		632	there	there	there	EX	O	pobj	O	-1	O
+0	27	635	3374	3375	S	629	.	.	.	.	O	punct	O	-1	O
+0	28	636	3376	3384	S	637	Thirteen	Thirteen	thirteen	CD	DURATION	num	O	-1	O
+0	28	637	3385	3390	S	638	years	years	year	NNS	DURATION	nsubj	O	-1	B-noun.time
+0	28	638	3391	3395		-1	pass	pass	pass	VBP	O	null	O	-1	B-verb.motion
+0	28	639	3395	3396	S	638	,	,	,	,	O	punct	O	-1	O
+0	28	640	3397	3403	S	644	during	during	during	IN	O	rel	O	-1	O
+0	28	641	3404	3409	S	640	which	which	which	WDT	O	pobj	O	-1	O
+0	28	642	3410	3415	S	643	Nelly	Nelly	Nelly	NNP	PERSON	nn	O	6	B-noun.person
+0	28	643	3416	3420	S	644	Dean	Dean	Dean	NNP	PERSON	nsubj	O	6	I-noun.person
+0	28	644	3421	3427	S	638	serves	serves	serve	VBZ	O	advcl	O	-1	B-verb.stative
+0	28	645	3428	3430	N	644	as	as	as	IN	O	prep	O	-1	O
+0	28	646	3431	3440		648	Catherine	Catherine	Catherine	NNP	PERSON	poss	O	8	B-noun.person
+0	28	647	3440	3442	S	646	’s	's	's	POS	O	possessive	O	-1	O
+0	28	648	3443	3451		650	daughter	daughter	daughter	NN	O	poss	O	-1	B-noun.person
+0	28	649	3451	3453	S	648	’s	's	's	POS	O	possessive	O	-1	O
+0	28	650	3454	3463	S	645	nursemaid	nursemaid	nursemaid	NN	O	pobj	O	-1	B-noun.person
+0	28	651	3464	3466	S	650	at	at	at	IN	O	prep	O	-1	O
+0	28	652	3467	3478	S	653	Thrushcross	Thrushcross	Thrushcross	NNP	PERSON	nn	O	9	B-noun.location
+0	28	653	3479	3485		651	Grange	Grange	Grange	NNP	PERSON	pobj	O	9	I-noun.location
+0	28	654	3485	3486	S	638	.	.	.	.	O	punct	O	-1	O
+0	29	655	3487	3492	S	656	Young	Young	Young	NNP	O	nn	O	-1	B-noun.group
+0	29	656	3493	3502	N	658	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	8	I-noun.group
+0	29	657	3503	3505	S	658	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	29	658	3506	3515	S	-1	beautiful	beautiful	beautiful	JJ	O	null	O	-1	O
+0	29	659	3516	3519	S	658	and	and	and	CC	O	cc	O	-1	O
+0	29	660	3520	3530	S	658	headstrong	headstrong	headstrong	JJ	O	conj	O	-1	O
+0	29	661	3531	3535	S	660	like	like	like	IN	O	prep	O	-1	O
+0	29	662	3536	3539	S	663	her	her	she	PRP$	O	poss	O	8	O
+0	29	663	3540	3546		661	mother	mother	mother	NN	O	pobj	O	-1	B-noun.person
+0	29	664	3546	3547	S	658	,	,	,	,	O	punct	O	-1	O
+0	29	665	3548	3551	S	658	but	but	but	CC	O	cc	O	-1	O
+0	29	666	3552	3555	S	667	her	her	she	PRP$	O	poss	O	8	O
+0	29	667	3556	3567	N	669	temperament	temperament	temperament	NN	O	nsubjpass	O	-1	B-noun.attribute
+0	29	668	3568	3570	S	669	is	is	be	VBZ	O	auxpass	O	-1	O
+0	29	669	3571	3579	S	658	modified	modified	modify	VBN	O	conj	O	-1	B-verb.change
+0	29	670	3580	3582	S	669	by	by	by	IN	O	prep	O	-1	O
+0	29	671	3583	3586	S	672	her	her	she	PRP$	O	poss	O	8	O
+0	29	672	3587	3593		675	father	father	father	NN	O	poss	O	-1	B-noun.person
+0	29	673	3593	3595	S	672	’s	's	's	POS	O	possessive	O	-1	O
+0	29	674	3596	3603	S	675	gentler	gentler	gentler	JJR	O	amod	O	-1	O
+0	29	675	3604	3613		670	influence	influence	influence	NN	O	pobj	O	-1	B-noun.attribute
+0	29	676	3613	3614	S	658	.	.	.	.	O	punct	O	-1	O
+0	30	677	3615	3620	S	678	Young	Young	Young	NNP	O	nn	O	-1	B-noun.group
+0	30	678	3621	3630	S	679	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	8	I-noun.group
+0	30	679	3631	3636	N	-1	grows	grows	grow	VBZ	O	null	O	-1	B-verb.change
+0	30	680	3637	3639	S	679	up	up	up	RP	O	prt	O	-1	O
+0	30	681	3640	3642	S	679	at	at	at	IN	O	prep	O	-1	O
+0	30	682	3643	3646	S	683	the	the	the	DT	O	det	O	-1	O
+0	30	683	3647	3653	S	681	Grange	Grange	Grange	NNP	O	pobj	O	-1	B-noun.location
+0	30	684	3654	3658	S	679	with	with	with	IN	O	prep	O	-1	O
+0	30	685	3659	3661	S	686	no	no	no	DT	O	det	O	-1	O
+0	30	686	3662	3671	S	684	knowledge	knowledge	knowledge	NN	O	pobj	O	-1	B-noun.Tops
+0	30	687	3672	3674	S	686	of	of	of	IN	O	prep	O	-1	O
+0	30	688	3675	3684	S	689	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	30	689	3685	3692		687	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	30	690	3692	3693	S	679	;	;	;	:	O	punct	O	-1	O
+0	30	691	3694	3697	S	692	one	one	one	CD	DURATION	num	O	-1	O
+0	30	692	3698	3701		679	day	day	day	NN	DURATION	parataxis	O	-1	B-noun.time
+0	30	693	3701	3702	N	692	,	,	,	,	O	punct	O	-1	O
+0	30	694	3703	3710		692	however	however	however	RB	O	advmod	O	-1	O
+0	30	695	3710	3711	S	692	,	,	,	,	O	punct	O	-1	O
+0	30	696	3712	3721	S	692	wandering	wandering	wander	VBG	O	partmod	O	-1	B-verb.motion
+0	30	697	3722	3729	S	696	through	through	through	IN	O	prep	O	-1	O
+0	30	698	3730	3733	S	699	the	the	the	DT	O	det	O	-1	O
+0	30	699	3734	3739		697	moors	moors	moor	NNS	O	pobj	O	-1	B-noun.person
+0	30	700	3739	3740	S	692	,	,	,	,	O	punct	O	-1	O
+0	30	701	3741	3744	S	702	she	she	she	PRP	O	nsubj	O	8	O
+0	30	702	3745	3754	S	692	discovers	discovers	discover	VBZ	O	rcmod	O	-1	B-verb.perception
+0	30	703	3755	3758	S	704	the	the	the	DT	O	det	O	-1	O
+0	30	704	3759	3764		702	manor	manor	manor	NN	O	dobj	O	-1	B-noun.artifact
+0	30	705	3764	3765	S	692	,	,	,	,	O	punct	O	-1	O
+0	30	706	3766	3771	N	692	meets	meets	meet	VBZ	O	appos	O	-1	B-verb.motion
+0	30	707	3772	3779		706	Hareton	Hareton	Hareton	NNP	PERSON	dobj	O	1	O
+0	30	708	3779	3780	S	692	,	,	,	,	O	punct	O	-1	O
+0	30	709	3781	3784	S	692	and	and	and	CC	O	cc	O	-1	O
+0	30	710	3785	3790	S	692	plays	plays	play	VBZ	O	conj	O	-1	B-verb.competition
+0	30	711	3791	3799	S	710	together	together	together	RB	O	advmod	O	-1	O
+0	30	712	3800	3804	S	710	with	with	with	IN	O	prep	O	-1	O
+0	30	713	3805	3808		712	him	him	he	PRP	O	pobj	O	-1	O
+0	30	714	3808	3809	S	679	.	.	.	.	O	punct	O	-1	O
+0	31	715	3810	3814	S	716	Soon	Soon	soon	RB	O	advmod	O	-1	O
+0	31	716	3815	3825		719	afterwards	afterwards	afterwards	RB	O	advmod	O	-1	O
+0	31	717	3825	3826	S	719	,	,	,	,	O	punct	O	-1	O
+0	31	718	3827	3835	N	719	Isabella	Isabella	Isabella	NNP	PERSON	nsubj	O	3	B-noun.person
+0	31	719	3836	3840		-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	31	720	3840	3841	S	719	,	,	,	,	O	punct	O	-1	O
+0	31	721	3842	3845	S	719	and	and	and	CC	O	cc	O	-1	O
+0	31	722	3846	3852	S	723	Linton	Linton	Linton	NNP	PERSON	nsubj	O	5	B-noun.person
+0	31	723	3853	3858	S	719	comes	comes	come	VBZ	O	conj	O	-1	B-verb.motion
+0	31	724	3859	3861	S	725	to	to	to	TO	O	aux	O	-1	O
+0	31	725	3862	3866	S	723	live	live	live	VB	O	xcomp	O	-1	B-verb.stative
+0	31	726	3867	3871	S	725	with	with	with	IN	O	prep	O	-1	O
+0	31	727	3872	3882		726	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	pobj	O	4	B-noun.person
+0	31	728	3882	3883	S	719	.	.	.	.	O	punct	O	-1	O
+0	32	729	3884	3894	S	730	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	B-noun.person
+0	32	730	3895	3901	N	-1	treats	treats	treat	VBZ	O	null	O	-1	B-verb.social
+0	32	731	3902	3905	S	735	his	his	he	PRP$	O	poss	O	5	O
+0	32	732	3906	3912		735	sickly	sickly	sickly	JJ	O	amod	O	-1	O
+0	32	733	3912	3913	S	735	,	,	,	,	O	punct	O	-1	O
+0	32	734	3914	3921	S	735	whining	whining	whining	JJ	O	amod	O	-1	O
+0	32	735	3922	3925	S	730	son	son	son	NN	O	dobj	O	-1	B-noun.person
+0	32	736	3926	3930	S	738	even	even	even	RB	O	advmod	O	-1	O
+0	32	737	3931	3935	S	738	more	more	more	RBR	O	advmod	O	-1	O
+0	32	738	3936	3943	S	730	cruelly	cruelly	cruelly	RB	O	advmod	O	-1	O
+0	32	739	3944	3948	S	741	than	than	than	IN	O	mark	O	-1	O
+0	32	740	3949	3951	S	741	he	he	he	PRP	O	nsubj	O	5	O
+0	32	741	3952	3959	S	738	treated	treated	treat	VBD	O	dep	O	-1	B-verb.change
+0	32	742	3960	3963	S	743	the	the	the	DT	O	det	O	-1	O
+0	32	743	3964	3967		745	boy	boy	boy	NN	O	poss	O	-1	B-noun.person
+0	32	744	3967	3969	N	743	’s	's	's	POS	O	possessive	O	-1	O
+0	32	745	3970	3976		741	mother	mother	mother	NN	O	dobj	O	-1	B-noun.person
+0	32	746	3976	3977	S	730	.	.	.	.	O	punct	O	-1	O
+0	33	747	3978	3983	S	748	Three	Three	three	CD	DATE	num	O	-1	O
+0	33	748	3984	3989	S	749	years	years	year	NNS	DATE	dep	O	-1	B-noun.time
+0	33	749	3990	3995		752	later	later	later	RB	DATE	advmod	O	-1	O
+0	33	750	3995	3996	S	752	,	,	,	,	O	punct	O	-1	O
+0	33	751	3997	4006	S	752	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	8	B-noun.person
+0	33	752	4007	4012	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	33	753	4013	4023	N	752	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	dobj	O	4	B-noun.person
+0	33	754	4024	4026	S	752	on	on	on	IN	O	prep	O	-1	O
+0	33	755	4027	4030	S	756	the	the	the	DT	O	det	O	-1	O
+0	33	756	4031	4036		754	moors	moors	moor	NNS	O	pobj	O	-1	B-noun.person
+0	33	757	4036	4037	S	752	,	,	,	,	O	punct	O	-1	O
+0	33	758	4038	4041	S	752	and	and	and	CC	O	cc	O	-1	O
+0	33	759	4042	4047	S	752	makes	makes	make	VBZ	O	conj	O	-1	B-verb.creation
+0	33	760	4048	4049	S	761	a	a	a	DT	O	det	O	-1	O
+0	33	761	4050	4055	S	759	visit	visit	visit	NN	O	dobj	O	-1	B-noun.act
+0	33	762	4056	4058	S	761	to	to	to	TO	O	prep	O	-1	O
+0	33	763	4059	4068	S	764	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	33	764	4069	4076	S	762	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	33	765	4077	4079	S	766	to	to	to	TO	O	aux	O	-1	O
+0	33	766	4080	4084	S	761	meet	meet	meet	VB	O	infmod	O	-1	B-verb.social
+0	33	767	4085	4091		766	Linton	Linton	Linton	NNP	PERSON	dobj	O	5	O
+0	33	768	4091	4092	N	752	.	.	.	.	O	punct	O	-1	O
+0	34	769	4093	4096	S	772	She	She	she	PRP	O	nsubj	O	8	O
+0	34	770	4097	4100	S	769	and	and	and	CC	O	cc	O	-1	O
+0	34	771	4101	4107	S	769	Linton	Linton	Linton	NNP	PERSON	conj	O	5	B-noun.person
+0	34	772	4108	4113	S	-1	begin	begin	begin	VB	O	null	O	-1	B-verb.change
+0	34	773	4114	4115	S	775	a	a	a	DT	O	det	O	-1	O
+0	34	774	4116	4122	S	775	secret	secret	secret	JJ	O	amod	O	-1	O
+0	34	775	4123	4130	S	772	romance	romance	romance	NN	O	dobj	O	-1	B-noun.state
+0	34	776	4131	4140	S	775	conducted	conducted	conduct	VBN	O	partmod	O	-1	B-verb.social
+0	34	777	4141	4149	S	776	entirely	entirely	entirely	RB	O	advmod	O	-1	O
+0	34	778	4150	4157	N	776	through	through	through	IN	O	prep	O	-1	O
+0	34	779	4158	4165		778	letters	letters	letter	NNS	O	pobj	O	-1	B-noun.communication
+0	34	780	4165	4166	S	772	.	.	.	.	O	punct	O	-1	O
+0	35	781	4167	4171	S	783	When	When	when	WRB	O	advmod	O	-1	O
+0	35	782	4172	4177	S	783	Nelly	Nelly	Nelly	NNP	PERSON	nsubj	O	6	B-noun.person
+0	35	783	4178	4186	S	792	destroys	destroys	destroy	VBZ	O	dep	O	-1	B-verb.creation
+0	35	784	4187	4196		786	Catherine	Catherine	Catherine	NNP	PERSON	poss	O	8	B-noun.person
+0	35	785	4196	4198	S	784	’s	's	's	POS	O	possessive	O	-1	O
+0	35	786	4199	4209	S	783	collection	collection	collection	NN	O	dobj	O	-1	B-noun.group
+0	35	787	4210	4212	S	786	of	of	of	IN	O	prep	O	-1	O
+0	35	788	4213	4220		787	letters	letters	letter	NNS	O	pobj	O	-1	B-noun.communication
+0	35	789	4220	4221	N	792	,	,	,	,	O	punct	O	-1	O
+0	35	790	4222	4225	S	791	the	the	the	DT	O	det	O	-1	O
+0	35	791	4226	4230	S	792	girl	girl	girl	NN	O	nsubj	O	-1	B-noun.person
+0	35	792	4231	4237	S	-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	35	793	4238	4246	S	792	sneaking	sneaking	sneak	VBG	O	xcomp	O	-1	B-verb.motion
+0	35	794	4247	4250	S	793	out	out	out	RP	O	prt	O	-1	O
+0	35	795	4251	4253	S	793	at	at	at	IN	O	prep	O	-1	O
+0	35	796	4254	4259	S	795	night	night	night	NN	TIME	pobj	O	-1	B-noun.time
+0	35	797	4260	4262	S	798	to	to	to	TO	O	aux	O	-1	O
+0	35	798	4263	4268	S	793	spend	spend	spend	VB	O	xcomp	O	-1	B-verb.possession
+0	35	799	4269	4273	S	798	time	time	time	NN	O	dobj	O	-1	B-noun.time
+0	35	800	4274	4278	S	798	with	with	with	IN	O	prep	O	-1	O
+0	35	801	4279	4282	S	804	her	her	she	PRP$	O	poss	O	8	O
+0	35	802	4283	4288	S	804	frail	frail	frail	JJ	O	amod	O	-1	O
+0	35	803	4289	4294	N	804	young	young	young	JJ	O	amod	O	-1	O
+0	35	804	4295	4300		800	lover	lover	lover	NN	O	pobj	O	-1	B-noun.person
+0	35	805	4300	4301	S	804	,	,	,	,	O	punct	O	-1	O
+0	35	806	4302	4305	S	807	who	who	who	WP	O	nsubj	O	-1	O
+0	35	807	4306	4310	S	804	asks	asks	ask	VBZ	O	rcmod	O	-1	B-verb.communication
+0	35	808	4311	4314	S	807	her	her	she	PRP$	O	dobj	O	8	O
+0	35	809	4315	4317	S	810	to	to	to	TO	O	aux	O	-1	O
+0	35	810	4318	4322	S	808	come	come	come	VB	O	xcomp	O	-1	B-verb.motion
+0	35	811	4323	4327	S	810	back	back	back	RB	O	advmod	O	-1	O
+0	35	812	4328	4331	S	807	and	and	and	CC	O	cc	O	-1	O
+0	35	813	4332	4337	S	807	nurse	nurse	nurse	NN	O	conj	O	-1	B-noun.person
+0	35	814	4338	4341	S	813	him	him	he	PRP	O	dobj	O	-1	O
+0	35	815	4342	4346	S	813	back	back	back	RB	O	advmod	O	-1	O
+0	35	816	4347	4349	S	815	to	to	to	TO	O	dep	O	-1	O
+0	35	817	4350	4356		816	health	health	health	NN	O	pobj	O	-1	B-noun.state
+0	35	818	4356	4357	S	792	.	.	.	.	O	punct	O	-1	O
+0	36	819	4358	4365		824	However	However	however	RB	O	advmod	O	-1	O
+0	36	820	4365	4366	N	824	,	,	,	,	O	punct	O	-1	O
+0	36	821	4367	4369	S	824	it	it	it	PRP	O	nsubj	O	-1	O
+0	36	822	4370	4377	S	824	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	36	823	4378	4385	S	824	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	36	824	4386	4394	S	-1	apparent	apparent	apparent	JJ	O	null	O	-1	O
+0	36	825	4395	4399	S	828	that	that	that	IN	O	complm	O	-1	O
+0	36	826	4400	4406	S	828	Linton	Linton	Linton	NNP	PERSON	nsubj	O	5	B-noun.person
+0	36	827	4407	4409	S	828	is	is	be	VBZ	O	aux	O	-1	O
+0	36	828	4410	4418	S	824	pursuing	pursuing	pursue	VBG	O	ccomp	O	-1	B-verb.social
+0	36	829	4419	4428	S	828	Catherine	Catherine	Catherine	NNP	PERSON	dobj	O	8	B-noun.person
+0	36	830	4429	4433	N	834	only	only	only	RB	O	advmod	O	-1	O
+0	36	831	4434	4441	S	834	because	because	because	IN	O	dep	O	-1	O
+0	36	832	4442	4452	S	834	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	B-noun.person
+0	36	833	4453	4455	S	834	is	is	be	VBZ	O	aux	O	-1	O
+0	36	834	4456	4463	S	828	forcing	forcing	force	VBG	O	xcomp	O	-1	B-verb.social
+0	36	835	4464	4467	S	834	him	him	he	PRP	O	dobj	O	5	O
+0	36	836	4468	4470		834	to	to	to	TO	O	xcomp	O	-1	O
+0	36	837	4470	4471	S	834	;	;	;	:	O	punct	O	-1	O
+0	36	838	4472	4482	S	839	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	B-noun.person
+0	36	839	4483	4488	S	834	hopes	hopes	hope	VBZ	O	parataxis	O	-1	B-verb.emotion
+0	36	840	4489	4493	S	862	that	that	that	IN	O	complm	O	-1	O
+0	36	841	4494	4496	S	843	if	if	if	IN	O	mark	O	-1	O
+0	36	842	4497	4506	N	843	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	8	B-noun.person
+0	36	843	4507	4514	S	862	marries	marries	marry	VBZ	O	advcl	O	-1	B-verb.social
+0	36	844	4515	4521		843	Linton	Linton	Linton	NNP	PERSON	dobj	O	5	O
+0	36	845	4521	4522	S	844	,	,	,	,	O	punct	O	-1	O
+0	36	846	4523	4526	S	848	his	his	he	PRP$	O	poss	O	5	O
+0	36	847	4527	4532	S	848	legal	legal	legal	JJ	O	amod	O	-1	O
+0	36	848	4533	4538	S	844	claim	claim	claim	NN	O	appos	O	-1	B-noun.communication
+0	36	849	4539	4543	S	848	upon	upon	upon	IN	O	prep	O	-1	O
+0	36	850	4544	4555	S	851	Thrushcross	Thrushcross	Thrushcross	NNP	O	nn	O	-1	B-noun.person
+0	36	851	4556	4562		849	Grange	Grange	Grange	NNP	O	pobj	O	-1	I-noun.person
+0	36	852	4562	4563		855	—	--	--	:	O	punct	O	-1	O
+0	36	853	4563	4566	S	855	and	and	and	CC	O	dep	O	-1	O
+0	36	854	4567	4570	N	855	his	his	he	PRP$	O	poss	O	5	O
+0	36	855	4571	4578	S	862	revenge	revenge	revenge	NN	O	nsubj	O	-1	B-noun.act
+0	36	856	4579	4583	S	855	upon	upon	upon	IN	O	prep	O	-1	O
+0	36	857	4584	4589	S	858	Edgar	Edgar	Edgar	NNP	PERSON	nn	O	5	B-noun.person
+0	36	858	4590	4596		856	Linton	Linton	Linton	NNP	PERSON	pobj	O	5	I-noun.person
+0	36	859	4596	4597		855	—	--	--	:	O	punct	O	-1	O
+0	36	860	4597	4601	S	862	will	will	will	MD	O	aux	O	-1	O
+0	36	861	4602	4604	S	862	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	36	862	4605	4613		839	complete	complete	complete	JJ	O	ccomp	O	-1	O
+0	36	863	4613	4614	S	824	.	.	.	.	O	punct	O	-1	O
+0	37	864	4615	4618	S	865	One	One	one	CD	DURATION	num	O	-1	O
+0	37	865	4619	4622		877	day	day	day	NN	DURATION	nsubj	O	-1	B-noun.time
+0	37	866	4622	4623	S	865	,	,	,	,	O	punct	O	-1	O
+0	37	867	4624	4626	S	870	as	as	as	IN	O	mark	O	-1	O
+0	37	868	4627	4632	S	869	Edgar	Edgar	Edgar	NNP	PERSON	nn	O	5	B-noun.person
+0	37	869	4633	4639	N	870	Linton	Linton	Linton	NNP	PERSON	nsubj	O	5	I-noun.person
+0	37	870	4640	4645	S	877	grows	grows	grow	VBZ	O	dep	O	-1	B-verb.change
+0	37	871	4646	4649	S	870	ill	ill	ill	RB	O	advmod	O	-1	O
+0	37	872	4650	4653	S	870	and	and	and	CC	O	cc	O	-1	O
+0	37	873	4654	4659	S	870	nears	nears	near	VBZ	O	conj	O	-1	B-verb.motion
+0	37	874	4660	4665		873	death	death	death	NN	O	dobj	O	-1	O
+0	37	875	4665	4666	S	877	,	,	,	,	O	punct	O	-1	O
+0	37	876	4667	4677	S	877	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	O
+0	37	877	4678	4683	S	-1	lures	lures	lure	VBZ	O	null	O	-1	B-verb.communication
+0	37	878	4684	4689	S	877	Nelly	Nelly	Nelly	NNP	PERSON	dobj	O	6	B-noun.person
+0	37	879	4690	4693	S	878	and	and	and	CC	O	cc	O	-1	O
+0	37	880	4694	4703	N	878	Catherine	Catherine	Catherine	NNP	PERSON	conj	O	8	B-noun.person
+0	37	881	4704	4708	S	878	back	back	back	RB	O	advmod	O	-1	O
+0	37	882	4709	4711	S	881	to	to	to	TO	O	dep	O	-1	O
+0	37	883	4712	4721	S	884	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	37	884	4722	4729		882	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	37	885	4729	4730	S	877	,	,	,	,	O	punct	O	-1	O
+0	37	886	4731	4734	S	877	and	and	and	CC	O	cc	O	-1	O
+0	37	887	4735	4740	S	877	holds	holds	hold	VBZ	O	conj	O	-1	B-verb.possession
+0	37	888	4741	4745	S	889	them	them	they	PRP	O	nsubj	O	-1	O
+0	37	889	4746	4754	S	887	prisoner	prisoner	prisoner	NN	O	xcomp	O	-1	B-noun.person
+0	37	890	4755	4760	S	892	until	until	until	IN	O	mark	O	-1	O
+0	37	891	4761	4770	N	892	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	8	B-noun.person
+0	37	892	4771	4778	S	889	marries	marries	marry	VBZ	O	advcl	O	-1	B-verb.social
+0	37	893	4779	4785		892	Linton	Linton	Linton	NNP	PERSON	dobj	O	5	O
+0	37	894	4785	4786	S	877	.	.	.	.	O	punct	O	-1	O
+0	38	895	4787	4791	S	896	Soon	Soon	soon	RB	O	dep	O	-1	O
+0	38	896	4792	4797	S	901	after	after	after	IN	O	dep	O	-1	O
+0	38	897	4798	4801	S	898	the	the	the	DT	O	det	O	-1	O
+0	38	898	4802	4810		896	marriage	marriage	marriage	NN	O	pobj	O	-1	B-noun.state
+0	38	899	4810	4811	S	901	,	,	,	,	O	punct	O	-1	O
+0	38	900	4812	4817	S	901	Edgar	Edgar	Edgar	NNP	PERSON	nsubj	O	5	B-noun.person
+0	38	901	4818	4822		-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	38	902	4822	4823	S	901	,	,	,	,	O	punct	O	-1	O
+0	38	903	4824	4827	S	901	and	and	and	CC	O	cc	O	-1	O
+0	38	904	4828	4831	S	905	his	his	he	PRP$	O	poss	O	5	O
+0	38	905	4832	4837	N	908	death	death	death	NN	O	nsubjpass	O	-1	B-noun.event
+0	38	906	4838	4840	S	908	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	38	907	4841	4848	S	908	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	38	908	4849	4857	S	901	followed	followed	follow	VBN	O	conj	O	-1	B-verb.stative
+0	38	909	4858	4860	S	908	by	by	by	IN	O	prep	O	-1	O
+0	38	910	4861	4864	S	911	the	the	the	DT	O	det	O	-1	O
+0	38	911	4865	4870	S	909	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	38	912	4871	4873	S	911	of	of	of	IN	O	prep	O	-1	O
+0	38	913	4874	4877	S	915	the	the	the	DT	O	det	O	-1	O
+0	38	914	4878	4884	S	915	sickly	sickly	sickly	JJ	O	amod	O	-1	O
+0	38	915	4885	4891		912	Linton	Linton	Linton	NNP	PERSON	pobj	O	5	O
+0	38	916	4891	4892	S	901	.	.	.	.	O	punct	O	-1	O
+0	39	917	4893	4903	N	919	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	O
+0	39	918	4904	4907	S	919	now	now	now	RB	DATE	advmod	O	-1	O
+0	39	919	4908	4916	S	-1	controls	controls	control	VBZ	O	null	O	-1	B-verb.social
+0	39	920	4917	4921	S	922	both	both	both	CC	O	preconj	O	-1	O
+0	39	921	4922	4931	S	922	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	39	922	4932	4939	S	919	Heights	Heights	Heights	NNP	LOCATION	dobj	O	-1	I-noun.person
+0	39	923	4940	4943	S	922	and	and	and	CC	O	cc	O	-1	O
+0	39	924	4944	4955	S	925	Thrushcross	Thrushcross	Thrushcross	NNP	PERSON	nn	O	9	B-noun.person
+0	39	925	4956	4962		922	Grange	Grange	Grange	NNP	PERSON	conj	O	9	I-noun.person
+0	39	926	4962	4963	S	919	.	.	.	.	O	punct	O	-1	O
+0	40	927	4964	4966	S	928	He	He	he	PRP	O	nsubj	O	5	O
+0	40	928	4967	4973	N	-1	forces	forces	force	VBZ	O	null	O	-1	B-verb.social
+0	40	929	4974	4983	S	931	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	8	B-noun.person
+0	40	930	4984	4986	S	931	to	to	to	TO	O	aux	O	-1	O
+0	40	931	4987	4991	S	928	live	live	live	VB	O	xcomp	O	-1	B-verb.stative
+0	40	932	4992	4994	S	931	at	at	at	IN	O	prep	O	-1	O
+0	40	933	4995	5004	S	934	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.location
+0	40	934	5005	5012	S	932	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	40	935	5013	5016	S	931	and	and	and	CC	O	cc	O	-1	O
+0	40	936	5017	5020	S	931	act	act	act	VBP	O	conj	O	-1	B-verb.stative
+0	40	937	5021	5023	S	936	as	as	as	IN	O	prep	O	-1	O
+0	40	938	5024	5025	S	940	a	a	a	DT	O	det	O	-1	O
+0	40	939	5026	5032	S	940	common	common	common	JJ	O	amod	O	-1	O
+0	40	940	5033	5040		937	servant	servant	servant	NN	O	pobj	O	-1	B-noun.person
+0	40	941	5040	5041	S	936	,	,	,	,	O	punct	O	-1	O
+0	40	942	5042	5047	N	944	while	while	while	IN	O	mark	O	-1	O
+0	40	943	5048	5050	S	944	he	he	he	PRP	O	nsubj	O	-1	O
+0	40	944	5051	5056	S	936	rents	rents	rent	VBZ	O	advcl	O	-1	B-verb.social
+0	40	945	5057	5068	S	946	Thrushcross	Thrushcross	Thrushcross	NNP	PERSON	nn	O	9	B-noun.person
+0	40	946	5069	5075	S	944	Grange	Grange	Grange	NNP	PERSON	dobj	O	9	I-noun.person
+0	40	947	5076	5078	S	944	to	to	to	TO	O	prep	O	-1	O
+0	40	948	5079	5087		947	Lockwood	Lockwood	Lockwood	NNP	PERSON	pobj	O	2	O
+0	40	949	5087	5088	S	928	.	.	.	.	O	punct	O	-1	O
+0	41	950	5089	5094		952	Nelly	Nelly	Nelly	NNP	PERSON	poss	O	6	B-noun.person
+0	41	951	5094	5096	S	950	’s	's	's	POS	O	possessive	O	-1	O
+0	41	952	5097	5102	S	953	story	story	story	NN	O	nsubj	O	-1	B-noun.communication
+0	41	953	5103	5107	S	-1	ends	ends	end	VBZ	O	null	O	-1	B-verb.stative
+0	41	954	5108	5110	S	956	as	as	as	IN	O	mark	O	-1	O
+0	41	955	5111	5114	S	956	she	she	she	PRP	O	nsubj	O	8	O
+0	41	956	5115	5122	S	953	reaches	reaches	reach	VBZ	O	advcl	O	-1	B-verb.motion
+0	41	957	5123	5126	S	958	the	the	the	DT	O	det	O	-1	O
+0	41	958	5127	5134		956	present	present	present	JJ	DATE	dobj	O	-1	O
+0	41	959	5134	5135	S	953	.	.	.	.	O	punct	O	-1	O
+0	42	960	5136	5144		964	Lockwood	Lockwood	Lockwood	NNP	PERSON	nsubj	O	2	O
+0	42	961	5144	5145	S	964	,	,	,	,	O	punct	O	-1	O
+0	42	962	5146	5154		964	appalled	appalled	appal	VBN	O	ccomp	O	-1	O
+0	42	963	5154	5155	N	964	,	,	,	,	O	punct	O	-1	O
+0	42	964	5156	5160	S	-1	ends	ends	end	VBZ	O	null	O	-1	B-verb.stative
+0	42	965	5161	5164	S	966	his	his	he	PRP$	O	poss	O	2	O
+0	42	966	5165	5172	S	964	tenancy	tenancy	tenancy	NN	O	dobj	O	-1	B-noun.act
+0	42	967	5173	5175	S	966	at	at	at	IN	O	prep	O	-1	O
+0	42	968	5176	5187	S	969	Thrushcross	Thrushcross	Thrushcross	NNP	PERSON	nn	O	9	B-noun.location
+0	42	969	5188	5194	S	967	Grange	Grange	Grange	NNP	PERSON	pobj	O	9	I-noun.location
+0	42	970	5195	5198	S	966	and	and	and	CC	O	cc	O	-1	O
+0	42	971	5199	5206	S	966	returns	returns	return	NNS	O	conj	O	-1	B-noun.communication
+0	42	972	5207	5209	S	971	to	to	to	TO	O	prep	O	-1	O
+0	42	973	5210	5216		972	London	London	London	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	42	974	5216	5217	S	964	.	.	.	.	O	punct	O	-1	O
+0	43	975	5218	5225		982	However	However	however	RB	O	advmod	O	-1	O
+0	43	976	5225	5226	N	982	,	,	,	,	O	punct	O	-1	O
+0	43	977	5227	5230	S	978	six	six	six	CD	DATE	num	O	-1	O
+0	43	978	5231	5237	S	979	months	months	month	NNS	DATE	dep	O	-1	B-noun.time
+0	43	979	5238	5243		982	later	later	later	RB	DATE	advmod	O	-1	O
+0	43	980	5243	5244	S	982	,	,	,	,	O	punct	O	-1	O
+0	43	981	5245	5247	S	982	he	he	he	PRP	O	nsubj	O	2	O
+0	43	982	5248	5252	S	-1	pays	pays	pay	VBZ	O	null	O	-1	B-verb.possession
+0	43	983	5253	5254	S	984	a	a	a	DT	O	det	O	-1	O
+0	43	984	5255	5260	S	982	visit	visit	visit	NN	O	dobj	O	-1	B-noun.act
+0	43	985	5261	5263	S	984	to	to	to	TO	O	prep	O	-1	O
+0	43	986	5264	5269		985	Nelly	Nelly	Nelly	NNP	PERSON	pobj	O	6	O
+0	43	987	5269	5270	S	982	,	,	,	,	O	punct	O	-1	O
+0	43	988	5271	5274	S	982	and	and	and	CC	O	cc	O	-1	O
+0	43	989	5275	5281	S	982	learns	learns	learn	VBZ	O	conj	O	-1	B-verb.cognition
+0	43	990	5282	5284	S	989	of	of	of	IN	O	prep	O	-1	O
+0	43	991	5285	5292	N	992	further	further	further	JJ	O	amod	O	-1	O
+0	43	992	5293	5305	S	990	developments	developments	development	NNS	O	pobj	O	-1	B-noun.process
+0	43	993	5306	5308	S	992	in	in	in	IN	O	prep	O	-1	O
+0	43	994	5309	5312	S	995	the	the	the	DT	O	det	O	-1	O
+0	43	995	5313	5318		993	story	story	story	NN	O	pobj	O	-1	B-noun.communication
+0	43	996	5318	5319	S	982	.	.	.	.	O	punct	O	-1	O
+0	44	997	5320	5328	S	1000	Although	Although	although	IN	O	mark	O	-1	O
+0	44	998	5329	5338	S	1000	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	8	B-noun.person
+0	44	999	5339	5349	S	1000	originally	originally	originally	RB	O	advmod	O	-1	O
+0	44	1000	5350	5356	N	1014	mocked	mocked	mock	VBD	O	advcl	O	-1	B-verb.communication
+0	44	1001	5357	5364		1003	Hareton	Hareton	Hareton	NNP	PERSON	poss	O	1	B-noun.person
+0	44	1002	5364	5366	S	1001	’s	's	's	POS	O	possessive	O	-1	O
+0	44	1003	5367	5376	S	1006	ignorance	ignorance	ignorance	NN	O	nsubj	O	-1	B-noun.cognition
+0	44	1004	5377	5380	S	1003	and	and	and	CC	O	cc	O	-1	O
+0	44	1005	5381	5391	S	1003	illiteracy	illiteracy	illiteracy	NN	O	conj	O	-1	B-noun.cognition
+0	44	1006	5392	5393		1000	(	-LRB-	-lrb-	-LRB-	O	ccomp	O	-1	O
+0	44	1007	5393	5395	S	1006	in	in	in	IN	O	prep	O	-1	O
+0	44	1008	5396	5398	S	1009	an	an	a	DT	O	det	O	-1	O
+0	44	1009	5399	5402	S	1007	act	act	act	NN	O	pobj	O	-1	B-noun.Tops
+0	44	1010	5403	5405	S	1009	of	of	of	IN	O	prep	O	-1	O
+0	44	1011	5406	5417		1010	retribution	retribution	retribution	NN	O	pobj	O	-1	B-noun.possession
+0	44	1012	5417	5418	S	1014	,	,	,	,	O	punct	O	-1	O
+0	44	1013	5419	5429	N	1014	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	O
+0	44	1014	5430	5435	S	-1	ended	ended	end	VBD	O	null	O	-1	B-verb.stative
+0	44	1015	5436	5443		1017	Hareton	Hareton	Hareton	NNP	PERSON	poss	O	1	B-noun.person
+0	44	1016	5443	5445	S	1015	’s	's	's	POS	O	possessive	O	-1	O
+0	44	1017	5446	5455	S	1014	education	education	education	NN	O	dobj	O	-1	B-noun.act
+0	44	1018	5456	5461	S	1020	after	after	after	IN	O	mark	O	-1	O
+0	44	1019	5462	5469	S	1020	Hindley	Hindley	Hindley	NNP	PERSON	nsubj	O	10	B-noun.person
+0	44	1020	5470	5474		1014	died	died	die	VBD	O	advcl	O	-1	B-verb.change
+0	44	1021	5474	5475		1024	)	-RRB-	-rrb-	-RRB-	O	advmod	O	-1	O
+0	44	1022	5475	5476	S	1024	,	,	,	,	O	punct	O	-1	O
+0	44	1023	5477	5486	S	1024	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	8	B-noun.person
+0	44	1024	5487	5492	S	1020	grows	grows	grow	VBZ	O	ccomp	O	-1	B-verb.change
+0	44	1025	5493	5495	N	1026	to	to	to	TO	O	aux	O	-1	O
+0	44	1026	5496	5500	S	1024	love	love	love	VB	O	xcomp	O	-1	B-verb.emotion
+0	44	1027	5501	5508	S	1026	Hareton	Hareton	Hareton	NNP	PERSON	dobj	O	1	B-noun.person
+0	44	1028	5509	5511	S	1030	as	as	as	IN	O	mark	O	-1	O
+0	44	1029	5512	5516	S	1030	they	they	they	PRP	O	nsubj	O	-1	O
+0	44	1030	5517	5521	S	1026	live	live	live	VBP	O	advcl	O	-1	B-verb.stative
+0	44	1031	5522	5530	S	1030	together	together	together	RB	O	advmod	O	-1	O
+0	44	1032	5531	5533	S	1030	at	at	at	IN	O	prep	O	-1	O
+0	44	1033	5534	5543	S	1034	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.location
+0	44	1034	5544	5551		1032	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.location
+0	44	1035	5551	5552	S	1014	.	.	.	.	O	punct	O	-1	O
+0	45	1036	5553	5563	N	1041	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubjpass	O	4	B-noun.person
+0	45	1037	5564	5571	S	1041	becomes	becomes	become	VBZ	O	auxpass	O	-1	B-verb.change
+0	45	1038	5572	5576	S	1041	more	more	more	RBR	O	advmod	O	-1	O
+0	45	1039	5577	5580	S	1038	and	and	and	CC	O	cc	O	-1	O
+0	45	1040	5581	5585	S	1038	more	more	more	RBR	O	conj	O	-1	O
+0	45	1041	5586	5594	S	-1	obsessed	obsessed	obsess	VBN	O	null	O	-1	B-verb.emotion
+0	45	1042	5595	5599	S	1041	with	with	with	IN	O	prep	O	-1	O
+0	45	1043	5600	5603	S	1044	the	the	the	DT	O	det	O	-1	O
+0	45	1044	5604	5610	S	1042	memory	memory	memory	NN	O	pobj	O	-1	B-noun.cognition
+0	45	1045	5611	5613	S	1044	of	of	of	IN	O	prep	O	-1	O
+0	45	1046	5614	5617	S	1048	the	the	the	DT	O	det	O	-1	O
+0	45	1047	5618	5623	S	1048	elder	elder	elder	JJR	O	amod	O	-1	O
+0	45	1048	5624	5633		1045	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	8	B-noun.person
+0	45	1049	5633	5634	N	1041	,	,	,	,	O	punct	O	-1	O
+0	45	1050	5635	5637	S	1041	to	to	to	TO	O	prep	O	-1	O
+0	45	1051	5638	5641	S	1052	the	the	the	DT	O	det	O	-1	O
+0	45	1052	5642	5648	S	1050	extent	extent	extent	NN	O	pobj	O	-1	B-noun.state
+0	45	1053	5649	5653	S	1055	that	that	that	IN	O	complm	O	-1	O
+0	45	1054	5654	5656	S	1055	he	he	he	PRP	O	nsubj	O	6	O
+0	45	1055	5657	5663	S	1052	begins	begins	begin	VBZ	O	ccomp	O	-1	B-verb.change
+0	45	1056	5664	5672	S	1055	speaking	speaking	speak	VBG	O	dep	O	-1	B-verb.communication
+0	45	1057	5673	5675	S	1056	to	to	to	TO	O	prep	O	-1	O
+0	45	1058	5676	5679	S	1059	her	her	she	PRP$	O	poss	O	8	O
+0	45	1059	5680	5685		1057	ghost	ghost	ghost	NN	O	pobj	O	-1	B-noun.cognition
+0	45	1060	5685	5686	S	1041	.	.	.	.	O	punct	O	-1	O
+0	46	1061	5687	5697	S	1064	Everything	Everything	everything	NN	O	nsubj	O	-1	O
+0	46	1062	5698	5700	N	1063	he	he	he	PRP	O	nsubj	O	6	O
+0	46	1063	5701	5705	S	1061	sees	sees	see	VBZ	O	rcmod	O	-1	B-verb.cognition
+0	46	1064	5706	5713	S	-1	reminds	reminds	remind	VBZ	O	null	O	-1	B-verb.cognition
+0	46	1065	5714	5717	S	1064	him	him	he	PRP	O	dobj	O	6	O
+0	46	1066	5718	5720	S	1064	of	of	of	IN	O	prep	O	-1	O
+0	46	1067	5721	5724		1066	her	her	she	PRP	O	pobj	O	8	O
+0	46	1068	5724	5725	S	1064	.	.	.	.	O	punct	O	-1	O
+0	47	1069	5726	5733	S	1073	Shortly	Shortly	shortly	RB	O	advmod	O	-1	O
+0	47	1070	5734	5739	S	1073	after	after	after	IN	O	dep	O	-1	O
+0	47	1071	5740	5741	S	1072	a	a	a	DT	O	det	O	-1	O
+0	47	1072	5742	5747	S	1073	night	night	night	NN	TIME	nsubj	O	-1	B-noun.time
+0	47	1073	5748	5753	S	1080	spent	spent	spend	VBD	O	ccomp	O	-1	B-verb.stative
+0	47	1074	5754	5761	S	1073	walking	walking	walk	VBG	O	xcomp	O	-1	B-verb.motion
+0	47	1075	5762	5764	N	1074	on	on	on	IN	O	prep	O	-1	O
+0	47	1076	5765	5768	S	1077	the	the	the	DT	O	det	O	-1	O
+0	47	1077	5769	5774		1075	moors	moors	moor	NNS	O	pobj	O	-1	B-noun.person
+0	47	1078	5774	5775	S	1080	,	,	,	,	O	punct	O	-1	O
+0	47	1079	5776	5786	S	1080	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	O
+0	47	1080	5787	5791		-1	dies	dies	die	VBZ	O	null	O	-1	B-verb.change
+0	47	1081	5791	5792	S	1080	.	.	.	.	O	punct	O	-1	O
+0	48	1082	5793	5800	S	1086	Hareton	Hareton	Hareton	NNP	PERSON	nsubj	O	1	B-noun.person
+0	48	1083	5801	5804	S	1082	and	and	and	CC	O	cc	O	-1	O
+0	48	1084	5805	5810	S	1085	young	young	young	JJ	O	amod	O	-1	O
+0	48	1085	5811	5820	S	1082	Catherine	Catherine	Catherine	NNP	PERSON	conj	O	8	B-noun.person
+0	48	1086	5821	5828	N	-1	inherit	inherit	inherit	VB	O	null	O	-1	B-verb.possession
+0	48	1087	5829	5838	S	1088	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	48	1088	5839	5846	S	1086	Heights	Heights	Heights	NNP	LOCATION	dobj	O	-1	I-noun.person
+0	48	1089	5847	5850	S	1088	and	and	and	CC	O	cc	O	-1	O
+0	48	1090	5851	5862	S	1091	Thrushcross	Thrushcross	Thrushcross	NNP	PERSON	nn	O	9	B-noun.person
+0	48	1091	5863	5869		1088	Grange	Grange	Grange	NNP	PERSON	conj	O	9	I-noun.person
+0	48	1092	5869	5870	S	1086	,	,	,	,	O	punct	O	-1	O
+0	48	1093	5871	5874	S	1086	and	and	and	CC	O	cc	O	-1	O
+0	48	1094	5875	5879	S	1095	they	they	they	PRP	O	nsubj	O	-1	O
+0	48	1095	5880	5884	S	1086	plan	plan	plan	VBP	O	conj	O	-1	B-verb.cognition
+0	48	1096	5885	5887	S	1098	to	to	to	TO	O	aux	O	-1	O
+0	48	1097	5888	5890	S	1098	be	be	be	VB	O	auxpass	O	-1	O
+0	48	1098	5891	5898	N	1095	married	married	marry	VBN	O	xcomp	O	-1	B-verb.social
+0	48	1099	5899	5901	S	1098	on	on	on	IN	O	prep	O	-1	O
+0	48	1100	5902	5905	S	1103	the	the	the	DT	DATE	det	O	-1	O
+0	48	1101	5906	5910	S	1103	next	next	next	JJ	DATE	amod	O	-1	O
+0	48	1102	5911	5914	S	1103	New	New	New	NNP	DATE	nn	O	-1	B-noun.group
+0	48	1103	5915	5919		1105	Year	Year	Year	NNP	DATE	poss	O	-1	I-noun.group
+0	48	1104	5919	5921	S	1103	’s	's	's	POS	DATE	possessive	O	-1	O
+0	48	1105	5922	5925		1099	Day	Day	day	NN	DATE	pobj	O	-1	B-noun.time
+0	48	1106	5925	5926	S	1086	.	.	.	.	O	punct	O	-1	O
+0	49	1107	5927	5932	S	1116	After	After	after	IN	O	prep	O	-1	O
+0	49	1108	5933	5940	S	1107	hearing	hearing	hear	VBG	O	pcomp	O	-1	B-verb.perception
+0	49	1109	5941	5944	S	1110	the	the	the	DT	O	det	O	-1	O
+0	49	1110	5945	5948	S	1108	end	end	end	NN	O	dobj	O	-1	B-noun.location
+0	49	1111	5949	5951	S	1110	of	of	of	IN	O	prep	O	-1	O
+0	49	1112	5952	5955	S	1113	the	the	the	DT	O	det	O	-1	O
+0	49	1113	5956	5961		1111	story	story	story	NN	O	pobj	O	-1	B-noun.communication
+0	49	1114	5961	5962	N	1116	,	,	,	,	O	punct	O	-1	O
+0	49	1115	5963	5971	S	1116	Lockwood	Lockwood	Lockwood	NNP	PERSON	nsubj	O	2	O
+0	49	1116	5972	5976	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.stative
+0	49	1117	5977	5979	S	1118	to	to	to	TO	O	aux	O	-1	O
+0	49	1118	5980	5985	S	1116	visit	visit	visit	VB	O	xcomp	O	-1	B-verb.social
+0	49	1119	5986	5989	S	1120	the	the	the	DT	O	det	O	-1	O
+0	49	1120	5990	5996	S	1118	graves	graves	grave	NNS	O	dobj	O	-1	B-noun.time
+0	49	1121	5997	5999	S	1120	of	of	of	IN	O	prep	O	-1	O
+0	49	1122	6000	6009	S	1121	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	8	B-noun.person
+0	49	1123	6010	6013	S	1122	and	and	and	CC	O	cc	O	-1	O
+0	49	1124	6014	6024		1122	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	conj	O	4	O
+0	49	1125	6024	6025	S	1116	.	.	.	.	O	punct	O	-1	O
+0	50	1126	6026	6029	S	1127	The	The	the	DT	O	det	O	-1	O
+0	50	1127	6030	6035	S	1132	story	story	story	NN	O	nsubjpass	O	-1	B-noun.communication
+0	50	1128	6036	6038	S	1127	of	of	of	IN	O	prep	O	-1	O
+0	50	1129	6039	6048	S	1130	Wuthering	Wuthering	Wuthering	NNP	LOCATION	nn	O	-1	B-noun.person
+0	50	1130	6049	6056	S	1128	Heights	Heights	Heights	NNP	LOCATION	pobj	O	-1	I-noun.person
+0	50	1131	6057	6059	S	1132	is	is	be	VBZ	O	auxpass	O	-1	O
+0	50	1132	6060	6064	N	-1	told	told	tell	VBN	O	null	O	-1	B-verb.communication
+0	50	1133	6065	6072	S	1132	through	through	through	IN	O	prep	O	-1	O
+0	50	1134	6073	6083	S	1133	flashbacks	flashbacks	flashback	NNS	O	pobj	O	-1	B-noun.communication
+0	50	1135	6084	6092	S	1134	recorded	recorded	record	VBN	O	partmod	O	-1	B-verb.communication
+0	50	1136	6093	6095	S	1135	in	in	in	IN	O	prep	O	-1	O
+0	50	1137	6096	6101	S	1138	diary	diary	diary	NN	O	nn	O	-1	B-noun.communication
+0	50	1138	6102	6109		1136	entries	entries	entry	NNS	O	pobj	O	-1	B-noun.communication
+0	50	1139	6109	6110	S	1132	,	,	,	,	O	punct	O	-1	O
+0	50	1140	6111	6114	S	1132	and	and	and	CC	O	cc	O	-1	O
+0	50	1141	6115	6121	S	1144	events	events	event	NNS	O	nsubjpass	O	-1	B-noun.event
+0	50	1142	6122	6125	S	1144	are	are	be	VBP	O	auxpass	O	-1	B-verb.stative
+0	50	1143	6126	6131	N	1144	often	often	often	RB	O	advmod	O	-1	O
+0	50	1144	6132	6141	S	1132	presented	presented	present	VBN	O	conj	O	-1	B-verb.perception
+0	50	1145	6142	6145	S	1144	out	out	out	IN	O	prep	O	-1	O
+0	50	1146	6146	6148	S	1145	of	of	of	IN	O	dep	O	-1	O
+0	50	1147	6149	6162	S	1148	chronological	chronological	chronological	JJ	O	amod	O	-1	O
+0	50	1148	6163	6168		1146	order	order	order	NN	O	pobj	O	-1	O
+0	50	1149	6168	6169		1144	—	--	--	:	O	punct	O	-1	O
+0	50	1150	6169	6177		1152	Lockwood	Lockwood	Lockwood	NNP	PERSON	poss	O	2	O
+0	50	1151	6177	6179	S	1150	’s	's	's	POS	O	possessive	O	-1	O
+0	50	1152	6180	6189	S	1153	narrative	narrative	narrative	JJ	O	nsubj	O	-1	O
+0	50	1153	6190	6195	N	1144	takes	takes	take	VBZ	O	parataxis	O	-1	B-verb.change
+0	50	1154	6196	6201	S	1153	place	place	place	NN	O	dobj	O	-1	I-verb.change
+0	50	1155	6202	6207	S	1153	after	after	after	IN	O	prep	O	-1	O
+0	50	1156	6208	6213		1158	Nelly	Nelly	Nelly	NNP	PERSON	poss	O	6	B-noun.person
+0	50	1157	6213	6215	S	1156	’s	's	's	POS	O	possessive	O	-1	O
+0	50	1158	6216	6225		1155	narrative	narrative	narrative	NN	O	pobj	O	-1	B-noun.communication
+0	50	1159	6225	6226	S	1153	,	,	,	,	O	punct	O	-1	O
+0	50	1160	6227	6230	S	1153	for	for	for	IN	O	prep	O	-1	O
+0	50	1161	6231	6239		1160	instance	instance	instance	NN	O	pobj	O	-1	B-noun.event
+0	50	1162	6239	6240	S	1153	,	,	,	,	O	punct	O	-1	O
+0	50	1163	6241	6244	S	1153	but	but	but	CC	O	cc	O	-1	O
+0	50	1164	6245	6247	S	1165	is	is	be	VBZ	O	auxpass	O	-1	O
+0	50	1165	6248	6260	N	1153	interspersed	interspersed	intersperse	VBN	O	conj	O	-1	B-verb.contact
+0	50	1166	6261	6265	S	1165	with	with	with	IN	O	prep	O	-1	O
+0	50	1167	6266	6271		1169	Nelly	Nelly	Nelly	NNP	PERSON	poss	O	6	B-noun.person
+0	50	1168	6271	6273	S	1167	’s	's	's	POS	O	possessive	O	-1	O
+0	50	1169	6274	6279	S	1166	story	story	story	NN	O	pobj	O	-1	B-noun.communication
+0	50	1170	6280	6282	S	1169	in	in	in	IN	O	prep	O	-1	O
+0	50	1171	6283	6286	S	1172	his	his	he	PRP$	O	poss	O	6	O
+0	50	1172	6287	6294		1170	journal	journal	journal	NN	O	pobj	O	-1	B-noun.communication
+0	50	1173	6294	6295	S	1132	.	.	.	.	O	punct	O	-1	O
+0	51	1174	6296	6308		1178	Nevertheless	Nevertheless	nevertheless	RB	O	advmod	O	-1	O
+0	51	1175	6308	6309	S	1178	,	,	,	,	O	punct	O	-1	O
+0	51	1176	6310	6313	S	1177	the	the	the	DT	O	det	O	-1	O
+0	51	1177	6314	6319	S	1178	novel	novel	novel	JJ	O	nsubj	O	-1	O
+0	51	1178	6320	6328	N	-1	contains	contains	contain	VBZ	O	null	O	-1	B-verb.stative
+0	51	1179	6329	6335	S	1178	enough	enough	enough	RB	O	advmod	O	-1	O
+0	51	1180	6336	6341	S	1179	clues	clues	clue	NNS	O	dep	O	-1	B-noun.communication
+0	51	1181	6342	6344	S	1182	to	to	to	TO	O	aux	O	-1	O
+0	51	1182	6345	6351	S	1180	enable	enable	enable	VB	O	infmod	O	-1	B-verb.change
+0	51	1183	6352	6354	S	1185	an	an	a	DT	O	det	O	-1	O
+0	51	1184	6355	6366	S	1185	approximate	approximate	approximate	JJ	O	amod	O	-1	O
+0	51	1185	6367	6381	S	1182	reconstruction	reconstruction	reconstruction	NN	O	dobj	O	-1	B-noun.time
+0	51	1186	6382	6384	S	1185	of	of	of	IN	O	prep	O	-1	O
+0	51	1187	6385	6388	S	1188	its	its	its	PRP$	O	poss	O	-1	O
+0	51	1188	6389	6399		1186	chronology	chronology	chronology	NN	O	pobj	O	-1	B-noun.relation
+0	51	1189	6399	6400	N	1188	,	,	,	,	O	punct	O	-1	O
+0	51	1190	6401	6406	S	1193	which	which	which	WDT	O	nsubjpass	O	-1	O
+0	51	1191	6407	6410	S	1193	was	was	be	VBD	O	auxpass	O	-1	B-verb.stative
+0	51	1192	6411	6422	S	1193	elaborately	elaborately	elaborately	RB	O	advmod	O	-1	O
+0	51	1193	6423	6431	S	1188	designed	designed	design	VBN	O	rcmod	O	-1	B-verb.creation
+0	51	1194	6432	6434	S	1193	by	by	by	IN	O	prep	O	-1	O
+0	51	1195	6435	6440	S	1196	Emily	Emily	Emily	NNP	PERSON	nn	O	-1	B-noun.person
+0	51	1196	6441	6447		1194	Brontë	Brontë	Brontë	NNP	PERSON	pobj	O	-1	I-noun.person
+0	51	1197	6447	6448	S	1178	.	.	.	.	O	punct	O	-1	O
+0	52	1198	6449	6452	S	1206	For	For	for	IN	O	prep	O	-1	O
+0	52	1199	6453	6461		1198	instance	instance	instance	NN	O	pobj	O	-1	B-noun.event
+0	52	1200	6461	6462	S	1206	,	,	,	,	O	punct	O	-1	O
+0	52	1201	6463	6471		1204	Lockwood	Lockwood	Lockwood	NNP	PERSON	poss	O	2	B-noun.person
+0	52	1202	6471	6473	N	1201	’s	's	's	POS	O	possessive	O	-1	O
+0	52	1203	6474	6479	S	1204	diary	diary	diary	NN	O	nn	O	-1	B-noun.communication
+0	52	1204	6480	6487	S	1206	entries	entries	entry	NNS	O	nsubjpass	O	-1	B-noun.communication
+0	52	1205	6488	6491	S	1206	are	are	be	VBP	O	auxpass	O	-1	O
+0	52	1206	6492	6500	S	-1	recorded	recorded	record	VBN	O	null	O	-1	B-verb.communication
+0	52	1207	6501	6503	S	1206	in	in	in	IN	O	prep	O	-1	O
+0	52	1208	6504	6507	S	1210	the	the	the	DT	DATE	det	O	-1	O
+0	52	1209	6508	6512	S	1210	late	late	late	JJ	DATE	amod	O	-1	O
+0	52	1210	6513	6519	S	1207	months	months	month	NNS	DATE	pobj	O	-1	B-noun.time
+0	52	1211	6520	6522	S	1210	of	of	of	IN	DATE	prep	O	-1	O
+0	52	1212	6523	6527	S	1211	1801	1801	1801	CD	DATE	pobj	O	-1	O
+0	52	1213	6528	6531	N	1211	and	and	and	CC	O	cc	O	-1	O
+0	52	1214	6532	6534	S	1211	in	in	in	IN	O	conj	O	-1	O
+0	52	1215	6535	6544	S	1214	September	September	September	NNP	DATE	pobj	O	-1	O
+0	52	1216	6545	6549		1215	1802	1802	1802	CD	DATE	num	O	-1	O
+0	52	1217	6549	6550	N	1206	;	;	;	:	O	punct	O	-1	O
+0	52	1218	6551	6553	S	1222	in	in	in	IN	O	prep	O	-1	O
+0	52	1219	6554	6558		1218	1801	1801	1801	CD	DATE	pobj	O	-1	O
+0	52	1220	6558	6559	S	1222	,	,	,	,	O	punct	O	-1	O
+0	52	1221	6560	6565	S	1222	Nelly	Nelly	Nelly	NNP	PERSON	nsubj	O	6	O
+0	52	1222	6566	6571	N	1206	tells	tells	tell	VBZ	O	parataxis	O	-1	B-verb.communication
+0	52	1223	6572	6580	S	1222	Lockwood	Lockwood	Lockwood	NNP	PERSON	dep	O	2	B-noun.person
+0	52	1224	6581	6585	S	1227	that	that	that	IN	O	complm	O	-1	O
+0	52	1225	6586	6589	S	1227	she	she	she	PRP	O	nsubj	O	-1	O
+0	52	1226	6590	6593	S	1227	has	has	have	VBZ	O	aux	O	-1	O
+0	52	1227	6594	6599	S	1222	lived	lived	live	VBN	O	ccomp	O	-1	B-verb.stative
+0	52	1228	6600	6602	S	1227	at	at	at	IN	O	prep	O	-1	O
+0	52	1229	6603	6614	S	1230	Thrushcross	Thrushcross	Thrushcross	NNP	PERSON	nn	O	9	B-noun.location
+0	52	1230	6615	6621	S	1228	Grange	Grange	Grange	NNP	PERSON	pobj	O	9	I-noun.location
+0	52	1231	6622	6625	S	1227	for	for	for	IN	O	prep	O	-1	O
+0	52	1232	6626	6634	S	1233	eighteen	eighteen	eighteen	CD	DURATION	num	O	-1	O
+0	52	1233	6635	6640		1231	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	52	1234	6640	6641	N	1227	,	,	,	,	O	punct	O	-1	O
+0	52	1235	6642	6647	S	1227	since	since	since	IN	O	prep	O	-1	O
+0	52	1236	6648	6657		1238	Catherine	Catherine	Catherine	NNP	PERSON	poss	O	8	B-noun.person
+0	52	1237	6657	6659	S	1236	’s	's	's	POS	O	possessive	O	-1	O
+0	52	1238	6660	6668	S	1235	marriage	marriage	marriage	NN	O	pobj	O	-1	B-noun.state
+0	52	1239	6669	6671	S	1238	to	to	to	TO	O	prep	O	-1	O
+0	52	1240	6672	6677		1239	Edgar	Edgar	Edgar	NNP	PERSON	pobj	O	5	B-noun.person
+0	52	1241	6677	6678	S	1240	,	,	,	,	O	punct	O	-1	O
+0	52	1242	6679	6684	S	1246	which	which	which	WDT	O	nsubj	O	-1	O
+0	52	1243	6685	6689	S	1246	must	must	must	MD	O	aux	O	-1	O
+0	52	1244	6690	6694	S	1246	then	then	then	RB	O	advmod	O	-1	O
+0	52	1245	6695	6699	S	1246	have	have	have	VB	O	aux	O	-1	O
+0	52	1246	6700	6708	N	1240	occurred	occurred	occur	VBN	O	rcmod	O	-1	B-verb.change
+0	52	1247	6709	6711	S	1246	in	in	in	IN	O	prep	O	-1	O
+0	52	1248	6712	6716		1247	1783	1783	1783	CD	DATE	pobj	O	-1	O
+0	52	1249	6716	6717	S	1206	.	.	.	.	O	punct	O	-1	O
+0	53	1250	6718	6720	S	1251	We	We	we	PRP	O	nsubj	O	-1	O
+0	53	1251	6721	6725	S	-1	know	know	know	VBP	O	null	O	-1	B-verb.cognition
+0	53	1252	6726	6730	N	1255	that	that	that	IN	O	complm	O	-1	O
+0	53	1253	6731	6740	S	1255	Catherine	Catherine	Catherine	NNP	PERSON	nsubjpass	O	8	B-noun.person
+0	53	1254	6741	6744	S	1255	was	was	be	VBD	O	auxpass	O	-1	O
+0	53	1255	6745	6752	S	1251	engaged	engaged	engage	VBN	O	ccomp	O	-1	B-verb.social
+0	53	1256	6753	6755	S	1255	to	to	to	TO	O	prep	O	-1	O
+0	53	1257	6756	6761	S	1256	Edgar	Edgar	Edgar	NNP	PERSON	pobj	O	5	B-noun.person
+0	53	1258	6762	6765	S	1255	for	for	for	IN	O	prep	O	-1	O
+0	53	1259	6766	6771	S	1260	three	three	three	CD	DURATION	num	O	-1	O
+0	53	1260	6772	6777		1258	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	53	1261	6777	6778	S	1255	,	,	,	,	O	punct	O	-1	O
+0	53	1262	6779	6782	S	1255	and	and	and	CC	O	cc	O	-1	O
+0	53	1263	6783	6787	S	1266	that	that	that	IN	O	complm	O	-1	O
+0	53	1264	6788	6793	S	1266	Nelly	Nelly	Nelly	NNP	PERSON	nsubj	O	6	B-noun.person
+0	53	1265	6794	6797	N	1266	was	was	be	VBD	O	cop	O	-1	B-verb.stative
+0	53	1266	6798	6808	S	1287	twenty-two	twenty-two	twenty-two	CD	NUMBER	nsubjpass	O	-1	O
+0	53	1267	6809	6813	S	1270	when	when	when	WRB	O	advmod	O	-1	O
+0	53	1268	6814	6818	S	1270	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	53	1269	6819	6823	S	1270	were	were	be	VBD	O	auxpass	O	-1	O
+0	53	1270	6824	6831		1266	engaged	engaged	engage	VBN	O	dep	O	-1	B-verb.social
+0	53	1271	6831	6832	S	1270	,	,	,	,	O	punct	O	-1	O
+0	53	1272	6833	6835	S	1277	so	so	so	IN	O	mark	O	-1	O
+0	53	1273	6836	6839	S	1274	the	the	the	DT	O	det	O	-1	O
+0	53	1274	6840	6850	S	1277	engagement	engagement	engagement	NN	O	nsubj	O	-1	B-noun.act
+0	53	1275	6851	6855	S	1277	must	must	must	MD	O	aux	O	-1	O
+0	53	1276	6856	6860	S	1277	have	have	have	VB	O	aux	O	-1	O
+0	53	1277	6861	6866	N	1270	taken	taken	take	VBN	O	advcl	O	-1	B-verb.change
+0	53	1278	6867	6872	S	1277	place	place	place	NN	O	dobj	O	-1	I-verb.change
+0	53	1279	6873	6875	S	1277	in	in	in	IN	O	prep	O	-1	O
+0	53	1280	6876	6880		1279	1780	1780	1780	CD	DATE	pobj	O	-1	O
+0	53	1281	6880	6881	S	1266	,	,	,	,	O	punct	O	-1	O
+0	53	1282	6882	6885	N	1266	and	and	and	CC	O	cc	O	-1	O
+0	53	1283	6886	6891	S	1266	Nelly	Nelly	Nelly	NNP	PERSON	conj	O	6	B-noun.person
+0	53	1284	6892	6896	S	1287	must	must	must	MD	O	aux	O	-1	O
+0	53	1285	6897	6901	S	1287	have	have	have	VB	O	aux	O	-1	O
+0	53	1286	6902	6906	S	1287	been	been	be	VBN	O	auxpass	O	-1	O
+0	53	1287	6907	6911	S	1255	born	born	bear	VBN	O	conj	O	-1	B-verb.body
+0	53	1288	6912	6914	S	1287	in	in	in	IN	O	prep	O	-1	O
+0	53	1289	6915	6919		1288	1758	1758	1758	CD	DATE	pobj	O	-1	O
+0	53	1290	6919	6920	N	1251	.	.	.	.	O	punct	O	-1	O
+0	54	1291	6921	6926	S	1293	Since	Since	since	IN	O	prep	O	-1	O
+0	54	1292	6927	6932	S	1291	Nelly	Nelly	Nelly	NNP	PERSON	pobj	O	6	B-noun.person
+0	54	1293	6933	6935	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	54	1294	6936	6937	S	1296	a	a	a	DT	DURATION	det	O	-1	O
+0	54	1295	6938	6941	S	1296	few	few	few	JJ	DURATION	amod	O	-1	O
+0	54	1296	6942	6947	S	1297	years	years	year	NNS	DURATION	measure	O	-1	B-noun.time
+0	54	1297	6948	6953	S	1293	older	older	older	JJR	O	advmod	O	-1	O
+0	54	1298	6954	6958	S	1297	than	than	than	IN	O	prep	O	-1	O
+0	54	1299	6959	6968		1298	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	8	B-noun.person
+0	54	1300	6968	6969	S	1293	,	,	,	,	O	punct	O	-1	O
+0	54	1301	6970	6973	S	1293	and	and	and	CC	O	cc	O	-1	O
+0	54	1302	6974	6979	S	1316	since	since	since	IN	O	prep	O	-1	O
+0	54	1303	6980	6988	N	1304	Lockwood	Lockwood	Lockwood	NNP	PERSON	nn	O	2	B-noun.person
+0	54	1304	6989	6997	S	1302	comments	comments	comment	NNS	O	pobj	O	-1	B-noun.communication
+0	54	1305	6998	7002	S	1311	that	that	that	WDT	O	dobj	O	-1	O
+0	54	1306	7003	7013	S	1311	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubj	O	4	B-noun.person
+0	54	1307	7014	7016	S	1311	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	54	1308	7017	7022	S	1309	about	about	about	IN	DATE	quantmod	O	-1	O
+0	54	1309	7023	7028	S	1310	forty	forty	forty	CD	DATE	num	O	-1	O
+0	54	1310	7029	7034	S	1311	years	years	year	NNS	DATE	measure	O	-1	B-noun.time
+0	54	1311	7035	7038	S	1304	old	old	old	JJ	DATE	rcmod	O	-1	O
+0	54	1312	7039	7041	S	1311	in	in	in	IN	DATE	prep	O	-1	O
+0	54	1313	7042	7046		1312	1801	1801	1801	CD	DATE	pobj	O	-1	O
+0	54	1314	7046	7047	N	1316	,	,	,	,	O	punct	O	-1	O
+0	54	1315	7048	7050	S	1316	it	it	it	PRP	O	nsubj	O	-1	O
+0	54	1316	7051	7057	S	1293	stands	stands	stand	VBZ	O	conj	O	-1	B-verb.stative
+0	54	1317	7058	7060	S	1316	to	to	to	TO	O	prep	O	-1	O
+0	54	1318	7061	7067	S	1317	reason	reason	reason	NN	O	pobj	O	-1	B-noun.motive
+0	54	1319	7068	7072	S	1324	that	that	that	WDT	O	dobj	O	-1	O
+0	54	1320	7073	7083	S	1324	Heathcliff	Heathcliff	Heathcliff	NNP	PERSON	nsubjpass	O	4	B-noun.person
+0	54	1321	7084	7087	S	1320	and	and	and	CC	O	cc	O	-1	O
+0	54	1322	7088	7097	S	1320	Catherine	Catherine	Catherine	NNP	PERSON	conj	O	8	B-noun.person
+0	54	1323	7098	7102	S	1324	were	were	be	VBD	O	auxpass	O	-1	O
+0	54	1324	7103	7107	S	1318	born	born	bear	VBN	O	rcmod	O	-1	B-verb.body
+0	54	1325	7108	7114	S	1324	around	around	around	IN	O	prep	O	-1	O
+0	54	1326	7115	7119		1325	1761	1761	1761	CD	DATE	pobj	O	-1	O
+0	54	1327	7119	7120	N	1293	,	,	,	,	O	punct	O	-1	O
+0	54	1328	7121	7126	S	1329	three	three	three	CD	DURATION	num	O	-1	O
+0	54	1329	7127	7132	S	1293	years	years	year	NNS	DURATION	nsubj	O	-1	B-noun.time
+0	54	1330	7133	7138	S	1329	after	after	after	IN	O	prep	O	-1	O
+0	54	1331	7139	7144		1330	Nelly	Nelly	Nelly	NNP	PERSON	pobj	O	6	O
+0	54	1332	7144	7145	S	1293	.	.	.	.	O	punct	O	-1	O
+0	55	1333	7146	7151	S	1334	There	There	there	EX	O	expl	O	-1	O
+0	55	1334	7152	7155	S	-1	are	are	be	VBP	O	null	O	-1	B-verb.stative
+0	55	1335	7156	7163	S	1337	several	several	several	JJ	O	amod	O	-1	O
+0	55	1336	7164	7169	S	1337	other	other	other	JJ	O	amod	O	-1	O
+0	55	1337	7170	7175	S	1334	clues	clues	clue	NNS	O	nsubj	O	-1	B-noun.communication
+0	55	1338	7176	7180	S	1337	like	like	like	IN	O	prep	O	-1	O
+0	55	1339	7181	7185	N	1338	this	this	this	DT	O	pobj	O	-1	O
+0	55	1340	7186	7188	S	1337	in	in	in	IN	O	prep	O	-1	O
+0	55	1341	7189	7192	S	1343	the	the	the	DT	O	det	O	-1	O
+0	55	1342	7193	7198	S	1343	novel	novel	novel	JJ	O	amod	O	-1	O
+0	55	1343	7199	7200		1340	(	-LRB-	-lrb-	-LRB-	O	pobj	O	-1	O
+0	55	1344	7200	7204	S	1345	such	such	such	JJ	O	dep	O	-1	O
+0	55	1345	7205	7207	S	1343	as	as	as	IN	O	prep	O	-1	O
+0	55	1346	7208	7215		1348	Hareton	Hareton	Hareton	NNP	PERSON	poss	O	1	B-noun.person
+0	55	1347	7215	7217	S	1346	’s	's	's	POS	O	possessive	O	-1	O
+0	55	1348	7218	7223		1345	birth	birth	birth	NN	O	pobj	O	-1	B-noun.time
+0	55	1349	7223	7224	S	1348	,	,	,	,	O	punct	O	-1	O
+0	55	1350	7225	7230	S	1351	which	which	which	WDT	O	nsubj	O	-1	O
+0	55	1351	7231	7237	S	1348	occurs	occurs	occur	VBZ	O	rcmod	O	-1	B-verb.change
+0	55	1352	7238	7240	S	1351	in	in	in	IN	O	prep	O	-1	O
+0	55	1353	7241	7245		1352	June	June	June	NNP	DATE	pobj	O	-1	O
+0	55	1354	7245	7246	S	1337	,	,	,	,	DATE	punct	O	-1	O
+0	55	1355	7247	7251		1356	1778	1778	1778	CD	DATE	num	O	-1	O
+0	55	1356	7251	7252		1337	)	-RRB-	-rrb-	-RRB-	O	appos	O	-1	O
+0	55	1357	7252	7253	N	1334	.	.	.	.	O	punct	O	-1	O
+0	56	1358	7254	7257	S	1360	The	The	the	DT	O	det	O	-1	O
+0	56	1359	7258	7267	S	1360	following	following	follow	VBG	O	amod	O	-1	O
+0	56	1360	7268	7278	S	1362	chronology	chronology	chronology	NN	O	nsubjpass	O	-1	B-noun.relation
+0	56	1361	7279	7281	S	1362	is	is	be	VBZ	O	auxpass	O	-1	O
+0	56	1362	7282	7287	S	-1	based	based	base	VBN	O	null	O	-1	B-verb.cognition
+0	56	1363	7288	7290	S	1362	on	on	on	IN	O	prep	O	-1	O
+0	56	1364	7291	7296	S	1365	those	those	those	DT	O	det	O	-1	O
+0	56	1365	7297	7302		1363	clues	clues	clue	NNS	O	pobj	O	-1	B-noun.communication
+0	56	1366	7302	7303	S	1362	,	,	,	,	O	punct	O	-1	O
+0	56	1367	7304	7307	S	1362	and	and	and	CC	O	cc	O	-1	O
+0	56	1368	7308	7314	S	1370	should	should	should	MD	O	aux	O	-1	O
+0	56	1369	7315	7322	N	1370	closely	closely	closely	RB	O	advmod	O	-1	O
+0	56	1370	7323	7334	S	1362	approximate	approximate	approximate	JJ	O	conj	O	-1	O
+0	56	1371	7335	7338	S	1372	the	the	the	DT	O	det	O	-1	O
+0	56	1372	7339	7345	S	1370	timing	timing	timing	NN	O	dobj	O	-1	B-noun.attribute
+0	56	1373	7346	7348	S	1372	of	of	of	IN	O	prep	O	-1	O
+0	56	1374	7349	7352	S	1375	the	the	the	DT	O	det	O	-1	O
+0	56	1375	7353	7358		1378	novel	novel	novel	NN	O	poss	O	-1	B-noun.communication
+0	56	1376	7358	7360	S	1375	’s	's	's	POS	O	possessive	O	-1	O
+0	56	1377	7361	7370	S	1378	important	important	important	JJ	O	amod	O	-1	O
+0	56	1378	7371	7377		1373	events	events	event	NNS	O	pobj	O	-1	B-noun.event
+0	56	1379	7377	7378	S	1362	.	.	.	.	O	punct	O	-1	O
+0	57	1380	7379	7380	S	1382	A	A	a	DT	O	det	O	-1	O
+0	57	1381	7381	7382		1382	“	``	``	``	O	punct	B-QUOTE	-1	O
+0	57	1382	7382	7383		1387	~	~	~	NN	O	nsubj	I-QUOTE	-1	O
+0	57	1383	7383	7384	S	1382	”	''	''	''	O	punct	I-QUOTE	-1	O
+0	57	1384	7385	7391	N	1382	before	before	before	IN	O	prep	O	-1	O
+0	57	1385	7392	7393	S	1386	a	a	a	DT	O	det	O	-1	O
+0	57	1386	7394	7398	S	1384	date	date	date	NN	O	pobj	O	-1	B-noun.time
+0	57	1387	7399	7408	S	-1	indicates	indicates	indicate	VBZ	O	null	O	-1	B-verb.communication
+0	57	1388	7409	7413	S	1394	that	that	that	IN	O	complm	O	-1	O
+0	57	1389	7414	7416	S	1394	it	it	it	PRP	O	nsubjpass	O	-1	O
+0	57	1390	7417	7420		1394	can	can	can	MD	O	aux	O	-1	O
+0	57	1391	7420	7423	S	1394	not	not	not	RB	O	neg	O	-1	O
+0	57	1392	7424	7426	S	1394	be	be	be	VB	O	auxpass	O	-1	B-verb.stative
+0	57	1393	7427	7436	S	1394	precisely	precisely	precisely	RB	O	advmod	O	-1	O
+0	57	1394	7437	7447	S	1387	determined	determined	determine	VBN	O	ccomp	O	-1	B-verb.communication
+0	57	1395	7448	7452	S	1394	from	from	from	IN	O	prep	O	-1	O
+0	57	1396	7453	7456	N	1397	the	the	the	DT	O	det	O	-1	O
+0	57	1397	7457	7465	S	1395	evidence	evidence	evidence	NN	O	pobj	O	-1	B-noun.cognition
+0	57	1398	7466	7468	S	1397	in	in	in	IN	O	prep	O	-1	O
+0	57	1399	7469	7472	S	1398	the	the	the	DT	O	pobj	O	-1	O
+0	57	1400	7473	7478		1399	novel	novel	novel	JJ	O	amod	O	-1	O
+0	57	1401	7478	7479	S	1400	,	,	,	,	O	punct	O	-1	O
+0	57	1402	7480	7483	S	1400	but	but	but	CC	O	cc	O	-1	O
+0	57	1403	7484	7488	S	1404	only	only	only	RB	O	advmod	O	-1	O
+0	57	1404	7489	7496	S	1405	closely	closely	closely	RB	O	advmod	O	-1	O
+0	57	1405	7497	7506		1400	estimated	estimated	estimate	VBN	O	conj	O	-1	B-verb.cognition
+0	57	1406	7506	7507	N	1387	.	.	.	.	O	punct	O	-1	O

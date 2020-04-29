@@ -1,0 +1,264 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	3	S	1	Two	Two	two	CD	NUMBER	num	O	-1	O
+0	0	1	4	7		7	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	0	2	7	8	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	9	17	S	1	Vladimir	Vladimir	Vladimir	NNP	PERSON	appos	O	0	B-noun.person
+0	0	4	18	21	S	3	and	and	and	CC	O	cc	O	-1	O
+0	0	5	22	30		3	Estragon	Estragon	Estragon	NNP	ORGANIZATION	conj	O	1	O
+0	0	6	30	31	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	7	32	36	S	-1	meet	meet	meet	VBP	O	null	O	-1	B-verb.motion
+0	0	8	37	41	S	7	near	near	near	IN	O	prep	O	-1	O
+0	0	9	42	43	S	10	a	a	a	DT	O	det	O	-1	O
+0	0	10	44	48		8	tree	tree	tree	NN	O	pobj	O	-1	B-noun.plant
+0	0	11	48	49	S	7	.	.	.	.	O	punct	O	-1	O
+0	1	12	50	54	S	13	They	They	they	PRP	O	nsubj	O	-1	O
+0	1	13	55	63	S	-1	converse	converse	converse	VBP	O	null	O	-1	B-verb.communication
+0	1	14	64	66	S	13	on	on	on	IN	O	prep	O	-1	O
+0	1	15	67	74	S	16	various	various	various	JJ	O	amod	O	-1	O
+0	1	16	75	81	S	14	topics	topics	topic	NNS	O	pobj	O	-1	B-noun.communication
+0	1	17	82	85	S	13	and	and	and	CC	O	cc	O	-1	O
+0	1	18	86	92	S	13	reveal	reveal	reveal	VBP	O	conj	O	-1	B-verb.perception
+0	1	19	93	97	S	22	that	that	that	IN	O	complm	O	-1	O
+0	1	20	98	102	S	22	they	they	they	PRP	O	nsubj	O	-1	O
+0	1	21	103	106	S	22	are	are	be	VBP	O	aux	O	-1	O
+0	1	22	107	114	S	18	waiting	waiting	wait	VBG	O	ccomp	O	-1	B-verb.stative
+0	1	23	115	120	S	22	there	there	there	RB	O	advmod	O	-1	O
+0	1	24	121	124	S	22	for	for	for	IN	O	prep	O	-1	O
+0	1	25	125	126	S	26	a	a	a	DT	O	det	O	-1	O
+0	1	26	127	130	S	24	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	1	27	131	136	S	26	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	1	28	137	142		27	Godot	Godot	Godot	NNP	O	dep	O	-1	B-noun.person
+0	1	29	142	143	S	13	.	.	.	.	O	punct	O	-1	O
+0	2	30	144	149	S	32	While	While	while	IN	O	mark	O	-1	O
+0	2	31	150	154	S	32	they	they	they	PRP	O	nsubj	O	-1	O
+0	2	32	155	159		37	wait	wait	wait	VBP	O	advcl	O	-1	B-verb.stative
+0	2	33	159	160	S	37	,	,	,	,	O	punct	O	-1	O
+0	2	34	161	164	S	36	two	two	two	CD	NUMBER	num	O	-1	O
+0	2	35	165	170	S	36	other	other	other	JJ	O	amod	O	-1	O
+0	2	36	171	174	S	37	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	2	37	175	180		-1	enter	enter	enter	VBP	O	null	O	-1	B-verb.motion
+0	2	38	180	181	S	37	.	.	.	.	O	punct	O	-1	O
+0	3	39	182	187	S	40	Pozzo	Pozzo	Pozzo	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	3	40	188	190	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	3	41	191	193	S	40	on	on	on	IN	O	prep	O	-1	O
+0	3	42	194	197	S	43	his	his	he	PRP$	O	poss	O	-1	O
+0	3	43	198	201	S	41	way	way	way	NN	O	pobj	O	-1	B-noun.attribute
+0	3	44	202	204	S	43	to	to	to	TO	O	prep	O	-1	O
+0	3	45	205	208	S	46	the	the	the	DT	O	det	O	-1	O
+0	3	46	209	215	S	44	market	market	market	NN	O	pobj	O	-1	B-noun.act
+0	3	47	216	218	S	48	to	to	to	TO	O	aux	O	-1	O
+0	3	48	219	223	S	43	sell	sell	sell	VB	O	infmod	O	-1	B-verb.possession
+0	3	49	224	227	S	50	his	his	he	PRP$	O	poss	O	-1	O
+0	3	50	228	233		48	slave	slave	slave	NN	O	dobj	O	-1	B-noun.person
+0	3	51	233	234	S	50	,	,	,	,	O	punct	O	-1	O
+0	3	52	235	240		50	Lucky	Lucky	Lucky	NNP	O	appos	O	-1	O
+0	3	53	240	241	S	40	.	.	.	.	O	punct	O	-1	O
+0	4	54	242	244	S	55	He	He	he	PRP	O	nsubj	O	-1	O
+0	4	55	245	251	S	-1	pauses	pauses	pause	VBZ	O	null	O	-1	B-verb.stative
+0	4	56	252	255	S	55	for	for	for	IN	O	prep	O	-1	O
+0	4	57	256	257	S	58	a	a	a	DT	O	det	O	-1	O
+0	4	58	258	263	S	56	while	while	while	NN	O	pobj	O	-1	B-noun.time
+0	4	59	264	266	S	60	to	to	to	TO	O	aux	O	-1	O
+0	4	60	267	275	S	55	converse	converse	converse	VB	O	xcomp	O	-1	B-verb.communication
+0	4	61	276	280	S	60	with	with	with	IN	O	prep	O	-1	O
+0	4	62	281	289	S	61	Vladimir	Vladimir	Vladimir	NNP	PERSON	pobj	O	0	B-noun.person
+0	4	63	290	293	S	62	and	and	and	CC	O	cc	O	-1	O
+0	4	64	294	302		62	Estragon	Estragon	Estragon	NNP	O	conj	O	-1	O
+0	4	65	302	303	S	55	.	.	.	.	O	punct	O	-1	O
+0	5	66	304	309	S	67	Lucky	Lucky	lucky	JJ	O	dep	O	-1	O
+0	5	67	310	320	S	-1	entertains	entertains	entertain	VBZ	O	null	O	-1	B-verb.social
+0	5	68	321	325	S	67	them	them	they	PRP	O	dobj	O	-1	O
+0	5	69	326	328	S	67	by	by	by	IN	O	prep	O	-1	O
+0	5	70	329	336	S	69	dancing	dancing	dancing	NN	O	pobj	O	-1	B-noun.act
+0	5	71	337	340	S	70	and	and	and	CC	O	cc	O	-1	O
+0	5	72	341	349		70	thinking	thinking	thinking	NN	O	conj	O	-1	B-noun.cognition
+0	5	73	349	350	S	67	,	,	,	,	O	punct	O	-1	O
+0	5	74	351	354	S	67	and	and	and	CC	O	cc	O	-1	O
+0	5	75	355	360	S	78	Pozzo	Pozzo	Pozzo	NNP	LOCATION	nsubj	O	-1	B-noun.person
+0	5	76	361	364	S	75	and	and	and	CC	O	cc	O	-1	O
+0	5	77	365	370	S	75	Lucky	Lucky	Lucky	NNP	O	conj	O	-1	B-noun.person
+0	5	78	371	376		67	leave	leave	leave	VBP	O	conj	O	-1	B-verb.motion
+0	5	79	376	377	S	67	.	.	.	.	O	punct	O	-1	O
+0	6	80	378	383	S	84	After	After	after	IN	O	mark	O	-1	O
+0	6	81	384	389	S	84	Pozzo	Pozzo	Pozzo	NNP	PERSON	nsubj	O	2	B-noun.person
+0	6	82	390	393	S	81	and	and	and	CC	O	cc	O	-1	O
+0	6	83	394	399	S	81	Lucky	Lucky	Lucky	NNP	O	conj	O	-1	B-noun.person
+0	6	84	400	405		88	leave	leave	leave	VBP	O	advcl	O	-1	B-verb.motion
+0	6	85	405	406	S	88	,	,	,	,	O	punct	O	-1	O
+0	6	86	407	408	S	87	a	a	a	DT	O	det	O	-1	O
+0	6	87	409	412	S	88	boy	boy	boy	NN	O	nsubj	O	-1	B-noun.person
+0	6	88	413	419	S	-1	enters	enters	enter	VBZ	O	null	O	-1	B-verb.motion
+0	6	89	420	423	S	88	and	and	and	CC	O	cc	O	-1	O
+0	6	90	424	429	S	88	tells	tells	tell	VBZ	O	conj	O	-1	B-verb.communication
+0	6	91	430	438	S	90	Vladimir	Vladimir	Vladimir	NNP	PERSON	dobj	O	0	B-noun.person
+0	6	92	439	443	S	96	that	that	that	IN	O	complm	O	-1	O
+0	6	93	444	446	S	96	he	he	he	PRP	O	nsubj	O	0	O
+0	6	94	447	449	S	96	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	95	450	451	S	96	a	a	a	DT	O	det	O	-1	O
+0	6	96	452	461	S	90	messenger	messenger	messenger	NN	O	ccomp	O	-1	B-noun.person
+0	6	97	462	466	S	96	from	from	from	IN	O	prep	O	-1	O
+0	6	98	467	472		97	Godot	Godot	Godot	NNP	O	pobj	O	-1	O
+0	6	99	472	473	S	88	.	.	.	.	O	punct	O	-1	O
+0	7	100	474	476	S	101	He	He	he	PRP	O	nsubj	O	0	O
+0	7	101	477	482	S	-1	tells	tells	tell	VBZ	O	null	O	-1	B-verb.communication
+0	7	102	483	491	S	101	Vladimir	Vladimir	Vladimir	NNP	PERSON	dobj	O	0	B-noun.person
+0	7	103	492	496	S	108	that	that	that	WDT	O	dobj	O	-1	O
+0	7	104	497	502	S	108	Godot	Godot	Godot	NNP	O	nsubj	O	-1	B-noun.person
+0	7	105	503	507	S	108	will	will	will	MD	O	aux	O	-1	O
+0	7	106	508	511	S	108	not	not	not	RB	O	neg	O	-1	O
+0	7	107	512	514	S	108	be	be	be	VB	O	aux	O	-1	O
+0	7	108	515	521	S	102	coming	coming	come	VBG	O	rcmod	O	-1	B-verb.motion
+0	7	109	522	529		108	tonight	tonight	tonight	RB	DATE	advmod	O	-1	O
+0	7	110	529	530	S	101	,	,	,	,	O	punct	O	-1	O
+0	7	111	531	534	S	101	but	but	but	CC	O	cc	O	-1	O
+0	7	112	535	539	S	116	that	that	that	IN	O	complm	O	-1	O
+0	7	113	540	542	S	116	he	he	he	PRP	O	nsubj	O	0	O
+0	7	114	543	547	S	116	will	will	will	MD	O	aux	O	-1	O
+0	7	115	548	554	S	116	surely	surely	surely	RB	O	advmod	O	-1	O
+0	7	116	555	559	S	101	come	come	come	VB	O	conj	O	-1	B-verb.motion
+0	7	117	560	568		116	tomorrow	tomorrow	tomorrow	NN	DATE	tmod	O	-1	B-noun.time
+0	7	118	568	569	S	101	.	.	.	.	O	punct	O	-1	O
+0	8	119	570	578	S	120	Vladimir	Vladimir	Vladimir	NNP	PERSON	nsubj	O	0	B-noun.person
+0	8	120	579	583	S	129	asks	asks	ask	VBZ	O	dep	O	-1	B-verb.communication
+0	8	121	584	587	S	120	him	him	he	PRP	O	iobj	O	0	O
+0	8	122	588	592	S	123	some	some	some	DT	O	det	O	-1	O
+0	8	123	593	602	S	129	questions	questions	question	NNS	O	nsubj	O	-1	B-noun.communication
+0	8	124	603	608	S	129	about	about	about	IN	O	dep	O	-1	O
+0	8	125	609	614	S	129	Godot	Godot	Godot	NNP	O	nsubj	O	-1	B-noun.person
+0	8	126	615	618	S	125	and	and	and	CC	O	cc	O	-1	O
+0	8	127	619	622	S	128	the	the	the	DT	O	det	O	-1	O
+0	8	128	623	626	S	125	boy	boy	boy	NN	O	conj	O	-1	B-noun.person
+0	8	129	627	634		-1	departs	departs	depart	VBZ	O	null	O	-1	B-verb.motion
+0	8	130	634	635	S	129	.	.	.	.	O	punct	O	-1	O
+0	9	131	636	641	S	138	After	After	after	IN	O	mark	O	-1	O
+0	9	132	642	645	S	133	his	his	he	PRP$	O	poss	O	0	O
+0	9	133	646	655		138	departure	departure	departure	NN	O	nsubj	O	-1	B-noun.act
+0	9	134	655	656	S	133	,	,	,	,	O	punct	O	-1	O
+0	9	135	657	665	S	133	Vladimir	Vladimir	Vladimir	NNP	PERSON	appos	O	0	B-noun.person
+0	9	136	666	669	S	135	and	and	and	CC	O	cc	O	-1	O
+0	9	137	670	678	S	135	Estragon	Estragon	Estragon	NNP	ORGANIZATION	conj	O	1	O
+0	9	138	679	685	S	-1	decide	decide	decide	VBP	O	null	O	-1	B-verb.cognition
+0	9	139	686	688	S	140	to	to	to	TO	O	aux	O	-1	O
+0	9	140	689	694		138	leave	leave	leave	VB	O	xcomp	O	-1	B-verb.motion
+0	9	141	694	695	S	138	,	,	,	,	O	punct	O	-1	O
+0	9	142	696	699	S	138	but	but	but	CC	O	cc	O	-1	O
+0	9	143	700	704	S	146	they	they	they	PRP	O	nsubj	O	-1	O
+0	9	144	705	707	S	146	do	do	do	VBP	O	aux	O	-1	O
+0	9	145	708	711	S	146	not	not	not	RB	O	neg	O	-1	O
+0	9	146	712	716	S	138	move	move	move	VB	O	conj	O	-1	B-verb.motion
+0	9	147	717	719	S	150	as	as	as	IN	O	mark	O	-1	O
+0	9	148	720	723	S	149	the	the	the	DT	O	det	O	-1	O
+0	9	149	724	731	S	150	curtain	curtain	curtain	NN	O	nsubj	O	-1	B-noun.artifact
+0	9	150	732	737		146	falls	falls	fall	VBZ	O	advcl	O	-1	B-verb.motion
+0	9	151	737	738	S	138	.	.	.	.	O	punct	O	-1	O
+0	10	152	739	742	S	154	The	The	the	DT	DATE	det	O	-1	O
+0	10	153	743	747	S	154	next	next	next	JJ	DATE	amod	O	-1	O
+0	10	154	748	753		160	night	night	night	NN	DATE	nsubj	O	-1	B-noun.time
+0	10	155	753	754	S	154	,	,	,	,	O	punct	O	-1	O
+0	10	156	755	763	S	154	Vladimir	Vladimir	Vladimir	NNP	PERSON	appos	O	0	B-noun.person
+0	10	157	764	767	S	156	and	and	and	CC	O	cc	O	-1	O
+0	10	158	768	776	S	156	Estragon	Estragon	Estragon	NNP	O	conj	O	-1	O
+0	10	159	777	782	S	160	again	again	again	RB	O	advmod	O	-1	O
+0	10	160	783	787	S	-1	meet	meet	meet	VBP	O	null	O	-1	B-verb.motion
+0	10	161	788	792	S	160	near	near	near	IN	O	prep	O	-1	O
+0	10	162	793	796	S	163	the	the	the	DT	O	det	O	-1	O
+0	10	163	797	801	S	161	tree	tree	tree	NN	O	pobj	O	-1	B-noun.plant
+0	10	164	802	804	S	165	to	to	to	TO	O	aux	O	-1	O
+0	10	165	805	809	S	160	wait	wait	wait	VB	O	xcomp	O	-1	B-verb.stative
+0	10	166	810	813	S	165	for	for	for	IN	O	prep	O	-1	O
+0	10	167	814	819		166	Godot	Godot	Godot	NNP	O	pobj	O	-1	O
+0	10	168	819	820	S	160	.	.	.	.	O	punct	O	-1	O
+0	11	169	821	826	S	172	Lucky	Lucky	lucky	JJ	O	nsubj	O	-1	O
+0	11	170	827	830	S	169	and	and	and	CC	O	cc	O	-1	O
+0	11	171	831	836	S	169	Pozzo	Pozzo	Pozzo	NNP	PERSON	conj	O	2	B-noun.person
+0	11	172	837	842	S	-1	enter	enter	enter	VBP	O	null	O	-1	B-verb.motion
+0	11	173	843	848		172	again	again	again	RB	O	advmod	O	-1	O
+0	11	174	848	849	S	172	,	,	,	,	O	punct	O	-1	O
+0	11	175	850	853	S	172	but	but	but	CC	O	cc	O	-1	O
+0	11	176	854	858	S	177	this	this	this	DT	O	det	O	-1	O
+0	11	177	859	863	S	184	time	time	time	NN	O	nsubj	O	-1	B-noun.event
+0	11	178	864	869	S	180	Pozzo	Pozzo	Pozzo	NNP	PERSON	nsubj	O	2	B-noun.person
+0	11	179	870	872	S	180	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	11	180	873	878	S	177	blind	blind	blind	JJ	O	rcmod	O	-1	O
+0	11	181	879	882	S	180	and	and	and	CC	O	cc	O	-1	O
+0	11	182	883	888	S	180	Lucky	Lucky	lucky	JJ	O	conj	O	-1	O
+0	11	183	889	891	S	184	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	11	184	892	896		172	dumb	dumb	dumb	JJ	O	conj	O	-1	O
+0	11	185	896	897	S	172	.	.	.	.	O	punct	O	-1	O
+0	12	186	898	903	S	189	Pozzo	Pozzo	Pozzo	NNP	O	nsubj	O	-1	B-noun.person
+0	12	187	904	908	S	189	does	does	do	VBZ	O	aux	O	-1	O
+0	12	188	909	912	S	189	not	not	not	RB	O	neg	O	-1	O
+0	12	189	913	921	S	-1	remember	remember	remember	VB	O	null	O	-1	B-verb.cognition
+0	12	190	922	929	S	189	meeting	meeting	meet	VBG	O	xcomp	O	-1	B-verb.contact
+0	12	191	930	933	S	193	the	the	the	DT	O	det	O	-1	O
+0	12	192	934	937	S	193	two	two	two	CD	NUMBER	num	O	-1	O
+0	12	193	938	941	S	190	men	men	man	NNS	O	iobj	O	-1	B-noun.person
+0	12	194	942	945	S	195	the	the	the	DT	O	det	O	-1	O
+0	12	195	946	951	S	190	night	night	night	NN	TIME	dobj	O	-1	B-noun.time
+0	12	196	952	958		195	before	before	before	IN	TIME	advmod	O	-1	O
+0	12	197	958	959	S	189	.	.	.	.	O	punct	O	-1	O
+0	13	198	960	964	S	199	They	They	they	PRP	O	nsubj	O	-1	O
+0	13	199	965	970	S	-1	leave	leave	leave	VBP	O	null	O	-1	B-verb.motion
+0	13	200	971	974	S	199	and	and	and	CC	O	cc	O	-1	O
+0	13	201	975	983	S	204	Vladimir	Vladimir	Vladimir	NNP	PERSON	nsubj	O	0	B-noun.person
+0	13	202	984	987	S	201	and	and	and	CC	O	cc	O	-1	O
+0	13	203	988	996	S	201	Estragon	Estragon	Estragon	NNP	O	conj	O	-1	O
+0	13	204	997	1005	S	199	continue	continue	continue	VBP	O	conj	O	-1	B-verb.stative
+0	13	205	1006	1008	S	206	to	to	to	TO	O	aux	O	-1	O
+0	13	206	1009	1013		204	wait	wait	wait	VB	O	xcomp	O	-1	B-verb.stative
+0	13	207	1013	1014	S	199	.	.	.	.	O	punct	O	-1	O
+0	14	208	1015	1022	S	213	Shortly	Shortly	shortly	RB	O	advmod	O	-1	O
+0	14	209	1023	1028		208	after	after	after	IN	O	dep	O	-1	O
+0	14	210	1028	1029	S	213	,	,	,	,	O	punct	O	-1	O
+0	14	211	1030	1033	S	212	the	the	the	DT	O	det	O	-1	O
+0	14	212	1034	1037	S	213	boy	boy	boy	NN	O	nsubj	O	-1	B-noun.person
+0	14	213	1038	1044	S	-1	enters	enters	enter	VBZ	O	null	O	-1	B-verb.motion
+0	14	214	1045	1048	S	213	and	and	and	CC	O	cc	O	-1	O
+0	14	215	1049	1053	S	216	once	once	once	RB	DATE	advmod	O	-1	O
+0	14	216	1054	1059	S	217	again	again	again	RB	O	advmod	O	-1	O
+0	14	217	1060	1065	S	213	tells	tells	tell	VBZ	O	conj	O	-1	B-verb.communication
+0	14	218	1066	1074	S	217	Vladimir	Vladimir	Vladimir	NNP	PERSON	dobj	O	0	B-noun.person
+0	14	219	1075	1079	S	224	that	that	that	WDT	O	dobj	O	-1	O
+0	14	220	1080	1085	S	224	Godot	Godot	Godot	NNP	O	nsubj	O	-1	B-noun.person
+0	14	221	1086	1090	S	224	will	will	will	MD	O	aux	O	-1	O
+0	14	222	1091	1094	S	224	not	not	not	RB	O	neg	O	-1	O
+0	14	223	1095	1097	S	224	be	be	be	VB	O	aux	O	-1	O
+0	14	224	1098	1104		218	coming	coming	come	VBG	O	rcmod	O	-1	B-verb.motion
+0	14	225	1104	1105	S	213	.	.	.	.	O	punct	O	-1	O
+0	15	226	1106	1108	S	227	He	He	he	PRP	O	nsubj	O	0	O
+0	15	227	1109	1116	S	-1	insists	insists	insist	VBZ	O	null	O	-1	B-verb.communication
+0	15	228	1117	1121	S	232	that	that	that	IN	O	complm	O	-1	O
+0	15	229	1122	1124	S	232	he	he	he	PRP	O	nsubj	O	0	O
+0	15	230	1125	1128	S	232	did	did	do	VBD	O	aux	O	-1	O
+0	15	231	1129	1132	S	232	not	not	not	RB	O	neg	O	-1	O
+0	15	232	1133	1138	S	227	speak	speak	speak	VB	O	ccomp	O	-1	B-verb.communication
+0	15	233	1139	1141	S	232	to	to	to	TO	O	prep	O	-1	O
+0	15	234	1142	1150	S	233	Vladimir	Vladimir	Vladimir	NNP	PERSON	pobj	O	0	B-noun.person
+0	15	235	1151	1160		232	yesterday	yesterday	yesterday	NN	DATE	tmod	O	-1	B-noun.time
+0	15	236	1160	1161	S	227	.	.	.	.	O	punct	O	-1	O
+0	16	237	1162	1167	S	239	After	After	after	IN	O	mark	O	-1	O
+0	16	238	1168	1170	S	239	he	he	he	PRP	O	nsubj	O	0	O
+0	16	239	1171	1177		244	leaves	leaves	leave	VBZ	O	advcl	O	-1	B-verb.motion
+0	16	240	1177	1178	S	244	,	,	,	,	O	punct	O	-1	O
+0	16	241	1179	1187	S	244	Estragon	Estragon	Estragon	NNP	ORGANIZATION	nsubj	O	1	O
+0	16	242	1188	1191	S	241	and	and	and	CC	O	cc	O	-1	O
+0	16	243	1192	1200	S	241	Vladimir	Vladimir	Vladimir	NNP	PERSON	conj	O	0	B-noun.person
+0	16	244	1201	1207	S	-1	decide	decide	decide	VBP	O	null	O	-1	B-verb.cognition
+0	16	245	1208	1210	S	246	to	to	to	TO	O	aux	O	-1	O
+0	16	246	1211	1216		244	leave	leave	leave	VB	O	xcomp	O	-1	B-verb.motion
+0	16	247	1216	1217	S	244	,	,	,	,	O	punct	O	-1	O
+0	16	248	1218	1221	S	244	but	but	but	CC	O	cc	O	-1	O
+0	16	249	1222	1227	S	253	again	again	again	RB	O	advmod	O	-1	O
+0	16	250	1228	1232	S	253	they	they	they	PRP	O	nsubj	O	-1	O
+0	16	251	1233	1235	S	253	do	do	do	VBP	O	aux	O	-1	O
+0	16	252	1236	1239	S	253	not	not	not	RB	O	neg	O	-1	O
+0	16	253	1240	1244	S	244	move	move	move	VB	O	conj	O	-1	B-verb.motion
+0	16	254	1245	1247	S	257	as	as	as	IN	O	mark	O	-1	O
+0	16	255	1248	1251	S	256	the	the	the	DT	O	det	O	-1	O
+0	16	256	1252	1259	S	257	curtain	curtain	curtain	NN	O	nsubj	O	-1	B-noun.artifact
+0	16	257	1260	1265		253	falls	falls	fall	VBZ	O	advcl	O	-1	O
+0	16	258	1265	1266	S	257	,	,	,	,	O	punct	O	-1	O
+0	16	259	1267	1273	S	257	ending	ending	end	VBG	O	xcomp	O	-1	B-verb.stative
+0	16	260	1274	1277	S	261	the	the	the	DT	O	det	O	-1	O
+0	16	261	1278	1282		259	play	play	play	NN	O	dobj	O	-1	B-noun.communication
+0	16	262	1282	1283	N	244	.	.	.	.	O	punct	O	-1	O

@@ -1,0 +1,881 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	10	S	2	Lieutenant	Lieutenant	lieutenant	NN	O	nn	O	-1	B-noun.person
+0	0	1	11	19	S	2	Frederic	Frederic	Frederic	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	2	20	25	S	8	Henry	Henry	Henry	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	3	26	28	N	8	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	0	4	29	30	S	8	a	a	a	DT	O	det	O	-1	O
+0	0	5	31	36	S	8	young	young	young	JJ	O	amod	O	-1	O
+0	0	6	37	45	S	8	American	American	american	JJ	MISC	amod	O	-1	O
+0	0	7	46	55	S	8	ambulance	ambulance	ambulance	NN	O	nn	O	-1	B-noun.artifact
+0	0	8	56	62	S	-1	driver	driver	driver	NN	O	null	O	-1	B-noun.person
+0	0	9	63	70	S	8	serving	serving	serve	VBG	O	partmod	O	-1	B-verb.social
+0	0	10	71	73	S	9	in	in	in	IN	O	prep	O	-1	O
+0	0	11	74	77	S	13	the	the	the	DT	O	det	O	-1	O
+0	0	12	78	85	S	13	Italian	Italian	italian	JJ	MISC	amod	O	-1	O
+0	0	13	86	90	S	10	army	army	army	NN	O	pobj	O	-1	B-noun.group
+0	0	14	91	97	N	9	during	during	during	IN	O	prep	O	-1	O
+0	0	15	98	103	S	17	World	World	World	NNP	MISC	nn	O	-1	B-noun.group
+0	0	16	104	107	S	17	War	War	War	NNP	MISC	nn	O	-1	I-noun.group
+0	0	17	108	109		14	I	I	I	NNP	O	pobj	O	-1	O
+0	0	18	109	110	S	8	.	.	.	.	O	punct	O	-1	O
+0	1	19	111	113	S	29	At	At	at	IN	O	prep	O	-1	O
+0	1	20	114	117	S	21	the	the	the	DT	O	det	O	-1	O
+0	1	21	118	127	S	19	beginning	beginning	beginning	NN	O	pobj	O	-1	B-noun.event
+0	1	22	128	130	S	21	of	of	of	IN	O	prep	O	-1	O
+0	1	23	131	134	S	24	the	the	the	DT	O	det	O	-1	O
+0	1	24	135	140		22	novel	novel	novel	JJ	O	pobj	O	-1	O
+0	1	25	140	141	S	29	,	,	,	,	O	punct	O	-1	O
+0	1	26	142	145	S	27	the	the	the	DT	O	det	O	-1	O
+0	1	27	146	149	S	29	war	war	war	NN	O	nsubj	O	-1	B-noun.act
+0	1	28	150	152	S	29	is	is	be	VBZ	O	aux	O	-1	O
+0	1	29	153	160	S	-1	winding	winding	wind	VBG	O	null	O	-1	B-verb.motion
+0	1	30	161	165	S	29	down	down	down	RP	O	prt	O	-1	O
+0	1	31	166	170	N	29	with	with	with	IN	O	prep	O	-1	O
+0	1	32	171	174	S	33	the	the	the	DT	O	det	O	-1	O
+0	1	33	175	180	S	31	onset	onset	onset	NN	O	pobj	O	-1	B-noun.event
+0	1	34	181	183	S	33	of	of	of	IN	O	prep	O	-1	O
+0	1	35	184	190		34	winter	winter	winter	NN	DATE	pobj	O	-1	B-noun.time
+0	1	36	190	191	S	29	,	,	,	,	O	punct	O	-1	O
+0	1	37	192	195	S	29	and	and	and	CC	O	cc	O	-1	O
+0	1	38	196	201	S	39	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	1	39	202	210	S	29	arranges	arranges	arrange	VBZ	O	conj	O	-1	B-verb.contact
+0	1	40	211	213	S	41	to	to	to	TO	O	aux	O	-1	O
+0	1	41	214	218	S	39	tour	tour	tour	VB	O	xcomp	O	-1	B-verb.motion
+0	1	42	219	224		41	Italy	Italy	Italy	NNP	LOCATION	dobj	O	-1	B-noun.location
+0	1	43	224	225	S	29	.	.	.	.	O	punct	O	-1	O
+0	2	44	226	229	S	46	The	The	the	DT	DATE	det	O	-1	O
+0	2	45	230	239	N	46	following	following	follow	VBG	DATE	amod	O	-1	O
+0	2	46	240	246		56	spring	spring	spring	NN	DATE	ccomp	O	-1	B-noun.time
+0	2	47	246	247	S	56	,	,	,	,	O	punct	O	-1	O
+0	2	48	248	252	S	56	upon	upon	upon	IN	O	prep	O	-1	O
+0	2	49	253	256	S	50	his	his	he	PRP$	O	poss	O	0	O
+0	2	50	257	263	S	48	return	return	return	NN	O	pobj	O	-1	B-noun.communication
+0	2	51	264	266	S	50	to	to	to	TO	O	prep	O	-1	O
+0	2	52	267	270	S	53	the	the	the	DT	O	det	O	-1	O
+0	2	53	271	276		51	front	front	front	NN	O	pobj	O	-1	B-noun.location
+0	2	54	276	277	S	56	,	,	,	,	O	punct	O	-1	O
+0	2	55	278	283	S	56	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	2	56	284	289	S	-1	meets	meets	meet	VBZ	O	null	O	-1	B-verb.motion
+0	2	57	290	299	S	58	Catherine	Catherine	Catherine	NNP	PERSON	nn	O	-1	B-noun.person
+0	2	58	300	307		56	Barkley	Barkley	Barkley	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	2	59	307	308	N	58	,	,	,	,	O	punct	O	-1	O
+0	2	60	309	311	S	62	an	an	a	DT	O	det	O	-1	O
+0	2	61	312	319	S	62	English	English	english	JJ	MISC	amod	O	-1	O
+0	2	62	320	325		64	nurse	nurse	nurse	NN	O	poss	O	-1	B-noun.person
+0	2	63	325	327	S	62	’s	's	's	POS	O	possessive	O	-1	O
+0	2	64	328	332	S	58	aide	aide	aide	NN	O	appos	O	-1	B-noun.person
+0	2	65	333	335	S	64	at	at	at	IN	O	prep	O	-1	O
+0	2	66	336	339	S	69	the	the	the	DT	O	det	O	-1	O
+0	2	67	340	346	S	69	nearby	nearby	nearby	JJ	O	amod	O	-1	O
+0	2	68	347	354	S	69	British	British	british	JJ	MISC	amod	O	-1	O
+0	2	69	355	363	S	65	hospital	hospital	hospital	NN	O	pobj	O	-1	B-noun.artifact
+0	2	70	364	367	S	64	and	and	and	CC	O	cc	O	-1	O
+0	2	71	368	371	S	73	the	the	the	DT	O	det	O	-1	O
+0	2	72	372	376	N	73	love	love	love	NN	O	nn	O	-1	B-noun.feeling
+0	2	73	377	385	S	64	interest	interest	interest	NN	O	conj	O	-1	B-noun.cognition
+0	2	74	386	388	S	73	of	of	of	IN	O	prep	O	-1	O
+0	2	75	389	392	S	77	his	his	he	PRP$	O	poss	O	-1	O
+0	2	76	393	399	S	77	friend	friend	friend	NN	O	nn	O	-1	B-noun.person
+0	2	77	400	407		74	Rinaldi	Rinaldi	Rinaldi	NNP	PERSON	pobj	O	2	I-noun.person
+0	2	78	407	408	S	56	.	.	.	.	O	punct	O	-1	O
+0	3	79	409	416		84	Rinaldi	Rinaldi	Rinaldi	NNP	PERSON	nsubj	O	2	O
+0	3	80	416	417	S	84	,	,	,	,	O	punct	O	-1	O
+0	3	81	418	425		84	however	however	however	RB	O	advmod	O	-1	O
+0	3	82	425	426	S	84	,	,	,	,	O	punct	O	-1	O
+0	3	83	427	434	S	84	quickly	quickly	quickly	RB	O	advmod	O	-1	O
+0	3	84	435	440	N	93	fades	fades	fade	VBZ	O	nsubjpass	O	-1	B-verb.change
+0	3	85	441	445	S	84	from	from	from	IN	O	prep	O	-1	O
+0	3	86	446	449	S	87	the	the	the	DT	O	det	O	-1	O
+0	3	87	450	457	S	85	picture	picture	picture	NN	O	pobj	O	-1	B-noun.artifact
+0	3	88	458	460	S	87	as	as	as	IN	O	prep	O	-1	O
+0	3	89	461	470	S	88	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	3	B-noun.person
+0	3	90	471	474	S	89	and	and	and	CC	O	cc	O	-1	O
+0	3	91	475	480	S	89	Henry	Henry	Henry	NNP	PERSON	conj	O	0	B-noun.person
+0	3	92	481	487	S	93	become	become	become	VBP	O	auxpass	O	-1	B-verb.change
+0	3	93	488	496	S	-1	involved	involved	involve	VBN	O	null	O	-1	B-verb.stative
+0	3	94	497	499	S	93	in	in	in	IN	O	prep	O	-1	O
+0	3	95	500	502	S	97	an	an	a	DT	O	det	O	-1	O
+0	3	96	503	512	N	97	elaborate	elaborate	elaborate	JJ	O	amod	O	-1	O
+0	3	97	513	517	S	94	game	game	game	NN	O	pobj	O	-1	B-noun.act
+0	3	98	518	520	S	97	of	of	of	IN	O	prep	O	-1	O
+0	3	99	521	530		98	seduction	seduction	seduction	NN	O	pobj	O	-1	B-noun.act
+0	3	100	530	531	S	93	.	.	.	.	O	punct	O	-1	O
+0	4	101	532	540	S	118	Grieving	Grieving	grieve	VBG	O	dep	O	-1	B-verb.emotion
+0	4	102	541	544	S	104	the	the	the	DT	O	det	O	-1	O
+0	4	103	545	551	S	104	recent	recent	recent	JJ	O	amod	O	-1	O
+0	4	104	552	557	S	101	death	death	death	NN	O	dobj	O	-1	B-noun.event
+0	4	105	558	560	S	104	of	of	of	IN	O	prep	O	-1	O
+0	4	106	561	564	S	107	her	her	she	PRP$	O	poss	O	3	O
+0	4	107	565	571		105	fiancé	fiancé	fiancé	NN	O	pobj	O	-1	O
+0	4	108	571	572	S	118	,	,	,	,	O	punct	O	-1	O
+0	4	109	573	582	N	110	Catherine	Catherine	Catherine	NNP	PERSON	nn	O	3	B-noun.person
+0	4	110	583	588	S	118	longs	longs	long	NNS	O	nsubj	O	-1	I-noun.person
+0	4	111	589	592	S	110	for	for	for	IN	O	prep	O	-1	O
+0	4	112	593	597	S	111	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	4	113	598	600	S	114	so	so	so	RB	O	advmod	O	-1	O
+0	4	114	601	607	S	118	deeply	deeply	deeply	RB	O	advmod	O	-1	O
+0	4	115	608	612	S	118	that	that	that	IN	O	dep	O	-1	O
+0	4	116	613	616	S	118	she	she	she	PRP	O	nsubj	O	3	O
+0	4	117	617	621	S	118	will	will	will	MD	O	aux	O	-1	O
+0	4	118	622	628	S	-1	settle	settle	settle	VB	O	null	O	-1	B-verb.communication
+0	4	119	629	632	S	118	for	for	for	IN	O	prep	O	-1	O
+0	4	120	633	636	S	121	the	the	the	DT	O	det	O	-1	O
+0	4	121	637	645	S	119	illusion	illusion	illusion	NN	O	pobj	O	-1	B-noun.cognition
+0	4	122	646	648	N	121	of	of	of	IN	O	prep	O	-1	O
+0	4	123	649	651		122	it	it	it	PRP	O	pobj	O	-1	O
+0	4	124	651	652	S	118	.	.	.	.	O	punct	O	-1	O
+0	5	125	653	656	S	126	Her	Her	she	PRP$	O	poss	O	3	O
+0	5	126	657	664		132	passion	passion	passion	NN	O	nsubj	O	-1	B-noun.feeling
+0	5	127	664	665	S	126	,	,	,	,	O	punct	O	-1	O
+0	5	128	666	670	S	130	even	even	even	RB	O	advmod	O	-1	O
+0	5	129	671	677	S	130	though	though	though	IN	O	dep	O	-1	O
+0	5	130	678	687		126	pretended	pretended	pretended	JJ	O	amod	O	-1	O
+0	5	131	687	688	S	126	,	,	,	,	O	punct	O	-1	O
+0	5	132	689	695	S	-1	wakens	wakens	waken	VBZ	O	null	O	-1	B-verb.body
+0	5	133	696	697	S	134	a	a	a	DT	O	det	O	-1	O
+0	5	134	698	704	S	132	desire	desire	desire	NN	O	dobj	O	-1	B-noun.feeling
+0	5	135	705	708	S	134	for	for	for	IN	O	prep	O	-1	O
+0	5	136	709	718	N	137	emotional	emotional	emotional	JJ	O	amod	O	-1	O
+0	5	137	719	730	S	135	interaction	interaction	interaction	NN	O	pobj	O	-1	B-noun.act
+0	5	138	731	733	S	137	in	in	in	IN	O	prep	O	-1	O
+0	5	139	734	739		138	Henry	Henry	Henry	NNP	PERSON	pobj	O	0	O
+0	5	140	739	740	S	134	,	,	,	,	O	punct	O	-1	O
+0	5	141	741	745	S	145	whom	whom	whom	WP	O	dobj	O	-1	O
+0	5	142	746	749	S	143	the	the	the	DT	O	det	O	-1	O
+0	5	143	750	753	S	145	war	war	war	NN	O	nsubj	O	-1	B-noun.act
+0	5	144	754	757	S	145	has	has	have	VBZ	O	aux	O	-1	O
+0	5	145	758	762	S	134	left	left	leave	VBN	O	rcmod	O	-1	B-verb.change
+0	5	146	763	769	S	147	coolly	coolly	coolly	RB	O	advmod	O	-1	O
+0	5	147	770	778	S	145	detached	detached	detach	VBN	O	ccomp	O	-1	B-verb.contact
+0	5	148	779	782	N	147	and	and	and	CC	O	cc	O	-1	O
+0	5	149	783	787		147	numb	numb	numb	JJ	O	conj	O	-1	O
+0	5	150	787	788	S	132	.	.	.	.	O	punct	O	-1	O
+0	6	151	789	793	S	154	When	When	when	WRB	O	advmod	O	-1	O
+0	6	152	794	799	S	154	Henry	Henry	Henry	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	6	153	800	802	S	154	is	is	be	VBZ	O	auxpass	O	-1	O
+0	6	154	803	810	S	161	wounded	wounded	wound	VBN	O	dep	O	-1	B-verb.body
+0	6	155	811	813	S	154	on	on	on	IN	O	prep	O	-1	O
+0	6	156	814	817	S	157	the	the	the	DT	O	det	O	-1	O
+0	6	157	818	829		155	battlefield	battlefield	battlefield	NN	O	pobj	O	-1	B-noun.location
+0	6	158	829	830	S	161	,	,	,	,	O	punct	O	-1	O
+0	6	159	831	833	S	161	he	he	he	PRP	O	nsubjpass	O	0	O
+0	6	160	834	836	S	161	is	is	be	VBZ	O	auxpass	O	-1	O
+0	6	161	837	844	N	-1	brought	brought	bring	VBN	O	null	O	-1	B-verb.motion
+0	6	162	845	847	S	161	to	to	to	TO	O	prep	O	-1	O
+0	6	163	848	849	S	164	a	a	a	DT	O	det	O	-1	O
+0	6	164	850	858	S	162	hospital	hospital	hospital	NN	O	pobj	O	-1	B-noun.artifact
+0	6	165	859	861	S	164	in	in	in	IN	O	prep	O	-1	O
+0	6	166	862	867	S	165	Milan	Milan	Milan	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	6	167	868	870	S	168	to	to	to	TO	O	aux	O	-1	O
+0	6	168	871	878		166	recover	recover	recover	VB	O	infmod	O	-1	O
+0	6	169	878	879	S	161	.	.	.	.	O	punct	O	-1	O
+0	7	170	880	887	S	171	Several	Several	several	JJ	O	amod	O	-1	O
+0	7	171	888	895	S	172	doctors	doctors	doctor	NNS	O	nsubj	O	-1	B-noun.person
+0	7	172	896	905	S	-1	recommend	recommend	recommend	VBP	O	null	O	-1	B-verb.communication
+0	7	173	906	910	N	175	that	that	that	IN	O	complm	O	-1	O
+0	7	174	911	913	S	175	he	he	he	PRP	O	nsubj	O	0	O
+0	7	175	914	918	S	172	stay	stay	stay	VB	O	ccomp	O	-1	B-verb.motion
+0	7	176	919	921	S	175	in	in	in	IN	O	prep	O	-1	O
+0	7	177	922	925	S	176	bed	bed	bed	NN	O	pobj	O	-1	B-noun.artifact
+0	7	178	926	929	S	175	for	for	for	IN	O	prep	O	-1	O
+0	7	179	930	933	S	180	six	six	six	CD	DURATION	num	O	-1	O
+0	7	180	934	940	S	178	months	months	month	NNS	DURATION	pobj	O	-1	B-noun.time
+0	7	181	941	944	S	175	and	and	and	CC	O	cc	O	-1	O
+0	7	182	945	949	S	183	then	then	then	RB	O	advmod	O	-1	O
+0	7	183	950	957	S	175	undergo	undergo	undergo	VBP	O	conj	O	-1	B-verb.perception
+0	7	184	958	959	S	186	a	a	a	DT	O	det	O	-1	O
+0	7	185	960	969	S	186	necessary	necessary	necessary	JJ	O	amod	O	-1	O
+0	7	186	970	979	S	183	operation	operation	operation	NN	O	dobj	O	-1	B-noun.act
+0	7	187	980	982	N	183	on	on	on	IN	O	prep	O	-1	O
+0	7	188	983	986	S	189	his	his	he	PRP$	O	poss	O	0	O
+0	7	189	987	991		187	knee	knee	knee	NN	O	pobj	O	-1	B-noun.body
+0	7	190	991	992	S	172	.	.	.	.	O	punct	O	-1	O
+0	8	191	993	999	S	202	Unable	Unable	unable	JJ	O	ccomp	O	-1	O
+0	8	192	1000	1002	S	193	to	to	to	TO	O	aux	O	-1	O
+0	8	193	1003	1009	S	191	accept	accept	accept	VB	O	xcomp	O	-1	B-verb.possession
+0	8	194	1010	1014	S	197	such	such	such	PDT	O	predet	O	-1	O
+0	8	195	1015	1016	S	197	a	a	a	DT	O	det	O	-1	O
+0	8	196	1017	1021	S	197	long	long	long	JJ	O	amod	O	-1	O
+0	8	197	1022	1028	S	193	period	period	period	NN	O	dobj	O	-1	B-noun.time
+0	8	198	1029	1031	S	197	of	of	of	IN	O	prep	O	-1	O
+0	8	199	1032	1040		198	recovery	recovery	recovery	NN	O	pobj	O	-1	B-noun.event
+0	8	200	1040	1041	S	202	,	,	,	,	O	punct	O	-1	O
+0	8	201	1042	1047	S	202	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	8	202	1048	1053	N	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	8	203	1054	1055	S	207	a	a	a	DT	O	det	O	-1	O
+0	8	204	1056	1060		207	bold	bold	bold	JJ	O	amod	O	-1	O
+0	8	205	1060	1061	S	207	,	,	,	,	O	punct	O	-1	O
+0	8	206	1062	1071	S	207	garrulous	garrulous	garrulous	JJ	O	amod	O	-1	O
+0	8	207	1072	1079	S	202	surgeon	surgeon	surgeon	NN	O	dobj	O	-1	B-noun.person
+0	8	208	1080	1085	S	207	named	named	name	VBD	O	dep	O	-1	B-verb.communication
+0	8	209	1086	1089	S	210	Dr.	Dr.	Dr.	NNP	PERSON	nn	O	-1	B-noun.person
+0	8	210	1090	1099	S	208	Valentini	Valentini	Valentini	NNP	PERSON	dobj	O	-1	I-noun.person
+0	8	211	1100	1103	S	212	who	who	who	WP	O	nsubj	O	-1	O
+0	8	212	1104	1110	S	210	agrees	agrees	agree	VBZ	O	rcmod	O	-1	B-verb.communication
+0	8	213	1111	1113	S	214	to	to	to	TO	O	aux	O	-1	O
+0	8	214	1114	1121	N	212	operate	operate	operate	VB	O	xcomp	O	-1	B-verb.contact
+0	8	215	1122	1133		214	immediately	immediately	immediately	RB	O	advmod	O	-1	O
+0	8	216	1133	1134	S	202	.	.	.	.	O	punct	O	-1	O
+0	9	217	1135	1140	S	218	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	9	218	1141	1147	S	-1	learns	learns	learn	VBZ	O	null	O	-1	B-verb.cognition
+0	9	219	1148	1155	S	218	happily	happily	happily	RB	O	advmod	O	-1	O
+0	9	220	1156	1160	S	224	that	that	that	IN	O	complm	O	-1	O
+0	9	221	1161	1170	S	224	Catherine	Catherine	Catherine	NNP	PERSON	nsubjpass	O	3	B-noun.person
+0	9	222	1171	1174	S	224	has	has	have	VBZ	O	aux	O	-1	O
+0	9	223	1175	1179	S	224	been	been	be	VBN	O	auxpass	O	-1	O
+0	9	224	1180	1191	N	218	transferred	transferred	transfer	VBN	O	ccomp	O	-1	B-verb.motion
+0	9	225	1192	1194	S	224	to	to	to	TO	O	prep	O	-1	O
+0	9	226	1195	1200	S	225	Milan	Milan	Milan	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	9	227	1201	1204	S	218	and	and	and	CC	O	cc	O	-1	O
+0	9	228	1205	1211	S	218	begins	begins	begin	VBZ	O	conj	O	-1	B-verb.change
+0	9	229	1212	1215	S	230	his	his	he	PRP$	O	poss	O	0	O
+0	9	230	1216	1228	S	228	recuperation	recuperation	recuperation	NN	O	dobj	O	-1	B-noun.process
+0	9	231	1229	1234	S	228	under	under	under	IN	O	prep	O	-1	O
+0	9	232	1235	1238	S	233	her	her	she	PRP$	O	poss	O	3	O
+0	9	233	1239	1243		231	care	care	care	NN	O	pobj	O	-1	B-noun.act
+0	9	234	1243	1244	S	218	.	.	.	.	O	punct	O	-1	O
+0	10	235	1245	1251	S	244	During	During	during	IN	O	prep	O	-1	O
+0	10	236	1252	1255	N	238	the	the	the	DT	DATE	det	O	-1	O
+0	10	237	1256	1265	S	238	following	following	follow	VBG	DATE	amod	O	-1	O
+0	10	238	1266	1272		235	months	months	month	NNS	DATE	pobj	O	-1	B-noun.time
+0	10	239	1272	1273	S	244	,	,	,	,	O	punct	O	-1	O
+0	10	240	1274	1277	S	241	his	his	he	PRP$	O	poss	O	0	O
+0	10	241	1278	1290	S	244	relationship	relationship	relationship	NN	O	nsubj	O	-1	B-noun.relation
+0	10	242	1291	1295	S	241	with	with	with	IN	O	prep	O	-1	O
+0	10	243	1296	1305	S	242	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	3	B-noun.person
+0	10	244	1306	1317		-1	intensifies	intensifies	intensify	VBZ	O	null	O	-1	B-verb.change
+0	10	245	1317	1318	S	244	.	.	.	.	O	punct	O	-1	O
+0	11	246	1319	1321	N	247	No	No	no	RB	O	dep	O	-1	O
+0	11	247	1322	1328	S	250	longer	longer	longer	RB	O	advmod	O	-1	O
+0	11	248	1329	1335	S	250	simply	simply	simply	RB	O	advmod	O	-1	O
+0	11	249	1336	1337	S	250	a	a	a	DT	O	det	O	-1	O
+0	11	250	1338	1342	S	-1	game	game	game	NN	O	null	O	-1	B-noun.act
+0	11	251	1343	1345	S	254	in	in	in	IN	O	rel	O	-1	O
+0	11	252	1346	1351	S	251	which	which	which	WDT	O	pobj	O	-1	O
+0	11	253	1352	1356	S	254	they	they	they	PRP	O	nsubj	O	-1	O
+0	11	254	1357	1365	S	250	exchange	exchange	exchange	VBP	O	rcmod	O	-1	B-verb.possession
+0	11	255	1366	1371	S	256	empty	empty	empty	JJ	O	amod	O	-1	O
+0	11	256	1372	1380	S	254	promises	promises	promise	NNS	O	dobj	O	-1	B-noun.communication
+0	11	257	1381	1384	S	256	and	and	and	CC	O	cc	O	-1	O
+0	11	258	1385	1392	N	259	playful	playful	playful	JJ	O	amod	O	-1	O
+0	11	259	1393	1399		256	kisses	kisses	kiss	NNS	O	conj	O	-1	B-noun.act
+0	11	260	1399	1400	S	250	,	,	,	,	O	punct	O	-1	O
+0	11	261	1401	1406	S	262	their	their	they	PRP$	O	poss	O	-1	O
+0	11	262	1407	1411	S	264	love	love	love	NN	O	nsubj	O	-1	B-noun.feeling
+0	11	263	1412	1419	S	264	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.change
+0	11	264	1420	1428	S	250	powerful	powerful	powerful	JJ	O	rcmod	O	-1	O
+0	11	265	1429	1432	S	264	and	and	and	CC	O	cc	O	-1	O
+0	11	266	1433	1437		264	real	real	real	JJ	O	conj	O	-1	O
+0	11	267	1437	1438	S	250	.	.	.	.	O	punct	O	-1	O
+0	12	268	1439	1441	S	-1	As	As	as	IN	O	null	O	-1	O
+0	12	269	1442	1445	S	270	the	the	the	DT	O	det	O	-1	O
+0	12	270	1446	1451	S	268	lines	lines	line	NNS	O	pobj	O	-1	B-noun.artifact
+0	12	271	1452	1459	N	270	between	between	between	IN	O	prep	O	-1	O
+0	12	272	1460	1468	S	284	scripted	scripted	script	VBN	O	ccomp	O	-1	B-verb.creation
+0	12	273	1469	1472	S	272	and	and	and	CC	O	cc	O	-1	O
+0	12	274	1473	1480	S	275	genuine	genuine	genuine	JJ	O	amod	O	-1	O
+0	12	275	1481	1489	S	276	emotions	emotions	emotion	NNS	O	nsubj	O	-1	B-noun.feeling
+0	12	276	1490	1495	S	272	begin	begin	begin	VBP	O	conj	O	-1	B-verb.change
+0	12	277	1496	1498	S	278	to	to	to	TO	O	aux	O	-1	O
+0	12	278	1499	1503		276	blur	blur	blur	VB	O	xcomp	O	-1	B-verb.perception
+0	12	279	1503	1504	S	284	,	,	,	,	O	punct	O	-1	O
+0	12	280	1505	1510	S	284	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	12	281	1511	1514	S	280	and	and	and	CC	O	cc	O	-1	O
+0	12	282	1515	1524	N	280	Catherine	Catherine	Catherine	NNP	PERSON	conj	O	3	B-noun.person
+0	12	283	1525	1531	S	284	become	become	become	VBP	O	cop	O	-1	B-verb.change
+0	12	284	1532	1539	S	271	tangled	tangled	tangled	JJ	O	pobj	O	-1	O
+0	12	285	1540	1542	S	270	in	in	in	IN	O	prep	O	-1	O
+0	12	286	1543	1548	S	287	their	their	they	PRP$	O	poss	O	-1	O
+0	12	287	1549	1553	S	285	love	love	love	NN	O	pobj	O	-1	B-noun.feeling
+0	12	288	1554	1557	S	270	for	for	for	IN	O	prep	O	-1	O
+0	12	289	1558	1562	S	290	each	each	each	DT	O	det	O	-1	O
+0	12	290	1563	1568		288	other	other	other	JJ	O	pobj	O	-1	O
+0	12	291	1568	1569	S	268	.	.	.	.	O	punct	O	-1	O
+0	13	292	1570	1574	S	298	Once	Once	once	RB	DATE	advmod	O	-1	O
+0	13	293	1575	1580		296	Henry	Henry	Henry	NNP	PERSON	poss	O	0	B-noun.person
+0	13	294	1580	1582	S	293	’s	's	's	POS	O	possessive	O	-1	O
+0	13	295	1583	1590	S	296	damaged	damaged	damaged	JJ	O	amod	O	-1	O
+0	13	296	1591	1594	S	298	leg	leg	leg	NN	O	nsubj	O	-1	B-noun.body
+0	13	297	1595	1598	S	298	has	has	have	VBZ	O	aux	O	-1	O
+0	13	298	1599	1605		-1	healed	healed	heal	VBN	O	null	O	-1	B-verb.change
+0	13	299	1605	1606	S	307	,	,	,	,	O	punct	O	-1	O
+0	13	300	1607	1610	S	302	the	the	the	DT	O	det	O	-1	O
+0	13	301	1611	1615	S	302	army	army	army	NN	O	nn	O	-1	B-noun.group
+0	13	302	1616	1622	S	307	grants	grants	grant	NNS	O	nsubj	O	-1	B-noun.possession
+0	13	303	1623	1626	N	307	him	him	he	PRP	O	dep	O	0	O
+0	13	304	1627	1632	S	307	three	three	three	CD	DURATION	num	O	-1	O
+0	13	305	1633	1638	S	307	weeks	weeks	week	NNS	DURATION	nn	O	-1	B-noun.time
+0	13	306	1639	1652	S	307	convalescence	convalescence	convalescence	NN	O	nn	O	-1	B-noun.process
+0	13	307	1653	1658		298	leave	leave	leave	NN	O	dobj	O	-1	B-noun.time
+0	13	308	1658	1659	S	307	,	,	,	,	O	punct	O	-1	O
+0	13	309	1660	1665	S	313	after	after	after	IN	O	rel	O	-1	O
+0	13	310	1666	1671	S	309	which	which	which	WDT	O	pobj	O	-1	O
+0	13	311	1672	1674	S	313	he	he	he	PRP	O	nsubjpass	O	0	O
+0	13	312	1675	1677	S	313	is	is	be	VBZ	O	auxpass	O	-1	O
+0	13	313	1678	1687	S	307	scheduled	scheduled	schedule	VBN	O	rcmod	O	-1	B-verb.cognition
+0	13	314	1688	1690	N	315	to	to	to	TO	O	aux	O	-1	O
+0	13	315	1691	1697	S	313	return	return	return	VB	O	xcomp	O	-1	B-verb.motion
+0	13	316	1698	1700	S	315	to	to	to	TO	O	prep	O	-1	O
+0	13	317	1701	1704	S	318	the	the	the	DT	O	det	O	-1	O
+0	13	318	1705	1710		316	front	front	front	NN	O	pobj	O	-1	B-noun.location
+0	13	319	1710	1711	S	298	.	.	.	.	O	punct	O	-1	O
+0	14	320	1712	1714	S	321	He	He	he	PRP	O	nsubj	O	0	O
+0	14	321	1715	1720	S	-1	tries	tries	try	VBZ	O	null	O	-1	B-verb.social
+0	14	322	1721	1723	S	323	to	to	to	TO	O	aux	O	-1	O
+0	14	323	1724	1728	S	321	plan	plan	plan	VB	O	xcomp	O	-1	B-verb.creation
+0	14	324	1729	1730	S	325	a	a	a	DT	O	det	O	-1	O
+0	14	325	1731	1735	S	323	trip	trip	trip	NN	O	dobj	O	-1	B-noun.act
+0	14	326	1736	1740	S	323	with	with	with	IN	O	prep	O	-1	O
+0	14	327	1741	1750		326	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	3	B-noun.person
+0	14	328	1750	1751	S	327	,	,	,	,	O	punct	O	-1	O
+0	14	329	1752	1755	N	330	who	who	who	WP	O	nsubj	O	-1	O
+0	14	330	1756	1763	S	327	reveals	reveals	reveal	VBZ	O	dep	O	-1	B-verb.perception
+0	14	331	1764	1766	S	330	to	to	to	TO	O	prep	O	-1	O
+0	14	332	1767	1770	S	331	him	him	he	PRP	O	pobj	O	0	O
+0	14	333	1771	1775	S	336	that	that	that	IN	O	complm	O	-1	O
+0	14	334	1776	1779	S	336	she	she	she	PRP	O	nsubj	O	3	O
+0	14	335	1780	1782	S	336	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	14	336	1783	1791		323	pregnant	pregnant	pregnant	JJ	O	ccomp	O	-1	O
+0	14	337	1791	1792	S	321	.	.	.	.	O	punct	O	-1	O
+0	15	338	1793	1796	S	340	The	The	the	DT	DATE	det	O	-1	O
+0	15	339	1797	1806	S	340	following	following	follow	VBG	DATE	amod	O	-1	O
+0	15	340	1807	1810		344	day	day	day	NN	DATE	nsubjpass	O	-1	B-noun.time
+0	15	341	1810	1811	S	344	,	,	,	,	O	punct	O	-1	O
+0	15	342	1812	1817	S	344	Henry	Henry	Henry	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	15	343	1818	1820	N	344	is	is	be	VBZ	O	auxpass	O	-1	O
+0	15	344	1821	1830	S	-1	diagnosed	diagnosed	diagnose	VBN	O	null	O	-1	B-verb.cognition
+0	15	345	1831	1835	S	344	with	with	with	IN	O	prep	O	-1	O
+0	15	346	1836	1844		345	jaundice	jaundice	jaundice	NN	O	pobj	O	-1	B-noun.state
+0	15	347	1844	1845	S	344	,	,	,	,	O	punct	O	-1	O
+0	15	348	1846	1849	S	344	and	and	and	CC	O	cc	O	-1	O
+0	15	349	1850	1854	S	351	Miss	Miss	Miss	NNP	PERSON	nn	O	1	B-noun.person
+0	15	350	1855	1858	S	351	Van	Van	Van	NNP	PERSON	nn	O	1	I-noun.person
+0	15	351	1859	1865		359	Campen	Campen	Campen	NNP	PERSON	nsubj	O	1	I-noun.person
+0	15	352	1865	1866	S	351	,	,	,	,	O	punct	O	-1	O
+0	15	353	1867	1870	S	354	the	the	the	DT	O	det	O	-1	O
+0	15	354	1871	1885	N	351	superintendent	superintendent	superintendent	NN	O	appos	O	-1	B-noun.person
+0	15	355	1886	1888	S	354	of	of	of	IN	O	prep	O	-1	O
+0	15	356	1889	1892	S	357	the	the	the	DT	O	det	O	-1	O
+0	15	357	1893	1901		355	hospital	hospital	hospital	NN	O	pobj	O	-1	B-noun.artifact
+0	15	358	1901	1902	S	351	,	,	,	,	O	punct	O	-1	O
+0	15	359	1903	1910	S	344	accuses	accuses	accuse	VBZ	O	conj	O	-1	B-verb.communication
+0	15	360	1911	1914	S	359	him	him	he	PRP	O	dobj	O	0	O
+0	15	361	1915	1917	S	359	of	of	of	IN	O	prep	O	-1	O
+0	15	362	1918	1926	S	361	bringing	bringing	bring	VBG	O	pcomp	O	-1	B-verb.contact
+0	15	363	1927	1930	S	364	the	the	the	DT	O	det	O	-1	O
+0	15	364	1931	1938	S	362	disease	disease	disease	NN	O	dobj	O	-1	B-noun.state
+0	15	365	1939	1941	S	362	on	on	on	IN	O	prep	O	-1	O
+0	15	366	1942	1949	N	365	himself	himself	himself	PRP	O	pobj	O	-1	O
+0	15	367	1950	1957	S	362	through	through	through	IN	O	prep	O	-1	O
+0	15	368	1958	1967	S	369	excessive	excessive	excessive	JJ	O	amod	O	-1	O
+0	15	369	1968	1976		367	drinking	drinking	drinking	NN	O	pobj	O	-1	B-noun.act
+0	15	370	1976	1977	S	344	.	.	.	.	O	punct	O	-1	O
+0	16	371	1978	1987	S	390	Believing	Believing	believe	VBG	O	dep	O	-1	B-verb.cognition
+0	16	372	1988	1993		374	Henry	Henry	Henry	NNP	PERSON	poss	O	0	B-noun.person
+0	16	373	1993	1995	S	372	’s	's	's	POS	O	possessive	O	-1	O
+0	16	374	1996	2003	S	371	illness	illness	illness	NN	O	dobj	O	-1	B-noun.state
+0	16	375	2004	2006	S	378	to	to	to	TO	O	aux	O	-1	O
+0	16	376	2007	2009	S	378	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	16	377	2010	2012	S	378	an	an	a	DT	O	det	O	-1	O
+0	16	378	2013	2020	N	374	attempt	attempt	attempt	NN	O	infmod	O	-1	B-noun.act
+0	16	379	2021	2023	S	380	to	to	to	TO	O	aux	O	-1	O
+0	16	380	2024	2029	S	378	avoid	avoid	avoid	VB	O	infmod	O	-1	B-verb.social
+0	16	381	2030	2033	S	382	his	his	he	PRP$	O	poss	O	0	O
+0	16	382	2034	2038	S	380	duty	duty	duty	NN	O	dobj	O	-1	B-noun.act
+0	16	383	2039	2041	S	380	as	as	as	IN	O	prep	O	-1	O
+0	16	384	2042	2043	S	385	a	a	a	DT	O	det	O	-1	O
+0	16	385	2044	2054		383	serviceman	serviceman	serviceman	NN	O	pobj	O	-1	B-noun.person
+0	16	386	2054	2055	S	390	,	,	,	,	O	punct	O	-1	O
+0	16	387	2056	2060	S	389	Miss	Miss	Miss	NNP	PERSON	nn	O	1	B-noun.person
+0	16	388	2061	2064	S	389	Van	Van	Van	NNP	PERSON	nn	O	1	I-noun.person
+0	16	389	2065	2071	S	390	Campen	Campen	Campen	NNP	PERSON	nsubj	O	1	I-noun.person
+0	16	390	2072	2075	S	-1	has	has	have	VBZ	O	null	O	-1	O
+0	16	391	2076	2081		393	Henry	Henry	Henry	NNP	PERSON	poss	O	0	B-noun.person
+0	16	392	2081	2083	S	391	’s	's	's	POS	O	possessive	O	-1	O
+0	16	393	2084	2089	N	390	leave	leave	leave	NN	O	dobj	O	-1	B-noun.time
+0	16	394	2090	2097		393	revoked	revoked	revoke	VBN	O	partmod	O	-1	B-verb.competition
+0	16	395	2097	2098	S	390	,	,	,	,	O	punct	O	-1	O
+0	16	396	2099	2102	S	390	and	and	and	CC	O	cc	O	-1	O
+0	16	397	2103	2105	S	399	he	he	he	PRP	O	nsubjpass	O	0	O
+0	16	398	2106	2108	S	399	is	is	be	VBZ	O	auxpass	O	-1	O
+0	16	399	2109	2113	S	390	sent	sent	send	VBN	O	conj	O	-1	B-verb.motion
+0	16	400	2114	2116	S	399	to	to	to	TO	O	prep	O	-1	O
+0	16	401	2117	2120	S	402	the	the	the	DT	O	det	O	-1	O
+0	16	402	2121	2126	S	400	front	front	front	NN	O	pobj	O	-1	B-noun.location
+0	16	403	2127	2131	S	407	once	once	once	IN	DATE	mark	O	-1	O
+0	16	404	2132	2135	S	405	the	the	the	DT	O	det	O	-1	O
+0	16	405	2136	2144	S	407	jaundice	jaundice	jaundice	NN	O	nsubjpass	O	-1	B-noun.state
+0	16	406	2145	2148	S	407	has	has	have	VBZ	O	aux	O	-1	O
+0	16	407	2149	2156		399	cleared	cleared	clear	VBN	O	advcl	O	-1	B-verb.change
+0	16	408	2156	2157	N	390	.	.	.	.	O	punct	O	-1	O
+0	17	409	2158	2160	S	411	As	As	as	IN	O	mark	O	-1	O
+0	17	410	2161	2165	S	411	they	they	they	PRP	O	nsubj	O	-1	O
+0	17	411	2166	2170		-1	part	part	part	NN	O	null	O	-1	B-noun.relation
+0	17	412	2170	2171	S	411	,	,	,	,	O	punct	O	-1	O
+0	17	413	2172	2181	S	419	Catherine	Catherine	Catherine	NNP	PERSON	nn	O	3	B-noun.person
+0	17	414	2182	2185	S	413	and	and	and	CC	O	cc	O	-1	O
+0	17	415	2186	2191	S	416	Henry	Henry	Henry	NNP	PERSON	nn	O	0	B-noun.person
+0	17	416	2192	2198	S	413	pledge	pledge	pledge	NN	O	conj	O	-1	I-noun.person
+0	17	417	2199	2204	S	419	their	their	they	PRP$	O	poss	O	-1	O
+0	17	418	2205	2211	S	419	mutual	mutual	mutual	JJ	O	amod	O	-1	O
+0	17	419	2212	2220		411	devotion	devotion	devotion	NN	O	dep	O	-1	B-noun.feeling
+0	17	420	2220	2221	S	411	.	.	.	.	O	punct	O	-1	O
+0	18	421	2222	2227	S	422	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	18	422	2228	2235	S	-1	travels	travels	travel	VBZ	O	null	O	-1	B-verb.motion
+0	18	423	2236	2238	S	422	to	to	to	TO	O	prep	O	-1	O
+0	18	424	2239	2242	S	425	the	the	the	DT	O	det	O	-1	O
+0	18	425	2243	2248		423	front	front	front	NN	O	pobj	O	-1	B-noun.location
+0	18	426	2248	2249	S	425	,	,	,	,	O	punct	O	-1	O
+0	18	427	2250	2255	S	431	where	where	where	WRB	O	advmod	O	-1	O
+0	18	428	2256	2263	S	429	Italian	Italian	italian	JJ	MISC	amod	O	-1	O
+0	18	429	2264	2270	S	431	forces	forces	force	NNS	O	nsubj	O	-1	B-noun.group
+0	18	430	2271	2274	S	431	are	are	be	VBP	O	aux	O	-1	O
+0	18	431	2275	2281	N	425	losing	losing	lose	VBG	O	rcmod	O	-1	B-verb.possession
+0	18	432	2282	2288	S	431	ground	ground	ground	NN	O	dobj	O	-1	B-noun.object
+0	18	433	2289	2292	S	432	and	and	and	CC	O	cc	O	-1	O
+0	18	434	2293	2301	S	432	manpower	manpower	manpower	NN	O	conj	O	-1	B-noun.group
+0	18	435	2302	2307		431	daily	daily	daily	RB	SET	advmod	O	-1	O
+0	18	436	2307	2308	S	422	.	.	.	.	O	punct	O	-1	O
+0	19	437	2309	2313	S	445	Soon	Soon	soon	RB	O	advmod	O	-1	O
+0	19	438	2314	2319	S	437	after	after	after	IN	O	dep	O	-1	O
+0	19	439	2320	2325		441	Henry	Henry	Henry	NNP	PERSON	poss	O	0	B-noun.person
+0	19	440	2325	2327	S	439	’s	's	's	POS	O	possessive	O	-1	O
+0	19	441	2328	2335		438	arrival	arrival	arrival	NN	O	pobj	O	-1	B-noun.act
+0	19	442	2335	2336	S	445	,	,	,	,	O	punct	O	-1	O
+0	19	443	2337	2338	S	444	a	a	a	DT	O	det	O	-1	O
+0	19	444	2339	2350	S	445	bombardment	bombardment	bombardment	NN	O	nsubj	O	-1	B-noun.communication
+0	19	445	2351	2357		-1	begins	begins	begin	VBZ	O	null	O	-1	B-verb.change
+0	19	446	2357	2358	N	445	.	.	.	.	O	punct	O	-1	O
+0	20	447	2359	2363	S	449	When	When	when	WRB	O	advmod	O	-1	O
+0	20	448	2364	2368	S	449	word	word	word	NN	O	nsubj	O	-1	B-noun.communication
+0	20	449	2369	2374	S	463	comes	comes	come	VBZ	O	dep	O	-1	B-verb.stative
+0	20	450	2375	2379	S	454	that	that	that	IN	O	complm	O	-1	O
+0	20	451	2380	2386	S	452	German	German	german	JJ	MISC	amod	O	-1	O
+0	20	452	2387	2393	S	454	troops	troops	troops	NNS	O	nsubj	O	-1	B-noun.group
+0	20	453	2394	2397	S	454	are	are	be	VBP	O	aux	O	-1	O
+0	20	454	2398	2406	S	449	breaking	breaking	break	VBG	O	ccomp	O	-1	B-verb.change
+0	20	455	2407	2414	S	454	through	through	through	IN	O	prep	O	-1	O
+0	20	456	2415	2418	S	458	the	the	the	DT	O	det	O	-1	O
+0	20	457	2419	2426	N	458	Italian	Italian	italian	JJ	MISC	amod	O	-1	O
+0	20	458	2427	2432		455	lines	lines	line	NNS	O	pobj	O	-1	B-noun.group
+0	20	459	2432	2433	S	463	,	,	,	,	O	punct	O	-1	O
+0	20	460	2434	2437	S	462	the	the	the	DT	O	det	O	-1	O
+0	20	461	2438	2444	S	462	Allied	Allied	Allied	NNP	MISC	nn	O	-1	B-noun.group
+0	20	462	2445	2451	S	463	forces	forces	force	NNS	O	nsubj	O	-1	I-noun.group
+0	20	463	2452	2459	S	-1	prepare	prepare	prepare	VBP	O	null	O	-1	B-verb.change
+0	20	464	2460	2462	S	465	to	to	to	TO	O	aux	O	-1	O
+0	20	465	2463	2470		463	retreat	retreat	retreat	VB	O	xcomp	O	-1	B-verb.motion
+0	20	466	2470	2471	S	463	.	.	.	.	O	punct	O	-1	O
+0	21	467	2472	2477	S	468	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	21	468	2478	2483	S	-1	leads	leads	lead	VBZ	O	null	O	-1	B-verb.motion
+0	21	469	2484	2487	S	470	his	his	he	PRP$	O	poss	O	0	O
+0	21	470	2488	2492	N	468	team	team	team	NN	O	dobj	O	-1	B-noun.group
+0	21	471	2493	2495	S	470	of	of	of	IN	O	prep	O	-1	O
+0	21	472	2496	2505	S	473	ambulance	ambulance	ambulance	NN	O	nn	O	-1	B-noun.artifact
+0	21	473	2506	2513	S	471	drivers	drivers	driver	NNS	O	pobj	O	-1	B-noun.person
+0	21	474	2514	2518	S	468	into	into	into	IN	O	prep	O	-1	O
+0	21	475	2519	2522	S	477	the	the	the	DT	O	det	O	-1	O
+0	21	476	2523	2528	S	477	great	great	great	JJ	O	amod	O	-1	O
+0	21	477	2529	2535	S	474	column	column	column	NN	O	pobj	O	-1	B-noun.group
+0	21	478	2536	2538	S	477	of	of	of	IN	O	prep	O	-1	O
+0	21	479	2539	2549	S	478	evacuating	evacuating	evacuate	VBG	O	pcomp	O	-1	B-verb.motion
+0	21	480	2550	2556		479	troops	troops	troops	NNS	O	dobj	O	-1	O
+0	21	481	2556	2557	N	468	.	.	.	.	O	punct	O	-1	O
+0	22	482	2558	2561	S	483	The	The	the	DT	O	det	O	-1	O
+0	22	483	2562	2565	S	484	men	men	man	NNS	O	nsubj	O	-1	B-noun.person
+0	22	484	2566	2570	S	-1	pick	pick	pick	VBP	O	null	O	-1	B-verb.contact
+0	22	485	2571	2573	S	484	up	up	up	RP	O	prt	O	-1	O
+0	22	486	2574	2577	S	488	two	two	two	CD	NUMBER	num	O	-1	O
+0	22	487	2578	2589	S	488	engineering	engineering	engineering	NN	O	nn	O	-1	B-noun.act
+0	22	488	2590	2599	S	484	sergeants	sergeants	sergeant	NNS	O	dobj	O	-1	B-noun.person
+0	22	489	2600	2603	S	488	and	and	and	CC	O	cc	O	-1	O
+0	22	490	2604	2607	S	493	two	two	two	CD	NUMBER	num	O	-1	O
+0	22	491	2608	2618	S	493	frightened	frightened	frightened	JJ	O	amod	O	-1	O
+0	22	492	2619	2624	N	493	young	young	young	JJ	O	amod	O	-1	O
+0	22	493	2625	2630	S	488	girls	girls	girl	NNS	O	conj	O	-1	B-noun.person
+0	22	494	2631	2633	S	493	on	on	on	IN	O	prep	O	-1	O
+0	22	495	2634	2639	S	496	their	their	they	PRP$	O	poss	O	-1	O
+0	22	496	2640	2643		494	way	way	way	NN	O	pobj	O	-1	O
+0	22	497	2643	2644	S	484	.	.	.	.	O	punct	O	-1	O
+0	23	498	2645	2650	S	503	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	23	499	2651	2654	S	498	and	and	and	CC	O	cc	O	-1	O
+0	23	500	2655	2658	S	501	his	his	he	PRP$	O	poss	O	0	O
+0	23	501	2659	2666	S	498	drivers	drivers	driver	NNS	O	conj	O	-1	B-noun.person
+0	23	502	2667	2671	S	503	then	then	then	RB	O	advmod	O	-1	O
+0	23	503	2672	2678	S	-1	decide	decide	decide	VBP	O	null	O	-1	B-verb.cognition
+0	23	504	2679	2681	S	505	to	to	to	TO	O	aux	O	-1	O
+0	23	505	2682	2687	S	503	leave	leave	leave	VB	O	xcomp	O	-1	B-verb.motion
+0	23	506	2688	2691	N	507	the	the	the	DT	O	det	O	-1	O
+0	23	507	2692	2698	S	505	column	column	column	NN	O	dobj	O	-1	B-noun.group
+0	23	508	2699	2702	S	505	and	and	and	CC	O	cc	O	-1	O
+0	23	509	2703	2707	S	505	take	take	take	VB	O	conj	O	-1	B-verb.change
+0	23	510	2708	2717	S	511	secondary	secondary	secondary	JJ	O	amod	O	-1	O
+0	23	511	2718	2723		509	roads	roads	road	NNS	O	dobj	O	-1	B-noun.artifact
+0	23	512	2723	2724	S	511	,	,	,	,	O	punct	O	-1	O
+0	23	513	2725	2730	S	515	which	which	which	WDT	O	rel	O	-1	O
+0	23	514	2731	2735	S	515	they	they	they	PRP	O	nsubj	O	-1	O
+0	23	515	2736	2742	S	511	assume	assume	assume	VBP	O	rcmod	O	-1	B-verb.cognition
+0	23	516	2743	2747	S	518	will	will	will	MD	O	aux	O	-1	O
+0	23	517	2748	2750	S	518	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	23	518	2751	2757		515	faster	faster	faster	RBR	O	advmod	O	-1	O
+0	23	519	2757	2758	N	503	.	.	.	.	O	punct	O	-1	O
+0	24	520	2759	2763	S	526	When	When	when	WRB	O	advmod	O	-1	O
+0	24	521	2764	2767	S	526	one	one	one	CD	NUMBER	nsubj	O	-1	O
+0	24	522	2768	2770	S	521	of	of	of	IN	O	prep	O	-1	O
+0	24	523	2771	2776	S	525	their	their	they	PRP$	O	poss	O	-1	O
+0	24	524	2777	2785	S	525	vehicles	vehicles	vehicle	NNS	O	nn	O	-1	B-noun.artifact
+0	24	525	2786	2790	S	522	bogs	bogs	bog	NNS	O	pobj	O	-1	B-noun.object
+0	24	526	2791	2795	S	535	down	down	down	RB	O	advmod	O	-1	O
+0	24	527	2796	2798	S	526	in	in	in	IN	O	dep	O	-1	O
+0	24	528	2799	2802	S	529	the	the	the	DT	O	det	O	-1	O
+0	24	529	2803	2806		527	mud	mud	mud	NN	O	pobj	O	-1	B-noun.substance
+0	24	530	2806	2807	S	535	,	,	,	,	O	punct	O	-1	O
+0	24	531	2808	2813	S	532	Henry	Henry	Henry	NNP	PERSON	nn	O	0	O
+0	24	532	2814	2820	S	535	orders	orders	order	NNS	O	nsubj	O	-1	B-noun.communication
+0	24	533	2821	2824	N	535	the	the	the	DT	O	det	O	-1	O
+0	24	534	2825	2828	S	535	two	two	two	CD	NUMBER	num	O	-1	O
+0	24	535	2829	2838	S	-1	engineers	engineers	engineer	NNS	O	null	O	-1	B-noun.person
+0	24	536	2839	2841	S	537	to	to	to	TO	O	aux	O	-1	O
+0	24	537	2842	2846	S	535	help	help	help	VB	O	infmod	O	-1	B-verb.social
+0	24	538	2847	2849	S	537	in	in	in	IN	O	prep	O	-1	O
+0	24	539	2850	2853	S	540	the	the	the	DT	O	det	O	-1	O
+0	24	540	2854	2860	S	538	effort	effort	effort	NN	O	pobj	O	-1	B-noun.act
+0	24	541	2861	2863	S	542	to	to	to	TO	O	aux	O	-1	O
+0	24	542	2864	2868	S	540	free	free	free	VB	O	infmod	O	-1	B-verb.social
+0	24	543	2869	2872	S	544	the	the	the	DT	O	det	O	-1	O
+0	24	544	2873	2880		542	vehicle	vehicle	vehicle	NN	O	dobj	O	-1	B-noun.communication
+0	24	545	2880	2881	S	535	.	.	.	.	O	punct	O	-1	O
+0	25	546	2882	2886	S	548	When	When	when	WRB	O	advmod	O	-1	O
+0	25	547	2887	2891	N	548	they	they	they	PRP	O	nsubj	O	-1	O
+0	25	548	2892	2898		551	refuse	refuse	refuse	VBP	O	dep	O	-1	B-verb.communication
+0	25	549	2898	2899	S	551	,	,	,	,	O	punct	O	-1	O
+0	25	550	2900	2902	S	551	he	he	he	PRP	O	nsubj	O	0	O
+0	25	551	2903	2909	S	-1	shoots	shoots	shoot	VBZ	O	null	O	-1	B-verb.competition
+0	25	552	2910	2913	S	551	one	one	one	CD	NUMBER	dobj	O	-1	O
+0	25	553	2914	2916	S	552	of	of	of	IN	O	prep	O	-1	O
+0	25	554	2917	2921		553	them	them	they	PRP	O	pobj	O	-1	O
+0	25	555	2921	2922	S	551	.	.	.	.	O	punct	O	-1	O
+0	26	556	2923	2926	S	557	The	The	the	DT	O	det	O	-1	O
+0	26	557	2927	2934	S	558	drivers	drivers	driver	NNS	O	nsubj	O	-1	B-noun.person
+0	26	558	2935	2943	S	-1	continue	continue	continue	VBP	O	null	O	-1	B-verb.stative
+0	26	559	2944	2946	S	558	in	in	in	IN	O	prep	O	-1	O
+0	26	560	2947	2950	S	562	the	the	the	DT	O	det	O	-1	O
+0	26	561	2951	2956	N	562	other	other	other	JJ	O	amod	O	-1	O
+0	26	562	2957	2963	S	559	trucks	trucks	truck	NNS	O	pobj	O	-1	B-noun.artifact
+0	26	563	2964	2969	S	566	until	until	until	IN	O	mark	O	-1	O
+0	26	564	2970	2974	S	566	they	they	they	PRP	O	nsubjpass	O	-1	O
+0	26	565	2975	2978	S	566	get	get	get	VBP	O	auxpass	O	-1	O
+0	26	566	2979	2984	S	558	stuck	stuck	stick	VBN	O	advcl	O	-1	B-verb.contact
+0	26	567	2985	2990		566	again	again	again	RB	O	advmod	O	-1	O
+0	26	568	2990	2991	S	558	.	.	.	.	O	punct	O	-1	O
+0	27	569	2992	2996	S	570	They	They	they	PRP	O	nsubj	O	-1	O
+0	27	570	2997	3001	S	-1	send	send	send	VBP	O	null	O	-1	B-verb.motion
+0	27	571	3002	3005	S	570	off	off	off	RP	O	prt	O	-1	O
+0	27	572	3006	3009	S	574	the	the	the	DT	O	det	O	-1	O
+0	27	573	3010	3015	S	574	young	young	young	JJ	O	amod	O	-1	O
+0	27	574	3016	3021	N	570	girls	girls	girl	NNS	O	dobj	O	-1	B-noun.person
+0	27	575	3022	3025	S	570	and	and	and	CC	O	cc	O	-1	O
+0	27	576	3026	3034	S	570	continue	continue	continue	VB	O	conj	O	-1	B-verb.stative
+0	27	577	3035	3037	S	576	on	on	on	IN	O	prep	O	-1	O
+0	27	578	3038	3042	S	577	foot	foot	foot	NN	O	pobj	O	-1	B-noun.body
+0	27	579	3043	3049	S	578	toward	toward	toward	IN	O	prep	O	-1	O
+0	27	580	3050	3055		579	Udine	Udine	Udine	NNP	LOCATION	pobj	O	-1	O
+0	27	581	3055	3056	S	570	.	.	.	.	O	punct	O	-1	O
+0	28	582	3057	3059	S	584	As	As	as	IN	O	mark	O	-1	O
+0	28	583	3060	3064	S	584	they	they	they	PRP	O	nsubj	O	-1	O
+0	28	584	3065	3070		-1	march	march	march	VBP	O	null	O	-1	B-verb.motion
+0	28	585	3070	3071	S	584	,	,	,	,	O	punct	O	-1	O
+0	28	586	3072	3075	S	591	one	one	one	CD	NUMBER	nsubjpass	O	-1	O
+0	28	587	3076	3078	S	586	of	of	of	IN	O	prep	O	-1	O
+0	28	588	3079	3082	S	589	the	the	the	DT	O	det	O	-1	O
+0	28	589	3083	3090	N	587	drivers	drivers	driver	NNS	O	pobj	O	-1	B-noun.person
+0	28	590	3091	3093	S	591	is	is	be	VBZ	O	auxpass	O	-1	O
+0	28	591	3094	3098	S	584	shot	shot	shoot	VBN	O	dep	O	-1	B-verb.social
+0	28	592	3099	3103	S	591	dead	dead	dead	JJ	O	dep	O	-1	O
+0	28	593	3104	3106	S	591	by	by	by	IN	O	prep	O	-1	O
+0	28	594	3107	3110	S	598	the	the	the	DT	O	det	O	-1	O
+0	28	595	3111	3117	S	598	easily	easily	easily	RB	O	advmod	O	-1	O
+0	28	596	3118	3128	S	598	frightened	frightened	frightened	JJ	O	amod	O	-1	O
+0	28	597	3129	3133	S	598	rear	rear	rear	JJ	O	amod	O	-1	O
+0	28	598	3134	3139	S	593	guard	guard	guard	NN	O	pobj	O	-1	B-noun.person
+0	28	599	3140	3142	S	598	of	of	of	IN	O	prep	O	-1	O
+0	28	600	3143	3146	S	602	the	the	the	DT	O	det	O	-1	O
+0	28	601	3147	3154	N	602	Italian	Italian	italian	JJ	MISC	amod	O	-1	O
+0	28	602	3155	3159		599	army	army	army	NN	O	pobj	O	-1	B-noun.group
+0	28	603	3159	3160	S	584	.	.	.	.	O	punct	O	-1	O
+0	29	604	3161	3168	S	606	Another	Another	another	DT	O	det	O	-1	O
+0	29	605	3169	3175	S	606	driver	driver	driver	NN	O	nn	O	-1	B-noun.person
+0	29	606	3176	3183	S	-1	marches	marches	march	NNS	O	null	O	-1	B-noun.time
+0	29	607	3184	3187	S	609	off	off	off	IN	O	mark	O	-1	O
+0	29	608	3188	3190	S	609	to	to	to	TO	O	aux	O	-1	O
+0	29	609	3191	3200	S	606	surrender	surrender	surrender	VB	O	dep	O	-1	B-verb.competition
+0	29	610	3201	3208		609	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	29	611	3208	3209	S	609	,	,	,	,	O	punct	O	-1	O
+0	29	612	3210	3215	S	618	while	while	while	IN	O	mark	O	-1	O
+0	29	613	3216	3221	N	618	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	29	614	3222	3225	S	613	and	and	and	CC	O	cc	O	-1	O
+0	29	615	3226	3229	S	617	the	the	the	DT	O	det	O	-1	O
+0	29	616	3230	3239	S	617	remaining	remaining	remain	VBG	O	amod	O	-1	B-verb.change
+0	29	617	3240	3246	S	613	driver	driver	driver	NN	O	conj	O	-1	B-noun.person
+0	29	618	3247	3251	S	609	seek	seek	seek	VBP	O	advcl	O	-1	B-verb.contact
+0	29	619	3252	3258	S	618	refuge	refuge	refuge	NN	O	dobj	O	-1	B-noun.location
+0	29	620	3259	3261	S	618	at	at	at	IN	O	prep	O	-1	O
+0	29	621	3262	3263	S	622	a	a	a	DT	O	det	O	-1	O
+0	29	622	3264	3273		620	farmhouse	farmhouse	farmhouse	NN	O	pobj	O	-1	B-noun.artifact
+0	29	623	3273	3274	S	606	.	.	.	.	O	punct	O	-1	O
+0	30	624	3275	3279	S	626	When	When	when	WRB	O	advmod	O	-1	O
+0	30	625	3280	3284	S	626	they	they	they	PRP	O	nsubj	O	-1	O
+0	30	626	3285	3291	N	635	rejoin	rejoin	rejoin	VBP	O	dep	O	-1	B-verb.social
+0	30	627	3292	3295	S	628	the	the	the	DT	O	det	O	-1	O
+0	30	628	3296	3303	S	626	retreat	retreat	retreat	NN	O	dobj	O	-1	B-noun.act
+0	30	629	3304	3307	S	631	the	the	the	DT	DATE	det	O	-1	O
+0	30	630	3308	3317	S	631	following	following	follow	VBG	DATE	amod	O	-1	O
+0	30	631	3318	3321		628	day	day	day	NN	DATE	dep	O	-1	B-noun.time
+0	30	632	3321	3322	S	635	,	,	,	,	O	punct	O	-1	O
+0	30	633	3323	3328	S	635	chaos	chaos	chaos	NN	O	nsubj	O	-1	B-noun.state
+0	30	634	3329	3332	S	635	has	has	have	VBZ	O	aux	O	-1	O
+0	30	635	3333	3339	S	-1	broken	broken	break	VBN	O	null	O	-1	B-verb.change
+0	30	636	3340	3343		635	out	out	out	RP	O	prt	O	-1	O
+0	30	637	3343	3344	S	635	:	:	:	:	O	punct	O	-1	O
+0	30	638	3345	3353		646	soldiers	soldiers	soldier	NNS	O	nsubj	O	-1	O
+0	30	639	3353	3354	S	638	,	,	,	,	O	punct	O	-1	O
+0	30	640	3355	3362	N	638	angered	angered	anger	VBN	O	partmod	O	-1	B-verb.emotion
+0	30	641	3363	3365	S	640	by	by	by	IN	O	prep	O	-1	O
+0	30	642	3366	3369	S	644	the	the	the	DT	O	det	O	-1	O
+0	30	643	3370	3377	S	644	Italian	Italian	italian	JJ	MISC	amod	O	-1	O
+0	30	644	3378	3384		641	defeat	defeat	defeat	NN	O	pobj	O	-1	B-noun.event
+0	30	645	3384	3385	S	638	,	,	,	,	O	punct	O	-1	O
+0	30	646	3386	3390	S	635	pull	pull	pull	VB	O	parataxis	O	-1	O
+0	30	647	3391	3401	S	646	commanding	commanding	command	VBG	O	xcomp	O	-1	B-verb.communication
+0	30	648	3402	3410	S	647	officers	officers	officer	NNS	O	dobj	O	-1	B-noun.person
+0	30	649	3411	3415	S	647	from	from	from	IN	O	prep	O	-1	O
+0	30	650	3416	3419	S	651	the	the	the	DT	O	det	O	-1	O
+0	30	651	3420	3425	S	649	melee	melee	melee	NN	O	pobj	O	-1	B-noun.act
+0	30	652	3426	3429	N	646	and	and	and	CC	O	cc	O	-1	O
+0	30	653	3430	3437	S	646	execute	execute	execute	VB	O	conj	O	-1	B-verb.social
+0	30	654	3438	3442	S	653	them	them	they	PRP	O	dobj	O	-1	O
+0	30	655	3443	3445	S	653	on	on	on	IN	O	prep	O	-1	O
+0	30	656	3446	3451		655	sight	sight	sight	NN	O	pobj	O	-1	B-noun.cognition
+0	30	657	3451	3452	S	635	.	.	.	.	O	punct	O	-1	O
+0	31	658	3453	3456	S	660	The	The	the	DT	O	det	O	-1	O
+0	31	659	3457	3463	S	660	battle	battle	battle	NN	O	nn	O	-1	B-noun.act
+0	31	660	3464	3470	S	661	police	police	police	NN	O	nsubj	O	-1	B-noun.group
+0	31	661	3471	3476	S	-1	seize	seize	seize	VB	O	null	O	-1	B-verb.contact
+0	31	662	3477	3482		661	Henry	Henry	Henry	NNP	PERSON	dobj	O	0	O
+0	31	663	3482	3483	S	662	,	,	,	,	O	punct	O	-1	O
+0	31	664	3484	3487		662	who	who	who	WP	O	appos	O	-1	O
+0	31	665	3487	3488	S	664	,	,	,	,	O	punct	O	-1	O
+0	31	666	3489	3491	S	665	at	at	at	IN	O	dep	O	-1	O
+0	31	667	3492	3493	N	669	a	a	a	DT	O	det	O	-1	O
+0	31	668	3494	3501	S	669	crucial	crucial	crucial	JJ	O	amod	O	-1	O
+0	31	669	3502	3508		666	moment	moment	moment	NN	O	pobj	O	-1	B-noun.time
+0	31	670	3508	3509	S	666	,	,	,	,	O	dep	O	-1	O
+0	31	671	3510	3516	S	670	breaks	breaks	break	NNS	O	dobj	O	-1	B-noun.act
+0	31	672	3517	3521	S	671	away	away	away	RB	O	advmod	O	-1	O
+0	31	673	3522	3525	S	671	and	and	and	CC	O	cc	O	-1	O
+0	31	674	3526	3531	S	671	dives	dives	dive	VBZ	O	conj	O	-1	B-verb.motion
+0	31	675	3532	3536	S	671	into	into	into	IN	O	prep	O	-1	O
+0	31	676	3537	3540	S	677	the	the	the	DT	O	det	O	-1	O
+0	31	677	3541	3546		675	river	river	river	NN	O	pobj	O	-1	B-noun.object
+0	31	678	3546	3547	S	661	.	.	.	.	O	punct	O	-1	O
+0	32	679	3548	3553	S	687	After	After	after	IN	O	prep	O	-1	O
+0	32	680	3554	3562	N	679	swimming	swimming	swim	VBG	O	pcomp	O	-1	B-verb.motion
+0	32	681	3563	3564	S	683	a	a	a	DT	O	det	O	-1	O
+0	32	682	3565	3569	S	683	safe	safe	safe	JJ	O	amod	O	-1	O
+0	32	683	3570	3578	S	680	distance	distance	distance	NN	O	dobj	O	-1	B-noun.attribute
+0	32	684	3579	3589		680	downstream	downstream	downstream	RB	O	advmod	O	-1	O
+0	32	685	3589	3590	S	687	,	,	,	,	O	punct	O	-1	O
+0	32	686	3591	3596	S	687	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	O
+0	32	687	3597	3603	S	-1	boards	boards	board	NNS	O	null	O	-1	B-noun.substance
+0	32	688	3604	3605	S	689	a	a	a	DT	O	det	O	-1	O
+0	32	689	3606	3611	S	690	train	train	train	NN	O	nsubj	O	-1	B-noun.artifact
+0	32	690	3612	3617	S	687	bound	bound	bind	VBD	O	rcmod	O	-1	B-verb.contact
+0	32	691	3618	3621	S	690	for	for	for	IN	O	prep	O	-1	O
+0	32	692	3622	3627		691	Milan	Milan	Milan	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	32	693	3627	3628	N	687	.	.	.	.	O	punct	O	-1	O
+0	33	694	3629	3631	S	695	He	He	he	PRP	O	nsubj	O	0	O
+0	33	695	3632	3637	S	-1	hides	hides	hide	VBZ	O	null	O	-1	B-verb.perception
+0	33	696	3638	3645	S	695	beneath	beneath	beneath	IN	O	prep	O	-1	O
+0	33	697	3646	3647	S	698	a	a	a	DT	O	det	O	-1	O
+0	33	698	3648	3652	S	696	tarp	tarp	tarp	NN	O	pobj	O	-1	B-noun.artifact
+0	33	699	3653	3657	S	700	that	that	that	WDT	O	nsubj	O	-1	O
+0	33	700	3658	3664	S	698	covers	covers	cover	VBZ	O	rcmod	O	-1	O
+0	33	701	3665	3675	S	702	stockpiled	stockpiled	stockpile	VBN	O	amod	O	-1	B-verb.possession
+0	33	702	3676	3685		700	artillery	artillery	artillery	NN	O	dobj	O	-1	B-noun.communication
+0	33	703	3685	3686	S	695	,	,	,	,	O	punct	O	-1	O
+0	33	704	3687	3695	N	695	thinking	thinking	think	VBG	O	xcomp	O	-1	B-verb.cognition
+0	33	705	3696	3700	S	712	that	that	that	IN	O	complm	O	-1	O
+0	33	706	3701	3704	S	707	his	his	he	PRP$	O	poss	O	0	O
+0	33	707	3705	3716	S	712	obligations	obligations	obligation	NNS	O	nsubj	O	-1	B-noun.act
+0	33	708	3717	3719	S	707	to	to	to	TO	O	prep	O	-1	O
+0	33	709	3720	3723	S	711	the	the	the	DT	O	det	O	-1	O
+0	33	710	3724	3727	S	711	war	war	war	NN	O	nn	O	-1	B-noun.act
+0	33	711	3728	3734	S	708	effort	effort	effort	NN	O	pobj	O	-1	B-noun.act
+0	33	712	3735	3738	S	704	are	are	be	VBP	O	ccomp	O	-1	B-verb.stative
+0	33	713	3739	3743	S	712	over	over	over	IN	O	prep	O	-1	O
+0	33	714	3744	3747	S	713	and	and	and	CC	O	cc	O	-1	O
+0	33	715	3748	3756	S	713	dreaming	dreaming	dream	VBG	O	conj	O	-1	B-verb.creation
+0	33	716	3757	3759	N	715	of	of	of	IN	O	prep	O	-1	O
+0	33	717	3760	3763	S	718	his	his	he	PRP$	O	poss	O	0	O
+0	33	718	3764	3770	S	716	return	return	return	NN	O	pobj	O	-1	B-noun.communication
+0	33	719	3771	3773	S	718	to	to	to	TO	O	prep	O	-1	O
+0	33	720	3774	3783		719	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	3	B-noun.person
+0	33	721	3783	3784	S	695	.	.	.	.	O	punct	O	-1	O
+0	34	722	3785	3790	S	723	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	34	723	3791	3799	S	-1	reunites	reunites	reunite	VBZ	O	null	O	-1	B-verb.social
+0	34	724	3800	3804	S	723	with	with	with	IN	O	prep	O	-1	O
+0	34	725	3805	3814	S	724	Catherine	Catherine	Catherine	NNP	PERSON	pobj	O	3	B-noun.person
+0	34	726	3815	3817	S	723	in	in	in	IN	O	prep	O	-1	O
+0	34	727	3818	3821	S	728	the	the	the	DT	O	det	O	-1	O
+0	34	728	3822	3826	S	726	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	34	729	3827	3829	S	728	of	of	of	IN	O	prep	O	-1	O
+0	34	730	3830	3836		729	Stresa	Stresa	Stresa	NNP	LOCATION	pobj	O	-1	O
+0	34	731	3836	3837	S	723	.	.	.	.	O	punct	O	-1	O
+0	35	732	3838	3842	N	743	From	From	from	IN	O	prep	O	-1	O
+0	35	733	3843	3848		732	there	there	there	RB	O	pobj	O	-1	O
+0	35	734	3848	3849	S	743	,	,	,	,	O	punct	O	-1	O
+0	35	735	3850	3853	S	737	the	the	the	DT	O	det	O	-1	O
+0	35	736	3854	3857	S	737	two	two	two	CD	NUMBER	num	O	-1	O
+0	35	737	3858	3864	S	743	escape	escape	escape	NN	O	nsubj	O	-1	B-noun.act
+0	35	738	3865	3867	S	739	to	to	to	TO	O	aux	O	-1	O
+0	35	739	3868	3874	S	737	safety	safety	safety	NN	O	infmod	O	-1	B-noun.state
+0	35	740	3875	3877	S	739	in	in	in	IN	O	prep	O	-1	O
+0	35	741	3878	3889		740	Switzerland	Switzerland	Switzerland	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	35	742	3889	3890	S	737	,	,	,	,	O	punct	O	-1	O
+0	35	743	3891	3897	S	-1	rowing	rowing	rowing	NN	O	null	O	-1	B-noun.act
+0	35	744	3898	3901	S	745	all	all	all	DT	O	det	O	-1	O
+0	35	745	3902	3907	N	743	night	night	night	NN	TIME	tmod	O	-1	B-noun.time
+0	35	746	3908	3910	S	743	in	in	in	IN	O	prep	O	-1	O
+0	35	747	3911	3912	S	750	a	a	a	DT	O	det	O	-1	O
+0	35	748	3913	3917	S	750	tiny	tiny	tiny	JJ	O	amod	O	-1	O
+0	35	749	3918	3926	S	750	borrowed	borrowed	borrow	VBN	O	amod	O	-1	B-verb.possession
+0	35	750	3927	3931		746	boat	boat	boat	NN	O	pobj	O	-1	B-noun.artifact
+0	35	751	3931	3932	S	743	.	.	.	.	O	punct	O	-1	O
+0	36	752	3933	3937	S	753	They	They	they	PRP	O	nsubj	O	-1	O
+0	36	753	3938	3944	S	-1	settle	settle	settle	VBP	O	null	O	-1	B-verb.motion
+0	36	754	3945	3952	S	753	happily	happily	happily	RB	O	advmod	O	-1	O
+0	36	755	3953	3955	S	753	in	in	in	IN	O	prep	O	-1	O
+0	36	756	3956	3957	S	759	a	a	a	DT	O	det	O	-1	O
+0	36	757	3958	3964	S	759	lovely	lovely	lovely	JJ	O	amod	O	-1	O
+0	36	758	3965	3971	N	759	alpine	alpine	alpine	JJ	O	amod	O	-1	O
+0	36	759	3972	3976	S	755	town	town	town	NN	O	pobj	O	-1	B-noun.location
+0	36	760	3977	3983	S	759	called	called	call	VBN	O	partmod	O	-1	B-verb.communication
+0	36	761	3984	3992	S	760	Montreux	Montreux	Montreux	NNP	LOCATION	dep	O	-1	B-noun.person
+0	36	762	3993	3996	S	753	and	and	and	CC	O	cc	O	-1	O
+0	36	763	3997	4002	S	753	agree	agree	agree	VBP	O	conj	O	-1	B-verb.communication
+0	36	764	4003	4005	S	765	to	to	to	TO	O	aux	O	-1	O
+0	36	765	4006	4009	S	763	put	put	put	VB	O	xcomp	O	-1	B-verb.contact
+0	36	766	4010	4013	S	767	the	the	the	DT	O	det	O	-1	O
+0	36	767	4014	4017	S	765	war	war	war	NN	O	dobj	O	-1	B-noun.act
+0	36	768	4018	4024	S	765	behind	behind	behind	IN	O	prep	O	-1	O
+0	36	769	4025	4029	S	768	them	them	they	PRP	O	pobj	O	-1	O
+0	36	770	4030	4037		765	forever	forever	forever	RB	O	advmod	O	-1	O
+0	36	771	4037	4038	N	753	.	.	.	.	O	punct	O	-1	O
+0	37	772	4039	4047	S	776	Although	Although	although	IN	O	mark	O	-1	O
+0	37	773	4048	4053	S	776	Henry	Henry	Henry	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	37	774	4054	4056	S	776	is	is	be	VBZ	O	auxpass	O	-1	O
+0	37	775	4057	4066	S	776	sometimes	sometimes	sometimes	RB	O	advmod	O	-1	O
+0	37	776	4067	4074	S	789	plagued	plagued	plague	VBN	O	advcl	O	-1	B-verb.weather
+0	37	777	4075	4077	S	776	by	by	by	IN	O	prep	O	-1	O
+0	37	778	4078	4083	S	777	guilt	guilt	guilt	NN	O	pobj	O	-1	B-noun.state
+0	37	779	4084	4087	S	776	for	for	for	IN	O	prep	O	-1	O
+0	37	780	4088	4098	S	779	abandoning	abandoning	abandon	VBG	O	pcomp	O	-1	B-verb.possession
+0	37	781	4099	4102	N	782	the	the	the	DT	O	det	O	-1	O
+0	37	782	4103	4106	S	780	men	men	man	NNS	O	dobj	O	-1	B-noun.person
+0	37	783	4107	4109	S	782	on	on	on	IN	O	prep	O	-1	O
+0	37	784	4110	4113	S	785	the	the	the	DT	O	det	O	-1	O
+0	37	785	4114	4119		783	front	front	front	NN	O	pobj	O	-1	B-noun.location
+0	37	786	4119	4120	S	789	,	,	,	,	O	punct	O	-1	O
+0	37	787	4121	4124	S	788	the	the	the	DT	O	dep	O	-1	O
+0	37	788	4125	4128	S	789	two	two	two	CD	NUMBER	nsubj	O	-1	O
+0	37	789	4129	4136	S	-1	succeed	succeed	succeed	VB	O	null	O	-1	B-verb.social
+0	37	790	4137	4139	S	789	in	in	in	IN	O	prep	O	-1	O
+0	37	791	4140	4146	S	790	living	living	live	VBG	O	pcomp	O	-1	B-verb.stative
+0	37	792	4147	4148	S	796	a	a	a	DT	O	det	O	-1	O
+0	37	793	4149	4158		796	beautiful	beautiful	beautiful	JJ	O	amod	O	-1	O
+0	37	794	4158	4159	S	796	,	,	,	,	O	punct	O	-1	O
+0	37	795	4160	4168	N	796	peaceful	peaceful	peaceful	JJ	O	amod	O	-1	O
+0	37	796	4169	4173		791	life	life	life	NN	O	dobj	O	-1	B-noun.state
+0	37	797	4173	4174	S	789	.	.	.	.	O	punct	O	-1	O
+0	38	798	4175	4179	S	800	When	When	when	WRB	O	advmod	O	-1	O
+0	38	799	4180	4186	S	800	spring	spring	spring	NN	DATE	nsubj	O	-1	B-noun.time
+0	38	800	4187	4194		-1	arrives	arrives	arrive	VBZ	O	null	O	-1	O
+0	38	801	4194	4195	S	804	,	,	,	,	O	punct	O	-1	O
+0	38	802	4196	4199	S	803	the	the	the	DT	O	det	O	-1	O
+0	38	803	4200	4206	S	804	couple	couple	couple	NN	O	nsubj	O	-1	B-noun.group
+0	38	804	4207	4212	S	800	moves	moves	move	VBZ	O	parataxis	O	-1	B-verb.motion
+0	38	805	4213	4215	S	804	to	to	to	TO	O	prep	O	-1	O
+0	38	806	4216	4224	S	805	Lausanne	Lausanne	Lausanne	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	38	807	4225	4227	S	812	so	so	so	IN	O	mark	O	-1	O
+0	38	808	4228	4232	N	812	that	that	that	IN	O	dep	O	-1	O
+0	38	809	4233	4237	S	812	they	they	they	PRP	O	nsubj	O	-1	O
+0	38	810	4238	4241	S	812	can	can	can	MD	O	aux	O	-1	O
+0	38	811	4242	4244	S	812	be	be	be	VB	O	cop	O	-1	B-verb.stative
+0	38	812	4245	4251	S	804	closer	closer	closer	JJR	O	advcl	O	-1	O
+0	38	813	4252	4254	S	812	to	to	to	TO	O	prep	O	-1	O
+0	38	814	4255	4258	S	815	the	the	the	DT	O	det	O	-1	O
+0	38	815	4259	4267		813	hospital	hospital	hospital	NN	O	pobj	O	-1	B-noun.artifact
+0	38	816	4267	4268	S	800	.	.	.	.	O	punct	O	-1	O
+0	39	817	4269	4274	S	819	Early	Early	early	RB	O	advmod	O	-1	O
+0	39	818	4275	4278	S	819	one	one	one	CD	NUMBER	num	O	-1	O
+0	39	819	4279	4286		822	morning	morning	morning	NN	TIME	tmod	O	-1	B-noun.time
+0	39	820	4286	4287	S	822	,	,	,	,	O	punct	O	-1	O
+0	39	821	4288	4297	N	822	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	39	822	4298	4302	S	-1	goes	goes	go	VBZ	O	null	O	-1	B-verb.motion
+0	39	823	4303	4307	S	822	into	into	into	IN	O	prep	O	-1	O
+0	39	824	4308	4313		823	labor	labor	labor	NN	O	pobj	O	-1	B-noun.act
+0	39	825	4313	4314	S	822	.	.	.	.	O	punct	O	-1	O
+0	40	826	4315	4318	S	827	The	The	the	DT	O	det	O	-1	O
+0	40	827	4319	4327	S	830	delivery	delivery	delivery	NN	O	nsubj	O	-1	B-noun.act
+0	40	828	4328	4330	S	830	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	40	829	4331	4344	S	830	exceptionally	exceptionally	exceptionally	RB	O	advmod	O	-1	O
+0	40	830	4345	4352	S	-1	painful	painful	painful	JJ	O	null	O	-1	O
+0	40	831	4353	4356	S	830	and	and	and	CC	O	cc	O	-1	O
+0	40	832	4357	4368		830	complicated	complicated	complicated	JJ	O	conj	O	-1	O
+0	40	833	4368	4369	N	830	.	.	.	.	O	punct	O	-1	O
+0	41	834	4370	4379	S	835	Catherine	Catherine	Catherine	NNP	PERSON	nsubj	O	3	B-noun.person
+0	41	835	4380	4388	S	-1	delivers	delivers	deliver	VBZ	O	null	O	-1	B-verb.communication
+0	41	836	4389	4390	S	839	a	a	a	DT	O	det	O	-1	O
+0	41	837	4391	4400	S	839	stillborn	stillborn	stillborn	JJ	O	amod	O	-1	O
+0	41	838	4401	4405	S	839	baby	baby	baby	NN	O	nn	O	-1	B-noun.person
+0	41	839	4406	4409	S	835	boy	boy	boy	NN	O	dobj	O	-1	B-noun.person
+0	41	840	4410	4413		835	and	and	and	CC	O	cc	O	-1	O
+0	41	841	4413	4414	S	844	,	,	,	,	O	punct	O	-1	O
+0	41	842	4415	4420	S	844	later	later	later	RB	TIME	advmod	O	-1	O
+0	41	843	4421	4425	S	844	that	that	that	DT	TIME	det	O	-1	O
+0	41	844	4426	4431		846	night	night	night	NN	TIME	nsubj	O	-1	B-noun.time
+0	41	845	4431	4432	S	844	,	,	,	,	O	punct	O	-1	O
+0	41	846	4433	4437	N	835	dies	dies	die	VBZ	O	conj	O	-1	B-verb.change
+0	41	847	4438	4440	S	846	of	of	of	IN	O	prep	O	-1	O
+0	41	848	4441	4442	S	849	a	a	a	DT	O	det	O	-1	O
+0	41	849	4443	4453		847	hemorrhage	hemorrhage	hemorrhage	NN	O	pobj	O	-1	B-noun.state
+0	41	850	4453	4454	S	835	.	.	.	.	O	punct	O	-1	O
+0	42	851	4455	4460	S	852	Henry	Henry	Henry	NNP	PERSON	nsubj	O	0	B-noun.person
+0	42	852	4461	4466	S	-1	stays	stays	stay	VBZ	O	null	O	-1	B-verb.stative
+0	42	853	4467	4469	S	852	at	at	at	IN	O	prep	O	-1	O
+0	42	854	4470	4473	S	855	her	her	she	PRP$	O	poss	O	3	O
+0	42	855	4474	4478	S	853	side	side	side	NN	O	pobj	O	-1	B-noun.body
+0	42	856	4479	4484	S	859	until	until	until	IN	O	mark	O	-1	O
+0	42	857	4485	4488	S	859	she	she	she	PRP	O	nsubjpass	O	3	O
+0	42	858	4489	4491	S	859	is	is	be	VBZ	O	auxpass	O	-1	O
+0	42	859	4492	4496		852	gone	gone	go	VBN	O	advcl	O	-1	B-verb.motion
+0	42	860	4496	4497	S	852	.	.	.	.	O	punct	O	-1	O
+0	43	861	4498	4500	S	862	He	He	he	PRP	O	nsubj	O	0	O
+0	43	862	4501	4509	N	-1	attempts	attempts	attempt	VBZ	O	null	O	-1	B-verb.social
+0	43	863	4510	4512	S	864	to	to	to	TO	O	aux	O	-1	O
+0	43	864	4513	4516	S	862	say	say	say	VB	O	xcomp	O	-1	B-verb.communication
+0	43	865	4517	4524	S	864	goodbye	goodbye	goodbye	NN	O	dobj	O	-1	B-noun.communication
+0	43	866	4525	4528	S	862	but	but	but	CC	O	cc	O	-1	O
+0	43	867	4529	4532		862	can	can	can	MD	O	conj	O	-1	O
+0	43	868	4532	4535		867	not	not	not	RB	O	neg	O	-1	O
+0	43	869	4535	4536	S	862	.	.	.	.	O	punct	O	-1	O
+0	44	870	4537	4539	S	871	He	He	he	PRP	O	nsubj	O	0	O
+0	44	871	4540	4545	S	-1	walks	walks	walk	VBZ	O	null	O	-1	B-verb.motion
+0	44	872	4546	4550	S	871	back	back	back	RB	O	advmod	O	-1	O
+0	44	873	4551	4553	S	872	to	to	to	TO	O	dep	O	-1	O
+0	44	874	4554	4557	S	875	his	his	he	PRP$	O	poss	O	0	O
+0	44	875	4558	4563	S	873	hotel	hotel	hotel	NN	O	pobj	O	-1	B-noun.artifact
+0	44	876	4564	4566	S	875	in	in	in	IN	O	prep	O	-1	O
+0	44	877	4567	4570	S	878	the	the	the	DT	O	det	O	-1	O
+0	44	878	4571	4575		876	rain	rain	rain	NN	O	pobj	O	-1	B-noun.phenomenon
+0	44	879	4575	4576	N	871	.	.	.	.	O	punct	O	-1	O

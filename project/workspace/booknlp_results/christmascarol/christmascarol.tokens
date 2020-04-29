@@ -1,0 +1,742 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	1	S	5	A	A	a	DT	O	det	O	-1	O
+0	0	1	2	15		5	mean-spirited	mean-spirited	mean-spirited	JJ	O	amod	O	-1	O
+0	0	2	15	16	S	5	,	,	,	,	O	punct	O	-1	O
+0	0	3	17	24	S	5	miserly	miserly	miserly	JJ	O	amod	O	-1	O
+0	0	4	25	28	S	5	old	old	old	JJ	O	amod	O	-1	O
+0	0	5	29	32	S	9	man	man	man	NN	O	nsubj	O	-1	B-noun.person
+0	0	6	33	38	S	9	named	named	name	VBN	O	rel	O	-1	B-verb.communication
+0	0	7	39	47	S	8	Ebenezer	Ebenezer	Ebenezer	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	8	48	55	S	9	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	9	56	60	S	-1	sits	sits	sit	VBZ	O	null	O	-1	B-verb.contact
+0	0	10	61	63	S	9	in	in	in	IN	O	prep	O	-1	O
+0	0	11	64	67	S	12	his	his	he	PRP$	O	poss	O	-1	O
+0	0	12	68	82	S	10	counting-house	counting-house	counting-house	NN	O	pobj	O	-1	B-noun.artifact
+0	0	13	83	85	S	12	on	on	on	IN	O	prep	O	-1	O
+0	0	14	86	87	S	17	a	a	a	DT	O	det	O	-1	O
+0	0	15	88	94	S	17	frigid	frigid	frigid	JJ	O	amod	O	-1	O
+0	0	16	95	104	S	17	Christmas	Christmas	Christmas	NNP	DATE	nn	O	-1	B-noun.time
+0	0	17	105	108		13	Eve	Eve	Eve	NNP	DATE	pobj	O	-1	O
+0	0	18	108	109	S	9	.	.	.	.	O	punct	O	-1	O
+0	1	19	110	113	S	20	His	His	he	PRP$	O	poss	O	-1	O
+0	1	20	114	119		25	clerk	clerk	clerk	NN	O	nsubj	O	-1	B-noun.person
+0	1	21	119	120	S	20	,	,	,	,	O	punct	O	-1	O
+0	1	22	121	124	S	23	Bob	Bob	Bob	NNP	PERSON	nn	O	0	B-noun.person
+0	1	23	125	133		20	Cratchit	Cratchit	Cratchit	NNP	PERSON	appos	O	0	I-noun.person
+0	1	24	133	134	S	20	,	,	,	,	O	punct	O	-1	O
+0	1	25	135	142	S	-1	shivers	shivers	shiver	NNS	O	null	O	-1	B-noun.act
+0	1	26	143	145	S	25	in	in	in	IN	O	prep	O	-1	O
+0	1	27	146	149	S	28	the	the	the	DT	O	det	O	-1	O
+0	1	28	150	158	S	26	anteroom	anteroom	anteroom	NN	O	pobj	O	-1	B-noun.artifact
+0	1	29	159	166	S	31	because	because	because	IN	O	mark	O	-1	O
+0	1	30	167	174	S	31	Scrooge	Scrooge	Scrooge	NNP	O	nsubj	O	-1	B-noun.person
+0	1	31	175	182	S	25	refuses	refuses	refuse	VBZ	O	advcl	O	-1	B-verb.communication
+0	1	32	183	185	S	33	to	to	to	TO	O	aux	O	-1	O
+0	1	33	186	191	S	31	spend	spend	spend	VB	O	xcomp	O	-1	B-verb.possession
+0	1	34	192	197	S	33	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	1	35	198	200	S	33	on	on	on	IN	O	prep	O	-1	O
+0	1	36	201	208	S	37	heating	heating	heating	NN	O	nn	O	-1	B-noun.process
+0	1	37	209	214	S	35	coals	coals	coal	NNS	O	pobj	O	-1	B-noun.substance
+0	1	38	215	218	S	37	for	for	for	IN	O	prep	O	-1	O
+0	1	39	219	220	S	40	a	a	a	DT	O	det	O	-1	O
+0	1	40	221	225		38	fire	fire	fire	NN	O	pobj	O	-1	B-noun.event
+0	1	41	225	226	S	25	.	.	.	.	O	punct	O	-1	O
+0	2	42	227	234		44	Scrooge	Scrooge	Scrooge	NNP	PERSON	poss	O	1	B-noun.person
+0	2	43	234	236	S	42	's	's	's	POS	O	possessive	O	-1	O
+0	2	44	237	243		48	nephew	nephew	nephew	NN	O	nsubj	O	-1	B-noun.person
+0	2	45	243	244	S	44	,	,	,	,	O	punct	O	-1	O
+0	2	46	245	249		44	Fred	Fred	Fred	NNP	PERSON	appos	O	2	O
+0	2	47	249	250	S	44	,	,	,	,	O	punct	O	-1	O
+0	2	48	251	255	S	-1	pays	pays	pay	VBZ	O	null	O	-1	B-verb.possession
+0	2	49	256	259	S	50	his	his	he	PRP$	O	poss	O	2	O
+0	2	50	260	265	S	48	uncle	uncle	uncle	NN	O	dobj	O	-1	B-noun.person
+0	2	51	266	267	S	52	a	a	a	DT	O	det	O	-1	O
+0	2	52	268	273	S	50	visit	visit	visit	NN	O	dep	O	-1	B-noun.act
+0	2	53	274	277	S	48	and	and	and	CC	O	cc	O	-1	O
+0	2	54	278	285	S	48	invites	invites	invite	VBZ	O	conj	O	-1	B-verb.emotion
+0	2	55	286	289	S	54	him	him	he	PRP	O	dobj	O	2	O
+0	2	56	290	292	S	54	to	to	to	TO	O	prep	O	-1	O
+0	2	57	293	296	S	60	his	his	he	PRP$	O	poss	O	2	O
+0	2	58	297	303	S	60	annual	annual	annual	JJ	SET	amod	O	-1	O
+0	2	59	304	313	S	60	Christmas	Christmas	Christmas	NNP	SET	nn	O	-1	O
+0	2	60	314	319		56	party	party	party	NN	O	pobj	O	-1	O
+0	2	61	319	320	S	48	.	.	.	.	O	punct	O	-1	O
+0	3	62	321	324	S	64	Two	Two	two	CD	NUMBER	num	O	-1	O
+0	3	63	325	331	S	64	portly	portly	portly	JJ	O	amod	O	-1	O
+0	3	64	332	341	S	66	gentlemen	gentlemen	gentleman	NNS	O	nsubj	O	-1	B-noun.person
+0	3	65	342	346	S	66	also	also	also	RB	O	advmod	O	-1	O
+0	3	66	347	351	S	-1	drop	drop	drop	VBP	O	null	O	-1	B-verb.social
+0	3	67	352	354	S	66	by	by	by	IN	O	advmod	O	-1	O
+0	3	68	355	358	S	66	and	and	and	CC	O	cc	O	-1	O
+0	3	69	359	362	S	66	ask	ask	ask	VB	O	conj	O	-1	B-verb.communication
+0	3	70	363	370	S	69	Scrooge	Scrooge	Scrooge	NNP	PERSON	dobj	O	1	B-noun.person
+0	3	71	371	374	S	69	for	for	for	IN	O	prep	O	-1	O
+0	3	72	375	376	S	73	a	a	a	DT	O	det	O	-1	O
+0	3	73	377	389	S	71	contribution	contribution	contribution	NN	O	pobj	O	-1	B-noun.act
+0	3	74	390	392	S	73	to	to	to	TO	O	prep	O	-1	O
+0	3	75	393	398	S	76	their	their	they	PRP$	O	poss	O	-1	O
+0	3	76	399	406		74	charity	charity	charity	NN	O	pobj	O	-1	B-noun.group
+0	3	77	406	407	S	66	.	.	.	.	O	punct	O	-1	O
+0	4	78	408	415	S	79	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	4	79	416	422	S	-1	reacts	reacts	react	VBZ	O	null	O	-1	B-verb.cognition
+0	4	80	423	425	S	79	to	to	to	TO	O	prep	O	-1	O
+0	4	81	426	429	S	83	the	the	the	DT	O	det	O	-1	O
+0	4	82	430	437	S	83	holiday	holiday	holiday	NN	O	nn	O	-1	B-noun.time
+0	4	83	438	446	S	80	visitors	visitors	visitor	NNS	O	pobj	O	-1	B-noun.person
+0	4	84	447	451	S	83	with	with	with	IN	O	prep	O	-1	O
+0	4	85	452	462	S	84	bitterness	bitterness	bitterness	NN	O	pobj	O	-1	B-noun.feeling
+0	4	86	463	466	S	85	and	and	and	CC	O	cc	O	-1	O
+0	4	87	467	472		85	venom	venom	venom	NN	O	conj	O	-1	B-noun.substance
+0	4	88	472	473	S	79	,	,	,	,	O	punct	O	-1	O
+0	4	89	474	482	S	79	spitting	spitting	spit	VBG	O	xcomp	O	-1	B-verb.body
+0	4	90	483	486	S	89	out	out	out	RP	O	prt	O	-1	O
+0	4	91	487	489	S	94	an	an	a	DT	O	det	O	-1	O
+0	4	92	490	495	S	94	angry	angry	angry	JJ	O	amod	O	-1	O
+0	4	93	496	497		94	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	4	94	497	500		89	Bah	Bah	bah	NN	O	dobj	I-QUOTE	-1	O
+0	4	95	500	501	S	79	!	!	!	.	O	punct	I-QUOTE	-1	O
+0	5	96	502	508		-1	Humbug	Humbug	Humbug	NNP	O	null	I-QUOTE	-1	O
+0	5	97	508	509		96	!	!	!	.	O	punct	I-QUOTE	-1	O
+0	5	98	509	510	S	96	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	5	99	511	513	S	96	in	in	in	IN	O	prep	O	-1	O
+0	5	100	514	522	S	99	response	response	response	NN	O	pobj	O	-1	B-noun.act
+0	5	101	523	525	S	100	to	to	to	TO	O	prep	O	-1	O
+0	5	102	526	529	S	103	his	his	he	PRP$	O	poss	O	1	O
+0	5	103	530	536		101	nephew	nephew	nephew	NN	O	pobj	O	-1	B-noun.person
+0	5	104	536	538	S	103	's	's	's	POS	O	possessive	O	-1	O
+0	5	105	539	540		103	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	5	106	540	545	S	107	Merry	Merry	Merry	NNP	O	nn	I-QUOTE	-1	O
+0	5	107	546	555		103	Christmas	Christmas	Christmas	NNP	DATE	dep	I-QUOTE	-1	O
+0	5	108	555	556		96	!	!	!	.	O	punct	I-QUOTE	-1	O
+0	5	109	556	557	S	96	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	6	110	558	563	S	112	Later	Later	later	RB	TIME	advmod	O	-1	O
+0	6	111	564	568	S	112	that	that	that	IN	TIME	dep	O	-1	O
+0	6	112	569	576		124	evening	evening	evening	NN	TIME	tmod	O	-1	B-noun.time
+0	6	113	576	577	S	124	,	,	,	,	O	punct	O	-1	O
+0	6	114	578	583	S	124	after	after	after	IN	O	prep	O	-1	O
+0	6	115	584	593	S	114	returning	returning	return	VBG	O	pcomp	O	-1	B-verb.motion
+0	6	116	594	596	S	115	to	to	to	TO	O	prep	O	-1	O
+0	6	117	597	600	S	121	his	his	he	PRP$	O	poss	O	1	O
+0	6	118	601	605		121	dark	dark	dark	JJ	O	amod	O	-1	O
+0	6	119	605	606	S	121	,	,	,	,	O	punct	O	-1	O
+0	6	120	607	611	S	121	cold	cold	cold	JJ	O	amod	O	-1	O
+0	6	121	612	621		116	apartment	apartment	apartment	NN	O	pobj	O	-1	B-noun.artifact
+0	6	122	621	622	S	124	,	,	,	,	O	punct	O	-1	O
+0	6	123	623	630	S	124	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	6	124	631	639	S	-1	receives	receives	receive	VBZ	O	null	O	-1	B-verb.possession
+0	6	125	640	641	S	127	a	a	a	DT	O	det	O	-1	O
+0	6	126	642	650	S	127	chilling	chilling	chill	VBG	O	amod	O	-1	B-verb.emotion
+0	6	127	651	661	S	124	visitation	visitation	visitation	NN	O	dobj	O	-1	B-noun.event
+0	6	128	662	666	S	124	from	from	from	IN	O	prep	O	-1	O
+0	6	129	667	670	S	130	the	the	the	DT	O	det	O	-1	O
+0	6	130	671	676	S	128	ghost	ghost	ghost	NN	O	pobj	O	-1	B-noun.cognition
+0	6	131	677	679	S	130	of	of	of	IN	O	prep	O	-1	O
+0	6	132	680	683	S	134	his	his	he	PRP$	O	poss	O	1	O
+0	6	133	684	688	S	134	dead	dead	dead	JJ	O	amod	O	-1	O
+0	6	134	689	696		131	partner	partner	partner	NN	O	pobj	O	-1	B-noun.person
+0	6	135	696	697	S	134	,	,	,	,	O	punct	O	-1	O
+0	6	136	698	703	S	137	Jacob	Jacob	Jacob	NNP	PERSON	nn	O	-1	B-noun.person
+0	6	137	704	710		134	Marley	Marley	Marley	NNP	PERSON	appos	O	-1	I-noun.person
+0	6	138	710	711	S	124	.	.	.	.	O	punct	O	-1	O
+0	7	139	712	718		146	Marley	Marley	Marley	NNP	PERSON	nsubj	O	4	B-noun.person
+0	7	140	718	719	S	146	,	,	,	,	O	punct	O	-1	O
+0	7	141	720	727	S	146	looking	looking	look	VBG	O	partmod	O	-1	B-verb.perception
+0	7	142	728	735	S	141	haggard	haggard	haggard	NN	O	dobj	O	-1	B-noun.person
+0	7	143	736	739	S	142	and	and	and	CC	O	cc	O	-1	O
+0	7	144	740	746		142	pallid	pallid	pallid	JJ	O	conj	O	-1	O
+0	7	145	746	747	S	146	,	,	,	,	O	punct	O	-1	O
+0	7	146	748	755	S	-1	relates	relates	relate	VBZ	O	null	O	-1	B-verb.cognition
+0	7	147	756	759	S	149	his	his	he	PRP$	O	poss	O	4	O
+0	7	148	760	771	S	149	unfortunate	unfortunate	unfortunate	JJ	O	amod	O	-1	O
+0	7	149	772	777		146	story	story	story	NN	O	dobj	O	-1	B-noun.communication
+0	7	150	777	778	S	146	.	.	.	.	O	punct	O	-1	O
+0	8	151	779	781	S	-1	As	As	as	IN	O	null	O	-1	O
+0	8	152	782	792	S	151	punishment	punishment	punishment	NN	O	pobj	O	-1	B-noun.act
+0	8	153	793	796	S	152	for	for	for	IN	O	prep	O	-1	O
+0	8	154	797	800	S	158	his	his	he	PRP$	O	poss	O	4	O
+0	8	155	801	807	S	158	greedy	greedy	greedy	JJ	O	amod	O	-1	O
+0	8	156	808	811	S	155	and	and	and	CC	O	cc	O	-1	O
+0	8	157	812	824	S	155	self-serving	self-serving	self-serving	JJ	O	conj	O	-1	O
+0	8	158	825	829	S	153	life	life	life	NN	O	pobj	O	-1	B-noun.state
+0	8	159	830	833	S	160	his	his	he	PRP$	O	poss	O	4	O
+0	8	160	834	840	S	163	spirit	spirit	spirit	NN	O	nsubj	O	-1	B-noun.person
+0	8	161	841	844	S	163	has	has	have	VBZ	O	aux	O	-1	O
+0	8	162	845	849	S	163	been	been	be	VBN	O	auxpass	O	-1	O
+0	8	163	850	859	S	152	condemned	condemned	condemn	VBN	O	rcmod	O	-1	B-verb.communication
+0	8	164	860	862	S	165	to	to	to	TO	O	aux	O	-1	O
+0	8	165	863	869	S	163	wander	wander	wander	VB	O	xcomp	O	-1	B-verb.motion
+0	8	166	870	873	S	167	the	the	the	DT	O	det	O	-1	O
+0	8	167	874	879	S	168	Earth	Earth	Earth	NNP	LOCATION	nsubj	O	-1	B-noun.location
+0	8	168	880	888	S	165	weighted	weighted	weight	VBD	O	ccomp	O	-1	B-verb.contact
+0	8	169	889	893	S	168	down	down	down	RP	O	prt	O	-1	O
+0	8	170	894	898	S	168	with	with	with	IN	O	prep	O	-1	O
+0	8	171	899	904	S	172	heavy	heavy	heavy	JJ	O	amod	O	-1	O
+0	8	172	905	911		170	chains	chains	chain	NNS	O	pobj	O	-1	B-noun.artifact
+0	8	173	911	912	S	151	.	.	.	.	O	punct	O	-1	O
+0	9	174	913	919	S	175	Marley	Marley	Marley	NNP	PERSON	nsubj	O	4	B-noun.person
+0	9	175	920	925	S	-1	hopes	hopes	hope	VBZ	O	null	O	-1	B-verb.emotion
+0	9	176	926	928	S	177	to	to	to	TO	O	aux	O	-1	O
+0	9	177	929	933	S	175	save	save	save	VB	O	xcomp	O	-1	B-verb.social
+0	9	178	934	941	S	177	Scrooge	Scrooge	Scrooge	NNP	O	dobj	O	-1	B-noun.person
+0	9	179	942	946	S	177	from	from	from	IN	O	prep	O	-1	O
+0	9	180	947	954	S	179	sharing	sharing	share	VBG	O	pcomp	O	-1	B-verb.stative
+0	9	181	955	958	S	183	the	the	the	DT	O	det	O	-1	O
+0	9	182	959	963	S	183	same	same	same	JJ	O	amod	O	-1	O
+0	9	183	964	968		180	fate	fate	fate	NN	O	dobj	O	-1	B-noun.event
+0	9	184	968	969	S	175	.	.	.	.	O	punct	O	-1	O
+0	10	185	970	976	S	186	Marley	Marley	Marley	NNP	PERSON	nsubj	O	4	B-noun.person
+0	10	186	977	984	S	-1	informs	informs	inform	VBZ	O	null	O	-1	B-verb.communication
+0	10	187	985	992	S	186	Scrooge	Scrooge	Scrooge	NNP	PERSON	dobj	O	1	B-noun.person
+0	10	188	993	997	S	192	that	that	that	IN	O	complm	O	-1	O
+0	10	189	998	1003	S	190	three	three	three	CD	NUMBER	num	O	-1	O
+0	10	190	1004	1011	S	192	spirits	spirits	spirit	NNS	O	nsubj	O	-1	B-noun.person
+0	10	191	1012	1016	S	192	will	will	will	MD	O	aux	O	-1	O
+0	10	192	1017	1022	S	186	visit	visit	visit	VB	O	ccomp	O	-1	B-verb.social
+0	10	193	1023	1026	S	192	him	him	he	PRP	O	dobj	O	1	O
+0	10	194	1027	1033	S	192	during	during	during	IN	O	prep	O	-1	O
+0	10	195	1034	1038	S	194	each	each	each	DT	O	pobj	O	-1	O
+0	10	196	1039	1041	S	195	of	of	of	IN	O	prep	O	-1	O
+0	10	197	1042	1045	S	200	the	the	the	DT	O	det	O	-1	O
+0	10	198	1046	1050	S	200	next	next	next	JJ	O	amod	O	-1	O
+0	10	199	1051	1056	S	200	three	three	three	CD	NUMBER	num	O	-1	O
+0	10	200	1057	1063		196	nights	nights	night	NNS	TIME	pobj	O	-1	B-noun.time
+0	10	201	1063	1064	S	186	.	.	.	.	O	punct	O	-1	O
+0	11	202	1065	1070	S	205	After	After	after	IN	O	mark	O	-1	O
+0	11	203	1071	1074	S	204	the	the	the	DT	O	det	O	-1	O
+0	11	204	1075	1081	S	205	wraith	wraith	wraith	NN	O	nsubj	O	-1	B-noun.cognition
+0	11	205	1082	1092		208	disappears	disappears	disappear	VBZ	O	advcl	O	-1	B-verb.change
+0	11	206	1092	1093	S	208	,	,	,	,	O	punct	O	-1	O
+0	11	207	1094	1101	S	208	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	11	208	1102	1111	S	-1	collapses	collapses	collapse	VBZ	O	null	O	-1	B-verb.motion
+0	11	209	1112	1116	S	208	into	into	into	IN	O	prep	O	-1	O
+0	11	210	1117	1118	S	212	a	a	a	DT	O	det	O	-1	O
+0	11	211	1119	1123	S	212	deep	deep	deep	JJ	O	amod	O	-1	O
+0	11	212	1124	1129		209	sleep	sleep	sleep	NN	O	pobj	O	-1	B-noun.state
+0	11	213	1129	1130	S	208	.	.	.	.	O	punct	O	-1	O
+0	12	214	1131	1133	S	215	He	He	he	PRP	O	nsubj	O	1	O
+0	12	215	1134	1139	S	-1	wakes	wakes	wake	VBZ	O	null	O	-1	B-verb.body
+0	12	216	1140	1147	S	215	moments	moments	moment	NNS	O	dobj	O	-1	B-noun.time
+0	12	217	1148	1154	S	215	before	before	before	IN	O	prep	O	-1	O
+0	12	218	1155	1158	S	219	the	the	the	DT	O	det	O	-1	O
+0	12	219	1159	1166	S	217	arrival	arrival	arrival	NN	O	pobj	O	-1	B-noun.act
+0	12	220	1167	1169	S	219	of	of	of	IN	O	prep	O	-1	O
+0	12	221	1170	1173	S	222	the	the	the	DT	O	det	O	-1	O
+0	12	222	1174	1179	S	220	Ghost	Ghost	ghost	NN	O	pobj	O	-1	B-noun.cognition
+0	12	223	1180	1182	S	222	of	of	of	IN	O	prep	O	-1	O
+0	12	224	1183	1192	S	225	Christmas	Christmas	Christmas	NNP	DATE	nn	O	-1	O
+0	12	225	1193	1197		223	Past	Past	Past	NNP	DATE	pobj	O	-1	O
+0	12	226	1197	1198	S	225	,	,	,	,	O	punct	O	-1	O
+0	12	227	1199	1200	S	230	a	a	a	DT	O	det	O	-1	O
+0	12	228	1201	1208	S	230	strange	strange	strange	JJ	O	amod	O	-1	O
+0	12	229	1209	1218	S	230	childlike	childlike	childlike	JJ	O	amod	O	-1	O
+0	12	230	1219	1226	S	225	phantom	phantom	phantom	JJ	O	appos	O	-1	O
+0	12	231	1227	1231	S	230	with	with	with	IN	O	prep	O	-1	O
+0	12	232	1232	1233	S	235	a	a	a	DT	O	det	O	-1	O
+0	12	233	1234	1242	S	234	brightly	brightly	brightly	RB	O	advmod	O	-1	O
+0	12	234	1243	1250	S	235	glowing	glowing	glowing	JJ	O	amod	O	-1	O
+0	12	235	1251	1255		231	head	head	head	NN	O	pobj	O	-1	B-noun.body
+0	12	236	1255	1256	S	215	.	.	.	.	O	punct	O	-1	O
+0	13	237	1257	1260	S	238	The	The	the	DT	O	det	O	-1	O
+0	13	238	1261	1267	S	239	spirit	spirit	spirit	NN	O	nsubj	O	-1	B-noun.person
+0	13	239	1268	1275	S	-1	escorts	escorts	escort	VBZ	O	null	O	-1	B-verb.motion
+0	13	240	1276	1283	S	239	Scrooge	Scrooge	Scrooge	NNP	O	dobj	O	-1	B-noun.person
+0	13	241	1284	1286	S	239	on	on	on	IN	O	prep	O	-1	O
+0	13	242	1287	1288	S	243	a	a	a	DT	O	det	O	-1	O
+0	13	243	1289	1296	S	241	journey	journey	journey	NN	O	pobj	O	-1	B-noun.act
+0	13	244	1297	1301	S	239	into	into	into	IN	O	prep	O	-1	O
+0	13	245	1302	1305	S	246	the	the	the	DT	DATE	det	O	-1	O
+0	13	246	1306	1310	S	244	past	past	past	NN	DATE	pobj	O	-1	B-noun.time
+0	13	247	1311	1313	S	239	to	to	to	TO	O	prep	O	-1	O
+0	13	248	1314	1322	S	249	previous	previous	previous	JJ	O	amod	O	-1	O
+0	13	249	1323	1334	S	247	Christmases	Christmases	christmas	NNS	O	pobj	O	-1	B-noun.time
+0	13	250	1335	1339	S	239	from	from	from	IN	O	prep	O	-1	O
+0	13	251	1340	1343	S	252	the	the	the	DT	O	det	O	-1	O
+0	13	252	1344	1354		255	curmudgeon	curmudgeon	curmudgeon	NN	O	poss	O	-1	B-noun.person
+0	13	253	1354	1356	S	252	's	's	's	POS	O	possessive	O	-1	O
+0	13	254	1357	1364	S	255	earlier	earlier	earlier	JJR	DURATION	amod	O	-1	O
+0	13	255	1365	1370		250	years	years	year	NNS	DURATION	pobj	O	-1	B-noun.time
+0	13	256	1370	1371	S	239	.	.	.	.	O	punct	O	-1	O
+0	14	257	1372	1381	S	264	Invisible	Invisible	invisible	JJ	O	dep	O	-1	O
+0	14	258	1382	1384	S	257	to	to	to	TO	O	prep	O	-1	O
+0	14	259	1385	1390	S	258	those	those	those	DT	O	pobj	O	-1	O
+0	14	260	1391	1393	S	261	he	he	he	PRP	O	nsubj	O	-1	O
+0	14	261	1394	1401		259	watches	watches	watch	VBZ	O	rcmod	O	-1	B-verb.perception
+0	14	262	1401	1402	S	264	,	,	,	,	O	punct	O	-1	O
+0	14	263	1403	1410	S	264	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	14	264	1411	1419	S	-1	revisits	revisits	revisit	VBZ	O	null	O	-1	B-verb.motion
+0	14	265	1420	1423	S	268	his	his	he	PRP$	O	poss	O	1	O
+0	14	266	1424	1433	S	268	childhood	childhood	childhood	NN	O	nn	O	-1	B-noun.time
+0	14	267	1434	1440	S	268	school	school	school	NN	O	nn	O	-1	B-noun.time
+0	14	268	1441	1445		264	days	days	day	NNS	DURATION	dobj	O	-1	I-noun.time
+0	14	269	1445	1446	S	268	,	,	,	,	O	punct	O	-1	O
+0	14	270	1447	1450	S	271	his	his	he	PRP$	O	poss	O	1	O
+0	14	271	1451	1465	S	268	apprenticeship	apprenticeship	apprenticeship	NN	O	conj	O	-1	B-noun.act
+0	14	272	1466	1470	S	271	with	with	with	IN	O	prep	O	-1	O
+0	14	273	1471	1472	S	275	a	a	a	DT	O	det	O	-1	O
+0	14	274	1473	1478	S	275	jolly	jolly	jolly	JJ	O	amod	O	-1	O
+0	14	275	1479	1487	S	272	merchant	merchant	merchant	NN	O	pobj	O	-1	B-noun.person
+0	14	276	1488	1493	S	275	named	named	name	VBN	O	partmod	O	-1	B-verb.communication
+0	14	277	1494	1502		276	Fezziwig	Fezziwig	Fezziwig	NNP	PERSON	dep	O	-1	B-noun.person
+0	14	278	1502	1503	S	268	,	,	,	,	O	punct	O	-1	O
+0	14	279	1504	1507	S	268	and	and	and	CC	O	cc	O	-1	O
+0	14	280	1508	1511	S	281	his	his	he	PRP$	O	poss	O	1	O
+0	14	281	1512	1522	S	268	engagement	engagement	engagement	NN	O	conj	O	-1	B-noun.act
+0	14	282	1523	1525	S	268	to	to	to	TO	O	prep	O	-1	O
+0	14	283	1526	1531		282	Belle	Belle	Belle	NNP	PERSON	pobj	O	-1	B-noun.person
+0	14	284	1531	1532	S	283	,	,	,	,	O	punct	O	-1	O
+0	14	285	1533	1534	S	286	a	a	a	DT	O	det	O	-1	O
+0	14	286	1535	1540	S	283	woman	woman	woman	NN	O	appos	O	-1	B-noun.person
+0	14	287	1541	1544	S	288	who	who	who	WP	O	nsubj	O	-1	O
+0	14	288	1545	1551	S	286	leaves	leaves	leave	VBZ	O	rcmod	O	-1	B-verb.motion
+0	14	289	1552	1559	S	288	Scrooge	Scrooge	Scrooge	NNP	O	dobj	O	-1	B-noun.person
+0	14	290	1560	1567	S	295	because	because	because	IN	O	mark	O	-1	O
+0	14	291	1568	1571	S	292	his	his	he	PRP$	O	poss	O	-1	O
+0	14	292	1572	1576	S	295	lust	lust	lust	NN	O	nsubj	O	-1	B-noun.feeling
+0	14	293	1577	1580	S	292	for	for	for	IN	O	prep	O	-1	O
+0	14	294	1581	1586	S	293	money	money	money	NN	O	pobj	O	-1	B-noun.possession
+0	14	295	1587	1595	S	288	eclipses	eclipses	eclipse	VBZ	O	advcl	O	-1	B-verb.stative
+0	14	296	1596	1599	S	297	his	his	he	PRP$	O	poss	O	-1	O
+0	14	297	1600	1607	S	295	ability	ability	ability	NN	O	dobj	O	-1	B-noun.attribute
+0	14	298	1608	1610	S	299	to	to	to	TO	O	aux	O	-1	O
+0	14	299	1611	1615	S	297	love	love	love	VB	O	infmod	O	-1	B-verb.emotion
+0	14	300	1616	1623		299	another	another	another	DT	O	dobj	O	-1	O
+0	14	301	1623	1624	S	264	.	.	.	.	O	punct	O	-1	O
+0	15	302	1625	1632		305	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	15	303	1632	1633	S	302	,	,	,	,	O	punct	O	-1	O
+0	15	304	1634	1640	S	305	deeply	deeply	deeply	RB	O	advmod	O	-1	O
+0	15	305	1641	1646		-1	moved	moved	move	VBD	O	null	O	-1	B-verb.motion
+0	15	306	1646	1647	S	305	,	,	,	,	O	punct	O	-1	O
+0	15	307	1648	1653	S	305	sheds	sheds	shed	VBZ	O	conj	O	-1	B-verb.contact
+0	15	308	1654	1659	S	307	tears	tears	tear	NNS	O	dobj	O	-1	B-noun.act
+0	15	309	1660	1662	S	308	of	of	of	IN	O	prep	O	-1	O
+0	15	310	1663	1669	S	309	regret	regret	regret	NN	O	pobj	O	-1	B-noun.feeling
+0	15	311	1670	1676	S	307	before	before	before	IN	O	prep	O	-1	O
+0	15	312	1677	1680	S	314	the	the	the	DT	O	det	O	-1	O
+0	15	313	1681	1688	S	314	phantom	phantom	phantom	JJ	O	amod	O	-1	O
+0	15	314	1689	1696	S	315	returns	returns	return	NNS	O	nsubj	O	-1	B-noun.communication
+0	15	315	1697	1700	S	311	him	him	he	PRP	O	pcomp	O	1	O
+0	15	316	1701	1703	S	315	to	to	to	TO	O	prep	O	-1	O
+0	15	317	1704	1707	S	318	his	his	he	PRP$	O	poss	O	1	O
+0	15	318	1708	1711		316	bed	bed	bed	NN	O	pobj	O	-1	B-noun.artifact
+0	15	319	1711	1712	S	305	.	.	.	.	O	punct	O	-1	O
+0	16	320	1713	1716	S	321	The	The	the	DT	O	det	O	-1	O
+0	16	321	1717	1722	S	336	Ghost	Ghost	ghost	NN	O	nsubj	O	-1	B-noun.cognition
+0	16	322	1723	1725	S	321	of	of	of	IN	O	prep	O	-1	O
+0	16	323	1726	1735	S	322	Christmas	Christmas	Christmas	NNP	DATE	pobj	O	-1	O
+0	16	324	1736	1743		323	Present	Present	present	JJ	DATE	amod	O	-1	O
+0	16	325	1743	1744	S	323	,	,	,	,	O	punct	O	-1	O
+0	16	326	1745	1746	S	329	a	a	a	DT	O	det	O	-1	O
+0	16	327	1747	1755	S	329	majestic	majestic	majestic	JJ	O	amod	O	-1	O
+0	16	328	1756	1761	S	329	giant	giant	giant	JJ	O	amod	O	-1	O
+0	16	329	1762	1766	S	323	clad	clad	clad	JJ	O	appos	O	-1	O
+0	16	330	1767	1769	S	329	in	in	in	IN	O	prep	O	-1	O
+0	16	331	1770	1771	S	334	a	a	a	DT	O	det	O	-1	O
+0	16	332	1772	1777	S	334	green	green	green	JJ	O	amod	O	-1	O
+0	16	333	1778	1781	S	334	fur	fur	fur	NN	O	nn	O	-1	B-noun.substance
+0	16	334	1782	1786		330	robe	robe	robe	NN	O	pobj	O	-1	B-noun.artifact
+0	16	335	1786	1787	S	321	,	,	,	,	O	punct	O	-1	O
+0	16	336	1788	1793	S	-1	takes	takes	take	VBZ	O	null	O	-1	B-verb.social
+0	16	337	1794	1801	S	336	Scrooge	Scrooge	Scrooge	NNP	PERSON	dobj	O	1	B-noun.person
+0	16	338	1802	1809	S	336	through	through	through	IN	O	prep	O	-1	O
+0	16	339	1810	1816	S	338	London	London	London	NNP	LOCATION	pobj	O	-1	B-noun.location
+0	16	340	1817	1819	S	341	to	to	to	TO	O	aux	O	-1	O
+0	16	341	1820	1826	S	336	unveil	unveil	unveil	VB	O	xcomp	O	-1	B-verb.contact
+0	16	342	1827	1836	S	341	Christmas	Christmas	Christmas	NNP	DATE	dobj	O	-1	O
+0	16	343	1837	1839	S	346	as	as	as	IN	O	mark	O	-1	O
+0	16	344	1840	1842	S	346	it	it	it	PRP	O	nsubj	O	-1	O
+0	16	345	1843	1847	S	346	will	will	will	MD	O	aux	O	-1	O
+0	16	346	1848	1854	S	341	happen	happen	happen	VB	O	advcl	O	-1	B-verb.change
+0	16	347	1855	1859	S	348	that	that	that	IN	O	dep	O	-1	O
+0	16	348	1860	1864		346	year	year	year	NN	DURATION	tmod	O	-1	B-noun.time
+0	16	349	1864	1865	S	336	.	.	.	.	O	punct	O	-1	O
+0	17	350	1866	1873	S	351	Scrooge	Scrooge	Scrooge	NNP	O	nsubj	O	-1	B-noun.person
+0	17	351	1874	1881	S	-1	watches	watches	watch	VBZ	O	null	O	-1	B-verb.perception
+0	17	352	1882	1885	S	357	the	the	the	DT	O	det	O	-1	O
+0	17	353	1886	1891		357	large	large	large	JJ	O	amod	O	-1	O
+0	17	354	1891	1892	S	357	,	,	,	,	O	punct	O	-1	O
+0	17	355	1893	1901	S	357	bustling	bustling	bustling	JJ	O	amod	O	-1	O
+0	17	356	1902	1910	S	357	Cratchit	Cratchit	Cratchit	NNP	PERSON	nn	O	0	B-noun.person
+0	17	357	1911	1917	S	358	family	family	family	NN	O	nsubj	O	-1	B-noun.group
+0	17	358	1918	1925	S	351	prepare	prepare	prepare	VB	O	ccomp	O	-1	B-verb.creation
+0	17	359	1926	1927	S	361	a	a	a	DT	O	det	O	-1	O
+0	17	360	1928	1937	S	361	miniature	miniature	miniature	JJ	O	amod	O	-1	O
+0	17	361	1938	1943	S	358	feast	feast	feast	NN	O	dobj	O	-1	B-noun.group
+0	17	362	1944	1946	S	361	in	in	in	IN	O	prep	O	-1	O
+0	17	363	1947	1950	S	365	its	its	its	PRP$	O	poss	O	-1	O
+0	17	364	1951	1957	S	365	meager	meager	meager	JJ	O	amod	O	-1	O
+0	17	365	1958	1962		362	home	home	home	NN	O	pobj	O	-1	B-noun.artifact
+0	17	366	1962	1963	S	351	.	.	.	.	O	punct	O	-1	O
+0	18	367	1964	1966	S	368	He	He	he	PRP	O	nsubj	O	-1	O
+0	18	368	1967	1976	S	-1	discovers	discovers	discover	VBZ	O	null	O	-1	B-verb.perception
+0	18	369	1977	1980	S	370	Bob	Bob	Bob	NNP	PERSON	nn	O	0	B-noun.person
+0	18	370	1981	1989		373	Cratchit	Cratchit	Cratchit	NNP	PERSON	poss	O	0	I-noun.person
+0	18	371	1989	1991	S	370	's	's	's	POS	O	possessive	O	-1	O
+0	18	372	1992	2000	S	373	crippled	crippled	cripple	VBN	O	amod	O	-1	B-verb.change
+0	18	373	2001	2004		368	son	son	son	NN	O	dobj	O	-1	B-noun.person
+0	18	374	2004	2005	S	373	,	,	,	,	O	punct	O	-1	O
+0	18	375	2006	2010	S	376	Tiny	Tiny	Tiny	NNP	PERSON	nn	O	3	O
+0	18	376	2011	2014		373	Tim	Tim	Tim	NNP	PERSON	appos	O	3	O
+0	18	377	2014	2015	S	373	,	,	,	,	O	punct	O	-1	O
+0	18	378	2016	2017	S	380	a	a	a	DT	O	det	O	-1	O
+0	18	379	2018	2028	S	380	courageous	courageous	courageous	JJ	O	amod	O	-1	O
+0	18	380	2029	2032	S	373	boy	boy	boy	NN	O	appos	O	-1	B-noun.person
+0	18	381	2033	2038	S	382	whose	whose	whose	WP$	O	poss	O	-1	O
+0	18	382	2039	2047	S	380	kindness	kindness	kindness	NN	O	dep	O	-1	B-noun.attribute
+0	18	383	2048	2051	S	382	and	and	and	CC	O	cc	O	-1	O
+0	18	384	2052	2060	S	385	humility	humility	humility	NN	O	nn	O	-1	B-noun.attribute
+0	18	385	2061	2066	S	382	warms	warms	warm	NNS	O	conj	O	-1	O
+0	18	386	2067	2074		388	Scrooge	Scrooge	Scrooge	NNP	PERSON	poss	O	1	B-noun.person
+0	18	387	2074	2076	S	386	's	's	's	POS	O	possessive	O	-1	O
+0	18	388	2077	2082		385	heart	heart	heart	NN	O	dobj	O	-1	B-noun.cognition
+0	18	389	2082	2083	S	368	.	.	.	.	O	punct	O	-1	O
+0	19	390	2084	2087	S	391	The	The	the	DT	O	det	O	-1	O
+0	19	391	2088	2095	S	393	specter	specter	specter	NN	O	nsubj	O	-1	B-noun.cognition
+0	19	392	2096	2100	S	393	then	then	then	RB	O	advmod	O	-1	O
+0	19	393	2101	2105	S	-1	zips	zips	zip	VBZ	O	null	O	-1	B-verb.contact
+0	19	394	2106	2113	S	393	Scrooge	Scrooge	Scrooge	NNP	PERSON	dobj	O	1	B-noun.person
+0	19	395	2114	2116	S	393	to	to	to	TO	O	prep	O	-1	O
+0	19	396	2117	2120	S	397	his	his	he	PRP$	O	poss	O	1	O
+0	19	397	2121	2127		400	nephew	nephew	nephew	NN	O	poss	O	-1	B-noun.person
+0	19	398	2127	2129	S	397	's	's	's	POS	O	possessive	O	-1	O
+0	19	399	2130	2132	S	400	to	to	to	TO	O	aux	O	-1	O
+0	19	400	2133	2140	S	395	witness	witness	witness	NN	O	pobj	O	-1	B-noun.person
+0	19	401	2141	2144	S	403	the	the	the	DT	O	det	O	-1	O
+0	19	402	2145	2154	S	403	Christmas	Christmas	Christmas	NNP	DATE	nn	O	-1	O
+0	19	403	2155	2160		400	party	party	party	NN	O	dep	O	-1	O
+0	19	404	2160	2161	S	393	.	.	.	.	O	punct	O	-1	O
+0	20	405	2162	2169	S	406	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	20	406	2170	2175	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	20	407	2176	2179	S	409	the	the	the	DT	O	det	O	-1	O
+0	20	408	2180	2186	S	409	jovial	jovial	jovial	JJ	O	amod	O	-1	O
+0	20	409	2187	2196	S	410	gathering	gathering	gathering	NN	O	nsubj	O	-1	B-noun.group
+0	20	410	2197	2207	S	406	delightful	delightful	delightful	JJ	O	ccomp	O	-1	O
+0	20	411	2208	2211	S	410	and	and	and	CC	O	cc	O	-1	O
+0	20	412	2212	2218	S	410	pleads	pleads	plead	NNS	O	conj	O	-1	B-noun.person
+0	20	413	2219	2223	S	412	with	with	with	IN	O	prep	O	-1	O
+0	20	414	2224	2227	S	415	the	the	the	DT	O	det	O	-1	O
+0	20	415	2228	2234	S	413	spirit	spirit	spirit	NN	O	pobj	O	-1	B-noun.person
+0	20	416	2235	2237	S	417	to	to	to	TO	O	aux	O	-1	O
+0	20	417	2238	2242	S	410	stay	stay	stay	VB	O	xcomp	O	-1	B-verb.change
+0	20	418	2243	2248	S	417	until	until	until	IN	O	prep	O	-1	O
+0	20	419	2249	2252	S	421	the	the	the	DT	O	det	O	-1	O
+0	20	420	2253	2257	S	421	very	very	very	JJ	O	amod	O	-1	O
+0	20	421	2258	2261	S	418	end	end	end	NN	O	pobj	O	-1	B-noun.cognition
+0	20	422	2262	2264	S	421	of	of	of	IN	O	prep	O	-1	O
+0	20	423	2265	2268	S	424	the	the	the	DT	O	det	O	-1	O
+0	20	424	2269	2280		422	festivities	festivities	festivity	NNS	O	pobj	O	-1	B-noun.act
+0	20	425	2280	2281	S	406	.	.	.	.	O	punct	O	-1	O
+0	21	426	2282	2284	S	429	As	As	as	IN	O	mark	O	-1	O
+0	21	427	2285	2288	S	428	the	the	the	DT	DATE	det	O	-1	O
+0	21	428	2289	2292	S	429	day	day	day	NN	DATE	nsubj	O	-1	B-noun.time
+0	21	429	2293	2299		435	passes	passes	pass	VBZ	O	advcl	O	-1	O
+0	21	430	2299	2300	S	435	,	,	,	,	O	punct	O	-1	O
+0	21	431	2301	2304	S	433	the	the	the	DT	O	det	O	-1	O
+0	21	432	2305	2311	S	433	spirit	spirit	spirit	NN	O	nn	O	-1	B-noun.person
+0	21	433	2312	2316		435	ages	ages	age	NNS	O	nsubj	O	-1	O
+0	21	434	2316	2317	S	435	,	,	,	,	O	punct	O	-1	O
+0	21	435	2318	2326	S	-1	becoming	becoming	become	VBG	O	null	O	-1	B-verb.change
+0	21	436	2327	2337	S	437	noticeably	noticeably	noticeably	RB	O	advmod	O	-1	O
+0	21	437	2338	2343		435	older	older	older	JJR	O	acomp	O	-1	O
+0	21	438	2343	2344	S	435	.	.	.	.	O	punct	O	-1	O
+0	22	439	2345	2351	S	447	Toward	Toward	toward	IN	O	prep	O	-1	O
+0	22	440	2352	2355	S	441	the	the	the	DT	DATE	det	O	-1	O
+0	22	441	2356	2359	S	439	end	end	end	NN	DATE	pobj	O	-1	B-noun.location
+0	22	442	2360	2362	S	441	of	of	of	IN	DATE	prep	O	-1	O
+0	22	443	2363	2366	S	444	the	the	the	DT	DATE	det	O	-1	O
+0	22	444	2367	2370		442	day	day	day	NN	DATE	pobj	O	-1	B-noun.time
+0	22	445	2370	2371	S	447	,	,	,	,	O	punct	O	-1	O
+0	22	446	2372	2374	S	447	he	he	he	PRP	O	nsubj	O	1	O
+0	22	447	2375	2380	S	-1	shows	shows	show	VBZ	O	null	O	-1	B-verb.perception
+0	22	448	2381	2388	S	451	Scrooge	Scrooge	Scrooge	NNP	O	nn	O	-1	B-noun.person
+0	22	449	2389	2392	S	451	two	two	two	CD	NUMBER	num	O	-1	O
+0	22	450	2393	2400	S	451	starved	starved	starve	VBN	O	amod	O	-1	B-verb.consumption
+0	22	451	2401	2409		447	children	children	child	NNS	O	dobj	O	-1	B-noun.person
+0	22	452	2409	2410	S	451	,	,	,	,	O	punct	O	-1	O
+0	22	453	2411	2420	S	451	Ignorance	Ignorance	ignorance	NN	O	conj	O	-1	B-noun.cognition
+0	22	454	2421	2424	S	451	and	and	and	CC	O	cc	O	-1	O
+0	22	455	2425	2429		451	Want	Want	want	NN	O	conj	O	-1	O
+0	22	456	2429	2430	S	447	,	,	,	,	O	punct	O	-1	O
+0	22	457	2431	2437	S	447	living	living	live	VBG	O	xcomp	O	-1	B-verb.stative
+0	22	458	2438	2443	S	457	under	under	under	IN	O	prep	O	-1	O
+0	22	459	2444	2447	S	460	his	his	he	PRP$	O	poss	O	-1	O
+0	22	460	2448	2452		458	coat	coat	coat	NN	O	pobj	O	-1	B-noun.artifact
+0	22	461	2452	2453	S	447	.	.	.	.	O	punct	O	-1	O
+0	23	462	2454	2456	S	463	He	He	he	PRP	O	nsubj	O	-1	O
+0	23	463	2457	2465	S	-1	vanishes	vanishes	vanish	VBZ	O	null	O	-1	B-verb.change
+0	23	464	2466	2475	S	463	instantly	instantly	instantly	RB	O	advmod	O	-1	O
+0	23	465	2476	2478	S	472	as	as	as	IN	O	mark	O	-1	O
+0	23	466	2479	2486	S	467	Scrooge	Scrooge	Scrooge	NNP	O	nn	O	-1	B-noun.person
+0	23	467	2487	2494	S	472	notices	notices	notice	NNS	O	nsubj	O	-1	B-noun.communication
+0	23	468	2495	2496	S	472	a	a	a	DT	O	det	O	-1	O
+0	23	469	2497	2501		472	dark	dark	dark	JJ	O	amod	O	-1	O
+0	23	470	2501	2502	S	472	,	,	,	,	O	punct	O	-1	O
+0	23	471	2503	2509	S	472	hooded	hooded	hooded	JJ	O	amod	O	-1	O
+0	23	472	2510	2516	S	463	figure	figure	figure	NN	O	advcl	O	-1	B-noun.body
+0	23	473	2517	2523	S	472	coming	coming	come	VBG	O	partmod	O	-1	B-verb.motion
+0	23	474	2524	2530	S	473	toward	toward	toward	IN	O	prep	O	-1	O
+0	23	475	2531	2534		474	him	him	he	PRP	O	pobj	O	-1	O
+0	23	476	2534	2535	S	463	.	.	.	.	O	punct	O	-1	O
+0	24	477	2536	2539	S	478	The	The	the	DT	O	det	O	-1	O
+0	24	478	2540	2545	S	-1	Ghost	Ghost	ghost	NN	O	null	O	-1	B-noun.cognition
+0	24	479	2546	2548	S	478	of	of	of	IN	O	prep	O	-1	O
+0	24	480	2549	2558	S	479	Christmas	Christmas	Christmas	NNP	DATE	pobj	O	-1	O
+0	24	481	2559	2562	S	478	Yet	Yet	yet	CC	O	cc	O	-1	O
+0	24	482	2563	2565	S	483	to	to	to	TO	O	aux	O	-1	O
+0	24	483	2566	2570	S	478	Come	Come	come	VB	O	conj	O	-1	B-verb.motion
+0	24	484	2571	2576	S	485	leads	leads	lead	NNS	O	nn	O	-1	B-noun.person
+0	24	485	2577	2584	S	483	Scrooge	Scrooge	Scrooge	NNP	PERSON	dobj	O	1	B-noun.person
+0	24	486	2585	2592	S	483	through	through	through	IN	O	prep	O	-1	O
+0	24	487	2593	2594	S	488	a	a	a	DT	O	det	O	-1	O
+0	24	488	2595	2603	S	486	sequence	sequence	sequence	NN	O	pobj	O	-1	B-noun.group
+0	24	489	2604	2606	S	488	of	of	of	IN	O	prep	O	-1	O
+0	24	490	2607	2617	S	491	mysterious	mysterious	mysterious	JJ	O	amod	O	-1	O
+0	24	491	2618	2624	S	489	scenes	scenes	scene	NNS	O	pobj	O	-1	B-noun.communication
+0	24	492	2625	2633	S	491	relating	relating	relate	VBG	O	partmod	O	-1	B-verb.stative
+0	24	493	2634	2636	S	492	to	to	to	TO	O	prep	O	-1	O
+0	24	494	2637	2639	S	496	an	an	a	DT	O	det	O	-1	O
+0	24	495	2640	2647	S	496	unnamed	unnamed	unnamed	JJ	O	amod	O	-1	O
+0	24	496	2648	2651		499	man	man	man	NN	O	poss	O	-1	B-noun.person
+0	24	497	2651	2653	S	496	's	's	's	POS	O	possessive	O	-1	O
+0	24	498	2654	2660	S	499	recent	recent	recent	JJ	O	amod	O	-1	O
+0	24	499	2661	2666		493	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	24	500	2666	2667	S	478	.	.	.	.	O	punct	O	-1	O
+0	25	501	2668	2675	S	502	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	25	502	2676	2680	S	-1	sees	sees	see	VBZ	O	null	O	-1	B-verb.cognition
+0	25	503	2681	2692	S	502	businessmen	businessmen	businessman	NNS	O	dobj	O	-1	B-noun.person
+0	25	504	2693	2703	S	503	discussing	discussing	discuss	VBG	O	partmod	O	-1	B-verb.communication
+0	25	505	2704	2707	S	507	the	the	the	DT	O	det	O	-1	O
+0	25	506	2708	2712	S	507	dead	dead	dead	JJ	O	amod	O	-1	O
+0	25	507	2713	2716		509	man	man	man	NN	O	poss	O	-1	B-noun.person
+0	25	508	2716	2718	S	507	's	's	's	POS	O	possessive	O	-1	O
+0	25	509	2719	2725		504	riches	riches	riches	NNS	O	dobj	O	-1	B-noun.group
+0	25	510	2725	2726	S	513	,	,	,	,	O	punct	O	-1	O
+0	25	511	2727	2731	S	512	some	some	some	DT	O	det	O	-1	O
+0	25	512	2732	2741	S	513	vagabonds	vagabonds	vagabond	NNS	O	nsubj	O	-1	B-noun.object
+0	25	513	2742	2749	S	502	trading	trading	trade	VBG	O	xcomp	O	-1	B-verb.possession
+0	25	514	2750	2753	S	516	his	his	he	PRP$	O	poss	O	1	O
+0	25	515	2754	2762	S	516	personal	personal	personal	JJ	O	amod	O	-1	O
+0	25	516	2763	2770	S	513	effects	effects	effect	NNS	O	dobj	O	-1	B-noun.phenomenon
+0	25	517	2771	2774	S	516	for	for	for	IN	O	prep	O	-1	O
+0	25	518	2775	2779		517	cash	cash	cash	NN	O	pobj	O	-1	B-noun.possession
+0	25	519	2779	2780	S	502	,	,	,	,	O	punct	O	-1	O
+0	25	520	2781	2784	S	502	and	and	and	CC	O	cc	O	-1	O
+0	25	521	2785	2786	S	523	a	a	a	DT	O	det	O	-1	O
+0	25	522	2787	2791	S	523	poor	poor	poor	JJ	O	amod	O	-1	O
+0	25	523	2792	2798	S	502	couple	couple	couple	NN	O	conj	O	-1	B-noun.group
+0	25	524	2799	2809	S	523	expressing	expressing	express	VBG	O	partmod	O	-1	B-verb.communication
+0	25	525	2810	2816	S	524	relief	relief	relief	NN	O	dobj	O	-1	B-noun.feeling
+0	25	526	2817	2819	S	524	at	at	at	IN	O	prep	O	-1	O
+0	25	527	2820	2823	S	528	the	the	the	DT	O	det	O	-1	O
+0	25	528	2824	2829	S	526	death	death	death	NN	O	pobj	O	-1	B-noun.event
+0	25	529	2830	2832	S	528	of	of	of	IN	O	prep	O	-1	O
+0	25	530	2833	2838	S	532	their	their	they	PRP$	O	poss	O	-1	O
+0	25	531	2839	2850	S	532	unforgiving	unforgiving	unforgiving	JJ	O	amod	O	-1	O
+0	25	532	2851	2859		529	creditor	creditor	creditor	NN	O	pobj	O	-1	B-noun.person
+0	25	533	2859	2860	S	502	.	.	.	.	O	punct	O	-1	O
+0	26	534	2861	2868		546	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	26	535	2868	2869	S	534	,	,	,	,	O	punct	O	-1	O
+0	26	536	2870	2877	S	534	anxious	anxious	anxious	JJ	O	amod	O	-1	O
+0	26	537	2878	2880	S	538	to	to	to	TO	O	aux	O	-1	O
+0	26	538	2881	2886	S	536	learn	learn	learn	VB	O	xcomp	O	-1	B-verb.cognition
+0	26	539	2887	2890	S	540	the	the	the	DT	O	det	O	-1	O
+0	26	540	2891	2897	S	538	lesson	lesson	lesson	NN	O	dobj	O	-1	B-noun.act
+0	26	541	2898	2900	S	540	of	of	of	IN	O	prep	O	-1	O
+0	26	542	2901	2904	S	544	his	his	he	PRP$	O	poss	O	1	O
+0	26	543	2905	2911	S	544	latest	latest	latest	JJS	O	amod	O	-1	O
+0	26	544	2912	2919		541	visitor	visitor	visitor	NN	O	pobj	O	-1	B-noun.person
+0	26	545	2919	2920	S	534	,	,	,	,	O	punct	O	-1	O
+0	26	546	2921	2925	S	-1	begs	begs	beg	VBZ	O	null	O	-1	B-verb.communication
+0	26	547	2926	2928	S	548	to	to	to	TO	O	aux	O	-1	O
+0	26	548	2929	2933	S	546	know	know	know	VB	O	xcomp	O	-1	B-verb.cognition
+0	26	549	2934	2937	S	550	the	the	the	DT	O	det	O	-1	O
+0	26	550	2938	2942	S	548	name	name	name	NN	O	dobj	O	-1	B-noun.communication
+0	26	551	2943	2945	S	550	of	of	of	IN	O	prep	O	-1	O
+0	26	552	2946	2949	S	554	the	the	the	DT	O	det	O	-1	O
+0	26	553	2950	2954	S	554	dead	dead	dead	JJ	O	amod	O	-1	O
+0	26	554	2955	2958		551	man	man	man	NN	O	pobj	O	-1	B-noun.person
+0	26	555	2958	2959	S	546	.	.	.	.	O	punct	O	-1	O
+0	27	556	2960	2965	S	563	After	After	after	IN	O	prep	O	-1	O
+0	27	557	2966	2974	S	556	pleading	pleading	plead	VBG	O	pcomp	O	-1	B-verb.communication
+0	27	558	2975	2979	S	557	with	with	with	IN	O	prep	O	-1	O
+0	27	559	2980	2983	S	560	the	the	the	DT	O	det	O	-1	O
+0	27	560	2984	2989		558	ghost	ghost	ghost	NN	O	pobj	O	-1	B-noun.cognition
+0	27	561	2989	2990	S	563	,	,	,	,	O	punct	O	-1	O
+0	27	562	2991	2998	S	563	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	27	563	2999	3004	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	27	564	3005	3012	S	563	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	27	565	3013	3015	S	563	in	in	in	IN	O	prep	O	-1	O
+0	27	566	3016	3017	S	567	a	a	a	DT	O	det	O	-1	O
+0	27	567	3018	3028		565	churchyard	churchyard	churchyard	NN	O	pobj	O	-1	B-noun.location
+0	27	568	3028	3029	S	563	,	,	,	,	O	punct	O	-1	O
+0	27	569	3030	3033	S	570	the	the	the	DT	O	det	O	-1	O
+0	27	570	3034	3040	S	568	spirit	spirit	spirit	NN	O	dobj	O	-1	B-noun.person
+0	27	571	3041	3049	S	570	pointing	pointing	point	VBG	O	partmod	O	-1	B-verb.communication
+0	27	572	3050	3052	S	571	to	to	to	TO	O	prep	O	-1	O
+0	27	573	3053	3054	S	574	a	a	a	DT	O	det	O	-1	O
+0	27	574	3055	3060		572	grave	grave	grave	NN	O	pobj	O	-1	B-noun.time
+0	27	575	3060	3061	S	563	.	.	.	.	O	punct	O	-1	O
+0	28	576	3062	3069	S	577	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	28	577	3070	3075	S	-1	looks	looks	look	VBZ	O	null	O	-1	B-verb.perception
+0	28	578	3076	3078	S	577	at	at	at	IN	O	prep	O	-1	O
+0	28	579	3079	3082	S	580	the	the	the	DT	O	det	O	-1	O
+0	28	580	3083	3092	S	578	headstone	headstone	headstone	NN	O	pobj	O	-1	B-noun.artifact
+0	28	581	3093	3096	S	577	and	and	and	CC	O	cc	O	-1	O
+0	28	582	3097	3099	S	583	is	is	be	VBZ	O	auxpass	O	-1	O
+0	28	583	3100	3107	S	577	shocked	shocked	shock	VBN	O	conj	O	-1	B-verb.emotion
+0	28	584	3108	3110	S	585	to	to	to	TO	O	aux	O	-1	O
+0	28	585	3111	3115	S	583	read	read	read	VB	O	xcomp	O	-1	B-verb.cognition
+0	28	586	3116	3119	S	588	his	his	he	PRP$	O	poss	O	1	O
+0	28	587	3120	3123	S	588	own	own	own	JJ	O	amod	O	-1	O
+0	28	588	3124	3128		585	name	name	name	NN	O	dobj	O	-1	B-noun.communication
+0	28	589	3128	3129	S	577	.	.	.	.	O	punct	O	-1	O
+0	29	590	3130	3132	S	592	He	He	he	PRP	O	nsubj	O	1	O
+0	29	591	3133	3144	S	592	desperately	desperately	desperately	RB	O	advmod	O	-1	O
+0	29	592	3145	3153	S	-1	implores	implores	implore	VBZ	O	null	O	-1	B-verb.communication
+0	29	593	3154	3157	S	594	the	the	the	DT	O	det	O	-1	O
+0	29	594	3158	3164	S	592	spirit	spirit	spirit	NN	O	dobj	O	-1	B-noun.person
+0	29	595	3165	3167	S	596	to	to	to	TO	O	aux	O	-1	O
+0	29	596	3168	3173	S	594	alter	alter	alter	VB	O	infmod	O	-1	B-verb.change
+0	29	597	3174	3177	S	598	his	his	he	PRP$	O	poss	O	1	O
+0	29	598	3178	3182		596	fate	fate	fate	NN	O	dobj	O	-1	B-noun.event
+0	29	599	3182	3183	S	592	,	,	,	,	O	punct	O	-1	O
+0	29	600	3184	3193	S	592	promising	promising	promise	VBG	O	xcomp	O	-1	B-verb.communication
+0	29	601	3194	3196	S	602	to	to	to	TO	O	aux	O	-1	O
+0	29	602	3197	3205	S	600	renounce	renounce	renounce	VB	O	xcomp	O	-1	B-verb.social
+0	29	603	3206	3209	S	607	his	his	he	PRP$	O	poss	O	1	O
+0	29	604	3210	3221		607	insensitive	insensitive	insensitive	JJ	O	amod	O	-1	O
+0	29	605	3221	3222	S	607	,	,	,	,	O	punct	O	-1	O
+0	29	606	3223	3233	S	607	avaricious	avaricious	avaricious	JJ	O	amod	O	-1	O
+0	29	607	3234	3238	S	602	ways	ways	way	NNS	O	dobj	O	-1	B-noun.act
+0	29	608	3239	3242	S	602	and	and	and	CC	O	cc	O	-1	O
+0	29	609	3243	3245	S	610	to	to	to	TO	O	aux	O	-1	O
+0	29	610	3246	3251	S	602	honor	honor	honor	VB	O	conj	O	-1	B-verb.social
+0	29	611	3252	3261	S	610	Christmas	Christmas	Christmas	NNP	DATE	dobj	O	-1	B-noun.person
+0	29	612	3262	3266	S	610	with	with	with	IN	O	prep	O	-1	O
+0	29	613	3267	3270	S	615	all	all	all	DT	O	det	O	-1	O
+0	29	614	3271	3274	S	615	his	his	he	PRP$	O	poss	O	1	O
+0	29	615	3275	3280		612	heart	heart	heart	NN	O	pobj	O	-1	B-noun.body
+0	29	616	3280	3281	S	592	.	.	.	.	O	punct	O	-1	O
+0	30	617	3282	3288		-1	Whoosh	Whoosh	whoosh	VB	O	null	O	-1	O
+0	30	618	3288	3289	S	617	!	!	!	.	O	punct	O	-1	O
+0	31	619	3290	3292	S	621	He	He	he	PRP	O	nsubj	O	1	O
+0	31	620	3293	3301	S	621	suddenly	suddenly	suddenly	RB	O	advmod	O	-1	O
+0	31	621	3302	3307	S	-1	finds	finds	find	VBZ	O	null	O	-1	B-verb.perception
+0	31	622	3308	3315	S	621	himself	himself	himself	PRP	O	dobj	O	-1	O
+0	31	623	3316	3322	S	624	safely	safely	safely	RB	O	advmod	O	-1	O
+0	31	624	3323	3329	S	621	tucked	tucked	tuck	VBD	O	dep	O	-1	B-verb.contact
+0	31	625	3330	3332	S	624	in	in	in	IN	O	prep	O	-1	O
+0	31	626	3333	3336	S	627	his	his	he	PRP$	O	poss	O	1	O
+0	31	627	3337	3340		625	bed	bed	bed	NN	O	pobj	O	-1	B-noun.artifact
+0	31	628	3340	3341	S	621	.	.	.	.	O	punct	O	-1	O
+0	32	629	3342	3353	S	650	Overwhelmed	Overwhelmed	overwhelm	VBN	O	ccomp	O	-1	B-verb.emotion
+0	32	630	3354	3358	S	629	with	with	with	IN	O	prep	O	-1	O
+0	32	631	3359	3362	S	630	joy	joy	joy	NN	O	pobj	O	-1	B-noun.feeling
+0	32	632	3363	3365	S	629	by	by	by	IN	O	prep	O	-1	O
+0	32	633	3366	3369	S	634	the	the	the	DT	O	det	O	-1	O
+0	32	634	3370	3376	S	632	chance	chance	chance	NN	O	pobj	O	-1	B-noun.state
+0	32	635	3377	3379	S	636	to	to	to	TO	O	aux	O	-1	O
+0	32	636	3380	3386	S	634	redeem	redeem	redeem	VB	O	infmod	O	-1	B-verb.social
+0	32	637	3387	3394	S	636	himself	himself	himself	PRP	O	dep	O	-1	O
+0	32	638	3395	3398	S	629	and	and	and	CC	O	cc	O	-1	O
+0	32	639	3399	3407	S	629	grateful	grateful	grateful	JJ	O	conj	O	-1	O
+0	32	640	3408	3412	S	644	that	that	that	IN	O	complm	O	-1	O
+0	32	641	3413	3415	S	644	he	he	he	PRP	O	nsubj	O	1	O
+0	32	642	3416	3419	S	644	has	has	have	VBZ	O	aux	O	-1	O
+0	32	643	3420	3424	S	644	been	been	be	VBN	O	auxpass	O	-1	O
+0	32	644	3425	3433	S	639	returned	returned	return	VBN	O	ccomp	O	-1	B-verb.motion
+0	32	645	3434	3436	S	644	to	to	to	TO	O	prep	O	-1	O
+0	32	646	3437	3446	S	647	Christmas	Christmas	Christmas	NNP	DATE	nn	O	-1	B-noun.time
+0	32	647	3447	3450		645	Day	Day	Day	NNP	DATE	pobj	O	-1	O
+0	32	648	3450	3451	S	650	,	,	,	,	O	punct	O	-1	O
+0	32	649	3452	3459	S	650	Scrooge	Scrooge	Scrooge	NNP	PERSON	nsubj	O	1	B-noun.person
+0	32	650	3460	3466	S	-1	rushes	rushes	rush	VBZ	O	null	O	-1	B-verb.motion
+0	32	651	3467	3470	S	650	out	out	out	IN	O	advmod	O	-1	O
+0	32	652	3471	3475	S	650	onto	onto	onto	IN	O	prep	O	-1	O
+0	32	653	3476	3479	S	654	the	the	the	DT	O	det	O	-1	O
+0	32	654	3480	3486	S	652	street	street	street	NN	O	pobj	O	-1	B-noun.artifact
+0	32	655	3487	3493	S	654	hoping	hoping	hope	VBG	O	partmod	O	-1	B-verb.emotion
+0	32	656	3494	3496	S	657	to	to	to	TO	O	aux	O	-1	O
+0	32	657	3497	3502	S	655	share	share	share	VB	O	xcomp	O	-1	B-verb.possession
+0	32	658	3503	3506	S	661	his	his	he	PRP$	O	poss	O	1	O
+0	32	659	3507	3515	S	661	newfound	newfound	newfound	JJ	O	amod	O	-1	O
+0	32	660	3516	3525	S	661	Christmas	Christmas	Christmas	NNP	DATE	nn	O	-1	O
+0	32	661	3526	3532		657	spirit	spirit	spirit	NN	O	dobj	O	-1	O
+0	32	662	3532	3533	S	650	.	.	.	.	O	punct	O	-1	O
+0	33	663	3534	3536	S	664	He	He	he	PRP	O	nsubj	O	1	O
+0	33	664	3537	3542	S	-1	sends	sends	send	VBZ	O	null	O	-1	B-verb.motion
+0	33	665	3543	3544	S	668	a	a	a	DT	O	det	O	-1	O
+0	33	666	3545	3550	S	668	giant	giant	giant	JJ	O	amod	O	-1	O
+0	33	667	3551	3560	S	668	Christmas	Christmas	Christmas	NNP	DATE	nn	O	-1	O
+0	33	668	3561	3567	S	664	turkey	turkey	turkey	NN	O	dobj	O	-1	B-noun.animal
+0	33	669	3568	3570	S	664	to	to	to	TO	O	prep	O	-1	O
+0	33	670	3571	3574	S	672	the	the	the	DT	O	det	O	-1	O
+0	33	671	3575	3583	S	672	Cratchit	Cratchit	Cratchit	NNP	PERSON	nn	O	0	O
+0	33	672	3584	3589	S	669	house	house	house	NN	O	pobj	O	-1	B-noun.artifact
+0	33	673	3590	3593	S	664	and	and	and	CC	O	cc	O	-1	O
+0	33	674	3594	3601	S	664	attends	attends	attend	VBZ	O	conj	O	-1	B-verb.stative
+0	33	675	3602	3606		677	Fred	Fred	Fred	NNP	PERSON	poss	O	2	B-noun.person
+0	33	676	3606	3608	S	675	's	's	's	POS	O	possessive	O	-1	O
+0	33	677	3609	3614		674	party	party	party	NN	O	dobj	O	-1	B-noun.group
+0	33	678	3614	3615	S	677	,	,	,	,	O	punct	O	-1	O
+0	33	679	3616	3618	S	674	to	to	to	TO	O	prep	O	-1	O
+0	33	680	3619	3622	S	682	the	the	the	DT	O	det	O	-1	O
+0	33	681	3623	3630	S	682	stifled	stifled	stifled	JJ	O	amod	O	-1	O
+0	33	682	3631	3639	S	679	surprise	surprise	surprise	NN	O	pobj	O	-1	B-noun.feeling
+0	33	683	3640	3642	S	682	of	of	of	IN	O	prep	O	-1	O
+0	33	684	3643	3646	S	686	the	the	the	DT	O	det	O	-1	O
+0	33	685	3647	3652	S	686	other	other	other	JJ	O	amod	O	-1	O
+0	33	686	3653	3659		683	guests	guests	guest	NNS	O	pobj	O	-1	B-noun.person
+0	33	687	3659	3660	S	664	.	.	.	.	O	punct	O	-1	O
+0	34	688	3661	3663	S	691	As	As	as	IN	O	mark	O	-1	O
+0	34	689	3664	3667	S	690	the	the	the	DT	DURATION	det	O	-1	O
+0	34	690	3668	3673	S	691	years	years	year	NNS	DURATION	nsubj	O	-1	B-noun.time
+0	34	691	3674	3676	S	695	go	go	go	VBP	O	dep	O	-1	B-verb.motion
+0	34	692	3677	3679		691	by	by	by	IN	O	prt	O	-1	O
+0	34	693	3679	3680	S	695	,	,	,	,	O	punct	O	-1	O
+0	34	694	3681	3683	S	695	he	he	he	PRP	O	nsubj	O	1	O
+0	34	695	3684	3689	S	-1	holds	holds	hold	VBZ	O	null	O	-1	B-verb.stative
+0	34	696	3690	3694	S	695	true	true	true	JJ	O	acomp	O	-1	O
+0	34	697	3695	3697	S	696	to	to	to	TO	O	prep	O	-1	O
+0	34	698	3698	3701	S	699	his	his	he	PRP$	O	poss	O	1	O
+0	34	699	3702	3709	S	697	promise	promise	promise	NN	O	pobj	O	-1	B-noun.communication
+0	34	700	3710	3713	S	699	and	and	and	CC	O	cc	O	-1	O
+0	34	701	3714	3720	S	699	honors	honors	honor	NNS	O	conj	O	-1	B-noun.communication
+0	34	702	3721	3730	S	701	Christmas	Christmas	Christmas	NNP	DATE	dobj	O	-1	O
+0	34	703	3731	3735	S	699	with	with	with	IN	O	prep	O	-1	O
+0	34	704	3736	3739	S	706	all	all	all	DT	O	det	O	-1	O
+0	34	705	3740	3743	S	706	his	his	he	PRP$	O	poss	O	1	O
+0	34	706	3744	3749		703	heart	heart	heart	NN	O	pobj	O	-1	B-noun.cognition
+0	34	707	3749	3750	S	695	:	:	:	:	O	punct	O	-1	O
+0	34	708	3751	3753	S	709	he	he	he	PRP	O	nsubj	O	1	O
+0	34	709	3754	3760	S	695	treats	treats	treat	VBZ	O	parataxis	O	-1	B-verb.social
+0	34	710	3761	3765	S	711	Tiny	Tiny	Tiny	NNP	PERSON	nn	O	3	B-noun.person
+0	34	711	3766	3769	S	709	Tim	Tim	Tim	NNP	PERSON	dobj	O	3	I-noun.person
+0	34	712	3770	3772	S	718	as	as	as	IN	O	mark	O	-1	O
+0	34	713	3773	3775	S	718	if	if	if	IN	O	dep	O	-1	O
+0	34	714	3776	3778	S	718	he	he	he	PRP	O	nsubj	O	1	O
+0	34	715	3779	3783	S	718	were	were	be	VBD	O	cop	O	-1	B-verb.stative
+0	34	716	3784	3787	S	718	his	his	he	PRP$	O	poss	O	1	O
+0	34	717	3788	3791	S	718	own	own	own	JJ	O	amod	O	-1	O
+0	34	718	3792	3797		709	child	child	child	NN	O	advcl	O	-1	B-noun.person
+0	34	719	3797	3798	S	709	,	,	,	,	O	punct	O	-1	O
+0	34	720	3799	3807	S	709	provides	provides	provide	VBZ	O	conj	O	-1	B-verb.possession
+0	34	721	3808	3814	S	722	lavish	lavish	lavish	JJ	O	amod	O	-1	O
+0	34	722	3815	3820	S	720	gifts	gifts	gift	NNS	O	dobj	O	-1	B-noun.possession
+0	34	723	3821	3824	S	722	for	for	for	IN	O	prep	O	-1	O
+0	34	724	3825	3828	S	725	the	the	the	DT	O	det	O	-1	O
+0	34	725	3829	3833		723	poor	poor	poor	JJ	O	pobj	O	-1	O
+0	34	726	3833	3834	S	709	,	,	,	,	O	punct	O	-1	O
+0	34	727	3835	3838	S	709	and	and	and	CC	O	cc	O	-1	O
+0	34	728	3839	3845	S	709	treats	treats	treat	VBZ	O	conj	O	-1	B-verb.social
+0	34	729	3846	3849	S	732	his	his	he	PRP$	O	poss	O	1	O
+0	34	730	3850	3856	S	732	fellow	fellow	fellow	JJ	O	amod	O	-1	O
+0	34	731	3857	3862	S	732	human	human	human	JJ	O	amod	O	-1	O
+0	34	732	3863	3869	S	728	beings	beings	being	NNS	O	dobj	O	-1	B-noun.state
+0	34	733	3870	3874	S	728	with	with	with	IN	O	prep	O	-1	O
+0	34	734	3875	3883		733	kindness	kindness	kindness	NN	O	pobj	O	-1	B-noun.attribute
+0	34	735	3883	3884	S	734	,	,	,	,	O	punct	O	-1	O
+0	34	736	3885	3895		734	generosity	generosity	generosity	NN	O	conj	O	-1	O
+0	34	737	3895	3896	S	709	,	,	,	,	O	punct	O	-1	O
+0	34	738	3897	3900	S	709	and	and	and	CC	O	cc	O	-1	O
+0	34	739	3901	3907		709	warmth	warmth	warmth	NN	O	conj	O	-1	B-noun.cognition
+0	34	740	3907	3908	N	695	.	.	.	.	O	punct	O	-1	O

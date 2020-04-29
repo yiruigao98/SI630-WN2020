@@ -1,0 +1,875 @@
+paragraphId	sentenceID	tokenId	beginOffset	endOffset	whitespaceAfter	headTokenId	originalWord	normalizedWord	lemma	pos	ner	deprel	inQuotation	characterId	supersense
+0	0	0	0	5	S	1	Jerry	Jerry	Jerry	NNP	PERSON	nn	O	-1	B-noun.person
+0	0	1	6	13		10	Renault	Renault	Renault	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	0	2	13	14	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	3	15	16	S	4	a	a	a	DT	O	det	O	-1	O
+0	0	4	17	25	S	1	freshman	freshman	freshman	NN	O	appos	O	-1	B-noun.person
+0	0	5	26	28	S	4	at	at	at	IN	O	prep	O	-1	O
+0	0	6	29	36	S	8	Trinity	Trinity	Trinity	NNP	ORGANIZATION	nn	O	-1	B-noun.group
+0	0	7	37	41	S	8	High	High	High	NNP	ORGANIZATION	nn	O	-1	I-noun.group
+0	0	8	42	48		5	School	School	School	NNP	ORGANIZATION	pobj	O	-1	I-noun.group
+0	0	9	48	49	S	1	,	,	,	,	O	punct	O	-1	O
+0	0	10	50	53	S	19	has	has	have	VBZ	O	ccomp	O	-1	O
+0	0	11	54	55	S	12	a	a	a	DT	O	det	O	-1	O
+0	0	12	56	69	S	10	confrontation	confrontation	confrontation	NN	O	dobj	O	-1	B-noun.communication
+0	0	13	70	74	S	12	with	with	with	IN	O	prep	O	-1	O
+0	0	14	75	78	S	16	the	the	the	DT	O	det	O	-1	O
+0	0	15	79	85	S	16	school	school	school	NN	O	nn	O	-1	B-noun.group
+0	0	16	86	90		13	gang	gang	gang	NN	O	pobj	O	-1	B-noun.group
+0	0	17	90	91	S	19	,	,	,	,	O	punct	O	-1	O
+0	0	18	92	95	S	19	The	The	the	DT	O	det	O	-1	O
+0	0	19	96	102		-1	Vigils	Vigils	Vigils	NNPS	O	null	O	-1	O
+0	0	20	102	103	S	19	.	.	.	.	O	punct	O	-1	O
+0	1	21	104	107	S	22	The	The	the	DT	O	det	O	-1	O
+0	1	22	108	114		29	Vigils	Vigils	Vigils	NNPS	MISC	nsubj	O	-1	O
+0	1	23	114	115	S	22	,	,	,	,	O	punct	O	-1	O
+0	1	24	116	122	S	22	headed	headed	head	VBN	O	partmod	O	-1	B-verb.motion
+0	1	25	123	125	S	24	by	by	by	IN	O	prep	O	-1	O
+0	1	26	126	132	S	27	Archie	Archie	Archie	NNP	PERSON	nn	O	-1	B-noun.person
+0	1	27	133	141		25	Costello	Costello	Costello	NNP	PERSON	pobj	O	-1	I-noun.person
+0	1	28	141	142	S	22	,	,	,	,	O	punct	O	-1	O
+0	1	29	143	153	S	-1	specialize	specialize	specialize	VBP	O	null	O	-1	B-verb.change
+0	1	30	154	156	S	29	in	in	in	IN	O	prep	O	-1	O
+0	1	31	157	163	S	30	making	making	make	VBG	O	pcomp	O	-1	B-verb.social
+0	1	32	164	175	S	31	assignments	assignments	assignment	NNS	O	dobj	O	-1	B-noun.act
+0	1	33	176	180	S	36	that	that	that	IN	O	dobj	O	-1	O
+0	1	34	181	186	S	35	other	other	other	JJ	O	amod	O	-1	O
+0	1	35	187	195	S	36	students	students	student	NNS	O	nsubj	O	-1	B-noun.person
+0	1	36	196	200	S	32	have	have	have	VBP	O	rcmod	O	-1	O
+0	1	37	201	203	S	38	to	to	to	TO	O	aux	O	-1	O
+0	1	38	204	212		36	complete	complete	complete	VB	O	xcomp	O	-1	B-verb.change
+0	1	39	212	213	S	29	.	.	.	.	O	punct	O	-1	O
+0	2	40	214	219	S	41	These	These	these	DT	O	det	O	-1	O
+0	2	41	220	231	S	42	assignments	assignments	assignment	NNS	O	nsubj	O	-1	B-noun.act
+0	2	42	232	236		-1	vary	vary	vary	VBP	O	null	O	-1	B-verb.change
+0	2	43	236	237	S	42	,	,	,	,	O	punct	O	-1	O
+0	2	44	238	247	S	42	depending	depending	depend	VBG	O	prep	O	-1	B-verb.stative
+0	2	45	248	250	S	44	on	on	on	IN	O	dep	O	-1	O
+0	2	46	251	254	S	47	the	the	the	DT	O	det	O	-1	O
+0	2	47	255	261		45	person	person	person	NN	O	pobj	O	-1	B-noun.person
+0	2	48	261	262	S	42	,	,	,	,	O	punct	O	-1	O
+0	2	49	263	266	S	42	and	and	and	CC	O	cc	O	-1	O
+0	2	50	267	273	S	42	intend	intend	intend	VBP	O	conj	O	-1	B-verb.cognition
+0	2	51	274	276	S	52	to	to	to	TO	O	aux	O	-1	O
+0	2	52	277	284	S	50	inflict	inflict	inflict	VB	O	xcomp	O	-1	B-verb.communication
+0	2	53	285	287	S	56	as	as	as	RB	O	advmod	O	-1	O
+0	2	54	288	292	S	56	much	much	much	JJ	O	amod	O	-1	O
+0	2	55	293	306	S	56	psychological	psychological	psychological	JJ	O	amod	O	-1	O
+0	2	56	307	313	S	52	injury	injury	injury	NN	O	dobj	O	-1	B-noun.state
+0	2	57	314	316	S	52	as	as	as	IN	O	prep	O	-1	O
+0	2	58	317	325		57	possible	possible	possible	JJ	O	pobj	O	-1	O
+0	2	59	325	326	S	42	.	.	.	.	O	punct	O	-1	O
+0	3	60	327	332	S	68	Early	Early	early	RB	O	advmod	O	-1	O
+0	3	61	333	335	S	60	in	in	in	IN	O	dep	O	-1	O
+0	3	62	336	339	S	63	the	the	the	DT	O	det	O	-1	O
+0	3	63	340	344		61	book	book	book	NN	O	pobj	O	-1	B-noun.communication
+0	3	64	344	345	S	68	,	,	,	,	O	punct	O	-1	O
+0	3	65	346	351		67	Jerry	Jerry	Jerry	NNP	PERSON	poss	O	2	B-noun.person
+0	3	66	351	353	S	65	's	's	's	POS	O	possessive	O	-1	O
+0	3	67	354	360	S	68	friend	friend	friend	NN	O	nsubj	O	-1	B-noun.person
+0	3	68	361	366	S	-1	known	known	know	VBN	O	null	O	-1	B-verb.cognition
+0	3	69	367	369	S	68	as	as	as	IN	O	prep	O	-1	O
+0	3	70	370	373	S	71	The	The	the	DT	O	det	O	-1	O
+0	3	71	374	380	S	69	Goober	Goober	Goober	NNP	O	pobj	O	-1	O
+0	3	72	381	385	S	68	gets	gets	get	VBZ	O	dep	O	-1	B-verb.possession
+0	3	73	386	388	S	74	an	an	a	DT	O	det	O	-1	O
+0	3	74	389	399	S	72	assignment	assignment	assignment	NN	O	dobj	O	-1	B-noun.act
+0	3	75	400	404	S	72	from	from	from	IN	O	prep	O	-1	O
+0	3	76	405	408	S	77	The	The	the	DT	O	det	O	-1	O
+0	3	77	409	415		75	Vigils	Vigils	Vigils	NNPS	O	pobj	O	-1	O
+0	3	78	415	416	S	68	.	.	.	.	O	punct	O	-1	O
+0	4	79	417	419	S	80	He	He	he	PRP	O	nsubj	O	-1	O
+0	4	80	420	426	S	-1	sneaks	sneaks	sneak	VBZ	O	null	O	-1	B-verb.motion
+0	4	81	427	431	S	80	into	into	into	IN	O	prep	O	-1	O
+0	4	82	432	435	S	81	one	one	one	CD	NUMBER	pobj	O	-1	O
+0	4	83	436	438	S	82	of	of	of	IN	O	prep	O	-1	O
+0	4	84	439	442	S	85	the	the	the	DT	O	det	O	-1	O
+0	4	85	443	453	S	83	classrooms	classrooms	classroom	NNS	O	pobj	O	-1	B-noun.artifact
+0	4	86	454	456	S	80	at	at	at	IN	O	prep	O	-1	O
+0	4	87	457	462	S	86	night	night	night	NN	TIME	pobj	O	-1	B-noun.time
+0	4	88	463	466	S	80	and	and	and	CC	O	cc	O	-1	O
+0	4	89	467	475	S	80	unscrews	unscrews	unscrew	VBZ	O	conj	O	-1	B-verb.contact
+0	4	90	476	481		89	desks	desks	desk	NNS	O	dobj	O	-1	B-noun.artifact
+0	4	91	481	482	S	90	,	,	,	,	O	punct	O	-1	O
+0	4	92	483	489	S	90	chairs	chairs	chair	NNS	O	conj	O	-1	B-noun.artifact
+0	4	93	490	493	S	90	and	and	and	CC	O	cc	O	-1	O
+0	4	94	494	500		90	hinges	hinges	hinge	NNS	O	conj	O	-1	B-noun.artifact
+0	4	95	500	501	S	80	,	,	,	,	O	punct	O	-1	O
+0	4	96	502	509	S	80	leaving	leaving	leave	VBG	O	xcomp	O	-1	B-verb.motion
+0	4	97	510	513	S	98	the	the	the	DT	O	det	O	-1	O
+0	4	98	514	520	S	96	screws	screws	screw	NNS	O	dobj	O	-1	B-noun.person
+0	4	99	521	523	S	96	in	in	in	IN	O	prep	O	-1	O
+0	4	100	524	526	S	99	by	by	by	IN	O	dep	O	-1	O
+0	4	101	527	531	S	103	just	just	just	RB	O	advmod	O	-1	O
+0	4	102	532	533	S	103	a	a	a	DT	O	det	O	-1	O
+0	4	103	534	540		100	thread	thread	thread	NN	O	pobj	O	-1	B-noun.artifact
+0	4	104	540	541	S	80	.	.	.	.	O	punct	O	-1	O
+0	5	105	542	545	S	107	The	The	the	DT	DATE	det	O	-1	O
+0	5	106	546	550	S	107	next	next	next	JJ	DATE	amod	O	-1	O
+0	5	107	551	554	S	-1	day	day	day	NN	DATE	null	O	-1	B-noun.time
+0	5	108	555	559	S	110	when	when	when	WRB	O	advmod	O	-1	O
+0	5	109	560	568	S	110	students	students	student	NNS	O	nsubj	O	-1	B-noun.person
+0	5	110	569	573	S	107	come	come	come	VBP	O	advcl	O	-1	B-verb.motion
+0	5	111	574	576	S	110	to	to	to	TO	O	prep	O	-1	O
+0	5	112	577	582		111	class	class	class	NN	O	pobj	O	-1	B-noun.group
+0	5	113	582	583	S	112	,	,	,	,	O	punct	O	-1	O
+0	5	114	584	594	S	115	everything	everything	everything	NN	O	nn	O	-1	O
+0	5	115	595	604	S	112	collapses	collapses	collapse	NNS	O	conj	O	-1	B-noun.state
+0	5	116	605	608	S	110	and	and	and	CC	O	cc	O	-1	O
+0	5	117	609	614	S	110	falls	falls	fall	VBZ	O	conj	O	-1	B-verb.contact
+0	5	118	615	620		117	apart	apart	apart	RB	O	advmod	O	-1	O
+0	5	119	620	621	S	107	.	.	.	.	O	punct	O	-1	O
+0	6	120	622	625	S	121	The	The	the	DT	O	det	O	-1	O
+0	6	121	626	632	S	122	Goober	Goober	Goober	NNP	O	nsubj	O	-1	O
+0	6	122	633	640	S	-1	suffers	suffers	suffer	VBZ	O	null	O	-1	B-verb.perception
+0	6	123	641	645	S	126	some	some	some	DT	O	det	O	-1	O
+0	6	124	646	653	S	126	serious	serious	serious	JJ	O	amod	O	-1	O
+0	6	125	654	663	S	126	emotional	emotional	emotional	JJ	O	amod	O	-1	O
+0	6	126	664	677	S	122	repercussions	repercussions	repercussion	NNS	O	dobj	O	-1	B-noun.phenomenon
+0	6	127	678	682	S	122	from	from	from	IN	O	prep	O	-1	O
+0	6	128	683	691	S	127	carrying	carrying	carry	VBG	O	pcomp	O	-1	B-verb.creation
+0	6	129	692	695	S	128	out	out	out	RP	O	prt	O	-1	O
+0	6	130	696	699	S	131	the	the	the	DT	O	det	O	-1	O
+0	6	131	700	710	S	128	assignment	assignment	assignment	NN	O	dobj	O	-1	B-noun.act
+0	6	132	711	714	S	122	and	and	and	CC	O	cc	O	-1	O
+0	6	133	715	717	S	137	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	6	134	718	723	S	137	never	never	never	RB	O	neg	O	-1	O
+0	6	135	724	729	S	137	quite	quite	quite	RB	O	advmod	O	-1	O
+0	6	136	730	733	S	137	the	the	the	DT	O	det	O	-1	O
+0	6	137	734	738	S	122	same	same	same	JJ	O	conj	O	-1	O
+0	6	138	739	748		137	afterward	afterward	afterward	RB	O	advmod	O	-1	O
+0	6	139	748	749	S	122	.	.	.	.	O	punct	O	-1	O
+0	7	140	750	755	S	142	Jerry	Jerry	Jerry	NNP	PERSON	nsubjpass	O	2	B-noun.person
+0	7	141	756	760	S	142	gets	gets	get	VBZ	O	auxpass	O	-1	O
+0	7	142	761	767	S	-1	called	called	call	VBN	O	null	O	-1	B-verb.communication
+0	7	143	768	770	S	144	to	to	to	TO	O	aux	O	-1	O
+0	7	144	771	776	S	142	carry	carry	carry	VB	O	xcomp	O	-1	B-verb.creation
+0	7	145	777	780	S	144	out	out	out	RP	O	prt	O	-1	O
+0	7	146	781	783	S	147	an	an	a	DT	O	det	O	-1	O
+0	7	147	784	794	S	144	assignment	assignment	assignment	NN	O	dobj	O	-1	B-noun.act
+0	7	148	795	798	S	142	and	and	and	CC	O	cc	O	-1	O
+0	7	149	799	801	S	150	he	he	he	PRP	O	nsubj	O	2	O
+0	7	150	802	804	S	142	is	is	be	VBZ	O	conj	O	-1	B-verb.stative
+0	7	151	805	807	S	152	to	to	to	TO	O	aux	O	-1	O
+0	7	152	808	814	S	150	refuse	refuse	refuse	VB	O	xcomp	O	-1	B-verb.communication
+0	7	153	815	822	S	152	selling	selling	sell	VBG	O	xcomp	O	-1	B-verb.possession
+0	7	154	823	833	S	153	chocolates	chocolates	chocolate	NNS	O	dobj	O	-1	B-noun.food
+0	7	155	834	836	S	153	at	at	at	IN	O	prep	O	-1	O
+0	7	156	837	840	S	160	the	the	the	DT	O	det	O	-1	O
+0	7	157	841	847	S	160	annual	annual	annual	JJ	SET	amod	O	-1	O
+0	7	158	848	854	S	160	school	school	school	NN	O	nn	O	-1	B-noun.group
+0	7	159	855	864	S	160	chocolate	chocolate	chocolate	NN	O	nn	O	-1	B-noun.food
+0	7	160	865	869		155	sale	sale	sale	NN	O	pobj	O	-1	B-noun.act
+0	7	161	869	870	S	142	.	.	.	.	O	punct	O	-1	O
+0	8	162	871	877	S	163	Archie	Archie	Archie	NNP	PERSON	nsubj	O	0	B-noun.person
+0	8	163	878	883	S	-1	gives	gives	give	VBZ	O	null	O	-1	B-verb.possession
+0	8	164	884	887	S	163	him	him	he	PRP	O	iobj	O	0	O
+0	8	165	888	892	S	166	this	this	this	DT	O	det	O	-1	O
+0	8	166	893	903	S	163	assignment	assignment	assignment	NN	O	dobj	O	-1	B-noun.act
+0	8	167	904	911	S	163	despite	despite	despite	IN	O	prep	O	-1	O
+0	8	168	912	915	S	169	the	the	the	DT	O	det	O	-1	O
+0	8	169	916	920	S	167	fact	fact	fact	NN	O	pobj	O	-1	B-noun.cognition
+0	8	170	921	925	S	172	that	that	that	IN	O	complm	O	-1	O
+0	8	171	926	932	S	172	Archie	Archie	Archie	NNP	PERSON	nsubj	O	0	B-noun.person
+0	8	172	933	937	S	169	told	told	tell	VBD	O	ccomp	O	-1	B-verb.communication
+0	8	173	938	945	S	174	Brother	Brother	Brother	NNP	PERSON	nn	O	-1	B-noun.person
+0	8	174	946	950		172	Leon	Leon	Leon	NNP	PERSON	dobj	O	-1	I-noun.person
+0	8	175	950	951	S	172	,	,	,	,	O	punct	O	-1	O
+0	8	176	952	955	S	177	the	the	the	DT	O	det	O	-1	O
+0	8	177	956	963	S	175	teacher	teacher	teacher	NN	O	dobj	O	-1	B-noun.person
+0	8	178	964	966	S	177	in	in	in	IN	O	prep	O	-1	O
+0	8	179	967	973	S	178	charge	charge	charge	NN	O	pobj	O	-1	B-noun.act
+0	8	180	974	976	S	179	of	of	of	IN	O	prep	O	-1	O
+0	8	181	977	980	S	182	the	the	the	DT	O	det	O	-1	O
+0	8	182	981	985		180	sale	sale	sale	NN	O	pobj	O	-1	B-noun.act
+0	8	183	985	986	S	177	,	,	,	,	O	punct	O	-1	O
+0	8	184	987	991	S	190	that	that	that	IN	O	complm	O	-1	O
+0	8	185	992	994	S	190	he	he	he	PRP	O	nsubj	O	0	O
+0	8	186	995	998	S	185	and	and	and	CC	O	cc	O	-1	O
+0	8	187	999	1002	S	188	The	The	the	DT	O	det	O	-1	O
+0	8	188	1003	1009	S	185	Vigils	Vigils	Vigils	NNPS	O	conj	O	-1	B-noun.person
+0	8	189	1010	1015	S	190	would	would	would	MD	O	aux	O	-1	O
+0	8	190	1016	1023	S	177	support	support	support	VB	O	ccomp	O	-1	B-verb.social
+0	8	191	1024	1027	S	192	the	the	the	DT	O	det	O	-1	O
+0	8	192	1028	1032	S	190	sale	sale	sale	NN	O	dobj	O	-1	B-noun.act
+0	8	193	1033	1036	S	190	and	and	and	CC	O	cc	O	-1	O
+0	8	194	1037	1041	S	190	make	make	make	VB	O	conj	O	-1	B-verb.change
+0	8	195	1042	1046	S	194	sure	sure	sure	JJ	O	acomp	O	-1	O
+0	8	196	1047	1049	S	199	it	it	it	PRP	O	nsubj	O	-1	O
+0	8	197	1050	1052	S	199	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	8	198	1053	1054	S	199	a	a	a	DT	O	det	O	-1	O
+0	8	199	1055	1062		195	success	success	success	NN	O	ccomp	O	-1	B-noun.event
+0	8	200	1062	1063	S	163	.	.	.	.	O	punct	O	-1	O
+0	9	201	1064	1066	S	211	At	At	at	IN	O	prep	O	-1	O
+0	9	202	1067	1072		201	first	first	first	RB	ORDINAL	dep	O	-1	O
+0	9	203	1072	1073	S	211	,	,	,	,	O	punct	O	-1	O
+0	9	204	1074	1081	S	205	Brother	Brother	Brother	NNP	O	nn	O	-1	B-noun.person
+0	9	205	1082	1086	S	211	Leon	Leon	Leon	NNP	PERSON	nsubjpass	O	1	I-noun.person
+0	9	206	1087	1090	S	205	and	and	and	CC	O	cc	O	-1	O
+0	9	207	1091	1094	S	209	the	the	the	DT	O	det	O	-1	O
+0	9	208	1095	1100	S	209	other	other	other	JJ	O	amod	O	-1	O
+0	9	209	1101	1109	S	205	students	students	student	NNS	O	conj	O	-1	B-noun.person
+0	9	210	1110	1113	S	211	are	are	be	VBP	O	auxpass	O	-1	O
+0	9	211	1114	1121	S	-1	shocked	shocked	shock	VBN	O	null	O	-1	B-verb.emotion
+0	9	212	1122	1124	S	211	by	by	by	IN	O	prep	O	-1	O
+0	9	213	1125	1130		215	Jerry	Jerry	Jerry	NNP	PERSON	poss	O	2	B-noun.person
+0	9	214	1130	1132	S	213	's	's	's	POS	O	possessive	O	-1	O
+0	9	215	1133	1140		212	refusal	refusal	refusal	NN	O	pobj	O	-1	B-noun.communication
+0	9	216	1140	1141	S	211	.	.	.	.	O	punct	O	-1	O
+0	10	217	1142	1152		222	Eventually	Eventually	eventually	RB	O	advmod	O	-1	O
+0	10	218	1152	1153	S	222	,	,	,	,	O	punct	O	-1	O
+0	10	219	1154	1156	S	222	it	it	it	PRP	O	nsubj	O	-1	O
+0	10	220	1157	1164	S	222	becomes	becomes	become	VBZ	O	cop	O	-1	B-verb.stative
+0	10	221	1165	1171	S	222	common	common	common	JJ	O	amod	O	-1	O
+0	10	222	1172	1181	S	-1	knowledge	knowledge	knowledge	NN	O	null	O	-1	B-noun.Tops
+0	10	223	1182	1186	S	228	that	that	that	WDT	O	nsubjpass	O	-1	O
+0	10	224	1187	1192		226	Jerry	Jerry	Jerry	NNP	PERSON	poss	O	2	B-noun.person
+0	10	225	1192	1194	S	224	's	's	's	POS	O	possessive	O	-1	O
+0	10	226	1195	1202	S	228	refusal	refusal	refusal	NN	O	nsubjpass	O	-1	B-noun.communication
+0	10	227	1203	1205	S	228	is	is	be	VBZ	O	auxpass	O	-1	O
+0	10	228	1206	1214	S	222	prompted	prompted	prompt	VBN	O	rcmod	O	-1	B-verb.creation
+0	10	229	1215	1217	S	228	by	by	by	IN	O	prep	O	-1	O
+0	10	230	1218	1219	S	232	a	a	a	DT	O	det	O	-1	O
+0	10	231	1220	1226	S	232	Vigils	Vigils	Vigils	NNP	O	nn	O	-1	O
+0	10	232	1227	1237		229	assignment	assignment	assignment	NN	O	pobj	O	-1	O
+0	10	233	1237	1238	S	222	.	.	.	.	O	punct	O	-1	O
+0	11	234	1239	1246	S	235	Brother	Brother	Brother	NNP	O	nn	O	-1	B-noun.person
+0	11	235	1247	1251		241	Leon	Leon	Leon	NNP	PERSON	nsubj	O	1	I-noun.person
+0	11	236	1251	1252	S	241	,	,	,	,	O	punct	O	-1	O
+0	11	237	1253	1255	S	241	at	at	at	IN	O	prep	O	-1	O
+0	11	238	1256	1261	S	237	first	first	first	JJ	ORDINAL	pobj	O	-1	O
+0	11	239	1262	1270		238	outraged	outraged	outraged	JJ	O	dep	O	-1	O
+0	11	240	1270	1271	S	241	,	,	,	,	O	punct	O	-1	O
+0	11	241	1272	1277	S	270	looks	looks	look	VBZ	O	dep	O	-1	B-verb.cognition
+0	11	242	1278	1285	S	241	forward	forward	forward	RB	O	advmod	O	-1	O
+0	11	243	1286	1288	S	241	to	to	to	TO	O	prep	O	-1	O
+0	11	244	1289	1292	S	245	the	the	the	DT	O	det	O	-1	O
+0	11	245	1293	1303	S	243	assignment	assignment	assignment	NN	O	pobj	O	-1	B-noun.act
+0	11	246	1304	1310		245	ending	ending	end	VBG	O	partmod	O	-1	B-verb.stative
+0	11	247	1310	1311	S	246	,	,	,	,	O	punct	O	-1	O
+0	11	248	1312	1317	S	255	since	since	since	IN	O	mark	O	-1	O
+0	11	249	1318	1323	S	255	after	after	after	IN	O	prep	O	-1	O
+0	11	250	1324	1327	S	251	ten	ten	ten	CD	DURATION	num	O	-1	O
+0	11	251	1328	1332		249	days	days	day	NNS	DURATION	pobj	O	-1	B-noun.time
+0	11	252	1332	1333	S	255	,	,	,	,	O	punct	O	-1	O
+0	11	253	1334	1339	S	255	Jerry	Jerry	Jerry	NNP	PERSON	nsubjpass	O	2	B-noun.person
+0	11	254	1340	1342	S	255	is	is	be	VBZ	O	auxpass	O	-1	O
+0	11	255	1343	1351	S	246	supposed	supposed	suppose	VBN	O	advcl	O	-1	B-verb.cognition
+0	11	256	1352	1354	S	257	to	to	to	TO	O	aux	O	-1	O
+0	11	257	1355	1361	S	255	accept	accept	accept	VB	O	xcomp	O	-1	B-verb.possession
+0	11	258	1362	1365	S	259	the	the	the	DT	O	det	O	-1	O
+0	11	259	1366	1376	S	257	chocolates	chocolates	chocolate	NNS	O	dobj	O	-1	B-noun.food
+0	11	260	1377	1380	S	257	and	and	and	CC	O	cc	O	-1	O
+0	11	261	1381	1386	S	257	begin	begin	begin	VB	O	conj	O	-1	B-verb.change
+0	11	262	1387	1394	S	261	selling	selling	sell	VBG	O	xcomp	O	-1	B-verb.possession
+0	11	263	1395	1405	S	262	them.After	them.After	them.after	NN	O	dobj	O	-1	O
+0	11	264	1406	1409	S	266	the	the	the	DT	DATE	det	O	-1	O
+0	11	265	1410	1415	S	266	tenth	tenth	tenth	NN	DATE	nn	O	-1	B-noun.quantity
+0	11	266	1416	1419		263	day	day	day	NN	DATE	dep	O	-1	B-noun.time
+0	11	267	1419	1420	S	270	,	,	,	,	O	punct	O	-1	O
+0	11	268	1421	1426	S	270	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	11	269	1427	1432	S	270	fully	fully	fully	RB	O	advmod	O	-1	O
+0	11	270	1433	1440	S	-1	intends	intends	intend	VBZ	O	null	O	-1	B-verb.cognition
+0	11	271	1441	1443	S	272	to	to	to	TO	O	aux	O	-1	O
+0	11	272	1444	1450	S	270	accept	accept	accept	VB	O	xcomp	O	-1	B-verb.possession
+0	11	273	1451	1454	S	274	the	the	the	DT	O	det	O	-1	O
+0	11	274	1455	1465		272	chocolates	chocolates	chocolate	NNS	O	dobj	O	-1	B-noun.food
+0	11	275	1465	1466	S	270	.	.	.	.	O	punct	O	-1	O
+0	12	276	1467	1471	S	278	When	When	when	WRB	O	advmod	O	-1	O
+0	12	277	1472	1476	S	278	Leon	Leon	Leon	NNP	PERSON	nsubj	O	1	B-noun.location
+0	12	278	1477	1482	S	290	calls	calls	call	VBZ	O	dep	O	-1	B-verb.communication
+0	12	279	1483	1486	S	280	his	his	he	PRP$	O	poss	O	1	O
+0	12	280	1487	1491	S	278	name	name	name	NN	O	dobj	O	-1	B-noun.communication
+0	12	281	1492	1498	S	280	during	during	during	IN	O	prep	O	-1	O
+0	12	282	1499	1502	S	285	the	the	the	DT	O	det	O	-1	O
+0	12	283	1503	1512	S	285	chocolate	chocolate	chocolate	NN	O	nn	O	-1	B-noun.food
+0	12	284	1513	1517	S	285	roll	roll	roll	NN	O	nn	O	-1	B-noun.act
+0	12	285	1518	1522		281	call	call	call	NN	O	pobj	O	-1	I-noun.act
+0	12	286	1522	1523	S	290	,	,	,	,	O	punct	O	-1	O
+0	12	287	1524	1531		290	however	however	however	RB	O	advmod	O	-1	O
+0	12	288	1531	1532	S	290	,	,	,	,	O	punct	O	-1	O
+0	12	289	1533	1538	S	290	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	12	290	1539	1545	S	-1	blurts	blurts	blurt	VBZ	O	null	O	-1	B-verb.communication
+0	12	291	1546	1549	S	290	out	out	out	RP	O	prt	O	-1	O
+0	12	292	1550	1551		290	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	12	293	1551	1553		290	no	no	no	DT	O	dobj	I-QUOTE	-1	O
+0	12	294	1553	1554		290	.	.	.	.	O	punct	I-QUOTE	-1	O
+0	12	295	1554	1555	S	290	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	13	296	1556	1560	S	299	When	When	when	WRB	O	advmod	O	-1	O
+0	13	297	1561	1564	S	298	The	The	the	DT	O	det	O	-1	O
+0	13	298	1565	1571	S	299	Goober	Goober	Goober	NNP	O	nsubj	O	-1	O
+0	13	299	1572	1576	S	308	asks	asks	ask	VBZ	O	dep	O	-1	B-verb.communication
+0	13	300	1577	1582	S	299	Jerry	Jerry	Jerry	NNP	PERSON	dobj	O	2	B-noun.person
+0	13	301	1583	1586	S	303	why	why	why	WRB	O	advmod	O	-1	O
+0	13	302	1587	1589	S	303	he	he	he	PRP	O	nsubj	O	2	O
+0	13	303	1590	1597		299	refused	refused	refuse	VBD	O	advcl	O	-1	B-verb.communication
+0	13	304	1597	1598	S	308	,	,	,	,	O	punct	O	-1	O
+0	13	305	1599	1604	S	308	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	13	306	1605	1609	S	308	does	does	do	VBZ	O	aux	O	-1	O
+0	13	307	1610	1613	S	308	not	not	not	RB	O	neg	O	-1	O
+0	13	308	1614	1618	S	-1	have	have	have	VB	O	null	O	-1	B-verb.possession
+0	13	309	1619	1621	S	310	an	an	a	DT	O	det	O	-1	O
+0	13	310	1622	1628		308	answer	answer	answer	NN	O	dobj	O	-1	B-noun.communication
+0	13	311	1628	1629	S	308	.	.	.	.	O	punct	O	-1	O
+0	14	312	1630	1632	S	314	He	He	he	PRP	O	nsubj	O	2	O
+0	14	313	1633	1635	S	314	is	is	be	VBZ	O	aux	O	-1	O
+0	14	314	1636	1645	S	-1	rebelling	rebelling	rebel	VBG	O	null	O	-1	B-verb.social
+0	14	315	1646	1653	S	314	against	against	against	IN	O	prep	O	-1	O
+0	14	316	1654	1657	S	317	The	The	the	DT	O	det	O	-1	O
+0	14	317	1658	1664	S	315	Vigils	Vigils	Vigils	NNPS	O	pobj	O	-1	O
+0	14	318	1665	1668	S	317	and	and	and	CC	O	cc	O	-1	O
+0	14	319	1669	1676	S	320	Brother	Brother	Brother	NNP	O	nn	O	-1	B-noun.person
+0	14	320	1677	1681		317	Leon	Leon	Leon	NNP	PERSON	conj	O	1	I-noun.person
+0	14	321	1681	1682	S	314	.	.	.	.	O	punct	O	-1	O
+0	15	322	1683	1691	S	330	Inspired	Inspired	inspire	VBN	O	mark	O	-1	B-verb.emotion
+0	15	323	1692	1694	S	322	by	by	by	IN	O	prep	O	-1	O
+0	15	324	1695	1698	S	325	the	the	the	DT	O	det	O	-1	O
+0	15	325	1699	1705	S	323	poster	poster	poster	NN	O	pobj	O	-1	B-noun.communication
+0	15	326	1706	1708	S	325	in	in	in	IN	O	prep	O	-1	O
+0	15	327	1709	1712	S	328	his	his	he	PRP$	O	poss	O	1	O
+0	15	328	1713	1719	S	326	locker	locker	locker	NN	O	pobj	O	-1	B-noun.artifact
+0	15	329	1720	1724	S	330	that	that	that	IN	O	nsubj	O	-1	O
+0	15	330	1725	1730		-1	reads	reads	read	VBZ	O	null	O	-1	B-verb.stative
+0	15	331	1730	1731	S	330	:	:	:	:	O	punct	O	-1	O
+0	15	332	1732	1733		330	"	``	``	``	O	punct	B-QUOTE	-1	O
+0	15	333	1733	1735	S	335	Do	Do	do	VBP	O	aux	I-QUOTE	-1	O
+0	15	334	1736	1737	S	335	I	I	I	PRP	O	nsubj	I-QUOTE	-1	O
+0	15	335	1738	1742	S	330	dare	dare	dare	VB	O	dep	I-QUOTE	-1	B-verb.social
+0	15	336	1743	1750	S	335	disturb	disturb	disturb	VB	O	dep	I-QUOTE	-1	B-verb.emotion
+0	15	337	1751	1754	S	338	the	the	the	DT	O	det	I-QUOTE	-1	O
+0	15	338	1755	1763		336	universe	universe	universe	NN	O	dobj	I-QUOTE	-1	B-noun.object
+0	15	339	1763	1764		335	?	?	?	.	O	punct	I-QUOTE	-1	O
+0	15	340	1764	1765	S	335	"	''	''	''	O	punct	I-QUOTE	-1	O
+0	15	341	1766	1769	S	335	and	and	and	CC	O	cc	O	-1	O
+0	15	342	1770	1775	S	343	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	15	343	1776	1783	S	335	decides	decides	decide	VBZ	O	conj	O	-1	B-verb.cognition
+0	15	344	1784	1788	S	346	that	that	that	IN	O	complm	O	-1	O
+0	15	345	1789	1793	S	346	that	that	that	DT	O	nsubj	O	-1	O
+0	15	346	1794	1796	S	343	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	15	347	1797	1806	S	346	precisely	precisely	precisely	RB	O	advmod	O	-1	O
+0	15	348	1807	1811	S	351	what	what	what	WP	O	dobj	O	-1	O
+0	15	349	1812	1814	S	351	he	he	he	PRP	O	nsubj	O	2	O
+0	15	350	1815	1819	S	351	will	will	will	MD	O	aux	O	-1	O
+0	15	351	1820	1822		346	do	do	do	VB	O	ccomp	O	-1	O
+0	15	352	1822	1823	S	330	.	.	.	.	O	punct	O	-1	O
+0	16	353	1824	1827	S	354	The	The	the	DT	O	det	O	-1	O
+0	16	354	1828	1834	S	355	Vigils	Vigils	Vigils	NNPS	MISC	nsubj	O	-1	O
+0	16	355	1835	1843	S	-1	consider	consider	consider	VBP	O	null	O	-1	B-verb.communication
+0	16	356	1844	1849		358	Jerry	Jerry	Jerry	NNP	PERSON	poss	O	2	B-noun.person
+0	16	357	1849	1851	S	356	's	's	's	POS	O	possessive	O	-1	O
+0	16	358	1852	1859	S	355	refusal	refusal	refusal	NN	O	dobj	O	-1	B-noun.communication
+0	16	359	1860	1862	S	360	to	to	to	TO	O	aux	O	-1	O
+0	16	360	1863	1867	S	358	sell	sell	sell	VB	O	infmod	O	-1	B-verb.possession
+0	16	361	1868	1869	S	362	a	a	a	DT	O	det	O	-1	O
+0	16	362	1870	1878	S	360	defiance	defiance	defiance	NN	O	dobj	O	-1	B-noun.attribute
+0	16	363	1879	1881	S	362	of	of	of	IN	O	prep	O	-1	O
+0	16	364	1882	1887	S	365	their	their	they	PRP$	O	poss	O	-1	O
+0	16	365	1888	1898		363	assignment	assignment	assignment	NN	O	pobj	O	-1	B-noun.communication
+0	16	366	1898	1899	S	355	.	.	.	.	O	punct	O	-1	O
+0	17	367	1900	1904	S	368	They	They	they	PRP	O	nsubj	O	-1	O
+0	17	368	1905	1909	S	-1	call	call	call	VBP	O	null	O	-1	B-verb.communication
+0	17	369	1910	1915	S	368	Jerry	Jerry	Jerry	NNP	PERSON	dobj	O	2	B-noun.person
+0	17	370	1916	1920	S	368	into	into	into	IN	O	prep	O	-1	O
+0	17	371	1921	1922	S	372	a	a	a	DT	O	det	O	-1	O
+0	17	372	1923	1930	S	370	meeting	meeting	meeting	NN	O	pobj	O	-1	B-noun.group
+0	17	373	1931	1934	S	368	and	and	and	CC	O	cc	O	-1	O
+0	17	374	1935	1938	S	375	ask	ask	ask	VB	O	dep	O	-1	B-verb.communication
+0	17	375	1939	1942	S	368	him	him	he	PRP	O	conj	O	2	O
+0	17	376	1943	1945	S	377	to	to	to	TO	O	aux	O	-1	O
+0	17	377	1946	1950	S	375	sell	sell	sell	VB	O	xcomp	O	-1	B-verb.possession
+0	17	378	1951	1954	S	379	the	the	the	DT	O	det	O	-1	O
+0	17	379	1955	1965	S	377	chocolates	chocolates	chocolate	NNS	O	iobj	O	-1	B-noun.food
+0	17	380	1966	1969	S	382	the	the	the	DT	DATE	det	O	-1	O
+0	17	381	1970	1974	S	382	next	next	next	JJ	DATE	amod	O	-1	O
+0	17	382	1975	1978		377	day	day	day	NN	DATE	dobj	O	-1	B-noun.time
+0	17	383	1978	1979	S	368	.	.	.	.	O	punct	O	-1	O
+0	18	384	1980	1983	S	386	The	The	the	DT	DATE	det	O	-1	O
+0	18	385	1984	1988	S	386	next	next	next	JJ	DATE	amod	O	-1	O
+0	18	386	1989	1992		390	day	day	day	NN	DATE	nsubj	O	-1	B-noun.time
+0	18	387	1992	1993	S	390	,	,	,	,	O	punct	O	-1	O
+0	18	388	1994	1999	S	390	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	18	389	2000	2005	S	390	still	still	still	RB	O	advmod	O	-1	O
+0	18	390	2006	2013		-1	refuses	refuses	refuse	VBZ	O	null	O	-1	B-verb.stative
+0	18	391	2013	2014	S	390	.	.	.	.	O	punct	O	-1	O
+0	19	392	2015	2019		395	Soon	Soon	soon	RB	O	advmod	O	-1	O
+0	19	393	2019	2020	S	395	,	,	,	,	O	punct	O	-1	O
+0	19	394	2021	2023	S	395	he	he	he	PRP	O	nsubj	O	2	O
+0	19	395	2024	2026	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	19	396	2027	2035	S	395	somewhat	somewhat	somewhat	RB	O	advmod	O	-1	O
+0	19	397	2036	2038	S	395	of	of	of	IN	O	prep	O	-1	O
+0	19	398	2039	2040	S	399	a	a	a	DT	O	det	O	-1	O
+0	19	399	2041	2045	S	397	hero	hero	hero	NN	O	pobj	O	-1	B-noun.person
+0	19	400	2046	2048	S	395	in	in	in	IN	O	prep	O	-1	O
+0	19	401	2049	2055	S	400	school	school	school	NN	O	pobj	O	-1	B-noun.group
+0	19	402	2056	2058	S	405	as	as	as	IN	O	mark	O	-1	O
+0	19	403	2059	2064	S	404	other	other	other	JJ	O	amod	O	-1	O
+0	19	404	2065	2073	S	405	students	students	student	NNS	O	nsubj	O	-1	B-noun.person
+0	19	405	2074	2082	S	395	consider	consider	consider	VBP	O	advcl	O	-1	B-verb.cognition
+0	19	406	2083	2091	S	405	refusing	refusing	refuse	VBG	O	xcomp	O	-1	B-verb.communication
+0	19	407	2092	2094	S	408	to	to	to	TO	O	aux	O	-1	O
+0	19	408	2095	2099	S	406	sell	sell	sell	VB	O	xcomp	O	-1	B-verb.possession
+0	19	409	2100	2105	S	410	their	their	they	PRP$	O	poss	O	-1	O
+0	19	410	2106	2116	S	408	chocolates	chocolates	chocolate	NNS	O	dobj	O	-1	B-noun.food
+0	19	411	2117	2120		408	too	too	too	RB	O	advmod	O	-1	O
+0	19	412	2120	2121	S	395	.	.	.	.	O	punct	O	-1	O
+0	20	413	2122	2125	S	415	The	The	the	DT	O	det	O	-1	O
+0	20	414	2126	2131	S	415	sales	sales	sale	NNS	O	nn	O	-1	B-noun.act
+0	20	415	2132	2139	S	416	figures	figures	figure	NNS	O	nsubj	O	-1	B-noun.artifact
+0	20	416	2140	2143		-1	dip	dip	dip	VBP	O	null	O	-1	O
+0	20	417	2143	2144	S	416	,	,	,	,	O	punct	O	-1	O
+0	20	418	2145	2148	S	416	and	and	and	CC	O	cc	O	-1	O
+0	20	419	2149	2156	S	420	Brother	Brother	Brother	NNP	O	nn	O	-1	B-noun.person
+0	20	420	2157	2161	S	421	Leon	Leon	Leon	NNP	PERSON	nsubj	O	1	I-noun.person
+0	20	421	2162	2166	S	416	gets	gets	get	VBZ	O	conj	O	-1	B-verb.change
+0	20	422	2167	2172		421	upset	upset	upset	JJ	O	dobj	O	-1	O
+0	20	423	2172	2173	S	416	.	.	.	.	O	punct	O	-1	O
+0	21	424	2174	2177	S	426	The	The	the	DT	O	det	O	-1	O
+0	21	425	2178	2184	S	426	school	school	school	NN	O	nn	O	-1	B-noun.group
+0	21	426	2185	2194	S	427	treasurer	treasurer	treasurer	NN	O	nsubj	O	-1	B-noun.person
+0	21	427	2195	2204	S	-1	overhears	overhears	overhear	VBZ	O	null	O	-1	B-verb.perception
+0	21	428	2205	2208	S	429	him	him	he	PRP	O	nsubj	O	1	O
+0	21	429	2209	2216	S	427	telling	telling	tell	VBG	O	xcomp	O	-1	B-verb.communication
+0	21	430	2217	2224	S	431	another	another	another	DT	O	det	O	-1	O
+0	21	431	2225	2232	S	429	teacher	teacher	teacher	NN	O	dobj	O	-1	B-noun.person
+0	21	432	2233	2237	S	434	that	that	that	IN	O	complm	O	-1	O
+0	21	433	2238	2240	S	434	he	he	he	PRP	O	nsubj	O	1	O
+0	21	434	2241	2246	S	429	spent	spent	spend	VBD	O	ccomp	O	-1	B-verb.stative
+0	21	435	2247	2259	S	436	unauthorized	unauthorized	unauthorized	JJ	O	amod	O	-1	O
+0	21	436	2260	2265	S	434	money	money	money	NN	O	dobj	O	-1	B-noun.possession
+0	21	437	2266	2268	S	438	to	to	to	TO	O	aux	O	-1	O
+0	21	438	2269	2272	S	434	buy	buy	buy	VB	O	xcomp	O	-1	B-verb.possession
+0	21	439	2273	2276	S	440	the	the	the	DT	O	det	O	-1	O
+0	21	440	2277	2287	S	438	chocolates	chocolates	chocolate	NNS	O	dobj	O	-1	B-noun.food
+0	21	441	2288	2291	S	434	and	and	and	CC	O	cc	O	-1	O
+0	21	442	2292	2296	S	444	that	that	that	IN	O	complm	O	-1	O
+0	21	443	2297	2299	S	444	to	to	to	TO	O	aux	O	-1	O
+0	21	444	2300	2305	S	434	break	break	break	VB	O	conj	O	-1	B-verb.possession
+0	21	445	2306	2310	S	447	even	even	even	RB	O	advmod	O	-1	O
+0	21	446	2311	2313	S	447	he	he	he	PRP	O	nsubj	O	1	O
+0	21	447	2314	2317	S	444	has	has	have	VBZ	O	ccomp	O	-1	O
+0	21	448	2318	2320	S	449	to	to	to	TO	O	aux	O	-1	O
+0	21	449	2321	2325	S	447	sell	sell	sell	VB	O	xcomp	O	-1	B-verb.possession
+0	21	450	2326	2330	S	449	them	them	they	PRP	O	dobj	O	-1	O
+0	21	451	2331	2334		450	all	all	all	DT	O	dep	O	-1	O
+0	21	452	2334	2335	S	427	.	.	.	.	O	punct	O	-1	O
+0	22	453	2336	2342	S	457	Archie	Archie	Archie	NNP	PERSON	nsubj	O	0	B-noun.person
+0	22	454	2343	2346	S	453	and	and	and	CC	O	cc	O	-1	O
+0	22	455	2347	2354	S	456	Brother	Brother	Brother	NNP	O	nn	O	-1	B-noun.person
+0	22	456	2355	2359	S	453	Leon	Leon	Leon	NNP	PERSON	conj	O	1	I-noun.person
+0	22	457	2360	2364	S	-1	have	have	have	VBP	O	null	O	-1	B-verb.possession
+0	22	458	2365	2366	S	459	a	a	a	DT	O	det	O	-1	O
+0	22	459	2367	2374	S	457	meeting	meeting	meeting	NN	O	dobj	O	-1	B-noun.group
+0	22	460	2375	2377	S	464	in	in	in	IN	O	rel	O	-1	O
+0	22	461	2378	2383	S	460	which	which	which	WDT	O	pobj	O	-1	O
+0	22	462	2384	2391	S	463	Brother	Brother	Brother	NNP	O	nn	O	-1	B-noun.person
+0	22	463	2392	2396	S	464	Leon	Leon	Leon	NNP	PERSON	nsubj	O	1	I-noun.person
+0	22	464	2397	2404	S	459	accuses	accuses	accuse	VBZ	O	rcmod	O	-1	B-verb.communication
+0	22	465	2405	2408	S	464	him	him	he	PRP	O	dobj	O	1	O
+0	22	466	2409	2411	S	464	of	of	of	IN	O	prep	O	-1	O
+0	22	467	2412	2422	S	466	sabotaging	sabotaging	sabotage	VBG	O	pcomp	O	-1	B-verb.social
+0	22	468	2423	2426	S	469	the	the	the	DT	O	det	O	-1	O
+0	22	469	2427	2431	S	467	sale	sale	sale	NN	O	dobj	O	-1	B-noun.act
+0	22	470	2432	2434	S	467	by	by	by	IN	O	prep	O	-1	O
+0	22	471	2435	2443	S	470	creating	creating	create	VBG	O	pcomp	O	-1	B-verb.creation
+0	22	472	2444	2449		474	Jerry	Jerry	Jerry	NNP	PERSON	poss	O	2	B-noun.person
+0	22	473	2449	2451	S	472	's	's	's	POS	O	possessive	O	-1	O
+0	22	474	2452	2462		471	assignment	assignment	assignment	NN	O	dobj	O	-1	B-noun.communication
+0	22	475	2462	2463	S	457	.	.	.	.	O	punct	O	-1	O
+0	23	476	2464	2470	S	477	Archie	Archie	Archie	NNP	PERSON	nsubj	O	0	B-noun.person
+0	23	477	2471	2478	S	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	23	478	2479	2483	S	484	that	that	that	IN	O	complm	O	-1	O
+0	23	479	2484	2487	S	481	the	the	the	DT	O	det	O	-1	O
+0	23	480	2488	2492	S	481	best	best	best	JJS	O	amod	O	-1	O
+0	23	481	2493	2498	S	484	thing	thing	thing	NN	O	nsubj	O	-1	B-noun.state
+0	23	482	2499	2501	S	483	to	to	to	TO	O	aux	O	-1	O
+0	23	483	2502	2504	S	481	do	do	do	VB	O	infmod	O	-1	B-verb.social
+0	23	484	2505	2507	S	477	is	is	be	VBZ	O	ccomp	O	-1	B-verb.stative
+0	23	485	2508	2510	S	486	to	to	to	TO	O	aux	O	-1	O
+0	23	486	2511	2515	S	484	make	make	make	VB	O	xcomp	O	-1	B-verb.social
+0	23	487	2516	2519	S	488	the	the	the	DT	O	det	O	-1	O
+0	23	488	2520	2524	S	489	sale	sale	sale	NN	O	nsubj	O	-1	B-noun.act
+0	23	489	2525	2532	S	486	popular	popular	popular	JJ	O	xcomp	O	-1	O
+0	23	490	2533	2536	S	486	and	and	and	CC	O	cc	O	-1	O
+0	23	491	2537	2541	S	486	make	make	make	VB	O	conj	O	-1	B-verb.social
+0	23	492	2542	2547	S	494	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	23	493	2548	2550	S	494	an	an	a	DT	O	det	O	-1	O
+0	23	494	2551	2558		491	outcast	outcast	outcast	NN	O	xcomp	O	-1	B-noun.person
+0	23	495	2558	2559	S	477	.	.	.	.	O	punct	O	-1	O
+0	24	496	2560	2564		501	Soon	Soon	soon	RB	O	advmod	O	-1	O
+0	24	497	2564	2565	S	501	,	,	,	,	O	punct	O	-1	O
+0	24	498	2566	2569	S	499	the	the	the	DT	O	det	O	-1	O
+0	24	499	2570	2580	S	501	chocolates	chocolates	chocolate	NNS	O	nsubj	O	-1	B-noun.food
+0	24	500	2581	2584	S	501	are	are	be	VBP	O	aux	O	-1	O
+0	24	501	2585	2592	S	-1	selling	selling	sell	VBG	O	null	O	-1	B-verb.possession
+0	24	502	2593	2597	S	501	like	like	like	IN	O	prep	O	-1	O
+0	24	503	2598	2606		502	hotcakes	hotcakes	hotcake	NNS	O	pobj	O	-1	B-noun.food
+0	24	504	2606	2607	S	501	,	,	,	,	O	punct	O	-1	O
+0	24	505	2608	2611	S	501	and	and	and	CC	O	cc	O	-1	O
+0	24	506	2612	2616	S	514	boys	boys	boy	NNS	O	nsubj	O	-1	B-noun.person
+0	24	507	2617	2620	S	509	who	who	who	WP	O	nsubj	O	-1	O
+0	24	508	2621	2627	S	509	really	really	really	RB	O	advmod	O	-1	O
+0	24	509	2628	2632	S	506	have	have	have	VBP	O	rcmod	O	-1	B-verb.possession
+0	24	510	2633	2635	S	512	no	no	no	DT	O	det	O	-1	O
+0	24	511	2636	2640	S	512	sold	sold	sell	VBN	O	amod	O	-1	B-verb.possession
+0	24	512	2641	2646	S	509	boxes	boxes	box	NNS	O	dobj	O	-1	B-noun.artifact
+0	24	513	2647	2650	S	514	are	are	be	VBP	O	aux	O	-1	O
+0	24	514	2651	2658	S	501	getting	getting	get	VBG	O	conj	O	-1	B-verb.possession
+0	24	515	2659	2666	S	514	tallies	tallies	tally	NNS	O	dobj	O	-1	B-noun.act
+0	24	516	2667	2669	S	514	as	as	as	IN	O	prep	O	-1	O
+0	24	517	2670	2672	S	519	if	if	if	IN	O	mark	O	-1	O
+0	24	518	2673	2677	S	519	they	they	they	PRP	O	nsubj	O	-1	O
+0	24	519	2678	2682		516	have	have	have	VBP	O	pcomp	O	-1	O
+0	24	520	2682	2683	S	501	.	.	.	.	O	punct	O	-1	O
+0	25	521	2684	2686	S	523	It	It	it	PRP	O	nsubj	O	-1	O
+0	25	522	2687	2689	S	523	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	25	523	2690	2697	S	-1	obvious	obvious	obvious	JJ	O	null	O	-1	O
+0	25	524	2698	2702	S	528	that	that	that	IN	O	complm	O	-1	O
+0	25	525	2703	2706	S	526	The	The	the	DT	O	det	O	-1	O
+0	25	526	2707	2713	S	528	Vigils	Vigils	vigil	NNS	O	nsubj	O	-1	B-noun.cognition
+0	25	527	2714	2717	S	528	are	are	be	VBP	O	aux	O	-1	O
+0	25	528	2718	2725	S	523	selling	selling	sell	VBG	O	ccomp	O	-1	B-verb.possession
+0	25	529	2726	2729	S	531	all	all	all	PDT	O	predet	O	-1	O
+0	25	530	2730	2733	S	531	the	the	the	DT	O	det	O	-1	O
+0	25	531	2734	2744		528	chocolates	chocolates	chocolate	NNS	O	dobj	O	-1	B-noun.food
+0	25	532	2744	2745	S	523	.	.	.	.	O	punct	O	-1	O
+0	26	533	2746	2755		537	Meanwhile	Meanwhile	meanwhile	RB	O	advmod	O	-1	O
+0	26	534	2755	2756	S	537	,	,	,	,	O	punct	O	-1	O
+0	26	535	2757	2762	S	537	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	26	536	2763	2768	S	537	still	still	still	RB	O	advmod	O	-1	O
+0	26	537	2769	2776	S	-1	refuses	refuses	refuse	VBZ	O	null	O	-1	B-verb.stative
+0	26	538	2777	2780	S	537	and	and	and	CC	O	cc	O	-1	O
+0	26	539	2781	2784	S	540	The	The	the	DT	O	det	O	-1	O
+0	26	540	2785	2791	S	542	Vigils	Vigils	vigil	NNS	O	nsubj	O	-1	B-noun.cognition
+0	26	541	2792	2795	S	542	are	are	be	VBP	O	aux	O	-1	O
+0	26	542	2796	2802	S	537	making	making	make	VBG	O	conj	O	-1	B-verb.social
+0	26	543	2803	2806	S	545	his	his	he	PRP$	O	poss	O	2	O
+0	26	544	2807	2811	S	545	life	life	life	NN	O	nn	O	-1	B-noun.state
+0	26	545	2812	2816		542	hell	hell	hell	NN	O	dobj	O	-1	O
+0	26	546	2816	2817	S	537	.	.	.	.	O	punct	O	-1	O
+0	27	547	2818	2822	S	549	They	They	they	PRP	O	nsubj	O	-1	O
+0	27	548	2823	2826	S	549	are	are	be	VBP	O	aux	O	-1	O
+0	27	549	2827	2834	S	-1	calling	calling	call	VBG	O	null	O	-1	B-verb.communication
+0	27	550	2835	2838	S	549	him	him	he	PRP	O	dobj	O	2	O
+0	27	551	2839	2841	S	549	at	at	at	IN	O	prep	O	-1	O
+0	27	552	2842	2845	S	553	all	all	all	DT	O	det	O	-1	O
+0	27	553	2846	2851	S	551	hours	hours	hour	NNS	DATE	pobj	O	-1	B-noun.time
+0	27	554	2852	2854	S	553	of	of	of	IN	DATE	prep	O	-1	O
+0	27	555	2855	2858	S	556	the	the	the	DT	TIME	det	O	-1	O
+0	27	556	2859	2862	S	554	day	day	day	NN	TIME	pobj	O	-1	B-noun.time
+0	27	557	2863	2866	S	556	and	and	and	CC	TIME	cc	O	-1	O
+0	27	558	2867	2872		556	night	night	night	NN	TIME	conj	O	-1	B-noun.time
+0	27	559	2872	2873	S	549	,	,	,	,	O	punct	O	-1	O
+0	27	560	2874	2877	S	549	and	and	and	CC	O	cc	O	-1	O
+0	27	561	2878	2882	S	549	then	then	then	RB	O	advmod	O	-1	O
+0	27	562	2883	2890	S	549	hanging	hanging	hang	VBG	O	dep	O	-1	B-verb.contact
+0	27	563	2891	2893		562	up	up	up	RP	O	prt	O	-1	O
+0	27	564	2893	2894	S	549	.	.	.	.	O	punct	O	-1	O
+0	28	565	2895	2899	S	567	They	They	they	PRP	O	nsubj	O	-1	O
+0	28	566	2900	2903	S	567	are	are	be	VBP	O	aux	O	-1	O
+0	28	567	2904	2911	S	-1	swiping	swiping	swipe	VBG	O	null	O	-1	B-verb.contact
+0	28	568	2912	2915	S	570	his	his	he	PRP$	O	poss	O	2	O
+0	28	569	2916	2924	S	570	homework	homework	homework	NN	O	nn	O	-1	B-noun.act
+0	28	570	2925	2936		567	assignments	assignments	assignment	NNS	O	dobj	O	-1	B-noun.act
+0	28	571	2936	2937	S	567	,	,	,	,	O	punct	O	-1	O
+0	28	572	2938	2941	S	567	and	and	and	CC	O	cc	O	-1	O
+0	28	573	2942	2950	S	567	trashing	trashing	trash	VBG	O	conj	O	-1	B-verb.possession
+0	28	574	2951	2954	S	575	his	his	he	PRP$	O	poss	O	2	O
+0	28	575	2955	2961		573	locker	locker	locker	NN	O	dobj	O	-1	B-noun.artifact
+0	28	576	2961	2962	S	567	.	.	.	.	O	punct	O	-1	O
+0	29	577	2963	2965	S	580	He	He	he	PRP	O	nsubj	O	2	O
+0	29	578	2966	2970	S	579	even	even	even	RB	O	advmod	O	-1	O
+0	29	579	2971	2975	S	580	gets	gets	get	VBZ	O	dep	O	-1	O
+0	29	580	2976	2980	S	-1	beat	beat	beat	VB	O	null	O	-1	B-verb.contact
+0	29	581	2981	2983	S	580	up	up	up	RP	O	prt	O	-1	O
+0	29	582	2984	2986	S	580	by	by	by	IN	O	prep	O	-1	O
+0	29	583	2987	2988	S	584	a	a	a	DT	O	det	O	-1	O
+0	29	584	2989	2993	S	582	gang	gang	gang	NN	O	pobj	O	-1	B-noun.group
+0	29	585	2994	2996	S	584	of	of	of	IN	O	prep	O	-1	O
+0	29	586	2997	3001	S	585	kids	kids	kid	NNS	O	pobj	O	-1	B-noun.person
+0	29	587	3002	3007	S	580	after	after	after	IN	O	prep	O	-1	O
+0	29	588	3008	3016	S	589	football	football	football	NN	O	nn	O	-1	B-noun.act
+0	29	589	3017	3025		587	practice	practice	practice	NN	O	pobj	O	-1	B-noun.act
+0	29	590	3025	3026	S	580	.	.	.	.	O	punct	O	-1	O
+0	30	591	3027	3034		602	Finally	Finally	finally	RB	O	advmod	O	-1	O
+0	30	592	3034	3035	S	602	,	,	,	,	O	punct	O	-1	O
+0	30	593	3036	3039	S	602	all	all	all	DT	O	nsubjpass	O	-1	O
+0	30	594	3040	3042	S	593	of	of	of	IN	O	prep	O	-1	O
+0	30	595	3043	3046	S	596	the	the	the	DT	O	det	O	-1	O
+0	30	596	3047	3057	S	594	chocolates	chocolates	chocolate	NNS	O	pobj	O	-1	B-noun.food
+0	30	597	3058	3064	S	593	except	except	except	IN	O	prep	O	-1	O
+0	30	598	3065	3070		597	Jerry	Jerry	Jerry	NNP	PERSON	pobj	O	2	B-noun.person
+0	30	599	3070	3072	S	598	's	's	's	POS	O	possessive	O	-1	O
+0	30	600	3073	3077	S	602	have	have	have	VBP	O	aux	O	-1	O
+0	30	601	3078	3082	S	602	been	been	be	VBN	O	auxpass	O	-1	O
+0	30	602	3083	3087		-1	sold	sold	sell	VBN	O	null	O	-1	B-verb.possession
+0	30	603	3087	3088	S	602	.	.	.	.	O	punct	O	-1	O
+0	31	604	3089	3095	S	605	Archie	Archie	Archie	NNP	PERSON	nsubj	O	0	B-noun.person
+0	31	605	3096	3101	S	-1	wants	wants	want	VBZ	O	null	O	-1	B-verb.emotion
+0	31	606	3102	3104	S	607	to	to	to	TO	O	aux	O	-1	O
+0	31	607	3105	3108	S	605	get	get	get	VB	O	xcomp	O	-1	B-verb.competition
+0	31	608	3109	3113	S	607	back	back	back	RB	O	advmod	O	-1	O
+0	31	609	3114	3116	S	607	at	at	at	IN	O	prep	O	-1	O
+0	31	610	3117	3122	S	609	Jerry	Jerry	Jerry	NNP	PERSON	pobj	O	2	B-noun.person
+0	31	611	3123	3126	S	607	and	and	and	CC	O	cc	O	-1	O
+0	31	612	3127	3130	S	607	get	get	get	VB	O	conj	O	-1	B-verb.possession
+0	31	613	3131	3140	S	612	something	something	something	NN	O	dobj	O	-1	O
+0	31	614	3141	3144	S	612	out	out	out	IN	O	prep	O	-1	O
+0	31	615	3145	3147	S	614	of	of	of	IN	O	dep	O	-1	O
+0	31	616	3148	3151	S	618	all	all	all	PDT	O	predet	O	-1	O
+0	31	617	3152	3155	S	618	the	the	the	DT	O	det	O	-1	O
+0	31	618	3156	3160	S	615	work	work	work	NN	O	pobj	O	-1	B-noun.artifact
+0	31	619	3161	3163	S	620	he	he	he	PRP	O	nsubj	O	2	O
+0	31	620	3164	3167	S	618	put	put	put	VBD	O	rcmod	O	-1	B-verb.contact
+0	31	621	3168	3172	S	620	into	into	into	IN	O	prep	O	-1	O
+0	31	622	3173	3176	S	624	the	the	the	DT	O	det	O	-1	O
+0	31	623	3177	3186	S	624	chocolate	chocolate	chocolate	NN	O	nn	O	-1	B-noun.food
+0	31	624	3187	3191		621	sale	sale	sale	NN	O	pobj	O	-1	B-noun.act
+0	31	625	3191	3192	S	605	.	.	.	.	O	punct	O	-1	O
+0	32	626	3193	3195	S	627	He	He	he	PRP	O	nsubj	O	2	O
+0	32	627	3196	3205	S	-1	schedules	schedules	schedule	NNS	O	null	O	-1	B-noun.cognition
+0	32	628	3206	3207	S	630	a	a	a	DT	O	det	O	-1	O
+0	32	629	3208	3220	S	630	student-only	student-only	student-only	JJ	O	amod	O	-1	O
+0	32	630	3221	3229	S	627	assembly	assembly	assembly	NN	O	dobj	O	-1	B-noun.artifact
+0	32	631	3230	3232	S	632	to	to	to	TO	O	aux	O	-1	O
+0	32	632	3233	3239	S	630	raffle	raffle	raffle	VB	O	infmod	O	-1	B-verb.possession
+0	32	633	3240	3243	S	632	off	off	off	RP	O	prt	O	-1	O
+0	32	634	3244	3247	S	635	the	the	the	DT	O	det	O	-1	O
+0	32	635	3248	3255		632	tickets	tickets	ticket	NNS	O	dobj	O	-1	B-noun.communication
+0	32	636	3255	3256	S	627	.	.	.	.	O	punct	O	-1	O
+0	33	637	3257	3260	S	638	The	The	the	DT	O	det	O	-1	O
+0	33	638	3261	3267	S	642	raffle	raffle	raffle	NN	O	nsubj	O	-1	B-noun.act
+0	33	639	3268	3270	S	642	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	33	640	3271	3272	S	642	a	a	a	DT	O	det	O	-1	O
+0	33	641	3273	3280	S	642	special	special	special	JJ	O	amod	O	-1	O
+0	33	642	3281	3284		-1	one	one	one	CD	NUMBER	null	O	-1	O
+0	33	643	3284	3285	S	642	,	,	,	,	O	punct	O	-1	O
+0	33	644	3286	3293		642	however	however	however	RB	O	advmod	O	-1	O
+0	33	645	3293	3294	S	642	,	,	,	,	O	punct	O	-1	O
+0	33	646	3295	3300	S	647	which	which	which	WDT	O	nsubj	O	-1	O
+0	33	647	3301	3305	S	642	pits	pits	pit	VBZ	O	rcmod	O	-1	B-verb.competition
+0	33	648	3306	3311	S	647	Jerry	Jerry	Jerry	NNP	PERSON	dobj	O	2	B-noun.person
+0	33	649	3312	3319	S	647	against	against	against	IN	O	prep	O	-1	O
+0	33	650	3320	3326	S	653	school	school	school	NN	O	nn	O	-1	B-noun.group
+0	33	651	3327	3331	S	653	thug	thug	thug	NN	O	nn	O	-1	B-noun.person
+0	33	652	3332	3337	S	653	Emile	Emile	Emile	NNP	PERSON	nn	O	-1	B-noun.person
+0	33	653	3338	3343		649	Janza	Janza	Janza	NNP	PERSON	pobj	O	-1	I-noun.person
+0	33	654	3343	3344	S	642	.	.	.	.	O	punct	O	-1	O
+0	34	655	3345	3348	S	656	The	The	the	DT	O	det	O	-1	O
+0	34	656	3349	3357	S	661	students	students	student	NNS	O	nsubj	O	-1	B-noun.person
+0	34	657	3358	3361	S	658	who	who	who	WP	O	nsubj	O	-1	O
+0	34	658	3362	3365	S	656	buy	buy	buy	VBP	O	rcmod	O	-1	B-verb.possession
+0	34	659	3366	3372	S	660	raffle	raffle	raffle	NN	O	nn	O	-1	B-noun.act
+0	34	660	3373	3380	S	658	tickets	tickets	ticket	NNS	O	dobj	O	-1	B-noun.communication
+0	34	661	3381	3384	S	-1	get	get	get	VBP	O	null	O	-1	B-verb.change
+0	34	662	3385	3387	S	663	to	to	to	TO	O	aux	O	-1	O
+0	34	663	3388	3393	S	661	write	write	write	VB	O	xcomp	O	-1	B-verb.creation
+0	34	664	3394	3396	S	663	on	on	on	IN	O	prep	O	-1	O
+0	34	665	3397	3401	S	664	them	them	they	PRP	O	pobj	O	-1	O
+0	34	666	3402	3403	S	668	a	a	a	DT	O	det	O	-1	O
+0	34	667	3404	3410	S	668	boxing	boxing	boxing	NN	O	nn	O	-1	B-noun.act
+0	34	668	3411	3415		663	move	move	move	NN	O	dobj	O	-1	B-noun.act
+0	34	669	3415	3416	S	661	,	,	,	,	O	punct	O	-1	O
+0	34	670	3417	3426	S	661	directing	directing	direct	VBG	O	xcomp	O	-1	B-verb.communication
+0	34	671	3427	3432	S	670	Jerry	Jerry	Jerry	NNP	PERSON	dobj	O	2	B-noun.person
+0	34	672	3433	3435	S	673	to	to	to	TO	O	aux	O	-1	O
+0	34	673	3436	3439	S	670	hit	hit	hit	VB	O	xcomp	O	-1	B-verb.contact
+0	34	674	3440	3445	S	673	Janza	Janza	Janza	NNP	O	dobj	O	-1	B-noun.person
+0	34	675	3446	3448	S	673	or	or	or	CC	O	cc	O	-1	O
+0	34	676	3449	3453	S	677	vice	vice	vice	NN	O	dep	O	-1	B-noun.attribute
+0	34	677	3454	3459		673	versa	versa	versa	RB	O	conj	O	-1	O
+0	34	678	3459	3460	S	661	,	,	,	,	O	punct	O	-1	O
+0	34	679	3461	3464	S	661	and	and	and	CC	O	cc	O	-1	O
+0	34	680	3465	3470		661	where	where	where	WRB	O	conj	O	-1	O
+0	34	681	3470	3471	S	661	.	.	.	.	O	punct	O	-1	O
+0	35	682	3472	3478	S	690	During	During	during	IN	O	prep	O	-1	O
+0	35	683	3479	3482	S	684	the	the	the	DT	O	det	O	-1	O
+0	35	684	3483	3488		682	fight	fight	fight	NN	O	pobj	O	-1	B-noun.act
+0	35	685	3488	3489	S	684	,	,	,	,	O	punct	O	-1	O
+0	35	686	3490	3495	S	684	Jerry	Jerry	Jerry	NNP	PERSON	appos	O	2	B-noun.person
+0	35	687	3496	3499	S	686	and	and	and	CC	O	cc	O	-1	O
+0	35	688	3500	3505	S	686	Janza	Janza	Janza	NNP	O	conj	O	-1	B-noun.person
+0	35	689	3506	3509	S	690	are	are	be	VBP	O	aux	O	-1	O
+0	35	690	3510	3517	S	-1	hitting	hitting	hit	VBG	O	null	O	-1	B-verb.contact
+0	35	691	3518	3522	S	692	each	each	each	DT	O	det	O	-1	O
+0	35	692	3523	3528	S	690	other	other	other	JJ	O	dobj	O	-1	O
+0	35	693	3529	3531	S	694	as	as	as	IN	O	mark	O	-1	O
+0	35	694	3532	3540		690	directed	directed	direct	VBN	O	advcl	O	-1	B-verb.communication
+0	35	695	3540	3541	S	690	.	.	.	.	O	punct	O	-1	O
+0	36	696	3542	3547	S	699	Janza	Janza	Janza	NNP	O	nsubj	O	-1	B-noun.person
+0	36	697	3548	3550	S	699	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	36	698	3551	3555	S	699	much	much	much	RB	O	advmod	O	-1	O
+0	36	699	3556	3564		-1	stronger	stronger	stronger	JJR	O	null	O	-1	O
+0	36	700	3564	3565	S	699	,	,	,	,	O	punct	O	-1	O
+0	36	701	3566	3569	S	699	and	and	and	CC	O	cc	O	-1	O
+0	36	702	3570	3573	S	703	his	his	he	PRP$	O	poss	O	2	O
+0	36	703	3574	3581	S	704	punches	punches	punch	NNS	O	nsubj	O	-1	B-noun.act
+0	36	704	3582	3586	S	699	have	have	have	VBP	O	conj	O	-1	O
+0	36	705	3587	3591	S	707	much	much	much	RB	O	advmod	O	-1	O
+0	36	706	3592	3596	S	705	more	more	more	RBR	O	advmod	O	-1	O
+0	36	707	3597	3604	S	704	staying	staying	stay	VBG	O	ccomp	O	-1	B-verb.change
+0	36	708	3605	3610	S	707	power	power	power	NN	O	dobj	O	-1	B-noun.attribute
+0	36	709	3611	3615	S	712	even	even	even	RB	O	advmod	O	-1	O
+0	36	710	3616	3622	S	712	though	though	though	IN	O	dep	O	-1	O
+0	36	711	3623	3628	S	712	Jerry	Jerry	Jerry	NNP	PERSON	nn	O	2	B-noun.person
+0	36	712	3629	3634	S	707	lands	lands	land	NNS	O	dep	O	-1	B-noun.possession
+0	36	713	3635	3636	S	715	a	a	a	DT	O	det	O	-1	O
+0	36	714	3637	3641	S	715	good	good	good	JJ	O	amod	O	-1	O
+0	36	715	3642	3645	S	712	hit	hit	hit	NN	O	dobj	O	-1	B-noun.act
+0	36	716	3646	3648	S	715	of	of	of	IN	O	prep	O	-1	O
+0	36	717	3649	3652	S	718	his	his	he	PRP$	O	poss	O	2	O
+0	36	718	3653	3656		716	own	own	own	JJ	O	pobj	O	-1	O
+0	36	719	3656	3657	S	699	.	.	.	.	O	punct	O	-1	O
+0	37	720	3658	3662		727	Then	Then	then	RB	O	advmod	O	-1	O
+0	37	721	3662	3663	S	727	,	,	,	,	O	punct	O	-1	O
+0	37	722	3664	3665	S	723	a	a	a	DT	O	det	O	-1	O
+0	37	723	3666	3672	S	727	member	member	member	NN	O	nsubj	O	-1	B-noun.person
+0	37	724	3673	3675	S	723	of	of	of	IN	O	prep	O	-1	O
+0	37	725	3676	3679	S	726	The	The	the	DT	O	det	O	-1	O
+0	37	726	3680	3686	S	724	Vigils	Vigils	Vigils	NNP	O	pobj	O	-1	O
+0	37	727	3687	3692	S	-1	draws	draws	draw	VBZ	O	null	O	-1	B-verb.contact
+0	37	728	3693	3694	S	730	a	a	a	DT	O	det	O	-1	O
+0	37	729	3695	3701	S	730	raffle	raffle	raffle	NN	O	nn	O	-1	B-noun.act
+0	37	730	3702	3708	S	727	ticket	ticket	ticket	NN	O	dobj	O	-1	B-noun.communication
+0	37	731	3709	3713	S	732	that	that	that	WDT	O	nsubj	O	-1	O
+0	37	732	3714	3719	S	730	tells	tells	tell	VBZ	O	rcmod	O	-1	B-verb.communication
+0	37	733	3720	3725	S	732	Janza	Janza	Janza	NNP	PERSON	dobj	O	3	B-noun.person
+0	37	734	3726	3728	S	735	to	to	to	TO	O	aux	O	-1	O
+0	37	735	3729	3732	S	732	hit	hit	hit	VB	O	xcomp	O	-1	B-verb.contact
+0	37	736	3733	3738	S	735	Jerry	Jerry	Jerry	NNP	PERSON	dobj	O	2	B-noun.person
+0	37	737	3739	3741	S	735	in	in	in	IN	O	prep	O	-1	O
+0	37	738	3742	3745	S	739	the	the	the	DT	O	det	O	-1	O
+0	37	739	3746	3751		737	groin	groin	groin	NN	O	pobj	O	-1	B-noun.body
+0	37	740	3751	3752	S	727	.	.	.	.	O	punct	O	-1	O
+0	38	741	3753	3758	S	742	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	38	742	3759	3765	S	-1	blocks	blocks	block	VBZ	O	null	O	-1	B-verb.contact
+0	38	743	3766	3769	S	744	the	the	the	DT	O	det	O	-1	O
+0	38	744	3770	3775		742	punch	punch	punch	NN	O	dobj	O	-1	B-noun.act
+0	38	745	3775	3776	S	742	,	,	,	,	O	punct	O	-1	O
+0	38	746	3777	3780	S	742	and	and	and	CC	O	cc	O	-1	O
+0	38	747	3781	3784	S	748	the	the	the	DT	O	det	O	-1	O
+0	38	748	3785	3792	S	749	warfare	warfare	warfare	NN	O	nsubj	O	-1	B-noun.act
+0	38	749	3793	3799		742	begins	begins	begin	VBZ	O	conj	O	-1	B-verb.change
+0	38	750	3799	3800	S	742	.	.	.	.	O	punct	O	-1	O
+0	39	751	3801	3806	S	752	Janza	Janza	Janza	NNP	PERSON	nsubj	O	3	B-noun.person
+0	39	752	3807	3814	S	-1	decides	decides	decide	VBZ	O	null	O	-1	B-verb.cognition
+0	39	753	3815	3818	S	755	not	not	not	RB	O	neg	O	-1	O
+0	39	754	3819	3821	S	755	to	to	to	TO	O	aux	O	-1	O
+0	39	755	3822	3827	S	752	abide	abide	abide	VB	O	xcomp	O	-1	B-verb.stative
+0	39	756	3828	3830	S	755	by	by	by	IN	O	prep	O	-1	O
+0	39	757	3831	3834	S	758	any	any	any	DT	O	det	O	-1	O
+0	39	758	3835	3840		756	rules	rules	rule	NNS	O	pobj	O	-1	B-noun.communication
+0	39	759	3840	3841	S	752	,	,	,	,	O	punct	O	-1	O
+0	39	760	3842	3845	S	752	and	and	and	CC	O	cc	O	-1	O
+0	39	761	3846	3853	S	762	punches	punches	punch	NNS	O	nn	O	-1	B-noun.act
+0	39	762	3854	3859	S	752	Jerry	Jerry	Jerry	NNP	PERSON	conj	O	2	B-noun.person
+0	39	763	3860	3864	S	762	over	over	over	IN	O	prep	O	-1	O
+0	39	764	3865	3868	S	763	and	and	and	CC	O	cc	O	-1	O
+0	39	765	3869	3873		763	over	over	over	IN	O	conj	O	-1	O
+0	39	766	3873	3874	S	752	.	.	.	.	O	punct	O	-1	O
+0	40	767	3875	3882		778	Finally	Finally	finally	RB	O	advmod	O	-1	O
+0	40	768	3882	3883	S	778	,	,	,	,	O	punct	O	-1	O
+0	40	769	3884	3889	S	771	after	after	after	IN	O	mark	O	-1	O
+0	40	770	3890	3895	S	771	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	40	771	3896	3905		778	collapses	collapses	collapse	VBZ	O	dep	O	-1	B-verb.motion
+0	40	772	3905	3906	S	778	,	,	,	,	O	punct	O	-1	O
+0	40	773	3907	3910	S	774	the	the	the	DT	O	det	O	-1	O
+0	40	774	3911	3917	S	778	lights	lights	light	NNS	O	nsubj	O	-1	B-noun.artifact
+0	40	775	3918	3920	S	774	in	in	in	IN	O	prep	O	-1	O
+0	40	776	3921	3924	S	777	the	the	the	DT	O	det	O	-1	O
+0	40	777	3925	3932	S	775	stadium	stadium	stadium	NN	O	pobj	O	-1	B-noun.artifact
+0	40	778	3933	3935	S	-1	go	go	go	VB	O	null	O	-1	B-verb.motion
+0	40	779	3936	3939		778	off	off	off	RB	O	advmod	O	-1	O
+0	40	780	3939	3940	S	778	.	.	.	.	O	punct	O	-1	O
+0	41	781	3941	3948	S	782	Brother	Brother	Brother	NNP	O	nn	O	-1	B-noun.person
+0	41	782	3949	3956	S	783	Jacques	Jacques	Jacques	NNP	PERSON	nsubj	O	-1	I-noun.person
+0	41	783	3957	3959	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	41	784	3960	3965		783	there	there	there	RB	O	advmod	O	-1	O
+0	41	785	3965	3966	S	783	,	,	,	,	O	punct	O	-1	O
+0	41	786	3967	3975	S	783	stopping	stopping	stop	VBG	O	xcomp	O	-1	B-verb.motion
+0	41	787	3976	3979	S	788	the	the	the	DT	O	det	O	-1	O
+0	41	788	3980	3988		786	ceremony	ceremony	ceremony	NN	O	dobj	O	-1	B-noun.event
+0	41	789	3988	3989	S	783	.	.	.	.	O	punct	O	-1	O
+0	42	790	3990	3997	S	791	Brother	Brother	Brother	NNP	O	nn	O	-1	B-noun.person
+0	42	791	3998	4002	S	792	Leon	Leon	Leon	NNP	PERSON	nsubj	O	1	I-noun.person
+0	42	792	4003	4005	S	-1	is	is	be	VBZ	O	null	O	-1	B-verb.stative
+0	42	793	4006	4010	S	792	also	also	also	RB	O	advmod	O	-1	O
+0	42	794	4011	4016		792	there	there	there	RB	O	advmod	O	-1	O
+0	42	795	4016	4017	S	792	,	,	,	,	O	punct	O	-1	O
+0	42	796	4018	4021	S	792	and	and	and	CC	O	cc	O	-1	O
+0	42	797	4022	4025	S	803	has	has	have	VBZ	O	aux	O	-1	O
+0	42	798	4026	4030	S	803	been	been	be	VBN	O	aux	O	-1	B-verb.stative
+0	42	799	4031	4035	S	798	from	from	from	IN	O	prep	O	-1	O
+0	42	800	4036	4039	S	801	the	the	the	DT	O	det	O	-1	O
+0	42	801	4040	4049		799	beginning	beginning	beginning	NN	O	pobj	O	-1	B-noun.event
+0	42	802	4049	4050	S	798	,	,	,	,	O	punct	O	-1	O
+0	42	803	4051	4059		792	watching	watching	watch	VBG	O	conj	O	-1	B-verb.perception
+0	42	804	4059	4060	S	792	.	.	.	.	O	punct	O	-1	O
+0	43	805	4061	4063	S	806	He	He	he	PRP	O	nsubj	O	1	O
+0	43	806	4064	4069	S	-1	makes	makes	make	VBZ	O	null	O	-1	B-verb.change
+0	43	807	4070	4074	S	806	sure	sure	sure	JJ	O	acomp	O	-1	O
+0	43	808	4075	4079	S	812	that	that	that	IN	O	complm	O	-1	O
+0	43	809	4080	4086	S	812	Archie	Archie	Archie	NNP	PERSON	nsubjpass	O	0	B-noun.person
+0	43	810	4087	4089	S	812	is	is	be	VBZ	O	auxpass	O	-1	B-verb.stative
+0	43	811	4090	4093	S	812	not	not	not	RB	O	neg	O	-1	O
+0	43	812	4094	4102		807	punished	punished	punish	VBN	O	ccomp	O	-1	O
+0	43	813	4102	4103	S	806	.	.	.	.	O	punct	O	-1	O
+0	44	814	4104	4109	S	815	Jerry	Jerry	Jerry	NNP	PERSON	nsubj	O	2	B-noun.person
+0	44	815	4110	4113	S	-1	has	has	have	VBZ	O	null	O	-1	B-verb.possession
+0	44	816	4114	4115	S	818	a	a	a	DT	O	det	O	-1	O
+0	44	817	4116	4122	S	818	broken	broken	broken	JJ	O	amod	O	-1	O
+0	44	818	4123	4126	S	815	jaw	jaw	jaw	NN	O	dobj	O	-1	B-noun.body
+0	44	819	4127	4130	S	818	and	and	and	CC	O	cc	O	-1	O
+0	44	820	4131	4139	S	823	possibly	possibly	possibly	RB	O	advmod	O	-1	O
+0	44	821	4140	4144	S	823	some	some	some	DT	O	det	O	-1	O
+0	44	822	4145	4153	S	823	internal	internal	internal	JJ	O	amod	O	-1	O
+0	44	823	4154	4162		818	injuries	injuries	injury	NNS	O	conj	O	-1	B-noun.state
+0	44	824	4162	4163	S	815	.	.	.	.	O	punct	O	-1	O
+0	45	825	4164	4166	S	828	As	As	as	IN	O	mark	O	-1	O
+0	45	826	4167	4169	S	828	he	he	he	PRP	O	nsubj	O	2	O
+0	45	827	4170	4172	S	828	is	is	be	VBZ	O	aux	O	-1	O
+0	45	828	4173	4180	S	-1	waiting	waiting	wait	VBG	O	null	O	-1	B-verb.stative
+0	45	829	4181	4184	S	828	for	for	for	IN	O	prep	O	-1	O
+0	45	830	4185	4188	S	831	the	the	the	DT	O	det	O	-1	O
+0	45	831	4189	4198	S	829	ambulance	ambulance	ambulance	NN	O	pobj	O	-1	B-noun.artifact
+0	45	832	4199	4201	S	833	he	he	he	PRP	O	nsubj	O	2	O
+0	45	833	4202	4207	S	831	tells	tells	tell	VBZ	O	rcmod	O	-1	B-verb.communication
+0	45	834	4208	4211	S	836	his	his	he	PRP$	O	poss	O	2	O
+0	45	835	4212	4216	S	836	only	only	only	JJ	O	amod	O	-1	O
+0	45	836	4217	4223		833	friend	friend	friend	NN	O	dobj	O	-1	B-noun.person
+0	45	837	4223	4224	S	831	,	,	,	,	O	punct	O	-1	O
+0	45	838	4225	4228	S	839	The	The	the	DT	O	det	O	-1	O
+0	45	839	4229	4235		831	Goober	Goober	Goober	NNP	O	appos	O	-1	O
+0	45	840	4235	4236	S	828	,	,	,	,	O	punct	O	-1	O
+0	45	841	4237	4240	S	843	not	not	not	RB	O	neg	O	-1	O
+0	45	842	4241	4243	S	843	to	to	to	TO	O	aux	O	-1	O
+0	45	843	4244	4251	S	828	disturb	disturb	disturb	VB	O	xcomp	O	-1	B-verb.emotion
+0	45	844	4252	4255	S	845	the	the	the	DT	O	det	O	-1	O
+0	45	845	4256	4264		843	universe	universe	universe	NN	O	dobj	O	-1	B-noun.object
+0	45	846	4264	4265		843	—	--	--	:	O	punct	O	-1	O
+0	45	847	4265	4269	S	851	that	that	that	IN	O	complm	O	-1	O
+0	45	848	4270	4272	S	851	it	it	it	PRP	O	nsubj	O	-1	O
+0	45	849	4273	4275	S	851	is	is	be	VBZ	O	cop	O	-1	B-verb.stative
+0	45	850	4276	4279	S	851	not	not	not	RB	O	neg	O	-1	O
+0	45	851	4280	4285	S	843	worth	worth	worth	JJ	O	ccomp	O	-1	O
+0	45	852	4286	4288		851	it	it	it	PRP	O	dep	O	-1	O
+0	45	853	4288	4289	S	828	.	.	.	.	O	punct	O	-1	O
+0	46	854	4290	4293	S	855	The	The	the	DT	O	det	O	-1	O
+0	46	855	4294	4298	S	856	book	book	book	NN	O	nsubj	O	-1	B-noun.communication
+0	46	856	4299	4303	S	-1	ends	ends	end	VBZ	O	null	O	-1	B-verb.stative
+0	46	857	4304	4306	S	856	as	as	as	IN	O	prep	O	-1	O
+0	46	858	4307	4313	S	857	Archie	Archie	Archie	NNP	PERSON	pobj	O	0	B-noun.person
+0	46	859	4314	4322	S	856	displays	displays	display	VBZ	O	dep	O	-1	B-verb.perception
+0	46	860	4323	4325	S	861	no	no	no	DT	O	det	O	-1	O
+0	46	861	4326	4333	S	859	remorse	remorse	remorse	NN	O	dobj	O	-1	B-noun.feeling
+0	46	862	4334	4337	S	861	for	for	for	IN	O	prep	O	-1	O
+0	46	863	4338	4341	S	864	the	the	the	DT	DATE	det	O	-1	O
+0	46	864	4342	4346		862	past	past	past	NN	DATE	pobj	O	-1	B-noun.time
+0	46	865	4346	4347	S	859	,	,	,	,	O	punct	O	-1	O
+0	46	866	4348	4351	S	859	and	and	and	CC	O	cc	O	-1	O
+0	46	867	4352	4357	S	859	Jerry	Jerry	Jerry	NNP	PERSON	conj	O	2	B-noun.person
+0	46	868	4358	4360	S	869	no	no	no	DT	O	det	O	-1	O
+0	46	869	4361	4365	S	867	hope	hope	hope	NN	O	nsubj	O	-1	B-noun.feeling
+0	46	870	4366	4369	S	869	for	for	for	IN	O	prep	O	-1	O
+0	46	871	4370	4373	S	872	the	the	the	DT	DATE	det	O	-1	O
+0	46	872	4374	4380		870	future	future	future	NN	DATE	pobj	O	-1	B-noun.time
+0	46	873	4380	4381	N	856	.	.	.	.	O	punct	O	-1	O
